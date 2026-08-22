@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robby Stillwagon - Ceramics & Commissions</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #333; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+    header { text-align: center; margin-bottom: 60px; }
+    h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    .tagline { font-size: 1.1rem; color: #666; margin-bottom: 30px; }
+    .cta { background: #2c2c2c; color: white; padding: 12px 24px; border: none; border-radius: 4px; font-size: 1rem; cursor: pointer; text-decoration: none; display: inline-block; }
+    .cta:hover { background: #1a1a1a; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 60px 0; }
+    .piece { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .piece-image { width: 100%; height: 250px; background: #ddd; border-radius: 4px; margin-bottom: 15px; display: block; object-fit: cover; }
+    .piece h3 { margin-bottom: 8px; }
+    .piece p { color: #666; font-size: 0.9rem; }
+    footer { text-align: center; color: #999; margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Robby Stillwagon</h1>
+      <p class="tagline">Ceramics & Custom Commissions</p>
+      <a href="#inquiry" class="cta">Request a Commission</a>
+    </header>
+
+    <section class="gallery" id="gallery">
+      <div class="piece">
+        <img src="mug1.png" alt="Speckled Green Mug" class="piece-image">
+        <h3>Speckled Green Mug</h3>
+        <p>Stoneware, glossy speckled glaze</p>
+      </div>
+      <div class="piece">
+        <img src="mug2.png" alt="Matching Mug Set" class="piece-image">
+        <h3>Matching Mug Set</h3>
+        <p>Stoneware, glossy speckled glaze</p>
+      </div>
+      <div class="piece">
+        <img src="cup.jpg" alt="Textured Cup" class="piece-image">
+        <h3>Textured Cup</h3>
+        <p>Stoneware, unglazed exterior with glazed interior</p>
+      </div>
+    </section>
+
+    <section id="inquiry" style="background: white; padding: 40px; border-radius: 8px; margin: 60px 0;">
+      <h2 style="margin-bottom: 20px;">Commission Inquiry</h2>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div style="margin-bottom: 15px;">
+          <label style="display: block; margin-bottom: 5px;">Your Name</label>
+          <input type="text" name="name" required style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label style="display: block; margin-bottom: 5px;">Email</label>
+          <input type="email" name="email" required style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label style="display: block; margin-bottom: 5px;">What would you like commissioned?</label>
+          <textarea name="description" rows="5" required style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; font-family: inherit;"></textarea>
+        </div>
+        <button type="submit" class="cta">Send Inquiry</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Based in San Francisco</p>
+    </footer>
+  </div>
+</body>
+</html>
