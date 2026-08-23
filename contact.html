@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Robby Stillwagon Ceramics</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #333; }
+    .container { max-width: 700px; margin: 0 auto; padding: 40px 20px; }
+    nav { text-align: center; margin-bottom: 20px; }
+    nav a { color: #666; text-decoration: none; margin: 0 12px; font-size: 0.95rem; }
+    nav a:hover { color: #2c2c2c; }
+    header { text-align: center; margin-bottom: 40px; }
+    h1 { font-size: 2rem; margin-bottom: 10px; }
+    .tagline { font-size: 1.05rem; color: #666; }
+    .cta { background: #2c2c2c; color: white; padding: 12px 24px; border: none; border-radius: 4px; font-size: 1rem; cursor: pointer; text-decoration: none; display: inline-block; }
+    .cta:hover { background: #1a1a1a; }
+    .card { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .card h2 { margin-bottom: 8px; }
+    .card .hint { color: #666; font-size: 0.9rem; margin-bottom: 25px; }
+    label { display: block; margin-bottom: 5px; font-size: 0.95rem; }
+    input, textarea { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; font-family: inherit; font-size: 1rem; }
+    .field { margin-bottom: 15px; }
+    footer { text-align: center; color: #999; margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <header>
+      <h1>Get in Touch</h1>
+      <p class="tagline">Commission inquiries, questions, or just say hello</p>
+    </header>
+
+    <section class="card">
+      <h2>Commission Inquiry</h2>
+      <p class="hint">Tell me a bit about what you're picturing — piece type, size, color/glaze ideas, and rough timeline. I'll follow up with pricing and turnaround.</p>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="field">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="description">What would you like commissioned?</label>
+          <textarea id="description" name="description" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="cta">Send Inquiry</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Based in San Francisco</p>
+    </footer>
+  </div>
+</body>
+</html>
