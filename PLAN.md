@@ -240,5 +240,54 @@ framework lock-in, outputs plain HTML/CSS, still "hand-built" in spirit, just
 templated) reads `pieces.json` once and generates the gallery + one detail
 page per piece automatically.
 
-Decision needed from Robby — this is the one remaining taste call:
+Decision confirmed: **Eleventy (11ty)**. Reads `pieces.json`, generates gallery
++ one detail page per piece. Adding a piece from now on is data-only.
+
+## Test plan (scaled to a marketing/portfolio site — no backend services, so
+no load testing, no N+1 query analysis, no on-call runbook)
+
+| Codepath | Test |
+|---|---|
+| Contact form: valid submission | Submits, Robby receives email, visitor sees success state |
+| Contact form: empty required field | Browser-native validation blocks submit (already have `required` attrs) |
+| Contact form: Pages Function errors/times out | Visitor sees explicit failure state, told to retry or email directly (fallback `mailto:` link) |
+| Gallery: 11ty build with 0 pieces in pieces.json | Renders explicit "new work coming soon" state, not a blank grid |
+| Gallery: piece with no video | Video block conditionally omitted, not a broken embed |
+| Every page at 375px / 768px / 1280px viewport | No horizontal scroll, nav usable, images don't overflow |
+| Every image | Has alt text; verify via a quick grep of the generated HTML for `<img` without `alt=` |
+| Deploy | `wrangler pages deploy` succeeds and the live site matches local preview |
+
+## Failure modes registry
+
+| Failure | User-visible impact | Mitigation |
+|---|---|---|
+| Pages Function (contact form) throws/times out | Visitor thinks message sent, it didn't | Explicit error state + fallback `mailto:` link always visible near the form |
+| pieces.json has a malformed entry (bad JSON) | 11ty build fails, site doesn't deploy | Build fails loudly locally before push — no silent bad-deploy risk, since deploy is a manual/reviewed step, not auto-triggered on every git push (confirmed: no CI auto-deploy configured) |
+| YouTube video unlisted/deleted later | Broken embed on a piece's page | Not solved in stage one — accepted risk, noted in TODOS.md as a "check periodically" item, not an automated one |
+
+Eng review complete. DX review skipped — no developer-facing audience for
+this site (Phase 3.5 condition not met).
+
+---
+
+# Completion Summary
+
+**Stage one scope:** design system, multi-page site (home/gallery, piece
+detail, about, contact), real contact form (Cloudflare Pages Functions +
+email), video support (YouTube embeds), self-serve content workflow (11ty +
+`pieces.json`).
+
+**Explicitly deferred (see TODOS.md):** cart/checkout, payment processing,
+inventory, shipping/tax, customer accounts, choice of commerce vendor
+(custom Stripe vs. Shopify-headless vs. Snipcart — table above, revisit once
+there's a real catalog).
+
+**All 5 taste decisions confirmed with Robby:**
+D2 content workflow → data file + rebuild · D3 form backend → Cloudflare
+Pages Functions + email · D4 video hosting → YouTube embeds · D5 site
+generator → Eleventy (11ty).
+
+Review ran single-voice (Claude only) — `codex` CLI not installed on this
+machine, so no dual-voice consensus tables were produced. Noted as a
+limitation, not blocking.
 
