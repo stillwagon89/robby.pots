@@ -8,12 +8,11 @@ interface ContactRequestBody {
   description: string;
 }
 
-// Resend test mode only delivers to the account owner's address until a
-// domain is verified. Swap back to robby.stillwagon@gmail.com once
-// robbypots.com is verified in Resend.
+// Resend test mode only delivers to the account owner's address and only
+// from its default verified sender until robbypots.com is verified in
+// Resend. Swap NOTIFY_TO to robby.stillwagon@gmail.com and FROM_ADDRESS to
+// a robbypots.com address once that's done.
 const NOTIFY_TO = "robert.stillwagon@gmail.com";
-// Using Resend's default verified sender so no domain/DNS setup is required.
-// Swap to a robbypots.com address once that domain is verified in Resend.
 const FROM_ADDRESS = "onboarding@resend.dev";
 const MAX_FIELD_LENGTH = 5000;
 
@@ -32,15 +31,13 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     return jsonResponse({ error: "Invalid form submission" }, 400);
   }
 
-  if (!body.name || !body.email || !body.description) {
-    return jsonResponse({ error: "name, email, and description are all required" }, 400);
-  }
-  if (
-    body.name.length > MAX_FIELD_LENGTH ||
-    body.email.length > MAX_FIELD_LENGTH ||
-    body.description.length > MAX_FIELD_LENGTH
-  ) {
-    return jsonResponse({ error: "Field too long" }, 400);
+  for (const value of Object.values(body)) {
+    if (!value) {
+      return jsonResponse({ error: "name, email, and description are all required" }, 400);
+    }
+    if (value.length > MAX_FIELD_LENGTH) {
+      return jsonResponse({ error: "Field too long" }, 400);
+    }
   }
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailPattern.test(body.email)) {

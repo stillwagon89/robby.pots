@@ -16,4 +16,4 @@ jobs:
         run: npx wrangler@4 pages deploy . --project-name=robbypots
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: 18c44a949a010ca1c46b7e6bf6aa04c4
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
