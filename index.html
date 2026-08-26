@@ -6,29 +6,72 @@
   <title>Robby Stillwagon - Ceramics & Commissions</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #333; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: #333;
+      background-image: url('glaze-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
     .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
-    nav { text-align: center; margin-bottom: 20px; }
-    nav a { color: #666; text-decoration: none; margin: 0 12px; font-size: 0.95rem; }
-    nav a:hover { color: #2c2c2c; }
-    header { text-align: center; margin-bottom: 60px; }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+    .logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid white;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    }
+    nav .links a { color: #333; background: rgba(255,255,255,0.85); text-decoration: none; margin-left: 12px; font-size: 0.95rem; padding: 8px 14px; border-radius: 20px; }
+    nav .links a:hover { background: #fff; }
+
+    header { text-align: center; margin-bottom: 40px; background: rgba(255,255,255,0.9); border-radius: 12px; padding: 30px 20px; }
     h1 { font-size: 2.5rem; margin-bottom: 10px; }
     .tagline { font-size: 1.1rem; color: #666; margin-bottom: 30px; }
     .cta { background: #2c2c2c; color: white; padding: 12px 24px; border: none; border-radius: 4px; font-size: 1rem; cursor: pointer; text-decoration: none; display: inline-block; }
     .cta:hover { background: #1a1a1a; }
-    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 60px 0; }
-    .piece { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+    .hero {
+      background: rgba(255,255,255,0.9);
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 40px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      text-align: center;
+    }
+    .hero img { width: 100%; max-width: 420px; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); }
+    .hero h2 { font-size: 1.6rem; margin-bottom: 8px; }
+    .hero p { color: #666; }
+
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; margin: 0 0 40px; }
+    .piece { background: rgba(255,255,255,0.95); padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
     .piece-image { width: 100%; height: 250px; background: #ddd; border-radius: 4px; margin-bottom: 15px; display: block; object-fit: cover; }
     .piece h3 { margin-bottom: 8px; }
     .piece p { color: #666; font-size: 0.9rem; }
-    footer { text-align: center; color: #999; margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; }
+
+    footer { text-align: center; color: #333; margin-top: 40px; padding: 20px; background: rgba(255,255,255,0.85); border-radius: 12px; }
   </style>
 </head>
 <body>
   <div class="container">
     <nav>
-      <a href="index.html">Home</a>
-      <a href="contact.html">Contact</a>
+      <img src="logo.jpg" alt="Robby Stillwagon" class="logo">
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="ask.html">Ask</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </nav>
 
     <header>
@@ -36,6 +79,12 @@
       <p class="tagline">Ceramics & Custom Commissions</p>
       <a href="contact.html" class="cta">Request a Commission</a>
     </header>
+
+    <section class="hero">
+      <img src="moon-jar.jpg" alt="Moon Jar">
+      <h2>Moon Jar</h2>
+      <p>Stoneware, celadon glaze with iron-oxide rim</p>
+    </section>
 
     <section class="gallery" id="gallery">
       <div class="piece">
@@ -52,6 +101,11 @@
         <img src="cup.jpg" alt="Textured Cup" class="piece-image">
         <h3>Textured Cup</h3>
         <p>Stoneware, unglazed exterior with glazed interior</p>
+      </div>
+      <div class="piece">
+        <img src="teapot.jpg" alt="Wood-fired Teapot" class="piece-image">
+        <h3>Wood-fired Teapot</h3>
+        <p>Stoneware, ash glaze with iron slip</p>
       </div>
     </section>
 
