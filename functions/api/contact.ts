@@ -1,5 +1,5 @@
 interface Env {
-  EMAIL: SendEmail;
+  CLOUDFLARE_EMAIL_TOKEN: string;
 }
 
 interface ContactRequestBody {
@@ -8,6 +8,7 @@ interface ContactRequestBody {
   description: string;
 }
 
+const ACCOUNT_ID = "18c44a949a010ca1c46b7e6bf6aa04c4";
 const NOTIFY_TO = "robby.stillwagon@gmail.com";
 const FROM_ADDRESS = "commissions@robbypots.com";
 const MAX_FIELD_LENGTH = 5000;
@@ -47,15 +48,29 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   const escapedDescription = escapeHtml(body.description).replace(/\n/g, "<br>");
 
   try {
-    await env.EMAIL.send({
-      to: NOTIFY_TO,
-      from: { email: FROM_ADDRESS, name: "Robby Pots Commission Form" },
-      replyTo: body.email,
-      subject: `New commission inquiry from ${body.name}`,
-      text: `New commission inquiry\n\nName: ${body.name}\nEmail: ${body.email}\n\n${body.description}`,
-      html: `<h2>New commission inquiry</h2><p><strong>Name:</strong> ${escapedName}</p><p><strong>Email:</strong> ${escapedEmail}</p><p><strong>Message:</strong><br>${escapedDescription}</p>`,
-    });
-  } catch (err) {
+    const res = await fetch(
+      `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/email/sending/send`,
+      {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${env.CLOUDFLARE_EMAIL_TOKEN}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          to: NOTIFY_TO,
+          from: { address: FROM_ADDRESS, name: "Robby Pots Commission Form" },
+          reply_to: body.email,
+          subject: `New commission inquiry from ${body.name}`,
+          text: `New commission inquiry\n\nName: ${body.name}\nEmail: ${body.email}\n\n${body.description}`,
+          html: `<h2>New commission inquiry</h2><p><strong>Name:</strong> ${escapedName}</p><p><strong>Email:</strong> ${escapedEmail}</p><p><strong>Message:</strong><br>${escapedDescription}</p>`,
+        }),
+      }
+    );
+
+    if (!res.ok) {
+      return jsonResponse({ error: "Failed to send email" }, 502);
+    }
+  } catch {
     return jsonResponse({ error: "Failed to send email" }, 502);
   }
 
