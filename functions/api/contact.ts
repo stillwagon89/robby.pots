@@ -1,5 +1,5 @@
 interface Env {
-  CLOUDFLARE_EMAIL_TOKEN: string;
+  RESEND_API_KEY: string;
 }
 
 interface ContactRequestBody {
@@ -8,9 +8,10 @@ interface ContactRequestBody {
   description: string;
 }
 
-const ACCOUNT_ID = "18c44a949a010ca1c46b7e6bf6aa04c4";
 const NOTIFY_TO = "robby.stillwagon@gmail.com";
-const FROM_ADDRESS = "commissions@robbypots.com";
+// Using Resend's default verified sender so no domain/DNS setup is required.
+// Swap to a robbypots.com address once that domain is verified in Resend.
+const FROM_ADDRESS = "onboarding@resend.dev";
 const MAX_FIELD_LENGTH = 5000;
 
 export const onRequestPost: PagesFunction<Env> = async (context) => {
@@ -48,30 +49,27 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   const escapedDescription = escapeHtml(body.description).replace(/\n/g, "<br>");
 
   try {
-    const res = await fetch(
-      `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/email/sending/send`,
-      {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${env.CLOUDFLARE_EMAIL_TOKEN}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          to: NOTIFY_TO,
-          from: { address: FROM_ADDRESS, name: "Robby Pots Commission Form" },
-          reply_to: body.email,
-          subject: `New commission inquiry from ${body.name}`,
-          text: `New commission inquiry\n\nName: ${body.name}\nEmail: ${body.email}\n\n${body.description}`,
-          html: `<h2>New commission inquiry</h2><p><strong>Name:</strong> ${escapedName}</p><p><strong>Email:</strong> ${escapedEmail}</p><p><strong>Message:</strong><br>${escapedDescription}</p>`,
-        }),
-      }
-    );
+    const res = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${env.RESEND_API_KEY}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        to: NOTIFY_TO,
+        from: `Robby Pots Commission Form <${FROM_ADDRESS}>`,
+        reply_to: body.email,
+        subject: `New commission inquiry from ${body.name}`,
+        text: `New commission inquiry\n\nName: ${body.name}\nEmail: ${body.email}\n\n${body.description}`,
+        html: `<h2>New commission inquiry</h2><p><strong>Name:</strong> ${escapedName}</p><p><strong>Email:</strong> ${escapedEmail}</p><p><strong>Message:</strong><br>${escapedDescription}</p>`,
+      }),
+    });
 
     if (!res.ok) {
-      return jsonResponse({ error: "Failed to send email" }, 502);
+      return jsonResponse({ error: "Failed to send email" }, 500);
     }
   } catch {
-    return jsonResponse({ error: "Failed to send email" }, 502);
+    return jsonResponse({ error: "Failed to send email" }, 500);
   }
 
   return jsonResponse({ ok: true }, 200);
