@@ -22,6 +22,10 @@
     label { display: block; margin-bottom: 5px; font-size: 0.95rem; }
     input, textarea { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; font-family: inherit; font-size: 1rem; }
     .field { margin-bottom: 15px; }
+    .status { display: none; margin-top: 15px; padding: 12px 14px; border-radius: 4px; font-size: 0.95rem; }
+    .status.success { display: block; background: #e8f5e9; color: #2e7d32; }
+    .status.error { display: block; background: #fdecea; color: #c62828; }
+    .cta:disabled { opacity: 0.6; cursor: not-allowed; }
     footer { text-align: center; color: #999; margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; }
   </style>
 </head>
@@ -41,7 +45,7 @@
     <section class="card">
       <h2>Commission Inquiry</h2>
       <p class="hint">Tell me a bit about what you're picturing — piece type, size, color/glaze ideas, and rough timeline. I'll follow up with pricing and turnaround.</p>
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <form id="contact-form">
         <div class="field">
           <label for="name">Your Name</label>
           <input type="text" id="name" name="name" required>
@@ -54,7 +58,8 @@
           <label for="description">What would you like commissioned?</label>
           <textarea id="description" name="description" rows="5" required></textarea>
         </div>
-        <button type="submit" class="cta">Send Inquiry</button>
+        <button type="submit" class="cta" id="submit-btn">Send Inquiry</button>
+        <div class="status" id="form-status"></div>
       </form>
     </section>
 
@@ -62,5 +67,42 @@
       <p>Based in San Francisco</p>
     </footer>
   </div>
+
+  <script>
+    const form = document.getElementById('contact-form');
+    const status = document.getElementById('form-status');
+    const submitBtn = document.getElementById('submit-btn');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      status.className = 'status';
+      status.textContent = '';
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+
+      try {
+        const response = await fetch('/api/contact', {
+          method: 'POST',
+          body: new FormData(form),
+        });
+
+        if (response.ok) {
+          status.className = 'status success';
+          status.textContent = "Thanks! Your inquiry has been sent — I'll get back to you soon.";
+          form.reset();
+        } else {
+          const data = await response.json().catch(() => ({}));
+          status.className = 'status error';
+          status.textContent = data.error || 'Something went wrong. Please try again or email me directly.';
+        }
+      } catch (err) {
+        status.className = 'status error';
+        status.textContent = 'Network error — please check your connection and try again.';
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Inquiry';
+      }
+    });
+  </script>
 </body>
 </html>

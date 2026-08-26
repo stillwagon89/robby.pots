@@ -1,0 +1,40 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "robbypots-ceramics-chat",
+  "pages_build_output_dir": ".",
+  "compatibility_date": "2026-08-25",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "d1_databases": [
+    {
+      "binding": "CERAMICS_DB",
+      "database_name": "ceramics-db",
+      "database_id": "b42e76c2-d340-48c9-b4bb-96a7ffc579a5"
+    }
+  ],
+
+  "vectorize": [
+    {
+      "binding": "VECTORIZE",
+      "index_name": "ceramics-prose"
+    }
+  ],
+
+  "kv_namespaces": [
+    {
+      "binding": "RATE_LIMIT",
+      "id": "7d398a31195540dfa7840bcae07962d9"
+    }
+  ],
+
+  "ai": {
+    "binding": "AI"
+  },
+
+  "send_email": [
+    {
+      "name": "EMAIL",
+      "remote": true
+    }
+  ]
+}
