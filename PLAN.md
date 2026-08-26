@@ -56,7 +56,7 @@ machine, so no dual-voice consensus table. Single-voice review.
   commission form pointed at a placeholder Formspree endpoint, footer
 - Deployed at `robbypots.com` via Cloudflare Pages project `robbypots`
 - 3 real photos in the repo (2 clean product shots, 1 lifestyle shot), 69 more
-  candidate photos backed up in `../photo-exports/` (unsorted, mixed quality —
+  candidate photos backed up in `photo-exports/` (unsorted, mixed quality —
   greenware, restaurant plates, and finished pieces mixed together)
 
 ## Premise challenge
@@ -290,4 +290,34 @@ generator → Eleventy (11ty).
 Review ran single-voice (Claude only) — `codex` CLI not installed on this
 machine, so no dual-voice consensus tables were produced. Noted as a
 limitation, not blocking.
+
+## Shipped: Ceramics glaze chemistry chatbot (`/ask`)
+
+Added a public chatbot at `robbypots.com/ask` — a ceramics glaze chemistry
+assistant grounded in a structured archive of digitalfire.com (materials,
+recipes, oxide chemistry, glossary, troubleshooting), rather than answering
+from a generic model's memory. Built as part of a separate archival project
+before digitalfire.com went offline (see
+`/Users/stillwagon/Claude Projects/Robby.Pots/ceramics-website/digitalfire-archive/`).
+
+**Architecture:**
+- `functions/api/chat.ts` — Cloudflare Pages Function, tool-use loop against
+  Claude (materials/recipe lookups + a deterministic chemistry calculator +
+  semantic search), Turnstile-gated, rate-limited (15 msgs/hour/IP via KV)
+- `functions/lib/chem_engine.ts` — real oxide-formula math (recipe blending,
+  Seger unity formula, material substitution diffing) — never left to the
+  LLM to compute from memory
+- Data: Cloudflare D1 (`ceramics-db` — 2,642 materials, 86 recipes, 108
+  oxides, 366 glossary terms, 752 reference pages) + Cloudflare Vectorize
+  (`ceramics-prose` — ~8,000 embedded prose chunks via Workers AI
+  `bge-base-en-v1.5`) for semantic search
+- `ask.html` — chat UI matching the site's existing plain-HTML style, no
+  framework
+
+**Secrets (Cloudflare Pages, production):** `ANTHROPIC_API_KEY`,
+`TURNSTILE_SECRET_KEY` — never committed, set via `wrangler pages secret put`.
+
+**Known follow-ups:** the `extra-links` category from the archive (~4,400
+pages recovered during a gap-fill crawl pass) isn't in `ceramics-db` yet —
+add if broader coverage is wanted later.
 
