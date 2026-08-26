@@ -8,7 +8,10 @@ interface ContactRequestBody {
   description: string;
 }
 
-const NOTIFY_TO = "robby.stillwagon@gmail.com";
+// Resend test mode only delivers to the account owner's address until a
+// domain is verified. Swap back to robby.stillwagon@gmail.com once
+// robbypots.com is verified in Resend.
+const NOTIFY_TO = "robert.stillwagon@gmail.com";
 // Using Resend's default verified sender so no domain/DNS setup is required.
 // Swap to a robbypots.com address once that domain is verified in Resend.
 const FROM_ADDRESS = "onboarding@resend.dev";
