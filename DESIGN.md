@@ -1,5 +1,7 @@
 # Design System — Robby Stillwagon Ceramics
 
+> **Before editing in Claude Code or Claude Design:** check [DESIGN_SYNC.md](DESIGN_SYNC.md) to see which tool made the last change, so the two don't drift out of sync.
+
 ## Product Context
 - **What this is:** Personal ceramics portfolio + commission showcase for Robby Stillwagon, a ceramicist based in San Francisco
 - **Who it's for:** Collectors, interior designers, other ceramicists, people interested in commissioning custom pieces
