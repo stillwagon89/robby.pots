@@ -3,44 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Robby Stillwagon Ceramics</title>
+  <title>Contact — Robby Stillwagon Ceramics</title>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@variable&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #333; }
-    .container { max-width: 700px; margin: 0 auto; padding: 40px 20px; }
-    nav { text-align: center; margin-bottom: 20px; }
-    nav a { color: #666; text-decoration: none; margin: 0 12px; font-size: 0.95rem; }
-    nav a:hover { color: #2c2c2c; }
-    header { text-align: center; margin-bottom: 40px; }
-    h1 { font-size: 2rem; margin-bottom: 10px; }
-    .tagline { font-size: 1.05rem; color: #666; }
-    .cta { background: #2c2c2c; color: white; padding: 12px 24px; border: none; border-radius: 4px; font-size: 1rem; cursor: pointer; text-decoration: none; display: inline-block; }
-    .cta:hover { background: #1a1a1a; }
-    .card { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    .card h2 { margin-bottom: 8px; }
-    .card .hint { color: #666; font-size: 0.9rem; margin-bottom: 25px; }
-    label { display: block; margin-bottom: 5px; font-size: 0.95rem; }
-    input, textarea { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; font-family: inherit; font-size: 1rem; }
-    .field { margin-bottom: 15px; }
-    .status { display: none; margin-top: 15px; padding: 12px 14px; border-radius: 4px; font-size: 0.95rem; }
-    .status.success { display: block; background: #e8f5e9; color: #2e7d32; }
-    .status.error { display: block; background: #fdecea; color: #c62828; }
-    .cta:disabled { opacity: 0.6; cursor: not-allowed; }
-    footer { text-align: center; color: #999; margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; }
+    .contact-wrap { max-width: 640px; margin: 0 auto; padding: var(--space-3xl) var(--space-lg); }
+    .contact-header { text-align: center; margin-bottom: var(--space-2xl); }
+    .contact-header h1 {
+      font-family: var(--font-display); font-weight: 600; font-size: 32px;
+      letter-spacing: -0.025em; color: var(--cobalt-deep); margin-bottom: var(--space-sm);
+    }
+    .contact-header .tagline { color: var(--cobalt-muted); font-size: 16px; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="ask.html">Ask</a>
-      <a href="contact.html">Contact</a>
-    </nav>
 
-    <header>
+  <header class="site-header container">
+    <div class="header-left">
+      <div class="avatar-frame">
+        <div class="avatar-clip">
+          <img src="logo.jpg" alt="Robby Stillwagon">
+        </div>
+      </div>
+      <span class="header-name">Robby Stillwagon</span>
+      <span class="header-divider"></span>
+      <span class="header-location">San Francisco</span>
+    </div>
+    <div class="header-right">
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="ask.html">Ask</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <a href="contact.html" class="btn-cta">Request a Commission</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span class="bars"><span class="bar"></span><span class="bar"></span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-menu container" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="ask.html">Ask</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main class="contact-wrap">
+    <div class="contact-header">
       <h1>Get in Touch</h1>
       <p class="tagline">Commission inquiries, questions, or just say hello</p>
-    </header>
+    </div>
 
     <section class="card">
       <h2>Commission Inquiry</h2>
@@ -58,17 +73,24 @@
           <label for="description">What would you like commissioned?</label>
           <textarea id="description" name="description" rows="5" required></textarea>
         </div>
-        <button type="submit" class="cta" id="submit-btn">Send Inquiry</button>
+        <button type="submit" class="btn-cta" id="submit-btn">Send Inquiry</button>
         <div class="status" id="form-status"></div>
       </form>
     </section>
+  </main>
 
-    <footer>
-      <p>Based in San Francisco</p>
-    </footer>
-  </div>
+  <footer class="site-footer">
+    <p>San Francisco</p>
+  </footer>
 
   <script>
+    const navToggle = document.getElementById('navToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    navToggle.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
     const form = document.getElementById('contact-form');
     const status = document.getElementById('form-status');
     const submitBtn = document.getElementById('submit-btn');

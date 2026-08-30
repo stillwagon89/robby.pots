@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ask About Glazes — Robby Stillwagon</title>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@variable&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .ask-wrap { max-width: 800px; margin: 0 auto; padding: var(--space-2xl) var(--space-lg) var(--space-3xl); }
+    .ask-header { text-align: center; margin-bottom: var(--space-xl); }
+    .ask-header h1 {
+      font-family: var(--font-display); font-weight: 600; font-size: 32px;
+      letter-spacing: -0.025em; color: var(--cobalt-deep); margin-bottom: var(--space-sm);
+    }
+    .ask-header .tagline { color: var(--cobalt-muted); font-size: 16px; }
+
+    .chat-panel {
+      background: var(--page);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: var(--space-lg);
+    }
+    .messages {
+      min-height: 320px;
+      max-height: 55vh;
+      overflow-y: auto;
+      margin-bottom: var(--space-md);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+    .msg { padding: 10px 14px; border-radius: var(--radius-md); max-width: 85%; line-height: 1.45; font-size: 0.95rem; white-space: pre-wrap; }
+    .msg.user { align-self: flex-end; background: var(--cobalt); color: #FFFFFF; }
+    .msg.assistant { align-self: flex-start; background: var(--paper); color: var(--cobalt-deep); border: 1px solid var(--border); }
+    .msg.system { align-self: center; background: #FBF3E7; color: var(--warning); font-size: 0.85rem; text-align: center; }
+
+    .input-row { display: flex; gap: var(--space-sm); margin-bottom: var(--space-md); }
+    .input-row input { flex: 1; }
+    .input-row button {
+      font-family: var(--font-display);
+      font-weight: 500;
+      background: var(--cobalt);
+      color: #FFFFFF;
+      border: none;
+      border-radius: var(--radius-sm);
+      padding: 0 20px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .input-row button:hover:not(:disabled) { background: var(--cobalt-deep); }
+    .input-row button:disabled { background: var(--border); color: var(--cobalt-muted); cursor: not-allowed; }
+
+    .cf-turnstile { display: flex; justify-content: center; margin-bottom: var(--space-xs); }
+
+    .ask-hint { font-size: 0.85rem; color: var(--cobalt-muted); text-align: center; margin-top: var(--space-sm); }
+  </style>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body>
+
+  <header class="site-header container">
+    <div class="header-left">
+      <div class="avatar-frame">
+        <div class="avatar-clip">
+          <img src="logo.jpg" alt="Robby Stillwagon">
+        </div>
+      </div>
+      <span class="header-name">Robby Stillwagon</span>
+      <span class="header-divider"></span>
+      <span class="header-location">San Francisco</span>
+    </div>
+    <div class="header-right">
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="ask.html" class="active">Ask</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="contact.html" class="btn-cta">Request a Commission</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span class="bars"><span class="bar"></span><span class="bar"></span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-menu container" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="ask.html">Ask</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main class="ask-wrap">
+    <div class="ask-header">
+      <h1>Ask About Glazes</h1>
+      <p class="tagline">A ceramics chemistry assistant grounded in a real glaze-chemistry reference library</p>
+    </div>
+
+    <section class="chat-panel">
+      <div class="messages" id="messages">
+        <div class="msg system">Ask about glaze recipes, material substitutions, oxide chemistry, or common firing problems.</div>
+      </div>
+      <div class="cf-turnstile" id="turnstile-widget" data-sitekey="0x4AAAAAAEcNPxh_GwQkG5pf" data-action="ask" data-callback="onTurnstileSuccess"></div>
+      <div class="input-row">
+        <input type="text" id="messageInput" placeholder="e.g. What happens if I substitute silica for feldspar?" disabled>
+        <button id="sendBtn" disabled>Send</button>
+      </div>
+      <p class="ask-hint" id="hint">Complete the verification above to start chatting.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>San Francisco</p>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    navToggle.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    let turnstileToken = null;
+    let widgetId = null;
+    const history = [];
+
+    function onTurnstileSuccess(token) {
+      turnstileToken = token;
+      document.getElementById('messageInput').disabled = false;
+      document.getElementById('sendBtn').disabled = false;
+      document.getElementById('hint').textContent = '';
+    }
+    window.onTurnstileSuccess = onTurnstileSuccess;
+
+    function addMessage(role, text) {
+      const el = document.createElement('div');
+      el.className = 'msg ' + role;
+      el.textContent = text;
+      const container = document.getElementById('messages');
+      container.appendChild(el);
+      container.scrollTop = container.scrollHeight;
+      return el;
+    }
+
+    async function sendMessage() {
+      const input = document.getElementById('messageInput');
+      const sendBtn = document.getElementById('sendBtn');
+      const text = input.value.trim();
+      if (!text || !turnstileToken) return;
+
+      addMessage('user', text);
+      history.push({ role: 'user', content: text });
+      input.value = '';
+      input.disabled = true;
+      sendBtn.disabled = true;
+      const thinking = addMessage('assistant', 'Thinking...');
+
+      try {
+        const resp = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            message: text,
+            history: history.slice(0, -1),
+            turnstileToken: turnstileToken,
+          }),
+        });
+        const data = await resp.json();
+
+        if (!resp.ok) {
+          thinking.textContent = data.error || 'Something went wrong. Please try again.';
+          thinking.className = 'msg system';
+        } else {
+          thinking.textContent = data.reply;
+          history.push({ role: 'assistant', content: data.reply });
+        }
+      } catch (e) {
+        thinking.textContent = 'Network error — please try again.';
+        thinking.className = 'msg system';
+      }
+
+      // Turnstile tokens are single-use — reset the widget for the next message.
+      if (window.turnstile && widgetId !== null) {
+        window.turnstile.reset(widgetId);
+      }
+      turnstileToken = null;
+      input.disabled = true;
+      sendBtn.disabled = true;
+      document.getElementById('hint').textContent = 'Verifying you\'re not a bot for the next message...';
+      input.focus();
+    }
+
+    document.getElementById('sendBtn').addEventListener('click', sendMessage);
+    document.getElementById('messageInput').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') sendMessage();
+    });
+
+    window.addEventListener('load', () => {
+      if (window.turnstile) {
+        widgetId = window.turnstile.render('#turnstile-widget', {
+          sitekey: '0x4AAAAAAEcNPxh_GwQkG5pf',
+          action: 'ask',
+          callback: onTurnstileSuccess,
+        });
+      }
+    });
+  </script>
+</body>
+</html>

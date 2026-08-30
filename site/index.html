@@ -3,89 +3,235 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Robby Stillwagon - Ceramics & Commissions</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      color: #333;
-      background-image: url('glaze-bg.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-    .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
-
-    nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 40px;
-    }
-    .logo {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 2px solid white;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-    }
-    nav .links a { color: #333; background: rgba(255,255,255,0.85); text-decoration: none; margin-left: 12px; font-size: 0.95rem; padding: 8px 14px; border-radius: 20px; }
-    nav .links a:hover { background: #fff; }
-
-    header { text-align: center; margin-bottom: 40px; background: rgba(255,255,255,0.9); border-radius: 12px; padding: 30px 20px; }
-    h1 { font-size: 2.5rem; margin-bottom: 10px; }
-    .tagline { font-size: 1.1rem; color: #666; margin-bottom: 30px; }
-    .cta { background: #2c2c2c; color: white; padding: 12px 24px; border: none; border-radius: 4px; font-size: 1rem; cursor: pointer; text-decoration: none; display: inline-block; }
-    .cta:hover { background: #1a1a1a; }
-
-    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; margin: 0 0 40px; }
-    .piece { background: rgba(255,255,255,0.95); padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    .piece-image { width: 100%; height: 250px; background: #ddd; border-radius: 4px; margin-bottom: 15px; display: block; object-fit: cover; }
-    .piece h3 { margin-bottom: 8px; }
-    .piece p { color: #666; font-size: 0.9rem; }
-
-    footer { text-align: center; color: #333; margin-top: 40px; padding: 20px; background: rgba(255,255,255,0.85); border-radius: 12px; }
-  </style>
+  <title>Robby Stillwagon — Ceramics</title>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@variable&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <nav>
-      <img src="logo.jpg" alt="Robby Stillwagon" class="logo">
-      <div class="links">
-        <a href="index.html">Home</a>
+
+  <header class="site-header container">
+    <div class="header-left">
+      <div class="avatar-frame">
+        <div class="avatar-clip">
+          <img src="logo.jpg" alt="Robby Stillwagon">
+        </div>
+      </div>
+      <span class="header-name">Robby Stillwagon</span>
+      <span class="header-divider"></span>
+      <span class="header-location">San Francisco</span>
+    </div>
+    <div class="header-right">
+      <nav class="site-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="gallery.html">Gallery</a>
         <a href="ask.html">Ask</a>
         <a href="contact.html">Contact</a>
-      </div>
-    </nav>
+      </nav>
+      <a href="contact.html" class="btn-cta">Request a Commission</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span class="bars"><span class="bar"></span><span class="bar"></span></span>
+      </button>
+    </div>
+  </header>
 
-    <header>
-      <h1>Robby Stillwagon</h1>
-      <p class="tagline">Ceramics & Custom Commissions</p>
-      <a href="contact.html" class="cta">Request a Commission</a>
-    </header>
+  <nav class="mobile-menu container" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="ask.html">Ask</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-    <section class="gallery" id="gallery">
-      <div class="piece">
-        <img src="moon-jar.jpg" alt="Moon Jar" class="piece-image">
-        <h3>Moon Jar</h3>
-        <p>Stoneware, celadon glaze with iron-oxide rim</p>
+  <main>
+    <section class="hero container">
+      <div>
+        <p class="hero-eyebrow">Tokyo &middot; London &middot; Jingdezhen &middot; San Francisco</p>
+        <h1 class="hero-headline">Four Years.</h1>
+        <p class="hero-sub">Stoneware and porcelain, shaped across four studios and one practice.</p>
+        <a href="contact.html" class="btn-cta hero-cta">Request a Commission</a>
       </div>
-      <div class="piece">
-        <img src="mug2.png" alt="Matching Mug Set" class="piece-image">
-        <h3>Matching Mug Set</h3>
-        <p>Stoneware, glossy speckled glaze</p>
-      </div>
-      <div class="piece">
-        <img src="teapot.jpg" alt="Gas-fired Teapot" class="piece-image">
-        <h3>Gas-fired Teapot</h3>
-        <p>Stoneware, ash glaze with iron slip</p>
+      <div class="torn-frame hero-image-frame">
+        <div class="torn-clip">
+          <img src="moon-jar.jpg" alt="Moon Jar, stoneware with celadon glaze and iron-oxide rim">
+        </div>
       </div>
     </section>
 
-    <footer>
-      <p>Based in San Francisco</p>
-    </footer>
-  </div>
+    <section class="globe-section container" aria-labelledby="globe-heading">
+      <h2 id="globe-heading" class="residency-panel-eyebrow" style="margin-bottom: var(--space-lg);">Residency 01 / 04 &middot; Active</h2>
+      <div class="globe-grid">
+        <div class="globe-visual" id="globeVisual">
+          <img src="assets/globe1-cut.png" alt="Globe centered on the Pacific and Japan, marking Tokyo" data-frame="0">
+          <img src="assets/globe2-cut.png" alt="Globe centered on Asia, marking Jingdezhen" data-frame="1" class="hidden">
+          <img src="assets/globe3-cut.png" alt="Globe centered on Europe and Africa, marking London" data-frame="2" class="hidden">
+          <img src="assets/globe4-cut.png" alt="Globe centered on the Americas, marking San Francisco" data-frame="3" class="hidden">
+          <div class="globe-pin" id="globePin" style="left: 27%; top: 37%;">
+            <span class="dot"></span>
+            <span class="label" id="globePinLabel">TOKYO</span>
+          </div>
+        </div>
+        <div>
+          <p class="residency-panel-eyebrow" id="residencyEyebrow">Residency 01 / 04 &middot; Active</p>
+          <h3 class="residency-city" id="residencyCity">Tokyo</h3>
+          <div class="residency-meta">
+            <span class="dashed-field">YEAR &mdash; TBC</span>
+            <span id="residencyDistrict">Nakameguro</span>
+          </div>
+          <p class="residency-desc" id="residencyDesc">Studied at an art studio in Nakameguro. Studio name to be confirmed.</p>
+          <div class="residency-specs">
+            <div class="residency-spec-row">
+              <span class="label">Studied</span>
+              <span class="dashed-field" id="residencyStudied">AWAITING COPY</span>
+            </div>
+            <div class="residency-spec-row">
+              <span class="label">Representative piece</span>
+              <a href="gallery.html" class="dashed-field" id="residencyPiece" style="text-decoration:none;">LINK TO GALLERY</a>
+            </div>
+          </div>
+          <div class="residency-progress" role="group" aria-label="Residency navigation">
+            <button class="residency-advance-btn" data-index="0" aria-label="Tokyo"><span class="pill active" id="pill0"></span></button>
+            <button class="residency-advance-btn" data-index="1" aria-label="Jingdezhen"><span class="pill" id="pill1"></span></button>
+            <button class="residency-advance-btn" data-index="2" aria-label="London"><span class="pill" id="pill2"></span></button>
+            <button class="residency-advance-btn" data-index="3" aria-label="San Francisco"><span class="pill" id="pill3"></span></button>
+            <span class="hint">HOVER OR TAP TO ADVANCE</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" style="padding-bottom: var(--space-3xl);">
+      <div class="gallery-header-row" style="border-top: 1px solid var(--border); padding-top: var(--space-2xl); border-bottom: none; margin-bottom: var(--space-lg);">
+        <h2 class="gallery-title" style="font-size: 28px;">Recent Work</h2>
+        <a href="gallery.html" class="site-nav" style="font-size: 15px;">View full gallery &rarr;</a>
+      </div>
+      <div class="gallery-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="gallery-item">
+          <div class="torn-frame">
+            <div class="torn-clip" style="clip-path: polygon(1% 3%, 24% 0%, 50% 2.5%, 76% 0%, 99% 2%, 100% 27%, 97% 51%, 100% 75%, 98.5% 99%, 73% 100%, 49% 97.5%, 23% 100%, 1.5% 98%, 0% 73%, 3% 49%, 0% 25%);">
+              <img src="teapot.jpg" alt="Gas-fired Teapot" style="aspect-ratio: 1/1;">
+            </div>
+          </div>
+          <div class="caption">
+            <p class="piece-title">Gas-fired Teapot</p>
+            <p class="piece-materials">Stoneware &middot; ash glaze, iron slip</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="torn-frame">
+            <div class="torn-clip" style="clip-path: polygon(2% 1%, 25% 3%, 51% 0%, 75% 2.5%, 98% 0.5%, 100% 24%, 98% 50%, 100% 74%, 97% 98.5%, 72% 100%, 48% 98%, 22% 100%, 0.5% 97%, 2.5% 73%, 0% 49%, 2% 25%);">
+              <img src="mug2.png" alt="Matching Mug Set" style="aspect-ratio: 5/4;">
+            </div>
+          </div>
+          <div class="caption">
+            <p class="piece-title">Matching Mug Set</p>
+            <p class="piece-materials">Stoneware &middot; glossy speckled glaze</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="torn-frame">
+            <div class="torn-clip" style="clip-path: polygon(1.5% 2%, 20% 0%, 46% 3%, 70% 0.5%, 98.5% 2%, 100% 26%, 98% 52%, 100% 76%, 98% 98%, 74% 100%, 50% 97%, 26% 100%, 2% 98%, 0% 74%, 2.5% 50%, 0% 26%);">
+              <img src="cup.jpg" alt="Faceted Cup" style="aspect-ratio: 3/4;">
+            </div>
+          </div>
+          <div class="caption">
+            <p class="piece-title">Faceted Cup</p>
+            <p class="piece-materials">Stoneware &middot; textured, unglazed foot</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>San Francisco</p>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    navToggle.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    // Residency globe
+    const residencies = [
+      {
+        city: 'Tokyo', district: 'Nakameguro', pin: { left: '27%', top: '37%' }, label: 'TOKYO',
+        desc: 'Studied at an art studio in Nakameguro. Studio name to be confirmed.',
+        studied: 'AWAITING COPY', piece: 'LINK TO GALLERY'
+      },
+      {
+        city: 'Jingdezhen', district: 'June 2026', pin: { left: '68%', top: '42%' }, label: 'JINGDEZHEN',
+        desc: 'Porcelain and larger sculptural work. Slip casting, mould making, high-temperature glazes.',
+        studied: 'PHOTO NEEDED', piece: 'LINK TO GALLERY'
+      },
+      {
+        city: 'London', district: 'TBC', pin: { left: '48%', top: '30%' }, label: 'LONDON',
+        desc: 'Wheel throwing at Clay Time. Hand building at Crown Works Pottery & School. Sheen Pottery Studio with Lindy Barletta — first moon jar and larger teapots.',
+        studied: 'AWAITING COPY', piece: 'LINK TO GALLERY'
+      },
+      {
+        city: 'San Francisco', district: 'Current base', pin: { left: '20%', top: '45%' }, label: 'SAN FRANCISCO',
+        desc: 'Home studio. Current base.',
+        studied: 'AWAITING COPY', piece: 'LINK TO GALLERY'
+      }
+    ];
+
+    let activeResidency = 0;
+    const frames = document.querySelectorAll('#globeVisual img[data-frame]');
+    const pin = document.getElementById('globePin');
+    const pinLabel = document.getElementById('globePinLabel');
+    const eyebrow = document.getElementById('residencyEyebrow');
+    const cityEl = document.getElementById('residencyCity');
+    const districtEl = document.getElementById('residencyDistrict');
+    const descEl = document.getElementById('residencyDesc');
+    const studiedEl = document.getElementById('residencyStudied');
+    const pieceEl = document.getElementById('residencyPiece');
+    const pills = [0, 1, 2, 3].map(i => document.getElementById('pill' + i));
+
+    function renderResidency(index) {
+      const r = residencies[index];
+      frames.forEach((f, i) => f.classList.toggle('hidden', i !== index));
+      pin.style.left = r.pin.left;
+      pin.style.top = r.pin.top;
+      pinLabel.textContent = r.label;
+      eyebrow.textContent = `Residency 0${index + 1} / 04 · Active`;
+      cityEl.textContent = r.city;
+      districtEl.textContent = r.district;
+      descEl.textContent = r.desc;
+      studiedEl.textContent = r.studied;
+      pieceEl.textContent = r.piece;
+      pills.forEach((p, i) => p.classList.toggle('active', i === index));
+    }
+
+    function advanceResidency() {
+      activeResidency = (activeResidency + 1) % residencies.length;
+      renderResidency(activeResidency);
+    }
+
+    const globeVisual = document.getElementById('globeVisual');
+    globeVisual.addEventListener('mouseenter', advanceResidency);
+    globeVisual.addEventListener('click', advanceResidency);
+
+    document.querySelectorAll('.residency-advance-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeResidency = parseInt(btn.dataset.index, 10);
+        renderResidency(activeResidency);
+      });
+      btn.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          activeResidency = (activeResidency + 1) % residencies.length;
+          renderResidency(activeResidency);
+        } else if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          activeResidency = (activeResidency - 1 + residencies.length) % residencies.length;
+          renderResidency(activeResidency);
+        }
+      });
+    });
+  </script>
 </body>
 </html>
