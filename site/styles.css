@@ -178,12 +178,22 @@ img { max-width: 100%; }
 }
 .nav-toggle .bars { display: flex; flex-direction: column; gap: 4px; }
 
-/* ---------- Moon jar background (home page only) ---------- */
+/* ---------- Moon jar background (shared across pages) ---------- */
 
 .moonjar-bg {
   position: fixed;
   inset: 0;
   z-index: 0;
+}
+
+/* Any in-flow content after .moonjar-bg must get a stacking context above
+   it explicitly — a fixed z-index:0 element paints after normal in-flow
+   content in CSS's stacking order, so without this, <main> renders UNDER
+   the fixed background on pages where real content lives in <main>
+   (gallery.html, ask.html) rather than inside .moonjar-content. */
+main {
+  position: relative;
+  z-index: 1;
 }
 .moonjar-bg-img {
   width: 100%;
