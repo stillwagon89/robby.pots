@@ -178,6 +178,115 @@ img { max-width: 100%; }
 }
 .nav-toggle .bars { display: flex; flex-direction: column; gap: 4px; }
 
+/* ---------- Header v3 (home page only) ---------- */
+
+.site-header-v3 {
+  position: relative;
+  overflow: hidden;
+  min-height: 320px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-v3-photo {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.header-v3-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 88% 34%;
+  display: block;
+}
+.header-v3-wash {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, #FFFFFF 0%, rgba(255,255,255,.94) 38%, rgba(255,255,255,.55) 58%, rgba(255,255,255,0) 76%);
+}
+
+.header-v3-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  padding-top: var(--space-3xl);
+  padding-bottom: var(--space-xl);
+}
+
+.wordmark-lockup {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  color: var(--cobalt-deep);
+}
+.wordmark-line { display: inline-flex; align-items: center; }
+.wordmark-mark {
+  display: inline-block;
+  width: 0.6em;
+  height: 0.6em;
+  margin-left: 0.18em;
+}
+
+.header-v3-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-sm);
+}
+
+.site-nav-v3 {
+  display: flex;
+  gap: var(--space-lg);
+}
+.site-nav-v3 a,
+.instagram-link {
+  font-family: var(--font-body);
+  font-size: 19px;
+  color: var(--cobalt);
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+}
+.site-nav-v3 a:hover,
+.instagram-link:hover {
+  color: var(--cobalt);
+  border-bottom-color: var(--cobalt-deep);
+}
+
+.header-v3-locations {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cobalt-deep);
+}
+.header-v3-locations span {
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
+}
+.header-v3-locations span:hover {
+  border-bottom-color: var(--cobalt-deep);
+  cursor: default;
+}
+
+.nav-toggle-v3 { display: none; }
+
+@media (max-width: 768px) {
+  .site-header-v3 { min-height: 220px; }
+  .header-v3-content { flex-wrap: nowrap; padding-top: var(--space-2xl); padding-bottom: var(--space-lg); }
+  .wordmark-lockup { font-size: 24px; }
+  .site-nav-v3, .header-v3-locations { display: none; }
+  .nav-toggle-v3 { display: flex; }
+}
+
 /* ---------- Hero ---------- */
 
 .hero {

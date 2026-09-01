@@ -1,6 +1,6 @@
 # Design System — Robby Stillwagon Ceramics
 
-> **Last touched by:** Claude Code — 2026-09-01 (removed DESIGN_SYNC.md; this header + git/GitHub history are now the source of truth for what changed and when). Before editing in Claude Code or Claude Design, update this line and check recent commits so the two don't drift out of sync.
+> **Last touched by:** Claude Code — 2026-09-01 (implemented Header v3 into `site/index.html` + `styles.css`). Before editing in Claude Code or Claude Design, update this line and check recent commits so the two don't drift out of sync. (`DESIGN_SYNC.md` and the `bin/design-sync.mjs` stamp comment were removed 2026-09-01 — that tooling doesn't exist in this repo; this line + git/GitHub history are the source of truth for what changed and when.)
 
 ## Product Context
 - **What this is:** Personal ceramics portfolio + commission showcase for Robby Stillwagon, a ceramicist based in San Francisco
@@ -138,6 +138,40 @@ Using Satoshi (not system fonts, not Inter) + warm color palette signals intenti
 - **Call-to-action:** "Request a Commission" button (warm taupe, Satoshi medium)
 - **Footer:** Location (San Francisco) + social/contact links
 
+#### Header v3 (supersedes the hero description above — see `Home Header v3.dc.html`, board 1a)
+Full-bleed moon-jar photograph behind the name lockup and nav, replacing the small circular
+avatar + separate nav row.
+
+- **Wordmark lockup:** one box, Satoshi 600, color `#16265C`. First line is `STILL` followed by
+  the wagon mark (`assets/logo-mark-cobalt.svg`); second line is `WAGON`. The mark's height is
+  `0.6em` of the wordmark's font-size and the gap between `STILL` and the mark is `0.18em` — both
+  in em, not px, so the whole lockup scales as one unit and the mark can later stand alone at the
+  same box size.
+- **Nav links:** `Ceramics`, `Ask`, `Contact`, `Instagram` — DM Sans, 19px, color `#2B4C9B`.
+  Replaces the old five-item nav (Home/Gallery/Ask/Contact) plus the separate "Request a
+  Commission" button — Ask and Contact now carry that role, so the button is removed from the
+  header nav.
+- **Hover state (nav links and locations):** `border-bottom: 1px solid #16265C` on hover — a dark
+  cobalt underline, not the muted rail color, so the hovered target is unambiguous.
+- **Locations line:** `Tokyo · London · Jingdezhen · San Francisco`, JetBrains Mono, 11px,
+  letter-spacing `.14em`, uppercase, color `#16265C` (full cobalt-deep, not the muted `#7C8AAB`
+  used for other metadata — at this small size and mono weight, `#7C8AAB` measured under AA
+  contrast; `#16265C` is the fix). Each city name gets the same hover underline as the nav links.
+  Locations are labels only in this version — clicking a city does not currently change the
+  photo (an earlier draft swapped in the residency-globe image per city; reverted, kept simple).
+- **Hero photograph:** `site/moon-jar.jpg`, `object-fit: cover`, `object-position: 88% 34%` — the
+  jar is pushed toward the right edge of the frame, not centered, so the lockup and nav sit over
+  open space rather than glaze detail.
+- **Wash:** a left-to-right white gradient over the photo —
+  `linear-gradient(100deg, #FFFFFF 0%, rgba(255,255,255,.94) 38%, rgba(255,255,255,.55) 58%, rgba(255,255,255,0) 76%)`
+  — so the left ~40% is solid-white ground for the type, fading out by 76% to let the jar's glaze
+  show at full strength on the right.
+- **Profile photo:** moves off the home page entirely; used only on the Contact page (not yet
+  designed).
+- **Open, not decided:** showing the full moon jar (not cropped) with the rest of the gallery
+  revealed on scroll past it, in the manner of ingagircyte.com — flagged by Robby, not yet
+  designed.
+
 ### Gallery Page
 - Full grid of ceramic pieces (12-column → 6 → 3 responsive) in torn-paper frames
 - Filter by type: Functional, Sculptural, Experimental, Commissions
@@ -166,6 +200,43 @@ Using Satoshi (not system fonts, not Inter) + warm color palette signals intenti
 | 2026-08-30 | Header cut from 240px stacked hero to 64px single line | Robby's direction: header should cost minimal vertical space so the globe and gallery carry the page |
 | 2026-08-30 | Residency globe placed directly below header, ahead of gallery | Robby's stated priority — his education/residencies are the story he wants told first |
 | 2026-08-30 | Satoshi loaded from Fontshare (not Google Fonts), variable weight | Satoshi isn't Google-hosted; static cuts have no 600 weight, so the variable face is required for headings to render at spec |
+| 2026-08-30 | This file carries a machine-checkable `design-sync` header (version, author, body hash) | Robby's direction: each side must be able to tell whether the other edited more recently. `DESIGN_SYNC.md` records *what* changed in prose; the header records *who and when* in a form a script can verify |
+| 2026-09-01 | Live hero subline is "Stoneware and porcelain, shaped across four studios and one practice." | Read from shipped `site/index.html`. Supersedes the earlier board-01 copy ("Four studios, four clay bodies, one practice…"), which was never implemented |
+| 2026-09-01 | Design system gains board 00, a render of the live home page, with a notes lane | So annotations are made against what ships rather than against the original spec boards |
+| 2026-08-30 | Conflicts are never auto-resolved — both sides stop and ask Robby | Robby's choice. Neither design intent nor implementation constraint automatically outranks the other |
+| 2026-09-01 | Home header rebuilt as a full-bleed moon-jar photo behind a stacked STILL/wagon/WAGON wordmark, replacing the circular-avatar + separate-nav-row hero | Robby's direction, following the Gabs Conway (photo-behind-type) and Inga Girčytė (flat cobalt nav list) references |
+| 2026-09-01 | "Request a Commission" button removed from the header nav | Ask and Contact pages now carry that call to action; redundant in the header |
+| 2026-09-01 | Locations line color changed from muted `#7C8AAB` to `#16265C`; hover underline (`border-bottom: 1px solid #16265C`) added to nav links and locations | Robby's contrast/accessibility feedback — the muted color and the wordmark under it were hard to read against the photo |
+| 2026-09-01 | Moon jar repositioned to `object-position: 88% 34%` with a wider white wash | Robby's direction — more open white ground behind the type, jar pushed toward the right edge |
+| 2026-09-01 | Header v3 implemented in `site/index.html`/`styles.css`; other pages (`gallery.html`, `ask.html`, `contact.html`) keep the pre-v3 header | Header v3 is scoped to the Home Page section of this file; no v3 spec exists yet for the other pages |
+| 2026-09-01 | Header v3's `.hero` section below the header (headline, subline, "Request a Commission" CTA, torn-frame moon-jar image) left unchanged | The v3 spec text only describes the `<header>` element (lockup, nav, locations, full-bleed photo); it doesn't mention the separate hero content block, so it wasn't touched |
+| 2026-09-01 | Instagram nav link points to `https://instagram.com/robby.pots` | Handle confirmed by Robby |
+
+## Sync Protocol
+This file is the single source of truth for design values, and exists in two places
+that must stay identical: the design project (visual decisions) and this repo
+(implementation). Design decisions are made in the design project and written here
+first; Claude Code implements from this file and never invents values. If a needed
+value is missing, stop and ask rather than approximating. Every change gets a row in
+the Design Decisions Log. If implementation forces a compromise, amend this file with
+a log row explaining why, so the design side picks it up on its next read. When the
+`.dc.html` mockups and this file disagree, this file wins.
+
+## Implementation Status
+Verified against `site/` at commit `ebb5bcf` on 2026-09-01. Board 00 of
+`Design System v2.dc.html` is a faithful render of the shipped home page and is the
+reference for what is actually live.
+
+| Area | Spec | Live in `site/` | Notes |
+|------|------|-----------------|-------|
+| Cobalt palette (v2) | yes | yes | `--cobalt-deep`, `--cobalt` set in `styles.css` |
+| Satoshi variable via Fontshare | yes | yes | Loaded on all four pages; font choice still unconfirmed |
+| Torn-paper frames | yes | yes | Verify polygons vary per instance |
+| Residency globe | yes (4 keyframes) | yes | `globe1-cut.png` in `index.html`; needs ~24 tween frames for real motion |
+| 64px single-line header | yes | yes | |
+| Gallery grid 12→6→3 | yes | yes | |
+| Dark mode | strategy only | no | Ground/surface values recorded, not designed |
+| Globe keyboard access | yes | unverified | Arrow keys / focusable buttons required, not hover-only |
 
 ## Implementation Notes
 - Torn-paper effect: nested div + `clip-path: polygon(...)` + `filter: drop-shadow(...)` on the parent (see technique above). Vary the polygon per image instance — do not reuse one polygon.
