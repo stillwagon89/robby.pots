@@ -183,9 +183,8 @@ img { max-width: 100%; }
 .site-header-v3 {
   position: relative;
   overflow: hidden;
-  min-height: 320px;
+  min-height: 92vh;
   display: flex;
-  align-items: flex-end;
 }
 
 .header-v3-photo {
@@ -211,11 +210,17 @@ img { max-width: 100%; }
   z-index: 1;
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
   justify-content: space-between;
-  gap: var(--space-lg);
   padding-top: var(--space-3xl);
   padding-bottom: var(--space-xl);
+}
+
+.header-v3-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-xl);
 }
 
 .wordmark-lockup {
@@ -223,7 +228,7 @@ img { max-width: 100%; }
   flex-direction: column;
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 32px;
+  font-size: 56px;
   line-height: 1.04;
   letter-spacing: -0.02em;
   color: var(--cobalt-deep);
@@ -236,21 +241,16 @@ img { max-width: 100%; }
   margin-left: 0.18em;
 }
 
-.header-v3-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: var(--space-sm);
-}
-
 .site-nav-v3 {
   display: flex;
-  gap: var(--space-lg);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-md);
 }
 .site-nav-v3 a,
 .instagram-link {
   font-family: var(--font-body);
-  font-size: 19px;
+  font-size: 22px;
   color: var(--cobalt);
   padding-bottom: 2px;
   border-bottom: 1px solid transparent;
@@ -277,13 +277,18 @@ img { max-width: 100%; }
   cursor: default;
 }
 
-.nav-toggle-v3 { display: none; }
+.nav-toggle-v3 {
+  display: none;
+  position: absolute;
+  top: var(--space-3xl);
+  right: 0;
+}
 
 @media (max-width: 768px) {
-  .site-header-v3 { min-height: 220px; }
-  .header-v3-content { flex-wrap: nowrap; padding-top: var(--space-2xl); padding-bottom: var(--space-lg); }
-  .wordmark-lockup { font-size: 24px; }
-  .site-nav-v3, .header-v3-locations { display: none; }
+  .site-header-v3 { min-height: 70vh; }
+  .header-v3-content { padding-top: var(--space-2xl); padding-bottom: var(--space-lg); }
+  .wordmark-lockup { font-size: 32px; }
+  .site-nav-v3 { display: none; }
   .nav-toggle-v3 { display: flex; }
 }
 

@@ -211,6 +211,7 @@ avatar + separate nav row.
 | 2026-09-01 | Header v3 implemented in `site/index.html`/`styles.css`; other pages (`gallery.html`, `ask.html`, `contact.html`) keep the pre-v3 header | Header v3 is scoped to the Home Page section of this file; no v3 spec exists yet for the other pages |
 | 2026-09-01 | Header v3's `.hero` section below the header (headline, subline, "Request a Commission" CTA, torn-frame moon-jar image) left unchanged | The v3 spec text only describes the `<header>` element (lockup, nav, locations, full-bleed photo); it doesn't mention the separate hero content block, so it wasn't touched |
 | 2026-09-01 | Instagram nav link points to `https://instagram.com/robby.pots` | Handle confirmed by Robby |
+| 2026-09-01 | Header v3 layout corrected: near-full-viewport-height photo, wordmark + nav stacked vertically top-left, locations line pinned bottom-left (not the top-right horizontal row first implemented) | The v3 spec text described the pieces (lockup, nav, locations) but not their arrangement; Robby supplied reference screenshots showing the actual layout after the first pass was wrong |
 
 ## Sync Protocol
 This file is the single source of truth for design values, and exists in two places
