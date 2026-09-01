@@ -222,9 +222,30 @@ img { max-width: 100%; }
   margin-left: 0.18em;
 }
 
+.site-nav-v3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-lg);
+  margin-top: var(--space-2xl);
+}
+.site-nav-v3 a {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--cobalt);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+}
+.site-nav-v3 a:hover {
+  border-bottom-color: var(--cobalt);
+}
+
 @media (max-width: 768px) {
   .moonjar-content { padding-top: var(--space-2xl); }
   .wordmark-lockup { font-size: 32px; }
+  .site-nav-v3 { gap: var(--space-md); margin-top: var(--space-xl); }
+  .site-nav-v3 a { font-size: 18px; }
 }
 
 /* ---------- Hero ---------- */
