@@ -178,49 +178,30 @@ img { max-width: 100%; }
 }
 .nav-toggle .bars { display: flex; flex-direction: column; gap: 4px; }
 
-/* ---------- Header v3 (home page only) ---------- */
+/* ---------- Moon jar background (home page only) ---------- */
 
-.site-header-v3 {
-  position: relative;
-  overflow: hidden;
-  min-height: 92vh;
-  display: flex;
-}
-
-.header-v3-photo {
-  position: absolute;
+.moonjar-bg {
+  position: fixed;
   inset: 0;
   z-index: 0;
 }
-.header-v3-img {
+.moonjar-bg-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: 88% 34%;
   display: block;
 }
-.header-v3-wash {
+.moonjar-bg-wash {
   position: absolute;
   inset: 0;
   background: linear-gradient(100deg, #FFFFFF 0%, rgba(255,255,255,.94) 38%, rgba(255,255,255,.55) 58%, rgba(255,255,255,0) 76%);
 }
 
-.header-v3-content {
+.moonjar-content {
   position: relative;
   z-index: 1;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   padding-top: var(--space-3xl);
-  padding-bottom: var(--space-xl);
-}
-
-.header-v3-top {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--space-xl);
 }
 
 .wordmark-lockup {
@@ -241,55 +222,9 @@ img { max-width: 100%; }
   margin-left: 0.18em;
 }
 
-.site-nav-v3 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--space-md);
-}
-.site-nav-v3 a,
-.instagram-link {
-  font-family: var(--font-body);
-  font-size: 22px;
-  color: var(--cobalt);
-  padding-bottom: 2px;
-  border-bottom: 1px solid transparent;
-}
-.site-nav-v3 a:hover,
-.instagram-link:hover {
-  color: var(--cobalt);
-  border-bottom-color: var(--cobalt-deep);
-}
-
-.header-v3-locations {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--cobalt-deep);
-}
-.header-v3-locations span {
-  border-bottom: 1px solid transparent;
-  padding-bottom: 1px;
-}
-.header-v3-locations span:hover {
-  border-bottom-color: var(--cobalt-deep);
-  cursor: default;
-}
-
-.nav-toggle-v3 {
-  display: none;
-  position: absolute;
-  top: var(--space-3xl);
-  right: 0;
-}
-
 @media (max-width: 768px) {
-  .site-header-v3 { min-height: 70vh; }
-  .header-v3-content { padding-top: var(--space-2xl); padding-bottom: var(--space-lg); }
+  .moonjar-content { padding-top: var(--space-2xl); }
   .wordmark-lockup { font-size: 32px; }
-  .site-nav-v3 { display: none; }
-  .nav-toggle-v3 { display: flex; }
 }
 
 /* ---------- Hero ---------- */
