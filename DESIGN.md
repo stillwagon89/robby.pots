@@ -186,6 +186,7 @@ avatar + separate nav row.
 - Commission inquiry form (name, project description, timeline, budget range)
 - Email submission via Resend (already set up)
 - Social links (Instagram for work-in-progress content)
+- **2026-09-01: rebuilt on the same moon-jar fixed-background + wordmark + vertical nav shell as the home page** (`.moonjar-bg`, `.moonjar-content`), replacing the old `.site-header`/mobile-menu/footer. Content unchanged from what was already live: "Get in Touch" / "Commission inquiries, questions, or just say hello", a "Commission Inquiry" card with Your Name / Email / "What would you like commissioned?" fields, same `/api/contact` POST + status-message JS. `gallery.html` and `ask.html` still use the old header — not yet migrated
 
 ## Design Decisions Log
 | Date | Decision | Rationale |

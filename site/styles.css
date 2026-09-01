@@ -242,11 +242,38 @@ img { max-width: 100%; }
   border-bottom-color: var(--cobalt);
 }
 
+.moonjar-content { padding-bottom: var(--space-3xl); }
+
+.contact-header {
+  max-width: 640px;
+  margin-top: var(--space-3xl);
+}
+.contact-header h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+  color: var(--cobalt-deep);
+  margin-bottom: var(--space-sm);
+}
+.contact-header .tagline {
+  font-size: 18px;
+  color: var(--cobalt);
+}
+
+.contact-card {
+  max-width: 640px;
+  margin-top: var(--space-xl);
+}
+
 @media (max-width: 768px) {
   .moonjar-content { padding-top: var(--space-2xl); }
   .wordmark-lockup { font-size: 32px; }
   .site-nav-v3 { gap: var(--space-md); margin-top: var(--space-xl); }
   .site-nav-v3 a { font-size: 18px; }
+  .contact-header { margin-top: var(--space-2xl); }
+  .contact-header h1 { font-size: 32px; }
 }
 
 /* ---------- Hero ---------- */
