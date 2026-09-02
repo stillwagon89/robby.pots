@@ -14,6 +14,19 @@ here so they aren't lost.
 - Shipping calculation, tax
 - Customer accounts / order history (maybe — not confirmed as wanted)
 
+**2026-09-02 — In-person festival sales resolved separately, no website change:**
+Robby asked about bringing in WordPress + WooCommerce to take orders/payments
+at an upcoming arts festival. `/plan-eng-review` found the actual need —
+"someone walks up, I set a price on the spot, charge them" — is a
+point-of-sale problem, not an ecommerce-website problem, and is solved by
+Square or Stripe's Tap to Pay iPhone app (no hardware, no code, live same
+day). WordPress/WooCommerce was rejected: it needs its own PHP/MySQL hosting
+(incompatible with Cloudflare Pages), reverses the confirmed "not a
+page-builder platform" premise, and doesn't even solve in-person custom
+pricing without a third-party POS plugin anyway. Robby confirmed the phone
+app alone is sufficient — no website changes for this festival. The A/B/C
+online-commerce options above remain deferred, untouched by this decision.
+
 ## Known accepted risks (stage one)
 
 - YouTube videos embedded on piece pages could go unlisted/deleted later,
