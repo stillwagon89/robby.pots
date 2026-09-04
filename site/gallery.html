@@ -26,70 +26,20 @@
         <a href="ask.html">Clay.AI</a>
         <a href="contact.html">Contact</a>
         <a href="bio.html">Bio</a>
-        <a href="https://instagram.com/robby.pots" target="_blank" rel="noopener" class="nav-ig" aria-label="Instagram">
+        <a href="https://www.instagram.com/flaming.clay/" target="_blank" rel="noopener" class="nav-ig" aria-label="Instagram">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
         </a>
       </nav>
     </aside>
 
     <main class="page-content">
-    <div class="gallery-grid" id="galleryGrid" style="margin-top: var(--space-2xl);">
-
-      <div class="gallery-item" style="grid-column: span 5;">
-        <img src="moon-jar.jpg" alt="Moon Jar" style="aspect-ratio: 4/5; width: 100%; object-fit: cover; display: block; background: transparent;">
-        <div class="caption">
-          <p class="piece-title">Moon Jar</p>
-          <p class="piece-materials">Stoneware &middot; celadon glaze, iron-oxide rim</p>
-        </div>
-      </div>
-
-      <div class="gallery-item" style="grid-column: span 4; margin-top: 56px;">
-        <img src="teapot.jpg" alt="Gas-fired Teapot" style="aspect-ratio: 1/1; width: 100%; object-fit: cover; display: block; background: transparent;">
-        <div class="caption">
-          <p class="piece-title">Gas-fired Teapot</p>
-          <p class="piece-materials">Stoneware &middot; ash glaze, iron slip</p>
-        </div>
-      </div>
-
-      <div class="gallery-item" style="grid-column: span 3; margin-top: 16px;">
-        <img src="cup.jpg" alt="Faceted Cup" style="aspect-ratio: 3/4; width: 100%; object-fit: cover; display: block; background: transparent;">
-        <div class="caption">
-          <p class="piece-title">Faceted Cup</p>
-          <p class="piece-materials">Stoneware &middot; textured, unglazed foot</p>
-        </div>
-      </div>
-
-      <div class="gallery-item" style="grid-column: span 3; margin-top: 32px;">
-        <img src="mug1.png" alt="Speckled Mug" style="aspect-ratio: 1/1; width: 100%; object-fit: cover; display: block; background: transparent;">
-        <div class="caption">
-          <p class="piece-title">Speckled Mug</p>
-          <p class="piece-materials">Stoneware &middot; glossy speckle</p>
-        </div>
-      </div>
-
-      <div class="gallery-item" style="grid-column: span 4;">
-        <img src="mug2.png" alt="Matching Mug Set" style="aspect-ratio: 5/4; width: 100%; object-fit: cover; display: block; background: transparent;">
-        <div class="caption">
-          <p class="piece-title">Matching Mug Set</p>
-          <p class="piece-materials">Stoneware &middot; glossy speckled glaze</p>
-        </div>
-      </div>
-
-      <div class="gallery-item empty" style="grid-column: span 5; margin-top: 40px;">
-        <div class="placeholder-image" style="background: transparent;">
-          <span class="chip">Jingdezhen piece &mdash; photo needed</span>
-        </div>
-        <div class="caption">
-          <p class="piece-title">Untitled (Porcelain)</p>
-          <p class="piece-materials">Porcelain &middot; Jingdezhen, June 2026</p>
-        </div>
-      </div>
-
-    </div>
+    <div class="recent-work-grid" id="gallery" style="margin-top: var(--space-2xl);"></div>
     </main>
   </div>
 
   <footer class="site-footer">San Francisco</footer>
 
+  <script src="gallery.js"></script>
+  <script>renderGallery('gallery');</script>
 </body>
 </html>

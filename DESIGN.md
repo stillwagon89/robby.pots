@@ -251,11 +251,35 @@ avatar + separate nav row.
 - **Open, not decided:** showing the full moon jar (not cropped) with the rest of the gallery
   revealed on scroll past it, in the manner of ingagircyte.com — flagged by Robby, not yet
   designed.
+- **2026-09-04: this "reveal on scroll" idea is now implemented.** `.hero-fullscreen`
+  min-height is `calc(100vh - 64px)`, which (with `.page-shell`'s 48px top padding)
+  puts "Recent Work"'s top border/heading exactly 16px above the bottom of the initial
+  viewport on any screen size — visible without scrolling, "slightly above the fold" as
+  Robby asked for. This 16px figure is viewport-height-independent by construction
+  (`gap = X - 48` where `X` is the pixel term subtracted from `100vh`) — if this needs
+  retuning later, solve for `X` from the desired gap rather than guessing, and verify
+  with `getBoundingClientRect()` in a live browser, not just by eye — this file's own
+  history has an entry (2026-09-01) where a caching/measurement mismatch briefly made a
+  correct CSS change look like it hadn't worked. "View full gallery →" link removed
+  from this section per Robby's direction (Home and Gallery show the same pieces now,
+  so the link no longer does anything a visitor doesn't already have via the Ceramics
+  nav item).
 
-### Gallery Page
-- Full grid of ceramic pieces (12-column → 6 → 3 responsive), plain images — torn-paper frames retired 2026-09-03
-- Same 6 pieces live today: Moon Jar, Gas-fired Teapot, Faceted Cup, Speckled Mug, Matching Mug Set, and "Untitled (Porcelain)" (Jingdezhen piece, photo still needed)
-- Piece detail on click: not yet built (open item, unchanged by the rebrand)
+### Gallery Component (`site/gallery.js`, shared — 2026-09-04)
+Single source of truth for the pieces shown on **both** Home's "Recent Work" section and
+the full Gallery page. `GALLERY_PIECES` in `gallery.js` is the only place piece data
+lives; `renderGallery(containerId)` renders it into an empty `<div id="gallery">` on
+each page. Edit a piece (or add/remove one) in `gallery.js` and both pages update —
+there is no separate "recent" subset anymore, both pages render the identical list.
+- **Current pieces (3):** Moon Jar, Matching Mug Set, Untitled (Porcelain) — placeholder,
+  Jingdezhen photo still needed
+- **Removed 2026-09-04, Robby's direction:** Gas-fired Teapot, Faceted Cup, Speckled Mug
+- **Layout:** both pages use `.recent-work-grid` (equal 3-column, responsive to 1 column
+  at 768px) — the old 12-column asymmetric `.gallery-grid` spans/margins system is no
+  longer used by either page now that there are only 3 pieces; the CSS rules for it are
+  still in `styles.css` but dead code, not deleted in case the grid returns to a larger
+  catalog later
+- **Piece detail on click:** not yet built (open item, unchanged)
 
 ### Bio Page (new, 2026-09-03)
 - The residency globe (see "Stop-Motion Residency Globe" above), as its own page rather than on Home
@@ -271,6 +295,7 @@ avatar + separate nav row.
 - Email submission via Resend (already set up), same `/api/contact` POST + status-message JS, unchanged by the rebrand
 - Social links (Instagram for work-in-progress content)
 - **2026-09-01: rebuilt on the same moon-jar fixed-background + wordmark + vertical nav shell as the home page** (`.moonjar-bg`, `.moonjar-content`), replacing the old `.site-header`/mobile-menu/footer. `gallery.html` and `ask.html` migrated to the same shell same day. **2026-09-03: this shell itself was superseded by the sidebar page-shell** — see Rebrand section above.
+- **2026-09-04: `.card` background changed from `var(--page)` (solid white) to `transparent`** — Robby's direction, so the moon-jar photo shows through the form panel instead of sitting behind an opaque white card. `.card` is only used on this page (confirmed via grep before changing it), so this didn't touch anything else. Input/textarea fields keep their solid white fill so they still read as editable against the now-transparent card.
 
 ## Design Decisions Log
 | Date | Decision | Rationale |
@@ -310,6 +335,11 @@ avatar + separate nav row.
 | 2026-09-03 | Contact page hint copy simplified to "Tell me a bit about what you're picturing. Are we working together on this piece? What materials interest you?" | Robby's direction — shorter, drops the size/color/timeline prompt list |
 | 2026-09-03 | Tokyo bio copy changed to "I learned under master potter Chiaki Fujisaki (藤崎 千秋) who patiently taught me fundamentals w/ a focus on traditional Japanese kurinuki (くり抜き)." | Robby's direction — corrected name/reading and added "master potter" framing |
 | 2026-09-03 | Bio residency order changed to Tokyo → London → Jingdezhen → San Francisco (was Tokyo → Jingdezhen → London → SF); every residency's specs standardized to Studied + Representative piece (values `TBD` where unknown, replacing one-off fields like "4th studio"/"Technique"/"Photo"); "NEEDED"/"TBC" placeholder text changed to "TBD" throughout; SF desc changed to "Community Studio, currently working out of Hickory Clay."; Jingdezhen and SF globe pins re-placed after confirming visually they were on the wrong location (Vietnam border / off the Pacific coast) | Robby's direction on order/format/copy; pin fix was a verified bug, not a request — see Rebrand section above for the measurement method |
+| 2026-09-03 | Tokyo's globe pin also re-placed (was landing on mainland China, not Japan) — found by chance while producing screenshots for Robby, not something he'd flagged | Same class of bug as the Jingdezhen/SF pins fixed the same day; caught proactively rather than waiting to be told |
+| 2026-09-04 | Instagram link changed from `https://instagram.com/robby.pots` to `https://www.instagram.com/flaming.clay/`, updated on all 5 pages | Robby's direction — matches the new brand handle |
+| 2026-09-04 | `.card` background: `var(--page)` → `transparent` (Contact page form panel) | Robby's direction — moon-jar photo now shows through instead of sitting behind a solid white card |
+| 2026-09-04 | Gallery unified into one shared component (`site/gallery.js`) rendered into both Home's "Recent Work" and the full Gallery page; piece list trimmed from 6 to 3 (Gas-fired Teapot, Faceted Cup, Speckled Mug removed); "View full gallery →" link removed from Home | Robby's direction — one place to edit going forward, reflected in both spaces. See "Gallery Component" under Pages & Sections above for the mechanism |
+| 2026-09-04 | Home's `.hero-fullscreen` min-height changed to `calc(100vh - 64px)`, putting "Recent Work"'s top border 16px above the fold on any screen size | Robby's direction ("slightly above the fold... top of that line at the bottom of the home page"). Verified with `getBoundingClientRect()` after an initial CSS edit silently failed to show up in testing due to the browser tab serving a cached `styles.css` — same underlying caching behavior already documented for production visitors; forced a cache-busted reload to get an accurate measurement |
 
 ## Sync Protocol
 This file is the single source of truth for design values, and exists in two places
