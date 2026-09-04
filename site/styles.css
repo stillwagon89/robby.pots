@@ -205,6 +205,21 @@ main {
   object-position: 88% 15%;
   display: block;
 }
+
+/* Home page only: show the full, uncropped photo (natural aspect ratio)
+   instead of clipping it to one viewport height, so it has enough height
+   to still be visible behind "Recent Work" as that section overlaps
+   further down the page. The other pages keep the 100vh crop above —
+   they only need the photo as a fixed backdrop behind the header, nothing
+   scrolls over it there. */
+.moonjar-bg--full {
+  height: auto;
+}
+.moonjar-bg--full .moonjar-bg-img {
+  height: auto;
+  object-fit: initial;
+  object-position: initial;
+}
 .moonjar-bg-wash {
   position: absolute;
   inset: 0;

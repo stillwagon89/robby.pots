@@ -273,6 +273,24 @@ avatar + separate nav row.
   doesn't already have via the Ceramics nav item). The `.section-row` divider line
   (`border-top`) above "Recent Work" was also removed same day, per Robby's direction —
   it read as an unwanted seam between the overlapping photo and the section header.
+- **2026-09-04: the overlap above genuinely cropped the photo, not just visually occluded
+  it — fixed.** `.moonjar-bg` was (and, on every page except Home, still is)
+  `height: 100vh` with `object-fit: cover`, meaning the photo is hard-clipped at exactly
+  one viewport height and simply doesn't exist past that point — confirmed via
+  `getBoundingClientRect()`: `.moonjar-bg`'s bottom edge landed at the same Y as `100vh`
+  while `.recent-work-grid` (with 8 pieces now) extended thousands of pixels further
+  down. So as "Recent Work" overlapped and the page was scrolled, the photo wasn't hidden
+  behind anything (confirmed nothing in `main`/`.page-content`/`.recent-work-grid` sets an
+  opaque background) — past 100vh, there was just no more photo to show, full stop.
+  Robby wants the *entire* photo, uncropped, visible behind "Recent Work" as far down as
+  it naturally extends. Fixed with a Home-only modifier: `.moonjar-bg--full` (added to
+  `index.html`'s wrapper div only — `bio.html`/`gallery.html`/`ask.html`/`contact.html`
+  keep the original 100vh crop, which is correct for them; they only need the photo as a
+  fixed backdrop behind the header, nothing scrolls over it there) sets `height: auto` and
+  drops `object-fit`/`object-position` on the `<img>`, so it renders at its natural aspect
+  ratio at full width instead of being cropped to a box. This also makes the earlier
+  `object-position` crop-position tuning (88% 34% → 88% 15%, see below) moot for Home
+  specifically — there's no crop left to position once the whole photo is shown.
 
 ### Gallery Component (`site/gallery.js`, shared — 2026-09-04)
 Single source of truth for the pieces shown on **both** Home's "Recent Work" section and
@@ -370,6 +388,7 @@ there is no separate "recent" subset anymore, both pages render the identical li
 | 2026-09-04 | Reversed course on the "peek above the fold" approach entirely — `.hero-fullscreen` min-height changed to `calc(100vh - 300px)`, a deliberate overlap rather than a sliver | Robby clarified he never wanted the moon-jar photo to look cropped/shortened (it wasn't — separate always-100vh layer) and actually wants "Recent Work" to visibly overlap the photo's lower portion, collage-style. Confirmed the direction with a screenshot before shipping, given how many rounds the smaller-peek version took to get right |
 | 2026-09-04 | `.section-row`'s `border-top` divider removed (the "sliver line" above "Recent Work") | Robby's direction — with the overlap layout, that hairline read as an unwanted seam rather than a section break |
 | 2026-09-04 | Hero photo `object-position` changed from `88% 34%` to `88% 15%` | Robby's direction ("cropped some of the top of the moon jar... could be moved down a bit more") — lower Y value shows more of the rim/top, crops more from the bottom instead |
+| 2026-09-04 | Home page's hero photo stops being cropped to `100vh` entirely — new `.moonjar-bg--full` modifier (Home only) sets `height: auto`, no `object-fit`, showing the full photo at its natural aspect ratio | Robby's direction ("it should be fully shown... behind the recent work gallery component"). Confirmed via `getBoundingClientRect()` that the photo was being hard-clipped at exactly 100vh with nothing rendering past that point — not an opacity/z-index bug, the image element itself just ended there. Other 4 pages keep the 100vh crop; they don't need more, nothing scrolls over the photo on those pages |
 
 ## Sync Protocol
 This file is the single source of truth for design values, and exists in two places
