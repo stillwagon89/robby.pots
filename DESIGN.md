@@ -252,18 +252,20 @@ avatar + separate nav row.
   revealed on scroll past it, in the manner of ingagircyte.com — flagged by Robby, not yet
   designed.
 - **2026-09-04: this "reveal on scroll" idea is now implemented.** `.hero-fullscreen`
-  min-height is `calc(100vh - 64px)`, which (with `.page-shell`'s 48px top padding)
-  puts "Recent Work"'s top border/heading exactly 16px above the bottom of the initial
+  min-height is `calc(100vh - 72px)`, which (with `.page-shell`'s 48px top padding)
+  puts "Recent Work"'s top border/heading exactly 24px above the bottom of the initial
   viewport on any screen size — visible without scrolling, "slightly above the fold" as
-  Robby asked for. This 16px figure is viewport-height-independent by construction
+  Robby asked for. (First shipped at 64px/16px gap; Robby asked for 8px higher, landing
+  on 72px/24px.) This gap figure is viewport-height-independent by construction
   (`gap = X - 48` where `X` is the pixel term subtracted from `100vh`) — if this needs
   retuning later, solve for `X` from the desired gap rather than guessing, and verify
   with `getBoundingClientRect()` in a live browser, not just by eye — this file's own
-  history has an entry (2026-09-01) where a caching/measurement mismatch briefly made a
-  correct CSS change look like it hadn't worked. "View full gallery →" link removed
-  from this section per Robby's direction (Home and Gallery show the same pieces now,
-  so the link no longer does anything a visitor doesn't already have via the Ceramics
-  nav item).
+  history has two entries now (2026-09-01, 2026-09-04) where a caching/measurement
+  mismatch briefly made a correct CSS change look like it hadn't worked; see
+  `site/_headers` below, added 2026-09-04 specifically to stop this recurring.
+  "View full gallery →" link removed from this section per Robby's direction (Home and
+  Gallery show the same pieces now, so the link no longer does anything a visitor
+  doesn't already have via the Ceramics nav item).
 
 ### Gallery Component (`site/gallery.js`, shared — 2026-09-04)
 Single source of truth for the pieces shown on **both** Home's "Recent Work" section and
@@ -271,14 +273,28 @@ the full Gallery page. `GALLERY_PIECES` in `gallery.js` is the only place piece 
 lives; `renderGallery(containerId)` renders it into an empty `<div id="gallery">` on
 each page. Edit a piece (or add/remove one) in `gallery.js` and both pages update —
 there is no separate "recent" subset anymore, both pages render the identical list.
-- **Current pieces (3):** Moon Jar, Matching Mug Set, Untitled (Porcelain) — placeholder,
-  Jingdezhen photo still needed
+- **Current pieces (8):** Moon Jar, Matching Mug Set, Serving Tray, Speckled Cream Mug,
+  Black Glazed Mug, Blue Lidded Jar, White Tumbler, Wave Teapot — in that order.
+  The Jingdezhen "Untitled (Porcelain)" placeholder is gone; Serving Tray replaced it
+  2026-09-04 per Robby's direction ("replace the jingdezhen piece photo needed with the
+  first photo"), and the other 5 new photos were added after it, same order Robby
+  posted them in
 - **Removed 2026-09-04, Robby's direction:** Gas-fired Teapot, Faceted Cup, Speckled Mug
+  (the *original* speckled mug, `mug1.png` — unrelated to the new "Speckled Cream Mug"
+  photo added later the same day, which is a different piece)
+- **Captions hidden 2026-09-04, Robby's direction:** `SHOW_CAPTIONS = false` in
+  `gallery.js` — every piece still carries `title`/`materials` fields, just not
+  rendered. The 6 new pieces added the same day have empty `materials` (no real
+  glaze/technique info given yet — left blank rather than invented, matching this
+  file's own Sync Protocol rule against approximating values). Flip `SHOW_CAPTIONS`
+  back to `true` to restore captions once real material descriptions exist.
+- **New photos live at `site/assets/gallery/`** (not the flat `site/` root where the
+  original 2 pieces' images live — `moon-jar.jpg`, `mug2.png`). No reason both
+  conventions need to merge; just know piece `img` paths point to either location.
 - **Layout:** both pages use `.recent-work-grid` (equal 3-column, responsive to 1 column
   at 768px) — the old 12-column asymmetric `.gallery-grid` spans/margins system is no
-  longer used by either page now that there are only 3 pieces; the CSS rules for it are
-  still in `styles.css` but dead code, not deleted in case the grid returns to a larger
-  catalog later
+  longer used by either page; the CSS rules for it are still in `styles.css` but dead
+  code, not deleted in case the grid returns to that treatment later
 - **Piece detail on click:** not yet built (open item, unchanged)
 
 ### Bio Page (new, 2026-09-03)
@@ -339,7 +355,11 @@ there is no separate "recent" subset anymore, both pages render the identical li
 | 2026-09-04 | Instagram link changed from `https://instagram.com/robby.pots` to `https://www.instagram.com/flaming.clay/`, updated on all 5 pages | Robby's direction — matches the new brand handle |
 | 2026-09-04 | `.card` background: `var(--page)` → `transparent` (Contact page form panel) | Robby's direction — moon-jar photo now shows through instead of sitting behind a solid white card |
 | 2026-09-04 | Gallery unified into one shared component (`site/gallery.js`) rendered into both Home's "Recent Work" and the full Gallery page; piece list trimmed from 6 to 3 (Gas-fired Teapot, Faceted Cup, Speckled Mug removed); "View full gallery →" link removed from Home | Robby's direction — one place to edit going forward, reflected in both spaces. See "Gallery Component" under Pages & Sections above for the mechanism |
+| 2026-09-04 | Captions (title + materials text under each photo) hidden via `SHOW_CAPTIONS = false` in `gallery.js`; data fields kept, not deleted | Robby's direction — wants the option to bring them back later without re-adding the data |
+| 2026-09-04 | 6 new pieces added: Serving Tray (replaces the Jingdezhen placeholder), Speckled Cream Mug, Black Glazed Mug, Blue Lidded Jar, White Tumbler, Wave Teapot — photos saved to `site/assets/gallery/` | Robby's direction, photos supplied by him. `materials` left blank for all 6 — no real glaze/technique details given yet, not invented |
+| 2026-09-04 | Added `site/_headers` forcing `styles.css` and `gallery.js` to `Cache-Control: max-age=0, must-revalidate` (Cloudflare Pages was defaulting both to 4-hour caching) | Robby reported the hero-height fix from earlier the same day "not working" a second time — the CSS was actually correct and live (verified via direct `curl`), but stale cached `styles.css` in his browser was masking it. This is the same root cause noted in the "you need to make it so..." conversation about the original post-rebrand blank-page report. A version-query-string fix was considered and rejected in favor of `_headers`, since it needs no discipline to remember on future edits |
 | 2026-09-04 | Home's `.hero-fullscreen` min-height changed to `calc(100vh - 64px)`, putting "Recent Work"'s top border 16px above the fold on any screen size | Robby's direction ("slightly above the fold... top of that line at the bottom of the home page"). Verified with `getBoundingClientRect()` after an initial CSS edit silently failed to show up in testing due to the browser tab serving a cached `styles.css` — same underlying caching behavior already documented for production visitors; forced a cache-busted reload to get an accurate measurement |
+| 2026-09-04 | `.hero-fullscreen` min-height retuned again, `calc(100vh - 64px)` → `calc(100vh - 72px)`, moving "Recent Work"'s top border from 16px to 24px above the fold | Robby's direction ("8px higher than where it is currently") after confirming the 16px state visually with him — a real, deliberate follow-up adjustment, not a caching issue this time |
 
 ## Sync Protocol
 This file is the single source of truth for design values, and exists in two places
