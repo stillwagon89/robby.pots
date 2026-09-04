@@ -239,9 +239,9 @@ avatar + separate nav row.
   contrast; `#16265C` is the fix). Each city name gets the same hover underline as the nav links.
   Locations are labels only in this version — clicking a city does not currently change the
   photo (an earlier draft swapped in the residency-globe image per city; reverted, kept simple).
-- **Hero photograph:** `site/moon-jar.jpg`, `object-fit: cover`, `object-position: 88% 34%` — the
-  jar is pushed toward the right edge of the frame, not centered, so the lockup and nav sit over
-  open space rather than glaze detail.
+- **Hero photograph:** `site/moon-jar.jpg`, `object-fit: cover`, `object-position: 88% 15%`
+  (was `88% 34%` before 2026-09-04 — see log) — the jar is pushed toward the right edge of
+  the frame, not centered, so the lockup and nav sit over open space rather than glaze detail.
 - **Wash:** a left-to-right white gradient over the photo —
   `linear-gradient(100deg, #FFFFFF 0%, rgba(255,255,255,.94) 38%, rgba(255,255,255,.55) 58%, rgba(255,255,255,0) 76%)`
   — so the left ~40% is solid-white ground for the type, fading out by 76% to let the jar's glaze
@@ -251,21 +251,28 @@ avatar + separate nav row.
 - **Open, not decided:** showing the full moon jar (not cropped) with the rest of the gallery
   revealed on scroll past it, in the manner of ingagircyte.com — flagged by Robby, not yet
   designed.
-- **2026-09-04: this "reveal on scroll" idea is now implemented.** `.hero-fullscreen`
-  min-height is `calc(100vh - 72px)`, which (with `.page-shell`'s 48px top padding)
-  puts "Recent Work"'s top border/heading exactly 24px above the bottom of the initial
-  viewport on any screen size — visible without scrolling, "slightly above the fold" as
-  Robby asked for. (First shipped at 64px/16px gap; Robby asked for 8px higher, landing
-  on 72px/24px.) This gap figure is viewport-height-independent by construction
-  (`gap = X - 48` where `X` is the pixel term subtracted from `100vh`) — if this needs
-  retuning later, solve for `X` from the desired gap rather than guessing, and verify
-  with `getBoundingClientRect()` in a live browser, not just by eye — this file's own
-  history has two entries now (2026-09-01, 2026-09-04) where a caching/measurement
-  mismatch briefly made a correct CSS change look like it hadn't worked; see
-  `site/_headers` below, added 2026-09-04 specifically to stop this recurring.
+- **2026-09-04: this "reveal on scroll" idea is now implemented, then revised into an
+  intentional overlap.** First shipped as a small peek (`.hero-fullscreen` min-height
+  `calc(100vh - 64px)`, a 16px gap from the fold, then `-72px`/24px gap after Robby asked
+  for "8px higher"). Robby then clarified the actual goal wasn't a peek at all: the
+  moon-jar photo should render at its full, uncropped height (it always has — `.moonjar-bg`
+  is a separate `height:100vh` absolutely-positioned layer, never affected by
+  `.hero-fullscreen`'s size) while "Recent Work" is pulled up far enough to visibly
+  **overlap** the photo's lower portion as a deliberate layered composition, not a subtle
+  scroll hint. Landed on `min-height: calc(100vh - 300px)` — the "Recent Work" heading and
+  the top edge of the first row of gallery photos are visible on load, overlapping into the
+  photo. This gap figure is viewport-height-independent by construction (`gap = X - 48`
+  where `X` is the pixel term subtracted from `100vh`) — if this needs retuning later,
+  solve for `X` from the desired gap rather than guessing, and verify with
+  `getBoundingClientRect()` in a live browser, not just by eye — this file's own history
+  has two entries (2026-09-01, 2026-09-04) where a caching/measurement mismatch briefly
+  made a correct CSS change look like it hadn't worked; see `site/_headers` below, added
+  2026-09-04 specifically to reduce this.
   "View full gallery →" link removed from this section per Robby's direction (Home and
   Gallery show the same pieces now, so the link no longer does anything a visitor
-  doesn't already have via the Ceramics nav item).
+  doesn't already have via the Ceramics nav item). The `.section-row` divider line
+  (`border-top`) above "Recent Work" was also removed same day, per Robby's direction —
+  it read as an unwanted seam between the overlapping photo and the section header.
 
 ### Gallery Component (`site/gallery.js`, shared — 2026-09-04)
 Single source of truth for the pieces shown on **both** Home's "Recent Work" section and
@@ -360,6 +367,9 @@ there is no separate "recent" subset anymore, both pages render the identical li
 | 2026-09-04 | Added `site/_headers` forcing `styles.css` and `gallery.js` to `Cache-Control: max-age=0, must-revalidate` (Cloudflare Pages was defaulting both to 4-hour caching) | Robby reported the hero-height fix from earlier the same day "not working" a second time — the CSS was actually correct and live (verified via direct `curl`), but stale cached `styles.css` in his browser was masking it. This is the same root cause noted in the "you need to make it so..." conversation about the original post-rebrand blank-page report. A version-query-string fix was considered and rejected in favor of `_headers`, since it needs no discipline to remember on future edits |
 | 2026-09-04 | Home's `.hero-fullscreen` min-height changed to `calc(100vh - 64px)`, putting "Recent Work"'s top border 16px above the fold on any screen size | Robby's direction ("slightly above the fold... top of that line at the bottom of the home page"). Verified with `getBoundingClientRect()` after an initial CSS edit silently failed to show up in testing due to the browser tab serving a cached `styles.css` — same underlying caching behavior already documented for production visitors; forced a cache-busted reload to get an accurate measurement |
 | 2026-09-04 | `.hero-fullscreen` min-height retuned again, `calc(100vh - 64px)` → `calc(100vh - 72px)`, moving "Recent Work"'s top border from 16px to 24px above the fold | Robby's direction ("8px higher than where it is currently") after confirming the 16px state visually with him — a real, deliberate follow-up adjustment, not a caching issue this time |
+| 2026-09-04 | Reversed course on the "peek above the fold" approach entirely — `.hero-fullscreen` min-height changed to `calc(100vh - 300px)`, a deliberate overlap rather than a sliver | Robby clarified he never wanted the moon-jar photo to look cropped/shortened (it wasn't — separate always-100vh layer) and actually wants "Recent Work" to visibly overlap the photo's lower portion, collage-style. Confirmed the direction with a screenshot before shipping, given how many rounds the smaller-peek version took to get right |
+| 2026-09-04 | `.section-row`'s `border-top` divider removed (the "sliver line" above "Recent Work") | Robby's direction — with the overlap layout, that hairline read as an unwanted seam rather than a section break |
+| 2026-09-04 | Hero photo `object-position` changed from `88% 34%` to `88% 15%` | Robby's direction ("cropped some of the top of the moon jar... could be moved down a bit more") — lower Y value shows more of the rim/top, crops more from the bottom instead |
 
 ## Sync Protocol
 This file is the single source of truth for design values, and exists in two places
