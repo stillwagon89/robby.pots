@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio — Flaming Clay Ceramics</title>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@variable&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="moonjar-bg" aria-hidden="true">
+    <img src="moon-jar.jpg" alt="" class="moonjar-bg-img">
+    <div class="moonjar-bg-wash"></div>
+  </div>
+
+  <div class="container page-shell">
+    <aside class="sidebar">
+      <a href="index.html" class="wordmark-lockup" aria-label="Flaming Clay — home">
+        <span class="wordmark-line">FLAMING</span>
+        <span class="wordmark-line">CLAY<img src="assets/flame-mark.png" alt="" class="flame-mark"></span>
+      </a>
+      <nav class="site-nav-v3">
+        <a href="gallery.html">Ceramics</a>
+        <a href="ask.html">Clay.AI</a>
+        <a href="contact.html">Contact</a>
+        <a href="bio.html">Bio</a>
+        <a href="https://instagram.com/robby.pots" target="_blank" rel="noopener" class="nav-ig" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </nav>
+    </aside>
+
+    <main class="page-content">
+
+    <section class="hero-solo" style="width: 642px; height: 120px">
+      <div class="hero-eyebrow">Tokyo &middot; London &middot; Jingdezhen &middot; San Francisco</div>
+      <h1 class="hero-headline">Four Years.</h1>
+      <p class="hero-sub">Traveling the world and learning from others.</p>
+    </section>
+
+    <section class="globe-section">
+      <div class="globe-grid">
+        <div class="globe-visual" id="globeVisual" role="button" tabindex="0" aria-label="Advance to next residency">
+          <img id="globeImg" src="assets/globe1-cut.png" alt="Cobalt line globe, Pacific face, marking Tokyo">
+          <div class="globe-pin" id="globePin" style="left: 40%; top: 37%;">
+            <span class="dot"></span>
+            <span class="label" id="globePinLabel">TOKYO</span>
+          </div>
+        </div>
+        <div>
+          <div class="residency-panel-eyebrow" id="resCounter">SENSHU CRAFT 01 / 04 &middot;</div>
+          <h2 class="residency-city" id="resCity">Tokyo</h2>
+          <div class="residency-meta">
+            <span class="dashed-field" id="resYearField">2023 - 2024</span>
+            <span id="resNeighborhood">Nakameguro</span>
+          </div>
+          <p class="residency-desc" id="resDesc">I learned under master potter Chiaki Fujisaki (藤崎 千秋) who patiently taught me fundamentals w/ a focus on traditional Japanese kurinuki (くり抜き).</p>
+          <div class="residency-specs" id="resSpecs"></div>
+          <div class="residency-progress" id="resPills">
+            <button class="pill-btn" data-i="0" aria-label="Tokyo"><span class="pill active"></span></button>
+            <button class="pill-btn" data-i="1" aria-label="London"><span class="pill"></span></button>
+            <button class="pill-btn" data-i="2" aria-label="Jingdezhen"><span class="pill"></span></button>
+            <button class="pill-btn" data-i="3" aria-label="San Francisco"><span class="pill"></span></button>
+            <span class="hint">HOVER OR TAP TO ADVANCE</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </main>
+  </div>
+
+  <footer class="site-footer">San Francisco</footer>
+
+  <script>
+    const residencies = [
+      {
+        img: 'assets/globe1-cut.png', alt: 'Cobalt line globe, Pacific face, marking Tokyo',
+        pin: { left: '40%', top: '37%' }, label: 'TOKYO', city: 'Tokyo',
+        eyebrow: 'SENSHU CRAFT 01 / 04 ·',
+        year: '2023 - 2024', yearDashed: false, neighborhood: 'Nakameguro',
+        desc: 'I learned under master potter Chiaki Fujisaki (藤崎 千秋) who patiently taught me fundamentals w/ a focus on traditional Japanese kurinuki (くり抜き).',
+        specs: [
+          { label: 'Studied', value: 'Handbuilding', dashed: true },
+          { label: 'Representative piece', value: 'Link', href: 'https://www.instagram.com/p/DZX2x5KnGrM/?img_index=1', dashed: true }
+        ]
+      },
+      {
+        img: 'assets/globe3-cut.png', alt: 'Cobalt line globe, Europe and Africa face, marking London',
+        pin: { left: '46%', top: '29%' }, label: 'LONDON', city: 'London',
+        year: 'YEARS — TBD', yearDashed: true, neighborhood: '',
+        desc: 'Wheel throwing at Clay Time. Hand building at Crown Works Pottery & School. Sheen Pottery Studio with Lindy Barletta — first moon jar and larger teapots.',
+        specs: [
+          { label: 'Studied', value: 'TBD', dashed: true },
+          { label: 'Representative piece', value: 'TBD', dashed: true }
+        ]
+      },
+      {
+        img: 'assets/globe2-cut.png', alt: 'Cobalt line globe, Asia face, marking Jingdezhen',
+        pin: { left: '48%', top: '43%' }, label: 'JINGDEZHEN', city: 'Jingdezhen',
+        eyebrow: 'JDZ 03 / 04',
+        year: 'June 2026', yearDashed: false, neighborhood: '',
+        desc: 'Porcelain and larger sculptural work. Slip casting, mould making, high-temperature glazes.',
+        specs: [
+          { label: 'Studied', value: 'Porcelain', dashed: true },
+          { label: 'Representative piece', value: 'TBD', dashed: true }
+        ]
+      },
+      {
+        img: 'assets/globe4-cut.png', alt: 'Cobalt line globe, Americas face, marking San Francisco',
+        pin: { left: '35%', top: '35%' }, label: 'SAN FRANCISCO', city: 'San Francisco',
+        year: 'YEARS — TBD', yearDashed: true, neighborhood: 'Home studio',
+        desc: 'Community Studio, currently working out of Hickory Clay.',
+        specs: [
+          { label: 'Studied', value: 'TBD', dashed: true },
+          { label: 'Representative piece', value: 'TBD', dashed: true }
+        ]
+      }
+    ];
+
+    let activeIndex = 0;
+
+    function renderResidency() {
+      const r = residencies[activeIndex];
+      document.getElementById('globeImg').src = r.img;
+      document.getElementById('globeImg').alt = r.alt;
+      const pin = document.getElementById('globePin');
+      pin.style.left = r.pin.left;
+      pin.style.top = r.pin.top;
+      document.getElementById('globePinLabel').textContent = r.label;
+      document.getElementById('resCounter').textContent = r.eyebrow || ('Residency 0' + (activeIndex + 1) + ' / 04 · Active');
+      document.getElementById('resCity').textContent = r.city;
+
+      const yearEl = document.getElementById('resYearField');
+      yearEl.textContent = r.year;
+      yearEl.className = r.yearDashed ? 'dashed-field' : '';
+      if (!r.yearDashed) yearEl.removeAttribute('style');
+
+      document.getElementById('resNeighborhood').textContent = r.neighborhood;
+      document.getElementById('resDesc').textContent = r.desc;
+
+      const specsEl = document.getElementById('resSpecs');
+      specsEl.innerHTML = r.specs.map(s => {
+        const linkClass = s.dashed ? '' : ' class="spec-link"';
+        const valueInner = s.href
+          ? '<a href="' + s.href + '" target="_blank" rel="noopener"' + linkClass + '>' + s.value +
+            (s.preview ? '<span class="spec-preview"><span class="spec-preview-ph">Photo &mdash; drop image here</span></span>' : '') +
+            '</a>'
+          : s.value;
+        return '<div class="residency-spec-row"><span class="label">' + s.label + '</span>' +
+        '<span class="value' + (s.dashed ? ' dashed' : '') + '">' + valueInner + '</span></div>';
+      }).join('');
+
+      document.querySelectorAll('#resPills .pill').forEach((p, i) => {
+        p.classList.toggle('active', i === activeIndex);
+      });
+    }
+
+    document.getElementById('globeVisual').addEventListener('click', () => {
+      activeIndex = (activeIndex + 1) % residencies.length;
+      renderResidency();
+    });
+    document.getElementById('globeVisual').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        activeIndex = (activeIndex + 1) % residencies.length;
+        renderResidency();
+      }
+    });
+    document.querySelectorAll('#resPills .pill-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        activeIndex = parseInt(btn.dataset.i, 10);
+        renderResidency();
+      });
+    });
+
+    renderResidency();
+  </script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-/* Robby Stillwagon Ceramics — Design System v2 (white & cobalt)
+/* Flaming Clay Ceramics — Design System v2 (white & cobalt)
    Source: DESIGN.md + design_handoff_ceramics_design_system/README.md */
 
 :root {
@@ -181,8 +181,11 @@ img { max-width: 100%; }
 /* ---------- Moon jar background (shared across pages) ---------- */
 
 .moonjar-bg {
-  position: fixed;
-  inset: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
   z-index: 0;
 }
 
@@ -224,7 +227,13 @@ main {
   letter-spacing: -0.02em;
   color: var(--cobalt-deep);
 }
-.wordmark-line { display: inline-flex; align-items: center; }
+.wordmark-line { display: inline-flex; align-items: baseline; gap: 5px; }
+.flame-mark {
+  display: inline-block;
+  width: 20px;
+  height: auto;
+  transform: translateY(1px);
+}
 .wordmark-mark {
   display: inline-block;
   width: 0.6em;
@@ -251,12 +260,14 @@ main {
 .site-nav-v3 a:hover {
   border-bottom-color: var(--cobalt);
 }
+.nav-ig { display: inline-flex; align-items: center; border-bottom: none !important; padding-bottom: 0 !important; opacity: 0.85; }
+.nav-ig:hover { opacity: 1; border-bottom: none !important; }
 
 .moonjar-content { padding-bottom: var(--space-3xl); }
 
 .contact-header {
   max-width: 640px;
-  margin-top: var(--space-3xl);
+  margin-top: 0;
 }
 .contact-header h1 {
   font-family: var(--font-display);
@@ -282,8 +293,46 @@ main {
   .wordmark-lockup { font-size: 32px; }
   .site-nav-v3 { gap: var(--space-md); margin-top: var(--space-xl); }
   .site-nav-v3 a { font-size: 18px; }
-  .contact-header { margin-top: var(--space-2xl); }
+  .contact-header { margin-top: 0; }
   .contact-header h1 { font-size: 32px; }
+}
+
+/* ---------- Page shell: persistent left nav ---------- */
+
+.page-shell {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 56px;
+  padding-top: var(--space-2xl);
+}
+
+.sidebar {
+  flex: none;
+  width: 176px;
+  position: sticky;
+  top: var(--space-2xl);
+}
+.sidebar .wordmark-lockup {
+  font-size: 26px;
+  line-height: 1.08;
+  margin-bottom: var(--space-xl);
+}
+.sidebar .wordmark-mark { width: 0.55em; height: 0.55em; }
+.sidebar .flame-mark { width: 20px; height: auto; }
+.sidebar .site-nav-v3 { margin-top: 0; gap: var(--space-sm); }
+.sidebar .site-nav-v3 a { font-size: 16px; }
+
+.page-content { flex: 1; min-width: 0; }
+
+@media (max-width: 900px) {
+  .page-shell { flex-direction: column; gap: var(--space-lg); padding-top: var(--space-lg); }
+  .sidebar { width: 100%; position: static; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--space-md); }
+  .sidebar .wordmark-lockup { margin-bottom: 0; flex-direction: row; align-items: center; gap: 6px; font-size: 22px; }
+  .sidebar .wordmark-line { display: inline; }
+  .sidebar .flame-mark { width: 18px; height: auto; }
+  .sidebar .site-nav-v3 { flex-direction: row; flex-wrap: wrap; gap: var(--space-md); }
 }
 
 /* ---------- Hero ---------- */
@@ -344,9 +393,68 @@ main {
 }
 .hero-image-frame img { aspect-ratio: 4 / 5; height: 100%; }
 
+/* ---------- Hero (text-only, homepage) ---------- */
+
+.hero-solo {
+  padding-top: 0;
+  padding-bottom: 56px;
+  max-width: 640px;
+}
+.hero-fullscreen {
+  min-height: calc(100vh - 96px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 900px) {
+  .hero-fullscreen { min-height: 70vh; }
+}
+.hero-solo .btn-cta { margin-top: var(--space-md); display: inline-block; }
+
+@media (max-width: 768px) {
+  .hero-solo { padding-top: 40px; padding-bottom: 32px; }
+}
+
+/* ---------- Section headers (Recent Work, etc.) ---------- */
+
+.section-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  padding-top: var(--space-2xl);
+  margin-bottom: var(--space-lg);
+}
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: -0.025em;
+  color: var(--cobalt-deep);
+}
+.section-link { font-size: 15px; color: var(--cobalt-muted); }
+.section-link:hover { color: var(--cobalt); }
+
+.recent-work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+  align-items: start;
+  padding-bottom: var(--space-3xl);
+}
+@media (max-width: 768px) {
+  .recent-work-grid { grid-template-columns: 1fr; gap: var(--space-xl); }
+}
+
 /* ---------- Residency Globe ---------- */
 
-.globe-section { padding-bottom: var(--space-3xl); }
+.globe-section {
+  border-top: 1px solid var(--border);
+  padding-top: var(--space-2xl);
+  padding-bottom: var(--space-3xl);
+}
 
 .globe-grid {
   display: grid;
@@ -488,6 +596,45 @@ main {
   cursor: pointer;
 }
 
+.globe-visual { cursor: pointer; }
+.residency-progress .pill-btn { background: none; border: none; padding: 6px 2px; cursor: pointer; }
+
+.residency-spec-row .value { color: var(--cobalt); }
+.spec-link { position: relative; color: var(--cobalt); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px; }
+.spec-link:hover { text-decoration-color: var(--cobalt); }
+.spec-preview {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 0;
+  width: 140px;
+  height: 140px;
+  background: var(--page);
+  border: 1px dashed var(--cobalt-mid);
+  border-radius: var(--radius-sm);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-sm);
+  text-align: center;
+  z-index: 5;
+  box-shadow: 0 4px 16px rgba(22,38,92,0.12);
+}
+.spec-link:hover .spec-preview { display: flex; }
+.spec-preview-ph {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--cobalt-muted);
+}
+.residency-spec-row .value.dashed {
+  border: 1px dashed var(--cobalt-mid);
+  border-radius: var(--radius-sm);
+  padding: 2px 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--cobalt-mid);
+  display: inline-block;
+}
+
 /* ---------- Gallery ---------- */
 
 .gallery-header-row {
@@ -540,16 +687,18 @@ main {
 
 .gallery-item { display: flex; flex-direction: column; }
 .gallery-item .torn-frame { margin-bottom: var(--space-md); }
-.gallery-item .caption { padding-left: 4px; }
+.gallery-item .caption { padding: 4px 8px; background: rgba(255,255,255,0.82); border-radius: var(--radius-sm); display: inline-block; }
 .gallery-item .piece-title {
   font-family: var(--font-display);
   font-weight: 500;
-  font-size: 21px;
+  font-size: 15px;
+  letter-spacing: -0.005em;
   color: var(--cobalt-deep);
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 .gallery-item .piece-materials {
-  font-size: 14px;
+  font-size: 12px;
+  letter-spacing: 0.01em;
   color: var(--cobalt-muted);
 }
 
@@ -605,6 +754,8 @@ main {
 /* ---------- Footer ---------- */
 
 .site-footer {
+  position: relative;
+  z-index: 1;
   border-top: 1px solid var(--border);
   padding: var(--space-xl) 0;
   text-align: center;

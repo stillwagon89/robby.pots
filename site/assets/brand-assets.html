@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flaming Clay — Brand Mark Asset Sheet</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --cobalt: #16265C; --cream: #F5F1E4; --line: #DCE3F0; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #fff; font-family: 'DM Sans', sans-serif; color: var(--cobalt); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 64px 40px 120px; }
+  h1 { font-size: 32px; margin: 0 0 6px; }
+  .eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #7C8AAB; margin-bottom: 10px; }
+  .lede { font-size: 16px; line-height: 1.6; color: #2B4C9B; max-width: 660px; margin-bottom: 56px; }
+  section { margin-bottom: 60px; }
+  h2 { font-size: 18px; margin: 0 0 4px; }
+  .note { font-size: 14px; color: #7C8AAB; margin: 0 0 20px; max-width: 620px; }
+  .row { display: flex; gap: 20px; flex-wrap: wrap; }
+  .card { border: 1px solid var(--line); border-radius: 4px; padding: 28px; display: flex; flex-direction: column; align-items: center; gap: 14px; flex: 1; min-width: 180px; }
+  .card.cream { background: var(--cream); border-color: var(--cream); }
+  .card.cobalt { background: var(--cobalt); border-color: var(--cobalt); }
+  .card .cap { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .08em; color: #7C8AAB; }
+  .card.cobalt .cap { color: #7C93C4; }
+  .sizes { display: flex; align-items: flex-end; gap: 32px; flex-wrap: wrap; }
+  .sizes .item { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .sizes .cap { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #7C8AAB; }
+  .clear { position: relative; display: inline-block; }
+  .clear .ring { border: 1px dashed #7C93C4; border-radius: 50%; padding: 24px; display: inline-flex; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  td, th { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  th { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .06em; color: #7C8AAB; text-transform: uppercase; }
+  .swatch { display: inline-flex; align-items: center; gap: 8px; }
+  .sw-dot { width: 16px; height: 16px; border-radius: 3px; display: inline-block; border: 1px solid var(--line); }
+  .pattern { background: #fff; border: 1px solid var(--line); border-radius: 4px; padding: 24px; display: grid; grid-template-columns: repeat(8, 1fr); gap: 22px; }
+  .pattern img { width: 100%; opacity: .9; }
+  .mock { border: 1px solid var(--line); border-radius: 4px; overflow: hidden; flex: 1; min-width: 260px; }
+  .mock .frame { aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; position: relative; }
+  .mock .cap { padding: 12px 16px; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .06em; color: #7C8AAB; border-top: 1px solid var(--line); }
+  /* patch mockup */
+  .surf-fabric { background: #EFE9DA; }
+  .patch { width: 96px; height: 96px; background: var(--cobalt); border-radius: 6px; display: flex; align-items: center; justify-content: center; box-shadow: 0 3px 10px rgba(0,0,0,.18); }
+  .patch img { width: 46px; }
+  /* tote mockup */
+  .surf-tote { background: #E4DCC9; }
+  .tote { width: 150px; height: 170px; background: #EFE9DD; border: 1px solid #D8CFB8; border-radius: 4px 4px 24px 24px; position: relative; display: flex; align-items: center; justify-content: center; }
+  .tote::before { content: ""; position: absolute; top: -26px; left: 22px; width: 26px; height: 40px; border: 6px solid #D8CFB8; border-bottom: none; border-radius: 20px 20px 0 0; background: transparent; }
+  .tote::after { content: ""; position: absolute; top: -26px; right: 22px; width: 26px; height: 40px; border: 6px solid #D8CFB8; border-bottom: none; border-radius: 20px 20px 0 0; background: transparent; }
+  .tote img { width: 54px; }
+  /* ceramic mockup */
+  .surf-ceramic { background: #E8E1D1; }
+  .mug { width: 110px; height: 100px; background: linear-gradient(180deg,#F7F3E8,#EDE6D4); border-radius: 10px 10px 26px 26px; position: relative; display: flex; align-items: flex-start; justify-content: center; padding-top: 24px; box-shadow: inset 0 -10px 16px rgba(0,0,0,.06); }
+  .mug::after { content:""; position:absolute; right:-22px; top:22px; width:26px; height:40px; border:7px solid #EDE6D4; border-left:none; border-radius:0 20px 20px 0; }
+  .mug img { width: 26px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Brand mark · asset sheet</div>
+  <h1>Flaming Clay</h1>
+  <p class="lede">The flame-and-spark mark, isolated from the ring and wordmark, across colorways, sizes, and the surfaces it'll actually sit on. Source artwork, not redrawn — line quality matches the original.</p>
+
+  <section>
+    <h2>Core mark</h2>
+    <div class="row">
+      <div class="card">
+        <img src="flame-mark.png" alt="Flaming Clay flame and spark mark" style="width:120px;">
+        <span class="cap">COBALT ON WHITE</span>
+      </div>
+      <div class="card cream">
+        <img src="flame-mark.png" alt="Flaming Clay flame and spark mark on cream" style="width:120px;">
+        <span class="cap">COBALT ON CREAM</span>
+      </div>
+      <div class="card cobalt">
+        <img src="flame-mark-cream.png" alt="Flaming Clay flame and spark mark, reversed cream on cobalt" style="width:120px;">
+        <span class="cap">CREAM ON COBALT (REVERSED)</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sizing &amp; minimums</h2>
+    <p class="note">Below ~16px wide the inner swirl loses legibility — don't scale the mark smaller than that.</p>
+    <div class="sizes">
+      <div class="item"><img src="flame-mark.png" style="width:120px;"><span class="cap">120PX</span></div>
+      <div class="item"><img src="flame-mark.png" style="width:64px;"><span class="cap">64PX</span></div>
+      <div class="item"><img src="flame-mark.png" style="width:32px;"><span class="cap">32PX</span></div>
+      <div class="item"><img src="flame-mark.png" style="width:22px;"><span class="cap">22PX — HEADER</span></div>
+      <div class="item"><img src="flame-mark.png" style="width:16px;"><span class="cap">16PX — MINIMUM</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Clearspace</h2>
+    <p class="note">Keep space equal to roughly half the mark's height clear on all sides — no text or edge inside that ring.</p>
+    <div class="clear">
+      <span class="ring"><img src="flame-mark.png" style="width:60px;"></span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Repeat pattern</h2>
+    <p class="note">For packaging tissue, backgrounds, or fabric — mark repeated at a fixed scale and low opacity.</p>
+    <div class="pattern">
+      <img src="flame-mark.png"><img src="flame-mark.png"><img src="flame-mark.png"><img src="flame-mark.png">
+      <img src="flame-mark.png"><img src="flame-mark.png"><img src="flame-mark.png"><img src="flame-mark.png">
+      <img src="flame-mark.png"><img src="flame-mark.png"><img src="flame-mark.png"><img src="flame-mark.png">
+      <img src="flame-mark.png"><img src="flame-mark.png"><img src="flame-mark.png"><img src="flame-mark.png">
+    </div>
+  </section>
+
+  <section>
+    <h2>Usage on surfaces</h2>
+    <p class="note">Rough placement mockups — proportions and mark scale to check before ordering real production samples.</p>
+    <div class="row">
+      <div class="mock">
+        <div class="frame surf-fabric">
+          <div class="patch"><img src="flame-mark-cream.png" alt=""></div>
+        </div>
+        <div class="cap">FABRIC PATCH / EMBROIDERY</div>
+      </div>
+      <div class="mock">
+        <div class="frame surf-tote">
+          <div class="tote"><img src="flame-mark.png" alt=""></div>
+        </div>
+        <div class="cap">CANVAS TOTE / SCREEN PRINT</div>
+      </div>
+      <div class="mock">
+        <div class="frame surf-ceramic">
+          <div class="mug"><img src="flame-mark.png" alt=""></div>
+        </div>
+        <div class="cap">CERAMIC STAMP / WATERMARK</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Color</h2>
+    <table>
+      <tr><th>Role</th><th>Value</th><th></th></tr>
+      <tr><td>Mark ink — standard</td><td>#16265C</td><td class="swatch"><span class="sw-dot" style="background:#16265C"></span></td></tr>
+      <tr><td>Mark ink — reversed (on cobalt)</td><td>#F5F1E4</td><td class="swatch"><span class="sw-dot" style="background:#F5F1E4"></span></td></tr>
+      <tr><td>Background — cream</td><td>#F5F1E4</td><td class="swatch"><span class="sw-dot" style="background:#F5F1E4"></span></td></tr>
+      <tr><td>Background — white</td><td>#FFFFFF</td><td class="swatch"><span class="sw-dot" style="background:#FFFFFF; border:1px solid #DCE3F0;"></span></td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Usage notes</h2>
+    <table>
+      <tr><th>Context</th><th>Use</th></tr>
+      <tr><td>Site header / nav</td><td>Flame mark only + "FLAMING CLAY" set in two stacked lines (see live site)</td></tr>
+      <tr><td>Favicon / social avatar</td><td>Flame mark alone, cropped square, cobalt on white or cream</td></tr>
+      <tr><td>Dark backgrounds / packaging</td><td>Reversed cream-on-cobalt version</td></tr>
+      <tr><td>Fabric goods (patches, tote bags)</td><td>Single-color mark, no gradient — see mockups above</td></tr>
+      <tr><td>Ceramic stamps / watermarks</td><td>Small, centered, cobalt mark only</td></tr>
+      <tr><td>Anywhere below 16px</td><td>Avoid — detail is lost; use the wordmark alone instead</td></tr>
+    </table>
+  </section>
+
+</div>
+</body>
+</html>

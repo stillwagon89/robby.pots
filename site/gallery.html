@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery — Robby Stillwagon Ceramics</title>
+  <title>Gallery — Flaming Clay Ceramics</title>
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@variable&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
@@ -15,95 +15,68 @@
     <div class="moonjar-bg-wash"></div>
   </div>
 
-  <div class="container moonjar-content">
-    <a href="index.html" class="wordmark-lockup" aria-label="Still Wagon Ceramics — home">
-      <span class="wordmark-line">STILL<img src="assets/logo-mark-cobalt.svg" alt="" class="wordmark-mark"></span>
-      <span class="wordmark-line">WAGON</span>
-    </a>
-    <nav class="site-nav-v3">
-      <a href="gallery.html">Ceramics</a>
-      <a href="ask.html">Ask</a>
-      <a href="contact.html">Contact</a>
-      <a href="https://instagram.com/robby.pots" target="_blank" rel="noopener">Instagram</a>
-    </nav>
-  </div>
+  <div class="container page-shell">
+    <aside class="sidebar">
+      <a href="index.html" class="wordmark-lockup" aria-label="Flaming Clay — home">
+        <span class="wordmark-line">FLAMING</span>
+        <span class="wordmark-line">CLAY<img src="assets/flame-mark.png" alt="" class="flame-mark"></span>
+      </a>
+      <nav class="site-nav-v3">
+        <a href="gallery.html">Ceramics</a>
+        <a href="ask.html">Clay.AI</a>
+        <a href="contact.html">Contact</a>
+        <a href="bio.html">Bio</a>
+        <a href="https://instagram.com/robby.pots" target="_blank" rel="noopener" class="nav-ig" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </nav>
+    </aside>
 
-  <main class="container">
-    <div class="gallery-header-row">
-      <h1 class="gallery-title">Gallery</h1>
-      <div class="filter-chips" role="group" aria-label="Filter pieces">
-        <button class="filter-chip active" data-filter="all">All</button>
-        <button class="filter-chip" data-filter="functional">Functional</button>
-        <button class="filter-chip" data-filter="sculptural">Sculptural</button>
-        <button class="filter-chip" data-filter="experimental">Experimental</button>
-        <button class="filter-chip" data-filter="commissions">Commissions</button>
-      </div>
-    </div>
+    <main class="page-content">
+    <div class="gallery-grid" id="galleryGrid" style="margin-top: var(--space-2xl);">
 
-    <div class="gallery-grid" id="galleryGrid">
-
-      <div class="gallery-item" data-category="functional" style="grid-column: span 5;">
-        <div class="torn-frame">
-          <div class="torn-clip" style="clip-path: polygon(1.5% 2%, 20% 0%, 46% 3%, 70% 0.5%, 98.5% 2%, 100% 26%, 98% 52%, 100% 76%, 98% 98%, 74% 100%, 50% 97%, 26% 100%, 2% 98%, 0% 74%, 2.5% 50%, 0% 26%); padding: 16px 16px 18px;">
-            <img src="moon-jar.jpg" alt="Moon Jar" style="aspect-ratio: 4/5;">
-          </div>
-        </div>
+      <div class="gallery-item" style="grid-column: span 5;">
+        <img src="moon-jar.jpg" alt="Moon Jar" style="aspect-ratio: 4/5; width: 100%; object-fit: cover; display: block; background: transparent;">
         <div class="caption">
           <p class="piece-title">Moon Jar</p>
           <p class="piece-materials">Stoneware &middot; celadon glaze, iron-oxide rim</p>
         </div>
       </div>
 
-      <div class="gallery-item" data-category="functional" style="grid-column: span 4; margin-top: 56px;">
-        <div class="torn-frame">
-          <div class="torn-clip" style="clip-path: polygon(2% 1%, 25% 3%, 51% 0%, 75% 2.5%, 98% 0.5%, 100% 24%, 98% 50%, 100% 74%, 97% 98.5%, 72% 100%, 48% 98%, 22% 100%, 0.5% 97%, 2.5% 73%, 0% 49%, 2% 25%); padding: 16px 16px 18px;">
-            <img src="teapot.jpg" alt="Gas-fired Teapot" style="aspect-ratio: 1/1;">
-          </div>
-        </div>
+      <div class="gallery-item" style="grid-column: span 4; margin-top: 56px;">
+        <img src="teapot.jpg" alt="Gas-fired Teapot" style="aspect-ratio: 1/1; width: 100%; object-fit: cover; display: block; background: transparent;">
         <div class="caption">
           <p class="piece-title">Gas-fired Teapot</p>
           <p class="piece-materials">Stoneware &middot; ash glaze, iron slip</p>
         </div>
       </div>
 
-      <div class="gallery-item" data-category="functional" style="grid-column: span 3; margin-top: 16px;">
-        <div class="torn-frame">
-          <div class="torn-clip" style="clip-path: polygon(1% 3%, 24% 0%, 50% 2.5%, 76% 0%, 99% 2%, 100% 27%, 97% 51%, 100% 75%, 98.5% 99%, 73% 100%, 49% 97.5%, 23% 100%, 1.5% 98%, 0% 73%, 3% 49%, 0% 25%); padding: 14px 14px 16px;">
-            <img src="cup.jpg" alt="Faceted Cup" style="aspect-ratio: 3/4;">
-          </div>
-        </div>
+      <div class="gallery-item" style="grid-column: span 3; margin-top: 16px;">
+        <img src="cup.jpg" alt="Faceted Cup" style="aspect-ratio: 3/4; width: 100%; object-fit: cover; display: block; background: transparent;">
         <div class="caption">
           <p class="piece-title">Faceted Cup</p>
           <p class="piece-materials">Stoneware &middot; textured, unglazed foot</p>
         </div>
       </div>
 
-      <div class="gallery-item" data-category="functional" style="grid-column: span 3; margin-top: 32px;">
-        <div class="torn-frame">
-          <div class="torn-clip" style="clip-path: polygon(2.5% 2%, 23% 0.5%, 49% 2%, 73% 0%, 97.5% 2.5%, 100% 25%, 97.5% 51%, 100% 75%, 97% 97.5%, 71% 100%, 47% 98.5%, 21% 100%, 2% 97.5%, 0% 73%, 2% 49%, 0% 24%); padding: 14px 14px 16px;">
-            <img src="mug1.png" alt="Speckled Mug" style="aspect-ratio: 1/1;">
-          </div>
-        </div>
+      <div class="gallery-item" style="grid-column: span 3; margin-top: 32px;">
+        <img src="mug1.png" alt="Speckled Mug" style="aspect-ratio: 1/1; width: 100%; object-fit: cover; display: block; background: transparent;">
         <div class="caption">
           <p class="piece-title">Speckled Mug</p>
           <p class="piece-materials">Stoneware &middot; glossy speckle</p>
         </div>
       </div>
 
-      <div class="gallery-item" data-category="functional commissions" style="grid-column: span 4;">
-        <div class="torn-frame">
-          <div class="torn-clip" style="clip-path: polygon(1.8% 1.5%, 21% 3%, 47% 0.5%, 71% 2.5%, 99% 0%, 100% 25%, 98.5% 51%, 100% 75%, 97.5% 98%, 73% 99.5%, 49% 97%, 25% 99.5%, 1.5% 97.5%, 0% 73%, 2.5% 49%, 0.5% 25%); padding: 16px 16px 18px;">
-            <img src="mug2.png" alt="Matching Mug Set" style="aspect-ratio: 5/4;">
-          </div>
-        </div>
+      <div class="gallery-item" style="grid-column: span 4;">
+        <img src="mug2.png" alt="Matching Mug Set" style="aspect-ratio: 5/4; width: 100%; object-fit: cover; display: block; background: transparent;">
         <div class="caption">
           <p class="piece-title">Matching Mug Set</p>
           <p class="piece-materials">Stoneware &middot; glossy speckled glaze</p>
         </div>
       </div>
 
-      <div class="gallery-item empty" data-category="sculptural experimental" style="grid-column: span 5; margin-top: 40px;">
-        <div class="placeholder-image">
+      <div class="gallery-item empty" style="grid-column: span 5; margin-top: 40px;">
+        <div class="placeholder-image" style="background: transparent;">
           <span class="chip">Jingdezhen piece &mdash; photo needed</span>
         </div>
         <div class="caption">
@@ -113,34 +86,10 @@
       </div>
 
     </div>
+    </main>
+  </div>
 
-    <div class="empty-state" id="emptyState" style="display: none;">
-      New work coming soon.
-    </div>
-  </main>
+  <footer class="site-footer">San Francisco</footer>
 
-  <script>
-    const chips = document.querySelectorAll('.filter-chip');
-    const items = document.querySelectorAll('.gallery-item');
-    const emptyState = document.getElementById('emptyState');
-    const galleryGrid = document.getElementById('galleryGrid');
-
-    chips.forEach(chip => {
-      chip.addEventListener('click', () => {
-        chips.forEach(c => c.classList.remove('active'));
-        chip.classList.add('active');
-        const filter = chip.dataset.filter;
-        let visibleCount = 0;
-        items.forEach(item => {
-          const categories = (item.dataset.category || '').split(' ');
-          const show = filter === 'all' || categories.includes(filter);
-          item.style.display = show ? '' : 'none';
-          if (show) visibleCount++;
-        });
-        galleryGrid.style.display = visibleCount === 0 ? 'none' : 'grid';
-        emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
-      });
-    });
-  </script>
 </body>
 </html>

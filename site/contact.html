@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact — Robby Stillwagon Ceramics</title>
+  <title>Contact — Flaming Clay Ceramics</title>
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@variable&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
@@ -15,26 +15,32 @@
     <div class="moonjar-bg-wash"></div>
   </div>
 
-  <div class="container moonjar-content">
-    <a href="index.html" class="wordmark-lockup" aria-label="Still Wagon Ceramics — home">
-      <span class="wordmark-line">STILL<img src="assets/logo-mark-cobalt.svg" alt="" class="wordmark-mark"></span>
-      <span class="wordmark-line">WAGON</span>
-    </a>
-    <nav class="site-nav-v3">
-      <a href="gallery.html">Ceramics</a>
-      <a href="ask.html">Ask</a>
-      <a href="contact.html">Contact</a>
-      <a href="https://instagram.com/robby.pots" target="_blank" rel="noopener">Instagram</a>
-    </nav>
+  <div class="container page-shell">
+    <aside class="sidebar">
+      <a href="index.html" class="wordmark-lockup" aria-label="Flaming Clay — home">
+        <span class="wordmark-line">FLAMING</span>
+        <span class="wordmark-line">CLAY<img src="assets/flame-mark.png" alt="" class="flame-mark"></span>
+      </a>
+      <nav class="site-nav-v3">
+        <a href="gallery.html">Ceramics</a>
+        <a href="ask.html">Clay.AI</a>
+        <a href="contact.html">Contact</a>
+        <a href="bio.html">Bio</a>
+        <a href="https://instagram.com/robby.pots" target="_blank" rel="noopener" class="nav-ig" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </nav>
+    </aside>
 
-    <div class="contact-header">
+    <main class="page-content">
+      <div class="contact-header">
       <h1>Get in Touch</h1>
       <p class="tagline">Commission inquiries, questions, or just say hello</p>
     </div>
 
     <section class="card contact-card">
-      <h2>Commission Inquiry</h2>
-      <p class="hint">Tell me a bit about what you're picturing — piece type, size, color/glaze ideas, and rough timeline. I'll follow up with pricing and turnaround.</p>
+      <h2>What's on your mind?</h2>
+      <p class="hint">Tell me a bit about what you're picturing. Are we working together on this piece? What materials interest you?</p>
       <form id="contact-form">
         <div class="field">
           <label for="name">Your Name</label>
@@ -52,9 +58,10 @@
         <div class="status" id="form-status"></div>
       </form>
     </section>
+    </main>
   </div>
 
-  <main></main>
+  <footer class="site-footer">San Francisco</footer>
 
   <script>
     const form = document.getElementById('contact-form');

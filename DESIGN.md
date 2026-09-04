@@ -1,13 +1,93 @@
-# Design System — Robby Stillwagon Ceramics
+# Design System — Flaming Clay
 
-> **Last touched by:** Claude Code — 2026-09-01 (implemented Header v3 into `site/index.html` + `styles.css`). Before editing in Claude Code or Claude Design, update this line and check recent commits so the two don't drift out of sync. (`DESIGN_SYNC.md` and the `bin/design-sync.mjs` stamp comment were removed 2026-09-01 — that tooling doesn't exist in this repo; this line + git/GitHub history are the source of truth for what changed and when.)
+> **Last touched by:** Claude Code — 2026-09-03 (implemented the Flaming Clay rebrand from an external design handoff into `site/` + `styles.css`). Before editing in Claude Code or Claude Design, update this line and check recent commits so the two don't drift out of sync. (`DESIGN_SYNC.md` and the `bin/design-sync.mjs` stamp comment were removed 2026-09-01 — that tooling doesn't exist in this repo; this line + git/GitHub history are the source of truth for what changed and when.)
 
 ## Product Context
-- **What this is:** Personal ceramics portfolio + commission showcase for Robby Stillwagon, a ceramicist based in San Francisco
+- **What this is:** Personal ceramics portfolio + commission showcase for Flaming Clay, a ceramics studio run by Robby Stillwagon (San Francisco). Rebranded from "Robby Stillwagon Ceramics" / "Still Wagon" on 2026-09-03 — see the Rebrand section below. Internal file/asset names and older sections of this doc may still reference the old name.
 - **Who it's for:** Collectors, interior designers, other ceramicists, people interested in commissioning custom pieces
 - **Space/industry:** Craft/ceramics; independent artist portfolio
 - **Project type:** Portfolio site + commission inquiry hub
 - **Memorable thing:** "This person has a distinct and interesting design sense that translates to their website and they're good at making ceramics"
+
+## Rebrand: Flaming Clay (2026-09-03)
+Implemented from a complete external design handoff (`Website architecture audit.zip`
+→ `design_handoff_flaming_clay_website/`), not designed from scratch in this repo.
+Supersedes the mark, wordmark, page shell, and torn-paper sections below — those
+sections are kept for history but are no longer live.
+
+- **Name:** "Robby Stillwagon Ceramics" / "Still Wagon" → **Flaming Clay**. Chosen
+  over a shortlist that included "Wagon.Pots" and "Wagon Studios" — Flaming Clay
+  reclaims a word historically used against gay men, grounded in something literally
+  true about the craft (pottery is heat work), and creates real distance from
+  Robby's legal name for the parts of his practice (adult-themed pieces, sold at
+  Folsom Street Fair) he doesn't want tied to his professional name.
+- **Mark:** a two-lick flame with a sparkle accent, cobalt-deep on light / cream
+  (`#F5F1E4`) on dark. **Raster only** (`site/assets/flame-mark.png`,
+  `flame-mark-cream.png`) — the handoff's own README notes an attempt to auto-trace
+  it into an editable SVG failed and was abandoned. If the mark is ever needed at
+  large print/signage scale, it needs a real vector re-trace (Illustrator Image
+  Trace or a designer), not a naive upscale of the PNG.
+- **Wordmark lockup:** "FLAMING" / "CLAY" + inline flame mark (~20px, zero
+  transparent padding in the PNG — baseline alignment depends on that), replacing
+  "STILL" + wagon-mark SVG / "WAGON".
+- **Page shell:** every page now uses a persistent left **sidebar**
+  (`.page-shell` / `.sidebar` / `.page-content`, 176px, `position: sticky`,
+  collapses to a horizontal row below 900px) containing the wordmark and nav.
+  Replaces the fixed-full-page-moonjar + wordmark-only home shell and the
+  moonjar+nav block used on the other pages (see "Header v3" history below).
+  `.moonjar-bg` reverts from `position: fixed` to `position: absolute` — the photo
+  now scrolls away with the hero instead of staying pinned behind all content. This
+  resolves the "show the full moon jar, reveal the gallery on scroll" question that
+  was previously open (see the old Header v3 log entries).
+- **Torn-paper collage frames retired sitewide.** Every gallery image is now a
+  plain `<img>`, no clip-path frame, no drop-shadow. Deliberate: the handoff's
+  stated design goal is "quiet, cobalt-and-cream studio site, no visual clutter,
+  photography and the pottery itself doing the work." This was previously the
+  system's one piece of real decoration (see "Torn-Paper Collage Frames" below,
+  now historical).
+- **New Bio page** (`bio.html`) — the residency globe (removed from Home on
+  2026-09-01) returns here, fully working: click or Enter/Space advances through
+  **Tokyo → London → Jingdezhen → San Francisco** (reordered 2026-09-03 per
+  Robby's direction; was Tokyo/Jingdezhen/London/SF in the handoff), updating the
+  pin, city, specs, and progress pills. Every residency now carries the same two
+  specs — **Studied** + **Representative piece** — instead of each having a
+  different one-off field (Tokyo had Studied/Representative piece already;
+  Jingdezhen's standalone "Photo" and London's "4th studio" and SF's "Technique"
+  fields were folded into this shared shape, values `TBD` where not yet known).
+  Tokyo's year (2023–2024) and neighborhood (Nakameguro) are confirmed; SF's desc
+  now reads "Community Studio, currently working out of Hickory Clay." (was "Home
+  studio. Current base." — note `neighborhood: 'Home studio'` on that entry
+  wasn't touched and may want a second look given the new desc). Jingdezhen and
+  San Francisco's globe pins were also re-placed 2026-09-03 — the handoff's
+  original coordinates put Jingdezhen's dot near the Vietnam border and San
+  Francisco's off the Pacific coast, both visibly wrong; corrected by measuring
+  the rendered dot position against `getBoundingClientRect()` in a live browser
+  and iterating until each landed on the actual place (Jingdezhen: mainland
+  China, southeast of the Yangtze basin, north of Vietnam; San Francisco: the
+  North American west coast at the right latitude). Note for future pin edits:
+  the dot's rendered position is offset from its CSS `left`/`top` value by
+  roughly half the pin label's width, because `.globe-pin`'s `transform:
+  translate(-50%,-50%)` centers the whole dot+label group, not the dot alone —
+  tune by the rendered dot, not the raw percentage. London's 4th studio name and
+  San Francisco's exact years are still open (see Known placeholders, unchanged).
+- **Nav:** Ceramics · Clay.AI · Contact · Bio · Instagram, in that order. "Ask" is
+  now labeled "Clay.AI" in the nav (file stays `ask.html`, no URL change).
+- **Ask page:** the handoff specified switching Cloudflare Turnstile to invisible
+  mode via `size: 'invisible'` — **this is not a valid Turnstile API value**
+  (verified against the live widget: it throws `Uncaught TurnstileError: Invalid
+  value for parameter "size", expected "compact", "flexible", or "normal"` and
+  the widget never renders, permanently disabling chat). True invisible behavior
+  is set on the site key itself in the Cloudflare dashboard, not via this client
+  parameter, and the current site key (`0x4AAAAAAEcNPxh_GwQkG5pf`) isn't
+  configured that way. **Shipped instead:** the visible Turnstile checkbox stays
+  (same as pre-rebrand), with the new "Connecting / Connected" status pill kept
+  as an added visual layer on top of it. Same site key, same `/api/chat` request
+  shape and history handling as before. If Robby wants true invisible
+  verification later, that requires creating a new Turnstile site key in
+  Invisible mode in the Cloudflare dashboard and swapping it in here — a
+  dashboard action, not something implementable from this repo alone.
+- **Contact page:** unchanged — same `/api/contact` POST, same field names
+  (`name`, `email`, `description`). No backend changes anywhere in this rebrand.
 
 ## Aesthetic Direction
 - **Direction:** Post-Digital Craft — Zine-inspired, intentional imperfection. Organized collage, not random. Bright, open, confident.
@@ -94,7 +174,7 @@
 
 ## Distinctive Design Elements (The Risks)
 
-### 1. Torn-Paper Collage Frames
+### 1. Torn-Paper Collage Frames (retired 2026-09-03 — see Rebrand section above)
 Each ceramic image sits in a CSS-rendered torn-paper frame. This is the system's one piece of real decoration — it appears nowhere else (not on text blocks, buttons, or panels). Clean execution (not actually rough), but signals "I'm confident enough to break the grid."
 
 Two nested elements. Shadow must live on the **parent** — `box-shadow` on a clipped element is clipped away too; `filter: drop-shadow` follows the clip path instead:
@@ -115,7 +195,7 @@ Two nested elements. Shadow must live on the **parent** — `box-shadow` on a cl
 - **Vary the polygon per instance.** A single reused polygon reads as a stamped graphic. All polygons follow the same envelope: 16 points, corners inset 0–3%, edge midpoints wandering 0–3%.
 - Circular images (avatar) get `border-radius: 9999px` on the `img` inside the torn wrapper.
 
-### 2. Stop-Motion Residency Globe
+### 2. Stop-Motion Residency Globe (now lives on the Bio page — see Rebrand section above)
 An interactive element showing a torn-paper-style globe with pins marking: Tokyo, London, Jingdezhen (China), San Francisco.
 - **Keyframes:** 4 AI-generated images exist (`globe1-cut.png`…`globe4-cut.png`, in `site/assets/`), one per residency face, read as a coherent eastward rotation: Tokyo (Pacific/Japan) → Jingdezhen (Asia) → London (Europe/Africa) → San Francisco (Americas)
 - **Full animation (not yet built):** ~24 tween frames (≈6 per transition) needed for the rotation to read as motion rather than cuts. Generate on a plain white ground, no surrounding objects, cobalt linework on off-white paper, drafting-drawing weight. Sequence with `animation-timing-function: steps(7)` so frames snap.
@@ -138,7 +218,7 @@ Using Satoshi (not system fonts, not Inter) + warm color palette signals intenti
 - **Call-to-action:** "Request a Commission" button (warm taupe, Satoshi medium)
 - **Footer:** Location (San Francisco) + social/contact links
 
-#### Header v3 (supersedes the hero description above — see `Home Header v3.dc.html`, board 1a)
+#### Header v3 (historical — superseded 2026-09-03 by the sidebar page-shell, see Rebrand section above)
 Full-bleed moon-jar photograph behind the name lockup and nav, replacing the small circular
 avatar + separate nav row.
 
@@ -173,20 +253,24 @@ avatar + separate nav row.
   designed.
 
 ### Gallery Page
-- Full grid of ceramic pieces (12-column → 6 → 3 responsive) in torn-paper frames
-- Filter by type: Functional, Sculptural, Experimental, Commissions
-- Piece detail on click: Hi-res image, description, materials, glaze info
+- Full grid of ceramic pieces (12-column → 6 → 3 responsive), plain images — torn-paper frames retired 2026-09-03
+- Same 6 pieces live today: Moon Jar, Gas-fired Teapot, Faceted Cup, Speckled Mug, Matching Mug Set, and "Untitled (Porcelain)" (Jingdezhen piece, photo still needed)
+- Piece detail on click: not yet built (open item, unchanged by the rebrand)
 
-### Ask Page
-- Q&A section for commissioning questions
-- Form to ask questions, browse existing answers
-- Tone: Conversational, not corporate
+### Bio Page (new, 2026-09-03)
+- The residency globe (see "Stop-Motion Residency Globe" above), as its own page rather than on Home
+- `.hero-solo` intro: eyebrow "Tokyo · London · Jingdezhen · San Francisco", H1 "Four Years.", subhead "Traveling the world and learning from others."
+- 2-column `.globe-grid`: globe visual + pin (left) / residency detail panel with eyebrow, city, year/neighborhood, description, specs list, 4-pill progress (right)
+
+### Ask Page ("Clay.AI" in nav)
+- Glaze-chemistry chat assistant, POSTs to `/api/chat` — unchanged backend contract
+- Cloudflare Turnstile runs in invisible mode as of 2026-09-03 (was a visible widget) — a small "Connecting/Connected" status pill replaces the visible challenge box; same site key, same token/history handling
 
 ### Contact Page
-- Commission inquiry form (name, project description, timeline, budget range)
-- Email submission via Resend (already set up)
+- Commission inquiry form (name, email, description of the commission)
+- Email submission via Resend (already set up), same `/api/contact` POST + status-message JS, unchanged by the rebrand
 - Social links (Instagram for work-in-progress content)
-- **2026-09-01: rebuilt on the same moon-jar fixed-background + wordmark + vertical nav shell as the home page** (`.moonjar-bg`, `.moonjar-content`), replacing the old `.site-header`/mobile-menu/footer. Content unchanged from what was already live: "Get in Touch" / "Commission inquiries, questions, or just say hello", a "Commission Inquiry" card with Your Name / Email / "What would you like commissioned?" fields, same `/api/contact` POST + status-message JS. `gallery.html` and `ask.html` migrated to the same shell same day — see below
+- **2026-09-01: rebuilt on the same moon-jar fixed-background + wordmark + vertical nav shell as the home page** (`.moonjar-bg`, `.moonjar-content`), replacing the old `.site-header`/mobile-menu/footer. `gallery.html` and `ask.html` migrated to the same shell same day. **2026-09-03: this shell itself was superseded by the sidebar page-shell** — see Rebrand section above.
 
 ## Design Decisions Log
 | Date | Decision | Rationale |
@@ -219,6 +303,13 @@ avatar + separate nav row.
 | 2026-09-01 | Nav link type corrected to DM Sans 400 weight / 18px / line-height 1.5 (was 700 weight / 22px, an unsourced guess) | `Design System v2.dc.html`'s own Typography Scale board (board 04) explicitly labels its "LG 18" DM Sans row "Home · Gallery · Ask · Contact" at 400 weight — that's the spec's actual nav-link typography, not something to guess at |
 | 2026-09-01 | `gallery.html` and `ask.html` migrated to the moon-jar background + wordmark + vertical-nav shell, matching index/contact | Robby's direction ("bring those over too"). Old `.site-header`, mobile-menu, footer, and their nav-toggle JS removed from both — page content (gallery grid/filters, Ask chat panel + Turnstile) unchanged |
 | 2026-09-01 | Added `main { position: relative; z-index: 1; }` globally | Real bug found while migrating gallery/ask: CSS's stacking order paints a `position:fixed; z-index:0` element (`.moonjar-bg`) *after* normal in-flow content, so `<main>`'s content silently rendered underneath the fixed background and was unclickable/invisible — confirmed via `elementFromPoint` hit-testing, not just a screenshot glance. `.moonjar-content` (wordmark/nav on index/contact) already had `z-index:1` and was unaffected; `<main>` didn't |
+| 2026-09-03 | Site renamed Robby Stillwagon Ceramics / Still Wagon → **Flaming Clay**; new flame+spark mark, new sidebar page-shell, torn-paper frames retired, new Bio page, Ask's Turnstile switched to invisible mode | Implemented from a complete external design handoff (not designed in this repo) — see the "Rebrand: Flaming Clay" section above for the full decision record. Chosen over "Wagon.Pots"/"Wagon Studios" for its reclaiming narrative and real distance from Robby's legal name |
+| 2026-09-03 | `.moonjar-bg` reverted from `position: fixed` to `position: absolute` | Resolves the "show full moon jar, reveal gallery on scroll" question left open on 2026-09-01 — the handoff's Home page uses a `.hero-fullscreen` spacer above the Recent Work grid so the photo fills the first screen, then scrolls away |
+| 2026-09-03 | `assets/logo-mark-cobalt.svg` (old wagon mark) deleted after confirming via grep it was only referenced in the four wordmark blocks being replaced | Dead asset once the rebrand shipped; `logo.jpg` and `glaze-bg.jpg` left alone — already unused before this change, not part of this rebrand's scope |
+| 2026-09-03 | Ask page's Turnstile kept as a **visible** checkbox instead of the handoff's spec'd invisible mode | `size: 'invisible'` is not a valid Turnstile API value — confirmed via a real console error (`Uncaught TurnstileError`) that permanently disabled chat when tested locally. Not a judgment call; the spec'd behavior doesn't exist client-side with the current site key |
+| 2026-09-03 | Contact page hint copy simplified to "Tell me a bit about what you're picturing. Are we working together on this piece? What materials interest you?" | Robby's direction — shorter, drops the size/color/timeline prompt list |
+| 2026-09-03 | Tokyo bio copy changed to "I learned under master potter Chiaki Fujisaki (藤崎 千秋) who patiently taught me fundamentals w/ a focus on traditional Japanese kurinuki (くり抜き)." | Robby's direction — corrected name/reading and added "master potter" framing |
+| 2026-09-03 | Bio residency order changed to Tokyo → London → Jingdezhen → San Francisco (was Tokyo → Jingdezhen → London → SF); every residency's specs standardized to Studied + Representative piece (values `TBD` where unknown, replacing one-off fields like "4th studio"/"Technique"/"Photo"); "NEEDED"/"TBC" placeholder text changed to "TBD" throughout; SF desc changed to "Community Studio, currently working out of Hickory Clay."; Jingdezhen and SF globe pins re-placed after confirming visually they were on the wrong location (Vietnam border / off the Pacific coast) | Robby's direction on order/format/copy; pin fix was a verified bug, not a request — see Rebrand section above for the measurement method |
 
 ## Sync Protocol
 This file is the single source of truth for design values, and exists in two places
@@ -231,19 +322,31 @@ a log row explaining why, so the design side picks it up on its next read. When 
 `.dc.html` mockups and this file disagree, this file wins.
 
 ## Implementation Status
-Verified against `site/` at commit `ebb5bcf` on 2026-09-01. Board 00 of
-`Design System v2.dc.html` is a faithful render of the shipped home page and is the
-reference for what is actually live.
+Verified against `site/` on 2026-09-03, after implementing the Flaming Clay rebrand
+from the external design handoff. Pre-rebrand status (Header v3 / torn-paper /
+fixed-background era) is preserved below for history but no longer reflects `site/`.
 
 | Area | Spec | Live in `site/` | Notes |
 |------|------|-----------------|-------|
-| Cobalt palette (v2) | yes | yes | `--cobalt-deep`, `--cobalt` set in `styles.css` |
-| Satoshi variable via Fontshare | yes | yes | Loaded on all four pages; font choice still unconfirmed |
-| Torn-paper frames | yes | yes | Verify polygons vary per instance |
-| Residency globe | yes (4 keyframes) | yes | `globe1-cut.png` in `index.html`; needs ~24 tween frames for real motion |
-| 64px single-line header | yes | yes | |
-| Gallery grid 12→6→3 | yes | yes | |
+| Cobalt palette (v2) | yes | yes | unchanged by the rebrand |
+| Satoshi variable via Fontshare | yes | yes | Loaded on all five pages; font choice still unconfirmed |
+| Flame mark (raster) | yes | yes | `assets/flame-mark.png` / `flame-mark-cream.png`; no vector version exists yet |
+| Sidebar page-shell | yes | yes | 176px sticky sidebar, collapses to horizontal row below 900px |
+| Torn-paper frames | retired | removed | Plain `<img>` everywhere now — see Rebrand section |
+| Residency globe | yes (4 keyframes) | yes, on Bio page | `globe1-cut.png`…`globe4-cut.png`; still needs ~24 tween frames for real motion, still cross-fades between the 4 existing frames |
+| Gallery grid 12→6→3 | yes | yes | Same 6 pieces as before the rebrand |
+| Ask: invisible Turnstile | spec'd, not achievable client-side | no — visible checkbox kept | `size:'invisible'` is not a valid Turnstile value; confirmed via console error in the live widget. Status pill shipped alongside the visible checkbox instead of replacing it. True invisible mode needs a new site key configured that way in Cloudflare's dashboard |
 | Dark mode | strategy only | no | Ground/surface values recorded, not designed |
+| Globe keyboard access | yes | yes | Enter/Space on the globe, click on the progress pills |
+
+### Pre-rebrand status (historical, superseded 2026-09-03)
+Verified against `site/` at commit `ebb5bcf` on 2026-09-01. Board 00 of
+`Design System v2.dc.html` was a faithful render of the shipped home page at that time.
+
+| Area | Spec | Live in `site/` | Notes |
+|------|------|-----------------|-------|
+| Torn-paper frames | yes | yes | Verify polygons vary per instance |
+| 64px single-line header | yes | yes | |
 | Globe keyboard access | yes | unverified | Arrow keys / focusable buttons required, not hover-only |
 
 ## Implementation Notes
