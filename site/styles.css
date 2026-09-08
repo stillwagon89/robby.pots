@@ -416,13 +416,13 @@ main {
   max-width: 640px;
 }
 .hero-fullscreen {
-  min-height: 100vh;
+  min-height: calc(100vh - 300px);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 @media (max-width: 900px) {
-  .hero-fullscreen { min-height: 100vh; }
+  .hero-fullscreen { min-height: 70vh; }
 }
 .hero-solo .btn-cta { margin-top: var(--space-md); display: inline-block; }
 
