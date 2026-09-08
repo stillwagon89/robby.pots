@@ -62,6 +62,15 @@ const GALLERY_PIECES = [
     img: 'assets/gallery/teapot-green.webp',
     alt: 'Wave Teapot',
     aspect: '1136/1016'
+  },
+  {
+    title: 'Gong Fu Style Teapot',
+    materials: '',
+    img: 'assets/gallery/teapot-gongfu.jpg',
+    alt: 'Gong Fu Style Teapot',
+    aspect: '1200/1072',
+    price: 100,
+    buyLink: 'https://square.link/u/MYXIKhsn'
     // To list a piece for sale: add `price` (number) and `buyLink` (Square
     // Payment Link URL, e.g. 'https://square.link/u/XXXXXXXX') to its entry.
     // When it sells, remove those two fields to take the Buy button down —
