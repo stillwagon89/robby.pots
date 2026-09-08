@@ -12,64 +12,55 @@ const GALLERY_PIECES = [
     title: 'Moon Jar',
     materials: 'Stoneware · celadon glaze, iron-oxide rim',
     img: 'moon-jar.jpg',
-    alt: 'Moon Jar',
-    aspect: '4/5'
+    alt: 'Moon Jar'
   },
   {
     title: 'Matching Mug Set',
     materials: 'Stoneware · glossy speckled glaze',
     img: 'mug2.png',
-    alt: 'Matching Mug Set',
-    aspect: '5/4'
+    alt: 'Matching Mug Set'
   },
   {
     title: 'Serving Tray',
     materials: '',
     img: 'assets/gallery/serving-tray.jpg',
-    alt: 'Serving Tray',
-    aspect: '768/1024'
+    alt: 'Serving Tray'
   },
   {
     title: 'Speckled Cream Mug',
     materials: '',
     img: 'assets/gallery/mug-cream.jpg',
-    alt: 'Speckled Cream Mug',
-    aspect: '1206/1552'
+    alt: 'Speckled Cream Mug'
   },
   {
     title: 'Black Glazed Mug',
     materials: '',
     img: 'assets/gallery/mug-black.jpg',
-    alt: 'Black Glazed Mug',
-    aspect: '768/1024'
+    alt: 'Black Glazed Mug'
   },
   {
     title: 'Blue Lidded Jar',
     materials: '',
     img: 'assets/gallery/jar-blue.jpg',
-    alt: 'Blue Lidded Jar',
-    aspect: '768/1024'
+    alt: 'Blue Lidded Jar'
   },
   {
     title: 'White Tumbler',
     materials: '',
     img: 'assets/gallery/tumbler-white.jpg',
-    alt: 'White Tumbler',
-    aspect: '768/1024'
+    alt: 'White Tumbler'
   },
   {
     title: 'Wave Teapot',
     materials: '',
     img: 'assets/gallery/teapot-green.webp',
-    alt: 'Wave Teapot',
-    aspect: '1136/1016'
+    alt: 'Wave Teapot'
   },
   {
     title: 'Gong Fu Style Teapot',
     materials: '',
     img: 'assets/gallery/teapot-gongfu.jpg',
     alt: 'Gong Fu Style Teapot',
-    aspect: '1200/1072',
     price: 100,
     buyLink: 'https://square.link/u/MYXIKhsn'
     // To list a piece for sale: add `price` (number) and `buyLink` (Square
@@ -91,8 +82,8 @@ async function renderGallery(containerId) {
       const live = await res.json();
       if (Array.isArray(live) && live.length) {
         // Square-sourced pieces: img/alt/title come straight from the
-        // catalog item, aspect ratio isn't known ahead of time (measured
-        // client-side once the photo loads, see below).
+        // catalog item. Every gallery box is a fixed 4:5 crop (see CSS),
+        // so the source photo's own dimensions don't matter here.
         pieces = live.map(p => ({
           title: p.title,
           materials: '',
@@ -107,11 +98,13 @@ async function renderGallery(containerId) {
     console.error('gallery fetch failed, using fallback pieces', err);
   }
 
-  el.innerHTML = pieces.map((piece, i) => {
-    const aspectStyle = piece.aspect ? 'aspect-ratio:' + piece.aspect + '; ' : '';
+  el.innerHTML = pieces.map((piece) => {
+    // Every gallery box is a fixed 4:5 crop (see .gallery-item in CSS), so
+    // the same box size and hover-title position apply no matter what
+    // aspect ratio the source photo actually is.
     const media = piece.placeholder
-      ? '<div class="placeholder-image" style="aspect-ratio:' + piece.aspect + '"><span class="chip">' + piece.placeholder + '</span></div>'
-      : '<img data-piece-index="' + i + '" src="' + piece.img + '" alt="' + piece.alt + '" style="' + aspectStyle + 'width:100%; object-fit:cover; display:block; background:transparent;">';
+      ? '<div class="placeholder-image"><span class="chip">' + piece.placeholder + '</span></div>'
+      : '<img src="' + piece.img + '" alt="' + piece.alt + '">';
     // Title always comes along; the buy pill only appears (on hover, see
     // CSS) when the piece is actually purchasable.
     const buy = piece.buyLink
@@ -122,19 +115,4 @@ async function renderGallery(containerId) {
       : '<div class="piece-hover"><p class="piece-hover-title">' + piece.title + '</p>' + buy + '</div>';
     return '<div class="gallery-item' + (piece.placeholder ? ' empty' : '') + '">' + media + hover + '</div>';
   }).join('');
-
-  // Pieces without a hardcoded aspect (i.e. live Square photos) get their
-  // real aspect ratio applied once the image has loaded, so they don't
-  // stretch/squash to a default box.
-  el.querySelectorAll('img[data-piece-index]').forEach(img => {
-    const piece = pieces[Number(img.dataset.pieceIndex)];
-    if (piece.aspect) return;
-    const apply = () => {
-      if (img.naturalWidth && img.naturalHeight) {
-        img.style.aspectRatio = img.naturalWidth + '/' + img.naturalHeight;
-      }
-    };
-    if (img.complete) apply();
-    else img.addEventListener('load', apply, { once: true });
-  });
 }
