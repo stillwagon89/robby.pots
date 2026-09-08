@@ -703,10 +703,32 @@ main {
 .gallery-item .torn-frame { margin-bottom: var(--space-md); }
 .gallery-item .caption { padding: 4px 8px; background: rgba(255,255,255,0.82); border-radius: var(--radius-sm); display: inline-block; }
 
-.gallery-item .buy-btn {
+.gallery-item .piece-hover {
   position: absolute;
-  left: 10px;
-  bottom: 10px;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 14px;
+  background: linear-gradient(to top, rgba(20, 26, 43, 0.62), rgba(20, 26, 43, 0.62) 30%, transparent 65%);
+  opacity: 0;
+  transition: opacity 150ms var(--ease-out);
+  pointer-events: none;
+}
+.gallery-item:hover .piece-hover,
+.gallery-item:focus-within .piece-hover { opacity: 1; pointer-events: auto; }
+
+.gallery-item .piece-hover-title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.gallery-item .buy-btn {
   font-family: var(--font-display);
   font-weight: 500;
   font-size: 13px;

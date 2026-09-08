@@ -7,10 +7,6 @@
 // the site never shows a blank gallery. Once Square is the confirmed
 // source of truth for every piece, this fallback array can be deleted.
 //
-// SHOW_CAPTIONS: title/materials text is hidden below each photo while this
-// is false, but stays in GALLERY_PIECES below so it's one flip to bring back.
-const SHOW_CAPTIONS = false;
-
 const GALLERY_PIECES = [
   {
     title: 'Moon Jar',
@@ -116,14 +112,15 @@ async function renderGallery(containerId) {
     const media = piece.placeholder
       ? '<div class="placeholder-image" style="aspect-ratio:' + piece.aspect + '"><span class="chip">' + piece.placeholder + '</span></div>'
       : '<img data-piece-index="' + i + '" src="' + piece.img + '" alt="' + piece.alt + '" style="' + aspectStyle + 'width:100%; object-fit:cover; display:block; background:transparent;">';
-    const caption = SHOW_CAPTIONS
-      ? '<div class="caption"><p class="piece-title">' + piece.title + '</p><p class="piece-materials">' + piece.materials + '</p></div>'
-      : '';
+    // Title always comes along; the buy pill only appears (on hover, see
+    // CSS) when the piece is actually purchasable.
     const buy = piece.buyLink
-      ? '<a class="buy-btn" href="' + piece.buyLink + '" target="_blank" rel="noopener">' +
-        (piece.price ? 'Buy — $' + piece.price : 'Buy') + '</a>'
+      ? '<a class="buy-btn" href="' + piece.buyLink + '" target="_blank" rel="noopener">Buy — $' + piece.price + '</a>'
       : '';
-    return '<div class="gallery-item' + (piece.placeholder ? ' empty' : '') + '">' + media + caption + buy + '</div>';
+    const hover = piece.placeholder
+      ? ''
+      : '<div class="piece-hover"><p class="piece-hover-title">' + piece.title + '</p>' + buy + '</div>';
+    return '<div class="gallery-item' + (piece.placeholder ? ' empty' : '') + '">' + media + hover + '</div>';
   }).join('');
 
   // Pieces without a hardcoded aspect (i.e. live Square photos) get their
