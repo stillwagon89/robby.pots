@@ -43,7 +43,7 @@ const PIECES = [
   { title: "Black Glazed Mug", img: "assets/gallery/mug-black.jpg" },
   { title: "Blue Lidded Jar", img: "assets/gallery/jar-blue.jpg" },
   { title: "White Tumbler", img: "assets/gallery/tumbler-white.jpg" },
-  { title: "Wave Teapot", img: "assets/gallery/teapot-green.webp" },
+  { title: "Wave Teapot", img: "assets/gallery/teapot-green.jpg" },
   { title: "Gong Fu Style Teapot", img: "assets/gallery/teapot-gongfu.jpg", price: 100 },
 ];
 
@@ -135,7 +135,7 @@ async function upsertItem(piece, categoryId, imageId) {
         id: itemTempId,
         item_data: {
           name: piece.title,
-          category_id: categoryId,
+          categories: [{ id: categoryId }],
           image_ids: [imageId],
           variations: [
             {

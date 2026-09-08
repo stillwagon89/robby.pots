@@ -65,9 +65,8 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
 
   const items = objects.filter((o: any) => {
     if (o.type !== "ITEM") return false;
-    const directCategoryId = o.item_data?.category_id;
     const categoryList: any[] = o.item_data?.categories || [];
-    return directCategoryId === category.id || categoryList.some((c) => c?.id === category.id);
+    return categoryList.some((c) => c?.id === category.id);
   });
 
   // variation id -> live inventory count, only fetched for tracked variations
