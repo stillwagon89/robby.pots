@@ -24,10 +24,22 @@
     {
       "binding": "RATE_LIMIT",
       "id": "7d398a31195540dfa7840bcae07962d9"
+    },
+    {
+      "binding": "GALLERY_CACHE",
+      "id": "7b0f4b621ce34b8690381da48a85397f"
     }
   ],
 
   "ai": {
     "binding": "AI"
+  },
+
+  "vars": {
+    "SQUARE_CATEGORY_NAME": "Website",
+    // Fill in with your Square location ID (Square Dashboard -> Locations,
+    // or GET /v2/locations with your access token). Not sensitive, so it's
+    // a plain var rather than a secret.
+    "SQUARE_LOCATION_ID": ""
   }
 }

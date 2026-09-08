@@ -2,3 +2,8 @@
 # Never commit real secret values.
 
 ANTHROPIC_API_KEY=sk-ant-your-key-here
+
+# Square access token from the Square Developer Dashboard, with Items,
+# Inventory, and Orders/Checkout read+write permissions. Used by
+# functions/api/gallery.ts and scripts/migrate-gallery-to-square.mjs.
+SQUARE_ACCESS_TOKEN=your-square-access-token-here

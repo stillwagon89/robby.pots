@@ -1,6 +1,11 @@
-// Shared gallery component. Single source of truth for the pieces shown on
-// both the home page's "Recent Work" section and the full Ceramics/Gallery
-// page — edit GALLERY_PIECES here and both pages update.
+// Shared gallery component. Pieces now come live from Square (see
+// /api/gallery, functions/api/gallery.ts) — add/price/retire pieces in the
+// Square Item Library's "Website" category, no edits needed here.
+//
+// GALLERY_PIECES below is a fallback only, used if /api/gallery returns
+// nothing (e.g. before Square is fully set up, or if the sync fails), so
+// the site never shows a blank gallery. Once Square is the confirmed
+// source of truth for every piece, this fallback array can be deleted.
 //
 // SHOW_CAPTIONS: title/materials text is hidden below each photo while this
 // is false, but stays in GALLERY_PIECES below so it's one flip to bring back.
@@ -79,13 +84,38 @@ const GALLERY_PIECES = [
   }
 ];
 
-function renderGallery(containerId) {
+async function renderGallery(containerId) {
   const el = document.getElementById(containerId);
   if (!el) return;
-  el.innerHTML = GALLERY_PIECES.map(piece => {
+
+  let pieces = GALLERY_PIECES;
+  try {
+    const res = await fetch('/api/gallery');
+    if (res.ok) {
+      const live = await res.json();
+      if (Array.isArray(live) && live.length) {
+        // Square-sourced pieces: img/alt/title come straight from the
+        // catalog item, aspect ratio isn't known ahead of time (measured
+        // client-side once the photo loads, see below).
+        pieces = live.map(p => ({
+          title: p.title,
+          materials: '',
+          img: p.imageUrl,
+          alt: p.title,
+          price: p.price,
+          buyLink: p.buyLink
+        }));
+      }
+    }
+  } catch (err) {
+    console.error('gallery fetch failed, using fallback pieces', err);
+  }
+
+  el.innerHTML = pieces.map((piece, i) => {
+    const aspectStyle = piece.aspect ? 'aspect-ratio:' + piece.aspect + '; ' : '';
     const media = piece.placeholder
       ? '<div class="placeholder-image" style="aspect-ratio:' + piece.aspect + '"><span class="chip">' + piece.placeholder + '</span></div>'
-      : '<img src="' + piece.img + '" alt="' + piece.alt + '" style="aspect-ratio:' + piece.aspect + '; width:100%; object-fit:cover; display:block; background:transparent;">';
+      : '<img data-piece-index="' + i + '" src="' + piece.img + '" alt="' + piece.alt + '" style="' + aspectStyle + 'width:100%; object-fit:cover; display:block; background:transparent;">';
     const caption = SHOW_CAPTIONS
       ? '<div class="caption"><p class="piece-title">' + piece.title + '</p><p class="piece-materials">' + piece.materials + '</p></div>'
       : '';
@@ -95,4 +125,19 @@ function renderGallery(containerId) {
       : '';
     return '<div class="gallery-item' + (piece.placeholder ? ' empty' : '') + '">' + media + caption + buy + '</div>';
   }).join('');
+
+  // Pieces without a hardcoded aspect (i.e. live Square photos) get their
+  // real aspect ratio applied once the image has loaded, so they don't
+  // stretch/squash to a default box.
+  el.querySelectorAll('img[data-piece-index]').forEach(img => {
+    const piece = pieces[Number(img.dataset.pieceIndex)];
+    if (piece.aspect) return;
+    const apply = () => {
+      if (img.naturalWidth && img.naturalHeight) {
+        img.style.aspectRatio = img.naturalWidth + '/' + img.naturalHeight;
+      }
+    };
+    if (img.complete) apply();
+    else img.addEventListener('load', apply, { once: true });
+  });
 }
