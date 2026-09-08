@@ -699,9 +699,26 @@ main {
   padding-bottom: var(--space-3xl);
 }
 
-.gallery-item { display: flex; flex-direction: column; }
+.gallery-item { display: flex; flex-direction: column; position: relative; }
 .gallery-item .torn-frame { margin-bottom: var(--space-md); }
 .gallery-item .caption { padding: 4px 8px; background: rgba(255,255,255,0.82); border-radius: var(--radius-sm); display: inline-block; }
+
+.gallery-item .buy-btn {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 13px;
+  color: #FFFFFF;
+  background: var(--cobalt);
+  padding: 7px 14px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  text-decoration: none;
+  transition: background 100ms var(--ease-out);
+}
+.gallery-item .buy-btn:hover { background: var(--cobalt-deep); }
 .gallery-item .piece-title {
   font-family: var(--font-display);
   font-weight: 500;

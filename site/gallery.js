@@ -62,6 +62,11 @@ const GALLERY_PIECES = [
     img: 'assets/gallery/teapot-green.webp',
     alt: 'Wave Teapot',
     aspect: '1136/1016'
+    // To list a piece for sale: add `price` (number) and `buyLink` (Square
+    // Payment Link URL, e.g. 'https://square.link/u/XXXXXXXX') to its entry.
+    // When it sells, remove those two fields to take the Buy button down —
+    // this is a static link, not a live-inventory widget, so it doesn't
+    // know on its own when Square marks the item sold out.
   }
 ];
 
@@ -75,6 +80,10 @@ function renderGallery(containerId) {
     const caption = SHOW_CAPTIONS
       ? '<div class="caption"><p class="piece-title">' + piece.title + '</p><p class="piece-materials">' + piece.materials + '</p></div>'
       : '';
-    return '<div class="gallery-item' + (piece.placeholder ? ' empty' : '') + '">' + media + caption + '</div>';
+    const buy = piece.buyLink
+      ? '<a class="buy-btn" href="' + piece.buyLink + '" target="_blank" rel="noopener">' +
+        (piece.price ? 'Buy — $' + piece.price : 'Buy') + '</a>'
+      : '';
+    return '<div class="gallery-item' + (piece.placeholder ? ' empty' : '') + '">' + media + caption + buy + '</div>';
   }).join('');
 }
