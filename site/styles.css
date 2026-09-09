@@ -762,9 +762,18 @@ main {
 }
 .gallery-item.sold .piece-title { color: var(--cobalt-muted); }
 
-/* Desktop/hover-capable: same band + price-tag styling as mobile, just hidden until hover/focus. */
+/* Desktop/hover-capable: same band + price-tag styling as mobile, but overlaid on
+   the image and hidden until hover/focus instead of sitting permanently below it. */
 @media (hover: hover) and (pointer: fine) {
-  .gallery-item .band,
+  .gallery-item .band {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--paper);
+    opacity: 0;
+    transition: opacity 150ms var(--ease-out);
+  }
   .gallery-item .price-tag {
     opacity: 0;
     transition: opacity 150ms var(--ease-out);
