@@ -98,7 +98,18 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
     // shouldn't either. Sold-out pieces stay in the gallery (Robby wants
     // them visible, just marked) instead of being dropped.
     const tracked = Boolean(variation.item_variation_data?.track_inventory);
-    const soldOut = tracked && (inventory.get(variation.id) ?? 0) <= 0;
+    const trackedSoldOut = tracked && (inventory.get(variation.id) ?? 0) <= 0;
+
+    // Separately, Square's dashboard "Status: Sold out" dropdown (the one
+    // most items actually use, rather than turning on full quantity
+    // tracking) sets a manual `sold_out` flag on the item's per-location
+    // override — nothing to do with track_inventory or the Inventory API.
+    // Both mechanisms count as sold out here.
+    const locationOverrides: any[] = variation.item_variation_data?.location_overrides || [];
+    const override = locationOverrides.find((o: any) => o?.location_id === env.SQUARE_LOCATION_ID);
+    const manualSoldOut = Boolean(override?.sold_out);
+
+    const soldOut = trackedSoldOut || manualSoldOut;
 
     const priceMoney = variation.item_variation_data?.price_money;
     const price = soldOut ? null : priceMoney?.amount != null ? Math.round(priceMoney.amount) / 100 : null;
