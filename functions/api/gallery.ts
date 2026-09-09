@@ -89,24 +89,29 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
     const imageUrl = imageId ? images.get(imageId)?.image_data?.url : null;
     if (!imageUrl) continue; // no photo, nothing to show
 
+    // Inventory tracking only decides whether a *tracked* item is sold out
+    // (dropped entirely below); it's unrelated to whether the item has a
+    // price. A piece can be for sale with a plain price_money and no
+    // inventory tracking at all — Square doesn't require tracking to sell
+    // something, and this code shouldn't either.
     const tracked = Boolean(variation.item_variation_data?.track_inventory);
+    if (tracked) {
+      const qty = inventory.get(variation.id) ?? 0;
+      if (qty <= 0) continue; // sold out — drop it entirely
+    }
+
     const priceMoney = variation.item_variation_data?.price_money;
     const price = priceMoney?.amount != null ? Math.round(priceMoney.amount) / 100 : null;
 
     let buyLink: string | null = null;
-
-    if (tracked) {
-      const qty = inventory.get(variation.id) ?? 0;
-      if (qty <= 0) continue; // sold out — drop it entirely
-      if (price != null) {
-        buyLink = await getOrCreatePaymentLink(env, variation.id);
-      }
+    if (price != null) {
+      buyLink = await getOrCreatePaymentLink(env, variation.id);
     }
 
     pieces.push({
       title: item.item_data?.name || "Untitled",
       imageUrl,
-      price: tracked ? price : null,
+      price,
       buyLink,
       updatedAt: item.updated_at || "",
     });
