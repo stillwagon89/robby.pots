@@ -1,8 +1,9 @@
 // Builds the gallery feed from Square's Item Library instead of a hardcoded
 // list. Items tagged with the SQUARE_CATEGORY_NAME category show up here;
-// items with inventory tracking on and quantity 0 are treated as sold and
-// dropped. Result is cached in GALLERY_CACHE for CACHE_TTL_SECONDS so normal
-// page loads never call Square directly.
+// items with inventory tracking on and quantity 0 stay visible but are
+// marked soldOut (no price/buy link) rather than being dropped. Result is
+// cached in GALLERY_CACHE for CACHE_TTL_SECONDS so normal page loads never
+// call Square directly.
 //
 // NOTE: written against Square's documented API shape without a live token
 // to test against — first real run with Robby's credentials will likely
@@ -26,6 +27,7 @@ interface GalleryPiece {
   imageUrl: string;
   price: number | null;
   buyLink: string | null;
+  soldOut: boolean;
 }
 
 export const onRequestGet: PagesFunction<Env> = async (context) => {
@@ -89,19 +91,17 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
     const imageUrl = imageId ? images.get(imageId)?.image_data?.url : null;
     if (!imageUrl) continue; // no photo, nothing to show
 
-    // Inventory tracking only decides whether a *tracked* item is sold out
-    // (dropped entirely below); it's unrelated to whether the item has a
-    // price. A piece can be for sale with a plain price_money and no
-    // inventory tracking at all — Square doesn't require tracking to sell
-    // something, and this code shouldn't either.
+    // Inventory tracking only decides whether a *tracked* item is sold out;
+    // it's unrelated to whether the item has a price. A piece can be for
+    // sale with a plain price_money and no inventory tracking at all —
+    // Square doesn't require tracking to sell something, and this code
+    // shouldn't either. Sold-out pieces stay in the gallery (Robby wants
+    // them visible, just marked) instead of being dropped.
     const tracked = Boolean(variation.item_variation_data?.track_inventory);
-    if (tracked) {
-      const qty = inventory.get(variation.id) ?? 0;
-      if (qty <= 0) continue; // sold out — drop it entirely
-    }
+    const soldOut = tracked && (inventory.get(variation.id) ?? 0) <= 0;
 
     const priceMoney = variation.item_variation_data?.price_money;
-    const price = priceMoney?.amount != null ? Math.round(priceMoney.amount) / 100 : null;
+    const price = soldOut ? null : priceMoney?.amount != null ? Math.round(priceMoney.amount) / 100 : null;
 
     let buyLink: string | null = null;
     if (price != null) {
@@ -113,6 +113,7 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
       imageUrl,
       price,
       buyLink,
+      soldOut,
       updatedAt: item.updated_at || "",
     });
   }

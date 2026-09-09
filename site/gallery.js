@@ -90,7 +90,8 @@ async function renderGallery(containerId) {
           img: p.imageUrl,
           alt: p.title,
           price: p.price,
-          buyLink: p.buyLink
+          buyLink: p.buyLink,
+          soldOut: p.soldOut
         }));
       }
     }
@@ -106,8 +107,11 @@ async function renderGallery(containerId) {
       ? '<div class="placeholder-image"><span class="chip">' + piece.placeholder + '</span></div>'
       : '<img src="' + piece.img + '" alt="' + piece.alt + '">';
     // Title always comes along; the buy pill only appears (on hover, see
-    // CSS) when the piece is actually purchasable.
-    const buy = piece.buyLink
+    // CSS) when the piece is actually purchasable. A sold-out piece stays
+    // in the gallery — it just gets a "Sold Out" pill instead of a price.
+    const buy = piece.soldOut
+      ? '<span class="sold-out-pill">Sold Out</span>'
+      : piece.buyLink
       ? '<a class="buy-btn" href="' + piece.buyLink + '" target="_blank" rel="noopener">Buy — $' + piece.price + '</a>'
       : '';
     const hover = piece.placeholder
