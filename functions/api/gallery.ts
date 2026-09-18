@@ -183,11 +183,15 @@ async function getOrCreatePaymentLink(env: Env, variationId: string, snapshot: s
       // it's created; without it, a price or name change on the dashboard
       // would keep returning the old link (and the old values) forever.
       body: JSON.stringify({
-        idempotency_key: `gallery-${variationId}-${await shortHash(snapshot)}`,
+        idempotency_key: `gallery-${variationId}-${await shortHash(snapshot + "|ship1")}`,
         order: {
           location_id: env.SQUARE_LOCATION_ID,
           line_items: [{ catalog_object_id: variationId, quantity: "1" }],
         },
+        // Pieces ship, so checkout must collect an address (Google Pay
+        // and Apple Pay skip it otherwise). Bump the key suffix below if
+        // these options change so existing links get regenerated.
+        checkout_options: { ask_for_shipping_address: true },
       }),
     });
     if (!res.ok) {
