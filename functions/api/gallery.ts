@@ -116,7 +116,7 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
 
     let buyLink: string | null = null;
     if (price != null) {
-      buyLink = await getOrCreatePaymentLink(env, variation.id);
+      buyLink = await getOrCreatePaymentLink(env, variation.id, `${priceMoney.amount}|${item.item_data?.name || ""}|${variation.item_variation_data?.name || ""}`);
     }
 
     pieces.push({
@@ -172,15 +172,18 @@ async function batchRetrieveInventory(env: Env, variationIds: string[]): Promise
   return counts;
 }
 
-async function getOrCreatePaymentLink(env: Env, variationId: string): Promise<string | null> {
+async function getOrCreatePaymentLink(env: Env, variationId: string, snapshot: string): Promise<string | null> {
   try {
     const res = await fetch(`${SQUARE_API_BASE}/online-checkout/payment-links`, {
       method: "POST",
       headers: squareHeaders(env),
       // Deterministic idempotency key: re-syncing returns the same link
-      // instead of creating a new one each time.
+      // instead of creating a new one each time. The price is part of the
+      // key because Square snapshots the price into the link's order when
+      // it's created; without it, a price or name change on the dashboard
+      // would keep returning the old link (and the old values) forever.
       body: JSON.stringify({
-        idempotency_key: `gallery-${variationId}`,
+        idempotency_key: `gallery-${variationId}-${await shortHash(snapshot)}`,
         order: {
           location_id: env.SQUARE_LOCATION_ID,
           line_items: [{ catalog_object_id: variationId, quantity: "1" }],
@@ -197,6 +200,11 @@ async function getOrCreatePaymentLink(env: Env, variationId: string): Promise<st
     console.error("payment link creation error", err);
     return null;
   }
+}
+
+async function shortHash(input: string): Promise<string> {
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(input));
+  return [...new Uint8Array(buf)].slice(0, 8).map((b) => b.toString(16).padStart(2, "0")).join("");
 }
 
 function squareHeaders(env: Env): HeadersInit {
