@@ -721,7 +721,7 @@ main {
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .gallery-item.sold .media img {
   filter: grayscale(0.25) opacity(0.75);
