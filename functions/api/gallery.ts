@@ -20,7 +20,8 @@ interface Env {
 const SQUARE_API_BASE = "https://connect.squareup.com/v2";
 const SQUARE_VERSION = "2024-10-17";
 const CACHE_KEY = "gallery:v1";
-const CACHE_TTL_SECONDS = 600;
+// 60s is the minimum KV allows. Square changes must show within 5 min.
+const CACHE_TTL_SECONDS = 60;
 
 interface GalleryPiece {
   title: string;
