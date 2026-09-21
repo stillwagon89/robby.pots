@@ -100,13 +100,10 @@ async function renderGallery(containerId) {
   }
 
   el.innerHTML = pieces.map((piece) => {
-    // Every gallery box is a fixed 4:5 crop (see .gallery-item in CSS), so
-    // the same box size and hover-title position apply no matter what
-    // aspect ratio the source photo actually is.
+    // Cards take each photo's natural aspect ratio; the grid is a CSS-columns masonry.
     const media = piece.placeholder
       ? '<div class="placeholder-image"><span class="chip">' + piece.placeholder + '</span></div>'
-      : '<img class="media-bg" src="' + piece.img + '" alt="" aria-hidden="true">' +
-        '<img class="media-fg" src="' + piece.img + '" alt="' + piece.alt + '">';
+      : '<img src="' + piece.img + '" alt="' + piece.alt + '">';
     const tag = piece.soldOut
       ? '<span class="price-tag">SOLD</span>'
       : piece.buyLink
