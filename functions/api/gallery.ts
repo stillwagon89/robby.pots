@@ -19,9 +19,13 @@ interface Env {
 
 const SQUARE_API_BASE = "https://connect.squareup.com/v2";
 const SQUARE_VERSION = "2024-10-17";
-const CACHE_KEY = "gallery:v1";
-// 60s is the minimum KV allows. Square changes must show within 5 min.
-const CACHE_TTL_SECONDS = 60;
+const CACHE_KEY = "gallery:v2";
+// Square changes must show on the site within 1 minute. KV's own expiry
+// can't do that (60s minimum, and reads can lag up to 60s more), so entries
+// carry a fetchedAt stamp and are only served while younger than
+// FRESH_SECONDS; the KV TTL is just cleanup.
+const FRESH_SECONDS = 30;
+const CACHE_TTL_SECONDS = 120;
 
 interface GalleryPiece {
   title: string;
@@ -35,13 +39,13 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   const { env } = context;
 
   try {
-    const cached = await env.GALLERY_CACHE.get(CACHE_KEY, "json");
-    if (cached) {
-      return jsonResponse(cached);
+    const cached: any = await env.GALLERY_CACHE.get(CACHE_KEY, "json");
+    if (cached?.fetchedAt && Date.now() - cached.fetchedAt < FRESH_SECONDS * 1000) {
+      return jsonResponse(cached.pieces);
     }
 
     const pieces = await buildGallery(env);
-    await env.GALLERY_CACHE.put(CACHE_KEY, JSON.stringify(pieces), {
+    await env.GALLERY_CACHE.put(CACHE_KEY, JSON.stringify({ fetchedAt: Date.now(), pieces }), {
       expirationTtl: CACHE_TTL_SECONDS,
     });
     return jsonResponse(pieces);
