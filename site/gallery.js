@@ -105,7 +105,8 @@ async function renderGallery(containerId) {
     // aspect ratio the source photo actually is.
     const media = piece.placeholder
       ? '<div class="placeholder-image"><span class="chip">' + piece.placeholder + '</span></div>'
-      : '<img src="' + piece.img + '" alt="' + piece.alt + '">';
+      : '<img class="media-bg" src="' + piece.img + '" alt="" aria-hidden="true">' +
+        '<img class="media-fg" src="' + piece.img + '" alt="' + piece.alt + '">';
     const tag = piece.soldOut
       ? '<span class="price-tag">SOLD</span>'
       : piece.buyLink

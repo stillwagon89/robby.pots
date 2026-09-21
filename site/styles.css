@@ -723,6 +723,20 @@ main {
   height: 100%;
   object-fit: contain;
 }
+.gallery-item .media {
+  overflow: hidden;
+}
+.gallery-item .media img.media-bg {
+  object-fit: cover;
+  filter: blur(28px) saturate(1.1);
+  transform: scale(1.25);
+}
+.gallery-item .media img.media-fg {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 3%, #000 97%, transparent), linear-gradient(to bottom, transparent, #000 3%, #000 97%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to right, transparent, #000 3%, #000 97%, transparent), linear-gradient(to bottom, transparent, #000 3%, #000 97%, transparent);
+  mask-composite: intersect;
+}
 .gallery-item.sold .media img {
   filter: grayscale(0.25) opacity(0.75);
 }
