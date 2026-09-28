@@ -558,6 +558,15 @@ main {
   .t-bronze { grid-column: 3; grid-row: 4; }
 }
 
+.gallery-notice {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cobalt-muted);
+  padding-bottom: var(--space-3xl);
+}
+
 .gallery-empty {
   column-span: all;
   font-size: 17px;
