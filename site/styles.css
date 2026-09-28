@@ -499,11 +499,14 @@ main {
 .collection-header-text {
   margin-top: var(--space-xl);
 }
-.collection-header-text p:last-child {
+.collection-header-text p:not(.collection-eyebrow) {
   font-size: 17px;
   line-height: 1.65;
   color: var(--cobalt);
   max-width: 64ch;
+}
+.collection-header-text p:not(.collection-eyebrow) + p {
+  margin-top: var(--space-md);
 }
 
 /* Collage: a short horizontal strip of cropped event photos. The source
