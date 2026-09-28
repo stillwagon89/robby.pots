@@ -1,10 +1,13 @@
 // Shared gallery component. Pieces now come live from Square (see
 // /api/gallery, functions/api/gallery.ts) — add/price/retire pieces in the
-// Square Item Library's "Website" category, no edits needed here.
+// Square Item Library, no edits needed here. Which page a piece appears on
+// is set by its Square categories: "Website" (Ceramics page), "Main Page"
+// (homepage), "Folsom" (Folsom Collection page), "Everywhere" (all three).
 //
 // GALLERY_PIECES below is a fallback only, used if /api/gallery returns
 // nothing (e.g. before Square is fully set up, or if the sync fails), so
-// the site never shows a blank gallery. Once Square is the confirmed
+// the site never shows a blank gallery. The Folsom page doesn't use it
+// (these aren't Folsom pieces); it shows an empty message instead. Once Square is the confirmed
 // source of truth for every piece, this fallback array can be deleted.
 //
 const GALLERY_PIECES = [
@@ -71,13 +74,15 @@ const GALLERY_PIECES = [
   }
 ];
 
-async function renderGallery(containerId) {
+// collection: 'website' (Ceramics page), 'home' or 'folsom'.
+async function renderGallery(containerId, collection) {
   const el = document.getElementById(containerId);
   if (!el) return;
+  collection = collection || 'website';
 
-  let pieces = GALLERY_PIECES;
+  let pieces = collection === 'folsom' ? [] : GALLERY_PIECES;
   try {
-    const res = await fetch('/api/gallery');
+    const res = await fetch('/api/gallery?collection=' + collection);
     if (res.ok) {
       const live = await res.json();
       if (Array.isArray(live) && live.length) {
@@ -97,6 +102,11 @@ async function renderGallery(containerId) {
     }
   } catch (err) {
     console.error('gallery fetch failed, using fallback pieces', err);
+  }
+
+  if (!pieces.length) {
+    el.innerHTML = '<p class="gallery-empty">New pieces coming soon.</p>';
+    return;
   }
 
   el.innerHTML = pieces.map((piece) => {

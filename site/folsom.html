@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Folsom Collection — Flaming Clay Ceramics</title>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@variable&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="moonjar-bg" aria-hidden="true">
+    <img src="moon-jar.jpg" alt="" class="moonjar-bg-img">
+    <div class="moonjar-bg-wash"></div>
+  </div>
+
+  <div class="container page-shell">
+    <aside class="sidebar">
+      <a href="index.html" class="wordmark-lockup" aria-label="Flaming Clay — home">
+        <span class="wordmark-line">FLAMING</span>
+        <span class="wordmark-line">CLAY<img src="assets/flame-mark.png" alt="" class="flame-mark"></span>
+      </a>
+      <nav class="site-nav-v3">
+        <a href="gallery.html">Ceramics</a>
+        <a href="folsom.html" class="active">Folsom Collection</a>
+        <a href="ask.html">Clay.AI</a>
+        <a href="contact.html">Contact</a>
+        <a href="bio.html">Bio</a>
+        <a href="https://www.instagram.com/flaming.clay/" target="_blank" rel="noopener" class="nav-ig" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </nav>
+    </aside>
+
+    <main class="page-content">
+    <header class="collection-header">
+      <div class="collage" aria-label="Folsom Street Fair 2026">
+        <figure class="collage-tile t-booth"><img src="assets/folsom/booth-mirror.jpg" alt="Flaming Clay table at Folsom Street Fair: glazed cage sculptures on a mirrored stand"></figure>
+        <figure class="collage-tile t-purple"><img src="assets/folsom/cage-purple.jpg" alt="Purple and lilac glazed cage sculpture"></figure>
+        <figure class="collage-tile t-cup1"><img src="assets/folsom/cup-loose-ends.jpg" alt="Porcelain cup with a cobalt &ldquo;Loose Ends&rdquo; illustration"></figure>
+        <figure class="collage-tile t-cup2"><img src="assets/folsom/cup-figures.jpg" alt="Porcelain cup with cobalt figure illustrations"></figure>
+        <figure class="collage-tile t-table"><img src="assets/folsom/booth-table.jpg" alt="The Folsom table from above: cages, cups and a porcelain chain"></figure>
+        <figure class="collage-tile t-bronze"><img src="assets/folsom/cage-bronze.jpg" alt="Bronze glazed cage sculpture on a mirror"></figure>
+      </div>
+      <div class="collection-header-text">
+        <p class="collection-eyebrow">Collection</p>
+        <h1>Folsom Collection</h1>
+        <p>A mix of Chinese porcelain and American stoneware, brought together around the theme of bondage. During a ceramics residency in Jingdezhen, I found myself drawn to taking such a fragile material as porcelain and turning it into light, playful objects in warm glazes. The theme became the avenue for me to explore mold making, slip casting, throwing and gas reduction firing while in Jingdezhen. This constrained the work and allowed me to create a thematic collection by the end of the residency. These pieces either sold at the Folsom Street Fair in 2026 or are available online.</p>
+      </div>
+    </header>
+
+    <div class="recent-work-grid" id="gallery"></div>
+    </main>
+  </div>
+
+  <footer class="site-footer">San Francisco</footer>
+
+  <script src="gallery.js"></script>
+  <script>renderGallery('gallery', 'folsom');</script>
+</body>
+</html>

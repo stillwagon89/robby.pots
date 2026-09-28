@@ -1,6 +1,12 @@
-// Builds the gallery feed from Square's Item Library instead of a hardcoded
-// list. Items tagged with the SQUARE_CATEGORY_NAME category show up here;
-// items with inventory tracking on and quantity 0 stay visible but are
+// Builds the gallery feeds from Square's Item Library instead of a hardcoded
+// list. Each site section is a Square category, and an item can be in
+// several at once:
+//   SQUARE_CATEGORY_NAME       ("Website")    -> Ceramics page
+//   SQUARE_HOME_CATEGORY       ("Main Page")  -> homepage
+//   SQUARE_FOLSOM_CATEGORY     ("Folsom")     -> Folsom Collection page
+//   SQUARE_EVERYWHERE_CATEGORY ("Everywhere") -> all three
+// Pick a section with ?collection=website|home|folsom (default: website).
+// // items with inventory tracking on and quantity 0 stay visible but are
 // marked soldOut (no price/buy link) rather than being dropped. Result is
 // cached in GALLERY_CACHE for CACHE_TTL_SECONDS so normal page loads never
 // call Square directly.
@@ -14,12 +20,15 @@ interface Env {
   SQUARE_ACCESS_TOKEN: string;
   SQUARE_LOCATION_ID: string;
   SQUARE_CATEGORY_NAME: string;
+  SQUARE_HOME_CATEGORY: string;
+  SQUARE_FOLSOM_CATEGORY: string;
+  SQUARE_EVERYWHERE_CATEGORY: string;
   GALLERY_CACHE: KVNamespace;
 }
 
 const SQUARE_API_BASE = "https://connect.squareup.com/v2";
 const SQUARE_VERSION = "2024-10-17";
-const CACHE_KEY = "gallery:v2";
+const CACHE_KEY = "gallery:v3";
 // Square changes must show on the site within 1 minute. KV's own expiry
 // can't do that (60s minimum, and reads can lag up to 60s more), so entries
 // carry a fetchedAt stamp and are only served while younger than
@@ -27,28 +36,38 @@ const CACHE_KEY = "gallery:v2";
 const FRESH_SECONDS = 30;
 const CACHE_TTL_SECONDS = 120;
 
+const COLLECTIONS = ["website", "home", "folsom"] as const;
+type Collection = (typeof COLLECTIONS)[number];
+
 interface GalleryPiece {
   title: string;
   imageUrl: string;
   price: number | null;
   buyLink: string | null;
   soldOut: boolean;
+  collections: Collection[];
 }
 
 export const onRequestGet: PagesFunction<Env> = async (context) => {
-  const { env } = context;
+  const { env, request } = context;
+  const requested = new URL(request.url).searchParams.get("collection") || "website";
+  if (!(COLLECTIONS as readonly string[]).includes(requested)) return jsonResponse([]);
+  const collection = requested as Collection;
 
   try {
+    // One cache entry holds every section's pieces, so all pages share a
+    // single Square fetch; each request just filters it.
     const cached: any = await env.GALLERY_CACHE.get(CACHE_KEY, "json");
+    let pieces: GalleryPiece[];
     if (cached?.fetchedAt && Date.now() - cached.fetchedAt < FRESH_SECONDS * 1000) {
-      return jsonResponse(cached.pieces);
+      pieces = cached.pieces;
+    } else {
+      pieces = await buildGallery(env);
+      await env.GALLERY_CACHE.put(CACHE_KEY, JSON.stringify({ fetchedAt: Date.now(), pieces }), {
+        expirationTtl: CACHE_TTL_SECONDS,
+      });
     }
-
-    const pieces = await buildGallery(env);
-    await env.GALLERY_CACHE.put(CACHE_KEY, JSON.stringify({ fetchedAt: Date.now(), pieces }), {
-      expirationTtl: CACHE_TTL_SECONDS,
-    });
-    return jsonResponse(pieces);
+    return jsonResponse(pieces.filter((p) => p.collections.includes(collection)));
   } catch (err) {
     console.error("gallery sync failed", err);
     // Fail soft: an empty gallery is better than a broken page.
@@ -59,22 +78,36 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
 async function buildGallery(env: Env): Promise<GalleryPiece[]> {
   const objects = await listAllCatalogObjects(env);
 
-  const categoryName = (env.SQUARE_CATEGORY_NAME || "Website").toLowerCase();
-  const category = objects.find(
-    (o: any) => o.type === "CATEGORY" && String(o.category_data?.name || "").toLowerCase() === categoryName
-  );
-  if (!category) return [];
+  // category id -> the site sections it puts an item in
+  const sectionsFor = new Map<string, Collection[]>();
+  const categoryNames: [string, Collection[]][] = [
+    [env.SQUARE_CATEGORY_NAME || "Website", ["website"]],
+    [env.SQUARE_HOME_CATEGORY || "Main Page", ["home"]],
+    [env.SQUARE_FOLSOM_CATEGORY || "Folsom", ["folsom"]],
+    [env.SQUARE_EVERYWHERE_CATEGORY || "Everywhere", [...COLLECTIONS]],
+  ];
+  for (const o of objects) {
+    if (o.type !== "CATEGORY") continue;
+    const name = String(o.category_data?.name || "").trim().toLowerCase();
+    const match = categoryNames.find(([n]) => n.toLowerCase() === name);
+    if (match) sectionsFor.set(o.id, match[1]);
+  }
+  if (!sectionsFor.size) return [];
 
   const images = new Map<string, any>();
   for (const o of objects) {
     if (o.type === "IMAGE") images.set(o.id, o);
   }
 
-  const items = objects.filter((o: any) => {
-    if (o.type !== "ITEM") return false;
-    const categoryList: any[] = o.item_data?.categories || [];
-    return categoryList.some((c) => c?.id === category.id);
-  });
+  const collectionsOf = (item: any): Collection[] => {
+    const found = new Set<Collection>();
+    for (const c of item.item_data?.categories || []) {
+      for (const s of sectionsFor.get(c?.id) || []) found.add(s);
+    }
+    return COLLECTIONS.filter((s) => found.has(s));
+  };
+
+  const items = objects.filter((o: any) => o.type === "ITEM" && collectionsOf(o).length > 0);
 
   // variation id -> live inventory count, only fetched for tracked variations
   const trackedVariationIds = items
@@ -130,6 +163,7 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
       price,
       buyLink,
       soldOut,
+      collections: collectionsOf(item),
       updatedAt: item.updated_at || "",
     });
   }

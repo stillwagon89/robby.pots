@@ -4,5 +4,6 @@
 - The Cloudflare Pages project is `robbypots` (robbypots.com, flamingclay.com, robbypots.pages.dev). It shows "Git Provider: No" in Cloudflare because deploys go through GitHub Actions, not Cloudflare's git integration. That is expected.
 - **Do not run `wrangler pages deploy` manually.** It's unnecessary, and the permission classifier blocks it.
 - Verify against `https://flamingclay.com/api/gallery`. `robbypots.com` returns a 301, so use `curl -L`.
-- Functions (`functions/api/*.ts`) deploy with the site. The gallery feed is cached in KV (`gallery:v2`) and treated as fresh for 30 seconds (requirement: Square changes on the site within 1 minute).
+- Functions (`functions/api/*.ts`) deploy with the site. The gallery feed is cached in KV (`gallery:v3`, one entry for all sections) and treated as fresh for 30 seconds (requirement: Square changes on the site within 1 minute).
 - Square payment links snapshot price/name at creation. `getOrCreatePaymentLink` includes them in its idempotency key so dashboard edits produce fresh links.
+- Site sections are Square categories: `Website` → Ceramics page, `Main Page` → homepage (opt-in), `Folsom` → folsom.html, `Everywhere` → all three. Names are set in `wrangler.jsonc` vars; renaming a category in Square empties that section until the var matches.
