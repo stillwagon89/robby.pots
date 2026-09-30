@@ -28,7 +28,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
 
     return jsonResponse({
       success: true,
-      message: "Thanks for signing up! We'll notify you when new drops arrive.",
+      message: "Thanks for signing up! I'll notify you when new drops arrive.",
     });
   } catch (err) {
     console.error("waitlist signup failed", err);
