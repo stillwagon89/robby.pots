@@ -1042,7 +1042,8 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 .pause-page {
   position: fixed;
   inset: 0;
-  background: var(--page);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(2px);
   display: flex;
   align-items: center;
   justify-content: center;

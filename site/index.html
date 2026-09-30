@@ -75,9 +75,7 @@
         const config = await response.json();
 
         if (config.siteMode === 'production') {
-          // Hide the normal page content and show pause page
-          document.querySelector('.page-shell').style.display = 'none';
-          document.querySelector('footer').style.display = 'none';
+          // Show pause page overlay (site remains visible behind faded)
           document.getElementById('pausePage').style.display = 'flex';
 
           // Setup waitlist form
