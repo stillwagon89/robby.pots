@@ -2,7 +2,8 @@
 // Stores emails in KV and returns a thank you message.
 
 interface Env {
-  WAITLIST: KVNamespace;
+  GALLERY_CACHE: KVNamespace;
+  WAITLIST?: KVNamespace;
 }
 
 export const onRequestPost: PagesFunction<Env> = async (context) => {
@@ -17,9 +18,11 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     }
 
     // Store email in KV with a timestamp key to avoid duplicates
+    // Use WAITLIST if available, otherwise fall back to GALLERY_CACHE
     // Format: "waitlist:<email>:<timestamp>"
     const key = `waitlist:${email}:${Date.now()}`;
-    await env.WAITLIST.put(key, JSON.stringify({ email, timestamp: new Date().toISOString() }), {
+    const kv = env.WAITLIST || env.GALLERY_CACHE;
+    await kv.put(key, JSON.stringify({ email, timestamp: new Date().toISOString() }), {
       expirationTtl: 365 * 24 * 60 * 60, // 1 year
     });
 
