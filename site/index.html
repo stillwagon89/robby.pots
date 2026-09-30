@@ -15,6 +15,21 @@
     <div class="moonjar-bg-wash"></div>
   </div>
 
+  <!-- Pause page (shown when SITE_MODE is "production") -->
+  <div id="pausePage" class="pause-page" style="display: none;">
+    <div class="pause-content">
+      <h1>Adjusting After Sales</h1>
+      <p>Thank you for your interest in Flaming Clay. I'm taking a moment to reset and prepare for new work.</p>
+      <p class="highlight">New drops coming October 2026</p>
+      <p>Be the first to know when new pieces arrive. Drop your email below.</p>
+      <form id="waitlistForm" class="waitlist-form">
+        <input type="email" placeholder="your@email.com" required>
+        <button type="submit">Notify Me</button>
+      </form>
+      <p id="formMessage" class="form-message"></p>
+    </div>
+  </div>
+
   <div class="container page-shell">
     <aside class="sidebar">
       <a href="index.html" class="wordmark-lockup" aria-label="Flaming Clay — home">
@@ -50,7 +65,77 @@
   <footer class="site-footer">San Francisco</footer>
 
   <script src="gallery.js"></script>
-  <script>renderGallery('gallery', 'home');</script>
+  <script>
+    // Check if site is in production (paused) mode
+    async function initSiteMode() {
+      try {
+        // Fetch the environment variable from a meta tag or hidden endpoint
+        // For now, we'll check if SITE_MODE is set via a query parameter or look it up
+        const response = await fetch('/api/site-config');
+        const config = await response.json();
+
+        if (config.siteMode === 'production') {
+          // Hide the normal page content and show pause page
+          document.querySelector('.page-shell').style.display = 'none';
+          document.querySelector('footer').style.display = 'none';
+          document.getElementById('pausePage').style.display = 'flex';
+
+          // Setup waitlist form
+          setupWaitlistForm();
+        } else {
+          // Show normal gallery
+          renderGallery('gallery', 'home');
+        }
+      } catch (err) {
+        console.error('Failed to check site mode:', err);
+        // Default to showing gallery if config fetch fails
+        renderGallery('gallery', 'home');
+      }
+    }
+
+    function setupWaitlistForm() {
+      const form = document.getElementById('waitlistForm');
+      const messageEl = document.getElementById('formMessage');
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const email = form.querySelector('input[type="email"]').value;
+        const button = form.querySelector('button');
+
+        button.disabled = true;
+        messageEl.textContent = '';
+        messageEl.className = '';
+
+        try {
+          const response = await fetch('/api/waitlist', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email }),
+          });
+
+          const data = await response.json();
+
+          if (response.ok) {
+            messageEl.textContent = data.message;
+            messageEl.className = 'form-message success';
+            form.reset();
+          } else {
+            messageEl.textContent = data.error || 'Something went wrong.';
+            messageEl.className = 'form-message error';
+          }
+        } catch (err) {
+          console.error('Waitlist signup error:', err);
+          messageEl.textContent = 'Failed to sign up. Please try again.';
+          messageEl.className = 'form-message error';
+        } finally {
+          button.disabled = false;
+        }
+      });
+    }
+
+    initSiteMode();
+  </script>
 
 </body>
 </html>
