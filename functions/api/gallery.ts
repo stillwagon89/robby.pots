@@ -28,7 +28,7 @@ interface Env {
 
 const SQUARE_API_BASE = "https://connect.squareup.com/v2";
 const SQUARE_VERSION = "2024-10-17";
-const CACHE_KEY = "gallery:v3";
+const CACHE_KEY = "gallery:v4";
 // Square changes must show on the site within 1 minute. KV's own expiry
 // can't do that (60s minimum, and reads can lag up to 60s more), so entries
 // carry a fetchedAt stamp and are only served while younger than
@@ -40,8 +40,12 @@ const COLLECTIONS = ["website", "home", "folsom"] as const;
 type Collection = (typeof COLLECTIONS)[number];
 
 interface GalleryPiece {
+  id: string;
   title: string;
+  description: string;
   imageUrl: string;
+  // Every photo on the Square item (first one is imageUrl); product page uses them.
+  imageUrls: string[];
   price: number | null;
   buyLink: string | null;
   soldOut: boolean;
@@ -50,8 +54,11 @@ interface GalleryPiece {
 
 export const onRequestGet: PagesFunction<Env> = async (context) => {
   const { env, request } = context;
-  const requested = new URL(request.url).searchParams.get("collection") || "website";
-  if (!(COLLECTIONS as readonly string[]).includes(requested)) return jsonResponse([]);
+  const params = new URL(request.url).searchParams;
+  // ?id=<square item id> returns that one piece (product page), any section.
+  const pieceId = params.get("id");
+  const requested = params.get("collection") || "website";
+  if (!pieceId && !(COLLECTIONS as readonly string[]).includes(requested)) return jsonResponse([]);
   const collection = requested as Collection;
 
   try {
@@ -67,6 +74,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
         expirationTtl: CACHE_TTL_SECONDS,
       });
     }
+    if (pieceId) return jsonResponse(pieces.filter((p) => p.id === pieceId));
     return jsonResponse(pieces.filter((p) => p.collections.includes(collection)));
   } catch (err) {
     console.error("gallery sync failed", err);
@@ -157,9 +165,16 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
       buyLink = await getOrCreatePaymentLink(env, variation.id, `${priceMoney.amount}|${item.item_data?.name || ""}|${variation.item_variation_data?.name || ""}`);
     }
 
+    const imageUrls: string[] = (item.item_data?.image_ids || [])
+      .map((id: string) => images.get(id)?.image_data?.url)
+      .filter(Boolean);
+
     pieces.push({
+      id: item.id,
       title: item.item_data?.name || "Untitled",
+      description: String(item.item_data?.description_plaintext ?? item.item_data?.description ?? "").trim(),
       imageUrl,
+      imageUrls,
       price,
       buyLink,
       soldOut,

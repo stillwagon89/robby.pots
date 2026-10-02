@@ -90,6 +90,7 @@ async function renderGallery(containerId, collection) {
         // catalog item. Every gallery box is a fixed 4:5 crop (see CSS),
         // so the source photo's own dimensions don't matter here.
         pieces = live.map(p => ({
+          id: p.id,
           title: p.title,
           materials: '',
           img: p.imageUrl,
@@ -116,13 +117,80 @@ async function renderGallery(containerId, collection) {
       : '<img src="' + piece.img + '" alt="' + piece.alt + '">';
     const tag = piece.soldOut
       ? '<span class="price-tag">SOLD</span>'
-      : piece.buyLink
+      : piece.price != null
       ? '<span class="price-tag">$' + piece.price + '</span>'
       : '';
-    return '<a class="gallery-item' + (piece.soldOut ? ' sold' : '') + (piece.buyLink && !piece.soldOut ? '' : '') + '"' +
-      (piece.buyLink && !piece.soldOut ? ' href="' + piece.buyLink + '" target="_blank" rel="noopener"' : '') + '>' +
+    return '<a class="gallery-item' + (piece.soldOut ? ' sold' : '') + '"' +
+      (piece.id ? ' href="product.html?id=' + encodeURIComponent(piece.id) + '"' : '') + '>' +
       '<div class="media">' + media + tag + '</div>' +
       '<div class="band"><p class="piece-title">' + piece.title + '</p></div>' +
       '</a>';
   }).join('');
+}
+
+
+// Product page (product.html?id=<Square item id>): large photo, extra photos
+// as thumbnails, title, status/price, description and a Buy button.
+function escapeHtml(str) {
+  return String(str).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+async function renderProduct(containerId) {
+  const el = document.getElementById(containerId);
+  const id = new URLSearchParams(location.search).get('id');
+  let piece = null;
+  try {
+    const res = await fetch('/api/gallery?id=' + encodeURIComponent(id || ''));
+    if (res.ok) piece = (await res.json())[0] || null;
+  } catch (err) {
+    console.error('product fetch failed', err);
+  }
+  if (!piece) {
+    el.innerHTML = '<p class="gallery-empty">This piece could not be found. <a href="gallery.html">Back to Shop</a></p>';
+    return;
+  }
+
+  document.title = piece.title + ' — Flaming Clay Ceramics';
+  const photos = piece.imageUrls && piece.imageUrls.length ? piece.imageUrls : [piece.imageUrl];
+  const title = escapeHtml(piece.title);
+  const status = piece.soldOut ? 'Sold' : 'Available';
+  const price = piece.soldOut || piece.price == null ? '' : '<p class="product-price">$' + piece.price + '</p>';
+  const buy = !piece.soldOut && piece.buyLink
+    ? '<a class="product-buy" href="' + piece.buyLink + '" target="_blank" rel="noopener">Buy</a>'
+    : '';
+  const desc = piece.description
+    ? piece.description.split(/\n\s*\n/).map(p => '<p>' + escapeHtml(p).replace(/\n/g, '<br>') + '</p>').join('')
+    : '';
+
+  el.innerHTML =
+    '<a href="#" class="product-back" id="productBack">&larr; Back to Shop</a>' +
+    '<div class="product-layout">' +
+      '<div class="product-photos">' +
+        '<img id="productMain" class="product-main" src="' + photos[0] + '" alt="' + title + '">' +
+        (photos.length > 1
+          ? '<div class="product-thumbs">' + photos.map((u, i) =>
+              '<button type="button" class="product-thumb' + (i === 0 ? ' active' : '') + '" data-src="' + u + '" aria-label="Photo ' + (i + 1) + '"><img src="' + u + '" alt=""></button>'
+            ).join('') + '</div>'
+          : '') +
+      '</div>' +
+      '<div class="product-info">' +
+        '<h1 class="product-title">' + title + '</h1>' +
+        '<p class="product-status' + (piece.soldOut ? ' sold' : '') + '">' + status + '</p>' +
+        price + buy +
+        '<div class="product-desc">' + desc + '</div>' +
+      '</div>' +
+    '</div>';
+
+  document.getElementById('productBack').addEventListener('click', (e) => {
+    e.preventDefault();
+    // Go back to whichever list page they came from; fall back to the shop.
+    if (document.referrer && new URL(document.referrer).origin === location.origin && history.length > 1) history.back();
+    else location.href = 'gallery.html';
+  });
+  el.querySelectorAll('.product-thumb').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.getElementById('productMain').src = btn.dataset.src;
+      el.querySelectorAll('.product-thumb').forEach(b => b.classList.toggle('active', b === btn));
+    });
+  });
 }
