@@ -1141,6 +1141,7 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 @media (max-width: 760px) { .product-layout { grid-template-columns: 1fr; gap: var(--space-xl); } }
 .product-main {
   width: 100%;
+  height: auto;
   display: block;
   border-radius: var(--radius-md);
   background: #fff;
