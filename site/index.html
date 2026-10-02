@@ -37,13 +37,6 @@
 
     <section class="hero-fullscreen" aria-hidden="true"></section>
 
-    <section>
-      <div class="section-row">
-        <h2 class="section-title">Recent Work</h2>
-      </div>
-      <div class="recent-work-grid" id="gallery"></div>
-    </section>
-
     <section class="signup-strip">
       <p>If you're interested in receiving updates first, please leave your email below.</p>
       <form id="waitlistForm" class="waitlist-form">
@@ -58,7 +51,6 @@
 
   <footer class="site-footer">San Francisco</footer>
 
-  <script src="gallery.js"></script>
   <script>
     function setupWaitlistForm() {
       const form = document.getElementById('waitlistForm');
@@ -101,7 +93,6 @@
       });
     }
 
-    renderGallery('gallery', 'home');
     setupWaitlistForm();
   </script>
 
