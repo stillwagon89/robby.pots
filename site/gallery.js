@@ -107,7 +107,10 @@ function imgFallback(img) {
   const orig = img.dataset.orig;
   if (!orig || img.src === orig) return;
   try { sessionStorage.setItem(RESIZE_OFF_KEY, '1'); } catch (e) {}
-  // Switch every other photo too, so lazy ones don't each fail first.
+  // Switch every other photo too, so lazy ones don't each fail first. Grids
+  // are redrawn rather than edited: changing src on an existing lazy img (or
+  // a cloned one) makes Chrome fetch it at once, loading the whole grid.
+  document.querySelectorAll('.recent-work-grid').forEach(el => { if (el._pieces) layoutGallery(el); });
   document.querySelectorAll('img[data-orig]').forEach(i => {
     i.removeAttribute('srcset');
     i.removeAttribute('onerror');
