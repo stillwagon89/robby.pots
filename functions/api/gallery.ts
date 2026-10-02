@@ -5,7 +5,8 @@
 //   SQUARE_HOME_CATEGORY       ("Main Page")  -> homepage
 //   SQUARE_FOLSOM_CATEGORY     ("Folsom")     -> Folsom Collection page
 //   SQUARE_EVERYWHERE_CATEGORY ("Everywhere") -> all three
-// Pick a section with ?collection=website|home|folsom (default: website).
+// Pick a section with ?collection=website|home|folsom (default: website),
+// or ?collection=all for every piece (the Shop page).
 // // items with inventory tracking on and quantity 0 stay visible but are
 // marked soldOut (no price/buy link) rather than being dropped. Result is
 // cached in GALLERY_CACHE for CACHE_TTL_SECONDS so normal page loads never
@@ -58,8 +59,9 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   // ?id=<square item id> returns that one piece (product page), any section.
   const pieceId = params.get("id");
   const requested = params.get("collection") || "website";
-  if (!pieceId && !(COLLECTIONS as readonly string[]).includes(requested)) return jsonResponse([]);
-  const collection = requested as Collection;
+  // "all" = every piece in any section (the Shop page).
+  if (!pieceId && requested !== "all" && !(COLLECTIONS as readonly string[]).includes(requested)) return jsonResponse([]);
+  const collection = requested as Collection | "all";
 
   try {
     // One cache entry holds every section's pieces, so all pages share a
@@ -75,6 +77,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
       });
     }
     if (pieceId) return jsonResponse(pieces.filter((p) => p.id === pieceId));
+    if (collection === "all") return jsonResponse(pieces);
     return jsonResponse(pieces.filter((p) => p.collections.includes(collection)));
   } catch (err) {
     console.error("gallery sync failed", err);

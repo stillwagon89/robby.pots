@@ -74,7 +74,7 @@ const GALLERY_PIECES = [
   }
 ];
 
-// collection: 'website' (Ceramics page), 'home' or 'folsom'.
+// collection: 'all' (Shop page, every piece), 'website', 'home' or 'folsom'.
 async function renderGallery(containerId, collection) {
   const el = document.getElementById(containerId);
   if (!el) return;
