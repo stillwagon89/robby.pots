@@ -36,6 +36,16 @@ const CACHE_KEY = "gallery:v4";
 // FRESH_SECONDS; the KV TTL is just cleanup.
 const FRESH_SECONDS = 30;
 const CACHE_TTL_SECONDS = 120;
+// Payment links, keyed by their idempotency key, kept between rebuilds.
+// Without this every rebuild re-POSTed one link per piece, and the Workers
+// free plan allows only 50 outbound requests per invocation, so once the
+// catalog passed ~47 priced pieces the last few always came back with no
+// Buy button. Now only new/changed pieces cost a Square call.
+const LINKS_KEY = "paylinks:v1";
+// Square calls a single rebuild may spend on new payment links, leaving
+// room under the 50-request cap for catalog pages + inventory. Pieces past
+// the budget get their link on the next rebuild (~30s later).
+const MAX_NEW_LINKS_PER_BUILD = 30;
 
 const COLLECTIONS = ["website", "home", "folsom"] as const;
 type Collection = (typeof COLLECTIONS)[number];
@@ -130,6 +140,11 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
     ? await batchRetrieveInventory(env, trackedVariationIds)
     : new Map<string, number>();
 
+  const savedLinks: Record<string, string> = (await env.GALLERY_CACHE.get(LINKS_KEY, "json")) || {};
+  const usedLinks: Record<string, string> = {};
+  let newLinkBudget = MAX_NEW_LINKS_PER_BUILD;
+  let linksChanged = false;
+
   const pieces: (GalleryPiece & { updatedAt: string })[] = [];
 
   for (const item of items) {
@@ -165,7 +180,14 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
 
     let buyLink: string | null = null;
     if (price != null) {
-      buyLink = await getOrCreatePaymentLink(env, variation.id, `${priceMoney.amount}|${item.item_data?.name || ""}|${variation.item_variation_data?.name || ""}`);
+      const key = await paymentLinkKey(variation.id, `${priceMoney.amount}|${item.item_data?.name || ""}|${variation.item_variation_data?.name || ""}`);
+      buyLink = savedLinks[key] || null;
+      if (!buyLink && newLinkBudget > 0) {
+        newLinkBudget--;
+        buyLink = await getOrCreatePaymentLink(env, variation.id, key);
+        if (buyLink) linksChanged = true;
+      }
+      if (buyLink) usedLinks[key] = buyLink;
     }
 
     const imageUrls: string[] = (item.item_data?.image_ids || [])
@@ -184,6 +206,12 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
       collections: collectionsOf(item),
       updatedAt: item.updated_at || "",
     });
+  }
+
+  // Store only the links still in use, so stale ones (old prices, retired
+  // pieces) drop out instead of piling up.
+  if (linksChanged || Object.keys(usedLinks).length !== Object.keys(savedLinks).length) {
+    await env.GALLERY_CACHE.put(LINKS_KEY, JSON.stringify(usedLinks));
   }
 
   pieces.sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1));
@@ -229,25 +257,29 @@ async function batchRetrieveInventory(env: Env, variationIds: string[]): Promise
   return counts;
 }
 
-async function getOrCreatePaymentLink(env: Env, variationId: string, snapshot: string): Promise<string | null> {
+// Deterministic idempotency key: re-syncing returns the same link instead
+// of creating a new one each time. The price is part of the key because
+// Square snapshots the price into the link's order when it's created;
+// without it, a price or name change on the dashboard would keep returning
+// the old link (and the old values) forever. Bump the "|ship1" suffix if
+// checkout_options change so existing links get regenerated.
+async function paymentLinkKey(variationId: string, snapshot: string): Promise<string> {
+  return `gallery-${variationId}-${await shortHash(snapshot + "|ship1")}`;
+}
+
+async function getOrCreatePaymentLink(env: Env, variationId: string, idempotencyKey: string): Promise<string | null> {
   try {
     const res = await fetch(`${SQUARE_API_BASE}/online-checkout/payment-links`, {
       method: "POST",
       headers: squareHeaders(env),
-      // Deterministic idempotency key: re-syncing returns the same link
-      // instead of creating a new one each time. The price is part of the
-      // key because Square snapshots the price into the link's order when
-      // it's created; without it, a price or name change on the dashboard
-      // would keep returning the old link (and the old values) forever.
       body: JSON.stringify({
-        idempotency_key: `gallery-${variationId}-${await shortHash(snapshot + "|ship1")}`,
+        idempotency_key: idempotencyKey,
         order: {
           location_id: env.SQUARE_LOCATION_ID,
           line_items: [{ catalog_object_id: variationId, quantity: "1" }],
         },
         // Pieces ship, so checkout must collect an address (Google Pay
-        // and Apple Pay skip it otherwise). Bump the key suffix below if
-        // these options change so existing links get regenerated.
+        // and Apple Pay skip it otherwise). See paymentLinkKey's suffix.
         checkout_options: { ask_for_shipping_address: true },
       }),
     });

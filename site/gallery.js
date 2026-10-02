@@ -63,14 +63,9 @@ const GALLERY_PIECES = [
     title: 'Gong Fu Style Teapot',
     materials: '',
     img: 'assets/gallery/teapot-gongfu.jpg',
-    alt: 'Gong Fu Style Teapot',
-    price: 100,
-    buyLink: 'https://square.link/u/MYXIKhsn'
-    // To list a piece for sale: add `price` (number) and `buyLink` (Square
-    // Payment Link URL, e.g. 'https://square.link/u/XXXXXXXX') to its entry.
-    // When it sells, remove those two fields to take the Buy button down —
-    // this is a static link, not a live-inventory widget, so it doesn't
-    // know on its own when Square marks the item sold out.
+    alt: 'Gong Fu Style Teapot'
+    // No prices or buy links here on purpose: this list only shows when the
+    // live feed is down, and a hardcoded link can't know a piece has sold.
   }
 ];
 
@@ -114,7 +109,7 @@ async function renderGallery(containerId, collection) {
     // Cards take each photo's natural aspect ratio; the grid is a CSS-columns masonry.
     const media = piece.placeholder
       ? '<div class="placeholder-image"><span class="chip">' + piece.placeholder + '</span></div>'
-      : '<img src="' + piece.img + '" alt="' + piece.alt + '">';
+      : '<img src="' + piece.img + '" alt="' + escapeHtml(piece.alt) + '">';
     const tag = piece.soldOut
       ? '<span class="price-tag">SOLD</span>'
       : piece.price != null
@@ -123,7 +118,7 @@ async function renderGallery(containerId, collection) {
     return '<a class="gallery-item' + (piece.soldOut ? ' sold' : '') + '"' +
       (piece.id ? ' href="product.html?id=' + encodeURIComponent(piece.id) + '"' : '') + '>' +
       '<div class="media">' + media + tag + '</div>' +
-      '<div class="band"><p class="piece-title">' + piece.title + '</p></div>' +
+      '<div class="band"><p class="piece-title">' + escapeHtml(piece.title) + '</p></div>' +
       '</a>';
   }).join('');
 }
@@ -155,9 +150,13 @@ async function renderProduct(containerId) {
   const title = escapeHtml(piece.title);
   const status = piece.soldOut ? 'Sold' : 'Available';
   const price = piece.soldOut || piece.price == null ? '' : '<p class="product-price">$' + piece.price + '</p>';
-  const buy = !piece.soldOut && piece.buyLink
+  // Available but no checkout link yet (Square link creation failed or is
+  // still pending): send buyers to the contact form rather than a dead end.
+  const buy = piece.soldOut
+    ? ''
+    : piece.buyLink
     ? '<a class="product-buy" href="' + piece.buyLink + '" target="_blank" rel="noopener">Buy</a>'
-    : '';
+    : '<a class="product-buy" href="contact.html">Ask about this piece</a>';
   const desc = piece.description
     ? piece.description.split(/\n\s*\n/).map(p => '<p>' + escapeHtml(p).replace(/\n/g, '<br>') + '</p>').join('')
     : '';
