@@ -348,9 +348,11 @@ main {
 @media (max-width: 900px) {
   .page-shell { flex-direction: column; align-items: stretch; gap: var(--space-lg); padding-top: var(--space-lg); }
   .sidebar { width: 100%; position: static; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--space-md); }
-  .sidebar .wordmark-lockup { margin-bottom: var(--space-md); flex-direction: row; align-items: center; gap: 6px; font-size: 22px; }
-  .sidebar .wordmark-line { display: inline; }
-  .sidebar .flame-mark { width: 18px; height: auto; }
+  /* One baseline for FLAMING, CLAY and the flame; word gap and flame gap
+     are the same, and the flame scales with the type like it does on desktop. */
+  .sidebar .wordmark-lockup { margin-bottom: var(--space-md); flex-direction: row; align-items: baseline; gap: 0.2em; font-size: 22px; }
+  .sidebar .wordmark-line { gap: 0.2em; }
+  .sidebar .flame-mark { width: 0.77em; height: auto; }
   .sidebar .site-nav-v3 { flex-direction: row; flex-wrap: wrap; gap: var(--space-md); }
 }
 
