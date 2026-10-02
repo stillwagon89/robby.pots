@@ -15,20 +15,6 @@
     <div class="moonjar-bg-wash"></div>
   </div>
 
-  <!-- Pause page (shown when SITE_MODE is "production") -->
-  <div id="pausePage" class="pause-page" style="display: none;">
-    <div class="pause-content">
-      <h1>Website Paused</h1>
-      <p>Thank you for your interest in Flaming Clay. I'm taking a moment to reset and prepare for new work.</p>
-      <p>If you're interested in receiving updates first, please leave your email below.</p>
-      <form id="waitlistForm" class="waitlist-form">
-        <input type="email" placeholder="your@email.com" required>
-        <button type="submit">Notify Me</button>
-      </form>
-      <p id="formMessage" class="form-message"></p>
-    </div>
-  </div>
-
   <div class="container page-shell">
     <aside class="sidebar">
       <a href="index.html" class="wordmark-lockup" aria-label="Flaming Clay — home">
@@ -36,7 +22,7 @@
         <span class="wordmark-line">CLAY<img src="assets/flame-mark.png" alt="" class="flame-mark"></span>
       </a>
       <nav class="site-nav-v3">
-        <a href="gallery.html">Ceramics</a>
+        <a href="gallery.html">Shop</a>
         <a href="folsom.html">Folsom Collection</a>
         <a href="ask.html">Clay.AI</a>
         <a href="contact.html">Contact</a>
@@ -58,6 +44,15 @@
       <div class="recent-work-grid" id="gallery"></div>
     </section>
 
+    <section class="signup-strip">
+      <p>If you're interested in receiving updates first, please leave your email below.</p>
+      <form id="waitlistForm" class="waitlist-form">
+        <input type="email" placeholder="your@email.com" required aria-label="Email address">
+        <button type="submit">Notify Me</button>
+      </form>
+      <p id="formMessage" class="form-message"></p>
+    </section>
+
     </main>
   </div>
 
@@ -65,31 +60,6 @@
 
   <script src="gallery.js"></script>
   <script>
-    // Check if site is in production (paused) mode
-    async function initSiteMode() {
-      try {
-        // Fetch the environment variable from a meta tag or hidden endpoint
-        // For now, we'll check if SITE_MODE is set via a query parameter or look it up
-        const response = await fetch('/api/site-config');
-        const config = await response.json();
-
-        if (config.siteMode === 'production') {
-          // Show pause page overlay (site remains visible behind faded)
-          document.getElementById('pausePage').style.display = 'flex';
-
-          // Setup waitlist form
-          setupWaitlistForm();
-        } else {
-          // Show normal gallery
-          renderGallery('gallery', 'home');
-        }
-      } catch (err) {
-        console.error('Failed to check site mode:', err);
-        // Default to showing gallery if config fetch fails
-        renderGallery('gallery', 'home');
-      }
-    }
-
     function setupWaitlistForm() {
       const form = document.getElementById('waitlistForm');
       const messageEl = document.getElementById('formMessage');
@@ -131,7 +101,8 @@
       });
     }
 
-    initSiteMode();
+    renderGallery('gallery', 'home');
+    setupWaitlistForm();
   </script>
 
 </body>
