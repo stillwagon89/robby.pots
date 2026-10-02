@@ -1191,3 +1191,93 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 }
 .product-buy:hover { background: var(--cobalt); }
 .product-desc p { font-size: 16px; line-height: 1.6; color: var(--cobalt); margin-bottom: var(--space-md); }
+
+/* ---------- Masonry grid (gallery.js layoutGallery) ----------
+   gallery.js places each card in the shortest column, newest first, so the
+   newest pieces fill the top rows. Replaces the CSS-columns fallback above
+   once the feed has loaded. */
+.recent-work-grid.masonry {
+  column-count: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-lg);
+}
+.masonry-col {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+.recent-work-grid.masonry .gallery-item { margin-bottom: 0; }
+
+.collection-jump {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--cobalt);
+  padding: 8px 0;
+}
+.collection-jump:hover { color: var(--cobalt-deep); }
+#gallery { scroll-margin-top: var(--space-lg); }
+
+.product-buy-bar { display: none; }
+
+/* ---------- Phones (iPhone 16 is 393pt wide) ---------- */
+@media (max-width: 480px) {
+  /* Two columns like a standard mobile shop, instead of one full-screen
+     photo per scroll. */
+  .recent-work-grid { column-count: 2; column-gap: 12px; }
+  .recent-work-grid .gallery-item { margin-bottom: 12px; }
+  .recent-work-grid.masonry, .masonry-col { gap: 12px; }
+  .gallery-item .band { padding: 8px 10px; }
+  .gallery-item .piece-title {
+    font-size: 12px;
+    line-height: 1.3;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .gallery-item .price-tag { font-size: 10px; padding: 4px 8px 4px 7px; }
+
+  /* Nav fits on one row: "Folsom" instead of "Folsom Collection", and taller
+     tap targets. */
+  .nav-long { display: none; }
+  .sidebar .site-nav-v3 { gap: 4px 18px; }
+  .sidebar .site-nav-v3 a { padding: 6px 0; }
+  .sidebar .wordmark-lockup { margin-bottom: 4px; }
+
+  /* Product page: photo leaves room for title + price on the first screen;
+     Buy lives in a bar pinned to the bottom. */
+  .product-page { margin-top: var(--space-md); padding-bottom: 88px; }
+  .product-back { margin-bottom: var(--space-md); }
+  .product-layout { gap: var(--space-lg); }
+  .product-main { max-height: 50svh; object-fit: contain; background: transparent; }
+  .product-thumb { width: 56px; height: 56px; }
+  .product-title { font-size: 26px; }
+  .product-info > .product-buy { display: none; }
+  .product-buy-bar {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
+    background: var(--paper);
+    border-top: 1px solid var(--border);
+  }
+  .product-buy-bar-price { font-size: 18px; color: var(--cobalt-deep); }
+  .product-buy-bar .product-buy {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+}

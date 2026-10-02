@@ -35,6 +35,10 @@ const CACHE_KEY = "gallery:v4";
 // carry a fetchedAt stamp and are only served while younger than
 // FRESH_SECONDS; the KV TTL is just cleanup.
 const FRESH_SECONDS = 30;
+// Between FRESH_SECONDS and STALE_SECONDS the cached feed is served right
+// away and rebuilt in the background, so a visitor never waits on Square
+// (a rebuild takes 1-3s). Nothing shown is ever older than this.
+const STALE_SECONDS = 60;
 const CACHE_TTL_SECONDS = 120;
 // Payment links, keyed by their idempotency key, kept between rebuilds.
 // Without this every rebuild re-POSTed one link per piece, and the Workers
@@ -45,7 +49,12 @@ const LINKS_KEY = "paylinks:v1";
 // Square calls a single rebuild may spend on new payment links, leaving
 // room under the 50-request cap for catalog pages + inventory. Pieces past
 // the budget get their link on the next rebuild (~30s later).
-const MAX_NEW_LINKS_PER_BUILD = 30;
+const MAX_NEW_LINKS_PER_BUILD = 25;
+// Photo width/height, keyed by image URL, read once from the file header.
+// The page needs them up front to lay out the masonry grid before photos
+// load (that's what lets photos lazy-load without the grid jumping).
+const DIMS_KEY = "imgdims:v1";
+const MAX_NEW_DIMS_PER_BUILD = 15;
 
 const COLLECTIONS = ["website", "home", "folsom"] as const;
 type Collection = (typeof COLLECTIONS)[number];
@@ -57,6 +66,8 @@ interface GalleryPiece {
   imageUrl: string;
   // Every photo on the Square item (first one is imageUrl); product page uses them.
   imageUrls: string[];
+  // [width, height] per imageUrls entry, null until measured.
+  imageDims: ([number, number] | null)[];
   price: number | null;
   buyLink: string | null;
   soldOut: boolean;
@@ -78,13 +89,14 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     // single Square fetch; each request just filters it.
     const cached: any = await env.GALLERY_CACHE.get(CACHE_KEY, "json");
     let pieces: GalleryPiece[];
-    if (cached?.fetchedAt && Date.now() - cached.fetchedAt < FRESH_SECONDS * 1000) {
+    const age = cached?.fetchedAt ? Date.now() - cached.fetchedAt : Infinity;
+    if (age < FRESH_SECONDS * 1000) {
       pieces = cached.pieces;
+    } else if (age < STALE_SECONDS * 1000) {
+      pieces = cached.pieces;
+      context.waitUntil(refreshGallery(env).catch((err) => console.error("background gallery sync failed", err)));
     } else {
-      pieces = await buildGallery(env);
-      await env.GALLERY_CACHE.put(CACHE_KEY, JSON.stringify({ fetchedAt: Date.now(), pieces }), {
-        expirationTtl: CACHE_TTL_SECONDS,
-      });
+      pieces = await refreshGallery(env);
     }
     if (pieceId) return jsonResponse(pieces.filter((p) => p.id === pieceId));
     if (collection === "all") return jsonResponse(pieces);
@@ -95,6 +107,14 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     return jsonResponse([]);
   }
 };
+
+async function refreshGallery(env: Env): Promise<GalleryPiece[]> {
+  const pieces = await buildGallery(env);
+  await env.GALLERY_CACHE.put(CACHE_KEY, JSON.stringify({ fetchedAt: Date.now(), pieces }), {
+    expirationTtl: CACHE_TTL_SECONDS,
+  });
+  return pieces;
+}
 
 async function buildGallery(env: Env): Promise<GalleryPiece[]> {
   const objects = await listAllCatalogObjects(env);
@@ -200,6 +220,7 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
       description: String(item.item_data?.description_plaintext ?? item.item_data?.description ?? "").trim(),
       imageUrl,
       imageUrls,
+      imageDims: [],
       price,
       buyLink,
       soldOut,
@@ -215,6 +236,24 @@ async function buildGallery(env: Env): Promise<GalleryPiece[]> {
   }
 
   pieces.sort((a, b) => (a.updatedAt < b.updatedAt ? 1 : -1));
+
+  // Measure photos newest piece first, cover photos before extra ones, so
+  // the top of the Shop page is laid out first.
+  const savedDims: Record<string, [number, number]> = (await env.GALLERY_CACHE.get(DIMS_KEY, "json")) || {};
+  const usedDims: Record<string, [number, number]> = {};
+  const toMeasure = [...pieces.map((p) => p.imageUrls[0] || p.imageUrl), ...pieces.flatMap((p) => p.imageUrls.slice(1))]
+    .filter((u, i, all) => u && !savedDims[u] && all.indexOf(u) === i)
+    .slice(0, MAX_NEW_DIMS_PER_BUILD);
+  const measured = await Promise.all(toMeasure.map((u) => imageSize(u)));
+  toMeasure.forEach((u, i) => { if (measured[i]) savedDims[u] = measured[i]!; });
+  for (const p of pieces) {
+    p.imageDims = p.imageUrls.map((u) => savedDims[u] || null);
+    for (const u of p.imageUrls) if (savedDims[u]) usedDims[u] = savedDims[u];
+  }
+  if (measured.some(Boolean) || Object.keys(usedDims).length !== Object.keys(savedDims).length) {
+    await env.GALLERY_CACHE.put(DIMS_KEY, JSON.stringify(usedDims));
+  }
+
   return pieces.map(({ updatedAt, ...rest }) => rest);
 }
 
@@ -291,6 +330,36 @@ async function getOrCreatePaymentLink(env: Env, variationId: string, idempotency
     return data.payment_link?.url || null;
   } catch (err) {
     console.error("payment link creation error", err);
+    return null;
+  }
+}
+
+// Reads [width, height] from the start of a JPEG or PNG without
+// downloading the whole photo. Square strips EXIF orientation from catalog
+// images, so the stored pixel size is the displayed size.
+async function imageSize(url: string): Promise<[number, number] | null> {
+  try {
+    const res = await fetch(url, { headers: { Range: "bytes=0-65535" } });
+    if (!res.ok) return null;
+    const b = new Uint8Array(await res.arrayBuffer());
+    if (b[0] === 0x89 && b[1] === 0x50) {
+      const v = new DataView(b.buffer);
+      return [v.getUint32(16), v.getUint32(20)];
+    }
+    if (b[0] === 0xff && b[1] === 0xd8) {
+      let i = 2;
+      while (i + 9 < b.length) {
+        if (b[i] !== 0xff) { i++; continue; }
+        const marker = b[i + 1];
+        // SOF0-SOF15, excluding DHT (C4), JPG (C8) and DAC (CC)
+        if (marker >= 0xc0 && marker <= 0xcf && marker !== 0xc4 && marker !== 0xc8 && marker !== 0xcc) {
+          return [(b[i + 7] << 8) | b[i + 8], (b[i + 5] << 8) | b[i + 6]];
+        }
+        i += 2 + ((b[i + 2] << 8) | b[i + 3]);
+      }
+    }
+    return null;
+  } catch {
     return null;
   }
 }
