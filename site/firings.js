@@ -50,14 +50,13 @@ const badge = (status) => `<span class="kf-badge kf-${status}">${esc(STATUS[stat
 
 // ---------- state ----------
 
-const state = { type: "all", view: "firings", sel: null, place: null, near: null, radius: "60" };
+const state = { type: "all", view: "firings", sel: null, near: null, radius: "60" };
 
 function readUrl() {
   const q = new URLSearchParams(location.search);
   state.type = TYPE_CHIPS.some(([v]) => v === q.get("type")) ? q.get("type") : "all";
   state.view = q.get("view") === "locations" ? "locations" : "firings";
   state.sel = q.get("sel");
-  state.place = q.get("place");
   state.near = q.get("lat") && q.get("lng") ? { lat: Number(q.get("lat")), lng: Number(q.get("lng")), label: q.get("near") || "your location" } : null;
   if (RADII.some(([v]) => v === q.get("r"))) state.radius = q.get("r");
 }
@@ -66,7 +65,6 @@ function writeUrl(push) {
   if (state.type !== "all") q.set("type", state.type);
   if (state.view !== "firings") q.set("view", state.view);
   if (state.sel) q.set("sel", state.sel);
-  if (state.place) q.set("place", state.place);
   if (state.near) { q.set("near", state.near.label); q.set("lat", state.near.lat.toFixed(4)); q.set("lng", state.near.lng.toFixed(4)); q.set("r", state.radius); }
   const url = `${location.pathname}${q.toString() ? `?${q}` : ""}`;
   history[push ? "pushState" : "replaceState"](null, "", url);
@@ -87,7 +85,7 @@ const placeMatchesType = (p) => state.type === "all" || p.firing_types.includes(
 function firingCards() {
   const cards = [];
   for (const p of DATA.places) {
-    if (!inRange(p) || (state.place && p.id !== state.place)) continue;
+    if (!inRange(p)) continue;
     for (const o of p.opportunities.filter((x) => typeMatch(x.firing_type))) cards.push({ kind: "listing", id: o.id, place: p, o });
     if (!p.opportunities.length && placeMatchesType(p)) cards.push({ kind: "place", id: p.id, place: p });
   }
@@ -182,14 +180,10 @@ function renderList() {
   const cards = state.view === "firings" ? firingCards() : locationCards();
   const typeWord = state.type === "all" ? "" : `${TYPE_LABEL[state.type].toLowerCase()} `;
   const noun = state.view === "firings" ? "listing" : "kiln location";
-  const atPlace = state.place && state.view === "firings" ? ` at ${DATA.places.find((x) => x.id === state.place)?.org || "this place"}` : "";
   const radiusOn = state.near && state.radius !== "all";
   const where = radiusOn ? ` within ${RADII.find(([v]) => v === state.radius)[1]} of ${state.near.label}` : "";
-  document.getElementById("kf-count").textContent = `${cards.length} ${typeWord}${noun}${cards.length === 1 ? "" : "s"}${atPlace}${where}`;
-  const placeName = state.place && DATA.places.find((x) => x.id === state.place)?.org;
-  document.getElementById("kf-sort").innerHTML = placeName && state.view === "firings"
-    ? `<button type="button" class="kf-linkish" data-clear-place>&larr; All firings</button>`
-    : state.view === "firings" ? "Available soonest first" : "";
+  document.getElementById("kf-count").textContent = `${cards.length} ${typeWord}${noun}${cards.length === 1 ? "" : "s"}${where}`;
+  document.getElementById("kf-sort").textContent = state.view === "firings" ? "Available soonest first" : "";
   document.getElementById("kf-list").innerHTML = cards.length
     ? cards.map(cardHtml).join("")
     : `<p class="kf-empty">Nothing ${radiusOn ? "in this area " : ""}for this filter yet. ${radiusOn ? "Try a wider distance or another firing type." : "Try another firing type."}</p>`;
@@ -428,7 +422,6 @@ function bind() {
     const b = e.target.closest("[data-view]");
     if (!b) return;
     state.view = b.dataset.view;
-    state.place = null;
     state.sel = null;
     writeUrl(false);
     render();
@@ -438,7 +431,7 @@ function bind() {
     const l = e.target.closest("[data-open-listing]");
     if (l) { state.view = "firings"; state.type = "all"; return select(l.dataset.openListing, true, { scroll: true }); }
     const pl = e.target.closest("[data-open-place]");
-    if (pl) { state.view = "firings"; state.type = "all"; state.place = pl.dataset.openPlace; state.sel = null; writeUrl(true); render(); fitMap(); return document.getElementById("kf-count").scrollIntoView({ block: "start", behavior: "smooth" }); }
+    if (pl) { state.view = "locations"; state.type = "all"; return select(pl.dataset.openPlace, true, { scroll: true }); }
     const head = e.target.closest(".kf-card-head");
     if (head) select(head.closest(".kf-card").dataset.id, true, { toggle: true });
   });
@@ -446,10 +439,6 @@ function bind() {
     const card = e.target.closest(".kf-card");
     if (card) MARKERS.get(card.dataset.place)?.getElement()?.querySelector(".kf-pin")?.classList.toggle("is-hover", on);
   };
-  document.getElementById("kf-sort").addEventListener("click", (e) => {
-    if (!e.target.closest("[data-clear-place]")) return;
-    state.place = null; writeUrl(true); render(); fitMap();
-  });
   list.addEventListener("mouseover", (e) => hover(e, true));
   list.addEventListener("mouseout", (e) => hover(e, false));
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && state.sel) select(null, true); });
