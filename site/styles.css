@@ -1428,3 +1428,37 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
   body.kf-panel-open { overflow: hidden; }
   .filter-chip { min-height: 40px; }
 }
+
+/* ---------- Tools section (tools.html + sidebar sub-links) ---------- */
+.nav-sub { display: flex; flex-direction: column; gap: 6px; padding-left: 12px; margin: -2px 0 4px; border-left: 1px solid var(--border); }
+.sidebar .site-nav-v3 .nav-sub a { font-size: 14px; }
+@media (max-width: 900px) {
+  .nav-sub { display: none; }
+}
+.tools-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-lg); margin-top: var(--space-lg); }
+.tool-card {
+  display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden;
+  color: inherit; text-decoration: none; background: #fff; transition: border-color 100ms var(--ease-out), box-shadow 100ms var(--ease-out);
+}
+.tool-card:hover { border-color: var(--cobalt-mid); box-shadow: 0 4px 16px rgba(22,38,92,.08); }
+.tool-preview { position: relative; height: 240px; background: var(--paper); border-bottom: 1px solid var(--border); overflow: hidden; }
+.tool-preview-tag {
+  position: absolute; top: 12px; left: 12px; z-index: 500; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--cobalt); background: #fff; border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 3px 7px;
+}
+.tool-preview-chat { display: flex; flex-direction: column; justify-content: flex-end; gap: var(--space-sm); padding: 48px var(--space-lg) var(--space-lg); height: auto; min-height: 240px; }
+.tool-msg { padding: 10px 14px; border-radius: var(--radius-md); max-width: 85%; line-height: 1.45; font-size: 14px; }
+.tool-msg-user { align-self: flex-end; background: var(--cobalt); color: #fff; }
+.tool-msg-ai { align-self: flex-start; background: #fff; color: var(--cobalt-deep); border: 1px solid var(--border); }
+.tool-map { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+.tool-map .leaflet-control-attribution { font-size: 9px; }
+.tool-card-text { padding: var(--space-lg); display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.tool-card-text h2 { font-family: var(--font-display); font-weight: 600; font-size: 24px; letter-spacing: -0.02em; color: var(--cobalt-deep); }
+.tool-card-text p:not(.kf-eyebrow) { font-size: 15px; line-height: 1.55; color: var(--cobalt); }
+.tool-link { margin-top: auto; padding-top: var(--space-sm); font-family: var(--font-display); font-weight: 500; color: var(--cobalt); }
+.tool-card:hover .tool-link { text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 760px) {
+  .tools-grid { grid-template-columns: 1fr; }
+  .tool-preview { height: 200px; }
+  .tool-preview-chat { height: auto; min-height: 0; }
+}

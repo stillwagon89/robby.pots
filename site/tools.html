@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tools — Flaming Clay</title>
+  <meta name="description" content="Free tools for potters: Clay.AI for glaze questions, and the Kiln Locator for wood, soda, salt, raku and pit firings around California.">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@variable&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="styles.css?v=dev">
+</head>
+<body>
+
+  <div class="container page-shell">
+    <aside class="sidebar">
+      <a href="index.html" class="wordmark-lockup" aria-label="Flaming Clay — home">
+        <span class="wordmark-line">FLAMING</span>
+        <span class="wordmark-line">CLAY<img src="assets/flame-mark.png" alt="" class="flame-mark"></span>
+      </a>
+      <nav class="site-nav-v3">
+        <a href="gallery.html">Shop</a>
+        <a href="folsom.html">Folsom<span class="nav-long"> Collection</span></a>
+        <a href="tools.html" class="active">Tools</a>
+        <span class="nav-sub"><a href="ask.html">Clay.AI</a><a href="firings.html">Kiln Locator</a></span>
+        <a href="contact.html">Contact</a>
+        <a href="bio.html">Bio</a>
+        <a href="https://www.instagram.com/flaming.clay/" target="_blank" rel="noopener" class="nav-ig" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </nav>
+    </aside>
+
+    <main class="page-content">
+      <header class="kf-header">
+        <p class="kf-eyebrow">Tools</p>
+        <h1>Tools for potters</h1>
+        <p class="kf-sub">Free tools I'm building to close the gap between a ceramics degree and the everyday potter: the knowledge, and the kilns.</p>
+      </header>
+
+      <div class="tools-grid">
+        <a class="tool-card" href="ask.html">
+          <div class="tool-preview tool-preview-chat" aria-hidden="true">
+            <span class="tool-preview-tag">Example</span>
+            <p class="tool-msg tool-msg-user">Why is my glaze crawling?</p>
+            <p class="tool-msg tool-msg-ai">Crawling usually starts before the glaze melts. A thick or powdery coat shrinks as it dries and pulls away from the pot, often over dust or oil on the bisque&hellip;</p>
+          </div>
+          <div class="tool-card-text">
+            <p class="kf-eyebrow">Knowledge</p>
+            <h2>Clay.AI</h2>
+            <p>Ask about glaze chemistry, defects and firing. Answers come from a real glaze-chemistry reference library.</p>
+            <span class="tool-link">Ask Clay.AI &rarr;</span>
+          </div>
+        </a>
+
+        <a class="tool-card" href="firings.html">
+          <div class="tool-preview tool-preview-map" aria-hidden="true">
+            <div id="tool-map" class="tool-map"></div>
+            <span class="tool-preview-tag" id="tool-map-stats">California</span>
+          </div>
+          <div class="tool-card-text">
+            <p class="kf-eyebrow">Access</p>
+            <h2>Kiln Locator</h2>
+            <p>Wood, soda, salt, raku and pit firings around California: sign-up status, who can join, and who to contact when nothing is posted.</p>
+            <span class="tool-link">Find a firing &rarr;</span>
+          </div>
+        </a>
+      </div>
+    </main>
+  </div>
+
+  <footer class="site-footer">San Francisco</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script>
+    // Live preview of the Kiln Locator: a still map of every kiln plus current counts.
+    (async () => {
+      try {
+        const data = await (await fetch("/data/firings.json", { cache: "no-cache" })).json();
+        const listings = data.places.reduce((n, p) => n + p.opportunities.length, 0);
+        document.getElementById("tool-map-stats").textContent = `${listings} listings · ${data.places.length} kilns`;
+        if (typeof L === "undefined") return;
+        const map = L.map("tool-map", { zoomControl: false, dragging: false, scrollWheelZoom: false, doubleClickZoom: false, boxZoom: false, keyboard: false, touchZoom: false, tap: false });
+        L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { className: "kf-tiles", attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
+        const pts = data.places.filter((p) => typeof p.lat === "number").map((p) => [p.lat, p.lng]);
+        for (const p of data.places) {
+          if (typeof p.lat !== "number") continue;
+          L.marker([p.lat, p.lng], { interactive: false, icon: L.divIcon({ className: "kf-pin-wrap", html: `<span class="kf-pin kf-pin-match${p.location_precision === "address" ? "" : " is-private"}"></span>`, iconSize: [0, 0] }) }).addTo(map);
+        }
+        map.fitBounds(L.latLngBounds(pts).pad(0.1));
+      } catch { /* the card still links to the Kiln Locator */ }
+    })();
+  </script>
+</body>
+</html>
