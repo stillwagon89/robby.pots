@@ -162,7 +162,9 @@ const TOOL = {
             end_date: { type: ["string", "null"], description: "YYYY-MM-DD" },
             date_precision: { type: "string", enum: ["exact", "month", "season", "none"] },
             signup_deadline: { type: ["string", "null"], description: "YYYY-MM-DD" },
-            registration_status: { type: "string", enum: ["open", "sold_out", "waitlist", "not_yet_open", "unknown"] },
+            registration_status: { type: "string", enum: ["open", "sold_out", "waitlist", "closed", "not_yet_open", "unknown"], description: "closed = sign-ups ended (e.g. 'Sales ended') without saying sold out." },
+            audience: { type: "string", enum: ["public", "members_only", "students", "residents_only", "invitation_only", "unknown"], description: "Who can take part, as stated on the page." },
+            includes: { type: "array", items: { type: "string" }, description: "For memberships, residencies and classes: the kilns / firing types included, as stated on the page." },
             registration_opens: { type: ["string", "null"], description: "YYYY-MM-DD if stated" },
             cost_text: { type: ["string", "null"] },
             how_to_join: { type: ["string", "null"] },
@@ -173,7 +175,7 @@ const TOOL = {
             source_quote: { type: "string", description: "A short verbatim quote (under 300 characters) copied exactly from the page, containing the title and/or date." },
             confidence: { type: "number", description: "0 to 1" },
           },
-          required: ["title", "host_org", "firing_type", "access_kind", "date_precision", "registration_status", "crew_needed", "source_url", "source_quote", "confidence"],
+          required: ["title", "host_org", "firing_type", "access_kind", "audience", "date_precision", "registration_status", "crew_needed", "source_url", "source_quote", "confidence"],
         },
       },
       notes: { type: "string", description: "One or two sentences on what the pages did or did not contain." },
@@ -200,7 +202,15 @@ Record an opportunity for each of these, found in the pages below:
 - a dated workshop, firing, class, or crew call that involves firing in a kiln or pit (wood, soda, salt, raku, pit/barrel/saggar, gas reduction), dated within the 12 months before today or any time after today;
 - an ongoing way in: a firing membership, a class you can enroll in that uses these kilns, a residency, or a kiln rental / firing service.
 
-Skip classes that are only about making or glazing with no firing, gallery shows, and anything outside California. Never invent dates, prices or status: use null or "unknown" when the page does not say. "Sold out" or "waitlist" must appear on the page to be used. source_quote must be copied character-for-character from the page text. If nothing qualifies, return an empty list and explain in notes.
+Rules:
+- Record each residency, membership or class ONCE, and list the kilns/firing types it includes in "includes" (do not make one item per firing type).
+- For classes, give the term or session start and end dates if the pages state them.
+- Set "audience" from the page: members-only firings, student-only classes, resident-only access, or open to the public. A residency's audience is "residents_only"; a college course's audience is "students".
+- If a college or school says its ceramics courses use particular kilns (for example a soda or raku kiln), record ONE class_enrollment item for its ceramics courses, audience "students", with those kilns in "includes" and term dates if stated.
+- Only record an event as a firing if that event's own description mentions firing, a kiln, or a pit. A venue that hosts firings at other times is not enough.
+- If a workshop has no firing component (for example forming, altering or glazing only), skip it. Use firing_type "other" only for firing methods not in the list.
+- "Sales ended" or "registration closed" means registration_status "closed", not "sold_out".
+- Skip: wheel-throwing or handbuilding classes that don't say the work goes into a soda, wood, salt, raku or pit firing; degree and certificate program listings; gallery shows; social events that aren't firings; anything outside California. Never invent dates, prices or status: use null or "unknown" when the page does not say. "Sold out" or "waitlist" must appear on the page to be used. source_quote must be copied character-for-character from the page text. If nothing qualifies, return an empty list and explain in notes.
 
 ${blocks.join("\n\n") || "(no page text could be retrieved)"}`;
 }
@@ -339,7 +349,11 @@ async function main() {
       const match = findMatch(existing, item);
       if (match) {
         const e = match.item;
-        if (e.start_date !== item.start_date || e.end_date !== item.end_date || e.registration_status !== item.registration_status) {
+        // A blank value in a new extraction never overrides a date Robby filled in by hand.
+        const same = (k) => (e[k] ?? null) === (item[k] ?? null) || (e.reviewed && (item[k] ?? null) === null);
+        // A rejected item only comes back if its dates change; an edited approved item keeps Robby's edits.
+        const changed = !same("start_date") || !same("end_date") || (match.folder !== "rejected" && !same("registration_status") && !e.reviewed);
+        if (changed) {
           // Something changed: keep the reviewed fields, update the facts, and send it back for review.
           const updated = { ...e, start_date: item.start_date, end_date: item.end_date, registration_status: item.registration_status, past: item.past, checked: TODAY, changed_from: { start_date: e.start_date, end_date: e.end_date, registration_status: e.registration_status } };
           if (!args.dry) {
@@ -357,6 +371,7 @@ async function main() {
       entry.written++;
     }
     console.log(`${entry.found} found, ${entry.written} new, ${entry.updated} changed, ${entry.skipped} unchanged`);
+    if (args.dry) for (const o of result.opportunities) console.log(`    · ${o.firing_type} | ${o.access_kind} | ${o.audience} | ${o.start_date || "-"} | ${o.registration_status} | ${o.title}${o.includes?.length ? ` [${o.includes.join(", ")}]` : ""}`);
   }
 
   run.finished = new Date().toISOString();

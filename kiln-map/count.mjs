@@ -23,8 +23,11 @@ const list = (folder) => {
 };
 
 const { sources } = read(join(ROOT, "sources.json"));
-const pending = list("pending"), approved = list("approved"), rejected = list("rejected");
-const live = [...pending, ...approved];
+const pending = list("pending"), rejected = list("rejected");
+const allApproved = list("approved");
+const approved = allApproved.filter((i) => i.added_by !== "manual"); // hand-entered items don't count toward AI accuracy
+const manual = allApproved.filter((i) => i.added_by === "manual");
+const live = [...pending, ...allApproved];
 const runs = existsSync(join(DATA, "runs")) ? readdirSync(join(DATA, "runs")).sort() : [];
 // A partial run (--only=...) covers some sources, so use each source's most recent entry across all runs.
 const latestBySource = new Map();
@@ -42,12 +45,13 @@ const fmt = (m) => Object.entries(m).sort((a, b) => b[1] - a[1]).map(([k, v]) =>
 
 // Gate 1: per core source.
 const coreRows = sources.filter((s) => s.core).map((s) => {
-  const items = live.filter((i) => i.source_id === s.id);
+  const all = live.filter((i) => i.source_id === s.id);
+  const items = all.filter((i) => i.added_by !== "manual"); // "kept up" measures the AI, not hand entries
   // The next firing is the earliest upcoming workshop/class/firing; residency start dates don't count.
   const known = (i) => i.registration_status !== "unknown" || Boolean(i.registration_opens);
   const firings = items.filter((i) => upcoming(i) && i.access_kind !== "residency").sort((a, b) => a.start_date.localeCompare(b.start_date));
   const next = firings.find(known) || firings[0];
-  const ongoing = items.filter((i) => i.access_kind !== "dated");
+  const ongoing = all.filter((i) => i.access_kind !== "dated");
   const r = run.sources.find((x) => x.id === s.id);
   const readable = r?.pages?.some((p) => p.chars > 200);
   const statusKnown = next ? known(next) : false;
@@ -61,7 +65,7 @@ const keptUp = coreRows.filter((r) => r.keptUp).length;
 const edited = approved.filter((i) => REVIEW_FIELDS.some((f) => JSON.stringify(i[f] ?? null) !== JSON.stringify(i._original?.[f] ?? null)));
 const reviewed = approved.length + rejected.length;
 const unchangedRate = reviewed ? Math.round(((approved.length - edited.length) / reviewed) * 100) : null;
-const unverified = live.filter((i) => !i.quote_verified);
+const unverified = live.filter((i) => !i.quote_verified && i.added_by !== "manual");
 
 const md = `# Firings count: ${TODAY}
 
@@ -90,7 +94,9 @@ ${coreRows.map(({ s, next, ongoing, r, readable, statusKnown, keptUp }) => {
 
 ## Review
 
-- Pending ${pending.length}, approved ${approved.length} (${edited.length} edited), rejected ${rejected.length}.
+- Pending ${pending.length}, approved ${approved.length} (${edited.length} edited), rejected ${rejected.length}, added by hand ${manual.length}.
+- Rejection reasons: ${fmt(countBy(rejected, "reject_reason"))}.
+- Edited: ${edited.map((i) => cell(i.title)).join("; ") || "none"}.
 - Approved unchanged: ${unchangedRate === null ? "nothing reviewed yet" : `${unchangedRate}% of ${reviewed} reviewed`}.
 - Items whose source quote was **not** found verbatim on the page: ${unverified.length}${unverified.length ? ` (${unverified.map((i) => i.id).join(", ")}). Check these first.` : "."}
 
