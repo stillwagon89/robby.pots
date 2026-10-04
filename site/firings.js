@@ -50,7 +50,7 @@ const badge = (status) => `<span class="kf-badge kf-${status}">${esc(STATUS[stat
 
 // ---------- state ----------
 
-const state = { type: "all", view: "firings", sel: null, near: null, radius: "60" };
+const state = { type: "all", view: "firings", sel: null, pin: null, near: null, radius: "60" };
 
 function readUrl() {
   const q = new URLSearchParams(location.search);
@@ -102,7 +102,9 @@ function firingCards() {
   };
   return cards.sort((a, b) => { const [ta, da] = rank(a).split("|"), [tb, db] = rank(b).split("|"); return Number(ta) - Number(tb) || (da + a.id).localeCompare(db + b.id); });
 }
-const locationCards = () => DATA.places.filter((p) => inRange(p) && placeMatchesType(p)).map((p) => ({ kind: "place", id: p.id, place: p }));
+// A place reached through "View all firings" is pinned first so it shows at the top; normal clicks never reorder the list.
+const locationCards = () => DATA.places.filter((p) => inRange(p) && placeMatchesType(p)).map((p) => ({ kind: "place", id: p.id, place: p }))
+  .sort((a, b) => (b.id === state.pin) - (a.id === state.pin));
 
 function placeLinks(p, signupUrl) {
   const c = p.contact || {};
@@ -422,6 +424,7 @@ function bind() {
     const b = e.target.closest("[data-view]");
     if (!b) return;
     state.view = b.dataset.view;
+    state.pin = null;
     state.sel = null;
     writeUrl(false);
     render();
@@ -431,9 +434,13 @@ function bind() {
     const l = e.target.closest("[data-open-listing]");
     if (l) { state.view = "firings"; state.type = "all"; return select(l.dataset.openListing, true, { scroll: true }); }
     const pl = e.target.closest("[data-open-place]");
-    if (pl) { state.view = "locations"; state.type = "all"; return select(pl.dataset.openPlace, true, { scroll: true }); }
+    if (pl) {
+      state.view = "locations"; state.type = "all"; state.pin = pl.dataset.openPlace;
+      select(state.pin, true);
+      return document.getElementById("kf-count").scrollIntoView({ block: "start" });
+    }
     const head = e.target.closest(".kf-card-head");
-    if (head) select(head.closest(".kf-card").dataset.id, true, { toggle: true });
+    if (head) { const id = head.closest(".kf-card").dataset.id; if (id !== state.pin) state.pin = null; select(id, true, { toggle: true }); }
   });
   const hover = (e, on) => {
     const card = e.target.closest(".kf-card");
