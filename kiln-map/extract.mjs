@@ -171,6 +171,10 @@ const TOOL = {
             first_atmospheric_ok: { type: ["boolean", "null"], description: "True only if the page says no prior wood/soda/atmospheric experience is needed." },
             crew_needed: { type: "boolean", description: "True if the page asks for stokers, crew or volunteers." },
             hosts_groups: { type: ["boolean", "null"], description: "True if the page says outside groups or studios can arrange a firing." },
+            pay_text: { type: ["string", "null"], description: "How participants pay, as stated: price, crew shifts, work trade, or both." },
+            bring: { type: ["string", "null"], description: "What participants bring (e.g. bisqued pots, wadding), if stated." },
+            commitment: { type: ["string", "null"], description: "Time commitment, e.g. 'Fri load · Sat fire · Mon unload' or '12 Thursdays', if stated." },
+            summary: { type: ["string", "null"], description: "One or two plain sentences for a potter deciding whether to join, using only what the page says." },
             source_url: { type: "string", description: "The exact page URL the item was found on." },
             source_quote: { type: "string", description: "A short verbatim quote (under 300 characters) copied exactly from the page, containing the title and/or date." },
             confidence: { type: "number", description: "0 to 1" },
@@ -179,8 +183,9 @@ const TOOL = {
         },
       },
       notes: { type: "string", description: "One or two sentences on what the pages did or did not contain." },
+      place_summary: { type: ["string", "null"], description: "Two plain sentences for potters about this place: what kilns it has and how outside potters get in (and where it announces firings, if stated). Only from the pages." },
     },
-    required: ["opportunities", "notes"],
+    required: ["opportunities", "notes", "place_summary"],
   },
 };
 
@@ -272,7 +277,8 @@ function findMatch(existing, item) {
     e.id === item.id ||
     (e.source_id === item.source_id &&
       e.firing_type === item.firing_type &&
-      jaccard(e.title, item.title) >= 0.5 &&
+      // Same firing under a longer or shorter title: same start date, or overlapping titles.
+      (jaccard(e.title, item.title) >= 0.5 || (e.start_date && e.start_date === item.start_date) || norm(item.title).includes(norm(e.title)) || norm(e.title).includes(norm(item.title))) &&
       (daysApart(e.start_date, item.start_date) <= 3 || (!e.start_date && !item.start_date)))
   );
 }
@@ -331,6 +337,7 @@ async function main() {
       continue;
     }
     entry.notes = result.notes;
+    entry.place_summary = result.place_summary || null;
     entry.usage = result.usage;
     entry.found = result.opportunities.length;
 
@@ -350,18 +357,22 @@ async function main() {
       if (match) {
         const e = match.item;
         // A blank value in a new extraction never overrides a date Robby filled in by hand.
-        const same = (k) => (e[k] ?? null) === (item[k] ?? null) || (e.reviewed && (item[k] ?? null) === null);
+        // Filling a blank isn't a change, and a blank never overrides an existing value.
+        const same = (k) => (e[k] ?? null) === null || (item[k] ?? null) === null || e[k] === item[k];
         // A rejected item only comes back if its dates change; an edited approved item keeps Robby's edits.
         const changed = !same("start_date") || !same("end_date") || (match.folder !== "rejected" && !same("registration_status") && !e.reviewed);
         if (changed) {
           // Something changed: keep the reviewed fields, update the facts, and send it back for review.
-          const updated = { ...e, start_date: item.start_date, end_date: item.end_date, registration_status: item.registration_status, past: item.past, checked: TODAY, changed_from: { start_date: e.start_date, end_date: e.end_date, registration_status: e.registration_status } };
+          const updated = { ...e, start_date: item.start_date ?? e.start_date, end_date: item.end_date ?? e.end_date, registration_status: item.registration_status, past: item.past, checked: TODAY, changed_from: { start_date: e.start_date, end_date: e.end_date, registration_status: e.registration_status } };
           if (!args.dry) {
             writeFileSync(match.file, JSON.stringify(updated, null, 2) + "\n");
             if (match.folder !== "pending") renameSync(match.file, join(DATA, "pending", `${e.id}.json`));
           }
           entry.updated++;
         } else {
+          // Nothing reviewable changed. Fill in descriptive fields an earlier run didn't collect.
+          const fill = Object.fromEntries(["summary", "pay_text", "bring", "commitment", "kiln_style"].filter((k) => e[k] == null && item[k] != null).map((k) => [k, item[k]]));
+          if (Object.keys(fill).length && !args.dry) writeFileSync(match.file, JSON.stringify({ ...e, ...fill }, null, 2) + "\n");
           entry.skipped++;
         }
         continue;

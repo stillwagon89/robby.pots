@@ -338,6 +338,16 @@ there is no separate "recent" subset anymore, both pages render the identical li
 - **2026-09-01: rebuilt on the same moon-jar fixed-background + wordmark + vertical nav shell as the home page** (`.moonjar-bg`, `.moonjar-content`), replacing the old `.site-header`/mobile-menu/footer. `gallery.html` and `ask.html` migrated to the same shell same day. **2026-09-03: this shell itself was superseded by the sidebar page-shell** — see Rebrand section above.
 - **2026-09-04: `.card` background changed from `var(--page)` (solid white) to `transparent`** — Robby's direction, so the moon-jar photo shows through the form panel instead of sitting behind an opaque white card. `.card` is only used on this page (confirmed via grep before changing it), so this didn't touch anything else. Input/textarea fields keep their solid white fill so they still read as editable against the now-transparent card.
 
+## Kiln Finder (firings.html) — added 2026-10-04
+Built from `design_handoff_kiln_finder` (turn 3), adjusted for real data. Classes are prefixed `kf-` in `styles.css`; logic in `site/firings.js`; data from `site/data/firings.json` (built by `kiln-map/build.mjs`).
+- **Status badge (new component, reusable):** one cobalt hue, six weights. Open now = solid cobalt; Opens soon = cobalt outline; Waitlist = `#EDF1F9` tint + Cobalt Mid border; **Full** = paper fill, hairline, muted text with strike-through (added: real listings are sold out or closed without a waitlist); Ongoing = hairline; More info needed = dashed Cobalt Mid border (text is Cobalt, not the handoff's Cobalt Mid, which was unreadable at 10.5px). No green/amber/red.
+- **"Who can join" line** on cards and panels (members only / enrolled students only / residents only), shown only when a listing isn't open to the public. Kept separate from fit tags ("First atmospheric OK", "Hosts groups").
+- **Map:** Leaflet + OpenStreetMap tiles with a grayscale CSS filter (`.kf-tiles`) to keep the single-hue rule. Pins reuse the bio globe's dot. Private kilns are pinned at the **town**, never the property, with a dashed ring.
+- **Panel** slides over the map on desktop and becomes a full-screen sheet below 900px. Selection, filters and the Near search are in the URL, so a listing or place can be shared as a link.
+- **Honesty blocks** not in the handoff: "What we don't know" and the contact note on every place profile.
+- **v1 link-outs:** "Remind me" / "Follow" are "Get their updates ↗" links until Phase 2 email storage exists.
+- Reused: `.page-shell` sidebar, `.filter-chip`, `.btn-cta`.
+
 ## Design Decisions Log
 | Date | Decision | Rationale |
 |------|----------|-----------|

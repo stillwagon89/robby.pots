@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firings You Can Join — Flaming Clay</title>
+  <meta name="description" content="Wood, soda, salt, raku and pit firings around California: sign-up status, who can join, and who to contact.">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@variable&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="styles.css?v=dev">
+  <link rel="preload" href="/data/firings.json" as="fetch" crossorigin>
+</head>
+<body>
+
+  <div class="container page-shell">
+    <aside class="sidebar">
+      <a href="index.html" class="wordmark-lockup" aria-label="Flaming Clay — home">
+        <span class="wordmark-line">FLAMING</span>
+        <span class="wordmark-line">CLAY<img src="assets/flame-mark.png" alt="" class="flame-mark"></span>
+      </a>
+      <nav class="site-nav-v3">
+        <a href="gallery.html">Shop</a>
+        <a href="folsom.html">Folsom<span class="nav-long"> Collection</span></a>
+        <a href="firings.html" class="active">Firings</a>
+        <a href="ask.html">Clay.AI</a>
+        <a href="contact.html">Contact</a>
+        <a href="bio.html">Bio</a>
+        <a href="https://www.instagram.com/flaming.clay/" target="_blank" rel="noopener" class="nav-ig" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </nav>
+    </aside>
+
+    <main class="page-content kf">
+      <header class="kf-header">
+        <p class="kf-eyebrow">California · Kilns that let outside potters in</p>
+        <h1>Firings you can join</h1>
+        <p class="kf-sub">Wood, soda, salt, raku and pit firings, crew calls, and kilns to rent.</p>
+        <p class="kf-note">Updated <span id="kf-updated"></span>. An early version: missing a kiln or see something wrong? <a href="contact.html">Tell me</a>.</p>
+      </header>
+
+      <div class="kf-filters">
+        <div class="filter-chips" id="kf-types" role="group" aria-label="Firing type"></div>
+        <form class="kf-near" id="kf-near" role="search" aria-label="Filter by distance">
+          <label class="kf-near-label" for="kf-near-input">Near</label>
+          <input id="kf-near-input" class="kf-input" type="text" inputmode="search" placeholder="City or zip" autocomplete="postal-code">
+          <button type="button" class="kf-locate" id="kf-locate" aria-label="Use my location" title="Use my location">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+          </button>
+          <select id="kf-radius" class="kf-select" aria-label="Distance"></select>
+          <span class="kf-near-status" id="kf-near-status" role="status"></span>
+        </form>
+      </div>
+
+      <div class="kf-body">
+        <div class="kf-map-wrap">
+          <div id="kf-map" class="kf-map" aria-label="Map of kilns"></div>
+          <div class="kf-legend" aria-hidden="true">
+            <span><i class="kf-pin kf-pin-match"></i> Matches filter</span>
+            <span><i class="kf-pin kf-pin-other"></i> Other kilns</span>
+            <span><i class="kf-pin kf-pin-match is-private"></i> Private, area only</span>
+          </div>
+          <aside class="kf-panel" id="kf-panel" hidden aria-live="polite"></aside>
+        </div>
+
+        <div class="kf-list-col">
+          <div class="kf-seg" id="kf-view" role="tablist" aria-label="View">
+            <button type="button" role="tab" data-view="firings">Firings</button>
+            <button type="button" role="tab" data-view="locations">Kiln locations</button>
+          </div>
+          <div class="kf-list-head"><h2 id="kf-count"></h2><span id="kf-sort" class="kf-sort"></span></div>
+          <div class="kf-list" id="kf-list"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="site-footer">San Francisco</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="firings.js?v=dev"></script>
+  <script>renderKilnFinder();</script>
+</body>
+</html>
