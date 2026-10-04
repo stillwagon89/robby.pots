@@ -207,6 +207,8 @@ function aiBox(title, text, sourceUrl, checked) {
     <p class="kf-ai-foot">${sourceUrl ? `${esc(host(sourceUrl))} · ` : ""}${checked ? `checked ${esc(fmtDay(checked))} · ` : ""}<a href="contact.html">Is this wrong?</a></p>
   </div>`;
 }
+const wordSet = (t) => new Set((t || "").toLowerCase().replace(/[^a-z ]+/g, " ").split(" ").filter((w) => w.length > 3));
+function sameIdea(a, b) { const A = wordSet(a), B = wordSet(b); return [...A].filter((w) => B.has(w)).length / (Math.min(A.size, B.size) || 1) >= 0.5; }
 function evidenceBox(title, text, url, checked) {
   if (!text) return "";
   return `<div class="kf-ai">
@@ -237,7 +239,7 @@ function whenText(o) {
 function placeEvidence(p) {
   if (!p.place_summary && !(p.firing_evidence || []).length) return "";
   const lines = (p.firing_evidence || []).filter((f) => state.type === "all" || f.firing_type === state.type)
-    .map((f) => `<li><strong>${esc(TYPE_LABEL[f.firing_type] || f.firing_type)}:</strong> ${esc(f.sentence)} <a href="${esc(f.url)}" target="_blank" rel="noopener">See the exact text ${ext}</a></li>`).join("");
+    .map((f) => `<li><strong>${esc(TYPE_LABEL[f.firing_type] || f.firing_type)}:</strong> ${f.sentence ? `${esc(f.sentence)} ` : "Source: "}<a href="${esc(f.url)}" target="_blank" rel="noopener">See the exact text ${ext}</a></li>`).join("");
   return `<div class="kf-ai">
     <p class="kf-ai-head"><span class="kf-ai-dot"></span>Clay.AI summary of their website</p>
     ${p.place_summary ? `<p class="kf-ai-body">${esc(p.place_summary)}</p>` : ""}
@@ -263,7 +265,7 @@ function listingDetail(o, p) {
       ["How to join", esc(o.how_to_join)],
       ["Crew", o.crew_needed ? "Participants help load, stoke and unload." : ""],
     ])}
-    ${(() => { const ev = evidenceFor(o, p); return evidenceBox("Clay.AI: why this is listed", [ev?.sentence, o.summary].filter(Boolean).join(" "), ev?.url || o.source_url, o.checked); })()}
+    ${(() => { const ev = evidenceFor(o, p); return evidenceBox("Clay.AI: why this is listed", [ev?.sentence, o.summary].filter(Boolean).filter((t, i, a) => !a.slice(0, i).some((u) => sameIdea(t, u))).join(" "), ev?.url || o.source_url, o.checked); })()}
     ${!o.summary && !evidenceFor(o, p)?.sentence ? `<p class="kf-note">${o.added_by === "manual" ? "Added by hand from research" : "Found on"} <a href="${esc(o.source_url)}" target="_blank" rel="noopener">${esc(host(o.source_url))}</a> · checked ${esc(fmtDay(o.checked))} · <a href="contact.html">Is this wrong?</a></p>` : ""}
     ${linksHtml(placeLinks(p, o.source_url))}
     ${contactNote(p)}

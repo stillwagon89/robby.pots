@@ -256,6 +256,7 @@ Rules:
 - Only record an event as a firing if that event's own description mentions firing, a kiln, or a pit. A venue that hosts firings at other times is not enough.
 - If a workshop has no firing component (for example forming, altering or glazing only), skip it. Use firing_type "other" only for firing methods not in the list.
 - Every item and every firing_evidence entry must be backed by text on the pages: copy a verbatim quote that names the firing type or kiln. If you cannot quote text that shows a place offers that firing type, do not list it.
+- Never repeat yourself. place_summary says only what is true of the place as a whole (which kilns or firing types, who runs them, the general way in). Each firing_evidence sentence gives only a fact specific to that firing type that place_summary does not already say; if it would just restate place_summary, make it a short note on where on the page the firing is mentioned.
 - Write for a potter looking for a specific kind of firing. Say only what matters for taking part in that firing (kiln, dates, who can join, how to sign up). Leave out general class, membership and studio descriptions.
 - signup_url must be copied from a <links> list and lead to registration for that item. If the only link is a general or department page, use null.
 - "Sales ended" or "registration closed" means registration_status "closed", not "sold_out".

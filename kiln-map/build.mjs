@@ -44,6 +44,18 @@ const short = (iso) => { const [, m, d] = iso.split("-").map(Number); return `${
 // Systemic link rule: if the last crawl found a place's website down, the site doesn't link to it (no dead ends).
 // The next crawl re-checks, so the link returns on its own when the site is back.
 const HEALTH = existsSync(join(ROOT, "data", "link-health.json")) ? JSON.parse(readFileSync(join(ROOT, "data", "link-health.json"), "utf8")) : {};
+// No repeating: if an evidence sentence mostly restates the place summary (or another sentence), keep only the source link.
+const words = (t) => new Set((t || "").toLowerCase().replace(/[^a-z ]+/g, " ").split(" ").filter((w) => w.length > 3));
+const overlap = (a, b) => { const A = words(a), B = words(b); const n = [...A].filter((w) => B.has(w)).length; return n / (Math.min(A.size, B.size) || 1); };
+function dedupeEvidence(summary, list) {
+  const seen = [summary].filter(Boolean);
+  return list.map((f) => {
+    const dup = seen.some((t) => overlap(f.sentence, t) >= 0.5);
+    if (!dup) seen.push(f.sentence);
+    return { ...f, sentence: dup ? null : f.sentence };
+  });
+}
+
 function contactFor(s) {
   const c = { ...(s.contact || {}) };
   if (HEALTH[s.id]?.status === "down" && c.website) {
@@ -130,7 +142,7 @@ const places = sources.map((s) => {
     contact: contactFor(s),
     newsletter_url: s.newsletter_url || null,
     place_summary: lastRun.get(s.id)?.place_summary || null,
-    firing_evidence: lastRun.get(s.id)?.firing_evidence || [],
+    firing_evidence: dedupeEvidence(lastRun.get(s.id)?.place_summary, lastRun.get(s.id)?.firing_evidence || []),
     get_in: [...new Set(items.map((i) => ({ dated: "Workshops and firings", ongoing_membership: "Membership", class_enrollment: "Classes", residency: "Residencies", rental_service: "Kiln rental" })[i.access_kind]).filter(Boolean))],
     firing_types: firingTypes,
     tracking,
