@@ -216,7 +216,7 @@ Using Satoshi (not system fonts, not Inter) + warm color palette signals intenti
 - **Featured pieces:** 3-4 ceramic pieces in torn-paper frames, gallery layout
 - **Residency globe section:** Stop-motion globe with location hover states
 - **Call-to-action:** "Request a Commission" button (warm taupe, Satoshi medium)
-- **Footer:** Location (San Francisco) + social/contact links
+- **Footer:** none (the "San Francisco" footer was removed 2026-10-04; it dated from the original portfolio design)
 
 #### Header v3 (historical — superseded 2026-09-03 by the sidebar page-shell, see Rebrand section above)
 Full-bleed moon-jar photograph behind the name lockup and nav, replacing the small circular
