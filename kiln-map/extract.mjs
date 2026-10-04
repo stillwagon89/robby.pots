@@ -215,6 +215,7 @@ Rules:
 - Only record an event as a firing if that event's own description mentions firing, a kiln, or a pit. A venue that hosts firings at other times is not enough.
 - If a workshop has no firing component (for example forming, altering or glazing only), skip it. Use firing_type "other" only for firing methods not in the list.
 - "Sales ended" or "registration closed" means registration_status "closed", not "sold_out".
+- A live "Register", "Register Now", "Sign up", "Enroll" or "Add to cart" button or link on a future-dated listing means registration_status "open". Use "unknown" only when the page gives no sign of whether you can sign up.
 - Skip: wheel-throwing or handbuilding classes that don't say the work goes into a soda, wood, salt, raku or pit firing; degree and certificate program listings; gallery shows; social events that aren't firings; anything outside California. Never invent dates, prices or status: use null or "unknown" when the page does not say. "Sold out" or "waitlist" must appear on the page to be used. source_quote must be copied character-for-character from the page text. If nothing qualifies, return an empty list and explain in notes.
 
 ${blocks.join("\n\n") || "(no page text could be retrieved)"}`;
@@ -303,6 +304,8 @@ async function main() {
   for (const folder of [...FOLDERS, "runs"]) mkdirSync(join(DATA, folder), { recursive: true });
 
   const existing = loadExisting();
+  const HEALTH_FILE = join(DATA, "link-health.json");
+  const health = existsSync(HEALTH_FILE) ? JSON.parse(readFileSync(HEALTH_FILE, "utf8")) : {};
   const run = { date: TODAY, started: new Date().toISOString(), model: MODEL, sources: [] };
 
   for (const source of selected) {
@@ -316,6 +319,9 @@ async function main() {
     process.stdout.write(`- ${source.id}: crawling… `);
     const pages = await crawlSource(source);
     entry.pages = pages.map((p) => ({ url: p.url, status: p.status, chars: p.text.length, jsOnly: p.jsOnly, error: p.error }));
+    // Link health: "down" (no response, 404, 5xx) hides the link on the site; "blocked" (401/403/429) only blocks our bot, so the link stays.
+    const first = pages[0];
+    health[source.id] = { checked: TODAY, url: first.url, status: first.ok ? "ok" : [401, 403, 429].includes(first.status) ? "blocked" : "down", http: first.status };
     const usable = pages.filter((p) => p.text.length > 200);
     process.stdout.write(`${usable.length}/${pages.length} pages usable; extracting… `);
     if (!usable.length) {
@@ -386,6 +392,7 @@ async function main() {
   }
 
   run.finished = new Date().toISOString();
+  if (!args.dry) writeFileSync(HEALTH_FILE, JSON.stringify(health, null, 2) + "\n");
   if (!args.dry && !args["crawl-only"]) writeFileSync(join(DATA, "runs", `${run.started.replace(/[:.]/g, "-")}.json`), JSON.stringify(run, null, 2) + "\n");
   console.log(`\nDone. Review kiln-map/data/pending/, then run: npm run kiln:count`);
 }

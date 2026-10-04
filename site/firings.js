@@ -3,7 +3,7 @@
 // instead of email capture. Data: /data/firings.json from kiln-map/build.mjs.
 // URL state: ?type=soda&view=locations&sel=<listing or place id>&near=<label>&lat=&lng=&r=60
 
-const TYPE_CHIPS = [["all", "All"], ["soda", "Soda"], ["wood", "Wood"], ["salt", "Salt"], ["raku", "Raku"], ["pit_barrel_saggar", "Pit"], ["gas_reduction", "Gas"], ["rental_service", "Rental"]];
+const TYPE_CHIPS = [["all", "All"], ["soda", "Soda"], ["wood", "Wood"], ["salt", "Salt"], ["raku", "Raku"], ["pit_barrel_saggar", "Pit"], ["gas_reduction", "Gas"]];
 const TYPE_LABEL = { wood: "Wood", soda: "Soda", salt: "Salt", raku: "Raku", pit_barrel_saggar: "Pit", gas_reduction: "Gas", electric: "Electric", rental_service: "Rental", other: "Other" };
 const STATUS = {
   open: { label: "Open now", action: "Sign up on host's page" },
@@ -89,8 +89,18 @@ function firingCards() {
     for (const o of p.opportunities.filter((x) => typeMatch(x.firing_type))) cards.push({ kind: "listing", id: o.id, place: p, o });
     if (!p.opportunities.length && placeMatchesType(p)) cards.push({ kind: "place", id: p.id, place: p });
   }
-  const rank = (c) => (c.kind === "place" ? "9999" : c.o.start_date || "9998");
-  return cards.sort((a, b) => rank(a).localeCompare(rank(b)));
+  // What can a visitor actually do soonest? Open sign-ups first (by date), then ongoing access, then sign-ups opening soon,
+  // waitlists, unclear status, and full ones last. Places with no listings come after every listing.
+  const TIER = { open: 0, ongoing: 1, opens_soon: 2, waitlist: 3, more_info: 4, full: 5 };
+  const today = new Date().toISOString().slice(0, 10);
+  const rank = (c) => {
+    if (c.kind === "place") return "9|9999";
+    const o = c.o;
+    const upcoming = o.start_date && o.start_date >= today ? o.start_date : "9998";
+    const tier = o.status === "ongoing" && upcoming === "9998" ? 1.5 : TIER[o.status] ?? 4;
+    return `${tier}|${upcoming}`;
+  };
+  return cards.sort((a, b) => { const [ta, da] = rank(a).split("|"), [tb, db] = rank(b).split("|"); return Number(ta) - Number(tb) || (da + a.id).localeCompare(db + b.id); });
 }
 const locationCards = () => DATA.places.filter((p) => inRange(p) && placeMatchesType(p)).map((p) => ({ kind: "place", id: p.id, place: p }));
 
@@ -129,11 +139,13 @@ function cardHtml(c) {
     const types = p.firing_types.filter((t) => TYPE_LABEL[t]).map((t) => TYPE_LABEL[t]).join(", ");
     const nothing = !p.opportunities.length;
     const reachable = p.contact?.email || p.contact?.website || p.contact?.instagram;
-    return `<button type="button" class="kf-card${nothing ? " is-dashed" : ""}${sel}" data-id="${esc(c.id)}" data-place="${esc(p.id)}">
-      <span class="kf-card-top"><span class="kf-card-title">${esc(p.org)}</span>${nothing ? badge("more_info") : `<span class="kf-count">${p.opportunities.length} listing${p.opportunities.length === 1 ? "" : "s"}</span>`}</span>
+    return `<div class="kf-card${nothing ? " is-dashed" : ""}${sel}" data-id="${esc(c.id)}" data-place="${esc(p.id)}">
+      <button type="button" class="kf-card-head" aria-expanded="${!!sel}"><span class="kf-card-top"><span class="kf-card-title">${esc(p.org)}</span>${nothing ? badge("more_info") : `<span class="kf-count">${p.opportunities.length} listing${p.opportunities.length === 1 ? "" : "s"}</span>`}</span>
       <span class="kf-meta">${esc(p.city)}${p.location_precision === "address" ? "" : " (approximate area)"} · ${esc(types)}</span>
       ${nothing ? `<span class="kf-meta">${reachable ? "Dates not posted. Contact them to ask." : "Dates not posted. No public contact yet."}</span>` : ""}
-    </button>`;
+      <span class="kf-chevron" aria-hidden="true"></span></button>
+      ${sel ? `<div class="kf-card-body">${placeDetail(p)}</div>` : ""}
+    </div>`;
   }
   const { o, place: p } = c;
   // Card meta stays one line: show "Pay:" only for crew/work trades, and only short prices (the panel has the rest).
@@ -141,13 +153,15 @@ function cardHtml(c) {
   const price = o.cost_text && o.cost_text.length <= 32 ? o.cost_text : null;
   const meta = [p.org, fmtDates(o), trade || price].filter(Boolean).join(" · ");
   const tags = [o.first_atmospheric_ok && "First atmospheric OK", o.hosts_groups && "Hosts groups"].filter(Boolean);
-  return `<button type="button" class="kf-card${o.status === "more_info" ? " is-dashed" : ""}${sel}" data-id="${esc(o.id)}" data-place="${esc(p.id)}">
-    <span class="kf-card-top"><span class="kf-card-title">${esc(o.title)}</span>${badge(o.status)}</span>
+  return `<div class="kf-card${o.status === "more_info" ? " is-dashed" : ""}${sel}" data-id="${esc(o.id)}" data-place="${esc(p.id)}">
+    <button type="button" class="kf-card-head" aria-expanded="${!!sel}"><span class="kf-card-top"><span class="kf-card-title">${esc(o.title)}</span>${badge(o.status)}</span>
     <span class="kf-meta">${esc(meta)}</span>
     ${o.who_can_join ? `<span class="kf-who">${esc(o.who_can_join)}</span>` : ""}
     ${o.key_date ? `<span class="kf-key">${esc(o.key_date)}</span>` : ""}
     ${tags.length ? `<span class="kf-tags">${tags.map((t) => `<span class="kf-tag">${esc(t)}</span>`).join("")}</span>` : ""}
-  </button>`;
+    <span class="kf-chevron" aria-hidden="true"></span></button>
+    ${sel ? `<div class="kf-card-body">${listingDetail(o, p)}</div>` : ""}
+  </div>`;
 }
 
 function renderList() {
@@ -157,14 +171,14 @@ function renderList() {
   const radiusOn = state.near && state.radius !== "all";
   const where = radiusOn ? ` within ${RADII.find(([v]) => v === state.radius)[1]} of ${state.near.label}` : "";
   document.getElementById("kf-count").textContent = `${cards.length} ${typeWord}${noun}${cards.length === 1 ? "" : "s"}${where}`;
-  document.getElementById("kf-sort").textContent = state.view === "firings" ? "Soonest first" : "";
+  document.getElementById("kf-sort").textContent = state.view === "firings" ? "Available soonest first" : "";
   document.getElementById("kf-list").innerHTML = cards.length
     ? cards.map(cardHtml).join("")
     : `<p class="kf-empty">Nothing ${radiusOn ? "in this area " : ""}for this filter yet. ${radiusOn ? "Try a wider distance or another firing type." : "Try another firing type."}</p>`;
   return cards;
 }
 
-// ---------- rendering: panel ----------
+// ---------- rendering: expanded details ----------
 
 function detailRows(rows) {
   const html = rows.filter(([, v]) => v).map(([k, v]) => `<div class="kf-row"><dt>${esc(k)}</dt><dd>${v}</dd></div>`).join("");
@@ -200,18 +214,9 @@ function whenText(o) {
   return `${fmtDay(o.start_date)}${o.end_date && o.end_date !== o.start_date ? ` – ${fmtDay(o.end_date)}` : ""}`;
 }
 
-function listingPanel(o, p) {
+function listingDetail(o, p) {
   const url = primaryUrl(o, p);
-  const tags = [o.first_atmospheric_ok && "First atmospheric OK", o.hosts_groups && "Hosts groups"].filter(Boolean);
-  const meta = [p.org, fmtDates(o), o.cost_text].filter(Boolean).join(" · ");
   return `
-    <div class="kf-panel-top"><button type="button" class="kf-back" data-close>&larr; All listings</button>${badge(o.status)}</div>
-    <p class="kf-eyebrow">${esc(TYPE_LABEL[o.firing_type] || "")} · ${esc(p.city)}</p>
-    <h2 class="kf-panel-title">${esc(o.title)}</h2>
-    <p class="kf-panel-meta">${esc(meta)}</p>
-    ${o.who_can_join ? `<p class="kf-who">${esc(o.who_can_join)}</p>` : ""}
-    ${tags.length ? `<p class="kf-tags">${tags.map((t) => `<span class="kf-tag">${esc(t)}</span>`).join("")}</p>` : ""}
-    ${o.key_date ? `<p class="kf-key">${esc(o.key_date)}</p>` : ""}
     <div class="kf-actions">
       ${url ? `<a class="btn-cta" href="${esc(url)}" target="_blank" rel="noopener">${esc(STATUS[o.status].action)} ${ext}</a>` : ""}
       ${p.contact?.website && p.contact.website !== url ? `<a class="kf-btn-ghost" href="${esc(p.contact.website)}" target="_blank" rel="noopener">Host's page ${ext}</a>` : ""}
@@ -234,17 +239,14 @@ function listingPanel(o, p) {
     ${clayAiLink(o.firing_type)}`;
 }
 
-function placePanel(p) {
+function placeDetail(p) {
   const types = p.firing_types.filter((t) => TYPE_LABEL[t]);
   const updates = updatesUrl(p);
   return `
-    <div class="kf-panel-top"><button type="button" class="kf-back" data-close>&larr; All ${state.view === "firings" ? "listings" : "locations"}</button>${p.opportunities.length ? "" : badge("more_info")}</div>
-    <p class="kf-eyebrow">${esc(KIND_LABEL[p.kind] || "Kiln")} · ${esc(p.city)}</p>
-    <h2 class="kf-panel-title">${esc(p.org)}</h2>
-    <p class="kf-panel-meta">${esc(p.address || `${p.city}, CA`)} <span class="kf-precision">${p.location_precision === "address" ? "Exact address" : "Approximate area"}</span></p>
+    <p class="kf-addr">${esc(p.address || `${p.city}, CA`)} <span class="kf-precision">${p.location_precision === "address" ? "Exact address" : "Approximate area"}</span></p>
     ${p.location_note ? `<p class="kf-note">${esc(p.location_note)}</p>` : ""}
     <p class="kf-tags">${types.map((t) => `<span class="kf-tag">${esc(TYPE_LABEL[t])}</span>`).join("")}</p>
-    ${detailRows([["How outsiders get in", esc(p.get_in.join(" · ") || "Not posted. Contact them to ask.")]])}
+    ${detailRows([["How outsiders get in", esc(p.get_in.join(" · ") || (updatesUrl(p) || contactUrl(p) ? "Not posted. Contact them to ask." : "No public way in found yet. Know how to reach them? Tell me below."))]])}
     <p class="kf-eyebrow kf-eyebrow-gap">Upcoming here</p>
     ${p.opportunities.length
       ? `<div class="kf-mini">${p.opportunities.map((o) => `<button type="button" class="kf-mini-row" data-open-listing="${esc(o.id)}"><span>${esc(o.title)}${fmtDates(o) ? ` · ${esc(fmtDates(o))}` : ""}</span>${badge(o.status)}</button>`).join("")}</div>`
@@ -255,28 +257,6 @@ function placePanel(p) {
     ${unknownsHtml(p)}
     ${updates ? `<a class="kf-btn-ghost kf-follow" href="${esc(updates)}" target="_blank" rel="noopener">Get their updates ${ext}</a>` : ""}
     <p class="kf-note">${esc(TRACKING[p.tracking] || "")}${p.last_checked ? ` Last checked ${esc(fmtDay(p.last_checked))}.` : ""} Something wrong? <a href="contact.html">Tell me</a>.</p>`;
-}
-
-function renderPanel() {
-  const panel = document.getElementById("kf-panel");
-  let html = null;
-  if (state.sel) {
-    for (const p of DATA.places) {
-      if (p.id === state.sel) html = placePanel(p);
-      const o = p.opportunities.find((x) => x.id === state.sel);
-      if (o) html = listingPanel(o, p);
-    }
-  }
-  if (!html) {
-    state.sel = null;
-    panel.hidden = true;
-    document.body.classList.remove("kf-panel-open");
-    return;
-  }
-  panel.innerHTML = html;
-  panel.hidden = false;
-  panel.scrollTop = 0;
-  document.body.classList.add("kf-panel-open");
 }
 
 // ---------- map ----------
@@ -307,6 +287,8 @@ function renderMap(cards) {
     const m = MARKERS.get(p.id);
     if (!m) continue;
     const mode = selPlace?.id === p.id ? "selected" : shown.has(p.id) ? "match" : "other";
+    if (mode === "other") { m.remove(); continue; }
+    if (!MAP.hasLayer(m)) m.addTo(MAP);
     m.setIcon(pinIcon(p, mode));
     m.setZIndexOffset(mode === "selected" ? 1000 : mode === "match" ? 500 : 0);
     m.setOpacity(inRange(p) ? 1 : 0.35);
@@ -320,7 +302,7 @@ function renderMap(cards) {
 function fitMap() {
   if (!MAP) return;
   if (RADIUS_LAYER) MAP.fitBounds(RADIUS_LAYER.getBounds().pad(0.05));
-  else MAP.fitBounds(L.latLngBounds(DATA.places.filter((p) => typeof p.lat === "number").map((p) => [p.lat, p.lng])).pad(0.12));
+  else MAP.fitBounds([[32.4, -124.5], [42.1, -114.1]]); // all of California
 }
 
 function firstListingId(p) {
@@ -340,7 +322,7 @@ function initMap() {
   for (const p of DATA.places) {
     if (typeof p.lat !== "number") continue;
     const m = L.marker([p.lat, p.lng], { icon: pinIcon(p, "match"), keyboard: true, title: p.org, alt: p.org });
-    m.on("click", () => select(state.view === "firings" && p.opportunities.length ? firstListingId(p) : p.id, true));
+    m.on("click", () => select(state.view === "firings" && p.opportunities.length ? firstListingId(p) : p.id, true, { scroll: true }));
     m.addTo(MAP);
     MARKERS.set(p.id, m);
   }
@@ -359,14 +341,14 @@ function render() {
   document.getElementById("kf-radius").value = state.radius;
   document.getElementById("kf-near-input").value = state.near ? state.near.label : "";
   const cards = renderList();
-  renderPanel();
   renderMap(cards);
 }
 
-function select(id, push) {
-  state.sel = id;
+function select(id, push, { toggle = false, scroll = false } = {}) {
+  state.sel = toggle && state.sel === id ? null : id;
   writeUrl(push);
   render();
+  if (state.sel && scroll) document.querySelector(`.kf-card[data-id="${CSS.escape(state.sel)}"]`)?.scrollIntoView({ block: "nearest", behavior: "smooth" });
   const p = placeForSel();
   if (p && MAP && typeof p.lat === "number" && !MAP.getBounds().contains([p.lat, p.lng])) MAP.panTo([p.lat, p.lng]);
 }
@@ -405,8 +387,12 @@ function bind() {
   });
   const list = document.getElementById("kf-list");
   list.addEventListener("click", (e) => {
-    const card = e.target.closest(".kf-card");
-    if (card) select(card.dataset.id, true);
+    const l = e.target.closest("[data-open-listing]");
+    if (l) { state.view = "firings"; state.type = "all"; return select(l.dataset.openListing, true, { scroll: true }); }
+    const pl = e.target.closest("[data-open-place]");
+    if (pl) { state.view = "locations"; state.type = "all"; return select(pl.dataset.openPlace, true, { scroll: true }); }
+    const head = e.target.closest(".kf-card-head");
+    if (head) select(head.closest(".kf-card").dataset.id, true, { toggle: true });
   });
   const hover = (e, on) => {
     const card = e.target.closest(".kf-card");
@@ -414,13 +400,6 @@ function bind() {
   };
   list.addEventListener("mouseover", (e) => hover(e, true));
   list.addEventListener("mouseout", (e) => hover(e, false));
-  document.getElementById("kf-panel").addEventListener("click", (e) => {
-    if (e.target.closest("[data-close]")) return select(null, true);
-    const l = e.target.closest("[data-open-listing]");
-    if (l) return select(l.dataset.openListing, true);
-    const p = e.target.closest("[data-open-place]");
-    if (p) return select(p.dataset.openPlace, true);
-  });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && state.sel) select(null, true); });
 
   const status = document.getElementById("kf-near-status");

@@ -41,6 +41,18 @@ const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "
 const short = (iso) => { const [, m, d] = iso.split("-").map(Number); return `${MONTHS[m - 1]} ${d}`; };
 
 // The handoff's status scale (one cobalt, six weights): open · opens_soon · waitlist · full · ongoing · more_info.
+// Systemic link rule: if the last crawl found a place's website down, the site doesn't link to it (no dead ends).
+// The next crawl re-checks, so the link returns on its own when the site is back.
+const HEALTH = existsSync(join(ROOT, "data", "link-health.json")) ? JSON.parse(readFileSync(join(ROOT, "data", "link-health.json"), "utf8")) : {};
+function contactFor(s) {
+  const c = { ...(s.contact || {}) };
+  if (HEALTH[s.id]?.status === "down" && c.website) {
+    delete c.website;
+    c.note = [c.note, "Their website wasn't loading when last checked."].filter(Boolean).join(" ");
+  }
+  return c;
+}
+
 function displayStatus(i) {
   if (i.registration_status === "waitlist" || (/waitlist/i.test(i.title) && i.registration_status === "sold_out")) return "waitlist";
   if (i.registration_status === "sold_out" || i.registration_status === "closed") return "full";
@@ -51,6 +63,8 @@ function displayStatus(i) {
   }
   if (i.registration_status === "open") return "open";
   if (i.registration_status === "not_yet_open") return "opens_soon";
+  // The page often shows a "Register now" button without saying "open": treat that, on a future date, as open.
+  if (i.registration_status === "unknown" && i.start_date && i.start_date >= TODAY && /register|sign.?up|enroll|book|buy|reserve/i.test(i.how_to_join || "")) return "open";
   return "more_info";
 }
 
@@ -113,7 +127,7 @@ const places = sources.map((s) => {
     location_precision: s.location_precision,
     address: s.location_precision === "address" ? s.address : null,
     location_note: s.location_note || null,
-    contact: s.contact || {},
+    contact: contactFor(s),
     newsletter_url: s.newsletter_url || null,
     place_summary: lastRun.get(s.id)?.place_summary || null,
     get_in: [...new Set(items.map((i) => ({ dated: "Workshops and firings", ongoing_membership: "Membership", class_enrollment: "Classes", residency: "Residencies", rental_service: "Kiln rental" })[i.access_kind]).filter(Boolean))],

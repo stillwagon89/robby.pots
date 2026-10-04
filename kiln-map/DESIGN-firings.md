@@ -207,3 +207,17 @@ Before any code: write down 5 California wood, soda or salt kilns you know perso
 - You widened the scope on purpose when I narrowed it: "all types of kilns, including gas or electric for rent, soda, salt, wood, raku." You were thinking about the whole step up from the studio, not about kiln types you personally prefer.
 - You refused to accept manual chores as inevitable: "why do I need to subscribe the inbox to each kiln's newsletter myself? Can we automate that?" That instinct is what keeps this under 15 minutes a week.
 - You set a goal of "10–15 minutes per week with the goal of auto-publishing after a month or two," which is a builder's balance between trust and sustainability.
+
+## Weekly cycle and future sources (added 2026-10-04)
+
+**Weekly cycle (about 15 minutes of Robby's time):** Claude runs `npm run kiln:extract`, then shows the pending items as a short numbered plain-language list (place, what, date, status, quote). Robby replies with the numbers to reject or fix; Claude moves files, runs `npm run kiln:build`, commits and pushes (only on his "publish"). Every rejection carries a reason so the extraction rules can be tightened.
+
+**Open problem: sources that are not websites.** Many kilns announce firings only in newsletters and on Instagram.
+- *Newsletters:* planned path is Cloudflare Email Routing into a separate Worker (`kiln-worker/`) that stores the email text and runs the same extraction. Robby subscribes one dedicated address to each place's list.
+- *Instagram:* Meta's official API only reads accounts that authorize the app, plus limited public data from Business/Creator accounts via the Business Discovery endpoint. It does not give general read access to other people's feeds, and scraping breaks Instagram's terms. Options to evaluate: (1) ask each place to authorize read access (best for willing partners), (2) Business Discovery for places with Business accounts, (3) Robby forwards or screenshots posts for extraction, (4) ask places to email the newsletter address. Verify current API terms before building.
+
+## Systemic rules (added 2026-10-04)
+- **Link health:** every crawl records whether each place's website loaded (`data/link-health.json`: ok / blocked / down). `kiln:build` drops the website link for any place marked "down" and adds a plain note, so the page never sends people to a dead site. "Blocked" (403/429) only stops our bot, so the link stays. The next crawl re-checks automatically.
+- **Status:** a live Register/Sign-up button on a future-dated listing means "open", not "more info needed". Same rule is in the extraction prompt and the build.
+- **Sort order (Firings view):** open now (by date), then ongoing access, sign-ups opening soon, waitlist, unclear, full, then places with no listings.
+- **No dead ends in copy:** "Contact them to ask" only appears when a contact exists; otherwise the card asks visitors to tell Robby how to reach them.

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ask About Glazes — Flaming Clay</title>
+  <title>Clay.AI — Flaming Clay</title>
   <link rel="preconnect" href="https://api.fontshare.com">
   <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,85 +12,47 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=dev">
   <style>
-    .ask-wrap { max-width: 800px; padding: 0 0 var(--space-3xl); }
-    .ask-header { text-align: center; margin-bottom: var(--space-xl); }
+    .ask-wrap { max-width: 760px; padding: 0 0 var(--space-3xl); }
+    .ask-header { text-align: left; margin-bottom: var(--space-lg); }
     .ask-header h1 {
-      font-family: var(--font-display); font-weight: 600; font-size: 32px;
-      letter-spacing: -0.025em; color: var(--cobalt-deep); margin-bottom: var(--space-sm);
+      font-family: var(--font-display); font-weight: 600; font-size: 40px; line-height: 1.04;
+      letter-spacing: -0.03em; color: var(--cobalt-deep); margin: 0 0 var(--space-sm);
     }
-    .ask-header .tagline { color: var(--cobalt-muted); font-size: 16px; }
+    .ask-header .tagline { font-size: 18px; color: var(--cobalt); max-width: 560px; text-wrap: pretty; }
 
     .chat-panel {
-      position: relative;
-      background: transparent;
-      border: 1px solid var(--cobalt);
-      border-radius: var(--radius-md);
-      padding: var(--space-lg);
+      position: relative; background: #fff; border: 1px solid var(--border); border-radius: var(--radius-md);
+      padding: var(--space-lg); box-shadow: 0 4px 16px rgba(22,38,92,.06);
     }
     .chat-status {
-      position: absolute;
-      top: var(--space-md);
-      right: var(--space-md);
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-family: var(--font-mono);
-      font-size: 11px;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: var(--cobalt-muted);
+      display: inline-flex; align-items: center; gap: 6px; margin-bottom: var(--space-md);
+      font-family: var(--font-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--cobalt-muted);
     }
-    .chat-status .dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: var(--cobalt-muted);
-      transition: background 0.2s ease;
-    }
+    .chat-status .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--cobalt-muted); transition: background .2s ease; }
     .chat-status.is-verified { color: var(--cobalt); }
     .chat-status.is-verified .dot { background: #3E8F5C; }
-    .messages {
-      min-height: 320px;
-      max-height: 55vh;
-      overflow-y: auto;
-      margin-bottom: var(--space-md);
-      display: flex;
-      flex-direction: column;
-      gap: var(--space-sm);
-    }
-    .msg { padding: 10px 14px; border-radius: var(--radius-md); max-width: 85%; line-height: 1.45; font-size: 0.95rem; white-space: pre-wrap; }
-    .msg.user { align-self: flex-end; background: var(--cobalt); color: #FFFFFF; }
+    .messages { min-height: 280px; max-height: 55vh; overflow-y: auto; margin-bottom: var(--space-md); display: flex; flex-direction: column; gap: var(--space-sm); }
+    .msg { padding: 10px 14px; border-radius: var(--radius-md); max-width: 85%; line-height: 1.5; font-size: 15px; white-space: pre-wrap; }
+    .msg.user { align-self: flex-end; background: var(--cobalt); color: #fff; }
     .msg.assistant { align-self: flex-start; background: var(--paper); color: var(--cobalt-deep); border: 1px solid var(--border); }
-    .msg.system { align-self: center; background: transparent; color: var(--cobalt); font-size: 0.85rem; text-align: center; }
+    .msg.system { align-self: flex-start; background: transparent; color: var(--cobalt); font-size: 15px; padding-left: 0; }
+    .ask-starters { display: flex; flex-wrap: wrap; gap: 8px; margin-top: var(--space-sm); }
 
-    .input-row { display: flex; gap: var(--space-sm); margin-bottom: var(--space-md); }
-    .input-row input { flex: 1; background: transparent; }
+    .input-row { display: flex; gap: var(--space-sm); }
+    .input-row input { flex: 1; background: transparent; min-height: 44px; }
     .input-row button {
-      font-family: var(--font-display);
-      font-weight: 500;
-      background: var(--cobalt);
-      color: #FFFFFF;
-      border: none;
-      border-radius: var(--radius-sm);
-      padding: 0 20px;
-      font-size: 1rem;
-      cursor: pointer;
+      font-family: var(--font-display); font-weight: 500; background: var(--cobalt); color: #fff; border: none;
+      border-radius: var(--radius-sm); padding: 0 22px; min-height: 44px; font-size: 15px; cursor: pointer;
     }
     .input-row button:hover:not(:disabled) { background: var(--cobalt-deep); }
     .input-row button:disabled { background: var(--border); color: var(--cobalt-muted); cursor: not-allowed; }
-
-    .cf-turnstile { display: flex; justify-content: center; margin-bottom: var(--space-xs); }
-
-    .ask-hint { font-size: 0.85rem; color: var(--cobalt-muted); text-align: center; margin-top: var(--space-sm); }
+    .cf-turnstile { display: flex; margin-top: var(--space-md); }
+    .ask-hint { font-size: 13px; color: var(--cobalt-muted); margin-top: var(--space-sm); min-height: 1em; }
+    @media (max-width: 900px) { .ask-header h1 { font-size: 32px; } .chat-panel { padding: var(--space-md); } }
   </style>
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
-
-  <div class="moonjar-bg" aria-hidden="true">
-    <img src="/cdn-cgi/image/width=1200,quality=70,format=auto,onerror=redirect/moon-jar.jpg" srcset="/cdn-cgi/image/width=800,quality=70,format=auto,onerror=redirect/moon-jar.jpg 800w, /cdn-cgi/image/width=1200,quality=70,format=auto,onerror=redirect/moon-jar.jpg 1200w, /cdn-cgi/image/width=1600,quality=70,format=auto,onerror=redirect/moon-jar.jpg 1600w" sizes="100vw" fetchpriority="low" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='moon-jar.jpg'" alt="" class="moonjar-bg-img">
-    <div class="moonjar-bg-wash"></div>
-  </div>
 
   <div class="container page-shell">
     <aside class="sidebar">
@@ -101,7 +63,7 @@
       <nav class="site-nav-v3">
         <a href="gallery.html">Shop</a>
         <a href="folsom.html">Folsom<span class="nav-long"> Collection</span></a>
-        <a href="tools.html" class="active">Tools</a>\n        <span class="nav-sub"><a href="ask.html" class="active">Clay.AI</a><a href="firings.html">Kiln Locator</a></span>
+        <a href="tools.html" class="active">Potter's Toolkit</a>
         <a href="contact.html">Contact</a>
         <a href="bio.html">Bio</a>
         <a href="https://www.instagram.com/flaming.clay/" target="_blank" rel="noopener" class="nav-ig" aria-label="Instagram">
@@ -112,14 +74,20 @@
 
     <main class="page-content ask-wrap">
     <div class="ask-header">
-      <h1>Ask About Glazes</h1>
-      <p class="tagline">A ceramics chemistry assistant grounded in a real glaze-chemistry reference library</p>
+      <h1>Clay.AI</h1>
+      <p class="tagline">A ceramics assistant for glaze chemistry, defects and firing, grounded in a real glaze-chemistry reference library and potter-specific sources.</p>
     </div>
 
     <section class="chat-panel">
       <div class="chat-status" id="chatStatus"><span class="dot"></span><span class="label">Connecting</span></div>
       <div class="messages" id="messages" aria-live="polite">
-        <div class="msg system">Ask about glaze recipes, material substitutions, oxide chemistry, or common firing problems.</div>
+        <div class="msg system">Ask about glaze recipes, material substitutions, oxide chemistry, or common firing problems.
+          <div class="ask-starters">
+            <button type="button" class="filter-chip" data-q="Why is my glaze crawling?">Why is my glaze crawling?</button>
+            <button type="button" class="filter-chip" data-q="What happens if I substitute silica for feldspar?">Silica for feldspar?</button>
+            <button type="button" class="filter-chip" data-q="How do I fix pinholing in a cone 6 glaze?">Fix pinholing at cone 6</button>
+          </div>
+        </div>
       </div>
       <div class="cf-turnstile" id="turnstile-widget" data-sitekey="0x4AAAAAAEcNPxh_GwQkG5pf" data-action="ask" data-callback="onTurnstileSuccess"></div>
       <div class="input-row">
@@ -210,6 +178,11 @@
       input.focus();
     }
 
+    document.querySelectorAll('.ask-starters [data-q]').forEach((b) => b.addEventListener('click', () => {
+      const input = document.getElementById('messageInput');
+      input.value = b.dataset.q;
+      if (!input.disabled) input.focus();
+    }));
     document.getElementById('sendBtn').addEventListener('click', sendMessage);
     document.getElementById('messageInput').addEventListener('keydown', (e) => {
       if (e.key === 'Enter') sendMessage();

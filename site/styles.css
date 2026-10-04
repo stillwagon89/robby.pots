@@ -1348,10 +1348,20 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 .kf-empty { color: var(--cobalt-muted); padding: var(--space-md) 0; }
 
 .kf-card {
-  display: flex; flex-direction: column; gap: 6px; text-align: left; width: 100%; padding: 14px 16px;
-  background: #fff; border: 1px solid var(--border); border-radius: var(--radius-md); cursor: pointer; font: inherit; color: inherit;
+  width: 100%; background: #fff; border: 1px solid var(--border); border-radius: var(--radius-md); color: inherit;
   transition: border-color 100ms var(--ease-out), box-shadow 100ms var(--ease-out);
 }
+.kf-card-head {
+  position: relative; display: flex; flex-direction: column; gap: 6px; text-align: left; width: 100%; padding: 14px 40px 14px 16px;
+  background: none; border: 0; border-radius: var(--radius-md); cursor: pointer; font: inherit; color: inherit;
+}
+.kf-chevron { position: absolute; right: 16px; top: 20px; width: 8px; height: 8px; border-right: 2px solid var(--cobalt); border-bottom: 2px solid var(--cobalt); transform: rotate(45deg); transition: transform 150ms var(--ease-out); }
+.kf-card.is-selected .kf-chevron { transform: rotate(-135deg); top: 24px; }
+.kf-card-body { padding: 0 16px 16px; border-top: 1px solid var(--border); animation: kf-open 200ms var(--ease-out); }
+@keyframes kf-open { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+.kf-addr { font-size: 15px; color: var(--cobalt); margin-top: var(--space-md); }
+.kf-card-body .kf-who, .kf-card-body .kf-tags, .kf-card-body .kf-key { margin-top: var(--space-sm); }
+.kf-card-body .kf-actions { margin-top: var(--space-md); }
 .kf-card:hover { border-color: var(--cobalt-mid); }
 .kf-card.is-selected { border-color: var(--cobalt); box-shadow: 0 4px 16px rgba(22,38,92,.08); }
 .kf-card.is-dashed { border-style: dashed; border-color: var(--cobalt-mid); }
@@ -1377,18 +1387,6 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 /* Handoff spec'd Cobalt Mid text here; Cobalt keeps it legible at 10.5px. */
 .kf-more_info { border: 1px dashed var(--cobalt-mid); color: var(--cobalt); font-weight: 400; }
 
-/* Panel: slides over the map (desktop); full-screen sheet on phones. */
-.kf-panel {
-  position: absolute; top: 0; right: 0; bottom: 0; width: min(420px, 100%); z-index: 600; overflow-y: auto;
-  background: #fff; border: 1px solid var(--border); border-radius: var(--radius-md); padding: var(--space-lg);
-  box-shadow: 0 8px 28px rgba(22,38,92,.12); animation: kf-in 300ms var(--ease-out);
-}
-@keyframes kf-in { from { opacity: 0; transform: translateX(16px); } to { opacity: 1; transform: none; } }
-.kf-panel-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-md); }
-.kf-back { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--cobalt); background: none; border: 0; cursor: pointer; padding: 8px 0; min-height: 44px; }
-.kf-panel-title { font-family: var(--font-display); font-weight: 600; font-size: 28px; line-height: 1.1; letter-spacing: -0.025em; color: var(--cobalt-deep); margin: 4px 0 6px; }
-.kf-panel-meta { font-size: 16px; color: var(--cobalt); }
-.kf-panel .kf-who, .kf-panel .kf-tags, .kf-panel .kf-key { margin-top: var(--space-sm); }
 .kf-precision { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .04em; text-transform: uppercase; color: var(--cobalt-muted); margin-left: 6px; }
 .kf-actions { display: flex; gap: var(--space-sm); flex-wrap: wrap; margin: var(--space-md) 0; padding-bottom: var(--space-md); border-bottom: 1px solid var(--border); }
 .kf-actions .btn-cta { min-height: 40px; display: inline-flex; align-items: center; }
@@ -1424,8 +1422,6 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
   .kf-filters { flex-direction: column; align-items: stretch; }
   .kf-near-status { text-align: left; }
   .kf-header h1 { font-size: 32px; }
-  .kf-panel { position: fixed; inset: 0; width: 100%; border-radius: 0; border: 0; padding: var(--space-md) var(--space-md) var(--space-xl); }
-  body.kf-panel-open { overflow: hidden; }
   .filter-chip { min-height: 40px; }
 }
 
@@ -1462,3 +1458,4 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
   .tool-preview { height: 200px; }
   .tool-preview-chat { height: auto; min-height: 0; }
 }
+
