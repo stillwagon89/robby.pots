@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-04",
+  "started": "2026-10-04T11:04:36.772Z",
+  "model": "claude-haiku-4-5-20251001",
+  "sources": [
+    {
+      "id": "calimpong-kiln-shed",
+      "org": "The Kiln Shed (Conrad Calimpong)",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://www.thekilnshed.net/Conrad_Calimpongs_Kiln_Shed/Welcome.html",
+          "status": 200,
+          "chars": 173,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.thekilnshed.net/Conrad_Calimpongs_Kiln_Shed/My_Kiln.html",
+          "status": 200,
+          "chars": 999,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The page describes Conrad Calimpong's personal kiln design and construction history at The Kiln Shed in Ferndale, CA, but contains no information about firing opportunities, workshops, classes, memberships, residencies, or firing services available to studio potters. It is purely descriptive content about the kiln itself and includes a personal anecdote about his daughter.",
+      "usage": {
+        "input_tokens": 1902,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 127,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    }
+  ],
+  "finished": "2026-10-04T11:04:38.736Z"
+}
