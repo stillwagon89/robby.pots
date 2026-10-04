@@ -229,3 +229,6 @@ Principle: every claim on the page must be something a potter can check in one c
 - **Deep links.** The "See the exact text" and "See it on their site" links use a browser text-fragment (`#:~:text=...`) built from the verified quote, so the page scrolls to and highlights the passage. Unsupported browsers just open the page.
 - **Honest sign-up buttons.** The crawler passes the page's register/enroll links to the AI, which may only choose one from that list (`signup_url`, checked in code). If none exists the button reads "See it on their site" and goes to the highlighted evidence, never a generic department or apply page.
 - **Fallbacks.** A listing with no evidence of its own uses the place's evidence for the same firing type.
+
+## One action per listing (added 2026-10-04)
+A listing card has one primary button and no redundant links. The button goes to the registration page if the crawler found one (`signup_url`), otherwise to the exact passage that shows the firing (`evidence_url`, text-fragment link). The evidence box quotes that passage on our side ("Their page says: ...") so the information is visible even if the browser can't scroll to it, and adds a link only if it differs from the button. Host website, newsletter and general links live on the place card, not on every listing. Never label a link "Sign-up page" unless it is one.

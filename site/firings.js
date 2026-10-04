@@ -125,9 +125,9 @@ function contactUrl(p) {
 }
 // The evidence for a listing: its own, else the place's evidence for that firing type.
 function evidenceFor(o, p) {
-  if (o.evidence_url) return { sentence: o.evidence_sentence, url: o.evidence_url };
+  if (o.evidence_url) return { sentence: o.evidence_sentence, quote: o.evidence_quote, url: o.evidence_url };
   const f = (p.firing_evidence || []).find((x) => x.firing_type === o.firing_type);
-  return f ? { sentence: f.sentence, url: f.url } : null;
+  return f ? { sentence: f.sentence, quote: f.quote, url: f.url } : null;
 }
 // Say what the button really does: a registration page only when we found one, otherwise the exact spot on their site that mentions this firing.
 const hasSignup = (o) => Boolean(o.signup_url);
@@ -209,13 +209,27 @@ function aiBox(title, text, sourceUrl, checked) {
 }
 const wordSet = (t) => new Set((t || "").toLowerCase().replace(/[^a-z ]+/g, " ").split(" ").filter((w) => w.length > 3));
 function sameIdea(a, b) { const A = wordSet(a), B = wordSet(b); return [...A].filter((w) => B.has(w)).length / (Math.min(A.size, B.size) || 1) >= 0.5; }
-function evidenceBox(title, text, url, checked) {
-  if (!text) return "";
+const bare = (u) => (u || "").split("#")[0];
+// One source line per claim: show what their page says; add a link only if it isn't the button already above.
+function evidenceBox(title, text, ev, primary, checked, fallbackUrl) {
+  const srcUrl = ev?.url || fallbackUrl;
+  if (!text && !ev?.quote) return "";
+  const link = srcUrl && bare(srcUrl) !== bare(primary) ? ` <a href="${esc(srcUrl)}" target="_blank" rel="noopener">See it on the page ${ext}</a> ·` : "";
   return `<div class="kf-ai">
     <p class="kf-ai-head"><span class="kf-ai-dot"></span>${esc(title)}</p>
-    <p class="kf-ai-body">${esc(text)}</p>
-    <p class="kf-ai-foot">${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">See the exact text on ${esc(host(url))} ${ext}</a> · ` : ""}${checked ? `checked ${esc(fmtDay(checked))} · ` : ""}<a href="contact.html">Is this wrong?</a></p>
+    ${text ? `<p class="kf-ai-body">${esc(text)}</p>` : ""}
+    ${ev?.quote ? `<p class="kf-quote">Their page says: &ldquo;${esc(ev.quote)}&rdquo;</p>` : ""}
+    <p class="kf-ai-foot">${srcUrl ? `${esc(host(srcUrl))} ·` : ""}${link} ${checked ? `checked ${esc(fmtDay(checked))} · ` : ""}<a href="contact.html">Is this wrong?</a></p>
   </div>`;
+}
+function contactLine(p) {
+  const c = p.contact || {};
+  const parts = [];
+  if (c.email) parts.push(`<a href="mailto:${esc(c.email)}">Email</a>`);
+  if (c.phone) parts.push(`<a href="tel:${esc(c.phone.replace(/[^\d+]/g, ""))}">Call</a>`);
+  if (c.instagram) parts.push(`<a href="https://www.instagram.com/${esc(c.instagram)}/" target="_blank" rel="noopener">Instagram</a>`);
+  if (p.newsletter_url) parts.push(`<a href="${esc(p.newsletter_url)}" target="_blank" rel="noopener">Newsletter</a>`);
+  return parts.length ? `<p class="kf-note">Contact the host: ${parts.join(" · ")}</p>` : "";
 }
 function unknownsHtml(p) {
   return p.unknowns.length ? `<p class="kf-eyebrow kf-eyebrow-gap">What we don't know</p><ul class="kf-unknowns">${p.unknowns.map((u) => `<li>${esc(u)}</li>`).join("")}</ul>` : "";
@@ -253,7 +267,6 @@ function listingDetail(o, p) {
   return `
     <div class="kf-actions">
       ${url ? `<a class="btn-cta" href="${esc(url)}" target="_blank" rel="noopener">${esc(primaryLabel(o))} ${ext}</a>` : ""}
-      ${p.contact?.website && p.contact.website !== url ? `<a class="kf-btn-ghost" href="${esc(p.contact.website)}" target="_blank" rel="noopener">Host's page ${ext}</a>` : ""}
     </div>
     ${detailRows([
       ["When", esc(whenText(o))],
@@ -265,9 +278,8 @@ function listingDetail(o, p) {
       ["How to join", esc(o.how_to_join)],
       ["Crew", o.crew_needed ? "Participants help load, stoke and unload." : ""],
     ])}
-    ${(() => { const ev = evidenceFor(o, p); return evidenceBox("Clay.AI: why this is listed", [ev?.sentence, o.summary].filter(Boolean).filter((t, i, a) => !a.slice(0, i).some((u) => sameIdea(t, u))).join(" "), ev?.url || o.source_url, o.checked); })()}
-    ${!o.summary && !evidenceFor(o, p)?.sentence ? `<p class="kf-note">${o.added_by === "manual" ? "Added by hand from research" : "Found on"} <a href="${esc(o.source_url)}" target="_blank" rel="noopener">${esc(host(o.source_url))}</a> · checked ${esc(fmtDay(o.checked))} · <a href="contact.html">Is this wrong?</a></p>` : ""}
-    ${linksHtml(placeLinks(p, o.source_url))}
+    ${(() => { const ev = evidenceFor(o, p); return evidenceBox("Clay.AI: why this is listed", [ev?.sentence, o.summary].filter(Boolean).filter((t, i, a) => !a.slice(0, i).some((u) => sameIdea(t, u))).join(" "), ev, url, o.checked, o.source_url); })()}
+    ${contactLine(p)}
     ${contactNote(p)}
     <p class="kf-note"><button type="button" class="kf-linkish" data-open-place="${esc(p.id)}">More about ${esc(p.org)} &rarr;</button></p>
     ${clayAiLink(o.firing_type)}`;
