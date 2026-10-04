@@ -132,7 +132,7 @@ function evidenceFor(o, p) {
 // Say what the button really does: a registration page only when we found one, otherwise the exact spot on their site that mentions this firing.
 const hasSignup = (o) => Boolean(o.signup_url);
 function primaryLabel(o) {
-  if (["open", "ongoing", "waitlist"].includes(o.status) && !hasSignup(o)) return "Website";
+  if (["open", "ongoing"].includes(o.status)) return "Website";
   return STATUS[o.status].action;
 }
 function primaryUrl(o, p) {
@@ -277,7 +277,7 @@ function listingDetail(o, p) {
     ${(() => { const ev = evidenceFor(o, p); return evidenceBox("Clay.AI: why this is listed", [ev?.sentence, o.summary].filter(Boolean).filter((t, i, a) => !a.slice(0, i).some((u) => sameIdea(t, u))).join(" "), ev, url, o.checked, o.source_url); })()}
     ${contactLine(p)}
     ${contactNote(p)}
-    <p class="kf-note"><button type="button" class="kf-linkish" data-open-place="${esc(p.id)}">Show all firings for ${esc(p.org)} &rarr;</button></p>`;
+    <p class="kf-note"><button type="button" class="kf-linkish" data-open-place="${esc(p.id)}">View all firings &rarr;</button></p>`;
 }
 
 function placeDetail(p) {
