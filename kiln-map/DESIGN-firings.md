@@ -221,3 +221,11 @@ Before any code: write down 5 California wood, soda or salt kilns you know perso
 - **Status:** a live Register/Sign-up button on a future-dated listing means "open", not "more info needed". Same rule is in the extraction prompt and the build.
 - **Sort order (Firings view):** open now (by date), then ongoing access, sign-ups opening soon, waitlist, unclear, full, then places with no listings.
 - **No dead ends in copy:** "Contact them to ask" only appears when a contact exists; otherwise the card asks visitors to tell Robby how to reach them.
+
+## Evidence and deep links (added 2026-10-04)
+Principle: every claim on the page must be something a potter can check in one click, and every outbound button must say what it really does.
+- **Summaries are about firing only.** `place_summary` covers which kilns or firing types exist and how an outsider takes part. General classes, memberships and amenities are left out unless they are the way into a firing.
+- **Evidence per firing type and per listing.** The AI must give a one-sentence reason plus a verbatim quote naming the firing type or kiln. The script checks the quote really appears on a crawled page and records which page holds it. Items it cannot back with a quote are not listed.
+- **Deep links.** The "See the exact text" and "See it on their site" links use a browser text-fragment (`#:~:text=...`) built from the verified quote, so the page scrolls to and highlights the passage. Unsupported browsers just open the page.
+- **Honest sign-up buttons.** The crawler passes the page's register/enroll links to the AI, which may only choose one from that list (`signup_url`, checked in code). If none exists the button reads "See it on their site" and goes to the highlighted evidence, never a generic department or apply page.
+- **Fallbacks.** A listing with no evidence of its own uses the place's evidence for the same firing type.

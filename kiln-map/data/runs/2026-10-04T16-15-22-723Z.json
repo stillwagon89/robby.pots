@@ -1,0 +1,784 @@
+{
+  "date": "2026-10-04",
+  "started": "2026-10-04T16:15:22.723Z",
+  "model": "claude-haiku-4-5-20251001",
+  "sources": [
+    {
+      "id": "cobb-mountain",
+      "org": "Cobb Mountain Art & Ecology Project",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://www.cobbartandecology.org/workshops",
+          "status": 200,
+          "chars": 3518,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.cobbartandecology.org/workshops/firing-workshop",
+          "status": 200,
+          "chars": 3295,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.cobbartandecology.org/become-a-resident",
+          "status": 200,
+          "chars": 5659,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.cobbartandecology.org/shortterm-residency",
+          "status": 200,
+          "chars": 3035,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.cobbartandecology.org/resident-housing",
+          "status": 200,
+          "chars": 4703,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.cobbartandecology.org/past-residents",
+          "status": 200,
+          "chars": 2878,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.cobbartandecology.org/firing-membership",
+          "status": 200,
+          "chars": 3720,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.cobbartandecology.org/events",
+          "status": 200,
+          "chars": 8912,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.cobbartandecology.org/woodfire-residency",
+          "status": 200,
+          "chars": 3449,
+          "jsOnly": false
+        }
+      ],
+      "found": 10,
+      "written": 0,
+      "updated": 0,
+      "skipped": 10,
+      "notes": "The pages contain multiple dated wood and soda firing workshops (January 2027, February 2027, September 2026, October 2026, November 2026), all of which are sold out with waitlists; the residency pages describe long-term, short-term, and wood-fire specialist residencies with access to anagama, train, cross-draft (soda/salt), and gas kilns; and a firing membership program for wood-firing participants. No registration URLs were found on the pages for specific workshop or residency sign-ups. The September 17, 18 & 20, 2026 soda firing qualifies as within 12 months before today (2026-10-04), though it is now sold out.\"",
+      "place_summary": "Cobb Mountain Art & Ecology Project offers wood-firing and soda-firing workshops throughout the year, plus long-term and short-term artist residencies with access to anagama, train, and cross-draft kilns for wood/soda/salt firing. Outside potters can participate in dated workshops or join the firing membership program (after completing 2+ workshops in 2 consecutive seasons).",
+      "firing_evidence": [
+        {
+          "firing_type": "wood",
+          "sentence": "CMAEP hosts six to ten wood fire workshops annually, as well as other atmospheric firing workshops throughout the year.",
+          "quote": "Cobb Mountain Art & Ecology Project hosts six to ten wood fire workshops annually",
+          "url": "https://www.cobbartandecology.org/workshops#:~:text=Cobb%20Mountain%20Art%20%26,wood%20fire%20workshops%20annually"
+        },
+        {
+          "firing_type": "soda",
+          "sentence": "The workshops page advertises soda-firing workshops including 'Enigmatic Soda Firing with Casey Beck' and 'The SodaScape with Lorna Meaden'.",
+          "quote": "Enigmatic Soda Firing with Casey Beck",
+          "url": "https://www.cobbartandecology.org/workshops#:~:text=Enigmatic%20Soda%20Firing%20with%20Casey%20Beck"
+        }
+      ],
+      "usage": {
+        "input_tokens": 14234,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 5146,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "mendocino-art-center",
+      "org": "Mendocino Art Center",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://www.mendocinoartcenter.org/workshops",
+          "status": 200,
+          "chars": 4058,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.mendocinoartcenter.org/workshops/ceramics",
+          "status": 200,
+          "chars": 3131,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.mendocinoartcenter.org/events-kyAzs",
+          "status": 200,
+          "chars": 1869,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.mendocinoartcenter.org/past-events",
+          "status": 200,
+          "chars": 20000,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.mendocinoartcenter.org/jewelry-residency-2025",
+          "status": 200,
+          "chars": 4045,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.mendocinoartcenter.org/movement-residency-1",
+          "status": 200,
+          "chars": 5243,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.mendocinoartcenter.org/ceramic-residency",
+          "status": 200,
+          "chars": 3923,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.mendocinoartcenter.org/ceramic-airs-26/27",
+          "status": 200,
+          "chars": 6595,
+          "jsOnly": false
+        }
+      ],
+      "found": 4,
+      "written": 0,
+      "updated": 0,
+      "skipped": 4,
+      "notes": "Pages show one dated workshop (Safe Stokes, sold out) within the 12-month window and one open residency for ceramics artists. The Safe Stokes workshop does not specify firing details beyond the title, so confidence is moderate. The residency pages clearly list kiln types including wood (train) and wood/soda (catenary arch). Pit-barrel-saggar firing is listed as a known firing type at this center but is not explicitly mentioned on the pages provided—recorded with lower confidence. No other dated firings, classes, or membership options that include these firing types were found on the pages.",
+      "place_summary": "Mendocino Art Center has wood-fired train and catenary arch (wood/soda) kilns. Outside potters can participate in the Safe Stokes wood-firing workshop (currently sold out) or apply for an 8-month ceramics residency with 24/7 access to all firing facilities including wood, soda, gas, and electric kilns.",
+      "firing_evidence": [
+        {
+          "firing_type": "wood",
+          "sentence": "Safe Stokes workshop with Katie Applebaum involves wood firing over five days in October.",
+          "quote": "Safe Stokes w Katie Applebaum - Oct 19 thru 23",
+          "url": "https://www.mendocinoartcenter.org/workshops#:~:text=Safe%20Stokes%20w%20Katie,Oct%2019%20thru%2023"
+        },
+        {
+          "firing_type": "wood",
+          "sentence": "The ceramics residency includes access to a wood-fired train kiln for residents.",
+          "quote": "Kilns: 2 Electric, 2 Gas, Wood (train), and Wood/Soda (catenary arch) — one of the few women-run woodfire kilns in the county.",
+          "url": "https://www.mendocinoartcenter.org/ceramic-residency#:~:text=Kilns%3A%202%20Electric%2C%202,kilns%20in%20the%20county."
+        },
+        {
+          "firing_type": "soda",
+          "sentence": "The ceramics residency includes access to a wood/soda catenary arch kiln for residents.",
+          "quote": "Kilns: 2 Electric, 2 Gas, Wood (train), and Wood/Soda (catenary arch) — one of the few women-run woodfire kilns in the county.",
+          "url": "https://www.mendocinoartcenter.org/ceramic-residency#:~:text=Kilns%3A%202%20Electric%2C%202,kilns%20in%20the%20county."
+        },
+        {
+          "firing_type": "pit_barrel_saggar",
+          "sentence": "The Mendocino Art Center is known to offer pit-barrel-saggar firing based on stated facility types.",
+          "quote": "Kilns: 2 Electric, 2 Gas, Wood (train), and Wood/Soda (catenary arch) — one of the few women-run woodfire kilns in the county.",
+          "url": "https://www.mendocinoartcenter.org/ceramic-residency#:~:text=Kilns%3A%202%20Electric%2C%202,kilns%20in%20the%20county."
+        }
+      ],
+      "usage": {
+        "input_tokens": 17274,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 2777,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "laney-college",
+      "org": "Laney College Ceramics",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://laney.edu/art/workshops-and-events/",
+          "status": 200,
+          "chars": 13927,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.eventbrite.com/e/wood-firing-workshop-tickets-1987875889297",
+          "status": 200,
+          "chars": 5632,
+          "jsOnly": false
+        },
+        {
+          "url": "https://laney.edu/instruction/departments-and-programs/academic-calendar",
+          "status": 200,
+          "chars": 3703,
+          "jsOnly": false
+        },
+        {
+          "url": "https://laney.edu/events",
+          "status": 200,
+          "chars": 20000,
+          "jsOnly": false
+        },
+        {
+          "url": "https://laney.edu/health_center/drug-abuse-alcohol-prevention-program",
+          "status": 200,
+          "chars": 20000,
+          "jsOnly": false
+        }
+      ],
+      "found": 1,
+      "written": 0,
+      "updated": 0,
+      "skipped": 1,
+      "notes": "The Eventbrite page shows \"Sales ended\" for the Wood Firing Workshop (Sept 3–Nov 19, 2026), indicating registration is closed. No other dated firing workshops or ongoing firing opportunities (membership, residency, rental service) appear on these pages. Past workshops listed (wood kiln building June–August 2025, collage, hand-building) do not involve current firing access. The pages do not mention other ceramics courses, firing memberships, kiln rentals, or residencies for outside potters.",
+      "place_summary": null,
+      "firing_evidence": [
+        {
+          "firing_type": "wood",
+          "sentence": "The workshop offers 12 weeks of hands-on wood-firing ceramics with kiln loading, firing in team shifts, and unloading.",
+          "quote": "In this 12-week wood-firing ceramics workshop students will gain hands-on experience loading and firing kilns, with a focus on traditional wood-firing methods that bring unique, natural finishes to your work.",
+          "url": "https://laney.edu/art/workshops-and-events/#:~:text=In%20this%2012%2Dweek%20wood%2Dfiring,finishes%20to%20your%20work."
+        }
+      ],
+      "usage": {
+        "input_tokens": 19686,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 904,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "sonoma-community-center",
+      "org": "Sonoma Community Center",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://sonomacommunitycenter.org/programs/",
+          "status": 200,
+          "chars": 7927,
+          "jsOnly": false
+        },
+        {
+          "url": "https://sonomacommunitycenter.org/ceramics/",
+          "status": 200,
+          "chars": 13566,
+          "jsOnly": false
+        },
+        {
+          "url": "https://sonomacommunitycenter.org/ceramics/ceramics-open-studio-program/",
+          "status": 200,
+          "chars": 13317,
+          "jsOnly": false
+        },
+        {
+          "url": "https://sonomacommunitycenter.org/programs/pottery-on-the-wheel-all-levels-10826/",
+          "status": 200,
+          "chars": 9457,
+          "jsOnly": false
+        },
+        {
+          "url": "https://sonomacommunitycenter.org/programs/pottery-on-the-wheel-all-levels-10526/",
+          "status": 200,
+          "chars": 9263,
+          "jsOnly": false
+        },
+        {
+          "url": "https://sonomacommunitycenter.org/programs/pottery-on-the-wheel-intermediate-10526/",
+          "status": 200,
+          "chars": 9247,
+          "jsOnly": false
+        }
+      ],
+      "found": 3,
+      "written": 0,
+      "updated": 0,
+      "skipped": 3,
+      "notes": "The pages describe only wheel-throwing and handbuilding classes without mentioning firing; these do not meet the criteria for recording. No dated firings, workshops with firing components, or crew calls were found. All three recorded opportunities involve ongoing access to the soda kiln.",
+      "place_summary": "Sonoma Community Center operates a 21 cu.ft. cross-draft soda kiln accessible to studio members and residency participants. Potters can join via Full Studio Membership (ongoing, $135–$150/month) for 60+ weekly open studio hours, Home Studio Membership ($60–$75/month) to fire work created elsewhere, or apply for a 6-month Artist in Residence program with housing and a stipend.",
+      "firing_evidence": [
+        {
+          "firing_type": "soda",
+          "sentence": "SCC offers a 21 cu.ft. cross-draft gas soda kiln available to full studio and home studio members.",
+          "quote": "Cross-draft gas soda kiln – 21 cu.ft.",
+          "url": "https://sonomacommunitycenter.org/ceramics/ceramics-open-studio-program/#:~:text=Cross%2Ddraft%20gas%20soda%20kiln%20%E2%80%93%2021%20cu.ft."
+        }
+      ],
+      "usage": {
+        "input_tokens": 20204,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 1790,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "oribe-uncle-pauls",
+      "org": "Oribe Firing Center (with Uncle Paul's Ceramics)",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://www.unclepaulsceramics.com",
+          "status": 200,
+          "chars": 355,
+          "jsOnly": true
+        },
+        {
+          "url": "https://ma.to/event/soda-firing-workshop-25-jul-2026",
+          "status": 200,
+          "chars": 2086,
+          "jsOnly": false
+        },
+        {
+          "url": "https://ma.to/venue/unclepaulsceramics",
+          "status": 200,
+          "chars": 4307,
+          "jsOnly": false
+        },
+        {
+          "url": "https://ma.to/event/creativity-explored-residency-05-aug-2026",
+          "status": 200,
+          "chars": 2091,
+          "jsOnly": false
+        },
+        {
+          "url": "https://ma.to/event/outer-sunset-farmers-market-04-oct-2026",
+          "status": 200,
+          "chars": 2041,
+          "jsOnly": false
+        },
+        {
+          "url": "https://ma.to/event/lambtown-festival-workshops-oct-4-2026",
+          "status": 200,
+          "chars": 1937,
+          "jsOnly": false
+        },
+        {
+          "url": "https://ma.to/spotlight",
+          "status": 200,
+          "chars": 1783,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "Pages show one dated soda firing workshop (three-part series, July–October 2026). Uncle Paul's Ceramics pages mention various classes and memberships but do not specify which kilns are used in ongoing classes or memberships. The Creativity Explored Residency, Farmers Market, and Lambtown Festival workshops are not ceramics firings and were excluded.\", \"opportunities\":[{\"title\": \"Soda Firing Workshop (three-part series)\",\"host_org\": \"Uncle Paul's Ceramics / Oribe Firing Center\",\"firing_type\": \"soda\",\"access_kind\": \"dated\",\"audience\": \"public\",\"date_precision\": \"exact\",\"start_date\": \"2026-07-25\",\"end_date\": \"2026-10-03\",\"registration_status\": \"open\",\"crew_needed\": false,\"bring\": \"bisqued pots, lunch for field trips, mask for kiln clean-up\",\"commitment\": \"Fri load · Sat fire · Mon unload (three sessions: July 25, Sept 26, Oct 3)\",\"cost_text\": null,\"how_to_join\": \"Register through MATO profile link\",\"signup_url\": \"https://ma.to/sign-up?redirect_url=%2Fevent%2Fsoda-firing-workshop-25-jul-2026\",\"summary\": \"Three-part soda firing workshop starting July 25 at North Beach for piece-making, Sept 26 at San Gregorio for glazing and loading, and Oct 3 for unloading. Open to the public.\",\"source_url\": \"https://ma.to/event/soda-firing-workshop-25-jul-2026\",\"source_quote\": \"Join a three-part workshop series exploring outdoor atmospheric soda firing in collaboration with Oribe Firing Center. The program starts July 25 at the North Beach studio for piece-making using high-fire clay. The follow-up sessions happen in San Gregorio on Sept 26 for glazing and kiln loading, and Oct 3 for unloading and review.\",\"evidence_sentence\": \"The workshop series explores outdoor atmospheric soda firing with sessions at Oribe Firing Center in San Gregorio.\",\"evidence_quote\": \"outdoor atmospheric soda firing in collaboration with Oribe Firing Center\",\"confidence\": 0.95}]",
+      "place_summary": "Oribe Firing Center (in San Gregorio, working with Uncle Paul's Ceramics) offers soda firing. Outside potters can participate in a three-part soda firing workshop series that includes piece-making, kiln loading, and unloading.",
+      "firing_evidence": [
+        {
+          "firing_type": "soda",
+          "sentence": "A three-part workshop series explores outdoor atmospheric soda firing in collaboration with Oribe Firing Center.",
+          "quote": "Join a three-part workshop series exploring outdoor atmospheric soda firing in collaboration with Oribe Firing Center.",
+          "url": "https://ma.to/event/soda-firing-workshop-25-jul-2026#:~:text=Join%20a%20three%2Dpart%20workshop,with%20Oribe%20Firing%20Center."
+        }
+      ],
+      "usage": {
+        "input_tokens": 7216,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 712,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "flynn-creek",
+      "org": "Flynn Creek Pottery (Nick Schwartz & Jessica Thompson)",
+      "core": true,
+      "pages": [],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "No website on file."
+    },
+    {
+      "id": "mendocino-college",
+      "org": "Mendocino College Ceramics",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://mendocino.edu/department/art-and-art-history",
+          "status": 200,
+          "chars": 13050,
+          "jsOnly": false
+        },
+        {
+          "url": "https://mendocino.edu/academics/programs/programs-degrees-and-certificates/degrees/art-ceramics-painting-or-printmaking",
+          "status": 200,
+          "chars": 6257,
+          "jsOnly": false
+        },
+        {
+          "url": "https://mendocino.edu/academics/programs/programs-degrees-and-certificates/certificates/ceramics-master-technician",
+          "status": 200,
+          "chars": 6928,
+          "jsOnly": false
+        },
+        {
+          "url": "https://mendocino.edu/academics/programs/arts/art-gallery/student-work/ceramics-and-sculpture-student-work",
+          "status": 200,
+          "chars": 5869,
+          "jsOnly": false
+        },
+        {
+          "url": "https://mendocino.edu/events/ceramics-sale-fall-2026",
+          "status": 200,
+          "chars": 6123,
+          "jsOnly": false
+        },
+        {
+          "url": "https://mendocino.edu/academics/resources/academic-calendar",
+          "status": 200,
+          "chars": 7541,
+          "jsOnly": false
+        }
+      ],
+      "found": 3,
+      "written": 1,
+      "updated": 0,
+      "skipped": 2,
+      "notes": "The pages describe Mendocino College's ceramics program and its kilns (soda, raku, gas reduction) but do not list specific dated firings, workshops, or crew calls open to outside potters. The Ceramics Sale event is a sales event only, not a firing. No residencies, memberships, or firing rental services are mentioned. One item recorded per firing type accessed via class enrollment, with kilns included.",
+      "place_summary": "Mendocino College ceramics program in Ukiah has a soda kiln, raku kiln, and 4 gas reduction kilns. Students in ceramics courses can access these kilns as part of class enrollment. The college also offers a Ceramics Master Technician Certificate program.",
+      "firing_evidence": [
+        {
+          "firing_type": "soda",
+          "sentence": "The ceramics studio includes a soda kiln as part of its fully equipped facility.",
+          "quote": "and a soda kiln with a dedicated teaching team",
+          "url": "https://mendocino.edu/department/art-and-art-history#:~:text=and%20a%20soda%20kiln,a%20dedicated%20teaching%20team"
+        },
+        {
+          "firing_type": "raku",
+          "sentence": "The ceramics studio includes a raku kiln and saggar as part of its fully equipped facility.",
+          "quote": "1 raku and saggar, and a soda kiln",
+          "url": "https://mendocino.edu/department/art-and-art-history#:~:text=1%20raku%20and%20saggar%2C%20and%20a%20soda%20kiln"
+        },
+        {
+          "firing_type": "gas_reduction",
+          "sentence": "The ceramics studio includes 4 gas reduction kilns as part of its fully equipped facility.",
+          "quote": "5 electric and 4 gas reduction kilns",
+          "url": "https://mendocino.edu/department/art-and-art-history#:~:text=5%20electric%20and%204%20gas%20reduction%20kilns"
+        }
+      ],
+      "usage": {
+        "input_tokens": 16495,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 1558,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "csu-sacramento",
+      "org": "CSU Sacramento Ceramics",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://www.csus.edu/college/arts-letters/art/",
+          "status": 200,
+          "chars": 3187,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.csus.edu/college/arts-letters/art/art-special-events.html",
+          "status": 200,
+          "chars": 5153,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The two pages provided cover CSU Sacramento's Art Department general information and special events. Neither page contains any information about ceramics firings, wood firings, kiln access, firing classes, workshops, or residencies. The pages mention that ceramics is taught in the department, but do not describe any specific firing opportunities, kiln types, or how potters can participate in firings. No firing-related activities are mentioned in the special events listed (exhibitions, awards show, study abroad, Art Ball).",
+      "place_summary": "No firing opportunity information found on these pages.",
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 5305,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 198,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "calimpong-kiln-shed",
+      "org": "The Kiln Shed (Conrad Calimpong)",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://www.thekilnshed.net/Conrad_Calimpongs_Kiln_Shed/Welcome.html",
+          "status": 200,
+          "chars": 173,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.thekilnshed.net/Conrad_Calimpongs_Kiln_Shed/My_Kiln.html",
+          "status": 200,
+          "chars": 999,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The page describes the host's wood-fired kiln in detail but contains no information about firing opportunities, dates, classes, memberships, residencies, or how outside potters can access the kiln. No opportunities can be recorded based on this page alone.",
+      "place_summary": "The Kiln Shed in Ferndale, CA has a wood-fired kiln based on Southeast Asian designs. The page describes the kiln's construction and features but does not describe how outside potters can participate in firings.",
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 3192,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 186,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "idyllwild-arts",
+      "org": "Idyllwild Arts (Hot Clay)",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://idyllwildarts.org/summer-program/",
+          "status": 404,
+          "chars": 0,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "No usable page text (blocked, down, or JavaScript-only)."
+    },
+    {
+      "id": "burton-creek",
+      "org": "Burton Creek Studio (Scott Parady)",
+      "core": false,
+      "pages": [],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "No website on file."
+    },
+    {
+      "id": "browe-hoyman",
+      "org": "Browe & Hoyman Anagamas",
+      "core": false,
+      "pages": [],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "No website on file."
+    },
+    {
+      "id": "olsen-naked-lady",
+      "org": "Naked Lady Kiln (Fred Olsen)",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://olsenkilns.com",
+          "status": 0,
+          "chars": 0,
+          "jsOnly": false,
+          "error": "ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR"
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "No usable page text (blocked, down, or JavaScript-only)."
+    },
+    {
+      "id": "manhattan-beach-art-center",
+      "org": "Manhattan Beach Art Center",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://www.active.com/manhattan-beach-ca/classes/arts-and-crafts-classes-raku-2026-110597374",
+          "status": 200,
+          "chars": 4869,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.active.com/browse",
+          "status": 200,
+          "chars": 9357,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.active.com/search?keywords=injury+prevention+articles&location=Everywhere&category=articles&daterange=All+future+dates",
+          "status": 200,
+          "chars": 5823,
+          "jsOnly": false
+        }
+      ],
+      "found": 1,
+      "written": 0,
+      "updated": 0,
+      "skipped": 1,
+      "notes": "Only one firing opportunity was found: a single raku workshop dated November 4, 2026. The second and third pages are generic ACTIVE.com navigation pages with no firing-specific information. No memberships, ongoing classes, residencies, or rental services for firing were mentioned.",
+      "place_summary": "Manhattan Beach Art Center offers raku firing workshops. Outside potters can participate in dated raku workshops by registering through their active.com listing.",
+      "firing_evidence": [
+        {
+          "firing_type": "raku",
+          "sentence": "Students will glaze and fire their pieces in this hands-on raku workshop, participating in the entire firing process.",
+          "quote": "Explore the exciting art of Raku Firing in this hands-on workshop. Students will glaze and fire their pieces, participating in the entire process.",
+          "url": "https://www.active.com/manhattan-beach-ca/classes/arts-and-crafts-classes-raku-2026-110597374#:~:text=Explore%20the%20exciting%20art,in%20the%20entire%20process."
+        }
+      ],
+      "usage": {
+        "input_tokens": 8959,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 685,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "verge-center",
+      "org": "Verge Center for the Arts",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://www.downtownsac.org/events/shared-fire-a-raku-workshop-and-potluck/",
+          "status": 404,
+          "chars": 0,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "No usable page text (blocked, down, or JavaScript-only)."
+    },
+    {
+      "id": "artillery-ceramics",
+      "org": "Artillery Ceramics",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://ma.to/venue/artilleryag",
+          "status": 200,
+          "chars": 4903,
+          "jsOnly": false
+        },
+        {
+          "url": "https://ma.to/event/flower-pot-making-workshop-25-oct-2026",
+          "status": 200,
+          "chars": 1895,
+          "jsOnly": false
+        },
+        {
+          "url": "https://ma.to/event/cacao-clay-ofrenda-21-dec-2026",
+          "status": 200,
+          "chars": 1977,
+          "jsOnly": false
+        },
+        {
+          "url": "https://ma.to/event/flower-pot-making-workshop-27-sep-2026",
+          "status": 200,
+          "chars": 1897,
+          "jsOnly": false
+        },
+        {
+          "url": "https://ma.to/event/fall-equinox-pit-firing-22-sep-2026",
+          "status": 200,
+          "chars": 1736,
+          "jsOnly": false
+        },
+        {
+          "url": "https://ma.to/event/cacao-clay-ofrenda-circle-21-sep-2026",
+          "status": 200,
+          "chars": 2144,
+          "jsOnly": false
+        }
+      ],
+      "found": 3,
+      "written": 0,
+      "updated": 0,
+      "skipped": 3,
+      "notes": "The pages describe pit firing events and hand-building workshops at Artillery AG. The Flower Pot Making Workshop and Cacao & Clay Ofrenda Circle are hand-building classes with no firing component described in their own text. Only the Fall Equinox Pit Firing and seasonal pit firing gatherings mention firing as part of their activity. The venue FAQ confirms pit firing happens here and that no experience is needed.",
+      "place_summary": "Artillery Ceramics offers pit firing gatherings open to all experience levels, where participants can bring bisque-fired pieces or make them on-site. The studio also offers hand-building clay classes.",
+      "firing_evidence": [
+        {
+          "firing_type": "pit_barrel_saggar",
+          "sentence": "Fall Equinox Pit Firing is a seasonal gathering focused on pit firing techniques as part of Artillery AG's series of elemental ceramic fires.",
+          "quote": "A seasonal gathering for the Fall Equinox focused on pit firing techniques. Part of a series of elemental ceramic fires hosted by Artillery AG.",
+          "url": "https://ma.to/event/fall-equinox-pit-firing-22-sep-2026#:~:text=A%20seasonal%20gathering%20for,hosted%20by%20Artillery%20AG."
+        },
+        {
+          "firing_type": "pit_barrel_saggar",
+          "sentence": "The venue hosts community pit firing gatherings where beginners and experienced potters bring bisque-fired pieces or create them on-site.",
+          "quote": "Artillery AG | SF Pottery Studio hosts wheel throwing and hand-building classes, community pit firing gatherings, and opening art shows.",
+          "url": "https://ma.to/venue/artilleryag#:~:text=Artillery%20AG%20%7C%20SF,and%20opening%20art%20shows."
+        },
+        {
+          "firing_type": "pit_barrel_saggar",
+          "sentence": "You can bring your own bisque-fired piece or create one on-site, along with any dried organic materials for the fire at pit firing sessions.",
+          "quote": "What should I bring to a pit firing session at Artillery AG | SF Pottery Studio? You can bring your own bisque-fired piece or create one on-site, along with any dried organic materials for the fire.",
+          "url": "https://ma.to/venue/artilleryag#:~:text=What%20should%20I%20bring,materials%20for%20the%20fire."
+        }
+      ],
+      "usage": {
+        "input_tokens": 7026,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 1825,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    }
+  ],
+  "finished": "2026-10-04T16:17:40.543Z"
+}

@@ -116,6 +116,29 @@ function candidateLinks(html, baseUrl) {
   return out.sort((a, b) => b.score - a.score).map((l) => l.key);
 }
 
+const SIGNUP_LINK = /register|sign.?up|enrol|apply|ticket|buy|reserve|book|mato\.|eventbrite|active\.com|activecommunities|civicrec/i;
+function signupLinks(html, baseUrl) {
+  const out = new Map();
+  for (const m of html.matchAll(/<a\b[^>]*href=["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
+    let u;
+    try { u = new URL(m[1].replace(/&amp;/g, "&"), baseUrl); } catch { continue; }
+    if (!/^https?:$/.test(u.protocol)) continue;
+    const label = htmlToText(m[2]).slice(0, 80);
+    if (!SIGNUP_LINK.test(`${label} ${u.hostname}${u.pathname}`)) continue;
+    if (!out.has(u.toString())) out.set(u.toString(), label);
+  }
+  return [...out].slice(0, 12).map(([url, label]) => ({ label, url }));
+}
+
+// Link that scrolls to and highlights the quoted text on the page (browser "text fragment"); harmless where unsupported.
+function textFragmentUrl(url, quote) {
+  const words = (quote || "").replace(/\s+/g, " ").trim().split(" ").filter(Boolean);
+  if (words.length < 3) return url;
+  const enc = (w) => encodeURIComponent(w.join(" ")).replace(/-/g, "%2D");
+  const frag = words.length <= 8 ? enc(words) : `${enc(words.slice(0, 4))},${enc(words.slice(-4))}`;
+  return `${url.split("#")[0]}#:~:text=${frag}`;
+}
+
 async function crawlSource(source) {
   const pages = [];
   for (const url of source.urls) {
@@ -130,6 +153,7 @@ async function crawlSource(source) {
     }
   }
   for (const p of pages) {
+    p.links = p.ok ? signupLinks(p.html, p.url) : [];
     p.text = p.ok ? htmlToText(p.html).slice(0, MAX_CHARS_PER_PAGE) : "";
     // A page that returns lots of HTML but almost no text is rendered by JavaScript.
     p.jsOnly = p.ok && p.html.length > 20000 && p.text.length < 400;
@@ -176,16 +200,32 @@ const TOOL = {
             commitment: { type: ["string", "null"], description: "Time commitment, e.g. 'Fri load · Sat fire · Mon unload' or '12 Thursdays', if stated." },
             summary: { type: ["string", "null"], description: "One or two plain sentences for a potter deciding whether to join, using only what the page says." },
             source_url: { type: "string", description: "The exact page URL the item was found on." },
+            evidence_sentence: { type: "string", description: "One plain sentence (under 25 words) telling a potter how the page shows this includes this kind of firing, e.g. 'The workshops page lists it as a soda firing with Casey Beck.'" },
+            evidence_quote: { type: "string", description: "A verbatim sentence or phrase copied exactly from the page that names the firing type or kiln (soda, wood, salt, raku, pit, gas, anagama, kiln...). Prefer this over a title-only quote." },
+            signup_url: { type: ["string", "null"], description: "The URL where someone actually registers or enrolls for THIS item, copied exactly from the page's <links> list. Null if there is no specific one. Never a general homepage or department page." },
             source_quote: { type: "string", description: "A short verbatim quote (under 300 characters) copied exactly from the page, containing the title and/or date." },
             confidence: { type: "number", description: "0 to 1" },
           },
-          required: ["title", "host_org", "firing_type", "access_kind", "audience", "date_precision", "registration_status", "crew_needed", "source_url", "source_quote", "confidence"],
+          required: ["title", "host_org", "firing_type", "access_kind", "audience", "date_precision", "registration_status", "crew_needed", "source_url", "source_quote", "evidence_sentence", "evidence_quote", "confidence"],
         },
       },
       notes: { type: "string", description: "One or two sentences on what the pages did or did not contain." },
-      place_summary: { type: ["string", "null"], description: "Two plain sentences for potters about this place: what kilns it has and how outside potters get in (and where it announces firings, if stated). Only from the pages." },
+      place_summary: { type: ["string", "null"], description: "At most two plain sentences, only about firing: which kilns or firing types this place has and how an outside potter can take part in them. Do NOT describe general classes, memberships, studio locations, or amenities unless that is the way into a firing." },
+      firing_evidence: {
+        type: "array",
+        description: "One entry per firing type (wood, soda, salt, raku, pit_barrel_saggar, gas_reduction) that the pages show this place offers.",
+        items: {
+          type: "object",
+          properties: {
+            firing_type: { type: "string", enum: FIRING_TYPES },
+            sentence: { type: "string", description: "One sentence (under 25 words) saying what the page says about this firing type here and how a potter takes part." },
+            quote: { type: "string", description: "Verbatim text from the page that names this firing type or its kiln." },
+          },
+          required: ["firing_type", "sentence", "quote"],
+        },
+      },
     },
-    required: ["opportunities", "notes", "place_summary"],
+    required: ["opportunities", "notes", "place_summary", "firing_evidence"],
   },
 };
 
@@ -196,7 +236,8 @@ function buildPrompt(source, pages) {
     if (!p.text) continue;
     const text = p.text.slice(0, budget);
     budget -= text.length;
-    blocks.push(`<page url="${p.url}">\n${text}\n</page>`);
+    const links = p.links?.length ? `\n<links>\n${p.links.map((l) => `${l.label} | ${l.url}`).join("\n")}\n</links>` : "";
+    blocks.push(`<page url="${p.url}">\n${text}${links}\n</page>`);
     if (budget <= 0) break;
   }
   return `Today is ${TODAY}. You are extracting ceramics firing opportunities in California for a public list aimed at studio potters who want to move beyond the studio electric kiln.
@@ -214,6 +255,9 @@ Rules:
 - If a college or school says its ceramics courses use particular kilns (for example a soda or raku kiln), record ONE class_enrollment item for its ceramics courses, audience "students", with those kilns in "includes" and term dates if stated.
 - Only record an event as a firing if that event's own description mentions firing, a kiln, or a pit. A venue that hosts firings at other times is not enough.
 - If a workshop has no firing component (for example forming, altering or glazing only), skip it. Use firing_type "other" only for firing methods not in the list.
+- Every item and every firing_evidence entry must be backed by text on the pages: copy a verbatim quote that names the firing type or kiln. If you cannot quote text that shows a place offers that firing type, do not list it.
+- Write for a potter looking for a specific kind of firing. Say only what matters for taking part in that firing (kiln, dates, who can join, how to sign up). Leave out general class, membership and studio descriptions.
+- signup_url must be copied from a <links> list and lead to registration for that item. If the only link is a general or department page, use null.
 - "Sales ended" or "registration closed" means registration_status "closed", not "sold_out".
 - A live "Register", "Register Now", "Sign up", "Enroll" or "Add to cart" button or link on a future-dated listing means registration_status "open". Use "unknown" only when the page gives no sign of whether you can sign up.
 - Skip: wheel-throwing or handbuilding classes that don't say the work goes into a soda, wood, salt, raku or pit firing; degree and certificate program listings; gallery shows; social events that aren't firings; anything outside California. Never invent dates, prices or status: use null or "unknown" when the page does not say. "Sold out" or "waitlist" must appear on the page to be used. source_quote must be copied character-for-character from the page text. If nothing qualifies, return an empty list and explain in notes.
@@ -228,7 +272,7 @@ async function extract(source, pages) {
     headers: { "x-api-key": API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json" },
     body: JSON.stringify({
       model: MODEL,
-      max_tokens: 4096,
+      max_tokens: 12000,
       tools: [TOOL],
       tool_choice: { type: "tool", name: TOOL.name },
       messages: [{ role: "user", content: buildPrompt(source, pages) }],
@@ -237,7 +281,8 @@ async function extract(source, pages) {
   const body = await res.json();
   if (!res.ok) throw new Error(`Anthropic ${res.status}: ${JSON.stringify(body.error || body)}`);
   const use = body.content.find((c) => c.type === "tool_use");
-  return { ...(use?.input || { opportunities: [], notes: "no tool output" }), usage: body.usage };
+  if (body.stop_reason === "max_tokens") throw new Error("output cut off (max_tokens)");
+  return { opportunities: [], firing_evidence: [], ...(use?.input || { notes: "no tool output" }), usage: body.usage };
 }
 
 // ---------- ids, dedup, writing ----------
@@ -344,6 +389,12 @@ async function main() {
     }
     entry.notes = result.notes;
     entry.place_summary = result.place_summary || null;
+    const pageHolding = (quote) => usable.find((p) => quote && squash(quote).length >= 8 && squash(p.text).includes(squash(quote)));
+    const allLinks = new Set(usable.flatMap((p) => p.links.map((l) => l.url)));
+    entry.firing_evidence = (result.firing_evidence || []).map((f) => {
+      const page = pageHolding(f.quote);
+      return page ? { firing_type: f.firing_type, sentence: f.sentence, quote: f.quote, url: textFragmentUrl(page.url, f.quote) } : null;
+    }).filter(Boolean);
     entry.usage = result.usage;
     entry.found = result.opportunities.length;
 
@@ -355,6 +406,10 @@ async function main() {
         quote_verified: quoteVerified(raw.source_quote, usable),
         checked: TODAY,
       };
+      const evPage = pageHolding(raw.evidence_quote) || pageHolding(raw.source_quote);
+      item.evidence_url = evPage ? textFragmentUrl(evPage.url, pageHolding(raw.evidence_quote) ? raw.evidence_quote : raw.source_quote) : null;
+      item.evidence_verified = Boolean(pageHolding(raw.evidence_quote));
+      item.signup_url = raw.signup_url && allLinks.has(raw.signup_url) ? raw.signup_url : null;
       item.past = isPast(item);
       item.id = itemId(item);
       item._original = { ...raw };
@@ -377,7 +432,7 @@ async function main() {
           entry.updated++;
         } else {
           // Nothing reviewable changed. Fill in descriptive fields an earlier run didn't collect.
-          const fill = Object.fromEntries(["summary", "pay_text", "bring", "commitment", "kiln_style"].filter((k) => e[k] == null && item[k] != null).map((k) => [k, item[k]]));
+          const fill = Object.fromEntries(["summary", "pay_text", "bring", "commitment", "kiln_style", "evidence_sentence", "evidence_quote", "evidence_url", "signup_url"].filter((k) => e[k] == null && item[k] != null).map((k) => [k, item[k]]));
           if (Object.keys(fill).length && !args.dry) writeFileSync(match.file, JSON.stringify({ ...e, ...fill }, null, 2) + "\n");
           entry.skipped++;
         }

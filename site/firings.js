@@ -123,11 +123,23 @@ function contactUrl(p) {
   const c = p.contact || {};
   return (c.email && `mailto:${c.email}`) || c.website || (c.instagram && `https://www.instagram.com/${c.instagram}/`) || (c.phone && `tel:${c.phone.replace(/[^\d+]/g, "")}`) || null;
 }
+// The evidence for a listing: its own, else the place's evidence for that firing type.
+function evidenceFor(o, p) {
+  if (o.evidence_url) return { sentence: o.evidence_sentence, url: o.evidence_url };
+  const f = (p.firing_evidence || []).find((x) => x.firing_type === o.firing_type);
+  return f ? { sentence: f.sentence, url: f.url } : null;
+}
+// Say what the button really does: a registration page only when we found one, otherwise the exact spot on their site that mentions this firing.
+const hasSignup = (o) => Boolean(o.signup_url);
+function primaryLabel(o) {
+  if (["open", "ongoing", "waitlist"].includes(o.status) && !hasSignup(o)) return "See it on their site";
+  return STATUS[o.status].action;
+}
 function primaryUrl(o, p) {
   if (o.status === "opens_soon") return updatesUrl(p);
   if (o.status === "more_info") return contactUrl(p) || o.source_url;
   if (o.status === "full") return p.contact?.website || o.source_url;
-  return o.source_url;
+  return o.signup_url || evidenceFor(o, p)?.url || o.source_url;
 }
 
 // ---------- rendering: list ----------
@@ -195,6 +207,14 @@ function aiBox(title, text, sourceUrl, checked) {
     <p class="kf-ai-foot">${sourceUrl ? `${esc(host(sourceUrl))} · ` : ""}${checked ? `checked ${esc(fmtDay(checked))} · ` : ""}<a href="contact.html">Is this wrong?</a></p>
   </div>`;
 }
+function evidenceBox(title, text, url, checked) {
+  if (!text) return "";
+  return `<div class="kf-ai">
+    <p class="kf-ai-head"><span class="kf-ai-dot"></span>${esc(title)}</p>
+    <p class="kf-ai-body">${esc(text)}</p>
+    <p class="kf-ai-foot">${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">See the exact text on ${esc(host(url))} ${ext}</a> · ` : ""}${checked ? `checked ${esc(fmtDay(checked))} · ` : ""}<a href="contact.html">Is this wrong?</a></p>
+  </div>`;
+}
 function unknownsHtml(p) {
   return p.unknowns.length ? `<p class="kf-eyebrow kf-eyebrow-gap">What we don't know</p><ul class="kf-unknowns">${p.unknowns.map((u) => `<li>${esc(u)}</li>`).join("")}</ul>` : "";
 }
@@ -214,11 +234,23 @@ function whenText(o) {
   return `${fmtDay(o.start_date)}${o.end_date && o.end_date !== o.start_date ? ` – ${fmtDay(o.end_date)}` : ""}`;
 }
 
+function placeEvidence(p) {
+  if (!p.place_summary && !(p.firing_evidence || []).length) return "";
+  const lines = (p.firing_evidence || []).filter((f) => state.type === "all" || f.firing_type === state.type)
+    .map((f) => `<li><strong>${esc(TYPE_LABEL[f.firing_type] || f.firing_type)}:</strong> ${esc(f.sentence)} <a href="${esc(f.url)}" target="_blank" rel="noopener">See the exact text ${ext}</a></li>`).join("");
+  return `<div class="kf-ai">
+    <p class="kf-ai-head"><span class="kf-ai-dot"></span>Clay.AI summary of their website</p>
+    ${p.place_summary ? `<p class="kf-ai-body">${esc(p.place_summary)}</p>` : ""}
+    ${lines ? `<ul class="kf-evidence">${lines}</ul>` : ""}
+    <p class="kf-ai-foot">${p.last_checked ? `checked ${esc(fmtDay(p.last_checked))} · ` : ""}<a href="contact.html">Is this wrong?</a></p>
+  </div>`;
+}
+
 function listingDetail(o, p) {
   const url = primaryUrl(o, p);
   return `
     <div class="kf-actions">
-      ${url ? `<a class="btn-cta" href="${esc(url)}" target="_blank" rel="noopener">${esc(STATUS[o.status].action)} ${ext}</a>` : ""}
+      ${url ? `<a class="btn-cta" href="${esc(url)}" target="_blank" rel="noopener">${esc(primaryLabel(o))} ${ext}</a>` : ""}
       ${p.contact?.website && p.contact.website !== url ? `<a class="kf-btn-ghost" href="${esc(p.contact.website)}" target="_blank" rel="noopener">Host's page ${ext}</a>` : ""}
     </div>
     ${detailRows([
@@ -231,8 +263,8 @@ function listingDetail(o, p) {
       ["How to join", esc(o.how_to_join)],
       ["Crew", o.crew_needed ? "Participants help load, stoke and unload." : ""],
     ])}
-    ${aiBox("Clay.AI summary of the host's page", o.summary, o.source_url, o.checked)}
-    ${!o.summary ? `<p class="kf-note">${o.added_by === "manual" ? "Added by hand from research" : "Found on"} <a href="${esc(o.source_url)}" target="_blank" rel="noopener">${esc(host(o.source_url))}</a> · checked ${esc(fmtDay(o.checked))} · <a href="contact.html">Is this wrong?</a></p>` : ""}
+    ${(() => { const ev = evidenceFor(o, p); return evidenceBox("Clay.AI: why this is listed", [ev?.sentence, o.summary].filter(Boolean).join(" "), ev?.url || o.source_url, o.checked); })()}
+    ${!o.summary && !evidenceFor(o, p)?.sentence ? `<p class="kf-note">${o.added_by === "manual" ? "Added by hand from research" : "Found on"} <a href="${esc(o.source_url)}" target="_blank" rel="noopener">${esc(host(o.source_url))}</a> · checked ${esc(fmtDay(o.checked))} · <a href="contact.html">Is this wrong?</a></p>` : ""}
     ${linksHtml(placeLinks(p, o.source_url))}
     ${contactNote(p)}
     <p class="kf-note"><button type="button" class="kf-linkish" data-open-place="${esc(p.id)}">More about ${esc(p.org)} &rarr;</button></p>
@@ -251,7 +283,7 @@ function placeDetail(p) {
     ${p.opportunities.length
       ? `<div class="kf-mini">${p.opportunities.map((o) => `<button type="button" class="kf-mini-row" data-open-listing="${esc(o.id)}"><span>${esc(o.title)}${fmtDates(o) ? ` · ${esc(fmtDates(o))}` : ""}</span>${badge(o.status)}</button>`).join("")}</div>`
       : `<p class="kf-note">No firing dates are posted.</p>`}
-    ${aiBox("Clay.AI summary of their website", p.place_summary, p.contact?.website, p.last_checked)}
+    ${placeEvidence(p)}
     ${linksHtml(placeLinks(p, null))}
     ${contactNote(p)}
     ${unknownsHtml(p)}

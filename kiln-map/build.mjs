@@ -23,7 +23,7 @@ const runsDir = join(ROOT, "data", "runs");
 const lastRun = new Map();
 if (existsSync(runsDir)) for (const f of readdirSync(runsDir).sort()) for (const e of read(join(runsDir, f)).sources) lastRun.set(e.id, { ...e, date: f.slice(0, 10) });
 
-const ITEM_FIELDS = ["summary", "pay_text", "bring", "commitment", "id", "firing_type", "kiln_style", "access_kind", "audience", "start_date", "end_date", "date_precision", "signup_deadline", "registration_status", "registration_opens", "cost_text", "how_to_join", "includes", "crew_needed", "first_atmospheric_ok", "source_url", "checked", "added_by"];
+const ITEM_FIELDS = ["summary", "pay_text", "bring", "commitment", "id", "firing_type", "kiln_style", "access_kind", "audience", "start_date", "end_date", "date_precision", "signup_deadline", "registration_status", "registration_opens", "cost_text", "how_to_join", "includes", "crew_needed", "first_atmospheric_ok", "source_url", "evidence_sentence", "evidence_quote", "evidence_url", "signup_url", "checked", "added_by"];
 
 // Titles often carry status and dates already shown elsewhere: "(WAITLIST) MEMBERS | X | October 7 - 9".
 function cleanTitle(t) {
@@ -130,6 +130,7 @@ const places = sources.map((s) => {
     contact: contactFor(s),
     newsletter_url: s.newsletter_url || null,
     place_summary: lastRun.get(s.id)?.place_summary || null,
+    firing_evidence: lastRun.get(s.id)?.firing_evidence || [],
     get_in: [...new Set(items.map((i) => ({ dated: "Workshops and firings", ongoing_membership: "Membership", class_enrollment: "Classes", residency: "Residencies", rental_service: "Kiln rental" })[i.access_kind]).filter(Boolean))],
     firing_types: firingTypes,
     tracking,
