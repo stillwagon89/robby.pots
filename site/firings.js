@@ -151,6 +151,9 @@ function primaryUrl(o, p) {
 
 // ---------- rendering: list ----------
 
+// "$470.00" reads as "$470"; cents stay when they matter ("$12.50").
+const money = (t) => (t || "").replace(/\$(\d[\d,]*)\.00\b/g, "$$$1");
+
 function cardHtml(c) {
   const sel = state.sel === c.id ? " is-selected" : "";
   if (c.kind === "place") {
@@ -169,7 +172,7 @@ function cardHtml(c) {
   const { o, place: p } = c;
   // Card meta stays one line: show "Pay:" only for crew/work trades, and only short prices (the panel has the rest).
   const trade = o.pay_text && /shift|crew|trade|work|stok/i.test(o.pay_text) ? `Pay: ${o.pay_text}` : null;
-  const price = o.cost_text && o.cost_text.length <= 32 ? o.cost_text : null;
+  const price = o.cost_text && o.cost_text.length <= 32 ? money(o.cost_text) : null;
   const meta = [p.org, fmtDates(o), trade || price].filter(Boolean).join(" · ");
   const tags = [o.first_atmospheric_ok && "First atmospheric OK", o.hosts_groups && "Hosts groups"].filter(Boolean);
   return `<div class="kf-card${o.status === "more_info" ? " is-dashed" : ""}${sel}" data-id="${esc(o.id)}" data-place="${esc(p.id)}">
@@ -278,7 +281,7 @@ function listingDetail(o, p) {
     </div>
     ${detailRows([
       ["When", esc(whenText(o))],
-      ["Pay", esc(o.pay_text || o.cost_text)],
+      ["Pay", esc(money(o.pay_text || o.cost_text))],
       ["Kiln", esc(o.kiln_style)],
       ["Includes", o.includes?.length ? esc(o.includes.join(", ")) : ""],
       ["Bring", esc(o.bring)],
