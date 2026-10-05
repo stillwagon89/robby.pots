@@ -1419,7 +1419,11 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
   .kf-near .kf-input { width: 100%; min-width: 0; }
   .kf-near-status { grid-column: 1 / -1; }
   .kf-header h1 { font-size: 32px; }
-  .filter-chip { min-height: 40px; }
+  .filter-chip { min-height: 44px; flex: none; }
+  /* Phone: firing types in one swipeable row, so results start higher on the screen. */
+  #kf-types { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-right: calc(-1 * var(--space-md)); padding-right: var(--space-md); }
+  #kf-types::-webkit-scrollbar { display: none; }
+  .kf-map-wrap { height: 38svh; min-height: 240px; }
 }
 
 /* ---------- Tools section (tools.html + sidebar sub-links) ---------- */
