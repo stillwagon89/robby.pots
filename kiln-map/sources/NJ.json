@@ -1,0 +1,38 @@
+{
+  "_note": "NJ firing sources (added 2026-10-05, East Coast and remaining states). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "peters-valley",
+      "org": "Peters Valley School of Craft",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "raku"
+      ],
+      "region": "Delaware Water Gap",
+      "city": "Layton",
+      "urls": [
+        "https://www.petersvalley.org/"
+      ],
+      "notes": "Raku and anagama workshops.",
+      "location_precision": "approximate",
+      "geocode": "Layton, New Jersey",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.petersvalley.org/",
+        "instagram": "petersvalley"
+      },
+      "lat": 41.21977,
+      "lng": -74.82727,
+      "newsletter_url": "https://petersvalley.org/learn-with-us/scholarships/join-our-mailing-list/"
+    }
+  ],
+  "_removed": [
+    {
+      "id": "cca-bedminster",
+      "why": "No joinable firing on their pages. (2026-10-05)"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "_note": "MA firing sources (added 2026-10-05, East Coast and remaining states). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "castle-hill-truro",
+      "org": "Truro Center for the Arts at Castle Hill",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "soda",
+        "raku"
+      ],
+      "region": "Cape Cod",
+      "city": "Truro",
+      "urls": [
+        "https://www.castlehill.org/"
+      ],
+      "notes": "Wood, soda and raku workshops.",
+      "location_precision": "approximate",
+      "geocode": "Truro, Massachusetts",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.castlehill.org/",
+        "instagram": "castlehilltruro"
+      },
+      "lat": 41.99344,
+      "lng": -70.04975,
+      "newsletter_url": "https://visitor.r20.constantcontact.com/d.jsp?llr=ge6rvhqab&p=oi&m=1116948984966&sit=ws7txmuib&f=dcdf499d-9a87-4841-a40a-e1b7b700aeed"
+    },
+    {
+      "id": "snow-farm",
+      "org": "Snow Farm: The New England Craft Program",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Pioneer Valley",
+      "city": "Williamsburg",
+      "urls": [
+        "https://www.snowfarm.org/"
+      ],
+      "notes": "Craft workshops; firing types unconfirmed.",
+      "location_precision": "approximate",
+      "geocode": "Williamsburg, Massachusetts",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.snowfarm.org/",
+        "instagram": "snowfarmcraft"
+      },
+      "lat": 42.39263,
+      "lng": -72.73025,
+      "newsletter_url": "https://www.constantcontact.com/legal/about-constant-contact"
+    },
+    {
+      "id": "berkshire-art-center",
+      "org": "Berkshire Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Berkshires",
+      "city": "Lenox",
+      "urls": [
+        "https://berkshireartcenter.org/"
+      ],
+      "notes": "Raku firing classes.",
+      "location_precision": "approximate",
+      "geocode": "Lenox, Massachusetts",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://berkshireartcenter.org/",
+        "instagram": "berkshireartcenter"
+      },
+      "lat": 42.35682,
+      "lng": -73.28509,
+      "newsletter_url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.newsletter/21fe1bd4-f2e9-44c8-ab4d-ca9ea4fe571b_121/website.components.newsletter.styles.css"
+    }
+  ],
+  "_removed": [
+    {
+      "id": "umbrella-arts",
+      "why": "No joinable firing on their pages (mentions firing services only). (2026-10-05)"
+    }
+  ]
+}

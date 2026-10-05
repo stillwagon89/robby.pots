@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-05",
+  "started": "2026-10-05T15:46:33.041Z",
+  "model": "claude-haiku-4-5-20251001",
+  "sources": [
+    {
+      "id": "kiln-studio-fairhope",
+      "org": "The Kiln Studio & Gallery",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://www.thekilnstudio.com/",
+          "status": 200,
+          "chars": 1623,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.thekilnstudio.com/clay-materials",
+          "status": 200,
+          "chars": 1498,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.thekilnstudio.com/events",
+          "status": 200,
+          "chars": 1581,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.thekilnstudio.com/workshops",
+          "status": 200,
+          "chars": 1589,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.thekilnstudio.com/classes-and-workshops",
+          "status": 200,
+          "chars": 1725,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.thekilnstudio.com/events/holiday-sale-christmas-tree-carving-yemzz",
+          "status": 200,
+          "chars": 2394,
+          "jsOnly": false
+        },
+        {
+          "url": "https://business.eschamber.com/events/details/saturday-raku-workshop-at-the-kiln-studio-43556",
+          "status": 200,
+          "chars": 4988,
+          "jsOnly": false
+        },
+        {
+          "url": "https://business.eschamber.com/events/details/saturday-raku-workshop-at-the-kiln-studio-43556?rendermode=print",
+          "status": 0,
+          "chars": 0,
+          "jsOnly": false,
+          "error": "robots.txt asks bots not to read this page"
+        },
+        {
+          "url": "https://business.eschamber.com/events/addtocalendar/saturday-raku-workshop-at-the-kiln-studio-43556?format=Google",
+          "status": 200,
+          "chars": 1086,
+          "jsOnly": false
+        },
+        {
+          "url": "https://business.eschamber.com/events/addtocalendar/saturday-raku-workshop-at-the-kiln-studio-43556?format=Yahoo",
+          "status": 200,
+          "chars": 176,
+          "jsOnly": true
+        },
+        {
+          "url": "https://business.eschamber.com/events/addtocalendar/saturday-raku-workshop-at-the-kiln-studio-43556?format=ICal",
+          "status": 200,
+          "chars": 2018,
+          "jsOnly": false
+        },
+        {
+          "url": "https://business.eschamber.com/login",
+          "status": 200,
+          "chars": 3196,
+          "jsOnly": false
+        }
+      ],
+      "found": 1,
+      "written": 1,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The website pages list classes (wheel throwing, hand building, sculpture) and events (pumpkin carving, jam workshop) but most lack firing-specific details. A \"One Day Raku Workshop with Kevin Russell\" is shown on the workshops page as sold out with no date visible on that page. The same workshop is fully detailed on the Eastern Shore Chamber of Commerce events page with a November 21, 2026 date. No ongoing membership, class enrollment with firing included, residency, or kiln rental service appears on these pages.",
+      "signups": {
+        "instagram": [
+          "thekilnstudio",
+          "easternshorecc"
+        ],
+        "newsletter": [
+          "https://business.eschamber.com/events/details/saturday-raku-workshop-at-the-kiln-studio-43556 (sign-up form on this page)"
+        ]
+      },
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "The Kiln Studio & Gallery in Fairhope, Alabama offers raku firing through one-day workshops taught by visiting instructors.",
+      "firing_evidence": [
+        {
+          "firing_type": "raku",
+          "sentence": "The workshops page lists a One Day Raku Workshop with Kevin Russell at the studio.",
+          "quote": "One Day Raku Workshop with Kevin Russell",
+          "url": "https://www.thekilnstudio.com/workshops#:~:text=One%20Day%20Raku%20Workshop%20with%20Kevin%20Russell",
+          "via": null
+        }
+      ],
+      "usage": {
+        "input_tokens": 11041,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 770,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    }
+  ],
+  "inbox_note": null,
+  "unmatched_emails": [
+    {
+      "from": "robert.stillwagon@gmail.com",
+      "subject": "test",
+      "date": "2026-10-05T05:04:31.000Z"
+    },
+    {
+      "from": "info-vergeart.com@shared1.ccsend.com",
+      "subject": "Welcome to Verge Center for the Arts",
+      "date": "2026-10-05T04:56:16.000Z"
+    }
+  ],
+  "finished": "2026-10-05T15:46:56.731Z"
+}

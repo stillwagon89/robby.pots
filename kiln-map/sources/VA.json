@@ -1,0 +1,55 @@
+{
+  "_note": "VA firing sources (added 2026-10-05, East Coast and remaining states). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "cub-creek",
+      "org": "Cub Creek Foundation",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Central Virginia",
+      "city": "Appomattox",
+      "urls": [
+        "https://www.cubcreek.org/"
+      ],
+      "notes": "Three-chamber noborigama, 500 cu ft (Levin map); residencies.",
+      "location_precision": "approximate",
+      "geocode": "Appomattox, Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.cubcreek.org/",
+        "email": "info@cubcreek.org",
+        "instagram": "cubcreekfoundation"
+      },
+      "lat": 37.35355,
+      "lng": -78.82727
+    },
+    {
+      "id": "art-league-va",
+      "org": "The Art League",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Northern Virginia",
+      "city": "Alexandria",
+      "urls": [
+        "https://www.theartleague.org/"
+      ],
+      "notes": "Raku and alternative firing classes. Site blocks bots.",
+      "location_precision": "approximate",
+      "geocode": "Alexandria, Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.theartleague.org/"
+      },
+      "lat": 38.80511,
+      "lng": -77.04702
+    }
+  ]
+}

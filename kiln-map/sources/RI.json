@@ -1,0 +1,33 @@
+{
+  "_note": "RI firing sources (added 2026-10-05, East Coast and remaining states). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "steel-yard",
+      "org": "The Steel Yard",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "soda",
+        "raku"
+      ],
+      "region": "Providence",
+      "city": "Providence",
+      "urls": [
+        "https://www.thesteelyard.org/"
+      ],
+      "notes": "Friends in Fire wood and soda firing (May 2026); soda kiln firings.",
+      "location_precision": "approximate",
+      "geocode": "Providence, Rhode Island",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.thesteelyard.org/",
+        "instagram": "thesteelyard"
+      },
+      "lat": 41.82399,
+      "lng": -71.41283,
+      "newsletter_url": "https://www.thesteelyard.org/subscribe/"
+    }
+  ]
+}

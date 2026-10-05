@@ -2,30 +2,6 @@
   "_note": "TX firing sources (added 2026-10-05, central US and Midwest expansion). Same fields as CA.json.",
   "sources": [
     {
-      "id": "rockport-center-arts",
-      "org": "Rockport Center for the Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Coastal Bend",
-      "city": "Rockport",
-      "urls": [
-        "https://www.rockportartcenter.com/"
-      ],
-      "notes": "Raku pottery class.",
-      "location_precision": "approximate",
-      "geocode": "Rockport, Texas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.rockportartcenter.com/"
-      },
-      "lat": 28.02057,
-      "lng": -97.05443
-    },
-    {
       "id": "contemporary-austin-art-school",
       "org": "The Contemporary Austin Art School",
       "kind": "city_arts",
@@ -45,7 +21,8 @@
       "geocode": "Austin, Texas",
       "location_note": "Shown at the town.",
       "contact": {
-        "website": "https://www.thecontemporaryaustin.org/"
+        "website": "https://www.thecontemporaryaustin.org/",
+        "instagram": "contemporaryatx"
       },
       "lat": 30.27113,
       "lng": -97.7437
@@ -69,34 +46,22 @@
       "geocode": "Addison, Texas",
       "location_note": "Shown at the town.",
       "contact": {
-        "website": "https://www.craftguildofdallas.com/"
+        "website": "https://www.craftguildofdallas.com/",
+        "instagram": "craftguildofdallas"
       },
       "lat": 32.96012,
-      "lng": -96.83
+      "lng": -96.83,
+      "newsletter_url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.newsletter/db63d1d8-ddfa-4a83-a844-b6776748afac_120/website.components.newsletter.styles.css"
+    }
+  ],
+  "_removed": [
+    {
+      "id": "rockport-center-arts",
+      "why": "Membership only; no firing types on their pages. (2026-10-05)"
     },
     {
       "id": "austin-dougherty-ceramics",
-      "org": "City of Austin Ceramics Program",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Austin",
-      "city": "Austin",
-      "urls": [
-        "https://www.austintexas.gov/node/40102"
-      ],
-      "notes": "City ceramics program with raku firings.",
-      "location_precision": "approximate",
-      "geocode": "Austin, Texas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.austintexas.gov/node/40102"
-      },
-      "lat": 30.27113,
-      "lng": -97.7437
+      "why": "Page unreadable; no evidence. (2026-10-05)"
     }
   ]
 }

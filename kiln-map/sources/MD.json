@@ -1,0 +1,32 @@
+{
+  "_note": "MD firing sources (added 2026-10-05, East Coast and remaining states). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "baltimore-clayworks",
+      "org": "Baltimore Clayworks",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "salt",
+        "soda"
+      ],
+      "region": "Baltimore",
+      "city": "Baltimore",
+      "urls": [
+        "https://www.baltimoreclayworks.org/"
+      ],
+      "notes": "Two-chamber noborigama with salt/soda (Levin map); community wood firings.",
+      "location_precision": "address",
+      "address": "5707 Smith Ave, Baltimore, MD 21209",
+      "contact": {
+        "website": "https://www.baltimoreclayworks.org/",
+        "instagram": "baltimoreclayworks"
+      },
+      "lat": 39.36817,
+      "lng": -76.65327,
+      "newsletter_url": "https://baltimoreclayworks.org/october-2026-newsletter/"
+    }
+  ]
+}

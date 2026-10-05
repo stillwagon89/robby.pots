@@ -1,0 +1,116 @@
+{
+  "_note": "PA firing sources (added 2026-10-05, East Coast and remaining states). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "historic-yellow-springs",
+      "org": "Historic Yellow Springs",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "salt",
+        "soda"
+      ],
+      "region": "Chester County",
+      "city": "Chester Springs",
+      "urls": [
+        "https://yellowsprings.org/wood-kiln-firing/"
+      ],
+      "notes": "Community wood kiln firings 2026; soda kiln build workshop.",
+      "location_precision": "approximate",
+      "geocode": "Chester Springs, Pennsylvania",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://yellowsprings.org/wood-kiln-firing/",
+        "instagram": "historicyellowsprings"
+      },
+      "lat": 40.0951,
+      "lng": -75.61687,
+      "newsletter_url": "https://yellowsprings.org/"
+    },
+    {
+      "id": "clay-studio-philadelphia",
+      "org": "The Clay Studio",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Philadelphia",
+      "city": "Philadelphia",
+      "urls": [
+        "https://theclaystudio.org/soda-kiln-firing"
+      ],
+      "notes": "Community soda kiln firings ($75 per cubic foot; students and associated artists).",
+      "location_precision": "approximate",
+      "geocode": "Philadelphia, Pennsylvania",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://theclaystudio.org/",
+        "instagram": "theclaystudiophl"
+      },
+      "lat": 39.95272,
+      "lng": -75.16353,
+      "newsletter_url": "https://theclaystudio.org/"
+    },
+    {
+      "id": "main-line-art-center",
+      "org": "Main Line Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Philadelphia suburbs",
+      "city": "Haverford",
+      "urls": [
+        "https://mainlineart.org/"
+      ],
+      "notes": "Raku classes and Raku Guild.",
+      "location_precision": "approximate",
+      "geocode": "Haverford, Pennsylvania",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://mainlineart.org/",
+        "instagram": "mainlineartcenter"
+      },
+      "lat": 40.01292,
+      "lng": -75.29669
+    },
+    {
+      "id": "tyler-park-arts",
+      "org": "Tyler Park Center for the Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Bucks County",
+      "city": "Newtown",
+      "urls": [
+        "https://tylerparkarts.org/woodkiln-firing"
+      ],
+      "notes": "Wood kiln firings.",
+      "location_precision": "approximate",
+      "geocode": "Newtown, Pennsylvania",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://tylerparkarts.org/",
+        "instagram": "tylerparkarts"
+      },
+      "lat": 40.2294,
+      "lng": -74.93653,
+      "newsletter_url": "https://www.cognitoforms.com/TylerParkCenterForTheArts/NewSubscriberOrSpecialEventInquiry"
+    }
+  ],
+  "_removed": [
+    {
+      "id": "touchstone",
+      "why": "No joinable firing on their pages. (2026-10-05)"
+    }
+  ]
+}

@@ -40,6 +40,12 @@ if (unclear.length) lines.push("**Websites that refused our crawler** (links sta
 if (down.length) lines.push("**Websites not loading** (links hidden on the site until they're back):", ...down.map(([id, h]) => `- ${org(id)}: ${h.url}`), "");
 if (run?.inbox_note) lines.push(`**Newsletter inbox:** ${run.inbox_note}`, "");
 if (run?.unmatched_emails?.length) lines.push("**Newsletters from senders I can't match to a kiln** (tell me which place each belongs to):", ...run.unmatched_emails.map((m) => `- ${m.from}: "${m.subject}" (${(m.date || "").slice(0, 10)})`), "");
+// The AI sometimes describes a dated firing in its notes but records nothing: flag those for a human look.
+const latestBySource = new Map();
+for (const f of runs) for (const e of read(join(DATA, "runs", f)).sources) latestBySource.set(e.id, e);
+const MONTH = /\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.? \d{1,2}|sign-?ups? (is |are )?open|registration (is )?open|shift sign-?up/i;
+const missed = [...latestBySource.values()].filter((e) => !e.found && MONTH.test(e.notes || "") && !/past|already (happened|passed)|before today/i.test(e.notes || ""));
+if (missed.length) lines.push("**Possible missed listings** (their page mentions dates but nothing was recorded; worth a look):", ...missed.map((e) => `- ${org(e.id)}: ${(e.notes || "").slice(0, 220)}`), "");
 const ig = (run?.sources || []).filter((s) => s.instagram_note);
 if (ig.length) lines.push("**Instagram problems:**", ...ig.map((s) => `- ${s.org}: ${s.instagram_note}`), "");
 

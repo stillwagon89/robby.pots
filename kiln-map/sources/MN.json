@@ -21,10 +21,12 @@
       "location_precision": "address",
       "address": "2424 Franklin Ave E, Minneapolis, MN 55406",
       "contact": {
-        "website": "https://northernclaycenter.org/"
+        "website": "https://northernclaycenter.org/",
+        "instagram": "northernclaycenter"
       },
       "lat": 44.96283,
-      "lng": -93.23727
+      "lng": -93.23727,
+      "newsletter_url": "https://northernclaycenter.org/newsletter/"
     },
     {
       "id": "grand-marais-art-colony",
@@ -48,31 +50,14 @@
         "website": "https://grandmaraisartcolony.org/"
       },
       "lat": 47.75047,
-      "lng": -90.33468
-    },
+      "lng": -90.33468,
+      "newsletter_url": "https://grandmaraisartcolony.org/about/newsroom/e-newsletter/"
+    }
+  ],
+  "_removed": [
     {
       "id": "minnetonka-center-arts",
-      "org": "Minnetonka Center for the Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Twin Cities",
-      "city": "Wayzata",
-      "urls": [
-        "https://www.minnetonkaarts.org/"
-      ],
-      "notes": "Raku firing classes.",
-      "location_precision": "approximate",
-      "geocode": "Wayzata, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.minnetonkaarts.org/"
-      },
-      "lat": 44.97076,
-      "lng": -93.51195
+      "why": "No firing information on their pages. (2026-10-05)"
     }
   ]
 }

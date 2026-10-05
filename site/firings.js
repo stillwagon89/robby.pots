@@ -352,7 +352,8 @@ function fitMap() {
   if (RADIUS_LAYER) MAP.fitBounds(RADIUS_LAYER.getBounds().pad(0.05));
   else {
     // Every place in view (one state, or all of them), so new states show up without code changes.
-    const pts = DATA.places.filter((p) => typeof p.lat === "number" && (state.st === "all" || p.state === state.st)).map((p) => [p.lat, p.lng]);
+    // "All states" frames the lower 48; Hawaii and Alaska are framed when picked in the state filter.
+    const pts = DATA.places.filter((p) => typeof p.lat === "number" && (state.st === "all" ? !["HI", "AK"].includes(p.state) : p.state === state.st)).map((p) => [p.lat, p.lng]);
     if (pts.length) MAP.fitBounds(L.latLngBounds(pts).pad(0.08));
   }
 }

@@ -21,35 +21,12 @@
       "location_precision": "address",
       "address": "4401 N Ravenswood Ave, Chicago, IL 60640",
       "contact": {
-        "website": "https://www.lillstreet.com/"
+        "website": "https://www.lillstreet.com/",
+        "instagram": "lillstreet"
       },
       "lat": 41.96178,
-      "lng": -87.67354
-    },
-    {
-      "id": "college-of-lake-county",
-      "org": "College of Lake County Ceramics",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "soda"
-      ],
-      "region": "North Shore",
-      "city": "Grayslake",
-      "urls": [
-        "https://www.clcillinois.edu/"
-      ],
-      "notes": "Train kiln (Levin map); wood and soda firing course.",
-      "location_precision": "approximate",
-      "geocode": "Grayslake, Illinois",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.clcillinois.edu/"
-      },
-      "lat": 42.34335,
-      "lng": -88.04122
+      "lng": -87.67354,
+      "newsletter_url": "https://www.lillstreet.com/"
     },
     {
       "id": "alto-clayworks",
@@ -74,6 +51,12 @@
       },
       "lat": 37.57033,
       "lng": -89.31759
+    }
+  ],
+  "_removed": [
+    {
+      "id": "college-of-lake-county",
+      "why": "College pages show no ceramics firing information. (2026-10-05)"
     }
   ]
 }

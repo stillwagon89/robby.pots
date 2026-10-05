@@ -1,0 +1,55 @@
+{
+  "_note": "NY firing sources (added 2026-10-05, East Coast and remaining states). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "28a-clay",
+      "org": "28A Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "soda"
+      ],
+      "region": "Catskills",
+      "city": "West Shokan",
+      "urls": [
+        "https://28aclay.com/"
+      ],
+      "notes": "175 cu ft catenary crossdraft wood kiln (Levin map).",
+      "location_precision": "approximate",
+      "geocode": "West Shokan, New York",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://28aclay.com/",
+        "email": "info@28aclay.com",
+        "instagram": "28a_clay"
+      },
+      "lat": 41.96728,
+      "lng": -74.2871,
+      "newsletter_url": "https://28aclay.com/"
+    }
+  ],
+  "_removed": [
+    {
+      "id": "munson",
+      "why": "Institutional pages only; no firing info. (2026-10-05)"
+    },
+    {
+      "id": "corning-cc",
+      "why": "College pages only; no ceramics firing info. (2026-10-05)"
+    },
+    {
+      "id": "sugar-maples",
+      "why": "No joinable firing on their pages. (2026-10-05)"
+    },
+    {
+      "id": "saratoga-clay-arts",
+      "why": "No joinable firing on their pages. (2026-10-05)"
+    },
+    {
+      "id": "fall-kill-creative-works",
+      "why": "Electric only on their pages. (2026-10-05)"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "_note": "GA firing sources (added 2026-10-05, East Coast and remaining states). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "hambidge",
+      "org": "Hambidge Center (anagama)",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "North Georgia",
+      "city": "Rabun Gap",
+      "urls": [
+        "https://www.hambidge.org/anagama-kiln-firings"
+      ],
+      "notes": "Anagama firings by lottery; Fall 2026 firing Oct 9-11.",
+      "location_precision": "approximate",
+      "geocode": "Rabun Gap, Georgia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.hambidge.org/",
+        "instagram": "hambidgecenter"
+      },
+      "lat": 34.95721,
+      "lng": -83.38645,
+      "newsletter_url": "https://www.hambidge.org/hambidge-news"
+    },
+    {
+      "id": "chastain-arts-atlanta",
+      "org": "Chastain Arts Center (City of Atlanta)",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Atlanta",
+      "city": "Atlanta",
+      "urls": [
+        "https://www.active.com/atlanta-ga/arts-and-crafts/camp/pot-21-intermediate-level-2-wheel-soda-firing-tobin-2026"
+      ],
+      "notes": "Intermediate wheel with soda firing classes (2026 sessions).",
+      "location_precision": "approximate",
+      "geocode": "Atlanta, Georgia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.active.com/atlanta-ga/arts-and-crafts/camp/pot-21-intermediate-level-2-wheel-soda-firing-tobin-2026"
+      },
+      "lat": 33.75447,
+      "lng": -84.38982,
+      "newsletter_url": "https://www.active.com/newsletters"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "_note": "NC firing sources (added 2026-10-05, East Coast and remaining states). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "penland",
+      "org": "Penland School of Craft",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "salt",
+        "soda"
+      ],
+      "region": "Western NC",
+      "city": "Penland",
+      "urls": [
+        "https://penland.org/"
+      ],
+      "notes": "Clay workshops incl. wood firing (Form and Fire, July 2026).",
+      "location_precision": "approximate",
+      "geocode": "Penland, North Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://penland.org/",
+        "instagram": "penlandschool"
+      },
+      "lat": 35.93012,
+      "lng": -82.11206,
+      "newsletter_url": "https://penland.us4.list-manage.com/subscribe?u=e826e108a2b84cf1c69339cc5&id=e5385b124d"
+    },
+    {
+      "id": "john-c-campbell",
+      "org": "John C. Campbell Folk School",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "gas_reduction"
+      ],
+      "region": "Western NC",
+      "city": "Brasstown",
+      "urls": [
+        "https://www.folkschool.org/"
+      ],
+      "notes": "Raku and cone 10 reduction workshops. Site blocks bots.",
+      "location_precision": "approximate",
+      "geocode": "Brasstown, North Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.folkschool.org/"
+      },
+      "lat": 35.0399,
+      "lng": -83.95739
+    },
+    {
+      "id": "sawtooth",
+      "org": "Sawtooth School for Visual Art",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "salt"
+      ],
+      "region": "Piedmont",
+      "city": "Winston-Salem",
+      "urls": [
+        "https://www.sawtooth.org/"
+      ],
+      "notes": "Wood firing / salt firing classes.",
+      "location_precision": "approximate",
+      "geocode": "Winston-Salem, North Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.sawtooth.org/",
+        "instagram": "sawtoothschool"
+      },
+      "lat": 36.09981,
+      "lng": -80.24405,
+      "newsletter_url": "https://www.sawtooth.org/"
+    }
+  ],
+  "_removed": [
+    {
+      "id": "pocosin-arts",
+      "why": "No joinable firing on their pages. (2026-10-05)"
+    },
+    {
+      "id": "double-island-studio",
+      "why": "Workshops are handbuilding only. (2026-10-05)"
+    }
+  ]
+}

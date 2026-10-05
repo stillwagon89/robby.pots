@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-05",
+  "started": "2026-10-05T15:45:42.900Z",
+  "model": "claude-haiku-4-5-20251001",
+  "sources": [
+    {
+      "id": "kiln-studio-fairhope",
+      "org": "The Kiln Studio & Gallery",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://www.thekilnstudio.com/",
+          "status": 200,
+          "chars": 1623,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.thekilnstudio.com/clay-materials",
+          "status": 200,
+          "chars": 1498,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.thekilnstudio.com/events",
+          "status": 200,
+          "chars": 1581,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.thekilnstudio.com/workshops",
+          "status": 200,
+          "chars": 1589,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.thekilnstudio.com/classes-and-workshops",
+          "status": 200,
+          "chars": 1725,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.thekilnstudio.com/events/holiday-sale-christmas-tree-carving-yemzz",
+          "status": 200,
+          "chars": 2394,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The pages show The Kiln Studio & Gallery hosts classes and events, including a \"One Day Raku Workshop with Kevin Russell\" ($150, sold out), but no dates, registration details, or details about how potters can access the raku kiln are provided on the pages. The workshops and events pages list class offerings (wheel throwing, hand building, sculpture) but none describe a firing component, only forming and glazing work. Without dates, commitment details, or signup information for the raku workshop, and no ongoing firing access mechanism, no qualifying opportunities can be recorded.",
+      "signups": {
+        "instagram": [
+          "thekilnstudio"
+        ],
+        "newsletter": []
+      },
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "The Kiln Studio & Gallery in Fairhope, Alabama offers raku firing through a one-day workshop, but no ongoing firing memberships, residencies, or kiln rental services are described on these pages.",
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 7475,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 250,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "art-center-bluegrass",
+      "org": "Art Center of the Bluegrass",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://artcenterky.org/community/ceramics-studio/",
+          "status": 200,
+          "chars": 2549,
+          "jsOnly": false
+        },
+        {
+          "url": "https://artcenterky.org/community/anagama/",
+          "status": 200,
+          "chars": 3520,
+          "jsOnly": false
+        },
+        {
+          "url": "https://artcenterky.org/events/",
+          "status": 200,
+          "chars": 1371,
+          "jsOnly": false
+        },
+        {
+          "url": "https://artcenterky.org/events/tinyart/",
+          "status": 200,
+          "chars": 2048,
+          "jsOnly": false
+        },
+        {
+          "url": "https://artcenterky.org/events/family-day/",
+          "status": 200,
+          "chars": 1372,
+          "jsOnly": false
+        },
+        {
+          "url": "https://artcenterky.org/events/paint-the-park/",
+          "status": 200,
+          "chars": 2754,
+          "jsOnly": false
+        }
+      ],
+      "found": 3,
+      "written": 3,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The pages describe a wood-fired anagama kiln with two scheduled firings (October 2026 and April 2027). The Ceramics Studio membership page mentions a communal kiln and the anagama firing opportunity but does not specify separate firings beyond mentioning classes to prepare work for the anagama experience. No soda, salt, raku, pit, gas reduction, or electric kilns are mentioned. Events like the Tiny Art Show, Family Day, and Paint the Park are social or gallery events without firing components and are excluded.",
+      "signups": {
+        "instagram": [
+          "artcenterky"
+        ],
+        "newsletter": []
+      },
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": null,
+      "firing_evidence": [
+        {
+          "firing_type": "wood",
+          "sentence": "The Dragon Fire Anagama Kiln is a Japanese-style cave kiln fueled by wood that requires constant monitoring over 5–7 days.",
+          "quote": "This Japanese-style cave kiln is fueled by wood and holds hundreds of pots. A firing that takes nearly a week of constant monitoring to achieve.",
+          "url": "https://artcenterky.org/community/ceramics-studio/#:~:text=This%20Japanese%2Dstyle%20cave%20kiln,constant%20monitoring%20to%20achieve.",
+          "via": null
+        }
+      ],
+      "usage": {
+        "input_tokens": 6869,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 1859,
+        "service_tier": "standard",
+        "inference_geo": "not_available"
+      }
+    }
+  ],
+  "inbox_note": null,
+  "unmatched_emails": [
+    {
+      "from": "robert.stillwagon@gmail.com",
+      "subject": "test",
+      "date": "2026-10-05T05:04:31.000Z"
+    },
+    {
+      "from": "info-vergeart.com@shared1.ccsend.com",
+      "subject": "Welcome to Verge Center for the Arts",
+      "date": "2026-10-05T04:56:16.000Z"
+    }
+  ],
+  "finished": "2026-10-05T15:46:25.519Z"
+}

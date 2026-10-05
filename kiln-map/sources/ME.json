@@ -1,0 +1,81 @@
+{
+  "_note": "ME firing sources (added 2026-10-05, East Coast and remaining states). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "watershed",
+      "org": "Watershed Center for the Ceramic Arts",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "salt",
+        "soda"
+      ],
+      "region": "Midcoast Maine",
+      "city": "Newcastle",
+      "urls": [
+        "https://www.watershedceramics.org/"
+      ],
+      "notes": "Train kiln intensive; wood firing workshops.",
+      "location_precision": "approximate",
+      "geocode": "Newcastle, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.watershedceramics.org/",
+        "instagram": "watershedceramics"
+      },
+      "lat": 44.03423,
+      "lng": -69.53586
+    },
+    {
+      "id": "haystack",
+      "org": "Haystack Mountain School of Crafts",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Downeast",
+      "city": "Deer Isle",
+      "urls": [
+        "https://www.haystack-mtn.org/"
+      ],
+      "notes": "Craft school workshops; firing types unconfirmed.",
+      "location_precision": "approximate",
+      "geocode": "Deer Isle, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.haystack-mtn.org/",
+        "instagram": "haystack_school"
+      },
+      "lat": 44.22404,
+      "lng": -68.6776,
+      "newsletter_url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.newsletter/0ecc76af-8a35-40b0-9f44-037abe0d90f6_119/website.components.newsletter.styles.css"
+    },
+    {
+      "id": "waterville-creates",
+      "org": "Waterville Creates",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Central Maine",
+      "city": "Waterville",
+      "urls": [
+        "https://www.watervillecreates.org/"
+      ],
+      "notes": "Community raku firing.",
+      "location_precision": "approximate",
+      "geocode": "Waterville, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.watervillecreates.org/",
+        "instagram": "wtvlcreates"
+      },
+      "lat": 44.55058,
+      "lng": -69.63032
+    }
+  ]
+}

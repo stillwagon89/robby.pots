@@ -18,7 +18,10 @@ const latest = new Map(Object.entries(existsSync(file) ? JSON.parse(readFileSync
 
 const norm = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
 // Pick the handle that looks like the place's own account (pages also link to partners and artists).
+// Booking and listing sites (active.com, ma.to, ...) link their own accounts; never take those as the place's.
+const NOT_THE_PLACE = new Set(["activedotcom", "mato_at_ma.to", "corsizio", "eventbrite", "jumbula", "coursestorm", "squarespace", "wix", "mendocinoeagles", "uwmilwaukee"]);
 function bestHandle(source, handles) {
+  handles = handles.filter((h) => !NOT_THE_PLACE.has(h.toLowerCase()));
   if (!handles.length) return null;
   const org = norm(source.org), host = norm((() => { try { return new URL(source.contact?.website || source.urls[0]).hostname.replace(/^www\./, "").split(".")[0]; } catch { return ""; } })());
   const score = (h) => { const n = norm(h); return (host && (n.includes(host) || host.includes(n)) ? 3 : 0) + (org.includes(n) || n.includes(org.slice(0, 8)) ? 2 : 0); };
