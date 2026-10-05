@@ -1,6 +1,10 @@
 # Kiln Locator: expanding from California to the whole US
 
-Written 2026-10-05. Status: plan, nothing built yet. Companion to `DESIGN-firings.md`.
+Written 2026-10-05. Companion to `DESIGN-firings.md`.
+
+**Decisions (Robby, 2026-10-05):** pilot = Pacific Northwest + North Carolina, then widened that night to the whole West Coast (CA, OR, WA) first. Budget ceiling = what Robby pays for his Claude subscription each month (exact amount to confirm). Auto-approval once the 95% gate is met: yes. Regional reviewers: Robby knows potters in New York City. Scope: joinable firings only (no kiln rentals).
+
+**Status:** Phase 0 done 2026-10-05 (sources per state, per-place time zones, robots.txt, per-site pacing, Batch API, no California in the AI instructions; California output unchanged). West Coast front end done (state filter, map fits all places, Near search anywhere in the US). Oregon and Washington sources added and crawled.
 
 ## Where we are (the baseline this plan scales from)
 

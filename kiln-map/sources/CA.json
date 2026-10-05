@@ -412,6 +412,54 @@
       "lat": 37.75309,
       "lng": -122.41828,
       "newsletter_url": "https://www.artillery-ag.com/"
+    },
+    {
+      "id": "sebastopol-arts",
+      "org": "Sebastopol Center for the Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda",
+        "wood"
+      ],
+      "region": "North Bay",
+      "city": "Sebastopol",
+      "urls": [
+        "https://www.sebarts.org/classes-lectures"
+      ],
+      "notes": "Soda firing with wood workshop (2-day: glaze/load, then fire with wood and soda).",
+      "location_precision": "address",
+      "address": "282 S High St, Sebastopol, CA 95472",
+      "contact": {
+        "website": "https://www.sebarts.org/"
+      },
+      "lat": 38.40013,
+      "lng": -122.82527
+    },
+    {
+      "id": "ica-san-diego",
+      "org": "ICA San Diego",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "San Diego",
+      "city": "San Diego",
+      "urls": [
+        "https://icasandiego.org/"
+      ],
+      "notes": "Raku: Surface, Fire, and Form class.",
+      "location_precision": "approximate",
+      "geocode": "San Diego, California",
+      "location_note": "Shown at the city.",
+      "contact": {
+        "website": "https://icasandiego.org/"
+      },
+      "lat": 32.71571,
+      "lng": -117.16383
     }
   ]
 }
