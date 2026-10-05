@@ -38,12 +38,13 @@
     <main class="page-content kf">
       <header class="kf-header">
         <h1>Firings you can join</h1>
-        <p class="kf-sub">Wood, soda, salt, raku and pit firings, crew calls and classes you can join.</p>
+        <p class="kf-sub">Wood, soda, salt, raku and pit firings, crew calls and classes.</p>
         <p class="kf-note">Updated <span id="kf-updated"></span>. An early version: missing a kiln or see something wrong? <a href="contact.html">Tell me</a>. Now covering kilns across the US, coast to coast. Some states are still thin, so tips are very welcome.</p>
       </header>
 
       <div class="kf-filters">
         <div class="filter-chips" id="kf-types" role="group" aria-label="Firing type"></div>
+        <div class="kf-where">
         <select id="kf-state" class="kf-select" aria-label="State"></select>
         <form class="kf-near" id="kf-near" role="search" aria-label="Filter by distance">
           <label class="kf-near-label" for="kf-near-input">Near</label>
@@ -54,6 +55,7 @@
           <select id="kf-radius" class="kf-select" aria-label="Distance"></select>
           <span class="kf-near-status" id="kf-near-status" role="status"></span>
         </form>
+        </div>
       </div>
 
       <div class="kf-body">

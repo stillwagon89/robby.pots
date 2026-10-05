@@ -1288,11 +1288,13 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 .kf-note a, .kf-ai-foot a, .kf-linkish { color: var(--cobalt); text-decoration: underline; text-underline-offset: 2px; }
 .kf-linkish { background: none; border: 0; padding: 0; font: inherit; cursor: pointer; }
 
+/* Two rows: what kind of firing, then where (state + near). */
 .kf-filters {
-  display: flex; justify-content: space-between; align-items: center; gap: var(--space-md); flex-wrap: wrap;
+  display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-md);
   padding-bottom: var(--space-lg); margin-bottom: var(--space-lg); border-bottom: 1px solid var(--border);
 }
-.kf-near { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.kf-where { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; }
+.kf-near { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .kf-near-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--cobalt-muted); }
 .kf-input, .kf-select {
   font: 15px var(--font-body); color: var(--cobalt-deep); background: #fff; border: 1px solid var(--border);
@@ -1301,7 +1303,7 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 .kf-input { width: 124px; }
 .kf-input:focus, .kf-select:focus { outline: 2px solid var(--cobalt-mid); outline-offset: 1px; }
 .kf-locate { width: 40px; height: 40px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: #fff; color: var(--cobalt); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
-.kf-near-status { font-size: 13px; color: var(--cobalt-muted); flex-basis: 100%; text-align: right; }
+.kf-near-status { font-size: 13px; color: var(--cobalt-muted); flex-basis: 100%; }
 .kf-near-status:empty { display: none; }
 
 .kf-body { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: var(--space-lg); align-items: start; }
@@ -1409,8 +1411,13 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
   .kf-map-wrap { position: relative; top: 0; height: 50svh; min-height: 320px; }
 }
 @media (max-width: 900px) {
-  .kf-filters { flex-direction: column; align-items: stretch; }
-  .kf-near-status { text-align: left; }
+  .kf-filters { align-items: stretch; }
+  /* Phone: state on its own line, then Near as one line (label above, field, locate, distance). */
+  .kf-where { flex-direction: column; align-items: stretch; gap: var(--space-sm); }
+  .kf-near { display: grid; grid-template-columns: 1fr 44px auto; gap: 6px; }
+  .kf-near-label { grid-column: 1 / -1; }
+  .kf-near .kf-input { width: 100%; min-width: 0; }
+  .kf-near-status { grid-column: 1 / -1; }
   .kf-header h1 { font-size: 32px; }
   .filter-chip { min-height: 40px; }
 }
