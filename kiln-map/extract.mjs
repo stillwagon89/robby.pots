@@ -1,4 +1,4 @@
-// Crawls each source in kiln-map/sources.json, asks Claude to pull out
+// Crawls each source in kiln-map/sources/<STATE>.json, asks Claude to pull out
 // joinable firing opportunities, and writes one JSON file per opportunity to
 // kiln-map/data/pending/. See kiln-map/DESIGN-firings.md ("Prototype").
 //
@@ -15,6 +15,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, renameSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { namesType } from "./firing-words.mjs";
+import { loadSources, todayIn, stateName } from "./sources.mjs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -30,7 +31,7 @@ const MAX_CHARS_PER_SOURCE = 60000;
 const STRONG_LINK = /kiln|firing|woodfire|wood-fire|soda|salt|raku|anagama|ceramic|clay|potter|pit-fir|pit fir/i;
 const MEDIUM_LINK = /workshop|event|calendar|\bresiden|member/i;
 const CATALOG_HOSTS = ["activecommunities.com", "civicrec.com", "eventbrite.com", "active.com", "ma.to"];
-const TODAY = new Date().toISOString().slice(0, 10);
+const TODAY = new Date().toISOString().slice(0, 10); // run date; each place's own "today" comes from todayIn(source.tz)
 
 const args = Object.fromEntries(
   process.argv.slice(2).map((a) => {
@@ -67,7 +68,66 @@ const sinceIso = new Date(Date.now() - LOOKBACK_DAYS * 86400000).toISOString();
 
 // ---------- fetching ----------
 
+// ---------- politeness: robots.txt and a pause between requests to the same site ----------
+
+const BOT = "FlamingClayFiringsBot";
+const MIN_GAP_MS = 1500;
+const robotsCache = new Map(); // origin -> { rules: [{allow, path}], delay }
+const lastHit = new Map(); // host -> time of last request
+
+function parseRobots(text) {
+  // Use the group for our bot if present, else "*". Longest matching rule wins; Allow wins ties.
+  const groups = [];
+  let current = null;
+  for (const raw of text.split(/\r?\n/)) {
+    const line = raw.replace(/#.*/, "").trim();
+    const m = line.match(/^([a-z-]+)\s*:\s*(.*)$/i);
+    if (!m) continue;
+    const key = m[1].toLowerCase(), val = m[2].trim();
+    if (key === "user-agent") {
+      if (!current || current.rules.length || current.delay != null) groups.push((current = { agents: [], rules: [], delay: null }));
+      current.agents.push(val.toLowerCase());
+    } else if (current && (key === "allow" || key === "disallow")) {
+      if (val) current.rules.push({ allow: key === "allow", path: val });
+    } else if (current && key === "crawl-delay") current.delay = Number(val) || null;
+  }
+  return groups.find((g) => g.agents.some((a) => a !== "*" && BOT.toLowerCase().includes(a))) || groups.find((g) => g.agents.includes("*")) || { rules: [], delay: null };
+}
+const ruleMatches = (rule, path) => {
+  const re = new RegExp("^" + rule.path.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, ".*").replace(/\\\$$/, "$"));
+  return re.test(path);
+};
+async function robotsFor(origin) {
+  if (robotsCache.has(origin)) return robotsCache.get(origin);
+  let group = { rules: [], delay: null };
+  try {
+    const res = await fetch(`${origin}/robots.txt`, { headers: { "User-Agent": `${BOT}/0.1 (+https://flamingclay.com)` }, signal: AbortSignal.timeout(10000) });
+    if (res.ok) group = parseRobots(await res.text());
+  } catch {}
+  robotsCache.set(origin, group);
+  return group;
+}
+async function allowedByRobots(url) {
+  const u = new URL(url);
+  const { rules } = await robotsFor(u.origin);
+  const path = u.pathname + u.search;
+  const hits = rules.filter((r) => ruleMatches(r, path)).sort((a, b) => b.path.length - a.path.length || Number(b.allow) - Number(a.allow));
+  return !hits.length || hits[0].allow;
+}
+async function pace(url) {
+  const u = new URL(url);
+  const { delay } = await robotsFor(u.origin);
+  const gap = Math.max(MIN_GAP_MS, Math.min((delay || 0) * 1000, 10000));
+  const wait = (lastHit.get(u.host) || 0) + gap - Date.now();
+  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+  lastHit.set(u.host, Date.now());
+}
+
 async function fetchPage(url) {
+  try {
+    if (!(await allowedByRobots(url))) return { url, status: 0, ok: false, html: "", error: "robots.txt asks bots not to read this page", robots: true };
+    await pace(url);
+  } catch {}
   try {
     const res = await fetch(url, {
       signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
@@ -255,9 +315,9 @@ function buildPrompt(source, pages) {
     blocks.push(`<page url="${p.url || `newsletter: ${p.label}`}">\n${text}${links}\n</page>`);
     if (budget <= 0) break;
   }
-  return `Today is ${TODAY}. You are extracting ceramics firing opportunities in California for a public list aimed at studio potters who want to move beyond the studio electric kiln.
+  return `Today is ${todayIn(source.tz)}. You are extracting ceramics firing opportunities in the United States for a public list aimed at studio potters who want to move beyond the studio electric kiln.
 
-Source: ${source.org} (${source.city}, CA). Known firing types here: ${source.firing_types_guess.join(", ")}.
+Source: ${source.org} (${source.city}, ${stateName(source.state)}). Known firing types here: ${source.firing_types_guess.join(", ")}.
 
 Pages below may be website pages, newsletter emails, or Instagram posts. Record an opportunity for each of these, found in them:
 - a dated workshop, firing, class, or crew call that involves firing in a kiln or pit (wood, soda, salt, raku, pit/barrel/saggar, gas reduction), dated within the 12 months before today or any time after today;
@@ -277,29 +337,76 @@ Rules:
 - Never infer a year. Use a date only if the page states it with its year, or the year is clear from the same listing (e.g. a dated calendar). If a listing gives weekdays or months but no year, set start_date and end_date to null and date_precision "none".
 - "Sales ended" or "registration closed" means registration_status "closed", not "sold_out".
 - A live "Register", "Register Now", "Sign up", "Enroll" or "Add to cart" button or link on a future-dated listing means registration_status "open". Use "unknown" only when the page gives no sign of whether you can sign up.
-- Skip: wheel-throwing or handbuilding classes that don't say the work goes into a soda, wood, salt, raku or pit firing; degree and certificate program listings; gallery shows; social events that aren't firings; anything outside California. Never invent dates, prices or status: use null or "unknown" when the page does not say. "Sold out" or "waitlist" must appear on the page to be used. source_quote must be copied character-for-character from the page text. If nothing qualifies, return an empty list and explain in notes.
+- Skip: wheel-throwing or handbuilding classes that don't say the work goes into a soda, wood, salt, raku or pit firing; degree and certificate program listings; gallery shows; social events that aren't firings; anything outside the United States. Never invent dates, prices or status: use null or "unknown" when the page does not say. "Sold out" or "waitlist" must appear on the page to be used. source_quote must be copied character-for-character from the page text. If nothing qualifies, return an empty list and explain in notes.
 
 ${blocks.join("\n\n") || "(no page text could be retrieved)"}`;
+}
+
+const API_HEADERS = () => ({ "x-api-key": API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json" });
+const requestParams = (source, pages) => ({
+  model: MODEL,
+  max_tokens: 12000,
+  tools: [TOOL],
+  tool_choice: { type: "tool", name: TOOL.name },
+  messages: [{ role: "user", content: buildPrompt(source, pages) }],
+});
+function parseMessage(body) {
+  const use = body.content.find((c) => c.type === "tool_use");
+  if (body.stop_reason === "max_tokens") throw new Error("output cut off (max_tokens)");
+  return { opportunities: [], firing_evidence: [], ...(use?.input || { notes: "no tool output" }), usage: body.usage };
 }
 
 async function extract(source, pages) {
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     signal: AbortSignal.timeout(120000),
-    headers: { "x-api-key": API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json" },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 12000,
-      tools: [TOOL],
-      tool_choice: { type: "tool", name: TOOL.name },
-      messages: [{ role: "user", content: buildPrompt(source, pages) }],
-    }),
+    headers: API_HEADERS(),
+    body: JSON.stringify(requestParams(source, pages)),
   });
   const body = await res.json();
   if (!res.ok) throw new Error(`Anthropic ${res.status}: ${JSON.stringify(body.error || body)}`);
-  const use = body.content.find((c) => c.type === "tool_use");
-  if (body.stop_reason === "max_tokens") throw new Error("output cut off (max_tokens)");
-  return { opportunities: [], firing_evidence: [], ...(use?.input || { notes: "no tool output" }), usage: body.usage };
+  return parseMessage(body);
+}
+
+// Message Batches API: half the price, results usually within the hour (up to 24 h). Used for runs of 3+ places;
+// --no-batch forces one-at-a-time calls (quick local tests).
+const BATCH_POLL_MS = 30000;
+const BATCH_MAX_WAIT_MS = 5 * 3600 * 1000; // stay inside GitHub's 6-hour job limit
+async function extractAll(jobs) {
+  const out = new Map();
+  if (!jobs.length) return out;
+  if (args["no-batch"] || jobs.length < 3) {
+    for (const j of jobs) {
+      try { out.set(j.source.id, await extract(j.source, j.usable)); } catch (err) { out.set(j.source.id, { error: err.message }); }
+    }
+    return out;
+  }
+  const create = await fetch("https://api.anthropic.com/v1/messages/batches", {
+    method: "POST",
+    headers: API_HEADERS(),
+    body: JSON.stringify({ requests: jobs.map((j) => ({ custom_id: j.source.id, params: requestParams(j.source, j.usable) })) }),
+  });
+  let batch = await create.json();
+  if (!create.ok) throw new Error(`Batch create failed ${create.status}: ${JSON.stringify(batch.error || batch)}`);
+  console.log(`Batch ${batch.id}: ${jobs.length} places submitted; waiting for results…`);
+  const started = Date.now();
+  while (batch.processing_status !== "ended") {
+    if (Date.now() - started > BATCH_MAX_WAIT_MS) throw new Error(`Batch ${batch.id} still running after 5 hours`);
+    await new Promise((r) => setTimeout(r, BATCH_POLL_MS));
+    const res = await fetch(`https://api.anthropic.com/v1/messages/batches/${batch.id}`, { headers: API_HEADERS() });
+    if (res.ok) batch = await res.json();
+  }
+  const results = await fetch(batch.results_url, { headers: API_HEADERS() });
+  if (!results.ok) throw new Error(`Batch results failed ${results.status}`);
+  // Results come back in any order; match them by custom_id (the source id).
+  for (const line of (await results.text()).split("\n").filter(Boolean)) {
+    const r = JSON.parse(line);
+    if (r.result?.type === "succeeded") {
+      try { out.set(r.custom_id, parseMessage(r.result.message)); } catch (err) { out.set(r.custom_id, { error: err.message }); }
+    } else out.set(r.custom_id, { error: `batch ${r.result?.type}: ${JSON.stringify(r.result?.error || "")}` });
+  }
+  console.log(`Batch ${batch.id} done in ${Math.round((Date.now() - started) / 60000)} min.`);
+  return out;
 }
 
 // ---------- ids, dedup, writing ----------
@@ -383,11 +490,11 @@ async function instagramPages(handle) {
 // so the link stays and the review lists it as "unclear" for a human check. We never disguise the crawler.
 async function checkWebsite(url, already) {
   let page = already || (await fetchPage(url));
-  if (!page.ok && (page.status === 0 || page.status >= 500)) {
+  if (!page.ok && !page.robots && (page.status === 0 || page.status >= 500)) {
     await new Promise((r) => setTimeout(r, 3000));
     page = await fetchPage(url);
   }
-  const status = page.ok ? "ok" : page.status === 0 || page.status >= 500 ? "down" : "unclear";
+  const status = page.ok ? "ok" : page.robots ? "unclear" : page.status === 0 || page.status >= 500 ? "down" : "unclear";
   return { checked: TODAY, url, status, http: page.status };
 }
 
@@ -422,15 +529,15 @@ function quoteVerified(quote, pages) {
   return pages.some((p) => squash(p.text).includes(q));
 }
 
-function isPast(item) {
+function isPast(item, today) {
   const end = item.end_date || item.start_date;
-  return Boolean(end) && end < TODAY;
+  return Boolean(end) && end < today;
 }
 
 // ---------- main ----------
 
 async function main() {
-  const { sources } = JSON.parse(readFileSync(join(ROOT, "sources.json"), "utf8"));
+  const sources = loadSources();
   const only = typeof args.only === "string" ? args.only.split(",") : null;
   const selected = sources.filter((s) => !only || only.includes(s.id));
   for (const folder of [...FOLDERS, "runs"]) mkdirSync(join(DATA, folder), { recursive: true });
@@ -443,6 +550,7 @@ async function main() {
   if (inbox.note) console.log(inbox.note);
   run.inbox_note = inbox.note;
   const usedEmails = new Set();
+  const jobs = [];
 
   for (const source of selected) {
     const entry = { id: source.id, org: source.org, core: source.core, pages: [], found: 0, written: 0, updated: 0, skipped: 0, notes: "" };
@@ -465,7 +573,7 @@ async function main() {
       continue;
     }
     const usable = pages.filter((p) => p.text.length > 200);
-    process.stdout.write(`${usable.length}/${pages.length} pages usable; extracting… `);
+    process.stdout.write(`${usable.length}/${pages.length} pages usable; `);
     if (!usable.length) {
       entry.notes = "No usable page text (blocked, down, or JavaScript-only).";
       console.log("nothing to read");
@@ -476,12 +584,17 @@ async function main() {
       continue;
     }
 
-    let result;
-    try {
-      result = await extract(source, usable);
-    } catch (err) {
-      entry.notes = `Extraction failed: ${err.message}`;
-      console.log(`extraction failed: ${err.message.slice(0, 300)}`);
+    jobs.push({ source, entry, usable });
+    console.log("queued");
+  }
+
+  // Extraction for every place at once (Batch API), then each place's results are checked and filed.
+  const results = await extractAll(jobs);
+  for (const { source, entry, usable } of jobs) {
+    const result = results.get(source.id);
+    if (!result || result.error) {
+      entry.notes = `Extraction failed: ${result?.error || "no result returned"}`;
+      console.log(`- ${source.id}: extraction failed: ${entry.notes.slice(0, 300)}`);
       continue;
     }
     entry.notes = result.notes;
@@ -515,7 +628,7 @@ async function main() {
         const all = usable.map((p) => p.text).join("\n");
         item.includes = item.includes.filter((x) => { const key = (x.match(/wood|soda|salt|raku|pit|barrel|saggar|anagama|train|catenary|gas|electric|reduction/i) || [x])[0]; return new RegExp(key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i").test(all); });
       }
-      item.past = isPast(item);
+      item.past = isPast(item, todayIn(source.tz));
       item.id = itemId(item);
       item._original = { ...raw };
 
@@ -552,7 +665,7 @@ async function main() {
       existing.push({ folder: "pending", file: join(DATA, "pending", `${item.id}.json`), item });
       entry.written++;
     }
-    console.log(`${entry.found} found, ${entry.written} new, ${entry.updated} changed, ${entry.skipped} unchanged`);
+    console.log(`- ${source.id}: ${entry.found} found, ${entry.written} new, ${entry.updated} changed, ${entry.skipped} unchanged`);
     if (args.dry) for (const o of result.opportunities) console.log(`    · ${o.firing_type} | ${o.access_kind} | ${o.audience} | ${o.start_date || "-"} | ${o.registration_status} | ${o.title}${o.includes?.length ? ` [${o.includes.join(", ")}]` : ""}`);
   }
 

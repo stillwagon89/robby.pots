@@ -1,4 +1,4 @@
-// Fills lat/lng in kiln-map/sources.json from each source's street address
+// Fills lat/lng in kiln-map/sources/<STATE>.json from each source's street address
 // (location_precision "address") or town (location_precision "approximate",
 // via the `geocode` field). Uses OpenStreetMap's Nominatim, one request per
 // second as its usage policy asks. Only sources without lat/lng are looked up;
@@ -6,18 +6,17 @@
 //
 //   npm run kiln:geocode
 
-import { readFileSync, writeFileSync } from "node:fs";
-import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { loadSources, saveSources, stateName } from "./sources.mjs";
 
-const FILE = join(dirname(fileURLToPath(import.meta.url)), "sources.json");
 const ALL = process.argv.includes("--all");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const data = JSON.parse(readFileSync(FILE, "utf8"));
-for (const s of data.sources) {
+const sources = loadSources();
+for (const s of sources) {
   if (!ALL && typeof s.lat === "number") continue;
-  const q = s.location_precision === "address" ? s.address : s.geocode;
+  // Add the state when the address or town doesn't already name it, so "Springfield" lands in the right state.
+  const raw = s.location_precision === "address" ? s.address : s.geocode;
+  const q = raw && !new RegExp(`\\b(${s.state}|${stateName(s.state)})\\b`, "i").test(raw) ? `${raw}, ${stateName(s.state)}` : raw;
   if (!q) {
     console.log(`- ${s.id}: no address or town to look up`);
     continue;
@@ -34,4 +33,4 @@ for (const s of data.sources) {
   }
   await sleep(1100);
 }
-writeFileSync(FILE, JSON.stringify(data, null, 2) + "\n");
+saveSources(sources);

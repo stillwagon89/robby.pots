@@ -7,6 +7,7 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadSources } from "./sources.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const DATA = join(ROOT, "data");
@@ -22,7 +23,7 @@ const list = (folder) => {
   return existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => ({ folder, ...read(join(dir, f)) })) : [];
 };
 
-const { sources } = read(join(ROOT, "sources.json"));
+const sources = loadSources();
 const pending = list("pending"), rejected = list("rejected");
 const allApproved = list("approved");
 const approved = allApproved.filter((i) => i.added_by !== "manual"); // hand-entered items don't count toward AI accuracy

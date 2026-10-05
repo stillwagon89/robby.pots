@@ -1,5 +1,5 @@
 // Builds site/data/firings.json (what site/firings.html and site/kiln.html
-// read) from kiln-map/sources.json and the approved items in
+// read) from kiln-map/sources/<STATE>.json and the approved items in
 // kiln-map/data/approved/. Past firings are left out; places with nothing
 // posted stay in, with a plain note on what isn't known and who to contact.
 //
@@ -9,13 +9,14 @@ import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from 
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { namesType } from "./firing-words.mjs";
+import { loadSources, todayIn } from "./sources.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const OUT = join(ROOT, "..", "site", "data", "firings.json");
-const TODAY = new Date().toISOString().slice(0, 10);
+const TODAY = new Date().toISOString().slice(0, 10); // generation date only; "past" uses each place's local date
 const read = (f) => JSON.parse(readFileSync(f, "utf8"));
 
-const { sources } = read(join(ROOT, "sources.json"));
+const sources = loadSources();
 const approvedDir = join(ROOT, "data", "approved");
 const approved = existsSync(approvedDir) ? readdirSync(approvedDir).filter((f) => f.endsWith(".json")).map((f) => read(join(approvedDir, f))) : [];
 
@@ -69,7 +70,7 @@ function contactFor(s) {
   return c;
 }
 
-function displayStatus(i) {
+function displayStatus(i, today) {
   if (i.registration_status === "waitlist" || (/waitlist/i.test(i.title) && i.registration_status === "sold_out")) return "waitlist";
   if (i.registration_status === "sold_out" || i.registration_status === "closed") return "full";
   if (ONGOING_KINDS.includes(i.access_kind)) {
@@ -80,21 +81,21 @@ function displayStatus(i) {
   if (i.registration_status === "open") return "open";
   if (i.registration_status === "not_yet_open") return "opens_soon";
   // The page often shows a "Register now" button without saying "open": treat that, on a future date, as open.
-  if (i.registration_status === "unknown" && i.start_date && i.start_date >= TODAY && /register|sign.?up|enroll|book|buy|reserve/i.test(i.how_to_join || "")) return "open";
+  if (i.registration_status === "unknown" && i.start_date && i.start_date >= today && /register|sign.?up|enroll|book|buy|reserve/i.test(i.how_to_join || "")) return "open";
   return "more_info";
 }
 
-function keyDate(i, status) {
+function keyDate(i, status, today) {
   if (status === "opens_soon") return i.registration_opens ? `Sign-up opens ${short(i.registration_opens)}` : "Sign-up date to be announced";
-  if (i.signup_deadline && i.signup_deadline >= TODAY) return `Sign up by ${short(i.signup_deadline)}`;
+  if (i.signup_deadline && i.signup_deadline >= today) return `Sign up by ${short(i.signup_deadline)}`;
   if (status === "more_info") return "Sign-up status not posted";
-  if (status === "ongoing" && i.start_date && i.start_date >= TODAY) return `Next term starts ${short(i.start_date)}`;
+  if (status === "ongoing" && i.start_date && i.start_date >= today) return `Next term starts ${short(i.start_date)}`;
   return null;
 }
 
-const isPast = (i) => {
+const isPast = (i, today) => {
   const end = i.end_date || i.start_date;
-  return Boolean(end) && end < TODAY;
+  return Boolean(end) && end < today;
 };
 
 function trackingFor(source) {
@@ -105,15 +106,16 @@ function trackingFor(source) {
 }
 
 const places = sources.map((s) => {
+  const today = todayIn(s.tz);
   const items = approved
-    .filter((i) => i.source_id === s.id && !isPast(i))
+    .filter((i) => i.source_id === s.id && !isPast(i, today))
     .map((i) => ({
       ...Object.fromEntries(ITEM_FIELDS.map((k) => [k, i[k] ?? null])),
       title: cleanTitle(i.title),
       // A "(WAITLIST)" title means the waitlist is open, which is more useful than "sold out".
       registration_status: /waitlist/i.test(i.title) && i.registration_status === "sold_out" ? "waitlist" : i.registration_status,
-      status: displayStatus(i),
-      key_date: keyDate(i, displayStatus(i)),
+      status: displayStatus(i, today),
+      key_date: keyDate(i, displayStatus(i, today), today),
       who_can_join: AUDIENCE_LINE[i.audience] || null,
     }))
     // Evidence whose quote doesn't name the firing type is dropped; the page falls back to the place's evidence.
@@ -143,6 +145,7 @@ const places = sources.map((s) => {
     kind: s.kind,
     public: s.public,
     region: s.region,
+    state: s.state,
     city: s.city,
     lat: s.lat,
     lng: s.lng,

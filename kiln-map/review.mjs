@@ -4,11 +4,12 @@
 import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadSources } from "./sources.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const DATA = join(ROOT, "data");
 const read = (f) => JSON.parse(readFileSync(f, "utf8"));
-const { sources } = read(join(ROOT, "sources.json"));
+const sources = loadSources();
 const org = (id) => sources.find((s) => s.id === id)?.org || id;
 const TYPE = { wood: "Wood", soda: "Soda", salt: "Salt", raku: "Raku", pit_barrel_saggar: "Pit", gas_reduction: "Gas", electric: "Electric", rental_service: "Rental", other: "Other" };
 
