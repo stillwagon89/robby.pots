@@ -345,7 +345,8 @@ function sourceDomains(source) {
 function emailMatches(source, msg) {
   const from = (msg.from || "").toLowerCase();
   const keys = sourceDomains(source);
-  return keys.has(from) || keys.has(baseDomain(from.split("@")[1])) || (source.contact?.email || "").toLowerCase() === from;
+  // Mail services often encode the sender's domain in the address (info-vergeart.com@shared1.ccsend.com).
+  return keys.has(from) || keys.has(baseDomain(from.split("@")[1])) || [...keys].some((k) => k.includes(".") && from.includes(k)) || (source.contact?.email || "").toLowerCase() === from;
 }
 async function loadInbox() {
   if (!INBOX_TOKEN) return { messages: [], note: "Newsletter inbox not connected (no KILN_INBOX_TOKEN)." };
@@ -389,15 +390,21 @@ async function checkWebsite(url, already) {
   return { checked: TODAY, url, status, http: page.status };
 }
 
+const ONGOING = ["ongoing_membership", "class_enrollment", "residency", "rental_service"];
 function findMatch(existing, item) {
-  return existing.find(({ item: e }) =>
-    e.id === item.id ||
-    (e.source_id === item.source_id &&
-      e.firing_type === item.firing_type &&
-      // Same firing under a longer or shorter title: same start date, or overlapping titles.
-      (jaccard(e.title, item.title) >= 0.5 || (e.start_date && e.start_date === item.start_date) || norm(item.title).includes(norm(e.title)) || norm(e.title).includes(norm(item.title))) &&
-      (daysApart(e.start_date, item.start_date) <= 3 || (!e.start_date && !item.start_date)))
-  );
+  return existing.find(({ item: e }) => {
+    if (e.id === item.id) return true;
+    if (e.source_id !== item.source_id || e.firing_type !== item.firing_type) return false;
+    // Ongoing access (classes, memberships, residencies) has no fixed date, and the AI words it differently each run,
+    // so dates never tell two of them apart. A school's classes are one listing per firing type; memberships and
+    // residencies match on title.
+    if (ONGOING.includes(item.access_kind) && e.access_kind === item.access_kind) {
+      return item.access_kind === "class_enrollment" || jaccard(e.title, item.title) >= 0.5 || norm(item.title).includes(norm(e.title)) || norm(e.title).includes(norm(item.title));
+    }
+    // Same dated firing under a longer or shorter title: same start date, or overlapping titles, within 3 days.
+    return (jaccard(e.title, item.title) >= 0.5 || (e.start_date && e.start_date === item.start_date) || norm(item.title).includes(norm(e.title)) || norm(e.title).includes(norm(item.title))) &&
+      (daysApart(e.start_date, item.start_date) <= 3 || (!e.start_date && !item.start_date));
+  });
 }
 
 function quoteVerified(quote, pages) {
@@ -503,6 +510,11 @@ async function main() {
       item.id = itemId(item);
       item._original = { ...raw };
 
+      // No firing shown, no listing: the evidence quote must name the firing type (for "other", a firing or kiln).
+      if (!namesType(item.firing_type, raw.evidence_quote) && !namesType(item.firing_type, raw.source_quote)) {
+        (entry.dropped ||= []).push({ title: item.title, reason: "evidence does not show a firing", quote: raw.evidence_quote });
+        continue;
+      }
       const match = findMatch(existing, item);
       if (match) {
         const e = match.item;
