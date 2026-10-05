@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kiln Locator — Flaming Clay</title>
-  <meta name="description" content="Wood, soda, salt, raku and pit firings around California: sign-up status, who can join, and who to contact.">
+  <meta name="description" content="Wood, soda, salt, raku and pit firings on the West Coast (California, Oregon, Washington): sign-up status, who can join, and who to contact.">
   <link rel="preconnect" href="https://api.fontshare.com">
   <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,11 +39,12 @@
       <header class="kf-header">
         <h1>Firings you can join</h1>
         <p class="kf-sub">Wood, soda, salt, raku and pit firings, crew calls, and kilns to rent.</p>
-        <p class="kf-note">Updated <span id="kf-updated"></span>. An early version: missing a kiln or see something wrong? <a href="contact.html">Tell me</a>. I'm starting in California and will expand to the rest of the US at a later date.</p>
+        <p class="kf-note">Updated <span id="kf-updated"></span>. An early version: missing a kiln or see something wrong? <a href="contact.html">Tell me</a>. Now covering the West Coast: California, Oregon and Washington. The rest of the US is next.</p>
       </header>
 
       <div class="kf-filters">
         <div class="filter-chips" id="kf-types" role="group" aria-label="Firing type"></div>
+        <select id="kf-state" class="kf-select" aria-label="State"></select>
         <form class="kf-near" id="kf-near" role="search" aria-label="Filter by distance">
           <label class="kf-near-label" for="kf-near-input">Near</label>
           <input id="kf-near-input" class="kf-input" type="text" inputmode="search" placeholder="City or zip" autocomplete="postal-code">

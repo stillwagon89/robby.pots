@@ -1,0 +1,177 @@
+{
+  "_note": "Oregon firing sources (added 2026-10-05, West Coast expansion). Found via the Simon Levin wood-kiln map, Oregon Potters Association, and web search. Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "opa-east-creek",
+      "org": "East Creek Art (Oregon Potters Association anagama firings)",
+      "kind": "residency",
+      "core": true,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "soda"
+      ],
+      "region": "Willamette Valley",
+      "city": "Willamina",
+      "urls": [
+        "https://oregonpotters.org/events"
+      ],
+      "notes": "OPA organizes anagama and catenary wood/soda firings at East Creek Art; newcomers welcome; participants help load, fire, unload.",
+      "location_precision": "approximate",
+      "contact": {
+        "website": "https://oregonpotters.org/events"
+      },
+      "newsletter_url": "https://oregonpotters.org/",
+      "geocode": "Willamina, Oregon",
+      "location_note": "Shown at Willamina; the firing site is at 12251 SW East Creek Rd.",
+      "lat": 45.07873,
+      "lng": -123.48594
+    },
+    {
+      "id": "pleasant-hill-pottery",
+      "org": "Pleasant Hill Pottery (Jesse Jones)",
+      "kind": "private_kiln",
+      "core": true,
+      "public": false,
+      "firing_types_guess": [
+        "wood",
+        "salt",
+        "soda"
+      ],
+      "region": "Lane County",
+      "city": "Pleasant Hill",
+      "urls": [
+        "https://www.pleasanthillpottery.com/"
+      ],
+      "notes": "Four wood kilns (anagama, noborigama with salt chamber, wood-soda crossdraft, train). Levin map. Described as a place for the community to fire.",
+      "location_precision": "approximate",
+      "geocode": "Pleasant Hill, Oregon",
+      "location_note": "Private kiln. Shown at the town, not the property.",
+      "contact": {
+        "website": "https://www.pleasanthillpottery.com/",
+        "email": "pleasanthillpottery1@gmail.com"
+      },
+      "lat": 43.96596,
+      "lng": -122.93175
+    },
+    {
+      "id": "elemental-studios-pdx",
+      "org": "Elemental Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Portland",
+      "city": "Portland",
+      "urls": [
+        "https://www.elementalstudiospdx.com/"
+      ],
+      "notes": "Raku firing workshops and a multi-week raku series.",
+      "location_precision": "address",
+      "address": "4634 NE Garfield Ave, Portland, OR",
+      "contact": {
+        "website": "https://www.elementalstudiospdx.com/",
+        "email": "info@elementalstudiospdx.com"
+      },
+      "lat": 45.55697,
+      "lng": -122.66228
+    },
+    {
+      "id": "radius-art-studio",
+      "org": "Radius Community Art Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Portland",
+      "city": "Portland",
+      "urls": [
+        "https://radiusstudio.org/"
+      ],
+      "notes": "Raku Saturday workshops (AJ McCafferty).",
+      "location_precision": "address",
+      "address": "322 SE Morrison St, Portland, OR 97214",
+      "contact": {
+        "website": "https://radiusstudio.org/"
+      },
+      "lat": 45.51715,
+      "lng": -122.66245
+    },
+    {
+      "id": "pcc-ceramics",
+      "org": "Portland Community College Ceramics",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "salt",
+        "gas_reduction"
+      ],
+      "region": "Portland",
+      "city": "Portland",
+      "urls": [
+        "https://www.pcc.edu/art/"
+      ],
+      "notes": "Intermediate raku workshop (Southeast campus) and wood-salt work shown in PCC galleries.",
+      "location_precision": "approximate",
+      "geocode": "Portland, Oregon",
+      "location_note": "Classes run on several campuses. Shown at the city.",
+      "contact": {
+        "website": "https://www.pcc.edu/art/"
+      },
+      "lat": 45.52025,
+      "lng": -122.67419
+    },
+    {
+      "id": "rogue-valley-pottery",
+      "org": "Rogue Valley Pottery Supply",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Southern Oregon",
+      "city": "Ashland",
+      "urls": [
+        "https://www.roguevalleypotterysupply.com/"
+      ],
+      "notes": "Raku classes.",
+      "location_precision": "approximate",
+      "geocode": "Ashland, Oregon",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.roguevalleypotterysupply.com/"
+      },
+      "lat": 42.19725,
+      "lng": -122.7154
+    },
+    {
+      "id": "sitka-center",
+      "org": "Sitka Center for Art and Ecology",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Oregon Coast",
+      "city": "Otis",
+      "urls": [
+        "https://www.sitkacenter.org/"
+      ],
+      "notes": "Workshop program May-October including ceramics; firing types unconfirmed.",
+      "location_precision": "approximate",
+      "geocode": "Otis, Oregon",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.sitkacenter.org/"
+      },
+      "lat": 45.02427,
+      "lng": -123.9465
+    }
+  ]
+}

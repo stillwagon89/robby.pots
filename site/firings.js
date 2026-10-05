@@ -20,7 +20,7 @@ const TRACKING = {
   no_website: "No website. Listed from public kiln maps.",
   not_checked: "Not checked yet.",
 };
-const RADII = [["30", "30 mi"], ["60", "60 mi"], ["120", "2 hrs"], ["all", "All CA"]];
+const RADII = [["30", "30 mi"], ["60", "60 mi"], ["120", "2 hrs"], ["all", "Any distance"]];
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -50,7 +50,9 @@ const badge = (status) => `<span class="kf-badge kf-${status}">${esc(STATUS[stat
 
 // ---------- state ----------
 
-const state = { type: "all", view: "firings", sel: null, pin: null, near: null, radius: "60" };
+const state = { type: "all", view: "firings", sel: null, pin: null, near: null, radius: "60", st: "all" };
+const STATE_NAMES = { CA: "California", OR: "Oregon", WA: "Washington", AK: "Alaska", HI: "Hawaii", NV: "Nevada", ID: "Idaho", AZ: "Arizona" };
+const stateLabel = (c) => STATE_NAMES[c] || c;
 
 function readUrl() {
   const q = new URLSearchParams(location.search);
@@ -59,11 +61,13 @@ function readUrl() {
   state.sel = q.get("sel");
   state.near = q.get("lat") && q.get("lng") ? { lat: Number(q.get("lat")), lng: Number(q.get("lng")), label: q.get("near") || "your location" } : null;
   if (RADII.some(([v]) => v === q.get("r"))) state.radius = q.get("r");
+  state.st = q.get("st") || "all";
 }
 function writeUrl(push) {
   const q = new URLSearchParams();
   if (state.type !== "all") q.set("type", state.type);
   if (state.view !== "firings") q.set("view", state.view);
+  if (state.st !== "all") q.set("st", state.st);
   if (state.sel) q.set("sel", state.sel);
   if (state.near) { q.set("near", state.near.label); q.set("lat", state.near.lat.toFixed(4)); q.set("lng", state.near.lng.toFixed(4)); q.set("r", state.radius); }
   const url = `${location.pathname}${q.toString() ? `?${q}` : ""}`;
@@ -75,6 +79,7 @@ function writeUrl(push) {
 let DATA = null;
 
 function inRange(p) {
+  if (state.st !== "all" && p.state !== state.st) return false;
   if (!state.near || state.radius === "all" || typeof p.lat !== "number") return true;
   return miles(state.near, p) <= Number(state.radius);
 }
@@ -286,7 +291,7 @@ function placeDetail(p) {
   const types = p.firing_types.filter((t) => TYPE_LABEL[t]);
   const updates = updatesUrl(p);
   return `
-    <p class="kf-addr">${esc(p.address || `${p.city}, CA`)} <span class="kf-precision">${p.location_precision === "address" ? "Exact address" : "Approximate area"}</span></p>
+    <p class="kf-addr">${esc(p.address || `${p.city}, ${p.state || ""}`)} <span class="kf-precision">${p.location_precision === "address" ? "Exact address" : "Approximate area"}</span></p>
     ${p.location_note ? `<p class="kf-note">${esc(p.location_note)}</p>` : ""}
     <p class="kf-tags">${types.map((t) => `<span class="kf-tag">${esc(TYPE_LABEL[t])}</span>`).join("")}</p>
     ${detailRows([["How outsiders get in", esc(p.get_in.join(" · ") || (updatesUrl(p) || contactUrl(p) ? "Not posted. Contact them to ask." : "No public way in found yet. Know how to reach them? Tell me below."))]])}
@@ -345,7 +350,11 @@ function renderMap(cards) {
 function fitMap() {
   if (!MAP) return;
   if (RADIUS_LAYER) MAP.fitBounds(RADIUS_LAYER.getBounds().pad(0.05));
-  else MAP.fitBounds([[32.4, -124.5], [42.1, -114.1]]); // all of California
+  else {
+    // Every place in view (one state, or all of them), so new states show up without code changes.
+    const pts = DATA.places.filter((p) => typeof p.lat === "number" && (state.st === "all" || p.state === state.st)).map((p) => [p.lat, p.lng]);
+    if (pts.length) MAP.fitBounds(L.latLngBounds(pts).pad(0.08));
+  }
 }
 
 function firstListingId(p) {
@@ -382,6 +391,7 @@ function render() {
     b.setAttribute("aria-selected", String(on));
   });
   document.getElementById("kf-radius").value = state.radius;
+  document.getElementById("kf-state").value = state.st;
   document.getElementById("kf-near-input").value = state.near ? state.near.label : "";
   const cards = renderList();
   renderMap(cards);
@@ -397,7 +407,7 @@ function select(id, push, { toggle = false, scroll = false } = {}) {
 }
 
 async function geocode(text) {
-  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=${encodeURIComponent(`${text}, California`)}`;
+  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=${encodeURIComponent(text)}`;
   const res = await fetch(url, { headers: { Accept: "application/json" } });
   const [hit] = await res.json();
   return hit ? { lat: Number(hit.lat), lng: Number(hit.lon), label: text } : null;
@@ -473,6 +483,13 @@ function bind() {
       { timeout: 10000 }
     );
   });
+  document.getElementById("kf-state").addEventListener("change", (e) => {
+    state.st = e.target.value;
+    state.sel = null;
+    writeUrl(false);
+    render();
+    fitMap();
+  });
   document.getElementById("kf-radius").addEventListener("change", (e) => {
     state.radius = e.target.value;
     writeUrl(false);
@@ -494,6 +511,8 @@ async function renderKilnFinder() {
     return;
   }
   document.getElementById("kf-updated").textContent = fmtDay(DATA.generated);
+  const states = [...new Set(DATA.places.map((p) => p.state).filter(Boolean))].sort((a, b) => stateLabel(a).localeCompare(stateLabel(b)));
+  document.getElementById("kf-state").innerHTML = [`<option value="all">All states</option>`, ...states.map((c) => `<option value="${esc(c)}">${esc(stateLabel(c))}</option>`)].join("");
   readUrl();
   bind();
   initMap();

@@ -1,0 +1,78 @@
+{
+  "_note": "Washington firing sources (added 2026-10-05, West Coast expansion). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "pottery-northwest",
+      "org": "Pottery Northwest",
+      "kind": "city_arts",
+      "core": true,
+      "public": true,
+      "firing_types_guess": [
+        "soda",
+        "salt",
+        "raku"
+      ],
+      "region": "Seattle",
+      "city": "Seattle",
+      "urls": [
+        "https://www.potterynorthwest.org/"
+      ],
+      "notes": "Nonprofit clay center with soda, salt and raku kilns; moving to South Lake Union with new atmospheric kilns (opening 2026).",
+      "location_precision": "approximate",
+      "geocode": "Seattle, Washington",
+      "location_note": "Moving to a new building in South Lake Union. Shown at the city.",
+      "contact": {
+        "website": "https://www.potterynorthwest.org/"
+      },
+      "lat": 47.60383,
+      "lng": -122.33006
+    },
+    {
+      "id": "seattle-artist-league",
+      "org": "Seattle Artist League",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "gas_reduction"
+      ],
+      "region": "Seattle",
+      "city": "Seattle",
+      "urls": [
+        "https://www.seattleartistleague.com/art-classes/"
+      ],
+      "notes": "Raku for All Levels workshops and a reduction kiln class (Georgetown).",
+      "location_precision": "approximate",
+      "geocode": "Georgetown, Seattle, Washington",
+      "location_note": "Georgetown Arts District. Shown at the neighborhood.",
+      "contact": {
+        "website": "https://www.seattleartistleague.com/"
+      },
+      "lat": 47.54893,
+      "lng": -122.33006
+    },
+    {
+      "id": "norris-arts",
+      "org": "Norris Art Studio & Gallery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Southwest Washington",
+      "city": "Camas",
+      "urls": [
+        "https://norrisarts.com/"
+      ],
+      "notes": "OPA studio partner; firing types unconfirmed.",
+      "location_precision": "approximate",
+      "geocode": "Camas, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://norrisarts.com/"
+      },
+      "lat": 45.5863,
+      "lng": -122.40328
+    }
+  ]
+}
