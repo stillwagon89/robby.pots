@@ -1383,7 +1383,7 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 
 .kf-precision { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .04em; text-transform: uppercase; color: var(--cobalt-muted); margin-left: 6px; }
 .kf-actions { display: flex; gap: var(--space-sm); flex-wrap: wrap; margin: var(--space-md) 0; padding-bottom: var(--space-md); border-bottom: 1px solid var(--border); }
-.kf-actions .btn-cta { min-height: 40px; display: inline-flex; align-items: center; }
+.kf-actions .btn-cta { min-height: 44px; display: inline-flex; align-items: center; gap: 6px; }
 .kf-btn-ghost {
   font-family: var(--font-display); font-weight: 500; font-size: 14px; color: var(--cobalt); border: 1px solid var(--border);
   border-radius: var(--radius-sm); padding: 9px 17px; min-height: 40px; display: inline-flex; align-items: center; gap: 4px; text-decoration: none;
