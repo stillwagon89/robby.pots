@@ -1285,6 +1285,8 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 }
 .kf-sub { font-size: 18px; color: var(--cobalt); max-width: 560px; text-wrap: pretty; }
 .kf-note { font-size: 13px; line-height: 1.5; color: var(--cobalt-muted); margin-top: var(--space-sm); }
+/* The page intro is real information (coverage, how to report a missing kiln): full-contrast cobalt, not muted. */
+.kf-header .kf-note { font-size: 14px; color: var(--cobalt); max-width: 640px; }
 .kf-note a, .kf-ai-foot a, .kf-linkish { color: var(--cobalt); text-decoration: underline; text-underline-offset: 2px; }
 .kf-linkish { background: none; border: 0; padding: 0; font: inherit; cursor: pointer; }
 
