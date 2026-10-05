@@ -710,7 +710,8 @@ async function main() {
     if (args.dry) for (const o of result.opportunities) console.log(`    · ${o.firing_type} | ${o.access_kind} | ${o.audience} | ${o.start_date || "-"} | ${o.registration_status} | ${o.title}${o.includes?.length ? ` [${o.includes.join(", ")}]` : ""}`);
   }
 
-  run.unmatched_emails = inbox.messages.filter((m) => !usedEmails.has(m)).map((m) => ({ from: m.from, subject: m.subject, date: m.date }));
+  // Unmatched means no place anywhere claims the sender (not just the places in this run).
+  run.unmatched_emails = inbox.messages.filter((m) => !sources.some((src) => emailMatches(src, m))).map((m) => ({ from: m.from, subject: m.subject, date: m.date }));
   run.finished = new Date().toISOString();
   if (!args.dry) writeFileSync(HEALTH_FILE, JSON.stringify(health, null, 2) + "\n");
   if (!args.dry) writeFileSync(SIGNUPS_FILE, JSON.stringify(signups, null, 2) + "\n");
