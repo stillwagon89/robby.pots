@@ -519,11 +519,6 @@ async function main() {
       item.id = itemId(item);
       item._original = { ...raw };
 
-      // No firing shown, no listing: the evidence quote must name the firing type (for "other", a firing or kiln).
-      if (!namesType(item.firing_type, raw.evidence_quote) && !namesType(item.firing_type, raw.source_quote)) {
-        (entry.dropped ||= []).push({ title: item.title, reason: "evidence does not show a firing", quote: raw.evidence_quote });
-        continue;
-      }
       const match = findMatch(existing, item);
       if (match) {
         const e = match.item;
@@ -546,6 +541,11 @@ async function main() {
           if (Object.keys(fill).length && !args.dry) writeFileSync(match.file, JSON.stringify({ ...e, ...fill }, null, 2) + "\n");
           entry.skipped++;
         }
+        continue;
+      }
+      // New items only (listings already reviewed are never dropped): no firing shown, no listing: the evidence quote must name the firing type (for "other", a firing or kiln).
+      if (!namesType(item.firing_type, raw.evidence_quote) && !namesType(item.firing_type, raw.source_quote)) {
+        (entry.dropped ||= []).push({ title: item.title, reason: "evidence does not show a firing", quote: raw.evidence_quote });
         continue;
       }
       if (!args.dry) writeFileSync(join(DATA, "pending", `${item.id}.json`), JSON.stringify(item, null, 2) + "\n");

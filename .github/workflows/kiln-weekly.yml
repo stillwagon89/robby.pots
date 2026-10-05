@@ -50,4 +50,6 @@ jobs:
           if git diff --cached --quiet; then echo "Nothing changed this week."; exit 0; fi
           git commit -m "Weekly kiln crawl $(date -u +%F)"
           git push -u origin "$BRANCH"
-          gh pr create --base main --head "$BRANCH" --title "Kiln Locator review $(date -u +%F)" --body-file kiln-map/REVIEW.md
+          N=$(ls kiln-map/data/pending/*.json 2>/dev/null | wc -l | tr -d ' ')
+          if [ "$N" = "0" ]; then TITLE="Kiln Locator update $(date -u +%F) (nothing to review)"; else TITLE="Kiln Locator review $(date -u +%F): $N to review"; fi
+          gh pr create --base main --head "$BRANCH" --title "$TITLE" --body-file kiln-map/REVIEW.md
