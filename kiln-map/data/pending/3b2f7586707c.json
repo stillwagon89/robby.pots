@@ -5,9 +5,9 @@
   "access_kind": "dated",
   "audience": "public",
   "date_precision": "month",
-  "start_date": "2026-10-03",
+  "start_date": "2026-10-05",
   "end_date": null,
-  "registration_status": "unknown",
+  "registration_status": "open",
   "crew_needed": false,
   "commitment": "Raku firing 11am-2pm (approximately 1-1.5 hours for firing process)",
   "cost_text": "$10 per piece",
@@ -26,7 +26,7 @@
   "registration_opens": null,
   "signup_deadline": null,
   "source_id": "catalyst-arts-boise",
-  "past": true,
+  "past": false,
   "quote_verified": true,
   "checked": "2026-10-05",
   "evidence_url": "https://www.catalystartscollaborative.com/events-and-more#:~:text=Try%20Raku%20Pottery%20Firing,colors%20on%20your%20pottery",
@@ -63,5 +63,10 @@
     "signup_deadline": null
   },
   "reviewed": true,
-  "review_note": "Robby 2026-10-05: approved (Claude lean accepted)."
+  "review_note": "Robby 2026-10-05: approved (Claude lean accepted).",
+  "changed_from": {
+    "start_date": "2026-10-03",
+    "end_date": null,
+    "registration_status": "unknown"
+  }
 }
