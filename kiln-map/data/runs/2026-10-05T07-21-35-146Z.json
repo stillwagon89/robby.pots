@@ -1,0 +1,333 @@
+{
+  "date": "2026-10-05",
+  "started": "2026-10-05T07:21:35.146Z",
+  "model": "claude-haiku-4-5-20251001",
+  "sources": [
+    {
+      "id": "sebastopol-arts",
+      "org": "Sebastopol Center for the Arts",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://www.sebarts.org/classes-lectures",
+          "status": 200,
+          "chars": 20000,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.sebarts.org/ceramics",
+          "status": 200,
+          "chars": 7431,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.sebarts.org/ceramics-classes",
+          "status": 200,
+          "chars": 4611,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.sebarts.org/classeslectures/p/ceramicsresidency-lizhanyang",
+          "status": 200,
+          "chars": 5464,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.sebarts.org/classes-lectures/sebtown-clay-club-afterschool-wednesdays",
+          "status": 200,
+          "chars": 6328,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.sebarts.org/classes-lectures/sebtown-clay-club-afterschool-wednesdays?format=ical",
+          "status": 0,
+          "chars": 0,
+          "jsOnly": false,
+          "error": "robots.txt asks bots not to read this page"
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The pages describe ceramics classes (wheel throwing, handbuilding, clay exploration) and open studio access with electric kiln firing, but none of these pages explicitly state that any classes, firings, or studio time involve soda, wood, salt, raku, pit/barrel/saggar, or gas reduction firing. The residency workshop page describes sculpting classes with a resident artist but does not mention firing in a kiln. The pages do not contain any dated firing events, workshops, or crew calls involving alternative firing methods beyond the studio's electric kiln.",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "Sebastopol Center for the Arts is a \"mid fire\" studio offering electric kiln firing for student work. The pages mention soda and wood firings as known firing types at this place, but no current opportunities for potters to participate in soda or wood firings are described in these pages.",
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 16267,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 264,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "ica-san-diego",
+      "org": "ICA San Diego",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://icasandiego.org/",
+          "status": 200,
+          "chars": 4314,
+          "jsOnly": false
+        },
+        {
+          "url": "https://icasandiego.org/ceramics-classes-studio/",
+          "status": 200,
+          "chars": 4579,
+          "jsOnly": false
+        },
+        {
+          "url": "https://icasandiego.org/ceramics-classes/",
+          "status": 200,
+          "chars": 19366,
+          "jsOnly": false
+        },
+        {
+          "url": "https://icasandiego.org/residency-open-call-2026/",
+          "status": 200,
+          "chars": 8920,
+          "jsOnly": false
+        },
+        {
+          "url": "https://icasandiego.org/residency-2026/",
+          "status": 200,
+          "chars": 4532,
+          "jsOnly": false
+        },
+        {
+          "url": "https://icasandiego.org/membership-2/",
+          "status": 200,
+          "chars": 9501,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "Pages describe ceramics classes (wheel-throwing, handbuilding, sculpture) where work is bisque-fired as part of the course experience, and memberships that include studio access for experienced wheel-throwers. However, the user was told \"Known firing types here: raku\" but no page text mentions raku. The residency program does not specify firing types available. Pages do not describe how non-students or non-members can access firings beyond taking classes or enrolling in memberships.",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "ICA San Diego offers ceramics classes with bisque firing as part of course curricula, and studio access memberships for wheel-throwing and handbuilding. The pages do not specify wood, soda, salt, raku, pit, or gas reduction firings available to outside potters.",
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 16244,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 249,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "fancy-banana",
+      "org": "Fancy Banana",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://fancybanana.studio/",
+          "status": 200,
+          "chars": 2360,
+          "jsOnly": false
+        },
+        {
+          "url": "https://fancybanana.studio/membership",
+          "status": 200,
+          "chars": 927,
+          "jsOnly": false
+        }
+      ],
+      "found": 1,
+      "written": 1,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The homepage announces the studio is closing at the end of September, but provides no specific year. Since today is 2026-10-05 and the closure is stated in past tense context on an active website, the closure has already occurred. Only the membership was recorded as an ongoing opportunity from the pages; the indoor movie night is a social event, not a firing.",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "Fancy Banana is a membership pottery studio in SE Portland offering gas and raku firings included with membership, where members can participate in regular firing opportunities.",
+      "firing_evidence": [
+        {
+          "firing_type": "raku",
+          "sentence": "Members have regular opportunities to participate in raku firings as part of their studio membership.",
+          "quote": "regular opportunities for gas and raku firing, and other fun studio events and experiences",
+          "url": "https://fancybanana.studio/#:~:text=regular%20opportunities%20for%20gas,studio%20events%20and%20experiences",
+          "via": null
+        },
+        {
+          "firing_type": "gas_reduction",
+          "sentence": "Members have regular opportunities to participate in gas reduction firings as part of their studio membership.",
+          "quote": "regular opportunities for gas and raku firing, and other fun studio events and experiences",
+          "url": "https://fancybanana.studio/#:~:text=regular%20opportunities%20for%20gas,studio%20events%20and%20experiences",
+          "via": null
+        }
+      ],
+      "usage": {
+        "input_tokens": 3994,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 646,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "arbutus-folk-school",
+      "org": "Arbutus Folk School",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://www.arbutusfolkschool.org/",
+          "status": 200,
+          "chars": 2669,
+          "jsOnly": false
+        },
+        {
+          "url": "https://arbutusfolkschool.org/open-ceramics-studio/",
+          "status": 200,
+          "chars": 3673,
+          "jsOnly": false
+        },
+        {
+          "url": "https://arbutusfolkschool.org/firing-services/",
+          "status": 200,
+          "chars": 3669,
+          "jsOnly": false
+        },
+        {
+          "url": "https://arbutusfolkschool.org/new-artist-in-residence/",
+          "status": 200,
+          "chars": 13295,
+          "jsOnly": false
+        }
+      ],
+      "found": 2,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "Pages did not list any dated workshops or classes explicitly mentioning wood, soda, salt, raku, pit/barrel/saggar, or gas reduction firings. The firing services page describes only electric cone 6 firing. The residency page does not specify which firing types residents use. Open Studio mentions firing is included but does not specify the kiln type.",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "Arbutus Folk School offers electric kiln firing services for community potters at cone 6, and a residency program in ceramics with studio access. The school is known to offer raku firing.",
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 9508,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 1092,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      },
+      "dropped": [
+        {
+          "title": "Community Firing Services (Electric Cone 6)",
+          "reason": "evidence does not show a firing",
+          "quote": "Our firings are to cone 6."
+        },
+        {
+          "title": "Artist in Residence – Ceramics",
+          "reason": "evidence does not show a firing",
+          "quote": "Current residency opportunities at Arbutus Folk School are focused in ceramics, woodworking, and fiber arts."
+        }
+      ]
+    },
+    {
+      "id": "vashon-center-arts",
+      "org": "Vashon Center for the Arts",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://vashoncenterforthearts.org/",
+          "status": 200,
+          "chars": 3100,
+          "jsOnly": false
+        },
+        {
+          "url": "https://vashoncenterforthearts.org/events",
+          "status": 200,
+          "chars": 7229,
+          "jsOnly": false
+        },
+        {
+          "url": "https://vashoncenterforthearts.org/events/",
+          "status": 200,
+          "chars": 7229,
+          "jsOnly": false
+        },
+        {
+          "url": "https://vashoncenterforthearts.org/events/jam-in-the-atrium/",
+          "status": 200,
+          "chars": 3134,
+          "jsOnly": false
+        },
+        {
+          "url": "https://vashoncenterforthearts.org/events/faq/",
+          "status": 200,
+          "chars": 4593,
+          "jsOnly": false
+        },
+        {
+          "url": "https://vashoncenterforthearts.org/events/gift-certificates/",
+          "status": 200,
+          "chars": 2481,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The pages are from Vashon Center for the Arts' website and show performing arts events (music, theater, dance), educational programs, gallery exhibitions, and administrative pages. None mention kiln firing, ceramic workshops, raku firings, or any form of atmospheric or wood firing. Although raku firing is known to occur at this venue, these pages contain no specific information about when, how, or how to participate in raku or any other ceramic firing. Without explicit firing information on the pages, no opportunities can be recorded.\"",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": null,
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 12669,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 196,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    }
+  ],
+  "inbox_note": null,
+  "unmatched_emails": [
+    {
+      "from": "robert.stillwagon@gmail.com",
+      "subject": "test",
+      "date": "2026-10-05T05:04:31.000Z"
+    },
+    {
+      "from": "info-vergeart.com@shared1.ccsend.com",
+      "subject": "Welcome to Verge Center for the Arts",
+      "date": "2026-10-05T04:56:16.000Z"
+    }
+  ],
+  "finished": "2026-10-05T07:25:45.430Z"
+}

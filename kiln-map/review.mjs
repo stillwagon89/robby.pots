@@ -28,6 +28,7 @@ else {
     const changed = i.changed_from ? ` **Changed** (was ${[i.changed_from.start_date, i.changed_from.registration_status].filter(Boolean).join(", ")}).` : "";
     lines.push(`${n + 1}. **${org(i.source_id)}: ${i.title}** (${TYPE[i.firing_type] || i.firing_type}, ${when}, sign-up: ${i.registration_status}).${changed}`);
     lines.push(`   Why listed: ${i.evidence_sentence || "(no reason given)"}`);
+    if (i.year_on_page === false) lines.push(`   **Check the date:** the year ${i.start_date.slice(0, 4)} isn't written on their page; the AI may have guessed it.`);
     lines.push(`   Their ${i.evidence_via ? "post/email" : "page"} says: "${i.evidence_quote || i.source_quote}"${i.evidence_verified === false ? " (**check:** quote not found on the page, or it doesn't name the firing type)" : ""}`);
     lines.push(`   Source: ${i.evidence_url || i.source_url || i.evidence_via}`);
   });

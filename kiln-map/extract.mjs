@@ -628,6 +628,9 @@ async function main() {
         const all = usable.map((p) => p.text).join("\n");
         item.includes = item.includes.filter((x) => { const key = (x.match(/wood|soda|salt|raku|pit|barrel|saggar|anagama|train|catenary|gas|electric|reduction/i) || [x])[0]; return new RegExp(key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i").test(all); });
       }
+      // A date's year must be written on a crawled page; the AI has added years the page never states.
+      const yr = (item.start_date || "").slice(0, 4);
+      item.year_on_page = !yr || usable.some((p) => p.text.includes(yr));
       item.past = isPast(item, todayIn(source.tz));
       item.id = itemId(item);
       item._original = { ...raw };

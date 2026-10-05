@@ -28,33 +28,6 @@
       "lng": -123.48594
     },
     {
-      "id": "pleasant-hill-pottery",
-      "org": "Pleasant Hill Pottery (Jesse Jones)",
-      "kind": "private_kiln",
-      "core": true,
-      "public": false,
-      "firing_types_guess": [
-        "wood",
-        "salt",
-        "soda"
-      ],
-      "region": "Lane County",
-      "city": "Pleasant Hill",
-      "urls": [
-        "https://www.pleasanthillpottery.com/"
-      ],
-      "notes": "Four wood kilns (anagama, noborigama with salt chamber, wood-soda crossdraft, train). Levin map. Described as a place for the community to fire.",
-      "location_precision": "approximate",
-      "geocode": "Pleasant Hill, Oregon",
-      "location_note": "Private kiln. Shown at the town, not the property.",
-      "contact": {
-        "website": "https://www.pleasanthillpottery.com/",
-        "email": "pleasanthillpottery1@gmail.com"
-      },
-      "lat": 43.96596,
-      "lng": -122.93175
-    },
-    {
       "id": "elemental-studios-pdx",
       "org": "Elemental Studios",
       "kind": "studio",
@@ -102,32 +75,6 @@
       "lng": -122.66245
     },
     {
-      "id": "pcc-ceramics",
-      "org": "Portland Community College Ceramics",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "salt",
-        "gas_reduction"
-      ],
-      "region": "Portland",
-      "city": "Portland",
-      "urls": [
-        "https://www.pcc.edu/art/"
-      ],
-      "notes": "Intermediate raku workshop (Southeast campus) and wood-salt work shown in PCC galleries.",
-      "location_precision": "approximate",
-      "geocode": "Portland, Oregon",
-      "location_note": "Classes run on several campuses. Shown at the city.",
-      "contact": {
-        "website": "https://www.pcc.edu/art/"
-      },
-      "lat": 45.52025,
-      "lng": -122.67419
-    },
-    {
       "id": "rogue-valley-pottery",
       "org": "Rogue Valley Pottery Supply",
       "kind": "studio",
@@ -150,52 +97,24 @@
       },
       "lat": 42.19725,
       "lng": -122.7154
+    }
+  ],
+  "_removed": [
+    {
+      "id": "pcc-ceramics",
+      "why": "Pages crawled show no firing information (2026-10-05)."
     },
     {
       "id": "sitka-center",
-      "org": "Sitka Center for Art and Ecology",
-      "kind": "residency",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Oregon Coast",
-      "city": "Otis",
-      "urls": [
-        "https://www.sitkacenter.org/"
-      ],
-      "notes": "Workshop program May-October including ceramics; firing types unconfirmed.",
-      "location_precision": "approximate",
-      "geocode": "Otis, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.sitkacenter.org/"
-      },
-      "lat": 45.02427,
-      "lng": -123.9465
+      "why": "No firing activity on their pages; small ceramics studio only (2026-10-05)."
+    },
+    {
+      "id": "pleasant-hill-pottery",
+      "why": "Private kiln; pages describe kilns but no way for outside potters to join (2026-10-05). Revisit if they post community firings."
     },
     {
       "id": "fancy-banana",
-      "org": "Fancy Banana",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "gas_reduction"
-      ],
-      "region": "Portland",
-      "city": "Portland",
-      "urls": [
-        "https://fancybanana.studio/"
-      ],
-      "notes": "SE Portland membership studio; regular gas and raku firing opportunities (RACC listing).",
-      "location_precision": "address",
-      "address": "2300 SE 7th Ave, Portland, OR",
-      "contact": {
-        "website": "https://fancybanana.studio/"
-      },
-      "lat": 45.50633,
-      "lng": -122.65826
+      "why": "Studio closed at the end of September 2026 (their homepage). (2026-10-05)"
     }
   ]
 }

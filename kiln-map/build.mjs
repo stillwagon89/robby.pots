@@ -49,7 +49,10 @@ const HEALTH = existsSync(join(ROOT, "data", "link-health.json")) ? JSON.parse(r
 // No repeating: if an evidence sentence mostly restates the place summary (or another sentence), keep only the source link.
 const words = (t) => new Set((t || "").toLowerCase().replace(/[^a-z ]+/g, " ").split(" ").filter((w) => w.length > 3));
 const overlap = (a, b) => { const A = words(a), B = words(b); const n = [...A].filter((w) => B.has(w)).length; return n / (Math.min(A.size, B.size) || 1); };
+// Scope (Robby, 2026-10-05): joinable firings only. Kiln rentals and plain electric firing are not shown.
+const IN_SCOPE = new Set(["wood", "soda", "salt", "raku", "pit_barrel_saggar", "gas_reduction", "other"]);
 function dedupeEvidence(summary, all) {
+  all = all.filter((f) => IN_SCOPE.has(f.firing_type));
   const seen = [summary].filter(Boolean);
   const types = new Set();
   // One line per firing type, and only if its quote names that type.
@@ -108,7 +111,7 @@ function trackingFor(source) {
 const places = sources.map((s) => {
   const today = todayIn(s.tz);
   const items = approved
-    .filter((i) => i.source_id === s.id && !isPast(i, today))
+    .filter((i) => i.source_id === s.id && !isPast(i, today) && IN_SCOPE.has(i.firing_type))
     .map((i) => ({
       ...Object.fromEntries(ITEM_FIELDS.map((k) => [k, i[k] ?? null])),
       title: cleanTitle(i.title),
@@ -137,7 +140,7 @@ const places = sources.map((s) => {
   const fromItems = [...items.map((i) => i.firing_type), ...items.flatMap((i) => (i.includes || []).join(" ").toLowerCase().match(/wood|soda|salt|raku|pit/g) || [])];
   const firingTypes = [...new Set([...fromItems, ...evidenced, ...(fromItems.length || evidenced.length ? [] : s.firing_types_guess)])]
     .map((t) => (t === "pit" ? "pit_barrel_saggar" : t))
-    .filter((t, idx, arr) => arr.indexOf(t) === idx);
+    .filter((t, idx, arr) => arr.indexOf(t) === idx && IN_SCOPE.has(t));
 
   return {
     id: s.id,

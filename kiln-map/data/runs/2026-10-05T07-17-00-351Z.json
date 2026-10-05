@@ -1,0 +1,741 @@
+{
+  "date": "2026-10-05",
+  "started": "2026-10-05T07:17:00.351Z",
+  "model": "claude-haiku-4-5-20251001",
+  "sources": [
+    {
+      "id": "opa-east-creek",
+      "org": "East Creek Art (Oregon Potters Association anagama firings)",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://oregonpotters.org/events",
+          "status": 200,
+          "chars": 2757,
+          "jsOnly": false
+        },
+        {
+          "url": "https://oregonpotters.org/opa-clay-educators",
+          "status": 200,
+          "chars": 1129,
+          "jsOnly": false
+        },
+        {
+          "url": "https://oregonpotters.org/clay-in-education",
+          "status": 200,
+          "chars": 2204,
+          "jsOnly": false
+        },
+        {
+          "url": "https://oregonpotters.org/Ceramic-Showcase-2025",
+          "status": 200,
+          "chars": 1318,
+          "jsOnly": false
+        },
+        {
+          "url": "https://oregonpotters.org/page-18314",
+          "status": 200,
+          "chars": 1764,
+          "jsOnly": false
+        },
+        {
+          "url": "https://oregonpotters.org/event-6835773?CalendarViewType=1&SelectedDate=10/5/2026",
+          "status": 0,
+          "chars": 0,
+          "jsOnly": false,
+          "error": "robots.txt asks bots not to read this page"
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "None of these Oregon Potters Association pages describe specific firing opportunities. The pages cover OPA events (board meetings, general workshops like wheel throwing and surface design), the annual Ceramic Showcase gallery event (demos and exhibitions, not firings), scholarship information, and a directory of clay educators. While the prompt mentions East Creek Art offers wood and soda firings, these specific pages do not describe how to access those firings, their dates, or registration details. The wheel throwing and surface design workshops listed do not mention firing in a kiln or atmospheric firing. No dated firings, ongoing firing memberships, residencies, or firing classes appear on these pages.\"",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": null,
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 5741,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 223,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "pleasant-hill-pottery",
+      "org": "Pleasant Hill Pottery (Jesse Jones)",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://www.pleasanthillpottery.com/",
+          "status": 200,
+          "chars": 262,
+          "jsOnly": true
+        },
+        {
+          "url": "https://www.pleasanthillpottery.com/kilns.html",
+          "status": 200,
+          "chars": 308,
+          "jsOnly": true
+        },
+        {
+          "url": "https://www.pleasanthillpottery.com/anagama.html",
+          "status": 200,
+          "chars": 330,
+          "jsOnly": true
+        },
+        {
+          "url": "https://www.pleasanthillpottery.com/wood-salt.html",
+          "status": 200,
+          "chars": 354,
+          "jsOnly": true
+        },
+        {
+          "url": "https://www.pleasanthillpottery.com/wood-soda.html",
+          "status": 200,
+          "chars": 363,
+          "jsOnly": true
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The provided pages describe Pleasant Hill Pottery's kiln infrastructure (anagama, wood-salt, and wood-soda kilns) but contain no information about firing opportunities, workshops, classes, memberships, residencies, or access for outside potters. No dated events or ongoing programs are mentioned.",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "Pleasant Hill Pottery has wood, salt, and soda kilns (Tomagama anagama, Pepino wood/salt kiln, and a wood/soda kiln built in 2012). The pages describe the kilns but do not specify how outside potters can participate in firings.",
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 3934,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 213,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "elemental-studios-pdx",
+      "org": "Elemental Studios",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://www.elementalstudiospdx.com/",
+          "status": 200,
+          "chars": 1589,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.elementalstudiospdx.com/flexible-classes",
+          "status": 200,
+          "chars": 4697,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.elementalstudiospdx.com/eightweekclasses",
+          "status": 200,
+          "chars": 3538,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.elementalstudiospdx.com/claydate",
+          "status": 200,
+          "chars": 2283,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.elementalstudiospdx.com/raku-firing",
+          "status": 200,
+          "chars": 2950,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.elementalstudiospdx.com/products?category=Clay",
+          "status": 200,
+          "chars": 1749,
+          "jsOnly": false
+        }
+      ],
+      "found": 2,
+      "written": 2,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The raku prep and firing are listed as separate dated workshops on March 22 and March 29, 2027—beyond today but within the scope of future firings. No year is explicitly stated on the page, but the dates March 22 and March 29 appear to refer to the next upcoming occurrence of those dates. Since today is 2026-10-05, these dates are interpreted as 2027. The pages do not mention ongoing membership that includes raku firing, only these two dated workshops. Eight-week wheel classes and flex classes mention that pots are fired, but do not specify which kiln type (electric kilns are likely), so they do not qualify under the firing types requested.\"",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "Elemental Studios offers raku firing through workshops. Outside potters can join the raku prep session to make pieces and the raku firing workshop to fire them.",
+      "firing_evidence": [
+        {
+          "firing_type": "raku",
+          "sentence": "The raku firing workshop teaches potters to fire pieces in the raku kiln with instructor guidance.",
+          "quote": "During the firing workshop, you'll work side-by-side with the instructor to fire the raku kiln multiple times.",
+          "url": "https://www.elementalstudiospdx.com/raku-firing#:~:text=During%20the%20firing%20workshop%2C,raku%20kiln%20multiple%20times.",
+          "via": null
+        }
+      ],
+      "usage": {
+        "input_tokens": 8378,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 1114,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "radius-art-studio",
+      "org": "Radius Community Art Studio",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://radiusstudio.org/",
+          "status": 200,
+          "chars": 2961,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.radiusstudio.org/shop/workshops/ceramics/",
+          "status": 200,
+          "chars": 3431,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.radiusstudio.org/shop/services/",
+          "status": 200,
+          "chars": 2745,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.radiusstudio.org/shop/workshops/team-building/",
+          "status": 200,
+          "chars": 3234,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.radiusstudio.org/membership/",
+          "status": 200,
+          "chars": 8629,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.radiusstudio.org/shop/workshops/",
+          "status": 200,
+          "chars": 4033,
+          "jsOnly": false
+        }
+      ],
+      "found": 6,
+      "written": 4,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The pages list a \"Raku Firing & Workshop, Saturday, October 3rd\" marked out of stock, with no other firings dated after October 3rd visible in current listings. October 3rd is in the past (today is October 5, 2026). The Cone 10 Reduction Firing listings (September, October, November, December) show no specific dates beyond month names and no year stated, so date precision is \"month\" and the listing for October is ambiguous whether it refers to a past or future month. Given today's date is October 5, 2026, the October Cone 10 listing could refer to a past event. The \"October 3rd\" raku firing is explicitly dated and in the past. November and December Cone 10 firings are future-dated. The membership page shows Cone 6 electric and Cone 10 gas kilns are available to members, but the home page states \"Fire Your Ceramics With Us\" mentions \"our cone 10 gas kiln\" (singular) for the public firing service. The pages do not provide specific signup URLs for individual firings—links go to general shop pages. No residency, rental service, or class (beyond workshops) information for these firing types was found in the pages.",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "Radius Art Studio offers raku firings as pop-up workshops and Cone 10 gas reduction firings held about monthly, both open to the public. Members can also fire their own work in electric (Cone 6) and gas kilns.",
+      "firing_evidence": [
+        {
+          "firing_type": "raku",
+          "sentence": "The studio offers pop-up raku workshops throughout the year, all open to the public.",
+          "quote": "along with pop-up raku workshops throughout the year, all open to the public",
+          "url": "https://www.radiusstudio.org/shop/services/#:~:text=along%20with%20pop%2Dup%20raku,open%20to%20the%20public",
+          "via": null
+        },
+        {
+          "firing_type": "electric",
+          "sentence": "Monthly members can fire work in a Cone 6 electric kiln; at-home and hourly members access electric kiln firing during open studio hours.",
+          "quote": "Have your work fired in our cone 6 electric or cone 10 gas kilns",
+          "url": "https://www.radiusstudio.org/membership/#:~:text=Have%20your%20work%20fired,cone%2010%20gas%20kilns",
+          "via": null
+        }
+      ],
+      "usage": {
+        "input_tokens": 10809,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 3483,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      },
+      "dropped": [
+        {
+          "title": "Radius Hourly Membership",
+          "reason": "evidence does not show a firing",
+          "quote": "Firing is available for pieces made at Radius, during open studio hours only. Cost is $0.06/cubic inch and includes the use of our glazes and both the bisque and glaze firings."
+        },
+        {
+          "title": "Radius At-Home Membership",
+          "reason": "evidence does not show a firing",
+          "quote": "At Home Members have the same firing options as regular Monthly Members. Members can pay to fire per piece at .06¢ per cubic inch; this cost includes both the bisque and glaze firing for a single piece. They also have the opportunity to take a kiln firing workshop with us ($50) to learn about firing and to become Radius certified to fire a full kiln on their own at a discounted rate."
+        }
+      ]
+    },
+    {
+      "id": "pcc-ceramics",
+      "org": "Portland Community College Ceramics",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://www.pcc.edu/art/",
+          "status": 200,
+          "chars": 1710,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.pcc.edu/calendars/",
+          "status": 200,
+          "chars": 1222,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.pcc.edu/enroll/registration/academic-calendar/",
+          "status": 200,
+          "chars": 917,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The three pages provided are a PCC Art Collection gallery page, a Calendars overview page, and an Academic Calendar page. None of these pages describe specific ceramics firing opportunities, classes using raku/salt/gas kilns, or any firing-related activities. The Art Collection page shows ceramic artwork but contains no information about kiln firings or how to participate. The calendar pages are administrative and do not list ceramics firings or workshops. No firing-related content was found on any of these pages.",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "These pages do not contain information about firing opportunities or how potters can access firings at Portland Community College.",
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 4570,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 211,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "rogue-valley-pottery",
+      "org": "Rogue Valley Pottery Supply",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://www.roguevalleypotterysupply.com/",
+          "status": 200,
+          "chars": 4614,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.roguevalleypotterysupply.com/kiln-firing",
+          "status": 200,
+          "chars": 1326,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.roguevalleypotterysupply.com/events/4-week-intro-to-clay-part-2",
+          "status": 200,
+          "chars": 1931,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.roguevalleypotterysupply.com/events/first-friday-art-walk-community-raku-firing",
+          "status": 200,
+          "chars": 2622,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.roguevalleypotterysupply.com/events",
+          "status": 200,
+          "chars": 16589,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.roguevalleypotterysupply.com/member-interest",
+          "status": 200,
+          "chars": 2658,
+          "jsOnly": false
+        }
+      ],
+      "found": 4,
+      "written": 2,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The pages show two dated raku firings (October 2 and November 6, 2026), membership options that include firing access, and a rental firing service. All other classes and events listed (hand-building, wheel-throwing, glazing, etc.) do not involve firing and are therefore excluded per the rules.",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "Rogue Valley Pottery Supply offers raku firings and rental firing services for potters' work. The studio has memberships with access to bisque and glaze firings, and hosts public community raku firings monthly.",
+      "firing_evidence": [
+        {
+          "firing_type": "raku",
+          "sentence": "The shop hosts monthly community raku firings open to the public on First Friday Art Walks where potters can fire their own work for a deposit and per-cubic-inch fees.",
+          "quote": "First Friday Art Walk: Community Raku Firing",
+          "url": "https://www.roguevalleypotterysupply.com/#:~:text=First%20Friday%20Art%20Walk%3A%20Community%20Raku%20Firing",
+          "via": null
+        },
+        {
+          "firing_type": "rental_service",
+          "sentence": "The studio offers kiln firing rental services with test firings for $10, half load for $25, and full load for $50.",
+          "quote": "Rogue Valley Pottery Supply is happy to offer firing services for your projects.",
+          "url": "https://www.roguevalleypotterysupply.com/kiln-firing#:~:text=Rogue%20Valley%20Pottery%20Supply,services%20for%20your%20projects.",
+          "via": null
+        }
+      ],
+      "usage": {
+        "input_tokens": 11844,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 2240,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      },
+      "dropped": [
+        {
+          "title": "Standard Monthly Membership Studio Access with Firings",
+          "reason": "evidence does not show a firing",
+          "quote": "Weekly bisque and glaze firings."
+        },
+        {
+          "title": "All Inclusive Monthly Membership Studio Access with No Firing Fees",
+          "reason": "evidence does not show a firing",
+          "quote": "No Firing Fees! Weekly bisque and glaze firings."
+        }
+      ]
+    },
+    {
+      "id": "sitka-center",
+      "org": "Sitka Center for Art and Ecology",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://www.sitkacenter.org/",
+          "status": 200,
+          "chars": 3778,
+          "jsOnly": false
+        },
+        {
+          "url": "https://sitkacenter.org/workshops/",
+          "status": 200,
+          "chars": 937,
+          "jsOnly": false
+        },
+        {
+          "url": "https://sitkacenter.org/residency-at-sitka/",
+          "status": 200,
+          "chars": 9583,
+          "jsOnly": false
+        },
+        {
+          "url": "https://sitkacenter.org/residencies/",
+          "status": 200,
+          "chars": 10137,
+          "jsOnly": false
+        },
+        {
+          "url": "https://sitkacenter.org/apply/",
+          "status": 200,
+          "chars": 3429,
+          "jsOnly": false
+        },
+        {
+          "url": "https://sitkacenter.org/events/",
+          "status": 200,
+          "chars": 1119,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The provided pages from Sitka Center do not describe any firing opportunities—no workshops, classes, residencies, or events that mention kilns, firings, or atmospheric firing methods. The residency page mentions \"a small ceramics studio\" as basic studio equipment available to residents, but does not state what kilns it contains or whether firing is available. Without specific mention of firing types (wood, soda, salt, raku, pit, gas reduction, or electric) in the context of structured opportunities, no firing opportunities can be recorded.",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "Sitka Center for Art and Ecology in Otis, Oregon offers residencies and workshops, but the pages provided do not mention firing kilns, atmospheric firings (wood, soda, salt, raku, pit), gas reduction, or any ceramic firing activities. The pages describe a \"small ceramics studio\" available to residents but provide no details about firing types or opportunities to participate in firings.",
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 12534,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 281,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "pottery-northwest",
+      "org": "Pottery Northwest",
+      "core": true,
+      "pages": [
+        {
+          "url": "https://www.potterynorthwest.org/",
+          "status": 200,
+          "chars": 2803,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.potterynorthwest.org/membership",
+          "status": 200,
+          "chars": 4872,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.potterynorthwest.org/private-group-events",
+          "status": 200,
+          "chars": 6414,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.potterynorthwest.org/apply-board-member",
+          "status": 200,
+          "chars": 5808,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.potterynorthwest.org/classes",
+          "status": 200,
+          "chars": 3773,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "Pages describe general classes, membership, workshops, and private events but do not detail specific firing dates, kiln styles, or how soda, salt, and raku firings are accessed. The membership page mentions \"bisque and glaze firings\" and \"bi-monthly community luster firings\" but no soda, salt, or raku firings are explicitly named. Without specific firing event listings or clear details on how to participate in the known firing types (soda, salt, raku), no dated opportunities or specific ongoing firing pathways can be recorded from these pages.",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "Pottery Northwest offers access to soda, salt, and raku firings through studio membership with communal and specialty firings, plus classes and workshops that include firing.",
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 9030,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 240,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "seattle-artist-league",
+      "org": "Seattle Artist League",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://www.seattleartistleague.com/art-classes/",
+          "status": 200,
+          "chars": 3441,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.seattleartistleague.com/certificate-program/",
+          "status": 200,
+          "chars": 4583,
+          "jsOnly": false
+        },
+        {
+          "url": "https://seattleartistleague.com/product-category/c-pottery/",
+          "status": 200,
+          "chars": 3516,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.seattleartistleague.com/open-studio-schedule/",
+          "status": 200,
+          "chars": 2245,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.seattleartistleague.com/product-category/c-pottery/",
+          "status": 200,
+          "chars": 3516,
+          "jsOnly": false
+        },
+        {
+          "url": "https://www.seattleartistleague.com/product-tag/beginning-pottery/",
+          "status": 200,
+          "chars": 2840,
+          "jsOnly": false
+        }
+      ],
+      "found": 3,
+      "written": 2,
+      "updated": 0,
+      "skipped": 1,
+      "notes": "The pages list pottery classes, workshops, and a certificate program at Seattle Artist League. Two classes specifically mention firing: \"Reduction Kiln\" (gas reduction, class enrollment) and \"Raku for All Levels\" (raku, workshop). Other pottery classes mention wheel throwing, handbuilding, and sculpting but do not describe firing as part of the class itself. The Ceramics Certificate includes \"Firing and studio systems\" in its coursework, confirming it covers fired work.",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "Seattle Artist League offers raku and gas reduction firings through classes and workshops. The Ceramics Certificate program and individual pottery classes are open to the public through enrollment.",
+      "firing_evidence": [
+        {
+          "firing_type": "gas_reduction",
+          "sentence": "Reduction Kiln class meets Wednesday evening and is open to enrolled students at Seattle Artist League.",
+          "quote": "Reduction Kiln WEDNESDAY EVENING begins 10.7",
+          "url": "https://www.seattleartistleague.com/art-classes/#:~:text=Reduction%20Kiln%20WEDNESDAY%20EVENING%20begins%2010.7",
+          "via": null
+        },
+        {
+          "firing_type": "raku",
+          "sentence": "Raku for All Levels workshop begins Saturday morning, October 10 and is open to all levels.",
+          "quote": "Raku for All Levels SATURDAY MORNING WORKSHOP begins 10.10",
+          "url": "https://seattleartistleague.com/product-category/c-pottery/#:~:text=Raku%20for%20All%20Levels,MORNING%20WORKSHOP%20begins%2010.10",
+          "via": null
+        }
+      ],
+      "usage": {
+        "input_tokens": 9362,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 1632,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "norris-arts",
+      "org": "Norris Art Studio & Gallery",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://norrisarts.com/",
+          "status": 200,
+          "chars": 3692,
+          "jsOnly": false
+        },
+        {
+          "url": "https://norrisarts.com/pottery-classes/",
+          "status": 200,
+          "chars": 5645,
+          "jsOnly": false
+        },
+        {
+          "url": "https://norrisarts.com/parties-events/",
+          "status": 200,
+          "chars": 2976,
+          "jsOnly": false
+        }
+      ],
+      "found": 9,
+      "written": 1,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The pages describe pottery classes with bisque and glaze firings done by the studio, raku workshops and firings offered, and kiln rental rates for half/full shelf and half/full kiln. However, no specific upcoming raku workshop dates are provided. Classes themselves (throwing, trimming, glazing) are open to the public and ongoing through online booking, with firing included but not as the focus. The pages do not state which kiln types (gas, electric, etc.) the four kilns are, except for the raku kiln mentioned in workshops. Kiln rental is a firing service available to outside potters.",
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "Norris Arts is a teaching pottery studio with 4 kilns offering wheel throwing and hand-building classes that include firings, plus raku workshops and kiln rental services for outside potters.",
+      "firing_evidence": [
+        {
+          "firing_type": "raku",
+          "sentence": "The studio offers raku workshops as part of its program.",
+          "quote": "mid-fire stoneware and RAKU workshops",
+          "url": "https://norrisarts.com/#:~:text=mid%2Dfire%20stoneware%20and%20RAKU%20workshops",
+          "via": null
+        }
+      ],
+      "usage": {
+        "input_tokens": 6713,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 3623,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      },
+      "dropped": [
+        {
+          "title": "Pottery 101 - Taste Test",
+          "reason": "evidence does not show a firing",
+          "quote": "All trimming, glazing, bisque and glaze firings will be done by studio."
+        },
+        {
+          "title": "Pottery 201 - I Want It All",
+          "reason": "evidence does not show a firing",
+          "quote": "All glazing and bisque firing will be done by studio."
+        },
+        {
+          "title": "Pottery 301 - Weekly Fix",
+          "reason": "evidence does not show a firing",
+          "quote": "All glazing and bisque firing will be done by studio."
+        },
+        {
+          "title": "Pottery Youth 001",
+          "reason": "evidence does not show a firing",
+          "quote": "All bisque and glaze firing to be done by studio"
+        },
+        {
+          "title": "Open Studio Access",
+          "reason": "evidence does not show a firing",
+          "quote": "Open-Ala Carte: $45/session"
+        },
+        {
+          "title": "Kiln Rental Service",
+          "reason": "evidence does not show a firing",
+          "quote": "Kiln Firings: Rates are the following: Half shelf-$15, Full-shelf-$25 / Half-kiln-$50, Full-kiln-$100"
+        },
+        {
+          "title": "Friends Day Wednesday and Friday Night Date Nights",
+          "reason": "evidence does not show a firing",
+          "quote": "We do the dirty work like trimming, firing and the clean up."
+        },
+        {
+          "title": "Group Events and Parties",
+          "reason": "evidence does not show a firing",
+          "quote": "All clay, glaze, supplies, trimming and firing are included in the price."
+        }
+      ]
+    }
+  ],
+  "inbox_note": null,
+  "unmatched_emails": [
+    {
+      "from": "robert.stillwagon@gmail.com",
+      "subject": "test",
+      "date": "2026-10-05T05:04:31.000Z"
+    },
+    {
+      "from": "info-vergeart.com@shared1.ccsend.com",
+      "subject": "Welcome to Verge Center for the Arts",
+      "date": "2026-10-05T04:56:16.000Z"
+    }
+  ],
+  "finished": "2026-10-05T07:21:28.596Z"
+}
