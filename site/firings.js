@@ -341,6 +341,13 @@ function placeForSel() {
   return DATA.places.find((p) => p.id === state.sel || p.opportunities.some((o) => o.id === state.sel)) || null;
 }
 
+// Pins live in a cluster layer when the plugin loaded (nearby pins merge into a numbered circle), else on the map.
+let PINS = null;
+const pinLayer = () => PINS || MAP;
+const hasPin = (m) => pinLayer().hasLayer(m);
+const addPin = (m) => pinLayer().addLayer(m);
+const removePin = (m) => pinLayer().removeLayer(m);
+
 function renderMap(cards) {
   if (!MAP) return;
   const shown = new Set(cards.map((c) => c.place.id));
@@ -349,8 +356,8 @@ function renderMap(cards) {
     const m = MARKERS.get(p.id);
     if (!m) continue;
     const mode = selPlace?.id === p.id ? "selected" : shown.has(p.id) ? "match" : "other";
-    if (mode === "other") { m.remove(); continue; }
-    if (!MAP.hasLayer(m)) m.addTo(MAP);
+    if (mode === "other") { if (hasPin(m)) removePin(m); continue; }
+    if (!hasPin(m)) addPin(m);
     m.setIcon(pinIcon(p, mode));
     m.setZIndexOffset(mode === "selected" ? 1000 : mode === "match" ? 500 : 0);
     m.setOpacity(inRange(p) ? 1 : 0.35);
@@ -386,11 +393,20 @@ function initMap() {
     maxZoom: 18,
     className: "kf-tiles",
   }).addTo(MAP);
+  if (L.markerClusterGroup) {
+    PINS = L.markerClusterGroup({
+      showCoverageOnHover: false,
+      maxClusterRadius: 36,
+      spiderfyOnMaxZoom: true,
+      iconCreateFunction: (c) => L.divIcon({ className: "kf-cluster-wrap", html: `<span class="kf-cluster" aria-label="${c.getChildCount()} places">${c.getChildCount()}</span>`, iconSize: [36, 36] }),
+    });
+    MAP.addLayer(PINS);
+  }
   for (const p of DATA.places) {
     if (typeof p.lat !== "number") continue;
     const m = L.marker([p.lat, p.lng], { icon: pinIcon(p, "match"), keyboard: true, title: p.org, alt: p.org });
     m.on("click", () => select(state.view === "firings" && p.opportunities.length ? firstListingId(p) : p.id, true, { scroll: true }));
-    m.addTo(MAP);
+    addPin(m);
     MARKERS.set(p.id, m);
   }
   fitMap();
@@ -418,7 +434,11 @@ function select(id, push, { toggle = false, scroll = false } = {}) {
   render();
   if (state.sel && scroll) document.querySelector(`.kf-card[data-id="${CSS.escape(state.sel)}"]`)?.scrollIntoView({ block: "nearest", behavior: "smooth" });
   const p = placeForSel();
-  if (p && MAP && typeof p.lat === "number" && !MAP.getBounds().contains([p.lat, p.lng])) MAP.panTo([p.lat, p.lng]);
+  if (!p || !MAP || typeof p.lat !== "number") return;
+  const m = MARKERS.get(p.id);
+  // A selected pin hidden inside a cluster: zoom just enough to show it.
+  if (PINS && m && hasPin(m) && PINS.getVisibleParent(m) !== m) PINS.zoomToShowLayer(m);
+  else if (!MAP.getBounds().contains([p.lat, p.lng])) MAP.panTo([p.lat, p.lng]);
 }
 
 async function geocode(text) {
