@@ -21,6 +21,7 @@ const place = new Map(site.places.map((p) => [p.id, p]));
 const health = read(join(DATA, "link-health.json"), {});
 const signups = read(join(DATA, "signups.json"), {});
 const removed = read(join(DATA, "removed-sources.json"), {});
+const leads = read(join(DATA, "leads.json"), []);
 const lastRun = new Map();
 for (const f of existsSync(join(DATA, "runs")) ? readdirSync(join(DATA, "runs")).sort() : []) for (const e of read(join(DATA, "runs", f)).sources) lastRun.set(e.id, e);
 
@@ -88,6 +89,11 @@ const L = [
   "Their websites showed no joinable firings. Some may run them anyway. If yes, I'll add them back.",
   "",
   ...worthACall.map((s) => item(s, `Removed: ${s.removed_why}`)),
+  "",
+  `### Leads with no usable website (${leads.length})`,
+  "Found in research but nothing we could crawl. Look them up or ask around; if they're real and joinable, I'll add them.",
+  "",
+  ...[...leads].sort((a, b) => a.state.localeCompare(b.state)).map((l) => `- [ ] **${l.org}** (${l.city}, ${l.state}). ${l.why}`),
   "",
   `### No website or public contact (${noContact.length})`,
   "Private kilns known from research. Ask around, or reach out through someone who's fired with them.",

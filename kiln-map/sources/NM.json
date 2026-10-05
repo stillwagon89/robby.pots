@@ -1,0 +1,35 @@
+{
+  "_note": "NM firing sources (added 2026-10-05, remaining states). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "new-mexico-clay",
+      "org": "New Mexico Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Albuquerque",
+      "city": "Albuquerque",
+      "urls": [
+        "https://nmclay.com/"
+      ],
+      "notes": "Raku workshops (Daniel Lauer, March 2026).",
+      "location_precision": "approximate",
+      "geocode": "Albuquerque, New Mexico",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://nmclay.com/"
+      },
+      "lat": 35.0841,
+      "lng": -106.65099
+    }
+  ],
+  "_removed": [
+    {
+      "id": "ghost-ranch",
+      "why": "No firing activity on their pages. (2026-10-05)"
+    }
+  ]
+}

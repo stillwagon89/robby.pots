@@ -781,5 +781,108 @@
     },
     "state": "UT",
     "removed_why": "Page unreadable; no evidence. (2026-10-05)"
+  },
+  "bellyfire-studios": {
+    "id": "bellyfire-studios",
+    "org": "BellyFire Studios",
+    "kind": "studio",
+    "core": false,
+    "public": true,
+    "firing_types_guess": [],
+    "region": "Baton Rouge",
+    "city": "Baton Rouge",
+    "urls": [
+      "https://www.bellyfirestudios.com/"
+    ],
+    "notes": "Pottery studio with classes and advanced workshops; firing types unconfirmed.",
+    "location_precision": "approximate",
+    "geocode": "Baton Rouge, Louisiana",
+    "location_note": "Shown at the town.",
+    "contact": {
+      "website": "https://www.bellyfirestudios.com/"
+    },
+    "lat": 30.44942,
+    "lng": -91.18697,
+    "state": "LA",
+    "removed_why": "No atmospheric firing on their pages. (2026-10-05)"
+  },
+  "ghost-ranch": {
+    "id": "ghost-ranch",
+    "org": "Ghost Ranch",
+    "kind": "residency",
+    "core": false,
+    "public": true,
+    "firing_types_guess": [
+      "pit_barrel_saggar",
+      "raku"
+    ],
+    "region": "Northern New Mexico",
+    "city": "Abiquiu",
+    "urls": [
+      "https://www.ghostranch.org/"
+    ],
+    "notes": "Retreat center with ceramics workshops (check for pit/raku firing).",
+    "location_precision": "approximate",
+    "geocode": "Abiquiu, New Mexico",
+    "location_note": "Shown at the town.",
+    "contact": {
+      "website": "https://www.ghostranch.org/"
+    },
+    "lat": 36.2071,
+    "lng": -106.31863,
+    "state": "NM",
+    "removed_why": "No firing activity on their pages. (2026-10-05)"
+  },
+  "shenandoah-valley-art-center": {
+    "id": "shenandoah-valley-art-center",
+    "org": "Shenandoah Valley Art Center",
+    "kind": "city_arts",
+    "core": false,
+    "public": true,
+    "firing_types_guess": [
+      "raku"
+    ],
+    "region": "Shenandoah Valley",
+    "city": "Waynesboro",
+    "urls": [
+      "https://www.svacart.com/"
+    ],
+    "notes": "The Ancient Art of Raku Ceramics class.",
+    "location_precision": "approximate",
+    "geocode": "Waynesboro, Virginia",
+    "location_note": "Shown at the town.",
+    "contact": {
+      "website": "https://www.svacart.com/"
+    },
+    "lat": 38.06867,
+    "lng": -78.8894,
+    "state": "VA",
+    "removed_why": "No firing information on their pages. (2026-10-05)"
+  },
+  "nevada-clay-guild": {
+    "id": "nevada-clay-guild",
+    "org": "Nevada Clay Guild",
+    "kind": "city_arts",
+    "core": false,
+    "public": true,
+    "firing_types_guess": [
+      "soda"
+    ],
+    "region": "Las Vegas",
+    "city": "Las Vegas",
+    "urls": [
+      "https://www.nevadaclayguild.org/"
+    ],
+    "notes": "Guild of about 100 members; soda kiln work mentioned in Nevada Magazine.",
+    "location_precision": "approximate",
+    "geocode": "Las Vegas, Nevada",
+    "location_note": "Shown at the town.",
+    "contact": {
+      "website": "https://www.nevadaclayguild.org/"
+    },
+    "lat": 36.16743,
+    "lng": -115.14841,
+    "state": "NV",
+    "removed_why": "Members fire raku, salt and wood, but no way to join is posted. (2026-10-05)"
   }
 }
