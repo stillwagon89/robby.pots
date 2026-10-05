@@ -1,0 +1,30 @@
+{
+  "_note": "MS firing sources (added 2026-10-05, central US and Midwest expansion). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "ohr-okeefe-ceramics",
+      "org": "Biloxi Center for Ceramics (Ohr-O'Keefe Museum)",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Gulf Coast",
+      "city": "Biloxi",
+      "urls": [
+        "https://georgeohr.org/"
+      ],
+      "notes": "Fire Under the Oaks alternative firing workshop.",
+      "location_precision": "approximate",
+      "geocode": "Biloxi, Mississippi",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://georgeohr.org/"
+      },
+      "lat": 30.40076,
+      "lng": -88.88938
+    }
+  ]
+}

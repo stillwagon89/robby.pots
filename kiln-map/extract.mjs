@@ -4,6 +4,7 @@
 //
 //   npm run kiln:extract                 # all sources
 //   npm run kiln:extract -- --only=cobb-mountain,laney-college
+//   npm run kiln:extract -- --states=MT,CO     # only places in these states
 //   npm run kiln:extract -- --dry        # crawl + extract, write nothing
 //   npm run kiln:extract -- --crawl-only # crawl and report readability; no API calls
 //
@@ -214,6 +215,26 @@ function textFragmentUrl(url, quote) {
   return `${url.split("#")[0]}#:~:text=${frag}`;
 }
 
+// Where a place posts updates: Instagram handles and newsletter sign-ups found in its pages (homepage included),
+// saved to the run so `npm run kiln:signups` can list what Robby should follow or join.
+const IG_SKIP = new Set(["p", "reel", "reels", "explore", "accounts", "stories", "tv", "sharer", "share"]);
+const NEWSLETTER_HOST = /list-manage\.com|eepurl\.com|mailchi\.mp|constantcontact\.com|ccsend\.com|substack\.com|mailerlite|klaviyo|beehiiv|convertkit|kit\.com|flodesk|emailoctopus|buttondown|campaign-archive/i;
+function findSignups(html, pageUrl) {
+  const instagram = new Set();
+  const newsletter = new Set();
+  for (const m of html.matchAll(/href=["']([^"']+)["']/gi)) {
+    let u;
+    try { u = new URL(m[1].replace(/&amp;/g, "&"), pageUrl); } catch { continue; }
+    if (/(^|\.)instagram\.com$/i.test(u.hostname)) {
+      const h = u.pathname.split("/").filter(Boolean)[0];
+      if (h && !IG_SKIP.has(h.toLowerCase()) && /^[A-Za-z0-9._]{2,30}$/.test(h)) instagram.add(h.toLowerCase());
+    } else if (NEWSLETTER_HOST.test(u.hostname) || /newsletter|subscribe|mailing-list|e-news/i.test(u.pathname)) newsletter.add(u.toString());
+  }
+  // A sign-up form on the page itself (an email box near "newsletter"/"subscribe").
+  if (!newsletter.size && /<form[\s\S]{0,3000}?type=["']email["']/i.test(html) && /newsletter|subscribe|mailing list|stay in touch|stay connected|sign up for (our )?(email|update|news)/i.test(html)) newsletter.add(`${pageUrl} (sign-up form on this page)`);
+  return { instagram: [...instagram], newsletter: [...newsletter] };
+}
+
 async function crawlSource(source) {
   const pages = [];
   for (const url of source.urls) {
@@ -227,6 +248,18 @@ async function crawlSource(source) {
       }
     }
   }
+  // Also read the homepage for sign-ups (newsletter forms and Instagram links usually live in its header or footer).
+  const site = source.contact?.website || source.urls[0];
+  if (site) {
+    const home = new URL(site).origin + "/";
+    if (!pages.some((p) => p.url === home)) {
+      const h = await fetchPage(home);
+      if (h.ok) pages.signupHome = findSignups(h.html, home);
+    }
+  }
+  const ig = new Set(pages.signupHome?.instagram || []), nl = new Set(pages.signupHome?.newsletter || []);
+  for (const p of pages) if (p.ok) { const f = findSignups(p.html, p.url); f.instagram.forEach((x) => ig.add(x)); f.newsletter.forEach((x) => nl.add(x)); }
+  pages.signups = { instagram: [...ig], newsletter: [...nl].slice(0, 5) };
   for (const p of pages) {
     p.links = p.ok ? signupLinks(p.html, p.url) : [];
     p.text = p.ok ? htmlToText(p.html).slice(0, MAX_CHARS_PER_PAGE) : "";
@@ -539,10 +572,13 @@ function isPast(item, today) {
 async function main() {
   const sources = loadSources();
   const only = typeof args.only === "string" ? args.only.split(",") : null;
-  const selected = sources.filter((s) => !only || only.includes(s.id));
+  const states = typeof args.states === "string" ? args.states.toUpperCase().split(",") : null;
+  const selected = sources.filter((s) => (!only || only.includes(s.id)) && (!states || states.includes(s.state)));
   for (const folder of [...FOLDERS, "runs"]) mkdirSync(join(DATA, folder), { recursive: true });
 
   const existing = loadExisting();
+  const SIGNUPS_FILE = join(DATA, "signups.json");
+  const signups = existsSync(SIGNUPS_FILE) ? JSON.parse(readFileSync(SIGNUPS_FILE, "utf8")) : {};
   const HEALTH_FILE = join(DATA, "link-health.json");
   const health = existsSync(HEALTH_FILE) ? JSON.parse(readFileSync(HEALTH_FILE, "utf8")) : {};
   const run = { date: TODAY, started: new Date().toISOString(), model: MODEL, sources: [] };
@@ -557,6 +593,8 @@ async function main() {
     run.sources.push(entry);
     process.stdout.write(`- ${source.id}: `);
     const pages = source.urls.length ? await crawlSource(source) : [];
+    entry.signups = pages.signups || { instagram: [], newsletter: [] };
+    if (pages.signups) signups[source.id] = { checked: TODAY, ...pages.signups };
     const site = source.contact?.website || source.urls[0];
     if (site) health[source.id] = await checkWebsite(site, pages.find((p) => p.url === site));
     const emails = inbox.messages.filter((m) => emailMatches(source, m));
@@ -675,6 +713,7 @@ async function main() {
   run.unmatched_emails = inbox.messages.filter((m) => !usedEmails.has(m)).map((m) => ({ from: m.from, subject: m.subject, date: m.date }));
   run.finished = new Date().toISOString();
   if (!args.dry) writeFileSync(HEALTH_FILE, JSON.stringify(health, null, 2) + "\n");
+  if (!args.dry) writeFileSync(SIGNUPS_FILE, JSON.stringify(signups, null, 2) + "\n");
   if (!args.dry && !args["crawl-only"]) writeFileSync(join(DATA, "runs", `${run.started.replace(/[:.]/g, "-")}.json`), JSON.stringify(run, null, 2) + "\n");
   console.log(`\nDone. Review kiln-map/data/pending/, then run: npm run kiln:count`);
 }

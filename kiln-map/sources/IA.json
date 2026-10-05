@@ -1,0 +1,29 @@
+{
+  "_note": "IA firing sources (added 2026-10-05, central US and Midwest expansion). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "des-moines-art-center",
+      "org": "Des Moines Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Central Iowa",
+      "city": "Des Moines",
+      "urls": [
+        "https://desmoinesartcenter.org/classes"
+      ],
+      "notes": "Raku classes.",
+      "location_precision": "approximate",
+      "geocode": "Des Moines, Iowa",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://desmoinesartcenter.org/"
+      },
+      "lat": 41.58687,
+      "lng": -93.62495
+    }
+  ]
+}

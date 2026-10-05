@@ -1,0 +1,53 @@
+{
+  "_note": "AL firing sources (added 2026-10-05, central US and Midwest expansion). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "kiln-studio-fairhope",
+      "org": "The Kiln Studio & Gallery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Gulf Coast",
+      "city": "Fairhope",
+      "urls": [
+        "https://www.thekilnstudio.com/"
+      ],
+      "notes": "One-day raku workshop (Nov 21, 2026).",
+      "location_precision": "address",
+      "address": "265 Young St, Fairhope, AL 36532",
+      "contact": {
+        "website": "https://www.thekilnstudio.com/",
+        "email": "info@thekilnstudio.com"
+      },
+      "lat": 30.51729,
+      "lng": -87.8945
+    },
+    {
+      "id": "alabama-center-arts",
+      "org": "Alabama Center for the Arts",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "North Alabama",
+      "city": "Decatur",
+      "urls": [
+        "https://alabamacenterforthearts.org/"
+      ],
+      "notes": "Soda firing workshop (Feb 2026, Casey Beck); ACA kiln yard.",
+      "location_precision": "approximate",
+      "geocode": "Decatur, Alabama",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://alabamacenterforthearts.org/"
+      },
+      "lat": 34.60602,
+      "lng": -86.98382
+    }
+  ]
+}

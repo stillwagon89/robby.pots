@@ -1,0 +1,79 @@
+{
+  "_note": "MT firing sources (added 2026-10-05, central US and Midwest expansion). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "archie-bray",
+      "org": "Archie Bray Foundation",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "soda",
+        "salt"
+      ],
+      "region": "Helena",
+      "city": "Helena",
+      "urls": [
+        "https://archiebray.org/education/seminars-and-workshops/"
+      ],
+      "notes": "Anagama, train and wood salt/soda kilns (Levin map); Introduction to Woodfiring classes.",
+      "location_precision": "address",
+      "address": "2915 Country Club Ave, Helena, MT 59602",
+      "contact": {
+        "website": "https://archiebray.org/"
+      },
+      "lat": 46.60961,
+      "lng": -112.06818
+    },
+    {
+      "id": "red-lodge-clay-center",
+      "org": "Red Lodge Clay Center",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "South Central Montana",
+      "city": "Red Lodge",
+      "urls": [
+        "https://www.redlodgeclaycenter.com/"
+      ],
+      "notes": "Train kiln (Levin map); residencies and workshops.",
+      "location_precision": "approximate",
+      "geocode": "Red Lodge, Montana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.redlodgeclaycenter.com/"
+      },
+      "lat": 45.1859,
+      "lng": -109.24706
+    },
+    {
+      "id": "clay-studio-missoula",
+      "org": "The Clay Studio of Missoula",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "raku"
+      ],
+      "region": "Western Montana",
+      "city": "Missoula",
+      "urls": [
+        "https://www.theclaystudioofmissoula.org/"
+      ],
+      "notes": "Community clay center; in Ceramics Monthly 2026 workshops.",
+      "location_precision": "approximate",
+      "geocode": "Missoula, Montana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.theclaystudioofmissoula.org/"
+      },
+      "lat": 46.8701,
+      "lng": -113.99527
+    }
+  ]
+}

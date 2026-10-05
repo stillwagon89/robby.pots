@@ -1,0 +1,79 @@
+{
+  "_note": "WI firing sources (added 2026-10-05, central US and Midwest expansion). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "uwm-waukesha-field-station",
+      "org": "UWM Waukesha Field Station (anagama)",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Southeast Wisconsin",
+      "city": "Oconomowoc",
+      "urls": [
+        "https://uwm.edu/waukesha-field-station/events/"
+      ],
+      "notes": "Anagama woodfire workshop open to the public ($325, spring 2026).",
+      "location_precision": "approximate",
+      "geocode": "Oconomowoc, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://uwm.edu/waukesha-field-station/"
+      },
+      "lat": 43.11167,
+      "lng": -88.49927
+    },
+    {
+      "id": "adamah-art-studio",
+      "org": "Adamah Art Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "salt",
+        "raku"
+      ],
+      "region": "Southwest Wisconsin",
+      "city": "Dodgeville",
+      "urls": [
+        "https://www.adamahartstudio.org/"
+      ],
+      "notes": "Workshops with wood, salt and raku (Ceramics Monthly 2026).",
+      "location_precision": "approximate",
+      "geocode": "Dodgeville, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.adamahartstudio.org/"
+      },
+      "lat": 42.96001,
+      "lng": -90.13045
+    },
+    {
+      "id": "weber-woodfire",
+      "org": "Mike Weber Clay (anagama)",
+      "kind": "private_kiln",
+      "core": false,
+      "public": false,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Northern Wisconsin",
+      "city": "Herbster",
+      "urls": [
+        "http://weberwoodfire.com/"
+      ],
+      "notes": "Anagama wood firing workshops (Ceramics Monthly 2026).",
+      "location_precision": "approximate",
+      "geocode": "Herbster, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "http://weberwoodfire.com/"
+      },
+      "lat": 46.83243,
+      "lng": -91.26102
+    }
+  ]
+}

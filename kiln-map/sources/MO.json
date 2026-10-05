@@ -1,0 +1,54 @@
+{
+  "_note": "MO firing sources (added 2026-10-05, central US and Midwest expansion). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "kc-clay-guild",
+      "org": "KC Clay Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda",
+        "raku",
+        "gas_reduction"
+      ],
+      "region": "Kansas City",
+      "city": "Kansas City",
+      "urls": [
+        "https://www.kcclayguild.org/"
+      ],
+      "notes": "Member-run studio with soda, raku and gas downdraft kilns; residencies.",
+      "location_precision": "address",
+      "address": "200 W 74th St, Kansas City, MO 64114",
+      "contact": {
+        "website": "https://www.kcclayguild.org/"
+      },
+      "lat": 38.99416,
+      "lng": -94.59192
+    },
+    {
+      "id": "craft-alliance",
+      "org": "Craft Alliance",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "St. Louis",
+      "city": "St. Louis",
+      "urls": [
+        "https://craftalliance.org/"
+      ],
+      "notes": "Sustainable Woodfire workshops.",
+      "location_precision": "approximate",
+      "geocode": "St. Louis, Missouri",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://craftalliance.org/"
+      },
+      "lat": 38.62541,
+      "lng": -90.19001
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "_note": "MI firing sources (added 2026-10-05, central US and Midwest expansion). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "ox-bow",
+      "org": "Ox-Bow School of Art",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "West Michigan",
+      "city": "Saugatuck",
+      "urls": [
+        "https://ox-bow.org/art-on-the-meadow-intensives",
+        "https://ox-bow.org/"
+      ],
+      "notes": "Workshops culminating in firing the catenary-arch wood kiln.",
+      "location_precision": "approximate",
+      "geocode": "Saugatuck, Michigan",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://ox-bow.org/"
+      },
+      "lat": 42.65492,
+      "lng": -86.20406
+    },
+    {
+      "id": "pewabic",
+      "org": "Pewabic Pottery",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Detroit",
+      "city": "Detroit",
+      "urls": [
+        "https://www.pewabic.org/"
+      ],
+      "notes": "Historic pottery with classes; firing types unconfirmed.",
+      "location_precision": "address",
+      "address": "10125 E Jefferson Ave, Detroit, MI 48214",
+      "contact": {
+        "website": "https://www.pewabic.org/"
+      },
+      "lat": 42.36209,
+      "lng": -82.98176
+    }
+  ]
+}

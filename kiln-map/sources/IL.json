@@ -1,0 +1,79 @@
+{
+  "_note": "IL firing sources (added 2026-10-05, central US and Midwest expansion). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "lillstreet",
+      "org": "Lillstreet Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda",
+        "raku",
+        "gas_reduction"
+      ],
+      "region": "Chicago",
+      "city": "Chicago",
+      "urls": [
+        "https://www.lillstreet.com/"
+      ],
+      "notes": "Large community ceramics center.",
+      "location_precision": "address",
+      "address": "4401 N Ravenswood Ave, Chicago, IL 60640",
+      "contact": {
+        "website": "https://www.lillstreet.com/"
+      },
+      "lat": 41.96178,
+      "lng": -87.67354
+    },
+    {
+      "id": "college-of-lake-county",
+      "org": "College of Lake County Ceramics",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "soda"
+      ],
+      "region": "North Shore",
+      "city": "Grayslake",
+      "urls": [
+        "https://www.clcillinois.edu/"
+      ],
+      "notes": "Train kiln (Levin map); wood and soda firing course.",
+      "location_precision": "approximate",
+      "geocode": "Grayslake, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.clcillinois.edu/"
+      },
+      "lat": 42.34335,
+      "lng": -88.04122
+    },
+    {
+      "id": "alto-clayworks",
+      "org": "Alto Clay Works",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Southern Illinois",
+      "city": "Alto Pass",
+      "urls": [
+        "https://www.altoclayworks.com/"
+      ],
+      "notes": "Two-chamber noborigama (Levin map).",
+      "location_precision": "approximate",
+      "geocode": "Alto Pass, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.altoclayworks.com/"
+      },
+      "lat": 37.57033,
+      "lng": -89.31759
+    }
+  ]
+}

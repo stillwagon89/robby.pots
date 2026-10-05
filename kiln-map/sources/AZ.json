@@ -1,0 +1,54 @@
+{
+  "_note": "AZ firing sources (added 2026-10-05, central US and Midwest expansion). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "mesa-arts-center",
+      "org": "Mesa Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "soda",
+        "wood"
+      ],
+      "region": "Phoenix area",
+      "city": "Mesa",
+      "urls": [
+        "https://www.mesaartscenter.com/"
+      ],
+      "notes": "Large public ceramics studios.",
+      "location_precision": "address",
+      "address": "1 E Main St, Mesa, AZ 85201",
+      "contact": {
+        "website": "https://www.mesaartscenter.com/"
+      },
+      "lat": 33.41416,
+      "lng": -111.83029
+    },
+    {
+      "id": "tucson-parks-raku",
+      "org": "Tucson Parks & Recreation (Randolph Center ceramics)",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Tucson",
+      "city": "Tucson",
+      "urls": [
+        "https://www.active.com/tucson-az/pottery-and-ceramics/classes/raku-age-17-2026-110207191"
+      ],
+      "notes": "City raku classes (Oct 19 - Nov 30, 2026 and other sessions).",
+      "location_precision": "approximate",
+      "geocode": "Tucson, Arizona",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.active.com/tucson-az/pottery-and-ceramics/classes/raku-age-17-2026-110207191"
+      },
+      "lat": 32.22288,
+      "lng": -110.97485
+    }
+  ]
+}

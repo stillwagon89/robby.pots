@@ -1,0 +1,53 @@
+{
+  "_note": "CO firing sources (added 2026-10-05, central US and Midwest expansion). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "anderson-ranch",
+      "org": "Anderson Ranch Arts Center",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "soda"
+      ],
+      "region": "Roaring Fork Valley",
+      "city": "Snowmass Village",
+      "urls": [
+        "https://www.andersonranch.org/"
+      ],
+      "notes": "Wood, soda and saggar workshops; Locals Club community wood firings. Site blocks bots.",
+      "location_precision": "approximate",
+      "geocode": "Snowmass Village, Colorado",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.andersonranch.org/"
+      },
+      "lat": 39.21304,
+      "lng": -106.93782
+    },
+    {
+      "id": "la-serra-collective",
+      "org": "La Serra Collective (Denver Anagama)",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Denver",
+      "city": "Denver",
+      "urls": [
+        "https://laserracollective.org/"
+      ],
+      "notes": "35-foot Denver Anagama; group firings with about 30 artists.",
+      "location_precision": "address",
+      "address": "1946 E 66th Ave, Denver, CO 80229",
+      "contact": {
+        "website": "https://laserracollective.org/"
+      },
+      "lat": 39.81645,
+      "lng": -104.7745
+    }
+  ]
+}

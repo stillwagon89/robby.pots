@@ -1,0 +1,78 @@
+{
+  "_note": "MN firing sources (added 2026-10-05, central US and Midwest expansion). Same fields as CA.json.",
+  "sources": [
+    {
+      "id": "northern-clay-center",
+      "org": "Northern Clay Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "raku",
+        "gas_reduction"
+      ],
+      "region": "Minneapolis",
+      "city": "Minneapolis",
+      "urls": [
+        "https://northernclaycenter.org/"
+      ],
+      "notes": "Gas, raku and off-site wood kiln; classes and workshops.",
+      "location_precision": "address",
+      "address": "2424 Franklin Ave E, Minneapolis, MN 55406",
+      "contact": {
+        "website": "https://northernclaycenter.org/"
+      },
+      "lat": 44.96283,
+      "lng": -93.23727
+    },
+    {
+      "id": "grand-marais-art-colony",
+      "org": "Grand Marais Art Colony",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "North Shore",
+      "city": "Grand Marais",
+      "urls": [
+        "https://grandmaraisartcolony.org/"
+      ],
+      "notes": "Wood firing workshops (Ceramics Monthly 2026).",
+      "location_precision": "approximate",
+      "geocode": "Grand Marais, Minnesota",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://grandmaraisartcolony.org/"
+      },
+      "lat": 47.75047,
+      "lng": -90.33468
+    },
+    {
+      "id": "minnetonka-center-arts",
+      "org": "Minnetonka Center for the Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Twin Cities",
+      "city": "Wayzata",
+      "urls": [
+        "https://www.minnetonkaarts.org/"
+      ],
+      "notes": "Raku firing classes.",
+      "location_precision": "approximate",
+      "geocode": "Wayzata, Minnesota",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.minnetonkaarts.org/"
+      },
+      "lat": 44.97076,
+      "lng": -93.51195
+    }
+  ]
+}

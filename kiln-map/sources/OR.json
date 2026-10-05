@@ -97,16 +97,37 @@
       },
       "lat": 42.19725,
       "lng": -122.7154
+    },
+    {
+      "id": "sitka-center",
+      "org": "Sitka Center for Art and Ecology",
+      "kind": "residency",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Oregon Coast",
+      "city": "Otis",
+      "urls": [
+        "https://sitkacenter.org/workshops/raku-firing",
+        "https://www.sitkacenter.org/"
+      ],
+      "notes": "Raku firing workshop page.",
+      "location_precision": "approximate",
+      "geocode": "Otis, Oregon",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.sitkacenter.org/"
+      },
+      "lat": 45.02427,
+      "lng": -123.9465
     }
   ],
   "_removed": [
     {
       "id": "pcc-ceramics",
       "why": "Pages crawled show no firing information (2026-10-05)."
-    },
-    {
-      "id": "sitka-center",
-      "why": "No firing activity on their pages; small ceramics studio only (2026-10-05)."
     },
     {
       "id": "pleasant-hill-pottery",
