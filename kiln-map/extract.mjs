@@ -274,6 +274,7 @@ Rules:
 - Never repeat yourself. place_summary says only what is true of the place as a whole (which kilns or firing types, who runs them, the general way in). Each firing_evidence sentence gives only a fact specific to that firing type that place_summary does not already say; if it would just restate place_summary, make it a short note on where on the page the firing is mentioned.
 - Write for a potter looking for a specific kind of firing. Say only what matters for taking part in that firing (kiln, dates, who can join, how to sign up). Leave out general class, membership and studio descriptions.
 - signup_url must be copied from a <links> list and lead to registration for that item. If the only link is a general or department page, use null.
+- Never infer a year. Use a date only if the page states it with its year, or the year is clear from the same listing (e.g. a dated calendar). If a listing gives weekdays or months but no year, set start_date and end_date to null and date_precision "none".
 - "Sales ended" or "registration closed" means registration_status "closed", not "sold_out".
 - A live "Register", "Register Now", "Sign up", "Enroll" or "Add to cart" button or link on a future-dated listing means registration_status "open". Use "unknown" only when the page gives no sign of whether you can sign up.
 - Skip: wheel-throwing or handbuilding classes that don't say the work goes into a soda, wood, salt, raku or pit firing; degree and certificate program listings; gallery shows; social events that aren't firings; anything outside California. Never invent dates, prices or status: use null or "unknown" when the page does not say. "Sold out" or "waitlist" must appear on the page to be used. source_quote must be copied character-for-character from the page text. If nothing qualifies, return an empty list and explain in notes.
@@ -390,6 +391,14 @@ async function checkWebsite(url, already) {
   return { checked: TODAY, url, status, http: page.status };
 }
 
+// Every word of the shorter title appears in the longer one ("Wood-Fire Residency" within "Wood-Fire Artist-in-Residence (1 year)").
+const STOP = new Set(["the", "a", "an", "of", "in", "and", "for", "with", "at", "artist", "program"]);
+const stem = (w) => w.replace(/^residence$/, "residency").replace(/s$/, "");
+const titleWords = (t) => norm(t).replace(/\b20\d\d\b/g, " ").split(" ").filter((w) => w.length > 1 && !STOP.has(w)).map(stem);
+function wordsWithin(shorter, longer) {
+  const A = titleWords(shorter), B = new Set(titleWords(longer));
+  return A.length > 0 && A.length <= B.size && A.every((w) => B.has(w));
+}
 const ONGOING = ["ongoing_membership", "class_enrollment", "residency", "rental_service"];
 function findMatch(existing, item) {
   return existing.find(({ item: e }) => {
@@ -399,7 +408,7 @@ function findMatch(existing, item) {
     // so dates never tell two of them apart. A school's classes are one listing per firing type; memberships and
     // residencies match on title.
     if (ONGOING.includes(item.access_kind) && e.access_kind === item.access_kind) {
-      return item.access_kind === "class_enrollment" || jaccard(e.title, item.title) >= 0.5 || norm(item.title).includes(norm(e.title)) || norm(e.title).includes(norm(item.title));
+      return item.access_kind === "class_enrollment" || jaccard(e.title, item.title) >= 0.5 || wordsWithin(e.title, item.title) || wordsWithin(item.title, e.title);
     }
     // Same dated firing under a longer or shorter title: same start date, or overlapping titles, within 3 days.
     return (jaccard(e.title, item.title) >= 0.5 || (e.start_date && e.start_date === item.start_date) || norm(item.title).includes(norm(e.title)) || norm(e.title).includes(norm(item.title))) &&
