@@ -1,0 +1,8 @@
+{
+  // Kiln Locator newsletter inbox (separate from the Pages site; Pages Functions can't receive email).
+  "name": "flamingclay-kiln-inbox",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  "kv_namespaces": [{ "binding": "INBOX", "id": "d48826cc9bc541d8a34f2b6f3ce874f9" }],
+  "observability": { "enabled": true }
+}

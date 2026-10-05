@@ -14,6 +14,7 @@
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, renameSync } from "node:fs";
 import { createHash } from "node:crypto";
+import { namesType } from "./firing-words.mjs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -49,6 +50,20 @@ function loadApiKey() {
   process.exit(1);
 }
 const API_KEY = args["crawl-only"] ? null : loadApiKey();
+
+// Optional settings from the environment or .dev.vars (the weekly GitHub run passes them as secrets).
+function setting(name) {
+  if (process.env[name]) return process.env[name];
+  const devVars = join(ROOT, "..", ".dev.vars");
+  const m = existsSync(devVars) && readFileSync(devVars, "utf8").match(new RegExp(`^${name}\\s*=\\s*"?([^"\\n]+)"?`, "m"));
+  return m ? m[1].trim() : null;
+}
+const INBOX_URL = "https://flamingclay-kiln-inbox.robert-stillwagon.workers.dev/messages";
+const INBOX_TOKEN = setting("KILN_INBOX_TOKEN");
+const IG_TOKEN = setting("IG_ACCESS_TOKEN");
+const IG_USER_ID = setting("IG_USER_ID");
+const LOOKBACK_DAYS = 120;
+const sinceIso = new Date(Date.now() - LOOKBACK_DAYS * 86400000).toISOString();
 
 // ---------- fetching ----------
 
@@ -237,14 +252,14 @@ function buildPrompt(source, pages) {
     const text = p.text.slice(0, budget);
     budget -= text.length;
     const links = p.links?.length ? `\n<links>\n${p.links.map((l) => `${l.label} | ${l.url}`).join("\n")}\n</links>` : "";
-    blocks.push(`<page url="${p.url}">\n${text}${links}\n</page>`);
+    blocks.push(`<page url="${p.url || `newsletter: ${p.label}`}">\n${text}${links}\n</page>`);
     if (budget <= 0) break;
   }
   return `Today is ${TODAY}. You are extracting ceramics firing opportunities in California for a public list aimed at studio potters who want to move beyond the studio electric kiln.
 
 Source: ${source.org} (${source.city}, CA). Known firing types here: ${source.firing_types_guess.join(", ")}.
 
-Record an opportunity for each of these, found in the pages below:
+Pages below may be website pages, newsletter emails, or Instagram posts. Record an opportunity for each of these, found in them:
 - a dated workshop, firing, class, or crew call that involves firing in a kiln or pit (wood, soda, salt, raku, pit/barrel/saggar, gas reduction), dated within the 12 months before today or any time after today;
 - an ongoing way in: a firing membership, a class you can enroll in that uses these kilns, a residency, or a kiln rental / firing service.
 
@@ -319,6 +334,61 @@ function loadExisting() {
   return items;
 }
 
+// ---------- newsletters and Instagram ----------
+
+const baseDomain = (h) => (h || "").toLowerCase().replace(/^www\./, "").split(".").slice(-2).join(".");
+function sourceDomains(source) {
+  const hosts = [source.contact?.website, ...(source.urls || [])].filter(Boolean).map((u) => { try { return baseDomain(new URL(u).hostname); } catch { return null; } });
+  return new Set([...hosts, ...(source.newsletter_from || []).map((x) => x.toLowerCase())].filter(Boolean));
+}
+// Which stored emails belong to this source: sender domain matches its website, or a sender listed in newsletter_from.
+function emailMatches(source, msg) {
+  const from = (msg.from || "").toLowerCase();
+  const keys = sourceDomains(source);
+  return keys.has(from) || keys.has(baseDomain(from.split("@")[1])) || (source.contact?.email || "").toLowerCase() === from;
+}
+async function loadInbox() {
+  if (!INBOX_TOKEN) return { messages: [], note: "Newsletter inbox not connected (no KILN_INBOX_TOKEN)." };
+  try {
+    const res = await fetch(`${INBOX_URL}?since=${encodeURIComponent(sinceIso)}`, { headers: { authorization: `Bearer ${INBOX_TOKEN}` }, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+    if (!res.ok) return { messages: [], note: `Newsletter inbox returned ${res.status}.` };
+    return { messages: (await res.json()).messages || [], note: null };
+  } catch (err) {
+    return { messages: [], note: `Newsletter inbox unreachable: ${err.message}` };
+  }
+}
+const emailPage = (m) => ({ url: m.web_url || null, label: `Newsletter email "${m.subject}" from ${m.from} (${(m.date || m.received || "").slice(0, 10)})`, status: 200, ok: true, links: [], text: `Subject: ${m.subject}\nDate: ${m.date}\n\n${m.text}`.slice(0, MAX_CHARS_PER_PAGE) });
+
+// Instagram Business Discovery: reads recent public posts of Business/Creator accounts through Robby's own
+// Instagram professional account. Needs IG_ACCESS_TOKEN and IG_USER_ID; see kiln-map/INSTAGRAM-SETUP.md.
+async function instagramPages(handle) {
+  if (!IG_TOKEN || !IG_USER_ID || !handle) return { pages: [], note: null };
+  const fields = `business_discovery.username(${handle}){media.limit(25){caption,timestamp,permalink}}`;
+  const url = `https://graph.facebook.com/${IG_USER_ID}?fields=${encodeURIComponent(fields)}&access_token=${encodeURIComponent(IG_TOKEN)}`;
+  try {
+    const res = await fetch(url, { signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+    const body = await res.json();
+    if (!res.ok) return { pages: [], note: `Instagram @${handle}: ${body.error?.message || res.status}` };
+    const posts = (body.business_discovery?.media?.data || []).filter((m) => m.caption && m.timestamp >= sinceIso);
+    return { pages: posts.map((m) => ({ url: m.permalink, label: `Instagram post by @${handle} (${m.timestamp.slice(0, 10)})`, status: 200, ok: true, links: [], text: `Instagram post by @${handle} on ${m.timestamp.slice(0, 10)}:\n${m.caption}` })), note: null };
+  } catch (err) {
+    return { pages: [], note: `Instagram @${handle}: ${err.message}` };
+  }
+}
+
+// Link health for the host's main website (the link the site shows). Only "down" hides it, and only when the
+// site gives no answer or a server error twice. Any 4xx can be bot filtering (some sites answer bots with 404),
+// so the link stays and the review lists it as "unclear" for a human check. We never disguise the crawler.
+async function checkWebsite(url, already) {
+  let page = already || (await fetchPage(url));
+  if (!page.ok && (page.status === 0 || page.status >= 500)) {
+    await new Promise((r) => setTimeout(r, 3000));
+    page = await fetchPage(url);
+  }
+  const status = page.ok ? "ok" : page.status === 0 || page.status >= 500 ? "down" : "unclear";
+  return { checked: TODAY, url, status, http: page.status };
+}
+
 function findMatch(existing, item) {
   return existing.find(({ item: e }) =>
     e.id === item.id ||
@@ -353,21 +423,31 @@ async function main() {
   const HEALTH_FILE = join(DATA, "link-health.json");
   const health = existsSync(HEALTH_FILE) ? JSON.parse(readFileSync(HEALTH_FILE, "utf8")) : {};
   const run = { date: TODAY, started: new Date().toISOString(), model: MODEL, sources: [] };
+  const inbox = await loadInbox();
+  if (inbox.note) console.log(inbox.note);
+  run.inbox_note = inbox.note;
+  const usedEmails = new Set();
 
   for (const source of selected) {
     const entry = { id: source.id, org: source.org, core: source.core, pages: [], found: 0, written: 0, updated: 0, skipped: 0, notes: "" };
     run.sources.push(entry);
-    if (!source.urls.length) {
-      entry.notes = "No website on file.";
-      console.log(`- ${source.id}: no website on file`);
+    process.stdout.write(`- ${source.id}: `);
+    const pages = source.urls.length ? await crawlSource(source) : [];
+    const site = source.contact?.website || source.urls[0];
+    if (site) health[source.id] = await checkWebsite(site, pages.find((p) => p.url === site));
+    const emails = inbox.messages.filter((m) => emailMatches(source, m));
+    emails.forEach((m) => usedEmails.add(m));
+    const ig = await instagramPages(source.contact?.instagram);
+    if (ig.note) entry.instagram_note = ig.note;
+    pages.push(...emails.map(emailPage), ...ig.pages);
+    entry.pages = pages.map((p) => ({ url: p.url, label: p.label, status: p.status, chars: p.text.length, jsOnly: p.jsOnly, error: p.error }));
+    entry.emails = emails.length;
+    entry.instagram_posts = ig.pages.length;
+    if (!pages.length) {
+      entry.notes = "No website, newsletter or Instagram posts on file.";
+      console.log("nothing on file");
       continue;
     }
-    process.stdout.write(`- ${source.id}: crawling… `);
-    const pages = await crawlSource(source);
-    entry.pages = pages.map((p) => ({ url: p.url, status: p.status, chars: p.text.length, jsOnly: p.jsOnly, error: p.error }));
-    // Link health: "down" (no response, 404, 5xx) hides the link on the site; "blocked" (401/403/429) only blocks our bot, so the link stays.
-    const first = pages[0];
-    health[source.id] = { checked: TODAY, url: first.url, status: first.ok ? "ok" : [401, 403, 429].includes(first.status) ? "blocked" : "down", http: first.status };
     const usable = pages.filter((p) => p.text.length > 200);
     process.stdout.write(`${usable.length}/${pages.length} pages usable; extracting… `);
     if (!usable.length) {
@@ -393,8 +473,8 @@ async function main() {
     const pageHolding = (quote) => usable.find((p) => quote && squash(quote).length >= 8 && squash(p.text).includes(squash(quote)));
     const allLinks = new Set(usable.flatMap((p) => p.links.map((l) => l.url)));
     entry.firing_evidence = (result.firing_evidence || []).map((f) => {
-      const page = pageHolding(f.quote);
-      return page ? { firing_type: f.firing_type, sentence: f.sentence, quote: f.quote, url: textFragmentUrl(page.url, f.quote) } : null;
+      const page = namesType(f.firing_type, f.quote) && pageHolding(f.quote);
+      return page ? { firing_type: f.firing_type, sentence: f.sentence, quote: f.quote, url: page.url ? textFragmentUrl(page.url, f.quote) : null, via: page.label || null } : null;
     }).filter(Boolean);
     entry.usage = result.usage;
     entry.found = result.opportunities.length;
@@ -408,9 +488,17 @@ async function main() {
         checked: TODAY,
       };
       const evPage = pageHolding(raw.evidence_quote) || pageHolding(raw.source_quote);
-      item.evidence_url = evPage ? textFragmentUrl(evPage.url, pageHolding(raw.evidence_quote) ? raw.evidence_quote : raw.source_quote) : null;
-      item.evidence_verified = Boolean(pageHolding(raw.evidence_quote));
+      item.evidence_url = evPage?.url ? textFragmentUrl(evPage.url, pageHolding(raw.evidence_quote) ? raw.evidence_quote : raw.source_quote) : null;
+      item.evidence_via = evPage?.label || null;
+      if (!/^https?:/.test(item.source_url || "")) item.source_url = evPage?.url || source.contact?.website || null;
+      // Verified = the quote is on the page AND it names the firing type (not just a title the AI interpreted).
+      item.evidence_verified = Boolean(pageHolding(raw.evidence_quote)) && namesType(raw.firing_type, raw.evidence_quote);
       item.signup_url = raw.signup_url && allLinks.has(raw.signup_url) ? raw.signup_url : null;
+      // "includes" entries (kilns/firing types in a membership, class or residency) must appear in the crawled text.
+      if (Array.isArray(item.includes)) {
+        const all = usable.map((p) => p.text).join("\n");
+        item.includes = item.includes.filter((x) => { const key = (x.match(/wood|soda|salt|raku|pit|barrel|saggar|anagama|train|catenary|gas|electric|reduction/i) || [x])[0]; return new RegExp(key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i").test(all); });
+      }
       item.past = isPast(item);
       item.id = itemId(item);
       item._original = { ...raw };
@@ -447,6 +535,7 @@ async function main() {
     if (args.dry) for (const o of result.opportunities) console.log(`    · ${o.firing_type} | ${o.access_kind} | ${o.audience} | ${o.start_date || "-"} | ${o.registration_status} | ${o.title}${o.includes?.length ? ` [${o.includes.join(", ")}]` : ""}`);
   }
 
+  run.unmatched_emails = inbox.messages.filter((m) => !usedEmails.has(m)).map((m) => ({ from: m.from, subject: m.subject, date: m.date }));
   run.finished = new Date().toISOString();
   if (!args.dry) writeFileSync(HEALTH_FILE, JSON.stringify(health, null, 2) + "\n");
   if (!args.dry && !args["crawl-only"]) writeFileSync(join(DATA, "runs", `${run.started.replace(/[:.]/g, "-")}.json`), JSON.stringify(run, null, 2) + "\n");

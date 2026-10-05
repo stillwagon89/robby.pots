@@ -1,0 +1,53 @@
+name: Kiln Locator weekly crawl
+
+# Every Monday 8am Pacific (15:00 UTC; 7am in winter). Also runnable by hand from the Actions tab.
+# Results go to a branch and a pull request for review. Nothing here deploys or touches main:
+# the live site only changes when Robby says "publish" and the pull request is merged.
+on:
+  schedule:
+    - cron: "0 15 * * 1"
+  workflow_dispatch:
+
+concurrency: kiln-weekly
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Crawl websites, the newsletter inbox and Instagram; new or changed items land in kiln-map/data/pending/.
+      - name: Crawl and extract
+        run: npm run kiln:extract
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          KILN_INBOX_TOKEN: ${{ secrets.KILN_INBOX_TOKEN }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+
+      # Rebuild page data from APPROVED items only (drops past firings, hides dead links).
+      - name: Build page data
+        run: npm run kiln:build
+
+      - name: Write review list
+        run: npm run kiln:review
+
+      - name: Open review pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "kiln-weekly"
+          git config user.email "actions@users.noreply.github.com"
+          BRANCH="kiln-weekly/$(date -u +%F)"
+          git checkout -b "$BRANCH"
+          git add kiln-map/data kiln-map/REVIEW.md site/data/firings.json
+          if git diff --cached --quiet; then echo "Nothing changed this week."; exit 0; fi
+          git commit -m "Weekly kiln crawl $(date -u +%F)"
+          git push -u origin "$BRANCH"
+          gh pr create --base main --head "$BRANCH" --title "Kiln Locator review $(date -u +%F)" --body-file kiln-map/REVIEW.md

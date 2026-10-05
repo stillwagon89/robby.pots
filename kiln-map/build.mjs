@@ -8,6 +8,7 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { namesType } from "./firing-words.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const OUT = join(ROOT, "..", "site", "data", "firings.json");
@@ -47,8 +48,11 @@ const HEALTH = existsSync(join(ROOT, "data", "link-health.json")) ? JSON.parse(r
 // No repeating: if an evidence sentence mostly restates the place summary (or another sentence), keep only the source link.
 const words = (t) => new Set((t || "").toLowerCase().replace(/[^a-z ]+/g, " ").split(" ").filter((w) => w.length > 3));
 const overlap = (a, b) => { const A = words(a), B = words(b); const n = [...A].filter((w) => B.has(w)).length; return n / (Math.min(A.size, B.size) || 1); };
-function dedupeEvidence(summary, list) {
+function dedupeEvidence(summary, all) {
   const seen = [summary].filter(Boolean);
+  const types = new Set();
+  // One line per firing type, and only if its quote names that type.
+  const list = all.filter((f) => namesType(f.firing_type, f.quote) && !types.has(f.firing_type) && types.add(f.firing_type));
   return list.map((f) => {
     const dup = seen.some((t) => overlap(f.sentence, t) >= 0.5);
     if (!dup) seen.push(f.sentence);
@@ -112,6 +116,8 @@ const places = sources.map((s) => {
       key_date: keyDate(i, displayStatus(i)),
       who_can_join: AUDIENCE_LINE[i.audience] || null,
     }))
+    // Evidence whose quote doesn't name the firing type is dropped; the page falls back to the place's evidence.
+    .map((o) => (namesType(o.firing_type, o.evidence_quote) ? o : { ...o, evidence_sentence: null, evidence_quote: null, evidence_url: null }))
     .sort((a, b) => (a.start_date || "9999").localeCompare(b.start_date || "9999"));
 
   const tracking = trackingFor(s);
@@ -123,7 +129,11 @@ const places = sources.map((s) => {
   if (!s.contact?.email && !s.contact?.website && !s.contact?.phone && !s.contact?.instagram && !/no public/i.test(s.contact?.note || "")) unknowns.push("No public contact found yet.");
   if (tracking === "blocked") unknowns.push("Their website blocks automatic checks, so this listing may lag behind.");
 
-  const firingTypes = [...new Set([...items.map((i) => i.firing_type), ...items.flatMap((i) => (i.includes || []).join(" ").toLowerCase().match(/wood|soda|salt|raku|pit/g) || []), ...s.firing_types_guess])]
+  // Tags come from evidence (listings and verified quotes). Research guesses only fill in when we have no evidence at all
+  // (e.g. a private kiln with no website), so a tag like "Pit" never appears just because we assumed it.
+  const evidenced = dedupeEvidence(null, lastRun.get(s.id)?.firing_evidence || []).map((f) => f.firing_type);
+  const fromItems = [...items.map((i) => i.firing_type), ...items.flatMap((i) => (i.includes || []).join(" ").toLowerCase().match(/wood|soda|salt|raku|pit/g) || [])];
+  const firingTypes = [...new Set([...fromItems, ...evidenced, ...(fromItems.length || evidenced.length ? [] : s.firing_types_guess)])]
     .map((t) => (t === "pit" ? "pit_barrel_saggar" : t))
     .filter((t, idx, arr) => arr.indexOf(t) === idx);
 

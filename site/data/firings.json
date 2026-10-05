@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04",
+  "generated": "2026-10-05",
   "places": [
     {
       "id": "cobb-mountain",
@@ -138,9 +138,9 @@
           "crew_needed": true,
           "first_atmospheric_ok": null,
           "source_url": "https://www.cobbartandecology.org/workshops",
-          "evidence_sentence": "The workshops page lists 'January Tandem Firing Workshop' as a wood-firing workshop in January 2027.",
-          "evidence_quote": "January Tandem Firing Workshop | January 8 - 19 & 30, 2027",
-          "evidence_url": "https://www.cobbartandecology.org/workshops#:~:text=January%20Tandem%20Firing%20Workshop,19%20%26%2030%2C%202027",
+          "evidence_sentence": null,
+          "evidence_quote": null,
+          "evidence_url": null,
           "signup_url": null,
           "checked": "2026-10-04",
           "added_by": null,
@@ -342,20 +342,8 @@
           "url": "https://www.mendocinoartcenter.org/workshops#:~:text=Safe%20Stokes%20w%20Katie,Oct%2019%20thru%2023"
         },
         {
-          "firing_type": "wood",
-          "sentence": null,
-          "quote": "Kilns: 2 Electric, 2 Gas, Wood (train), and Wood/Soda (catenary arch) — one of the few women-run woodfire kilns in the county.",
-          "url": "https://www.mendocinoartcenter.org/ceramic-residency#:~:text=Kilns%3A%202%20Electric%2C%202,kilns%20in%20the%20county."
-        },
-        {
           "firing_type": "soda",
           "sentence": null,
-          "quote": "Kilns: 2 Electric, 2 Gas, Wood (train), and Wood/Soda (catenary arch) — one of the few women-run woodfire kilns in the county.",
-          "url": "https://www.mendocinoartcenter.org/ceramic-residency#:~:text=Kilns%3A%202%20Electric%2C%202,kilns%20in%20the%20county."
-        },
-        {
-          "firing_type": "pit_barrel_saggar",
-          "sentence": "The Mendocino Art Center is known to offer pit-barrel-saggar firing based on stated facility types.",
           "quote": "Kilns: 2 Electric, 2 Gas, Wood (train), and Wood/Soda (catenary arch) — one of the few women-run woodfire kilns in the county.",
           "url": "https://www.mendocinoartcenter.org/ceramic-residency#:~:text=Kilns%3A%202%20Electric%2C%202,kilns%20in%20the%20county."
         }
@@ -366,8 +354,7 @@
       ],
       "firing_types": [
         "wood",
-        "soda",
-        "pit_barrel_saggar"
+        "soda"
       ],
       "tracking": "auto",
       "last_checked": "2026-10-04",
@@ -395,7 +382,6 @@
             "wood (train kiln)",
             "wood/soda (catenary arch)",
             "soda",
-            "pit firing",
             "gas",
             "electric"
           ],
@@ -1004,9 +990,10 @@
       "address": "52500 Temecula Rd, Idyllwild, CA 92549",
       "location_note": null,
       "contact": {
+        "website": "https://idyllwildarts.org",
         "email": "hotclay@idyllwildarts.org",
         "phone": "951-659-2171",
-        "note": "Their website blocks automated checks, so dates here may lag. Their website wasn't loading when last checked."
+        "note": "Their website blocks automated checks, so dates here may lag."
       },
       "newsletter_url": null,
       "place_summary": null,
@@ -1015,8 +1002,7 @@
         "Workshops and firings"
       ],
       "firing_types": [
-        "soda",
-        "raku"
+        "soda"
       ],
       "tracking": "blocked",
       "last_checked": "2026-10-04",
@@ -1240,7 +1226,7 @@
       "address": "625 S St, Sacramento, CA 95811",
       "location_note": null,
       "contact": {
-        "note": "Their website wasn't loading when last checked."
+        "website": "https://www.downtownsac.org/events/shared-fire-a-raku-workshop-and-potluck/"
       },
       "newsletter_url": null,
       "place_summary": null,
@@ -1280,18 +1266,6 @@
           "sentence": "Fall Equinox Pit Firing is a seasonal gathering focused on pit firing techniques as part of Artillery AG's series of elemental ceramic fires.",
           "quote": "A seasonal gathering for the Fall Equinox focused on pit firing techniques. Part of a series of elemental ceramic fires hosted by Artillery AG.",
           "url": "https://ma.to/event/fall-equinox-pit-firing-22-sep-2026#:~:text=A%20seasonal%20gathering%20for,hosted%20by%20Artillery%20AG."
-        },
-        {
-          "firing_type": "pit_barrel_saggar",
-          "sentence": null,
-          "quote": "Artillery AG | SF Pottery Studio hosts wheel throwing and hand-building classes, community pit firing gatherings, and opening art shows.",
-          "url": "https://ma.to/venue/artilleryag#:~:text=Artillery%20AG%20%7C%20SF,and%20opening%20art%20shows."
-        },
-        {
-          "firing_type": "pit_barrel_saggar",
-          "sentence": "You can bring your own bisque-fired piece or create one on-site, along with any dried organic materials for the fire at pit firing sessions.",
-          "quote": "What should I bring to a pit firing session at Artillery AG | SF Pottery Studio? You can bring your own bisque-fired piece or create one on-site, along with any dried organic materials for the fire.",
-          "url": "https://ma.to/venue/artilleryag#:~:text=What%20should%20I%20bring,materials%20for%20the%20fire."
         }
       ],
       "get_in": [],
