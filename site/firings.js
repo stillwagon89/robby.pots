@@ -289,7 +289,12 @@ function listingDetail(o, p) {
       ["How to join", esc(o.how_to_join)],
       ["Crew", o.crew_needed ? "Participants help load, stoke and unload." : ""],
     ])}
-    ${(() => { const ev = evidenceFor(o, p); return evidenceBox("Clay.AI: why this is listed", [ev?.sentence, o.summary].filter(Boolean).filter((t, i, a) => !a.slice(0, i).some((u) => sameIdea(t, u))).join(" "), ev, url, o.checked, o.source_url); })()}
+    ${(() => {
+      // One sentence at most, then the quote: the reason if we have one, else the summary, and none if it just restates the quote.
+      const ev = evidenceFor(o, p);
+      const line = ev?.sentence || o.summary || "";
+      return evidenceBox("Clay.AI: why this is listed", ev?.quote && sameIdea(line, ev.quote) ? "" : line, ev, url, o.checked, o.source_url);
+    })()}
     ${contactLine(p)}
     ${contactNote(p)}
     <p class="kf-note"><button type="button" class="kf-linkish" data-open-place="${esc(p.id)}">View all firings &rarr;</button></p>`;
