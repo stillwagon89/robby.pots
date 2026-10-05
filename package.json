@@ -10,7 +10,8 @@
     "kiln:geocode": "node --dns-result-order=ipv4first --network-family-autoselection-attempt-timeout=3000 kiln-map/geocode.mjs",
     "kiln:build": "node kiln-map/build.mjs",
     "kiln:review": "node kiln-map/review.mjs",
-    "kiln:signups": "node kiln-map/signups.mjs"
+    "kiln:signups": "node kiln-map/signups.mjs",
+    "kiln:followup": "node kiln-map/followup.mjs"
   },
   "repository": {
     "type": "git",

@@ -119,7 +119,7 @@ const places = sources.map((s) => {
       registration_status: /waitlist/i.test(i.title) && i.registration_status === "sold_out" ? "waitlist" : i.registration_status,
       status: displayStatus(i, today),
       key_date: keyDate(i, displayStatus(i, today), today),
-      who_can_join: AUDIENCE_LINE[i.audience] || null,
+      who_can_join: i.who_can_join_note || AUDIENCE_LINE[i.audience] || null,
     }))
     // Evidence whose quote doesn't name the firing type is dropped; the page falls back to the place's evidence.
     .map((o) => (namesType(o.firing_type, o.evidence_quote) ? o : { ...o, evidence_sentence: null, evidence_quote: null, evidence_url: null }))
@@ -138,7 +138,9 @@ const places = sources.map((s) => {
   // (e.g. a private kiln with no website), so a tag like "Pit" never appears just because we assumed it.
   const evidenced = dedupeEvidence(null, lastRun.get(s.id)?.firing_evidence || []).map((f) => f.firing_type);
   const fromItems = [...items.map((i) => i.firing_type), ...items.flatMap((i) => (i.includes || []).join(" ").toLowerCase().match(/wood|soda|salt|raku|pit/g) || [])];
-  const firingTypes = [...new Set([...fromItems, ...evidenced, ...(fromItems.length || evidenced.length ? [] : s.firing_types_guess)])]
+  // A place can qualify on access alone (classes or membership that fire in these kilns), backed by a quote.
+  const viaAccess = (s.access?.types || []).filter((t) => namesType(t, s.access.quote));
+  const firingTypes = [...new Set([...fromItems, ...evidenced, ...viaAccess, ...(fromItems.length || evidenced.length || viaAccess.length ? [] : s.firing_types_guess)])]
     .map((t) => (t === "pit" ? "pit_barrel_saggar" : t))
     .filter((t, idx, arr) => arr.indexOf(t) === idx && IN_SCOPE.has(t));
 
@@ -159,7 +161,8 @@ const places = sources.map((s) => {
     newsletter_url: s.newsletter_url || null,
     place_summary: lastRun.get(s.id)?.place_summary || null,
     firing_evidence: dedupeEvidence(lastRun.get(s.id)?.place_summary, lastRun.get(s.id)?.firing_evidence || []),
-    get_in: [...new Set(items.map((i) => ({ dated: "Workshops and firings", ongoing_membership: "Membership", class_enrollment: "Classes", residency: "Residencies", rental_service: "Kiln rental" })[i.access_kind]).filter(Boolean))],
+    access: s.access ? { how: s.access.how, note: s.access.note, quote: s.access.quote, url: s.access.url } : null,
+    get_in: [...new Set([...(s.access?.how ? [s.access.how] : []), ...items.map((i) => ({ dated: "Workshops and firings", ongoing_membership: "Membership", class_enrollment: "Classes", residency: "Residencies", rental_service: "Kiln rental" })[i.access_kind])].filter(Boolean))],
     firing_types: firingTypes,
     tracking,
     last_checked: lastRun.get(s.id)?.date || null,

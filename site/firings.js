@@ -92,7 +92,7 @@ function firingCards() {
   for (const p of DATA.places) {
     if (!inRange(p)) continue;
     for (const o of p.opportunities.filter((x) => typeMatch(x.firing_type))) cards.push({ kind: "listing", id: o.id, place: p, o });
-    if (!p.opportunities.length && placeMatchesType(p)) cards.push({ kind: "place", id: p.id, place: p });
+    // Places without listings live in the Kiln locations view; the Firings view counts them in a footnote.
   }
   // What can a visitor actually do soonest? Open sign-ups first (by date), then ongoing access, then sign-ups opening soon,
   // waitlists, unclear status, and full ones last. Places with no listings come after every listing.
@@ -183,6 +183,9 @@ function cardHtml(c) {
   </div>`;
 }
 
+// Places with matching kilns but no firing listings (shown in Kiln locations, counted under the Firings list).
+const placesWithoutListings = () => DATA.places.filter((p) => inRange(p) && placeMatchesType(p) && !p.opportunities.some((o) => typeMatch(o.firing_type))).length;
+
 function renderList() {
   const cards = state.view === "firings" ? firingCards() : locationCards();
   const typeWord = state.type === "all" ? "" : `${TYPE_LABEL[state.type].toLowerCase()} `;
@@ -193,7 +196,9 @@ function renderList() {
   document.getElementById("kf-sort").textContent = state.view === "firings" ? "Available soonest first" : "";
   document.getElementById("kf-list").innerHTML = cards.length
     ? cards.map(cardHtml).join("")
-    : `<p class="kf-empty">Nothing ${radiusOn ? "in this area " : ""}for this filter yet. ${radiusOn ? "Try a wider distance or another firing type." : "Try another firing type."}</p>`;
+    : `<p class="kf-empty">No firing listings ${radiusOn ? "in this area " : ""}for this filter yet. ${radiusOn ? "Try a wider distance or another firing type." : "Try another firing type."}</p>`;
+  const more = state.view === "firings" ? placesWithoutListings() : 0;
+  if (more) document.getElementById("kf-list").insertAdjacentHTML("beforeend", `<p class="kf-note kf-more"><button type="button" class="kf-linkish" data-show-locations>${more} more place${more === 1 ? " has" : "s have"} these kilns but no firing dates posted &rarr;</button></p>`);
   return cards;
 }
 
@@ -294,6 +299,7 @@ function placeDetail(p) {
     <p class="kf-addr">${esc(p.address || `${p.city}, ${p.state || ""}`)} <span class="kf-precision">${p.location_precision === "address" ? "Exact address" : "Approximate area"}</span></p>
     ${p.location_note ? `<p class="kf-note">${esc(p.location_note)}</p>` : ""}
     <p class="kf-tags">${types.map((t) => `<span class="kf-tag">${esc(TYPE_LABEL[t])}</span>`).join("")}</p>
+    ${p.access ? evidenceBox("Clay.AI: how you can use their kilns", p.access.note, { quote: p.access.quote, url: p.access.url }, null, null, p.access.url) : ""}
     ${detailRows([["How outsiders get in", esc(p.get_in.join(" · ") || (updatesUrl(p) || contactUrl(p) ? "Not posted. Contact them to ask." : "No public way in found yet. Know how to reach them? Tell me below."))]])}
     <p class="kf-eyebrow kf-eyebrow-gap">Upcoming here</p>
     ${p.opportunities.length
@@ -450,6 +456,7 @@ function bind() {
       select(state.pin, true);
       return document.getElementById("kf-count").scrollIntoView({ block: "start" });
     }
+    if (e.target.closest("[data-show-locations]")) { state.view = "locations"; state.sel = null; writeUrl(true); render(); return document.getElementById("kf-count").scrollIntoView({ block: "start" }); }
     const head = e.target.closest(".kf-card-head");
     if (head) { const id = head.closest(".kf-card").dataset.id; if (id !== state.pin) state.pin = null; select(id, true, { toggle: true }); }
   });
