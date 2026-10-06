@@ -643,16 +643,16 @@
         "city": "Port Chester",
         "state": "NY",
         "decision": "reject",
-        "access": "firing_service_or_rental",
+        "access": "none",
         "firing_types": [
           "raku"
         ],
         "quote": "We do not offer drop-off firing services for those who are not enrolled in a weekly program with us.",
         "dates": [],
         "confidence": "high",
-        "reason": "The text explicitly states that drop-off firing services are only available for enrolled members.",
+        "reason": "The text explicitly states that drop-off firing services are only available for those enrolled in a weekly program.",
         "quote_verified": true,
-        "secs": 19,
+        "secs": 7,
         "state_on_page": true
       }
     },
@@ -1433,7 +1433,7 @@
       ],
       "fetched": true,
       "judged": {
-        "name": "",
+        "name": "Abi Higgins Ceramics Studio",
         "city": "",
         "state": "",
         "decision": "reject",
@@ -1450,7 +1450,7 @@
         "confidence": "high",
         "reason": "The location is outside of New York.",
         "quote_verified": true,
-        "secs": 28,
+        "secs": 10,
         "state_on_page": false
       }
     },
@@ -1562,8 +1562,8 @@
       "fetched": true,
       "judged": {
         "name": "Alison West Ceramics",
-        "city": "Christow",
-        "state": "DE",
+        "city": "",
+        "state": "",
         "decision": "reject",
         "access": "none",
         "firing_types": [
@@ -1580,7 +1580,7 @@
         "confidence": "high",
         "reason": "The location is in Devon, which is outside of New York.",
         "quote_verified": true,
-        "secs": 37,
+        "secs": 15,
         "state_on_page": false
       }
     },
@@ -3716,27 +3716,18 @@
       ],
       "fetched": true,
       "judged": {
-        "name": "N/A",
-        "city": "N/A",
-        "state": "N/A",
+        "name": "",
+        "city": "",
+        "state": "",
         "decision": "reject",
         "access": "none",
-        "firing_types": [
-          "raku",
-          "wood",
-          "soda",
-          "salt",
-          "soda",
-          "salt",
-          "wood",
-          "soda"
-        ],
+        "firing_types": [],
         "quote": "",
         "dates": [],
         "confidence": "high",
-        "reason": "The text is an editorial guide about firing techniques, not an offering for public participation.",
+        "reason": "The text is an editorial guide about firing techniques, not an offering for public participation in a firing.",
         "quote_verified": false,
-        "secs": 11,
+        "secs": 10,
         "state_on_page": false
       }
     },
@@ -4562,9 +4553,9 @@
         "quote": "For our local potters in Upstate South Carolina, Clay-King hosts regular classes and workshops to hone your firing skills!",
         "dates": [],
         "confidence": "high",
-        "reason": "The text mentions classes for local potters but does not confirm public access to a specific non-electric firing event or service.",
+        "reason": "The text mentions a location in South Carolina but does not confirm public access for firing services.",
         "quote_verified": true,
-        "secs": 26,
+        "secs": 16,
         "state_on_page": false
       }
     },
@@ -4750,15 +4741,17 @@
         "name": "Ceramics of New York",
         "city": "Springville",
         "state": "NY",
-        "decision": "reject",
-        "access": "none",
-        "firing_types": [],
-        "quote": "",
+        "decision": "qualifies",
+        "access": "ongoing_class_or_membership",
+        "firing_types": [
+          "raku"
+        ],
+        "quote": "Ceramics of New York offer classes in many types of ceramic painting techniques, kiln usage and craft production as well as creative glass molding and jewelry design.",
         "dates": [],
         "confidence": "high",
-        "reason": "The text mentions classes and kiln usage but does not confirm public participation in a specific non-electric firing event.",
-        "quote_verified": false,
-        "secs": 11,
+        "reason": "The site mentions offering classes and kiln usage, and the search snippets specifically mention 'Raku Process'.",
+        "quote_verified": true,
+        "secs": 10,
         "state_on_page": true
       }
     },
@@ -5660,21 +5653,17 @@
       "fetched": true,
       "judged": {
         "name": "artgoat.com",
-        "city": "New York",
-        "state": "NY",
+        "city": "",
+        "state": "",
         "decision": "reject",
         "access": "none",
-        "firing_types": [
-          "other"
-        ],
-        "quote": "In-kind support includes up to $2,000 in firing credits, up to 100 lbs of clay, stock cone 6 and cone 10 glazes, and communal studio access; no cash stipend is stated.",
-        "dates": [
-          "September 19, 2026"
-        ],
-        "confidence": "high",
-        "reason": "The firing credits are part of a residency program, not open to the general public.",
-        "quote_verified": true,
-        "secs": 13,
+        "firing_types": [],
+        "quote": "",
+        "dates": [],
+        "confidence": "low",
+        "reason": "The residency program is for artists, not the general public.",
+        "quote_verified": false,
+        "secs": 5,
         "state_on_page": false
       }
     },
@@ -5705,7 +5694,7 @@
         "confidence": "high",
         "reason": "The text only describes firing for residents, not the public.",
         "quote_verified": true,
-        "secs": 13,
+        "secs": 7,
         "state_on_page": true
       }
     },
@@ -5723,23 +5712,25 @@
       ],
       "fetched": true,
       "judged": {
-        "name": "",
-        "city": "",
-        "state": "",
+        "name": "N/A",
+        "city": "N/A",
+        "state": "N/A",
         "decision": "reject",
         "access": "none",
         "firing_types": [
+          "wood",
           "raku",
-          "salt",
           "soda",
-          "wood"
+          "salt",
+          "pit_barrel_saggar",
+          "gas_reduction"
         ],
-        "quote": "Electric Kiln Firing\nGas Kiln Firing\nRaku Firing\nSalt Firing and Soda Firing\nWood Kiln Firing",
+        "quote": "Electric Kiln Firing",
         "dates": [],
         "confidence": "high",
-        "reason": "The page only lists types of firing but does not indicate public access or location in New York.",
+        "reason": "The page only lists general information about firing techniques and does not advertise public firing events or services in New York.",
         "quote_verified": true,
-        "secs": 27,
+        "secs": 14,
         "state_on_page": false
       }
     },

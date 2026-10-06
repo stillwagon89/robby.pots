@@ -60,7 +60,8 @@
       "confidence": "high",
       "reason": "The text describes past workshops for both raku and pit firing in Florida.",
       "quote_verified": true,
-      "secs": 13
+      "secs": 13,
+      "state_on_page": true
     }
   },
   "janesartcenter.com": {
@@ -103,7 +104,8 @@
       "confidence": "high",
       "reason": "The snippets confirm a public workshop for a non-electric firing in Florida.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": true
     }
   },
   "facebook.com": {
@@ -588,7 +590,8 @@
       "confidence": "high",
       "reason": "The site lists workshops for raku and soda firing open to the public.",
       "quote_verified": true,
-      "secs": 12
+      "secs": 12,
+      "state_on_page": true
     }
   },
   "atlanticpotterysupply.com": {
@@ -650,7 +653,8 @@
       "confidence": "high",
       "reason": "The page advertises specific, bookable workshops for Raku firing in Florida.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true
     }
   },
   "paseopottery.com": {
@@ -757,7 +761,8 @@
       "confidence": "high",
       "reason": "The text advertises regular Raku Workshops open to the public.",
       "quote_verified": true,
-      "secs": 13
+      "secs": 13,
+      "state_on_page": false
     }
   },
   "instagram.com": {
@@ -1029,7 +1034,8 @@
       "confidence": "high",
       "reason": "The text details multiple public workshops for raku firing, including mentions of horse hair raku.",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": true
     }
   },
   "seagrasspottery.com": {
@@ -1064,7 +1070,8 @@
       "confidence": "high",
       "reason": "The site advertises a specific soda firing workshop in Florida.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": true
     }
   },
   "claycreationspacifica.com": {
@@ -1103,7 +1110,8 @@
       "confidence": "high",
       "reason": "The page advertises specific, bookable workshops for soda firing in the future.",
       "quote_verified": true,
-      "secs": 12
+      "secs": 12,
+      "state_on_page": false
     }
   },
   "folkschool.org": {
@@ -1138,7 +1146,8 @@
       "confidence": "high",
       "reason": "The text advertises an upcoming, bookable class involving a non-electric firing (soda).",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true
     }
   },
   "andersonranch.org": {
@@ -1185,22 +1194,10 @@
     },
     "fetched": true,
     "judged": {
-      "name": "Anderson Ranch Arts Center",
-      "city": "Snowmass Village",
-      "state": "CO",
       "decision": "reject",
-      "access": "none",
-      "firing_types": [
-        "soda",
-        "gas_reduction",
-        "wood"
-      ],
-      "quote": "The ceramics studio at Anderson Ranch Arts Center, located in Snowmass Village near Aspen, Colorado, is a fully equipped professional ceramics studio designed to support immersive workshops and advanced studio practice.",
-      "dates": [],
-      "confidence": "high",
-      "reason": "The location is in Colorado, not Florida.",
-      "quote_verified": true,
-      "secs": 16
+      "reason": "known place in CO",
+      "auto": true,
+      "state_on_page": false
     }
   },
   "lisayorkarts.com": {
@@ -1235,7 +1232,8 @@
       "confidence": "low",
       "reason": "The text describes past firings and general information, but does not offer current public access or booking details.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": true
     }
   },
   "petersvalley.org": {
@@ -1287,7 +1285,8 @@
       "confidence": "high",
       "reason": "The text details multiple workshops involving non-electric firings for the public.",
       "quote_verified": true,
-      "secs": 15
+      "secs": 15,
+      "state_on_page": true
     }
   },
   "castlehill.org": {
@@ -1318,7 +1317,8 @@
       "confidence": "low",
       "reason": "The provided text is too sparse to confirm public access or location.",
       "quote_verified": false,
-      "secs": 4
+      "secs": 4,
+      "state_on_page": false
     }
   },
   "noahwoodfired.com": {
@@ -1353,7 +1353,8 @@
       "confidence": "high",
       "reason": "The location is in Virginia, not Florida.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "moreanworkshopspace.org": {
@@ -1404,7 +1405,8 @@
       "confidence": "high",
       "reason": "The text details a specific, dated wood fire workshop open to participants.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true
     }
   },
   "ceramicartsnetwork.org": {
@@ -1463,7 +1465,8 @@
       "confidence": "high",
       "reason": "The text describes the facility's outdoor kiln pad, which includes wood-burning kilns and a raku station, and mentions student work being fired there.",
       "quote_verified": true,
-      "secs": 19
+      "secs": 19,
+      "state_on_page": true
     }
   },
   "eastcreekart.org": {
@@ -1496,7 +1499,8 @@
       "confidence": "high",
       "reason": "The location is in Oregon, not Florida.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "adamahartstudio.org": {
@@ -1537,7 +1541,8 @@
       "confidence": "high",
       "reason": "The text describes a specific, dated wood firing workshop open to participants who must bring their own bisque ware.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false
     }
   },
   "groundworksartlab.org": {
@@ -1570,7 +1575,8 @@
       "confidence": "high",
       "reason": "The lab offers woodfire classes where students are involved in the firing process.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "cursist-courses.com": {
@@ -1603,7 +1609,8 @@
       "confidence": "high",
       "reason": "The text describes techniques but does not offer public access or booking information for a firing in Florida.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "studiopotter.org": {
@@ -1636,7 +1643,8 @@
       "confidence": "high",
       "reason": "The artist is based in North Carolina and discusses using wood-firing techniques in their studio.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": false
     }
   },
   "atlanticbeachartsmarket.com": {
@@ -1672,7 +1680,8 @@
       "confidence": "high",
       "reason": "The text advertises a specific, multi-day Raku workshop open to the public.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "visitfloridafarms.org": {
@@ -1717,7 +1726,8 @@
       "confidence": "high",
       "reason": "The text advertises a public workshop including a raku firing in Florida.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "https://allevents.in/atlantic-beach/two-day-pottery-workshop-horse-hair-raku/100001979072368730": {
@@ -1752,7 +1762,8 @@
       "confidence": "high",
       "reason": "The listing advertises a specific, dated workshop using horse hair raku.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "higherfirestudios.com": {
@@ -1788,7 +1799,8 @@
       "confidence": "high",
       "reason": "The location is in California, not Florida.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "https://www.eventbrite.com/e/two-day-pottery-workshop-horse-hair-raku-tickets-1574454980229": {
@@ -1823,7 +1835,8 @@
       "confidence": "high",
       "reason": "The event is listed as having ended before 2025.",
       "quote_verified": true,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": false
     }
   },
   "enikoujj.com": {
@@ -1866,7 +1879,8 @@
       "confidence": "high",
       "reason": "The text advertises a specific, public workshop for pit firing in Florida.",
       "quote_verified": true,
-      "secs": 12
+      "secs": 12,
+      "state_on_page": true
     }
   },
   "otakipotteryclub.org": {
@@ -1902,7 +1916,8 @@
       "confidence": "high",
       "reason": "The location is in Kapiti, which is not in Florida.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "getrelaxing.com": {
@@ -1941,7 +1956,8 @@
       "confidence": "high",
       "reason": "The text advertises a specific, dated pit-fired workshop in Florida.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": true
     }
   },
   "taoofclay.com": {
@@ -1974,7 +1990,8 @@
       "confidence": "high",
       "reason": "The text describes a specific, hands-on pit firing workshop.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false
     }
   },
   "elementartcenter.com": {
@@ -2007,7 +2024,8 @@
       "confidence": "high",
       "reason": "The text describes an upcoming, public pit firing course at the beach.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "lemoyne.org": {
@@ -2053,7 +2071,8 @@
       "confidence": "high",
       "reason": "The text describes alternative firings like pit and saggar firing, which are open to non-members for a fee.",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": false
     }
   },
   "stayhappening.com": {
@@ -2099,7 +2118,8 @@
       "confidence": "high",
       "reason": "The listing advertises a specific, dated workshop involving salt and wood firing in Orlando, FL.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "https://allevents.in/orlando/pottery-workshop-february-21st-salt-and-wood-firing/200029655253656": {
@@ -2135,7 +2155,8 @@
       "confidence": "high",
       "reason": "The listing advertises a specific, bookable workshop featuring salt and wood firing in Orlando, FL.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": true
     }
   },
   "upcomingevents.com": {
@@ -2168,7 +2189,8 @@
       "confidence": "high",
       "reason": "The listing details a specific, bookable salt firing workshop in Florida.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "munson.art": {
@@ -2207,7 +2229,8 @@
       "confidence": "high",
       "reason": "The text advertises a specific, dated workshop involving a salt firing that is open to the public.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false
     }
   },
   "https://allevents.in/st-petersburg/salt-and-sculpture-exploration-in-handbuilding-and-atmospheric-firing-with-jenny-day/200029450318941": {
@@ -2240,7 +2263,8 @@
       "confidence": "high",
       "reason": "The listing details a specific, bookable salt firing event in Florida.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "radiusstudio.org": {
@@ -2273,7 +2297,8 @@
       "confidence": "low",
       "reason": "The page text is not readable, making it impossible to confirm public access.",
       "quote_verified": false,
-      "secs": 4
+      "secs": 4,
+      "state_on_page": false
     }
   },
   "cantonclayworks.com": {
@@ -2317,7 +2342,8 @@
       "confidence": "high",
       "reason": "The text advertises specific, bookable workshops for gas reduction and saggar firing in 2026.",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": false
     }
   },
   "turningearth.org": {
@@ -2354,7 +2380,8 @@
       "confidence": "high",
       "reason": "The location mentioned is London, not Florida.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 12,
+      "state_on_page": false
     }
   },
   "ceramicinfospot.com": {
@@ -2376,18 +2403,21 @@
     },
     "fetched": true,
     "judged": {
-      "name": "",
-      "city": "",
-      "state": "",
+      "name": "N/A",
+      "city": "N/A",
+      "state": "N/A",
       "decision": "reject",
       "access": "none",
-      "firing_types": [],
+      "firing_types": [
+        "gas_reduction"
+      ],
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The text only provides technical guides for running gas kilns and does not mention public access or workshops.",
+      "reason": "The text describes gas kiln operation but does not mention public access for firing.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 9,
+      "state_on_page": false
     }
   },
   "fdacs.gov": {
@@ -2409,7 +2439,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "classcentral.com": {
@@ -2436,15 +2467,14 @@
       "state": "",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "gas_reduction"
-      ],
+      "firing_types": [],
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The provided text only contains links to online video courses, not physical firing opportunities in Florida.",
+      "reason": "The provided text only contains links to online video courses and does not indicate any physical firing opportunities for the public in Florida.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "digitalfire.com": {
@@ -2476,12 +2506,13 @@
       "firing_types": [
         "gas_reduction"
       ],
-      "quote": "A gas kiln built by Luke Lindoe in the 1960s is still used at Plainsman Clays today",
+      "quote": "",
       "dates": [],
-      "confidence": "low",
-      "reason": "The text mentions a gas kiln but does not confirm public access for firing.",
-      "quote_verified": true,
-      "secs": 12
+      "confidence": "high",
+      "reason": "The page discusses firing techniques but does not indicate public access for firing services.",
+      "quote_verified": false,
+      "secs": 12,
+      "state_on_page": false
     }
   },
   "tallyclayarts.com": {
@@ -2534,7 +2565,8 @@
       "confidence": "high",
       "reason": "The studio offers general kiln firing services to outside potters.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true
     }
   },
   "theclay.studio": {
@@ -2617,7 +2649,8 @@
       "confidence": "high",
       "reason": "The text advertises specific dates for alternative firings like Saggar Barrel Firing and Raku.",
       "quote_verified": true,
-      "secs": 17
+      "secs": 17,
+      "state_on_page": false
     }
   },
   "classbento.co.uk": {
@@ -2655,7 +2688,8 @@
       "confidence": "high",
       "reason": "The location is in the UK, not Florida.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "craftcourses.com": {
@@ -2698,7 +2732,8 @@
       "confidence": "high",
       "reason": "The reviews mention specific non-electric firing workshops in 2025.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "mapquest.com": {
@@ -2727,7 +2762,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "jaxpottery.com": {
@@ -2773,7 +2809,8 @@
       "confidence": "high",
       "reason": "The studio offers an outside kiln firing membership for the public.",
       "quote_verified": true,
-      "secs": 13
+      "secs": 13,
+      "state_on_page": true
     }
   },
   "doingdishes.com": {
@@ -2812,7 +2849,8 @@
       "confidence": "high",
       "reason": "The text only mentions firing in an on-site kiln without specifying if it is non-electric.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "yelp.com": {
@@ -2965,7 +3003,8 @@
       "confidence": "high",
       "reason": "The website is for pottery studio management software, not a place offering public firings.",
       "quote_verified": true,
-      "secs": 14
+      "secs": 14,
+      "state_on_page": true
     }
   },
   "alexadamsclaywork.com": {
@@ -3021,7 +3060,8 @@
       "confidence": "high",
       "reason": "The site advertises a specific Raku Workshop with a firing event open to the public.",
       "quote_verified": true,
-      "secs": 12
+      "secs": 12,
+      "state_on_page": false
     }
   },
   "maudandmabel.com": {
@@ -3067,7 +3107,8 @@
       "confidence": "high",
       "reason": "The text describes firing techniques but does not offer any public participation opportunities or location information.",
       "quote_verified": false,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": false
     }
   },
   "visitstaugustine.com": {
@@ -3098,7 +3139,8 @@
       "confidence": "high",
       "reason": "The listing mentions raku firing at a studio in Florida.",
       "quote_verified": false,
-      "secs": 5
+      "secs": 5,
+      "state_on_page": true
     }
   },
   "peaceandmudpottery.com": {
@@ -3143,7 +3185,8 @@
       "confidence": "high",
       "reason": "The studio offers Raku firing and is located in Florida.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "904arthouse.com": {
@@ -3171,7 +3214,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "floridashistoriccoast.com": {
@@ -3215,7 +3259,8 @@
       "confidence": "high",
       "reason": "The text describes workshops and classes at a Florida studio, but does not specify if the public can participate in a non-electric firing.",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": true
     }
   },
   "tripadvisor.com": {
@@ -3277,9 +3322,10 @@
         "June 27th"
       ],
       "confidence": "high",
-      "reason": "Participation requires membership and volunteer labor, not open public access.",
+      "reason": "Participation requires membership and volunteer labor, suggesting it is not open to the general public.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 10,
+      "state_on_page": false
     }
   },
   "craftcouncil.org": {
@@ -3326,7 +3372,8 @@
       "confidence": "high",
       "reason": "The text mentions a public firing event at a Florida location.",
       "quote_verified": true,
-      "secs": 12
+      "secs": 12,
+      "state_on_page": true
     }
   },
   "pensacolastate.edu": {
@@ -3396,7 +3443,8 @@
       "confidence": "high",
       "reason": "The text mentions the annual festival includes workshops and a multi-day wood-firing event for potters.",
       "quote_verified": true,
-      "secs": 14
+      "secs": 14,
+      "state_on_page": true
     }
   },
   "cobbartandecology.org": {
@@ -3431,7 +3479,8 @@
       "confidence": "low",
       "reason": "The text only advertises workshops and residency applications, not public firing participation.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": false
     }
   },
   "ballingerpublishing.com": {
@@ -3462,7 +3511,8 @@
       "confidence": "high",
       "reason": "The text explicitly invites the public to participate in a wood-fire kiln firing.",
       "quote_verified": true,
-      "secs": 5
+      "secs": 5,
+      "state_on_page": false
     }
   },
   "gulfcoastkilnwalk.org": {
@@ -3501,7 +3551,8 @@
       "confidence": "high",
       "reason": "The page only lists volunteer opportunities and does not confirm public firing participation.",
       "quote_verified": false,
-      "secs": 4
+      "secs": 4,
+      "state_on_page": true
     }
   },
   "tylerparkarts.org": {
@@ -3539,7 +3590,8 @@
       "confidence": "high",
       "reason": "The text advertises a specific, dated wood kiln firing workshop.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "uptown-clay.com": {
@@ -3575,7 +3627,8 @@
       "confidence": "high",
       "reason": "The location is in New York, not Florida.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "lakewalesartscouncil.org": {
@@ -3613,7 +3666,8 @@
       "confidence": "high",
       "reason": "The text only mentions assisting with the firing process for volunteers, not public participation.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": true
     }
   },
   "delorespottery.com": {
@@ -3646,7 +3700,8 @@
       "confidence": "medium",
       "reason": "The location is in North Carolina, not Florida.",
       "quote_verified": false,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "claygroundjax.com": {
@@ -3680,7 +3735,8 @@
       "confidence": "high",
       "reason": "The site explicitly lists 'Outside Kiln Firings' as a service.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": true
     }
   },
   "ju.edu": {
@@ -3715,7 +3771,8 @@
       "confidence": "high",
       "reason": "The page lists facilities including raku, wood, and pit-firing areas, suggesting public access through educational programs.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false
     }
   },
   "tampamuseum.org": {
@@ -3750,7 +3807,8 @@
       "confidence": "high",
       "reason": "The text describes a multi-week workshop culminating in a public raku firing event.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "6amcity.com": {
@@ -3785,7 +3843,8 @@
       "confidence": "high",
       "reason": "The listing mentions workshops including wood-firing at a studio in Tampa, FL.",
       "quote_verified": true,
-      "secs": 5
+      "secs": 5,
+      "state_on_page": false
     }
   },
   "kilnfolkclay.com": {
@@ -3836,7 +3895,8 @@
       "confidence": "high",
       "reason": "The location is in Washington, not Florida.",
       "quote_verified": true,
-      "secs": 12
+      "secs": 12,
+      "state_on_page": false
     }
   },
   "floridianceramics.com": {
@@ -3880,7 +3940,8 @@
       "confidence": "medium",
       "reason": "The text mentions a working studio but does not specify if any non-electric firing services are available to the public.",
       "quote_verified": false,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "smithworksstudios.com": {
@@ -3920,7 +3981,8 @@
       "confidence": "high",
       "reason": "The text describes a workshop for pit firing, which is a non-electric firing method.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true
     }
   },
   "makespaceworkshop.com": {
@@ -3953,7 +4015,8 @@
       "confidence": "high",
       "reason": "The text advertises a specific RAKU firing workshop open to guests.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "eastorlandoceramics.com": {
@@ -3995,7 +4058,8 @@
       "confidence": "high",
       "reason": "The studio offers firing services for outside potters, though the specific firing types listed are electric/kiln-based.",
       "quote_verified": true,
-      "secs": 15
+      "secs": 15,
+      "state_on_page": false
     }
   },
   "reddit.com": {
@@ -4076,7 +4140,8 @@
       "confidence": "high",
       "reason": "The page mentions Raku kilns and a natural gas kiln, suggesting public access to non-electric firing methods.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "thehotspotstudios.com": {
@@ -4115,7 +4180,8 @@
       "confidence": "low",
       "reason": "The text only mentions professional glazing and firing after painting, not public participation in a kiln firing.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "wheelhouseorlando.com": {
@@ -4137,7 +4203,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "stroke-of-art.com": {
@@ -4160,7 +4227,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "crealde.org": {
@@ -4198,7 +4266,8 @@
       "confidence": "high",
       "reason": "The text mentions gas and raku firing but does not confirm public access for these types of firings.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "ratcitystudios.com": {
@@ -4249,7 +4318,8 @@
       "confidence": "high",
       "reason": "The studio is located in Washington, not Florida.",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": false
     }
   },
   "stanleymarketplace.com": {
@@ -4288,7 +4358,8 @@
       "confidence": "high",
       "reason": "The location is in Colorado, not Florida.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false
     }
   },
   "sarasotaclaycompany.com": {
@@ -4343,7 +4414,8 @@
       "confidence": "high",
       "reason": "The page lists a specific Raku workshop date in Florida.",
       "quote_verified": true,
-      "secs": 14
+      "secs": 14,
+      "state_on_page": true
     }
   },
   "untoday.org": {
@@ -4389,7 +4461,8 @@
       "confidence": "medium",
       "reason": "The text describes the process but does not offer public access or booking information.",
       "quote_verified": false,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "creativehandsstudio.net": {
@@ -4428,7 +4501,8 @@
       "confidence": "high",
       "reason": "The text advertises a Raku Firing Workshop open to the public.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "potterybyosa.com": {
@@ -4462,7 +4536,8 @@
       "confidence": "high",
       "reason": "The page mentions a workshop covering firing options, suggesting public access to firing information.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": true
     }
   },
   "clayworksinc.org": {
@@ -4509,7 +4584,8 @@
       "confidence": "low",
       "reason": "The text only describes a class for students, not general public access.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false
     }
   },
   "theceramicgarden.com": {
@@ -4546,7 +4622,8 @@
       "confidence": "high",
       "reason": "The studio offers ongoing classes that include firings, though the specific type is not detailed.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true
     }
   },
   "carrollwoodcenter.org": {
@@ -4568,7 +4645,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "drip-ybor.com": {
@@ -4590,7 +4668,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "lovingstpete.com": {
@@ -4627,7 +4706,8 @@
       "confidence": "high",
       "reason": "The text mentions a free public event featuring Raku firing demonstrations.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "visitstpeteclearwater.com": {
@@ -4658,7 +4738,8 @@
       "confidence": "high",
       "reason": "The co-op explicitly offers kiln firing services to the public in Florida.",
       "quote_verified": true,
-      "secs": 5
+      "secs": 5,
+      "state_on_page": true
     }
   },
   "claycenterofstpetersburg.com": {
@@ -4696,7 +4777,8 @@
       "confidence": "high",
       "reason": "The text mentions studio membership access to kilns, implying public participation in firings.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "artsaxisfl.org": {
@@ -4722,7 +4804,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "practicallypikasso.com": {
@@ -4755,7 +4838,8 @@
       "confidence": "high",
       "reason": "The text only describes painting and firing, not participation in a specific type of firing event.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": true
     }
   },
   "mcsclaystudios.com": {
@@ -4792,7 +4876,8 @@
       "confidence": "high",
       "reason": "The studio charges firing fees for pieces brought in by students, indicating public access to firing services.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false
     }
   },
   "gumbolimbopottery.com": {
@@ -4831,7 +4916,8 @@
       "confidence": "high",
       "reason": "The site mentions a 'Firing Service' and lists raku as a specialty, indicating public access.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "ceramicleaguemiami.org": {
@@ -4873,7 +4959,8 @@
       "confidence": "high",
       "reason": "The site mentions raku workshops and has a physical location in Miami, FL.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": true
     }
   },
   "pottery-miami.com": {
@@ -4922,7 +5009,8 @@
       "confidence": "high",
       "reason": "The text describes classes that include firing services for the public in both Miami and Fort Lauderdale.",
       "quote_verified": false,
-      "secs": 13
+      "secs": 13,
+      "state_on_page": true
     }
   },
   "mingopottery.com": {
@@ -4961,7 +5049,8 @@
       "confidence": "high",
       "reason": "The membership/course includes all firings, and Raku is listed as a service.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "fortlauderdale.pottery1.com": {
@@ -5004,7 +5093,8 @@
       "confidence": "high",
       "reason": "The text confirms that classes include firing services for the public.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "potterylist.com": {
@@ -5044,7 +5134,8 @@
       "confidence": "high",
       "reason": "The text mentions specialty firing techniques and general classes, suggesting public access to firing services.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "findapotteryclass.com": {
@@ -5098,7 +5189,8 @@
       "confidence": "high",
       "reason": "The listing mentions specialized workshops, implying public access to firing services.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true
     }
   },
   "campusce.net": {
@@ -5132,7 +5224,8 @@
       "confidence": "high",
       "reason": "The text states the studio is not a production studio and firing is controlled by a technician, implying limited public access.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true
     }
   },
   "queen-city-clay-623736.shoplightspeed.com": {
@@ -5172,7 +5265,8 @@
       "confidence": "high",
       "reason": "The text advertises a wood firing workshop for specific dates.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "arrowmont.org": {
@@ -5207,7 +5301,8 @@
       "confidence": "high",
       "reason": "The site mentions workshops involving soda, salt, and wood firing techniques.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false
     }
   },
   "cultureowl.com": {
@@ -5249,7 +5344,8 @@
       "confidence": "high",
       "reason": "The text describes general classes and services but does not confirm public access to non-electric firing methods.",
       "quote_verified": false,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "anhingaclaystudios.com": {
@@ -5286,7 +5382,8 @@
       "confidence": "high",
       "reason": "The site mentions raku firing and offers classes that include firing services.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "claywithlove.com": {
@@ -5308,7 +5405,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "gasperarts.com": {
@@ -5348,7 +5446,8 @@
       "confidence": "high",
       "reason": "The site advertises classes and events that include kiln firings for the public.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true
     }
   },
   "cieloclayworks.com": {
@@ -5381,7 +5480,8 @@
       "confidence": "high",
       "reason": "The text mentions firing services but does not specify the type of firing (e.g., raku, wood) or confirm public access to non-electric firing methods.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false
     }
   },
   "sarahglassceramics.com": {
@@ -5404,7 +5504,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "joepicassos.com": {
@@ -5441,7 +5542,8 @@
       "confidence": "high",
       "reason": "The site only mentions painting and bisque firing, not public access to non-electric kiln firing.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "browardcommunityschools.com": {
@@ -5467,7 +5569,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "canvas.armoryart.org": {
@@ -5505,7 +5608,8 @@
       "confidence": "high",
       "reason": "The listing explicitly mentions Raku and alternative firing techniques available at the Florida location.",
       "quote_verified": true,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": true
     }
   },
   "crafthauspalmbeach.com": {
@@ -5553,7 +5657,8 @@
       "confidence": "low",
       "reason": "The text only mentions general kiln firing for painted items, not specific non-electric firing options for the public.",
       "quote_verified": true,
-      "secs": 13
+      "secs": 13,
+      "state_on_page": false
     }
   },
   "josephy.org": {
@@ -5596,7 +5701,8 @@
       "confidence": "high",
       "reason": "The text advertises a specific Raku workshop.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": false
     }
   },
   "studiotmceramics.com": {
@@ -5640,7 +5746,8 @@
       "confidence": "high",
       "reason": "The studio offers workshops that include firings for participants.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "thecraftgallery.square.site": {
@@ -5674,7 +5781,8 @@
       "confidence": "high",
       "reason": "The gallery allows the public to have their pottery fired for a fee.",
       "quote_verified": true,
-      "secs": 5
+      "secs": 5,
+      "state_on_page": false
     }
   },
   "clayandkilnstudio.com": {
@@ -5713,7 +5821,8 @@
       "confidence": "low",
       "reason": "The text only mentions glazing and firing pieces after painting, not public participation in a specific type of firing.",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": false
     }
   },
   "clayhauspalmbeach.com": {
@@ -5752,7 +5861,8 @@
       "confidence": "high",
       "reason": "The text only mentions firing is included in the price, but does not specify the type of firing or if the public can book a non-electric firing.",
       "quote_verified": false,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "avenuepottery.com": {
@@ -5774,7 +5884,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "firstcityart.org": {
@@ -5838,7 +5949,8 @@
       "confidence": "high",
       "reason": "The text advertises specific dates for public Raku firings.",
       "quote_verified": true,
-      "secs": 20
+      "secs": 20,
+      "state_on_page": true
     }
   },
   "studiosalespottery.com": {
@@ -5871,10 +5983,11 @@
         "Saturday 20, 2022",
         "August 13, 2022"
       ],
-      "confidence": "low",
+      "confidence": "high",
       "reason": "The location is in New York, not Florida.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "claystuff.com": {
@@ -5913,7 +6026,8 @@
       "confidence": "high",
       "reason": "The studio offers kiln firing services and is located in Gainesville, FL.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "artalleystudio.com": {
@@ -5955,7 +6069,8 @@
       "confidence": "high",
       "reason": "The text only mentions electric kilns and does not offer non-electric firing options for the public.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "marketspread.com": {
@@ -5998,7 +6113,8 @@
       "confidence": "high",
       "reason": "The studio offers kiln firing services and is located in Florida.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "alligator.org": {
@@ -6036,7 +6152,8 @@
       "confidence": "high",
       "reason": "The text mentions the studio provides kiln firings and has a general community focus.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "fun4gatorkids.com": {
@@ -6069,7 +6186,8 @@
       "confidence": "high",
       "reason": "The studio offers kiln firing services and is located in Florida.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": true
     }
   },
   "houseofclayfl.com": {
@@ -6109,7 +6227,8 @@
       "confidence": "high",
       "reason": "The text mentions firing services are available through workshops, classes, or memberships.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "beartreepottery.com": {
@@ -6138,7 +6257,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "my.ceramicmaterialsworkshop.com": {
@@ -6180,7 +6300,8 @@
       "confidence": "low",
       "reason": "The page does not confirm any public firing opportunities.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": true
     }
   },
   "tallahasseean.com": {
@@ -6215,7 +6336,8 @@
       "confidence": "high",
       "reason": "The text only mentions classes and workshops but does not specify if the public can participate in a non-electric firing.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": true
     }
   },
   "firehouseculturalcenter.org": {
@@ -6254,7 +6376,8 @@
       "confidence": "high",
       "reason": "The studio offers classes that include firing costs, indicating public access to firing services.",
       "quote_verified": true,
-      "secs": 14
+      "secs": 14,
+      "state_on_page": false
     }
   },
   "clayatlas.com": {
@@ -6274,7 +6397,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "countrysideceramics.com": {
@@ -6305,7 +6429,8 @@
       "confidence": "high",
       "reason": "The listing mentions a workshop in Florida, suggesting public participation.",
       "quote_verified": true,
-      "secs": 5
+      "secs": 5,
+      "state_on_page": true
     }
   },
   "claudiasmudhut.wixsite.com": {
@@ -6343,7 +6468,8 @@
       "confidence": "low",
       "reason": "The page only advertises kiln supplies and does not mention public firing participation.",
       "quote_verified": false,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "handsonclay.kilnfire.com": {
@@ -6377,7 +6503,8 @@
       "confidence": "high",
       "reason": "The class structure implies public participation in a firing process.",
       "quote_verified": true,
-      "secs": 5
+      "secs": 5,
+      "state_on_page": true
     }
   },
   "swflpottersguild.com": {
@@ -6431,7 +6558,8 @@
       "confidence": "high",
       "reason": "The text mentions space for wood and raku firings, which are non-electric, though the availability is tied to fundraising.",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": true
     }
   },
   "miyceramics.com": {
@@ -6467,7 +6595,8 @@
       "confidence": "low",
       "reason": "The provided text is too vague to confirm public access to specific non-electric firings in Florida.",
       "quote_verified": false,
-      "secs": 5
+      "secs": 5,
+      "state_on_page": false
     }
   },
   "handsonclay.net": {
@@ -6489,7 +6618,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "gulfshorelife.com": {
@@ -6528,7 +6658,8 @@
       "confidence": "high",
       "reason": "The text describes an ongoing, hands-on course that includes raku firing for students.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "goggleworks.org": {
@@ -6561,7 +6692,8 @@
       "confidence": "high",
       "reason": "The text mentions workshops and classes that include raku firing, and private lessons are available.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "ceramic-cottage-llc.ueniweb.com": {
@@ -6602,7 +6734,8 @@
       "confidence": "high",
       "reason": "The text only mentions firing ceramics generally and does not specify public access to non-electric firing types.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": true
     }
   },
   "mandymilesstudios.com": {
@@ -6641,7 +6774,8 @@
       "confidence": "high",
       "reason": "The studio offers kiln rental services for bisque and glaze firing in the area.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": true
     }
   },
   "letitburnpottery.com": {
@@ -6678,7 +6812,8 @@
       "confidence": "high",
       "reason": "The site advertises a mobile raku experience and workshop in Florida.",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": true
     }
   },
   "yellowpages.com": {
@@ -6698,7 +6833,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "axner.com": {
@@ -6742,7 +6878,8 @@
       "confidence": "high",
       "reason": "The site lists 'Laguna Clay Florida Firing Services' which indicates public firing options in Florida.",
       "quote_verified": true,
-      "secs": 15
+      "secs": 15,
+      "state_on_page": true
     }
   },
   "sheffield-pottery.com": {
@@ -6771,7 +6908,8 @@
       "confidence": "low",
       "reason": "The website only sells raku supplies and does not mention public firing opportunities.",
       "quote_verified": false,
-      "secs": 4
+      "secs": 4,
+      "state_on_page": false
     }
   },
   "keywestchamber.org": {
@@ -6809,7 +6947,8 @@
       "confidence": "high",
       "reason": "The text mentions an open house where the wood kiln areas will be showcased and membership is encouraged.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": true
     }
   },
   "sawtooth.org": {
@@ -6840,7 +6979,8 @@
       "confidence": "high",
       "reason": "The site mentions community firings and ongoing classes related to wood firing.",
       "quote_verified": true,
-      "secs": 5
+      "secs": 5,
+      "state_on_page": false
     }
   },
   "northampton.edu": {
@@ -6877,7 +7017,8 @@
       "confidence": "high",
       "reason": "The text mentions opportunities for community firings and ongoing classes related to wood-fired ceramics.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false
     }
   },
   "cfk.edu": {
@@ -6904,18 +7045,21 @@
       "name": "CFK",
       "city": "",
       "state": "",
-      "decision": "reject",
-      "access": "none",
+      "decision": "qualifies",
+      "access": "ongoing_class_or_membership",
       "firing_types": [
         "raku",
-        "wood"
+        "wood",
+        "soda",
+        "gas_reduction"
       ],
       "quote": "Firing options for this class include reduction, raku, and wood/soda depending on the schedule.",
       "dates": [],
       "confidence": "high",
-      "reason": "The text only mentions firing options for enrolled students.",
+      "reason": "The text mentions firing options like raku and wood/soda for a class that is available to students with prior experience.",
       "quote_verified": true,
-      "secs": 6
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "laney.edu": {
@@ -6950,7 +7094,8 @@
       "confidence": "high",
       "reason": "The text advertises a public rate for a wood firing workshop.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "jcgep.org": {
@@ -6982,7 +7127,8 @@
       "confidence": "low",
       "reason": "The page text is unreadable and does not confirm public access to non-electric firings.",
       "quote_verified": false,
-      "secs": 4
+      "secs": 4,
+      "state_on_page": false
     }
   },
   "thehubartscollective.org": {
@@ -7015,7 +7161,8 @@
       "confidence": "high",
       "reason": "The text advertises soda firing and general kiln firing services at Jane's Art Center.",
       "quote_verified": true,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "potteryflaglerbeach.com": {
@@ -7049,7 +7196,8 @@
       "confidence": "high",
       "reason": "The pricing structure for both classes and studio time includes firing and glaze services.",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "thepaintpotob.com": {
@@ -7071,7 +7219,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "artsinorlando.com": {
@@ -7091,7 +7240,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "puntagordahistory.com": {
@@ -7122,7 +7272,8 @@
       "confidence": "low",
       "reason": "The text only mentions kiln access for members and does not confirm public participation in firings.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": true
     }
   },
   "puntagordachamber.chambermaster.com": {
@@ -7144,7 +7295,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "folkartguild.org": {
@@ -7177,7 +7329,8 @@
       "confidence": "high",
       "reason": "The text describes the kiln but does not indicate public access for firing.",
       "quote_verified": true,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": false
     }
   },
   "kilnroomcolumbus.com": {
@@ -7211,7 +7364,8 @@
       "confidence": "high",
       "reason": "The studio is located in Ohio, not Florida.",
       "quote_verified": false,
-      "secs": 4
+      "secs": 4,
+      "state_on_page": false
     }
   },
   "uwf.edu": {
@@ -7250,7 +7404,8 @@
       "confidence": "high",
       "reason": "The text advertises a specific, dated raku firing event open to participants.",
       "quote_verified": false,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "steamboatcreates.org": {
@@ -7289,7 +7444,8 @@
       "confidence": "high",
       "reason": "The site lists multiple dated Raku firing events open to the public.",
       "quote_verified": true,
-      "secs": 12
+      "secs": 12,
+      "state_on_page": false
     }
   },
   "tampa.gov": {
@@ -7324,7 +7480,8 @@
       "confidence": "high",
       "reason": "The text describes a multi-week workshop culminating in a public firing event using raku techniques.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "lukeiannuzzipottery.com": {
@@ -7359,7 +7516,8 @@
       "confidence": "high",
       "reason": "The site advertises bookable Raku workshops for 2026.",
       "quote_verified": true,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": false
     }
   },
   "richardmunster.com": {
@@ -7392,7 +7550,8 @@
       "confidence": "high",
       "reason": "The text describes the artist's process but does not offer public access to the firing.",
       "quote_verified": false,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true
     }
   },
   "nalatanalata.com": {
@@ -7426,7 +7585,8 @@
       "confidence": "low",
       "reason": "The text describes a past firing event in Fukuoka, but does not indicate public participation or booking options.",
       "quote_verified": false,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "hambidge.org": {
@@ -7457,7 +7617,8 @@
       "confidence": "low",
       "reason": "No readable text was provided to determine public access.",
       "quote_verified": false,
-      "secs": 4
+      "secs": 4,
+      "state_on_page": false
     }
   },
   "schoolofservice.org": {
@@ -7481,7 +7642,7 @@
     },
     "fetched": true,
     "judged": {
-      "name": "schoolofservice.org",
+      "name": "Access Arts",
       "city": "",
       "state": "",
       "decision": "reject",
@@ -7493,10 +7654,11 @@
       ],
       "quote": "",
       "dates": [],
-      "confidence": "high",
-      "reason": "The text only describes residency opportunities for artists, not public access to firings.",
+      "confidence": "low",
+      "reason": "The text only describes residency opportunities, not public access to firings.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "cubcreek.org": {
@@ -7529,7 +7691,8 @@
       "confidence": "high",
       "reason": "The program is only for residents, not the general public.",
       "quote_verified": true,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": false
     }
   },
   "ceramicsfieldguide.org": {
@@ -7566,7 +7729,8 @@
       "confidence": "high",
       "reason": "The center offers wood firing opportunities as part of a residency program.",
       "quote_verified": true,
-      "secs": 13
+      "secs": 13,
+      "state_on_page": true
     }
   },
   "ohio.edu": {
@@ -7601,7 +7765,8 @@
       "confidence": "high",
       "reason": "The location is in Ohio, not Florida.",
       "quote_verified": false,
-      "secs": 5
+      "secs": 5,
+      "state_on_page": false
     }
   },
   "pocosinarts.org": {
@@ -7636,7 +7801,8 @@
       "confidence": "low",
       "reason": "The text only describes residencies for artists, not public firing events.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": false
     }
   }
 }

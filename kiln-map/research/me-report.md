@@ -92,7 +92,7 @@ Wil Labelle leads this hands-on workshop that features the basics of Raku using 
 - radiusstudio.org: known place in OR
 - maine.gov: no firing words on any page
 - turningearth.org: The location is in London, not Maine.
-- kilnfrog.com: The page is informational and does not offer public firing participation.
+- kilnfrog.com: The page is an informational blog post about firing techniques and does not offer public access to a firing service.
 - mfsi.me.edu: no firing words on any page
 - kilnfire.com: The text only describes software for managing firings, not public access to firing services.
 - handfulstudios.com: The text only mentions firings are included with an 8-week session, implying it is not open to the public booking a standalone firing.
@@ -120,7 +120,7 @@ Wil Labelle leads this hands-on workshop that features the basics of Raku using 
 - ceramic.school: The page text was not available to confirm public access to firings.
 - seattlepotterysupply.com: The location is in Washington, not Maine.
 - studiosalespottery.com: The location is in New York, not Maine.
-- aardvarkclay.com: The website is a supplier of supplies and kilns, not a location offering public firing services.
+- aardvarkclay.com: The website is a supplier of ceramic supplies and equipment, not a location offering public firing services.
 - midsouthceramics.com: The website only sells supplies and does not mention public firing opportunities.
 - torch.ox.ac.uk: The location is in Oxford, not Maine, and the text describes past events.
 - hambidge.org: known place in GA

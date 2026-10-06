@@ -30,7 +30,7 @@ Searches: 27 (Tavily). Places seen: 126. Judge: gemma4:latest on this Mac. No Cl
 | Hambidge | Rabun Gap | wood | ongoing_class_or_membership | **new** | ceramicsfieldguide.org | "Program Highlights:Anagama Kiln." |
 | Roger Jamison | Juliette | wood | ongoing_class_or_membership | **new** | atlantamagazine.com | "Artists trek to the home of ceramist Roger Jamison to use the anagama kiln, an ancient technique that originated in fifth century East Asia" |
 
-## Unclear: needs a second look (34)
+## Unclear: needs a second look (35)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -67,6 +67,7 @@ Searches: 27 (Tavily). Places seen: 126. Judge: gemma4:latest on this Mac. No Cl
 | Oribe Firing Center | San Gregorio | raku | dated_events | **new** | oribefiring.com | "Come join us for an awesome day of Raku at our Atmospheric Firing Center!" | The site offers bookable, hands-on raku firings in Georgia.
 | omniform1.com | ? | raku | dated_events | **new** | omniform1.com | "We kindly ask that bookings be made at least 24 hours in advance so we can provide the best experience possible." | The site offers a public Raku firing experience requiring advance booking.
 | spiritlabceramics.com | ? | wood | dated_events | **new** | spiritlabceramics.com | "Activating the Fire element – my ceramic residency in Georgia: A ceramic residency journey in the high mountains of Tusheti, Georgia and learning about wood-fir" | The text explicitly mentions a residency in Georgia involving wood-firing methods.
+| Ohio University | ? | wood, soda, salt, pit_barrel_saggar, gas_reduction | dated_events | **new** | ohio.edu | "From June 4 to 11, artists will convene at OHIO’s outdoor ceramic kiln facility to collaborate on highly sought-after atmospheric firing techniques, working tog" | The text describes a conference with hands-on atmospheric firings open to participants.
 | Eye of the Dog Art Center | San Marcos | wood | ongoing_class_or_membership | **new** | marianwilliamspottery.com | "As part of the workshop, we will be able to participate in an upcoming woodfiring! I’m really looking forward to that!" | The text mentions participating in a woodfiring workshop at a location in Texas.
 
 ## Social-only leads, not read (6)
@@ -78,7 +79,7 @@ Searches: 27 (Tavily). Places seen: 126. Judge: gemma4:latest on this Mac. No Cl
 - Raku Pottery Class! - Review of 4p Studios, Augusta, GA ... — https://www.tripadvisor.com/ShowUserReviews-g29212-d27462739-r942351440-4p_Studios-Augusta_Georgia.html
 - UWG Art Program Teaches Ancient Method via Anagama Kiln — https://www.youtube.com/watch?v=GbxHgBehZfU
 
-## Rejected (63)
+## Rejected (62)
 
 - clayworksinc.org: The text only describes a class for students, and the location is not specified as being in Georgia.
 - noahwoodfired.com: The location is in Virginia, not Georgia.
@@ -91,9 +92,9 @@ Searches: 27 (Tavily). Places seen: 126. Judge: gemma4:latest on this Mac. No Cl
 - andersonranch.org: known place in CO
 - rules.sos.ga.gov: no firing words on any page
 - radiusstudio.org: known place in OR
-- georgiafire.org: The page lists safety training, not ceramic firings.
+- georgiafire.org: The page lists public safety training, not ceramic firings.
 - lumpkincounty.gov: The text describes a firearm range, not a ceramic kiln firing.
-- turningearth.org: The location mentioned is London, not Georgia.
+- turningearth.org: The location mentioned is in London, not Georgia.
 - gpstc.org: no firing words on any page
 - theclay.studio: known place in UK
 - ceramicreview.com: The workshop is located in Wisconsin, not Georgia.
@@ -102,7 +103,7 @@ Searches: 27 (Tavily). Places seen: 126. Judge: gemma4:latest on this Mac. No Cl
 - moreanartscenter.org: known place in FL
 - arrowmont.org: known place in TN
 - southernstarstudioathens.com: The text explicitly states they only fire in electric kilns.
-- merme.in: The text discusses firing techniques but does not offer any public participation opportunities or location details in Georgia.
+- merme.in: The text discusses firing techniques but does not offer any information about public participation or booking in Georgia.
 - kilnfire.com: The text describes software for studios, not public firing access.
 - nhpottersguild.org: known place in NH
 - tylerparkarts.org: known place in PA
@@ -112,7 +113,7 @@ Searches: 27 (Tavily). Places seen: 126. Judge: gemma4:latest on this Mac. No Cl
 - mapquest.com: The location is in Michigan, not Georgia.
 - finehomebuilding.com: no firing words on any page
 - folkpotterymuseum.com: The text only mentions past participation in wood firing and does not offer current public access details.
-- creativeartsstudios.com: The location is in Michigan, not Georgia.
+- creativeartsstudios.com: The studio is located in Michigan, not Georgia.
 - hopewellstudios.co.uk: The studio is located in the UK, not Georgia.
 - maudandmabel.com: The text describes the techniques but does not offer any public participation opportunities.
 - claybythebaysf.com: The location is in California, not Georgia.
@@ -123,14 +124,14 @@ Searches: 27 (Tavily). Places seen: 126. Judge: gemma4:latest on this Mac. No Cl
 - bareware-pottery-craft-studio-llc.square.site: no firing words on any page
 - parks.columbusga.gov: no firing words on any page
 - tcpotters.com: no firing words on any page
-- en.wikipedia.org: The page is a general article about Raku ware and does not list any specific public firing events in Georgia.
+- en.wikipedia.org: The page is a general article about Raku ware and does not list any specific firing events or locations in Georgia.
 - levityinteriors.com: The page only sells finished pottery and does not offer public firing participation.
 - https://www.active.com/augusta-ga/arts-and-crafts/camp/pottery-on-the-wheel-with-ari-2026: known place in IN
 - catalog.augusta.edu: The listing describes a college course, not public firing access.
 - potteryteachers.com: no firing words on any page
 - visitmacon.org: no firing words on any page
 - georgies.com: known place in OR
-- peachstatepottery.com: The website only sells kilns and does not offer public firing services.
+- peachstatepottery.com: The website only sells pottery equipment and does not offer public firing services.
 - aardvarkclay.com: The website is a supplier of supplies and kilns, not a location offering public firing services.
 - davensceramiccenter.com: No readable text was provided to determine firing availability.
 - community.ceramicartsdaily.org: The page is unreadable and does not confirm public access to firings.
@@ -140,6 +141,5 @@ Searches: 27 (Tavily). Places seen: 126. Judge: gemma4:latest on this Mac. No Cl
 - claycoopstpete.com: The location is in Florida, not Georgia.
 - kilnfolkclay.com: The studio is located in Washington, not Georgia.
 - cubcreek.org: known place in VA
-- ohio.edu: The event is primarily for students and alumni, and the public participation is not guaranteed.
 - westga.edu: The text only mentions students firing the kiln as part of their program.
 - nalatanalata.com: The text describes a firing event that took place in Japan, not Georgia.

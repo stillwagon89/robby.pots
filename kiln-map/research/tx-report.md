@@ -125,7 +125,7 @@ Raku and Saggar firing workshops" | The site advertises workshops and membership
 - teex.org: no firing words on any page
 - propanecounciloftexas.org: The page discusses propane fire training, not ceramic kiln firings.
 - radiusstudio.org: known place in OR
-- turningearth.org: The location is in London, not Texas.
+- turningearth.org: The studio is located in London, not Texas.
 - classcentral.com: The provided text is from a course platform and only features videos about firings, not an actual booking or participation opportunity for the public in Texas.
 - rrc.state.tx.us: The website is for the Texas Railroad Commission and discusses gas safety, not pottery firings.
 - katherinefortnumceramics.com: The page does not provide enough information to confirm public access to firing services.
@@ -179,11 +179,11 @@ Raku and Saggar firing workshops" | The site advertises workshops and membership
 - downtowncorpuschristi.org: The text only mentions class firings, not public access to firing services.
 - seattlepotterysupply.com: The location is in Washington, not Texas.
 - kruegerpottery.com: The page lists various kiln types and supplies but does not confirm public access for firing services.
-- aardvarkclay.com: The website is a supplier of supplies and kilns, not a location offering public firing services.
+- aardvarkclay.com: The website is a supplier of supplies and kilns, not a place offering public firing services.
 - glazingup.com: no firing words on any page
 - en.wikipedia.org: The page discusses kiln types but does not mention public firing opportunities in Texas.
 - westga.edu: The page content is not available to confirm public access.
-- thomasfossier.com: The text only shows items sold that were fired, not an opportunity for the public to participate in a firing.
+- thomasfossier.com: The text only shows examples of work fired by the artist and does not mention public participation.
 - nalatanalata.com: The text describes firings in Japan and does not mention any location or opportunity for the public to participate in Texas.
 - bosqueartscenter.org: no firing words on any page
 - sacredheartartistsguild.com: no firing words on any page
@@ -195,6 +195,6 @@ Raku and Saggar firing workshops" | The site advertises workshops and membership
 - craftcouncil.org: The text discusses various locations but does not confirm any public firing opportunities in Texas.
 - visitmathews.com: The listed firing event has already passed.
 - steamboatcreates.org: known place in CO
-- schoolofservice.org: The text only describes residency opportunities, not public access to firings.
+- schoolofservice.org: The text only describes residency opportunities and does not indicate public access to firings.
 - cubcreek.org: known place in VA
 - sites.google.com: The text describes residency duties and studio equipment but does not indicate public access for firing.

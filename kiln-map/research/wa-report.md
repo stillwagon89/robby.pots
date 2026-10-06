@@ -40,7 +40,7 @@ Load and fire the kiln. This is the culmination of all our total efforts thus fa
 | Naselle Pottery Studio | Naselle | wood | ongoing_class_or_membership | **new** | hafupotter.com | "Operates Neiseru Gama, a private wood-fire kiln and ceramics studio in Naselle, Washington." |
 | harrylevensteinpottery.com | Seabeck | wood | ongoing_class_or_membership | **new** | harrylevensteinpottery.com | ""Three Dragon Kiln" Seabeck, WA. Santatsugama is a beautiful anagama with an irreplaceable family of artists surrounding it. I've had the great pleasure of" |
 
-## Unclear: needs a second look (34)
+## Unclear: needs a second look (35)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -62,6 +62,7 @@ tactile qualities," | The text describes a multi-day workshop involving salt and
 | Throwing Mud Gallery | Tacoma | salt | ongoing_class_or_membership | **new** | throwingmudgallery.com | "Salt fired pottery: Pottery Studio located in Tacoma, Washington 's atmosphere at approx. 2350 F. Gig Harbor potter, Dan Barnett, uses this technique when he fi" | The site mentions salt firing and the gallery is located in Washington.
 | New Prospect Pottery | ? | salt, wood | ongoing_class_or_membership | **new** | newprospectpottery.com | "Salt and reduction firings are ongoing." | The site indicates ongoing salt and reduction firings, and lists future wood firings.
 | Canton Clay Works | Seattle | gas_reduction | ongoing_class_or_membership | **new** | cantonclayworks.com | "The Canton Clay Works offers a high-fire glaze/gas reduction firing service with access to close to thirty spectacular glazes!" | The studio offers a gas reduction firing service for a fee.
+| Turning Earth | London | raku | ongoing_class_or_membership | **new** | turningearth.org | "If you’ve ever taken part in one of our Raku firing workshops, you’ve already encountered Reduction firing — it’s what gives some of our Raku glazes their disti" | The site mentions Raku workshops and ongoing studio membership access.
 | Abi Higgins Ceramics Studio | Christow | raku, soda, salt, pit_barrel_saggar, gas_reduction | dated_events | **new** | classbento.co.uk | "After an incredible 2024 filled with creativity and connection, we are thrilled to announce the dates for our 2025 saggar, barrel, raku, and horsehair firing wo" | The text advertises a 2025 workshop featuring multiple non-electric firing techniques at a studio located in Devon.
 | Up in Smoke Pottery | ? | pit_barrel_saggar | dated_events | **new** | upinsmokepottery.com | "This slippery saggar is placed in a pit fire or often we will fire a barrel full of them at a time." | The text describes the process of using pit firing and saggar firing methods.
 | Anhinga Clay Studios | Miami-Dade County | pit_barrel_saggar | dated_events | **new** | anhingaclaystudios.com | "Saturday, March 28
@@ -90,7 +91,7 @@ tactile qualities," | The text describes a multi-day workshop involving salt and
 - Places to fire pottery : r/washingtondc — https://www.reddit.com/r/washingtondc/comments/1iorl29/places_to_fire_pottery
 - TACOMA CLAY - Updated September 2026 — https://www.yelp.com/biz/tacoma-clay-tacoma
 
-## Rejected (52)
+## Rejected (51)
 
 - adamahartstudio.org: known place in WI
 - weberwoodfire.com: known place in WI
@@ -99,7 +100,6 @@ tactile qualities," | The text describes a multi-day workshop involving salt and
 - shelbyprindaville.com: The text describes a past workshop attended by the author, not an offering to the public.
 - eastcityart.com: The location is in Washington D.C., not Washington state.
 - radiusstudio.org: known place in OR
-- turningearth.org: The location is in London, not Washington.
 - theclay.studio: known place in UK
 - ceramicreview.com: The location is in Wisconsin, not Washington.
 - districtclaycenter.com: known place in DC
@@ -122,10 +122,10 @@ tactile qualities," | The text describes a multi-day workshop involving salt and
 - kokaneeclay.com: The text only mentions firing for student and member work, not public access to specific firing types.
 - flippedpot.com: The text only mentions custom firings in a specific electric kiln model.
 - digitalfire.com: The website is a technical reference site and does not offer public firing services.
-- merme.in: The text describes firing techniques but does not offer any opportunity for the public to participate in a firing event.
+- merme.in: The text describes firing techniques but does not offer any information about public participation, workshops, or booking for these firings.
 - oxcombepottery.co.uk: The location is in the UK, not Washington.
 - thepottersguild.com: The text is a biography and does not list any current public firing opportunities.
-- johnrileypottery.com: The text describes the potter's work and participation in firings but does not offer any public opportunity to take part in a firing.
+- johnrileypottery.com: The potter is based in DC, not Washington state, and the text does not indicate public access to firing services.
 - studiopotter.org: known place in ?
 - williamslake.ca: The guild's sales are only open to members.
 - craftcouncil.org: The text discusses public workshops in Oregon but does not confirm any current or specific public firing opportunities in Washington.
@@ -136,10 +136,10 @@ tactile qualities," | The text describes a multi-day workshop involving salt and
 - millbrookclayworks.com: no firing words on any page
 - ceramicaclay.com: The text only mentions electric firing to Cone-6 and does not confirm public access to non-electric firing methods.
 - theclaystudio.org: known place in PA
-- schoolofservice.org: The text only describes residency opportunities, not public access to firings.
-- ceramicartsnetwork.org: The page only contains general information about firing techniques and does not list any public firing events in Washington.
+- schoolofservice.org: The text only describes residency opportunities, which are for artists, not the general public.
+- ceramicartsnetwork.org: The page only contains general information about firing techniques and does not list any public firing events or services in Washington.
 - theresidencyreview.com: The website is a directory of residencies, not a place offering public firings.
-- ceramicsfieldguide.org: The provided text is a guide about electric kilns and does not mention public firing opportunities in Washington.
+- ceramicsfieldguide.org: The provided text is a general guide about electric kilns and does not mention any public firing opportunities in Washington.
 - ilwacoartworks.org: no firing words on any page
 - hambidge.org: known place in GA
 - nalatanalata.com: The text describes a visit to observe a firing, but does not indicate that the general public can participate in or book a firing.

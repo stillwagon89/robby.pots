@@ -66,7 +66,7 @@ Sun., Mar. 16 | 10 am – 4 pm
 | City of Tampa Golding Art Studio | Tampa | raku | none | **new** | tampa.gov | "The workshop culminates in an exhilarating fourth week at the City of Tampa Golding Art Studio, where participants will fire their pieces in the raku tradition," |
 | Morean Center for Clay | St. Petersburg | wood | ongoing_class_or_membership | **new** | ceramicsfieldguide.org | "Funding: Work trade 8 hr/ week for studio space and access to facilities, clay discount, firings." |
 
-## Unclear: needs a second look (43)
+## Unclear: needs a second look (44)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -107,6 +107,7 @@ Sun., Mar. 16 | 10 am – 4 pm
 | GoggleWorks Center for the Arts | ? | raku | ongoing_class_or_membership | **new** | goggleworks.org | "Students are able to continue their studies in intermediate courses, alongside special topic classes and workshops exploring surface techniques, glazing, raku, " | The text mentions workshops and classes that include raku firing, and private lessons are available.
 | sawtooth.org | ? | wood | ongoing_class_or_membership | on map | sawtooth.org | "The new facilities will offer opportunities for community firings, special workshops with visiting artists, and ongoing classes related to wood fired ceramics." | The site mentions community firings and ongoing classes related to wood firing.
 | Northampton Community College | Northampton | wood | ongoing_class_or_membership | **new** | northampton.edu | "It will offer opportunities for community firings, special workshops with visiting artists, and ongoing classes related to wood fired ceramics." | The text mentions opportunities for community firings and ongoing classes related to wood-fired ceramics.
+| CFK | ? | raku, wood, soda, gas_reduction | ongoing_class_or_membership | **new** | cfk.edu | "Firing options for this class include reduction, raku, and wood/soda depending on the schedule." | The text mentions firing options like raku and wood/soda for a class that is available to students with prior experience.
 | Laney College | ? | wood | ongoing_class_or_membership | on map | laney.edu | "$665 Student Rate | $765 Public Rate" | The text advertises a public rate for a wood firing workshop.
 | Jane's Art Center | ? | soda | ongoing_class_or_membership | **new** | thehubartscollective.org | "Experience the art of soda firing at Jane's Art Center, where heat, clay, and vaporized soda combine to create stunning, one-of-a-kind ceramic surfaces." | The text advertises soda firing and general kiln firing services at Jane's Art Center.
 | potteryflagler.com | Flagler Beach | other | ongoing_class_or_membership | **new** | potteryflaglerbeach.com | "Clay is $50.00 for 25 pounds of clay. This includes firing and glaze." | The pricing structure for both classes and studio time includes firing and glaze services.
@@ -122,9 +123,9 @@ Sun., Mar. 16 | 10 am – 4 pm
 - Paint & Pottery Studios in St. Augustine — https://www.tripadvisor.com/Attractions-g34599-Activities-c56-t272-St_Augustine_Florida.html
 - Looking for kiln/glaze services in Orlando : r/Pottery — https://www.reddit.com/r/Pottery/comments/1cy32jq/looking_for_kilnglaze_services_in_orlando
 
-## Rejected (78)
+## Rejected (77)
 
-- andersonranch.org: The location is in Colorado, not Florida.
+- andersonranch.org: known place in CO
 - lisayorkarts.com: The text describes past firings and general information, but does not offer current public access or booking details.
 - castlehill.org: The provided text is too sparse to confirm public access or location.
 - noahwoodfired.com: The location is in Virginia, not Florida.
@@ -135,17 +136,17 @@ Sun., Mar. 16 | 10 am – 4 pm
 - otakipotteryclub.org: The location is in Kapiti, which is not in Florida.
 - radiusstudio.org: The page text is not readable, making it impossible to confirm public access.
 - turningearth.org: The location mentioned is London, not Florida.
-- ceramicinfospot.com: The text only provides technical guides for running gas kilns and does not mention public access or workshops.
+- ceramicinfospot.com: The text describes gas kiln operation but does not mention public access for firing.
 - fdacs.gov: no firing words on any page
-- classcentral.com: The provided text only contains links to online video courses, not physical firing opportunities in Florida.
-- digitalfire.com: The text mentions a gas kiln but does not confirm public access for firing.
+- classcentral.com: The provided text only contains links to online video courses and does not indicate any physical firing opportunities for the public in Florida.
+- digitalfire.com: The page discusses firing techniques but does not indicate public access for firing services.
 - classbento.co.uk: The location is in the UK, not Florida.
 - mapquest.com: no firing words on any page
 - doingdishes.com: The text only mentions firing in an on-site kiln without specifying if it is non-electric.
 - kilnfire.com: The website is for pottery studio management software, not a place offering public firings.
 - maudandmabel.com: The text describes firing techniques but does not offer any public participation opportunities or location information.
 - 904arthouse.com: no firing words on any page
-- nhpottersguild.org: Participation requires membership and volunteer labor, not open public access.
+- nhpottersguild.org: Participation requires membership and volunteer labor, suggesting it is not open to the general public.
 - cobbartandecology.org: The text only advertises workshops and residency applications, not public firing participation.
 - gulfcoastkilnwalk.org: The page only lists volunteer opportunities and does not confirm public firing participation.
 - uptown-clay.com: The location is in New York, not Florida.
@@ -187,7 +188,6 @@ Sun., Mar. 16 | 10 am – 4 pm
 - ceramic-cottage-llc.ueniweb.com: The text only mentions firing ceramics generally and does not specify public access to non-electric firing types.
 - yellowpages.com: no firing words on any page
 - sheffield-pottery.com: The website only sells raku supplies and does not mention public firing opportunities.
-- cfk.edu: The text only mentions firing options for enrolled students.
 - jcgep.org: The page text is unreadable and does not confirm public access to non-electric firings.
 - thepaintpotob.com: no firing words on any page
 - artsinorlando.com: no firing words on any page
@@ -198,7 +198,7 @@ Sun., Mar. 16 | 10 am – 4 pm
 - richardmunster.com: The text describes the artist's process but does not offer public access to the firing.
 - nalatanalata.com: The text describes a past firing event in Fukuoka, but does not indicate public participation or booking options.
 - hambidge.org: No readable text was provided to determine public access.
-- schoolofservice.org: The text only describes residency opportunities for artists, not public access to firings.
+- schoolofservice.org: The text only describes residency opportunities, not public access to firings.
 - cubcreek.org: The program is only for residents, not the general public.
 - ohio.edu: The location is in Ohio, not Florida.
 - pocosinarts.org: The text only describes residencies for artists, not public firing events.

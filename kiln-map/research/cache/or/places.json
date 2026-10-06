@@ -1969,21 +1969,17 @@
     "fetched": true,
     "judged": {
       "name": "Turning Earth",
-      "city": "London",
+      "city": "",
       "state": "",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "gas_reduction"
-      ],
-      "quote": "We’re really excited to announce the upcoming launch of Reduction Firing workshops across our London studios.",
-      "dates": [
-        "December 16, 2025"
-      ],
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
       "confidence": "low",
       "reason": "The location is in London, not Oregon.",
-      "quote_verified": true,
-      "secs": 21,
+      "quote_verified": false,
+      "secs": 11,
       "state_on_page": false
     }
   },
@@ -2049,9 +2045,9 @@
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The text only describes certification for gas kiln firing and does not indicate public participation in a non-electric firing.",
+      "reason": "The text describes a certification process for firing gas kilns, which is not open to the general public.",
       "quote_verified": false,
-      "secs": 15,
+      "secs": 9,
       "state_on_page": false
     }
   },
@@ -2084,12 +2080,12 @@
       "firing_types": [
         "gas_reduction"
       ],
-      "quote": "A gas kiln built by Luke Lindoe in the 1960s is still used at Plainsman Clays today",
+      "quote": "",
       "dates": [],
-      "confidence": "low",
-      "reason": "The text mentions a gas kiln but does not confirm public access for firing.",
-      "quote_verified": true,
-      "secs": 23,
+      "confidence": "high",
+      "reason": "The website provides technical information about firing but does not list any public firing events or services.",
+      "quote_verified": false,
+      "secs": 12,
       "state_on_page": false
     }
   },
@@ -2611,21 +2607,18 @@
     },
     "fetched": true,
     "judged": {
-      "name": "N/A",
-      "city": "N/A",
-      "state": "N/A",
+      "name": "Portland Pottery",
+      "city": "",
+      "state": "",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "wood",
-        "raku"
-      ],
-      "quote": "Please note: We do not offer classes, private lessons, kids camps, or workshops at this location!",
+      "firing_types": [],
+      "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The text explicitly states they do not offer classes or workshops, and the available firing information is for supplies, not public firing participation.",
-      "quote_verified": true,
-      "secs": 18,
+      "reason": "The text explicitly states they do not offer classes, private lessons, kids camps, or workshops at the supply shop location.",
+      "quote_verified": false,
+      "secs": 9,
       "state_on_page": false
     }
   },
@@ -3473,9 +3466,9 @@
       "quote": "Clay pricing includes the cost of glazes and firings. No outside materials are permitted. The work being fired at the Craft Center must have been made in the Craft Center.",
       "dates": [],
       "confidence": "high",
-      "reason": "The policy states that all work must be made at the center, implying limited public access to firing services.",
+      "reason": "The policy states that only work made at the center can be fired, indicating limited public access.",
       "quote_verified": true,
-      "secs": 12,
+      "secs": 11,
       "state_on_page": true
     }
   },
@@ -3590,10 +3583,10 @@
     "fetched": true,
     "judged": {
       "name": "Studio Sales",
-      "city": "Avon",
-      "state": "NY",
-      "decision": "reject",
-      "access": "none",
+      "city": "",
+      "state": "",
+      "decision": "qualifies",
+      "access": "dated_events",
       "firing_types": [
         "raku"
       ],
@@ -3603,9 +3596,9 @@
         "August 13, 2022"
       ],
       "confidence": "high",
-      "reason": "The location is in New York, not Oregon.",
+      "reason": "The text advertises a specific, dated raku firing workshop.",
       "quote_verified": true,
-      "secs": 21,
+      "secs": 12,
       "state_on_page": false
     }
   },
@@ -4008,19 +4001,13 @@
       "state": "",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "wood"
-      ],
+      "firing_types": [],
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The text is a blog comparing firing techniques and does not offer public access to fire the kiln.",
+      "reason": "The text is a blog post describing firing techniques and collections, but it does not offer any information about public participation, workshops, or booking for firings.",
       "quote_verified": false,
-      "secs": 15,
+      "secs": 9,
       "state_on_page": false
     }
   },
@@ -4488,9 +4475,9 @@
       "quote": "",
       "dates": [],
       "confidence": "low",
-      "reason": "The website sells supplies and kilns but does not offer public firing events or services.",
+      "reason": "The website sells supplies and kilns but does not offer public firing services.",
       "quote_verified": false,
-      "secs": 13,
+      "secs": 8,
       "state_on_page": false
     }
   },
@@ -4599,7 +4586,7 @@
       "confidence": "low",
       "reason": "The website is a supplier of supplies and kilns, not a location offering public firing services.",
       "quote_verified": false,
-      "secs": 17,
+      "secs": 10,
       "state_on_page": false
     }
   },
@@ -4820,7 +4807,7 @@
     },
     "fetched": true,
     "judged": {
-      "name": "",
+      "name": "schoolofservice.org",
       "city": "",
       "state": "",
       "decision": "reject",
@@ -4828,10 +4815,10 @@
       "firing_types": [],
       "quote": "",
       "dates": [],
-      "confidence": "high",
-      "reason": "The text only describes residency opportunities for artists, not public access to firings.",
+      "confidence": "low",
+      "reason": "The text only describes residency opportunities, not public access to firings.",
       "quote_verified": false,
-      "secs": 14,
+      "secs": 8,
       "state_on_page": false
     }
   },
@@ -4904,10 +4891,10 @@
       "firing_types": [],
       "quote": "",
       "dates": [],
-      "confidence": "low",
-      "reason": "The provided text is a guide about electric kilns and does not mention public firing opportunities in Oregon.",
+      "confidence": "high",
+      "reason": "The provided text is a general guide about electric kilns and does not mention public firing opportunities in Oregon.",
       "quote_verified": false,
-      "secs": 25,
+      "secs": 12,
       "state_on_page": true
     }
   },

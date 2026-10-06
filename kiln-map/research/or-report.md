@@ -45,7 +45,7 @@ Wil Labelle leads this hands-on workshop that features the basics of Raku using 
 | Portland Community College | Portland | raku, wood, soda | ongoing_class_or_membership | **new** | pcc.edu | "The new kiln yard offers students in the ceramics and sculpture classes a dry and bright space in which to do their thing." |
 | Eutectic Gallery | Portland | wood | dated_events | **new** | pdxart.portofportland.online | "Thank you to Eutectic Gallery and Anneliese Kiefer for partnering with the PDX Art Program to bring this exhibition to fruition!" |
 
-## Unclear: needs a second look (30)
+## Unclear: needs a second look (31)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -74,6 +74,7 @@ Starts Feb 18, 2027" | The site lists specific, bookable workshops for Raku firi
 | alexadamsclaywork.com | ? | raku | dated_events | **new** | alexadamsclaywork.com | "Public are welcome to come out on firing day and see the exciting results from the raku kiln." | The site advertises a public raku workshop with a specific firing event.
 | Amphora Ceramic Studio | ? | raku | dated_events | **new** | amphoraceramicstudio.kilnfire.com | "Raku Firing Workshop: This is a 3-part workshop: August 17th(Intro at Amphora), and September 14th (The glaze meeting), and October 5th (The firing)." | The text advertises a specific, dated raku firing workshop at the studio.
 | Afterglow Portland | Portland | raku, wood, soda, salt, pit_barrel_saggar, gas_reduction | ongoing_class_or_membership | **new** | afterglowpdx.com | "pottery community offering classes, memberships, events, kiln services and private party hosting." | The studio offers kiln services and memberships, suggesting public access to various firing types.
+| Studio Sales | ? | raku | dated_events | **new** | studiosalespottery.com | "Workshop: Raku Firing at Studio Sales" | The text advertises a specific, dated raku firing workshop.
 | Seattle Pottery Supply | Seattle | raku | ongoing_class_or_membership | **new** | seattlepotterysupply.com | "Experience the joy of Raku pottery at our monthly firings! Firings take place at our 35 Hanford Street facility on the first and third Saturday of each month." | The text advertises monthly Raku firings open to the public with registration required.
 | Scorched Earth Art Collective | ? | wood, raku, soda, salt, pit_barrel_saggar, gas_reduction | ongoing_class_or_membership | **new** | potteryteachers.com | "All materials, tools, equipment, and kiln firings are included in the cost of classes and workshops." | The class includes kiln firings and the location is implied to be in Oregon by the prompt context.
 | Rogue Valley Pottery Supply | Ashland | raku | dated_events | **new** | site.corsizio.com | "To register for our upcoming Raku Firing, we request all artists pay the $20 to hold their spot." | The text describes a past Raku firing event open to artists who paid to register.
@@ -92,7 +93,7 @@ Starts Feb 18, 2027" | The site lists specific, bookable workshops for Raku firi
 - TOP 10 BEST Ceramics Studio in Portland, OR — https://www.yelp.com/search?find_desc=Ceramics+Studio&find_loc=Portland%2C+OR
 - Clay store/kiln firing - Eugene — https://www.reddit.com/r/Eugene/comments/1o0mc3b/clay_storekiln_firing
 
-## Rejected (57)
+## Rejected (56)
 
 - dirtandceremony.com: The text describes the firing process but does not indicate that the public can participate in a firing event.
 - adamahartstudio.org: known place in WI
@@ -110,13 +111,13 @@ Starts Feb 18, 2027" | The site lists specific, bookable workshops for Raku firi
 - theclay.studio: known place in UK
 - mayapask.com: The page content is not available to confirm public access or location.
 - turningearth.org: The location is in London, not Oregon.
-- raincityclay.com: The text only describes certification for gas kiln firing and does not indicate public participation in a non-electric firing.
-- digitalfire.com: The text mentions a gas kiln but does not confirm public access for firing.
+- raincityclay.com: The text describes a certification process for firing gas kilns, which is not open to the general public.
+- digitalfire.com: The website provides technical information about firing but does not list any public firing events or services.
 - whidbeyclaycenter.com: The location is in Washington, not Oregon.
 - moreanartscenter.org: known place in FL
 - tylerparkarts.org: known place in PA
 - guildoforegonwoodworkers.org: no firing words on any page
-- portlandpottery.com: The text explicitly states they do not offer classes or workshops, and the available firing information is for supplies, not public firing participation.
+- portlandpottery.com: The text explicitly states they do not offer classes, private lessons, kids camps, or workshops at the supply shop location.
 - castlehill.org: known place in MA
 - watervillecreates.org: known place in ME
 - untoday.org: The text describes the process but does not indicate public access for firing.
@@ -128,26 +129,25 @@ Starts Feb 18, 2027" | The site lists specific, bookable workshops for Raku firi
 - portlandclayhouse.com: no firing words on any page
 - cascadeceramics.com: no firing words on any page
 - eugene-or.gov: The text specifies that firings are electric/oxidation only.
-- craftcenter.uoregon.edu: The policy states that all work must be made at the center, implying limited public access to firing services.
+- craftcenter.uoregon.edu: The policy states that only work made at the center can be fired, indicating limited public access.
 - artonthetownwi.com: The website is for Washington, not Oregon.
-- studiosalespottery.com: The location is in New York, not Oregon.
 - bendparksandrec.org: The text only mentions electric kilns and participation is limited to registered class participants.
 - studiocreatebend.com: The text only mentions electric kiln firing for painting services, not public participation in specialized firings.
 - lalucestudio.com: The text only mentions firings are included by the instructor, not public access to firing services.
 - mudlakestudios.com: no firing words on any page
 - rareearthpottery.ca: The location is in Canada, not Oregon.
-- merme.in: The text is a blog comparing firing techniques and does not offer public access to fire the kiln.
+- merme.in: The text is a blog post describing firing techniques and collections, but it does not offer any information about public participation, workshops, or booking for firings.
 - dianarosestudio.com: The text only mentions classes and workshops, not public access to firing services.
 - see.oregonstate.edu: no firing words on any page
 - austincoudriet.com: no firing words on any page
 - claykilncollective.com: The text only mentions classes and workshops, not specific firing services for the public.
-- sheffield-pottery.com: The website sells supplies and kilns but does not offer public firing events or services.
+- sheffield-pottery.com: The website sells supplies and kilns but does not offer public firing services.
 - aardvarkclay.com: The website is a supplier of supplies and kilns, not a location offering public firing services.
 - northampton.edu: known place in PA
 - laney.edu: known place in CA
 - owic.oregonstate.edu: The text states the kiln was decommissioned in 2015.
-- schoolofservice.org: The text only describes residency opportunities for artists, not public access to firings.
-- ceramicsfieldguide.org: The provided text is a guide about electric kilns and does not mention public firing opportunities in Oregon.
+- schoolofservice.org: The text only describes residency opportunities, not public access to firings.
+- ceramicsfieldguide.org: The provided text is a general guide about electric kilns and does not mention public firing opportunities in Oregon.
 - nalatanalata.com: The text describes firings in Japan and does not mention Oregon.
 - kilnroomcolumbus.com: The studio is located in Ohio, not Oregon.
 - calliopemadrid.com: The location is in New Mexico, not Oregon.

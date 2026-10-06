@@ -1333,9 +1333,9 @@
         "quote": "",
         "dates": [],
         "confidence": "high",
-        "reason": "The page is a guide about the process and does not list any public firing opportunities.",
+        "reason": "The page is an informational guide and does not list any public firing events or opportunities.",
         "quote_verified": false,
-        "secs": 15,
+        "secs": 8,
         "state_on_page": false
       }
     },
@@ -1364,9 +1364,9 @@
         "quote": "",
         "dates": [],
         "confidence": "high",
-        "reason": "The text describes the process but does not offer any public access or booking information.",
+        "reason": "The text describes the firing process but does not indicate public access for firing.",
         "quote_verified": false,
-        "secs": 14,
+        "secs": 7,
         "state_on_page": false
       }
     },
@@ -1464,7 +1464,7 @@
         "confidence": "high",
         "reason": "The location is in Devon, which is outside of Michigan.",
         "quote_verified": true,
-        "secs": 17,
+        "secs": 10,
         "state_on_page": false
       }
     },
@@ -1500,24 +1500,25 @@
       ],
       "fetched": true,
       "judged": {
-        "name": "",
-        "city": "",
-        "state": "",
+        "name": "N/A",
+        "city": "N/A",
+        "state": "N/A",
         "decision": "reject",
         "access": "none",
         "firing_types": [
           "wood",
-          "soda",
+          "raku",
           "salt",
+          "soda",
           "pit_barrel_saggar",
           "gas_reduction"
         ],
         "quote": "",
         "dates": [],
         "confidence": "high",
-        "reason": "The page discusses workshops and residencies but does not confirm public access to non-electric firings in Michigan.",
+        "reason": "The page discusses workshops but does not specify a location in Michigan.",
         "quote_verified": false,
-        "secs": 23,
+        "secs": 15,
         "state_on_page": false
       }
     },
@@ -1872,21 +1873,17 @@
       "fetched": true,
       "judged": {
         "name": "Turning Earth",
-        "city": "London",
+        "city": "",
         "state": "",
         "decision": "reject",
         "access": "none",
-        "firing_types": [
-          "gas_reduction"
-        ],
-        "quote": "We’re really excited to announce the upcoming launch of Reduction Firing workshops across our London studios.",
-        "dates": [
-          "December 16, 2025"
-        ],
+        "firing_types": [],
+        "quote": "",
+        "dates": [],
         "confidence": "low",
         "reason": "The location is in London, not Michigan.",
-        "quote_verified": true,
-        "secs": 21,
+        "quote_verified": false,
+        "secs": 11,
         "state_on_page": false
       }
     },
@@ -1927,10 +1924,10 @@
         ],
         "quote": "",
         "dates": [],
-        "confidence": "low",
-        "reason": "The website provides information about firing processes but does not indicate a location or public access for firing services.",
+        "confidence": "high",
+        "reason": "The website is a resource for information and does not offer public firing services.",
         "quote_verified": false,
-        "secs": 21,
+        "secs": 12,
         "state_on_page": false
       }
     },
@@ -2488,24 +2485,13 @@
         "state": "",
         "decision": "reject",
         "access": "none",
-        "firing_types": [
-          "raku",
-          "wood",
-          "soda",
-          "salt",
-          "soda",
-          "salt",
-          "wood",
-          "soda",
-          "raku",
-          "soda"
-        ],
+        "firing_types": [],
         "quote": "",
         "dates": [],
         "confidence": "high",
-        "reason": "The text is an informational blog about firing techniques and does not offer public access or booking information.",
+        "reason": "The text is an editorial guide about firing techniques and does not offer information on public participation or booking for firings in Michigan.",
         "quote_verified": false,
-        "secs": 10,
+        "secs": 9,
         "state_on_page": false
       }
     },
@@ -4688,7 +4674,7 @@
       ],
       "fetched": true,
       "judged": {
-        "name": "OHIO ceramics program",
+        "name": "Ohio University",
         "city": "",
         "state": "OH",
         "decision": "reject",
@@ -4705,9 +4691,9 @@
           "June 4 to 11"
         ],
         "confidence": "low",
-        "reason": "The event is primarily for students and alumni, and the public participation is not guaranteed.",
+        "reason": "The event is primarily for students and alumni, and the public access is not clearly defined for participation in the firing.",
         "quote_verified": false,
-        "secs": 22,
+        "secs": 11,
         "state_on_page": false
       }
     },

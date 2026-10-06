@@ -113,21 +113,21 @@ Glazing for Electric Kiln with Cecilia Armstrong
 - landisvalleymuseum.org: The public participates in a workshop, but the firing is completed by the instructor, not by the public.
 - craftcourses.com: known place in UK
 - thesaltbarre.com: no firing words on any page
-- parkdalepottery.ca: The location is outside Pennsylvania.
+- parkdalepottery.ca: The text describes firing techniques but does not confirm public access for these firings.
 - inspirepotterystudio.com: The text only mentions electric kiln firing basics and does not confirm public access to non-electric firing methods.
-- ceramicartsnetwork.org: The page is an informational resource about firing techniques, not an event listing for the public to participate in.
+- ceramicartsnetwork.org: The page is a resource archive and does not list public firing events or services.
 - radiusstudio.org: known place in OR
-- turningearth.org: The location is in London, not Pennsylvania.
-- classcentral.com: The provided text only links to online courses and videos about firing, not an actual physical location in Pennsylvania for the public to participate in a firing.
+- turningearth.org: The location mentioned is London, not Pennsylvania.
+- classcentral.com: The provided text only links to YouTube videos and course listings on Class Central, not an actual physical location in Pennsylvania where the public can participate in a firing.
 - katherinefortnumceramics.com: The text is a blog post describing a firing method and does not indicate public access for firing.
-- kilnfrog.com: The page is an informational blog post about firing techniques and does not offer public firing services.
+- kilnfrog.com: The website is a general resource about kilns and firing processes, not offering public firing services.
 - kilnfire.com: The text only describes software for managing firings, not public access to firing services.
 - blackhoundclaywest.com: no firing words on any page
 - rebelpotters.org: The page mentions workshops and firing but does not specify if the public can book or participate in a non-electric firing.
-- creativeartsstudios.com: The location is in Michigan, not Pennsylvania.
+- creativeartsstudios.com: The studio is located in Michigan, not Pennsylvania.
 - kilnfolkclay.com: The studio is located in Washington, not Pennsylvania.
 - ratcitystudios.com: The studio is located in Washington, not Pennsylvania.
-- hopewellstudios.co.uk: The location is in the UK, not Pennsylvania.
+- hopewellstudios.co.uk: The studio is located in the UK, not Pennsylvania.
 - kilnntime.com: The text only describes painting and firing services, not public access to non-electric firing techniques.
 - nextpittsburgh.com: The text mentions studios but does not confirm public access to non-electric firing services.
 - nhpottersguild.org: known place in NH
@@ -136,7 +136,7 @@ Glazing for Electric Kiln with Cecilia Armstrong
 - bennettgraves.art: The available firing service mentioned is electric only.
 - oxcombepottery.co.uk: The location is in the UK, not Pennsylvania.
 - baileypottery.com: The text is a blog post about raku tools and does not confirm public access to a firing event.
-- merme.in: The text is a blog comparing firing techniques and does not offer any information about public participation or booking a firing in Pennsylvania.
+- merme.in: The text is a blog post describing firing techniques and collections, but it does not offer any information about public participation, workshops, or booking for these firings.
 - bismarckstate.edu: The location is in North Dakota, not Pennsylvania.
 - cook-on-clay.myshopify.com: The listed workshops are for 2026, which is after the cutoff date.
 - https://www.eventbrite.com/d/pa--allentown/pottery: no firing words on any page
@@ -147,13 +147,13 @@ Glazing for Electric Kiln with Cecilia Armstrong
 - naturesclaypotterystudio.com: The page mentions firing services but does not specify if the public can participate in a non-electric firing.
 - 2000degreespottery.com: no firing words on any page
 - laney.edu: known place in CA
-- arts.psu.edu: The text only mentions facilities for students and does not indicate public access for firing.
+- arts.psu.edu: The text describes facilities for students and faculty but does not mention public access for firing services.
 - themakerypa.com: no firing words on any page
 - psucollegian.com: The text is a student newspaper and does not mention public firing opportunities.
 - ceramic.school: The location is not specified as being in Pennsylvania.
 - untoday.org: The text describes the process but does not offer public access or booking information.
-- sheffield-pottery.com: The website sells supplies and kilns but does not offer public firing events or services.
-- gemceramic.com: The text only lists clay and slip products and does not mention public firing services.
+- sheffield-pottery.com: The website sells supplies and kilns but does not offer public firing services.
+- gemceramic.com: The page only sells supplies and does not mention public firing services.
 - aardvarkclay.com: The website is a supplier of supplies and kilns, not a location offering public firing services.
 - paroute6.com: The page text was not available to confirm public firing access.
 - claytopiaerie.com: The text only describes painting and firing services, not specific non-electric firing workshops or open firing services.

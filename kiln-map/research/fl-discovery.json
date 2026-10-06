@@ -1184,22 +1184,9 @@
       ],
       "fetched": true,
       "judged": {
-        "name": "Anderson Ranch Arts Center",
-        "city": "Snowmass Village",
-        "state": "CO",
         "decision": "reject",
-        "access": "none",
-        "firing_types": [
-          "soda",
-          "gas_reduction",
-          "wood"
-        ],
-        "quote": "The ceramics studio at Anderson Ranch Arts Center, located in Snowmass Village near Aspen, Colorado, is a fully equipped professional ceramics studio designed to support immersive workshops and advanced studio practice.",
-        "dates": [],
-        "confidence": "high",
-        "reason": "The location is in Colorado, not Florida.",
-        "quote_verified": true,
-        "secs": 16,
+        "reason": "known place in CO",
+        "auto": true,
         "state_on_page": false
       }
     },
@@ -2261,7 +2248,7 @@
         "confidence": "high",
         "reason": "The location mentioned is London, not Florida.",
         "quote_verified": true,
-        "secs": 11,
+        "secs": 12,
         "state_on_page": false
       }
     },
@@ -2279,18 +2266,20 @@
       ],
       "fetched": true,
       "judged": {
-        "name": "",
-        "city": "",
-        "state": "",
+        "name": "N/A",
+        "city": "N/A",
+        "state": "N/A",
         "decision": "reject",
         "access": "none",
-        "firing_types": [],
+        "firing_types": [
+          "gas_reduction"
+        ],
         "quote": "",
         "dates": [],
         "confidence": "high",
-        "reason": "The text only provides technical guides for running gas kilns and does not mention public access or workshops.",
+        "reason": "The text describes gas kiln operation but does not mention public access for firing.",
         "quote_verified": false,
-        "secs": 7,
+        "secs": 9,
         "state_on_page": false
       }
     },
@@ -2333,15 +2322,13 @@
         "state": "",
         "decision": "reject",
         "access": "none",
-        "firing_types": [
-          "gas_reduction"
-        ],
+        "firing_types": [],
         "quote": "",
         "dates": [],
         "confidence": "high",
-        "reason": "The provided text only contains links to online video courses, not physical firing opportunities in Florida.",
+        "reason": "The provided text only contains links to online video courses and does not indicate any physical firing opportunities for the public in Florida.",
         "quote_verified": false,
-        "secs": 7,
+        "secs": 8,
         "state_on_page": false
       }
     },
@@ -2367,11 +2354,11 @@
         "firing_types": [
           "gas_reduction"
         ],
-        "quote": "A gas kiln built by Luke Lindoe in the 1960s is still used at Plainsman Clays today",
+        "quote": "",
         "dates": [],
-        "confidence": "low",
-        "reason": "The text mentions a gas kiln but does not confirm public access for firing.",
-        "quote_verified": true,
+        "confidence": "high",
+        "reason": "The page discusses firing techniques but does not indicate public access for firing services.",
+        "quote_verified": false,
         "secs": 12,
         "state_on_page": false
       }
@@ -3111,9 +3098,9 @@
           "June 27th"
         ],
         "confidence": "high",
-        "reason": "Participation requires membership and volunteer labor, not open public access.",
+        "reason": "Participation requires membership and volunteer labor, suggesting it is not open to the general public.",
         "quote_verified": true,
-        "secs": 9,
+        "secs": 10,
         "state_on_page": false
       }
     },
@@ -5486,7 +5473,7 @@
           "Saturday 20, 2022",
           "August 13, 2022"
         ],
-        "confidence": "low",
+        "confidence": "high",
         "reason": "The location is in New York, not Florida.",
         "quote_verified": true,
         "secs": 8,
@@ -6415,18 +6402,20 @@
         "name": "CFK",
         "city": "",
         "state": "",
-        "decision": "reject",
-        "access": "none",
+        "decision": "qualifies",
+        "access": "ongoing_class_or_membership",
         "firing_types": [
           "raku",
-          "wood"
+          "wood",
+          "soda",
+          "gas_reduction"
         ],
         "quote": "Firing options for this class include reduction, raku, and wood/soda depending on the schedule.",
         "dates": [],
         "confidence": "high",
-        "reason": "The text only mentions firing options for enrolled students.",
+        "reason": "The text mentions firing options like raku and wood/soda for a class that is available to students with prior experience.",
         "quote_verified": true,
-        "secs": 6,
+        "secs": 7,
         "state_on_page": false
       }
     },
@@ -6947,7 +6936,7 @@
       ],
       "fetched": true,
       "judged": {
-        "name": "schoolofservice.org",
+        "name": "Access Arts",
         "city": "",
         "state": "",
         "decision": "reject",
@@ -6959,10 +6948,10 @@
         ],
         "quote": "",
         "dates": [],
-        "confidence": "high",
-        "reason": "The text only describes residency opportunities for artists, not public access to firings.",
+        "confidence": "low",
+        "reason": "The text only describes residency opportunities, not public access to firings.",
         "quote_verified": false,
-        "secs": 7,
+        "secs": 8,
         "state_on_page": false
       }
     },

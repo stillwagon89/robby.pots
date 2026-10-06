@@ -39,7 +39,7 @@ Searches: 27 (Tavily). Places seen: 127. Judge: gemma4:latest on this Mac. No Cl
 | The Ceramic School | Denver | wood | dated_events | **new** | ceramic.school | "In this workshop on enhancing pottery forms through wood/soda firings, participants achieve unique atmospheric surfaces on pottery forms and discover new ways t" |
 | Community Clay - Pattern Shop | Denver | raku | dated_events | **new** | simpletix.com | "Join Community CLay and AlSi Ceramics for an incredible raku firing experience!" |
 
-## Unclear: needs a second look (25)
+## Unclear: needs a second look (26)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -49,6 +49,7 @@ Searches: 27 (Tavily). Places seen: 127. Judge: gemma4:latest on this Mac. No Cl
 | Stinky Cheese Ceramics | Loveland | raku | dated_events | **new** | stinkycheeseceramics.com | "Workshop: Raku Firing - NOV 7th - Loveland, CO | Stinky ...: (Porcelain and red clays not recommended)" | The site advertises a specific Raku firing workshop date in Loveland, CO.
 | The Bascom | ? | soda | dated_events | **new** | thebascom.org | "Form and Fire: A Handbuilding and Soda Firing Workshop" | The text describes a specific workshop that includes a soda firing.
 | do303.com | Aurora | soda, pit_barrel_saggar | dated_events | **new** | do303.com | "Two-Part Saggar Firing Workshop in Aurora at Stanley: Discover the magic of Saggar firing in this immersive two-part pottery workshop." | The text advertises a specific saggar firing workshop in Aurora, CO.
+| Abi Higgins Ceramics Studio | ? | raku, soda, salt, pit_barrel_saggar, gas_reduction | dated_events | **new** | cademy.io | "Raku, Saggar, Barrel, Copper Wash and Horsehair Firing Workshop - 2026" | The page advertises a specific workshop date in 2026 involving multiple non-electric firings.
 | Wilson & Co. | ? | soda, pit_barrel_saggar | dated_events | **new** | wilsonandcogallery.com | "Join us for a hands-on introduction to saggar firing, an experimental, low fire reduction firing process that uses smoke, carbon, minerals, and organic material" | The site advertises a specific workshop for saggar firing.
 | Anhinga Clay Studios | ? | pit_barrel_saggar | dated_events | **new** | anhingaclaystudios.com | "Saturday, March 28
 10am -5pm" | The text advertises a specific, dated workshop involving a pit and smoke firing.
@@ -76,7 +77,7 @@ Searches: 27 (Tavily). Places seen: 127. Judge: gemma4:latest on this Mac. No Cl
 - Instagram — https://www.instagram.com/reel/DIg2ySZAcX_
 - Wood firing! I got to fire in an anagama as part ... — https://www.reddit.com/r/Pottery/comments/1hdx413/wood_firing_i_got_to_fire_in_an_anagama_as_part
 
-## Rejected (67)
+## Rejected (66)
 
 - higherfirestudios.com: The event is located in California, not Colorado.
 - shelbyprindaville.com: The text describes a past workshop and does not indicate current public availability.
@@ -89,20 +90,19 @@ Searches: 27 (Tavily). Places seen: 127. Judge: gemma4:latest on this Mac. No Cl
 - athens.edu: The event is located in Alabama, not Colorado.
 - alabamacenterforthearts.org: The location is in Alabama, not Colorado.
 - coloradopotters.org: The guild explicitly states it is not currently open to the public.
-- events.humanitix.com: The location is in California, not Colorado.
+- events.humanitix.com: The event is located in California, not Colorado.
 - petersvalley.org: known place in NJ
 - thegallerysportsmansclub.com: The text describes a firing range, not a public pottery firing service.
 - theclay.studio: known place in UK
-- cademy.io: The location is in Devon, which is not in Colorado.
-- visitcausewaycoastandglens.com: The location is in Bushmills, which is not in Colorado.
+- visitcausewaycoastandglens.com: The location is in Northern Ireland, not Colorado.
 - wetravel.com: The workshop is located in New York, not Colorado.
 - radiusstudio.org: known place in OR
-- turningearth.org: The location is in London, not Colorado.
-- digitalfire.com: The page discusses firing techniques but does not list any public firing events or services in Colorado.
+- turningearth.org: The location mentioned is in London, not Colorado.
+- digitalfire.com: The page discusses firing techniques but does not indicate public access for firing services.
 - clayastudios.com: The text only mentions leaving the firing to the studio, not allowing public participation in a specific type of firing.
-- clay-king.com: The website is an online store and does not list public firing events or services in Colorado.
+- clay-king.com: The website is an online store and does not offer public firing services in Colorado.
 - rinoartdistrict.org: no firing words on any page
-- creativeartsstudios.com: The location is in Michigan, not Colorado.
+- creativeartsstudios.com: The studio is located in Michigan, not Colorado.
 - bonsainut.com: The text is a question asking for information rather than confirming an available firing.
 - voc.org: no firing words on any page
 - givecampus.com: The listed event has already ended.
@@ -117,7 +117,7 @@ Searches: 27 (Tavily). Places seen: 127. Judge: gemma4:latest on this Mac. No Cl
 - fortcollins.gov: no firing words on any page
 - throwing-mud.com: The location is not specified as being in Colorado.
 - yunomipotterystudio.com: no firing words on any page
-- merme.in: The text is an informational blog about firing techniques and does not offer public access or booking information.
+- merme.in: The text describes firing techniques but does not indicate public access for firing participation.
 - durango.org: no firing words on any page
 - downtowndurango.org: no firing words on any page
 - smokestackpottery.com: The page text was not available to confirm public access to a non-electric firing.
@@ -125,9 +125,9 @@ Searches: 27 (Tavily). Places seen: 127. Judge: gemma4:latest on this Mac. No Cl
 - thespringsceramicsupply.com: The website is a supply store and does not confirm public participation in a firing.
 - yellowpages.com: The provided text is only a directory listing and does not confirm public participation in a firing.
 - rockymountainclay.com: The page only sells clay bodies and mentions kiln types, but does not offer public firing services.
-- continentalclay.com: The website is a supplier of equipment and supplies, not a venue offering public firing services.
+- continentalclay.com: The website is a supplier of supplies and equipment, not a place offering public firing services.
 - visitgreeley.com: The text mentions multiple kiln types but does not specify public access for firing participation.
-- western.edu: The text only describes access for enrolled students in the degree program.
+- western.edu: The text only describes facilities available to enrolled students in a degree program.
 - laney.edu: known place in CA
 - craftcouncil.org: The text discusses various locations but does not confirm a public, bookable firing in Colorado.
 - carbondaleclaycenter.app.neoncrm.com: no firing words on any page
@@ -137,7 +137,7 @@ Searches: 27 (Tavily). Places seen: 127. Judge: gemma4:latest on this Mac. No Cl
 - canyoncourier.com: The listed event is only for concurrently enrolled students, not the general public.
 - https://www.active.com/denver-co/pottery-and-ceramics/classes/arts-raku-firing-cook-park-2026-110153411: known place in IN
 - watershedceramics.org: known place in ME
-- ohio.edu: The event is primarily for students and alumni, and the public participation is not guaranteed.
+- ohio.edu: The event is primarily for students and alumni, and the public access is not clearly defined for participation in the firing.
 - atmos.colostate.edu: The text discusses academic residency and awards, with no mention of public pottery firings.
 - transartists.org: The text only describes residency for artists and does not mention public firing access.
 - claycreationspacifica.com: known place in CA

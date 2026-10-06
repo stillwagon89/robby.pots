@@ -1542,17 +1542,13 @@
         "state": "",
         "decision": "reject",
         "access": "none",
-        "firing_types": [
-          "gas_reduction"
-        ],
-        "quote": "We’re really excited to announce the upcoming launch of Reduction Firing workshops across our London studios.",
-        "dates": [
-          "December 16, 2025"
-        ],
+        "firing_types": [],
+        "quote": "",
+        "dates": [],
         "confidence": "low",
-        "reason": "The location mentioned is London, not North Carolina.",
-        "quote_verified": true,
-        "secs": 21,
+        "reason": "The text mentions workshops and firings but all locations are in London, not North Carolina.",
+        "quote_verified": false,
+        "secs": 13,
         "state_on_page": false
       }
     },
@@ -4237,15 +4233,15 @@
         "name": "Community Clay Studio",
         "city": "Chapel Hill",
         "state": "NC",
-        "decision": "reject",
+        "decision": "unclear",
         "access": "none",
         "firing_types": [],
         "quote": "",
         "dates": [],
         "confidence": "low",
-        "reason": "The text only mentions classes and does not confirm public access to non-electric firings.",
+        "reason": "The text mentions kilns and classes but does not specify if the public can book or participate in a non-electric firing.",
         "quote_verified": false,
-        "secs": 15,
+        "secs": 7,
         "state_on_page": true
       }
     },

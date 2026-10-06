@@ -1467,16 +1467,11 @@
         "soda"
       ],
       "quote": "Come learn the fundamentals of soda firing at our Atmospheric Firing Center in San Gregorio!",
-      "dates": [
-        "Nov 7, 2026 - Nov 21, 2026",
-        "Jan 9, 2027 - Jan 23, 2027",
-        "Feb 6, 2027 - Feb 20, 2027",
-        "Apr 3, 2027 - Apr 17, 2027"
-      ],
+      "dates": [],
       "confidence": "high",
       "reason": "The location is in California, not Ohio.",
       "quote_verified": true,
-      "secs": 42,
+      "secs": 16,
       "state_on_page": false
     }
   },
@@ -1911,21 +1906,17 @@
     "fetched": true,
     "judged": {
       "name": "Turning Earth",
-      "city": "London",
+      "city": "",
       "state": "",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "gas_reduction"
-      ],
-      "quote": "We’re really excited to announce the upcoming launch of Reduction Firing workshops across our London studios.",
-      "dates": [
-        "December 16, 2025"
-      ],
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
       "confidence": "low",
       "reason": "The location is in London, not Ohio.",
-      "quote_verified": true,
-      "secs": 27,
+      "quote_verified": false,
+      "secs": 11,
       "state_on_page": false
     }
   },
@@ -1954,12 +1945,12 @@
       "firing_types": [
         "gas_reduction"
       ],
-      "quote": "By choosing to fire kilns at RCC, you are responsible for the facility and artwork in the kiln",
+      "quote": "",
       "dates": [],
-      "confidence": "low",
-      "reason": "The text only describes certification for gas firing and requires participation in a class firing, but it does not confirm public access to book or participate in a non-electric firing.",
-      "quote_verified": true,
-      "secs": 26,
+      "confidence": "high",
+      "reason": "The text describes a certification process for gas kiln firing that requires participation in a class firing, but it does not indicate general public access for non-electric firings.",
+      "quote_verified": false,
+      "secs": 9,
       "state_on_page": false
     }
   },
@@ -3021,20 +3012,13 @@
       "state": "OH",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "wood",
-        "raku",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
+      "firing_types": [],
       "quote": "You must be a member of AMS and do the majority of your making at AMS to have your projects fired in the kiln. Our kiln is not for hire.",
       "dates": [],
       "confidence": "high",
-      "reason": "The text explicitly states that only members can have their work fired in the kiln.",
+      "reason": "The text explicitly states that only members who do the majority of their work there can have pieces fired.",
       "quote_verified": true,
-      "secs": 32,
+      "secs": 11,
       "state_on_page": false
     }
   },
@@ -3268,15 +3252,13 @@
       "state": "",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "raku"
-      ],
+      "firing_types": [],
       "quote": "",
       "dates": [],
-      "confidence": "low",
-      "reason": "The text is a blog post describing Raku pottery and does not mention any public firing events or opportunities in Ohio.",
+      "confidence": "high",
+      "reason": "The text is a blog post describing Raku pottery and does not mention any public firing opportunities.",
       "quote_verified": false,
-      "secs": 23,
+      "secs": 8,
       "state_on_page": false
     }
   },
@@ -3318,7 +3300,7 @@
       "confidence": "high",
       "reason": "The provided text is from Wikipedia articles and does not mention any public firing opportunities in Ohio.",
       "quote_verified": false,
-      "secs": 35,
+      "secs": 13,
       "state_on_page": false
     }
   },
@@ -3465,9 +3447,9 @@
     },
     "fetched": true,
     "judged": {
-      "name": "",
-      "city": "",
-      "state": "",
+      "name": "N/A",
+      "city": "N/A",
+      "state": "N/A",
       "decision": "reject",
       "access": "none",
       "firing_types": [
@@ -3475,6 +3457,10 @@
         "wood",
         "soda",
         "salt",
+        "soda",
+        "salt",
+        "wood",
+        "raku",
         "soda",
         "salt",
         "wood",
@@ -3488,9 +3474,9 @@
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The text describes firing techniques but does not mention a location in Ohio or any public participation opportunities.",
+      "reason": "The text describes firing techniques but does not indicate public access for firing in Ohio.",
       "quote_verified": false,
-      "secs": 48,
+      "secs": 17,
       "state_on_page": false
     }
   },
@@ -3919,9 +3905,9 @@
     },
     "fetched": true,
     "judged": {
-      "name": "N/A",
-      "city": "N/A",
-      "state": "N/A",
+      "name": "sheffield-pottery.com",
+      "city": "",
+      "state": "",
       "decision": "reject",
       "access": "none",
       "firing_types": [
@@ -3929,10 +3915,10 @@
       ],
       "quote": "",
       "dates": [],
-      "confidence": "high",
-      "reason": "The website sells supplies and kilns but does not offer public firing events or services.",
+      "confidence": "low",
+      "reason": "The website sells supplies and kilns but does not offer public firing services.",
       "quote_verified": false,
-      "secs": 23,
+      "secs": 8,
       "state_on_page": false
     }
   },
@@ -4048,7 +4034,7 @@
     },
     "fetched": true,
     "judged": {
-      "name": "",
+      "name": "N/A",
       "city": "",
       "state": "",
       "decision": "reject",
@@ -4056,10 +4042,10 @@
       "firing_types": [],
       "quote": "",
       "dates": [],
-      "confidence": "low",
+      "confidence": "high",
       "reason": "The website is a supplier of supplies and kilns, not a location offering public firing services.",
       "quote_verified": false,
-      "secs": 30,
+      "secs": 10,
       "state_on_page": false
     }
   },
@@ -4093,7 +4079,7 @@
       "confidence": "high",
       "reason": "The location is in Tennessee, not Ohio.",
       "quote_verified": false,
-      "secs": 21,
+      "secs": 7,
       "state_on_page": false
     }
   },

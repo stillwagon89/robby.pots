@@ -2177,7 +2177,7 @@
     "judged": {
       "name": "Parkdale Pottery",
       "city": "Toronto",
-      "state": "ON",
+      "state": "",
       "decision": "reject",
       "access": "none",
       "firing_types": [
@@ -2190,9 +2190,9 @@
       "quote": "",
       "dates": [],
       "confidence": "low",
-      "reason": "The location is outside Pennsylvania.",
+      "reason": "The text describes firing techniques but does not confirm public access for these firings.",
       "quote_verified": false,
-      "secs": 24,
+      "secs": 10,
       "state_on_page": false
     }
   },
@@ -2297,12 +2297,12 @@
         "soda",
         "wood"
       ],
-      "quote": "In this section, ceramic artists will share the results of their experimentation with the salt and soda firing process.",
+      "quote": "In this section, ceramic artists will share the results of their experimentation with the salt and soda firing process. You’ll find everything from firing schedules to glaze recipes, to beautiful examples of salt and soda fired work.",
       "dates": [],
       "confidence": "high",
-      "reason": "The page is an informational resource about firing techniques, not an event listing for the public to participate in.",
+      "reason": "The page is a resource archive and does not list public firing events or services.",
       "quote_verified": true,
-      "secs": 48,
+      "secs": 17,
       "state_on_page": false
     }
   },
@@ -2351,21 +2351,17 @@
     "fetched": true,
     "judged": {
       "name": "Turning Earth",
-      "city": "London",
+      "city": "",
       "state": "",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "gas_reduction"
-      ],
-      "quote": "We’re really excited to announce the upcoming launch of Reduction Firing workshops across our London studios.",
-      "dates": [
-        "December 16, 2025"
-      ],
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
       "confidence": "low",
-      "reason": "The location is in London, not Pennsylvania.",
-      "quote_verified": true,
-      "secs": 32,
+      "reason": "The location mentioned is London, not Pennsylvania.",
+      "quote_verified": false,
+      "secs": 11,
       "state_on_page": false
     }
   },
@@ -2401,18 +2397,20 @@
     },
     "fetched": true,
     "judged": {
-      "name": "",
-      "city": "",
-      "state": "",
+      "name": "N/A",
+      "city": "N/A",
+      "state": "N/A",
       "decision": "reject",
       "access": "none",
-      "firing_types": [],
+      "firing_types": [
+        "gas_reduction"
+      ],
       "quote": "",
       "dates": [],
       "confidence": "low",
-      "reason": "The provided text only links to online courses and videos about firing, not an actual physical location in Pennsylvania for the public to participate in a firing.",
+      "reason": "The provided text only links to YouTube videos and course listings on Class Central, not an actual physical location in Pennsylvania where the public can participate in a firing.",
       "quote_verified": false,
-      "secs": 29,
+      "secs": 11,
       "state_on_page": false
     }
   },
@@ -2459,10 +2457,10 @@
       ],
       "quote": "",
       "dates": [],
-      "confidence": "low",
+      "confidence": "high",
       "reason": "The text is a blog post describing a firing method and does not indicate public access for firing.",
       "quote_verified": false,
-      "secs": 19,
+      "secs": 7,
       "state_on_page": false
     }
   },
@@ -2483,7 +2481,7 @@
     },
     "fetched": true,
     "judged": {
-      "name": "N/A",
+      "name": "Kiln Frog",
       "city": "",
       "state": "",
       "decision": "reject",
@@ -2494,9 +2492,9 @@
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The page is an informational blog post about firing techniques and does not offer public firing services.",
+      "reason": "The website is a general resource about kilns and firing processes, not offering public firing services.",
       "quote_verified": false,
-      "secs": 22,
+      "secs": 9,
       "state_on_page": false
     }
   },
@@ -2988,12 +2986,12 @@
       "firing_types": [
         "raku"
       ],
-      "quote": "Monthly firings, as the weather permits",
+      "quote": "Available to all students signed up for our Intro to Wheel Throwing courses",
       "dates": [],
-      "confidence": "low",
-      "reason": "The location is in Michigan, not Pennsylvania.",
+      "confidence": "high",
+      "reason": "The studio is located in Michigan, not Pennsylvania.",
       "quote_verified": true,
-      "secs": 16,
+      "secs": 8,
       "state_on_page": false
     }
   },
@@ -3148,10 +3146,10 @@
       ],
       "quote": "",
       "dates": [],
-      "confidence": "low",
-      "reason": "The location is in the UK, not Pennsylvania.",
+      "confidence": "high",
+      "reason": "The studio is located in the UK, not Pennsylvania.",
       "quote_verified": false,
-      "secs": 14,
+      "secs": 7,
       "state_on_page": false
     }
   },
@@ -3861,19 +3859,13 @@
       "state": "",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "wood"
-      ],
+      "firing_types": [],
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The text is a blog comparing firing techniques and does not offer any information about public participation or booking a firing in Pennsylvania.",
+      "reason": "The text is a blog post describing firing techniques and collections, but it does not offer any information about public participation, workshops, or booking for these firings.",
       "quote_verified": false,
-      "secs": 15,
+      "secs": 9,
       "state_on_page": false
     }
   },
@@ -3913,7 +3905,7 @@
       "confidence": "high",
       "reason": "The location is in North Dakota, not Pennsylvania.",
       "quote_verified": true,
-      "secs": 14,
+      "secs": 9,
       "state_on_page": false
     }
   },
@@ -4444,7 +4436,7 @@
     },
     "fetched": true,
     "judged": {
-      "name": "arts.psu.edu",
+      "name": "SoVA Ceramics Studio",
       "city": "",
       "state": "PA",
       "decision": "reject",
@@ -4454,12 +4446,12 @@
         "salt",
         "wood"
       ],
-      "quote": "Bisque firing area in the ceramics studio space where students put their project work.",
+      "quote": "",
       "dates": [],
-      "confidence": "low",
-      "reason": "The text only mentions facilities for students and does not indicate public access for firing.",
-      "quote_verified": true,
-      "secs": 12,
+      "confidence": "high",
+      "reason": "The text describes facilities for students and faculty but does not mention public access for firing services.",
+      "quote_verified": false,
+      "secs": 7,
       "state_on_page": true
     }
   },
@@ -4566,7 +4558,7 @@
       "confidence": "high",
       "reason": "The location is not specified as being in Pennsylvania.",
       "quote_verified": true,
-      "secs": 14,
+      "secs": 9,
       "state_on_page": false
     }
   },
@@ -4812,9 +4804,9 @@
     },
     "fetched": true,
     "judged": {
-      "name": "N/A",
-      "city": "N/A",
-      "state": "N/A",
+      "name": "sheffield-pottery.com",
+      "city": "",
+      "state": "",
       "decision": "reject",
       "access": "none",
       "firing_types": [
@@ -4822,10 +4814,10 @@
       ],
       "quote": "",
       "dates": [],
-      "confidence": "high",
-      "reason": "The website sells supplies and kilns but does not offer public firing events or services.",
+      "confidence": "low",
+      "reason": "The website sells supplies and kilns but does not offer public firing services.",
       "quote_verified": false,
-      "secs": 12,
+      "secs": 8,
       "state_on_page": false
     }
   },
@@ -4852,14 +4844,19 @@
       "decision": "reject",
       "access": "none",
       "firing_types": [
+        "wood",
+        "raku",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
         "gas_reduction"
       ],
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The text only lists clay and slip products and does not mention public firing services.",
+      "reason": "The page only sells supplies and does not mention public firing services.",
       "quote_verified": false,
-      "secs": 10,
+      "secs": 8,
       "state_on_page": true
     }
   },
@@ -4884,7 +4881,7 @@
     },
     "fetched": true,
     "judged": {
-      "name": "",
+      "name": "N/A",
       "city": "",
       "state": "",
       "decision": "reject",
@@ -4892,10 +4889,10 @@
       "firing_types": [],
       "quote": "",
       "dates": [],
-      "confidence": "low",
+      "confidence": "high",
       "reason": "The website is a supplier of supplies and kilns, not a location offering public firing services.",
       "quote_verified": false,
-      "secs": 19,
+      "secs": 10,
       "state_on_page": false
     }
   },
@@ -5820,10 +5817,10 @@
       ],
       "quote": "",
       "dates": [],
-      "confidence": "low",
+      "confidence": "high",
       "reason": "The text only describes residency opportunities, not public access to firings.",
       "quote_verified": false,
-      "secs": 7,
+      "secs": 8,
       "state_on_page": false
     }
   },

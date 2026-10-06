@@ -1425,10 +1425,10 @@
       "firing_types": [],
       "quote": "",
       "dates": [],
-      "confidence": "low",
-      "reason": "The page lists safety training, not ceramic firings.",
+      "confidence": "high",
+      "reason": "The page lists public safety training, not ceramic firings.",
       "quote_verified": false,
-      "secs": 10,
+      "secs": 4,
       "state_on_page": true
     }
   },
@@ -1488,21 +1488,17 @@
     "fetched": true,
     "judged": {
       "name": "Turning Earth",
-      "city": "London",
+      "city": "",
       "state": "",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "gas_reduction"
-      ],
-      "quote": "We’re really excited to announce the upcoming launch of Reduction Firing workshops across our London studios.",
-      "dates": [
-        "December 16, 2025"
-      ],
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
       "confidence": "low",
-      "reason": "The location mentioned is London, not Georgia.",
-      "quote_verified": true,
-      "secs": 28,
+      "reason": "The location mentioned is in London, not Georgia.",
+      "quote_verified": false,
+      "secs": 11,
       "state_on_page": false
     }
   },
@@ -2338,7 +2334,7 @@
     },
     "fetched": true,
     "judged": {
-      "name": "",
+      "name": "N/A",
       "city": "",
       "state": "",
       "decision": "reject",
@@ -2350,14 +2346,15 @@
         "wood",
         "soda",
         "salt",
-        "soda"
+        "pit_barrel_saggar",
+        "gas_reduction"
       ],
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The text discusses firing techniques but does not offer any public participation opportunities or location details in Georgia.",
+      "reason": "The text discusses firing techniques but does not offer any information about public participation or booking in Georgia.",
       "quote_verified": false,
-      "secs": 36,
+      "secs": 17,
       "state_on_page": false
     }
   },
@@ -2902,15 +2899,13 @@
       "state": "MI",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "other"
-      ],
+      "firing_types": [],
       "quote": "",
       "dates": [],
       "confidence": "high",
       "reason": "The location is in Michigan, not Georgia.",
       "quote_verified": false,
-      "secs": 15,
+      "secs": 7,
       "state_on_page": true
     }
   },
@@ -3082,12 +3077,12 @@
       "firing_types": [
         "raku"
       ],
-      "quote": "Monthly firings, as the weather permits",
+      "quote": "Available to all students signed up for our Intro to Wheel Throwing courses",
       "dates": [],
-      "confidence": "low",
-      "reason": "The location is in Michigan, not Georgia.",
+      "confidence": "high",
+      "reason": "The studio is located in Michigan, not Georgia.",
       "quote_verified": true,
-      "secs": 17,
+      "secs": 9,
       "state_on_page": false
     }
   },
@@ -3163,10 +3158,10 @@
       ],
       "quote": "",
       "dates": [],
-      "confidence": "low",
+      "confidence": "high",
       "reason": "The studio is located in the UK, not Georgia.",
       "quote_verified": false,
-      "secs": 17,
+      "secs": 8,
       "state_on_page": false
     }
   },
@@ -4004,9 +3999,9 @@
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The page is a general article about Raku ware and does not list any specific public firing events in Georgia.",
+      "reason": "The page is a general article about Raku ware and does not list any specific firing events or locations in Georgia.",
       "quote_verified": false,
-      "secs": 18,
+      "secs": 9,
       "state_on_page": false
     }
   },
@@ -4304,18 +4299,20 @@
     },
     "fetched": true,
     "judged": {
-      "name": "",
-      "city": "",
-      "state": "",
+      "name": "N/A",
+      "city": "N/A",
+      "state": "N/A",
       "decision": "reject",
       "access": "none",
-      "firing_types": [],
+      "firing_types": [
+        "gas_reduction"
+      ],
       "quote": "",
       "dates": [],
-      "confidence": "low",
-      "reason": "The website only sells kilns and does not offer public firing services.",
+      "confidence": "high",
+      "reason": "The website only sells pottery equipment and does not offer public firing services.",
       "quote_verified": false,
-      "secs": 15,
+      "secs": 9,
       "state_on_page": true
     }
   },
@@ -4340,7 +4337,7 @@
     },
     "fetched": true,
     "judged": {
-      "name": "",
+      "name": "N/A",
       "city": "",
       "state": "",
       "decision": "reject",
@@ -4351,7 +4348,7 @@
       "confidence": "high",
       "reason": "The website is a supplier of supplies and kilns, not a location offering public firing services.",
       "quote_verified": false,
-      "secs": 19,
+      "secs": 10,
       "state_on_page": false
     }
   },
@@ -4599,14 +4596,14 @@
       "firing_types": [
         "raku"
       ],
-      "quote": "Whether you’re new to raku or already love the process, this is a wonderful opportunity to fire your work in this unique style!",
+      "quote": "📅 Date: Second Saturdays",
       "dates": [
         "Second Saturdays"
       ],
       "confidence": "high",
       "reason": "The location is in Florida, not Georgia.",
       "quote_verified": true,
-      "secs": 14,
+      "secs": 6,
       "state_on_page": false
     }
   },
@@ -4831,11 +4828,11 @@
     },
     "fetched": true,
     "judged": {
-      "name": "OHIO ceramics program",
+      "name": "Ohio University",
       "city": "",
       "state": "OH",
-      "decision": "reject",
-      "access": "none",
+      "decision": "qualifies",
+      "access": "dated_events",
       "firing_types": [
         "wood",
         "soda",
@@ -4843,14 +4840,14 @@
         "pit_barrel_saggar",
         "gas_reduction"
       ],
-      "quote": "",
+      "quote": "From June 4 to 11, artists will convene at OHIO’s outdoor ceramic kiln facility to collaborate on highly sought-after atmospheric firing techniques, working together to experiment and innovate.",
       "dates": [
         "June 4 to 11"
       ],
-      "confidence": "low",
-      "reason": "The event is primarily for students and alumni, and the public participation is not guaranteed.",
-      "quote_verified": false,
-      "secs": 16,
+      "confidence": "high",
+      "reason": "The text describes a conference with hands-on atmospheric firings open to participants.",
+      "quote_verified": true,
+      "secs": 9,
       "state_on_page": false
     }
   },

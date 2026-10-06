@@ -91,16 +91,16 @@ Sunday, Sept 27. 1 - 8 pm" | The site advertises a public Raku firing event in M
 - noahwoodfired.com: The location is in Virginia, not Michigan.
 - adamahartstudio.org: known place in WI
 - eastcreekart.org: The location is in Oregon, not Michigan.
-- ceramicinfospot.com: The page is a guide about the process and does not list any public firing opportunities.
-- thomasfossier.com: The text describes the process but does not offer any public access or booking information.
+- ceramicinfospot.com: The page is an informational guide and does not list any public firing events or opportunities.
+- thomasfossier.com: The text describes the firing process but does not indicate public access for firing.
 - theclay.studio: known place in UK
 - cademy.io: The location is in Devon, which is outside of Michigan.
-- ceramicartsnetwork.org: The page discusses workshops and residencies but does not confirm public access to non-electric firings in Michigan.
+- ceramicartsnetwork.org: The page discusses workshops but does not specify a location in Michigan.
 - ceramic.school: The text only provides an affiliate link to books and does not confirm public access to a firing in Michigan.
 - michigan.gov: The text mentions a cannon firing but does not confirm it is a ceramic kiln firing for the public.
 - radiusstudio.org: known place in OR
 - turningearth.org: The location is in London, not Michigan.
-- digitalfire.com: The website provides information about firing processes but does not indicate a location or public access for firing services.
+- digitalfire.com: The website is a resource for information and does not offer public firing services.
 - community.ceramicartsdaily.org: The page content is not available to determine public access.
 - studiopotter.org: known place in ?
 - artfiremichigan.com: no firing words on any page
@@ -111,7 +111,7 @@ Sunday, Sept 27. 1 - 8 pm" | The site advertises a public Raku firing event in M
 - hopewellstudios.co.uk: The studio is located in the UK, not Michigan.
 - sugarhillclay.com: no firing words on any page
 - maudandmabel.com: The text describes the techniques but does not offer any public participation opportunities.
-- merme.in: The text is an informational blog about firing techniques and does not offer public access or booking information.
+- merme.in: The text is an editorial guide about firing techniques and does not offer information on public participation or booking for firings in Michigan.
 - artinmotiondet.wordpress.com: no firing words on any page
 - ferndale.still-life-studio.com: no firing words on any page
 - specklesandsplatter.com: The text only mentions firing in kilns, which implies electric firing, and does not confirm public access to non-electric firing methods.
@@ -157,4 +157,4 @@ Sunday, Sept 27. 1 - 8 pm" | The site advertises a public Raku firing event in M
 - steamboatcreates.org: known place in CO
 - visitglenarbor.com: The listed firing event has already passed.
 - watershedceramics.org: known place in ME
-- ohio.edu: The event is primarily for students and alumni, and the public participation is not guaranteed.
+- ohio.edu: The event is primarily for students and alumni, and the public access is not clearly defined for participation in the firing.

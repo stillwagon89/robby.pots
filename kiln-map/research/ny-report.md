@@ -2,7 +2,7 @@
 
 Searches: 33 (Tavily). Places seen: 156. Judge: gemma4:latest on this Mac. No Claude used.
 
-## Qualifies (verified quote, 44)
+## Qualifies (verified quote, 45)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -46,6 +46,7 @@ I am firing both kilns regularly, as soon as there are enough pots to fill them.
 | Artyard Studio | Williamsville | other | ongoing_class_or_membership | **new** | artyardstudio.com | "No extra fees for using our hand building specialty tools, firing, or glazing your work up to ten standard size items completed during regular class time." |
 | Syracuse Ceramic Guild | Syracuse | raku, wood | ongoing_class_or_membership | **new** | syracuseceramicguild.com | "Pottery and Hot Arts Fair is our largest event of the year! This huge show features the work of our Guild members, as well as free pottery making with kids, and" |
 | Great Wheel Studio | East Syracuse | other | ongoing_class_or_membership | **new** | greatwheelstudio.com | "Classes include clay, tools, glazes, and firings—everything needed to begin creating." |
+| Ceramics of New York | Springville | raku | ongoing_class_or_membership | **new** | ceramicsofny.com | "Ceramics of New York offer classes in many types of ceramic painting techniques, kiln usage and craft production as well as creative glass molding and jewelry d" |
 | The Clay Art Guild of the Hamptons | Water Mill | wood, raku, soda, salt, pit_barrel_saggar, gas_reduction | ongoing_class_or_membership | **new** | hamptonsclayart.org | "The Guild offers a variety of workshops, kiln firings and sales for ceramic artists, held in our studio at The Old Mill in the town of Water Mill located on the" |
 | Long Island University | Brooklyn | raku, wood | ongoing_class_or_membership | **new** | liu.edu | "He currently is a contributing member of the Brooklyn Project, an experimental propane/wood fired kiln located in downtown Brooklyn." |
 | Island Pottery & Studio | Mineola | raku | dated_events | **new** | clayatlas.com | "The studio hosts birthday parties, team outings, and kids’ summer sessions in July and August, plus specialty events like Raku firing workshops (max 10 experien" |
@@ -111,10 +112,10 @@ Art League of Long Island" | The site advertises a specific Raku firing workshop
 - Hudson Valley Pottery — https://www.linkedin.com/company/hudson-valley-pottery
 - TOP 10 BEST CERAMIC STUDIO IN ALBANY, NY - Yelp — https://www.yelp.com/search?find_desc=Ceramic+Studio&find_loc=Albany%2C+NY
 
-## Rejected (63)
+## Rejected (62)
 
 - shelbyprindaville.com: The text describes a past workshop and does not offer current booking information for the public.
-- clayartcenter.org: The text explicitly states that drop-off firing services are only available for enrolled members.
+- clayartcenter.org: The text explicitly states that drop-off firing services are only available for those enrolled in a weekly program.
 - petersvalley.org: known place in NJ
 - adamahartstudio.org: known place in WI
 - districtclaycenter.com: known place in DC
@@ -137,7 +138,7 @@ Art League of Long Island" | The site advertises a specific Raku firing workshop
 - findglocal.com: The text mentions firing services but does not specify if the public can book a non-electric firing.
 - clayhousebrooklyn.com: The text explicitly states they do not offer outside kiln firings to non-members.
 - hopewellstudios.co.uk: The studio is located in the UK, not New York.
-- merme.in: The text is an editorial guide about firing techniques, not an offering for public participation.
+- merme.in: The text is an editorial guide about firing techniques, not an offering for public participation in a firing.
 - westendceramics.com: The studio only mentions Cone 10 high fire, not specific public firing types.
 - clayschoolithaca.com: The text indicates the studio is open only during class time and for enrolled students.
 - littlesparrowceramics.com: The text only mentions electric wheels and does not list any non-electric firing options for the public.
@@ -153,12 +154,11 @@ Art League of Long Island" | The site advertises a specific Raku firing workshop
 - eventbrite.com.au: The location is in Victoria, Australia, not New York.
 - theclaystudio.org: known place in PA
 - pexels.com: This is a stock photo website and does not offer actual firing services.
-- clay-king.com: The text mentions classes for local potters but does not confirm public access to a specific non-electric firing event or service.
+- clay-king.com: The text mentions a location in South Carolina but does not confirm public access for firing services.
 - https://www.eventbrite.com/d/ny--syracuse/pottery-class: no firing words on any page
 - papaverostudio.com: no firing words on any page
 - 315clayco.com: no firing words on any page
 - capitalceramicsupply.com: The website is a supply store and does not provide specific details about public firing participation.
-- ceramicsofny.com: The text mentions classes and kiln usage but does not confirm public participation in a specific non-electric firing event.
 - https://www.eventbrite.com/d/ny--albany/pottery-class: no firing words on any page
 - clayandkilnstudio.com: The text only mentions glaze-firing services, not public participation in non-electric firings.
 - femmesole.com: The text explicitly states they no longer offer firing services to the general public.
@@ -172,7 +172,7 @@ Art League of Long Island" | The site advertises a specific Raku firing workshop
 - alfred.edu: The provided text does not confirm public access to firing services.
 - sites.cnr.ncsu.edu: The location is in North Carolina, not New York.
 - opencallartist.com: The text describes a residency program, not public firing access.
-- artgoat.com: The firing credits are part of a residency program, not open to the general public.
+- artgoat.com: The residency program is for artists, not the general public.
 - theresidencyreview.com: The text only describes firing for residents, not the public.
-- ceramicartsnetwork.org: The page only lists types of firing but does not indicate public access or location in New York.
+- ceramicartsnetwork.org: The page only lists general information about firing techniques and does not advertise public firing events or services in New York.
 - saratogaclayarts.org: The page text was not readable.

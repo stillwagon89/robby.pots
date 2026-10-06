@@ -39,7 +39,7 @@ Searches: 26 (Tavily). Places seen: 125. Judge: gemma4:latest on this Mac. No Cl
 | Southwestern Community College | Sylva | wood, raku, soda, salt, pit_barrel_saggar, gas_reduction | none | **new** | southwesterncc.edu | "We also offer clay for sale to the general public, however, you must be in class or rent a kiln to fire your work." |
 | STARworks | Star | wood | ongoing_class_or_membership | **new** | guelmann.com | "I'm halfway through my 2-month artist residency at STARworks in North Carolina." |
 
-## Unclear: needs a second look (36)
+## Unclear: needs a second look (37)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -77,6 +77,7 @@ Searches: 26 (Tavily). Places seen: 125. Judge: gemma4:latest on this Mac. No Cl
 | Turning Point Clay Studio | Brasstown | raku | ongoing_class_or_membership | **new** | podielski.com | "In their Brasstown studio, Turning Point Clay Studio , Harry & Julie make beautiful fine-crafted Raku vessels. Their classes at the Folk School are an invaluabl" | The text mentions Raku classes at the studio in Brasstown, NC.
 | Kingston Ceramics Studio | ? | raku, wood, gas_reduction | none | **new** | kingstonceramicsstudio.com | "If you aren't a member or our student, you may make an appointment to drop off your work to fire at cone 04 or 6." | The studio accepts appointments for non-members/students to fire work.
 | Sawtooth School for Visual Art | Winston-Salem | wood | ongoing_class_or_membership | on map | sawtooth.org | "The new facilities will offer opportunities for community firings, special workshops with visiting artists, and ongoing classes related to wood fired ceramics." | The text mentions ongoing classes and community firings using wood-fired kilns.
+| Community Clay Studio | Chapel Hill |  | none | **new** | chapelhillnc.gov | "" | The text mentions kilns and classes but does not specify if the public can book or participate in a non-electric firing.
 | Haywood Community College | ? | soda, raku, wood | ongoing_class_or_membership | **new** | haywood.edu | "Gas fired soda kiln
 Gas fired raku kiln
 Gas fired car kiln
@@ -93,7 +94,7 @@ Friday & Saturday: 10 am - 5 pm  & Sunday: 1 pm - 5 pm" | The page lists upcomin
 - TOP 10 BEST Pottery Class in Avery County, NC - (2026 Guide) — https://www.yelp.com/search?find_desc=Pottery+Class&find_loc=Avery+County%2C+NC
 - Pottery studios in Charlotte that let you do your own thing — https://www.reddit.com/r/Charlotte/comments/1ulmw77/pottery_studios_in_charlotte_that_let_you_do_your
 
-## Rejected (52)
+## Rejected (51)
 
 - higherfirestudios.com: The location listed is in California, not North Carolina.
 - castlehill.org: known place in MA
@@ -106,7 +107,7 @@ Friday & Saturday: 10 am - 5 pm  & Sunday: 1 pm - 5 pm" | The page lists upcomin
 - weberwoodfire.com: known place in WI
 - ceramicasupply.com: The text explicitly states that the location does not offer firing services.
 - radiusstudio.org: known place in OR
-- turningearth.org: The location mentioned is London, not North Carolina.
+- turningearth.org: The text mentions workshops and firings but all locations are in London, not North Carolina.
 - moreanartscenter.org: known place in FL
 - josephbounds.com: no firing words on any page
 - reg121.imperisoft.com: The class is restricted only to current students who have taken a prerequisite class.
@@ -142,7 +143,6 @@ Friday & Saturday: 10 am - 5 pm  & Sunday: 1 pm - 5 pm" | The page lists upcomin
 - theclaystudio.org: known place in PA
 - blueridgeheritage.com: no firing words on any page
 - pexels.com: This page is a stock photo website and does not offer actual firing services.
-- chapelhillnc.gov: The text only mentions classes and does not confirm public access to non-electric firings.
 - laney.edu: known place in CA
 - en.wikipedia.org: The page discusses kiln types but does not mention public firing opportunities in North Carolina.
 - sonomacommunitycenter.org: known place in CA

@@ -1303,13 +1303,11 @@
     "fetched": true,
     "judged": {
       "name": "Workhouse Arts Center",
-      "city": "Washington D.C.",
-      "state": "DC",
+      "city": "",
+      "state": "",
       "decision": "reject",
-      "access": "dated_events",
-      "firing_types": [
-        "raku"
-      ],
+      "access": "none",
+      "firing_types": [],
       "quote": "Workshop: Saturday, June 24 at 11am",
       "dates": [
         "June 24"
@@ -1317,7 +1315,7 @@
       "confidence": "high",
       "reason": "The location is in Washington D.C., not Washington state.",
       "quote_verified": true,
-      "secs": 5,
+      "secs": 6,
       "state_on_page": true
     }
   },
@@ -1834,19 +1832,17 @@
       "name": "Turning Earth",
       "city": "London",
       "state": "",
-      "decision": "reject",
-      "access": "none",
+      "decision": "qualifies",
+      "access": "ongoing_class_or_membership",
       "firing_types": [
-        "gas_reduction"
+        "raku"
       ],
-      "quote": "We’re really excited to announce the upcoming launch of Reduction Firing workshops across our London studios.",
-      "dates": [
-        "December 16, 2025"
-      ],
-      "confidence": "low",
-      "reason": "The location is in London, not Washington.",
+      "quote": "If you’ve ever taken part in one of our Raku firing workshops, you’ve already encountered Reduction firing — it’s what gives some of our Raku glazes their distinctive metallic sheen.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The site mentions Raku workshops and ongoing studio membership access.",
       "quote_verified": true,
-      "secs": 11,
+      "secs": 12,
       "state_on_page": false
     }
   },
@@ -3361,15 +3357,13 @@
       "state": "",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "raku"
-      ],
+      "firing_types": [],
       "quote": "",
       "dates": [],
       "confidence": "low",
       "reason": "The site primarily sells supplies and services like kiln repair, but does not advertise public firing participation.",
       "quote_verified": false,
-      "secs": 43,
+      "secs": 17,
       "state_on_page": true
     }
   },
@@ -3754,18 +3748,20 @@
     },
     "fetched": true,
     "judged": {
-      "name": "",
-      "city": "",
-      "state": "",
+      "name": "N/A",
+      "city": "N/A",
+      "state": "N/A",
       "decision": "reject",
       "access": "none",
-      "firing_types": [],
+      "firing_types": [
+        "other"
+      ],
       "quote": "",
       "dates": [],
       "confidence": "high",
       "reason": "The website is a technical reference site and does not offer public firing services.",
       "quote_verified": false,
-      "secs": 24,
+      "secs": 10,
       "state_on_page": true
     }
   },
@@ -3965,15 +3961,14 @@
         "salt",
         "soda",
         "salt",
-        "wood",
         "raku"
       ],
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The text describes firing techniques but does not offer any opportunity for the public to participate in a firing event.",
+      "reason": "The text describes firing techniques but does not offer any information about public participation, workshops, or booking for these firings.",
       "quote_verified": false,
-      "secs": 35,
+      "secs": 14,
       "state_on_page": false
     }
   },
@@ -4078,10 +4073,10 @@
       ],
       "quote": "",
       "dates": [],
-      "confidence": "high",
-      "reason": "The text describes the potter's work and participation in firings but does not offer any public opportunity to take part in a firing.",
+      "confidence": "low",
+      "reason": "The potter is based in DC, not Washington state, and the text does not indicate public access to firing services.",
       "quote_verified": false,
-      "secs": 23,
+      "secs": 9,
       "state_on_page": true
     }
   },
@@ -4603,7 +4598,7 @@
     },
     "fetched": true,
     "judged": {
-      "name": "schoolofservice.org",
+      "name": "Access Arts",
       "city": "",
       "state": "",
       "decision": "reject",
@@ -4613,12 +4608,12 @@
         "raku",
         "wood"
       ],
-      "quote": "",
+      "quote": "We are seeking up to three Artists in Residence for our Ceramics department who WILL live on-site. The ideal candidate will have experience teaching wheel-throwing and hand-building classes to adults and/or children. Preference will be given to individuals who have previous experience firing electric and atmospheric kilns. This includes, but is not limited to, Cone 10 gas reduction firings, Anagama Wood Firings, and Raku firings.",
       "dates": [],
-      "confidence": "low",
-      "reason": "The text only describes residency opportunities, not public access to firings.",
-      "quote_verified": false,
-      "secs": 19,
+      "confidence": "high",
+      "reason": "The text only describes residency opportunities, which are for artists, not the general public.",
+      "quote_verified": true,
+      "secs": 10,
       "state_on_page": false
     }
   },
@@ -4683,7 +4678,7 @@
     },
     "fetched": true,
     "judged": {
-      "name": "",
+      "name": "N/A",
       "city": "",
       "state": "",
       "decision": "reject",
@@ -4691,17 +4686,17 @@
       "firing_types": [
         "wood",
         "raku",
-        "salt",
         "soda",
+        "salt",
         "pit_barrel_saggar",
         "gas_reduction"
       ],
       "quote": "Electric Kiln Firing",
       "dates": [],
       "confidence": "high",
-      "reason": "The page only contains general information about firing techniques and does not list any public firing events in Washington.",
+      "reason": "The page only contains general information about firing techniques and does not list any public firing events or services in Washington.",
       "quote_verified": true,
-      "secs": 34,
+      "secs": 13,
       "state_on_page": false
     }
   },
@@ -4765,9 +4760,9 @@
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The provided text is a guide about electric kilns and does not mention public firing opportunities in Washington.",
+      "reason": "The provided text is a general guide about electric kilns and does not mention any public firing opportunities in Washington.",
       "quote_verified": false,
-      "secs": 31,
+      "secs": 12,
       "state_on_page": true
     }
   },

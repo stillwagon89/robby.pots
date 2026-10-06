@@ -85,7 +85,7 @@ Friday to Sunday, 9/11/2026-9/13/2026" | The site lists specific dates for wood 
 - theclay.studio: known place in UK
 - radiusstudio.org: known place in OR
 - turningearth.org: The location is in London, not Ohio.
-- raincityclay.com: The text only describes certification for gas firing and requires participation in a class firing, but it does not confirm public access to book or participate in a non-electric firing.
+- raincityclay.com: The text describes a certification process for gas kiln firing that requires participation in a class firing, but it does not indicate general public access for non-electric firings.
 - localshootingrange.com: no firing words on any page
 - community.ceramicartsdaily.org: The page content is not available to confirm public access.
 - kilnfire.com: The text describes the software, not public firing access.
@@ -101,14 +101,14 @@ Friday to Sunday, 9/11/2026-9/13/2026" | The site lists specific dates for wood 
 - sunparlorstudio.com: The text only mentions painting and glazing, not participation in a specific firing type.
 - alchemystudiocle.com: The page text is not available to confirm public firing access.
 - thekilnbrecksville.com: The provided text only mentions workshops and classes, not specific kiln firing services for the public.
-- akronmakerspace.org: The text explicitly states that only members can have their work fired in the kiln.
+- akronmakerspace.org: The text explicitly states that only members who do the majority of their work there can have pieces fired.
 - doodlinpottery.com: The text describes a 'paint-your-own' experience, which is not a public firing event.
 - covingtonclay.com: The location is in Kentucky, not Ohio.
-- rastall.art: The text is a blog post describing Raku pottery and does not mention any public firing events or opportunities in Ohio.
+- rastall.art: The text is a blog post describing Raku pottery and does not mention any public firing opportunities.
 - en.wikipedia.org: The provided text is from Wikipedia articles and does not mention any public firing opportunities in Ohio.
 - untoday.org: The text describes the process but does not indicate public access for firing.
 - kilnfolkclay.com: The studio is located in Washington, not Ohio.
-- merme.in: The text describes firing techniques but does not mention a location in Ohio or any public participation opportunities.
+- merme.in: The text describes firing techniques but does not indicate public access for firing in Ohio.
 - oxcombepottery.co.uk: The location is in the UK, not Ohio.
 - maudandmabel.com: The text discusses the techniques but does not offer any information about public participation or booking in Ohio.
 - corrannyforestpottery.com: The location is in Ireland, not Ohio.
@@ -117,7 +117,7 @@ Friday to Sunday, 9/11/2026-9/13/2026" | The site lists specific dates for wood 
 - eventbrite.com.au: The location is in Victoria, not Ohio.
 - madedayton.com: no firing words on any page
 - fittoncenter.org: The text mentions firing but does not specify if the public can participate in a non-electric firing.
-- sheffield-pottery.com: The website sells supplies and kilns but does not offer public firing events or services.
+- sheffield-pottery.com: The website sells supplies and kilns but does not offer public firing services.
 - seattlepotterysupply.com: The location is in Washington, not Ohio.
 - ceramic.school: no firing words on any page
 - kruegerpottery.com: The page is a retail/supply site and does not confirm public firing participation.

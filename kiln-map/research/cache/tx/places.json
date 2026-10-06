@@ -1740,22 +1740,18 @@
     },
     "fetched": true,
     "judged": {
-      "name": "N/A",
-      "city": "London",
-      "state": "N/A",
+      "name": "",
+      "city": "",
+      "state": "",
       "decision": "reject",
       "access": "none",
-      "firing_types": [
-        "gas_reduction"
-      ],
-      "quote": "We’re really excited to announce the upcoming launch of Reduction Firing workshops across our London studios.",
-      "dates": [
-        "December 16, 2025"
-      ],
-      "confidence": "high",
-      "reason": "The location is in London, not Texas.",
-      "quote_verified": true,
-      "secs": 18,
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "The studio is located in London, not Texas.",
+      "quote_verified": false,
+      "secs": 11,
       "state_on_page": false
     }
   },
@@ -4067,12 +4063,15 @@
       "firing_types": [
         "raku"
       ],
-      "quote": "",
-      "dates": [],
-      "confidence": "low",
+      "quote": "Workshop: Raku Firing at Studio Sales",
+      "dates": [
+        "Saturday 20, 2022",
+        "August 13, 2022"
+      ],
+      "confidence": "high",
       "reason": "The location is in New York, not Texas.",
-      "quote_verified": false,
-      "secs": 16,
+      "quote_verified": true,
+      "secs": 8,
       "state_on_page": false
     }
   },
@@ -6146,7 +6145,7 @@
     },
     "fetched": true,
     "judged": {
-      "name": "",
+      "name": "N/A",
       "city": "",
       "state": "",
       "decision": "reject",
@@ -6154,10 +6153,10 @@
       "firing_types": [],
       "quote": "",
       "dates": [],
-      "confidence": "low",
-      "reason": "The website is a supplier of supplies and kilns, not a location offering public firing services.",
+      "confidence": "high",
+      "reason": "The website is a supplier of supplies and kilns, not a place offering public firing services.",
       "quote_verified": false,
-      "secs": 28,
+      "secs": 10,
       "state_on_page": false
     }
   },
@@ -6310,7 +6309,7 @@
     },
     "fetched": true,
     "judged": {
-      "name": "N/A",
+      "name": "thomasfossier.com",
       "city": "",
       "state": "",
       "decision": "reject",
@@ -6320,10 +6319,10 @@
       ],
       "quote": "",
       "dates": [],
-      "confidence": "high",
-      "reason": "The text only shows items sold that were fired, not an opportunity for the public to participate in a firing.",
+      "confidence": "low",
+      "reason": "The text only shows examples of work fired by the artist and does not mention public participation.",
       "quote_verified": false,
-      "secs": 28,
+      "secs": 11,
       "state_on_page": false
     }
   },
@@ -6894,9 +6893,9 @@
       "quote": "",
       "dates": [],
       "confidence": "high",
-      "reason": "The text only describes residency opportunities, not public access to firings.",
+      "reason": "The text only describes residency opportunities and does not indicate public access to firings.",
       "quote_verified": false,
-      "secs": 17,
+      "secs": 8,
       "state_on_page": false
     }
   },
