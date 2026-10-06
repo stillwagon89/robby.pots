@@ -519,46 +519,6 @@
       "lng": -77.74546
     },
     {
-      "id": "buffalo-clayart-center",
-      "org": "Buffalo Clayart Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Buffalo",
-      "city": "Buffalo",
-      "urls": [
-        "https://buffaloclayart.com/"
-      ],
-      "notes": "Workshop with Don Reed. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Buffalo, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://buffaloclayart.com/"
-      },
-      "access": {
-        "how": "Workshop with Don Reed",
-        "note": "Workshop with Don Reed",
-        "quote": "Buffalo ClayArt Center is delighted to host the acclaimed wood-firing potter Don Reed of Crab Orchard Pottery in Tennessee for an artist presentation and two-day hands on workshop.",
-        "url": "https://buffaloclayart.com",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "buffaloclayart.com"
-      },
-      "lat": 42.88642,
-      "lng": -78.87815
-    },
-    {
       "id": "syracuse-ceramic-guild",
       "org": "Syracuse Ceramic Guild",
       "kind": "city_arts",
@@ -763,103 +723,12 @@
       "lng": -72.13322
     },
     {
-      "id": "clay-art-guild-of-the-hamptons",
-      "org": "Clay Art Guild of the Hamptons",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Water Mill",
-      "city": "Water Mill",
-      "urls": [
-        "https://www.hamptonsclayart.org/"
-      ],
-      "notes": "Guild membership. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Water Mill, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.hamptonsclayart.org/"
-      },
-      "access": {
-        "how": "Guild membership",
-        "note": "Guild membership",
-        "quote": "The Guild offers a variety of workshops, kiln firings and sales for ceramic artists, held in our studio at The Old Mill in the town of Water Mill located on the eastern end of Long Island, NY.",
-        "url": "http://www.hamptonsclayart.org",
-        "types": [
-          "wood",
-          "raku",
-          "soda",
-          "salt",
-          "pit_barrel_saggar",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "hamptonsclayart.org"
-      },
-      "lat": 40.92118,
-      "lng": -72.34885
-    },
-    {
-      "id": "fall-kill-creative-works",
-      "org": "Fall Kill Creative Works",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Poughkeepsie",
-      "city": "Poughkeepsie",
-      "urls": [
-        "https://fallkillcreativeworks.org/"
-      ],
-      "notes": "Membership. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Poughkeepsie, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://fallkillcreativeworks.org/"
-      },
-      "access": {
-        "how": "Membership",
-        "note": "Membership",
-        "quote": "Email Eric, our Studio Director, to find out if your clay and glazes are compatible with our firing processes.",
-        "url": "https://fallkillcreativeworks.org/about-fallkill-1",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "fallkillcreativeworks.org"
-      },
-      "lat": 41.70655,
-      "lng": -73.92837
-    },
-    {
       "id": "peekskill-clay-studios",
       "org": "Peekskill Clay Studios",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
         "gas_reduction"
       ],
       "region": "Peekskill",
@@ -880,7 +749,6 @@
         "quote": "membership space is also available for experienced clay artists.",
         "url": "https://peekskillclaystudios.com/about-us",
         "types": [
-          "wood",
           "gas_reduction"
         ],
         "checked": "2026-10-06"
@@ -1116,6 +984,18 @@
     {
       "id": "fall-kill-creative-works",
       "why": "Electric only on their pages. (2026-10-05)"
+    },
+    {
+      "id": "buffalo-clayart-center",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "clay-art-guild-of-the-hamptons",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "fall-kill-creative-works",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
     }
   ]
 }

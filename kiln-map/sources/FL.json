@@ -69,37 +69,6 @@
       "lng": -81.70163
     },
     {
-      "id": "jane-s-art-center",
-      "org": "Jane's Art Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "soda"
-      ],
-      "region": "New Smyrna Beach",
-      "city": "New Smyrna Beach",
-      "urls": [
-        "https://www.janesartcenter.com/"
-      ],
-      "notes": "Classes/workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "New Smyrna Beach, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.janesartcenter.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "janesartcenter.com"
-      },
-      "lat": 29.02581,
-      "lng": -80.92713
-    },
-    {
       "id": "the-clay-co-op",
       "org": "The Clay Co-op",
       "kind": "city_arts",
@@ -147,10 +116,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt"
+        "raku"
       ],
       "region": "St. Petersburg",
       "city": "St. Petersburg",
@@ -169,13 +135,7 @@
         "note": "Membership; free raku demo events",
         "quote": "Join with a studio membership for round-the-clock access to premium facilities amidst a collaborative setting equipped with kilns and an array of glazes.",
         "url": "https://www.claycenterofstpetersburg.com",
-        "types": [
-          "wood",
-          "gas_reduction",
-          "soda",
-          "salt",
-          "pit_barrel_saggar"
-        ],
+        "types": [],
         "checked": "2026-10-06"
       },
       "review": "pending",
@@ -186,36 +146,6 @@
       },
       "lat": 27.77123,
       "lng": -82.63403
-    },
-    {
-      "id": "seagrass-pottery",
-      "org": "Seagrass Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Melbourne",
-      "city": "Melbourne",
-      "urls": [
-        "https://www.seagrasspottery.com/"
-      ],
-      "notes": "Dated workshop ($175). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Melbourne, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.seagrasspottery.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "seagrasspottery.com"
-      },
-      "lat": 28.0785,
-      "lng": -80.60779
     },
     {
       "id": "atlantic-beach-arts-market",
@@ -426,8 +356,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
-        "salt"
+        "wood"
       ],
       "region": "Orlando",
       "city": "Orlando",
@@ -447,7 +376,6 @@
         "quote": "Pottery Workshop February 21st - Salt & Wood Firing",
         "url": "https://stayhappening.com/e/pottery-workshop-february-21st-salt-andamp-wood-firing-E2ISYBRTRRB",
         "types": [
-          "salt",
           "wood"
         ],
         "checked": "2026-10-06"
@@ -542,97 +470,6 @@
       "lng": -81.31454
     },
     {
-      "id": "the-clayground",
-      "org": "The Clayground",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Neptune Beach",
-      "city": "Neptune Beach",
-      "urls": [
-        "https://claygroundjax.com/"
-      ],
-      "notes": "Dated. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Neptune Beach, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://claygroundjax.com/"
-      },
-      "access": {
-        "how": "Dated",
-        "note": "Dated",
-        "quote": "Outside Kiln Firings",
-        "url": "https://claygroundjax.com",
-        "types": [
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "claygroundjax.com"
-      },
-      "lat": 30.31191,
-      "lng": -81.39647
-    },
-    {
-      "id": "east-orlando-ceramics",
-      "org": "East Orlando Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Orlando",
-      "city": "Orlando",
-      "urls": [
-        "https://eastorlandoceramics.com/"
-      ],
-      "notes": "Firing service for outside potters. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Orlando, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://eastorlandoceramics.com/"
-      },
-      "access": {
-        "how": "Firing service for outside potters",
-        "note": "Firing service for outside potters",
-        "quote": "If you work in clay elsewhere and need your pieces fired, East Orlando Ceramics can fire them for you.",
-        "url": "https://eastorlandoceramics.com/kiln-rental",
-        "types": [
-          "gas_reduction",
-          "raku",
-          "wood",
-          "soda",
-          "salt",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "eastorlandoceramics.com"
-      },
-      "lat": 28.54212,
-      "lng": -81.37905
-    },
-    {
       "id": "city-of-orlando-ceramics-studio",
       "org": "City of Orlando ceramics studio",
       "kind": "city_arts",
@@ -714,36 +551,6 @@
       "lng": -82.53085
     },
     {
-      "id": "ceramic-league-of-miami",
-      "org": "Ceramic League of Miami",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Miami",
-      "city": "Miami",
-      "urls": [
-        "https://www.ceramicleaguemiami.org/"
-      ],
-      "notes": "Membership, classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Miami, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.ceramicleaguemiami.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "ceramicleaguemiami.org"
-      },
-      "lat": 25.77416,
-      "lng": -80.1936
-    },
-    {
       "id": "armory-art-center",
       "org": "Armory Art Center",
       "kind": "city_arts",
@@ -782,53 +589,6 @@
       },
       "lat": 26.71536,
       "lng": -80.05329
-    },
-    {
-      "id": "studio-t-m-pottery-and-clay",
-      "org": "Studio T/M Pottery and Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Gainesville",
-      "city": "Gainesville",
-      "urls": [
-        "https://www.studiotmceramics.com/"
-      ],
-      "notes": "Two-day workshops, membership. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Gainesville, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.studiotmceramics.com/"
-      },
-      "access": {
-        "how": "Two-day workshops, membership",
-        "note": "Two-day workshops, membership",
-        "quote": "This two day hands on workshop includes use of all materials, firings, and provides lunch for participating artists both days.",
-        "url": "https://www.studiotmceramics.com",
-        "types": [
-          "wood",
-          "raku",
-          "soda",
-          "salt",
-          "pit_barrel_saggar",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "studiotmceramics.com"
-      },
-      "lat": 29.65197,
-      "lng": -82.32498
     },
     {
       "id": "first-city-art-center",
@@ -1221,6 +981,32 @@
       },
       "lat": 30.32622,
       "lng": -81.65792
+    }
+  ],
+  "_removed": [
+    {
+      "id": "jane-s-art-center",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "seagrass-pottery",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "the-clayground",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "east-orlando-ceramics",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "ceramic-league-of-miami",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "studio-t-m-pottery-and-clay",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
     }
   ]
 }

@@ -417,56 +417,6 @@
       "newsletter_url": "https://www.artillery-ag.com/"
     },
     {
-      "id": "hickory-clay",
-      "org": "Hickory Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "San Francisco",
-      "city": "San Francisco",
-      "urls": [
-        "https://hickoryclay.com/"
-      ],
-      "notes": "Membership, classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "San Francisco, California",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://hickoryclay.com/"
-      },
-      "access": {
-        "how": "Membership, classes",
-        "note": "Membership, classes",
-        "quote": "No firing fees on standard-size pieces under 10\"",
-        "url": "https://hickoryclay.com/membership",
-        "types": [
-          "wood",
-          "raku",
-          "soda",
-          "salt",
-          "pit_barrel_saggar",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "hickoryclay.com"
-      },
-      "lat": 37.78794,
-      "lng": -122.40752
-    },
-    {
       "id": "smaart-studio",
       "org": "SMAart Studio",
       "kind": "studio",
@@ -514,9 +464,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood",
-        "pit_barrel_saggar"
+        "raku"
       ],
       "region": "San Francisco",
       "city": "San Francisco",
@@ -536,9 +484,7 @@
         "quote": "REGISTER FOR A RAKU WORKSHOP.",
         "url": "https://www.claybythebaysf.com/raku-workshops",
         "types": [
-          "raku",
-          "pit_barrel_saggar",
-          "wood"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -761,7 +707,6 @@
       "firing_types_guess": [
         "raku",
         "soda",
-        "salt",
         "pit_barrel_saggar"
       ],
       "region": "San Jose",
@@ -784,7 +729,6 @@
         "types": [
           "raku",
           "soda",
-          "salt",
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
@@ -1122,8 +1066,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood"
+        "raku"
       ],
       "region": "Occidental",
       "city": "Occidental",
@@ -1143,8 +1086,7 @@
         "quote": "Workshops run almost every Saturday in March, April, and May from 10AM - 5PM",
         "url": "https://www.clayfolkstudio.com/workshops-1",
         "types": [
-          "raku",
-          "wood"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -1484,86 +1426,6 @@
       "lng": -118.2434
     },
     {
-      "id": "ceramic-studio-la",
-      "org": "Ceramic Studio LA",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Los Angeles",
-      "city": "Los Angeles",
-      "urls": [
-        "https://www.pottery-la.com/"
-      ],
-      "notes": "Classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Los Angeles, California",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.pottery-la.com/"
-      },
-      "access": {
-        "how": "Classes",
-        "note": "Classes",
-        "quote": "You will take home a finished piece (after firing 2-3 weeks) regardless of your initial skill level.",
-        "url": "https://www.pottery-la.com/ceramics-classes-in-los-angeles",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "pottery-la.com"
-      },
-      "lat": 34.05222,
-      "lng": -118.2434
-    },
-    {
-      "id": "cobalt-clay",
-      "org": "Cobalt & Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Los Angeles",
-      "city": "Los Angeles",
-      "urls": [
-        "https://www.cobaltandclay.com/"
-      ],
-      "notes": "Class + firing service. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Los Angeles, California",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.cobaltandclay.com/"
-      },
-      "access": {
-        "how": "Class + firing service",
-        "note": "Class + firing service",
-        "quote": "Class includes one bag of clay, firing fees, and open studio access.",
-        "url": "https://www.cobaltandclay.com/classes.html",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "cobaltandclay.com"
-      },
-      "lat": 34.05222,
-      "lng": -118.2434
-    },
-    {
       "id": "summer-studios",
       "org": "Summer Studios",
       "kind": "studio",
@@ -1602,95 +1464,6 @@
       },
       "lat": 33.80365,
       "lng": -118.3195
-    },
-    {
-      "id": "artime-barro",
-      "org": "ARTime Barro",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Orange County",
-      "city": "Orange County",
-      "urls": [
-        "https://www.artimebarro.com/"
-      ],
-      "notes": "Kiln available to all members. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Orange County, California",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.artimebarro.com/"
-      },
-      "access": {
-        "how": "Kiln available to all members",
-        "note": "Kiln available to all members",
-        "quote": "Our Kiln is available for use to all artists in and around Orange County, CA.",
-        "url": "https://www.artimebarro.com/kilnservices",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "artimebarro.com"
-      },
-      "lat": 33.75063,
-      "lng": -117.87223
-    },
-    {
-      "id": "cone-6-ceramics",
-      "org": "Cone 6 Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "gas_reduction"
-      ],
-      "region": "San Diego",
-      "city": "San Diego",
-      "urls": [
-        "https://www.cone6ceramics.com/"
-      ],
-      "notes": "**Outside-artist firing**. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "San Diego, California",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.cone6ceramics.com/"
-      },
-      "access": {
-        "how": "**Outside-artist firing**",
-        "note": "**Outside-artist firing**",
-        "quote": "Our Outside Artist Firing Membership offers unlimited monthly firings for ceramic artists who need access to a kiln.",
-        "url": "https://www.cone6ceramics.com/independent-sessions",
-        "types": [
-          "soda",
-          "salt",
-          "pit_barrel_saggar",
-          "wood",
-          "raku",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "cone6ceramics.com"
-      },
-      "lat": 32.71571,
-      "lng": -117.16383
     },
     {
       "id": "ceramic-heights",
@@ -1861,6 +1634,26 @@
     {
       "id": "ica-san-diego",
       "why": "No raku or atmospheric firing on current pages. (2026-10-05)"
+    },
+    {
+      "id": "hickory-clay",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "ceramic-studio-la",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "cobalt-clay",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "artime-barro",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "cone-6-ceramics",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
     }
   ]
 }

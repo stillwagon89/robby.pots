@@ -591,8 +591,6 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "wood",
-        "soda",
         "gas_reduction"
       ],
       "region": "Worcester",
@@ -614,8 +612,7 @@
         "url": "https://worcestercraftcenter.org/classes-workshops/ceramics",
         "types": [
           "raku",
-          "gas_reduction",
-          "wood"
+          "gas_reduction"
         ],
         "checked": "2026-10-06"
       },
@@ -713,50 +710,6 @@
       "lng": -71.14477
     },
     {
-      "id": "meetinghouse-clay-center",
-      "org": "Meetinghouse Clay Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Falmouth",
-      "city": "Falmouth",
-      "urls": [
-        "https://www.meetinghouseclay.com/"
-      ],
-      "notes": "Classes and events. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Falmouth, Massachusetts",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.meetinghouseclay.com/"
-      },
-      "access": {
-        "how": "Classes and events",
-        "note": "Classes and events",
-        "quote": "Join us for a limited ticket opening reception at Brick Kiln Farm, 254 Brick Kiln Road, Falmouth.",
-        "url": "https://www.meetinghouseclay.com",
-        "types": [
-          "wood",
-          "raku",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "meetinghouseclay.com"
-      },
-      "lat": 41.5515,
-      "lng": -70.61475
-    },
-    {
       "id": "kiln-cambridge",
       "org": "Kiln Cambridge",
       "kind": "studio",
@@ -801,6 +754,10 @@
     {
       "id": "umbrella-arts",
       "why": "No joinable firing on their pages (mentions firing services only). (2026-10-05)"
+    },
+    {
+      "id": "meetinghouse-clay-center",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
     }
   ]
 }

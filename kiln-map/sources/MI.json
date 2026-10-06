@@ -146,7 +146,6 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "wood",
         "soda",
         "pit_barrel_saggar"
       ],
@@ -179,46 +178,6 @@
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "kiarts.org"
-      },
-      "lat": 42.29171,
-      "lng": -85.58723
-    },
-    {
-      "id": "kalamazoo-kiln-room",
-      "org": "Kalamazoo Kiln Room",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Kalamazoo",
-      "city": "Kalamazoo",
-      "urls": [
-        "https://kalamazooarthop.org/"
-      ],
-      "notes": "Membership, firing services. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Kalamazoo, Michigan",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://kalamazooarthop.org/"
-      },
-      "access": {
-        "how": "Membership, firing services",
-        "note": "Membership, firing services",
-        "quote": "We are a ceramics studio offering memberships, firing services, classes, and workshops.",
-        "url": "https://kalamazooarthop.org/venues/kalamazoo-kiln-room",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "kalamazooarthop.org"
       },
       "lat": 42.29171,
       "lng": -85.58723
@@ -355,9 +314,6 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "wood",
-        "soda",
-        "salt",
         "pit_barrel_saggar"
       ],
       "region": "Ann Arbor",
@@ -379,8 +335,6 @@
         "url": "https://www.pottersguild.net/workshops",
         "types": [
           "raku",
-          "soda",
-          "salt",
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
@@ -402,7 +356,6 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "wood",
         "pit_barrel_saggar"
       ],
       "region": "Ann Arbor",
@@ -423,8 +376,7 @@
         "quote": "Firing techniques include low fire oxidation, raku, smoke firing, as well as high fire reduction.",
         "url": "https://aadl.org/steve_jensen_10529",
         "types": [
-          "raku",
-          "wood"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -642,46 +594,6 @@
       "lng": -85.6166
     },
     {
-      "id": "flash-ash-wood-kiln",
-      "org": "Flash & Ash (wood kiln)",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Pellston",
-      "city": "Pellston",
-      "urls": [
-        "https://www.flashandash.com/"
-      ],
-      "notes": "By appointment (text). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pellston, Michigan",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.flashandash.com/"
-      },
-      "access": {
-        "how": "By appointment (text)",
-        "note": "By appointment (text)",
-        "quote": "Contact Text me at 708-446-5159, Address 2880 Larks Lake Rd, Pellston, MI 49769, USA , Shared/paid firings.",
-        "url": "https://www.flashandash.com/kilns/nobori-bourry-gama",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "flashandash.com"
-      },
-      "lat": 45.55279,
-      "lng": -84.78394
-    },
-    {
       "id": "ken-shenstone-ceramic-studio",
       "org": "Ken Shenstone Ceramic Studio",
       "kind": "studio",
@@ -804,6 +716,16 @@
       },
       "lat": 42.68753,
       "lng": -83.2341
+    }
+  ],
+  "_removed": [
+    {
+      "id": "kalamazoo-kiln-room",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "flash-ash-wood-kiln",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
     }
   ]
 }

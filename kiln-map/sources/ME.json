@@ -477,48 +477,6 @@
       "lng": -70.25866
     },
     {
-      "id": "belfast-clay-studio",
-      "org": "Belfast Clay Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Belfast",
-      "city": "Belfast",
-      "urls": [
-        "https://www.belfastclaystudio.com/"
-      ],
-      "notes": "Classes, by appointment. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Belfast, Maine",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.belfastclaystudio.com/"
-      },
-      "access": {
-        "how": "Classes, by appointment",
-        "note": "Classes, by appointment",
-        "quote": "Located on the harbor in beautiful Belfast, Maine, we offer classes for every body—from beginners to more advanced—and anyone who wants to experience clay.",
-        "url": "https://www.belfastclaystudio.com",
-        "types": [
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "belfastclaystudio.com"
-      },
-      "lat": 44.42618,
-      "lng": -69.00652
-    },
-    {
       "id": "work-in-progress",
       "org": "Work in Progress",
       "kind": "studio",
@@ -547,6 +505,12 @@
       },
       "lat": 43.99669,
       "lng": -70.06061
+    }
+  ],
+  "_removed": [
+    {
+      "id": "belfast-clay-studio",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
     }
   ]
 }

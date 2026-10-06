@@ -57,8 +57,7 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "soda",
-        "salt"
+        "soda"
       ],
       "region": "Denver",
       "city": "Denver",
@@ -79,8 +78,7 @@
         "url": "https://www.alsiceramics.com",
         "types": [
           "raku",
-          "soda",
-          "salt"
+          "soda"
         ],
         "checked": "2026-10-06"
       },
@@ -260,8 +258,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
-        "gas_reduction"
+        "wood"
       ],
       "region": "Morrison",
       "city": "Morrison",
@@ -281,8 +278,7 @@
         "quote": "Justin gives firing workshops at his studio/kiln shed located in Morrison, CO and is open for studio visits by appointment throughout the year.",
         "url": "http://www.jlpottery.com",
         "types": [
-          "wood",
-          "gas_reduction"
+          "wood"
         ],
         "checked": "2026-10-06"
       },
@@ -418,55 +414,6 @@
       "lng": -105.07701
     },
     {
-      "id": "a-potter-s-place",
-      "org": "A Potter's Place",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar"
-      ],
-      "region": "Fort Collins",
-      "city": "Fort Collins",
-      "urls": [
-        "https://www.apottersplace.com/"
-      ],
-      "notes": "Dated workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fort Collins, Colorado",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.apottersplace.com/"
-      },
-      "access": {
-        "how": "Dated workshops",
-        "note": "Dated workshops",
-        "quote": "From Holiday Crafting to spark creativity, Date Night Wheel for a playful evening, or the Northern Colorado Pottery Challenge to unleash your skills, we’ve got something for everyone.",
-        "url": "https://www.apottersplace.com",
-        "types": [
-          "wood",
-          "raku",
-          "soda",
-          "salt",
-          "pit_barrel_saggar",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "apottersplace.com"
-      },
-      "lat": 40.58718,
-      "lng": -105.07701
-    },
-    {
       "id": "joseph-miranda-smokestack",
       "org": "Joseph Miranda / Smokestack",
       "kind": "studio",
@@ -584,8 +531,7 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "salt",
-        "pit_barrel_saggar"
+        "salt"
       ],
       "region": "Colorado Springs",
       "city": "Colorado Springs",
@@ -606,8 +552,7 @@
         "url": "https://colospringspotterystudio.com/raku-firing-colorado-springs",
         "types": [
           "raku",
-          "salt",
-          "pit_barrel_saggar"
+          "salt"
         ],
         "checked": "2026-10-06"
       },
@@ -707,9 +652,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda"
+        "raku"
       ],
       "region": "Carbondale",
       "city": "Carbondale",
@@ -741,45 +684,16 @@
       },
       "lat": 39.40056,
       "lng": -107.21124
+    }
+  ],
+  "_removed": [
+    {
+      "id": "a-potter-s-place",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
     },
     {
       "id": "colorado-clay-studio-gallery",
-      "org": "Colorado Clay Studio & Gallery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Durango",
-      "city": "Durango",
-      "urls": [
-        "https://coloradoclaystudio.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Durango, Colorado",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://coloradoclaystudio.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "Assist in the bisque and glaze firing of your own pieces with professional guidance.",
-        "url": "https://coloradoclaystudio.com/classes/",
-        "types": [],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "coloradoclaystudio.com"
-      },
-      "lat": 37.27695,
-      "lng": -107.8766
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
     }
   ]
 }

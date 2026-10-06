@@ -300,7 +300,6 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "wood",
         "soda"
       ],
       "region": "Portland",
@@ -322,7 +321,6 @@
         "url": "https://www.pcc.edu/news/2014/12/sylvania-new-kiln-yard",
         "types": [
           "raku",
-          "wood",
           "soda"
         ],
         "checked": "2026-10-06"
@@ -332,46 +330,6 @@
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "pcc.edu"
-      },
-      "lat": 45.52025,
-      "lng": -122.67419
-    },
-    {
-      "id": "morning-ceramics-studio",
-      "org": "Morning Ceramics Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Portland",
-      "city": "Portland",
-      "urls": [
-        "https://www.morningceramics.com/"
-      ],
-      "notes": "Membership. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Portland, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.morningceramics.com/"
-      },
-      "access": {
-        "how": "Membership",
-        "note": "Membership",
-        "quote": "Rent a wheel and get those creative juices flowing in the comfort of your own home and bring your work to the studio to be fired in our hardworking kilns!",
-        "url": "https://www.morningceramics.com",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "morningceramics.com"
       },
       "lat": 45.52025,
       "lng": -122.67419
@@ -412,56 +370,6 @@
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "willametteartcenter.com"
-      },
-      "lat": 44.93916,
-      "lng": -123.03312
-    },
-    {
-      "id": "clay-kiln-collective",
-      "org": "Clay & Kiln Collective",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Salem",
-      "city": "Salem",
-      "urls": [
-        "https://www.statesmanjournal.com/"
-      ],
-      "notes": "Community studio. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Salem, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.statesmanjournal.com/"
-      },
-      "access": {
-        "how": "Community studio",
-        "note": "Community studio",
-        "quote": "A new spot in downtown Salem is offering a space beginner and experienced artists can go for hand-building, wheel throwing and kiln firing.",
-        "url": "https://www.statesmanjournal.com/story/news/local/2025/03/14/clay-kiln-collective-art-studio-salem-oregon/81785427007",
-        "types": [
-          "raku",
-          "wood",
-          "soda",
-          "salt",
-          "pit_barrel_saggar",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "statesmanjournal.com"
       },
       "lat": 44.93916,
       "lng": -123.03312
@@ -630,10 +538,7 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
+        "pit_barrel_saggar"
       ],
       "region": "Albany",
       "city": "Albany",
@@ -654,10 +559,7 @@
         "url": "https://calapooiaclay.com",
         "types": [
           "raku",
-          "soda",
-          "salt",
-          "pit_barrel_saggar",
-          "gas_reduction"
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
       },
@@ -711,90 +613,6 @@
       "lng": -121.31531
     },
     {
-      "id": "savecamp-clay",
-      "org": "SAVEcamp clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Bend",
-      "city": "Bend",
-      "urls": [
-        "https://www.potterylist.com/"
-      ],
-      "notes": "Membership. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bend, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.potterylist.com/"
-      },
-      "access": {
-        "how": "Membership",
-        "note": "Membership",
-        "quote": "It sells memberships with 24-hour studio access alongside classes for all levels, and runs an attached gallery open Wednesday to Saturday, 11am to 4pm.",
-        "url": "https://www.potterylist.com/bend/pottery-studios-and-classes",
-        "types": [
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "potterylist.com"
-      },
-      "lat": 44.05817,
-      "lng": -121.31531
-    },
-    {
-      "id": "ashland-clayhouse",
-      "org": "Ashland Clayhouse",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Ashland",
-      "city": "Ashland",
-      "urls": [
-        "https://www.ashlandclayhouse.com/"
-      ],
-      "notes": "Firing services. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Ashland, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.ashlandclayhouse.com/"
-      },
-      "access": {
-        "how": "Firing services",
-        "note": "Firing services",
-        "quote": "Firing Services",
-        "url": "https://www.ashlandclayhouse.com",
-        "types": [
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "ashlandclayhouse.com"
-      },
-      "lat": 42.19725,
-      "lng": -122.7154
-    },
-    {
       "id": "oregon-coast-school-of-art",
       "org": "Oregon Coast School of Art",
       "kind": "city_arts",
@@ -833,50 +651,6 @@
       },
       "lat": 43.73014,
       "lng": -124.1106
-    },
-    {
-      "id": "dragon-s-breath-pottery-supply",
-      "org": "Dragon's Breath Pottery & Supply",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Florence",
-      "city": "Florence",
-      "urls": [
-        "https://dragonsbreathpottery.com/"
-      ],
-      "notes": "Firing service by the pound. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Florence, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://dragonsbreathpottery.com/"
-      },
-      "access": {
-        "how": "Firing service by the pound",
-        "note": "Firing service by the pound",
-        "quote": "We have pricing per lb for bisque (▲06-04) and glaze (▲ 5/6) firings.",
-        "url": "https://dragonsbreathpottery.com/",
-        "types": [
-          "raku",
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "dragonsbreathpottery.com"
-      },
-      "lat": 43.98001,
-      "lng": -124.10131
     }
   ],
   "_removed": [
@@ -891,6 +665,26 @@
     {
       "id": "fancy-banana",
       "why": "Studio closed at the end of September 2026 (their homepage). (2026-10-05)"
+    },
+    {
+      "id": "morning-ceramics-studio",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "clay-kiln-collective",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "savecamp-clay",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "ashland-clayhouse",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "dragon-s-breath-pottery-supply",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
     }
   ]
 }

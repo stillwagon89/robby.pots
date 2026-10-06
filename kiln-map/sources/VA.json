@@ -122,8 +122,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "gas_reduction"
+        "raku"
       ],
       "region": "Virginia Beach",
       "city": "Virginia Beach",
@@ -142,9 +141,7 @@
         "note": "Raku workshop, ceramics classes",
         "quote": "Class tuition includes clay, glazes and firing.",
         "url": "https://www.artcentervb.org/pottery.html",
-        "types": [
-          "gas_reduction"
-        ],
+        "types": [],
         "checked": "2026-10-06"
       },
       "review": "pending",
@@ -447,8 +444,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "soda"
+        "raku"
       ],
       "region": "Alexandria",
       "city": "Alexandria",
@@ -468,10 +464,7 @@
         "quote": "The studio has a variety of Raku glazes available for your use.",
         "url": "https://www.alexandriaclaycoop.com/workshops",
         "types": [
-          "raku",
-          "soda",
-          "salt",
-          "pit_barrel_saggar"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -483,43 +476,16 @@
       },
       "lat": 38.80511,
       "lng": -77.04702
-    },
-    {
-      "id": "handthrown-studio",
-      "org": "Handthrown Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "gas_reduction"
-      ],
-      "region": "Richmond",
-      "city": "Richmond",
-      "urls": [
-        "https://www.handthrown.studio/"
-      ],
-      "notes": "Alternative firing course. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Richmond, Virginia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.handthrown.studio/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "handthrown.studio"
-      },
-      "lat": 37.53851,
-      "lng": -77.43428
     }
   ],
   "_removed": [
     {
       "id": "shenandoah-valley-art-center",
       "why": "No firing information on their pages. (2026-10-05)"
+    },
+    {
+      "id": "handthrown-studio",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
     }
   ]
 }

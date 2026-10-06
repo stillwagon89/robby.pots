@@ -365,50 +365,6 @@
       "lng": -122.43833
     },
     {
-      "id": "spun-clay-arts-studio",
-      "org": "Spun Clay Arts Studio",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Tacoma",
-      "city": "Tacoma",
-      "urls": [
-        "https://www.spuntacoma.com/"
-      ],
-      "notes": "Membership firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tacoma, Washington",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.spuntacoma.com/"
-      },
-      "access": {
-        "how": "Membership firings",
-        "note": "Membership firings",
-        "quote": "AFTER HOURS MEMBERSHIP FIRING FAQs",
-        "url": "https://www.spuntacoma.com/general-5-1",
-        "types": [
-          "wood",
-          "raku",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "spuntacoma.com"
-      },
-      "lat": 47.2455,
-      "lng": -122.43833
-    },
-    {
       "id": "kilnfolk-clay-studio",
       "org": "Kilnfolk Clay Studio",
       "kind": "studio",
@@ -615,6 +571,10 @@
     {
       "id": "vashon-center-arts",
       "why": "No ceramics firing on their pages. (2026-10-05)"
+    },
+    {
+      "id": "spun-clay-arts-studio",
+      "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
     }
   ]
 }
