@@ -20,7 +20,8 @@ for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2
 
 for (const ST of process.argv.slice(2).map((s) => s.toUpperCase())) {
   const st = ST.toLowerCase();
-  const ledger = fs.readFileSync(path.join(KM, "research", `${st}-ledger.md`), "utf8");
+  const lf = ["discovery-ledger", "ledger"].map((n) => path.join(KM, "research", `${st}-${n}.md`)).find((p) => fs.existsSync(p) && /^## Qualifies/m.test(fs.readFileSync(p, "utf8")));
+  const ledger = fs.readFileSync(lf, "utf8");
   const places = JSON.parse(fs.readFileSync(path.join(KM, "research/cache", st, "places.json"), "utf8"));
   const srcFile = path.join(KM, "sources", `${ST}.json`);
   const doc = fs.existsSync(srcFile) ? JSON.parse(fs.readFileSync(srcFile, "utf8")) : { _note: `${ST} firing sources.`, sources: [] };

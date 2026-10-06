@@ -22,7 +22,9 @@ const env = Object.fromEntries(
   fs.readFileSync(path.join(ROOT, ".dev.vars"), "utf8").split("\n").map((l) => l.match(/^([A-Z_]+)=(.*)$/)).filter(Boolean).map((m) => [m[1], m[2].replace(/^"|"$/g, "").trim()])
 );
 const readJson = (f, d) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8")) : d);
-const writeJson = (f, v) => fs.writeFileSync(f, JSON.stringify(v, null, 2));
+// Scraped pages sometimes embed other sites' API tokens; never save them (GitHub push protection rejects them too).
+const SECRET = /\b(sk|pk)\.eyJ[A-Za-z0-9._-]{20,}|\b(AKIA[0-9A-Z]{16}|AIza[0-9A-Za-z_-]{35}|ghp_[A-Za-z0-9]{36}|xox[bp]-[A-Za-z0-9-]{20,})/g;
+const writeJson = (f, v) => fs.writeFileSync(f, JSON.stringify(v, null, 2).replace(SECRET, "[redacted-token]"));
 const log = (...a) => console.log(new Date().toISOString().slice(11, 19), ...a);
 
 // ---------- 1. search list ----------
@@ -199,6 +201,7 @@ const SCHEMA = {
 };
 const RULES = `You check whether a place lets members of the public take part in a ceramic kiln firing in ${CFG.name}.
 QUALIFIES when the text shows the public can join or book a NON-electric firing (raku, horsehair raku, wood/anagama, soda, salt, pit/barrel/saggar, gas reduction) at a place located in ${CFG.name}: a dated workshop or firing event, a private firing booked by appointment, an ongoing class or studio membership that includes such firings, or a firing service open to outside potters.
+A membership, class or studio rental that anyone can sign up for IS public access: do not reject a studio because firing happens through membership or classes.
 REJECT: electric-only kilns; places outside ${CFG.name}; generic paint-your-own pottery; blogs, news, shops or directories that don't run firings; firings that ended before 2025; members-only with no way to join.
 UNCLEAR: the text hints at such firings but you can't tell whether the public can take part, or where the place is.
 "name": the studio, school or organization that runs the firing (if the page is a calendar or directory, the host named in the listing). "city": just the city name. "state": two-letter code.
@@ -273,6 +276,15 @@ function stageReport(places) {
   log(`report: ${ok.length} qualify, ${unclear.length} unclear, ${rej.length} rejected, ${social.length} social`);
 }
 
+// --rejudge=gas: send rejected places whose pages mention gas firing back to the judge (after a rules change).
+if (process.argv.includes("--rejudge=gas")) {
+  const f = path.join(CACHE, "places.json");
+  const P = readJson(f, {});
+  let n = 0;
+  for (const p of Object.values(P)) if (p.judged?.decision === "reject" && !p.judged.auto && /cone ?10|reduction|gas kiln|gas-fired|gas fired/i.test(Object.values(p.pages).join(" "))) { delete p.judged; n++; }
+  writeJson(f, P);
+  log(`rejudge: ${n} gas places sent back to the judge`);
+}
 const search = !ONLY || ONLY === "search" ? await stageSearch() : readJson(path.join(CACHE, "search.json"), {});
 let places = !ONLY || ONLY === "fetch" ? await stageFetch(search) : readJson(path.join(CACHE, "places.json"), {});
 if (!ONLY || ONLY === "judge") places = await stageJudge(places);
