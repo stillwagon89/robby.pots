@@ -73,6 +73,7 @@ const FIRE = /raku|wood.?fir|woodfir|anagama|noborigama|train kiln|groundhog|bou
 
 function knownDomains() {
   const out = new Map();
+  for (const [h, st] of Object.entries(readJson(path.join(HERE, "elsewhere.json"), {}))) if (!h.startsWith("_")) out.set(h, `${st}:elsewhere`);
   for (const f of fs.readdirSync(path.join(KM, "sources")).filter((x) => x.endsWith(".json"))) {
     for (const s of readJson(path.join(KM, "sources", f), { sources: [] }).sources || []) {
       for (const u of [...(s.urls || []), s.contact?.website].filter(Boolean)) { try { out.set(host(u), `${f.replace(".json", "")}:${s.id}`); } catch {} }
@@ -219,6 +220,8 @@ const norm = (s) => (s || "").toLowerCase().replace(/[^a-z0-9$]+/g, " ").trim();
 async function stageJudge(places) {
   const todo = Object.values(places).filter((p) => !p.judged && !p.social && (Object.values(p.pages).some((t) => FIRE.test(t)) || p.hits.some((h) => FIRE.test(h.snippet))));
   for (const p of Object.values(places)) if (!p.judged && !p.social && !todo.includes(p)) p.judged = { decision: "reject", reason: "no firing words on any page", auto: true };
+  // Places already known to be in another state never reach the judge.
+  for (const p of [...todo]) if (p.known && !p.known.startsWith(`${ST}:`)) { p.judged = { decision: "reject", reason: `known place in ${p.known.split(":")[0]}`, auto: true }; todo.splice(todo.indexOf(p), 1); }
   log(`judge: ${todo.length} places for ${OLLAMA_MODEL}`);
   const f = path.join(CACHE, "places.json");
   let n = 0;
@@ -260,6 +263,10 @@ function stageReport(places) {
     `## Rejected (${rej.length})`, "", ...rej.map((p) => `- ${p.key}: ${p.judged.reason}`),
   ].join("\n");
   fs.writeFileSync(path.join(KM, "research", `${ST.toLowerCase()}-report.md`), md);
+  // Compact list for the one Claude review pass: one line per place that isn't rejected.
+  const line = (t, p) => [t, p.key.slice(0, 45), (p.judged.name || "").slice(0, 30), p.judged.city || "?", p.judged.state_on_page ? ST : "-", (p.judged.firing_types || []).join(","), p.judged.access, (p.judged.quote || "").replace(/\s+/g, " ").slice(0, 110)].join(" | ");
+  fs.writeFileSync(path.join(CACHE, "review.txt"), [...ok.map((p) => line("Q", p)), ...unclear.map((p) => line("U", p))].join("\n"));
+  writeJson(path.join(CACHE, "places.json"), places);
   writeJson(path.join(KM, "research", `${ST.toLowerCase()}-discovery.json`), { state: ST, searches: Object.keys(readJson(path.join(CACHE, "search.json"), {})), places: all.map(({ pages, ...p }) => p) });
   log(`report: ${ok.length} qualify, ${unclear.length} unclear, ${rej.length} rejected, ${social.length} social`);
 }
