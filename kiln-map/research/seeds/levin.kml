@@ -1,0 +1,2916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Wood Kilns</name>
+    <description><![CDATA[A public resource of wood fired kilns around the world.  Any type of wood kiln for pottery is accepted.  <br>If you are interested in adding yours to the map please email Simon@SimonLevin.com Send the Name of the kiln, Type of kiln, Size in Cubic feet, date of construction, contact information and any website where more information may be found.<br><br>Anagamas - Blue<br>Fast fire kilns - Yellow<br>Train Kilns - Green<br>Cross Drafts - Red<br>Groundhogs - Purple<br>Noborigama - White<br>Tube Kiln-Orange]]></description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-4186F0-normal">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-4186F0-highlight">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-4186F0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-4186F0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-4186F0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-7C3592-normal">
+      <IconStyle>
+        <color>ff92357c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-7C3592-highlight">
+      <IconStyle>
+        <color>ff92357c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-7C3592">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-7C3592-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-7C3592-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F4EB37-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F4EB37-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F4EB37">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F4EB37-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F4EB37-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F4EB37-nodesc-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-F4EB37-nodesc-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-F4EB37-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F4EB37-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F4EB37-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-F8971B-normal">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-F8971B-highlight">
+      <IconStyle>
+        <color>ff1b97f8</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-F8971B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F8971B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F8971B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-FFFFFF-normal">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-FFFFFF-highlight">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-FFFFFF">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-FFFFFF-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-FFFFFF-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Fast fire</name>
+        <description>Alex Inman 27 cf fast fire design     built in 2013 2973 w. Knob hill,  Springfield mo </description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -93.3398665,37.1157209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mill Creek Pottery-Anagama</name>
+        <description><![CDATA[Contact:<br>Simon Levin<br>simonlevin.com<br> (http://www.woodfire.com)<br>Kilns:<br>1 60 cubic foot cross draft<br>1 18&#39; 200 cubic foot anagama<br>1 60 cubic foot modified train kiln]]></description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <Point>
+          <coordinates>
+            -88.830246,44.817235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gustin Ceramics</name>
+        <description><![CDATA[Type of Kiln - Anagama, with catenary salt/soda second chamber, catenary third chamber.<br>Size in Cubic Feet - Anagama (250 cu. ft), 2nd chamber (100 cu. ft), 3rd chamber (25 cubic feet) = 375 cubic feet total <br><br><br>Contact: Chris Gustin<br><br><br>Gustin Ceramics, LLC<br>231 Horseneck Road<br>South Dartmouth, MA 02748<br>508.636.6213<br>508.636.5099 fax<br>cgceramics@aol.com (cgceramics@aol.com)<br>www.gustinceramics.com (http://www.gustinceramics.com)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -71.046259,41.563668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lamplight Pottery Sprung Arch</name>
+        <description><![CDATA[Sprung Arch<br>36 cu ft<br>N 7041 Northstar Rd<br>Michael Carson<br>Website: http://www.etsy.com/shop/lamplightpottery (http://www.etsy.com/shop/lamplightpottery)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -87.812412,43.803237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PrattMWP Anagama</name>
+        <description><![CDATA[designed by Bryan McGrath<br><br>60 cubic ft; built 2007<br><br><br><br>Munson-Williams-Proctor Arts Institute<br><br>School of Art<br><br>310 Genesee St.<br><br>Utica, NY  13501<br><br><br><br>Contacts- bmcgrath@mwpai.edu (mailto:bmcgrath@mwpai.edu);<br><br>              prattmwpclay.blogspot.com (http://prattmwpclay.blogspot.com)<br>mwpai.org (http://mwpai.org) or prattmwp.edu (http://prattmwp.edu)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -75.241005,43.09724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bourry Box</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6xbCJhPYQ-GiqA0lIGzxbcjh7DGe2V-uqBQlDWXMgfWn4xzDf3GwSzmGFdBbARPiXzk8q9YtNqp8DyYfn589eVUCyJBxPDdhy6H09PzpB7f85J3aCFQ7-8k9YCJ2EDqX2coF-W7w" height="200" width="auto" /><br><br>Bourry box car kiln, cross draft design with primary air preheater and built in pizza oven.  60 cu. ft.  Built 2009.David Voorhees2212 Green River Rd.Zirconia, NC 28790828-698-8775www.davidvoorheespottery.comvoorheespottery@gmail.com]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6xbCJhPYQ-GiqA0lIGzxbcjh7DGe2V-uqBQlDWXMgfWn4xzDf3GwSzmGFdBbARPiXzk8q9YtNqp8DyYfn589eVUCyJBxPDdhy6H09PzpB7f85J3aCFQ7-8k9YCJ2EDqX2coF-W7w</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.468274,35.206523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finch Down Draft</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6GCcUiNNo6-yxfzJUHX4WuMId4UZNb01wThYkblkgZsfgkiLL8NRudsf0EoGxpR-2qbipAsgcZT6KIQlgxiBy9PjvfYqPhM2QeLwTM9UoCORpzdfxZzYlzqnKYsTxKNp1efw" height="200" width="auto" /><br><br>Own design. Opposing fireboxes under chamber, central flue.  1.5 cubic meters packing area. <br>Additional wood-fired &#39;soda&#39; kiln.<br><br><br>Contact: Joe Finch<br> Tanygroes, Cardigan,<br><br>SA43 2HR Wales, UK<br><br>Size of kiln: <br><br>Contact name: Joe Finch<br><br>joe@joefinch.co.uk (mailto:joe@joefinch.co.uk)<br>www.joefinchkilns.co.uk (http://www.joefinchkilns.co.uk) &amp; www.potteryandpaintings.co.uk (http://www.potteryandpaintings.co.uk)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6GCcUiNNo6-yxfzJUHX4WuMId4UZNb01wThYkblkgZsfgkiLL8NRudsf0EoGxpR-2qbipAsgcZT6KIQlgxiBy9PjvfYqPhM2QeLwTM9UoCORpzdfxZzYlzqnKYsTxKNp1efw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -4.515925,52.123739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cross Draft</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6qq2QTJi_t1k280q18FF8KdVAKpYt_pztkU7PPZ_Wtqk6gX51APhLtr9hg9co16_sTx0DX5cU0PbfKbJdOZu2anqy-8WwAqp145sGNzPXvMHBS0R6oCpDji48JbHzHPUKj7APB2tZ2T23bxzLnjUp3qfCw68jCF8cY7uCfmuXRiqzq6q0kDNIlMfYEakFfQA" height="200" width="auto" /><br><br>90 Cubic foot Cross Draft<br><br>Contact: Michael Kline<br>4062 Snow Creek Road<br>Bakersville, NC 28705<br><br>Read my blog  &quot;Sawdust &amp; Dirt&quot;,<br>http://www.michaelklinepottery.blogspot.com (http://www.michaelklinepottery.blogspot.com)<br><br><br>FACEBOOK: http://tinyurl.com/cstvmg (http://tinyurl.com/cstvmg)<br>TWITTER: http://www.twitter.com/klineola (http://www.twitter.com/klineola)<br>LAST.FM (http://LAST.FM): http://www.last.fm/user/klineola (http://www.last.fm/user/klineola)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6qq2QTJi_t1k280q18FF8KdVAKpYt_pztkU7PPZ_Wtqk6gX51APhLtr9hg9co16_sTx0DX5cU0PbfKbJdOZu2anqy-8WwAqp145sGNzPXvMHBS0R6oCpDji48JbHzHPUKj7APB2tZ2T23bxzLnjUp3qfCw68jCF8cY7uCfmuXRiqzq6q0kDNIlMfYEakFfQA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.161523,35.936108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manibigama</name>
+        <description><![CDATA[Manibigama, 25 cubic feet<br><br>Contact: Mike Hayes<br>3665 South <br>Pixley Knob Road, Henryville Indiana<br>MikeHayes@wcrtc.net (MikeHayes@wcrtc.net) <br><br>812-967-8033]]></description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.850065,38.550146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Duff Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v49SC9ZKjWhJIJqPAwDfg3ySdQhhoZKbcMP8uzngIgw4kutKQbQmkrmTXBHHv_HS2Utx9fL4Tb2PPI-bveXDMSh" height="200" width="auto" /><br><br>Train kiln: approximately 60 <br>cubic feet.<br>Built 1998<br><br><br>Anagama: approximately 40 cubic feet. built <br>with help of Shozo Michikawa in 2005<br><br>Contact:Judith Duff<br><br>450 Cedar Lane<br><br>Brevard, NC 28712<br><br>828-884-5258<br><br>www.judithduff.com (http://www.judithduff.com)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v49SC9ZKjWhJIJqPAwDfg3ySdQhhoZKbcMP8uzngIgw4kutKQbQmkrmTXBHHv_HS2Utx9fL4Tb2PPI-bveXDMSh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.673004,35.144986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olsen Fast Fire</name>
+        <description><![CDATA[25 cubic foot<br><br>Contact:Lisa Wood<br><br>39140 Harbinson lane, Homer alaska<br>phone:spiralwedge@gmail.com (mailto:phone%3Aspiralwedge@gmail.com) 907-235-8316]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -151.477604,59.704337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olsen Fast Fire </name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4r0WMxd93RhxzIOyOWaDS6k2Jsd_qzlY9LrkRMx9LQ9hHtVhHlb8V0xqWRp6SGhtm6cHJM8ycvYeE5BbqJK3tGQb0EJFGqYm_zSqMuo-knlXEacsEdUFtLRjFgm58AFpk2mcN6zR8_ZodqFOkjPhpZVYxOEz0rgi4eQVb9qg" height="200" width="auto" /><br><br>Phoenix Fast Fire<br>40 Cubic feet.<br><br>Contact:Josh Floyd<br>Brush Valley Pottery<br> 4610 Luciusboro Road<br>Homer City, PA, 15748<br><br>floydpots.blogspot.com (http://floydpots.blogspot.com)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4r0WMxd93RhxzIOyOWaDS6k2Jsd_qzlY9LrkRMx9LQ9hHtVhHlb8V0xqWRp6SGhtm6cHJM8ycvYeE5BbqJK3tGQb0EJFGqYm_zSqMuo-knlXEacsEdUFtLRjFgm58AFpk2mcN6zR8_ZodqFOkjPhpZVYxOEz0rgi4eQVb9qg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.10786,40.519876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Groundhog</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v63xssUH9JEwqebJpF5CCaHarlGVoln6U6gvuaFS5jkb9xQNVLRVtdno3bH6sSewhSLKrIclrBKO_yMeOKu8DkHpDxM9c4cxzOJjQLk8oV5UT0wSjhkGYgoxsc9jbf31A" height="200" width="auto" /><br><br>100 cubic foot groundhog kiln.<br><br>Contact: Andrew Snyder<br><br>Bootleg Pottery<br><br>290 Woody Brown Rd.<br><br>Rising Sun, MD 21911<br><br>www.bootlegpottery.com (http://www.bootlegpottery.com/)]]></description>
+        <styleUrl>#icon-503-7C3592</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v63xssUH9JEwqebJpF5CCaHarlGVoln6U6gvuaFS5jkb9xQNVLRVtdno3bH6sSewhSLKrIclrBKO_yMeOKu8DkHpDxM9c4cxzOJjQLk8oV5UT0wSjhkGYgoxsc9jbf31A</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.151696,39.71017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University of Manitoba Train Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7Mz_CMc2TiQm5pErFhml3D_h29K-Y33HmhXXTdiuwKv-KgrgvcADiAzrK7NYzJL2hjH-C3CmVxqC8PD8GfLhAiCbNROpc7aYyljJOPyCx2ngAcju0STpWmrG3p8JfPDYWoEg" height="200" width="auto" /><br><br>Train kiln, with a stacking space of 51.6 cubic feet (45&quot; wide, 72&quot; long, and 37.5&quot; high)<br><br>contact:<br> <br><br>Professor Stephen Grimmer,  Chair of Ceramics<br>University of Manitoba<br>Winnnipeg, MB  R3T 2N2<br>(204) 474-9560<br>grimmer@cc.umanitoba.ca (mailto:grimmer@cc.umanitoba.ca)<br>http://ltc.umanitoba.ca/blogs/grimmer (http://ltc.umanitoba.ca/blogs/grimmer)]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7Mz_CMc2TiQm5pErFhml3D_h29K-Y33HmhXXTdiuwKv-KgrgvcADiAzrK7NYzJL2hjH-C3CmVxqC8PD8GfLhAiCbNROpc7aYyljJOPyCx2ngAcju0STpWmrG3p8JfPDYWoEg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.135797,49.80563,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olsen Fast Fire Salt kiln</name>
+        <description><![CDATA[50 cubic foot Olsen Fast Fire <br><br>Salt Glazed<br><br><br><br>Alan Snyder<br><br>461 Wilson Rd.<br><br>Rising Sun, MD 21911]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -76.018379,39.691428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Train Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v66CqulMlAS5P31R5QWjDfBzL1zSP_SKKBHj6IHLQqU4AQzNmyRDp2w2qI_b1b40PgzhR9byLCLzJmcF4GqzOwFhB6j8iuif-TYMtzVBOEXF8aX5ML_U8HYYhARQiZf8GDaTBW_ppd5qqNVu8u7cgI" height="200" width="auto" /><br><br>Built by Shawn O&#39;Connor<br>30 cubic feet<br><br>Contact: Shawn O&#39; Connor (http://www.shawnoconnorceramics.com)<br>Errol Willett   eswillet@syr.edu<br>Associate Professor<br>Department of Art at Comart<br>Comart Facility<br>315-443-3700<br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v4BUs6ktOshclAGa6rrdhTJRmkLnf2Ee__ANDhOs9edy07OCpbwo7CGnPFQD95Tp-0E_0k_H62dG_W0fCr2zj_40GS9G5g1wZbcD2-zk4a-Xd21NGPeqxuN5_RhGjU7XNLE0rP66hstVgHjsxHy6g" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v66CqulMlAS5P31R5QWjDfBzL1zSP_SKKBHj6IHLQqU4AQzNmyRDp2w2qI_b1b40PgzhR9byLCLzJmcF4GqzOwFhB6j8iuif-TYMtzVBOEXF8aX5ML_U8HYYhARQiZf8GDaTBW_ppd5qqNVu8u7cgI https://lh3.googleusercontent.com/umsh/AN6v0v4BUs6ktOshclAGa6rrdhTJRmkLnf2Ee__ANDhOs9edy07OCpbwo7CGnPFQD95Tp-0E_0k_H62dG_W0fCr2zj_40GS9G5g1wZbcD2-zk4a-Xd21NGPeqxuN5_RhGjU7XNLE0rP66hstVgHjsxHy6g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.127309,43.02642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rosser anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5vzdW2BbjTBxMOdo6bFXhM2PiCtsUshqscdag82LNmVAbwaONUT3Zskjn6bYMVtwdvR8H7DBChfwlDlp9QRRjvK50bOOLqda26YRabPDUYRaXvBw" height="200" width="auto" /><br><br>Internal size 3ft wide x 3ft high x 16ft long<br><br><br>Contact: Carol and Arthur Rosser <br>126 Watts Road,<br> Dalrymple Hts,<br>QLD 4757 Australia<br>Rosser web site (http://www.rosserpottery.com)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5vzdW2BbjTBxMOdo6bFXhM2PiCtsUshqscdag82LNmVAbwaONUT3Zskjn6bYMVtwdvR8H7DBChfwlDlp9QRRjvK50bOOLqda26YRabPDUYRaXvBw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            148.499064,-21.113348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Neil Hoffman's kilns]]></name>
+        <description><![CDATA[Contact: Neil Hoffman, Reedy Marsh, Tasmania, Australia<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Train stepped grate, side door bourry <br>           0.56 cu metres variable <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Train salt, top hatch bourry                              <br>0.66 cu metres variable <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Under, up, across, down &amp; out                          0.125<br>cu metres <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> Stubbie long throat, top hatch bourry              0.4 cu metres<br>variable<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>	<br>	<br>	<br>	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>nhoffmann@activ8.net.au (mailto:nhoffmann@activ8.net.au)<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>	<br>	<br>	<br>	<br><br> (mailto:nhoffmann@activ8.net.au)<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> (mailto:nhoffmann@activ8.net.au)www.woodfiretasmania.com.au (http://www.woodfiretasmania.com.au/]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            146.702639,-41.438206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Twin Chamber Bourry</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4u_c0-0w-cl43iIuU2OQF-y9ss2GwI8PjgUJqk0OQNNBLas8hoDmrWVpzITHwYPBBTDA53NHIQ5XHA5TjkIxbIVyqw7tEg9avOQUqBcqICyA" height="200" width="auto" /><br><br>Double chamber Bourry firebox <br>120 cu ft total setting space<br>Built 2002Contact: Geoff Crispin<br>40 Whiteman Creek Road , Grafton<br>NSW 2460, Australia<br><br>geoff.crispin@gmail.com (mailto:geoff.crispin@gmail.com)<br><br>www.osmosis.net.au/crispin (http://www.osmosis.net.au/crispin)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4u_c0-0w-cl43iIuU2OQF-y9ss2GwI8PjgUJqk0OQNNBLas8hoDmrWVpzITHwYPBBTDA53NHIQ5XHA5TjkIxbIVyqw7tEg9avOQUqBcqICyA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            152.842172,-29.586184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broc Allen Angama</name>
+        <description>500 Cubic foot anagama, built 2007 contact: brocallen33@gmail.com </description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -92.1684989,46.512181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mill Creek Pottery- Train Kiln</name>
+        <description><![CDATA[Contact:<br>Simon Levin<br>simonlevin.com<br>(http://www.woodfire.com)<br>Kilns:<br>1 60 cubic foot cross draft<br>1 18&#39; 200 cubic foot anagama<br>1 60 cubic foot modified train kiln]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8301894,44.8171905,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mill Creek Pottery-Cross Draft</name>
+        <description><![CDATA[Contact:<br>Simon Levin<br>simonlevin.com<br>(http://www.woodfire.com)<br>Kilns:<br>1 60 cubic foot cross draft<br>1 18&#39; 200 cubic foot anagama<br>1 60 cubic foot modified train kiln]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8302632,44.8172846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Duff Train Kiln</name>
+        <description><![CDATA[Train kiln: approximately 60 <br>cubic feet.<br>Built 1998<br><br><br>Anagama: approximately 40 cubic feet. built <br>with help of Shozo Michikawa in 2005<br><br>Contact:Judith Duff<br><br>450 Cedar Lane<br><br>Brevard, NC 28712<br><br>828-884-5258<br><br>www.judithduff.com (http://www.judithduff.com)]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -82.6730365,35.1449504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Millstone Pottery Train</name>
+        <description><![CDATA[Millstone Pottery Train <br>kilnSize in cubic feet: 40 : Built 2003                       Contact: Paul de Jongh, millstone@breede.co.za<br><br>Website: www.millstonepottery.co.za (www.millstonepottery.co.za)]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            19.8237455,-33.9483797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Millstone Pottery Crossdraft</name>
+        <description><![CDATA[Contact: Paul de Jongh, millstone@breede.co.za<br><br>Website: www.millstonepottery.co.za (www.millstonepottery.co.za)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            19.823767,-33.948382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noborigama</name>
+        <description><![CDATA[80 cubic foot Ruggles/Rankin Noborigama<br>16 cubic foot Olsen Fast Fire<br>12 cubic foot Olsen Fast Fire for low fire. Made from Adobe Brick.<br><br><br>Cotact: Peter Chartrand<br>P.O. box 1043<br>Bizbee, AZ 85603, email peterbclay@gmail.com]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -109.8405173,31.4728727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fast Fire</name>
+        <description><![CDATA[240 cubic foot anagama built in 1993<br><br>60 cubic foot fast fire design built in 1999<br><br>60 cubic foot Bourry Box wood salt built in 1999<br><br>contact. Jim Brashear<br>Professor of Art University of Alaska Fairbanks<br>www.art.uaf.edu (http://www.art.uaf.edu)<br>ffjjb1@uaf.edu (ffjjb1@uaf.edu)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -147.8659156,64.8582388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bourry Box Wood/Salt</name>
+        <description><![CDATA[240 cubic foot anagama built in 1993<br><br>60 cubic foot fast fire design built in 1999<br><br>60 cubic foot Bourry Box wood salt built in 1999<br><br>contact. Jim Brashear<br>Professor of Art University of Alaska Fairbanks<br>www.art.uaf.edu (http://www.art.uaf.edu)<br>ffjjb1@uaf.edu (ffjjb1@uaf.edu)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -147.8659424,64.8582229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bruhin Noborigama</name>
+        <description><![CDATA[anagama: 150 cubic ft<br><br>norborigama: 150 cubic ft<br><br>Contact Information:<br>joebruhin.com (http://www.joebruhin.com)<br>Joe Bruhin<br>joebruhin@gmail.com (joebruhin@gmail.com)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -92.3028025,35.7811219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waubonsee Tube</name>
+        <description><![CDATA[110 cubic foot anagama<br>- Built 9/2006 by Simon Levin<br>180 cubic foot Tube kiln<br>- Built 9/2005<br>60 cubic foot Train kiln<br>- Built 7/2004<br>40 cubic foot Cross Draft<br>- Built 10/2002<br><br>Contact: Doug Jeppesen<br>Phone: <br>(630) 466-7900 x2505 <br>Fax: (630) 466-9102 <br>Email: djeppesen@waubonsee.edu (djeppesen@mail.wcc.cc.il.us)]]></description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -88.4565443,41.7953562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waubonsee Train</name>
+        <description><![CDATA[110 cubic foot anagama<br>- Built 9/2006 by Simon Levin<br>180 cubic foot Tube kiln<br>- Built 9/2005<br>60 cubic foot Train kiln<br>- Built 7/2004<br>40 cubic foot Cross Draft<br>- Built 10/2002<br><br>Contact: Doug Jeppesen<br>Phone: <br>(630) 466-7900 x2505 <br>Fax: (630) 466-9102 <br>Email: djeppesen@waubonsee.edu (djeppesen@mail.wcc.cc.il.us)]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -88.4564665,41.7953902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waubonsee Crossdraft</name>
+        <description><![CDATA[110 cubic foot anagama<br>- Built 9/2006 by Simon Levin<br>180 cubic foot Tube kiln<br>- Built 9/2005<br>60 cubic foot Train kiln<br>- Built 7/2004<br>40 cubic foot Cross Draft<br>- Built 10/2002<br><br>Contact: Doug Jeppesen<br>Phone: <br>(630) 466-7900 x2505 <br>Fax: (630) 466-9102 <br>Email: djeppesen@waubonsee.edu (djeppesen@mail.wcc.cc.il.us)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -88.4564531,41.7953442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bourry Box</name>
+        <description><![CDATA[Anagama: 150 cubic feet<br>Bourry Box: 50 cubic feet<br><br>Contact name: Nancy Utterback<br>6440 north 63st. Boulder, Colorado 80305<br>utterbackn@mac.com (utterbackn@mac.com) <br>(303) 828-3220<br>Ceramicworld.org (http://ceramicworld.org/)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -105.2078864,40.0911128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bourry Box</name>
+        <description><![CDATA[Bourry box . Soft brick construction. 52 Cubic feet.<br><br>Train Kiln, 42 cubic feet.<br><br>Contact: Nancy Smeltzer nsmeltzer@windstream.net (nsmeltzer@windstream.net)<br><br>phone, 814.257.8960<br><br>Web site, www.potterstour.com (http://www.potterstour.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -79.170278,40.8700285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bourry Box</name>
+        <description><![CDATA[200 cubic-foot Noborigama with 2 ware chambers. The second chamber we salt.<br>Built 8/2004<br><br>28 cubic-foot Boury Box kiln.<br>Built 7/2006<br><br><br>Contact: Ruth Cohen and Archie Johnson<br><br>MUD AND FIRE POTTERS<br><br>1002 Bowbridge Road<br><br>Little Meadows, PA 18830<br><br>570-623-3335<br><br>mudandfirepotter@aol.com (mudandfirepotter@aol.com)<br><br>www.mudandfirepotters.com (http://www.mudandfirepotters.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -76.0954607,41.9667618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noborigama</name>
+        <description><![CDATA[combination anagama, 2 chamber noborigbama (shino and salt chambers)<br>Size of kiln: 450 cu.ft.<br><br>Contact: Kevin Crowe<br>Tye River Pottery, 1289 Falling Rock Dr., Amherst, Va. , Nelson County<br><br>Contact email, phone: tyeriverpottery@aol.com (tyeriverpottery@aol.com), 434-263-4065<br>Website: www,kevincrowepottery.com (http://kevincrowepottery.com/)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -78.9052253,37.6371829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Pete Train Kiln</name>
+        <description><![CDATA[Train kiln- 72 cubic feet, built in August 2012<br>Morean Center for Clay<br>420 22nd street south<br>St. Petersburg FL 33712                                             http://www.moreanartscenter.org/center-for-clay/]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -82.6625222,27.767598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flynn Creek Pottery Cross Draft</name>
+        <description><![CDATA[Cross Draft with External Firebox; Salted<br>stacking space of 2ft x 3ft x 5ft<br>Anagama Catenary arch: 10 feet long, 4 feet wide and 4 feet tall with two steps inside<br><br>2651 Flynn Creek Rd.<br>Comptche Ca. 95427<br>Contact: Nick Schwartz<br>nickschwartzanagama@gmail.com]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -123.6011535,39.1911585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Two Chamber Climbing Noborigama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5ZkLBIeafOcINWMb5DvzygL2wGuTaB5gcensUWJgQX23V-JsmuLpamsE4bqTnkTn27o4iX2Q8Mlfuh91u1HTXTkL_SM31J4y9bEBzN8GQGz-9i-Q729tVAnHhM9K2Js893Fxr49hxBOI2DdnliDG2-8pKe4flC31S39Mx_KN3Qafifk7rKCiP7j4k5M95d0Q" height="200" width="auto" /><br><br>Size of kiln: 100 cf<br>Month and year the kiln was built: Completed May 2011<br>Contact name: Julie Jones<br>Contact email, phone: juliejonespottery@gmail.com<br>Website: juliejonespottery.com]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5ZkLBIeafOcINWMb5DvzygL2wGuTaB5gcensUWJgQX23V-JsmuLpamsE4bqTnkTn27o4iX2Q8Mlfuh91u1HTXTkL_SM31J4y9bEBzN8GQGz-9i-Q729tVAnHhM9K2Js893Fxr49hxBOI2DdnliDG2-8pKe4flC31S39Mx_KN3Qafifk7rKCiP7j4k5M95d0Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.7262329,36.1961659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Umdang Anagama</name>
+        <description><![CDATA[34 Moo 4 Dankwean <br> Nakorn Ratchasima Thailand, 30190<br>3 cubic meters stacking space<br>built: 2014 <br>Contact name: Suwanee Natewong<br>Contact email: umdangceramics@gmail.com <br>Website: http://umdang.com]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            102.1627316,14.7322356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alto Clayworks Noborigama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5l9hw05OVxPzFwuzY3RA3L8ymcekSnZ91f3Z8yOlyydag3RZK7c3yvzlWDLkGsPpTBkh_B5pzwRZqrINg_BWBAREL9_wJCTrr5nBTH3PzZu1oSvHHjFK8cA_WUGUEVgT9ZZxXdvtRkSCVozmCX4bcF6N8C8tdY6TGslI8IHfT7HW_PqSrn6u-YRrIGB4O749NItGh4M1SqxI6RuSKDYVfO4S3lYqV5AeX6raGbH__ifOFfGjD_fX2v5OJwo6krQA" height="200" width="auto" /><br><br>Two-chamber Noborigama-200 Cubic Feet           Built June-October 2015                                             Contact:                                                                     Steve Grimmer<br>Alto Clay Works<br>595 Main Street<br>PO Box 8<br>Alto Pass, IL 62905<br>www.altoclayworks.com<br>618-697-4258                      ]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5l9hw05OVxPzFwuzY3RA3L8ymcekSnZ91f3Z8yOlyydag3RZK7c3yvzlWDLkGsPpTBkh_B5pzwRZqrINg_BWBAREL9_wJCTrr5nBTH3PzZu1oSvHHjFK8cA_WUGUEVgT9ZZxXdvtRkSCVozmCX4bcF6N8C8tdY6TGslI8IHfT7HW_PqSrn6u-YRrIGB4O749NItGh4M1SqxI6RuSKDYVfO4S3lYqV5AeX6raGbH__ifOFfGjD_fX2v5OJwo6krQA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -89.321106,37.5744468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Scott Ross Anagama</name>
+        <description><![CDATA[Type of kiln:<br> anagama<br><br>Detailed Location (street address) building placement:<br>1212 LaBranch St.<br>White Lake, MI. 48386<br><br>Size of kiln: 135 cu.ft.<br>Month and year the kiln was built: 09/2006<br>Contact name: Scott Ross<br>Contact email: scott.ross@yahoo.com phone: 248-421-5760<br>Website: ScottRossStudio.com]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4534574,42.6207896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wood Fired Salt Kiln</name>
+        <description><![CDATA[Type of kiln: Wood Fired Salt Kiln<br>Detailed Location (street address) building placement: Tolne Gjæstgivergaard, Kirkevej 300, Tolne, 9870 Sindal, Denmark<br>Size of kiln: 1m3<br>Month and year the kiln was built: October, 2012<br>Contact name: Gregory Hamilton Miller<br>Contact email: phone: tolneggg@gmail.com<br>Website: www.tolneggg.com]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            10.3140592,57.485555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Three Chamber Noborigama</name>
+        <description><![CDATA[Type of kiln: Three Chamber Noborigama<br>Detailed Location (street address) building placement: Tolne Gjæstgivergaard, Kirkevej 300, Tolne, 9870 Sindal, Denmark<br>Size of kiln: 6m3<br>Month and year the kiln was built: September, 2013<br>Contact name: Gregory Hamilton Miller<br>Contact email: phone: tolneggg@gmail.com<br>Website: www.tolneggg.com]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            10.3140324,57.4855506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wood Fired Soda Kiln</name>
+        <description><![CDATA[Type of kiln: Wood Fired Soda Kiln<br>Detailed Location (street address) building placement: Tolne Gjæstgivergaard, Kirkevej 300, Tolne, 9870 Sindal, Denmark<br>Size of kiln: 0.5m3<br>Month and year the kiln was built: June, 2014<br>Contact name: Gregory Hamilton Miller<br>Contact email: phone: tolneggg@gmail.com<br>Website: www.tolneggg.com]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            10.3141477,57.4855679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wood Fired Raku/enamel Kiln</name>
+        <description><![CDATA[Type of kiln: Wood Fired Raku/enamel Kiln<br>Detailed Location (street address) building placement: Tolne Gjæstgivergaard, Kirkevej 300, Tolne, 9870 Sindal, Denmark<br>Size of kiln: 1m3<br>Month and year the kiln was built: July, 2014<br>Contact name: Gregory Hamilton Miller<br>Contact email: phone: tolneggg@gmail.com<br>Website: www.tolneggg.com]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            10.3141129,57.4855636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anagama Kiln</name>
+        <description><![CDATA[Type of kiln: Anagama Kiln<br>Detailed Location (street address) building placement: Tolne Gjæstgivergaard, Kirkevej 300, Tolne, 9870 Sindal, Denmark<br>Size of kiln: 4m3<br>Month and year the kiln was built: October, 2015<br>Contact name: Gregory Hamilton Miller<br>Contact email: phone: tolneggg@gmail.com<br>Website: www.tolneggg.com]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            10.3140914,57.4855607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mike Taylor-Phoenix Fast Fire</name>
+        <description><![CDATA[Type of kiln: Phoenix Fast Fire<br>Detailed Location (street address)3765 M-40 Hamilton MI 49419 <br>building placement: shed roof over concrete slab adjacent to the studio.<br>Size of kiln: 80 cu. ft<br>Month and year the kiln was built: Nov. 2014<br>Contact name: Mike Taylor<br>Contact email: phone: 269.751.5839<br>Website: Pottworks.com]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.0216899,42.6937838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brian Nettles-Anagama</name>
+        <description><![CDATA[Type of kiln:anagama <br>Detailed Location (street address) building placement:22291 Bells Ferry Rd, Pass Christian,Ms 39571<br>Size of kiln:300 cf <br>Month and year the kiln was built:2000 <br>Contact name:Brian Nettles<br>Contact email: phone:nettlesstudio@aol.com. 228-452-3511<br>Website:www.nettlespottery.com]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.2129004,30.3930126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brian Nettles-Crossdraft</name>
+        <description><![CDATA[Type of kiln: cross draft<br>Detailed Location (street address) building placement:22291 Bells Ferry Rd, Pass Christian,Ms 39571<br>Size of kiln: 80 cf<br>Month and year the kiln was built: 2014<br>Contact name:Brian Nettles<br>Contact email: phone:nettlesstudio@aol.com. 228-452-3511<br>Website:www.nettlespottery.com]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.2129393,30.3929756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morean-Olsen Fast Fire</name>
+        <description><![CDATA[Olsen Fast Fire - 12 cubic feet, built in 2007 Morean Center for Clay<br>420 22nd street south<br>St. Petersburg FL 33712 http://www.moreanartscenter.org/center-for-clay/]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -82.6625263,27.767553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morean-Test tube kiln </name>
+        <description><![CDATA[Test tube kiln - 6.75 cubic feet built in October 2014 Morean Center for Clay<br>420 22nd street south<br>St. Petersburg FL 33712 http://www.moreanartscenter.org/center-for-clay/]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -82.6625249,27.7675067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pleasant Hill- Anagama</name>
+        <description><![CDATA[125cf Anagama                                                     Jesse Jones<br>Pleasant Hill Pottery<br>85426 Ridgeway Rd.<br>Pleasant Hill, OR 97455<br> <br>pleasanthillpottery1@gmail.com<br> www.pleasanthillpottery.com<br>https://www.facebook.com/pages/Pleasant-Hill-Pottery/400194583374975]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9475931,43.9835042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pleasant Hill- Noborigama</name>
+        <description><![CDATA[60cf Noborigama (two chambers, salt in back chamber)                                                                Jesse Jones<br>Pleasant Hill Pottery<br>85426 Ridgeway Rd.<br>Pleasant Hill, OR 97455<br><br>pleasanthillpottery1@gmail.com<br>www.pleasanthillpottery.com<br>https://www.facebook.com/pages/Pleasant-Hill-Pottery/400194583374975]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9475662,43.983591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pleasant Hill- Crossdraft</name>
+        <description><![CDATA[35cf Wood-Soda Cross Draft                         Pleasant Hill Pottery<br>85426 Ridgeway Rd.<br>Pleasant Hill, OR 97455<br><br>pleasanthillpottery1@gmail.com<br>www.pleasanthillpottery.com<br>https://www.facebook.com/pages/Pleasant-Hill-Pottery/400194583374975]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9474402,43.9835988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pleasant Hill- Train Kiln</name>
+        <description><![CDATA[30cf Train                                                                Jesse Jones<br>Pleasant Hill Pottery<br>85426 Ridgeway Rd.<br>Pleasant Hill, OR 97455<br> <br>pleasanthillpottery1@gmail.com<br> www.pleasanthillpottery.com<br>https://www.facebook.com/pages/Pleasant-Hill-Pottery/400194583374975]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9474871,43.9834974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rocky Flats Pottery-two chamber cantenary
+</name>
+        <description><![CDATA[Type of kiln: two chamber cantenary<br><br>Detailed Location (street address) building placement:<br>550 Rocky Flats Road<br>Cosby, Tennessee 37722<br><br>Size of kiln: 40 cubic feet ware space per chamber<br><br>Month and year the kiln was built: 2000<br>Contact name: <br>Patrick Houston<br>Rocky Flats Pottery<br>Contact email: rfpottery@gmail.com<br>phone: 865-217-2839<br>Website:]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2975513,35.7860905,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Train Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4jpMitviEBt1okgRaBTrs8bqZ5sdQv7xq_rqJsfJkqwpYi0unM5TfSSZxC4SxdXABpFVuLAJIuBm3kG2i_rEA7UVcp9SueTusjUDKJ" height="200" width="auto" /><br><br>Train Kiln<br>Built 9/2008<br>Size: 36 cubic feet of stacking space<br><br>Contact name: Linden Gray<br>linden@castlehill.org (mailto:linden@castlehill.org)     (508)-349-7511<br><br>Website: castlehill.org (http://castlehill.org)]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4jpMitviEBt1okgRaBTrs8bqZ5sdQv7xq_rqJsfJkqwpYi0unM5TfSSZxC4SxdXABpFVuLAJIuBm3kG2i_rEA7UVcp9SueTusjUDKJ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -70.063757,42.031381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noborigama</name>
+        <description><![CDATA[Three chamber: tube and noborigama<br>Built 2010<br><br>Contact name: Lee Taylor<br>283 Mateer <br>Road<br><br>Lexington, Virginia 24450<br><br>Size of kiln: 1st-150 cu. ft., 2nd- 80 cu ft., 3rd- 40 cu. ft.<br><br>lee@spencerandtaylor.com (mailto:lee@spencerandtaylor.com)<br>540-463-7785]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -79.509875,37.739164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noborigama</name>
+        <description><![CDATA[Two chamber kiln<br>Each chamber 35 cubic feet of stacking space.<br>Built: 4/2009<br>Contact: Dan Greenfeld<br>841  Charlton Rd. Charlton  NY 12019<br> dangreenfeld@mindspring.com (mailto:dangreenfeld@mindspring.com):<br><br> 646 283 0879<br><br>dangreenfeld.com (http://dangreenfeld.com)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -73.979702,42.933192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cross Draft</name>
+        <description><![CDATA[Smokeless Wood kiln,  based on Kusakabe<br>design.<br>Size of kiln: 60 cu ft.<br>Built 10/2008<br>Contact<br> name:<br>Michael Doxey<br>26 <br>Colborne<br>Street; Portland, Ontario, Canada. <br>mdoxey@banishedmoon.com (mailto:mdoxey@banishedmoon.com)<br>Website: www.banishedmoon.com (http://www.banishedmoon.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -76.190164,44.69798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Train Kiln</name>
+        <description><![CDATA[Size of kiln: 30 cu. ft.<br>Contact name:  <br>Maeva Collins<br>2217 Clark Road, British Columbia, Canada.<br>Contact email, phone: maeva@shaw.ca (mailto:maeva@shaw.ca)<br>Website:  www.flyingashpottery.com (http://www.flyingash.com)]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -124.996573,49.757073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Union Project Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6kEkMMvgvFnqb-5WKLXXBqPkctChWEEnGe6ravHGCj5EzC39FGwgvE7Cs6qmzbUlJ2VM6AMCVNW8y7D2XAH5f4GTavlaU08pZJEMbuGMnwFAI1AyE8bRTStBfpOkNWpYHUBaOlTmnqdOq3IrIo_sesbGcFYLInNDeJYC09-g" height="200" width="auto" /><br><br>Small anagama kiln, single chamber, above ground<br>Built 3/2008<br><br>Dale Huffman designed the kiln.<br>Contact Justin Rothshank<br><br>www.unionproject.org (http://www.unionproject.org)<br>www.rothshank.com (http://www.rothshank.com)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6kEkMMvgvFnqb-5WKLXXBqPkctChWEEnGe6ravHGCj5EzC39FGwgvE7Cs6qmzbUlJ2VM6AMCVNW8y7D2XAH5f4GTavlaU08pZJEMbuGMnwFAI1AyE8bRTStBfpOkNWpYHUBaOlTmnqdOq3IrIo_sesbGcFYLInNDeJYC09-g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.531016,40.128998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Owen Rye's anagama]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v66Lb_FnBtVjGCDrgLCh4KeX-SjTRkmkstCLJ23AVzbqLuMHtUbI1fDoWGDEpH7f-Cc64AEKk7cDYoVkIPrJtJrRT_BYiRXGT8NFzQf" height="200" width="auto" /><br><br>Anagama with a second chamber<br>Anagama section 13 ft long<br>Catenary chamber 30 cu ft packing space<br>Contact:Owen Rye<br>owen@activ8.net.au (owen@activ8.net.au)<br>www.owenrye.com (http://www.owenrye.com)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v66Lb_FnBtVjGCDrgLCh4KeX-SjTRkmkstCLJ23AVzbqLuMHtUbI1fDoWGDEpH7f-Cc64AEKk7cDYoVkIPrJtJrRT_BYiRXGT8NFzQf</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            146.275964,-38.44401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Böhm bourry box kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5Yulr6DUvTxTfkNh6TO7dtNmB-ZQmdTjNBZhV-p3jcukGKhI3ZraH7p38cvajdlT09_KKA1zmgSU4XVmXe_JQ2mjqxP9tQbqorBK5tDMZvGi75" height="200" width="auto" /><br><br>Volume 0.7 cu m (27cu ft)<br>Contact: Markus Böhm<br>Alt Gaarz 6, D-17248 Laerz, Germany<br><br><br><br>	<br>	<br>	<br>	<br><br>markus@woodfire.net (markus@woodfire.net)<br><br>http://woodfire.net (http://www.woodfire.net)<br>Phone<br><br><br>	+49(0)39833 22219]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5Yulr6DUvTxTfkNh6TO7dtNmB-ZQmdTjNBZhV-p3jcukGKhI3ZraH7p38cvajdlT09_KKA1zmgSU4XVmXe_JQ2mjqxP9tQbqorBK5tDMZvGi75</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.693179,53.29036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phoenix Fast Fire</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4Ps0MvwYdhoItEJLDSnN0rTfVV9MJjQ-Y1DJz21CT0NMLKnfY70KT7CoDy7Bd8VIPaHtffFP2gkNBH-9fTcxc8lpMP4tR9hFQFSnBRDdA" height="200" width="auto" /><br><br>Twin firebox Phoenix fast fire<br>Packing space 25 cubic ft<br>Contact: John Dellow<br>55 Valley View Drive,<br>Meringandan West<br>Qld  4352<br><br>dellowjk@digisurf.com.au (dellowjk@digisurf.com.au)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4Ps0MvwYdhoItEJLDSnN0rTfVV9MJjQ-Y1DJz21CT0NMLKnfY70KT7CoDy7Bd8VIPaHtffFP2gkNBH-9fTcxc8lpMP4tR9hFQFSnBRDdA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            151.881437,-27.420262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Customized Phoenix cross draft</name>
+        <description><![CDATA[Cross Draft<br>Size of kiln: 40sq. ft.<br><br><br><br>Contact name: T. Brett<br>Mullinix<br> mullinix3@gmail.com (mailto:mullinix3@gmail.com) <br>7300 Reinhardt College Circle, Waleska, GA.<br>30183 <br>770 656 5952]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -84.552782,34.321305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Georgia Southern University Anagama</name>
+        <description><![CDATA[Kiln Type:Anagama<br>Kiln Size: 111.1 cu. ft.<br><br>Contact Info: <br>Ian Winsemius<br>Radiks32@gmail.com (mailto:Radiks32@gmail.com)<br><br>www.IRWceramics.com (http://www.IRWceramics.com)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.78876,32.417619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Millstone Pottery Anagma</name>
+        <description><![CDATA[Name of kiln: Millstone Pottery <br>Anagama<br><br>Type of kiln: Anagama, cross draft<br><br>Size in cubic feet: 120 : Built 2001 <br><br>Millstone Pottery Train <br>kiln<br><br><br>Size in cubic feet: 40 : Built 2003<br><br><br><br><br><br><br>Millstone Pottery Salt <br>kiln<br><br>Type of kiln: down-draft, salt <br>glaze<br><br>Size in cubic feet: 50: Built 2006<br><br><br><br><br><br><br>Contact: Paul de Jongh, millstone@breede.co.za<br><br>Website: www.millstonepottery.co.za (www.millstonepottery.co.za)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            19.823767,-33.948382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SufersBrennStube Bourey Box</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6GV_6L0qOXtYdmx1khaZHvZCXh6aVIdxDfNYSYvuLRT60vJF5CzvMd7kOlso6ofpdDzNU4kFOT5K4QEhQD8mOCVcrNmxEl1V6q3VSSFltXJBakeg" height="200" width="auto" /><br><br>Extended Throat Bourry Box. <br>Built in one<br>week in Sept. 2009 with Steve Harrison<br><br>contact person: Eric Nelson, ceramic@ericnelson.biz (mailto:ceramic@ericnelson.biz) <br><br>Dorfstrasse 2 8037 Zurich, Switzerland <br>www.ericnelson.biz (http://www.ericnelson.biz)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6GV_6L0qOXtYdmx1khaZHvZCXh6aVIdxDfNYSYvuLRT60vJF5CzvMd7kOlso6ofpdDzNU4kFOT5K4QEhQD8mOCVcrNmxEl1V6q3VSSFltXJBakeg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            9.84375,46.800059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7xFGXvgjyBjJx0ACRUPZFxtJ1O5c1z96GnzqZBt8Xoq5_UAfhIjRUAYEj7wt-rzJhEjd78zxE3PHEjj54Enp7IdRs4OVlNofV0yn2hhuzaSm4PBkyuxJSmx0m2DYkfcNMvBnDa9RE" height="200" width="auto" /><br><br>100 cubic ft anagama<br>Built 1995<br><br>8775 Easton Road<br><br>Revere Pa 18953.<br><br>Contact: Chris Bonner<br><br> 610 847-1071. <br>www.digitalclaystudio.com (http://www.digitalclaystudio.com/)<br><br>bonner@epix.net (mailto:bonner@epix.net)<br><br>cmb30@psu.edu (mailto:cmb30@psu.edu)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7xFGXvgjyBjJx0ACRUPZFxtJ1O5c1z96GnzqZBt8Xoq5_UAfhIjRUAYEj7wt-rzJhEjd78zxE3PHEjj54Enp7IdRs4OVlNofV0yn2hhuzaSm4PBkyuxJSmx0m2DYkfcNMvBnDa9RE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.162484,40.514068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olsen Fast Fire</name>
+        <styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            116.110267,-31.895727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Joy Bridy's kiln]]></name>
+        <description><![CDATA[2533 Warm Springs Road<br><br>Shenandoah Junction WV 25442<br><br>304.876.0750<br><br>joybridy@yahoo.com<br><br><br><br>Bourry Box style<br><br>100 cu ft<br><br>built Oct. 2009]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -77.863979,39.387074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Gregory Miller's Kilns]]></name>
+        <description><![CDATA[Anagama, build 2004, 5m long, 1.8 meters wide, with a small second chamber.<br><br><br><br>Soda kiln, Built 2007, cubic meter, catenary arch, fired with wood and forced air.<br><br><br><br>Barney, Built 2007, a trench kiln with fiber lid. 1.5 cubic meters<br><br><br>Salt, Built 2004, 1.5 cubic meters, and sometimes fired with wood and forced air.<br><br><br><br>Contact:<br><br>Gregory Miller<br><br>Nøragervej 3, Horne<br><br>9850 Hirtshals, DK<br><br><br><br>www.gendo.dk (http://www.gendo.dk)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            9.972512,57.558652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taos Clay Anagama</name>
+        <description><![CDATA[Anagama Kiln at Taos Clay<br>9 ft x 3 ft high x 2.75 ft wide <br>Built 2008<br><br>Contact Logan Wannamaker<br>Potmaker@gmail.com, (575) 770-4334<br>http://www.loganwannamaker.com/ (http://www.loganwannamaker.com/)]]></description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -105.5758179,36.4320191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Groundhog Kiln</name>
+        <description><![CDATA[18ft long Groundhog Kiln<br><br><br>Located at:  53 Cress St. Edgefield, SC<br><br>Contact: Justin Guy<br>PTC Pottery Program<br>506 Main Street<br>Edgefield, SC 29824<br>guypottery@yahoo.com]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -81.929845,33.805036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Holtwood Crossdraft</name>
+        <description><![CDATA[Holtwood Kiln<br><br><br><br>Centenary arch crossdraft kiln with internal firebox.<br><br><br><br>60 C.F.<br><br><br><br>built in 2000 by Amedeo Salamoni and Kevin Lehman<br><br><br><br>contact:Amedeo Salamoni http://www.salamonipottery.com (http://www.salamonipottery.com/)    http://www.kevinlehmanspottery.com (http://www.kevinlehmanspottery.com/) www.klpottery.com (http://www.klpottery.com/)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -76.241925,39.878712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4mPAVmg5XnhaHvOrv-F7ddgCaU0yDmqEf11RVDWkUYrGLKbH0hSusX-aQam2S1Eoe2eZ-VocUIeG0UqxFsDt8DQzUcTDRZ8s9hd22e6njoDahbTJzZNSJMx92V152NXg5UBJxScV0" height="200" width="auto" /><br><br>Anagama/Noborigama<br>Combination Anagama, 2 chamber noborigama (glaze and salt chambers)<br>27ft long 19ft chimney <br><br><br>Contact: Scott and Debbie Williamson<br>Butterfly Bend Pottery<br>40625 Tankerville Road, <br>Lovettsville VA<br>(39.26841082880196, -77.59600639343262)<br><br><br><br>Contact email: info@butterflybend.com<br>Website: www.butterflybend.com (http://www.butterflybend.com/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4mPAVmg5XnhaHvOrv-F7ddgCaU0yDmqEf11RVDWkUYrGLKbH0hSusX-aQam2S1Eoe2eZ-VocUIeG0UqxFsDt8DQzUcTDRZ8s9hd22e6njoDahbTJzZNSJMx92V152NXg5UBJxScV0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.596036,39.268326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sergei Shatrov's kiln]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v70GamtQQojHoYsOVj6u35B6UxyfpVTeuJ3uBX1-TSi0p5JEk9M_qDlHCQvdpribMU7Zasw51wPdf80VtHfDbtQPGJb2oxkxaPOLOLHWpbX" height="200" width="auto" /><br><br>Twin chamber Bourry Box<br>35 cu ft, 12 cu ft<br>Contact Fr Sergei Shatrov<br>Holy Transfiguration Monastery<br>Richardsons Rd<br>Bombala NSW 2632<br>Australia<br>http://sidestoke.com/SergeiShatrov (http://www.sidestoke.com/SergeiShatrov/index.html)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v70GamtQQojHoYsOVj6u35B6UxyfpVTeuJ3uBX1-TSi0p5JEk9M_qDlHCQvdpribMU7Zasw51wPdf80VtHfDbtQPGJb2oxkxaPOLOLHWpbX</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            149.050913,-36.718247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Su Hanna's anagama]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4YPI2YJk3iYJX3Ru5PiczN9SuTNOWKz1_jd3zk1zrowl3kJ1vlN-tGho-j8IJivNyc7lUWB2a1gpEgHDOj6-L--ArDc18rYU9T1BR3mvEfMSg" height="200" width="auto" /><br><br>Anagama/groundhog type kiln with a cast arch<br><br>Contact Su Hanna<br>30<br>Sullivans Rd<br>Strathfieldsaye<br>Victoria<br>3551<br><br><br>http://sidestoke.com/SuHanna (http://sidestoke.com/SuHanna)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4YPI2YJk3iYJX3Ru5PiczN9SuTNOWKz1_jd3zk1zrowl3kJ1vlN-tGho-j8IJivNyc7lUWB2a1gpEgHDOj6-L--ArDc18rYU9T1BR3mvEfMSg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.355111,-36.799779,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tres Piedras Anagama</name>
+        <description><![CDATA[20ft long x 4 feet Anagama.  Built by John Bradford. 2006<br><br>Contact: Scott Rutherford<br>Rottenstone Pottery<br>575-776-7942<br>Rottenstone@gmail.com]]></description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -105.914289,36.624602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tres Piedras Groundhog</name>
+        <description><![CDATA[12 x 8&#39; Groundhog kiln. Built by Scott Rutherford and John Bradford.  Built 2010<br><br>Contact: Scott Rutherford<br>Rottenstone Pottery<br>575-776-7942<br>Rottenstone@gmail.com]]></description>
+        <styleUrl>#icon-503-7C3592</styleUrl>
+        <Point>
+          <coordinates>
+            -105.914268,36.624685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Modified Fast Fire</name>
+        <description><![CDATA[&quot;The Beast&quot;  a modified fast fire<br>Size: 60 cu.ft.<br>Built 1993<br><br>contact Info:  Stephen Driver<br>                     stephendriver@ualr.edu<br>                     Asst. professor of art University of Arkansas at Little Rock<br>                     stephenmdriverpots.com (http://stephenmdriverpots.com)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -93.65885,35.685244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bourey Box Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5vGBugY0EuQz5cl7WAsIrkTwahRKSZfo05tH4fugWBHwPwDmXsF9lFzx6CJfRAArzgWIF16drOyhQ6apjlpH7xrQTVLSPV4hxPZ3_t5Wd_p3SOeQIVSPsSLF6qgGcfb-Zz2nLR3YpYXAFXlTcH8w" height="200" width="auto" /><br><br>Type of kiln: Bourry Box <br><br>Size of kiln: 54&quot;x112&quot; external dimensions.  About 30 cubic ft. of stacking space. <br>Month and year the kiln was built: May 2011<br>Contact name: Marcelina Salazar 	<br>(R.R.#1 Chatsworth, Ontario, Canada. N0H 1G0)<br><br>Contact email: marcelina_salazar@hotmail.com<br>Website: http://marcelinasalazar.wordpress.com/ (http://marcelinasalazar.wordpress.com/)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5vGBugY0EuQz5cl7WAsIrkTwahRKSZfo05tH4fugWBHwPwDmXsF9lFzx6CJfRAArzgWIF16drOyhQ6apjlpH7xrQTVLSPV4hxPZ3_t5Wd_p3SOeQIVSPsSLF6qgGcfb-Zz2nLR3YpYXAFXlTcH8w</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.829259,44.364713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wiley Hill Mudworks</name>
+        <description><![CDATA[Bourry box, sprung arch, no step from box to ware chamber<br>Size: stacking ~45 cu ft, total ware chamber ~60 cu ft <br><br>Address: Wiley Hill Rd., Londonderry NH, 03053<br><br><br><br><br><br>Contact: Paul Haigh wileyhill@comcast.net (mailto:wileyhill@comcast.net)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -71.401767,42.851582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olsen Fast Fire</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5axqVPM7D5h-PZCORZVPhP28tMLH7lH_GaM4od8rqutdE_yWB16TeZXfaGxfGH2Q2AbQusuRcH45sU1TDWNkan1RtqpfZOpD1cUX6qNdaAoM0_GZoXFZ4JNMck0B801GOJ9ENTcZ0kmfOzuJrf08gjly7G-Y-rrSKPDjuiLglDTY36_Sd8rQ" height="200" width="auto" /><br><br>Modified Olsen Fast Fire<br>interior: 0,750 m³.<br><br>Contact: Ana Belen Montero<br>info@anabelen.be<br>www.anabelen.be (http://www.anabelen.be)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5axqVPM7D5h-PZCORZVPhP28tMLH7lH_GaM4od8rqutdE_yWB16TeZXfaGxfGH2Q2AbQusuRcH45sU1TDWNkan1RtqpfZOpD1cUX6qNdaAoM0_GZoXFZ4JNMck0B801GOJ9ENTcZ0kmfOzuJrf08gjly7G-Y-rrSKPDjuiLglDTY36_Sd8rQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.309368,50.359121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Scarlet" Cross Draft]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7k0npnlUKfrbJWkOhGsQyYDeOlEkKIpwh9bHf2CBSm43FTA6ogGqYsQWwcHduUJW4dw0AnKyzGpqX0-JrMFro77cErncyDxtA34U0unRhITvH5rtKsszEnTyV-yzdByOPZOWJUZz3Xproqc0MlDTiDIq4hTv8" height="200" width="auto" /><br><br>Cross-draft / down-draft / sprung arch - two stoking doors (Top, <br>Bottom), <br>24 Cubic Feet Stacking Space<br>built: summer of 1988<br>Firing duration <br>is typically 16 - 18 hours to c. 10 - c.11.  <br><br>Detailed Location (street address) building <br>placement:Sheridan College, AA16/ Ceramics Dept. 1430 Trafalgar Road, <br>Oakville, Ontario, Canada.<br><br>Contact name:Hugh Douglas-Murray, Ceramics Studio Technologist<br>Contact email, phone:hugh.douglas-murray@sheridanc.on.ca / 905-845-9430 ext 33987<br>Website: http://www.sheridanceramics.com (http://www.sheridanceramics.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7k0npnlUKfrbJWkOhGsQyYDeOlEkKIpwh9bHf2CBSm43FTA6ogGqYsQWwcHduUJW4dw0AnKyzGpqX0-JrMFro77cErncyDxtA34U0unRhITvH5rtKsszEnTyV-yzdByOPZOWJUZz3Xproqc0MlDTiDIq4hTv8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.70176,43.469393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5JKQxYaWqc0dw57_yOQAez_757PKr0nkl8bzxF4BUqhLDVydlgUMehFvW31jWrxCUAzoGAVrkCejcJ0NIFfCB8FrD0Cpq7T90-p6xp_0DGc7cIoA5EpWGa60kwiWjtPRzTpNq5ipDgEw" height="200" width="auto" /><br><br>100 Cubic foot Anagama.<br>Built by Simon Levin <br><br> <br><br>Contact:Steve Young Lee<br>Resident Artist Director<br>Archie Bray Foundation<br><br>2915 Country Club Ave<br><br>Helena, MT 59602<br><br>406.443.3502]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5JKQxYaWqc0dw57_yOQAez_757PKr0nkl8bzxF4BUqhLDVydlgUMehFvW31jWrxCUAzoGAVrkCejcJ0NIFfCB8FrD0Cpq7T90-p6xp_0DGc7cIoA5EpWGa60kwiWjtPRzTpNq5ipDgEw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.081822,46.6137,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Train Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5YCJrs7C5GfIm5J8yV1357cUu4k33wRMD9Tv9GQnwcTk4Xz7_PNZLSKsRLlN9uXnkpvLBqNKBPdMt3_VIm3-PvD1JEZ3vOC2JlND0g8j2K15hxsiGfSzE-p1k-NaLYfYsufH4pUlWB9BXhuh2_nQtDNZprTYqm_Zihy89AbZk" height="200" width="auto" /><br><br>80 cubic foot train kiln<br>Built by Ben Krupka and Irish Flynn<br><br> <br>Contact: Steve Young Lee<br>Resident Artist Director<br>Archie Bray Foundation<br><br>2915 Country Club Ave<br><br>Helena, MT 59602<br><br>406.443.3502]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5YCJrs7C5GfIm5J8yV1357cUu4k33wRMD9Tv9GQnwcTk4Xz7_PNZLSKsRLlN9uXnkpvLBqNKBPdMt3_VIm3-PvD1JEZ3vOC2JlND0g8j2K15hxsiGfSzE-p1k-NaLYfYsufH4pUlWB9BXhuh2_nQtDNZprTYqm_Zihy89AbZk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.081943,46.613663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noborigama and 2 Fast Fires</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7MV1d2er5AVBvte9_k7IQo_E8vRY_U7GLxgCryj_Qso2XeRg3Ph-3HD1810Wz1GeaEBCLxAEL7hnc5R4TWrjiYh4dmg2btIiuo6FADSiF86ATBXKz2knGIQQEC3I5fnDszVRhtVhQwBMPdXXPsewieuJo3lPcjfpCe_vmRBE6i" height="200" width="auto" /><br><br>80 cubic foot Ruggles/Rankin Noborigama<br>16 cubic foot Olsen Fast Fire<br>12 cubic foot Olsen Fast Fire for low fire. Made from Adobe Brick.<br><br> <br>Cotact: Peter Chartrand<br>P.O. box 1043<br>Bizbee, AZ 85603, email peterbclay@gmail.com]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7MV1d2er5AVBvte9_k7IQo_E8vRY_U7GLxgCryj_Qso2XeRg3Ph-3HD1810Wz1GeaEBCLxAEL7hnc5R4TWrjiYh4dmg2btIiuo6FADSiF86ATBXKz2knGIQQEC3I5fnDszVRhtVhQwBMPdXXPsewieuJo3lPcjfpCe_vmRBE6i</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -109.840568,31.472891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tin Man, Oil and Wood Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6CXI5VU34ByswIcWGL-qoOYsmUVpSv_ITMSztCfXAyYRxIXIOG5e3yNXPyb1sADEYOKZTJ26vn6tUbbiX6oV2Wm-JYROa4KoibTz6LW8PYUlK0QATuhvY3arBksfCLXKPQ8XYCLBSdokpyWwOKuQ" height="200" width="auto" /><br><br>Round downdraft/crossdraft soda kiln in urban Portland.<br><br>Contact Careen Stoll,<br>4012 SE Nehalem St. <br> Portland, Oregon 97202<br>CareenStollCeramics@gmail.com]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6CXI5VU34ByswIcWGL-qoOYsmUVpSv_ITMSztCfXAyYRxIXIOG5e3yNXPyb1sADEYOKZTJ26vn6tUbbiX6oV2Wm-JYROa4KoibTz6LW8PYUlK0QATuhvY3arBksfCLXKPQ8XYCLBSdokpyWwOKuQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -122.621485,45.465402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Steve Sessions kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5YY0F7wWoO1BmSVVvhuw6NLxOq3i_9FAN5i1jaShPnxlHdywYzOZqPulKypnQIp9lqLeCtMSyAJBROg3-J0rEabdXF5AwLb_XzwbVxx4w04mPaCGK7qjEJ" height="200" width="auto" /><br><br>Bourry box with extended<br>throat chamber<br>46 cubic ft total setting<br>space<br>Built 2013<br>Contact: Steve Sessions<br>61<br>Clyde Essex Drive<br>Gulmarrad NSW 2463  Australia<br>stevesessions@westnet.com.au]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5YY0F7wWoO1BmSVVvhuw6NLxOq3i_9FAN5i1jaShPnxlHdywYzOZqPulKypnQIp9lqLeCtMSyAJBROg3-J0rEabdXF5AwLb_XzwbVxx4w04mPaCGK7qjEJ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            153.212929,-29.497903,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anagama</name>
+        <description><![CDATA[10 Meter&#39;s long<br>Built 2001<br>Contact name: Darryl Frost<br>darrylfrost@xtra.co.nz<br>Website:www.playingwithfire.co.nz (http://wwwplayingwithfire.co.nz/)<br>147 Kina Beach RdTasman 7173, New Zealand]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            173.059116,-41.182215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fast Fire</name>
+        <description><![CDATA[2 cubic meters loading space<br>built in 2007<br>Contact name: Darryl Frost<br>darrylfrost@xtra.co.nz<br>Website:www.playingwithfire.co.nz (http://wwwplayingwithfire.co.nz/)<br>147 Kina Beach RdTasman 7173, New Zealand]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            173.059127,-41.182197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4LYHgYcyoS5N5bFfAPfagPBUZxWNzjMJgt8ale22szuaxzQtBjzFV74HGLXK37-vlE6rvU4b09VbyYpNBIZ_GF7dNBTY8Zmwgp6fxUh7ZVVGKl68E-JaU6YNSsL1f-6SVImHD8x2_t" height="200" width="auto" /><br><br>23 feet long,<br>Finished 2011,Built of refractory castable<br>Contact name:  Zach Sierke<br>zsierke@gmail.com<br> 251-623-9548<br>zachsierke.com (http://zachsierke.com/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4LYHgYcyoS5N5bFfAPfagPBUZxWNzjMJgt8ale22szuaxzQtBjzFV74HGLXK37-vlE6rvU4b09VbyYpNBIZ_GF7dNBTY8Zmwgp6fxUh7ZVVGKl68E-JaU6YNSsL1f-6SVImHD8x2_t</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -87.916461,30.496991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Courtney Martin's Kiln]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5qeDWs8d7ZL9FxblwxMz66WAQo0KfsB69EPIKFemjpIzOMqogDfRw278B8qOQUKasNqwBXy29tnhDUTOFGfg6oqGfaXyt3w894SwlMpRdcH2botb-GXNb5BAfR220wt447QXH3iKxAV4KHaZvSHtVXhpJoo7oi78ABi1fP5d7AYwQL0JE1WfZKPKTwnOD5lQmxNv5-1BKK-dXXS0E63bWm_PLAU2Imbc5QW4Bz4gZITNw_oOxmFsowSGFlQvm77kzCAIPKSLwXoING0Fk" height="200" width="auto" /><br><br>The type of kiln: catenary arch, single chamber.  designed by Will Ruggles and Douglass Rankin<br>size in cubic feet: loading space is about 70 cubic feet. <br>Contact: Courtney Martin Pottery<br>3224 Snow Creek Rd<br>Bakersville, NC 28705<br><br>828.467.1414<br>www.courtneymartinpottery.com (http://www.courtneymartinpottery.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5qeDWs8d7ZL9FxblwxMz66WAQo0KfsB69EPIKFemjpIzOMqogDfRw278B8qOQUKasNqwBXy29tnhDUTOFGfg6oqGfaXyt3w894SwlMpRdcH2botb-GXNb5BAfR220wt447QXH3iKxAV4KHaZvSHtVXhpJoo7oi78ABi1fP5d7AYwQL0JE1WfZKPKTwnOD5lQmxNv5-1BKK-dXXS0E63bWm_PLAU2Imbc5QW4Bz4gZITNw_oOxmFsowSGFlQvm77kzCAIPKSLwXoING0Fk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.154265,35.943682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bloomington Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6kY_vhofHmS7X0NCJoKVv65AnRFo2xk2umskZImI-xOhVdqJtkpqpTJICjf-lu2P7nxnyOcqDVw9NjsyKLs_dRc6jJ5zr4GwMg7makbpmtmg" height="200" width="auto" /><br><br>Anagama is 100 to 120 pending on sutema placement<br><br>located 6900 East Gross Lane In Bloomington IN 47401 ..<br><br>Contact:Daniel Evans &lt;daniel@danielbrianevans.com&gt;]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6kY_vhofHmS7X0NCJoKVv65AnRFo2xk2umskZImI-xOhVdqJtkpqpTJICjf-lu2P7nxnyOcqDVw9NjsyKLs_dRc6jJ5zr4GwMg7makbpmtmg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.427727,39.130737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Archie Bray Foundation</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v452s8OKVIwZqJd77bG0B2ifpAiCiWvKAY-74MMI0bywN-aLWVoFqjOkT139q1x-k17R58ahfIrUkDTVTDpj7CW0rtRImnUVgQwlQVLEJG1bMjNlLj584kYU1ANKRReYrDbpyf3rEdZ-G2OWBklyg2cBIttC9TakLtN9eCdSQ" height="200" width="auto" /><br><br>80 cf Wood Salt/Soda<br>Kiln<br><br><br>Contact:Steve Young Lee<br>Resident Artist Director <br><br><br>Archie Bray Foundation <br><br><br><br>2915 Country Club Ave<br><br><br><br><br><br>Helena, MT 59602<br><br>406.443.3502]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v452s8OKVIwZqJd77bG0B2ifpAiCiWvKAY-74MMI0bywN-aLWVoFqjOkT139q1x-k17R58ahfIrUkDTVTDpj7CW0rtRImnUVgQwlQVLEJG1bMjNlLj584kYU1ANKRReYrDbpyf3rEdZ-G2OWBklyg2cBIttC9TakLtN9eCdSQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.082072,46.614418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Browe and Hoyman Anagamas</name>
+        <description><![CDATA[Thai style anagama 18&#39; long<br>and 10&#39; x 6&#39; 8 <br><br>An  8&#39; x 4&#39; x4&#39; anagama that empties into a 4.5&#39; x 4.5&#39; x 4.5&#39; cantenary arch<br>soda chamber.<br><br>Doug Browe and Jan Hoyman<br>13000 Tomki Road<br>Redwood Valley CA<br>95482<br>707-468-8835]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -123.225349,39.332982,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Delange Hybrid</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6oK78kc5y9Nv32KwoyHRc0l9whMGxaHf_UFhGGQYh7wU4J9-ov-8Oz3FGtDd6kKt1QgCCyRaAAXssLtIbsUKn1txVAUOo3JoOEUUfwOj9BvwyKTCeiIoCTGg" height="200" width="auto" /><br><br>The type of kiln: anagama-noborigama hybrid<br>size in cubic feet: 247 ft³ stacking space 141 ft³<br><br>Contact Information:<br>www.marnic.be (http://www.marnic.be/)<br>Marnic De Lange<br>marnic.delange@edpnet.be (mailto:marnic.delange@edpnet.be)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6oK78kc5y9Nv32KwoyHRc0l9whMGxaHf_UFhGGQYh7wU4J9-ov-8Oz3FGtDd6kKt1QgCCyRaAAXssLtIbsUKn1txVAUOo3JoOEUUfwOj9BvwyKTCeiIoCTGg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            3.870063,50.757432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Syracuse Anagama</name>
+        <description><![CDATA[Anagama Kiln<br>Built by Simon Levin<br>Contact: Errol Willett<br>  eswillet@syr.edu<br>Associate Professor<br>Department of Art at Comart<br>Comart Facility<br>315-443-3700]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.12717,43.02611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phillips Crossdraft</name>
+        <description><![CDATA[single chamber catenary crossdraft<br>about 70cu. ft<br><br>Contact Information:<br>supportyourlocalpotter.com (http://www.supportyourlocalpotter.com)<br><br>Brandon Phillips<br>brandon@supportyourlocalpotter.com (mailto:brandon@supportyourlocalpotter.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -99.711297,32.437836,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peters Crossdraft</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6Qwu9hv5pE_xY3tay7E_FNiMA7dbKeFsWHVHFY8bZXgZZgcvSs8Z2HeJDHZ8oJXTraR_rwQ_YKwXso28kGKxrSkIygLNqitGIF31KlsRsTM84kUbf6l2wHeg" height="200" width="auto" /><br><br>catenary arch cross draft with an internal firebox. 80 cubic feet of stacking area.<br><br>Contact Information:<br>www.pinerootpottery.com (http://www.pinerootpottery.com)<br><br>Mark Peters<br>petersmg@appstate.edu (mailto:petersmg@appstate.edu)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6Qwu9hv5pE_xY3tay7E_FNiMA7dbKeFsWHVHFY8bZXgZZgcvSs8Z2HeJDHZ8oJXTraR_rwQ_YKwXso28kGKxrSkIygLNqitGIF31KlsRsTM84kUbf6l2wHeg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.180669,36.08838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Train Kiln</name>
+        <description><![CDATA[Train Kiln<br>Size of kiln: 72 c. ft.<br><br>Contact name: Louise Rosenfield / Liz Lurie<br><br>Contact email, phone: inca1@airmail.net (mailto:inca1@airmail.net)  972-898-1725<br><br>Website: lizlurie.com (http://lizlurie.com)]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -96.140907,32.258231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beirnes Train Kiln</name>
+        <description><![CDATA[The type of kiln: Train Kiln<br>size in cubic feet: 6<br><br>Contact Information:<br><br>Steve Beirnes<br>sgbeirnes@gmail.com]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -98.0137,30.068379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anagama</name>
+        <description><![CDATA[Anagama<br><br>132 cubic feet<br>Osceola, Wisconsin<br>Contact Tony Ferguson<br>www.tonyferguson.net (http://tonyferguson.net)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -92.636719,45.460131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baltimore Clay Works</name>
+        <description><![CDATA[2 chamber catenary &quot;Noborigama&quot;, 2nd chamber with salt and soda.<br><br> <br><br>Size: About 75 cubic feet<br><br> <br><br>Address:  Baltimore Clayworks<br><br>              5707 Smith Ave<br><br>              Baltimore, MD 21209<br><br> <br><br>Contact:  Jim Dugan<br><br>   jim.dugan@baltimoreclayworks.org (mailto:jim.dugan@baltimoreclayworks.org)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -76.653467,39.368333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>G. Gallus Kiln</name>
+        <description><![CDATA[Coffin Firebox with Catenary Arch Chamber.<br>27 Cubic feet. first chamber<br>18 Cubic feet, second chamber<br>Occasionally Salted<br><br>Contact: Gareth Sturms<br>w15114 Lokan Rd <br>Tigerton, WI 54486<br>715.535.3104]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -89.012539,44.775247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University Of Texas at San Antonio</name>
+        <description><![CDATA[Cast catenary arch (70% alumina refractory castable)<br>Stacking area approximately 14 cu.ft<br><br>Contact:Ovidio Giberga Ovidio.Giberga@utsa.edu<br>University of Texas at San Antonio]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.626971,29.584896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Edwardsville, Illinois Anagama</name>
+        <description><![CDATA[Southern Illinois University at Edwardsville<br>Anagama Kiln. <br>Built by Simon Levin<br>Contact: Professor Matt Wilt.<br>(618) 650-3619<br>mwilt@siue.edu]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.001116,38.790428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Community Temple Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v41TTirgs-Pfkj8TQ7UljogpsYxCWP7057ibhO727ZRRoOvIb2FC-sCNNUFnC0GsJS4yX38hfOBBlYM2lXS5MQ7FXr2Pfrko0F_f7CnBKLgmQQCOQLpnc9sWWd_Oro8cH0jOcQOegaNxvwf7J6aUuFXjqb-eKPRqIBq1tGLsGZ4yB4rD2Utd-zAx03q2jGYPQ" height="200" width="auto" /><br><br>climbing chamber kiln (Noborigama type)<br>the stacking space is 330 cubic ft total, divided evenly between the three chambers.<br><br>Contact: Josh Copus<br>carolinakilnbuild.blogspot.com (http://carolinakilnbuild.blogspot.com)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v41TTirgs-Pfkj8TQ7UljogpsYxCWP7057ibhO727ZRRoOvIb2FC-sCNNUFnC0GsJS4yX38hfOBBlYM2lXS5MQ7FXr2Pfrko0F_f7CnBKLgmQQCOQLpnc9sWWd_Oro8cH0jOcQOegaNxvwf7J6aUuFXjqb-eKPRqIBq1tGLsGZ4yB4rD2Utd-zAx03q2jGYPQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.7263,35.83448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Treaty Line Pottery</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4uWwyR-HSOOavVDuYACN-7EAs5yaVTDq8jWVozJ5TAQSD05WZRw38iAttTfnKcv3oBiWRi5z2s12bTEnZDDDWTd1Tr7J909mnPaSnSkKYgBARRnf2O3zSeRPxEkw" height="200" width="auto" /><br><br>Noborigama<br><br>100 cubic feet<br><br>6047 tr 501 big prairie, oh. 44611<br><br><br><br>Contact name:carol ohl<br><br>Contact email, phone:330 378 5358 (mailto:5358.....mohl373@aol.com)<br>mohl373@aol.com (mailto:5358.....mohl373@aol.com)<br><br>Website:www.treatylinepottery.com (http://www.treatylinepottery.com)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4uWwyR-HSOOavVDuYACN-7EAs5yaVTDq8jWVozJ5TAQSD05WZRw38iAttTfnKcv3oBiWRi5z2s12bTEnZDDDWTd1Tr7J909mnPaSnSkKYgBARRnf2O3zSeRPxEkw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.091475,40.584545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Handrow Downdraft</name>
+        <description><![CDATA[Type of kiln:   Down draft<br>Size of kiln:   30 cubic feet<br><br>Contact name:   Wes Handrow<br>5304 Marsh Woods Drive, Mc Farland, WI, USA, my backyard<br>Contact: Wes Handrow res1lp2f@verizon.net (mailto:res1lp2f@verizon.net)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -89.291913,43.00562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nanaimo Tozan kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6jlM1jaZzuY1FpLDbAx-6TPWq3V7qCZX4KsX7p-B32Hw0DZ_fCnRWzUGtYcFmZ5cjMywP-PsosQtvB5Et1GKs6sbON47ZQpmMg4MraTw" height="200" width="auto" /><br><br>4 chamber Noborigama<br>Large Community Owned Kiln<br>Over <br>the past 4 years we have dismantled the original kiln built by Yukio Yamamoto in <br>1994/95. <br><br>Contact: Ian Nattras<br>nattrass@shaw.ca (mailto:nattrass@shaw.ca).  <br>Location:2672 Holden Corso Rd<br>Mail: Box 307 ,Station A, <br>Nanaimo,B.C. Canada V9R 5L3 . <br>tozan.bc.ca (http://tozan.bc.ca)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6jlM1jaZzuY1FpLDbAx-6TPWq3V7qCZX4KsX7p-B32Hw0DZ_fCnRWzUGtYcFmZ5cjMywP-PsosQtvB5Et1GKs6sbON47ZQpmMg4MraTw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -123.827028,49.109009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stony Meadow Pottery</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6MxSvJBgnVwImRnJjiLX9lNw-QPBndAmUUfL-_24PG7MXEzBU5vGRr0vm5BbiT0_d6bpLY54ENF_FzTnAut5Gvsr4MHn00f1nfO4KV0IgSvXsjBF2lpgTO5Y9SCnpK" height="200" width="auto" /><br><br>Anagama<br>1000 cubic feet<br>Built 7/2005 - Dismantled 1/2010<br><br>Contact: Jordan Taylor<br><br>        <br>Call us at: 570-222-4184<br><br>        <br>        jordan@stonymeadowpottery.com (mailto:jordan@stonymeadowpottery.com)<br><br><br><br><br>          RR 1 Box 55c <br>        <br>        <br><br>          Union Dale, PA 18470<br>        <br>Stonymeadowpottery.com (http://stonymeadowpottery.com)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6MxSvJBgnVwImRnJjiLX9lNw-QPBndAmUUfL-_24PG7MXEzBU5vGRr0vm5BbiT0_d6bpLY54ENF_FzTnAut5Gvsr4MHn00f1nfO4KV0IgSvXsjBF2lpgTO5Y9SCnpK</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.577853,41.681306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ferguson Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7RpAYqqRXgctGxfNyYir_Dz3VeVvQue7OIGqA5otTpcbdmPp4NJNUOIDvbXq8ARyPJOpqcJVoExDJEAcG7ufyIyF2Jp3w_-N7YCEaXR96l6NR2xWbhGbDi8_JbhgnrZQsl91jS-qQsqPYEPw" height="200" width="auto" /><br><br>Modified Anagama<br>200 cubic feet<br><br>9707 Covered Bridge Rd.<br>Prospect, KY.<br>Contact: Wayne Ferguson<br><br>claydude@earthlink.net (mailto:claydude@earthlink.net)<br>Album of the kiln building (http://www.waynefergusonclayartist.com/Site/My_Albums_2/My_Albums_2.html)<br><br><br><br><br><br>502-235-7355]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7RpAYqqRXgctGxfNyYir_Dz3VeVvQue7OIGqA5otTpcbdmPp4NJNUOIDvbXq8ARyPJOpqcJVoExDJEAcG7ufyIyF2Jp3w_-N7YCEaXR96l6NR2xWbhGbDi8_JbhgnrZQsl91jS-qQsqPYEPw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -85.53358,38.375123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bourry Box</name>
+        <description><![CDATA[Single Chamber Bourry Box based on Steve Harrison&#39;s design<br>Size of kiln: 55 cubic feet<br><br><br>Contact name: Andrew Casto<br><br>andy@redbridgepottery.com (mailto:andy@redbridgepottery.com)<br><br>Website: www.andrewcasto.com (http://www.andrewcasto.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -84.208462,40.080805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cane Creek Wood Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6xfAjy1RXAZr5WNzt_j_GYyMHD_A30HWz1lZIywKf67Fi1q7tKEA0fJOddHydq_HgGrEH-mov2FSDxYWR2V0ELXJqRTr6UWAzFLQFudwVjmEv7QCi0naoqZzyKUbg" height="200" width="auto" /><br><br>- Fast Fire <br>  32<br>  <br>- 32 cu ft stacking <br>  About 50 total<br>Contact Information:<br>http://blog.mudstuffing.com (http://blog.mudstuffing.com)<br>Keith <br>  Phillips<br>keith@mudstuffing.com (mailto:keith@mudstuffing.com)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6xfAjy1RXAZr5WNzt_j_GYyMHD_A30HWz1lZIywKf67Fi1q7tKEA0fJOddHydq_HgGrEH-mov2FSDxYWR2V0ELXJqRTr6UWAzFLQFudwVjmEv7QCi0naoqZzyKUbg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -82.437989,35.488206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University of Alaska Fairbanks Kilns</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7Z2kOwiGtfWZfq_RNy-A6Dnx4z_7vfsu8TZEnyqN906-kk1Rpa9u1jTIveZdmJsynOdcAY2l-6yeNdPBJiq5OHWgPX93xztiLcQ_1n7GICC9ri7aCurrko" height="200" width="auto" /><br><br>240 cubic foot anagama built in 1993<br><br>60 cubic foot fast fire design built in 1999<br><br>60 cubic foot Bourry Box wood salt built in 1999<br><br>contact. Jim Brashear<br>Professor of Art University of Alaska Fairbanks<br> www.art.uaf.edu (http://www.art.uaf.edu)<br> ffjjb1@uaf.edu (ffjjb1@uaf.edu)]]></description>
+        <styleUrl>#icon-503-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7Z2kOwiGtfWZfq_RNy-A6Dnx4z_7vfsu8TZEnyqN906-kk1Rpa9u1jTIveZdmJsynOdcAY2l-6yeNdPBJiq5OHWgPX93xztiLcQ_1n7GICC9ri7aCurrko</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -147.865983,64.858216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bruhin Anagama</name>
+        <description><![CDATA[anagama: 150 cubic ft<br><br>norborigama: 150 cubic ft<br><br>Contact Information:<br>joebruhin.com (http://www.joebruhin.com)<br>Joe Bruhin<br>joebruhin@gmail.com (joebruhin@gmail.com)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -92.302773,35.781109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Levingama & Glassagama]]></name>
+        <description><![CDATA[Anagama Kiln<br>Built by Simon Levin in 8/2003<br><br>Glassagama Kiln<br>Built 8/2008<br><br>Corning Community College, Corning NY.<br>Contact: Fred Herbst<br>1 Academic Drive<br>Corning, NY 14830<br>Office Telephone: 	607 9629297 Extension 9356<br>E-mail: 	herbst@corning-cc.edu]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.074507,42.116358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Great Basin Pottery Anagama</name>
+        <description><![CDATA[Type: anagama with a catenary salt chamber behind it<br><br>Size: anagama 250 cu ft., salt 50 cu ft.<br><br>Contact Information:<br><br>www.greatbasinpottery.com/ (http://www.greatbasinpottery.com/)<br>Paul Herman<br>potterpaul@frontiernet.net (mailto:potterpaul@frontiernet.net)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -120.023843,39.923022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MacPhee Long Throat Kiln</name>
+        <description><![CDATA[Type of kiln:Long throat, Steve <br>Harrison design<br>Size of kiln:25 cubic feet, <br>10 ft long total, 24 &quot; high, bourry box engine<br><br>Contact Information:<br>www.paintedbyfire.blogspot.com (http://www.paintedbyfire.blogspot.com)<br>Claudia MacPhee<br>erstenhorpel@hotmail.com (mailto:erstenhorpel@hotmail.com)]]></description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -134.323139,60.274898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Hannis Downdraft & Crossdraft]]></name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.237902,52.822721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaddie Cross-Draft</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6m29E9iwE42YMq0JtlsD4M7TTTCjTMQjdi3cEJpGMmMhLZa_aCXSkVPuBJQi-1_Mc-SK8eL1FNRBaznLFsQzwCCNKAquyMwjOz5OOx_FsRxS8mfGQmSvY-FO9aC3Q3D9E6Ionr3TIuNg" height="200" width="auto" /><br><br>Type of kiln: single chamber <br>cross draft with interior firebox<br>Size of <br>kiln:140 cubic feet<br><br>Contact Information:<br>meadowspottery.com (http://meadowspottery.com)<br>matthew gaddie<br>meadows@bardstowncable.net (mailto:meadows@bardstowncable.net)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6m29E9iwE42YMq0JtlsD4M7TTTCjTMQjdi3cEJpGMmMhLZa_aCXSkVPuBJQi-1_Mc-SK8eL1FNRBaznLFsQzwCCNKAquyMwjOz5OOx_FsRxS8mfGQmSvY-FO9aC3Q3D9E6Ionr3TIuNg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -85.387089,37.81481,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fox Pass Pottery</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4woehZfpxD63a0QT_1x09OkA0VaxvDpRj7V-GBLp3Y_YBusRFFx2Np79NWNmyquahAdr_DjQ0mBojKMkBJ0VcJRjmMEfuErVPYOGkdj5lzZIUTaVdH" height="200" width="auto" /><br><br>2<br>chamber noborigama, patterned after Ruggles and Rankin<br>40 Cubic feet each chamber<br><br>Contact: Jim or Barbara Larkin<br>Fox Pass<br>Pottery (http://foxpasspottery.com)<br>379 Fox Pass Cut-Off<br>Hot Springs National Park<br>Arkansas, 712901<br>501-623-9906<br>foxpass@aristotle.net (mailto:foxpass@aristotle.net)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4woehZfpxD63a0QT_1x09OkA0VaxvDpRj7V-GBLp3Y_YBusRFFx2Np79NWNmyquahAdr_DjQ0mBojKMkBJ0VcJRjmMEfuErVPYOGkdj5lzZIUTaVdH</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -93.025521,34.552615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cub Creek Foundation</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6vD9EhVq8-s4ZezZa_FUwp66BBDJSl1Etmkqt5EHcEqZTiTheSZzC_XpG7hR8WjDJ99OzwqAuZFzgdYt15cFJ40Re8fcEsCjbM1Y5IzPATAnzUlWyskGi9NJSKz-SvHBU_fuxOYpJGC-uAmzNZUeJesn-4xx_zJqG5zHoy" height="200" width="auto" /><br><br>Three chamber noborigama<br>500 cu ft<br><br><br><br><br>Contact: info@cubcreek.org (mailto:info@cubcreek.org)   434-248-5074<br><br>4411  Wheeler Spring Rd<br>Appomattox, VA 24522<br><br>http://www.cubcreek.org/Content/Home/Home.html (http://www.cubcreek.org/Content/Home/Home.html)<br> <br> <br>http://www.cubcreek.blogspot.com/ (http://www.cubcreek.blogspot.com/)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6vD9EhVq8-s4ZezZa_FUwp66BBDJSl1Etmkqt5EHcEqZTiTheSZzC_XpG7hR8WjDJ99OzwqAuZFzgdYt15cFJ40Re8fcEsCjbM1Y5IzPATAnzUlWyskGi9NJSKz-SvHBU_fuxOYpJGC-uAmzNZUeJesn-4xx_zJqG5zHoy</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.745671,37.222935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Less Crimp Bourry Box</name>
+        <description><![CDATA[30 cu.ft. downdraft kiln fired with a Bourry Box.<br><br>Contact:Les Crimp,<br>1510 Haida Way,<br>Nanoose Bay, British Columbia,<br>Canada V9P B5<br>phone   250-468-7072<br><br><br>www.thepottersplace.ca (http://www.thepottersplace.ca)<br><br><br>www.arrowsmithpottersguild.bc.ca (http://www.arrowsmithpottersguild.ca)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -124.118503,49.253645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FuuKooGama 風光窯</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Tx9IY-R7E04dEAW265ejan4uQ_xu4lYrm26EnA5nMNyKvvkiPoMhRE6jyFhW0KdqHhulqeBqLCwWnV6kz7CA6827KvyDN8k3t8oR4rxx0lfWaGV4yiLXhmZBXfQ9c3XBXbWTK_CUYYMDnX7Yuo48h4lJHDbYBiINXop9AHv4inCCuDftf2l0JedVXLFL0EMNte7o?fife=s16383" height="200" width="auto" /><br><br>Anagama with two sutema. 110 cu. ft loading space <br><br>Designed by Ruri, Built by Yoshiyuki Itoh from Mashiko, Japan<br><br>Contact: Ruri<br>18526 SW Rock Creek Rd.<br>P.O.Box 206<br>Sheridan, OR 97378-0206<br><br>Tel: 503-843-4375<br><br>http://www.ruriclaywork.us/index.html]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Tx9IY-R7E04dEAW265ejan4uQ_xu4lYrm26EnA5nMNyKvvkiPoMhRE6jyFhW0KdqHhulqeBqLCwWnV6kz7CA6827KvyDN8k3t8oR4rxx0lfWaGV4yiLXhmZBXfQ9c3XBXbWTK_CUYYMDnX7Yuo48h4lJHDbYBiINXop9AHv4inCCuDftf2l0JedVXLFL0EMNte7o?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -123.4519211,45.1246954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anagama/dragon kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4AEIPFu-rMCxKXO0JTVV1jOy0DrJYrgPrFAYyoO1pt6LnMcD7d08jgJhQnwBlkFLSgfSbjJEw8WsLTyu0A0Io2pWuQLrLzHa2xltE3EqWjIZz86-2yEnw" height="200" width="auto" /><br><br>Anagama<br>Size of kiln: 9 metres by 1.2 <br>metres wide by 1.2 metres high (internal)<br><br>Contact: Ian Jones and Moraig <br>McKenna<br>1045 <br>Shingle Hill Way, Gundaroo NSW Australia 2620<br>Email:laughingfrogpot@netscape.net (mailto:laughingfrogpot@netscape.net)<br>Website: <br>www.oldsaintlukesstudio.com.au (http://www.oldsaintlukesstudio.com.au)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4AEIPFu-rMCxKXO0JTVV1jOy0DrJYrgPrFAYyoO1pt6LnMcD7d08jgJhQnwBlkFLSgfSbjJEw8WsLTyu0A0Io2pWuQLrLzHa2xltE3EqWjIZz86-2yEnw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            149.261429,-35.082779,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sky Line Cat Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5OS9nniUEjAiVEjnGo3DnkXXO-yCySOGDSp7K4BfL2r6xEWGFQGyXXZWz_mwROSktyqn1rPyCpe-0mLTM-BX-mvU95utCUMiVRwlDxdCKvnudcVZZCiEjeNYzq" height="200" width="auto" /><br><br>Single-chamber down-draft kiln with catenary arch and <br>interior firebox<br>55 cubic feet<br>Built 10/2005<br><br>Contact: Kenneth Pincus  <br>14754 NW Ash Street, Portland, Oregon<br>ken@pincuspotterystudio.com (mailto:ken@pincuspotterystudio.com)<br>503-285-4784<br>www.pincuspotterystudio.com (http://www.pincuspotterystudio.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5OS9nniUEjAiVEjnGo3DnkXXO-yCySOGDSp7K4BfL2r6xEWGFQGyXXZWz_mwROSktyqn1rPyCpe-0mLTM-BX-mvU95utCUMiVRwlDxdCKvnudcVZZCiEjeNYzq</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -122.829554,45.597331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waubonsee Community College </name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7yvITX0eaXhg1lWvGJa5EzdTnNBP4bGX1e5A1ISW1Iau97ogTfvxpq2icaf6Xtt06x1iLHtEN0iHHshMP59T1zygnTXVOKfUiV-7Th3hUTPmVNPo9R4IUDaG0j3Q" height="200" width="auto" /><br><br>110 cubic foot anagama<br>- Built 9/2006 by Simon Levin<br>180 cubic foot Tube kiln<br>- Built 9/2005<br>60 cubic foot Train kiln<br>- Built 7/2004<br>40 cubic foot Cross Draft<br>- Built 10/2002<br><br>Contact: Doug Jeppesen<br>Phone: <br>        (630) 466-7900 x2505 <br>Fax: (630) 466-9102 <br>Email: djeppesen@waubonsee.edu (mailto:djeppesen@mail.wcc.cc.il.us)<br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v4OYjjIArgtY-WLXlgPsqFnfpd3m2O8uw24jwcVa71SqoM7uCPwEyUu6tmVGJ2Z-Qulbs_qRO9o1Sb6wI1FU6zvadlO2GTkpTSZyE2Wvb7qLjUkI6fQ0o9SaUE6ig" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7yvITX0eaXhg1lWvGJa5EzdTnNBP4bGX1e5A1ISW1Iau97ogTfvxpq2icaf6Xtt06x1iLHtEN0iHHshMP59T1zygnTXVOKfUiV-7Th3hUTPmVNPo9R4IUDaG0j3Q https://lh3.googleusercontent.com/umsh/AN6v0v4OYjjIArgtY-WLXlgPsqFnfpd3m2O8uw24jwcVa71SqoM7uCPwEyUu6tmVGJ2Z-Qulbs_qRO9o1Sb6wI1FU6zvadlO2GTkpTSZyE2Wvb7qLjUkI6fQ0o9SaUE6ig</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.456526,41.79528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jane Herold Beehive</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7UBjfmOE2ZPXBe3d3ueZJQ-_gtpKOXzwzbIF7dDTmA1GwinXe2fDRYmS2jUIzlnB_NvaTUhh_Xw8XebUAJUk8XVSywBOM8ob_Q2gbeHlqpU5N9EnA2TOdTk1kbymmeh8u6lQ" height="200" width="auto" /><br><br>round down-draft beehive type, with four fire boxes, and about 6 foot diameter. (internal)<br>Built 9/1984<br><br>Contact:Jane Herold<br>67 A Ludlow Lane<br>Palisades, NY 10964<br>(845) 359-5421<br>http://www.janeherold.com (http://www.janeherold.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7UBjfmOE2ZPXBe3d3ueZJQ-_gtpKOXzwzbIF7dDTmA1GwinXe2fDRYmS2jUIzlnB_NvaTUhh_Xw8XebUAJUk8XVSywBOM8ob_Q2gbeHlqpU5N9EnA2TOdTk1kbymmeh8u6lQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.908562,41.005964,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Johnsson Down Draft</name>
+        <description><![CDATA[Type of kiln: Fast fire down draft<br>Size of kiln: 1,5 cubic meter<br><br>Contact Information:<br>www.sagakeramik.se (http://www.sagakeramik.se/)<br>Saga Johnsson<br>zzaga@live.com (mailto:zzaga@live.com)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            14.262679,55.665387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nealey Fast Fire</name>
+        <description><![CDATA[Type of kiln: Olson<br>Fast Fire type<br>Size of kiln: 1 cubic<br>meter interior<br><br>Contact Information:<br>Luke<br>Nealey<br>lukenealey@gmail.com (mailto:lukenealey@gmail.com)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -90.051608,32.18776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Husted Wood Kiln</name>
+        <description><![CDATA[Type of kiln: 10&#39;x4&#39;x4&#39; long sprung arch front chamber that climbs into a 4&#39;x4&#39;x4&#39; catenary arch chamber in back<br>Size of kiln: 120 cubic foot in front, 36 cubic foot in back<br><br>Contact Information:<br>Glenn Husted<br>glennhusted@sbcglobal.net<br>(530) 274 9844,]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -121.170927,39.165855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Penkinski Anagama</name>
+        <description><![CDATA[Kiln Type: Anagama Kiln<br>Kiln Size: 5 m.<br><br>Contact Information:<br>Dormante Penkinski<br>dormante@gmail.com (mailto:dormante@gmail.com)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            25.041275,54.630133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anagama and Bourry Box</name>
+        <description><![CDATA[Anagama: 150 cubic feet<br>Bourry Box: 50 cubic feet<br><br>Contact name: Nancy Utterback<br>6440 north 63st. Boulder, Colorado 80305<br>utterbackn@mac.com (mailto:utterbackn@mac.com)  <br>(303) 828-3220<br>Ceramicworld.org (http://ceramicworld.org/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -105.207841,40.091105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Roger Baumann's Hybrid Anagama]]></name>
+        <description><![CDATA[Anagama / sprung arch hybrid.<br>2 chamber. Usable stacking space per chamber is 150 c/f +-<br>Location: Upper Westchester County, NY. About 1 hour from mid town Manhattan.<br><br>Contact:roger@baumanntravel.com (mailto:roger@baumanntravel.com)<br>Street address: 26 Anton Place<br>Lake Peekskill, NY 10537<br>1+ 914 419 8470]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.882247,41.33048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cross Draft, Gothic Arch</name>
+        <description><![CDATA[Cross Draft  Gothic Pointed <br>  Interior<br>50 Cubic feet<br><br>Contact: Gavin Forseth,<br>gforseth@nmsd.wednet.edu (mailto:gforseth@nmsd.wednet.edu)<br>Ceramics Instructor North Mason High School.  <br>200 E campus dr Belfair WA <br>98329<br>http://www.nmsd.wednet.edu/nmhs/site/default.asp (http://www.nmsd.wednet.edu/nmhs/site/default.asp)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -122.842281,47.413387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Veragama</name>
+        <description><![CDATA[Modified top-loading flat-top.  <br>13 cu. ft.<br>Built 6/2006<br><br>Contact Information:<br>www.thistillium.com (http://www.thistillium.com/siteinfo/)<br>Nathan Miller<br>potters@thistillium.com (mailto:potters@thistillium.com)<br>971-570-2750]]></description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -122.965859,45.292611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bili Bala Olaria</name>
+        <description>Down Draft wood kiln built by Simon Levin for Water filtration project.  Supported by World Vision and the Organization Mujer Timor</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            126.003308,-8.529605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noborigama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7qabWW8gLBPTZmxBnSDcnL8wWRlAtEXh8dU1cADrzMNRmN6p0lxejJUCaiQp2auhpVYL6HwTfZwrp_eSxwrD2rDoHTwSLr-r4N79MqaREAoCLI-P8DbL7gLTdx-8WbOMYkVnf4DXnpLfphTuvBv0iyTpV-oBKVWJdEgD78Cg" height="200" width="auto" /><br><br>2 Chamber Bourrey Box. 1st chamber is all wood fired. 2nd chamber is salted.<br><br><br><br>Size: 45 cu. ft. packing space per chamber.<br><br><br>Contact:Dan Finnegan<br><br>danfinneganpottery@cox.net (mailto:danfinneganpottery@cox.net)<br>danfinneganpottery.com (http://danfinneganpottery.com)<br><br>danfinneganpottery.blogspot.com (http://danfinneganpottery.blogspot.com)<br><br>Zip Code: 22446]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7qabWW8gLBPTZmxBnSDcnL8wWRlAtEXh8dU1cADrzMNRmN6p0lxejJUCaiQp2auhpVYL6HwTfZwrp_eSxwrD2rDoHTwSLr-r4N79MqaREAoCLI-P8DbL7gLTdx-8WbOMYkVnf4DXnpLfphTuvBv0iyTpV-oBKVWJdEgD78Cg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.390772,38.199016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Groundhog</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4AP2RS2iT6GeJ6tZ6nushPCOTuelHyD1wRihAuI9F5XXt4mP7azoeftdQwidInOYmW6Pm4Yx48cdSQ_JPSeYxOn08UfBZTanH63GxTZXjbSZe16nsW1LaHLLugBH03zqX_3hT6uHVOajg" height="200" width="auto" /><br><br>groundhog kiln<br>100 cu.ft.  <br><br>Contact:Gary Dexter<br>Enterprise Mill 1450 Greene Street Augusta, GA<br>http://madpotter-oldcanalpottery.blogspot.com (http://madpotter-oldcanalpottery.blogspot.com)]]></description>
+        <styleUrl>#icon-503-7C3592</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4AP2RS2iT6GeJ6tZ6nushPCOTuelHyD1wRihAuI9F5XXt4mP7azoeftdQwidInOYmW6Pm4Yx48cdSQ_JPSeYxOn08UfBZTanH63GxTZXjbSZe16nsW1LaHLLugBH03zqX_3hT6uHVOajg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.982649,33.478002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Train Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5kKgM4E5iNNs9i_x0mdVKvTExZGt4HogbhCj1Z_LEuC7OU4JGEfRhYJWL46ZDdoheNY90K_cPkIeDEAaIMeEwBR1dDC5PcCXgupPkmWSDaP2dq5dcJxbQNspVJ_meYp8NxVGMi8DMMPj4U6sGYlCY1Dro" height="200" width="auto" /><br><br>Red Lodge Clay Center.<br>Train Kiln<br>150 cu/ft Built by Jason Hess<br>463 Two Mile Bridge Road<br>Red Lodge, Montana <br><br><br>Contact: David Hiltner<br><br>Red Lodge Clay Center<br><br>PO Box 1527<br><br>Red Lodge, MT  59068<br><br>406-425-2032<br><br>www.redlodgeclaycenter.com (http://www.redlodgeclaycenter.com)]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5kKgM4E5iNNs9i_x0mdVKvTExZGt4HogbhCj1Z_LEuC7OU4JGEfRhYJWL46ZDdoheNY90K_cPkIeDEAaIMeEwBR1dDC5PcCXgupPkmWSDaP2dq5dcJxbQNspVJ_meYp8NxVGMi8DMMPj4U6sGYlCY1Dro</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -109.213189,45.268318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Down Draft</name>
+        <description><![CDATA[downdraft kiln, built 2007.<br>Approximately 18 cubic feet.<br><br><br><br>Contact:Peter Gregory<br>152 Main Road, <br>Waikouaiti, Otago,<br>New Zealand.<br><br>opogallery@gmail.com (mailto:opogallery@gmail.com)<br><br>Blog: www.opopots.blogspot.com (http://www.opopots.blogspot.com)  and  www.opogallery.blogspot.com (http://www.opogallery.blogspot.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            170.674764,-45.594492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noborigama</name>
+        <description><![CDATA[noborigama type with a large main fire box and two ware chambers with internal fireboxes. <br><br>80 cubic feet stacking space<br><br> THe kiln is at 278 South Main Spring City, Utah 84662<br>Joe<br><br>Contact: Joseph Bennion <br><br>Horseshoe Mountain Pottery<br><br>Mom&#39;s Stuff Healing Salve <br><br>PO Box 186                                                   <br><br>Spring City, Utah 84662                                                 <br><br>435-462-2708 <br><br>www.joethepotter.com (http://www.joethepotter.com)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -111.496375,39.474409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cross Draft</name>
+        <description><![CDATA[Peg Udall's cross draft Kiln published in Jack Troy's book: Wood-fired Stoneware and <br>Porcelain<br>24 cubic Feet<br><br><br>Contact: Susan Davis Wells <br><br>5911 <br>Quiet Acres Drive 27231 919.619.8129 <br><br>susan@maidenhairstudio.com<br><br>www.maidenhairstudio.com (http://www.maidenhairstudio.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -79.12508,36.182649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cross Draft</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6ClNjJh1Hqe2-RnlCEwB-dNDbxdjWWaN6bXN1lh4Mz5A9GD0xRm8k5qLUrpSf-47p9IJz9fqPOiGEa5kXCNxq66VkD9uJB7kR9PsWjqpfiRbKQW2vuGAquncdR3hnn" height="200" width="auto" /><br><br>cross draft, catenary arched tube kiln<br>24 cubic foot, <br><br>Contact: Bill Perrine<br>Split-Fire Pottery<br>www.splitfirepottery.etsy.com (http://www.splitfirepottery.etsy.com)<br> Address: 2353 Sessions Hill Rd. <br>Homer, N.Y. 13077]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6ClNjJh1Hqe2-RnlCEwB-dNDbxdjWWaN6bXN1lh4Mz5A9GD0xRm8k5qLUrpSf-47p9IJz9fqPOiGEa5kXCNxq66VkD9uJB7kR9PsWjqpfiRbKQW2vuGAquncdR3hnn</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.122025,42.686055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noborigama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v44YEnUpc5aeTkwDX-CBwWcRzyvbo-2hHncIzAB0arMzqERWBuBxl6yVuprws2Cj8t_H2yllTBxH6vQC5cRpvq5xjOAq7RWT7jO0s6Z_noV174uRxfNW_Ac7Bho5AMqeFG7OjMotuodzXvQPxqm1o33lHu4YsHQ4HMqOFx1" height="200" width="auto" /><br><br>Three chamber climbing kiln inspired by Bizen kilns.<br>250 cubic feet of stacking<br> space.  <br>Built 10/2008<br><br>contact info: Joseph Cole<br>Windy Ridge Pottery<br>3095 State rd. 39 <br>Mineral Point WI 53565<br>536 212-4179<br>josephjcole@yahoo.com (mailto:josephjcole@yahoo.com)<br>http://colepottery.blogspot.com/ (http://colepottery.blogspot.com/)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v44YEnUpc5aeTkwDX-CBwWcRzyvbo-2hHncIzAB0arMzqERWBuBxl6yVuprws2Cj8t_H2yllTBxH6vQC5cRpvq5xjOAq7RWT7jO0s6Z_noV174uRxfNW_Ac7Bho5AMqeFG7OjMotuodzXvQPxqm1o33lHu4YsHQ4HMqOFx1</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -90.225107,42.898788,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UMM Woodkiln</name>
+        <description><![CDATA[Anagama, 75 cubic feet interior.<br>Firebrick Walls castable top.<br>Built 2003<br><br>Contact:<br><br> <br>Kevin Flicker<br><br> &lt;flickkr@morris.umn.edu&gt;<br><br><br><br> <br>Ceramics Teaching Specialist<br><br><br> <br>Studio Art Technician<br><br><br> <br>Division of the Humanities<br><br><br> <br>University of Minnesota, Morris<br><br><br> <br>600 East Fourth Street<br><br><br> <br>Morris, Minnesota 56267<br><br><br> <br>320/589-6248]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.897115,45.59263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bourry Box kiln and Train Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5h27SFhg6JGox9f6rvT-Q0teMFgQiwXGmnGP5f8do9Ale0xqvDoj2FXvyLST7Ynb1LlgT5_RF0Mz1g6CH2K3nZWokoGg1yGz-Wnq1UEuQ6_55g9H96esG-zke1FCUc" height="200" width="auto" /><br><br>Bourry box . Soft brick construction. 52 Cubic feet.<br><br>Train Kiln, 42 cubic feet.<br><br>Contact: Nancy Smeltzer nsmeltzer@windstream.net (mailto:nsmeltzer@windstream.net)<br><br>phone, 814.257.8960<br><br>Web site, www.potterstour.com (http://www.potterstour.com)]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5h27SFhg6JGox9f6rvT-Q0teMFgQiwXGmnGP5f8do9Ale0xqvDoj2FXvyLST7Ynb1LlgT5_RF0Mz1g6CH2K3nZWokoGg1yGz-Wnq1UEuQ6_55g9H96esG-zke1FCUc</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.170324,40.870041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jorgenson pottery</name>
+        <description><![CDATA[Jorgensonpottery.com (http://www.jorgensonpottery.com)<br>Noborigama<br>1st chamber-tube, brick sprung arch<br>2nd chamber-castable dome<br>3rd chamber-castable catenary arch<br>Approximately 300 cu. Feet of stacking<br>Built 8/2007<br><br>Contact:  JD Jorgenson<br>Jorgenson Pottery<br>9022 Nuthatch Rd<br>St. Joseph, MN 56374<br>320.309.1529]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -94.295236,45.595896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College of Lake County Train Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7tUwl993BHEN8L7kukJa7BkNscZEc-YXaUaNXTPHl5J1Bf9THSYq3M6XEih9_3GEBqK0QssZciEDQ9mAIXJKS-0zLL36Ac4WPgqBZe1rGUHWTfb8vgmB7Y5g4G0BtYXhJQ6cN92Hf0dLZqRDPhlbmoxxJKxWJ4tnrH5CQ_e3hswHS8vVibGFRHEgVR" height="200" width="auto" /><br><br>Train Kiln, 90 cubic feet of stacking space.<br><br><br>Contact: Ben Bates <br><br>Ceramics<br>Lab Specialist/Ceramics Instructor <br><br>College<br>of Lake County <br><br>Communication<br>Arts, Humanities &amp; Fine Arts <br><br>19351<br>West Washington Street <br><br>Grayslake,<br>Illinois 60030-1198 <br><br>(847)543-2435]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7tUwl993BHEN8L7kukJa7BkNscZEc-YXaUaNXTPHl5J1Bf9THSYq3M6XEih9_3GEBqK0QssZciEDQ9mAIXJKS-0zLL36Ac4WPgqBZe1rGUHWTfb8vgmB7Y5g4G0BtYXhJQ6cN92Hf0dLZqRDPhlbmoxxJKxWJ4tnrH5CQ_e3hswHS8vVibGFRHEgVR</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.016421,42.36135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name> Burton Creek Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v64uJoQkGh3DzWr9rgzti3ZX7TY32qh_zglgVeP1zCOt9OavmYsFIqiZuw0pjemobsi8pFbqaTyQkw7iARbn66ddlKCMOB3RgHQdjCIkX4-f2sQYjkuaGHtpA8ikeol8mO3Vqvmh6e07QksktxxginXa2FV3kHA" height="200" width="auto" /><br><br>255 Cubic Foot Kiln<br><br>Location: 1690 Ink Grade Rd.<br>Pope Valley, CA 94567<br><br><br>Contact: Scott Parady<br><br>sparady@csus.edu (mailto:sparady@csus.edu)<br><br>707.287.2316]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v64uJoQkGh3DzWr9rgzti3ZX7TY32qh_zglgVeP1zCOt9OavmYsFIqiZuw0pjemobsi8pFbqaTyQkw7iARbn66ddlKCMOB3RgHQdjCIkX4-f2sQYjkuaGHtpA8ikeol8mO3Vqvmh6e07QksktxxginXa2FV3kHA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -122.456768,38.621523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CSU Bourrey Box</name>
+        <description><![CDATA[Single Chamber Bourry Box<br><br>65 cu. ft.<br><br>6000 J Street<br><br>Sactamento 95819<br><br><br><br>Contact: Scott Parady<br><br>sparady@csus.edu (mailto:sparady@csus.edu)<br><br>707.287.2316]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -121.418742,38.557437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manabigama</name>
+        <description><![CDATA[Manabigama <br><br>30 Cu Ft<br><br>Contact: Mark Issenberg<br><br>3005 Plum Nelly Rd <br><br>Rising Fawn Georgia 30738<br>ashpots@aol.comLookoutmountainpottery.com]]></description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.493073,34.791823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4hfRhacy-zmKKv1TZbxrpSjh1AAaYCM93m9EAHhSUiv8Gyf91vZQJBXUI6yJE6z5HuD6ifJNPY4EwImaAPkoiHIu8EPp-jSu99TfC6AgXf_3fwXw3FLdZWVva_wZXEeHMcEqbIAqCDhRHs-SFAI2nq8LvdyFUtS1wLqam4v4k" height="200" width="auto" /><br><br>Anagama-type  kiln<br>Durfort Lacapelette, Tarn et Garone, France<br> 7 meter long, 4 m³ stacking space<br>Contact name:  Eric <br>Soulé<br><br><br>Website: http://ericsoule.blogspot.com/ (http://ericsoule.blogspot.com/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4hfRhacy-zmKKv1TZbxrpSjh1AAaYCM93m9EAHhSUiv8Gyf91vZQJBXUI6yJE6z5HuD6ifJNPY4EwImaAPkoiHIu8EPp-jSu99TfC6AgXf_3fwXw3FLdZWVva_wZXEeHMcEqbIAqCDhRHs-SFAI2nq8LvdyFUtS1wLqam4v4k</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            1.127987,44.179619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cross Draft</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5lviT-Z_kAqjK1s05vYJrqSbI4D-B9tlyLyKcKLhbgu4__VooRBvHBWosgin_8kEVJMw0cZz5S6TsNJkBIwN3W5RgzntaL7ttF2OEmqHynHoTu25bOpdsRscMxej-Z5xP8TrtNHL65sdyo_a7iZdA" height="200" width="auto" /><br><br>60 cu ft cross draft<br><br><br><br>Contact: Justin Lambert<br><br>Justin@liveoakpottery.com (mailto:Justin@liveoakpottery.com)<br><br>561-676-5453<br><br>17847 Brians Way<br><br>Jupiter, FL  33478<br><br>Www.liveoakpottery.com (http://Www.liveoakpottery.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5lviT-Z_kAqjK1s05vYJrqSbI4D-B9tlyLyKcKLhbgu4__VooRBvHBWosgin_8kEVJMw0cZz5S6TsNJkBIwN3W5RgzntaL7ttF2OEmqHynHoTu25bOpdsRscMxej-Z5xP8TrtNHL65sdyo_a7iZdA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.243084,26.940784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noborigama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4ttTjl3fwuOoy51jy420nGK9eB0L8yQb_xUopRX_u7xgkXtQJBMNHkMTk6-cONu-QGdytv3PrF6qc0p7ur-d4AfPJdmU-A5pU_AiR4XLC7JwWoi3QPWCEK9gjBLeQ" height="200" width="auto" /><br><br>2 chambered climbing kiln,  Bourry Box. Plans available, 150 cu ft. (75 cu ft/chamber)<br><br>Rt 200 Franklin,<br>Maine, 1 mile south of town center. <br><br>Contact name:  Charlie Grosjean, <br>Hog Bay Pottery<br>Charliesue@hogbay.com (mailto:Charliesue@hogbay.com)<br><br>hogbay.com (http://hogbay.com)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4ttTjl3fwuOoy51jy420nGK9eB0L8yQb_xUopRX_u7xgkXtQJBMNHkMTk6-cONu-QGdytv3PrF6qc0p7ur-d4AfPJdmU-A5pU_AiR4XLC7JwWoi3QPWCEK9gjBLeQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -68.19967,44.575777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noborigama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5uFHaRjqIPnEAbI2ATXn6acT_9-YLibA7uS4xYQ81GGGTglxClvK8CWZk12NH31ULoPK0q7gZ_okPE4WF2aWdoTe9pcb6JMQQ5OPas1ewWMHjwMx1dx1qi8A" height="200" width="auto" /><br><br>200 cubic-foot Noborigama with 2 ware chambers. The second chamber we salt.<br>Built 8/2004<br><br>28 cubic-foot Boury Box kiln.<br>Built 7/2006<br><br><br>Contact: Ruth Cohen and Archie Johnson<br><br>MUD AND FIRE POTTERS<br><br>1002 Bowbridge Road<br><br>Little Meadows, PA 18830<br><br>570-623-3335<br><br>mudandfirepotter@aol.com (mudandfirepotter@aol.com)<br><br>www.mudandfirepotters.com (http://www.mudandfirepotters.com)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5uFHaRjqIPnEAbI2ATXn6acT_9-YLibA7uS4xYQ81GGGTglxClvK8CWZk12NH31ULoPK0q7gZ_okPE4WF2aWdoTe9pcb6JMQQ5OPas1ewWMHjwMx1dx1qi8A</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.09545,41.96683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7v8uip4jtGgH_G577TkmiKBCOAIdakdUe33oGbOPzioijZRTukLXkV5XdvQGC771Lm2FvpCF9jmtZGlPthW-65Tg5xIssUso-A-fkj846SaVk" height="200" width="auto" /><br><br>combination anagama, 2 chamber noborigbama (shino and salt chambers)<br>Size of kiln: 450 cu.ft.<br><br>Contact: Kevin Crowe<br>Tye River Pottery, 1289 Falling Rock Dr., Amherst, Va. , Nelson County<br><br>Contact email, phone: tyeriverpottery@aol.com (tyeriverpottery@aol.com), 434-263-4065<br>Website: www,kevincrowepottery.com (http://kevincrowepottery.com/)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7v8uip4jtGgH_G577TkmiKBCOAIdakdUe33oGbOPzioijZRTukLXkV5XdvQGC771Lm2FvpCF9jmtZGlPthW-65Tg5xIssUso-A-fkj846SaVk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.905236,37.637185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stewart Scambler Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4jl6MBR-jBLXjrtCbK1SRqZmx0lzgIhlpGk90KhPQSpbwW91t7hXr6skpMIj67aptH96rBS0s3XfloNReWCvcmbClz0iWEQ1zjfhv-75c" height="200" width="auto" /><br><br>Modified anagama <br>4.3 meters (14 ft.) long, 1.2 meters (4 ft.) high (internal dimensions) <br>Built 1998<br><br>Contact: Stewart Scambler <br>bohemianceramics@bigpond.com (mailto:bohemianceramics@bigpond.com)<br><br>5109 Great Southern Highway, York Western Australia]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4jl6MBR-jBLXjrtCbK1SRqZmx0lzgIhlpGk90KhPQSpbwW91t7hXr6skpMIj67aptH96rBS0s3XfloNReWCvcmbClz0iWEQ1zjfhv-75c</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            116.802564,-31.932461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jessiman Anagama</name>
+        <description>100 Cubic Foot Anagama      4871 Wheelers Spring Rd., Appomattox, VA      Built: June 2012  Contact name: John JessimanContact::jessiman@cubcreek.orgWebsite :www.jessimanceramics.com </description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.7585052847862,37.2254142095024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mounds Anagama</name>
+        <description><![CDATA[style- anagama, built in 1987<br><br><br>size- 1,200 cu ft.<br><br>Owner- Dan Anderson, <br>5519 Old Poag Road,<br>Edwardsville, IL 62025<br><br>618-656-7775<br>oprcng@sbcglobal.net (mailto:oprcng@sbcglobal.net)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.004123,38.812863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muddy Fish Studio Chicken Pot Pie Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7q7sz-1BgdaCbjL6Em-AxYq4IeFcYrGEsEzKgoPCwfHm6sgig5rxiTnrHUNS1iKvEXhAFKlsg-oVEhP1RtAAu-MHYyWcRYP3Mzz_FIvn5J7axEoGUk__aywSN23dOw9LogamSWfZ7QR0NTCwWPLl7ROV1juDd5jjzWcb7lEJo" height="200" width="auto" /><br><br>Phoenix Fast Fire Kiln <br>36 cubic feet of ware space <br>Built 11/2008<br><br>Brenda Scott <br>25251 SE Bohna Park Rd, Damascus OR 97089 <br>muddyfishstudio@verizon.net (mailto:muddyfishstudio@verizon.net) <br><br>503-658-7352 <br>www.muddyfishstudio.blogspot.com (http://www.muddyfishstudio.blogspot.com/)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7q7sz-1BgdaCbjL6Em-AxYq4IeFcYrGEsEzKgoPCwfHm6sgig5rxiTnrHUNS1iKvEXhAFKlsg-oVEhP1RtAAu-MHYyWcRYP3Mzz_FIvn5J7axEoGUk__aywSN23dOw9LogamSWfZ7QR0NTCwWPLl7ROV1juDd5jjzWcb7lEJo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -122.40344,45.43382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Peter Callas Studio Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7W0PwixHvsqXAAxtbXu_l4-U4QiYdC-OD2PfBM92XBq491evsVNB_jYG3dtgIrglgbeOsAuDJpSONFRri2QjJonIyrpK-TLuUgDsw3d075rsnICudIwkG5EIE" height="200" width="auto" /><br><br>1 orchard <br>street belvidere, nj 07823<br>Size of kiln: 18 feet long x 5 x 5<br><br>Contact <br>name: Peter Callas<br>peter@petercallas.com (mailto:peter@petercallas.com)<br>Website: www.petercallas.com (http://www.petercallas.com)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7W0PwixHvsqXAAxtbXu_l4-U4QiYdC-OD2PfBM92XBq491evsVNB_jYG3dtgIrglgbeOsAuDJpSONFRri2QjJonIyrpK-TLuUgDsw3d075rsnICudIwkG5EIE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.059334,40.83398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St.Pete Anagama</name>
+        <description><![CDATA[Anagama, 350 cubic feet, built February 2002 Morean Center for Clay<br>420 22nd street south<br>St. Petersburg FL 33712 http://www.moreanartscenter.org/center-for-clay/]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.6625353,27.7676535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Down Draft Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v44LyaURaKBb5MligkgzSUoIaITxzN89FKAE9q0qgdM2iVyq7xFPMpSbRB0bI9cGTzfJr0eI01TbpmH1dO5YKcZeRFKY3f8-aBZ7u45zSrz0thOF03ZHsxY69qYWItKHf0eTf2Y" height="200" width="auto" /><br><br>downdraft wood kiln<br> 450 liters<br><br>Contact:Miroslava Randová and Petr Novák<br><br> Chocerady 262<br><br> 257 24 Chocerady<br>www.artkeramika.cz/keramikstudio (http://www.artkeramika.cz/keramikstudio)<br><br>www.kcdoupe.cz<br>  - www.kcdoupe<br>   and www.artkeramika.cz/keramikstudio]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v44LyaURaKBb5MligkgzSUoIaITxzN89FKAE9q0qgdM2iVyq7xFPMpSbRB0bI9cGTzfJr0eI01TbpmH1dO5YKcZeRFKY3f8-aBZ7u45zSrz0thOF03ZHsxY69qYWItKHf0eTf2Y</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.802082,49.873256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fast Fire Updraft</name>
+        <description><![CDATA[Fred Olsen&#39;s fast-fire design<br><br>Size of kiln: ~12-cubic feet<br><br><br>Contact name: Geoffrey Nicastro<br>905 35th Ave Santa Cruz,CA 95062<br><br>gnicastro@yahoo.com (mailto:gnicastro@yahoo.com)<br>831-462-6265<br><br>www.galleryforrent.com (http://www.galleryforrent.com)]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -121.971518,36.9648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noble Hill Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7Iva8Wp3Q5mc0EMEWagDOThx3ufmBdpIt2DiYsBB3Sfevk6FDUVf__lkcU0LBr6buiidpW-qa-2F1F_bem9m6fdA6GXXSJHLu7jeMBw7_gS0SVi7deEr3Y0Z96Q0pc9gMVyYr-iPXLO10yJHkpiFO9kjH-JbSmDTx6-cPFFAvwvZ7DKso" height="200" width="auto" /><br><br>Anagama kiln<br>approx 90 cu. ft<br>First fired in April, 2004<br><br>Contact: Mark Terry<br>621 North Grant Street<br>Newberg, OR 97132<br>mterry@georgefox.edu (mailto:mterry@georgefox.edu)<br>www.markterryalchemist.blogspot.com (http://www.markterryalchemist.blogspot.com/)<br>503.554.8208]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7Iva8Wp3Q5mc0EMEWagDOThx3ufmBdpIt2DiYsBB3Sfevk6FDUVf__lkcU0LBr6buiidpW-qa-2F1F_bem9m6fdA6GXXSJHLu7jeMBw7_gS0SVi7deEr3Y0Z96Q0pc9gMVyYr-iPXLO10yJHkpiFO9kjH-JbSmDTx6-cPFFAvwvZ7DKso</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -123.136944,45.550219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Down Draft</name>
+        <description><![CDATA[Downdraft kiln.<br>1,20 metre x 1,00 metre x 1,80 metre (high). <br><br>Fired to 1280°C <br>Contact: Ana Belén MONTERO<br><br><br><br><br><br>Sur les Gots, 1<br><br>5374 MAFFE<br><br>www.anabelen.be (http://www.anabelen.be/)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            5.309368,50.359142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>USD Cross Draft</name>
+        <description><![CDATA[Cantenary arch cross draft kiln <br>with an internal fire box <br>35 cu. ft. <br><br>Contact: <br>Michael Hill <br>Warren M Lee Center for Fine Arts <br>University of South Dakota <br>414 E. Clark <br>Vermillion SD 57069 <br>michael.hill@usd.edu<br><br> http://www.usd.edu/fine-arts/art/ceramics.cfm (http://www.usd.edu/fine-arts/art/ceramics.cfm)<br>605-677-5636]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -96.923162,42.78937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Michael Hill Pottery Crossdraft</name>
+        <description><![CDATA[Two chamberd kiln with a burrybox, step grate and two additional stoking areas.<br><br>130 cu. ft.<br><br> <br><br>Contact:<br><br>Michael Hill<br><br>30830 457th. Ave.<br>Volin, SD 57072<br><br>mudhead@iw.net (mailto:mudhead@iw.net)<br>michaelhillpottery.com (http://michaelhillpottery.com/)<br><br>605 670 0526]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -97.061462,42.919868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wilkie Anagama and Down Draft</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4uVOsMu2vS8Ej4KPeoPZAD45yG4_rxegHvdFrvcMQjuDdlSCakDfF5npc38o049uXpdIIKKo2dQ-iYhjocjbjwhm_asIhCWGc7UwfprS-lI640In5Eau6PLiI" height="200" width="auto" /><br><br>Anagama and Down Draft Kiln<br>2.5 Cu. Meters<br>10 x 2 x 2 Meters<br><br>Contact Information:<br>Graeme Wilkie<br>www.woodfiredceramics.com.au<br> (www.woodfiredceramics.com.au)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4uVOsMu2vS8Ej4KPeoPZAD45yG4_rxegHvdFrvcMQjuDdlSCakDfF5npc38o049uXpdIIKKo2dQ-iYhjocjbjwhm_asIhCWGc7UwfprS-lI640In5Eau6PLiI</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            143.964922,-38.544606,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University of Montevallo</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.866558,33.104017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bede Clarke Catenary Arch</name>
+        <description><![CDATA[Catenary Arch Internal Firebox Kiln <br>22 Cu. Ft. Fire space <br><br>Contact: <br>Bede Clarke <br>225 West Sunnyridge Lane <br>Columbia, MO 65202 <br>clarkerb@missouri.edu (mailto:clarkerb@missouri.edu)<br>www.bedeclarkestudio.com (http://www.bedeclarkestudio.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -92.328531,39.0019664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burnt.Normal Church Anagama</name>
+        <description><![CDATA[Anagama <br>27 ft. <br><br>Contact: <br>Lee and Yolande Clark <br>327 Main Street <br>Florenceville, New Brunswick, Canada <br>Kiln located on the Dryer Road, in Simonds, NB, Canada <br>www.burntnormal.blogspot.com (http://www.burntnormal.blogspot.com) <br>babycowlickedme@hotmail.com (babycowlickedme@hotmail.com)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -67.622008,46.38584,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cross Draft </name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v7_hwdaCZ4nJNns8m9LoF4mmc2LZb6_fj_PeuWyqb5I89XjXdY6VtSEarR7XvU9hq7by8hc85J4RHaWhmy9IN_JIOBb6r5GfmXXd4VmLrCIQczIT1ACdLB7zG977gYGXC_Pnw" height="200" width="auto" /><br><br>Catenary Arch <br>40 Cubic Feet<br> <br>Contact:Dick Heiser<br>3820 Worthdale Dr. Castle Hayne, NC USA <br>28429<br>rheiser@ec.rr.com (mailto:rheiser@ec.rr.com)  <br>910-228-9704<br>www.pumpkincreekpottery.com (http://www.pumpkincreekpottery.com)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v7_hwdaCZ4nJNns8m9LoF4mmc2LZb6_fj_PeuWyqb5I89XjXdY6VtSEarR7XvU9hq7by8hc85J4RHaWhmy9IN_JIOBb6r5GfmXXd4VmLrCIQczIT1ACdLB7zG977gYGXC_Pnw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.880286,34.318937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University of North Dakota Manabigama</name>
+        <description><![CDATA[Manabigama<br><br>Contact:<br>Michael Arnold<br>218-779-9560<br>arnold.michael@gmail.com (mailto:arnold.michael@gmail.com)]]></description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -97.08174,47.919966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thow Kwang Dragon Kiln</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5dJ7FNv7HSOACWugTOEK_pXDOsO6eAN1UrS_NB5ZwsmiToDBC-yRqNIZhk4J78u5Qr-FLOawKN2ql45F72EjA-SFXovZjw6aAbC1cDkoVuSzboh1yL8EiSXFWcjw" height="200" width="auto" /><br><br>Dragon Kiln<br>Approx 27.1m long x 2.1m wide x 1.7m high (88.9ft x 6.9ft x 5.6ft)<br><br>Built:  in the 1940s<br><br>Contact: Carolyn Lim<br>85 Lorong Tawas, Singapore 639823. Singapore.<br> http://thowkwangclayartists.wordpress.com (http://thowkwangclayartists.wordpress.com/)<br><br><img src="https://lh3.googleusercontent.com/umsh/AN6v0v4neKX2y1DzzfJudGb5sO1j6nhMK4uR3NPNxoMoZMYSVTMFeAAM_bQ85EScgLKmL6UhERkhNfmwR1v7Z6qtTsLka1kZnyBOepMKTA" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5dJ7FNv7HSOACWugTOEK_pXDOsO6eAN1UrS_NB5ZwsmiToDBC-yRqNIZhk4J78u5Qr-FLOawKN2ql45F72EjA-SFXovZjw6aAbC1cDkoVuSzboh1yL8EiSXFWcjw https://lh3.googleusercontent.com/umsh/AN6v0v4neKX2y1DzzfJudGb5sO1j6nhMK4uR3NPNxoMoZMYSVTMFeAAM_bQ85EScgLKmL6UhERkhNfmwR1v7Z6qtTsLka1kZnyBOepMKTA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            103.692741,1.353392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lio Lio Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v4spaS6aihlUl40POaLQWvh6SQtqBOO-g-iF-6BeZ_2NwoByEQKGO0xEZY0OZ1hSz1_-OA_oEel0YImBMefKCiuUNGo5c0BplIlb_n50LQUTU4UF2nCJjh7f0q2VzRdqUWVE8H25mTvEDI" height="200" width="auto" /><br><br>Tainan National University<br>Anagama.<br><br>Built by Simon Levin 2009.<br><br>Contact: Ching-Yuan<br>cyc1206@mail.tnnua.edu.tw<br>http://61.219.169.1/english/english.html (http://61.219.169.1/english/english.html)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v4spaS6aihlUl40POaLQWvh6SQtqBOO-g-iF-6BeZ_2NwoByEQKGO0xEZY0OZ1hSz1_-OA_oEel0YImBMefKCiuUNGo5c0BplIlb_n50LQUTU4UF2nCJjh7f0q2VzRdqUWVE8H25mTvEDI</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            120.378163,23.187352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bhava Ultrea Noborigama</name>
+        <description><![CDATA[Noborigama<br><br><br><br>Size of kiln: <br>72 cubic feet<br><br>Contact: <br>Pamela Nagley Stevenson,<br><br><br><br>6913 Slocan River Road, RR <br>#1 WINLAW, Site 10, C-7, Slocan Valley, <br>BC, Canada. V0G 2J0<br><br><br><br><br>250-226-7747 <br><br>Contact email, phone: pamelanagleystevenson@gmail.com (mailto:pamelanagleystevenson@gmail.com)<br><br><br><br>pamelanagleystevenson.com (http://pamelanagleystevenson.com)]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -117.531041,49.658947,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flynn Creek Pottery Anagama</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v760I41yHqE8UYJvZngvTfliEW8b6Iu9rfrBeW6kVlSiNKuu7qKbi9YIH3b3AyLqXztMk1kMuYRCB1WcZLXF529Ww6yMz7GxN_gVzihd3dIRvc42LR2nSVHiJVgri38Cd_nCudLnaXgKh-lI1wcj5N5bD0uLlQG3gp0Mrgh0MVhNXKDWh5KiJ9772GoBR6zkQBOA2M" height="200" width="auto" /><br><br>Cross Draft with External Firebox; Salted<br>stacking space of 2ft x 3ft x 5ft<br>Anagama Catenary arch: 10 feet long, 4 feet wide and 4 feet tall with two steps inside<br><br>2651 Flynn Creek Rd.<br>Comptche Ca. 95427<br>Contact: Nick Schwartz<br>nickschwartzanagama@gmail.com]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v760I41yHqE8UYJvZngvTfliEW8b6Iu9rfrBeW6kVlSiNKuu7qKbi9YIH3b3AyLqXztMk1kMuYRCB1WcZLXF529Ww6yMz7GxN_gVzihd3dIRvc42LR2nSVHiJVgri38Cd_nCudLnaXgKh-lI1wcj5N5bD0uLlQG3gp0Mrgh0MVhNXKDWh5KiJ9772GoBR6zkQBOA2M</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -123.601111,39.191154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bowling Green Anagama</name>
+        <description><![CDATA[Anagama<br>300 cubic feet, 18 feet long<br><br><br>Bowling Green State University<br>School of Art<br>1001 E. Wooster Street<br>Bowling Green, OH 43403<br><br><br>Contact: John Balistreri<br>www.bgsu.edu/art (http://www.bgsu.edu/art)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.633257,41.376696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anagama: Santa Fe</name>
+        <description><![CDATA[200 Cubic Feet. (Anagama 120/ second chamber 80) Built in 2015 Contact: Douglas Peck 14 Cresta Pequena, Santa Fe, NM 87505 // Phone # 505-466-1399<br>Website: Facebook; Anagama: Santa Fe]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -105.8598241,35.5509586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Studio Touya: Noborigama</name>
+        <description><![CDATA[Type and size of kiln: <br>Shigaraki style Anagama and two chambers wood kiln<br>20 feet long, 7 feet wide (Anagama chamber)<br>5 feet long, 4 feet wide (Salt chamber)<br>2 feet long, 3 feet wide (Empty chamber)   Contact information:<br>Studio Touya, Hitomi and Takuro Shibata<br>www.studiotouya.com<br>https://www.facebook.com/StudioTouya/]]></description>
+        <styleUrl>#icon-503-FFFFFF</styleUrl>
+        <Point>
+          <coordinates>
+            -79.6803671,35.4849186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Studio Touya:Bourry Box
+</name>
+        <description><![CDATA[Bourry Box wood kiln<br>9 feet long, 4 feet wide, 6 feet tall                 Contact information:<br>Studio Touya, Hitomi and Takuro Shibata<br>www.studiotouya.com<br>https://www.facebook.com/StudioTouya/]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -79.6804677,35.4848171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hallyburton Pottery: Fast-fire</name>
+        <description><![CDATA[Kiln type: Fast Fire, 60 cu ft. <br><br>My contact info is:<br>Matt Hallyburton<br>811 Hale St. Durham NC 27705<br>hallyburtonpottery.com]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <Point>
+          <coordinates>
+            -81.5146937,35.7546263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Allison Severance:Bourry Box</name>
+        <description><![CDATA[type and size: Bourry box 45 cubic feet<br>contact: Allison Severance<br>website: http://allisonseverancepottery.com]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -77.4912366,39.711429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Craig Edwards: Anagama</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -94.9464937,45.2960629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chad French: Catenary Arch Tube</name>
+        <description><![CDATA[Type of kiln:catenary arch tube                           Size of kiln:interior footprint 36"widex48"tallx9'long.<br>Month and year the kiln was built:2015-2016<br>Contact name:Chad French<br>Contact email: Chad.french@yahoo.com<br>phone:3193103764]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -91.2197238,42.1347687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monte Young Cross Draft</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4zvACRyECddrmDTrPqw0U2lOpzPJHFTWTSa5dN-oT9HxbjdnWFWPguotS_C8Su6Tej9Jyg9XUAuW0l1cUbzEB2qCljAupKzYm6Tb8HUX84PUyw2YH6xnDnY1IR0KjU4v0gWj1xRgV15LA3Gl5SQtoaeDiRpEopGoMXXosecKsNxyHJqrBXbWDd88W81rTTHnZopiQ?fife=s16383" height="200" width="auto" /><br><br>75 cubic foot cross draft with internal firebox<br>Built by Matt Gaddie / Bardstown KY. <br><br>Location:2841 s state road 162<br>Jasper, IN. 47546 . <br><br>Contact: 317-452-6777<br>mypottery79@gmail.com<br>www.monteyoungpottery.com<br>Instagram: monte.young1961]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4zvACRyECddrmDTrPqw0U2lOpzPJHFTWTSa5dN-oT9HxbjdnWFWPguotS_C8Su6Tej9Jyg9XUAuW0l1cUbzEB2qCljAupKzYm6Tb8HUX84PUyw2YH6xnDnY1IR0KjU4v0gWj1xRgV15LA3Gl5SQtoaeDiRpEopGoMXXosecKsNxyHJqrBXbWDd88W81rTTHnZopiQ?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.8918677,38.3387806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thistle Glen Buidheachas</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5ozo64m3cs8396tp5BzE6f3Vghy1OCVKzc0tUkjFVbs_j1RO9qiBGoWAaVTnT5E034Nvq6MeefWO_xV3GDTuGjhG5OF4fyfAXTnSixZ_snn0sLOKf_Xb1m8HjfXso1xw4SNhXZnmE4XuO8LQnpeKrjWrqKuCCVR1KxAWHijt7BJvMu4BfmuJ6y4K_MF21MPPwHZNo?fife=s16383" height="200" width="auto" /><br><br>30 cubic ft. Bourry Box. <br>Built in 2018 by Crawford Horne<br><br>813 Lawrence Rd, Hillsborough, NC 27278<br><br>Contact: <br>919.245.8072 (home)<br>540.664.6848 (cell)<br>www.ThistleGlenPottery.com]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5ozo64m3cs8396tp5BzE6f3Vghy1OCVKzc0tUkjFVbs_j1RO9qiBGoWAaVTnT5E034Nvq6MeefWO_xV3GDTuGjhG5OF4fyfAXTnSixZ_snn0sLOKf_Xb1m8HjfXso1xw4SNhXZnmE4XuO8LQnpeKrjWrqKuCCVR1KxAWHijt7BJvMu4BfmuJ6y4K_MF21MPPwHZNo?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.0609243,36.0760963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Savage</name>
+        <description><![CDATA[31.25 Bourry Box Cross Draft. 2005<br><br>Location: 5718 Wainwright Ave., Rockville, MD 20851<br><br>Contact: Loren Scherbak<br>http://claymaven.com/]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -77.1178447,39.0693878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Savage Pottery</name>
+        <description><![CDATA[Castle Kiln<br>300 cubic ft. Climbing 2 Chamber (Anagama/salt)<br>Built in 2012 by Chuck Stump<br><br>Big Savage Wood Salt<br>80 cubic ft. Cross draft <br>Built in 2016 by Chuck Stump<br><br>Car Kiln<br>50 cubic ft. Car Kiln<br>Built in 1985 by Chuck Stump<br><br>Location 372 Old Beall School Rd <br>Frostburg, Md 21532<br><br>Contact: https://www.facebook.com/CHARLESSTUMPPOTTERY/?__tn__=%2Cd%2CP-R&eid=ARBkIbq1Di97KTshg81MURoPU9X5nHcQQKmf4vAhHo73lJalCNir2_ocJrCiDThtoAjOeyJ9uuX5BBWg]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.9668959,39.6717021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mark Fehl Cross Draft</name>
+        <description><![CDATA[100 cubic ft. Cross Draft<br><br>Location: 16705 Hutchison Rd, Odessa, Florida<br><br>Contact: Kim Kirchman and Mark Fehl <br>http://www.tampatourdeclay.com/hiddenlake]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -82.565898,28.1120921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>28a Clay </name>
+        <description><![CDATA[175 cubic ft. Catenary arch Cross craft<br>Built in 2018<br><br>Location: 4093-4095 NY-28A, West Shokan, NY 12494<br><br>Contact: https://28aclay.com/<br>Email: info@28aclay.com]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -74.2770318,41.9687702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shawn Grove Cross Draft</name>
+        <description><![CDATA[79 cubic ft. Single Catenary Arch with modified bourry box<br>Built in 2002 by Shawn m. Grove and Bryan Mathraw<br><br>Location: 41718 Browns Farm Lane, Leesberg, VA 20176<br><br>Contact: Shawn m. Grove<br>(703) 477-7021<br>Email: woodfiredpottery@ymail.com<br>Website: shawngrovepottery.com]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -77.556839,39.2205307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Borneman Fast Fire</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5e1Ma1K2iFIUrF9XHpEol_tF55gPPsvA78LUNZRalrlOvs6iXq92Ca1WPpz6uE6vPb3F9pz4KZlvI127wjaKqJgqTZesdCkX4_LcsamKSrPe2Wzn8zFrqhyo5eR4Pc-6FLEPAczRy0_xSGJvpLcBc992sZuUZpXaTU8NjWvcYEAfRy9pouF3KL6pkEROiuU0WX0BA4?fife=s16383" height="200" width="auto" /><br><br>14 cubic ft. Fast fire kiln<br>Built in 2017 by Jeltje Borneman<br><br>Location: 2 Route de Morogues<br>La Borne 18250 Henrichemont, France<br><br>Contact www.laborneman.com<br>IG: laborneman]]></description>
+        <styleUrl>#icon-503-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5e1Ma1K2iFIUrF9XHpEol_tF55gPPsvA78LUNZRalrlOvs6iXq92Ca1WPpz6uE6vPb3F9pz4KZlvI127wjaKqJgqTZesdCkX4_LcsamKSrPe2Wzn8zFrqhyo5eR4Pc-6FLEPAczRy0_xSGJvpLcBc992sZuUZpXaTU8NjWvcYEAfRy9pouF3KL6pkEROiuU0WX0BA4?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            2.5751499,47.2841693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Varney Coffin Kiln</name>
+        <description><![CDATA[17 cubic ft. Coffin kiln. <br>Built by Charlie and Deanna Varney.<br><br>Location: 334 County Route 54, Cherry Valley, NY <br><br>Contact: Moldycrowpots@gmail.com<br>IG: moldycrowpots]]></description>
+        <styleUrl>#icon-503-F8971B</styleUrl>
+        <Point>
+          <coordinates>
+            -74.7844534,42.8283838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tom Whitaker Groundhog</name>
+        <description><![CDATA[225 cubic ft. Groundhog Kiln<br>Built in 1996 by Tom Whitaker<br><br>Location: PO Box 326, 404 Belaire, Mooresboro, NC 28114. <br><br>Contact: Tom Whitaker<br>Email:  Potteratlarge@yahoo.com<br>http://potteratlarge.com/]]></description>
+        <styleUrl>#icon-503-7C3592</styleUrl>
+        <Point>
+          <coordinates>
+            -81.7023023,35.2973134,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Richard Munster Train Kiln</name>
+        <description><![CDATA[40 Cubic ft Train Kiln with bourry box<br>Built by Richard in 2018.<br><br>Location: 2872 Rouen Ave. Winter Park, FL 32789<br><br>Contact: Richard Munster <br>http://www.richardmunster.com/]]></description>
+        <styleUrl>#icon-503-009D57</styleUrl>
+        <Point>
+          <coordinates>
+            -81.3323638,28.6265588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Youngberg Pyranhagama</name>
+        <description><![CDATA[125 cubic ft. Hybrid Anagama <br>Built by Trevor Youngberg in 2011<br><br>Location: 255 Ansonia Road, Woodbridge, CT.<br><br>Contact Information:<br>Trevor Youngberg<br>http://www.trevoryoungberg.com/<br>trevoryoungberg@gmail.com]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.0397245,41.3328466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Michael Martino Anagama/Noborigama</name>
+        <description><![CDATA[Anagama/Noborigama mix built by Craig Edwards and Svend Bayer in 2011<br><br>Location :<br>2048-1 Takumachi<br>Taku, Saga, Japan<br>846-0031<br><br>Contact: Michael Martino<br>+81-90-6896-8466 (090-6896-8466 if in Japan)<br>Karatsupots, on IG and FB<br>karatsupots.com]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            130.0878158,33.2544466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hugh Lloyd Anagama</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7qXcxGDgSie4ARt_VM7UjT41RQ5PkvUVBcS9ol7nUeQQVKBYeDfYz8EowaWoNF_TCy3XvluGV9blYhkorOmvw6PbOq0tp6YBdYAQ0VOQ1j8rwWtZe5y12EOQcYCTbI94Jzm38uw5SYHvaXQzuU-sylFKIN7khD2OVUhwmOfnfINoh3vb6qhmQ5dJKHAQSfBqfMTec?fife=s16383" height="200" width="auto" /><br><br>300 cubic ft Anagama<br><br>Built by Ralf Ilgenfritz in 1999<br><br>Location: 1921 Strawberry Fields<br>york, PA 17406<br><br>Contact: Hugh Lloyd<br>7174952943<br>wickertoo@aol.com.<br>Strawberryfieldsceramics.com]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7qXcxGDgSie4ARt_VM7UjT41RQ5PkvUVBcS9ol7nUeQQVKBYeDfYz8EowaWoNF_TCy3XvluGV9blYhkorOmvw6PbOq0tp6YBdYAQ0VOQ1j8rwWtZe5y12EOQcYCTbI94Jzm38uw5SYHvaXQzuU-sylFKIN7khD2OVUhwmOfnfINoh3vb6qhmQ5dJKHAQSfBqfMTec?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.6947634,39.9949321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tim Sherman Train Kiln</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5gBatVZs8xURbs5rXgKecarpMXVvVs2tToXg855rUCQOZ3LnTlVKC3mJV8YwDs5VzpbsXR2V520uE1mTz_dMniov0ZZB9BMD__JX3J-nZteTV629K79hetCP9p3DIxz2-VksInns6-a5EIzx3y6zNCwt0iY7jbsjx14AqmLxW4lANf_JdgmvHxDZz6NDUgvAKfML8?fife=s16383" height="200" width="auto" /><br><br>108 cu. ft Train Kiln<br><br>Built in 2019 by Tim Sherman<br><br>Location: 3710 Garfield Rd. <br>Smithsburg, MD 21783<br><br>Contact: Tim Sherman <br>Shermanceramics@yahoo.com<br>Shermanceramics.com]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5gBatVZs8xURbs5rXgKecarpMXVvVs2tToXg855rUCQOZ3LnTlVKC3mJV8YwDs5VzpbsXR2V520uE1mTz_dMniov0ZZB9BMD__JX3J-nZteTV629K79hetCP9p3DIxz2-VksInns6-a5EIzx3y6zNCwt0iY7jbsjx14AqmLxW4lANf_JdgmvHxDZz6NDUgvAKfML8?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.5411039,39.6180063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tim Sherman Anagama</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5JlEyGZjy9vuyzroIqOP732WFXMRcRvEWOMvyslL2WnGeKep-0T6J73gfnVkkzJ3ZUPmbUc0Tovv10CHAgXTqrvMVvbZp3K3gwMb70ycp7NVA0tikhyHwfuuTAvsCn78HZJzMctVe7WsM0RuoQWxSyV9Nihdk-LW_FHOqeao5onH3GTVPnogOoV7wgnBPsHQMu4gk?fife=s16383" height="200" width="auto" /><br><br>Anagama 180 cu. ft<br><br>Built by Tim Sherman in 2014<br><br>Location: 3710 Garfield Rd. <br>Smithsburg, MD 21783<br><br>Contact: Tim Sherman <br>Shermanceramics@yahoo.com<br>Shermanceramics.com]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5JlEyGZjy9vuyzroIqOP732WFXMRcRvEWOMvyslL2WnGeKep-0T6J73gfnVkkzJ3ZUPmbUc0Tovv10CHAgXTqrvMVvbZp3K3gwMb70ycp7NVA0tikhyHwfuuTAvsCn78HZJzMctVe7WsM0RuoQWxSyV9Nihdk-LW_FHOqeao5onH3GTVPnogOoV7wgnBPsHQMu4gk?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.5408041,39.618309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tim Sherman Soda anagama</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5297kwi-GPUnGKwLdAhF4IC4klhIDsCjXChIHeehETw92h1o59Z7SWCd2GOwW-1W25_PvS6X8U7Dw3S9DUAQTmZP37HV_6jd3kf9jE5uWJS75vG0ZIzR1gXJF1mI7BXN_vMGhE2xn45x3LL2Y-5ul4jbubml-lC7P9Oftwn9iHf9VpupfXoi7dLWqX1doR73iKYw0?fife=s16383" height="200" width="auto" /><br><br>Soda Anagama 79 cu.ft <br><br>Built by Time Sherman in 2019<br><br>Location: 3710 Garfield Rd. <br>Smithsburg, MD 21783<br><br>Contact: Tim Sherman <br>Shermanceramics@yahoo.com<br>Shermanceramics.com]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5297kwi-GPUnGKwLdAhF4IC4klhIDsCjXChIHeehETw92h1o59Z7SWCd2GOwW-1W25_PvS6X8U7Dw3S9DUAQTmZP37HV_6jd3kf9jE5uWJS75vG0ZIzR1gXJF1mI7BXN_vMGhE2xn45x3LL2Y-5ul4jbubml-lC7P9Oftwn9iHf9VpupfXoi7dLWqX1doR73iKYw0?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.5411085,39.6179722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+  </Document>
+</kml>
