@@ -29,10 +29,12 @@ const log = (...a) => console.log(new Date().toISOString().slice(11, 19), ...a);
 function searchList() {
   const S = CFG.name;
   const q = [];
-  for (const t of ["raku firing workshop", "horsehair raku workshop", "wood firing anagama workshop", "soda firing workshop", "salt firing workshop", "pit firing workshop", "barrel saggar firing workshop", "gas reduction firing class", "wood kiln firing crew volunteers"]) q.push(`${t} ${S}`);
+  for (const t of ["raku firing workshop", "horsehair raku workshop", "wood firing anagama workshop", "soda firing workshop", "salt firing workshop", "pit firing workshop", "barrel saggar firing workshop", "gas reduction firing class", "gas kiln firing service for potters", "wood kiln firing crew volunteers"]) q.push(`${t} ${S}`);
   for (const c of CFG.cities) {
     q.push(`raku or wood firing pottery studio ${c} ${ST}`);
     q.push(`${c} ${S} clay studio kiln firing workshop`);
+    // Gas reduction lives mostly in membership studios that city raku/wood searches miss.
+    q.push(`cone 10 gas reduction community pottery studio membership ${c} ${ST}`);
   }
   for (const s of ["pottery supply store raku firing", "potters guild wood firing", "community college ceramics wood kiln open to public", "anagama kiln", "raku party book a private firing", "ceramics residency atmospheric firing"]) q.push(`${s} ${S}`);
   return [...new Set(q)];
