@@ -295,54 +295,6 @@
       "weak": true
     },
     {
-      "id": "common-clay-space",
-      "org": "Common Clay Space",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Minnesota",
-      "city": null,
-      "urls": [
-        "https://www.commonclayspace.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.commonclayspace.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Common Clay Space will be hosting a Wood Firing Workshop in partnership with Spring Valley Anagama.",
-        "url": "https://www.commonclayspace.com/wood-firing-workshop-2026",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "commonclayspace.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly states they are hosting a Wood Firing Workshop that covers the basics of firing a wood burning kiln.",
-        "types": {
-          "wood": "Common Clay Space will be hosting a Wood Firing Workshop in partnership with Spring Valley Anagama."
-        }
-      },
-      "weak": true
-    },
-    {
       "id": "the-workshop-mpls",
       "org": "The Workshop Mpls",
       "kind": "studio",
@@ -568,6 +520,10 @@
     {
       "id": "tom-s-pudic",
       "why": "Second check (gemini-3.5-flash-lite): The text describes the artist's private pottery work and does not indicate that the public can take part in the wood firings. (2026-10-07)"
+    },
+    {
+      "id": "common-clay-space",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
     }
   ]
 }

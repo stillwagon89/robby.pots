@@ -1,0 +1,138 @@
+{
+  "_note": "DE firing sources.",
+  "sources": [
+    {
+      "id": "rebel-potters",
+      "org": "Rebel Potters",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Delaware",
+      "city": null,
+      "urls": [
+        "https://rebelpotters.kilnfire.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://rebelpotters.kilnfire.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "rebelpotters.kilnfire.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers a workshop on Pinching & Pit Firing that participants can join.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "folkware-studio",
+      "org": "Folkware Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Dover",
+      "city": "Dover",
+      "urls": [
+        "https://shop.folkwarestudio.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Dover, Delaware",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://shop.folkwarestudio.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "shop.folkwarestudio.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty, so there is no information confirming that the public can participate in any firing methods.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 39.15817,
+      "lng": -75.52437
+    },
+    {
+      "id": "dover-pottery-studio",
+      "org": "Dover Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Dover",
+      "city": "Dover",
+      "urls": [
+        "https://shop.app/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Dover, Delaware",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://shop.app/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Select your preferred time slot to fire your handcrafted pieces in our raku kiln.",
+        "url": "https://shop.app/products/10355475284270/raku-firing-dover-pottery-studio-only",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "shop.app"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites the public to sign up for guided raku kiln sessions.",
+        "types": {
+          "raku": "Sign up for the transformative art of raku firing with our guided kiln sessions."
+        }
+      },
+      "lat": 39.15817,
+      "lng": -75.52437
+    }
+  ],
+  "_removed": [
+    {
+      "id": "the-ceramic-shop",
+      "why": "Second check (gemini-3.5-flash-lite): The text offers kiln repair, supplies, and general firing services, but does not mention hosting specific non-electric ceramic firings such as raku or wood firing for the public. (2026-10-07)"
+    },
+    {
+      "id": "the-happyrock-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text only describes visiting a potter's studio and viewing her pottery, but mentions no opportunities for the public to participate in a firing. (2026-10-07)"
+    }
+  ]
+}

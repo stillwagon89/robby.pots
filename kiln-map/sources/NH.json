@@ -2,52 +2,6 @@
   "_note": "NH firing sources.",
   "sources": [
     {
-      "id": "timisaacpottery-nh",
-      "org": "timisaacpottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "New Hampshire",
-      "city": null,
-      "urls": [
-        "https://www.timisaacpottery.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.timisaacpottery.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "I offer a one day workshop, a two day workshop, and a custom firing day for practicing potters.",
-        "url": "https://www.timisaacpottery.com/workshops/raku-workshops/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "timisaacpottery.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty, so it does not contain information about firing services or locations.",
-        "types": {}
-      },
-      "weak": true
-    },
-    {
       "id": "snow-farm-nh",
       "org": "Snow Farm",
       "kind": "studio",
@@ -94,103 +48,6 @@
         "types": {}
       },
       "weak": true
-    },
-    {
-      "id": "new-hampshire-potters-guild",
-      "org": "New Hampshire Potters Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Deerfield",
-      "city": "Deerfield",
-      "urls": [
-        "https://www.newenglandwfc.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Deerfield, New Hampshire",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.newenglandwfc.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "New Hampshire Potters Guild Community Anagama Pass - Deerfield, NH Included: New Hampshire Potters Guild Community Anagama Host Kiln The catenary arch salt chamber will be fired for NEWFC 27",
-        "url": "https://www.newenglandwfc.com/tickets.html",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "newenglandwfc.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The New England Wood Firing Conference offers tickets that allow participants to join a stoke crew and fire their own work in various host kilns across the region.",
-        "types": {
-          "wood": "Join one of a number of active New England wood firing crews."
-        }
-      },
-      "lat": 43.13017,
-      "lng": -71.23882
-    },
-    {
-      "id": "artscenter-nh",
-      "org": "ArtsCenter",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Chatham",
-      "city": "Chatham",
-      "urls": [
-        "https://canvas.artscenterlive.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Chatham, New Hampshire",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://canvas.artscenterlive.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "There will be one instructional session at the ArtsCenter focusing on the soda firing process, slips, glazes, and surfaces.",
-        "url": "https://canvas.artscenterlive.org/classes/671",
-        "types": [
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "canvas.artscenterlive.org"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public ceramic firings.",
-        "types": {}
-      },
-      "weak": true,
-      "lat": 44.16406,
-      "lng": -71.0104
     },
     {
       "id": "kittery-point-potters-and-pcms",
@@ -289,53 +146,6 @@
       "weak": true
     },
     {
-      "id": "virgin-valley-artists-association-nh",
-      "org": "Virgin Valley Artists Association",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Mesquite",
-      "city": "Mesquite",
-      "urls": [
-        "https://www.mesquitefineartscenter.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Mesquite, New Hampshire",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.mesquitefineartscenter.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Saggar Firing Workshop This is day one of a 4 day Workshop scheduled for January 11,12, 19 & 24* (firing date may change), $75, limited to 4 students.",
-        "url": "https://www.mesquitefineartscenter.com/content.aspx?page_id=4091&club_id=590375&item_id=1580281",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "mesquitefineartscenter.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text advertises a Saggar Firing Workshop that is open for sign-ups to those with clay experience.",
-        "types": {
-          "pit_barrel_saggar": "Saggar Firing Workshop"
-        }
-      }
-    },
-    {
       "id": "the-wheel-house",
       "org": "The Wheel House",
       "kind": "studio",
@@ -428,55 +238,6 @@
       "weak": true,
       "lat": 43.42091,
       "lng": -71.9373
-    },
-    {
-      "id": "maxt-makerspace",
-      "org": "MAXT Makerspace",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Pike",
-      "city": "Pike",
-      "urls": [
-        "https://maxt.pike13.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pike, New Hampshire",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://maxt.pike13.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Pit-Firing Workshop with Kimberly Kersey-Asbury Saturdays, February 1st, 2-5pm and February 15th, 9am-7pm",
-        "url": "https://maxt.pike13.com/categories/87245",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "maxt.pike13.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text offers a public Pit-Firing Workshop that outsiders can sign up for and purchase.",
-        "types": {
-          "pit_barrel_saggar": "Pit-Firing Workshop"
-        }
-      },
-      "lat": 44.0309,
-      "lng": -72.00814
     },
     {
       "id": "nh-potters-guild",
@@ -583,6 +344,26 @@
     {
       "id": "jackie-sedlock-pottery-nh",
       "why": "Second check (gemini-3.5-flash-lite): page says state is Vermont, not NH (2026-10-07)"
+    },
+    {
+      "id": "new-hampshire-potters-guild",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "maxt-makerspace",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "timisaacpottery-nh",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "virgin-valley-artists-association-nh",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "artscenter-nh",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
     }
   ]
 }

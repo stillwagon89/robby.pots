@@ -156,44 +156,6 @@
       "lng": -76.46257
     },
     {
-      "id": "timisaacpottery",
-      "org": "timisaacpottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Maryland",
-      "city": null,
-      "urls": [
-        "https://www.timisaacpottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.timisaacpottery.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "timisaacpottery.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly offers one-day and two-day raku pottery workshops and a custom firing day for practicing potters.",
-        "types": {
-          "raku": "Raku firing is an exciting and dramatic way to fire pottery, and I’m happy to share this experience with you!"
-        }
-      },
-      "weak": true
-    },
-    {
       "id": "the-potters-guild-of-baltimore",
       "org": "The Potters Guild of Baltimore",
       "kind": "city_arts",
@@ -389,54 +351,6 @@
       "lng": -77.41276
     },
     {
-      "id": "virgin-valley-artists-association",
-      "org": "Virgin Valley Artists Association",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Maryland",
-      "city": null,
-      "urls": [
-        "https://www.mesquitefineartscenter.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.mesquitefineartscenter.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Saggar Firing Workshop This is day one of a 4 day Workshop scheduled for January 11,12, 19 & 24* (firing date may change), $75, limited to 4 students.",
-        "url": "https://www.mesquitefineartscenter.com/content.aspx?page_id=4091&club_id=590375&item_id=1580281",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "mesquitefineartscenter.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text invites the public to sign up for a Saggar Firing Workshop for a fee of $75.",
-        "types": {
-          "pit_barrel_saggar": "Saggar Firing Workshop"
-        }
-      },
-      "weak": true
-    },
-    {
       "id": "baltimore-clayworks-md",
       "org": "Baltimore Clayworks",
       "kind": "studio",
@@ -608,6 +522,14 @@
     {
       "id": "clayworks-supplies",
       "why": "Second check (gemini-3.1-flash-lite): The text mentions kiln workshops for basics and repair, but does not offer any public firing services or workshops for raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firing. (2026-10-07)"
+    },
+    {
+      "id": "timisaacpottery",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "virgin-valley-artists-association",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
     }
   ]
 }

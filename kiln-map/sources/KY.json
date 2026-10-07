@@ -28,54 +28,6 @@
       "lng": -84.77218
     },
     {
-      "id": "cotuit-center-for-the-arts-ky",
-      "org": "Cotuit Center for the Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Kentucky",
-      "city": null,
-      "urls": [
-        "https://cotuit.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://cotuit.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Experience the excitement of raku firing in this beginner friendly 6 hour workshop.",
-        "url": "https://cotuit.org/classes/raku-workshop",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "cotuit.org"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text offers a beginner friendly Raku Workshop that outsiders can join for a raku firing.",
-        "types": {
-          "raku": "Experience the excitement of raku firing in this beginner friendly workshop ."
-        }
-      },
-      "weak": true
-    },
-    {
       "id": "thecuriousforge",
       "org": "thecuriousforge",
       "kind": "studio",
@@ -272,54 +224,6 @@
       "lng": -82.81544
     },
     {
-      "id": "maxt-pike13",
-      "org": "maxt.pike13",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Kentucky",
-      "city": null,
-      "urls": [
-        "https://maxt.pike13.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://maxt.pike13.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Pit-Firing Workshop with Kimberly Kersey-Asbury Saturdays, February 1st, 2-5pm and February 15th, 9am-7pm",
-        "url": "https://maxt.pike13.com/categories/87245",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "maxt.pike13.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The site offers a public Pit-Firing Workshop that can be purchased and enrolled in by individuals.",
-        "types": {
-          "pit_barrel_saggar": "Pit-Firing Workshop with Kimberly Kersey-Asbury"
-        }
-      },
-      "weak": true
-    },
-    {
       "id": "rickman-pottery",
       "org": "Rickman Pottery",
       "kind": "studio",
@@ -414,44 +318,6 @@
         "types": {}
       },
       "weak": true
-    },
-    {
-      "id": "warehome-studios-ky",
-      "org": "Warehome Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Kentucky",
-      "city": null,
-      "urls": [
-        "https://www.warehomestudios.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.warehomestudios.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "warehomestudios.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly lists a Raku Firing & Potluck Party with a cost and instructor, indicating it is an event the public can sign up for.",
-        "types": {
-          "raku": "Raku firing provides instant gratification for the artist!"
-        }
-      },
-      "weak": true
     }
   ],
   "_removed": [
@@ -474,6 +340,18 @@
     {
       "id": "psad",
       "why": "Second check (gemini-3.1-flash-lite): The text lists non-electric kilns but does not state that the public can join, book, or sign up for firings in them; the site describes a college facility and general classes without offering public firing services. (2026-10-07)"
+    },
+    {
+      "id": "cotuit-center-for-the-arts-ky",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "maxt-pike13",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "warehome-studios-ky",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
     }
   ]
 }

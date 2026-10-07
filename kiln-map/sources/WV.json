@@ -1,0 +1,424 @@
+{
+  "_note": "WV firing sources.",
+  "sources": [
+    {
+      "id": "business-ligonier",
+      "org": "business.ligonier",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "West Virginia",
+      "city": null,
+      "urls": [
+        "https://business.ligonier.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://business.ligonier.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "business.ligonier.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no details on public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "meir-moheban",
+      "org": "Meir Moheban",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Pardes-Hanna",
+      "city": "Pardes-Hanna",
+      "urls": [
+        "https://www.meirmoheban.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Pardes-Hanna, West Virginia",
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.meirmoheban.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Once a year, ceramic potteries throughout the country join together and have the opportunity to place their work inside the Anagama kiln cave.",
+        "url": "https://www.meirmoheban.com/anagama-wood-firing-kiln/",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "meirmoheban.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states that once a year, ceramic potteries throughout the country have the opportunity to place their work inside the Anagama kiln cave.",
+        "types": {
+          "wood": "Once a year, ceramic potteries throughout the country join together and have the opportunity to place their work inside the Anagama kiln cave."
+        }
+      }
+    },
+    {
+      "id": "damian-grava",
+      "org": "Damian Grava",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "West Virginia",
+      "city": null,
+      "urls": [
+        "https://www.damiangrava.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.damiangrava.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "damiangrava.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "lockbridge-pottery",
+      "org": "Lockbridge Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Charleston",
+      "city": "Charleston",
+      "urls": [
+        "https://lockbridgepottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Charleston, West Virginia",
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://lockbridgepottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "We typically have an off the \"wheel\" activity for our customers to participate in, be it glazing a vase and watching it being fired in a raku kiln, throwing on a treadle wheel, making bricks, or competing in an ...",
+        "url": "https://lockbridgepottery.com/about-us",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "lockbridgepottery.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states that customers can participate in an activity where they glaze a vase and watch it being fired in a raku kiln.",
+        "types": {
+          "raku": "We typically have an off the \"wheel\" activity for our customers to participate in, be it glazing a vase and watching it being fired in a raku kiln, throwing on a treadle wheel, making bricks, or competing in an ..."
+        }
+      },
+      "lat": 38.3506,
+      "lng": -81.63328
+    },
+    {
+      "id": "jh-pottery-works",
+      "org": "JH Pottery Works",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Huntington",
+      "city": "Huntington",
+      "urls": [
+        "https://www.jhpotteryworks.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Huntington, West Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.jhpotteryworks.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "At JH Pottery Works we can fire our pieces in a multitude of firing methods: electric, wood, gas, and raku!",
+        "url": "http://www.jhpotteryworks.com/6-week-classes",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "jhpotteryworks.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about non-electric ceramic firings for the public.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 38.41925,
+      "lng": -82.44515
+    },
+    {
+      "id": "stifel-fine-arts-center",
+      "org": "Stifel Fine Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Wheeling",
+      "city": "Wheeling",
+      "urls": [
+        "https://weelunk.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Wheeling, West Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://weelunk.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Other special events include a variety of ceramic workshops at the Stifel Fine Arts Center, a raku firing, and a pottery throwdown competition.",
+        "url": "https://weelunk.com/coming-this-spring-citywide-ceramics-take-over-showcase/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "weelunk.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly mentions a raku firing as part of special events at the Stifel Fine Arts Center that invite everyone to join.",
+        "types": {
+          "raku": "Other special events include a variety of ceramic workshops at the Stifel Fine Arts Center, a raku firing, and a pottery throwdown competition."
+        }
+      },
+      "lat": 40.06396,
+      "lng": -80.72091
+    },
+    {
+      "id": "parkersburg-art-center",
+      "org": "Parkersburg Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Parkersburg",
+      "city": "Parkersburg",
+      "urls": [
+        "https://www.parkersburgartcenter.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Parkersburg, West Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.parkersburgartcenter.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The Parkersburg Art Center features a diverse range of pottery and ceramics classes for all ages and skill levels, alongside various art-related programs such as Camp Creativity and ArtStart Preschool.",
+        "url": "https://www.parkersburgartcenter.org/clay-studio",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "parkersburgartcenter.org"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information about non-electric ceramic firings open to the public.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 39.26673,
+      "lng": -81.56208
+    },
+    {
+      "id": "parkersburg-art-center-the-clay-studio",
+      "org": "Parkersburg Art Center / The Clay Studio",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Parkersburg",
+      "city": "Parkersburg",
+      "urls": [
+        "https://www.wtap.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Parkersburg, West Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.wtap.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "The Clay Studio, the pottery group with the Art Center, had some of their work for sale and also put on open demonstrations of the raku pottery process at the corner of 8th and Market.",
+        "url": "https://www.wtap.com/content/news/Raku-pottery-demonstration-put-on-by-Parkersburg-Art-Centers-Clay-Lab-510711131.html",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "wtap.com"
+      },
+      "verify": {
+        "by": "gemma-4-31b-it",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "No page text provided.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 39.26673,
+      "lng": -81.56208
+    },
+    {
+      "id": "the-potters-guild-wv",
+      "org": "The Potters Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "West Virginia",
+      "city": null,
+      "urls": [
+        "https://thepottersguild.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://thepottersguild.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "thepottersguild.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about non-electric ceramic firings or public participation.",
+        "types": {}
+      },
+      "weak": true
+    }
+  ],
+  "_removed": [
+    {
+      "id": "bradley-b-pottery-wv",
+      "why": "Second check (gemini-3.5-flash-lite): page says state is VA, not WV (2026-10-07)"
+    },
+    {
+      "id": "appalachian-gallery",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes a gallery selling pottery but does not mention any workshops, classes, or firing services available to the public. (2026-10-07)"
+    },
+    {
+      "id": "rainwater-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes a private studio and shop creating and selling pottery, but does not offer public workshops, classes, memberships, rentals, or firing services for outsiders to take part in firings. (2026-10-07)"
+    },
+    {
+      "id": "carnegie-hall",
+      "why": "Second check (gemini-3.1-flash-lite): The text specifies that the Raku program is for \"experienced students,\" and there is no mention of the general public being able to sign up for firing services or workshops without being enrolled as students. (2026-10-07)"
+    },
+    {
+      "id": "modern-wolf-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions kiln firing services and kiln space rental at Modern Wolf Pottery, but does not specify any non-electric ceramic firing methods such as raku, wood, soda, salt, pit, or gas reduction. (2026-10-07)"
+    }
+  ]
+}

@@ -596,40 +596,16 @@
       },
       "lat": 47.1619,
       "lng": -114.08508
-    },
-    {
-      "id": "warehome-studios",
-      "org": "Warehome Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Montana",
-      "city": null,
-      "urls": [
-        "https://www.warehomestudios.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.warehomestudios.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "warehomestudios.com"
-      }
     }
   ],
   "_removed": [
     {
       "id": "clay-studio-missoula",
       "why": "No wood/raku/soda on their pages. (2026-10-05)"
+    },
+    {
+      "id": "warehome-studios",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
     }
   ]
 }

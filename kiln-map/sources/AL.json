@@ -27,12 +27,551 @@
       "lat": 30.51729,
       "lng": -87.8945,
       "newsletter_url": "https://business.eschamber.com/events/details/saturday-raku-workshop-at-the-kiln-studio-43556"
+    },
+    {
+      "id": "al",
+      "org": "al",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Alabama",
+      "city": null,
+      "urls": [
+        "https://www.al.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.al.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Please join us for a fun raku workshop led by Gulfport artist Christian Bailey.",
+        "url": "https://www.al.com/press-releases/2017/03/raku_firing_workshop_christian.html",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "al.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information to confirm public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "alabama-center-for-the-arts",
+      "org": "Alabama Center for the Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Decatur",
+      "city": "Decatur",
+      "urls": [
+        "https://alabamacenterforthearts.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Decatur, Alabama",
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://alabamacenterforthearts.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "This four-day workshop, February 22-25, 2026, will focus on the enigmatic surfaces produced through the process of soda firing.",
+        "url": "https://alabamacenterforthearts.org/event/soda-firing-workshop-with-casey-beck-at-aca/",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "alabamacenterforthearts.org"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text advertises a soda firing workshop that the public can register and pay for.",
+        "types": {
+          "soda": "This four-day workshop, February 22-25, 2026, will focus on the enigmatic surfaces produced through the process of soda firing."
+        }
+      },
+      "lat": 34.60602,
+      "lng": -86.98382
+    },
+    {
+      "id": "athens-state-university",
+      "org": "Athens State University",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Athens",
+      "city": "Athens",
+      "urls": [
+        "https://www.athens.edu/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Athens, Alabama",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.athens.edu/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Soda Firing Workshop with Casey Beck @ ACA",
+        "url": "https://www.athens.edu/event/soda-firing-workshop-with-casey-beck-aca/",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "athens.edu"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows a public soda firing workshop that requires preregistration and ticket purchase.",
+        "types": {
+          "soda": "Explore soda firing techniques in this four-day workshop (Feb 22–25, 2026), focusing on flame movement, kiln loading, and rich surface effects with flashing and soda glaze."
+        }
+      },
+      "lat": 34.80455,
+      "lng": -86.97117
+    },
+    {
+      "id": "makebhm",
+      "org": "MAKEbhm",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Birmingham",
+      "city": "Birmingham",
+      "urls": [
+        "https://www.makebhm.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Birmingham, Alabama",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.makebhm.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Our ceramics membership gives you 24/7 access to the ceramic studio, a shelf of storage space, use of all studio wheels, slab roller, tools and glazes, and space in group firings.",
+        "url": "https://www.makebhm.com/",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "makebhm.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 33.52068,
+      "lng": -86.80243
+    },
+    {
+      "id": "sullivan-pottery-al",
+      "org": "Sullivan Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Huntsville",
+      "city": "Huntsville",
+      "urls": [
+        "https://www.potterylist.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Huntsville, Alabama",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.potterylist.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Sullivan Pottery, located in Huntsville, Alabama, specializes in pottery classes and offers a comprehensive range of services related to pottery. This local business provides opportunities to learn wheel throwing, handbuilding, sculpture, raku, and horse hair firing.",
+        "url": "https://www.potterylist.com/united-states/huntsville/pottery-studios-and-classes/sullivan-pottery",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "potterylist.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states the business offers opportunities for raku firing which is open to the public through their classes and services.",
+        "types": {
+          "raku": "This local business provides opportunities to learn wheel throwing, handbuilding, sculpture, raku, and horse hair firing."
+        }
+      },
+      "lat": 34.72985,
+      "lng": -86.5859
+    },
+    {
+      "id": "the-mad-pottery",
+      "org": "The Mad Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Mobile",
+      "city": "Mobile",
+      "urls": [
+        "https://themadpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Mobile, Alabama",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://themadpottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Bad Weather- Postponed Raku Class October 4th",
+        "url": "https://themadpottery.com/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "themadpottery.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly offers a Raku Class and an Advanced Raku Workshop that the public can book and pay for.",
+        "types": {
+          "raku": "Bad Weather- Postponed Raku Class October 4th"
+        },
+        "street": "4405 Halls Mill Road B-2"
+      },
+      "lat": 30.69135,
+      "lng": -88.04375
+    },
+    {
+      "id": "montgomery-pottery",
+      "org": "Montgomery Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Montgomery",
+      "city": "Montgomery",
+      "urls": [
+        "https://www.montgomerypottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Montgomery, Alabama",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.montgomerypottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Pottery Raku Pottery",
+        "url": "http://www.montgomerypottery.com/",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "montgomerypottery.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that the public can register for pottery classes that include cone 10 reduction firings.",
+        "types": {
+          "gas_reduction": "Firing is cone 10 reduction & occur for 3 seasons, glaze firing is not available in winter."
+        }
+      },
+      "lat": 32.37771,
+      "lng": -86.30908
+    },
+    {
+      "id": "celeste-sabel-haynie",
+      "org": "Celeste Sabel Haynie",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Montgomery",
+      "city": "Montgomery",
+      "urls": [
+        "https://www.blackbelttreasures.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Montgomery, Alabama",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.blackbelttreasures.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "She does gas reduction-firing and wood-firing. Her most recent works are saggar, raku, and horsehair ...",
+        "url": "https://www.blackbelttreasures.com/store/m/80-Celeste-Sabel-Haynie.aspx",
+        "types": [
+          "gas_reduction",
+          "wood",
+          "raku",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "blackbelttreasures.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty, so there is no information regarding public access to firing services.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 32.37771,
+      "lng": -86.30908
+    },
+    {
+      "id": "eastern-shore-art-center",
+      "org": "Eastern Shore Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Fairhope",
+      "city": "Fairhope",
+      "urls": [
+        "https://www.maria-pots.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Fairhope, Alabama",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.maria-pots.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Participants may, and do aid in the unloading in a relay chain that allows each person to examine the pot as it is handed to the next member of the relay chain.",
+        "url": "https://www.maria-pots.com/shows-exhibs.htm",
+        "types": [
+          "wood",
+          "raku",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "maria-pots.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers wood firing workshops and a Raku firing workshop that are open for booking by the public.",
+        "types": {
+          "wood": "Join us in a woodfiring at Eastern Shore Art Center’s Manabigama Kiln.",
+          "raku": "Raku Firing Workshop",
+          "pit_barrel_saggar": "Saggar Firing Techniques"
+        }
+      },
+      "lat": 30.52316,
+      "lng": -87.90285
+    },
+    {
+      "id": "shelby-county-arts-council",
+      "org": "Shelby County Arts Council",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Alabama",
+      "city": null,
+      "urls": [
+        "https://shelbycountyartscouncil.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://shelbycountyartscouncil.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "shelbycountyartscouncil.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public firing opportunities.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "university-of-montevallo",
+      "org": "University of Montevallo",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Montevallo",
+      "city": "Montevallo",
+      "urls": [
+        "https://www.flashandash.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Montevallo, Alabama",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.flashandash.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "flashandash.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information regarding public access or firing services.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 33.10067,
+      "lng": -86.86416
     }
   ],
   "_removed": [
     {
       "id": "alabama-center-arts",
       "why": "Only past soda workshop (Feb 2026); no current firings on their pages. (2026-10-05)"
+    },
+    {
+      "id": "gomry",
+      "why": "Second check (gemini-3.5-flash-lite): The page text does not mention any specific firing types with a word-for-word quote. (2026-10-07)"
+    },
+    {
+      "id": "department-of-art-art-history",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes university facilities for students and does not mention any opportunities for the public to participate in firings. (2026-10-07)"
+    },
+    {
+      "id": "mudfire-pottery-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The page text mentions the studio's types of kilns and memberships, but does not contain enough text about public non-electric firings to confirm participation details. (2026-10-07)"
+    },
+    {
+      "id": "mudfire-pottery-studio-and-gallery",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions gas, raku, and soda firings and a studio membership, but it does not state that non-members or outsiders can join these specific non-electric firings through a public workshop, rental, or firing service. (2026-10-07)"
     }
   ]
 }

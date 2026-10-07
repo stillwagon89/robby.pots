@@ -273,54 +273,6 @@
       "lng": -87.62442
     },
     {
-      "id": "clay-play-arts",
-      "org": "Clay Play & Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Illinois",
-      "city": null,
-      "urls": [
-        "https://www.clayplayarts.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.clayplayarts.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Experience the magic of horse hair raku in this hands-on, community-focused workshop!",
-        "url": "https://www.clayplayarts.com/store/p2549/Raku_Firing_Horsehair_Workshop_(4/4/2026)_Sat_4PM.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "clayplayarts.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The studio offers public workshops for horsehair raku firing that can be booked via their website.",
-        "types": {
-          "raku": "Horse hair raku is a fascinating firing technique where strands of horse hair, feathers, and other natural materials are applied to hot, bare clay surfaces straight from the kiln."
-        }
-      },
-      "weak": true
-    },
-    {
       "id": "yu-tang-ceramics",
       "org": "Yu Tang Ceramics",
       "kind": "studio",
@@ -855,6 +807,10 @@
     {
       "id": "siue",
       "why": "Second check (gemini-3.5-flash-lite): The text shows that the kilns are used within the university curriculum for students and faculty, but does not indicate that outsiders can join or book firings. (2026-10-07)"
+    },
+    {
+      "id": "clay-play-arts",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
     }
   ]
 }

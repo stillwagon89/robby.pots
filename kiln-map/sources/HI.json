@@ -27,6 +27,444 @@
       "lat": 21.30455,
       "lng": -157.85568,
       "newsletter_url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.newsletter/db63d1d8-ddfa-4a83-a844-b6776748afac_120/website.components.newsletter.styles.css"
+    },
+    {
+      "id": "hawai-i-craftsmen",
+      "org": "Hawai'i Craftsmen",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Oʻahu",
+      "city": "Oʻahu",
+      "urls": [
+        "https://www.hawaiicraftsmen.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Oʻahu, Hawaii",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.hawaiicraftsmen.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Raku Hoʻolauleʻa (a celebration of raku) brings together ceramic artists to participate in raku and related firing techniques at a campout which is held in a beautiful beach setting on the North Shore of Oʻahu.",
+        "url": "https://www.hawaiicraftsmen.org/Raku2025",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "hawaiicraftsmen.org"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty, so there is no information confirming that the public can participate in non-electric firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 21.48344,
+      "lng": -158.03651
+    },
+    {
+      "id": "hawaii-ceramic-supply",
+      "org": "Hawaii Ceramic Supply",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Honolulu",
+      "city": "Honolulu",
+      "urls": [
+        "https://www.hawaiiceramicsupply.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Honolulu, Hawaii",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.hawaiiceramicsupply.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Raku Workshop Featuring Don Ellis & Randy Brodnax (2-1/2 Days) Dates: August 9th (1pm to 4pm), 10th (9:30am to 4pm) and 11th (9:30am to 4pm) Location: Hawaii Ceramic Supply, 1920 Colburn Street, Honolulu, HI 96819",
+        "url": "https://www.hawaiiceramicsupply.com/raku-workshop",
+        "types": [
+          "raku",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "hawaiiceramicsupply.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly mentions a Raku Workshop open to participants at Hawaii Ceramic Supply.",
+        "types": {},
+        "street": "1920 Colburn Street"
+      },
+      "weak": true,
+      "lat": 21.30455,
+      "lng": -157.85568
+    },
+    {
+      "id": "nendo-studio-hawaii",
+      "org": "nendo studio hawaii",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Hawaii",
+      "city": null,
+      "urls": [
+        "https://www.nendostudiohawaii.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.nendostudiohawaii.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "We offer a variety of wheel throwing and handbuilding workshops and classes both in and out of the studio, teaching all skill levels and various techniques that can be applied to your own art. In addition, we specialize in alternate forms of firings like raku and coordinate woodfiring workshop trips to Japan.",
+        "url": "https://www.nendostudiohawaii.com/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "nendostudiohawaii.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "sculpture",
+      "org": "sculpture",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Hilo",
+      "city": "Hilo",
+      "urls": [
+        "https://sculpture.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Hilo, Hawaii",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://sculpture.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The three-acre tropical atelier in northern Hilo, Hawaii is visually stunning as it merges indoor and outdoor space.",
+        "url": "https://sculpture.org/blogpost/1810776/349144/In-the-Studio-Clayton-Amemiya-s-Anagama-Firing-Collaborates-with-Fire",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "sculpture.org"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about ceramic firings or public participation.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 19.70737,
+      "lng": -155.08158
+    },
+    {
+      "id": "uncle-paul-s",
+      "org": "Uncle Paul's",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Hawaii",
+      "city": null,
+      "urls": [
+        "https://www.unclepaulsnorthbeach.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.unclepaulsnorthbeach.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Day 1 - Saturday, July 25th 2-5pm - Workshop at Uncle Paul’s Orientation and brief introduction to soda firing and high fire clay.",
+        "url": "https://www.unclepaulsnorthbeach.com/classes/p/soda-firing-workshop",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "unclepaulsnorthbeach.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public ceramic firings.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "mudd-studio-ceramics",
+      "org": "Mudd-Studio Ceramics",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Honolulu",
+      "city": "Honolulu",
+      "urls": [
+        "https://clayatlas.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Honolulu, Hawaii",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://clayatlas.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Classes cover wedging, centering, trimming, glazing, coiling, and slab building; all materials including clay, tools, and kiln firings are included.",
+        "url": "https://clayatlas.com/pottery-classes/mudd-studio-ceramics/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "clayatlas.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions that Mudd-Studio Ceramics offers kiln rental/firing, but it does not specify the type of firing method used.",
+        "types": {},
+        "street": "1192 Smith St"
+      },
+      "weak": true,
+      "lat": 21.30455,
+      "lng": -157.85568
+    },
+    {
+      "id": "j-davis-studio",
+      "org": "J. Davis Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Kauaʻi",
+      "city": "Kauaʻi",
+      "urls": [
+        "https://www.lulakauai.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Kauaʻi, Hawaii",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.lulakauai.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "lulakauai.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information regarding public firing services or opportunities.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 22.05038,
+      "lng": -159.55886
+    },
+    {
+      "id": "haleiwa-art-gallery",
+      "org": "Haleiwa Art Gallery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Hawaii",
+      "city": null,
+      "urls": [
+        "https://www.haleiwaartgallery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.haleiwaartgallery.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Jeff Chang is a modern master of Raku pottery, a traditional Japanese style of ceramics where the vessel is fired at a low temperature and removed from the kiln while red-hot, allowing it to cool in the open air.",
+        "url": "https://www.haleiwaartgallery.com/jeff-chang/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "haleiwaartgallery.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The text describes an artist's Raku pottery for sale but contains no information about public workshops, classes, memberships, or firing services for outsiders.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "studio-7-fine-arts",
+      "org": "Studio 7 Fine Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Hilo",
+      "city": "Hilo",
+      "urls": [
+        "https://www.studiosevenfinearts.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Hilo, Hawaii",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.studiosevenfinearts.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The three-acre tropical atelier in northern Hilo, Hawaii is visually stunning as it merges indoor and outdoor space.",
+        "url": "https://www.studiosevenfinearts.com/cid-tolkien",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "studiosevenfinearts.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information regarding public access to firing services.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 19.70737,
+      "lng": -155.08158
+    }
+  ],
+  "_removed": [
+    {
+      "id": "icky-love-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): page says state is Oahu, not HI (2026-10-07)"
+    },
+    {
+      "id": "noheagallery",
+      "why": "Second check (gemma-4-31b-it): The text describes a gallery that sells finished ceramics rather than offering firing services or workshops for the public. (2026-10-07)"
+    },
+    {
+      "id": "mauihands",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes an artist's personal process and does not offer workshops, rentals, or firing services for the public. (2026-10-07)"
+    },
+    {
+      "id": "maui-potter",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes an annual event hosted by Hawaii Craftsman on Oahu rather than a listing where the public can take part in a firing at Maui Potter. (2026-10-07)"
     }
   ]
 }

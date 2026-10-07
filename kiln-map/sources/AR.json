@@ -23,6 +23,492 @@
       },
       "lat": 36.06434,
       "lng": -94.16593
+    },
+    {
+      "id": "arkansas-museum-of-fine-arts",
+      "org": "Arkansas Museum of Fine Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Arkansas",
+      "city": null,
+      "urls": [
+        "https://arkmfa.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://arkmfa.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Learn all about the basics of raku firing!",
+        "url": "https://arkmfa.org/event/raku-firing-workshop/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "arkmfa.org"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows public workshops are available for raku firing.",
+        "types": {
+          "raku": "Learn all about the basics of raku firing!"
+        }
+      },
+      "weak": true
+    },
+    {
+      "id": "pottery-mill",
+      "org": "Pottery Mill",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Dracut",
+      "city": "Dracut",
+      "urls": [
+        "https://www.potterymill.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Dracut, Arkansas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.potterymill.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "We will be hosting a few raku workshops this spring and some in the fall, however space is very limited, so sign up today!",
+        "url": "https://www.potterymill.com/service-page/raku-workshop-at-47-arkansas-dr-dracut",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "potterymill.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 42.69152,
+      "lng": -71.36311
+    },
+    {
+      "id": "eureka-springs-school-of-the-arts",
+      "org": "EUREKA SPRINGS SCHOOL OF THE ARTS",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Eureka Springs",
+      "city": "Eureka Springs",
+      "urls": [
+        "https://reg131.imperisoft.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Eureka Springs, Arkansas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://reg131.imperisoft.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Everyone will participate in the thrilling firing process and take home three distinct finished artworks, each reflecting the creativity and magic of raku firing.",
+        "url": "https://reg131.imperisoft.com/essa-art/ProgramDetail/3639303636/Registration.aspx",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "reg131.imperisoft.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows a public workshop where participants can join a raku firing.",
+        "types": {
+          "raku": "In this workshop, students will embellish pre-formed ceramic pieces using wax resist and raku glazes, and experience the unique process of burning horsehair and feathers onto pottery."
+        }
+      },
+      "lat": 36.40008,
+      "lng": -93.73924
+    },
+    {
+      "id": "sullivan-pottery",
+      "org": "Sullivan Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Arkansas",
+      "city": null,
+      "urls": [
+        "https://www.sullivanpotteryhsv.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.sullivanpotteryhsv.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "sullivanpotteryhsv.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "There is no page text provided to confirm public firing details beyond search snippets.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "hunter-may-pottery",
+      "org": "Hunter & May Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda",
+        "wood"
+      ],
+      "region": "Little Rock",
+      "city": "Little Rock",
+      "urls": [
+        "https://www.huntermaypottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Little Rock, Arkansas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.huntermaypottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "If you are a local potter or pottery student interested in soda firing, send us an email at huntermaypottery@gmail.com and we can invite you to participate in the next soda firing.",
+        "url": "https://www.huntermaypottery.com/about",
+        "types": [
+          "soda",
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "huntermaypottery.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites local potters or pottery students to email the studio to participate in their soda firing.",
+        "types": {
+          "soda": "If you are a local potter or pottery student interested in soda firing, send us an email at huntermaypottery@gmail.com and we can invite you to participate in the next soda firing.",
+          "wood": "Logan Hunter & Hannah May are wood fired potters who create handmade pottery & ceramics, and teach pottery classes and pottery lessons in central Arkansas."
+        }
+      },
+      "lat": 34.74651,
+      "lng": -92.28963
+    },
+    {
+      "id": "cub-creek-foundation",
+      "org": "Cub Creek Foundation",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "salt"
+      ],
+      "region": "Arkansas",
+      "city": null,
+      "urls": [
+        "https://valynchburgweb.myvscloud.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://valynchburgweb.myvscloud.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Join us for a Cone 10 Salt Firing Workshop with limited spots available.",
+        "url": "https://valynchburgweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&FMID=4745386.",
+        "types": [
+          "salt"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "valynchburgweb.myvscloud.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites the public to join a Cone 10 Salt Firing Workshop at Cub Creek Foundation.",
+        "types": {
+          "salt": "Have you ever been curious about atmospheric firing and the unique surfaces created through salt firing?"
+        }
+      },
+      "weak": true
+    },
+    {
+      "id": "ozark-folk-center",
+      "org": "Ozark Folk Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Arkansas",
+      "city": null,
+      "urls": [
+        "https://www.arkansas.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.arkansas.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Experience one of Arkansas’s most dramatic and time-honored pottery traditions when the Ozark Folk Center hosts the 23rd Annual Groundhog Kiln Pottery Wood Firing, Wednesday, November 4, through Saturday, November 7, in the Craft Village.",
+        "url": "https://www.arkansas.com/state-parks/experiences/park-events/the-heat-of-history-groundhog-kiln-wood-firing",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "arkansas.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public firing participation.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "arkansas-state-parks",
+      "org": "Arkansas State Parks",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Arkansas",
+      "city": null,
+      "urls": [
+        "https://www.arkansasstateparks.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.arkansasstateparks.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "During the firing, workshop participants and volunteers will feed two to three cords of wood into the firebox one piece at a time to allow the kiln to reach its final temperature.",
+        "url": "https://www.arkansasstateparks.com/events/ground-hog-kiln-wood-firing/73017406",
+        "types": [],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "arkansasstateparks.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly mentions workshop participants can take part in the wood firing process.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "flaming-earth-pottery",
+      "org": "Flaming Earth Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Little Rock",
+      "city": "Little Rock",
+      "urls": [
+        "https://www.flamingearthpottery.studio/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Little Rock, Arkansas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.flamingearthpottery.studio/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "I benefit from being part of an active community of potters who come together annually to support the firing of an authentic wood-fired anagama kiln in Oark, Arkansas.",
+        "url": "https://www.flamingearthpottery.studio/",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "flamingearthpottery.studio"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 34.74651,
+      "lng": -92.28963
+    },
+    {
+      "id": "life-in-mountain-view",
+      "org": "Life in Mountain View",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Arkansas",
+      "city": null,
+      "urls": [
+        "https://www.lifeinmountainview.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.lifeinmountainview.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "lifeinmountainview.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information about public firing opportunities.",
+        "types": {}
+      },
+      "weak": true
+    }
+  ],
+  "_removed": [
+    {
+      "id": "south-arkansas-arts-center",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes an art exhibition featuring ceramic works but does not offer any workshops, classes, or firing services for the public to participate in these firing methods. (2026-10-07)"
+    },
+    {
+      "id": "stephen-driver",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes an annual private wood kiln firing with invited ceramists and volunteers rather than an open public firing service, workshop, or rental. (2026-10-07)"
+    },
+    {
+      "id": "price-gallery",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes an exhibition of ceramic works rather than a workshop, class, or service where the public can participate in firing pottery. (2026-10-07)"
+    },
+    {
+      "id": "out-on-main-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not mention any workshops, classes, rentals, or firing services available to the public for non-electric ceramic firings. (2026-10-07)"
+    },
+    {
+      "id": "jessica-ames-russell",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions the maker explores raku, saggar, and barrel firing for their own work, but does not state that the public can take part in or book these firings. (2026-10-07)"
+    },
+    {
+      "id": "fox-pass-pottery",
+      "why": "Second check (gemma-4-31b-it): The text mentions a showroom and artists working on site, but no public firing opportunities for Fox Pass Pottery. (2026-10-07)"
+    },
+    {
+      "id": "john-perry-judi-munn",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions that the artists make wood-fired pottery, but it does not state that the public can take part in, book, or sign up for any ceramic firings. (2026-10-07)"
     }
   ]
 }

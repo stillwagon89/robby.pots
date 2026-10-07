@@ -168,42 +168,6 @@
       "lng": -111.83146
     },
     {
-      "id": "laima-ceramics-az",
-      "org": "Laima Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://www.laimaceramics.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.laimaceramics.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "laimaceramics.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly offers a 1-Day Horse Hair Raku Firing Workshop that is open for booking.",
-        "types": {}
-      },
-      "weak": true
-    },
-    {
       "id": "az-wildlife-gallery",
       "org": "AZ Wildlife Gallery",
       "kind": "studio",
@@ -682,6 +646,10 @@
     {
       "id": "reitz-ranch-center-for-ceramic-arts",
       "why": "Second check (gemini-3.5-flash-lite): The text mentions an artist's residency and atmospheric firings at the Reitz Ranch, but does not state that the public can join, book, or sign up for non-electric ceramic firings there. (2026-10-07)"
+    },
+    {
+      "id": "laima-ceramics-az",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
     }
   ]
 }

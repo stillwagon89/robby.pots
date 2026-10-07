@@ -213,42 +213,6 @@
       "lng": -73.30248
     },
     {
-      "id": "artscenter-vt",
-      "org": "ArtsCenter",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Vermont",
-      "city": null,
-      "urls": [
-        "https://canvas.artscenterlive.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://canvas.artscenterlive.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "canvas.artscenterlive.org"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty, so it contains no information about public firing opportunities.",
-        "types": {}
-      },
-      "weak": true
-    },
-    {
       "id": "farmhouse-pottery",
       "org": "Farmhouse Pottery",
       "kind": "studio",
@@ -566,6 +530,10 @@
     {
       "id": "julie-lerman-pottery",
       "why": "Second check (gemini-3.1-flash-lite): The text describes a vendor selling pottery at a farmers market and does not offer firing services, workshops, or rentals to the public. (2026-10-07)"
+    },
+    {
+      "id": "artscenter-vt",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
     }
   ]
 }

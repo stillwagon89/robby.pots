@@ -1,0 +1,98 @@
+{
+  "_note": "SD firing sources.",
+  "sources": [
+    {
+      "id": "shelby-prindaville",
+      "org": "Shelby Prindaville",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Sioux Falls",
+      "city": "Sioux Falls",
+      "urls": [
+        "https://shelbyprindaville.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Sioux Falls, South Dakota",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://shelbyprindaville.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "shelbyprindaville.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 43.5476,
+      "lng": -96.72936
+    },
+    {
+      "id": "webtrac",
+      "org": "WebTrac",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Aberdeen",
+      "city": "Aberdeen",
+      "urls": [
+        "https://webtrac.aberdeen.sd.us/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Aberdeen, South Dakota",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://webtrac.aberdeen.sd.us/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Fire in an outdoor kiln on Saturday, October 17, to get extraordinary pieces unobtainable from a regular kiln firing.",
+        "url": "https://webtrac.aberdeen.sd.us/webtrac/web/iteminfo.html?Module=AR&FMID=186288059",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "webtrac.aberdeen.sd.us"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text describes a Raku Pottery Alternative Firing event that participants can take part in.",
+        "types": {},
+        "street": "225 3rd Avenue SE"
+      },
+      "weak": true,
+      "lat": 45.46498,
+      "lng": -98.48781
+    }
+  ],
+  "_removed": [
+    {
+      "id": "up-in-smoke-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes the owners' personal firing processes and mentions they have programming for workshops, but it does not provide information for the public to sign up, book, or participate in any firings. (2026-10-07)"
+    }
+  ]
+}

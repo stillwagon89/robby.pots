@@ -15,12 +15,16 @@ for (const ST of process.argv.slice(2).map((s) => s.toUpperCase())) {
   const places = JSON.parse(fs.readFileSync(path.join(KM, "research/cache", st, "places.json"), "utf8"));
   const inState = new RegExp(`${stateName(ST)}|,\\s*${ST}\\b|\\b${ST}\\s+\\d{5}`);
   const rows = [];
+  // A site already filed under another state (by an earlier run) is skipped: the search returns the same out-of-state pages for many states.
+  const otherHosts = new Set();
+  for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2}\.json$/.test(f) && f !== `${ST}.json`))
+    for (const x of JSON.parse(fs.readFileSync(path.join(KM, "sources", f), "utf8")).sources) { try { otherHosts.add(new URL(x.contact?.website || x.urls?.[0]).hostname.replace(/^www\./, "")); } catch {} }
   for (const p of Object.values(places)) {
     const j = p.judged;
     if (!j || p.social || j.decision === "reject" || j.error) continue;
     if (p.known && !p.known.startsWith(`${ST}:`)) continue;
     if (p.known) continue; // already on the map
-    if (JUNK.test(p.key)) continue;
+    if (JUNK.test(p.key) || otherHosts.has(p.key.replace(/^https?:\/\/(www\.)?/, "").split("/")[0])) continue;
     const text = Object.values(p.pages).join(" ") + " " + p.hits.map((h) => h.title + " " + h.snippet).join(" ");
     const g = gate({ ...j, decision: "qualifies" }, text);
     if (!g.supported.length) continue;

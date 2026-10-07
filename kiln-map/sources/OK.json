@@ -8,6 +8,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
+        "raku",
         "gas_reduction"
       ],
       "region": "Oklahoma City",
@@ -28,6 +29,7 @@
         "quote": "Special raku workshops available throughout the year.",
         "url": "https://okcpotterystudio.com/raku-firing-okc",
         "types": [
+          "raku",
           "gas_reduction"
         ],
         "checked": "2026-10-07"
@@ -39,7 +41,17 @@
         "key": "okcpotterystudio.com"
       },
       "lat": 35.47299,
-      "lng": -97.51705
+      "lng": -97.51705,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers raku workshops and lists gas reduction as a firing capability available at the facility.",
+        "types": {
+          "raku": "Experience raku firing at OKC Pottery Studio.",
+          "gas_reduction": "4 kilns including gas reduction"
+        }
+      }
     },
     {
       "id": "contemporary-arts-of-tulsa-c-a-t",
@@ -69,7 +81,15 @@
         "key": "catulsa.org"
       },
       "lat": 36.15631,
-      "lng": -95.99275
+      "lng": -95.99275,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information about firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "downtown-tulsa",
@@ -109,7 +129,16 @@
         "key": "downtowntulsa.com"
       },
       "lat": 36.15631,
-      "lng": -95.99275
+      "lng": -95.99275,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text advertises a Raku Firing Workshop that is open for registration at a cost of $210.",
+        "types": {
+          "raku": "FALL 26 Raku Firing Workshop"
+        }
+      }
     },
     {
       "id": "paseo-pottery-ok",
@@ -147,7 +176,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "warriorsforfreedom.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "oklahoma-contemporary",
@@ -156,8 +193,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
+        "pit_barrel_saggar",
+        "raku"
       ],
       "region": "Oklahoma",
       "city": null,
@@ -177,8 +214,8 @@
         "quote": "Community Firings",
         "url": "https://oklahomacontemporary.org/education/studio-school/",
         "types": [
-          "raku",
-          "pit_barrel_saggar"
+          "pit_barrel_saggar",
+          "raku"
         ],
         "checked": "2026-10-07"
       },
@@ -187,7 +224,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "oklahomacontemporary.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers 'Community Firings' and 'Alternative Firing Techniques' classes which are open to the public via the Studio School.",
+        "types": {
+          "pit_barrel_saggar": "Students will explore the history, chemistry, and visual characteristics of Raku, horsehair/feather firing, Obvara, and saggar firing",
+          "raku": "Students will explore the history, chemistry, and visual characteristics of Raku, horsehair/feather firing, Obvara, and saggar firing"
+        }
+      },
+      "weak": true
     },
     {
       "id": "riverwood-pottery",
@@ -225,7 +273,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "riverwoodpottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "waterworks-art-center",
@@ -263,7 +319,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "waterworksartcenter.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "lara-o-keefe-pottery-shop",
@@ -301,37 +365,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "okeefepottery.com"
-      }
-    },
-    {
-      "id": "unearththevoyage",
-      "org": "unearththevoyage",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Harrah",
-      "city": "Harrah",
-      "urls": [
-        "https://unearththevoyage.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Harrah, Oklahoma",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://unearththevoyage.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "unearththevoyage.com"
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
       },
-      "lat": 35.48951,
-      "lng": -97.16364
+      "weak": true
     },
     {
       "id": "red-heat-ceramic-studio",
@@ -371,7 +413,16 @@
         "key": "redheatceramics.com"
       },
       "lat": 36.15631,
-      "lng": -95.99275
+      "lng": -95.99275,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states that memberships are available for those who need to rent a gas kiln.",
+        "types": {
+          "gas_reduction": "Memberships are available at different levels, whether you need to rent a gas kiln or a full semi-private studio space."
+        }
+      }
     },
     {
       "id": "3rd-street-clayworks",
@@ -411,47 +462,17 @@
         "key": "clayworkstulsa.com"
       },
       "lat": 36.15631,
-      "lng": -95.99275
-    },
-    {
-      "id": "kat-studio",
-      "org": "KAT Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Tulsa",
-      "city": "Tulsa",
-      "urls": [
-        "https://kilnartsoftulsa.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tulsa, Oklahoma",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://kilnartsoftulsa.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "She moved on to teach wheel throwing, clay handbuilding, glaze design and raku firing, and has been continually teaching since 1989.",
-        "url": "https://kilnartsoftulsa.com/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "lng": -95.99275,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "kilnartsoftulsa.com"
+        "verdict": "unclear",
+        "why": "The text mentions that the studio teaches various firing techniques including raku, but it does not explicitly state that the public can book or sign up for these specific firings outside of the college curriculum or general studio access.",
+        "types": {
+          "raku": "They will demonstrate various firing techniques such as raku, sawdust and dung."
+        }
       },
-      "lat": 36.15631,
-      "lng": -95.99275
+      "weak": true
     },
     {
       "id": "oil-clay-studio",
@@ -493,7 +514,15 @@
         "key": "normanfirehouse.com"
       },
       "lat": 35.22257,
-      "lng": -97.43948
+      "lng": -97.43948,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty, so there is no information confirming that the public can participate in non-electric ceramic firings at this location.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "oklahoma-state-university",
@@ -533,7 +562,25 @@
         "key": "events.okstate.edu"
       },
       "lat": 36.11563,
-      "lng": -97.05857
+      "lng": -97.05857,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so no firing services or workshops can be verified from it.",
+        "types": {}
+      },
+      "weak": true
+    }
+  ],
+  "_removed": [
+    {
+      "id": "unearththevoyage",
+      "why": "Second check (gemma-4-31b-it): The text mentions wood-fired food and bladesmithing, but contains no mention of ceramic firing. (2026-10-07)"
+    },
+    {
+      "id": "kat-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions past teaching of raku firing, but does not state that the public can currently book, join, or sign up for a non-electric firing at this studio. (2026-10-07)"
     }
   ]
 }

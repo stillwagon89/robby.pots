@@ -219,54 +219,6 @@
       "lng": -88.01258
     },
     {
-      "id": "clay-play-arts-wi",
-      "org": "Clay Play & Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Wisconsin",
-      "city": null,
-      "urls": [
-        "https://www.clayplayarts.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.clayplayarts.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Raku Firing Horsehair Workshop (4/18/2026) Sat 10AM-3PM",
-        "url": "https://www.clayplayarts.com/store/p2549/Raku_Firing_Horsehair_Workshop_(4/4/2026)_Sat_4PM.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "clayplayarts.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text shows outsiders can purchase a ticket for a horsehair raku firing workshop.",
-        "types": {
-          "raku": "Raku Firing Horsehair Workshop (4/18/2026) Sat 10AM-3PM"
-        }
-      },
-      "weak": true
-    },
-    {
       "id": "mineral-point-chamber-of",
       "org": "Mineral Point Chamber of",
       "kind": "studio",
@@ -937,6 +889,10 @@
     {
       "id": "mscr",
       "why": "Second check (gemini-3.5-flash-lite): page says state is Wis., not WI (2026-10-07)"
+    },
+    {
+      "id": "clay-play-arts-wi",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
     }
   ]
 }

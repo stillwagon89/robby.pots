@@ -27,6 +27,199 @@
       "lat": 30.40076,
       "lng": -88.88938,
       "newsletter_url": "https://georgeohr.org/"
+    },
+    {
+      "id": "biloxi-center-for-ceramics",
+      "org": "Biloxi Center for Ceramics",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "salt",
+        "pit_barrel_saggar"
+      ],
+      "region": "Biloxi",
+      "city": "Biloxi",
+      "urls": [
+        "https://fireundertheoaks.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Biloxi, Mississippi",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://fireundertheoaks.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Come join us for an exciting 4 days of Throwing & Alternative Firing Workshop at the Biloxi Center for Ceramics on the beautiful campus of the Ohr O’Keefe Museum of Art in historical Biloxi, MS.",
+        "url": "https://fireundertheoaks.com/alternative-firing-workshop-2/",
+        "types": [
+          "raku",
+          "salt",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "fireundertheoaks.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows outsiders can join an alternative firing workshop that includes raku and salt firing.",
+        "types": {
+          "raku": "In this hands-on workshop, Randy will share his throwing & raku firing skills.",
+          "salt": "2 Days of Firing: will include low-fire salt firing using aluminum and clay saggars, naked raku, mica & stannous chloride firing.",
+          "pit_barrel_saggar": "2 Days of Firing: will include low-fire salt firing using aluminum and clay saggars, naked raku, mica & stannous chloride firing."
+        }
+      },
+      "lat": 30.40076,
+      "lng": -88.88938
+    },
+    {
+      "id": "juliet-bravo-pottery-llc",
+      "org": "Juliet Bravo Pottery LLC",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Mississippi",
+      "city": null,
+      "urls": [
+        "https://julietbravopottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://julietbravopottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "julietbravopottery.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites the public to learn the process of using a Raku kiln and participate in a group firing.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "oxford-kilns",
+      "org": "Oxford Kilns",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Mississippi",
+      "city": null,
+      "urls": [
+        "https://www.oxfordkilns.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.oxfordkilns.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "From beginner taster sessions to in-depth workshops, all are welcome to explore wood-fired pottery in a supportive, creative environment led by Dr. Robin Wilson.",
+        "url": "https://www.oxfordkilns.com/",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "oxfordkilns.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "almonte-potters-guild",
+      "org": "Almonte Potters Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Mississippi",
+      "city": null,
+      "urls": [
+        "https://crownandpumpkin.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://crownandpumpkin.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The Almonte Potters Guild was founded in September 2002. With combined resources and donations from friends in the community, a pottery studio was opened in the heart of Mississippi Mills.",
+        "url": "https://crownandpumpkin.com/makers/ceramics-glass/almonte-potters-guild/",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "crownandpumpkin.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The text mentions the Almonte Potters Guild but provides no information about public ceramic firings.",
+        "types": {}
+      },
+      "weak": true
+    }
+  ],
+  "_removed": [
+    {
+      "id": "dogwood-ceramic-supply",
+      "why": "Second check (gemma-4-31b-it): The text describes a ceramic supply distributor that sells equipment and materials but does not offer firing services for the public. (2026-10-07)"
+    },
+    {
+      "id": "olemiss",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions ceramics programs for enrolled students and does not indicate that the public can participate in firings. (2026-10-07)"
     }
   ]
 }

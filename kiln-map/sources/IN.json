@@ -318,90 +318,6 @@
       "lng": -86.15835
     },
     {
-      "id": "laima-ceramics",
-      "org": "Laima Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://www.laimaceramics.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.laimaceramics.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "laimaceramics.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly offers a 1-Day Horse Hair Raku Firing Workshop that hosts up to 8 participants.",
-        "types": {
-          "raku": "We start the Raku kiln using pieces prepared in advance."
-        }
-      },
-      "weak": true
-    },
-    {
-      "id": "common-clay-space-in",
-      "org": "Common Clay Space",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://www.commonclayspace.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.commonclayspace.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Common Clay Space will be hosting a Wood Firing Workshop in partnership with Spring Valley Anagama.",
-        "url": "https://www.commonclayspace.com/wood-firing-workshop-2026",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "commonclayspace.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text mentions a wood firing workshop but does not provide enough details to confirm if the public can register or join.",
-        "types": {}
-      },
-      "weak": true
-    },
-    {
       "id": "northern-indiana-clay-alliance",
       "org": "Northern Indiana Clay Alliance",
       "kind": "studio",
@@ -784,54 +700,6 @@
       "lng": -85.38653
     },
     {
-      "id": "chris-jones-pottery",
-      "org": "Chris Jones Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://jonespottery.net/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://jonespottery.net/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Cone 10 Reduction Firing for Color and Effect",
-        "url": "https://jonespottery.net/",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "jonespottery.net"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text shows outsiders can sign up for a Cone 10 Reduction Firing workshop via the John C Campbell Folk School.",
-        "types": {
-          "gas_reduction": "Cone 10 Reduction Firing for Color and Effect"
-        }
-      },
-      "weak": true
-    },
-    {
       "id": "spears-gallery",
       "org": "Spears Gallery",
       "kind": "studio",
@@ -998,6 +866,18 @@
     {
       "id": "meir-moheban",
       "why": "Second check (gemini-3.5-flash-lite): The text mentions an anagama wood firing kiln, but does not provide any information on how the public can join, book, or sign up for a firing. (2026-10-07)"
+    },
+    {
+      "id": "laima-ceramics",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "chris-jones-pottery",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "common-clay-space-in",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
     }
   ]
 }

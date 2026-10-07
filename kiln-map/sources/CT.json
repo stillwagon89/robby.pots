@@ -127,89 +127,6 @@
       "weak": true
     },
     {
-      "id": "cotuit-center-for-the-arts",
-      "org": "Cotuit Center for the Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Cotuit",
-      "city": "Cotuit",
-      "urls": [
-        "https://cotuit.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Cotuit, Connecticut",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://cotuit.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Experience the excitement of raku firing in this beginner friendly 6 hour workshop.",
-        "url": "https://cotuit.org/classes/raku-workshop",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "cotuit.org"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly offers a beginner-friendly Raku Workshop that the public can sign up for.",
-        "types": {
-          "raku": "Experience the excitement of raku firing in this beginner friendly 6 hour workshop ."
-        }
-      }
-    },
-    {
-      "id": "laima-ceramics-ct",
-      "org": "Laima Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Connecticut",
-      "city": null,
-      "urls": [
-        "https://www.laimaceramics.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.laimaceramics.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "laimaceramics.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, providing no information about firings open to the public.",
-        "types": {}
-      },
-      "weak": true
-    },
-    {
       "id": "featherstoneart-app-neoncrm",
       "org": "featherstoneart.app.neoncrm",
       "kind": "studio",
@@ -679,54 +596,6 @@
       "lng": -73.31127
     },
     {
-      "id": "chris-jones-pottery-ct",
-      "org": "Chris Jones Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Connecticut",
-      "city": null,
-      "urls": [
-        "https://jonespottery.net/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://jonespottery.net/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Upcoming Workshop 2027 at the John C Campbell Folk School Cone 10 Reduction Firing for Color and Effect",
-        "url": "https://jonespottery.net/",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "jonespottery.net"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text invites the public to sign up for a Cone 10 Reduction Firing workshop via the John C Campbell Folk School.",
-        "types": {
-          "gas_reduction": "Join our Cone 10 reduction firing workshops to master gas kiln firing techniques and enhance your pottery skills."
-        }
-      },
-      "weak": true
-    },
-    {
       "id": "expressions-pottery",
       "org": "Expressions Pottery",
       "kind": "studio",
@@ -896,6 +765,18 @@
     {
       "id": "southern-connecticut-state-university",
       "why": "Second check (gemini-3.5-flash-lite): The text only mentions an opening reception for an exhibition of wood-fired ceramics and does not offer participation in a firing for the public. (2026-10-07)"
+    },
+    {
+      "id": "laima-ceramics-ct",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "cotuit-center-for-the-arts",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "chris-jones-pottery-ct",
+      "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
     }
   ]
 }

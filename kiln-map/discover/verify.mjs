@@ -11,6 +11,7 @@ const KM = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const ROOT = path.resolve(KM, "..");
 const env = Object.fromEntries(fs.readFileSync(path.join(ROOT, ".dev.vars"), "utf8").split("\n").map((l) => l.match(/^([A-Z_]+)=(.*)$/)).filter(Boolean).map((m) => [m[1], m[2].replace(/^"|"$/g, "").trim()]));
 const APPLY = process.argv.includes("--apply");
+const FORCE = process.argv.includes("--force");
 const only = process.argv.slice(2).filter((a) => /^[A-Za-z]{2}$/.test(a)).map((a) => a.toUpperCase());
 const MODEL = process.env.VERIFY_MODEL || "gemini-3.5-flash";
 const norm = (s) => (s || "").toLowerCase().replace(/[^a-z0-9$]+/g, " ").trim();
@@ -34,7 +35,7 @@ verdict "yes": the text shows outsiders (not only enrolled students or existing 
 verdict "no": electric-only, paint-your-own, a directory/blog/shop that runs no firings, a school with students only, or nothing about such firings.
 verdict "unclear": hints but cannot tell.
 "types": list ONLY firing types for which you can copy a sentence word for word from the text that names that firing method. No sentence naming it = leave it out. Never guess.
-"town_on_page"/"state_on_page"/"street_address": only if written in the text, else empty string.`;
+"state_on_page": the two-letter state where THIS place itself is located, taken from its own address or contact details (not from where an instructor, event, or other site is). Empty string if the text does not say. "town_on_page" and "street_address": same rule.`;
 
 const POOL = (process.env.VERIFY_MODELS || "gemma-4-31b-it,gemini-3.1-flash-lite,gemini-3.5-flash-lite,gemini-3-flash-preview,gemma-4-26b-a4b-it").split(",");
 const dead = new Set();
@@ -78,7 +79,7 @@ for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2
   const doc = JSON.parse(fs.readFileSync(path.join(KM, "sources", f), "utf8"));
   const pf = path.join(KM, "research/cache", ST.toLowerCase(), "places.json");
   const places = fs.existsSync(pf) ? JSON.parse(fs.readFileSync(pf, "utf8")) : {};
-  for (const s of doc.sources.filter((x) => x.discovered?.by === "discover-v3" && x.review === "pending" && !x.verify)) {
+  for (const s of doc.sources.filter((x) => x.discovered?.by === "discover-v3" && x.review === "pending" && (FORCE || !x.verify))) {
     const p = places[s.discovered.key];
     if (p) jobs.push({ f, ST, doc, s, p });
   }
@@ -113,7 +114,7 @@ if (APPLY) {
     if (j.v.error) continue;
     docs.set(j.f, j.doc);
     const types = Object.keys(j.v.types);
-    j.s.verify = { by: j.v.model || MODEL, date: TODAY, verdict: j.v.verdict, why: j.v.why, types: j.v.types, ...(j.v.street ? { street: j.v.street } : {}) };
+    j.s.verify = { by: j.v.model || MODEL, date: TODAY, verdict: j.v.verdict, why: j.v.why, types: j.v.types, state: j.v.state || "", town: j.v.town || "", ...(j.v.street ? { street: j.v.street } : {}) };
     const stOk = !j.v.state || new RegExp(`^(${j.ST}|${stateName(j.ST)})$`, "i").test(j.v.state.trim());
     if ((j.v.verdict === "no" && !/empty|no (readable )?(page )?text|no information|not provided|no content/i.test(j.v.why)) || !stOk) {
       if (!stOk && j.v.verdict !== "no") j.v.why = `page says state is ${j.v.state}, not ${j.ST}`;

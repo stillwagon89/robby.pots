@@ -24,6 +24,286 @@
       },
       "lat": 38.92388,
       "lng": -76.97145
+    },
+    {
+      "id": "district-clay-center-dc",
+      "org": "District Clay Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Washington",
+      "city": "Washington",
+      "urls": [
+        "https://classcub.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Washington, District of Columbia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://classcub.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Raku firing workshops",
+        "url": "https://classcub.com/provider/district-clay-center-washington-dc",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "classcub.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text mentions that the studio offers raku firing workshops and has a raku firing pit available for participation.",
+        "types": {
+          "raku": "Raku firing workshops"
+        }
+      },
+      "lat": 38.8951,
+      "lng": -77.03638
+    },
+    {
+      "id": "rachel-lindsay-pottery",
+      "org": "Rachel Lindsay Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "District of Columbia",
+      "city": null,
+      "urls": [
+        "https://rachellindsaypottery.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://rachellindsaypottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "rachellindsaypottery.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text describes a Saggar Workshop that is open for enrollment, which is a form of raku firing.",
+        "types": {
+          "raku": "In this special form of raku, students will coat their bisqueware with clay before firing the ware in the kiln."
+        }
+      },
+      "weak": true
+    },
+    {
+      "id": "glen-echo-park",
+      "org": "Glen Echo Park",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Washington",
+      "city": "Washington",
+      "urls": [
+        "https://www.glenechopottery.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Washington, District of Columbia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.glenechopottery.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Students' pieces are fired to cone 10 in a gas reduction kiln.",
+        "url": "https://www.glenechopottery.org/classes.html",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "glenechopottery.org"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers classes and a Home Studio Independent Continuing Study program that allows students to use the studio facilities for final firing, and the text confirms they use a gas reduction kiln.",
+        "types": {
+          "gas_reduction": "Students' pieces are fired to cone 10 in a gas reduction kiln."
+        }
+      },
+      "lat": 38.8951,
+      "lng": -77.03638
+    },
+    {
+      "id": "bisc-pottery-studio",
+      "org": "BISC Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "District of Columbia",
+      "city": null,
+      "urls": [
+        "https://www.biscpotterystudio.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.biscpotterystudio.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "biscpotterystudio.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "the-district-clay-center",
+      "org": "THE DISTRICT CLAY CENTER",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "gas_reduction"
+      ],
+      "region": "Washington",
+      "city": "Washington",
+      "urls": [
+        "https://www.handthrown.studio/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Washington, District of Columbia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.handthrown.studio/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Join us for eight weeks of making annnnd learn the process of Raku and Gas Firing 🔥",
+        "url": "https://www.handthrown.studio/studionews",
+        "types": [
+          "raku",
+          "gas_reduction"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "handthrown.studio"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty, so it contains no information about firing services or public access.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 38.8951,
+      "lng": -77.03638
+    },
+    {
+      "id": "joe-hicks-ceramics",
+      "org": "Joe Hicks Ceramics",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Washington",
+      "city": "Washington",
+      "urls": [
+        "https://www.joehicksceramics.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Washington, District of Columbia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.joehicksceramics.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "During this half-day workshop on Saturday 9/18, participants will learn the mysteries of making, mixing, applying and firing Shino glazes. You will then glaze your work choosing between four Shino glazes and then load it into District Clay's reduction kiln for special carbon trap firing Saturday night.",
+        "url": "https://www.joehicksceramics.com/new-page-1",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "joehicksceramics.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 38.8951,
+      "lng": -77.03638
+    }
+  ],
+  "_removed": [
+    {
+      "id": "mosaic-arts-dc",
+      "why": "Second check (gemini-3.1-flash-lite): page says state is MD, not DC (2026-10-07)"
+    },
+    {
+      "id": "john-riley-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes an individual potter's work, exhibitions, and personal firing activities, but does not offer any opportunities for the public to join, book, or sign up for non-electric ceramic firings. (2026-10-07)"
     }
   ]
 }
