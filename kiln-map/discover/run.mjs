@@ -44,7 +44,15 @@ function searchList() {
 }
 
 // ---------- 2. search (Tavily) ----------
+import { execFileSync } from "node:child_process";
+async function ddg(query) {
+  const out = execFileSync(path.join(HERE, ".venv/bin/python"), [path.join(HERE, "ddg_search.py"), query], { encoding: "utf8", timeout: 120000 });
+  const d = JSON.parse(out);
+  if (!Array.isArray(d)) throw new Error(`ddg: ${d.error}`);
+  return d.map((r) => ({ url: r.url, title: r.title, snippet: r.snippet, raw: "" }));
+}
 async function tavily(query) {
+  if (process.env.SEARCH === "ddg") { await new Promise((r) => setTimeout(r, 1500 + Math.random() * 2500)); return ddg(query); }
   const res = await fetch("https://api.tavily.com/search", {
     method: "POST",
     headers: { Authorization: `Bearer ${env.TAVILY_API_KEY}`, "Content-Type": "application/json" },
@@ -60,8 +68,9 @@ async function stageSearch() {
   const done = readJson(f, {});
   const todo = searchList().filter((q) => !done[q]);
   log(`search: ${todo.length} new of ${searchList().length} (each costs 2 Tavily credits)`);
-  for (let i = 0; i < todo.length; i += 4) {
-    await Promise.all(todo.slice(i, i + 4).map(async (q) => {
+  const PAR = process.env.SEARCH === "ddg" ? 1 : 4;
+  for (let i = 0; i < todo.length; i += PAR) {
+    await Promise.all(todo.slice(i, i + PAR).map(async (q) => {
       try { done[q] = await tavily(q); } catch (e) { log("search failed", q, e.message); }
     }));
     writeJson(f, done);
