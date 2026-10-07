@@ -37,14 +37,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "New Jersey",
-      "city": null,
+      "region": "Jersey City",
+      "city": "Jersey City",
       "urls": [
         "https://www.nynjceramics.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Jersey City, New Jersey",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.nynjceramics.com/"
@@ -54,7 +54,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "nynjceramics.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions a Raku workshop and states the academy provides education to the public, but it does not explicitly state that the public can sign up for or participate in the firing itself.",
+        "types": {
+          "raku": "The rigors on the clay (any clay) during the Raku firing and reduction process can range from the wonderful to the brutal."
+        }
+      },
+      "weak": true,
+      "lat": 40.72157,
+      "lng": -74.04745
     },
     {
       "id": "jersey-clay-society",
@@ -82,7 +94,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "jerseyclay.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly offers a Raku Workshop that the public can sign up for to learn the process and leave with finished pieces.",
+        "types": {
+          "raku": "Get ready to play with fire and come learn about the Raku!"
+        }
+      },
+      "weak": true
     },
     {
       "id": "the-clay-pot-pottery-studio",
@@ -120,7 +142,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "theclaypotpottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that the public can participate in raku workshops and bring their own pieces to glaze and fire during them.",
+        "types": {
+          "raku": "The Clay Pot welcomes you to experience this truly unique way of firing pottery by participating in one of our Raku workshops."
+        },
+        "street": "290 Main Street"
+      },
+      "lat": 40.39177,
+      "lng": -74.39848
     },
     {
       "id": "burntmillpotters",
@@ -148,45 +182,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "burntmillpotters.com"
-      }
-    },
-    {
-      "id": "visual-arts-center-of-new-jersey",
-      "org": "Visual Arts Center of New Jersey",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "New Jersey",
-      "city": null,
-      "urls": [
-        "https://www.artcenternj.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.artcenternj.org/"
       },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Join us for Raku-Fest! Raku-Fest showcases a unique ceramic firing process in which red-hot ceramic pieces are transferred directly from the kiln into a container of combustible materials.",
-        "url": "https://www.artcenternj.org/events/raku-fest-2025/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "artcenternj.org"
-      }
+        "verdict": "no",
+        "why": "The provided page text is empty, so there is no information confirming public access or firing methods.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 40.61538,
+      "lng": -74.77044
     },
     {
       "id": "artscenter",
@@ -224,7 +230,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "canvas.artscenterlive.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The provided page text is empty, so it is impossible to determine if the public can participate in the firing.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 40.74092,
+      "lng": -74.38367
     },
     {
       "id": "truro-center-for-the-arts",
@@ -252,7 +268,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "dwaynesackey.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no details about public firings, addresses, or locations.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "wooten-clayworks",
@@ -290,7 +314,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "wootenclayworks.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The snippet mentions a salt kiln workshop, but the provided page text is empty, making it impossible to confirm if the public can sign up or if the event is restricted to students.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "peters-valley-school-of-craft",
@@ -330,49 +362,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "mudclaystudio.com"
-      }
-    },
-    {
-      "id": "potters-guild-of-new-jersey",
-      "org": "Potters Guild of New Jersey",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "soda",
-        "pit_barrel_saggar"
-      ],
-      "region": "Union",
-      "city": "Union",
-      "urls": [
-        "https://pottersguildnj.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Union, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://pottersguildnj.org/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Each summer the guild meets at Peter Syak’s studio for a full day of Raku and Horsehair firing.",
-        "url": "https://pottersguildnj.org/events/",
-        "types": [
-          "raku",
-          "pit_barrel_saggar",
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "pottersguildnj.org"
-      }
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about the facility.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "toshiko-takaezu-ceramic-studios",
@@ -410,45 +408,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "hunterdonartmuseum.org"
-      }
-    },
-    {
-      "id": "the-ceramic-shop",
-      "org": "The Ceramic Shop",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "New Jersey",
-      "city": null,
-      "urls": [
-        "https://www.theceramicshop.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.theceramicshop.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Bring your work to our Philadelphia store and we will fire it for you!",
-        "url": "https://www.theceramicshop.com/store/category/21/109/Firing-Retail/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "theceramicshop.com"
-      }
+        "verdict": "yes",
+        "why": "The text shows a public 4-day workshop for pit firing that outsiders can join by paying tuition and a firing fee.",
+        "types": {
+          "pit_barrel_saggar": "This 4-day workshop for making and firing ceramic work for pit firing will take place at the Toshiko Takaezu Ceramic Studios and property, which includes a beautiful garden and welcoming studio space."
+        },
+        "street": "1177 Croton Road"
+      },
+      "lat": 40.56566,
+      "lng": -74.94156
     },
     {
       "id": "getpotteryclass",
@@ -486,35 +458,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "getpotteryclass.com"
-      }
-    },
-    {
-      "id": "studio-montclair",
-      "org": "Studio Montclair",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Montclair",
-      "city": "Montclair",
-      "urls": [
-        "https://studiomontclair.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Montclair, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://studiomontclair.org/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "studiomontclair.org"
-      }
+        "verdict": "yes",
+        "why": "The text mentions that studios offer raku firing courses and sessions available to the public.",
+        "types": {
+          "raku": "Popular options include wheel throwing classes , hand building pottery workshops , pottery painting sessions , and raku firing courses."
+        }
+      },
+      "lat": 40.73566,
+      "lng": -74.17237
     },
     {
       "id": "montclair-art-museum",
@@ -542,91 +497,47 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "montclairartmuseum.org"
-      }
-    },
-    {
-      "id": "stonehill-pottery-shop",
-      "org": "Stonehill Pottery Shop",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
-      ],
-      "region": "Newfoundland",
-      "city": "Newfoundland",
-      "urls": [
-        "https://stonehillpotteryshop.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Newfoundland, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://stonehillpotteryshop.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Non-functional raku, horsehair and saggar wares are also available.",
-        "url": "https://stonehillpotteryshop.com/",
-        "types": [
-          "raku",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "stonehillpotteryshop.com"
-      }
-    },
-    {
-      "id": "pocosin-arts",
-      "org": "Pocosin Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Pittstown",
-      "city": "Pittstown",
-      "urls": [
-        "https://pocosinarts.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pittstown, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://pocosinarts.org/"
+        "verdict": "no",
+        "why": "The page text contains no information about non-electric ceramic firings available to the public.",
+        "types": {}
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "He’s now a studio artist in Pittstown, NJ.",
-        "url": "https://pocosinarts.org/instructor/brian-chen/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "pocosinarts.org"
-      }
+      "weak": true,
+      "lat": 40.81645,
+      "lng": -74.22106
     }
   ],
   "_removed": [
     {
       "id": "cca-bedminster",
       "why": "No joinable firing on their pages. (2026-10-05)"
+    },
+    {
+      "id": "visual-arts-center-of-new-jersey",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions attending Raku-Fest to watch raku firings rather than participate in taking part in a non-electric ceramic firing. (2026-10-07)"
+    },
+    {
+      "id": "potters-guild-of-new-jersey",
+      "why": "Second check (gemini-3.1-flash-lite): The text indicates that firing events are for Guild members only, with registration information sent specifically to them. (2026-10-07)"
+    },
+    {
+      "id": "the-ceramic-shop",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes a firing service for electric kilns (Skutt and L&L models) and mentions selling gas kilns, but does not offer public participation in non-electric firing methods like wood, soda, salt, or pit firing. (2026-10-07)"
+    },
+    {
+      "id": "studio-montclair",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not contain information about the public being able to join, book, or sign up for a firing, nor does it provide a location address. (2026-10-07)"
+    },
+    {
+      "id": "stonehill-pottery-shop",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes a shop that sells pottery but does not offer workshops, rentals, or firing services for the public to participate in the firing process. (2026-10-07)"
+    },
+    {
+      "id": "pocosin-arts",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions wood firing in the context of an instructor's background and does not state that the public can take part in a non-electric ceramic firing at this location. (2026-10-07)"
     }
   ]
 }

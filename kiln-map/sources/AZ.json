@@ -64,7 +64,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "sedonaartscenter.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 34.86886,
+      "lng": -111.76144
     },
     {
       "id": "marjon-ceramics",
@@ -92,7 +102,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "marjonceramics.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The business is open to the public and offers a Raku Workshop that can be registered for by calling their Phoenix location.",
+        "types": {
+          "raku": "Raku Workshop"
+        }
+      },
+      "lat": 33.44844,
+      "lng": -112.07414
     },
     {
       "id": "mesa-arts-center",
@@ -132,73 +153,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "mesaartscenter.com"
-      }
-    },
-    {
-      "id": "thisistucson",
-      "org": "thisistucson",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://thisistucson.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://thisistucson.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "For Tucson ceramicist Anne Neuenschwander, the wonder of pottery is in the happy accidents. Using traditional raku ceramic techniques, her work incorporates natural elements like horsehair and desert flora, as well as shimmering metallic glazes and earthy charcoals to create deep, smoky black ...",
-        "url": "https://thisistucson.com/article_ce41b21c-b596-40b6-906d-c3afa978c4f3.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3-flash-preview",
         "date": "2026-10-07",
-        "key": "thisistucson.com"
-      }
-    },
-    {
-      "id": "anne-s-desert-studio",
-      "org": "Anne's Desert Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Tucson",
-      "city": "Tucson",
-      "urls": [
-        "https://www.annesdesertstudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tucson, Arizona",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.annesdesertstudio.com/"
+        "verdict": "yes",
+        "why": "The public can register for Raku and Soda firing classes as indicated by the 'Register Now' button and resident pricing.",
+        "types": {
+          "raku": "In this course, students will experience the exciting and unpredictable process of Raku firing.",
+          "soda": "Wheel Throwing: Cone 10 Soda Firing for the Kitchen : Intermediate to Advanced"
+        }
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "annesdesertstudio.com"
-      }
+      "lat": 33.4151,
+      "lng": -111.83146
     },
     {
       "id": "laima-ceramics-az",
@@ -226,7 +193,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "laimaceramics.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly offers a 1-Day Horse Hair Raku Firing Workshop that is open for booking.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "az-wildlife-gallery",
@@ -264,87 +239,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "azwildlifegallery.com"
-      }
-    },
-    {
-      "id": "kenny-wayne",
-      "org": "Kenny Wayne",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
-      ],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://artinphoenix.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://artinphoenix.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Additionally, Kenny Wayne has given artists workshops for Sculpting, Indigenous Pottery, Mask Making, Pit Firing, Mold Making and Raku.",
-        "url": "https://artinphoenix.com/artist-directory/kenny-wayne/",
-        "types": [
-          "raku",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "artinphoenix.com"
-      }
-    },
-    {
-      "id": "arizona-clay-association",
-      "org": "Arizona Clay Association",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda",
-        "gas_reduction"
-      ],
-      "region": "Phoenix",
-      "city": "Phoenix",
-      "urls": [
-        "https://www.arizonaclay.net/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Phoenix, Arizona",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.arizonaclay.net/"
+        "verdict": "no",
+        "why": "The text describes art pieces like raku pottery and horse hair pottery available at a gallery, but contains no information about public participation in ceramic firings.",
+        "types": {}
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We are attempting to make a comprehensive list of community ceramics facilities in the greater Phoenix area.",
-        "url": "https://www.arizonaclay.net/ceramic-classes.html",
-        "types": [
-          "soda",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "arizonaclay.net"
-      }
+      "weak": true
     },
     {
       "id": "arizona-clay-space",
@@ -372,7 +275,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "arizonaclayspace.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3-flash-preview",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "Arizona Clay Space offers a long-term residency for ceramic artists with access to wood and gas kilns.",
+        "types": {
+          "wood": "Residents receive a private studio, on-site shared housing, full access to electric, gas and wood kilns and a serious working community."
+        }
+      },
+      "weak": true
     },
     {
       "id": "douglas-campus-art-department",
@@ -410,7 +323,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "cochise.edu"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The public is invited to join the annual Pit Fire Pottery Festival, which features a pit fire, an ancient method of baking clay.",
+        "types": {
+          "pit_barrel_saggar": "A pit fire is an ancient method of “baking” clay that has been placed in a hole, or pit dug into the ground with a wood fire burning above, resulting in pieces covered in swirls of colors and patterns."
+        },
+        "street": "4190 West Highway 80"
+      },
+      "lat": 31.34499,
+      "lng": -109.55449
     },
     {
       "id": "arcosanti",
@@ -448,7 +373,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "inbusinessphx.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states that Arcosanti is hosting two clay pit-firing weekend workshops that are open for registration to the public.",
+        "types": {
+          "pit_barrel_saggar": "Arcosanti is pleased to announce two clay pit-firing weekend workshops this spring."
+        }
+      },
+      "weak": true
     },
     {
       "id": "cochise-college",
@@ -486,7 +421,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "festivalsinamerica.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3-flash-preview",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The festival is a free community event featuring a pit firing that includes work from local artisans and visiting potters.",
+        "types": {
+          "pit_barrel_saggar": "The Pit Fire Pottery Festival is a free evening arts festival at Cochise College in Douglas, Arizona, built around the ancient technique of pit firing ceramics."
+        },
+        "street": "4190 W. Highway 80"
+      },
+      "lat": 31.34499,
+      "lng": -109.55449
     },
     {
       "id": "potteryclassess",
@@ -526,7 +473,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "potteryclassess.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text mentions that you can find classes focusing on specific techniques such as Raku firing or pit firing, and lists pit firing and other classes available to the public.",
+        "types": {
+          "raku": "You can also find classes that focus on specific techniques, such as Raku firing or pit firing.",
+          "pit_barrel_saggar": "Pit Firing"
+        }
+      },
+      "lat": 33.44844,
+      "lng": -112.07414
     },
     {
       "id": "raku-gallery",
@@ -564,47 +523,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "rakugallery.com"
-      }
-    },
-    {
-      "id": "grand-clay-arts",
-      "org": "Grand Clay Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "gas_reduction"
-      ],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://grandclayarts.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://grandclayarts.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We offer one of the few Alternative Firing opportunities available in the western suburbs. Elevate the possibilities with a Raku, Naked Raku, Obvara or Saggar firing.",
-        "url": "https://grandclayarts.com/",
-        "types": [
-          "raku",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "grandclayarts.com"
-      }
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about public ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 34.74891,
+      "lng": -112.11377
     },
     {
       "id": "phgmag",
@@ -642,45 +571,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "phgmag.com"
-      }
-    },
-    {
-      "id": "tu-kaets-studios",
-      "org": "Tu Kaets Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://tukaets.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://tukaets.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "These are a few raku pieces that I fired at @annes",
-        "url": "https://tukaets.com/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "tukaets.com"
-      }
+        "verdict": "no",
+        "why": "The text describes an artist's studio and past work with raku, but contains no information about the public joining, booking, or signing up for firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "rhonda-davis",
@@ -718,243 +617,71 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "potteryteachers.com"
-      }
-    },
-    {
-      "id": "zonies-galleria-sedona",
-      "org": "Zonies Galleria Sedona",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Sedona",
-      "city": "Sedona",
-      "urls": [
-        "https://zoniesgalleriasedona.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Sedona, Arizona",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://zoniesgalleriasedona.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Raku Firing Vicente Garcia Les Mitchell",
-        "url": "https://zoniesgalleriasedona.com/pottery/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "zoniesgalleriasedona.com"
-      }
-    },
-    {
-      "id": "christopher-heede",
-      "org": "Christopher Heede",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood"
-      ],
-      "region": "Scottsdale",
-      "city": "Scottsdale",
-      "urls": [
-        "https://morefunz.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Scottsdale, Arizona",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://morefunz.com/"
+        "verdict": "no",
+        "why": "The provided text contains no information about public firing services, workshops, or the ability for outsiders to participate in firings.",
+        "types": {}
       },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Christoph Ceramics - Raku, Woodfire, and Architectural Ceramic Art - Scottsdale, Arizona",
-        "url": "https://morefunz.com/shopping/crafts/ceramic-art-and-pottery/christoph-ceramics",
-        "types": [
-          "raku",
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "morefunz.com"
-      }
-    },
-    {
-      "id": "heath-krieger",
-      "org": "Heath Krieger",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Prescott",
-      "city": "Prescott",
-      "urls": [
-        "https://www.prescottstudiotour.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Prescott, Arizona",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.prescottstudiotour.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Demo: raku Firing",
-        "url": "https://www.prescottstudiotour.com/heath-krieger.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "prescottstudiotour.com"
-      }
-    },
-    {
-      "id": "the-art-store",
-      "org": "The Art Store",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://prescottartstore.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://prescottartstore.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "The Art Store does offer kilning of ceramic clay up to cone 10. The costs are $60.00 per kiln load.",
-        "url": "https://prescottartstore.com/contact/services/",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "prescottartstore.com"
-      }
-    },
-    {
-      "id": "azhandmade",
-      "org": "azhandmade",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://www.azhandmade.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.azhandmade.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The animals I choose and the process of raku firing are aspects of my work that have evolved over time.",
-        "url": "https://www.azhandmade.com/alan-potter.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "azhandmade.com"
-      }
-    },
-    {
-      "id": "reitz-ranch-center-for-ceramic-arts",
-      "org": "Reitz Ranch Center for Ceramic Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://www.virgilortiz.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.virgilortiz.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Far off the beaten path, nestled next to the Verde River in Clarkdale, Arizona, sits the legendary Reitz Ranch Center for Ceramic Arts.",
-        "url": "https://www.virgilortiz.com/asxvo-atmospheric-collection",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "virgilortiz.com"
-      }
+      "weak": true,
+      "lat": 35.19875,
+      "lng": -111.65182
     }
   ],
   "_removed": [
     {
       "id": "mesa-arts-center",
       "why": "No atmospheric firing on their pages. (2026-10-05)"
+    },
+    {
+      "id": "thisistucson",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes an individual artist's work and teaching at a public recreation center but does not offer a way for the public to sign up for or participate in a non-electric firing. (2026-10-07)"
+    },
+    {
+      "id": "anne-s-desert-studio",
+      "why": "Second check (gemma-4-31b-it): The text describes an artist selling handcrafted raku pottery but does not mention any opportunities for the public to participate in firings. (2026-10-07)"
+    },
+    {
+      "id": "kenny-wayne",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions the artist has given workshops in the past, but it does not state that the public can currently join, book, or sign up for these firings at his studio. (2026-10-07)"
+    },
+    {
+      "id": "arizona-clay-association",
+      "why": "Second check (gemini-3.5-flash-lite): The text is a directory of community ceramics facilities and event summaries with no mention of public non-electric firing services, classes, or sign-ups offered by the organization itself. (2026-10-07)"
+    },
+    {
+      "id": "grand-clay-arts",
+      "why": "Second check (gemini-3.1-flash-lite): The text explicitly states that all residents of The Grand are welcome to join, but does not indicate that the general public (outsiders) can participate in these firings. (2026-10-07)"
+    },
+    {
+      "id": "tu-kaets-studios",
+      "why": "Second check (gemini-3-flash-preview): The website is a personal artist portfolio and shop that does not offer workshops, classes, or firing services to the public. (2026-10-07)"
+    },
+    {
+      "id": "zonies-galleria-sedona",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes firing techniques used by the gallery's artists to create items for sale, but it does not state that the public can join, book, or sign up for a firing. (2026-10-07)"
+    },
+    {
+      "id": "christopher-heede",
+      "why": "Second check (gemini-3.5-flash-lite): The text only describes the artist's personal work and does not offer public participation in firings. (2026-10-07)"
+    },
+    {
+      "id": "heath-krieger",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions a raku firing demo but does not state that the public can participate, sign up, or book a firing. (2026-10-07)"
+    },
+    {
+      "id": "the-art-store",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions kilning ceramic clay up to cone 10 and provides no mention of public participation in raku, wood/anagama, soda, salt, pit/barrel/saggar, or gas-reduction firings. (2026-10-07)"
+    },
+    {
+      "id": "azhandmade",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions raku firing as part of an artist's process but does not offer the public any opportunity to participate in, book, or sign up for such a firing. (2026-10-07)"
+    },
+    {
+      "id": "reitz-ranch-center-for-ceramic-arts",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions an artist's residency and atmospheric firings at the Reitz Ranch, but does not state that the public can join, book, or sign up for non-electric ceramic firings there. (2026-10-07)"
     }
   ]
 }

@@ -89,7 +89,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "warroadriverplace.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, providing no information about firings or public access.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 48.90527,
+      "lng": -95.3144
     },
     {
       "id": "buffalo-art-guild",
@@ -127,7 +137,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "buffaloartguild.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty, so it does not contain information confirming that the public can participate in non-electric firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "minnetonka-center-for-the-arts",
@@ -167,7 +185,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "minnetonkaarts.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that the public can enroll in ceramics classes where raku and soda firings are explored.",
+        "types": {
+          "raku": "High‑fire, raku, and soda firing will be explored.",
+          "soda": "High‑fire, raku, and soda firing will be explored."
+        }
+      },
+      "weak": true
     },
     {
       "id": "bending-pines-pottery",
@@ -205,7 +234,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "bendingpinespottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text contains no information regarding public access, workshops, or firing services.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 46.52052,
+      "lng": -94.28861
     },
     {
       "id": "north-house-folk-school",
@@ -243,7 +282,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "northhouse.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers a public folk school course titled Raku Pottery Experience.",
+        "types": {
+          "raku": "Raku Pottery Experience, North House Folk School Course"
+        }
+      },
+      "weak": true
     },
     {
       "id": "common-clay-space",
@@ -281,7 +330,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "commonclayspace.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly states they are hosting a Wood Firing Workshop that covers the basics of firing a wood burning kiln.",
+        "types": {
+          "wood": "Common Clay Space will be hosting a Wood Firing Workshop in partnership with Spring Valley Anagama."
+        }
+      },
+      "weak": true
     },
     {
       "id": "the-workshop-mpls",
@@ -311,7 +370,8 @@
         "quote": "Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns!",
         "url": "https://the-workshop-mpls.square.site/kiln-firing-services",
         "types": [
-          "soda"
+          "soda",
+          "gas_reduction"
         ],
         "checked": "2026-10-07"
       },
@@ -320,7 +380,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "the-workshop-mpls.square.site"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers public kiln firing services including soda firings and gas kiln firings by making a drop-off appointment.",
+        "types": {
+          "soda": "Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns!",
+          "gas_reduction": "Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns!"
+        }
+      },
+      "lat": 44.9773,
+      "lng": -93.26547
     },
     {
       "id": "nemaa",
@@ -330,7 +402,8 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "soda"
+        "soda",
+        "gas_reduction"
       ],
       "region": "Minneapolis",
       "city": "Minneapolis",
@@ -351,44 +424,7 @@
         "url": "https://nemaa.org/partners/the-workshop-mpls/",
         "types": [
           "raku",
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "nemaa.org"
-      }
-    },
-    {
-      "id": "fired-up-studios",
-      "org": "Fired Up Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Golden Valley",
-      "city": "Golden Valley",
-      "urls": [
-        "https://firedupstudios.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Golden Valley, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://firedupstudios.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Fired Up Studios is a community pottery studio located in Golden Valley, MN.",
-        "url": "https://firedupstudios.com/about/",
-        "types": [
+          "soda",
           "gas_reduction"
         ],
         "checked": "2026-10-07"
@@ -397,48 +433,21 @@
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
-        "key": "firedupstudios.com"
-      }
-    },
-    {
-      "id": "clara-delattre-ceramics",
-      "org": "Clara Delattre Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood"
-      ],
-      "region": "Minneapolis",
-      "city": "Minneapolis",
-      "urls": [
-        "https://claradelattreceramics.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Minneapolis, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://claradelattreceramics.com/"
+        "key": "nemaa.org"
       },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Organic firing methods like horsehair raku and wood firing embrace variation, chance, and imperfection, which are heavily explored in my work.",
-        "url": "https://claradelattreceramics.com/",
-        "types": [
-          "raku",
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "claradelattreceramics.com"
-      }
+        "verdict": "yes",
+        "why": "The text explicitly states they welcome the community to their raku, gas, and soda firings.",
+        "types": {
+          "raku": "We have five electric kilns, ^10 gas kiln, raku kilns and soda kiln.",
+          "soda": "We have five electric kilns, ^10 gas kiln, raku kilns and soda kiln.",
+          "gas_reduction": "We have five electric kilns, ^10 gas kiln, raku kilns and soda kiln."
+        }
+      },
+      "lat": 44.9773,
+      "lng": -93.26547
     },
     {
       "id": "logan-c-pottery",
@@ -466,85 +475,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "logan-chyla.squarespace.com"
-      }
-    },
-    {
-      "id": "gruchalla-rosetti-pottery",
-      "org": "Gruchalla Rosetti Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Duluth",
-      "city": "Duluth",
-      "urls": [
-        "https://www.nccshop.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Duluth, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.nccshop.org/"
       },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Richard Gruchalla and Carrin Rosetti are a husband-and-wife collaborative team making wheel-thrown and handbuilt Raku-fired pottery.",
-        "url": "https://www.nccshop.org/collections/gruchalla-rosetti-pottery",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "nccshop.org"
-      }
-    },
-    {
-      "id": "dragon-fire-ceramics",
-      "org": "Dragon Fire Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "soda"
-      ],
-      "region": "Wrenshall",
-      "city": "Wrenshall",
-      "urls": [
-        "https://www.dragonfireceramics.net/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Wrenshall, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.dragonfireceramics.net/"
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information regarding public firing services or methods.",
+        "types": {}
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Olsen 12-foot gas reduction kiln Raku kiln Soda kiln (it’s safer than a salt kiln)",
-        "url": "https://www.dragonfireceramics.net/about-us/",
-        "types": [
-          "raku",
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "dragonfireceramics.net"
-      }
+      "weak": true,
+      "lat": 44.9773,
+      "lng": -93.26547
     },
     {
       "id": "featherstone-pottery",
@@ -582,107 +523,51 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "exploreminnesota.com"
-      }
-    },
-    {
-      "id": "minnesota-clay",
-      "org": "Minnesota Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Minnesota",
-      "city": null,
-      "urls": [
-        "https://www.mnclay.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.mnclay.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "mnclay.com"
-      }
-    },
-    {
-      "id": "dick-cooter-pottery",
-      "org": "Dick Cooter Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Two Harbors",
-      "city": "Two Harbors",
-      "urls": [
-        "https://cooterpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Two Harbors, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://cooterpottery.com/"
+        "verdict": "no",
+        "why": "The provided text contains no information about public access to non-electric firing services, workshops, or rentals at Featherstone Pottery.",
+        "types": {}
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "cooterpottery.com"
-      }
-    },
-    {
-      "id": "tom-s-pudic",
-      "org": "Tom S Pudic",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Cokato",
-      "city": "Cokato",
-      "urls": [
-        "https://www.tsclayartgallery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Cokato, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.tsclayartgallery.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "I currently create my pottery using various porcelain and stoneware clays and fire my work in an Anagama kiln in Cokato, Minnesota.",
-        "url": "http://www.tsclayartgallery.com/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "tsclayartgallery.com"
-      }
+      "weak": true,
+      "lat": 44.56247,
+      "lng": -92.5338
     }
   ],
   "_removed": [
     {
       "id": "minnetonka-center-arts",
       "why": "No firing information on their pages. (2026-10-05)"
+    },
+    {
+      "id": "fired-up-studios",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions standard electric or unspecified kiln firings (cone 6 or 10 glaze/bisque firings) without mentioning any non-electric firing methods such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-07)"
+    },
+    {
+      "id": "clara-delattre-ceramics",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions the ceramicist uses raku and wood firing for her own work, but does not state that the public can participate in or sign up for these firings. (2026-10-07)"
+    },
+    {
+      "id": "gruchalla-rosetti-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes the artists' work but does not mention any opportunities for the public to participate in firings. (2026-10-07)"
+    },
+    {
+      "id": "dragon-fire-ceramics",
+      "why": "Second check (gemini-3.5-flash-lite): The text lists equipment such as a gas reduction kiln, raku kiln, and soda kiln, but does not state that the public can take part in non-electric ceramic firings. (2026-10-07)"
+    },
+    {
+      "id": "minnesota-clay",
+      "why": "Second check (gemini-3.5-flash-lite): The text only sells clay, glazes, and equipment supplies, offering no public non-electric ceramic firings, classes, or workshops. (2026-10-07)"
+    },
+    {
+      "id": "dick-cooter-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions wood-kiln fired pottery but does not state that the public can participate in, book, or sign up for such firings. (2026-10-07)"
+    },
+    {
+      "id": "tom-s-pudic",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes the artist's private pottery work and does not indicate that the public can take part in the wood firings. (2026-10-07)"
     }
   ]
 }

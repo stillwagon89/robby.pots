@@ -25,6 +25,440 @@
       },
       "lat": 35.71426,
       "lng": -83.51016
+    },
+    {
+      "id": "alewine-pottery",
+      "org": "Alewine Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Gatlinburg",
+      "city": "Gatlinburg",
+      "urls": [
+        "https://www.alewinepottery.net/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Gatlinburg, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.alewinepottery.net/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "alewinepottery.net"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly offers a Raku Firing Experience that is open to individuals, couples, families, and small groups with no prior experience needed.",
+        "types": {},
+        "street": "623 Glades Road"
+      },
+      "weak": true,
+      "lat": 35.71426,
+      "lng": -83.51016
+    },
+    {
+      "id": "mighty-mud",
+      "org": "Mighty Mud",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Knoxville",
+      "city": "Knoxville",
+      "urls": [
+        "https://classes.mightymud.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Knoxville, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://classes.mightymud.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Mighty Mud offers one-night group event classes, primarily on Friday nights. These classes include Raku, 'Wine & Wheel', 'Cup, Bowl & Plate', 'Mug Makers', and 'Experience the Wheel'.",
+        "url": "https://classes.mightymud.com/collections/workshops",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "classes.mightymud.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states that Mighty Mud offers one-night group event classes including Raku that are open for group events, date nights, or friends.",
+        "types": {
+          "raku": "These classes include Raku, ‘Wine & Wheel’, ‘Cup, Bowl & Plate’, ‘Mug Makers’, and ‘Experience the Wheel’."
+        }
+      },
+      "lat": 35.96039,
+      "lng": -83.92103
+    },
+    {
+      "id": "mid-south-ceramics",
+      "org": "Mid-South Ceramics",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Nashville",
+      "city": "Nashville",
+      "urls": [
+        "https://midsouthceramics.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Nashville, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://midsouthceramics.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "midsouthceramics.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 36.16228,
+      "lng": -86.7743
+    },
+    {
+      "id": "common-grace-pottery",
+      "org": "Common Grace Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Nashville",
+      "city": "Nashville",
+      "urls": [
+        "https://commongracepottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Nashville, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://commongracepottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "She also offers in-person group pottery classes, individual pottery lessons, and pop-up workshops for those interested in the art of pottery.",
+        "url": "https://commongracepottery.com/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "commongracepottery.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 36.16228,
+      "lng": -86.7743
+    },
+    {
+      "id": "tech-times",
+      "org": "Tech Times",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Smithville",
+      "city": "Smithville",
+      "urls": [
+        "https://blogs.tntech.edu/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Smithville, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://blogs.tntech.edu/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Soda Fired Earthenware Ceramics Workshop – Tech Times",
+        "url": "https://blogs.tntech.edu/techtimes/2022/arts/soda-fired-earthenware-ceramics-workshop/",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "blogs.tntech.edu"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text invites the public to check out a wide array of workshops and provides a link to register for the soda-fired ceramics workshop.",
+        "types": {
+          "soda": "Learn about firing earthenware in the soda kiln."
+        }
+      },
+      "lat": 35.96062,
+      "lng": -85.81415
+    },
+    {
+      "id": "studio-s-pottery-and-galleries",
+      "org": "Studio S Pottery and Galleries",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Murfreesboro",
+      "city": "Murfreesboro",
+      "urls": [
+        "https://www.studiospottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Murfreesboro, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.studiospottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Studio S Pottery and Galleries is well-known for handmade finely-crafted artworks of high temperature stoneware, porcelain, raku* and pit-fired* clay often considered highly representative of Tennessee.",
+        "url": "https://www.studiospottery.com/studio-s-c21bq",
+        "types": [
+          "raku",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "studiospottery.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 35.84604,
+      "lng": -86.39211
+    },
+    {
+      "id": "bookwhen",
+      "org": "bookwhen",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Tennessee",
+      "city": null,
+      "urls": [
+        "https://bookwhen.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://bookwhen.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "bookwhen.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no details about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "the-maker-city",
+      "org": "The Maker City",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Knoxville",
+      "city": "Knoxville",
+      "urls": [
+        "https://themakercity.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Knoxville, Tennessee",
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://themakercity.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Beginners can try the Raku process or make a cup, bowl and plate on the pottery wheel.",
+        "url": "https://themakercity.org/mighty-mud/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "themakercity.org"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states that beginners can try the Raku process through one-time Friday evening classes.",
+        "types": {
+          "raku": "Beginners can try the Raku process or make a cup, bowl and plate on the pottery wheel."
+        }
+      },
+      "lat": 35.96039,
+      "lng": -83.92103
+    },
+    {
+      "id": "the-pottery-place-of-chattanooga",
+      "org": "The Pottery Place of Chattanooga",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Chattanooga",
+      "city": "Chattanooga",
+      "urls": [
+        "https://www.thepotteryplacechattanooga.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Chattanooga, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.thepotteryplacechattanooga.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Handmade pottery by Robert Mohler specializing in ancient firing methods: Pitfire, Raku, Naked Raku, Ferric Chloride, and Dragon's Breath techniques.",
+        "url": "https://www.thepotteryplacechattanooga.com/faq",
+        "types": [
+          "raku",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "thepotteryplacechattanooga.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information about non-electric ceramic firings or public access.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 35.04572,
+      "lng": -85.30949
+    }
+  ],
+  "_removed": [
+    {
+      "id": "south-arts",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions the construction of a kiln by an artist and does not offer any public workshops, classes, or firing services for outsiders. (2026-10-07)"
+    },
+    {
+      "id": "studio-s-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes the pottery's work but does not mention any workshops, classes, rentals, or firing services available to the public. (2026-10-07)"
+    },
+    {
+      "id": "studio-s",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions classes for students, but does not indicate that the public can join, book, or sign up for a firing service or event. (2026-10-07)"
+    },
+    {
+      "id": "s-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes the studio's products but does not mention any opportunities for the public to participate in firings. (2026-10-07)"
+    },
+    {
+      "id": "east-tennessee-historical-society",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes an exhibition about a potter's historical wood-fired ceramics rather than a place where the public can take part in firing pottery. (2026-10-07)"
+    },
+    {
+      "id": "east-tennessee-state-university",
+      "why": "Second check (gemini-3.5-flash-lite): The page describes university courses and student facilities for enrolled students only, with no mention of public access, rentals, or workshops for outsiders. (2026-10-07)"
     }
   ]
 }

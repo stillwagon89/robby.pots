@@ -90,7 +90,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "entradasx.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites the public to a community Raku firing event that offers a hands-on opportunity to participate in the process.",
+        "types": {
+          "raku": "The Arts Lab of South County invites you to a Community Raku Firing event on June 20, 2026, from 11:00 AM to 3:00 PM."
+        }
+      },
+      "lat": 38.78012,
+      "lng": -76.59579
     },
     {
       "id": "madewithclay",
@@ -102,14 +113,14 @@
         "raku",
         "pit_barrel_saggar"
       ],
-      "region": "Maryland",
-      "city": null,
+      "region": "Solomons",
+      "city": "Solomons",
       "urls": [
         "https://madewithclay.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Solomons, Maryland",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://madewithclay.com/"
@@ -130,7 +141,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "madewithclay.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers alternative firing workshops and private lessons at the studio where outsiders can participate in non-electric ceramic firings.",
+        "types": {
+          "raku": "For many years I have focused on Alternative Firing Techniques such as Raku, Naked Raku, and Pit \\ Saggar Firing.",
+          "pit_barrel_saggar": "For many years I have focused on Alternative Firing Techniques such as Raku, Naked Raku, and Pit \\ Saggar Firing."
+        }
+      },
+      "lat": 38.33504,
+      "lng": -76.46257
     },
     {
       "id": "timisaacpottery",
@@ -158,45 +181,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "timisaacpottery.com"
-      }
-    },
-    {
-      "id": "bradley-b-pottery-md",
-      "org": "Bradley B Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Maryland",
-      "city": null,
-      "urls": [
-        "https://www.bradleybirkhimer.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.bradleybirkhimer.com/"
       },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Soda Fire Workshop at Tin Barn Pottery, April and June 2016",
-        "url": "https://www.bradleybirkhimer.com/events/work-shops/",
-        "types": [
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "bradleybirkhimer.com"
-      }
+        "verdict": "yes",
+        "why": "The text explicitly offers one-day and two-day raku pottery workshops and a custom firing day for practicing potters.",
+        "types": {
+          "raku": "Raku firing is an exciting and dramatic way to fire pottery, and I’m happy to share this experience with you!"
+        }
+      },
+      "weak": true
     },
     {
       "id": "the-potters-guild-of-baltimore",
@@ -236,7 +231,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "pottersguild.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions that students have opportunities to fire at regional kilns, but it does not explicitly state that the public can sign up for these firings independently of being a student.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 39.29088,
+      "lng": -76.61076
     },
     {
       "id": "washington-street-studios",
@@ -276,7 +281,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "hfclay.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so no public non-electric ceramic firing can be verified.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "district-clay-center-md",
@@ -316,7 +329,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "canvas.districtclaycenter.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty, so it contains no information about public firing opportunities.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "fox-haven-organic-farm-learning-center",
@@ -354,7 +375,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "foxhavenfarm.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows a public two-part workshop allowing participants to join in a pit-fired pottery experience.",
+        "types": {
+          "pit_barrel_saggar": "Earth to Fire: Foraging Wild Clay & Pit-Fired Pottery [Two-part Workshop] – Fox Haven Organic Farm"
+        }
+      },
+      "lat": 39.41578,
+      "lng": -77.41276
     },
     {
       "id": "virgin-valley-artists-association",
@@ -392,45 +424,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "mesquitefineartscenter.com"
-      }
-    },
-    {
-      "id": "ashton-pottery",
-      "org": "Ashton Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Ashton",
-      "city": "Ashton",
-      "urls": [
-        "https://ashtonpottery.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Ashton, Maryland",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://ashtonpottery.com/"
       },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Visit Ashton Pottery during our December Open House --> A pottery studio where skilled hands, wood fire, and natural materials create functional ceramics",
-        "url": "https://ashtonpottery.com/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "ashtonpottery.com"
-      }
+        "verdict": "yes",
+        "why": "The text invites the public to sign up for a Saggar Firing Workshop for a fee of $75.",
+        "types": {
+          "pit_barrel_saggar": "Saggar Firing Workshop"
+        }
+      },
+      "weak": true
     },
     {
       "id": "baltimore-clayworks-md",
@@ -470,7 +474,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "claystuff.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The page lists 'Kiln Firing Services' as a service offered by Baltimore Clayworks, but it does not specify the type of kiln or firing method used.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 39.29088,
+      "lng": -76.61076
     },
     {
       "id": "annapolis-moms",
@@ -508,73 +522,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "annapolismomsmedia.com"
-      }
-    },
-    {
-      "id": "raku",
-      "org": "Raku",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Bethesda",
-      "city": "Bethesda",
-      "urls": [
-        "https://www.rakuasiandining.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bethesda, Maryland",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.rakuasiandining.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "rakuasiandining.com"
-      }
-    },
-    {
-      "id": "glen-echo-park",
-      "org": "Glen Echo Park",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Maryland",
-      "city": null,
-      "urls": [
-        "https://www.glenechopottery.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.glenechopottery.org/"
+        "verdict": "no",
+        "why": "The page text is empty, so no firing services or details can be verified.",
+        "types": {}
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Students' pieces are fired to cone 10 in a gas reduction kiln.",
-        "url": "https://www.glenechopottery.org/classes.html",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "glenechopottery.org"
-      }
+      "weak": true,
+      "lat": 38.97864,
+      "lng": -76.49279
     },
     {
       "id": "visarts-md",
@@ -585,14 +543,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Maryland",
-      "city": null,
+      "region": "Rockville",
+      "city": "Rockville",
       "urls": [
         "https://www.visartscenter.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Rockville, Maryland",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.visartscenter.org/"
@@ -612,85 +570,44 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "visartscenter.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly states that specialty ceramics workshops, such as raku firings, are offered periodically and are open to participants.",
+        "types": {
+          "raku": "Specialty ceramics workshops, such as raku firings, intensive boot camps, and specialized glazing sessions, are offered periodically throughout the year."
+        }
+      },
+      "lat": 39.0818,
+      "lng": -77.15168
+    }
+  ],
+  "_removed": [
+    {
+      "id": "bradley-b-pottery-md",
+      "why": "Second check (gemini-3.5-flash-lite): page says state is VA, not MD (2026-10-07)"
+    },
+    {
+      "id": "ashton-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions wood-fired kilns and open houses, but it does not state that the public can participate in, book, rent, or sign up for a firing service, workshop, or class. (2026-10-07)"
+    },
+    {
+      "id": "raku",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes a restaurant named Raku and does not mention any ceramic firing services or workshops available to the public. (2026-10-07)"
+    },
+    {
+      "id": "glen-echo-park",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions gas reduction firings, but they are exclusively for enrolled students and members who meet strict prerequisites rather than the general public. (2026-10-07)"
     },
     {
       "id": "amused-studios",
-      "org": "Amused Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
-      ],
-      "region": "Fruitland",
-      "city": "Fruitland",
-      "urls": [
-        "https://www.amusedstudios.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fruitland, Maryland",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.amusedstudios.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Rob's focus has been on throwing classic bulbous forms and using Saggar firing techniques which he experimented with to create his own unique process and recipe. Robbie likes to channel his inner archeologist creating bottles that look like they could have been used by our ancient ancestors. He burnishes the clay until it shines then finishes with a subtle sparkle slip on the surface. Choosing to then low fire the work with techniques like acid wash saggar to create red mottled surfaces and horse hair and feather raku for a dramatic black and white finish.",
-        "url": "https://www.amusedstudios.com/sarah--robbie",
-        "types": [
-          "raku",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "amusedstudios.com"
-      }
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions saggar and raku techniques used by the artists, but does not state that the public can take part in or book such firings. (2026-10-07)"
     },
     {
       "id": "clayworks-supplies",
-      "org": "Clayworks Supplies",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Maryland",
-      "city": null,
-      "urls": [
-        "https://clayworkssupplies.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://clayworkssupplies.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Baltimore – Kiln Basics Sunday October 11th 2026",
-        "url": "https://clayworkssupplies.com/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "clayworkssupplies.com"
-      }
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions kiln workshops for basics and repair, but does not offer any public firing services or workshops for raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firing. (2026-10-07)"
     }
   ]
 }

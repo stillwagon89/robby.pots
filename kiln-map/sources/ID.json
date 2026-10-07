@@ -53,7 +53,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "meetup.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites participants to a 2-part workshop where they will make pieces to fire using Raku processing.",
+        "types": {
+          "raku": "Each participant will make several pieces to fire in multiple Raku processing like reduction glazing or Feather and horse hair raku."
+        }
+      },
+      "weak": true
     },
     {
       "id": "art-source-gallery",
@@ -64,14 +74,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Idaho",
-      "city": null,
+      "region": "Boise",
+      "city": "Boise",
       "urls": [
         "https://www.artsourcegallery.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Boise, Idaho",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.artsourcegallery.com/"
@@ -81,7 +91,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "artsourcegallery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The page text mentions workshops open to participants for raku firing at a specified studio address.",
+        "types": {
+          "raku": "This intensive three-weekend workshop introduces students to the fundamentals of raku firingcombined with expressive hand-building techniques."
+        },
+        "street": "2800 N. Lancaster Drive"
+      },
+      "lat": 43.61662,
+      "lng": -116.20089
     },
     {
       "id": "ceramica-arthouse",
@@ -119,83 +141,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "ceramicaboise.com"
-      }
-    },
-    {
-      "id": "n-a",
-      "org": "N/A",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Idaho",
-      "city": null,
-      "urls": [
-        "https://www.byui.edu/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.byui.edu/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "During the workshops, participants learn to process their own clay, form their hand-built pottery and learn to create natural mineral paints. They learn how to fire their work by building a pit fire, a method that can reach up to 2,010 degrees Fahrenheit, which transforms their work into functional ceramics pieces.",
-        "url": "https://www.byui.edu/radio/exploring-ancestral-living-through-primitive-pottery",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "byui.edu"
-      }
-    },
-    {
-      "id": "art-on-the-green-festival",
-      "org": "Art on the Green festival",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Coeur d’Alene",
-      "city": "Coeur d’Alene",
-      "urls": [
-        "https://www.spokesman.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Coeur d’Alene, Idaho",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.spokesman.com/"
+        "verdict": "yes",
+        "why": "The text explicitly states that Jerry will be firing raku pottery in the parking lot in front of Ceramica Arthouse and invites the public to purchase pieces for raku painting and firing.",
+        "types": {
+          "raku": "Jerry will be firing raku pottery in the Vista Village parking lot in front of Ceramica Arthouse from 6-9."
+        }
       },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Dennis “Denny” Young fired pottery in a portable kiln at Coeur d’Alene’s Art on the Green festival for 44 years.",
-        "url": "https://www.spokesman.com/stories/2013/aug/04/art-on-the-green-brings-out-coeur-dalenes/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "spokesman.com"
-      }
+      "lat": 43.61662,
+      "lng": -116.20089
     },
     {
       "id": "sandpoint-ceramics",
@@ -225,45 +182,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "sandpointceramics.com"
-      }
-    },
-    {
-      "id": "weeping-willow-pottery-studio",
-      "org": "Weeping Willow Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Idaho",
-      "city": null,
-      "urls": [
-        "https://www.sandpoint.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.sandpoint.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Send him an email to schedule a studio visit or set up a lesson.",
-        "url": "https://www.sandpoint.com/north-idaho-business-directory/listing-weeping-willow-pottery-studio-jared-orton-3016.html",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "sandpoint.com"
-      }
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 48.27613,
+      "lng": -116.54878
     },
     {
       "id": "boulder-mountain-clayworks",
@@ -303,83 +232,39 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "bouldermtnclay.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 43.68074,
+      "lng": -114.36366
+    }
+  ],
+  "_removed": [
+    {
+      "id": "n-a",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes a university radio article about a pottery workshop taught by an alumnus, but does not provide a way for the public to book, join, or sign up for a firing on this page. (2026-10-07)"
+    },
+    {
+      "id": "art-on-the-green-festival",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes a past demonstration by a specific artist at a festival rather than offering a service, workshop, or membership for the public to participate in firings. (2026-10-07)"
+    },
+    {
+      "id": "weeping-willow-pottery-studio",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions pottery classes and kiln sales but does not specify that any non-electric firing methods are available for public participation. (2026-10-07)"
     },
     {
       "id": "wildwood-pottery",
-      "org": "Wildwood Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Idaho",
-      "city": null,
-      "urls": [
-        "https://wildwoodpottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://wildwoodpottery.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Pit firing makes beautiful pots, but please don't eat or drink out of these!",
-        "url": "https://wildwoodpottery.com/",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "wildwoodpottery.com"
-      }
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions pit firing as a technique used by the studio but does not offer any workshops, rentals, or services for the public to participate in such firings. (2026-10-07)"
     },
     {
       "id": "gledhillpottery",
-      "org": "gledhillpottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Idaho",
-      "city": null,
-      "urls": [
-        "https://gledhillpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://gledhillpottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Since then, many people have participated in firing the kiln.",
-        "url": "https://gledhillpottery.com/anagama.html",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "gledhillpottery.com"
-      }
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions wood-fired and sagger-fired processes and that many people have participated in the past, but it does not state that the general public can currently join, book, or sign up for such firings. (2026-10-07)"
     }
   ]
 }

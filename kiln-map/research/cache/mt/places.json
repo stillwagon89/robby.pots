@@ -47,7 +47,11 @@
       "confidence": "high",
       "reason": "The text advertises a public Raku workshop in Montana on a specific date.",
       "quote_verified": false,
-      "secs": 22
+      "secs": 22,
+      "state_on_page": true,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "montanaharvestmoon.com": {
@@ -122,7 +126,11 @@
       "confidence": "high",
       "reason": "The site advertises a public Raku workshop in Montana.",
       "quote_verified": false,
-      "secs": 25
+      "secs": 25,
+      "state_on_page": true,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "natewinterstudios.com": {
@@ -142,7 +150,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in PA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "moabsunnews.com": {
@@ -181,7 +190,8 @@
       "confidence": "high",
       "reason": "The location is in Utah, not Montana.",
       "quote_verified": true,
-      "secs": 40
+      "secs": 40,
+      "state_on_page": false
     }
   },
   "clayworksinc.org": {
@@ -201,7 +211,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NC",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "theclay.studio": {
@@ -234,7 +245,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in UK",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "eastsidepottery.com": {
@@ -260,7 +272,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IN",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "clayplayarts.com": {
@@ -293,7 +306,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in WI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "facebook.com": {
@@ -411,7 +425,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IN",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "yutangceramics.com": {
@@ -431,7 +446,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IL",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "higherfirestudios.com": {
@@ -451,7 +467,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in CA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "airbnb.com.mt": {
@@ -482,7 +499,8 @@
       "confidence": "high",
       "reason": "The location mentioned is in California, not Montana.",
       "quote_verified": false,
-      "secs": 21
+      "secs": 21,
+      "state_on_page": false
     }
   },
   "featherstoneart.app.neoncrm.com": {
@@ -505,7 +523,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in CT",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "theclaystudioofmissoula.org": {
@@ -602,7 +621,11 @@
       "confidence": "high",
       "reason": "The studio advertises access to wood kilns, indicating public participation is possible.",
       "quote_verified": true,
-      "secs": 22
+      "secs": 22,
+      "state_on_page": false,
+      "supported_types": [
+        "wood"
+      ]
     }
   },
   "missoulaevents.com": {
@@ -653,7 +676,11 @@
       "confidence": "high",
       "reason": "The listing advertises a public wood-firing class in Missoula, Montana.",
       "quote_verified": false,
-      "secs": 23
+      "secs": 23,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
     }
   },
   "whitefishpottery.com": {
@@ -702,7 +729,8 @@
       "confidence": "low",
       "reason": "The page text is unreadable, making it impossible to determine public access.",
       "quote_verified": false,
-      "secs": 22
+      "secs": 22,
+      "state_on_page": true
     }
   },
   "adamahartstudio.org": {
@@ -722,7 +750,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in WI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "rubysclaystudio.org": {
@@ -742,7 +771,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IL",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "commonclayspace.com": {
@@ -762,7 +792,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in MN",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "ceramicinfospot.com": {
@@ -797,7 +828,8 @@
       "confidence": "high",
       "reason": "The text is a guide about anagama firing and does not mention any specific location or public access opportunities in Montana.",
       "quote_verified": false,
-      "secs": 22
+      "secs": 22,
+      "state_on_page": false
     }
   },
   "archiebray.org": {
@@ -878,7 +910,11 @@
       "confidence": "high",
       "reason": "The text describes a multi-week seminar where participants actively participate in loading and firing a soda kiln.",
       "quote_verified": true,
-      "secs": 36
+      "secs": 36,
+      "state_on_page": true,
+      "supported_types": [
+        "soda"
+      ]
     }
   },
   "cobbartandecology.org": {
@@ -898,7 +934,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in CA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "theokidokistudio.com": {
@@ -924,7 +961,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "canvas.kirklandartscenter.org": {
@@ -955,7 +993,8 @@
       "confidence": "high",
       "reason": "The location is in Washington, not Montana.",
       "quote_verified": false,
-      "secs": 29
+      "secs": 29,
+      "state_on_page": false
     }
   },
   "evalyschampagne.com": {
@@ -975,7 +1014,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "newprospectpottery.com": {
@@ -999,7 +1039,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "workroommontana.com": {
@@ -1041,7 +1082,8 @@
       "confidence": "low",
       "reason": "The text mentions kiln firing but does not specify if the public can book or attend a non-electric firing.",
       "quote_verified": false,
-      "secs": 28
+      "secs": 28,
+      "state_on_page": true
     }
   },
   "stumptownartstudio.org": {
@@ -1105,7 +1147,7 @@
       "name": "Stumptown Art Studio",
       "city": "Whitefish",
       "state": "MT",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "gas_reduction"
@@ -1113,9 +1155,11 @@
       "quote": "The Clay Studio offers classes, open studio hours, events, firing opportunities and more available to everyone from beginners to professional potters.",
       "dates": [],
       "confidence": "high",
-      "reason": "The studio offers general firing opportunities to the public.",
+      "reason": "The studio offers general firing opportunities to the public. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 26
+      "secs": 26,
+      "state_on_page": false,
+      "supported_types": []
     }
   },
   "tinworksart.org": {
@@ -1148,7 +1192,7 @@
       "name": "Tinworks Art",
       "city": "",
       "state": "",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "dated_events",
       "firing_types": [
         "wood"
@@ -1158,9 +1202,13 @@
         "October 11, 2025"
       ],
       "confidence": "high",
-      "reason": "The text describes a workshop involving a wood-fired kiln event open to participants.",
+      "reason": "The text describes a workshop involving a wood-fired kiln event open to participants. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 33
+      "secs": 33,
+      "state_on_page": false,
+      "supported_types": [
+        "wood"
+      ]
     }
   },
   "montanafirepits.com": {
@@ -1186,7 +1234,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "lemoyne.org": {
@@ -1206,7 +1255,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in FL",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "oribefiring.com": {
@@ -1239,7 +1289,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in CA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "montanahardscapes.com": {
@@ -1263,7 +1314,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "taoofclay.com": {
@@ -1283,7 +1335,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NV",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "ceramicreview.com": {
@@ -1309,7 +1362,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in WI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "bckstudio.com": {
@@ -1382,7 +1436,7 @@
       "name": "Bozeman Community Kiln",
       "city": "Bozeman",
       "state": "MT",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "gas_reduction"
@@ -1390,9 +1444,11 @@
       "quote": "Clay, glazes, firing, and basic tools are included",
       "dates": [],
       "confidence": "high",
-      "reason": "The studio offers memberships and classes that include firing services.",
+      "reason": "The studio offers memberships and classes that include firing services. [gate: quote names no specific non-electric firing]",
       "quote_verified": false,
-      "secs": 32
+      "secs": 32,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "teachinart.com": {
@@ -1432,7 +1488,13 @@
       "confidence": "high",
       "reason": "The site offers online workshops covering multiple non-electric firings, and one page mentions a Raku piece from Montana.",
       "quote_verified": true,
-      "secs": 36
+      "secs": 36,
+      "state_on_page": true,
+      "supported_types": [
+        "raku",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ]
     }
   },
   "dnrc.mt.gov": {
@@ -1467,7 +1529,8 @@
       "confidence": "high",
       "reason": "The website is a state government resource, not a pottery studio offering firings.",
       "quote_verified": false,
-      "secs": 31
+      "secs": 31,
+      "state_on_page": true
     }
   },
   "ceramicartsnetwork.org": {
@@ -1500,7 +1563,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in OH",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "classcentral.com": {
@@ -1534,7 +1598,8 @@
       "confidence": "high",
       "reason": "The website only offers online courses and does not confirm any physical firing opportunities in Montana.",
       "quote_verified": false,
-      "secs": 22
+      "secs": 22,
+      "state_on_page": false
     }
   },
   "youtube.com": {
@@ -1583,7 +1648,8 @@
       "confidence": "high",
       "reason": "The page discusses general pottery classes and does not mention any specific firing services available to the public in Montana.",
       "quote_verified": false,
-      "secs": 44
+      "secs": 44,
+      "state_on_page": false
     }
   },
   "nwcg.gov": {
@@ -1603,7 +1669,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "potterywithapurpose.com": {
@@ -1646,7 +1713,8 @@
       "confidence": "high",
       "reason": "The site only provides a locator and mentions paint-your-own pottery, which is not a qualifying firing type.",
       "quote_verified": false,
-      "secs": 22
+      "secs": 22,
+      "state_on_page": false
     }
   },
   "clay-king.com": {
@@ -1681,7 +1749,8 @@
       "confidence": "low",
       "reason": "The website is an online store and directory for supplies, not a physical location offering public firing services.",
       "quote_verified": false,
-      "secs": 39
+      "secs": 39,
+      "state_on_page": false
     }
   },
   "kilnfrog.com": {
@@ -1710,7 +1779,8 @@
       "confidence": "high",
       "reason": "The website is a directory for kiln repair technicians, not a place offering public firings.",
       "quote_verified": false,
-      "secs": 20
+      "secs": 20,
+      "state_on_page": false
     }
   },
   "euclids.com": {
@@ -1745,7 +1815,8 @@
       "confidence": "high",
       "reason": "The page is a directory and does not mention public firing opportunities.",
       "quote_verified": false,
-      "secs": 47
+      "secs": 47,
+      "state_on_page": false
     }
   },
   "kilnshare.com": {
@@ -1786,7 +1857,8 @@
       "confidence": "high",
       "reason": "The website is a directory for renting kiln space but does not specify a location in Montana.",
       "quote_verified": true,
-      "secs": 52
+      "secs": 52,
+      "state_on_page": false
     }
   },
   "cursist-courses.com": {
@@ -1821,7 +1893,8 @@
       "confidence": "high",
       "reason": "The page is a directory that requires a location to determine if the service is available to the public.",
       "quote_verified": false,
-      "secs": 26
+      "secs": 26,
+      "state_on_page": false
     }
   },
   "clayartspace.com": {
@@ -1855,7 +1928,8 @@
       "confidence": "high",
       "reason": "The text does not mention the location or the type of firing available to the public.",
       "quote_verified": true,
-      "secs": 26
+      "secs": 26,
+      "state_on_page": false
     }
   },
   "missoulaevents.net": {
@@ -1894,7 +1968,11 @@
       "confidence": "high",
       "reason": "The listing advertises a specific wood firing class in Missoula, Montana.",
       "quote_verified": false,
-      "secs": 25
+      "secs": 25,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
     }
   },
   "staging.destinationmissoula.org": {
@@ -1946,7 +2024,11 @@
       "confidence": "high",
       "reason": "The text describes a paid, scheduled wood-firing event open to paying participants.",
       "quote_verified": true,
-      "secs": 56
+      "secs": 56,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
     }
   },
   "workaway.info": {
@@ -1971,7 +2053,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "instagram.com": {
@@ -2036,7 +2119,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in MD",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "potterylist.com": {
@@ -2119,7 +2203,8 @@
       "confidence": "low",
       "reason": "The text mentions a residency program but does not confirm public access to firing.",
       "quote_verified": false,
-      "secs": 29
+      "secs": 29,
+      "state_on_page": true
     }
   },
   "destinationmissoula.org": {
@@ -2156,7 +2241,11 @@
       "confidence": "high",
       "reason": "The text explicitly mentions joining a raku firing session for the public.",
       "quote_verified": true,
-      "secs": 28
+      "secs": 28,
+      "state_on_page": true,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "theclaystudioofmissoula.app.neoncrm.com": {
@@ -2225,7 +2314,12 @@
       "confidence": "high",
       "reason": "The text describes classes involving both wood firing and Raku firing for students.",
       "quote_verified": true,
-      "secs": 48
+      "secs": 48,
+      "state_on_page": false,
+      "supported_types": [
+        "wood",
+        "raku"
+      ]
     }
   },
   "throwceramics.com": {
@@ -2267,7 +2361,8 @@
       "confidence": "high",
       "reason": "The studio only mentions using electric kilns.",
       "quote_verified": false,
-      "secs": 24
+      "secs": 24,
+      "state_on_page": true
     }
   },
   "artsmissoula.org": {
@@ -2294,7 +2389,7 @@
       "name": "The Clay Studio of Missoula",
       "city": "Missoula",
       "state": "MT",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "wood",
@@ -2304,9 +2399,11 @@
       "quote": "Our membership program provides an entryway to access to professional quality equipment, studio space, and kiln firings.",
       "dates": [],
       "confidence": "high",
-      "reason": "The membership provides access to kiln firings, suggesting public participation is possible.",
+      "reason": "The membership provides access to kiln firings, suggesting public participation is possible. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 28
+      "secs": 28,
+      "state_on_page": false,
+      "supported_types": []
     }
   },
   "communitypottery.org": {
@@ -2369,7 +2466,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IN",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "volunteermissoula.org": {
@@ -2395,7 +2493,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "clayartsguildofhelena.com": {
@@ -2462,7 +2561,11 @@
       "confidence": "high",
       "reason": "The guild offers a raku kiln and has a membership structure that suggests public access to firing services.",
       "quote_verified": true,
-      "secs": 29
+      "secs": 29,
+      "state_on_page": false,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "ebay.com": {
@@ -2491,7 +2594,8 @@
       "confidence": "high",
       "reason": "The listing is from eBay and does not describe a physical firing event in Montana.",
       "quote_verified": false,
-      "secs": 18
+      "secs": 18,
+      "state_on_page": false
     }
   },
   "jmacspottery.com": {
@@ -2511,7 +2615,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "montanaclaytour.com": {
@@ -2539,7 +2644,24 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Montana Clay Tour",
+      "city": "Helena",
+      "state": "MT",
+      "decision": "unclear",
+      "access": "none",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "The text mentions wood firing but does not specify if the public can participate.",
+      "quote_verified": false,
+      "secs": 47,
+      "state_on_page": true
+    }
   },
   "petersvalley.org": {
     "key": "petersvalley.org",
@@ -2558,7 +2680,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NJ",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "montanaclay.org": {
@@ -2608,7 +2731,27 @@
       "https://montanaclay.org/clay-classes-studios/": "Art Centers, Schools, Events, Museums and Organizations that support education about ceramics and art in Montana.\nBozeman Community Kiln\nClay Arts Guild of Helena\nEmerson Center for the Arts & Culture\n",
       "https://montanaclay.org/artist-in-residence/": ""
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Montana Clay",
+      "city": "",
+      "state": "",
+      "decision": "unclear",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "Art Centers, Organizations & Schools - Montana Clay: Places that support and / or promote ceramics and art, and provide education and opportunities to local communities in the state of Montana.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The site lists multiple locations and events in Montana that support ceramics, including wood kiln mentions. [gate: quote names no specific non-electric firing]",
+      "quote_verified": false,
+      "secs": 23,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
+    }
   },
   "themudhole406.com": {
     "key": "themudhole406.com",
@@ -2645,7 +2788,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "thepotterystudio.com": {
@@ -2683,7 +2827,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "thepotteryden.com": {
@@ -2729,7 +2874,25 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "The Pottery Den",
+      "city": "Bozeman",
+      "state": "MT",
+      "decision": "unclear",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "Inside a Bozeman Community Kiln - The Pottery Den: How a community kiln works and why it matters for ceramics in Bozeman, MT. Inside the firing process at The Pottery Den studio.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The studio is located in Montana and offers community kiln access through classes or membership. [gate: quote names no specific non-electric firing]",
+      "quote_verified": false,
+      "secs": 32,
+      "state_on_page": true,
+      "supported_types": []
+    }
   },
   "freighttrainceramics.com": {
     "key": "freighttrainceramics.com",
@@ -2746,7 +2909,29 @@
     "pages": {
       "https://freighttrainceramics.com/": "Handcrafted Wood-fired Ceramics | Freight Train Ceramics\nHOME\nGALLERY\nFreight Train Ceramics Freight Train Ceramics Freight Train Ceramics\nWood-fired ceramics using Montana materials.\nABOUT US\nFreight Train Ceramics\nMaterials\nMy ceramics is wood-fired and uses local Montana materials such as rhyolite and granite. The local materials make the work truly Montanan and pay homage to a long line of ceramic artists who came before me.\nAbout the Artist\nMiles Heespelink is a woodfire ceramic artist based in Bozeman, Montana. His work draws inspiration from traditional Japanese pottery, Peter Voulkus, Josh DeWeese, and many other sources.\nVideo\nChubby Train Kiln 2024\nProcess video\nEdited by Sean O'Neill\nArtist statement\nI am interested in the fusion of wild ceramic materials with different types of wood ash and the surface that is created in the variable atmosphere of a wood kiln. Many of my forms are made to collect ash and show the path of the flame in the kiln while referencing ideas of bottles, baskets, or buckets.\nWe use a different mix of cottonwood, ash, elm, aspen, fir, or maple wood for each firing. Different woods have different types of ash effects due to their salt and potassium content, varying from species to species and from where in the tree the wood comes from.\nFor 4 days ash accumulates on pots with the temperatures reaching over 2300° F, melting the ash and creating a glaze that is unique to that firing. After a long 4 days of putting wood in the kiln, the excitement and anticipation of the unloading starts to grow. Hundreds of vessels, sculptures, and experiments are cooling as a dedicated crew waits patiently in anticipation of the unloading. It’s like Christmas.\n2026 Participant - SLAM Summer Festival at Bogert Park, Bozeman, MT\n2026 Participant - Big Sky Arts Festival - Lone Peak Drive, Town Center, Big Sky, MT\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Freight Train Ceramics",
+      "city": "Bozeman",
+      "state": "MT",
+      "decision": "qualifies",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "Wood-fired ceramics using Montana materials.",
+      "dates": [
+        "2026"
+      ],
+      "confidence": "high",
+      "reason": "The artist is based in Montana and uses wood-fired techniques, suggesting public engagement through festival participation.",
+      "quote_verified": true,
+      "secs": 34,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
+    }
   },
   "northridgeceramics.com": {
     "key": "northridgeceramics.com",
@@ -2764,7 +2949,24 @@
       "https://www.northridgeceramics.com/": "Artisan Made Tile\nWhat started as a love of process and experimentation creating wood-fired ceramics led to the development of an innovative, individual method of crafting handmade ceramic tile. The purpose is to produce high quality, small batch tiles for installation, sharing functional art that people can enjoy in their\nown homes in their daily lives. Through extensive research and testing I have developed a unique process for producing tile that involves hand built tools and is hands on from start to finish. This means that I can truly value the craft and have artistic care evident through every step of the tile creation. I am\nplacing an emphasis on exploring local materials for glazes. Montana has a rich history with clay and ceramics, and I want to honor the unique geology of the region and the artistic craft it has inspired. I also take inspiration from architecture and high art to envision original interior spaces built with my tile that\nClay works by Christopher Bieniek\nAbout NRC\nNorth Ridge Ceramics is a custom ceramics studio based in Bozeman, Montana. For more information on custom orders, please fill out the contact form.\n",
       "https://www.northridgeceramics.com/services": ""
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "North Ridge Ceramics",
+      "city": "Bozeman",
+      "state": "MT",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The website describes the studio's process but does not list any public firing events or classes.",
+      "quote_verified": false,
+      "secs": 36,
+      "state_on_page": true
+    }
   },
   "kilnfire.com": {
     "key": "kilnfire.com",
@@ -2783,7 +2985,22 @@
       "https://kilnfire.com/pottery-classes": "Find Local Pottery Classes In Your Area - Kiln Fire\nOpen main menu\nFeatures\n1 Studios With Classes\nOther Kiln Fire Studios - US\n23 Studios With Classes\nOther Kiln Fire Studios - Outside US\n19 Studios With Classes\nCookie Policy\n&copy;2026 Kiln Fire, Inc. All rights reserved.\n",
       "https://kilnfire.com/pottery-classes/bozeman": "Bozeman, MT Pottery Classes - Kiln Fire\nOpen main menu\nFeatures\nBozeman, MT Pottery Classes\nWelcome to the Kiln Fire pottery class directory: unleash your creativity in Bozeman, MT, MT ! If you're a passionate art lover or simply curious about exploring the world of pottery, you've come to the right place. Our directory brings together a diverse selection of pottery studios in the Bozeman, MT metro area, each offering unique and exciting classes to cater to every aspiring ceramic artist.\nWhether you're an absolute beginner seeking to discover the basics of pottery or an experienced potter looking to refine your skills, our directory showcases a wide array of classes to suit your needs. From throwing on the wheel to hand-building intricate designs, you'll find an assortment of techniques and styles waiting to be explored.\nBozeman, MT is a thriving hub for art and creativity, and the pottery scene is no exception. Each ceramics studio is dedicated to craftsmanship, expert instructors, and a welcoming environment. Discover a nurturing space where you can immerse yourself in clay , connect with fellow enthusiasts in Montana, and find inspiration in the art of pottery.\nClasses\nBozeman Community Kiln\n608 Griffin Dr Unit A\nBozeman MT 59715\nPottery Studio Management Software\nKiln Fire is new kind of software specifically designed for pottery studios to manage firing fees, memberships, supply purchases, classes, and more. Owners and members alike love it.\nCheck out Kiln Fire\nCities with Pottery Classes\nCookie Policy\n&copy;2026 Kiln Fire, Inc. All rights reserved.\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Bozeman Community Kiln",
+      "city": "Bozeman",
+      "state": "MT",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The page only lists the studio as a potential location for classes and does not confirm public access to firing services.",
+      "quote_verified": false,
+      "secs": 31,
+      "state_on_page": true
+    }
   },
   "bozemanclayatelier.com": {
     "key": "bozemanclayatelier.com",
@@ -2798,7 +3015,29 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Clay Atelier",
+      "city": "Bozeman",
+      "state": "MT",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "wood",
+        "raku",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The page only mentions studio rental for tools and a kiln, but does not specify if the kiln firing itself is available to the public.",
+      "quote_verified": false,
+      "secs": 19,
+      "state_on_page": false
+    }
   },
   "my.ceramicmaterialsworkshop.com": {
     "key": "my.ceramicmaterialsworkshop.com",
@@ -2826,7 +3065,22 @@
       "https://my.ceramicmaterialsworkshop.com/studios/the-pottery-den-bozeman-mt": "♨ Facilities\nNot provided yet — the owner can publish kilns, equipment and work areas after claiming.\nAbout this listing\nVerification Unclaimed · source details not confirmed by the owner\nFix a flaw\nKiln Log\nPlaster calculator\nLearn\n",
       "https://my.ceramicmaterialsworkshop.com/studios/candi-s-art-and-party-billings-mt": "♨ Facilities\nNot provided yet — the owner can publish kilns, equipment and work areas after claiming.\nAbout this listing\nVerification Unclaimed · source details not confirmed by the owner\nFix a flaw\nKiln Log\nPlaster calculator\nLearn\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "The Pottery Den",
+      "city": "Bozeman",
+      "state": "MT",
+      "decision": "unclear",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "The page lists facilities but does not confirm public access to any specific firing type.",
+      "quote_verified": false,
+      "secs": 24,
+      "state_on_page": true
+    }
   },
   "fireholepottery.com": {
     "key": "fireholepottery.com",
@@ -2844,7 +3098,24 @@
       "https://fireholepottery.com/": "My Specialties\nWhere to Find My Work\nCurrently , my work is available at my FIRE HOLE POTTERY GALLERY, 4069 Linney Road, Bozeman, Montana (not far from the airport). Call ahead at 406-388-1943 or email: fireholepottery@gmail.com .\n",
       "https://fireholepottery.com/lessons": "Stoneware made by students.\nHome\nTO ORDER\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Fire Hole Pottery",
+      "city": "Bozeman",
+      "state": "MT",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "gas_reduction"
+      ],
+      "quote": "Lessons include clay, the initial bisque firing, and instruction on glazing the finished pottery to be fired in the high fire gas kiln.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text only mentions lessons that include firing in a gas kiln, which is not explicitly stated as open to the public for participation.",
+      "quote_verified": true,
+      "secs": 20,
+      "state_on_page": true
+    }
   },
   "downtownbozeman.org": {
     "key": "downtownbozeman.org",
@@ -2869,7 +3140,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "ohanaceramics.com": {
@@ -2907,7 +3179,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "msubillings.edu": {
@@ -2935,7 +3208,35 @@
       "https://www.msubillings.edu/trio/sss/index.htm": "",
       "https://www.msubillings.edu/class/art/ceramics.htm": "carefully and discuss one another’s work. Advanced students have the opportunity to\ndevelop their own glazes, as well as help design and build kilns. Various firing processes\navailable in the Ceramics lab include: reduction stoneware, raku, soda, woodfire,\nsaggar, and oxidation.\nMontana has a thriving ceramics community which provides additional resources through\nthe Red Lodge Clay Center, the Archie Bray foundation and The Clay Studio of Missoula.\nkick wheels.\nIndoor kiln room with three Skutt electric kilns and a gas updraft kiln.\nOutdoor kiln pad with large raku kiln, and Soda kiln with mobile wood kiln and small\nraku kiln.\nClay making area with state-of-the-art large and small Soldner mixers, and Venco pugmill.\nSlip casting and mold making area.\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "MSU Billings",
+      "city": "",
+      "state": "MT",
+      "decision": "qualifies",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "raku",
+        "soda",
+        "wood",
+        "soda",
+        "pit_barrel_saggar"
+      ],
+      "quote": "Various firing processes available in the Ceramics lab include: reduction stoneware, raku, soda, woodfire, saggar, and oxidation.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text lists various non-electric firing processes available in the lab.",
+      "quote_verified": true,
+      "secs": 24,
+      "state_on_page": true,
+      "supported_types": [
+        "raku",
+        "soda",
+        "wood",
+        "soda",
+        "pit_barrel_saggar"
+      ]
+    }
   },
   "yelp.com": {
     "key": "yelp.com",
@@ -2998,7 +3299,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "billingspottery.com": {
@@ -3026,7 +3328,25 @@
       "https://billingspottery.com/clay-parties": "* Your creations will stay in the studio at the end of the workshop, to be dried and finished. There will be a default glaze colour applied (an alternate may be chosen for a $5 fee per piece). Your group leader may pick-up your finished projects at a later date. Unfortunately, we cannot guarantee the quality and/or serviceability of fired work.\n*Cost includes everything you need. All clay, materials, and use of apron and tools at the event. Also covers the next fine-tuning steps, 2 kiln firings, glazing, and finishing of your creations.\n* Private Group Rates:\n1 - 3 People: $300 + hst\n",
       "https://billingspottery.com/classes-1/": ""
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Megan Billings Pottery",
+      "city": "",
+      "state": "MT",
+      "decision": "unclear",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "other"
+      ],
+      "quote": "Also covers the next fine-tuning steps, 2 kiln firings, glazing, and finishing of your creations.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The site advertises workshops that include kiln firings for paying groups. [gate: quote names no specific non-electric firing]",
+      "quote_verified": true,
+      "secs": 23,
+      "state_on_page": false,
+      "supported_types": []
+    }
   },
   "hiddenmt.com": {
     "key": "hiddenmt.com",
@@ -3047,7 +3367,22 @@
       "https://hiddenmt.com/lewistown-central-montana-events": "",
       "https://hiddenmt.com/paint-your-own-pottery": "Paint your own Pottery\nLooking for a creative outlet for any skill level? Dive into the Art Center's D-I-Y Studio for a Paint Your Own Pottery session! Choose from our wide selection of bisque ceramic dishes and decor. We'll provide all the instructions, glaze, tools and in-house kiln firing...you just bring your imagination! No registration required, but please give us advance notice if you’re bringing a group.\nKids are more than welcome to participate! Please note that this is an unsupervised program, and younger artists who may need supervision should be accompanied by an older companion.\nlocation_on\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Art Center",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "Paint your own Pottery - hiddenmt.com: We'll provide all the instructions, glaze, tools and in-house kiln firing...you just bring your imagination! No registration required, but please give us advance notice if you’re bringing a group. Kids are more than welcome to participate!",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text describes 'Paint Your Own Pottery' which is not a non-electric firing.",
+      "quote_verified": false,
+      "secs": 27,
+      "state_on_page": false
+    }
   },
   "artescaperetreat.com": {
     "key": "artescaperetreat.com",
@@ -3117,7 +3452,25 @@
       "https://artescaperetreat.com/art-escape-pottery-studio/": "To make it easier, we bought a lot of helpful equipment including…\nA fancy big kiln\n7 pottery wheels. Enough to use ourselves and to give pottery classes\nExtruder with tons of templates\nExtruder with a ton of templates\nBig electric kiln\nUnderglazes of every color\nFully stocked glaze room\n",
       "https://artescaperetreat.com/potteryworkshops/": "Learn how to carve practically anything on a pot or flat piece of clay. We’ll provide a variety of pots and surfaces to carve your first masterpiece.\nNOTE : All carved pieces will be clear glazed by us and we’ll let you know when they are ready for pickup or shipping (we have to wait until we have a full kiln load to run a glaze firing).\nWorkshop Limit : 6 people\nAges : 15 and up.\nCOST : $125 per person (includes pot/clay of your choice, paint for painting and both firings).\nCALL US to schedule your personal workshop at 805-637-7888 or 406-260-1559\nBook Workshop Here!\nIn this 2-3 hour pottery workshop, you’ll learn how to make a hand-made ceramic box with us! In this workshop you will take a slab of clay and transform it into something you can use for years to come. You will learn techniques to bring the clay together and manipulate the clay to make it into a lidded box, along with all the fun that comes with working with clay!\nNOTE : All pieces will be clear glazed by us and we’ll let you know when they are ready for pickup or shipping (we have to wait until we have a full kiln load to run a glaze firing).\nWorkshop Limit : 6 partcipants\nAges : 10 and up with parent\nIn this 2-3 hour pottery workshop, you’ll learn how to make a hand-made gnome you can put in the garden (or whereever) for good luck! You’ll begin with a flat slab of clay and transform it into the cutes gnome you can think of.\nYou’ll begin with a flat slab of clay and transform it into a beautiful hand-built piece of pottery you can cherish for the rest of your life.\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Art Escape Pottery Studio",
+      "city": "",
+      "state": "",
+      "decision": "unclear",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "other"
+      ],
+      "quote": "NOTE : All carved pieces will be clear glazed by us and we’ll let you know when they are ready for pickup or shipping (we have to wait until we have a full kiln load to run a glaze firing).",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The site offers workshops that include firing services, which are not specified as electric-only. [gate: quote names no specific non-electric firing]",
+      "quote_verified": true,
+      "secs": 35,
+      "state_on_page": true,
+      "supported_types": []
+    }
   },
   "ponderosapottery.com": {
     "key": "ponderosapottery.com",
@@ -3158,7 +3511,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "dailyinterlake.com": {
@@ -3180,7 +3534,25 @@
       "https://dailyinterlake.com/news/local-events-podcast/": "",
       "https://dailyinterlake.com/news/2023/mar/26/ponderosa-pottery-provides-space-creativity/": "The studio opened in mid-January and has already hosted several workshops, lessons, and open studio access for more experienced potters. In addition, handprint/footprint making workshops are available for new parents, families, and even pet parents.\n“Lessons are across five weeks so students get a deeper understanding of the clay, glaze, and firing schedules and by the end, they’ll have a fired piece that they made. In lessons, students can actually fire their piece in a kiln offsite whereas in the workshops students can throw, but we end up glazing it,” Shepard explained.\nDuring the process, students make pieces which turn into “greenware,” according to Shepard. When the piece dries, it goes into the kiln for the first firing, and it becomes “bisqueware”. Students then glaze their pieces, decorate them, and put it back into the kiln for 12 hours at 2,200 degrees Fahrenheit. After this process, students will have their final product.\nAll workshops and lessons are designed to include as many people as possible and have unique classes for date nights, seniors, families, and for locals or tourists to make Montana state decorations.\n“I want to hit a big demographic of people from toddlers up to seniors and make them feel included and create a fun environment to make art. When you’re making pottery, it can be funny sometimes so we just want people to be having fun and laughing and give them the space to do that,” said Shepard.\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Ponderosa Pottery",
+      "city": "Kalispell",
+      "state": "MT",
+      "decision": "unclear",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "gas_reduction"
+      ],
+      "quote": "Lessons are across five weeks so students get a deeper understanding of the clay, glaze, and firing schedules and by the end, they’ll have a fired piece that they made.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text mentions lessons that include firing schedules and the ability to fire pieces. [gate: quote names no specific non-electric firing]",
+      "quote_verified": true,
+      "secs": 29,
+      "state_on_page": true,
+      "supported_types": []
+    }
   },
   "montanamodernfineart.com": {
     "key": "montanamodernfineart.com",
@@ -3195,7 +3567,24 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "N/A",
+      "city": "Kalispell",
+      "state": "MT",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "raku"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "The page has no readable text to confirm current public access.",
+      "quote_verified": false,
+      "secs": 23,
+      "state_on_page": true
+    }
   },
   "clayandkilnstudio.com": {
     "key": "clayandkilnstudio.com",
@@ -3214,7 +3603,22 @@
       "https://www.clayandkilnstudio.com/workshops": "Workshops | Clay and Kiln Studio\nSkip to main content Our Studio\nVisit\nLet's paint\nThere's always something new in the kiln.\nFrom seasonal suncatchers to one-off craft nights, our workshop line-up changes with the calendar. Tickets are released regularly and seats fill quickly — follow along to catch the next one.\nBrowse all workshops Follow on Instagram\nPlan Your Visit 646-661-1171\nClay and Kiln Studio\nAn all-inclusive pottery painting studio in Staten Island. Established 2020 in West Brighton , Staten Island .\nExplore\nSunday 11am – 6pm\n© 2026 Clay and Kiln Studio . All rights reserved. Made by Novus\nCall Hours Workshops\n",
       "https://www.clayandkilnstudio.com/parties": "Parties & Events | Clay and Kiln Studio\nSkip to main content Our Studio\nVisit\nSend Inquiry Please allow 48 hours for a response.\nClay and Kiln Studio\nAn all-inclusive pottery painting studio in Staten Island. Established 2020 in West Brighton , Staten Island .\nExplore\nSunday 11am – 6pm\n© 2026 Clay and Kiln Studio . All rights reserved. Made by Novus\nCall Hours Workshops\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Clay and Kiln Studio",
+      "city": "Staten Island",
+      "state": "NY",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "Clay and Kiln Studio | Pottery Painting in Staten Island, NY",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The studio is located in New York, not Montana, and only offers painting services.",
+      "quote_verified": true,
+      "secs": 29,
+      "state_on_page": false
+    }
   },
   "joannagriffinpottery.com": {
     "key": "joannagriffinpottery.com",
@@ -3231,7 +3635,29 @@
     "pages": {
       "http://joannagriffinpottery.com/": "with an underglaze palette of spontaneous color, is\nwheel thrown and f ired in an electric kiln and all\npieces are 100% food safe, dishwasher safe, and\nmicrowaveable. Please call me directly or email me\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Joanna Griffin Pottery",
+      "city": "Kalispell",
+      "state": "MT",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "wood",
+        "raku",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "quote": "wheel thrown and f ired in an electric kiln",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The kiln used is electric, which is not allowed.",
+      "quote_verified": true,
+      "secs": 26,
+      "state_on_page": true
+    }
   },
   "homemade.education": {
     "key": "homemade.education",
@@ -3250,7 +3676,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in VT",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "marianwilliamspottery.com": {
@@ -3275,7 +3702,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in TX",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "chamberofcommerce.com": {
@@ -3297,7 +3725,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "finnicumpottery.com": {
@@ -3317,7 +3746,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "greatfallsstudios.com": {
@@ -3333,7 +3763,25 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "greatfallsstudios",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "raku",
+        "wood"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "The page text is not available to confirm public access to non-electric firings.",
+      "quote_verified": false,
+      "secs": 21,
+      "state_on_page": false
+    }
   },
   "the-square.org": {
     "key": "the-square.org",
@@ -3360,7 +3808,27 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Paris Gibson Square Museum of Art",
+      "city": "Great Falls",
+      "state": "MT",
+      "decision": "unclear",
+      "access": "none",
+      "firing_types": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "quote": "Options for participation include classes, public/private workshops, open studio, and kiln firing services for regional artists and organizations.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The museum offers public workshops and firing services in Great Falls, Montana. [gate: quote names no specific non-electric firing]",
+      "quote_verified": true,
+      "secs": 25,
+      "state_on_page": false,
+      "supported_types": []
+    }
   },
   "greatwheelstudio.kilnfire.com": {
     "key": "greatwheelstudio.kilnfire.com",
@@ -3385,7 +3853,27 @@
       "https://greatwheelstudio.kilnfire.com/classes/pottery-class": "",
       "https://greatwheelstudio.kilnfire.com/classes/intro-to-pottery-one-night-workshop": ""
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Great Wheel Studio",
+      "city": "",
+      "state": "",
+      "decision": "unclear",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "quote": "Tuition includes a generous firing allowance intended to support regular class work.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The studio offers classes that include firing allowances, suggesting public access to firing services. [gate: quote names no specific non-electric firing]",
+      "quote_verified": true,
+      "secs": 18,
+      "state_on_page": false,
+      "supported_types": []
+    }
   },
   "brushcrazy.com": {
     "key": "brushcrazy.com",
@@ -3413,7 +3901,25 @@
       "https://brushcrazy.com/locations/great-falls-mt/workshop/1036": "",
       "https://brushcrazy.com/locations/great-falls-mt/workshop/1989": ""
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Brush Crazy",
+      "city": "Great Falls",
+      "state": "MT",
+      "decision": "unclear",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "We have a system for this! You will be issued a project ticket to accompany your project, and in the event your chosen art project needs a little extra TLC to reach that point of finished—we'll take care of the kiln firing and you'll receive prompt notification when it's complete!",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The site mentions kiln firing services for projects left at the studio. [gate: quote names no specific non-electric firing]",
+      "quote_verified": true,
+      "secs": 21,
+      "state_on_page": true,
+      "supported_types": []
+    }
   },
   "findapotteryclass.com": {
     "key": "findapotteryclass.com",
@@ -3443,7 +3949,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "burnoutpotterystudio.com": {
@@ -3459,7 +3966,29 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Burnout Pottery Studio",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "wood",
+        "raku",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The studio is founded in 2026, which is after the cutoff date.",
+      "quote_verified": false,
+      "secs": 23,
+      "state_on_page": false
+    }
   },
   "cone10.ca": {
     "key": "cone10.ca",
@@ -3478,7 +4007,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "potteryteachers.com": {
@@ -3498,7 +4028,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in AZ",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "art-escape-pottery-studio-pottery-lessons-workshops.wheree.com": {
@@ -3524,7 +4055,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "explorewhitefish.com": {
@@ -3546,7 +4078,25 @@
       "https://explorewhitefish.com/professional-services": "",
       "https://explorewhitefish.com/entries/stumptown-art-studio/12f7bcf4-ca0c-4652-bac8-364e7447cdbd": ""
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Stumptown Art Studio",
+      "city": "Whitefish",
+      "state": "MT",
+      "decision": "unclear",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "Your projects will be fired in our kilns and ready approximatley one week later.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The studio offers firing services for visiting guests. [gate: quote names no specific non-electric firing]",
+      "quote_verified": true,
+      "secs": 21,
+      "state_on_page": true,
+      "supported_types": []
+    }
   },
   "flatheadevents.net": {
     "key": "flatheadevents.net",
@@ -3561,7 +4111,27 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Stumptown Clay Studio",
+      "city": "Whitefish",
+      "state": "MT",
+      "decision": "unclear",
+      "access": "dated_events",
+      "firing_types": [
+        "other"
+      ],
+      "quote": "Clay Skills Workshop - Glazing 08/23/2025 Whitefish, Montana ...: Aug 23, 2025 · Bring-your-own cone 6/midfire bisqueware to this glazing class/work session! We will cover basic dip-glaze application methods, how to read a glaze test, specifics about our Stumptown Clay Studio glazes, and considerations for a successful firing. Ages 16",
+      "dates": [
+        "08/23/2025"
+      ],
+      "confidence": "high",
+      "reason": "The listing advertises a specific workshop date for a firing-related class in Montana. [gate: quote names no specific non-electric firing]",
+      "quote_verified": false,
+      "secs": 25,
+      "state_on_page": true,
+      "supported_types": []
+    }
   },
   "digitalfire.com": {
     "key": "digitalfire.com",
@@ -3582,7 +4152,24 @@
       "https://digitalfire.com/glossary/digitalfire+reference+library": "Properties\nFiring Schedules\nTemperatures\nTroubles\nAll Glossary\nDigitalfire Reference Library\nA public ad-free, no-tracking, technical reference website for potters, educators, technicians and hobbyists in pottery and ceramic production. Since 2000. It is an SEO and AEO success story.\nRelated Information\nThis picture has its own page with more detail, click here to see it.\nHere is what digitalfire.com looked like in 1997!\n",
       "https://www.digitalfire.com/glossary/reduction+firing": "Reduction Firing\nHome\nOxides\nProperties\nFiring Schedules\nTemperatures\nTroubles\nAll Glossary\nA method of firing stoneware where the kiln air intakes and burners are set to restrict or eliminate oxygen in the kiln such that metallic oxides convert to their reduced metallic state.\nKey phrases linking here: cone 10 reduction, reduction firing, reduction fired, reduction-fired, cone 10r\n- Learn more\nDetails\nThe same clay fired in oxidation and reduction\nThe lower bars are cone 6 and 8 oxidation. The iron converts to a flux in reduction (top bar) and by cone 10 it is overfired enough that it is expanding.\nA gas kiln built by Luke Lindoe in the 1960s is still used at Plainsman Clays today\nIt fires very evenly from top to bottom and front to back. We have used it for quality control to fire thousands of porosity and shrinkage test bars to monitor the maturity of the clay bodies. Oh, we also fire pottery in this!\nThe same glaze fired in oxidation and reduction\nAn oxygen probe provides a direct measurement of the amount of reduction and enables one to more easily maintain the critical balance between oxidation and incomplete combustion. While these devices are quite expensive there are very few people employing this process that are not at least planning to get one (rather than just eyeballing the flame).\nReduction firings are not without hazard. Any form of incomplete combustion can generate smoke and deadly gases (CO, for example, is colorless and odorless). It is important that gas kilns be vented well, and if possible, that a CO alarm be installed.\nRelated Information\nReduction speckle: A product of iron particles in the body\nAnd the atmosphere of the firing\nThis picture has its own page with more detail, click here to see it.\nIn reduction firing , where insufficient oxygen is present to oxidize the iron, natural iron pyrite particles in the clay convert to their metallic form and melt. The nature of the decorative speckled effect depends on the size of the particles, the distribution of sizes, their abundance, the color of the clay and the degree to which they melt and bleed at their edges. The characteristics of the glaze on the ware (e.g. degree of matteness, color, thickness of application, the way it interacts with the iron) also determine the appearance.\nPlainsman Fire-Red reduction fired vase\nIron speckled cone 10 reduction stoneware with dolomite glaze\nPlainsman H443 . By Tony Hansen . The silky matte yet functional surface of this type of glaze, combined with the iron speckle from the body bleeding through it, has been a key reason why many have sought the cone 10R temperature range for pottery.\nAdditions of iron oxide are coloring, fluxing and crystallizing this base transparent\nCone 10 Reduction, the home of an amazing oxide: Iron\nIt is a powerful glaze flux , variegator and crystalizer, a colorant of many characters in bodies and glazes and a specking agent like no other. And it is safe and cheap!\nCopper red reduction glaze at cone 9 reduction\nThe color red is difficult to achieve in ceramics . In reduction firing copper can turn many dazzling shades of red.\nFeO (iron oxide) is a very powerful flux in reduction\nThis cone 10R glaze, a tenmoku with about 12% iron oxide , demonstrates how iron turns to a flux , converting from Fe 2 O 3 to FeO , in reduction firing and produces a glaze melt that is much more fluid. In oxidation, iron is refractory and does not melt well (this glaze would be completely stable on the ware in an oxidation firing at the same temperature, and much lighter in color).\nHow reduction firing can affect glaze color\nAn example of how the same dolomite cobalt blue glaze fires much darker in oxidation than reduction. But the surface character is the same. A different base glaze having the same colorant might fire much more similar. The percentage of colorant can also be a factor in how similar they will appear. The identity of the colorant is important, some are less prone to differences in kiln atmospher"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "N/A",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "gas_reduction"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The website is a technical resource and does not offer public firing services.",
+      "quote_verified": false,
+      "secs": 24,
+      "state_on_page": false
+    }
   },
   "community.ceramicartsdaily.org": {
     "key": "community.ceramicartsdaily.org",
@@ -3597,7 +4184,24 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "community.ceramicartsdaily.org",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "other"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "The page content is not available to determine if public firing is offered.",
+      "quote_verified": false,
+      "secs": 28,
+      "state_on_page": false
+    }
   },
   "visitmt.com": {
     "key": "visitmt.com",
@@ -3622,7 +4226,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "roguevalleypotterysupply.com": {
@@ -3642,7 +4247,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in OR",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "glazequeen.com": {
@@ -3658,7 +4264,22 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "GlazeQueen",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "This is an online supply store, not a firing location.",
+      "quote_verified": false,
+      "secs": 22,
+      "state_on_page": false
+    }
   },
   "sheffield-pottery.com": {
     "key": "sheffield-pottery.com",
@@ -3673,7 +4294,22 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "sheffield-pottery.com",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The website only sells supplies and kilns and does not mention public firing events.",
+      "quote_verified": false,
+      "secs": 30,
+      "state_on_page": false
+    }
   },
   "theceramicshop.com": {
     "key": "theceramicshop.com",
@@ -3698,7 +4334,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NJ",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "nhpottersguild.org": {
@@ -3718,7 +4355,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NH",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "montanawoodworkersguild.org": {
@@ -3738,7 +4376,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "thepottersguild.com": {
@@ -3758,7 +4397,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "art.montana.edu": {
@@ -3777,7 +4417,25 @@
       "https://art.montana.edu/": "",
       "https://art.montana.edu/areas-of-study/ceramics/index.html": "School of Art. Facilities include electric and kick wheels, slab roller, extruder,\nplaster mixing room, clay and glaze lab with spraybooth, ball mill, and a kiln room\nwith two Blaauw gas kilns, one Bailey gas kiln, five electric kilns, raku, salt/soda\ngas and wood fire kilns.\nCeramic facilities at the graduate studios include electric pottery wheels, a slab\nroller, a material processing area with a hammermill, three electric kilns, a gas\nsoda kiln, a small wood kiln, and a large train/anagama wood kiln. Undergraduates\nhave controlled access to these facilities.\nClick here to visit the MSU School of Art Ceramics blog\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Montana State University School of Art",
+      "city": "",
+      "state": "MT",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "gas_reduction",
+        "wood"
+      ],
+      "quote": "Undergraduates have controlled access to these facilities.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text indicates controlled access for undergraduates, not general public participation.",
+      "quote_verified": true,
+      "secs": 28,
+      "state_on_page": true
+    }
   },
   "en.wikipedia.org": {
     "key": "en.wikipedia.org",
@@ -3798,7 +4456,24 @@
       "https://en.wikipedia.org/wiki/File:Wikibooks-logo.svg": "",
       "https://en.wikipedia.org/wiki/Anagama_kiln": "Anagama kiln - Wikipedia\nJump to content\nMain menu\n(Top)\nKiln variants\nCharacteristics\nSee also\nToggle the table of contents\nAnagama kiln\n8 languages\nCatalà\nFrom Wikipedia, the free encyclopedia\nAncient type of pottery kiln\nSchematic drawing of an Anagama kiln:\n1 Door about 75 centimetres (30   in) wide\n2 Firebox\n7 Refractory arch\nNoborigama in Tokoname , Aichi\nA noborigama\nKiln in Shigaraki\nAnagama Kiln in New Jersey, USA, 1979\nThe anagama kiln (Japanese Kanji: 穴窯/ Hiragana: あながま) is an ancient type of pottery kiln brought to Japan by Korean potters around the 5th century. [ 1 ] It is a version of the climbing dragon kiln of south China, whose further development was also copied, for example in breaking up the firing space into a series of chambers in the noborigama kiln.\nAn anagama (a Japanese term meaning \"cave kiln \") consists of a firing chamber with a firebox at one end and a flue at the other. Although the term \"firebox\" is used to describe the space for the fire, there is no physical structure separating the stoking space from the pottery space. The term anagama describes single-chamber kilns built in a sloping tunnel shape. In fact, ancient kilns were sometimes built by digging tunnels into banks of clay.\nThe anagama is fueled with firewood, in contrast to the electric or gas-fueled kilns commonly used by most modern potters . A continuous supply of fuel is needed for firing, as wood thrown into the hot kiln is consumed very rapidly. Stoking occurs round the clock until a variety of variables are achieved including the way the fired pots look inside the kiln, the temperatures reached and sustained, the amount of ash applied, the wetness of the walls and the pots, etc.\nThe length of the firing depends on the volume of the kiln and may take anywhere from 48 hours to 12 or more days. The kiln generally takes the same amount of time to cool down. Records of historic firings in large Asian kilns shared by several village potters describe several weeks of steady stoking per firing.\n[ edit ]\nOne variant on the anagama style is the waritake kiln. A waritake kiln is akin to anagama in structure, but it has partition walls built every several meters through the length of the kiln. Each partition can be side stoked.\nA noborigama 登り窯 chambered climbing kiln is also built on a slope, and each succeeding chamber is situated higher than the one before it. The chambers in a noborigama are pierced at intervals with stoking ports. Such climbing kilns have been used in Japan since the 17th century. The largest working Noborigama kiln in Japan is located in Shigaraki , in the southern portion of Shiga Prefecture .\nThe renboshiki noborigama is a multi-chambered climbing kiln. There are many distinguishing characteristics between the noborigama and anagama style. For example, an anagama is somewhat like a half-tube (long vault ) with a fire burned at the lower end. A noborigama is like a set of half-tubes ( arches or short vaults, buttressing each other) placed side-by-side with piercings that allow each chamber to feed into the next.\nThe jagama (snake kiln or dragon kiln ) is related to anagama , noborigama , and waritake kilns, and was used extensively in China since at least the 3rd century CE. Jagama are tube shaped similarly to anagama kilns, but can be longer at around 60 m. Although partitioned and side stoked, jagama do not have partition walls, rather, improvised walls are created by densely stacking pottery at intervals.\nAll of these kilns use two counter-flow exchange mechanisms to maintain the air supply and to change the ware being fired, with minimal loss of heat. Each of these exchanges works on the same principle as countercurrent exchange , the principal difference being that the ware is not a fluid.\nAn advantage of the chambered and semi-chambered variants appears to be that they are partly downdraft, which makes the firing results less sensitive to the way the ware is loaded.\nA disadvantage of smaller climbing kilns is a"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text is a general Wikipedia article about kiln types and does not mention any public firing events or locations in Montana.",
+      "quote_verified": false,
+      "secs": 22,
+      "state_on_page": false
+    }
   },
   "https://allevents.in/missoula/from-the-anagama/200028558302451": {
     "key": "https://allevents.in/missoula/from-the-anagama/200028558302451",
@@ -3817,7 +4492,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in OH",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "missoulian.com": {
@@ -3839,7 +4515,29 @@
       "https://missoulian.com/services": "",
       "https://missoulian.com/entertainment/arts-and-theatre/theatre/article_66677a40-83e3-4e74-93be-137c10832e2b.html": "Missoula Clay Studio fundraising for anagama kiln rebuild\nSkip to main content Skip to main content\nYou are the owner of this article.\nEmail\nClay Studio fundraising to rebuild its massive wood kiln\n0 Comments\nShare this\nAlert Top Story\nCory Walsh\nApr 10, 2026\nSave\nAround 20 years ago, the Clay Studio of Missoula built its wood-fired kiln just outside of town on property owned by a ceramics enthusiast. The Japanese-style anagama kiln, roughly 720 cubic feet, was built by a studio resident with bricks wrangled from the now shuttered Smurfit-Stone Container Corp. particle board plant in Frenchtown.\nkAmp7E6C J62CD’ H@CE9 @7 7:C:?8D @7 E9@FD2?5D FA@? E9@FD2?5D @7 A@ED[ 4FAD 2?5 D4F=AEFC6D 2E E6>A6C2EFC6D @7 FA E@ a[c__ 568C66D u29C6?96:E[ @? E@A @7 4@F?E=6DD 7:I6D 2?5 C6A2:CD[ E96 ?@?AC@7:E 46C2>:4 46?E6C :D C2:D:?8 >@?6J E@ C63F:=5 E96 DECF4EFC6 D@ :E =2DED 564256D :?E@ E96 7FEFC6]k^Am\nkAm“xE H2D 2 F?:BF6 @AA@CEF?:EJ E@ 4C62E6 D@>6E9:?8 =:<6 E92E[ 2?5 :E’D DF49 2 =2C86[ F?:BF6 <:=?[” D2:5 $92=6?6 '2=6?KF6=2[ E96 DEF5:@’D 6I64FE:G6 5:C64E@C] %96 DECF4EFC6 :D F?:BF6 6?@F89 :? E96 DE2E6 2?5 C68:@? E92E E96 DEF5:@’D H@@5\\7:C6 C6D:56?4J A@D:E:@? 2EEC24ED 2CE:DED 7C@> 2C@F?5 E96 4@F?ECJ]k^Am\nkAmy24< $49H2CK6[ E96:C 4FCC6?E EH@\\J62C H@@5\\7:C6 C6D:56?E[ 8C6H FA :? q@K6>2? 2?5 92D AFCDF65 46C2>:4D 2C@F?5 E96 DE2E6] (96? 96 H2D =@@<:?8 7@C 46C2>:4 46?E6CD E@ 2AA=J E@[ E96 2?282>2 H2D 2 724E@C :? AFEE:?8 E96 r=2J $EF5:@ 2E }@] ` @? 9:D =:DE E92?<D E@ E96 <:=?VD DEJ=6 2?5 E96 D:K6] w6 7:CDE ;@:?65 :? @? 2 7:C:?8 E96C6 23@FE 7:G6 J62CD 28@ 2?5 ;FDE 7:?:D965 FA 9:D 6:89E9 7:C:?8 :? 62C=J pAC:=[ 5FC:?8 H9:49 96 H2D 23=6 E@ 7:C6 @?6 A:646 E92EVD c]d 766E E2==]k^Am\nJack Schwarze, a resident at the Clay Studio of Missoula, pulls student works from the ceramic center's anagama wood kiln outside Missoula Saturday, April 11.\nBEN ALLAN SMITH, Missoulian\nkAm%96 <:=? :D 2 4@>>F?:EJ C6D@FC46[ E@@[ 2?5 H@C<:?8 2CE:DED C6=J @? :E]k^Am\nkAm%9:D H66<6?5[ E96 DEF5:@ :D =2F?49:?8 E96 42>A2:8? 2D A2CE @7 :ED 2??F2= !@ED<6E49 7F?5C2:D6C[ E@ 36 96=5 2E E96 &?:G6CD:EJ r6?E6C q2==C@@>] %96 2F4E:@? :?4=F56D >@C6 E92? g_ D>2==\\D42=6 “A@ED<6E496D” 2D H6== 2D 46C2>:4 H@C<D 3J =@42= 2CE:DED[ D@>6 @7 H9@> 2C6 ?2E:@?2==J C64@8?:K65 :? E96 2CE7@C>] xE’D E96 =2C86DE 7F?5C2:D6C @7 E96 J62C 7@C E96 ?@?AC@7:E[ H9:49 92D 8C25F2==J 366? 6IA2?5:?8 :ED (6DED:56 724:=:EJ E@ >66E :?E6C6DE 7C@> =@42= C6D:56?ED]k^Am\nKeller Bragg and Sarah Hendryx, students at the Clay Studio of Missoula, pull works from the wood kiln outside Missoula last Saturday.\nkAmx? a_ac[ E96J 3@F89E E96:C =@?8E:>6 C6?E2= 3F:=5:?8 @? E96 (6DED:56[ H96C6 E96 ?@CE9 6?5 @7 w2HE9@C?6 $EC66E >66ED E96 C2:=J2C5[ D64FC:?8 2 A6C>2?6?E 9@>6 2>:5 2 DE66A :?4C62D6 :? AC@A6CEJ AC:46D :? E96 4:EJ] p7E6C E96 A2?56>:4[ E96J 3682? @776C:?8 4=2DD6D :? 2 3F:=5:?8 ?6IE 5@@C] (96? E96 Q2??6IQ 3642>6 2G2:=23=6 =2DE J62C[ E96J 3@F89E :E]k^Am\nkAmQ(6V== 36 E2=<:?8 E@ 5:776C6?E 4@?DE:EF6?ED E@ 96=A FD[ 3642FD6 H6 92G6 :562D[ 3FE H6VC6 2=D@ =@@<:?8 7@C E92E 7665324<[ D@ H6VC6 ECF=J 3F:=5:?8 2 4=2J DEF5:@ E92E 5@6D 7F=7:== E96 ?665D @7 E96 |:DD@F=2 4@>>F?:EJ[Q D96 D2:5]k^Am\nHenry DiClementi examines fellow students' work at the wood kiln last Saturday.\nk9amx7 J@F 8@k^9am\nkAm%96 D<6E496D 2C6 2== A2CE @7 E96 D:=6?E 2F4E:@?[ H9:49 :D @A6? ?@H 2E k2 9C67lQ9EEAi^^4=2JDEF5:@@7>:DD@F=2]@C8Qm4=2JDEF5:@@7>:DD@F=2]@C8k^2m] q:55:?8 4=@D6D @? $2EFC52J[ pAC:= ``]k^Am\nSarah Hendryx, left, and Henry DiClementi, middle, students at the Clay Studio of Missoula, pull works alongside their teacher Jack Schwarze, right, inside the wood kiln last Saturday.\nStudent works are pulled from the wood kiln outside Missoula last Saturday.\nVarious student works after being fired inside the wood kiln last Saturday.\nCory Walsh is the arts and entertainment reporter for the Missoulian.\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Missoula Clay Studio",
+      "city": "Missoula",
+      "state": "MT",
+      "decision": "qualifies",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "Jack Schwarze, a resident at the Clay Studio of Missoula, pulls student works from the ceramic center's anagama wood kiln outside Missoula Saturday, April 11.",
+      "dates": [
+        "Saturday, April 11"
+      ],
+      "confidence": "high",
+      "reason": "The text describes student works being pulled from the wood kiln, indicating public access to the firing process.",
+      "quote_verified": true,
+      "secs": 27,
+      "state_on_page": false,
+      "supported_types": [
+        "wood"
+      ]
+    }
   },
   "jerrybaldwinceramics.com": {
     "key": "jerrybaldwinceramics.com",
@@ -3854,7 +4552,27 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Jerry Baldwin Ceramics",
+      "city": "Arlee",
+      "state": "MT",
+      "decision": "qualifies",
+      "access": "none",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "In the quiet hills of Arlee, Western Montana, Jerry Baldwin fires two distinctive wood kilns: The Montanagama, a compact Anagama-style kiln, and a Catenary Crossdraft Wood Kiln, affectionately called the “Cat Kiln.”",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The site mentions wood kilns in Montana, suggesting public access to firing services.",
+      "quote_verified": true,
+      "secs": 30,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
+    }
   },
   "clayerco.com": {
     "key": "clayerco.com",
@@ -3873,7 +4591,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in GA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "firegallery.art": {
@@ -3893,7 +4612,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in TX",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "406-bbq.com": {
@@ -3917,7 +4637,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "spindriftstudio.art": {
@@ -3937,7 +4658,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IL",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "steamboatcreates.org": {
@@ -3963,7 +4685,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in CO",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "warehomestudios.com": {
@@ -3979,7 +4702,29 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Warehome Studios",
+      "city": "",
+      "state": "",
+      "decision": "qualifies",
+      "access": "dated_events",
+      "firing_types": [
+        "raku"
+      ],
+      "quote": "Raku Firing & Potluck Party - Warehome Studios: Instructor: Julie Anderson Thursday, November 12, 5:00pm - 8:00pm Cost: $125",
+      "dates": [
+        "Thursday, November 12"
+      ],
+      "confidence": "high",
+      "reason": "The listing advertises a specific public raku firing event.",
+      "quote_verified": false,
+      "secs": 25,
+      "state_on_page": false,
+      "supported_types": [
+        "raku"
+      ]
+    }
   },
   "rakumn.com": {
     "key": "rakumn.com",
@@ -3994,7 +4739,22 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "rakumn.com",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "The text mentions reservations for a restaurant, not a public ceramic firing.",
+      "quote_verified": false,
+      "secs": 16,
+      "state_on_page": false
+    }
   },
   "pewabic.org": {
     "key": "pewabic.org",
@@ -4019,7 +4779,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in MI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "redlodgeclaycenter.com": {
@@ -4041,7 +4802,22 @@
       "https://www.redlodgeclaycenter.com/calendar/plan-event/": "",
       "https://www.redlodgeclaycenter.com/residency-info/long-term-residency/": "This Residency is ideal for committed individuals interested in pursuing the development of their professional artistic careers through an immersive experience as part of the Clay Center community. Individuals searching for the time, space, and resources needed to explore new ideas and develop their work will benefit from our friendly and supportive Clay Center community found in our rural mountain setting. LTR’s are awarded on an initial one-year commitment with the option for a second year renewal.\nAccepted residents will be provided numerous financial and professional benefits including a monthly stipend, annual material & firing budget, 24/7 access to a private studio space, furnished housing, participation in RLCC events, as well as exhibition and networking opportunities in exchange for 80 hours of work per month at the Clay Center.\nResponsibilities will include assisting in the retail operation of the gallery, teaching community clay classes, as well as cleaning and maintenance of the studio, gallery, and housing properties. Residents will be responsible for personal living expenses such as travel, groceries, vehicles, etc. Visit our Facilities page to learn more about the gallery, Resident Housing, and Fox Studio. Click here to see some of our former Long Term Residents.\nEligibility:\nStudio:\nBenefits & Opportunities:\n$850.00/mo. stipend ($10,200 annually)\n$1,200 annual ceramic “Materials & Firing” budget per resident (residents may use these funds to purchase ceramic materials or pay for firing costs)\nPrivate Studio Space (120 sq. ft.) + large communal work space, fully equipped studio, 24/7 access\nHousing – Private Apartments, year-round, fully furnished, all utilities are included ( no pets )\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Red Lodge Clay Center",
+      "city": "",
+      "state": "MT",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text only describes a residency program and does not mention public firing access.",
+      "quote_verified": false,
+      "secs": 22,
+      "state_on_page": false
+    }
   },
   "stayhappening.com": {
     "key": "stayhappening.com",
@@ -4065,7 +4841,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in FL",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   }
 }

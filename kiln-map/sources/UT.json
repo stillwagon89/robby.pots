@@ -10,14 +10,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Utah",
-      "city": null,
+      "region": "Alpine",
+      "city": "Alpine",
       "urls": [
         "https://rakupotteryutah.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Alpine, Utah",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://rakupotteryutah.com/"
@@ -37,7 +37,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "rakupotteryutah.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly states that the October raku workshop is open for registration, allowing participation in a raku firing.",
+        "types": {
+          "raku": "The October raku workshop is open for registration."
+        }
+      },
+      "lat": 40.45325,
+      "lng": -111.77796
     },
     {
       "id": "theclayhole",
@@ -75,7 +86,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "theclayhole.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The provided page text is empty, so it is impossible to confirm if the public can participate in specific firing methods.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 40.45325,
+      "lng": -111.77796
     },
     {
       "id": "petersen-art-center",
@@ -113,7 +134,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "petersenartcenter.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites potters from throughout the Salt Lake valley to join for raku firing sessions for a minimal fee.",
+        "types": {
+          "raku": "Potters from throughout the Salt Lake valley are invited to join us for a little raku fun."
+        }
+      },
+      "lat": 40.75962,
+      "lng": -111.8868
     },
     {
       "id": "i-j-and-jeanne-wagner-jewish",
@@ -151,7 +183,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "nowplayingutah.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so no firing methods or public access details can be confirmed.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "cruz-quintero-ceramics",
@@ -189,7 +229,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "cruzquintero.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text invites ceramicists to a workshop for a soda firing experience at the studio.",
+        "types": {
+          "soda": "I’m excited to invite ceramicists to my home studio in Provo Utah, for an engaging and hands-on soda firing experience."
+        }
+      },
+      "lat": 40.23373,
+      "lng": -111.65871
     },
     {
       "id": "kayenta-fire",
@@ -227,7 +278,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "kayentafire.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 37.90824,
+      "lng": -111.42306
     },
     {
       "id": "pottery-workshops-slc",
@@ -265,7 +326,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "potteryworkshopslc.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly states that the October raku workshop is open for registration and provides a link to grab a spot.",
+        "types": {
+          "raku": "B-Mix w/Grog B-Mix with added tooth for bigger builds, and one of our two picks for raku."
+        }
+      },
+      "lat": 40.75962,
+      "lng": -111.8868
     },
     {
       "id": "throw-art-studio",
@@ -303,7 +375,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "throwartstudio.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text contains no content about firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 40.23373,
+      "lng": -111.65871
     },
     {
       "id": "desert-sun-ceramics",
@@ -343,7 +425,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "desertsunceramics.com"
-      }
+      },
+      "verify": {
+        "by": "gemma-4-31b-it",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers a 3-day workshop featuring Raku and Saggar firing techniques.",
+        "types": {
+          "raku": "This 3 day workshop will consist of Smoke, Obvara, Fumed, Saggar and Raku firing techniques.",
+          "pit_barrel_saggar": "This 3 day workshop will consist of Smoke, Obvara, Fumed, Saggar and Raku firing techniques."
+        }
+      },
+      "lat": 38.57381,
+      "lng": -109.54621
     },
     {
       "id": "moab-arts",
@@ -371,7 +465,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "moabarts.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public firing opportunities.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 38.57381,
+      "lng": -109.54621
     },
     {
       "id": "the-tilted-kiln",
@@ -409,7 +513,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "tiltedkilnpottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers a public Raku Firing Workshop where individuals can sign up and pay to glaze and fire their own pieces.",
+        "types": {
+          "raku": "Come and try your hand at Raku Firing."
+        },
+        "street": "955 E Tabernacle Street"
+      },
+      "lat": 37.10988,
+      "lng": -113.58321
     },
     {
       "id": "logan-artists-association",
@@ -447,7 +563,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "loganartists.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers pottery classes and workshops open to non-members that utilize a Raku kiln operated by the studio.",
+        "types": {
+          "raku": "Our electric and raku kilns which are operated by the Studio Coordinator and other trained and experienced members of LAA are utilized for works completed during classes, social sessions and workshops."
+        }
+      },
+      "lat": 41.73131,
+      "lng": -111.83491
     },
     {
       "id": "corbridge-pottery",
@@ -485,7 +612,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "adamcorbridgepottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about public ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 41.73131,
+      "lng": -111.83491
     },
     {
       "id": "patty-s-ceramics",
@@ -523,7 +660,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "pattysceramics.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly states that they offer RAKU firings and that prices are based on the size of the piece, implying availability to the public.",
+        "types": {
+          "raku": "We now offer glass and RAKU firings."
+        },
+        "street": "649 West Center Street"
+      },
+      "weak": true
     },
     {
       "id": "granary-arts",
@@ -551,7 +699,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "granaryarts.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about ceramic firings or public access.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 39.48246,
+      "lng": -111.49602
     }
   ]
 }

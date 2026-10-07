@@ -28,7 +28,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "animalhousepottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers public workshops for Raku and soda firing that do not require prior experience or membership.",
+        "types": {
+          "raku": "Bring your own bisque or pick one of Anthony's, glaze it, load it into the Raku kiln, and pull it out glowing hot to watch the crackle and colors come out as it cools.",
+          "soda": "Spend a Sunday with us learning soda firing ( this will be a wood/soda firing) from the ground up."
+        }
+      },
+      "lat": 36.16743,
+      "lng": -115.14841
     },
     {
       "id": "tuscarora-pottery-school",
@@ -72,46 +84,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "tuscarorapottery.com"
-      }
-    },
-    {
-      "id": "events-unr",
-      "org": "events.unr",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
-      ],
-      "region": "Nevada",
-      "city": null,
-      "urls": [
-        "https://www.unr.edu/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.unr.edu/"
       },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "There are no salt, soda, nor wood firing kilns.",
-        "url": "https://www.unr.edu/art/about/ceramics",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "unr.edu"
-      }
+        "verdict": "no",
+        "why": "There is no page text provided to evaluate.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 41.31488,
+      "lng": -116.22321
     },
     {
       "id": "nevada-clay-guild",
@@ -149,7 +132,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "nvclay.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text contains no content, making it impossible to verify public participation in non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 36.03014,
+      "lng": -114.98155
     },
     {
       "id": "tao-of-clay",
@@ -177,165 +170,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "taoofclay.com"
-      }
-    },
-    {
-      "id": "great-basin-pottery",
-      "org": "Great Basin Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "salt"
-      ],
-      "region": "Nevada",
-      "city": null,
-      "urls": [
-        "https://nevadagram.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://nevadagram.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Joe and his wife, Shiho, make functional and decorative ceramics including raku, wood and salt fired techniques.",
-        "url": "https://nevadagram.com/day-tripping-for-ceramics-and-pottery/",
-        "types": [
-          "raku",
-          "wood",
-          "salt"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "nevadagram.com"
-      }
-    },
-    {
-      "id": "dreams-to-reality-pottery",
-      "org": "Dreams to Reality Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood"
-      ],
-      "region": "Nevada",
-      "city": null,
-      "urls": [
-        "https://www.dtrpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.dtrpottery.com/"
+        "verdict": "yes",
+        "why": "The text explicitly mentions a pit fire workshop that is open for registration.",
+        "types": {
+          "pit_barrel_saggar": "This three-part workshop offers a comprehensive introduction to pit firing—a traditional method of firing ceramics using open flame and natural materials to create unique surface finishes without glaze."
+        }
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Within this basic process there many variables of clay bodies and techniques such as wood firing, crystal firing, raku and even adding horsehair to create used and useful pieces of art.",
-        "url": "https://www.dtrpottery.com/functional-pottery.html",
-        "types": [
-          "raku",
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "dtrpottery.com"
-      }
-    },
-    {
-      "id": "carson-city-art-gallery-pottery",
-      "org": "Carson City Art Gallery & Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Carson City",
-      "city": "Carson City",
-      "urls": [
-        "https://www.nnbw.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Carson City, Nevada",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.nnbw.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "The public is invited to stop by Carson City Art Gallery & Pottery and see pots being fired using the raku technique.",
-        "url": "https://www.nnbw.com/news/2018/aug/17/carson-city-art-gallery-pottery-hosting-raku-firin/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "nnbw.com"
-      }
-    },
-    {
-      "id": "nellisauction",
-      "org": "nellisauction",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Henderson",
-      "city": "Henderson",
-      "urls": [
-        "https://www.nellisauction.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Henderson, Nevada",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.nellisauction.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "STUDIO POTTERY RAKU FIRING POTTERY 19\" WIDE | Henderson, NV",
-        "url": "https://www.nellisauction.com/p/STUDIO-POTTERY-RAKU-FIRING-POTTERY-19-WIDE/121057639",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "nellisauction.com"
-      }
+      "weak": true
     },
     {
       "id": "the-coleman-school-of-porcelain",
@@ -363,7 +208,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "lisaloveceramics.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 36.03014,
+      "lng": -114.98155
     },
     {
       "id": "tom-coleman",
@@ -391,7 +246,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "klineglazeservice.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions a workshop balance for purchase but does not explicitly state that the public can participate in a non-electric firing or describe the firing methods used during the workshops.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 36.03014,
+      "lng": -114.98155
     },
     {
       "id": "elko-county-art-club",
@@ -419,7 +284,37 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "elkocountyarts.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information about firings.",
+        "types": {}
+      },
+      "weak": true
+    }
+  ],
+  "_removed": [
+    {
+      "id": "events-unr",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes university equipment for students and does not offer firing services, rentals, or workshops for the public. (2026-10-07)"
+    },
+    {
+      "id": "great-basin-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text discusses pottery studios and artists who use raku, wood, and salt firing techniques, but it does not state that the public can take part in, book, or sign up for these firings. (2026-10-07)"
+    },
+    {
+      "id": "dreams-to-reality-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions firing methods like wood firing and raku in a general description of pottery processes, but does not offer any public workshops, rentals, or services for these specific non-electric firing methods. (2026-10-07)"
+    },
+    {
+      "id": "carson-city-art-gallery-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text only invites the public to watch a raku firing demonstration, not to take part in one themselves. (2026-10-07)"
+    },
+    {
+      "id": "nellisauction",
+      "why": "Second check (gemma-4-31b-it): The text describes an auction for a piece of pottery, not a service for the public to participate in a firing. (2026-10-07)"
     }
   ]
 }

@@ -63,7 +63,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "discover.events.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text invites the public to sign up for a raku firing workshop where participants can bring their own bisqueware or attend a preparatory workshop.",
+        "types": {
+          "raku": "Come and join Teagan Koble and Parker Van Osdale to learn the process of raku firing!"
+        }
+      },
+      "lat": 41.39578,
+      "lng": -85.42426
     },
     {
       "id": "tekventure-makerspace",
@@ -103,7 +114,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "tekventure.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 41.09756,
+      "lng": -85.05621
     },
     {
       "id": "beale-pottery",
@@ -141,7 +162,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "indianadunes.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The page title mentions a Raku fest, but the provided text does not contain any information confirming that the public can sign up, book, or participate in the firing.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "amphora-ceramic-studio",
@@ -179,7 +208,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "amphoraceramicstudio.kilnfire.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions a Raku Firing Workshop but does not provide enough details to confirm if the public can sign up or participate.",
+        "types": {
+          "raku": "Raku Firing Workshop - Amphora Ceramic Studio"
+        }
+      },
+      "weak": true
     },
     {
       "id": "eastside-pottery",
@@ -217,7 +256,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "eastsidepottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The Raku Firing Workshop is open to all levels and allows participants to bring bisque pieces to be fired using traditional raku methods.",
+        "types": {
+          "raku": "Bring up to four bisque pieces and finish them using traditional raku firing."
+        }
+      },
+      "weak": true
     },
     {
       "id": "indy-art-center",
@@ -255,7 +304,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "indyartcenter.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that the public can register for workshops and classes featuring raku and wood firings.",
+        "types": {
+          "raku": "Experience regular cone 10 and cone 6 firings, with options to have your work fired in one of our wood or raku kilns."
+        }
+      },
+      "lat": 39.76833,
+      "lng": -86.15835
     },
     {
       "id": "laima-ceramics",
@@ -283,7 +343,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "laimaceramics.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly offers a 1-Day Horse Hair Raku Firing Workshop that hosts up to 8 participants.",
+        "types": {
+          "raku": "We start the Raku kiln using pieces prepared in advance."
+        }
+      },
+      "weak": true
     },
     {
       "id": "common-clay-space-in",
@@ -321,7 +391,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "commonclayspace.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions a wood firing workshop but does not provide enough details to confirm if the public can register or join.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "northern-indiana-clay-alliance",
@@ -332,14 +410,14 @@
       "firing_types_guess": [
         "soda"
       ],
-      "region": "Indiana",
-      "city": null,
+      "region": "Goshen",
+      "city": "Goshen",
       "urls": [
         "https://www.indianaclay.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Goshen, Indiana",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.indianaclay.org/"
@@ -359,7 +437,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "indianaclay.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site lists workshops where participants can learn to fire earthenware in a soda kiln.",
+        "types": {
+          "soda": "In this workshop participants will learn from Justin Rothshank about firing earthenware in the soda kiln."
+        }
+      },
+      "lat": 41.58504,
+      "lng": -85.83445
     },
     {
       "id": "cider-creek-collective",
@@ -397,7 +486,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "cidercreekcollective.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no details about public firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "buck-creek-pottery",
@@ -438,7 +535,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "buckcreekpottery.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions a Raku kiln and future plans for pit and wood firing, but does not explicitly state that the public can sign up for or participate in these specific firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 39.76833,
+      "lng": -86.15835
     },
     {
       "id": "greater-lafayette-clay-guild",
@@ -449,14 +556,14 @@
       "firing_types_guess": [
         "pit_barrel_saggar"
       ],
-      "region": "Indiana",
-      "city": null,
+      "region": "Monticello",
+      "city": "Monticello",
       "urls": [
         "https://www.greaterlafayetteclayguild.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Monticello, Indiana",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.greaterlafayetteclayguild.org/"
@@ -476,7 +583,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "greaterlafayetteclayguild.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites participation in a pit firing event with a sign-up link for attendees.",
+        "types": {
+          "pit_barrel_saggar": "Pit Firing Event"
+        }
+      },
+      "lat": 40.74487,
+      "lng": -86.76188
     },
     {
       "id": "playin-with-fire-studios",
@@ -485,7 +603,6 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
         "pit_barrel_saggar"
       ],
       "region": "Indiana",
@@ -505,153 +622,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "simpletix.com"
-      }
-    },
-    {
-      "id": "smoke-in-the-mountains-pottery",
-      "org": "Smoke in the Mountains Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://smokeinthemountainspottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://smokeinthemountainspottery.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The kiln can hold over 700 pots, most of which will be brought by potters and students in the region, who along with other volunteers, will work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a real wood fired kiln can make.",
-        "url": "https://smokeinthemountainspottery.com/wood-firing/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "smokeinthemountainspottery.com"
-      }
-    },
-    {
-      "id": "praying-mantis-pottery",
-      "org": "Praying Mantis Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Indianapolis",
-      "city": "Indianapolis",
-      "urls": [
-        "https://prayingmantispottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Indianapolis, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://prayingmantispottery.com/"
+        "verdict": "yes",
+        "why": "The text shows outsiders can buy tickets to join a workshop featuring barrel kiln Saggar firing and Obvara Raku firing.",
+        "types": {
+          "pit_barrel_saggar": "A combination workshop featuring barrel kiln Saggar firing and Obvara firing."
+        }
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "prayingmantispottery.com"
-      }
-    },
-    {
-      "id": "communitypottery",
-      "org": "communitypottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
-      ],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://communitypottery.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://communitypottery.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Options to participate in Raku and Pit firings.",
-        "url": "https://communitypottery.org/studio-memberships",
-        "types": [
-          "raku",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "communitypottery.org"
-      }
-    },
-    {
-      "id": "fire-arts-inc",
-      "org": "Fire Arts Inc.",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood"
-      ],
-      "region": "South Bend",
-      "city": "South Bend",
-      "urls": [
-        "https://www.southbendtribune.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "South Bend, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.southbendtribune.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The exhibit focuses on the artists’ firing techniques in their creation of ceramics works: raku for Belinki and wood firing for Cockman.",
-        "url": "https://www.southbendtribune.com/story/entertainment/2023/08/27/raku-and-wood-firing-ceramics-exhibits-open-at-fire-arts-inc/70679044007/",
-        "types": [
-          "raku",
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "southbendtribune.com"
-      }
+      "weak": true
     },
     {
       "id": "fire-arts-inc-in",
@@ -689,45 +670,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "fireartsinc.com"
-      }
-    },
-    {
-      "id": "angi-peterson-pottery",
-      "org": "Angi Peterson Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "West Lafayette",
-      "city": "West Lafayette",
-      "urls": [
-        "https://www.angipetersonpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "West Lafayette, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.angipetersonpottery.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Raku is a method of firing pottery.",
-        "url": "https://www.angipetersonpottery.com/alternative-firing-process-part-2.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "angipetersonpottery.com"
-      }
+        "verdict": "yes",
+        "why": "The facility is an education center for the public that offers classes where participants can take part in a raku firing.",
+        "types": {
+          "raku": "During Session 8, we will fire the raku kiln, and while the kiln temperature rises to the proper level, we will glaze the last of the functional pieces."
+        },
+        "street": "305 E. Colfax Ave."
+      },
+      "lat": 41.68338,
+      "lng": -86.25001
     },
     {
       "id": "lala-gallery",
@@ -767,7 +722,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "lalagallery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states that the studio offers barrel and wood/soda firings and that classes are available for enrollment.",
+        "types": {
+          "soda": "LaLa Studio is a well-equipped, safe workspace which includes 6 pottery wheels, 4 large worktables, slab roller, separate glaze studio, 3 large electric kiln offering mid-range firings, barrel firing, wood/soda firing, and all the tools you could imagine, stamps, reference books, magazines, and demo",
+          "pit_barrel_saggar": "LaLa Studio is a well-equipped, safe workspace which includes 6 pottery wheels, 4 large worktables, slab roller, separate glaze studio, 3 large electric kiln offering mid-range firings, barrel firing, wood/soda firing, and all the tools you could imagine, stamps, reference books, magazines, and demo"
+        }
+      },
+      "weak": true
     },
     {
       "id": "made-in-muncie",
@@ -805,7 +771,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "madeinmuncie.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 40.19369,
+      "lng": -85.38653
     },
     {
       "id": "chris-jones-pottery",
@@ -843,7 +819,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "jonespottery.net"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows outsiders can sign up for a Cone 10 Reduction Firing workshop via the John C Campbell Folk School.",
+        "types": {
+          "gas_reduction": "Cone 10 Reduction Firing for Color and Effect"
+        }
+      },
+      "weak": true
     },
     {
       "id": "spears-gallery",
@@ -872,7 +858,20 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "spearspottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The site lists Raku and Woodfire as categories, but provides no information on whether the public can participate in these firings through workshops, rentals, or services.",
+        "types": {
+          "raku": "Raku",
+          "wood": "Woodfire"
+        }
+      },
+      "weak": true,
+      "lat": 39.20724,
+      "lng": -86.24695
     },
     {
       "id": "monte-young",
@@ -910,83 +909,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "silivingmag.com"
-      }
-    },
-    {
-      "id": "monte-young-pottery",
-      "org": "Monte Young Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Jasper",
-      "city": "Jasper",
-      "urls": [
-        "https://monteyoungpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Jasper, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://monteyoungpottery.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "My pieces are wheel thrown with handmade additions and fired to 2300 degrees in my 65 cubic foot wood fired kiln over a 36 hour period at my Jasper, Indiana studio.",
-        "url": "https://monteyoungpottery.com/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "monteyoungpottery.com"
-      }
-    },
-    {
-      "id": "meir-moheban",
-      "org": "Meir Moheban",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://www.meirmoheban.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.meirmoheban.com/"
+        "verdict": "unclear",
+        "why": "The text describes Monte Young's private wood-burning kiln and mentions he invites other potters to help in exchange for firing pieces, but it does not specify whether the general public can sign up, book, or join.",
+        "types": {}
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Once a year, ceramic potteries throughout the country join together and have the opportunity to place their work inside the Anagama kiln cave.",
-        "url": "https://www.meirmoheban.com/anagama-wood-firing-kiln/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "meirmoheban.com"
-      }
+      "weak": true,
+      "lat": 41.03218,
+      "lng": -87.10666
     },
     {
       "id": "creative-hands-studio",
@@ -1024,7 +957,47 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "creativehandsstudio.net"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that outsiders can sign up for a Raku Firing Workshop where participants can join an outdoor firing experience.",
+        "types": {
+          "raku": "Participants will learn the fundamentals of the Raku process, including glazing techniques, kiln firing, and post-firing reduction methods that give each piece its one-of-a-kind appearance."
+        }
+      },
+      "weak": true
+    }
+  ],
+  "_removed": [
+    {
+      "id": "smoke-in-the-mountains-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions wood and gas kilns and a community event, but does not provide any information showing that the public can join, book, or sign up to participate in a firing. (2026-10-07)"
+    },
+    {
+      "id": "praying-mantis-pottery",
+      "why": "Second check (gemma-4-31b-it): The text describes a gallery and shop selling raku pottery but does not mention any way for the public to participate in firings. (2026-10-07)"
+    },
+    {
+      "id": "communitypottery",
+      "why": "Second check (gemini-3.5-flash-lite): The page mentions memberships and classes involving gas reduction, raku, and pit firings, but memberships are currently on a waitlist of 18-24 months and require experience, and no active public sign-up or booking is available. (2026-10-07)"
+    },
+    {
+      "id": "fire-arts-inc",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes an art exhibit featuring raku and wood firing techniques but does not state that the public can participate in or book these firings. (2026-10-07)"
+    },
+    {
+      "id": "angi-peterson-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes the artist's work and techniques, but does not mention any classes, workshops, memberships, or firing services open to the public. (2026-10-07)"
+    },
+    {
+      "id": "monte-young-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes the artist's own production process and does not offer firing services, workshops, or rentals for the public to participate in firings. (2026-10-07)"
+    },
+    {
+      "id": "meir-moheban",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions an anagama wood firing kiln, but does not provide any information on how the public can join, book, or sign up for a firing. (2026-10-07)"
     }
   ]
 }

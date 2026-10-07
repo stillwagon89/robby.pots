@@ -65,47 +65,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "vermontartscouncil.org"
-      }
-    },
-    {
-      "id": "gallery-at-the-vault",
-      "org": "Gallery at the VAULT",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "gas_reduction"
-      ],
-      "region": "Springfield",
-      "city": "Springfield",
-      "urls": [
-        "https://vermontjournal.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Springfield, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://vermontjournal.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The cost of the workshop is discounted for gallery members, and includes 25 pounds of clay, glazes, and firing costs in a gas-fired kiln.",
-        "url": "https://vermontjournal.com/arts-entertainment/raku-pottery-class-through-vault/",
-        "types": [
-          "raku",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "vermontjournal.com"
-      }
+        "verdict": "yes",
+        "why": "The text describes a hands-on Raku Firing workshop that is open for registration at a cost of $175.",
+        "types": {
+          "raku": "Experience the excitement of Raku Firing in our hands-on workshop."
+        },
+        "street": "36 College St."
+      },
+      "lat": 44.11393,
+      "lng": -72.85554
     },
     {
       "id": "first-house-pottery",
@@ -146,7 +118,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "firsthousepottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty, so there is no information confirming public access to non-electric firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "third-branch-pottery",
@@ -174,7 +154,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "thirdbranchpotterysupply.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so no firing services or workshops can be verified from the text.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "across-the-grain-pottery-studio",
@@ -212,7 +200,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "acrossthegrainpottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public firing events or methods.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 44.6457,
+      "lng": -73.30248
     },
     {
       "id": "artscenter-vt",
@@ -240,45 +238,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "canvas.artscenterlive.org"
-      }
-    },
-    {
-      "id": "uvm-school-of-the-arts-ceramic-co-op",
-      "org": "UVM School of the Arts Ceramic Co-op",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Vermont",
-      "city": null,
-      "urls": [
-        "https://www.uvm.edu/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.uvm.edu/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "All clay and glazes are fired in a reduction atmosphere to cone 10 in our Bailey gas kiln.",
-        "url": "https://www.uvm.edu/extension/news/interactive-workshop-about-sustainable-road-salting-practices",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "uvm.edu"
-      }
+        "verdict": "no",
+        "why": "The provided page text is empty, so it contains no information about public firing opportunities.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "farmhouse-pottery",
@@ -317,83 +285,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "farmhousepottery.com"
-      }
-    },
-    {
-      "id": "the-mud-studio",
-      "org": "The Mud Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Waterbury",
-      "city": "Waterbury",
-      "urls": [
-        "https://www.themudstudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Waterbury, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.themudstudio.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We offer a variety of long term pottery classes, workshops, and open studio sessions, allowing individuals to explore their artistic potential.",
-        "url": "http://www.themudstudio.com/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
         "date": "2026-10-07",
-        "key": "themudstudio.com"
-      }
-    },
-    {
-      "id": "new-england-wood-firing-conference",
-      "org": "New England Wood Firing Conference",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Vermont",
-      "city": null,
-      "urls": [
-        "https://www.newenglandwfc.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.newenglandwfc.com/"
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Participants will have the opportunity to fire their own high-fire works in one of several Host Kilns.",
-        "url": "https://www.newenglandwfc.com/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "newenglandwfc.com"
-      }
+      "weak": true,
+      "lat": 43.62476,
+      "lng": -72.51898
     },
     {
       "id": "distinguished-teaching",
@@ -421,7 +323,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "distinguishedteaching.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions a soda kiln but does not explicitly state that the public can book, sign up for, or participate in a firing.",
+        "types": {
+          "soda": "Needless to say, Matt is a genius Potter with expansive knowledge of clay, wheel throwing, hand building and glaze and flashing slips and the chemistry involved and how to apply them to achieve color in the soda kiln."
+        }
+      },
+      "weak": true,
+      "lat": 44.47616,
+      "lng": -73.21291
     },
     {
       "id": "burlington-potters-guild",
@@ -459,7 +373,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "burlingtonpottersguild.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information to confirm public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 44.47616,
+      "lng": -73.21291
     },
     {
       "id": "orchard-street-pottery",
@@ -497,73 +421,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "walterslowinskipottery.weebly.com"
-      }
-    },
-    {
-      "id": "brattleboro-clayworks",
-      "org": "Brattleboro Clayworks",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Brattleboro",
-      "city": "Brattleboro",
-      "urls": [
-        "https://brattleboroclayworks.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Brattleboro, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://brattleboroclayworks.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "In the walk-in gas kiln variable flame patterns and the presence of other people’s work add unique finishing touches.",
-        "url": "https://brattleboroclayworks.com/artists/claudia-teachman/",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "brattleboroclayworks.com"
-      }
-    },
-    {
-      "id": "fire-art-vermont",
-      "org": "Fire Art Vermont",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Brattleboro",
-      "city": "Brattleboro",
-      "urls": [
-        "https://www.stayotherland.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Brattleboro, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.stayotherland.com/"
+        "verdict": "yes",
+        "why": "The site explicitly states that as part of the 2025 New England Woodfiring Conference, Orchard Street Pottery will host a workshop where participants can fire their own work.",
+        "types": {
+          "wood": "As part of the 2025 New England Woodfiring Conference, Orchard Street Pottery will be hosting a 4 day workshop where participants will be able to fire their own work as they join in firing the kiln."
+        }
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "stayotherland.com"
-      }
+      "lat": 42.85076,
+      "lng": -72.55729
     },
     {
       "id": "middlebury-studio-school-vt",
@@ -601,85 +470,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "middleburystudioschool.corsizio.com"
-      }
-    },
-    {
-      "id": "homemade",
-      "org": "Homemade",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Vermont",
-      "city": null,
-      "urls": [
-        "https://homemade.education/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://homemade.education/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "An anagama is a single-chamber, tunnel-shaped wood-fire kiln derive",
-        "url": "https://homemade.education/pottery-ceramics/cone-10-reduction-firing-schedule",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "homemade.education"
-      }
-    },
-    {
-      "id": "julie-lerman-pottery",
-      "org": "Julie Lerman Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood"
-      ],
-      "region": "Shelburne",
-      "city": "Shelburne",
-      "urls": [
-        "https://shelburnefarmersmarket.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Shelburne, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://shelburnefarmersmarket.org/"
+        "verdict": "yes",
+        "why": "The studio offers public registration for an 'Alternative Firing: Naked Raku & Horse Hair Firing' workshop.",
+        "types": {
+          "raku": "Alternative Firing: Naked Raku & Horse Hair Firing"
+        },
+        "street": "2377 ROUTE 7 S"
       },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "My work includes raku and wood-fired pottery.",
-        "url": "https://shelburnefarmersmarket.org/vendor-julie-lerman-pottery.html",
-        "types": [
-          "raku",
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "shelburnefarmersmarket.org"
-      }
+      "lat": 44.0143,
+      "lng": -73.16723
     },
     {
       "id": "jackie-sedlock-pottery-vt",
@@ -717,7 +520,52 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "manchesterjournal.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states that the facility hosts weekly classes, retreats, wood firing, and guest workshops where artists can stay and fire the wood kiln.",
+        "types": {
+          "wood": "It hosts weekly classes, retreats, wood firing, guest workshops, and short- and long-term residencies for beginners, intermediates, and professional artists."
+        }
+      },
+      "lat": 42.79527,
+      "lng": -73.22403
+    }
+  ],
+  "_removed": [
+    {
+      "id": "gallery-at-the-vault",
+      "why": "Second check (gemini-3.5-flash-lite): page says state is Vt., not VT (2026-10-07)"
+    },
+    {
+      "id": "uvm-school-of-the-arts-ceramic-co-op",
+      "why": "Second check (gemini-3.1-flash-lite): The text indicates the studio is a co-op for members and does not mention public access for non-members to participate in firings. (2026-10-07)"
+    },
+    {
+      "id": "the-mud-studio",
+      "why": "Second check (gemma-4-31b-it): The text does not mention any non-electric firing methods for The Mud Studio; mentions of raku, gas, and wood firings refer to other studios. (2026-10-07)"
+    },
+    {
+      "id": "new-england-wood-firing-conference",
+      "why": "Second check (gemini-3.5-flash-lite): page says state is Connecticut, not VT (2026-10-07)"
+    },
+    {
+      "id": "brattleboro-clayworks",
+      "why": "Second check (gemini-3.5-flash-lite): The provided text mentions a walk-in gas kiln being used by members, but does not state that the public can participate in a non-electric ceramic firing. (2026-10-07)"
+    },
+    {
+      "id": "fire-art-vermont",
+      "why": "Second check (gemma-4-31b-it): The text mentions clay workshops but does not specify any non-electric firing methods. (2026-10-07)"
+    },
+    {
+      "id": "homemade",
+      "why": "Second check (gemini-3.5-flash-lite): The text is an educational guide on firing schedules and techniques, but it does not offer any public workshop, class, rental, or firing service where outsiders can participate. (2026-10-07)"
+    },
+    {
+      "id": "julie-lerman-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes a vendor selling pottery at a farmers market and does not offer firing services, workshops, or rentals to the public. (2026-10-07)"
     }
   ]
 }

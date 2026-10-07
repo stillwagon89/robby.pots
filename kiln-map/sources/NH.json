@@ -37,7 +37,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "timisaacpottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty, so it does not contain information about firing services or locations.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "snow-farm-nh",
@@ -77,7 +85,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "canvas.snowfarm.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public firing events.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "new-hampshire-potters-guild",
@@ -115,7 +131,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "newenglandwfc.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The New England Wood Firing Conference offers tickets that allow participants to join a stoke crew and fire their own work in various host kilns across the region.",
+        "types": {
+          "wood": "Join one of a number of active New England wood firing crews."
+        }
+      },
+      "lat": 43.13017,
+      "lng": -71.23882
     },
     {
       "id": "artscenter-nh",
@@ -153,7 +180,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "canvas.artscenterlive.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public ceramic firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 44.16406,
+      "lng": -71.0104
     },
     {
       "id": "kittery-point-potters-and-pcms",
@@ -191,7 +228,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "couchsurfing.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites participants to a workshop for pit firing, which is a non-electric method.",
+        "types": {
+          "pit_barrel_saggar": "This workshop invites participants to learn the traditional technique of pit firing, a process used for over 2,000 years to create smooth, glassy surfaces on ceramic vessels."
+        }
+      },
+      "weak": true
     },
     {
       "id": "rooted-in-clay",
@@ -231,7 +278,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "rootedinclay.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public firing events or services.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "virgin-valley-artists-association-nh",
@@ -242,14 +297,14 @@
       "firing_types_guess": [
         "pit_barrel_saggar"
       ],
-      "region": "New Hampshire",
-      "city": null,
+      "region": "Mesquite",
+      "city": "Mesquite",
       "urls": [
         "https://www.mesquitefineartscenter.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Mesquite, New Hampshire",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.mesquitefineartscenter.com/"
@@ -269,6 +324,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "mesquitefineartscenter.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text advertises a Saggar Firing Workshop that is open for sign-ups to those with clay experience.",
+        "types": {
+          "pit_barrel_saggar": "Saggar Firing Workshop"
+        }
       }
     },
     {
@@ -297,7 +361,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "thewheelhousenh.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions a raku project but does not provide enough details to confirm if outsiders can participate or book it.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 43.07513,
+      "lng": -70.76018
     },
     {
       "id": "jonkeenan",
@@ -306,7 +380,9 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood"
+        "wood",
+        "gas_reduction",
+        "raku"
       ],
       "region": "Elkins",
       "city": "Elkins",
@@ -326,7 +402,9 @@
         "quote": "My recent focus has been on anagama wood-fired natural ash glazed ceramics made and fired at my studio and kiln in Elkins, New Hampshire, along with gas-fired glazed stoneware pieces.",
         "url": "https://jonkeenan.com/about",
         "types": [
-          "wood"
+          "wood",
+          "gas_reduction",
+          "raku"
         ],
         "checked": "2026-10-07"
       },
@@ -335,7 +413,21 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "jonkeenan.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions that the firing of the artist's work is collaborative, but it does not explicitly state that the public can join, book, or sign up for these firings.",
+        "types": {
+          "wood": "My recent focus has been on anagama wood-fired natural ash glazed ceramics made and fired at my studio and kiln in Elkins, New Hampshire, along with gas-fired glazed stoneware pieces.",
+          "gas_reduction": "My recent focus has been on anagama wood-fired natural ash glazed ceramics made and fired at my studio and kiln in Elkins, New Hampshire, along with gas-fired glazed stoneware pieces.",
+          "raku": "My current work represents my involvement in Raku, stoneware glazed and wood-fired ceramics which began as a student in Kyoto, Japan many years ago."
+        }
+      },
+      "weak": true,
+      "lat": 43.42091,
+      "lng": -71.9373
     },
     {
       "id": "maxt-makerspace",
@@ -373,7 +465,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "maxt.pike13.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers a public Pit-Firing Workshop that outsiders can sign up for and purchase.",
+        "types": {
+          "pit_barrel_saggar": "Pit-Firing Workshop"
+        }
+      },
+      "lat": 44.0309,
+      "lng": -72.00814
     },
     {
       "id": "nh-potters-guild",
@@ -384,14 +487,14 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "New Hampshire",
-      "city": null,
+      "region": "Dublin",
+      "city": "Dublin",
       "urls": [
         "https://maxtmakerspace.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Dublin, New Hampshire",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://maxtmakerspace.org/"
@@ -411,7 +514,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "maxtmakerspace.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The text states the wood kiln is for Guild members only and provides no information about public access to non-electric firings.",
+        "types": {
+          "wood": "The Guild has a wood kiln in Deerfield and Guild members fire it multiple times each year."
+        }
+      },
+      "weak": true,
+      "lat": 42.90594,
+      "lng": -72.06198
     },
     {
       "id": "truro-center-for-the-arts-at-castle-hill",
@@ -453,45 +568,21 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "nhclayproject.org"
-      }
-    },
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information to confirm public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
+    }
+  ],
+  "_removed": [
     {
       "id": "jackie-sedlock-pottery-nh",
-      "org": "Jackie Sedlock Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "New Hampshire",
-      "city": null,
-      "urls": [
-        "https://www.manchesterjournal.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.manchesterjournal.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "And now, I host workshops, week-long workshops, and I teach people how to fire wood kilns.",
-        "url": "https://www.manchesterjournal.com/arts-and-culture/a-haven-for-potters-in-the-deep-woods-of-southern-vermont/2747751",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "manchesterjournal.com"
-      }
+      "why": "Second check (gemini-3.5-flash-lite): page says state is Vermont, not NH (2026-10-07)"
     }
   ]
 }

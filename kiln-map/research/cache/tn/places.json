@@ -45,7 +45,11 @@
       "confidence": "high",
       "reason": "The site advertises a public Raku Firing Experience in Gatlinburg, TN.",
       "quote_verified": false,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": true,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "clayworksinc.org": {
@@ -65,7 +69,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NC",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "classes.mightymud.com": {
@@ -132,7 +137,11 @@
       "confidence": "high",
       "reason": "The site offers public Raku workshops.",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": false,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "timisaacpottery.com": {
@@ -158,7 +167,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in MD",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "natewinterstudios.com": {
@@ -178,7 +188,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in PA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "midsouthceramics.com": {
@@ -223,7 +234,7 @@
       "name": "Mid-South Ceramics",
       "city": "Nashville",
       "state": "TN",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "firing_service_or_rental",
       "firing_types": [
         "raku"
@@ -231,9 +242,13 @@
       "quote": "Public Firing Service - Mid-South Ceramics: Need kiln access for your work? Our public firing service gives ceramic artists a dependable and professional option to fire their pieces with care.",
       "dates": [],
       "confidence": "high",
-      "reason": "The site explicitly advertises a public firing service for ceramic artists.",
+      "reason": "The site explicitly advertises a public firing service for ceramic artists. [gate: quote names no specific non-electric firing]",
       "quote_verified": false,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "facebook.com": {
@@ -369,7 +384,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IL",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "commongracepottery.com": {
@@ -408,7 +424,7 @@
       "name": "Common Grace Pottery",
       "city": "Nashville",
       "state": "TN",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "raku"
@@ -416,9 +432,13 @@
       "quote": "She also offers in-person group pottery classes, individual pottery lessons, and pop-up workshops for those interested in the art of pottery.",
       "dates": [],
       "confidence": "high",
-      "reason": "The site mentions offering raku workshops and classes in Nashville, TN.",
+      "reason": "The site mentions offering raku workshops and classes in Nashville, TN. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": true,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "tripadvisor.com": {
@@ -470,7 +490,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in OH",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "clayplayarts.com": {
@@ -496,7 +517,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in WI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "https://allevents.in/gatlinburg/raku-and-horse-hair-pottery/10000876956268807": {
@@ -516,7 +538,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in OH",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "adamahartstudio.org": {
@@ -536,7 +559,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in WI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "ceramicinfospot.com": {
@@ -584,7 +608,8 @@
       "confidence": "high",
       "reason": "The text provides guides on wood and gas firing but does not mention any public access, classes, or booking opportunities in Tennessee.",
       "quote_verified": false,
-      "secs": 18
+      "secs": 18,
+      "state_on_page": false
     }
   },
   "hambidge.org": {
@@ -616,7 +641,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in GA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "weberwoodfire.com": {
@@ -648,7 +674,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in WI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "southarts.org": {
@@ -689,7 +716,11 @@
       "confidence": "high",
       "reason": "The text mentions the construction of a woodfire anagama kiln in Tennessee.",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
     }
   },
   "arrowmont.org": {
@@ -776,7 +807,12 @@
       "confidence": "high",
       "reason": "The site mentions workshops and access to wood, soda, and salt firing techniques.",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": true,
+      "supported_types": [
+        "soda",
+        "wood"
+      ]
     }
   },
   "blogs.tntech.edu": {
@@ -810,7 +846,11 @@
       "confidence": "high",
       "reason": "The blog advertises a soda-fired workshop at a location in Tennessee.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true,
+      "supported_types": [
+        "soda"
+      ]
     }
   },
   "theokidokistudio.com": {
@@ -842,7 +882,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "pigeonforgechamber.com": {
@@ -882,7 +923,11 @@
       "confidence": "high",
       "reason": "The text advertises a specific, dated workshop involving a non-electric soda firing in Tennessee.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": false,
+      "supported_types": [
+        "soda"
+      ]
     }
   },
   "events.ornl.gov": {
@@ -906,7 +951,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "newprospectpottery.com": {
@@ -930,7 +976,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "clayfinder.com": {
@@ -956,7 +1003,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in TX",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "shipleypottery.com": {
@@ -990,7 +1038,8 @@
       "confidence": "high",
       "reason": "The text mentions future classes and workshops but does not confirm public access to non-electric firings.",
       "quote_verified": false,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": true
     }
   },
   "lemoyne.org": {
@@ -1016,7 +1065,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in FL",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "oribefiring.com": {
@@ -1049,7 +1099,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in CA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "community.ceramicartsdaily.org": {
@@ -1084,7 +1135,8 @@
       "confidence": "high",
       "reason": "The listed workshop dates are in the past.",
       "quote_verified": false,
-      "secs": 12
+      "secs": 12,
+      "state_on_page": false
     }
   },
   "studiospottery.com": {
@@ -1158,7 +1210,12 @@
       "confidence": "high",
       "reason": "The site mentions raku and pit-firing and is located in Tennessee.",
       "quote_verified": true,
-      "secs": 12
+      "secs": 12,
+      "state_on_page": true,
+      "supported_types": [
+        "raku",
+        "pit_barrel_saggar"
+      ]
     }
   },
   "clayinthewoods.com": {
@@ -1178,7 +1235,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "nashville-pottery.com": {
@@ -1233,7 +1291,8 @@
       "confidence": "high",
       "reason": "The text only mentions firing pieces after a class, which is not specified as a public, bookable firing event.",
       "quote_verified": false,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false
     }
   },
   "theclaylady.com": {
@@ -1271,7 +1330,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "kilnfire.com": {
@@ -1327,7 +1387,7 @@
       "name": "N/A",
       "city": "Chattanooga",
       "state": "TN",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "wood",
@@ -1340,9 +1400,11 @@
       "quote": "Chattanooga, TN Pottery Classes - Kiln Fire: Welcome to the Kiln Fire pottery class directory: unleash your creativity in Chattanooga, TN, TN!",
       "dates": [],
       "confidence": "high",
-      "reason": "The page is a directory for pottery classes in Chattanooga, TN, which implies public access to pottery activities.",
+      "reason": "The page is a directory for pottery classes in Chattanooga, TN, which implies public access to pottery activities. [gate: quote names no specific non-electric firing]",
       "quote_verified": false,
-      "secs": 19
+      "secs": 19,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "bookwhen.com": {
@@ -1377,7 +1439,11 @@
       "confidence": "high",
       "reason": "The listing advertises a specific, bookable saggar barrel firing workshop.",
       "quote_verified": false,
-      "secs": 14
+      "secs": 14,
+      "state_on_page": false,
+      "supported_types": [
+        "pit_barrel_saggar"
+      ]
     }
   },
   "theclay.studio": {
@@ -1403,7 +1469,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in UK",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "ceramicreview.com": {
@@ -1429,7 +1496,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in WI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "lighthousearts.org": {
@@ -1455,7 +1523,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IL",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "youtube.com": {
@@ -1495,7 +1564,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in OH",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "kintekfurnace.com": {
@@ -1532,7 +1602,8 @@
       "confidence": "high",
       "reason": "The text only discusses the technical aspects of kilns and does not mention public access for firing.",
       "quote_verified": true,
-      "secs": 17
+      "secs": 17,
+      "state_on_page": false
     }
   },
   "digitalfire.com": {
@@ -1569,7 +1640,8 @@
       "confidence": "low",
       "reason": "The website is a technical reference resource and does not offer public firing services.",
       "quote_verified": false,
-      "secs": 19
+      "secs": 19,
+      "state_on_page": false
     }
   },
   "potterystarter.com": {
@@ -1604,7 +1676,8 @@
       "confidence": "high",
       "reason": "The page discusses general pottery classes and does not mention any specific firing services available to the public in Tennessee.",
       "quote_verified": false,
-      "secs": 18
+      "secs": 18,
+      "state_on_page": false
     }
   },
   "conebluepottery.com": {
@@ -1633,7 +1706,8 @@
       "confidence": "high",
       "reason": "The page content is not available to determine if the public can participate in a firing.",
       "quote_verified": false,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "clay-king.com": {
@@ -1670,7 +1744,8 @@
       "confidence": "high",
       "reason": "The website is an online store and directory, not a physical location offering public firing services.",
       "quote_verified": false,
-      "secs": 22
+      "secs": 22,
+      "state_on_page": true
     }
   },
   "potterywithapurpose.com": {
@@ -1707,7 +1782,8 @@
       "confidence": "high",
       "reason": "The page does not provide enough information to confirm public access to non-electric firings in Tennessee.",
       "quote_verified": false,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "kilnfrog.com": {
@@ -1736,7 +1812,8 @@
       "confidence": "high",
       "reason": "The website is a directory for kiln repair technicians, not a place offering public firings.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "euclids.com": {
@@ -1771,7 +1848,8 @@
       "confidence": "high",
       "reason": "The page is a directory and does not mention public firing opportunities.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "clayartspace.com": {
@@ -1795,7 +1873,7 @@
       "name": "Clay Art Space",
       "city": "",
       "state": "",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "firing_service_or_rental",
       "firing_types": [
         "other"
@@ -1803,9 +1881,11 @@
       "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
       "dates": [],
       "confidence": "high",
-      "reason": "The studio offers kiln space rentals for firing pottery.",
+      "reason": "The studio offers kiln space rentals for firing pottery. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 27
+      "secs": 27,
+      "state_on_page": false,
+      "supported_types": []
     }
   },
   "kilnshare.com": {
@@ -1853,7 +1933,8 @@
       "confidence": "high",
       "reason": "The website is a global directory and does not specify any Tennessee locations or firing details for the public.",
       "quote_verified": true,
-      "secs": 39
+      "secs": 39,
+      "state_on_page": false
     }
   },
   "smokeinthemountainspottery.com": {
@@ -1879,7 +1960,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IN",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "cubcreek.org": {
@@ -1899,7 +1981,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in VA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "tn.gov": {
@@ -1941,7 +2024,8 @@
       "confidence": "high",
       "reason": "The page is a general state government website and does not mention any ceramic firing services.",
       "quote_verified": false,
-      "secs": 24
+      "secs": 24,
+      "state_on_page": true
     }
   },
   "yellowsprings.org": {
@@ -1967,7 +2051,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in PA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "csbsju.edu": {
@@ -2004,7 +2089,8 @@
       "confidence": "high",
       "reason": "The text describes a volunteer-run event and does not indicate public participation or booking for firing.",
       "quote_verified": false,
-      "secs": 20
+      "secs": 20,
+      "state_on_page": false
     }
   },
   "findapotteryclass.com": {
@@ -2035,7 +2121,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "humphreyhousestudio.com": {
@@ -2055,7 +2142,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "mudpuddlepottery.com": {
@@ -2075,7 +2163,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "yelp.com": {
@@ -2163,7 +2252,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "potterylist.com": {
@@ -2214,7 +2304,8 @@
       "confidence": "high",
       "reason": "The search snippets mention firing types but the page text is unreadable.",
       "quote_verified": false,
-      "secs": 22
+      "secs": 22,
+      "state_on_page": true
     }
   },
   "thepotterystudio.com": {
@@ -2270,7 +2361,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "localinmycity.com": {
@@ -2290,7 +2382,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "communitypottery.org": {
@@ -2383,7 +2476,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IN",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "belltowerpottery.com": {
@@ -2434,7 +2528,7 @@
       "name": "Belltower Pottery",
       "city": "Memphis",
       "state": "TN",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "other"
@@ -2442,9 +2536,11 @@
       "quote": "Belltower offers community kiln rentals in which you can bisque or glaze fire a full kiln of pottery in Memphis.",
       "dates": [],
       "confidence": "high",
-      "reason": "The studio offers community kiln rentals for firing pottery.",
+      "reason": "The studio offers community kiln rentals for firing pottery. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 26
+      "secs": 26,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "summeraveartclay.com": {
@@ -2493,7 +2589,8 @@
       "confidence": "medium",
       "reason": "The provided text only mentions kiln firings for studio members, not the public.",
       "quote_verified": false,
-      "secs": 19
+      "secs": 19,
+      "state_on_page": true
     }
   },
   "superpages.com": {
@@ -2513,7 +2610,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "seizetheclay.net": {
@@ -2545,7 +2643,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "creativeagingmidsouth.org": {
@@ -2581,7 +2680,8 @@
       "confidence": "high",
       "reason": "The text only mentions an introductory class and does not confirm public access to firing services.",
       "quote_verified": false,
-      "secs": 22
+      "secs": 22,
+      "state_on_page": false
     }
   },
   "ilovememphisblog.com": {
@@ -2601,7 +2701,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "styleblueprint.com": {
@@ -2621,7 +2722,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "christianapottery.com": {
@@ -2653,7 +2755,7 @@
       "name": "Christiana Pottery",
       "city": "",
       "state": "TN",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "other"
@@ -2661,9 +2763,11 @@
       "quote": "Included in the package are 5 lbs. of mid-fire Clay, Glazes and all kiln firing.",
       "dates": [],
       "confidence": "high",
-      "reason": "The site mentions kiln firing services and a package that includes firing, and the location is in Tennessee.",
+      "reason": "The site mentions kiln firing services and a package that includes firing, and the location is in Tennessee. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 47
+      "secs": 47,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "mightymud.com": {
@@ -2724,7 +2828,11 @@
       "confidence": "high",
       "reason": "The site advertises a specific Raku firing event and studio firing services for artists.",
       "quote_verified": true,
-      "secs": 25
+      "secs": 25,
+      "state_on_page": true,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "themakercity.org": {
@@ -2759,7 +2867,11 @@
       "confidence": "high",
       "reason": "The site mentions ongoing classes where beginners can try the Raku process.",
       "quote_verified": true,
-      "secs": 22
+      "secs": 22,
+      "state_on_page": false,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "knoxvilleartstudio.com": {
@@ -2792,7 +2904,7 @@
       "name": "Knoxville Art Studio",
       "city": "Knoxville",
       "state": "TN",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "other"
@@ -2800,9 +2912,11 @@
       "quote": "Book beginner-friendly pottery classes for adults, kids, and teens, plus separate bisque and glaze firing services in Knoxville, Tennessee.",
       "dates": [],
       "confidence": "high",
-      "reason": "The studio offers classes and separate firing services in Knoxville, TN.",
+      "reason": "The studio offers classes and separate firing services in Knoxville, TN. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 29
+      "secs": 29,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "clayandkilnstudio.com": {
@@ -2853,7 +2967,8 @@
       "confidence": "high",
       "reason": "The studio is located in New York, not Tennessee, and only offers painting services.",
       "quote_verified": true,
-      "secs": 34
+      "secs": 34,
+      "state_on_page": false
     }
   },
   "https://www.eventbrite.com/d/tn--knoxville/pottery-class/": {
@@ -2873,7 +2988,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "seesthrutrees.com": {
@@ -2898,7 +3014,7 @@
       "name": "seesthrutrees",
       "city": "Knoxville",
       "state": "TN",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "other"
@@ -2906,9 +3022,11 @@
       "quote": "Includes clay, tools, glaze, firings and 1 one-hour class.",
       "dates": [],
       "confidence": "high",
-      "reason": "The site offers multiple classes that include firings for adults and children.",
+      "reason": "The site offers multiple classes that include firings for adults and children. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 33
+      "secs": 33,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "thepotteryplacechattanooga.com": {
@@ -2958,7 +3076,12 @@
       "confidence": "high",
       "reason": "The listing mentions classes featuring public access to ancient firing methods like Raku and Pitfire.",
       "quote_verified": true,
-      "secs": 41
+      "secs": 41,
+      "state_on_page": true,
+      "supported_types": [
+        "raku",
+        "pit_barrel_saggar"
+      ]
     }
   },
   "oyatepottery.com": {
@@ -2994,7 +3117,8 @@
       "confidence": "high",
       "reason": "The website only advertises firing methods and does not indicate public access or booking options.",
       "quote_verified": false,
-      "secs": 25
+      "secs": 25,
+      "state_on_page": false
     }
   },
   "chattanooga.com": {
@@ -3027,7 +3151,7 @@
       "name": "Chattanooga Area Potters Association",
       "city": "Chattanooga",
       "state": "TN",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "wood",
@@ -3040,9 +3164,11 @@
       "quote": "The Chattanooga Area Potters Association occasionally hosts community events and studio tours, particularly in spring and fall. These are free or low-cost (typically $5 to $15 per studio visited) and provide direct access to private artist studios that do not normally open to the public.",
       "dates": [],
       "confidence": "high",
-      "reason": "The association hosts community events providing access to private studios.",
+      "reason": "The association hosts community events providing access to private studios. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 30
+      "secs": 30,
+      "state_on_page": false,
+      "supported_types": []
     }
   },
   "sceniccityclayarts.org": {
@@ -3087,7 +3213,7 @@
       "name": "Scenic City Clay Arts",
       "city": "Chattanooga",
       "state": "TN",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "firing_service_or_rental",
       "firing_types": [
         "gas_reduction"
@@ -3095,9 +3221,11 @@
       "quote": "No studio membership required!",
       "dates": [],
       "confidence": "high",
-      "reason": "The studio explicitly offers public firing and kiln rentals without requiring a membership.",
+      "reason": "The studio explicitly offers public firing and kiln rentals without requiring a membership. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 35
+      "secs": 35,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "visitchattanooga.com": {
@@ -3124,7 +3252,7 @@
       "name": "Scenic City Clay Arts",
       "city": "Chattanooga",
       "state": "TN",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "wood"
@@ -3132,9 +3260,11 @@
       "quote": "Classes for adults Wheelthrowing, handbuilding, kiln maintenance, sculpture - you name it, we've got it.",
       "dates": [],
       "confidence": "high",
-      "reason": "The listing mentions classes and studio access for various techniques, implying public participation.",
+      "reason": "The listing mentions classes and studio access for various techniques, implying public participation. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 24
+      "secs": 24,
+      "state_on_page": false,
+      "supported_types": []
     }
   },
   "claystuff.com": {
@@ -3160,7 +3290,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in MD",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "arrowheadart.org": {
@@ -3196,7 +3327,8 @@
       "confidence": "high",
       "reason": "The provided text only mentions electric kilns and does not confirm public access to non-electric firings.",
       "quote_verified": false,
-      "secs": 36
+      "secs": 36,
+      "state_on_page": false
     }
   },
   "claydirectory.com": {
@@ -3244,7 +3376,8 @@
       "confidence": "high",
       "reason": "The page is a directory and does not confirm public access to specific non-electric firings in Tennessee.",
       "quote_verified": false,
-      "secs": 46
+      "secs": 46,
+      "state_on_page": true
     }
   },
   "thesmithceramicsstudiogallery.kilnfire.com": {
@@ -3267,7 +3400,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "discover.events.com": {
@@ -3293,7 +3427,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IN",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "https://www.airbnb.com/experiences/6706336": {
@@ -3313,7 +3448,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "findglocal.com": {
@@ -3364,7 +3500,11 @@
       "confidence": "high",
       "reason": "The listing advertises a public Raku Firing Experience at a specific location in Tennessee.",
       "quote_verified": true,
-      "secs": 27
+      "secs": 27,
+      "state_on_page": true,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "venturesmokymountains.com": {
@@ -3389,7 +3529,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "fowlersclayworks.com": {
@@ -3421,7 +3562,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "daffodil-designs.com": {
@@ -3441,7 +3583,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "gatlinburg.com": {
@@ -3476,7 +3619,8 @@
       "confidence": "low",
       "reason": "The provided text is a general tourism website and does not mention any ceramic firing opportunities.",
       "quote_verified": false,
-      "secs": 47
+      "secs": 47,
+      "state_on_page": false
     }
   },
   "gatlinburgsbestcabins.com": {
@@ -3502,7 +3646,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "visitjohnsoncitytn.com": {
@@ -3528,7 +3673,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "nextdoor.com": {
@@ -3548,7 +3694,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "yelp.ca": {
@@ -3568,7 +3715,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "intothefirejc.com": {
@@ -3617,7 +3765,8 @@
       "confidence": "high",
       "reason": "The service described is paint-your-own pottery, not participation in a kiln firing.",
       "quote_verified": true,
-      "secs": 26
+      "secs": 26,
+      "state_on_page": true
     }
   },
   "khitchglass.com": {
@@ -3651,7 +3800,8 @@
       "confidence": "high",
       "reason": "The page discusses glass fusing and blowing, not ceramic kiln firings.",
       "quote_verified": false,
-      "secs": 23
+      "secs": 23,
+      "state_on_page": false
     }
   },
   "mindtrip.ai": {
@@ -3677,7 +3827,7 @@
       "name": "mindtrip.ai",
       "city": "Johnson City",
       "state": "TN",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "other"
@@ -3685,9 +3835,11 @@
       "quote": "This establishment offers ceramic painting services where guests select items, apply glazes using provided tools, and leave them to be fired in an on-site kiln.",
       "dates": [],
       "confidence": "high",
-      "reason": "The site describes public ceramic painting services that include firing in an on-site kiln.",
+      "reason": "The site describes public ceramic painting services that include firing in an on-site kiln. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 30
+      "secs": 30,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "katiesclaystudio.com": {
@@ -3719,7 +3871,8 @@
       "confidence": "high",
       "reason": "The available information only mentions 'Paint Your Own Pottery' and does not confirm public access to non-electric firings.",
       "quote_verified": false,
-      "secs": 59
+      "secs": 59,
+      "state_on_page": false
     }
   },
   "artcuriousstudio.com": {
@@ -3741,7 +3894,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "downtownjctn.com": {
@@ -3761,7 +3915,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "art.placefull.com": {
@@ -3796,7 +3951,12 @@
       "confidence": "high",
       "reason": "The studio offers raku and pit firing, which are non-electric methods, and is located in Tennessee.",
       "quote_verified": true,
-      "secs": 27
+      "secs": 27,
+      "state_on_page": true,
+      "supported_types": [
+        "raku",
+        "pit_barrel_saggar"
+      ]
     }
   },
   "boropulse.com": {
@@ -3834,7 +3994,12 @@
       "confidence": "high",
       "reason": "The text mentions classes focused on raku and pit firing at a studio in Tennessee.",
       "quote_verified": true,
-      "secs": 31
+      "secs": 31,
+      "state_on_page": false,
+      "supported_types": [
+        "raku",
+        "pit_barrel_saggar"
+      ]
     }
   },
   "yellowbot.com": {
@@ -3868,7 +4033,11 @@
       "confidence": "high",
       "reason": "The listing mentions S Pottery in Murfreesboro, TN, and specifically lists raku firing.",
       "quote_verified": false,
-      "secs": 43
+      "secs": 43,
+      "state_on_page": true,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "pinterest.com": {
@@ -3907,7 +4076,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IL",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "my.ceramicmaterialsworkshop.com": {
@@ -3934,7 +4104,7 @@
       "name": "Studio S Pottery and Galleries",
       "city": "Murfreesboro",
       "state": "TN",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "wood",
@@ -3944,9 +4114,11 @@
       "quote": "Studio S Pottery and Galleries — Murfreesboro, TN",
       "dates": [],
       "confidence": "high",
-      "reason": "The listing mentions a local studio in Tennessee that offers facilities.",
+      "reason": "The listing mentions a local studio in Tennessee that offers facilities. [gate: quote names no specific non-electric firing]",
       "quote_verified": false,
-      "secs": 24
+      "secs": 24,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "murfreesboro.colormemine.com": {
@@ -3983,7 +4155,8 @@
       "confidence": "high",
       "reason": "The text only mentions bisque firing and does not indicate public access to non-electric firing methods.",
       "quote_verified": true,
-      "secs": 28
+      "secs": 28,
+      "state_on_page": false
     }
   },
   "sheffield-pottery.com": {
@@ -4012,7 +4185,8 @@
       "confidence": "high",
       "reason": "The website only sells supplies and kilns and does not mention public firing events.",
       "quote_verified": false,
-      "secs": 24
+      "secs": 24,
+      "state_on_page": false
     }
   },
   "theceramicshop.com": {
@@ -4034,7 +4208,24 @@
       "https://www.theceramicshop.com/store/category/6/350/sio-2/Low%2BFire/": "Mid Range\nWood Fire\nStandard Clay\nHigh Fire\nRaku\nSample Sizes\nTucker's Clay\nMoon Rocks\nSnow Gems\nSpecialty Glazes\n(HF) High Fire - High Fire\n(KI) Kiln Ice - High Fire\n(PG) Phase Glaze - High Fire\n(PC) Potter's Choice - High Fire\n800 Semi Transparent Low Fire\n850 Raku\n900 Low Stone\n1100 Stoneware\n1200 Cone 10\n1400 Cone 5 Shino\n1430 Floating Glaze\nWiggle Wires\nKilns\nConeArt\nCeramic Oval Kilns\nCeramic Round Kilns\nCeramic Square Kilns\nGlass Kilns\nUpgrades and Add Ons\nEvenheat\nCrossover\nHigh Fire Series\nKnife Ovens\nDoll/Test\nSchool Kilns\nLaguna\nGas Kilns\nNabertherm\nFront Loaders\nOlympic\n120 Volt Kilns\nLarge Capacity Front Loaders\nDual Media\nGas & Electric Raku\nMedallion Series\nOval Kilns\nSolid Jacket\nStackable\nParagon\nAnnealing Kilns\nLarge Front Loaders\nPottery Kilns\nJewelry & Metal Kilns\nSkutt\nMultimedia Kilns\nProduction Kilns\nEquipment\nWork Tables\nKiln Parts\nConnection Wires & Connectors\nElement Connectors\nFuses\nKiln Brick\nL&L Brick\nSkutt Brick\nKiln Controllers\nBartlett\nKiln Elements\nAmerican Beauty\nAmaco\nPins & Insulators\nKiln Hardware\nKiln Sitter\nKiln Stands\nL&L\nTube Assemblies\nKiln Room\nAprons\nCones\nSilicon Carbide\nCustom Cut Kiln Shelves\nStands\nSample Sets\nHeat-Thru Kiln Shelves\nHydroBat\nStandard Bats\nAdapters\nKiln Posts\n1\" Thick Posts\n1.5\" Thick Posts\nSoft Brick Filler\nKiln Wash\nRibs\nTORQ Tools\nCustom Decal Design Service\nFiring Retail\nKiln Repair\nShipping\nStilts\nWire\nVent-Thru (Kiln Vent Kit)\nWax Resist\nWax On\n(3)\nFiring Range\nFilter\nLow Fire\nServices &#13\nConsulting\nCustom Decals\nCrating and Shipping\nFiring\nFinancing\nGift Cards\n",
       "https://www.theceramicshop.com/store/category/15/328/Raku/": "Raku Kilns - The Ceramic Shop\nAbout Us\nContact Us\nMid Range\nWood Fire\nStandard Clay\nHigh Fire\nRaku\nSample Sizes\nTucker's Clay\nMoon Rocks\nSnow Gems\nSpecialty Glazes\n(HF) High Fire - High Fire\n(KI) Kiln Ice - High Fire\n(PG) Phase Glaze - High Fire\n(PC) Potter's Choice - High Fire\n800 Semi Transparent Low Fire\n850 Raku\n900 Low Stone\n1100 Stoneware\n1200 Cone 10\n1400 Cone 5 Shino\n1430 Floating Glaze\nWiggle Wires\nKilns\nConeArt\nCeramic Oval Kilns\nCeramic Round Kilns\nCeramic Square Kilns\nGlass Kilns\nUpgrades and Add Ons\nEvenheat\nCrossover\nHigh Fire Series\nKnife Ovens\nDoll/Test\nSchool Kilns\nLaguna\nGas Kilns\nNabertherm\nFront Loaders\nOlympic\n120 Volt Kilns\nLarge Capacity Front Loaders\nDual Media\nGas & Electric Raku\nMedallion Series\nOval Kilns\nSolid Jacket\nStackable\nParagon\nAnnealing Kilns\nLarge Front Loaders\nPottery Kilns\nJewelry & Metal Kilns\nSkutt\nMultimedia Kilns\nProduction Kilns\nEquipment\nWork Tables\nKiln Parts\nConnection Wires & Connectors\nElement Connectors\nFuses\nKiln Brick\nL&L Brick\nSkutt Brick\nKiln Controllers\nBartlett\nKiln Elements\nAmerican Beauty\nAmaco\nPins & Insulators\nKiln Hardware\nKiln Sitter\nKiln Stands\nL&L\nTube Assemblies\nKiln Room\nAprons\nCones\nSilicon Carbide\nCustom Cut Kiln Shelves\nStands\nSample Sets\nHeat-Thru Kiln Shelves\nHydroBat\nStandard Bats\nAdapters\nKiln Posts\n1\" Thick Posts\n1.5\" Thick Posts\nSoft Brick Filler\nKiln Wash\nRibs\nTORQ Tools\nCustom Decal Design Service\nFiring Retail\nKiln Repair\nShipping\nStilts\nWire\nVent-Thru (Kiln Vent Kit)\nWax Resist\nWax On\nHome\nFilter\nKiln Price\nUnder $1,000.00\n(4)\nCheck out our Kilns 101 FAQ!\nBACK TO ALL\nSort Fields\n5 products in this category, displaying products 1 to 5 .\nAxner\nHeat Wave Raku Kiln 24 x18\n$899.00\nAdd to Cart\nHeat Wave Raku Kiln Kit\n$1,545.08\nCustomize\nLaguna Model LE-201 Raku Kilns\n$2,750.00\n$2,612.50\nQuick View\nItem #: PRAKUKILN\nPeter Pugger\nPeter Pugger Clam Raku Kiln\n$3,499.00\nRaku Propane Burner Kit\n$269.00\nServices &#13\nConsulting\nCustom Decals\nCrating and Shipping\nFiring\nFinancing\nGift Cards\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "The Ceramic Shop",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "raku"
+      ],
+      "quote": "If you're within a two-hour radius of our shop in Norristown, PA, we can come to you to repair or inspect your kiln!",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The website is an online store and does not list public firing events or services in Tennessee.",
+      "quote_verified": true,
+      "secs": 45,
+      "state_on_page": false
+    }
   },
   "glazequeen.com": {
     "key": "glazequeen.com",
@@ -4049,7 +4240,22 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "GlazeQueen",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The website is an online supplier and does not offer firing services.",
+      "quote_verified": false,
+      "secs": 19,
+      "state_on_page": false
+    }
   },
   "thememphispottersguild.com": {
     "key": "thememphispottersguild.com",
@@ -4074,7 +4280,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "thepottersguild.com": {
@@ -4094,7 +4301,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "nhpottersguild.org": {
@@ -4114,7 +4322,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NH",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "blueridgepotters.com": {
@@ -4130,7 +4339,27 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Crab Orchard Pottery",
+      "city": "",
+      "state": "TN",
+      "decision": "unclear",
+      "access": "dated_events",
+      "firing_types": [
+        "gas_reduction"
+      ],
+      "quote": "Lisa Orr's Rocket Kiln Workshop at Crab Orchard Pottery: By Andy May On February 28th and March 1st, 2026, fifteen potters gathered at Don Reed's Crab Orchard Pottery in rural eastern Tennessee for a hands-on Rocket Kiln Workshop led by renowned ceramic artist Lisa Orr.",
+      "dates": [
+        "February 28th and March 1st, 2026"
+      ],
+      "confidence": "high",
+      "reason": "The text advertises a specific, dated workshop using a kiln type that qualifies. [gate: quote names no specific non-electric firing]",
+      "quote_verified": false,
+      "secs": 33,
+      "state_on_page": true,
+      "supported_types": []
+    }
   },
   "easttnhistory.org": {
     "key": "easttnhistory.org",
@@ -4151,7 +4380,27 @@
       "https://www.easttnhistory.org/event/zenith-man-a-talk-by-mccracken-poston-jr/": "",
       "https://www.easttnhistory.org/exhibitions/molded-by-hand-hardened-by-fire/": "Molded by Hand, Hardened By Fire\nA Special Exhibition of Wood-Fired Pottery by Peter Rose\nStatus\nMay 16, 2011 to October 30, 2011\nAn Australian potter preserving East Tennessee traditions\nOn Saturday mornings at least twice a year, a community gathers around Peter Rose’s wood-fired kiln in northeast Knox County. It is a ritual that is not uncommon to the South, a celebration of the kiln’s opening, a chance to see and possibly purchase direct from the potter a molded piece of clay that has been dramatically transformed by days of wood firing.\nAustralian by birth, Rose came to East Tennessee in 1985 by way of Japan and England. Four years later when Rose set out to build his own wood-fired kiln, it was these ceramic cultures—and the advice of a visiting Korean potter—that shaped the final structure. The kiln was completed in 1992, and Rose was ready to begin firing, ready to begin melding his past, multi-cultural experiences with the traditions of Southern folk potters.\nToday, Rose continues to advance the wood-fired pottery tradition in East Tennessee, as seen in the utilitarian and sculptural pieces on view in the gallery above. The video below explores additional aspects of Rose’s life and work, while following one jug from being molded by hand to being hardened by fire.\nFace jug Peter Rose (b. 1956, Adelaide, Australia) Wood-fired ceramics, 8.5″ h, 2012​Knox County Face jug with facial features applied onto jug form inspired by 19th century example in the artist’s collection  Accession Number  2012.8.1   Permanent Collection of the  East Tennessee Historical Society  Gift of the artist\nPurchase Print Maybe?\n-->\nMonkey and bird Peter Rose (b. 1956, Adelaide, Australia) Wood-fired ceramics, 14″ h, 2006 Knox County  Accession Number 2008.65.1   Permanent Collection of the  East Tennessee Historical Society  Gift of the artist\nJug Peter Rose (b. 1956, Adelaide, Australia) Wood-fired ceramics, 8.5″ h, 2012​Knox County Jug made by Peter Rose with inspiration from a 19th century example in the artist’s collection. This jug is featured in the video below.  Accession Number  2011.51.1   Permanent Collection of the  East Tennessee Historical Society  Gift of the artist\nFace jug with lid Peter Rose (b. 1956, Adelaide, Australia) Wood-fired ceramics, 21″ h, 2012​Knox County  Accession Number  2012.66.1ab   Permanent Collection of the  East Tennessee Historical Society  Gift of the artist\nFiring the kiln Temperatures rise in excess of 2,300 degrees during the firing. Here is view into the front chamber, as wood is being added.\nA community effort Mack Hickey, a member of the kiln crew, adds more wood to the front chamber. The kiln is fired for three days by shifts of volunteers.\nA look inside After the kiln is allowed to cool for several days, the front and back chambers are opened to reveal the effects the wood-firing has created on the works inside.\nUnloading the kiln Peter Rose unloads the back, or salt, chamber. It is important for Rose to unload the kiln, so he can see the correlation between pot placement and the effects of flame, heat, and ash.\nA successful firing Community members arrive at the kiln to help unload the work, piece by piece. Pots are placed at the edge of a nearby pond, which serves as an informal gallery for the weekend.\nLoading the kiln Peter Rose loads his wood-fired kiln in northeast Knox County. The kiln can hold more than 200 pots with each piece of bisqueware having to be strategically placed to maximize its exposure to flame and ash.\nMolded by Hand, Hardened by Fire: The Wood Fired Pottery of Peter Rose\nCredits:\nCurator:  Adam H. Alfrey\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "East Tennessee Historical Society",
+      "city": "",
+      "state": "TN",
+      "decision": "qualifies",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "On Saturday mornings at least twice a year, a community gathers around Peter Rose’s wood-fired kiln in northeast Knox County.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text describes community gatherings around a wood-fired kiln, indicating public access to the firing process.",
+      "quote_verified": true,
+      "secs": 34,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
+    }
   },
   "etsu.edu": {
     "key": "etsu.edu",
@@ -4170,7 +4419,33 @@
       "https://www.etsu.edu/calendar/default.php": "",
       "https://www.etsu.edu/cas/art/areas_of_study/ceramics.php": "Ceramics\nKiln building, figurative ceramics, and ceramic surface design\nArt and Design Art and Design\nWelcome\nthrowing, hand building, mold making, material science, professional practices, and\na wide range of kiln firing temperatures and technologies. Special topics courses\noffer intensive focus on processes like: kiln building, figurative ceramics, and ceramic\nsurface design. Once accepted in to the program, B.F.A. students matriculate through\na series of advanced courses that introduce the sophisticated technical, critical,\nfacility is equipped with two large, high-ceiling, open-format work spaces, a glaze\nlab, clay mixing room, graduate studio, ceramic library/lounge, and an extensive kiln\npad. The glaze lab is set up for high and low fire glazing and is fully stocked with\ndry materials and shop glazes. Just outside the Art Annex there is a thriving pollinator\ngarden. All ceramics students have 24 hour access to the facility.\nKILN PAD:\nComputerized Electric Kilns:\nSkutt 1627- 3 PK (Oval), Touchscreen\nSkutt 1227-3 PK, Touchscreen\nSkutt 818\nSkutt Firebox (Test Kiln)\nGas Kilns:\nDowndraft Reduction Car Kiln, Ward Burners (built 2018)\nDowndraft Soda Kiln, Ward Burners (built 2018)\nFiber Basket Raku Kiln\nWood Kilns:\nCatenary Arch Wood/Salt Kiln (built 2018)\nManabigama Wood Kiln\nPit Firing Area\nCLASSROOM:\n14 Shimpo Whisper Electric Wheels\nShimpo Electric Wheel\n2 Soda Sprayers\n2 North Star Steel 10 Bin Glaze Tables\n4 Shimpo Banding Wheels\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "East Tennessee State University",
+      "city": "",
+      "state": "TN",
+      "decision": "qualifies",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "wood",
+        "salt",
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "quote": "Gas Kilns: Downdraft Reduction Car Kiln, Ward Burners (built 2018)\nDowndraft Soda Kiln, Ward Burners (built 2018)\nFiber Basket Raku Kiln\nWood Kilns:\nCatenary Arch Wood/Salt Kiln (built 2018)\nManabigama Wood Kiln\nPit Firing Area",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The facility lists multiple non-electric firing options and provides general access information for students.",
+      "quote_verified": true,
+      "secs": 41,
+      "state_on_page": true,
+      "supported_types": [
+        "wood",
+        "salt",
+        "raku",
+        "pit_barrel_saggar"
+      ]
+    }
   },
   "tennesseecraft.org": {
     "key": "tennesseecraft.org",
@@ -4194,7 +4469,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "reddit.com": {
@@ -4230,7 +4506,22 @@
       "https://en.wikipedia.org/wiki/File:Wikibooks-logo.svg": "",
       "https://en.wikipedia.org/wiki/Anagama_kiln": "Anagama kiln - Wikipedia\nJump to content\nMain menu\n(Top)\nKiln variants\nCharacteristics\nSee also\nToggle the table of contents\nAnagama kiln\n8 languages\nCatalà\nFrom Wikipedia, the free encyclopedia\nAncient type of pottery kiln\nSchematic drawing of an Anagama kiln:\n1 Door about 75 centimetres (30   in) wide\n2 Firebox\n7 Refractory arch\nNoborigama in Tokoname , Aichi\nA noborigama\nKiln in Shigaraki\nAnagama Kiln in New Jersey, USA, 1979\nThe anagama kiln (Japanese Kanji: 穴窯/ Hiragana: あながま) is an ancient type of pottery kiln brought to Japan by Korean potters around the 5th century. [ 1 ] It is a version of the climbing dragon kiln of south China, whose further development was also copied, for example in breaking up the firing space into a series of chambers in the noborigama kiln.\nAn anagama (a Japanese term meaning \"cave kiln \") consists of a firing chamber with a firebox at one end and a flue at the other. Although the term \"firebox\" is used to describe the space for the fire, there is no physical structure separating the stoking space from the pottery space. The term anagama describes single-chamber kilns built in a sloping tunnel shape. In fact, ancient kilns were sometimes built by digging tunnels into banks of clay.\nThe anagama is fueled with firewood, in contrast to the electric or gas-fueled kilns commonly used by most modern potters . A continuous supply of fuel is needed for firing, as wood thrown into the hot kiln is consumed very rapidly. Stoking occurs round the clock until a variety of variables are achieved including the way the fired pots look inside the kiln, the temperatures reached and sustained, the amount of ash applied, the wetness of the walls and the pots, etc.\nThe length of the firing depends on the volume of the kiln and may take anywhere from 48 hours to 12 or more days. The kiln generally takes the same amount of time to cool down. Records of historic firings in large Asian kilns shared by several village potters describe several weeks of steady stoking per firing.\n[ edit ]\nOne variant on the anagama style is the waritake kiln. A waritake kiln is akin to anagama in structure, but it has partition walls built every several meters through the length of the kiln. Each partition can be side stoked.\nA noborigama 登り窯 chambered climbing kiln is also built on a slope, and each succeeding chamber is situated higher than the one before it. The chambers in a noborigama are pierced at intervals with stoking ports. Such climbing kilns have been used in Japan since the 17th century. The largest working Noborigama kiln in Japan is located in Shigaraki , in the southern portion of Shiga Prefecture .\nThe renboshiki noborigama is a multi-chambered climbing kiln. There are many distinguishing characteristics between the noborigama and anagama style. For example, an anagama is somewhat like a half-tube (long vault ) with a fire burned at the lower end. A noborigama is like a set of half-tubes ( arches or short vaults, buttressing each other) placed side-by-side with piercings that allow each chamber to feed into the next.\nThe jagama (snake kiln or dragon kiln ) is related to anagama , noborigama , and waritake kilns, and was used extensively in China since at least the 3rd century CE. Jagama are tube shaped similarly to anagama kilns, but can be longer at around 60 m. Although partitioned and side stoked, jagama do not have partition walls, rather, improvised walls are created by densely stacking pottery at intervals.\nAll of these kilns use two counter-flow exchange mechanisms to maintain the air supply and to change the ware being fired, with minimal loss of heat. Each of these exchanges works on the same principle as countercurrent exchange , the principal difference being that the ware is not a fluid.\nAn advantage of the chambered and semi-chambered variants appears to be that they are partly downdraft, which makes the firing results less sensitive to the way the ware is loaded.\nA disadvantage of smaller climbing kilns is a"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text is a general Wikipedia article about kiln types and does not mention any public firing opportunities in Tennessee.",
+      "quote_verified": false,
+      "secs": 26,
+      "state_on_page": false
+    }
   },
   "gustinceramics.com": {
     "key": "gustinceramics.com",
@@ -4253,7 +4544,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in MA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "global.kyoto-nokaze.com": {
@@ -4269,7 +4561,22 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "N/A",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The location is outside of Tennessee.",
+      "quote_verified": false,
+      "secs": 23,
+      "state_on_page": false
+    }
   },
   "clayerco.com": {
     "key": "clayerco.com",
@@ -4288,7 +4595,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in GA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "atlanticpotterysupply.com": {
@@ -4314,7 +4622,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in FL",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "instagram.com": {
@@ -4348,7 +4657,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in TX",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "kilnroomcolumbus.com": {
@@ -4371,7 +4681,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in OH",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "schoolofservice.org": {
@@ -4393,7 +4704,22 @@
       "https://schoolofservice.org/adult-workshops": "",
       "https://schoolofservice.org/artist-residency": "Application open December 8th\nWe are seeking up to three Artists in Residence for our Ceramics department who WILL live on-site. The ideal candidate will have experience teaching wheel-throwing and hand-building classes to adults and/or children. Preference will be given to individuals who have previous experience firing electric and atmospheric kilns. This includes, but is not limited to, Cone 10 gas reduction firings, Anagama Wood Firings, and Raku firings. Program details and application information can be found below.\nStudio-Only Resident, 1-year term\nTerm Start: August\nWe are seeking up to four Artists in Residence for our Ceramics department who will NOT live on-site. The ideal candidate will have experience teaching wheel-throwing and hand-building classes to adults and/or children. Preference will be given to individuals who have previous experience firing electric and atmospheric kilns. This includes, but is not limited to, Cone 10 gas reduction and Raku firings. Program details and application information can be found below.\nInterested in the perks of a ceramics residency, but want to work with children? Check out our youth-focused residency opportunities, where your service hours primarily come from working with kids!\nOur artist residency is the perfect professional development opportunity for creative individuals across the spectrum of experience. While this is typically a teaching-intensive program, artists benefit from time to research, focus, and explore while living in a supportive community of makers. The ceramics program is our most vibrant program. offering year-long residencies.\nResidents will enjoy a range of studio options provided by our growing campus. There are two large studios where classes are held and a private studios just for residents. We have dry materials, clay, slab rollers, and lots of wheels. There is an outdoor shelter that houses our raku kiln and an Olson gas reduction kiln.\nIn addition to developing a body of work, residents may participate in our sales and exhibition schedule. Year-long residents are encouraged to curate a solo show in our beautiful gallery. Artists are encouraged to explore any and all facets of what we have to offer, including collaborative projects with other departments and grant-seeking.\nHere at Access Arts, we strive to provide creative learning experiences for everyone. As an artist in residence a monthly kiln firing, a monthly monetary stipend, some materials, and 24/7 access to our facilities is provided in exchange for a certain number of service hours per week (dependent on live-in vs non-live-in positions) helping to teach classes and maintain studios.​\nThe residents are the heart of our wonderful and diverse community and we expect residents to invest in the growth of this community. Potlucks, informal critiques, and late night philosophical discussions are typical. Residents who participate wholeheartedly in the experience gain the greatest benefit from our program.\nABOUT\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "schoolofservice.org",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text only describes residency opportunities and does not mention public access to firings.",
+      "quote_verified": false,
+      "secs": 24,
+      "state_on_page": false
+    }
   },
   "theresidencyreview.com": {
     "key": "theresidencyreview.com",
@@ -4412,7 +4738,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "watershedceramics.org": {
@@ -4445,7 +4772,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in ME",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "mudfire.com": {
@@ -4464,6 +4792,25 @@
       "https://www.mudfire.com/": "",
       "https://www.mudfire.com/artist-residency-programs": ""
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "MudFire",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "wood",
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The provided text does not confirm public access to firing events in Tennessee.",
+      "quote_verified": false,
+      "secs": 20,
+      "state_on_page": false
+    }
   }
 }

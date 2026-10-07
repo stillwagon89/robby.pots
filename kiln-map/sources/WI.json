@@ -102,7 +102,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "artonthetownwi.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites the public to a Raku Firing Event and offers Raku pottery classes.",
+        "types": {
+          "raku": "Stop down at Art on the Town WI: The Studio for a one-of-a-kind Raku Firing Event and experience the ancient Japanese art of Raku firsthand!"
+        }
+      },
+      "weak": true
     },
     {
       "id": "adamah-art-studios",
@@ -142,7 +152,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "empowerdriftless.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers workshops for Raku and salt firing that are open for the public to join and participate in the firing process.",
+        "types": {
+          "raku": "Raku firing is a fast, dramatic process that produces unique textures, crackles, and colors you can’t achieve in traditional kilns.",
+          "salt": "July 20 – 24, 2026 – Adamah Art Studios: Salt Fire Workshop – Dodgeville, WI"
+        }
+      },
+      "lat": 42.96001,
+      "lng": -90.13045
     },
     {
       "id": "artisan-center",
@@ -182,7 +204,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "events.nwtc.edu"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that the public can register for classes such as Raku Firing and Raku Workshop - Saggar.",
+        "types": {
+          "raku": "During this class, students will construct their wares from a particular Raku clay and fire them to achieve one-of-a-kind, distinctive surfaces unique to Raku.",
+          "pit_barrel_saggar": "This two session workshop will introduce you to saggar firing techniques."
+        }
+      },
+      "lat": 44.51264,
+      "lng": -88.01258
     },
     {
       "id": "clay-play-arts-wi",
@@ -220,7 +254,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "clayplayarts.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows outsiders can purchase a ticket for a horsehair raku firing workshop.",
+        "types": {
+          "raku": "Raku Firing Horsehair Workshop (4/18/2026) Sat 10AM-3PM"
+        }
+      },
+      "weak": true
     },
     {
       "id": "mineral-point-chamber-of",
@@ -231,14 +275,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Wisconsin",
-      "city": null,
+      "region": "Mineral Point",
+      "city": "Mineral Point",
       "urls": [
         "https://www.mineralpoint.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Mineral Point, Wisconsin",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.mineralpoint.com/"
@@ -248,7 +292,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "mineralpoint.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly offers a one-day workshop for Raku firing that is open for registration.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 42.86011,
+      "lng": -90.17977
     },
     {
       "id": "windy-ridge-pottery",
@@ -257,18 +311,18 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
         "wood",
-        "pit_barrel_saggar"
+        "pit_barrel_saggar",
+        "raku"
       ],
-      "region": "Wisconsin",
-      "city": null,
+      "region": "Dodgeville",
+      "city": "Dodgeville",
       "urls": [
         "https://www.windyridgepottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Dodgeville, Wisconsin",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.windyridgepottery.com/"
@@ -280,8 +334,8 @@
         "url": "http://www.windyridgepottery.com/windy-ridge-workshops/",
         "types": [
           "wood",
-          "raku",
-          "pit_barrel_saggar"
+          "pit_barrel_saggar",
+          "raku"
         ],
         "checked": "2026-10-07"
       },
@@ -290,7 +344,21 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "windyridgepottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites the public to join wood, pit, and barrel firing workshops at Windy Ridge Pottery.",
+        "types": {
+          "wood": "Join Joe at Windy Ridge Pottery in the Driftless Area for a wood firing workshop.",
+          "pit_barrel_saggar": "In this firing workshop, participants will focus on 4 low fire techniques including Raku, Barrell, Saggar, and Pit firing.",
+          "raku": "In this firing workshop, participants will focus on 4 low fire techniques including Raku, Barrell, Saggar, and Pit firing."
+        },
+        "street": "4681 County Road ZZ"
+      },
+      "lat": 42.96001,
+      "lng": -90.13045
     },
     {
       "id": "potters-without-kilns",
@@ -299,7 +367,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "soda"
+        "soda",
+        "gas_reduction"
       ],
       "region": "New Richmond",
       "city": "New Richmond",
@@ -319,7 +388,8 @@
         "quote": "Artists can also book a firing to load, fire and unload personally.",
         "url": "https://potterswithoutkilns.com/our-vision/firings/",
         "types": [
-          "soda"
+          "soda",
+          "gas_reduction"
         ],
         "checked": "2026-10-07"
       },
@@ -328,7 +398,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "potterswithoutkilns.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that artists can purchase shelf space, book a firing, or participate in workshops for non-electric salt/soda and reduction kilns.",
+        "types": {
+          "soda": "Warren Mackenzie’s salt/soda kiln",
+          "gas_reduction": "Carl Erickson’s reduction kiln"
+        }
+      },
+      "lat": 45.12273,
+      "lng": -92.5375
     },
     {
       "id": "ceramic-review",
@@ -337,8 +419,9 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
         "salt",
+        "wood",
+        "raku",
         "pit_barrel_saggar"
       ],
       "region": "Dodgeville",
@@ -360,6 +443,7 @@
         "url": "https://www.ceramicreview.com/events/raku-barrel-saggar-and-pit-firing-workshop/",
         "types": [
           "salt",
+          "wood",
           "raku",
           "pit_barrel_saggar"
         ],
@@ -370,7 +454,21 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "ceramicreview.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text lists workshops for salt, anagama, raku, barrel, saggar, and pit firing that participants can join.",
+        "types": {
+          "salt": "Salt Fire Workshop",
+          "wood": "Learn in a group setting as we glaze, load, and fire the catenary chamber of our anagama kiln.",
+          "raku": "In this firing workshop, participants will focus on 4 low fire techniques including Raku, Barrell, Saggar, and Pit firing.",
+          "pit_barrel_saggar": "In this firing workshop, participants will focus on 4 low fire techniques including Raku, Barrell, Saggar, and Pit firing."
+        }
+      },
+      "lat": 42.96001,
+      "lng": -90.13045
     },
     {
       "id": "linda-christianson-pottery",
@@ -408,7 +506,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "christiansonpottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text lists a Women's Wood/Salt Firing workshop that the public can sign up for.",
+        "types": {
+          "salt": "September 22 – 28, 2026 Women’s Wood/Salt Firing"
+        }
+      },
+      "lat": 42.96001,
+      "lng": -90.13045
     },
     {
       "id": "bethel-horizons-foundation-inc",
@@ -446,7 +555,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "zeffy.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites the public to join a one-day pit and barrel firing workshop hosted by the foundation.",
+        "types": {
+          "pit_barrel_saggar": "One-Day Workshop: Pit & Barrel Firing"
+        },
+        "street": "4681 Co Rd ZZ"
+      },
+      "lat": 42.96001,
+      "lng": -90.13045
     },
     {
       "id": "schoolandcollegelistings",
@@ -475,7 +596,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "schoolandcollegelistings.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public ceramic firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "the-kiln-shed",
@@ -514,7 +643,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "thekilnshed.studio"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The snippets mention wood-firing and gas-firing, but the provided page text is empty, so it cannot be confirmed if the public can sign up for these specific firings.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 43.07469,
+      "lng": -89.38417
     },
     {
       "id": "grant-ruegnitz",
@@ -542,7 +681,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "grantruegnitz.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public participation in ceramic firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "wisconsin-art-hub",
@@ -570,45 +717,15 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "wisconsinarthub.com"
-      }
-    },
-    {
-      "id": "beautiful-stump-studios",
-      "org": "Beautiful Stump Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Green Bay",
-      "city": "Green Bay",
-      "urls": [
-        "https://beautifulstumpstudios.weebly.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Green Bay, Wisconsin",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://beautifulstumpstudios.weebly.com/"
       },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "So if you are in need of some fine hand made raku or other ceramics, or just want new paint on your walls, contact us and we can talk it over.",
-        "url": "http://beautifulstumpstudios.weebly.com/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "beautifulstumpstudios.weebly.com"
-      }
+        "verdict": "unclear",
+        "why": "The provided text describes what Raku is but does not state that the public can book, sign up for, or participate in a firing at this location.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "eckels-pottery",
@@ -646,85 +763,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "eckelspottery.com"
-      }
-    },
-    {
-      "id": "uw-green-bay",
-      "org": "UW-Green Bay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood"
-      ],
-      "region": "Green Bay",
-      "city": "Green Bay",
-      "urls": [
-        "https://www.uwgb.edu/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Green Bay, Wisconsin",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.uwgb.edu/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Beginning students fire their own bisque kilns while upper-level students mix their own clay and glazes, as well as load and fire kilns.",
-        "url": "https://www.uwgb.edu/art/studio-areas/ceramics/",
-        "types": [
-          "raku",
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "uwgb.edu"
-      }
-    },
-    {
-      "id": "tr-pottery",
-      "org": "TR Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Fish Creek",
-      "city": "Fish Creek",
-      "urls": [
-        "https://www.doorcountyguide.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fish Creek, Wisconsin",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.doorcountyguide.com/"
+        "verdict": "yes",
+        "why": "The text explicitly mentions Raku firing workshops and primitive firing workshops available to the public.",
+        "types": {
+          "raku": "Raku firing workshops, primitive firing workshops, and multi-week classes."
+        }
       },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Tony and Renée Gebauer's working studio and gallery off Kita Road in Fish Creek, where Tony throws every piece by hand — functional stoneware in both electric-kiln and wood-fired lines, all food- and dishwasher-safe.",
-        "url": "https://www.doorcountyguide.com/places/tr-pottery/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "doorcountyguide.com"
-      }
+      "weak": true
     },
     {
       "id": "tr-pottery-llc",
@@ -762,7 +811,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "trpottery.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about public firing participation or services.",
+        "types": {}
+      },
+      "weak": true,
+      "lat": 45.12777,
+      "lng": -87.24673
     },
     {
       "id": "ram-wustum",
@@ -800,45 +859,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "ramart.org"
-      }
-    },
-    {
-      "id": "mscr",
-      "org": "MSCR",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Madison",
-      "city": "Madison",
-      "urls": [
-        "https://www.mscr.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Madison, Wisconsin",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.mscr.org/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Wood Fire Workshops Participants get one shelf of space, approximately 12” x 24%. On the first day, glaze bisqued pots & help load kiln. MSCR provides wood fire glazes and wood ash. An instructor is on site to facilitate glazing of pots. On the second day, pots are fired by an experienced kiln boss. Participants can watch the firing process any time that day between 9am – 12pm.",
-        "url": "https://www.mscr.org/programs/arts-enrichment/pottery/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
         "date": "2026-10-07",
-        "key": "mscr.org"
-      }
+        "verdict": "yes",
+        "why": "The text invites the public to buy tickets for a Raku Session where participants take part in an outdoor Raku firing experience.",
+        "types": {
+          "raku": "Learn the art of Raku firing, a traditional Japanese ceramics technique known for its dramatic firing process and unique, unpredictable finishes."
+        }
+      },
+      "lat": 42.73138,
+      "lng": -87.78348
     },
     {
       "id": "clayfestwi",
@@ -876,7 +908,35 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "clayfestwi.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly states that members of the public can participate in live Raku firings by purchasing a pre-made vessel and arriving before the scheduled time.",
+        "types": {
+          "raku": "For a hands-on art experience, participate in a live Raku firing!"
+        }
+      },
+      "weak": true
+    }
+  ],
+  "_removed": [
+    {
+      "id": "beautiful-stump-studios",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions finished ceramic art and does not offer public participation in any non-electric firing events or services. (2026-10-07)"
+    },
+    {
+      "id": "uw-green-bay",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes a university ceramics program for students and does not mention public access or bookings for non-electric firings. (2026-10-07)"
+    },
+    {
+      "id": "tr-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes a studio that produces wood-fired pottery but does not offer any workshops, rentals, or firing services for the public to participate in the firing process. (2026-10-07)"
+    },
+    {
+      "id": "mscr",
+      "why": "Second check (gemini-3.5-flash-lite): page says state is Wis., not WI (2026-10-07)"
     }
   ]
 }
