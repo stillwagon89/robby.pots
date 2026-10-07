@@ -92,13 +92,15 @@
         "key": "entradasx.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly invites the public to a community Raku firing event that offers a hands-on opportunity to participate in the process.",
+        "why": "The text describes a Community Raku Firing event open to the public as a hands-on workshop where participants can witness and participate in the traditional Raku pottery firing process.",
         "types": {
-          "raku": "The Arts Lab of South County invites you to a Community Raku Firing event on June 20, 2026, from 11:00 AM to 3:00 PM."
-        }
+          "raku": "this event offers a hands-on opportunity to witness and participate in the traditional Raku pottery firing process"
+        },
+        "state": "MD",
+        "town": "Tracys Landing"
       },
       "lat": 38.78012,
       "lng": -76.59579
@@ -110,7 +112,6 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
         "pit_barrel_saggar"
       ],
       "region": "Solomons",
@@ -131,7 +132,6 @@
         "quote": "I offer Alternative Firing workshops and private lessons at my studio.",
         "url": "https://madewithclay.com/",
         "types": [
-          "raku",
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-07"
@@ -143,14 +143,15 @@
         "key": "madewithclay.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text offers alternative firing workshops and private lessons at the studio where outsiders can participate in non-electric ceramic firings.",
+        "why": "The page states 'I regularly teach classes at Annmarie Gardens in Solomons, MD' and 'I offer Alternative Firing workshops and private lessons at my studio,' indicating public access to raku, pit fire, and saggar firing through classes and workshops.",
         "types": {
-          "raku": "For many years I have focused on Alternative Firing Techniques such as Raku, Naked Raku, and Pit \\ Saggar Firing.",
-          "pit_barrel_saggar": "For many years I have focused on Alternative Firing Techniques such as Raku, Naked Raku, and Pit \\ Saggar Firing."
-        }
+          "pit_barrel_saggar": "This technique is similar to pit firing but more controlled. Individual pieces are placed within other sealed containers along with combustibles and colorants and then slowly heated to 1400 degrees."
+        },
+        "state": "MD",
+        "town": "Solomons"
       },
       "lat": 38.33504,
       "lng": -76.46257
@@ -195,11 +196,16 @@
         "key": "pottersguild.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions that students have opportunities to fire at regional kilns, but it does not explicitly state that the public can sign up for these firings independently of being a student.",
-        "types": {}
+        "why": "The text mentions classes that prepare work for wood/salt/soda firings and states students can fire at regional kilns, but does not explicitly state that the public can directly participate in or book a firing at this location.",
+        "types": {
+          "wood": "This course will focus on creating work thst is intended to be fired in a wood fired and/or salt and soda fired kiln.",
+          "soda": "This course will focus on creating work thst is intended to be fired in a wood fired and/or salt and soda fired kiln."
+        },
+        "state": "MD",
+        "town": ""
       },
       "weak": true,
       "lat": 39.29088,
@@ -245,11 +251,13 @@
         "key": "hfclay.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, so no public non-electric ceramic firing can be verified.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions raku and pit firing workshops, but the page text provided is empty, so I cannot verify if public sign-ups are available or confirm the location details.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -293,11 +301,13 @@
         "key": "canvas.districtclaycenter.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty, so it contains no information about public firing opportunities.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions pit firing and naked raku workshops, but the actual page text is empty, so I cannot verify public access, location details, or confirm these firing types from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -339,16 +349,17 @@
         "key": "foxhavenfarm.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows a public two-part workshop allowing participants to join in a pit-fired pottery experience.",
-        "types": {
-          "pit_barrel_saggar": "Earth to Fire: Foraging Wild Clay & Pit-Fired Pottery [Two-part Workshop] – Fox Haven Organic Farm"
-        }
+        "why": "The text describes a two-part public workshop where participants can join to forage clay and fire pottery in a traditional pit kiln using natural materials.",
+        "types": {},
+        "state": "MD",
+        "town": "Frederick"
       },
       "lat": 39.41578,
-      "lng": -77.41276
+      "lng": -77.41276,
+      "weak": true
     },
     {
       "id": "baltimore-clayworks-md",
@@ -390,11 +401,13 @@
         "key": "claystuff.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The page lists 'Kiln Firing Services' as a service offered by Baltimore Clayworks, but it does not specify the type of kiln or firing method used.",
-        "types": {}
+        "why": "The page lists Baltimore Clayworks with services including 'Kiln Firing Services' but does not specify the firing type (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) or confirm public access.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 39.29088,
@@ -438,11 +451,13 @@
         "key": "annapolismomsmedia.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty, so no firing services or details can be verified.",
-        "types": {}
+        "why": "The search snippet mentions a raku firing event, but the actual page text provided is empty, so the claim cannot be verified from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 38.97864,
@@ -486,13 +501,15 @@
         "key": "visartscenter.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly states that specialty ceramics workshops, such as raku firings, are offered periodically and are open to participants.",
+        "why": "VisArts offers raku firing workshops open to the public through their specialty ceramics workshops program, as stated: 'Specialty ceramics workshops, such as raku firings, intensive boot camps, and specialized glazing sessions, are offered periodically throughout the year.'",
         "types": {
           "raku": "Specialty ceramics workshops, such as raku firings, intensive boot camps, and specialized glazing sessions, are offered periodically throughout the year."
-        }
+        },
+        "state": "MD",
+        "town": "Rockville"
       },
       "lat": 39.0818,
       "lng": -77.15168

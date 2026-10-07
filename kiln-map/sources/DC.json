@@ -63,13 +63,15 @@
         "key": "classcub.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text mentions that the studio offers raku firing workshops and has a raku firing pit available for participation.",
+        "why": "The text explicitly mentions 'a raku firing pit' and 'Raku firing workshops' as offerings where the public can participate.",
         "types": {
           "raku": "Raku firing workshops"
-        }
+        },
+        "state": "DC",
+        "town": "Washington"
       },
       "lat": 38.8951,
       "lng": -77.03638
@@ -102,13 +104,13 @@
         "key": "rachellindsaypottery.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text describes a Saggar Workshop that is open for enrollment, which is a form of raku firing.",
-        "types": {
-          "raku": "In this special form of raku, students will coat their bisqueware with clay before firing the ware in the kiln."
-        }
+        "verdict": "unclear",
+        "why": "The search snippet mentions a saggar workshop but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -150,13 +152,15 @@
         "key": "glenechopottery.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site offers classes and a Home Studio Independent Continuing Study program that allows students to use the studio facilities for final firing, and the text confirms they use a gas reduction kiln.",
+        "why": "The text states classes are offered for all levels and students' pieces are fired in a gas reduction kiln, with public registration available through Glen Echo Park's website.",
         "types": {
           "gas_reduction": "Students' pieces are fired to cone 10 in a gas reduction kiln."
-        }
+        },
+        "state": "",
+        "town": ""
       },
       "lat": 38.8951,
       "lng": -77.03638
@@ -189,11 +193,13 @@
         "key": "biscpotterystudio.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
-        "types": {}
+        "why": "The page text provided is empty; only search snippets mention raku firing, but no actual page content confirms public access, booking, or participation details.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -237,11 +243,13 @@
         "key": "handthrown.studio"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty, so it contains no information about firing services or public access.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "Search snippets mention raku and gas firing workshops at The District Clay Center in Washington DC, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 38.8951,
@@ -285,11 +293,13 @@
         "key": "joehicksceramics.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "why": "The page text provided is empty; only search snippets are available, and they reference firing at an external location (District Clay's kiln), not at Joe Hicks Ceramics itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 38.8951,

@@ -67,7 +67,19 @@
         "key": "belgerarts.org"
       },
       "lat": 39.1001,
-      "lng": -94.57814
+      "lng": -94.57814,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text describes multiple public classes and workshops for raku firing and saggar firing in a gas kiln that are open to participants with ceramics experience.",
+        "types": {
+          "raku": "Raku is a dramatic pottery firing technique in which glowing-hot ceramic pieces are removed from the kiln and transformed by flame, smoke, and rapid cooling, resulting in unique finishes.",
+          "pit_barrel_saggar": "You'll learn about firing in paper+slip saggars to develop beautiful atmospheric surfaces on ceramic works."
+        },
+        "state": "MO",
+        "town": "Kansas City"
+      }
     },
     {
       "id": "back-door-pottery",
@@ -76,8 +88,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood"
+        "raku"
       ],
       "region": "Kansas City",
       "city": "Kansas City",
@@ -97,8 +108,7 @@
         "quote": "Day Two: You’ll glaze your work and fire it in a wood-fired Raku kiln.",
         "url": "https://backdoorpottery.com/classes/",
         "types": [
-          "raku",
-          "wood"
+          "raku"
         ],
         "checked": "2026-10-07"
       },
@@ -109,7 +119,19 @@
         "key": "backdoorpottery.com"
       },
       "lat": 39.1001,
-      "lng": -94.57814
+      "lng": -94.57814,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly describes raku workshops and classes open to the public where participants can fire their work in a live kiln, with specific dates and pricing listed.",
+        "types": {
+          "raku": "You'll glaze your work and fire it in a wood-fired Raku kiln."
+        },
+        "state": "MO",
+        "town": "Kansas City",
+        "street": "3922 St John Ave, Kansas City, MO 64123"
+      }
     },
     {
       "id": "kc-clay-guild-mo",
@@ -149,7 +171,20 @@
         "key": "kcclayguild.wildapricot.org"
       },
       "lat": 39.1001,
-      "lng": -94.57814
+      "lng": -94.57814,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippets mention soda firing and a calendar reference, but the actual page text provided is empty, so public access cannot be verified from the page itself.",
+        "types": {
+          "soda": "Soda Firing at KC Clay Guild"
+        },
+        "state": "MO",
+        "town": "Kansas City",
+        "street": "200 West 74th Street, Kansas City, MO 64114"
+      },
+      "weak": true
     },
     {
       "id": "munson",
@@ -187,7 +222,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "munson.art"
-      }
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text describes a six-week salt-fired ceramics workshop open to all (not students-only) where participants make works from start to finish and fire them in the salt kiln at Munson facilities.",
+        "types": {
+          "salt": "Salt firing is embraced by ceramic artists and potters because of the beautiful and unanticipated results that come from a salt-fired kiln."
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "fire-and-muck-pottery",
@@ -225,7 +272,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "fireandmuckpottery.com"
-      }
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly lists 'Raku Gathering' and 'Traveling Raku Gathering' as offerings available to the public for $60 per person, which includes raku firing.",
+        "types": {
+          "raku": "Raku firing"
+        },
+        "state": "MO",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "south-broadway-art-project",
@@ -267,47 +326,20 @@
         "key": "southbroadwayartproject.org"
       },
       "lat": 38.62541,
-      "lng": -90.19001
-    },
-    {
-      "id": "house-of-clay",
-      "org": "House of Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Overland Park",
-      "city": "Overland Park",
-      "urls": [
-        "https://www.houseofclaykc.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Overland Park, Missouri",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.houseofclaykc.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Raku Pumpkin Day October 10 Experience the fire and excitement of Raku while creating a one-of-a-kind ceramic pumpkin.",
-        "url": "https://www.houseofclaykc.com/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "lng": -90.19001,
+      "verify": {
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "key": "houseofclaykc.com"
-      },
-      "lat": 38.70158,
-      "lng": -90.35881
+        "verdict": "yes",
+        "why": "The text states that Monthly Members can participate in learning about kiln firing processes such as RAKU, Pit-firing, and Saggar through outdoor firing workshops, and a Potluck & RAKU Event is open to 'all members, students, and general public.'",
+        "types": {
+          "raku": "We invite Monthly Members to participate in learning about kiln firing processes such as RAKU, Pit-firing, Saggar and more.",
+          "pit_barrel_saggar": "Pit firing is an ancient, low-tech pottery firing method where unfired clay pieces are placed in a pit (a hole in the ground) and surrounded by combustible materials like wood, sawdust, and other organic matter, creating a fire that transforms the clay into durable pottery."
+        },
+        "state": "MO",
+        "town": "Saint Louis",
+        "street": "3816 South Broadway"
+      }
     },
     {
       "id": "springfield-pottery",
@@ -317,8 +349,9 @@
       "public": true,
       "firing_types_guess": [
         "raku",
+        "salt",
         "wood",
-        "salt"
+        "pit_barrel_saggar"
       ],
       "region": "Springfield",
       "city": "Springfield",
@@ -340,7 +373,8 @@
         "types": [
           "raku",
           "salt",
-          "wood"
+          "wood",
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-07"
       },
@@ -351,7 +385,22 @@
         "key": "springfieldpottery.com"
       },
       "lat": 37.20817,
-      "lng": -93.29227
+      "lng": -93.29227,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The site mentions raku, salt fired, and wood fired pieces in their gallery and has a raku kiln, but does not explicitly state that the public can participate in non-electric firings through classes, workshops, or services.",
+        "types": {
+          "raku": "Raku kiln",
+          "salt": "salt fired",
+          "wood": "wood fired",
+          "pit_barrel_saggar": "pit fired"
+        },
+        "state": "MO",
+        "town": "Springfield"
+      },
+      "weak": true
     },
     {
       "id": "creava-studio",
@@ -393,7 +442,17 @@
         "key": "square.site"
       },
       "lat": 37.20817,
-      "lng": -93.29227
+      "lng": -93.29227,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippets mention pit firing and raku at Creava Studio, but the actual page text is empty, so I cannot verify the details or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "artistree-pottery",
@@ -433,7 +492,18 @@
         "key": "artistreepottery.com"
       },
       "lat": 37.20817,
-      "lng": -93.29227
+      "lng": -93.29227,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly describes a public Raku Night event on October 24, 2026 in Springfield, MO where people can choose pottery pieces and pick time slots to participate in a raku firing.",
+        "types": {
+          "raku": "Raku is an ancient Japanese form of pottery that is fired at a low temperature and cooled rapidly."
+        },
+        "state": "MO",
+        "town": "Springfield"
+      }
     },
     {
       "id": "missouri-southern-state-university",
@@ -442,7 +512,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "raku",
+        "gas_reduction"
       ],
       "region": "Missouri",
       "city": null,
@@ -462,7 +533,8 @@
         "quote": "Ceramics symposiums, workshops and other events, which take place periodically, are all free to students and the public.",
         "url": "https://www.mssu.edu/academics/arts-sciences/art/ceramics.php",
         "types": [
-          "raku"
+          "raku",
+          "gas_reduction"
         ],
         "checked": "2026-10-07"
       },
@@ -471,13 +543,30 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "mssu.edu"
-      }
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The page mentions raku and gas kilns available at the university and states that symposiums and workshops are free to students and the public, but does not explicitly state whether non-students can enroll in or participate in firings.",
+        "types": {
+          "raku": "a Raku and a 35 cubic foot Bailey downdraft natural gas kiln",
+          "gas_reduction": "a Raku and a 35 cubic foot Bailey downdraft natural gas kiln"
+        },
+        "state": "MO",
+        "town": ""
+      },
+      "weak": true
     }
   ],
   "_removed": [
     {
       "id": "craft-alliance",
       "why": "No atmospheric firing on their pages. (2026-10-05)"
+    },
+    {
+      "id": "house-of-clay",
+      "why": "Second check (claude-haiku-4.5): page says state is KS, not MO (2026-10-07)"
     }
   ]
 }

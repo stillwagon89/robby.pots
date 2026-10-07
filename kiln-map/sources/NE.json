@@ -33,7 +33,8 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "soda"
+        "soda",
+        "gas_reduction"
       ],
       "region": "Omaha",
       "city": "Omaha",
@@ -54,7 +55,8 @@
         "url": "https://omahapotterystudio.com/raku-firing-omaha",
         "types": [
           "raku",
-          "soda"
+          "soda",
+          "gas_reduction"
         ],
         "checked": "2026-10-07"
       },
@@ -65,7 +67,20 @@
         "key": "omahapotterystudio.com"
       },
       "lat": 41.25875,
-      "lng": -95.93838
+      "lng": -95.93838,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows public can join raku and soda firing classes via workshops with small class sizes and all materials included.",
+        "types": {
+          "raku": "Experience raku firing at Omaha Pottery Studio.",
+          "soda": "Experience soda firing at Omaha Pottery Studio.",
+          "gas_reduction": "5 kilns (4 electric plus 1 gas reduction)"
+        },
+        "state": "NE",
+        "town": "Omaha"
+      }
     },
     {
       "id": "makit-takit",
@@ -105,7 +120,19 @@
         "key": "makittakit.com"
       },
       "lat": 40.80889,
-      "lng": -96.70778
+      "lng": -96.70778,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippets describe a raku firing event open to public participation, but the actual page text is empty, so location details cannot be verified from the page itself.",
+        "types": {
+          "raku": "fire it using the Raku firing process"
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "bone-creek-museum-of-agrarian-art",
@@ -145,7 +172,19 @@
         "key": "bonecreek.org"
       },
       "lat": 41.25274,
-      "lng": -97.13007
+      "lng": -97.13007,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text describes a public raku firing workshop open to participants, held at a specific location with registration available.",
+        "types": {
+          "raku": "Learn and practice the Western raku firing process for clay objects, and create two decorated, raku-fired pieces of art!"
+        },
+        "state": "NE",
+        "town": "David City",
+        "street": "620 D Street"
+      }
     },
     {
       "id": "big-table-studios",
@@ -183,7 +222,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "bigtablestudios.com"
-      }
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text describes Big Table Studios' wood-firing kiln and process but does not explicitly state whether the public can participate in firings or only view the artists' work.",
+        "types": {
+          "wood": "Built in the spring of 2005 the Lynn Kiln is a 250 cubic foot anagama style wood burning kiln."
+        },
+        "state": "NE",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "omahaclayworks",
@@ -227,7 +278,17 @@
         "key": "omahaclayworks.com"
       },
       "lat": 41.25875,
-      "lng": -95.93838
+      "lng": -95.93838,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty; no information about public access to firings, firing types, or location details can be verified from the actual page content.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "lincoln",
@@ -265,7 +326,18 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "lincoln.org"
-      }
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippets describe a Raku firing event open to the public, but the actual page text provided does not contain details about the firing, location, or how to participate.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     }
-  ]
+  ],
+  "_removed": []
 }

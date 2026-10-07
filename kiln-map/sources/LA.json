@@ -39,13 +39,15 @@
         "key": "earthandfirestudio.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The studio invites the public to call or email to find out when their group raku firings are scheduled.",
+        "why": "The text states 'We occasionally schedule group raku firing' and provides a phone number to inquire about upcoming firings, indicating the public can participate.",
         "types": {
           "raku": "We occasionally schedule group raku firing"
-        }
+        },
+        "state": "LA",
+        "town": "New Orleans"
       },
       "lat": 29.95747,
       "lng": -90.06295
@@ -78,11 +80,13 @@
         "key": "nclac.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions a raku firing workshop open to participants, but the actual page text is empty, so I cannot verify the details or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -114,11 +118,13 @@
         "key": "laimaceramics.squarespace.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The snippet mentions a specific firing technique but the provided page text is empty, making it impossible to determine if the public can participate.",
-        "types": {}
+        "verdict": "no",
+        "why": "No page text provided to verify public access to firings or location details.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -150,11 +156,13 @@
         "key": "crescentcityclayworks.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "why": "The page text contains no information about non-electric ceramic firings; it only mentions electric and gas kilns without describing any public access to raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
+        "types": {},
+        "state": "LA",
+        "town": "New Orleans"
       },
       "weak": true,
       "lat": 29.95747,
@@ -198,13 +206,15 @@
         "key": "smokeinthemountainspottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text mentions a community wood kiln and volunteers working shifts, but does not state how outsiders can join, book, or sign up to participate in a firing.",
+        "verdict": "yes",
+        "why": "The text describes a community wood kiln fired 4-5 times per year where potters, students, and volunteers from the region participate in shifts to fire pots, with public opening day events where people gather to unload.",
         "types": {
           "wood": "The kiln can hold over 700 pots, most of which will be brought by potters and students in the region, who along with other volunteers, will work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a real wood fired kiln can make."
-        }
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -246,11 +256,13 @@
         "key": "bayoubendstudio.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and contains no information about public firings.",
-        "types": {}
+        "why": "The text mentions raku pottery as a product specialty but provides no information about public access to firings, workshops, classes, or any firing services.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -292,11 +304,13 @@
         "key": "monroeclayworks.barbaracostanzo.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text mentions raku firings open for participation with a cost of $5 per piece and invites outsiders to be part of the clay community.",
-        "types": {}
+        "why": "The text describes raku firings open to the public at a nominal $5 per piece, with specific setup times and size restrictions, inviting people to \"be part of our clay community.\"",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -338,16 +352,19 @@
         "key": "laborne.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The site explicitly lists 'Hiring of the workshop and kilns' as an option for the public.",
+        "verdict": "unclear",
+        "why": "The page mentions anagama and wood-fired kilns with workshops and hiring of firings, but does not explicitly state that outsiders (non-members/non-students) can book or participate.",
         "types": {
-          "wood": "The wood-fired kilns in La Borne"
-        }
+          "wood": "Wood-fired kilns"
+        },
+        "state": "",
+        "town": ""
       },
       "lat": 29.92051,
-      "lng": -90.37836
+      "lng": -90.37836,
+      "weak": true
     }
   ],
   "_removed": [

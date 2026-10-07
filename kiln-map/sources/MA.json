@@ -131,13 +131,15 @@
       "lat": 42.28026,
       "lng": -71.23606,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The studio offers Raku workshops that can be scheduled for groups, which are open to the public beyond just enrolled students or members.",
+        "why": "Raku workshops can be scheduled for groups (studio, guild, school, co-op, etc.) with fees starting at $800 minimum, making them available to the public, not just enrolled students or members.",
         "types": {
           "raku": "Raku workshops can also be scheduled for your group, studio, guild, school, co-op, etc."
         },
+        "state": "MA",
+        "town": "Needham",
         "street": "31 Thorpe Rd."
       }
     },
@@ -148,8 +150,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "soda"
+        "raku"
       ],
       "region": "Concord",
       "city": "Concord",
@@ -169,8 +170,7 @@
         "quote": "The workshop will culminate with a series of group firings of the Umbrella’s raku kiln.",
         "url": "https://dev.theumbrellaarts.org/class/summer-adults-raku-firing-0",
         "types": [
-          "raku",
-          "soda"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -183,14 +183,15 @@
       "lat": 42.46052,
       "lng": -71.3489,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that outsiders and enrolled students can sign up for raku and soda firing workshops at the art center.",
+        "why": "The text describes a three-part raku workshop open to participants (not students-only) that culminates in group firings of the studio's raku kiln, with specific dates and registration available.",
         "types": {
-          "raku": "This spring we will be offering a three-part raku workshop that encompasses the full experience of making, glazing, and firing raku work.",
-          "soda": "We are offering currently enrolled students the chance to register for upcoming soda firings."
+          "raku": "This spring we will be offering a three-part raku workshop that encompasses the full experience of making, glazing, and firing raku work."
         },
+        "state": "MA",
+        "town": "Concord",
         "street": "40 Stow Street"
       }
     },
@@ -232,13 +233,15 @@
         "key": "dewclawstudios.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly offers a Raku Firing Workshop that outsiders can join.",
+        "why": "The text shows a public raku firing workshop where up to 4 participants can assist in firing their own pots in trash can raku kilns for $175.",
         "types": {
-          "raku": "Raku Firing Workshop - 1 Day - $175."
-        }
+          "raku": "Up to 4 participants will assist in firing their own pots in our trash can raku kilns."
+        },
+        "state": "MA",
+        "town": ""
       },
       "weak": true
     },
@@ -282,13 +285,15 @@
       "lat": 42.3876,
       "lng": -71.0995,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "Mudflat offers public workshops for soda firing that allow participants to create work to be fired in their soda kiln.",
+        "why": "Mudflat offers public soda firing workshops where participants can create their own ceramic work to be fired in the soda kiln, with registration available via tuition-based enrollment.",
         "types": {
           "soda": "Discover the fascinating world of soda firing, an exciting atmospheric firing process that results in unique and unpredictable effects on ceramic pieces."
         },
+        "state": "MA",
+        "town": "Somerville",
         "street": "81 Broadway"
       }
     },
@@ -299,7 +304,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood"
+        "soda"
       ],
       "region": "Conway",
       "city": "Conway",
@@ -319,7 +324,7 @@
         "quote": "A primary vision behind The Karma Kiln is to have it available to local and regional potters who are interested in learning how to wood-soda fire.",
         "url": "https://www.beneberleceramic.com/projects-7",
         "types": [
-          "wood"
+          "soda"
         ],
         "checked": "2026-10-06"
       },
@@ -332,13 +337,15 @@
       "lat": 42.50786,
       "lng": -72.69616,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly states that wood-soda firing workshops are offered through outside organizations, allowing public participation.",
+        "why": "The text states 'A primary vision behind The Karma Kiln is to have it available to local and regional potters who are interested in learning how to wood-soda fire' and 'I will be offering a two, wood-soda firing workshops throughout 2024 both through outside organizations: The Clay School of Lynn, MA and the New England Woodfiring Conference,' indicating public access to workshops.",
         "types": {
-          "wood": "I will be offering a two, wood-soda firing workshops throughout 2024 both through ouside organizations: The Clay School of Lynn, MA and the New England Woodfiring Conference."
-        }
+          "soda": "A primary vision behind The Karma Kiln is to have it available to local and regional potters who are interested in learning how to wood-soda fire."
+        },
+        "state": "MA",
+        "town": "Conway"
       }
     },
     {
@@ -381,13 +388,15 @@
       "lat": 42.36526,
       "lng": -71.18432,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly mentions a soda firing workshop is available for registration.",
+        "why": "The text mentions a soda firing workshop and an Independent Study Membership that includes access to firings, both open to the public.",
         "types": {
           "soda": "This year we are unlocking another layer of Ben's artistic prowess in the form of a soda firing workshop."
-        }
+        },
+        "state": "MA",
+        "town": "Watertown"
       }
     },
     {
@@ -397,8 +406,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "pit_barrel_saggar",
-        "raku"
+        "raku",
+        "pit_barrel_saggar"
       ],
       "region": "Lexington",
       "city": "Lexington",
@@ -418,8 +427,8 @@
         "quote": "In the workshop we will explore several techniques of saggar firing.",
         "url": "https://www.lexart.org/event-details/saggar-workshop-with-shamai-gibsh",
         "types": [
-          "pit_barrel_saggar",
-          "raku"
+          "raku",
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
       },
@@ -432,15 +441,17 @@
       "lat": 42.44732,
       "lng": -71.2245,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site offers public workshops for saggar and raku firing that individuals can sign up for.",
+        "why": "LexArt offers public workshops in both raku and saggar firing techniques that anyone can register for and participate in.",
         "types": {
-          "pit_barrel_saggar": "In the workshop we will explore several techniques of saggar firing.",
-          "raku": "Modern raku is a low fire smoking process that produces a variety of unique colors and textures on bisque pottery."
+          "raku": "Modern raku is a low fire smoking process that produces a variety of unique colors and textures on bisque pottery.",
+          "pit_barrel_saggar": "In the workshop we will explore several techniques of saggar firing."
         },
-        "street": "130 Waltham St"
+        "state": "MA",
+        "town": "Lexington",
+        "street": "130 Waltham St, Lexington, MA 02421"
       }
     },
     {
@@ -483,14 +494,16 @@
       "lat": 42.61122,
       "lng": -71.57454,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that outsiders can sign up and participate in a saggar pit firing workshop with no previous experience needed.",
+        "why": "The text shows outsiders can join a 4-class saggar pit firing workshop with no previous experience needed, via sign-up.",
         "types": {
           "pit_barrel_saggar": "Join us for a 4 class – 3 week saggar pit firing workshop."
         },
-        "street": "145 Main St"
+        "state": "MA",
+        "town": "Groton",
+        "street": "145 Main St Groton, Ma 01450"
       }
     },
     {
@@ -500,6 +513,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
+        "raku",
         "pit_barrel_saggar"
       ],
       "region": "Oak Bluffs",
@@ -520,6 +534,7 @@
         "quote": "In this workshop, participants will experiment with raku, horsehair, obvara and saggar firing.",
         "url": "https://calendar.vineyardgazette.com/event/raku-alternative-firing-workshop",
         "types": [
+          "raku",
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
@@ -533,13 +548,17 @@
       "lat": 41.45362,
       "lng": -70.56843,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows a public workshop where participants can buy tickets and join a raku and saggar firing.",
+        "why": "The text shows participants can sign up for a workshop where they will experiment with raku and saggar firing, with ticket purchase available.",
         "types": {
-          "pit_barrel_saggar": "In this workshop, participants will experiment with raku, horsehair, obvara and saggar firing."
-        }
+          "raku": "In this workshop, participants will experiment with raku, horsehair, obvara and saggar firing.",
+          "pit_barrel_saggar": "This is a two day workshop, but students may take Saturday or Sunday only (Saturday: raku, horsehair raku, obvara / Sunday: raku and saggar)."
+        },
+        "state": "MA",
+        "town": "Oak Bluffs",
+        "street": "30 Featherstone Lane, Oak Bluffs, MA 02557"
       }
     },
     {
@@ -584,14 +603,16 @@
       "lat": 42.26256,
       "lng": -71.80189,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that outsiders can join classes and workshops that utilize non-electric firing methods such as raku, gas reduction, sodium vapor, and wood-fueled firing.",
+        "why": "The text states that students and members can participate in classes, workshops, and memberships that utilize raku, gas reduction, and wood-fueled firing techniques, with public registration available.",
         "types": {
-          "raku": "With the 2013 renovation of the Ceramics Studio, our students and artists now enjoy five kilns and firing types: raku, electric oxidation, gas reduction, sodium vapor, and wood-fueled firing.",
-          "gas_reduction": "With the 2013 renovation of the Ceramics Studio, our students and artists now enjoy five kilns and firing types: raku, electric oxidation, gas reduction, sodium vapor, and wood-fueled firing."
+          "raku": "our students and artists now enjoy five kilns and firing types: raku, electric oxidation, gas reduction, sodium vapor, and wood-fueled firing",
+          "gas_reduction": "Our students enjoy ceramics classes and workshops that utilize raku, electric oxidation, gas reduction, sodium vapor, and wood-fueled firing techniques"
         },
+        "state": "MA",
+        "town": "Worcester",
         "street": "25 Sagamore Road"
       }
     },
@@ -602,8 +623,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "soda",
-        "salt"
+        "soda"
       ],
       "region": "Dartmouth",
       "city": "Dartmouth",
@@ -623,8 +643,7 @@
         "quote": "If you are interested in participating in the firings or visiting us during a firing, email me at gustinceramics@gmail.com for information.",
         "url": "https://gustinceramics.com/anagama",
         "types": [
-          "soda",
-          "salt"
+          "soda"
         ],
         "checked": "2026-10-06"
       },
@@ -637,66 +656,15 @@
       "lat": 41.63869,
       "lng": -70.99335,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site explicitly invites interested individuals to email for information on participating in the anagama firings.",
+        "why": "The text states 'If you are interested in participating in the firings or visiting us during a firing, email me at gustinceramics@gmail.com for information,' indicating the public can participate in wood-fired anagama and soda firings.",
         "types": {
-          "soda": "We then built a new catenary for soda, and a third chamber for residual and a new chimney.",
-          "salt": "The second chamber was a big catenary arch kiln which we primarily used for salt firing."
-        }
-      }
-    },
-    {
-      "id": "canton-clay-works",
-      "org": "Canton Clay Works",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction",
-        "pit_barrel_saggar"
-      ],
-      "region": "Canton",
-      "city": "Canton",
-      "urls": [
-        "https://www.cantonclayworks.com/"
-      ],
-      "notes": "Gas firing service, saggar workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Canton, Massachusetts",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.cantonclayworks.com/"
-      },
-      "access": {
-        "how": "Gas firing service, saggar workshops",
-        "note": "Gas firing service, saggar workshops",
-        "quote": "2026 Saggar Firing Workshops",
-        "url": "https://www.cantonclayworks.com/saggar-workshops",
-        "types": [
-          "gas_reduction",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "cantonclayworks.com"
-      },
-      "lat": 42.15843,
-      "lng": -71.14477,
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The studio offers a gas reduction firing service available to the public by appointment and hosts public workshops for saggar firing.",
-        "types": {
-          "gas_reduction": "The Canton Clay Works offers a high-fire glaze/gas reduction firing service with access to close to thirty spectacular glazes!",
-          "pit_barrel_saggar": "Immerse yourself into the world of extraordinarily beautiful firing techniques in our Saggar Firing Workshops!"
-        }
+          "soda": "We then built a new catenary for soda, and a third chamber for residual and a new chimney."
+        },
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -739,15 +707,69 @@
       "lat": 42.36563,
       "lng": -71.104,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that outsiders can join pottery classes and taster sessions, and mentions an upcoming gas firing.",
+        "why": "The text mentions 'ahead of tomorrow's big gas firing @KilnCambridge' in a social media credit, indicating gas firings occur at this open-access pottery studio where public classes and courses are offered.",
         "types": {
-          "gas_reduction": "GLAZING ALL DONE - ahead of tomorrow’s big gas firing @KilnCambridge."
+          "gas_reduction": "GLAZING ALL DONE - ahead of tomorrow's big gas firing @KilnCambridge."
         },
-        "street": "57 Ditton Walk"
+        "state": "",
+        "town": "Cambridge",
+        "street": "57 Ditton Walk, Cambridge CB5 8QD"
       }
+    },
+    {
+      "id": "pottery-mill",
+      "org": "Pottery Mill",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Dracut",
+      "city": "Dracut",
+      "urls": [
+        "https://www.potterymill.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Dracut, Massachusetts",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.potterymill.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "We will be hosting a few raku workshops this spring and some in the fall, however space is very limited, so sign up today!",
+        "url": "https://www.potterymill.com/service-page/raku-workshop-at-47-arkansas-dr-dracut",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "potterymill.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "page says state is MA, not AR",
+        "types": {
+          "raku": "We will be hosting a few raku workshops this spring and some in the fall"
+        },
+        "state": "MA",
+        "town": "Dracut"
+      },
+      "weak": true,
+      "lat": 42.66882,
+      "lng": -71.30337
     }
   ],
   "_removed": [
@@ -770,6 +792,10 @@
     {
       "id": "bob-green-pottery",
       "why": "Second check (gemini-3.1-flash-lite): page says state is Vermont, not MA (2026-10-07)"
+    },
+    {
+      "id": "canton-clay-works",
+      "why": "Second check (claude-haiku-4.5): page says state is CT, not MA (2026-10-07)"
     }
   ]
 }

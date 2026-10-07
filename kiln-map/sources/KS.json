@@ -39,7 +39,19 @@
         "key": "tallgrassartistresidency.org"
       },
       "lat": 38.15918,
-      "lng": -96.56057
+      "lng": -96.56057,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text describes a public pit firing demonstration that anyone can join ('Join ceramics artist Justice Catron for an outdoor demonstration of pit firing techniques').",
+        "types": {
+          "pit_barrel_saggar": "Pit firing is an ancient method for firing unglazed ceramics that produces interesting and unpredictable surfaces."
+        },
+        "state": "KS",
+        "town": "Matfield Green",
+        "street": "Highway KS-177"
+      }
     },
     {
       "id": "camp-singers",
@@ -67,7 +79,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "campsingers.com"
-      }
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippet mentions pit firing workshops at Camp Singers, but the page text provided is empty, so I cannot verify if public enrollment is possible or extract location details.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "community-arts-center-ks",
@@ -76,7 +98,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood"
+        "wood",
+        "raku"
       ],
       "region": "Kansas",
       "city": null,
@@ -96,7 +119,8 @@
         "quote": "SHORT CLASS: Raku and Alternative Firings (afternoon) with Laura Demme 2:00pm-5:00pm, 9/23/26-12/2/26 (10 weeks) *NO CLASS 11/25/26",
         "url": "https://communityartscenter.org/schedule-fall-2026/",
         "types": [
-          "wood"
+          "wood",
+          "raku"
         ],
         "checked": "2026-10-07"
       },
@@ -105,7 +129,20 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "communityartscenter.org"
-      }
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text lists 'Wood Kiln Firing - September 2026' and 'Wood Kiln Firing - November 2026' as special kiln firings open for registration, and classes like 'Making Work for the Wood-Fired Kiln' and 'SHORT CLASS: Raku and Alternative Firings' indicate public can participate.",
+        "types": {
+          "wood": "Wood Kiln Firing - September 2026",
+          "raku": "SHORT CLASS: Raku and Alternative Firings (afternoon) with Laura Demme"
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "house-of-clay-ks",
@@ -145,7 +182,19 @@
         "key": "hunthalloween.com"
       },
       "lat": 38.97425,
-      "lng": -94.68517
+      "lng": -94.68517,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows outsiders can join House of Clay's Raku Day event by registering for tickets, which includes ceramic pumpkins, glazes, and the raku firing process.",
+        "types": {
+          "raku": "watch as your pumpkin goes through the dramatic Raku firing process"
+        },
+        "state": "KS",
+        "town": "Overland Park",
+        "street": "7811 Marty St, Overland Park, KS 66204"
+      }
     },
     {
       "id": "bracker-s",
@@ -183,7 +232,72 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "brackers.com"
-      }
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly states Bracker's provides Raku workshops where outsiders (students from schools and arts centers) can participate, with instruction included, either at their location or brought to schools.",
+        "types": {
+          "raku": "We provide the complete Raku setup, you bring your students and their pots."
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true
+    },
+    {
+      "id": "house-of-clay",
+      "org": "House of Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Overland Park",
+      "city": "Overland Park",
+      "urls": [
+        "https://www.houseofclaykc.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Overland Park, Kansas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.houseofclaykc.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Raku Pumpkin Day October 10 Experience the fire and excitement of Raku while creating a one-of-a-kind ceramic pumpkin.",
+        "url": "https://www.houseofclaykc.com/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "houseofclaykc.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "page says state is KS, not MO",
+        "types": {
+          "raku": "Experience the fire and excitement of Raku while creating a one-of-a-kind ceramic pumpkin."
+        },
+        "state": "KS",
+        "town": "Overland Park"
+      },
+      "weak": true,
+      "lat": 38.97425,
+      "lng": -94.68517
     }
-  ]
+  ],
+  "_removed": []
 }

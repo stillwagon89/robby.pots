@@ -117,13 +117,15 @@
       "lat": 37.78402,
       "lng": -79.44282,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site explicitly lists raku firings as an offering for people to come together to create community.",
+        "why": "The text states 'From open studio days to raku firings to gallery nights and a speaker series, we want to be a place to share art, ideas and collaborations' and mentions that Judd is 'offering raku firings,' indicating public access to raku firings through classes and open studio days.",
         "types": {
           "raku": "From open studio days to raku firings to gallery nights and a speaker series, we want to be a place to share art, ideas and collaborations."
-        }
+        },
+        "state": "VA",
+        "town": "Lexington"
       }
     },
     {
@@ -166,13 +168,15 @@
       "lat": 37.95735,
       "lng": -78.63751,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site offers wood-firing workshops that are open to the public via a sign-up process.",
+        "why": "The text describes open-enrollment wood firing workshops at Brown Pot Studio where members of the public can sign up to participate in hands-on anagama firing experience.",
         "types": {
-          "wood": "Five to eight-day workshop including three-day anagama firing, with hands-on experience stoking, monitoring and steering the kiln in a small group setting."
-        }
+          "wood": "Learn to fire an anagama style wood kiln nestled on a wooded four-acre property during this small group workshop."
+        },
+        "state": "VA",
+        "town": "North Garden"
       }
     },
     {
@@ -183,7 +187,9 @@
       "public": true,
       "firing_types_guess": [
         "soda",
-        "raku"
+        "raku",
+        "wood",
+        "gas_reduction"
       ],
       "region": "Manassas",
       "city": "Manassas",
@@ -204,7 +210,9 @@
         "url": "https://bradleybpottery.com",
         "types": [
           "soda",
-          "raku"
+          "raku",
+          "wood",
+          "gas_reduction"
         ],
         "checked": "2026-10-06"
       },
@@ -217,14 +225,18 @@
       "lat": 38.75095,
       "lng": -77.47527,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly advertises hands-on workshops for soda and raku firing that are open to participants and enthusiasts.",
+        "why": "The text explicitly describes hands-on soda firing workshops, raku firing workshops, and wood fired workshops open to participants and students, with detailed descriptions of the firing processes and what attendees experience.",
         "types": {
           "soda": "Experience the mystery and beauty of soda firing in a hands on workshop with other clay enthusiasts.",
-          "raku": "Attendees experience the excitement and unpredictability of Raku."
-        }
+          "raku": "Bradley offers immersive raku firing workshops for students, where participants engage in the full process—from glazing and unconventional loading to live reduction firing and post-firing cleanup.",
+          "wood": "Wood Fired Workshops",
+          "gas_reduction": "Gas reduction Soda kilns are a specialty firing atmosphere for Brad and his work. He leads hands-on kiln firing workshops for ceramic students, guiding them through every stage of the process—from kiln loading and firing techniques to unloading and evaluating finished work."
+        },
+        "state": "VA",
+        "town": "Manassas"
       }
     },
     {
@@ -267,14 +279,16 @@
       "lat": 39.15175,
       "lng": -77.98252,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text invites the public to register for Raku events at Chilly Hollow Brewery where they can glaze and fire pottery.",
+        "why": "The text shows public can register and participate in raku firing events on specific October dates by picking a day and hour, with tickets available for purchase.",
         "types": {
           "raku": "Come glaze and fire some raku pottery!"
         },
-        "street": "669 Chilly Hollow Road"
+        "state": "VA",
+        "town": "Berryville",
+        "street": "1320 Chilly Hollow Road"
       }
     },
     {
@@ -319,14 +333,16 @@
       "lat": 37.48681,
       "lng": -77.64732,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text lists workshops that have included raku and saggar firings for participants.",
+        "why": "River City Clay offers workshops and studio memberships open to the public, with previous workshops including Raku and Saggar firings.",
         "types": {
           "raku": "Beautiful Raku fired pottery taught at a workshop at River City Clay in Richmond, Virginia",
           "pit_barrel_saggar": "Previous Workshops have included: Raku, Make Your Own Glazes, Saggar, Slip Casting, Cone 10, Brushmaking and others!"
-        }
+        },
+        "state": "VA",
+        "town": "Midlothian"
       }
     },
     {
@@ -336,8 +352,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
-        "raku"
+        "wood"
       ],
       "region": "Lynchburg",
       "city": "Lynchburg",
@@ -357,8 +372,7 @@
         "quote": "Wood Fire Workshop (Two Weekends)",
         "url": "https://academycenter.org/event/wood-fire-workshop-two-weekends",
         "types": [
-          "wood",
-          "raku"
+          "wood"
         ],
         "checked": "2026-10-06"
       },
@@ -371,65 +385,16 @@
       "lat": 37.41375,
       "lng": -79.14225,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site offers workshops for wood and raku firing that are open for registration to the public.",
+        "why": "The text describes a Wood Fire Workshop open to participants who can sign up, with hands-on instruction in wood firing at a catenary arch wood kiln.",
         "types": {
-          "wood": "Develop your wood firing skills during this hands-on workshop 's catenary arch wood kiln.",
-          "raku": "Mobile Raku Workshop with Brett Thomas"
+          "wood": "Develop your wood firing skills during this hands-on workshop 's catenary arch wood kiln."
         },
+        "state": "VA",
+        "town": "Lynchburg",
         "street": "600 Main Street"
-      }
-    },
-    {
-      "id": "still-life-studio",
-      "org": "Still Life Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Richmond",
-      "city": "Richmond",
-      "urls": [
-        "https://rva.still-life-studio.com/"
-      ],
-      "notes": "Cone 10 reduction in gas kiln, memberships. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Richmond, Virginia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://rva.still-life-studio.com/"
-      },
-      "access": {
-        "how": "Cone 10 reduction in gas kiln, memberships",
-        "note": "Cone 10 reduction in gas kiln, memberships",
-        "quote": "We fire Cone 6 Oxidation weekly, as well as Cone 10 Reduction firing in our state of the art Blaauw gas kiln.",
-        "url": "https://rva.still-life-studio.com/pages/membership-info-application",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "rva.still-life-studio.com"
-      },
-      "lat": 37.53851,
-      "lng": -77.43428,
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text shows outsiders can rent kilns and join memberships for firing services.",
-        "types": {
-          "gas_reduction": "We fire Cone 6 Oxidation weekly, as well as Cone 10 Reduction firing in our state of the art Blaauw gas kiln."
-        },
-        "street": "1600 Altamont Ave"
       }
     }
   ],
@@ -453,6 +418,10 @@
     {
       "id": "alexandria-clay-co-op",
       "why": "Second check (gemini-3.1-flash-lite): The provided text explicitly states that the Raku workshops are for ACC members only, and the kiln firing services page does not specify the firing methods used. (2026-10-07)"
+    },
+    {
+      "id": "still-life-studio",
+      "why": "Second check (gemma4-local): The text mentions firing services for local ceramicists and firing memberships, but it only details oxidation and reduction firings, and does not mention any non-electric ceramic firing methods like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firing in a way that confirms public participation outside of membership/rental structures. (2026-10-07)"
     }
   ]
 }

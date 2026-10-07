@@ -148,14 +148,16 @@
       "lat": 39.90364,
       "lng": -75.37166,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The Community Arts Center offers public-facing weekend workshops in Raku, Pit Fire, and other alternative firing methods that are open to all levels.",
+        "why": "The text shows two workshops open to all levels where the public can sign up to participate in raku and pit firing: a Raku Firing Weekend Workshop and an Alternative Firings Weekend Raku Workshop that includes pit fire.",
         "types": {
           "raku": "Here is the opportunity to Raku fire all those pots you've been Saving!",
-          "pit_barrel_saggar": "Saturday morning we will load Pit Fire, fire with HorseHair and Obvara!"
+          "pit_barrel_saggar": "We will explore Horsehair Firing, Obvara, Pit Fire and Naked Raku."
         },
+        "state": "PA",
+        "town": "Wallingford",
         "street": "414 Plush Mill Road"
       }
     },
@@ -199,13 +201,15 @@
       "lat": 39.95272,
       "lng": -75.16353,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text offers a ceramic workshop that includes a raku firing open to participants who sign up.",
+        "why": "The text describes a public workshop where students can sign up for a raku firing class with instruction and participation in the firing process.",
         "types": {
           "raku": "Raku Firing will take place on Sunday, 12/6 (rain date 12/13) at Allens Lane Art Center from 10am to 4pm."
         },
+        "state": "PA",
+        "town": "Philadelphia",
         "street": "719 Catharine Street"
       }
     },
@@ -251,14 +255,16 @@
       "lat": 39.95272,
       "lng": -75.16353,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text confirms that the studio offers public booking for raku and pit firings.",
+        "why": "The text explicitly states raku firings can be booked as workshops for groups as small as 1 person, and pit firings are offered offsite, making these non-electric firings accessible to the public via booking.",
         "types": {
-          "raku": "We offer alternative firings, including Raku and pit firings offsite in Langhorne, PA",
+          "raku": "Different from firing a piece in a kiln, a Raku firing is done outdoors using a large gas kiln.",
           "pit_barrel_saggar": "We offer alternative firings, including Raku and pit firings offsite in Langhorne, PA"
-        }
+        },
+        "state": "PA",
+        "town": "Philadelphia"
       }
     },
     {
@@ -303,14 +309,16 @@
       "lat": 40.22968,
       "lng": -74.99949,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions Raku and Pit firing events, but states that firings are done as student interest permits and registration is currently closed, making it unclear if the public can sign up.",
+        "why": "The site mentions raku and pit firing events but current registration is closed and future dates are listed as TBD or 2026, with no clear way for the public to currently book or sign up.",
         "types": {
-          "raku": "Check back for our next 2026 raku firing event!",
+          "raku": "Raku Firing: pottery goes through an extreme Japanese firing technique that produces unique and unusual results.",
           "pit_barrel_saggar": "Pit Firing pottery is a wide spread firing technique among indigenous people all over the world."
         },
+        "state": "PA",
+        "town": "Richboro",
         "street": "10 Stable Mill Road"
       },
       "weak": true
@@ -355,13 +363,16 @@
       "lat": 40.98643,
       "lng": -75.19466,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The page offers a public workshop where participants can join a Western Raku firing and smoke-firing techniques.",
+        "why": "The text shows that members of the general public can register and participate in a Raku firing workshop for $410, with instruction across two full workshop days including Western Raku firing techniques.",
         "types": {
-          "raku": "Kettle Creek Pottery is partnering with Raku artist Nate Winter of Nate Winter Studios for an immersive weekend of kiln building, glaze chemistry, wheel throwing demos, and Western Raku firing."
-        }
+          "raku": "Over two full workshop days, you'll help build a working Raku kiln from scratch, glaze your own bisque ware, and experience the excitement of firing your pieces outdoors."
+        },
+        "state": "PA",
+        "town": "Stroudsburg",
+        "street": "6257 U.S. 209 Business"
       }
     },
     {
@@ -371,9 +382,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
         "wood",
-        "soda"
+        "raku"
       ],
       "region": "Lancaster",
       "city": "Lancaster",
@@ -393,9 +403,8 @@
         "quote": "If you are interested in scheduling a private firing, please contact Salvatore Annunziato: woodkiln@lancastercreativefactory.org",
         "url": "https://lancastercreativefactory.org/wood-kiln",
         "types": [
-          "raku",
           "wood",
-          "soda"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -408,16 +417,17 @@
       "lat": 40.038,
       "lng": -76.30567,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that the public can sign up and pay for wood, salt, soda, and raku firings through workshops, classes, and rental options.",
+        "why": "The text shows public can sign up for wood kiln firings, raku workshops, and wood/soda fire classes via online registration and contact with the instructor.",
         "types": {
-          "raku": "Raku firing workshop.",
-          "wood": "Anagama and Salt chamber: Full Kiln",
-          "soda": "Soda/salt kiln (back chamber) 22 cubic feet: Full Kiln; Approximately 120/140 pieces of various sizes,por about 15 cubic feet of work fit in the kiln."
+          "wood": "Students will produce ceramic pieces for firing in a wood kiln.",
+          "raku": "Raku firing workshop."
         },
-        "street": "580 S Prince St, Rear"
+        "state": "PA",
+        "town": "Lancaster",
+        "street": "580 S Prince St, Rear, Lancaster, PA. 17603"
       }
     },
     {
@@ -427,9 +437,9 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "gas_reduction",
+        "raku",
         "soda",
-        "raku"
+        "gas_reduction"
       ],
       "region": "Pittsburgh",
       "city": "Pittsburgh",
@@ -449,9 +459,9 @@
         "quote": "Firing workshops also explore different firing methods like gas reduction, soda, and Raku.",
         "url": "https://unionproject.org/ceramic-classes-camps/",
         "types": [
-          "gas_reduction",
+          "raku",
           "soda",
-          "raku"
+          "gas_reduction"
         ],
         "checked": "2026-10-06"
       },
@@ -464,15 +474,17 @@
       "lat": 40.4407,
       "lng": -80.00257,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text states that firing workshops are available that explore gas reduction, soda, and Raku firing methods, and these are listed under ceramic classes and opportunities open to the public.",
+        "why": "The text states that firing workshops explore different firing methods including gas reduction, soda, and Raku, and these are offered as part of ceramic classes that the public can register for.",
         "types": {
-          "gas_reduction": "Firing workshops also explore different firing methods like gas reduction, soda, and Raku.",
+          "raku": "Firing workshops also explore different firing methods like gas reduction, soda, and Raku.",
           "soda": "Firing workshops also explore different firing methods like gas reduction, soda, and Raku.",
-          "raku": "Firing workshops also explore different firing methods like gas reduction, soda, and Raku."
+          "gas_reduction": "Firing workshops also explore different firing methods like gas reduction, soda, and Raku."
         },
+        "state": "PA",
+        "town": "Pittsburgh",
         "street": "801 N Negley Avenue"
       }
     },
@@ -483,6 +495,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
+        "raku",
         "wood"
       ],
       "region": "Pittsburgh",
@@ -503,6 +516,7 @@
         "quote": "You can bring in work made at home and have it fired for a fee.",
         "url": "https://fireborn.com/classes-2026/",
         "types": [
+          "raku",
           "wood"
         ],
         "checked": "2026-10-06"
@@ -516,11 +530,16 @@
       "lat": 40.4407,
       "lng": -80.00257,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text mentions firing services and firing in a reducing atmosphere, and outsiders can use firing services or take classes.",
-        "types": {},
+        "why": "The text describes raku workshops and wood fire pottery by Donna Hetrick, plus firing services available to the public through classes, private lessons, and firing-by-the-cubic-foot rental.",
+        "types": {
+          "raku": "Raku Wall Hangings",
+          "wood": "Donna Hetrick Wood Fire"
+        },
+        "state": "PA",
+        "town": "Pittsburgh",
         "street": "2338 Sarah Street"
       },
       "weak": true
@@ -565,14 +584,16 @@
       "lat": 42.12947,
       "lng": -80.08527,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text states that members can participate in raku firings.",
+        "why": "The text states that members can participate in \"raku firings\" as part of \"special studio events and off-site activities,\" making raku firing available to the public through membership.",
         "types": {
           "raku": "Participation in special studio events and off-site activities, including raku firings"
         },
-        "street": "1505 State St."
+        "state": "PA",
+        "town": "Erie",
+        "street": "1505 State St., 3rd Floor, PACA Building"
       }
     },
     {
@@ -615,13 +636,15 @@
       "lat": 40.61789,
       "lng": -75.37865,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly states that the new kiln will offer opportunities for community firings, special workshops with visiting artists, and ongoing classes related to wood fired ceramics.",
+        "why": "The text explicitly states the facility will offer 'opportunities for community firings, special workshops with visiting artists, and ongoing classes' and mentions that 'High-fire kilns offer a unique educational experience for students, community members, and members of the wider art community,' indicating public access to wood and gas firings.",
         "types": {
-          "wood": "It will offer opportunities for community firings, special workshops with visiting artists, and ongoing classes related to wood fired ceramics."
+          "wood": "The acreage serves as the site of two wood-fired kilns and two gas-powered kilns that are used by students and faculty for the pottery they create."
         },
+        "state": "PA",
+        "town": "Bethlehem",
         "street": "3835 Green Pond Road"
       }
     },
@@ -663,13 +686,15 @@
         "key": "pawilds.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explains that visiting artists and volunteers can participate in the wood-fired anagama kiln event and provides contact info for Greeny (Gary Greenberg) to join.",
+        "why": "The text states 'many visiting artists from all around PA and neighboring states contribute work and stay for the firing' and 'You don't have to be an artist to appreciate such an incredible experience,' indicating public participation in wood-fired anagama firings twice yearly.",
         "types": {
-          "wood": "This kiln was built as an Anagama type kiln."
-        }
+          "wood": "The wood firing takes place twice per year, spring and fall."
+        },
+        "state": "PA",
+        "town": ""
       },
       "weak": true
     },
@@ -711,15 +736,69 @@
         "key": "nixdorfpottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text outlines a community kiln project that allows community members to rent the wood kiln, purchase firing space, and participate in community classes and workshops.",
+        "verdict": "unclear",
+        "why": "The text describes a planned wood-fired kiln project for Warwick School District with mentions of community rental and workshops, but does not clearly state that outsiders can currently book or participate in actual firings.",
         "types": {
-          "wood": "Just as generations of artists seem to be growing apart due to technology, social media, as well as a cultural shift in values, the wood kiln remains a place where simplicity and simple aesthetics remain paramount."
-        }
+          "wood": "The wood kiln remains a place where simplicity and simple aesthetics remain paramount."
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
+    },
+    {
+      "id": "lisa-york-arts",
+      "org": "Lisa York Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Wallingford",
+      "city": "Wallingford",
+      "urls": [
+        "https://www.lisayorkarts.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Wallingford, Pennsylvania",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.lisayorkarts.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "My next workshop will be in Minot, North Dakota in October, and stay tuned for more opportunities to work with me in the future.",
+        "url": "https://www.lisayorkarts.com/blog/soda-firing-workshop-review",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "lisayorkarts.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "page says state is PA, not ND",
+        "types": {
+          "soda": "I wanted to share some of the reviews from my most recent soda firing workshop I taught at Community Arts Center in Wallingford, PA."
+        },
+        "state": "PA",
+        "town": "Wallingford"
+      },
+      "weak": true,
+      "lat": 39.90364,
+      "lng": -75.37166
     }
   ],
   "_removed": [

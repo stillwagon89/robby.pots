@@ -69,14 +69,16 @@
         "key": "ri-creations.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site offers Raku and pit firing workshops that are open for the public to book via email.",
+        "why": "The text explicitly states workshops for Raku and pit firing are available to book via email, with specific dates listed (August 29th & October 3rd 2026 for Raku, and Raku and Pit Firing Workshop dates mentioned), and classes are open to the public in Ri's studio in Bacchus Marsh.",
         "types": {
           "raku": "Enjoy the fun of feeding the pit fire with wood and the amazing process of heat, fire and reduction of the Raku kiln firing.",
           "pit_barrel_saggar": "Enjoy the fun of feeding the pit fire with wood and the amazing process of heat, fire and reduction of the Raku kiln firing."
-        }
+        },
+        "state": "",
+        "town": "Bacchus Marsh"
       }
     },
     {
@@ -117,13 +119,15 @@
         "key": "studiochannelislands.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The page offers a Raku Workshop that is open to participants with no prior experience.",
+        "verdict": "unclear",
+        "why": "The page describes a raku workshop with a firing date, but provides no information about location (town, state, or street address) or how to register/book.",
         "types": {
-          "raku": "Raku Workshop | Studio Channel Islands"
-        }
+          "raku": "It differentiates from Japanese raku in that it focuses primarily on this post firing reduction."
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -165,13 +169,15 @@
         "key": "riblogger.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text offers a public pit-fired ceramics workshop where participants can join for pit firing.",
+        "verdict": "unclear",
+        "why": "The text describes a pit firing workshop but does not explicitly state whether the public can sign up or if enrollment is restricted to existing students or members.",
         "types": {
-          "pit_barrel_saggar": "Students will have the opportunity to complete and decorate their pieces, which will be bisque fired and ready for the pit firing at Windmist Farms on week three."
-        }
+          "pit_barrel_saggar": "through the process of pit firing"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     }

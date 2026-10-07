@@ -43,14 +43,16 @@
       "lat": 35.47299,
       "lng": -97.51705,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The studio offers raku workshops and lists gas reduction as a firing capability available at the facility.",
+        "why": "The text explicitly states OKC Pottery Studio offers raku firing classes and gas reduction firing, with public access via small classes capped at 12 students where all materials are included.",
         "types": {
           "raku": "Experience raku firing at OKC Pottery Studio.",
           "gas_reduction": "4 kilns including gas reduction"
-        }
+        },
+        "state": "OK",
+        "town": "Oklahoma City"
       }
     },
     {
@@ -83,11 +85,13 @@
       "lat": 36.15631,
       "lng": -95.99275,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The provided page text is empty and contains no information about firings.",
-        "types": {}
+        "why": "The search snippets describe raku workshops but no page text was provided to verify the location details or confirm public access.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -131,13 +135,15 @@
       "lat": 36.15631,
       "lng": -95.99275,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text advertises a Raku Firing Workshop that is open for registration at a cost of $210.",
+        "why": "The page describes a public raku firing workshop with Steve Liggett that anyone can book for $210, with clay work on Oct 31 and firing on Nov 14.",
         "types": {
           "raku": "FALL 26 Raku Firing Workshop"
-        }
+        },
+        "state": "OK",
+        "town": "Tulsa"
       }
     },
     {
@@ -178,11 +184,13 @@
         "key": "warriorsforfreedom.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
-        "types": {}
+        "why": "The page text is empty; no information about Paseo Pottery's location, address, or firing offerings can be verified from the actual page content.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -193,8 +201,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "pit_barrel_saggar",
-        "raku"
+        "raku",
+        "pit_barrel_saggar"
       ],
       "region": "Oklahoma",
       "city": null,
@@ -214,8 +222,8 @@
         "quote": "Community Firings",
         "url": "https://oklahomacontemporary.org/education/studio-school/",
         "types": [
-          "pit_barrel_saggar",
-          "raku"
+          "raku",
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-07"
       },
@@ -226,14 +234,16 @@
         "key": "oklahomacontemporary.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The site offers 'Community Firings' and 'Alternative Firing Techniques' classes which are open to the public via the Studio School.",
+        "verdict": "unclear",
+        "why": "The text mentions raku, saggar firing, and alternative firing techniques in courses, but does not explicitly state whether non-students or the public can enroll or participate.",
         "types": {
-          "pit_barrel_saggar": "Students will explore the history, chemistry, and visual characteristics of Raku, horsehair/feather firing, Obvara, and saggar firing",
-          "raku": "Students will explore the history, chemistry, and visual characteristics of Raku, horsehair/feather firing, Obvara, and saggar firing"
-        }
+          "raku": "Students will explore the history, chemistry, and visual characteristics of Raku, horsehair/feather firing, Obvara, and saggar firing",
+          "pit_barrel_saggar": "Students will explore the history, chemistry, and visual characteristics of Raku, horsehair/feather firing, Obvara, and saggar firing"
+        },
+        "state": "OK",
+        "town": ""
       },
       "weak": true
     },
@@ -275,11 +285,15 @@
         "key": "riverwoodpottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets describe raku firing classes, but the page text is empty, so location details cannot be verified.",
+        "types": {
+          "raku": "In the workshop we teach how to make and fire raku beads."
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -290,7 +304,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "raku",
+        "pit_barrel_saggar"
       ],
       "region": "Oklahoma",
       "city": null,
@@ -310,7 +325,8 @@
         "quote": "Clay programming includes beginning and intermediate pottery wheel, hand building, glazing techniques, slip technique, sgraffito, Raku Techniques, small sculpture, and more.",
         "url": "https://www.waterworksartcenter.com/new-page-80",
         "types": [
-          "raku"
+          "raku",
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-07"
       },
@@ -321,11 +337,16 @@
         "key": "waterworksartcenter.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention Raku and saggar firing techniques at WaterWorks Art Center, but the actual page text provided is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "types": {
+          "raku": "Raku Techniques",
+          "pit_barrel_saggar": "saggar firing"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -367,62 +388,15 @@
         "key": "okeefepottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "why": "The page text provided is empty; only search snippets mention wood-fueled Anagama firing, but no details about public access to workshops, classes, or firing services are given in the actual page text.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
-    },
-    {
-      "id": "red-heat-ceramic-studio",
-      "org": "Red Heat Ceramic Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Tulsa",
-      "city": "Tulsa",
-      "urls": [
-        "https://redheatceramics.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tulsa, Oklahoma",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://redheatceramics.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Memberships are available at different levels, whether you need to rent a gas kiln or a full semi-private studio space.",
-        "url": "https://redheatceramics.com/",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "redheatceramics.com"
-      },
-      "lat": 36.15631,
-      "lng": -95.99275,
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states that memberships are available for those who need to rent a gas kiln.",
-        "types": {
-          "gas_reduction": "Memberships are available at different levels, whether you need to rent a gas kiln or a full semi-private studio space."
-        }
-      }
     },
     {
       "id": "3rd-street-clayworks",
@@ -464,13 +438,13 @@
       "lat": 36.15631,
       "lng": -95.99275,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions that the studio teaches various firing techniques including raku, but it does not explicitly state that the public can book or sign up for these specific firings outside of the college curriculum or general studio access.",
-        "types": {
-          "raku": "They will demonstrate various firing techniques such as raku, sawdust and dung."
-        }
+        "why": "The search snippets mention raku and sawdust firing techniques in a Tulsa Community College course context, but the actual page text is empty, so it cannot be verified whether 3rd Street Clayworks itself offers public access to these firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -516,11 +490,16 @@
       "lat": 35.22257,
       "lng": -97.43948,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty, so there is no information confirming that the public can participate in non-electric ceramic firings at this location.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention Oil & Clay Studio has a raku kiln and gas kiln, and offers firing services to the community via email/text, but the actual page text is empty so details about public access cannot be verified from the page itself.",
+        "types": {
+          "raku": "The Firehouse hosts two electric kilns, a raku kiln, and a gas kiln for finishing work.",
+          "gas_reduction": "The Firehouse hosts two electric kilns, a raku kiln, and a gas kiln for finishing work."
+        },
+        "state": "OK",
+        "town": "Norman"
       },
       "weak": true
     },
@@ -564,11 +543,15 @@
       "lat": 36.11563,
       "lng": -97.05857,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, so no firing services or workshops can be verified from it.",
-        "types": {}
+        "verdict": "yes",
+        "why": "The Stillwater Arts Festival at Oklahoma State University offers public raku firing for $10 per bowl, where festival goers can participate in the ancient raku technique with instructor guidance.",
+        "types": {
+          "raku": "festival goers can take part in Raku Firing ($10 per bowl)"
+        },
+        "state": "OK",
+        "town": "Stillwater"
       },
       "weak": true
     }
@@ -581,6 +564,10 @@
     {
       "id": "kat-studio",
       "why": "Second check (gemini-3.5-flash-lite): The text mentions past teaching of raku firing, but does not state that the public can currently book, join, or sign up for a non-electric firing at this studio. (2026-10-07)"
+    },
+    {
+      "id": "red-heat-ceramic-studio",
+      "why": "Second check (claude-haiku-4.5): The text mentions classes, workshops, and memberships with access to a gas kiln, but does not describe any non-electric ceramic firing methods such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings. (2026-10-07)"
     }
   ]
 }

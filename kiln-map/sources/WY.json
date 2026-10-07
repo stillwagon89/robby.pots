@@ -27,7 +27,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "workhousearts.org"
-      }
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippets describe a raku workshop open to public participation, but the page text provided is empty, so location details cannot be verified.",
+        "types": {
+          "raku": "Get fired up to participate in the Raku firing process with ceramicist David Newquist"
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "peter-callas",
@@ -65,88 +77,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "petercallas.com"
-      }
-    },
-    {
-      "id": "muddy-mountain-pottery",
-      "org": "Muddy Mountain Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Centennial",
-      "city": "Centennial",
-      "urls": [
-        "https://muddymountainpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Centennial, Wyoming",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://muddymountainpottery.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We also offer West's Raku-fired Ray Guns.",
-        "url": "https://muddymountainpottery.com/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "verify": {
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "key": "muddymountainpottery.com"
+        "verdict": "unclear",
+        "why": "The snippets mention an Anagama firing workshop with participant involvement, but the actual page text is empty, so cannot verify public access details, location, or booking information.",
+        "types": {
+          "wood": "firing the Meeteetse Anagama"
+        },
+        "state": "",
+        "town": ""
       },
-      "lat": 41.2979,
-      "lng": -106.13937
-    },
-    {
-      "id": "art-association-of-jackson-hole",
-      "org": "Art Association of Jackson Hole",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "gas_reduction"
-      ],
-      "region": "Jackson",
-      "city": "Jackson",
-      "urls": [
-        "https://artassociation.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Jackson, Wyoming",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://artassociation.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We fire to Cone 10 reduction in two downdraft natural gas kilns and can also fire to Cone 6 oxidation in electric kilns.",
-        "url": "https://artassociation.org/make-art/studios/",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "artassociation.org"
-      },
-      "lat": 43.47996,
-      "lng": -110.76181
+      "weak": true
     },
     {
       "id": "laramie-county-community-college",
@@ -186,7 +129,19 @@
         "key": "lccc.coursestorm.com"
       },
       "lat": 41.31164,
-      "lng": -105.59179
+      "lng": -105.59179,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The page offers an 'Alternative Firing Pottery' class open to all levels that explicitly covers raku and sagger firing, with public enrollment available through the course registration system.",
+        "types": {
+          "raku": "We will discuss and explore raku, obvara, horse hair and sagger firing."
+        },
+        "state": "WY",
+        "town": "Laramie"
+      },
+      "weak": true
     },
     {
       "id": "red-bison-studios",
@@ -226,49 +181,33 @@
         "key": "sheridanwyoming.com"
       },
       "lat": 44.79475,
-      "lng": -106.82227
+      "lng": -106.82227,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions a wood-fired kiln at Sheridan College and Stephen Mullins' hope to invite people to future firings, but does not explicitly state that the public can currently book, sign up, or participate in firings.",
+        "types": {
+          "wood": "a wood-fired kiln has been fired to life on the Sheridan College campus"
+        },
+        "state": "WY",
+        "town": "Sheridan"
+      },
+      "weak": true
+    }
+  ],
+  "_removed": [
+    {
+      "id": "muddy-mountain-pottery",
+      "why": "Second check (gemma4-local): The text only mentions that pots are high-fired in a large gas kiln, and describes raku firing techniques, but it does not provide information about the public taking part in any non-electric firing. (2026-10-07)"
+    },
+    {
+      "id": "art-association-of-jackson-hole",
+      "why": "Second check (gemma4-local): The text mentions firing in natural gas kilns and electric kilns, but does not confirm that the public can take part in a non-electric firing. (2026-10-07)"
     },
     {
       "id": "rod-dugal-ceramics",
-      "org": "Rod Dugal Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "soda"
-      ],
-      "region": "Sheridan",
-      "city": "Sheridan",
-      "urls": [
-        "https://www.roddugalceramics.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Sheridan, Wyoming",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.roddugalceramics.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Pieces are thrown on the wheel and finished in our hybrid wood fired/soda fired kiln.",
-        "url": "https://www.roddugalceramics.com/",
-        "types": [
-          "wood",
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "roddugalceramics.com"
-      },
-      "lat": 44.79475,
-      "lng": -106.82227
+      "why": "Second check (gemma4-local): The text only mentions the owner firing pieces at their studio and does not mention public participation in non-electric firings. (2026-10-07)"
     }
   ]
 }

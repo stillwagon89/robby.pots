@@ -56,13 +56,15 @@
         "key": "nynjceramics.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions a Raku workshop and states the academy provides education to the public, but it does not explicitly state that the public can sign up for or participate in the firing itself.",
+        "why": "The search snippets mention a Raku Workshop and describe the raku firing process, but the actual page text is empty, so there is no information about whether outsiders can actually book or participate.",
         "types": {
           "raku": "The rigors on the clay (any clay) during the Raku firing and reduction process can range from the wonderful to the brutal."
-        }
+        },
+        "state": "NJ",
+        "town": "Jersey City"
       },
       "weak": true,
       "lat": 40.72157,
@@ -96,65 +98,17 @@
         "key": "jerseyclay.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly offers a Raku Workshop that the public can sign up for to learn the process and leave with finished pieces.",
+        "verdict": "unclear",
+        "why": "The search snippets describe a Raku Workshop open to participants, but the actual page text is empty, so location details cannot be verified.",
         "types": {
           "raku": "Get ready to play with fire and come learn about the Raku!"
-        }
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
-    },
-    {
-      "id": "the-clay-pot-pottery-studio",
-      "org": "The Clay Pot Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Spotswood",
-      "city": "Spotswood",
-      "urls": [
-        "https://www.theclaypotpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Spotswood, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.theclaypotpottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Clay Pot welcomes you to experience this truly unique way of firing pottery by participating in one of our Raku workshops.",
-        "url": "https://www.theclaypotpottery.com/raku.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "theclaypotpottery.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text shows that the public can participate in raku workshops and bring their own pieces to glaze and fire during them.",
-        "types": {
-          "raku": "The Clay Pot welcomes you to experience this truly unique way of firing pottery by participating in one of our Raku workshops."
-        },
-        "street": "290 Main Street"
-      },
-      "lat": 40.39177,
-      "lng": -74.39848
     },
     {
       "id": "burntmillpotters",
@@ -184,11 +138,13 @@
         "key": "burntmillpotters.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty, so there is no information confirming public access or firing methods.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions a raku firing workshop in Whitehouse NJ, but the actual page text is empty, so I cannot verify the details or confirm public participation from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 40.61538,
@@ -232,11 +188,13 @@
         "key": "canvas.artscenterlive.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The provided page text is empty, so it is impossible to determine if the public can participate in the firing.",
-        "types": {}
+        "why": "The search snippet mentions a soda firing workshop open to students, but the actual page text is empty, so I cannot verify from the page itself whether outsiders can participate or confirm the location details.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 40.74092,
@@ -270,11 +228,13 @@
         "key": "dwaynesackey.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and provides no details about public firings, addresses, or locations.",
-        "types": {}
+        "why": "The page text provided is empty; no information about the place, its location, or firing access can be verified from the text itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -316,11 +276,13 @@
         "key": "wootenclayworks.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The snippet mentions a salt kiln workshop, but the provided page text is empty, making it impossible to confirm if the public can sign up or if the event is restricted to students.",
-        "types": {}
+        "why": "The search snippet mentions a salt kiln workshop open to students, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -364,11 +326,13 @@
         "key": "mudclaystudio.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and contains no information about the facility.",
-        "types": {}
+        "why": "The page text is empty; no information about Peters Valley School of Craft's firing services or public access to non-electric firings can be verified from the actual page content.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -410,14 +374,16 @@
         "key": "hunterdonartmuseum.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows a public 4-day workshop for pit firing that outsiders can join by paying tuition and a firing fee.",
+        "why": "The text describes a 4-day pit firing workshop open to non-members (tuition listed for both members and non-members) at a specific location with dates and registration details.",
         "types": {
           "pit_barrel_saggar": "This 4-day workshop for making and firing ceramic work for pit firing will take place at the Toshiko Takaezu Ceramic Studios and property, which includes a beautiful garden and welcoming studio space."
         },
-        "street": "1177 Croton Road"
+        "state": "NJ",
+        "town": "Quakertown",
+        "street": "1177 Croton Road, Quakertown, NJ 08822"
       },
       "lat": 40.56566,
       "lng": -74.94156
@@ -460,16 +426,20 @@
         "key": "getpotteryclass.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text mentions that studios offer raku firing courses and sessions available to the public.",
+        "verdict": "unclear",
+        "why": "The page is a directory listing that mentions raku firing sessions are available in Newark pottery studios, but provides no specific details about how to book, whether public access is allowed, or which studio offers this.",
         "types": {
-          "raku": "Popular options include wheel throwing classes , hand building pottery workshops , pottery painting sessions , and raku firing courses."
-        }
+          "raku": "Pottery studios in Newark offer wheel throwing classes, hand building workshops, glazing courses, and raku firing sessions."
+        },
+        "state": "",
+        "town": "Newark",
+        "street": "NG22 9DN"
       },
       "lat": 40.73566,
-      "lng": -74.17237
+      "lng": -74.17237,
+      "weak": true
     },
     {
       "id": "montclair-art-museum",
@@ -499,11 +469,13 @@
         "key": "montclairartmuseum.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text contains no information about non-electric ceramic firings available to the public.",
-        "types": {}
+        "verdict": "yes",
+        "why": "The text explicitly mentions a 'Naked Raku' workshop where participants can register and learn this firing technique, with all materials and safety gear provided.",
+        "types": {},
+        "state": "NJ",
+        "town": "Montclair"
       },
       "weak": true,
       "lat": 40.81645,
@@ -538,6 +510,10 @@
     {
       "id": "pocosin-arts",
       "why": "Second check (gemini-3.5-flash-lite): The text only mentions wood firing in the context of an instructor's background and does not state that the public can take part in a non-electric ceramic firing at this location. (2026-10-07)"
+    },
+    {
+      "id": "the-clay-pot-pottery-studio",
+      "why": "Second check (claude-haiku-4.5): The text describes paint-your-own bisque workshops where participants paint pre-made pieces with raku glazes, which falls under the paint-your-own category excluded from the verdict criteria. (2026-10-07)"
     }
   ]
 }

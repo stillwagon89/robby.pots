@@ -41,11 +41,16 @@
         "key": "canvas.snowfarm.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public firing events.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions raku, naked raku, and saggar firing techniques, but the actual page text is empty, so I cannot verify the public access policy or location details from the page itself.",
+        "types": {
+          "raku": "raku",
+          "pit_barrel_saggar": "saggar firing"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -87,13 +92,13 @@
         "key": "couchsurfing.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly invites participants to a workshop for pit firing, which is a non-electric method.",
-        "types": {
-          "pit_barrel_saggar": "This workshop invites participants to learn the traditional technique of pit firing, a process used for over 2,000 years to create smooth, glassy surfaces on ceramic vessels."
-        }
+        "verdict": "unclear",
+        "why": "The search snippet mentions a pit firing workshop, but the actual page text provided is only the Couchsurfing homepage with no details about the workshop, location, or how to participate.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -104,17 +109,17 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
+        "pit_barrel_saggar",
+        "raku"
       ],
-      "region": "New Hampshire",
-      "city": null,
+      "region": "Rindge",
+      "city": "Rindge",
       "urls": [
         "https://www.rootedinclay.com/"
       ],
       "notes": "By appointment. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Rindge, New Hampshire",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.rootedinclay.com/"
@@ -137,13 +142,20 @@
         "key": "rootedinclay.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public firing events or services.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The text mentions workshops with primitive pit firing and raku firing can be scheduled upon request, but does not explicitly state whether outsiders can book or sign up.",
+        "types": {
+          "pit_barrel_saggar": "Alternative firing techniques, such as primitive pit firing and raku firing are some favorite activities.",
+          "raku": "Alternative firing techniques, such as primitive pit firing and raku firing are some favorite activities."
+        },
+        "state": "NH",
+        "town": "Rindge"
       },
-      "weak": true
+      "weak": true,
+      "lat": 42.7512,
+      "lng": -72.0098
     },
     {
       "id": "the-wheel-house",
@@ -173,11 +185,15 @@
         "key": "thewheelhousenh.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text mentions a raku project but does not provide enough details to confirm if outsiders can participate or book it.",
-        "types": {}
+        "verdict": "yes",
+        "why": "The text describes a three-week Raku project open to anyone, and the home page states the studio is 'open to anyone willing to give it a try,' indicating public access to non-electric ceramic firing.",
+        "types": {
+          "raku": "Dive into one of pottery's most exciting firing methods—Raku!"
+        },
+        "state": "NH",
+        "town": "Portsmouth"
       },
       "weak": true,
       "lat": 43.07513,
@@ -191,8 +207,7 @@
       "public": true,
       "firing_types_guess": [
         "wood",
-        "gas_reduction",
-        "raku"
+        "gas_reduction"
       ],
       "region": "Elkins",
       "city": "Elkins",
@@ -213,8 +228,7 @@
         "url": "https://jonkeenan.com/about",
         "types": [
           "wood",
-          "gas_reduction",
-          "raku"
+          "gas_reduction"
         ],
         "checked": "2026-10-07"
       },
@@ -225,15 +239,16 @@
         "key": "jonkeenan.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions that the firing of the artist's work is collaborative, but it does not explicitly state that the public can join, book, or sign up for these firings.",
+        "why": "The text describes the artist's own work and studio firings but does not explicitly state whether the public can participate in or book these firings.",
         "types": {
-          "wood": "My recent focus has been on anagama wood-fired natural ash glazed ceramics made and fired at my studio and kiln in Elkins, New Hampshire, along with gas-fired glazed stoneware pieces.",
-          "gas_reduction": "My recent focus has been on anagama wood-fired natural ash glazed ceramics made and fired at my studio and kiln in Elkins, New Hampshire, along with gas-fired glazed stoneware pieces.",
-          "raku": "My current work represents my involvement in Raku, stoneware glazed and wood-fired ceramics which began as a student in Kyoto, Japan many years ago."
-        }
+          "wood": "My recent focus has been on anagama wood-fired natural ash glazed ceramics made and fired at my studio and kiln in Elkins, New Hampshire",
+          "gas_reduction": "along with gas-fired glazed stoneware pieces"
+        },
+        "state": "NH",
+        "town": "Elkins"
       },
       "weak": true,
       "lat": 43.42091,
@@ -277,13 +292,15 @@
         "key": "maxtmakerspace.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The text states the wood kiln is for Guild members only and provides no information about public access to non-electric firings.",
+        "verdict": "unclear",
+        "why": "The text states the Guild has a wood kiln and fires it multiple times yearly, but does not explicitly state whether non-members or the public can participate in firings.",
         "types": {
           "wood": "The Guild has a wood kiln in Deerfield and Guild members fire it multiple times each year."
-        }
+        },
+        "state": "NH",
+        "town": "Dublin"
       },
       "weak": true,
       "lat": 42.90594,
@@ -331,11 +348,13 @@
         "key": "nhclayproject.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, so there is no information to confirm public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention gas, soda, wood fired and raku kilns and wood firing at Castle Hill, but the actual page text provided is empty, so I cannot verify these claims or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     }

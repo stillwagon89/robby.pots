@@ -65,13 +65,15 @@
       "lat": 35.68761,
       "lng": -105.93846,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The studio offers Raku workshops that are open to the public for registration via their website.",
+        "why": "Paseo Pottery offers public raku workshops on the third Friday of every month and horsehair-only raku workshops by appointment, both open to outsiders aged 18+ for $195 per person.",
         "types": {
-          "raku": "Do you want to practice the ancient art of Raku Firings?"
-        }
+          "raku": "Paseo Pottery conducts Raku Workshops on the third Friday of every month!"
+        },
+        "state": "NM",
+        "town": "Santa Fe"
       }
     },
     {
@@ -114,13 +116,15 @@
       "lat": 35.68761,
       "lng": -105.93846,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text offers a public workshop called Micaceous Pottery Class II where participants can learn and take part in open-pit firing.",
+        "why": "The text describes a public workshop (registration $50 per person, register online) teaching open-pit firing of micaceous pottery, with materials provided and participants taking home their creations.",
         "types": {
           "pit_barrel_saggar": "Traditional firing methods, such as open-pit firing, connect the process to centuries-old techniques used by Indigenous potters of the Southwest."
         },
+        "state": "NM",
+        "town": "Santa Fe",
         "street": "1411 Paseo de Peralta"
       }
     },
@@ -166,15 +170,16 @@
       "lat": 36.64722,
       "lng": -105.9668,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site explicitly states they are open to having interested potters join in upcoming firings and provides contact information to do so.",
+        "why": "The text states 'We are open to having any interested potters join in the community and upcoming firings' and describes wood/salt and wood-fired kilns where public potters can participate.",
         "types": {
           "wood": "We wanted to try an simply designed easy to fire wood / salt kiln that would produce salt fired effects different from the japanese style Anagama kilns.",
           "salt": "We wanted to try an simply designed easy to fire wood / salt kiln that would produce salt fired effects different from the japanese style Anagama kilns."
         },
-        "street": "US 64"
+        "state": "NM",
+        "town": "Tres Piedras"
       }
     },
     {
@@ -186,14 +191,14 @@
       "firing_types_guess": [
         "soda"
       ],
-      "region": "New Mexico",
-      "city": null,
+      "region": "Abiquiu",
+      "city": "Abiquiu",
       "urls": [
         "https://www.nmpotters.org/"
       ],
       "notes": "Kazegama kiln community, events. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Abiquiu, New Mexico",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.nmpotters.org/"
@@ -215,13 +220,19 @@
         "key": "nmpotters.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions wood and soda pots in a lecture topic, but does not explicitly state that the public can participate in a wood or soda firing.",
-        "types": {}
+        "why": "The page mentions 'Wood and Soda Pots' in a lecture title but does not explicitly state that public participants can book or sign up for actual wood or soda firings; it only describes workshop demonstrations and instruction.",
+        "types": {
+          "soda": "Building the Kazegama Kiln, Fostering the Community, Wood and Soda Pots"
+        },
+        "state": "NM",
+        "town": "Abiquiu"
       },
-      "weak": true
+      "weak": true,
+      "lat": 36.2071,
+      "lng": -106.31863
     },
     {
       "id": "taos-ceramics-center",
@@ -265,14 +276,16 @@
       "lat": 36.40724,
       "lng": -105.57328,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly mentions a class that covers Raku and Saggar firing techniques, which are non-electric methods.",
+        "why": "The text describes a Raku class open to outsiders (limited to 8 students, registration available) and mentions Saggar firing techniques within the raku instruction.",
         "types": {
           "raku": "Raku is a low-temperature fast-firing technique that achieves unique metallic and lustrous surfaces by cooling the piece in a smoky atmosphere.",
           "pit_barrel_saggar": "Smoke Firing techniques will include Saggar and Terra Sigillata."
         },
+        "state": "NM",
+        "town": "Taos",
         "street": "114 Este Es Road"
       }
     },
@@ -284,7 +297,8 @@
       "public": true,
       "firing_types_guess": [
         "wood",
-        "raku"
+        "raku",
+        "gas_reduction"
       ],
       "region": "Las Cruces",
       "city": "Las Cruces",
@@ -305,7 +319,8 @@
         "url": "https://www.pottersguildlc.org/currentevents",
         "types": [
           "wood",
-          "raku"
+          "raku",
+          "gas_reduction"
         ],
         "checked": "2026-10-06"
       },
@@ -318,63 +333,18 @@
       "lat": 32.31404,
       "lng": -106.77981,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text lists events open to the community such as Glenn's wood kiln firing and Raku Sunday.",
+        "why": "The page lists 'Glenn's wood kiln firing' and 'Raku Sunday' as events open to the community, and mentions classes with 'special alternative firings' and gas kiln firing available to the public.",
         "types": {
-          "wood": "Glenn's wood kiln firing.",
-          "raku": "Raku Sunday"
-        }
-      }
-    },
-    {
-      "id": "taos-clay-studio",
-      "org": "Taos Clay Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Taos",
-      "city": "Taos",
-      "urls": [
-        "https://cysoda.com/"
-      ],
-      "notes": "Soda kiln access, raku fire experience. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Taos, New Mexico",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://cysoda.com/"
-      },
-      "access": {
-        "how": "Soda kiln access, raku fire experience",
-        "note": "Soda kiln access, raku fire experience",
-        "quote": "Taos Clay Studios stands out in the ceramics community by offering access to soda kilns, a specialized type of kiln that uses soda ash to create unique glazing effects.",
-        "url": "https://cysoda.com/article/does-taos-clay-studio-have-soda-kilns",
-        "types": [
-          "soda"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "cysoda.com"
-      },
-      "lat": 36.40724,
-      "lng": -105.57328,
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states that Taos Clay Studio offers workshops and classes that teach soda firing, providing access to soda kilns for participants.",
-        "types": {
-          "soda": "The studio offers workshops and classes that teach the basics of soda firing, as well as more advanced techniques for experienced artists."
-        }
+          "wood": "Glenn's wood kiln firing",
+          "raku": "Raku Sunday",
+          "gas_reduction": "Work is fired in a Daily downdraft gas kiln"
+        },
+        "state": "NM",
+        "town": "Las Cruces",
+        "street": "2345 East Nevada St Las Cruces"
       }
     },
     {
@@ -421,15 +391,17 @@
       "lat": 32.77118,
       "lng": -108.27642,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text states the studio is open by appointment and special events, but it does not explicitly state that the public can participate in the firing processes mentioned.",
+        "verdict": "yes",
+        "why": "The text states the studio is 'Open by appointment and special events' and lists gas reduction, soda, and raku firing methods available on site.",
         "types": {
-          "gas_reduction": "Letha Cress Woolf, Alaska Mudhead Pottery Studio, cone 10 (high fired), gas reduction fired porcelain, white and black stoneware.",
-          "soda": "Also soda fired, and Raku fired pottery.",
-          "raku": "Also soda fired, and Raku fired pottery."
+          "gas_reduction": "gas reduction fired porcelain",
+          "soda": "Also soda fired",
+          "raku": "and Raku fired pottery"
         },
+        "state": "NM",
+        "town": "Silver City",
         "street": "371 Camino De Viento"
       },
       "weak": true
@@ -443,6 +415,10 @@
     {
       "id": "don-a-ana-community-college",
       "why": "Second check (gemini-3.5-flash-lite): The text describes classes and equipment for students, but does not indicate that the public can participate in non-electric firings. (2026-10-07)"
+    },
+    {
+      "id": "taos-clay-studio",
+      "why": "Second check (claude-haiku-4.5): CySoda is a blog/directory about drinking sodas and soda beverages, not a pottery studio; the article mentions Taos Clay Studio in Taos, New Mexico with soda kilns and workshops, but CySoda itself is located in Apalachicola, Florida and runs no ceramic firings. (2026-10-07)"
     }
   ]
 }

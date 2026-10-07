@@ -30,14 +30,16 @@
         "key": "animalhousepottery.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site offers public workshops for Raku and soda firing that do not require prior experience or membership.",
+        "why": "The search snippets show public workshops for raku and soda/wood firing with pricing and sign-up information, requiring no prior experience.",
         "types": {
-          "raku": "Bring your own bisque or pick one of Anthony's, glaze it, load it into the Raku kiln, and pull it out glowing hot to watch the crackle and colors come out as it cools.",
-          "soda": "Spend a Sunday with us learning soda firing ( this will be a wood/soda firing) from the ground up."
-        }
+          "raku": "load it into the Raku kiln, and pull it out glowing hot to watch the crackle and colors come out as it cools",
+          "soda": "Spend a Sunday with us learning soda firing ( this will be a wood/soda firing) from the ground up"
+        },
+        "state": "",
+        "town": ""
       },
       "lat": 36.16743,
       "lng": -115.14841
@@ -86,11 +88,13 @@
         "key": "tuscarorapottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "There is no page text provided to evaluate.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention Tuscarora Pottery School offering soda firing and raku workshops that appear open to participants, but the actual page text is empty, so I cannot verify details from the official site itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 41.31488,
@@ -134,11 +138,13 @@
         "key": "nvclay.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text contains no content, making it impossible to verify public participation in non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention a workshop with saggar firing open to participants, but the actual page text is empty, so the venue's location and full details cannot be verified from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 36.03014,
@@ -172,13 +178,15 @@
         "key": "taoofclay.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly mentions a pit fire workshop that is open for registration.",
+        "verdict": "unclear",
+        "why": "The search snippet mentions a pit firing workshop open to participants, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
         "types": {
-          "pit_barrel_saggar": "This three-part workshop offers a comprehensive introduction to pit firing—a traditional method of firing ceramics using open flame and natural materials to create unique surface finishes without glaze."
-        }
+          "pit_barrel_saggar": "pit firing—a traditional method of firing ceramics using open flame and natural materials"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -210,11 +218,15 @@
         "key": "lisaloveceramics.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention gas reduction firing and a 5-day workshop in Henderson, NV, but the actual page text is empty, so I cannot verify from the page itself whether public outsiders can book or sign up.",
+        "types": {
+          "gas_reduction": "Cone 10 firing schedules for gas reduction and electric oxidation kilns"
+        },
+        "state": "NV",
+        "town": "Henderson"
       },
       "weak": true,
       "lat": 36.03014,
@@ -248,11 +260,15 @@
         "key": "klineglazeservice.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions a workshop balance for purchase but does not explicitly state that the public can participate in a non-electric firing or describe the firing methods used during the workshops.",
-        "types": {}
+        "why": "The page mentions Tom Coleman Workshops in Henderson, NV and references cone 10 reduction firing, but does not explicitly state whether public outsiders can attend or book these workshops.",
+        "types": {
+          "gas_reduction": "Dry Materials: Slips and Glazes Cone 10 Reduction"
+        },
+        "state": "NV",
+        "town": "Henderson"
       },
       "weak": true,
       "lat": 36.03014,
@@ -286,11 +302,15 @@
         "key": "elkocountyarts.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty and contains no information about firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention a Raku Firing Workshop with public walk-up option, but the actual page text is empty, so location details cannot be verified from the page itself.",
+        "types": {
+          "raku": "Red hot pieces will be pulled from the kiln by the instructors and placed under a metal bucket with combustibles to create that magic Raku effect."
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     }

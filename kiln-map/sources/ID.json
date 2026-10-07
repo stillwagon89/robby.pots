@@ -55,13 +55,15 @@
         "key": "meetup.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly invites participants to a 2-part workshop where they will make pieces to fire using Raku processing.",
+        "verdict": "unclear",
+        "why": "The search snippets describe raku firing workshops open to participants, but the actual page text is empty, so location details cannot be verified from the page itself.",
         "types": {
-          "raku": "Each participant will make several pieces to fire in multiple Raku processing like reduction glazing or Feather and horse hair raku."
-        }
+          "raku": "Explore the Raku firing process on pieces of pottery you make!"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -93,17 +95,18 @@
         "key": "artsourcegallery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The page text mentions workshops open to participants for raku firing at a specified studio address.",
-        "types": {
-          "raku": "This intensive three-weekend workshop introduces students to the fundamentals of raku firingcombined with expressive hand-building techniques."
-        },
+        "why": "The text describes multiple raku workshops open to participants (students and those with prior raku experience), with a specific studio address provided for the Spring Hand Building and Raku Workshop.",
+        "types": {},
+        "state": "ID",
+        "town": "Boise",
         "street": "2800 N. Lancaster Drive"
       },
       "lat": 43.61662,
-      "lng": -116.20089
+      "lng": -116.20089,
+      "weak": true
     },
     {
       "id": "ceramica-arthouse",
@@ -143,16 +146,17 @@
         "key": "ceramicaboise.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly states that Jerry will be firing raku pottery in the parking lot in front of Ceramica Arthouse and invites the public to purchase pieces for raku painting and firing.",
-        "types": {
-          "raku": "Jerry will be firing raku pottery in the Vista Village parking lot in front of Ceramica Arthouse from 6-9."
-        }
+        "verdict": "unclear",
+        "why": "The search snippets mention raku firing and wood firing at Ceramica Arthouse, but the actual page text is empty, so I cannot verify details from the site itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "lat": 43.61662,
-      "lng": -116.20089
+      "lng": -116.20089,
+      "weak": true
     },
     {
       "id": "sandpoint-ceramics",
@@ -162,8 +166,7 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "pit_barrel_saggar",
-        "gas_reduction"
+        "pit_barrel_saggar"
       ],
       "region": "Sandpoint",
       "city": "Sandpoint",
@@ -184,11 +187,17 @@
         "key": "sandpointceramics.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention raku and pit fire workshops, but the actual page text is empty, so public access cannot be confirmed from the text itself.",
+        "types": {
+          "raku": "Workshops will delve into different firing methods, such as electric and gas kilns, raku, and pit fire.",
+          "pit_barrel_saggar": "Workshops will delve into different firing methods, such as electric and gas kilns, raku, and pit fire."
+        },
+        "state": "ID",
+        "town": "Sandpoint",
+        "street": "suite 206 of the Cedar Street Bridge"
       },
       "weak": true,
       "lat": 48.27613,
@@ -201,8 +210,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "gas_reduction"
+        "raku"
       ],
       "region": "Ketchum",
       "city": "Ketchum",
@@ -222,8 +230,7 @@
         "quote": "Our Ketchum studio is fully equipped for stoneware, porcelain and raku pottery.",
         "url": "https://bouldermtnclay.org/",
         "types": [
-          "raku",
-          "gas_reduction"
+          "raku"
         ],
         "checked": "2026-10-07"
       },
@@ -234,11 +241,15 @@
         "key": "bouldermtnclay.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The text mentions raku pottery and a gas kiln but does not explicitly state whether non-students or the public can participate in raku or gas-reduction firings.",
+        "types": {
+          "raku": "Our Ketchum studio is fully equipped for stoneware, porcelain and raku pottery."
+        },
+        "state": "",
+        "town": "Ketchum"
       },
       "weak": true,
       "lat": 43.68074,

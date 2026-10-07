@@ -62,63 +62,17 @@
         "key": "arkmfa.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows public workshops are available for raku firing.",
+        "why": "The text shows public workshops where outsiders can sign up to participate in raku firing, with two pieces of pottery provided and the option for experienced students to bring their own bisqueware.",
         "types": {
           "raku": "Learn all about the basics of raku firing!"
-        }
+        },
+        "state": "AR",
+        "town": ""
       },
       "weak": true
-    },
-    {
-      "id": "pottery-mill",
-      "org": "Pottery Mill",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Dracut",
-      "city": "Dracut",
-      "urls": [
-        "https://www.potterymill.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Dracut, Arkansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.potterymill.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "We will be hosting a few raku workshops this spring and some in the fall, however space is very limited, so sign up today!",
-        "url": "https://www.potterymill.com/service-page/raku-workshop-at-47-arkansas-dr-dracut",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "potterymill.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
-      },
-      "weak": true,
-      "lat": 42.69152,
-      "lng": -71.36311
     },
     {
       "id": "eureka-springs-school-of-the-arts",
@@ -158,13 +112,15 @@
         "key": "reg131.imperisoft.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows a public workshop where participants can join a raku firing.",
+        "why": "The text describes a raku firing workshop where students participate in the firing process and take home finished artworks, indicating public access to a non-electric ceramic firing.",
         "types": {
-          "raku": "In this workshop, students will embellish pre-formed ceramic pieces using wax resist and raku glazes, and experience the unique process of burning horsehair and feathers onto pottery."
-        }
+          "raku": "Everyone will participate in the thrilling firing process and take home three distinct finished artworks, each reflecting the creativity and magic of raku firing."
+        },
+        "state": "",
+        "town": ""
       },
       "lat": 36.40008,
       "lng": -93.73924
@@ -198,11 +154,13 @@
         "key": "sullivanpotteryhsv.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "There is no page text provided to confirm public firing details beyond search snippets.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions raku and saggar firing workshops, but the actual page text is empty, so I cannot verify the details from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -213,8 +171,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "soda",
-        "wood"
+        "soda"
       ],
       "region": "Little Rock",
       "city": "Little Rock",
@@ -234,8 +191,7 @@
         "quote": "If you are a local potter or pottery student interested in soda firing, send us an email at huntermaypottery@gmail.com and we can invite you to participate in the next soda firing.",
         "url": "https://www.huntermaypottery.com/about",
         "types": [
-          "soda",
-          "wood"
+          "soda"
         ],
         "checked": "2026-10-07"
       },
@@ -246,14 +202,15 @@
         "key": "huntermaypottery.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly invites local potters or pottery students to email the studio to participate in their soda firing.",
+        "why": "The text states 'Fire with us: If you are a local potter or pottery student interested in soda firing, send us an email at huntermaypottery@gmail.com and we can invite you to participate in the next soda firing,' showing public participation is available.",
         "types": {
-          "soda": "If you are a local potter or pottery student interested in soda firing, send us an email at huntermaypottery@gmail.com and we can invite you to participate in the next soda firing.",
-          "wood": "Logan Hunter & Hannah May are wood fired potters who create handmade pottery & ceramics, and teach pottery classes and pottery lessons in central Arkansas."
-        }
+          "soda": "If you are a local potter or pottery student interested in soda firing, send us an email at huntermaypottery@gmail.com and we can invite you to participate in the next soda firing."
+        },
+        "state": "AR",
+        "town": "Little Rock"
       },
       "lat": 34.74651,
       "lng": -92.28963
@@ -296,13 +253,15 @@
         "key": "valynchburgweb.myvscloud.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly invites the public to join a Cone 10 Salt Firing Workshop at Cub Creek Foundation.",
+        "verdict": "unclear",
+        "why": "The search snippet describes a salt firing workshop open to participants, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
         "types": {
-          "salt": "Have you ever been curious about atmospheric firing and the unique surfaces created through salt firing?"
-        }
+          "salt": "Cone 10 Salt Firing Workshop"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -344,11 +303,15 @@
         "key": "arkansas.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public firing participation.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The snippets describe a public wood-firing event at Ozark Folk Center, but the actual page text is empty, so I cannot verify the location details or confirm public participation terms.",
+        "types": {
+          "wood": "the 100-cubic-foot traditional groundhog kiln, a rare wood-fired kiln style"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -388,11 +351,13 @@
         "key": "arkansasstateparks.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly mentions workshop participants can take part in the wood firing process.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention a wood-firing workshop at Arkansas State Parks, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -434,11 +399,13 @@
         "key": "flamingearthpottery.studio"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and contains no information about public non-electric ceramic firings.",
-        "types": {}
+        "why": "The text mentions the owner's participation in an annual wood-fired anagama kiln firing in Oark, Arkansas, but provides no information about public access, workshops, classes, memberships, or any way for outsiders to participate in firings at Flaming Earth Pottery itself.",
+        "types": {},
+        "state": "AR",
+        "town": "Little Rock"
       },
       "weak": true,
       "lat": 34.74651,
@@ -472,11 +439,13 @@
         "key": "lifeinmountainview.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty and contains no information about public firing opportunities.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The snippets mention a Groundhog Kiln Woodfiring event at Life in Mountain View with dates and descriptions, but the page text itself is empty, so no details about public participation, location, or contact information can be verified.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     }
@@ -509,6 +478,10 @@
     {
       "id": "john-perry-judi-munn",
       "why": "Second check (gemini-3.5-flash-lite): The text mentions that the artists make wood-fired pottery, but it does not state that the public can take part in, book, or sign up for any ceramic firings. (2026-10-07)"
+    },
+    {
+      "id": "pottery-mill",
+      "why": "Second check (claude-haiku-4.5): page says state is MA, not AR (2026-10-07)"
     }
   ]
 }

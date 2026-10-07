@@ -29,11 +29,13 @@
         "key": "shelbyprindaville.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
-        "types": {}
+        "why": "The page text is empty; no information about public access to firings can be verified from the actual page content.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 43.5476,
@@ -77,11 +79,13 @@
         "key": "webtrac.aberdeen.sd.us"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text describes a Raku Pottery Alternative Firing event that participants can take part in.",
+        "verdict": "unclear",
+        "why": "The search snippets describe a raku firing workshop open to participants, but the actual page text is empty, so I cannot verify the details from the source page itself.",
         "types": {},
+        "state": "SD",
+        "town": "Aberdeen",
         "street": "225 3rd Avenue SE"
       },
       "weak": true,

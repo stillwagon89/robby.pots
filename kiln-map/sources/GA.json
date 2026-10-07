@@ -92,13 +92,15 @@
       "lat": 33.75447,
       "lng": -84.38982,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text offers Raku workshops that outsiders can join by appointment.",
+        "why": "The text describes Raku Workshops held a few times a year where the public can sign up by appointment to participate in a raku firing experience.",
         "types": {
           "raku": "Raku Workshops are held a few times a year and are a firing experience of instant gratification."
         },
+        "state": "GA",
+        "town": "Atlanta",
         "street": "42 Howard St SE"
       }
     },
@@ -109,7 +111,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "raku",
+        "soda"
       ],
       "region": "Atlanta",
       "city": "Atlanta",
@@ -129,7 +132,8 @@
         "quote": "This glazing workshop introduces you to the spectacular art of raku firing.",
         "url": "https://callanwolde.org/event/pottery-workshop-raku-ornaments/2025-12-06",
         "types": [
-          "raku"
+          "raku",
+          "soda"
         ],
         "checked": "2026-10-06"
       },
@@ -142,13 +146,17 @@
       "lat": 33.75447,
       "lng": -84.38982,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly offers a 'Pottery Workshop: Raku Ornaments' that the public can sign up for via ticket purchase.",
+        "why": "The text shows Callanwolde offers public raku firing workshops and classes where outsiders can sign up, and mentions soda firing classes taught by an instructor at the center.",
         "types": {
-          "raku": "This glazing workshop introduces you to the spectacular art of raku firing."
-        }
+          "raku": "This glazing workshop introduces you to the spectacular art of raku firing.",
+          "soda": "Lora teaches pottery classes at Callanwolde with a concentration on the soda firing process"
+        },
+        "state": "GA",
+        "town": "Atlanta",
+        "street": "980 Briarcliff Road NE"
       }
     },
     {
@@ -191,13 +199,15 @@
       "lat": 33.94638,
       "lng": -84.33427,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The center offers ceramics classes and workshops for artists of all levels, including Raku firing, which is a non-electric firing method.",
+        "why": "The text describes raku firing classes available to register for, with explicit instruction on the raku technique and a call to 'Browse Classes' and 'Register for art classes and workshops,' indicating public enrollment is possible.",
         "types": {
           "raku": "Raku Practice a contemporary take on Raku firing – a Japanese ceramic technique that involves taking hot ceramic pieces from the kiln and immersing them in flammable materials."
         },
+        "state": "GA",
+        "town": "Dunwoody",
         "street": "5339 Chamblee Dunwoody Road"
       }
     },
@@ -245,15 +255,17 @@
       "lat": 32.03354,
       "lng": -81.04983,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that Clayer & Co is a pottery studio offering classes, workshops, and open studio options for the public, featuring raku, soda, and gas-reduction firing methods.",
+        "why": "The studio offers classes, workshops, and open studio access to the public, and explicitly features raku, soda, and gas reduction firing methods.",
         "types": {
-          "raku": "Our studio features 4 different forms of firing methods (electric, raku, soda, and gas) along with an assortment of vibrant glazes, pottery wheels, and a dedicated hand-building space.",
-          "soda": "Our studio features 4 different forms of firing methods (electric, raku, soda, and gas) along with an assortment of vibrant glazes, pottery wheels, and a dedicated hand-building space.",
+          "raku": "Our studio features 4 different forms of firing methods (electric, raku, soda, and gas)",
+          "soda": "Our studio features 4 different forms of firing methods (electric, raku, soda, and gas)",
           "gas_reduction": "WE ARE COOKING WITH GAS! FEATURING GAS REDUCTION FIRING, ALONG WITH CONE 6 ELECTRIC, RAKU, AND SODA!"
-        }
+        },
+        "state": "GA",
+        "town": "Thunderbolt"
       }
     },
     {
@@ -296,13 +308,15 @@
       "lat": 30.8327,
       "lng": -83.27849,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The center offers Raku firing sessions that are open to the public via registration for a class fee.",
+        "why": "The text shows Raku Firing Sessions offered monthly as a public class open to all students ages 16+ for $65, with registration available and supplies included.",
         "types": {
           "raku": "Explore the process of Raku firing!"
         },
+        "state": "GA",
+        "town": "Valdosta",
         "street": "527 N. Patterson Street"
       }
     }

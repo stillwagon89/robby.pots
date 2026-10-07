@@ -67,13 +67,15 @@
       "lat": 39.96226,
       "lng": -83.00071,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that the public can sign up for raku firings and workshops.",
+        "why": "The text explicitly states 'We offer monthly raku firings, every third Thursday of the month' and 'we'll provide materials to apply smoke, feather, and obvara firing techniques to your pieces' with sign-ups available to the public via workshops and monthly bookings.",
         "types": {
           "raku": "We offer monthly raku firings, every third Thursday of the month."
         },
+        "state": "OH",
+        "town": "Columbus",
         "street": "2050 South High Street"
       }
     },
@@ -84,7 +86,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "raku",
+        "pit_barrel_saggar"
       ],
       "region": "Groveport",
       "city": "Groveport",
@@ -104,7 +107,8 @@
         "quote": "We have raku, naked raku, horsehair, and obvara experimental firing workshops at our studio in fall and spring.",
         "url": "https://www.langweilstudiopottery.com/classes-workshops",
         "types": [
-          "raku"
+          "raku",
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
       },
@@ -117,13 +121,16 @@
       "lat": 39.85224,
       "lng": -82.88686,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text states they offer experimental firing and raku workshops at their studio which outsiders can sign up for.",
+        "why": "The text states 'We have raku, naked raku, horsehair, and obvara experimental firing workshops at our studio in fall and spring' and invites people to sign up, indicating public access to non-electric ceramic firing workshops.",
         "types": {
-          "raku": "We have raku, naked raku, horsehair, and obvara experimental firing workshops at our studio in fall and spring."
+          "raku": "We have raku, naked raku, horsehair, and obvara experimental firing workshops at our studio in fall and spring.",
+          "pit_barrel_saggar": "Alternative firing workshops including Raku, Naked Raku, Horsehair, Obvara, and Pit-fire."
         },
+        "state": "OH",
+        "town": "Groveport",
         "street": "596 Main St."
       }
     },
@@ -167,11 +174,16 @@
       "lat": 39.63703,
       "lng": -82.20444,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention raku workshops and an address in Perry, Ohio, but the actual page text provided is empty, so I cannot verify from the page itself that public participation is available.",
+        "types": {
+          "raku": "Raku Workshops Horsehair Raku Saturday May 10th at 4:00 p.m. is a method of decorating ceramic pottery using the mane and tail hair"
+        },
+        "state": "OH",
+        "town": "Perry",
+        "street": "3521 Main St."
       },
       "weak": true
     },
@@ -215,62 +227,15 @@
       "lat": 39.80454,
       "lng": -83.89252,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text describes a one-day hands-on workshop open to anyone that allows participants to take part in a raku firing process.",
+        "why": "The text describes a public workshop where anyone 18+ can register and participate in a raku firing for $60, with no requirement to be an enrolled student or existing member.",
         "types": {
           "raku": "Discover the thrill of Raku Firing!"
-        }
-      }
-    },
-    {
-      "id": "dayton-soda-workshop-hp-bloomer",
-      "org": "Dayton soda workshop (HP Bloomer)",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Dayton",
-      "city": "Dayton",
-      "urls": [
-        "https://ceramicartsnetwork.org/"
-      ],
-      "notes": "Dated workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Dayton, Ohio",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://ceramicartsnetwork.org/"
-      },
-      "access": {
-        "how": "Dated workshop",
-        "note": "Dated workshop",
-        "quote": "“Soda Firing: Exploring Atmospheric Glaze and Surfaces,” with HP Bloomer (June 28–July 3). Fee: $760.",
-        "url": "https://ceramicartsnetwork.org/ceramics-monthly/ceramics-monthly-article/Spotlight-Raku-Workshop",
-        "types": [
-          "soda"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "ceramicartsnetwork.org"
-      },
-      "lat": 39.75895,
-      "lng": -84.19161,
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text lists a 'Soda Firing' workshop with HP Bloomer in Dayton, Ohio, which is open for registration.",
-        "types": {
-          "soda": "“Soda Firing: Exploring Atmospheric Glaze and Surfaces,” with HP Bloomer (June 28–July 3). Fee: $760."
-        }
+        },
+        "state": "OH",
+        "town": "Yellow Springs"
       }
     },
     {
@@ -313,13 +278,15 @@
       "lat": 40.36116,
       "lng": -83.75966,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The page offers a public event for a saggar firing that outsiders can attend.",
+        "why": "The page lists a public Saggar Firing workshop event at The Cracked Pot Studio on September 13, 2025, open to participants to book.",
         "types": {
           "pit_barrel_saggar": "Saggar Firing"
         },
+        "state": "OH",
+        "town": "Bellefontaine",
         "street": "613 Hamilton St"
       }
     },
@@ -363,63 +330,14 @@
       "lat": 41.45532,
       "lng": -81.91792,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions upcoming raku firing events and invites people to subscribe or message to get on the list, but it does not explicitly confirm public sign-up or booking details.",
-        "types": {
-          "raku": "Raku is coming to Quill!"
-        },
-        "street": "1055 C Bradley Rd"
-      },
-      "weak": true
-    },
-    {
-      "id": "core-clay",
-      "org": "Core Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Norwood",
-      "city": "Norwood",
-      "urls": [
-        "https://www.coreclay.com/"
-      ],
-      "notes": "Kiln firings (electric and gas). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Norwood, Ohio",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.coreclay.com/"
-      },
-      "access": {
-        "how": "Kiln firings (electric and gas)",
-        "note": "Kiln firings (electric and gas)",
-        "quote": "Kiln Firings (Electric & Gas)",
-        "url": "https://www.coreclay.com",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "coreclay.com"
-      },
-      "lat": 39.15561,
-      "lng": -84.45966,
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The studio offers kiln firings including gas, and provides services such as studio rentals and workshops that are accessible to the public.",
+        "why": "The text announces raku firing is coming and invites people to subscribe or message to get on a list, but does not explicitly state whether outsiders can book/join or if it is students-only.",
         "types": {},
-        "street": "1912 Hudson Avenue"
+        "state": "OH",
+        "town": "Westlake",
+        "street": "1055 C Bradley Rd"
       },
       "weak": true
     },
@@ -463,13 +381,15 @@
       "lat": 41.08306,
       "lng": -81.51848,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text states that Jack offers Raku workshops at Don Drumm Studios where students can explore Raku firing.",
+        "why": "The text states Jack offers Raku workshops at Don Drumm Studios in Akron, Ohio where students can explore Raku firing, and he offers training opportunities each year that are open to sign up via his events list.",
         "types": {
-          "raku": "Jack’s immersive sessions allow students to breathe life into clay by exploring the magic of glazing, Raku firing, and ceramic transformation."
-        }
+          "raku": "Jack offers several training opportunities, including Raku workshops at Don Drumm Studios in Akron, Ohio"
+        },
+        "state": "OH",
+        "town": "Akron"
       }
     }
   ],
@@ -489,6 +409,14 @@
     {
       "id": "ohio-university-atmospheric-conference",
       "why": "Second check (gemini-3.1-flash-lite): The text describes a university-hosted conference for students, faculty, alumni, and invited visiting artists, but does not offer a way for the general public to sign up for or participate in firings. (2026-10-07)"
+    },
+    {
+      "id": "dayton-soda-workshop-hp-bloomer",
+      "why": "Second check (claude-haiku-4.5): The page text describes a raku workshop in Haines, Oregon (not Dayton, Ohio) and lists a soda firing workshop in Dayton taught by HP Bloomer, but provides no details about public access, booking, or participation in that Dayton soda firing. (2026-10-07)"
+    },
+    {
+      "id": "core-clay",
+      "why": "Second check (claude-haiku-4.5): The text mentions only electric and gas kiln firings, with no non-electric ceramic firing methods (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) described. (2026-10-07)"
     }
   ]
 }

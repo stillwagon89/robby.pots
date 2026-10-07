@@ -29,11 +29,13 @@
         "key": "rebelpotters.kilnfire.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text offers a workshop on Pinching & Pit Firing that participants can join.",
-        "types": {}
+        "why": "The text describes a workshop on pit firing scheduled for May 16, 2026, open to participants who can sign up, with the firing meeting at a site 45 minutes from the studio.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -65,11 +67,13 @@
         "key": "shop.folkwarestudio.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The provided page text is empty, so there is no information confirming that the public can participate in any firing methods.",
-        "types": {}
+        "why": "The page text is empty; only search snippets are provided, which reference raku firing at Dover Pottery Studio (a different location) but contain no information about public access, booking, or firings at Folkware Studio itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 39.15817,
@@ -113,16 +117,17 @@
         "key": "shop.app"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly invites the public to sign up for guided raku kiln sessions.",
-        "types": {
-          "raku": "Sign up for the transformative art of raku firing with our guided kiln sessions."
-        }
+        "verdict": "no",
+        "why": "The page text is empty; only search snippets are provided, which cannot be used for fact-checking per instructions.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "lat": 39.15817,
-      "lng": -75.52437
+      "lng": -75.52437,
+      "weak": true
     }
   ],
   "_removed": [

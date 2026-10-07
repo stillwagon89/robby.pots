@@ -79,7 +79,19 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "themakingplacemt.com"
-      }
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippets describe a raku pottery workshop open to the public, but the actual page text is empty, so location details cannot be verified from the page itself.",
+        "types": {
+          "raku": "participants will learn the art of Raku, a traditional Japanese firing technique known for its dramatic results and unpredictable outcomes"
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "the-clay-studio-of-missoula",
@@ -88,7 +100,6 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
         "wood"
       ],
       "region": "Missoula",
@@ -120,7 +131,19 @@
         "key": "theclaystudioofmissoula.org"
       },
       "lat": 46.8701,
-      "lng": -113.99527
+      "lng": -113.99527,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text describes wood kilns and an Anagama kiln but does not explicitly state whether the public can participate in firings or how to book/sign up.",
+        "types": {
+          "wood": "The Clay Studio of Missoula has access to wood kilns just outside of Missoula"
+        },
+        "state": "MT",
+        "town": "Missoula"
+      },
+      "weak": true
     },
     {
       "id": "missoulaevents",
@@ -150,7 +173,19 @@
         "key": "missoulaevents.com"
       },
       "lat": 46.8701,
-      "lng": -113.99527
+      "lng": -113.99527,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippets describe wood-firing classes and Anagama kiln firings in Missoula, Montana, but the actual page text is empty, so I cannot verify the location details or confirm public access terms.",
+        "types": {
+          "wood": "Class will culminate in a week-long wood-firing in an Anagama style kiln."
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "whitefish-pottery",
@@ -180,7 +215,19 @@
         "key": "whitefishpottery.com"
       },
       "lat": 45.65403,
-      "lng": -109.35794
+      "lng": -109.35794,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The snippets describe an anagama kiln at Whitefish Pottery but do not state whether the public can participate in firings or only view finished work at the gallery.",
+        "types": {
+          "wood": "Several centuries ago, far-eastern potters began to build wood-fired tunnel kilns known as Anagamas."
+        },
+        "state": "MT",
+        "town": "Whitefish"
+      },
+      "weak": true
     },
     {
       "id": "tinworks-art",
@@ -218,7 +265,17 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "tinworksart.org"
-      }
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The page describes a two-day rocket kiln building and firing workshop open to all levels where participants can sign up and participate in a full build and firing cycle.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "teachinart",
@@ -228,8 +285,7 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "pit_barrel_saggar",
-        "gas_reduction"
+        "pit_barrel_saggar"
       ],
       "region": "Montana",
       "city": null,
@@ -250,8 +306,7 @@
         "url": "https://www.teachinart.com/alternative-firing.html",
         "types": [
           "raku",
-          "pit_barrel_saggar",
-          "gas_reduction"
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-07"
       },
@@ -260,7 +315,20 @@
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "teachinart.com"
-      }
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers an online e-course in alternative firing (raku, saggar, and obvara) taught by Marcia Selsor that anyone can register for at the stated price of $226.",
+        "types": {
+          "raku": "How to build a portable Raku kiln.",
+          "pit_barrel_saggar": "Ceramic Saggar firing."
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "the-clay",
@@ -290,7 +358,17 @@
         "key": "missoulaevents.net"
       },
       "lat": 46.8701,
-      "lng": -113.99527
+      "lng": -113.99527,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippets mention wood fire classes and firings at The Clay in Missoula, Montana, but the actual page text is empty, so I cannot verify whether public outsiders can participate or confirm the location details.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "theclaystudioofmissoula",
@@ -299,8 +377,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood"
+        "wood",
+        "raku"
       ],
       "region": "Missoula",
       "city": "Missoula",
@@ -332,7 +410,19 @@
         "key": "theclaystudioofmissoula.app.neoncrm.com"
       },
       "lat": 46.8701,
-      "lng": -113.99527
+      "lng": -113.99527,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The page offers multiple non-electric ceramic firing classes open to non-members: wood firing, raku, and soda kiln workshops where outsiders can enroll and participate.",
+        "types": {
+          "wood": "Our journey will culminate in a week-long wood-firing in an Anagama-style kiln.",
+          "raku": "Students already possessing wheel throwing and/or handbuilding skills can create works for the unique traditional firing methods of Raku and Obvara."
+        },
+        "state": "MT",
+        "town": "Missoula"
+      }
     },
     {
       "id": "clay-arts-guild-of-helena",
@@ -341,7 +431,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "raku",
+        "gas_reduction"
       ],
       "region": "Helena",
       "city": "Helena",
@@ -361,7 +452,8 @@
         "quote": "We have 4 electric kilns, 2 gas kilns, plus 1 raku kiln available too.",
         "url": "https://www.clayartsguildofhelena.com/",
         "types": [
-          "raku"
+          "raku",
+          "gas_reduction"
         ],
         "checked": "2026-10-07"
       },
@@ -372,7 +464,20 @@
         "key": "clayartsguildofhelena.com"
       },
       "lat": 46.59274,
-      "lng": -112.03628
+      "lng": -112.03628,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions a raku kiln and gas kilns available to members, but does not explicitly state whether non-members or the general public can access these firings or join via workshop/class/rental/service.",
+        "types": {
+          "raku": "We have 4 electric kilns, 2 gas kilns, plus 1 raku kiln available too.",
+          "gas_reduction": "We have 4 electric kilns, 2 gas kilns, plus 1 raku kiln available too."
+        },
+        "state": "MT",
+        "town": "Helena"
+      },
+      "weak": true
     },
     {
       "id": "montana-clay-tour",
@@ -402,35 +507,17 @@
         "key": "montanaclaytour.com"
       },
       "lat": 46.59274,
-      "lng": -112.03628
-    },
-    {
-      "id": "montana-clay",
-      "org": "Montana Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Montana",
-      "city": null,
-      "urls": [
-        "https://montanaclay.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://montanaclay.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "lng": -112.03628,
+      "verify": {
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "key": "montanaclay.org"
-      }
+        "verdict": "no",
+        "why": "The text describes artists who make wood-fired pottery but provides no information about public access to workshops, classes, firings, memberships, or any way for outsiders to participate.",
+        "types": {},
+        "state": "MT",
+        "town": "Helena"
+      },
+      "weak": true
     },
     {
       "id": "freight-train-ceramics",
@@ -470,52 +557,19 @@
         "key": "freighttrainceramics.com"
       },
       "lat": 45.67943,
-      "lng": -111.04405
-    },
-    {
-      "id": "msu-billings",
-      "org": "MSU Billings",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "pit_barrel_saggar"
-      ],
-      "region": "Montana",
-      "city": null,
-      "urls": [
-        "https://www.msubillings.edu/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.msubillings.edu/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Various firing processes available in the Ceramics lab include: reduction stoneware, raku, soda, woodfire, saggar, and oxidation.",
-        "url": "https://www.msubillings.edu/class/art/ceramics.htm",
-        "types": [
-          "raku",
-          "soda",
-          "wood",
-          "soda",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
+      "lng": -111.04405,
+      "verify": {
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "key": "msubillings.edu"
-      }
+        "verdict": "no",
+        "why": "The page describes the artist's wood-fired ceramics work but contains no information about public access to workshops, classes, memberships, rentals, firing services, or appointments for outsiders to participate in firings.",
+        "types": {
+          "wood": "My ceramics is wood-fired and uses local Montana materials such as rhyolite and granite."
+        },
+        "state": "MT",
+        "town": "Bozeman"
+      },
+      "weak": true
     },
     {
       "id": "missoula-clay-studio",
@@ -555,7 +609,19 @@
         "key": "missoulian.com"
       },
       "lat": 46.8701,
-      "lng": -113.99527
+      "lng": -113.99527,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text describes the Clay Studio's anagama wood kiln and mentions students and residents using it, but does not explicitly state whether the public can sign up for workshops, classes, or firings.",
+        "types": {
+          "wood": "The Japanese-style anagama kiln, roughly 720 cubic feet, was built by a studio resident with bricks wrangled from the now shuttered Smurfit-Stone Container Corp. particle board plant in Frenchtown."
+        },
+        "state": "MT",
+        "town": "Missoula"
+      },
+      "weak": true
     },
     {
       "id": "jerry-baldwin-ceramics",
@@ -595,7 +661,17 @@
         "key": "jerrybaldwinceramics.com"
       },
       "lat": 47.1619,
-      "lng": -114.08508
+      "lng": -114.08508,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text provided is empty; no information about public access to firings, workshops, or memberships is available.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     }
   ],
   "_removed": [
@@ -606,6 +682,14 @@
     {
       "id": "warehome-studios",
       "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "montana-clay",
+      "why": "Second check (claude-haiku-4.5): The page is a directory/blog listing Montana ceramic organizations and art centers, but does not describe any public firings that Montana Clay itself operates. (2026-10-07)"
+    },
+    {
+      "id": "msu-billings",
+      "why": "Second check (claude-haiku-4.5): The text describes a university ceramics program for advanced students only, with no mention of public access, workshops, classes, memberships, rentals, or firing services available to outsiders. (2026-10-07)"
     }
   ]
 }

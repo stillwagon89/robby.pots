@@ -66,11 +66,15 @@
         "key": "hawaiicraftsmen.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty, so there is no information confirming that the public can participate in non-electric firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets describe a raku firing event open to ceramic artists, but the actual page text is empty, so location details cannot be verified from the page itself.",
+        "types": {
+          "raku": "participate in raku and related firing techniques at a campout"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 21.48344,
@@ -83,8 +87,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
+        "raku"
       ],
       "region": "Honolulu",
       "city": "Honolulu",
@@ -104,8 +107,7 @@
         "quote": "Raku Workshop Featuring Don Ellis & Randy Brodnax (2-1/2 Days) Dates: August 9th (1pm to 4pm), 10th (9:30am to 4pm) and 11th (9:30am to 4pm) Location: Hawaii Ceramic Supply, 1920 Colburn Street, Honolulu, HI 96819",
         "url": "https://www.hawaiiceramicsupply.com/raku-workshop",
         "types": [
-          "raku",
-          "pit_barrel_saggar"
+          "raku"
         ],
         "checked": "2026-10-07"
       },
@@ -116,12 +118,16 @@
         "key": "hawaiiceramicsupply.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly mentions a Raku Workshop open to participants at Hawaii Ceramic Supply.",
-        "types": {},
-        "street": "1920 Colburn Street"
+        "why": "The text describes a raku workshop open to the public at Hawaii Ceramic Supply where participants can sign up to learn raku firing techniques including copper matte luster, mica, naked raku, horsehair and sagar.",
+        "types": {
+          "raku": "Several raku techniques will be covered including copper matte luster with alcohol reduction, mica, naked raku, horsehair and sagar."
+        },
+        "state": "HI",
+        "town": "Honolulu",
+        "street": "1920 Colburn Street, Honolulu, HI 96819"
       },
       "weak": true,
       "lat": 21.30455,
@@ -134,7 +140,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "raku",
+        "wood"
       ],
       "region": "Hawaii",
       "city": null,
@@ -154,7 +161,8 @@
         "quote": "We offer a variety of wheel throwing and handbuilding workshops and classes both in and out of the studio, teaching all skill levels and various techniques that can be applied to your own art. In addition, we specialize in alternate forms of firings like raku and coordinate woodfiring workshop trips to Japan.",
         "url": "https://www.nendostudiohawaii.com/",
         "types": [
-          "raku"
+          "raku",
+          "wood"
         ],
         "checked": "2026-10-07"
       },
@@ -165,11 +173,16 @@
         "key": "nendostudiohawaii.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The snippets mention raku and woodfiring workshops, but the actual page text is empty, so location details and whether outsiders can participate cannot be verified.",
+        "types": {
+          "raku": "we specialize in alternate forms of firings like raku",
+          "wood": "coordinate woodfiring workshop trips to Japan"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -211,11 +224,13 @@
         "key": "sculpture.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and contains no information about ceramic firings or public participation.",
-        "types": {}
+        "why": "The page text is empty; only search snippets about Clayton Amemiya's studio are provided, which describe an anagama kiln but contain no information about public access, workshops, classes, or firing services.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 19.70737,
@@ -259,11 +274,13 @@
         "key": "unclepaulsnorthbeach.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions a soda firing field trip workshop, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -305,12 +322,14 @@
         "key": "clayatlas.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions that Mudd-Studio Ceramics offers kiln rental/firing, but it does not specify the type of firing method used.",
+        "why": "The page mentions kiln rental/firing and classes with kiln firings included, but does not specify the firing type (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction).",
         "types": {},
-        "street": "1192 Smith St"
+        "state": "HI",
+        "town": "Honolulu",
+        "street": "1192 Smith St, Honolulu, HI 96817"
       },
       "weak": true,
       "lat": 21.30455,
@@ -344,11 +363,13 @@
         "key": "lulakauai.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The provided page text is empty and contains no information regarding public firing services or opportunities.",
-        "types": {}
+        "why": "The page text is empty; no information about public access to firings, workshops, or classes is provided.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 22.05038,
@@ -363,14 +384,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Hawaii",
-      "city": null,
+      "region": "Haleiwa",
+      "city": "Haleiwa",
       "urls": [
         "https://www.haleiwaartgallery.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Haleiwa, Hawaii",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.haleiwaartgallery.com/"
@@ -392,13 +413,19 @@
         "key": "haleiwaartgallery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The text describes an artist's Raku pottery for sale but contains no information about public workshops, classes, memberships, or firing services for outsiders.",
-        "types": {}
+        "why": "The text describes Jeff Chang's raku pottery work but contains no information about public access to firings, workshops, classes, or any way for outsiders to participate in ceramic firings.",
+        "types": {
+          "raku": "Jeff Chang is a modern master of Raku pottery, a traditional Japanese style of ceramics where the vessel is fired at a low temperature and removed from the kiln while red-hot, allowing it to cool in the open air."
+        },
+        "state": "HI",
+        "town": "Haleiwa"
       },
-      "weak": true
+      "weak": true,
+      "lat": 21.5818,
+      "lng": -158.10504
     },
     {
       "id": "studio-7-fine-arts",
@@ -438,11 +465,13 @@
         "key": "studiosevenfinearts.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty and contains no information regarding public access to firing services.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets describe Studio 7 Fine Arts' anagama kiln and Clayton Amemiya's work, but the actual page text is empty, so there is no information about whether the public can participate in firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 19.70737,

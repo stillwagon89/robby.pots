@@ -29,60 +29,15 @@
         "key": "business.ligonier.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no details on public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions a Raku firing workshop open to the public, but the actual page text is empty, so I cannot verify the location details or confirm the firing type from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
-    },
-    {
-      "id": "meir-moheban",
-      "org": "Meir Moheban",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Pardes-Hanna",
-      "city": "Pardes-Hanna",
-      "urls": [
-        "https://www.meirmoheban.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pardes-Hanna, West Virginia",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.meirmoheban.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Once a year, ceramic potteries throughout the country join together and have the opportunity to place their work inside the Anagama kiln cave.",
-        "url": "https://www.meirmoheban.com/anagama-wood-firing-kiln/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "meirmoheban.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states that once a year, ceramic potteries throughout the country have the opportunity to place their work inside the Anagama kiln cave.",
-        "types": {
-          "wood": "Once a year, ceramic potteries throughout the country join together and have the opportunity to place their work inside the Anagama kiln cave."
-        }
-      }
     },
     {
       "id": "damian-grava",
@@ -112,11 +67,13 @@
         "key": "damiangrava.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions a soda kiln firing workshop, but the actual page text provided is empty, so I cannot verify the details or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -127,6 +84,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
+        "gas_reduction",
         "raku"
       ],
       "region": "Charleston",
@@ -147,6 +105,7 @@
         "quote": "We typically have an off the \"wheel\" activity for our customers to participate in, be it glazing a vase and watching it being fired in a raku kiln, throwing on a treadle wheel, making bricks, or competing in an ...",
         "url": "https://lockbridgepottery.com/about-us",
         "types": [
+          "gas_reduction",
           "raku"
         ],
         "checked": "2026-10-07"
@@ -158,64 +117,20 @@
         "key": "lockbridgepottery.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states that customers can participate in an activity where they glaze a vase and watch it being fired in a raku kiln.",
+        "verdict": "unclear",
+        "why": "The search snippets mention salt firing, gas reduction, and raku kiln activities, but the actual page text is empty, so it cannot be verified whether public participation is offered.",
         "types": {
-          "raku": "We typically have an off the \"wheel\" activity for our customers to participate in, be it glazing a vase and watching it being fired in a raku kiln, throwing on a treadle wheel, making bricks, or competing in an ..."
-        }
+          "gas_reduction": "Although Diehl fires a majority of his work in a gas reduction kiln, he feels a special fondness for his salt-fired pieces.",
+          "raku": "be it glazing a vase and watching it being fired in a raku kiln"
+        },
+        "state": "",
+        "town": ""
       },
       "lat": 38.3506,
-      "lng": -81.63328
-    },
-    {
-      "id": "jh-pottery-works",
-      "org": "JH Pottery Works",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Huntington",
-      "city": "Huntington",
-      "urls": [
-        "https://www.jhpotteryworks.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Huntington, West Virginia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.jhpotteryworks.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "At JH Pottery Works we can fire our pieces in a multitude of firing methods: electric, wood, gas, and raku!",
-        "url": "http://www.jhpotteryworks.com/6-week-classes",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "jhpotteryworks.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and contains no information about non-electric ceramic firings for the public.",
-        "types": {}
-      },
-      "weak": true,
-      "lat": 38.41925,
-      "lng": -82.44515
+      "lng": -81.63328,
+      "weak": true
     },
     {
       "id": "stifel-fine-arts-center",
@@ -255,16 +170,19 @@
         "key": "weelunk.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly mentions a raku firing as part of special events at the Stifel Fine Arts Center that invite everyone to join.",
+        "verdict": "unclear",
+        "why": "The text mentions 'a raku firing' and 'ceramic workshops' at Stifel Fine Arts Center but does not specify whether the public can sign up, book, or participate in these events.",
         "types": {
-          "raku": "Other special events include a variety of ceramic workshops at the Stifel Fine Arts Center, a raku firing, and a pottery throwdown competition."
-        }
+          "raku": "a raku firing"
+        },
+        "state": "",
+        "town": ""
       },
       "lat": 40.06396,
-      "lng": -80.72091
+      "lng": -80.72091,
+      "weak": true
     },
     {
       "id": "parkersburg-art-center",
@@ -304,11 +222,16 @@
         "key": "parkersburgartcenter.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty and contains no information about non-electric ceramic firings open to the public.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention raku pottery demonstrations and a Clay Studio with classes and memberships, but the actual page text provided is empty, so public access cannot be confirmed from the page itself.",
+        "types": {
+          "raku": "The Parkersburg Art Center showcased a unique form of pottery on Saturday afternoon called raku."
+        },
+        "state": "WV",
+        "town": "Parkersburg",
+        "street": "725 Market Street"
       },
       "weak": true,
       "lat": 39.26673,
@@ -352,11 +275,13 @@
         "key": "wtap.com"
       },
       "verify": {
-        "by": "gemma-4-31b-it",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "No page text provided.",
-        "types": {}
+        "why": "The page text is empty; only search snippets are provided, which describe a past event but contain no information about current public access to firings or the studio's location details.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 39.26673,
@@ -390,11 +315,13 @@
         "key": "thepottersguild.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and contains no information about non-electric ceramic firings or public participation.",
-        "types": {}
+        "why": "The search snippets mention wood kiln firings and a community of clay artists, but the actual page text is empty, providing no verifiable information about public access to non-electric ceramic firings, workshops, classes, or membership options at The Potters Guild.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     }
@@ -419,6 +346,14 @@
     {
       "id": "modern-wolf-pottery",
       "why": "Second check (gemini-3.5-flash-lite): The text mentions kiln firing services and kiln space rental at Modern Wolf Pottery, but does not specify any non-electric ceramic firing methods such as raku, wood, soda, salt, pit, or gas reduction. (2026-10-07)"
+    },
+    {
+      "id": "meir-moheban",
+      "why": "Second check (gemma4-local): The text only mentions that ceramic potteries throughout the country have the opportunity to place their work inside the Anagama kiln cave, but it does not state that the public can take part in the firing process. (2026-10-07)"
+    },
+    {
+      "id": "jh-pottery-works",
+      "why": "Second check (claude-haiku-4.5): The search snippets mention JH Pottery Works offers electric, wood, gas, and raku firing methods, but no actual page text from jhpotteryworks.com is provided to verify public access to these firings or confirm the business location. (2026-10-07)"
     }
   ]
 }

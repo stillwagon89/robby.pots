@@ -39,64 +39,15 @@
         "key": "dakotapotters.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly offers a monthly raku firing workshop that the public can sign up for by paying a seating fee and firing cost.",
-        "types": {
-          "raku": "Come and experience the Heat and Fire of Raku Firing."
-        }
+        "why": "The text explicitly states \"During our monthly workshop we will fire your pieces\" and \"Sign up today- $10.00 is seating fee,\" showing that the public can sign up for raku firing workshops.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
-    },
-    {
-      "id": "lisa-york-arts",
-      "org": "Lisa York Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Minot",
-      "city": "Minot",
-      "urls": [
-        "https://www.lisayorkarts.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Minot, North Dakota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.lisayorkarts.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "My next workshop will be in Minot, North Dakota in October, and stay tuned for more opportunities to work with me in the future.",
-        "url": "https://www.lisayorkarts.com/blog/soda-firing-workshop-review",
-        "types": [
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "lisayorkarts.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text mentions past soda firing workshops and invites people to reach out for future soda firing workshop opportunities.",
-        "types": {
-          "soda": "Feel free to reach out for more soda firing workshop opportunities in the future."
-        }
-      },
-      "lat": 48.23251,
-      "lng": -101.29627
     },
     {
       "id": "north-dakota-state-university",
@@ -136,66 +87,17 @@
         "key": "inforum.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states that the wood kiln firing is a group effort involving faculty, students, and other community members, and explicitly mentions that pieces were made by NDSU students and other community members.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The text describes NDSU's annual wood kiln firing with faculty, students, and community members present, but does not explicitly state whether non-enrolled outsiders can book, sign up, or join the firing.",
+        "types": {},
+        "state": "ND",
+        "town": "Fargo"
       },
       "weak": true,
       "lat": 46.87723,
       "lng": -96.78982
-    },
-    {
-      "id": "morean-center-for-clay",
-      "org": "Morean Center for Clay",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "soda"
-      ],
-      "region": "St. Pete",
-      "city": "St. Pete",
-      "urls": [
-        "https://ilovetheburg.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Pete, North Dakota",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://ilovetheburg.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Wood Firing Fundamentals with Dakota Joan Parkinson Skip to content Stories Event Submission Form August 29 August 31 Website: https://stpetecatalyst.com/events/4-day-wood-firing-fundamentals/ Wood Firing Workshop – “Groundhog” style wood/soda kiln – Cone 10 Load/Fire: August 29 – 31 Unload: September 5 Price: $160 registration, $40 material fee paid to instructor",
-        "url": "https://ilovetheburg.com/event/wood-firing-fundamentals-with-dakota-joan-parkinson/2025-08-29/",
-        "types": [
-          "wood",
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "ilovetheburg.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text advertises a wood-firing workshop at the Morean Center for Clay that outsiders can register and pay for to participate in loading, firing, and unloading a wood/soda kiln.",
-        "types": {
-          "wood": "Wood Firing Workshop – “Groundhog” style wood/soda kiln – Cone 10",
-          "soda": "Wood Firing Workshop – “Groundhog” style wood/soda kiln – Cone 10"
-        },
-        "street": "420 22nd St S"
-      }
     },
     {
       "id": "bismarck-state-college",
@@ -235,13 +137,15 @@
         "key": "bismarckstate.edu"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly invites the community to participate in the annual raku firing event, which is offered at no charge.",
+        "why": "The text explicitly states that clay is available for the public to pick up and participate in the annual community raku firing event at no charge, with specific firing dates and hours provided.",
         "types": {
           "raku": "The Bismarck State College Art program has clay available to pick up in the ceramics studio, on the second floor of Skogen Hall, for the annual community raku firing April 28–30 on the BSC campus."
         },
+        "state": "ND",
+        "town": "Bismarck",
         "street": "1500 Edwards Avenue"
       },
       "lat": 46.80833,
@@ -285,13 +189,15 @@
         "key": "roundupweb.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text states that Linda Olson will teach a free Raku and lace pottery workshop open to the public that demonstrates the Raku process.",
+        "why": "The text states the MonDak Heritage Center will host a free Raku pottery workshop open to the public where an instructor will demonstrate the Raku firing process.",
         "types": {
-          "raku": "On Saturday, May 6, Olson will be at the MonDak Heritage Center to teach a free Raku & lace pottery workshop beginning at 11 a.m."
-        }
+          "raku": "She will share the workings of an affordable, portable Raku firing setup and demonstrate the Raku process."
+        },
+        "state": "",
+        "town": ""
       },
       "lat": 48.23251,
       "lng": -101.29627
@@ -324,13 +230,15 @@
         "key": "misu.nodak.edu"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions Raku firing as a potential topic but does not specify if the public can sign up for it or if it is restricted to enrolled students.",
+        "why": "The text mentions 'Raku firing' as a possible topic but does not specify whether public outsiders can actually participate in or book such firings.",
         "types": {
-          "raku": "Topics covered may include: making plaster drop molds and a plaster wedging block; slip casting original designs, clay mixing, glaze mixing, slip decorating techniques, advanced pottery throwing techniques, hand building techniques, sculptural methods, Raku firing, kiln firing, or others as demonstr"
-        }
+          "raku": "Raku firing, kiln firing, or others as demonstrated by student interest"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     }
@@ -339,6 +247,14 @@
     {
       "id": "university-of-north-dakota",
       "why": "Second check (gemini-3.1-flash-lite): The text describes an artist-in-residence program and university facilities but does not offer firing services, workshops, or rentals to the general public. (2026-10-07)"
+    },
+    {
+      "id": "lisa-york-arts",
+      "why": "Second check (claude-haiku-4.5): page says state is PA, not ND (2026-10-07)"
+    },
+    {
+      "id": "morean-center-for-clay",
+      "why": "Second check (claude-haiku-4.5): page says state is FL, not ND (2026-10-07)"
     }
   ]
 }

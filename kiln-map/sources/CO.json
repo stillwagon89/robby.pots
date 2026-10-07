@@ -93,15 +93,17 @@
       "lat": 39.73924,
       "lng": -104.98486,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that AlSi Ceramics offers public workshops and firing experiences such as raku, saggar, and salt/soda firings.",
+        "why": "The text shows outsiders can book customizable raku workshops with multiple firing options (Traditional Raku, Saggar, Obvara) via workshops, classes, and firing services with clear pricing.",
         "types": {
-          "raku": "For our Raku workshops we offer a variety of alternative firings options including Traditional Raku, Horsehair, Saggar, Obvara, and Naked Raku.",
-          "pit_barrel_saggar": "For our Raku workshops we offer a variety of alternative firings options including Traditional Raku, Horsehair, Saggar, Obvara, and Naked Raku.",
-          "soda": "Explore a variety of firing techniques, including soda, salt, and raku, to add depth and texture to your ceramic creations."
-        }
+          "raku": "Raku is a process by which pottery is fired at a relatively low temperature and then moved while hot to a closed container with combustible materials (such as paper or sawdust) that ignite and cause a reaction creating colors and patterns in the pottery's surface.",
+          "pit_barrel_saggar": "Saggar Firing is the method of creating confined atmospheres within a container or saggar.",
+          "soda": "With access to unique firing techniques like soda, salt, and raku, you'll craft distinct pieces reflecting your style and vision."
+        },
+        "state": "CO",
+        "town": "Denver"
       }
     },
     {
@@ -144,13 +146,15 @@
       "lat": 39.73924,
       "lng": -104.98486,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text offers a rental service for a propane raku kiln to the public.",
+        "why": "The text explicitly lists a Raku Kiln available for $75/hour and states 'Our kilns are running daily. Please message 720-994-9132 to schedule a drop-off time,' indicating public access to firing services.",
         "types": {
           "raku": "Raku Kiln—Propane"
         },
+        "state": "CO",
+        "town": "Denver",
         "street": "369 S Pearl, Denver, 80209"
       }
     },
@@ -161,8 +165,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "gas_reduction"
+        "raku"
       ],
       "region": "Denver",
       "city": "Denver",
@@ -182,8 +185,7 @@
         "quote": "This private raku session is a hands-on, high-heat ceramics experience where you will participate in the full raku firing process from start to finish.",
         "url": "https://www.alexschuppceramics.com/store/Private-Raku-Firing-Experience-Up-to-8-participants-p815775088",
         "types": [
-          "raku",
-          "gas_reduction"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -196,14 +198,15 @@
       "lat": 39.73924,
       "lng": -104.98486,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site offers a bookable private raku firing workshop for small groups in Denver.",
+        "why": "The text describes a private raku firing workshop open to groups of up to 8 participants that can be booked through their website, where outsiders can participate in the full raku firing process.",
         "types": {
-          "raku": "This private raku session is a hands-on, high-heat ceramics experience where you will participate in the full raku firing process from start to finish.",
-          "gas_reduction": "Removing pieces from the kiln at red heat Reduction firing"
-        }
+          "raku": "This private raku session is a hands-on, high-heat ceramics experience where you will participate in the full raku firing process from start to finish."
+        },
+        "state": "CO",
+        "town": "Denver"
       }
     },
     {
@@ -246,13 +249,15 @@
       "lat": 39.73924,
       "lng": -104.98486,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows a public three-week workshop for Raku ceramics firing that outsiders can sign up for.",
+        "why": "The text describes a three-week raku firing workshop open to the public through ASLD, where participants can learn glazing, firing, and post-fire processing with instruction from Bob Garcia.",
         "types": {
-          "raku": "Have you always wanted to try Raku firing, but never had the chance?"
+          "raku": "This three week workshop will take you through the entire process of glazing, firing and post fire processing with ASLD raku veteran Bob Garcia."
         },
+        "state": "CO",
+        "town": "Denver",
         "street": "499 Broadway"
       }
     },
@@ -298,14 +303,16 @@
       "lat": 39.6536,
       "lng": -105.1911,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that outsiders can join firing workshops involving wood and soda kilns at the studio.",
+        "why": "The text explicitly states workshops are conducted at the studio where outsiders can register and participate in wood and soda firings.",
         "types": {
-          "wood": "My newly constructed kiln shed at my home studio houses 2 wood kilns, and 1 natural gas/wood/soda kiln.",
+          "wood": "The 7 day woodfire workshop is intended to help participants gain an understanding of the variables when firing a kiln with wood.",
           "soda": "My newly constructed kiln shed at my home studio houses 2 wood kilns, and 1 natural gas/wood/soda kiln."
-        }
+        },
+        "state": "CO",
+        "town": "Morrison"
       }
     },
     {
@@ -348,13 +355,15 @@
       "lat": 39.74014,
       "lng": -104.87334,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text invites the public to sign up for a Raku pottery workshop that includes hands-on participation in the firing process.",
+        "why": "The text describes a hands-on Raku pottery workshop open to all curious creatives with online sign-ups and walk-up spots available, where participants take part in the Raku firing process.",
         "types": {
-          "raku": "This all-ages workshop (kids under 8 require adult help) introduces participants to Raku, a Japanese pottery firing technique where pieces are rapidly heated and cooled, often resulting in unique, unpredictable surface effects like crackling and metallic sheens."
+          "raku": "introduces participants to Raku, a Japanese pottery firing technique where pieces are rapidly heated and cooled"
         },
+        "state": "CO",
+        "town": "Aurora",
         "street": "2501 Dallas Street"
       }
     },
@@ -398,14 +407,15 @@
       "lat": 40.58718,
       "lng": -105.07701,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly mentions a Raku Workshop offered by Flingin Pots, which is open to the public as part of their class offerings.",
-        "types": {
-          "raku": "Raku Workshop: Inspired by traditional Japanese raku"
-        }
-      }
+        "verdict": "unclear",
+        "why": "Search snippets mention a Raku Workshop but the actual page text is empty, so public access cannot be verified from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "joseph-miranda-smokestack",
@@ -447,13 +457,16 @@
       "lat": 40.58718,
       "lng": -105.07701,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly states that the soda fired kiln at Smokestack Pottery is open to the public to participate and put work in the kiln.",
+        "why": "The text explicitly states that soda firing at Smokestack Pottery is \"open to the public to participate and put work in the kiln\" for a fee, allowing outsiders to join.",
         "types": {
           "soda": "I regularly fire the soda fired kiln at Smokestack Pottery and it is open to the public to participate and put work in the kiln."
-        }
+        },
+        "state": "CO",
+        "town": "Fort Collins",
+        "street": "168 Yale Avenue, Fort Collins, CO"
       }
     },
     {
@@ -486,11 +499,13 @@
       "lat": 40.39776,
       "lng": -105.07498,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no details about public firings.",
-        "types": {}
+        "verdict": "yes",
+        "why": "The text describes raku firing workshops in Loveland, CO open to the public via workshop registration.",
+        "types": {},
+        "state": "CO",
+        "town": "Loveland"
       },
       "weak": true
     },
@@ -501,6 +516,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
+        "salt",
         "gas_reduction"
       ],
       "region": "Boulder",
@@ -521,6 +537,7 @@
         "quote": "Classes for intermediate and advanced students may require that specific skills be demonstrated at the first class to participate.",
         "url": "https://boulderpottersguild.org/classes/",
         "types": [
+          "salt",
           "gas_reduction"
         ],
         "checked": "2026-10-06"
@@ -534,63 +551,17 @@
       "lat": 40.01499,
       "lng": -105.27054,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The guild offers public classes, such as 'Comprehensive Ceramics' and 'Atmospheric Alchemy', which include non-electric firing methods like reduction and salt firing.",
+        "why": "The text shows that non-members of the larger Boulder County community can join classes with public sign-up, including at least one class (Atmospheric Alchemy) that fires work in a salt kiln at Cone 10, and another (Comprehensive Ceramics) that uses reduction firing at Cone 10.",
         "types": {
-          "gas_reduction": "Comprehensive Ceramics (Cone 10 reduction firing) ( Wednesdays 6:30-9:30 PM)"
+          "salt": "This six-week advanced intermediate course explores the dynamic synergy between form and the salt kiln.",
+          "gas_reduction": "Work will be fired in reduction at Cone 10 (2380 F…hot!!!)"
         },
+        "state": "CO",
+        "town": "Boulder",
         "street": "3185 Sterling Cir, Boulder, CO 80301"
-      }
-    },
-    {
-      "id": "springs-pottery-studio",
-      "org": "Springs Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Colorado Springs",
-      "city": "Colorado Springs",
-      "urls": [
-        "https://colospringspotterystudio.com/"
-      ],
-      "notes": "Classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Colorado Springs, Colorado",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://colospringspotterystudio.com/"
-      },
-      "access": {
-        "how": "Classes",
-        "note": "Classes",
-        "quote": "At Springs Pottery Studio, we host seasonal raku firing events where you can glaze and fire your own raku pieces.",
-        "url": "https://colospringspotterystudio.com/raku-firing-colorado-springs",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "colospringspotterystudio.com"
-      },
-      "lat": 38.83396,
-      "lng": -104.82535,
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly states they host seasonal raku firing events and plan to offer classes and memberships once the studio opens.",
-        "types": {
-          "raku": "At Springs Pottery Studio, we host seasonal raku firing events where you can glaze and fire your own raku pieces."
-        }
       }
     },
     {
@@ -633,13 +604,15 @@
       "lat": 38.83396,
       "lng": -104.82535,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The center offers a Raku firing opportunity that is open to those who take the required Intro to Raku class and pre-register.",
+        "why": "The text explicitly states raku firing is available monthly during select Pottery Open Studio sessions, with pre-registration required and a stated cost per kiln load, making it accessible to public participants who take the Intro to Raku class.",
         "types": {
-          "raku": "NEW! RAKU FIRING"
+          "raku": "Every month during select Pottery Open Studio sessions, Kris will have the raku equipment out and available for students to use."
         },
+        "state": "CO",
+        "town": "Colorado Springs",
         "street": "427 E Colorado Ave"
       }
     },
@@ -683,14 +656,17 @@
       "lat": 38.83396,
       "lng": -104.82535,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text advertises a pit firing workshop with Max Early at the Bemis School of Art, which outsiders can join.",
+        "verdict": "unclear",
+        "why": "The page describes a pit firing workshop with Max Early at the Fine Arts Center's Bemis School of Art, but does not explicitly state whether the public can sign up or if it is restricted to enrolled students only.",
         "types": {
           "pit_barrel_saggar": "Experience a pit firing workshop with Laguna Pueblo potter and poet, Max Early."
-        }
-      }
+        },
+        "state": "CO",
+        "town": ""
+      },
+      "weak": true
     },
     {
       "id": "carbondale-clay-center",
@@ -732,13 +708,15 @@
       "lat": 39.40056,
       "lng": -107.21124,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly lists a 'RAKU WORKSHOP' that is open for registration at a cost of $75 per person.",
+        "why": "The text explicitly advertises a RAKU WORKSHOP open to the public for $75/person, with registration available on a first-come, first-served basis upon payment of tuition.",
         "types": {
           "raku": "RAKU WORKSHOP"
         },
+        "state": "CO",
+        "town": "Carbondale",
         "street": "135 Main Street"
       }
     }
@@ -759,6 +737,10 @@
     {
       "id": "fort-collins-pottery",
       "why": "Second check (gemini-3.5-flash-lite): The text only shows upcoming or planned classes and workshops for a studio that opens in 2026, without current public booking or sign-up options for specific non-electric firings. (2026-10-07)"
+    },
+    {
+      "id": "springs-pottery-studio",
+      "why": "Second check (claude-haiku-4.5): The studio is not yet open (opening 2026) and offers only classes and memberships with no confirmed public access to non-electric firings currently available. (2026-10-07)"
     }
   ]
 }

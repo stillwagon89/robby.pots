@@ -104,13 +104,13 @@
         "key": "artonthetownwi.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly invites the public to a Raku Firing Event and offers Raku pottery classes.",
-        "types": {
-          "raku": "Stop down at Art on the Town WI: The Studio for a one-of-a-kind Raku Firing Event and experience the ancient Japanese art of Raku firsthand!"
-        }
+        "verdict": "unclear",
+        "why": "The search snippets mention Raku pottery classes and firing events, but the actual page text is empty, so it cannot be verified whether outsiders can actually sign up or participate.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -121,8 +121,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "salt"
+        "raku"
       ],
       "region": "Dodgeville",
       "city": "Dodgeville",
@@ -142,8 +141,7 @@
         "quote": "July 25, 2026 – Adamah Art Studios: One-Day Workshop: Raku Firing – Dodgeville, WI",
         "url": "https://empowerdriftless.com/unicdn/july-25-2026-adamah-art-studios-one-day-workshop-raku-firing-dodgeville-wi/",
         "types": [
-          "raku",
-          "salt"
+          "raku"
         ],
         "checked": "2026-10-07"
       },
@@ -154,14 +152,15 @@
         "key": "empowerdriftless.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site offers workshops for Raku and salt firing that are open for the public to join and participate in the firing process.",
+        "why": "The text describes two public workshops at Adamah Art Studios where outsiders can participate in raku and salt firings: a one-day raku workshop on July 25, 2026, and a five-day salt fire workshop on July 20-24, 2026, both open to beginners and experienced makers.",
         "types": {
-          "raku": "Raku firing is a fast, dramatic process that produces unique textures, crackles, and colors you can’t achieve in traditional kilns.",
-          "salt": "July 20 – 24, 2026 – Adamah Art Studios: Salt Fire Workshop – Dodgeville, WI"
-        }
+          "raku": "Raku firing is a fast, dramatic process that produces unique textures, crackles, and colors you can't achieve in traditional kilns."
+        },
+        "state": "WI",
+        "town": "Dodgeville"
       },
       "lat": 42.96001,
       "lng": -90.13045
@@ -206,14 +205,16 @@
         "key": "events.nwtc.edu"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that the public can register for classes such as Raku Firing and Raku Workshop - Saggar.",
+        "why": "The text shows multiple raku firing classes and workshops open for registration at the Artisan Center, including C608 Raku Firing and C309 Raku Workshop - Saggar, where students can sign up to participate in raku firing processes.",
         "types": {
           "raku": "During this class, students will construct their wares from a particular Raku clay and fire them to achieve one-of-a-kind, distinctive surfaces unique to Raku.",
           "pit_barrel_saggar": "This two session workshop will introduce you to saggar firing techniques."
-        }
+        },
+        "state": "",
+        "town": ""
       },
       "lat": 44.51264,
       "lng": -88.01258
@@ -246,11 +247,13 @@
         "key": "mineralpoint.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly offers a one-day workshop for Raku firing that is open for registration.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions a raku firing workshop, but the actual page text is empty, so I cannot verify the details or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 42.86011,
@@ -263,9 +266,9 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
+        "raku",
         "pit_barrel_saggar",
-        "raku"
+        "wood"
       ],
       "region": "Dodgeville",
       "city": "Dodgeville",
@@ -285,9 +288,9 @@
         "quote": "Join Joe at Windy Ridge Pottery in the Driftless Area for a wood firing workshop.",
         "url": "http://www.windyridgepottery.com/windy-ridge-workshops/",
         "types": [
-          "wood",
+          "raku",
           "pit_barrel_saggar",
-          "raku"
+          "wood"
         ],
         "checked": "2026-10-07"
       },
@@ -298,19 +301,17 @@
         "key": "windyridgepottery.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly invites the public to join wood, pit, and barrel firing workshops at Windy Ridge Pottery.",
-        "types": {
-          "wood": "Join Joe at Windy Ridge Pottery in the Driftless Area for a wood firing workshop.",
-          "pit_barrel_saggar": "In this firing workshop, participants will focus on 4 low fire techniques including Raku, Barrell, Saggar, and Pit firing.",
-          "raku": "In this firing workshop, participants will focus on 4 low fire techniques including Raku, Barrell, Saggar, and Pit firing."
-        },
-        "street": "4681 County Road ZZ"
+        "verdict": "unclear",
+        "why": "The search snippets mention Windy Ridge Pottery offering workshops in wood firing and pit/barrel/saggar firing, but the actual page text is empty, so the location details and firing types cannot be verified from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "lat": 42.96001,
-      "lng": -90.13045
+      "lng": -90.13045,
+      "weak": true
     },
     {
       "id": "potters-without-kilns",
@@ -371,8 +372,6 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "salt",
-        "wood",
         "raku",
         "pit_barrel_saggar"
       ],
@@ -394,8 +393,6 @@
         "quote": "Raku, Barrel, Saggar and Pit Firing Workshop 26 May - 31 May Raku, Barrel, Saggar and Pit Firing Workshop Dodgeville, Wisconsin",
         "url": "https://www.ceramicreview.com/events/raku-barrel-saggar-and-pit-firing-workshop/",
         "types": [
-          "salt",
-          "wood",
           "raku",
           "pit_barrel_saggar"
         ],
@@ -408,16 +405,16 @@
         "key": "ceramicreview.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text lists workshops for salt, anagama, raku, barrel, saggar, and pit firing that participants can join.",
+        "why": "The page describes two workshops open to participants: a Salt Fire Workshop and a Raku, Barrel, Saggar and Pit Firing Workshop, both accepting public enrollment in Dodgeville, Wisconsin.",
         "types": {
-          "salt": "Salt Fire Workshop",
-          "wood": "Learn in a group setting as we glaze, load, and fire the catenary chamber of our anagama kiln.",
           "raku": "In this firing workshop, participants will focus on 4 low fire techniques including Raku, Barrell, Saggar, and Pit firing.",
           "pit_barrel_saggar": "In this firing workshop, participants will focus on 4 low fire techniques including Raku, Barrell, Saggar, and Pit firing."
-        }
+        },
+        "state": "WI",
+        "town": "Dodgeville"
       },
       "lat": 42.96001,
       "lng": -90.13045
@@ -460,16 +457,19 @@
         "key": "christiansonpottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text lists a Women's Wood/Salt Firing workshop that the public can sign up for.",
+        "verdict": "unclear",
+        "why": "The text mentions a Women's Wood/Salt Firing workshop but does not explicitly state whether the public can sign up or if it is restricted to enrolled students or existing members.",
         "types": {
-          "salt": "September 22 – 28, 2026 Women’s Wood/Salt Firing"
-        }
+          "salt": "Women's Wood/Salt Firing"
+        },
+        "state": "WI",
+        "town": "Dodgeville"
       },
       "lat": 42.96001,
-      "lng": -90.13045
+      "lng": -90.13045,
+      "weak": true
     },
     {
       "id": "bethel-horizons-foundation-inc",
@@ -509,13 +509,15 @@
         "key": "zeffy.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly invites the public to join a one-day pit and barrel firing workshop hosted by the foundation.",
+        "why": "The search snippet shows a public one-day workshop for pit & barrel firing that people can join by buying a ticket, hosted at a specific address in Wisconsin.",
         "types": {
           "pit_barrel_saggar": "One-Day Workshop: Pit & Barrel Firing"
         },
+        "state": "WI",
+        "town": "Dodgeville",
         "street": "4681 Co Rd ZZ"
       },
       "lat": 42.96001,
@@ -550,11 +552,13 @@
         "key": "schoolandcollegelistings.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and provides no information about public ceramic firings.",
-        "types": {}
+        "why": "No page text provided to verify public access to non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -586,7 +590,8 @@
         "quote": "The Kiln Shed is a clay studio located in Madison, WI that offers; private studios, membership, classes, wood-firing, gas-firing, and ceramics/pottery for sale!",
         "url": "https://www.thekilnshed.studio/",
         "types": [
-          "wood"
+          "wood",
+          "gas_reduction"
         ],
         "checked": "2026-10-07"
       },
@@ -597,11 +602,16 @@
         "key": "thekilnshed.studio"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The snippets mention wood-firing and gas-firing, but the provided page text is empty, so it cannot be confirmed if the public can sign up for these specific firings.",
-        "types": {}
+        "why": "The search snippets mention wood-firing and gas-firing but provide no page text confirming public access to non-electric firings via workshops, classes, membership, or other means.",
+        "types": {
+          "wood": "wood-firing",
+          "gas_reduction": "gas-firing"
+        },
+        "state": "WI",
+        "town": "Madison"
       },
       "weak": true,
       "lat": 43.07469,
@@ -635,11 +645,15 @@
         "key": "grantruegnitz.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public participation in ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The snippets mention wood and gas firings and workshops available, but the actual page text is empty, so it cannot be verified whether public outsiders can actually participate in or book these firings.",
+        "types": {
+          "wood": "wood firing process that potter Grant Ruegnitz uses"
+        },
+        "state": "WI",
+        "town": ""
       },
       "weak": true
     },
@@ -671,11 +685,15 @@
         "key": "wisconsinarthub.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The provided text describes what Raku is but does not state that the public can book, sign up for, or participate in a firing at this location.",
-        "types": {}
+        "why": "The search snippets describe raku firing but provide no information about whether the public can participate, book a workshop, or access this firing.",
+        "types": {
+          "raku": "Raku firing is a pottery technique where glazed ceramics are removed from a hot kiln and immediately placed into a smoldering container of combustible material, like sawdust or newspaper."
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -717,13 +735,13 @@
         "key": "eckelspottery.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly mentions Raku firing workshops and primitive firing workshops available to the public.",
-        "types": {
-          "raku": "Raku firing workshops, primitive firing workshops, and multi-week classes."
-        }
+        "verdict": "unclear",
+        "why": "The search snippet mentions raku and primitive firing workshops, but the actual page text provided is empty, so I cannot verify the details or confirm public access.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -765,11 +783,14 @@
         "key": "trpottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and contains no information about public firing participation or services.",
-        "types": {}
+        "why": "The text describes a sales gallery displaying wood-fired and electric-fired pots, but contains no information about public participation in firings, workshops, classes, or firing services.",
+        "types": {},
+        "state": "WI",
+        "town": "Fish Creek",
+        "street": "8126 Kita Road"
       },
       "weak": true,
       "lat": 45.12777,
@@ -813,13 +834,15 @@
         "key": "ramart.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text invites the public to buy tickets for a Raku Session where participants take part in an outdoor Raku firing experience.",
+        "why": "The text shows public registration for a Raku firing workshop at RAM Wustum where non-members can participate by purchasing tickets and registering online or by phone.",
         "types": {
           "raku": "Learn the art of Raku firing, a traditional Japanese ceramics technique known for its dramatic firing process and unique, unpredictable finishes."
-        }
+        },
+        "state": "WI",
+        "town": "Racine"
       },
       "lat": 42.73138,
       "lng": -87.78348
@@ -862,13 +885,15 @@
         "key": "clayfestwi.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly states that members of the public can participate in live Raku firings by purchasing a pre-made vessel and arriving before the scheduled time.",
+        "why": "The text explicitly states that public participants can join live Raku firings by arriving 60 minutes before scheduled times with no pre-signup required, and can purchase a pre-made vessel and participate in glazing and decorating techniques.",
         "types": {
-          "raku": "For a hands-on art experience, participate in a live Raku firing!"
-        }
+          "raku": "Witness the ancient art of Raku firing!"
+        },
+        "state": "WI",
+        "town": ""
       },
       "weak": true
     }

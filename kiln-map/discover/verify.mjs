@@ -5,7 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { TYPE_RE } from "./gate.mjs";
-import { stateName } from "../sources.mjs";
+import { stateName, STATES } from "../sources.mjs";
 
 const KM = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const ROOT = path.resolve(KM, "..");
@@ -41,7 +41,42 @@ const POOL = (process.env.VERIFY_MODELS || "gemma-4-31b-it,gemini-3.1-flash-lite
 const dead = new Set();
 const FORMAT = `Return ONLY one JSON object, no markdown: {"verdict":"yes|unclear|no","why":"one sentence","town_on_page":"","state_on_page":"","street_address":"","types":[{"type":"raku|wood|soda|salt|pit_barrel_saggar|gas_reduction","quote":"word-for-word sentence"}]}`;
 let rr = 0;
+async function askLocal(text) {
+  const r = await fetch("http://localhost:11434/api/chat", {
+    method: "POST",
+    body: JSON.stringify({ model: "gemma4:latest", stream: false, format: "json", think: false, options: { temperature: 0, num_ctx: 8192 }, messages: [{ role: "user", content: `${PROMPT}\n\n${FORMAT}\n\n${text.slice(0, 9000)}` }] }),
+    signal: AbortSignal.timeout(300000),
+  });
+  const j = JSON.parse((await r.json()).message.content);
+  j._model = "gemma4-local";
+  return j;
+}
+let spent = { inTok: 0, outTok: 0 };
+async function askClaude(text) {
+  for (let a = 0; a < 8; a++) {
+    let r;
+    try {
+      r = await fetch("https://api.anthropic.com/v1/messages", {
+        method: "POST",
+        headers: { "x-api-key": env.ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json" },
+        body: JSON.stringify({ model: "claude-haiku-4-5-20251001", max_tokens: 900, temperature: 0, system: PROMPT, messages: [{ role: "user", content: `${FORMAT}\n\n${text}` }] }),
+        signal: AbortSignal.timeout(120000),
+      });
+    } catch { await new Promise((res) => setTimeout(res, 3000)); continue; }
+    if (r.status === 429 || r.status >= 500) { await new Promise((res) => setTimeout(res, 5000 * (a + 1))); continue; }
+    const d = await r.json();
+    if (d.error) throw new Error(d.error.message);
+    spent.inTok += d.usage?.input_tokens || 0; spent.outTok += d.usage?.output_tokens || 0;
+    if (spent.inTok * 1 + spent.outTok * 5 > 8e6) throw new Error("cost cap reached (~$8)");
+    const m = (d.content?.[0]?.text || "").match(/\{[\s\S]*\}/);
+    if (!m) continue;
+    const j = JSON.parse(m[0]); j._model = "claude-haiku-4.5"; return j;
+  }
+  throw new Error("claude: no usable answer");
+}
 async function ask(text) {
+  if (process.env.VERIFY_PROVIDER === "claude") return askClaude(text);
+  if (process.env.VERIFY_LOCAL) return askLocal(text);
   for (let a = 0; a < 12; a++) {
     const live = POOL.filter((m) => !dead.has(m));
     if (!live.length) throw new Error("all models out of quota");
@@ -102,14 +137,15 @@ const worker = async () => {
       j.v = { model: v._model, verdict: v.verdict, why: v.why, town: v.town_on_page, state: v.state_on_page, street: v.street_address, types: good };
     } catch (e) { j.v = { error: String(e.message).slice(0, 120) }; }
     log(`verify ${++done}/${jobs.length} ${j.ST} ${j.s.id}: ${j.v.verdict || "ERR " + j.v.error} [${Object.keys(j.v.types || {}).join(",")}]${j.v.verdict === "no" ? " — " + j.v.why : ""}`);
-    await new Promise((res) => setTimeout(res, 800));
+    if (process.env.VERIFY_PROVIDER !== "claude") await new Promise((res) => setTimeout(res, 800));
   }
 };
-await Promise.all(Array.from({ length: 2 }, worker));
+await Promise.all(Array.from({ length: +process.env.VERIFY_WORKERS || 2 }, worker));
 
 if (APPLY) {
   const TODAY = new Date().toISOString().slice(0, 10);
   const docs = new Map();
+  const rehome = [];
   for (const j of jobs) {
     if (j.v.error) continue;
     docs.set(j.f, j.doc);
@@ -119,6 +155,8 @@ if (APPLY) {
     if ((j.v.verdict === "no" && !/empty|no (readable )?(page )?text|no information|not provided|no content/i.test(j.v.why)) || !stOk) {
       if (!stOk && j.v.verdict !== "no") j.v.why = `page says state is ${j.v.state}, not ${j.ST}`;
       (j.doc._removed ||= []).push({ id: j.s.id, why: `Second check (${j.v.model}): ${j.v.why} (${TODAY})` });
+      const dstCode = (j.v.state || "").trim().toUpperCase();
+      if (!stOk && j.v.verdict !== "no" && STATES[dstCode] && dstCode !== j.ST) rehome.push({ to: dstCode, s: { ...j.s, verify: { by: j.v.model || MODEL, date: TODAY, verdict: j.v.verdict, why: j.v.why, types: j.v.types, state: dstCode, town: j.v.town || "" } } });
       j.doc.sources = j.doc.sources.filter((x) => x !== j.s);
     } else {
       if (types.length) { j.s.firing_types_guess = types; if (j.s.access) j.s.access.types = types; }
@@ -140,6 +178,19 @@ if (APPLY) {
     cur._removed = [...(cur._removed || []), ...(mine._removed || []).filter((r) => !(cur._removed || []).some((c) => c.id === r.id))];
     fs.writeFileSync(fp, JSON.stringify(cur, null, 2) + "\n");
   }
+  // Re-file places whose own pages say they are in another state (state-level pin until the town is geocoded).
+  for (const m of rehome) {
+    const fp = path.join(KM, "sources", `${m.to}.json`);
+    const dst = fs.existsSync(fp) ? JSON.parse(fs.readFileSync(fp, "utf8")) : { _note: `${m.to} firing sources.`, sources: [] };
+    const h = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } };
+    if (dst.sources.some((x) => h(x.contact?.website) === h(m.s.contact?.website))) continue;
+    let id = m.s.id; if (dst.sources.some((x) => x.id === id)) id = `${id}-${m.to.toLowerCase()}`;
+    const town = m.s.verify.town;
+    Object.assign(m.s, { id, region: town || stateName(m.to), city: town || null, geocode: town ? `${town}, ${stateName(m.to)}` : null, location_note: town ? "Shown at the town." : "Location not confirmed; shown at the state.", weak: true });
+    delete m.s.lat; delete m.s.lng;
+    dst.sources.push(m.s);
+    fs.writeFileSync(fp, JSON.stringify(dst, null, 2) + "\n");
+  }
   fs.writeFileSync(path.join(KM, "research/cache/verify-last.json"), JSON.stringify(jobs.map((j) => ({ st: j.ST, id: j.s.id, ...j.v })), null, 1));
 }
-log("verify: done");
+log(`verify: done (Claude tokens in/out: ${spent.inTok}/${spent.outTok} ≈ $${((spent.inTok * 1 + spent.outTok * 5) / 1e6).toFixed(2)})`);

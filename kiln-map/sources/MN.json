@@ -91,11 +91,13 @@
         "key": "warroadriverplace.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, providing no information about firings or public access.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet describes a raku firing workshop open to guests, but the actual page text is empty, so I cannot verify the details or extract location information from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 48.90527,
@@ -139,11 +141,15 @@
         "key": "buffaloartguild.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty, so it does not contain information confirming that the public can participate in non-electric firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention a Horsehair Raku Pottery Workshop but provide no page text confirming public access, pricing, booking details, or the guild's location.",
+        "types": {
+          "raku": "you will learn the multistep process of creating beautiful horsehair Raku fired pottery"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -155,16 +161,17 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "soda"
+        "soda",
+        "gas_reduction"
       ],
-      "region": "Minnesota",
-      "city": null,
+      "region": "Minnetonka",
+      "city": "Minnetonka",
       "urls": [
         "https://minnetonkaarts.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Minnetonka, Minnesota",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://minnetonkaarts.org/"
@@ -176,7 +183,8 @@
         "url": "https://minnetonkaarts.org/classes/fall/",
         "types": [
           "raku",
-          "soda"
+          "soda",
+          "gas_reduction"
         ],
         "checked": "2026-10-07"
       },
@@ -187,16 +195,21 @@
         "key": "minnetonkaarts.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that the public can enroll in ceramics classes where raku and soda firings are explored.",
+        "why": "The page describes classes and workshops for all skill levels where participants can have their work fired in raku, soda, and gas-reduction kilns, with firing fees purchased as needed.",
         "types": {
-          "raku": "High‑fire, raku, and soda firing will be explored.",
-          "soda": "High‑fire, raku, and soda firing will be explored."
-        }
+          "raku": "Raku firing is a quick-fire process (same day).",
+          "soda": "We fire our Cone 10 Soda Kiln about every five weeks.",
+          "gas_reduction": "Students have the option to finish their work in a high fire reduction kiln or soda kiln."
+        },
+        "state": "MN",
+        "town": "Minnetonka"
       },
-      "weak": true
+      "weak": true,
+      "lat": 44.94051,
+      "lng": -93.46389
     },
     {
       "id": "bending-pines-pottery",
@@ -236,11 +249,13 @@
         "key": "bendingpinespottery.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The provided page text contains no information regarding public access, workshops, or firing services.",
-        "types": {}
+        "why": "The page text is empty; only search snippets are provided, which describe a shop selling finished horsehair raku pieces but contain no information about public access to firings, workshops, or classes.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 46.52052,
@@ -284,13 +299,15 @@
         "key": "northhouse.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text offers a public folk school course titled Raku Pottery Experience.",
+        "why": "The page text explicitly describes a 'Raku Pottery Experience' course at North House Folk School where participants can experience the raku firing process, welcoming beginners with no prior experience needed.",
         "types": {
-          "raku": "Raku Pottery Experience, North House Folk School Course"
-        }
+          "raku": "Experience the thrill, alchemy and magic of the ancient pottery process called \"raku.\""
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -334,14 +351,16 @@
         "key": "the-workshop-mpls.square.site"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text offers public kiln firing services including soda firings and gas kiln firings by making a drop-off appointment.",
+        "why": "The text explicitly states 'Fire your pottery with us! Soda firings, Gas kiln firings' and mentions making 'Firing services drop off' appointments, indicating public access to non-electric firings.",
         "types": {
-          "soda": "Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns!",
-          "gas_reduction": "Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns!"
-        }
+          "soda": "Fire your pottery with us! Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns!",
+          "gas_reduction": "Fire your pottery with us! Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns!"
+        },
+        "state": "",
+        "town": ""
       },
       "lat": 44.9773,
       "lng": -93.26547
@@ -354,8 +373,7 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "soda",
-        "gas_reduction"
+        "soda"
       ],
       "region": "Minneapolis",
       "city": "Minneapolis",
@@ -376,8 +394,7 @@
         "url": "https://nemaa.org/partners/the-workshop-mpls/",
         "types": [
           "raku",
-          "soda",
-          "gas_reduction"
+          "soda"
         ],
         "checked": "2026-10-07"
       },
@@ -388,15 +405,16 @@
         "key": "nemaa.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly states they welcome the community to their raku, gas, and soda firings.",
+        "why": "The text states they have raku kilns and a soda kiln, offer firing services, and welcome the community to their firings.",
         "types": {
           "raku": "We have five electric kilns, ^10 gas kiln, raku kilns and soda kiln.",
-          "soda": "We have five electric kilns, ^10 gas kiln, raku kilns and soda kiln.",
-          "gas_reduction": "We have five electric kilns, ^10 gas kiln, raku kilns and soda kiln."
-        }
+          "soda": "We have five electric kilns, ^10 gas kiln, raku kilns and soda kiln."
+        },
+        "state": "MN",
+        "town": "Minneapolis"
       },
       "lat": 44.9773,
       "lng": -93.26547
@@ -429,11 +447,13 @@
         "key": "logan-chyla.squarespace.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The provided page text is empty and contains no information regarding public firing services or methods.",
-        "types": {}
+        "why": "The page text is empty; no information about public access to firings is provided.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 44.9773,
@@ -477,11 +497,15 @@
         "key": "exploreminnesota.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided text contains no information about public access to non-electric firing services, workshops, or rentals at Featherstone Pottery.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention Featherstone Pottery has a wood-fired kiln and welcomes people to learn about the wood-firing process at an annual sale, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "types": {
+          "wood": "they recruited their father, Jerry, a bricklayer, to build the four-chambered 30 foot wood-fired climbing kiln"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 44.56247,

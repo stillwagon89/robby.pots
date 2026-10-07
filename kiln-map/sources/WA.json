@@ -118,11 +118,14 @@
       "lat": 47.60383,
       "lng": -122.33006,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions a raku firing workshop at Seattle Pottery Supply with an address, but the page text provided is empty, so I cannot verify whether public participation is offered.",
+        "types": {},
+        "state": "WA",
+        "town": "Seattle",
+        "street": "35 S Hanford St"
       },
       "weak": true
     },
@@ -166,13 +169,15 @@
       "lat": 47.60383,
       "lng": -122.33006,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The studio offers public workshops and firing services for both soda and raku firing methods that individuals can register for or purchase shares in.",
+        "why": "The text shows outsiders can register and participate in soda firing workshops by purchasing shares and joining Clay Q&A, and can register for raku firing workshops, with scheduled appointments and registration available to the public.",
         "types": {
-          "raku": "Raku Workshop Participation:"
+          "raku": "Raku Workshop Participation"
         },
+        "state": "WA",
+        "town": "Seattle",
         "street": "2410 SW 106th Street"
       }
     },
@@ -183,9 +188,9 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "soda",
+        "gas_reduction",
         "raku",
-        "gas_reduction"
+        "soda"
       ],
       "region": "West Seattle",
       "city": "West Seattle",
@@ -205,9 +210,9 @@
         "quote": "Soda Kiln Firings & RAKU",
         "url": "https://raincityclay.com",
         "types": [
-          "soda",
+          "gas_reduction",
           "raku",
-          "gas_reduction"
+          "soda"
         ],
         "checked": "2026-10-06"
       },
@@ -220,15 +225,17 @@
       "lat": 47.57093,
       "lng": -122.38652,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that the studio offers soda kiln firings, raku, and gas kiln certification and rental for local potters.",
+        "why": "The text explicitly states Rain City Clay offers 'firing services for local potters' and describes a certification process for public access to gas kiln firings via reservation, plus mentions 'Soda Kiln Firings & RAKU' at sister studio Rat City Studios.",
         "types": {
-          "soda": "Soda Kiln Firings & RAKU",
+          "gas_reduction": "Certification For Firing Gas Kilns",
           "raku": "Soda Kiln Firings & RAKU",
-          "gas_reduction": "Certification - Gas Kiln Firing"
-        }
+          "soda": "Soda Kiln Firings & RAKU"
+        },
+        "state": "WA",
+        "town": "West Seattle"
       }
     },
     {
@@ -238,7 +245,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "soda"
+        "soda",
+        "raku"
       ],
       "region": "Snohomish",
       "city": "Snohomish",
@@ -258,7 +266,8 @@
         "quote": "Member event! Raku firing at Burkhead studio in Snohomish",
         "url": "https://www.washingtonclayarts.org/education",
         "types": [
-          "soda"
+          "soda",
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -271,13 +280,16 @@
       "lat": 48.00747,
       "lng": -121.73049,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows members can sign up for a soda firing through a workshop lottery.",
+        "why": "The text shows members can sign up for soda firing via lottery at Kirkland Art Center and raku firing at Burkhead studio in Snohomish through workshops and member events.",
         "types": {
-          "soda": "WCA board member Betsy Smith has organized an opportunity for us to offer a ^10 Soda Firing at Kirkland Art Center the weekend of September 6th."
-        }
+          "soda": "WCA board member Betsy Smith has organized an opportunity for us to offer a ^10 Soda Firing at Kirkland Art Center the weekend of September 6th.",
+          "raku": "Member event! Raku firing at Burkhead studio in Snohomish"
+        },
+        "state": "WA",
+        "town": ""
       }
     },
     {
@@ -287,8 +299,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "soda",
-        "gas_reduction"
+        "soda"
       ],
       "region": "Bellingham",
       "city": "Bellingham",
@@ -308,8 +319,7 @@
         "quote": "Concurrently to this workshop, an In-Person workshop that includes loading and firing a soda kiln is available for those able to travel to Bellingham WA.",
         "url": "https://burnishclaystudio.com/workshops",
         "types": [
-          "soda",
-          "gas_reduction"
+          "soda"
         ],
         "checked": "2026-10-06"
       },
@@ -322,15 +332,16 @@
       "lat": 48.7544,
       "lng": -122.47884,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The studio offers an in-person workshop that includes loading and firing a soda kiln, which is open to those who can travel to the location.",
+        "why": "The studio offers in-person soda firing workshops open to the public, including loading and firing a soda kiln for participants who travel to Bellingham.",
         "types": {
-          "soda": "Concurrently to this workshop, an In-Person workshop that includes loading and firing a soda kiln is available for those able to travel to Bellingham WA.",
-          "gas_reduction": "We offer firing services for home studio potters as a routine service and are happy to help with bisque firing to cone 06, electric glaze firing to cone 5 or 6, and reduction glaze firing to cone 10."
+          "soda": "an In-Person workshop that includes loading and firing a soda kiln is available for those able to travel to Bellingham WA"
         },
-        "street": "2006 N State St"
+        "state": "WA",
+        "town": "Bellingham",
+        "street": "2006 N State St, Bellingham, WA, 98225"
       }
     },
     {
@@ -373,13 +384,15 @@
       "lat": 47.2455,
       "lng": -122.43833,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text offers public Raku workshops that outsiders can sign up for, allowing participants to take part in an outdoor raku firing process.",
+        "why": "The text describes a hands-on Raku workshop open to outside potters (not only students) on October 2nd for $70/person, with full firing process included.",
         "types": {
-          "raku": "In this workshop, you'll learn the basics of the Raku firing process—from glazing to pulling red-hot pots from the kiln and plunging them into combustibles for stunning effects."
+          "raku": "Join us on October 2nd from 4-9pm, for a hands-on Raku workshop where clay meets flame."
         },
+        "state": "WA",
+        "town": "Tacoma",
         "street": "2329-2333 Tacoma Ave S"
       }
     },
@@ -423,13 +436,15 @@
       "lat": 45.6307,
       "lng": -122.67446,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The studio offers Raku firing events that are open to the public, including options to join a class or book a spot in the firing event for those who bring their own pieces.",
+        "why": "The text explicitly states that outsiders can join Raku firings through classes or by booking a spot in the firing event for $30, with options for community potters, studio members, and multi-week students.",
         "types": {
-          "raku": "Through our partnership with Kadence Raku, we offer quarterly clay classes and Raku firings."
-        }
+          "raku": "Raku is an exciting, experimental, and unpredictable firing process that creates one-of-a-kind ceramic pieces."
+        },
+        "state": "WA",
+        "town": "Vancouver"
       }
     },
     {
@@ -472,14 +487,17 @@
       "lat": 47.65719,
       "lng": -117.42351,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly mentions Raku firing sessions and events that are open to the public where outsiders can bring bisque pieces to be fired.",
+        "why": "The text explicitly mentions 'Raku Firing' as an event where the public can bring bisque pieces to be fired or watch the process, and pottery classes with firing are available to sign up for.",
         "types": {
-          "raku": "Bring your own bisque pieces to be fired in the raku kiln or just come and watch the process and see the results!"
-        }
-      }
+          "raku": "Raku Firing 2 to ?? 2pm when we're finished Bring your own bisque pieces to be fired in the raku kiln or just come and watch the process and see the results!"
+        },
+        "state": "WA",
+        "town": "Spokane"
+      },
+      "weak": true
     },
     {
       "id": "gathering-ways",
@@ -521,13 +539,15 @@
       "lat": 47.82229,
       "lng": -122.87517,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text provides a registration link for the public to sign up for the pit-firing day of the workshop.",
+        "why": "The text shows outsiders can sign up for a pit-firing workshop via registration, with an option to join just the firing day for $40.",
         "types": {
           "pit_barrel_saggar": "ceremonial low-fire pit-firing"
-        }
+        },
+        "state": "WA",
+        "town": "Quilcene"
       }
     },
     {
@@ -570,13 +590,15 @@
       "lat": 48.08493,
       "lng": -123.10967,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The page text shows a Raku Firing Workshop open to participants including non-studio members.",
+        "why": "The text explicitly states the Raku Firing Workshop is open to all experience levels and non-studio members can participate by contacting the instructor.",
         "types": {
-          "raku": "Raku Firing Workshop (Sequim) @ Sequim"
+          "raku": "This hands-on Raku Workshop introduces participants to the traditional Japanese ceramic firing technique known for its dramatic and unpredictable results."
         },
+        "state": "WA",
+        "town": "Sequim",
         "street": "453 Taylor Cutoff Rd"
       }
     },
@@ -620,18 +642,21 @@
         "key": "evergreencoastwa.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site offers workshops for salt and pit firing that are open for registration to the public.",
+        "why": "The text describes multiple workshops open to participants (students) for salt firing and pit firing, with specific dates, locations, and firing fees, indicating public access to non-electric ceramic firings.",
         "types": {
           "salt": "Dive into the dynamic and unpredictable world of salt firing in this multi-part workshop.",
           "pit_barrel_saggar": "In this two-day workshop, students will create coil-built vessels designed specifically to respond beautifully to a communal pit firing later in the month."
         },
+        "state": "WA",
+        "town": "Ilwaco",
         "street": "109 First Avenue North"
       },
       "lat": 46.30904,
-      "lng": -124.04366
+      "lng": -124.04366,
+      "weak": true
     }
   ],
   "_removed": [

@@ -64,13 +64,15 @@
         "key": "lakesidepottery.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly states they offer Raku workshops for groups or individuals and private Raku firings for artists.",
+        "why": "The text explicitly states 'We give workshops for groups or individuals' and 'We also do private firings for artists' with pricing listed, allowing public participation in raku firings.",
         "types": {
-          "raku": "Lakeside Pottery have the-state-of-the-art Raku equipment custom designed and build to minimize breakage and generate amazing colors and effects."
-        }
+          "raku": "We give workshops for groups or individuals. We also do private firings for artists who wish their work to be Rakued."
+        },
+        "state": "CT",
+        "town": "Stamford"
       },
       "lat": 41.05343,
       "lng": -73.53873
@@ -82,17 +84,17 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "pit_barrel_saggar",
-        "raku"
+        "raku",
+        "pit_barrel_saggar"
       ],
-      "region": "Connecticut",
-      "city": null,
+      "region": "New Britain",
+      "city": "New Britain",
       "urls": [
         "https://www.vicentegarciaart.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "New Britain, Connecticut",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.vicentegarciaart.com/"
@@ -103,8 +105,8 @@
         "quote": "This workshop will consist of Smoke, Obvara, Fumed, Saggar and Raku firing techniques.",
         "url": "https://www.vicentegarciaart.com/teaching",
         "types": [
-          "pit_barrel_saggar",
-          "raku"
+          "raku",
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-07"
       },
@@ -115,16 +117,20 @@
         "key": "vicentegarciaart.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site offers workshops for up to 8 participants that include Raku and Saggar firing techniques, which can be booked by contacting the artist.",
+        "why": "The site offers public workshops in smoke, obvara, fumed, saggar, and raku firing techniques with hands-on instruction for up to 8 participants who can book or join.",
         "types": {
-          "pit_barrel_saggar": "This workshop will consist of Smoke, Obvara, Fumed, Saggar and Raku firing techniques.",
-          "raku": "This workshop will consist of Smoke, Obvara, Fumed, Saggar and Raku firing techniques."
-        }
+          "raku": "This workshop will consist of Smoke, Obvara, Fumed, Saggar and Raku firing techniques.",
+          "pit_barrel_saggar": "This workshop will consist of Smoke, Obvara, Fumed, Saggar and Raku firing techniques."
+        },
+        "state": "CT",
+        "town": "New Britain"
       },
-      "weak": true
+      "weak": true,
+      "lat": 41.66121,
+      "lng": -72.77954
     },
     {
       "id": "featherstoneart-app-neoncrm",
@@ -166,14 +172,16 @@
         "key": "featherstoneart.app.neoncrm.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text describes a Raku Alternative Firing Workshop that is open for registration to participants aged 18+.",
+        "why": "The page describes a workshop where participants can sign up to experiment with raku, horsehair, obvara and saggar firing for a $150 fee per day.",
         "types": {
           "raku": "In this workshop, participants will experiment with raku, horsehair, obvara and saggar firing.",
           "pit_barrel_saggar": "In this workshop, participants will experiment with raku, horsehair, obvara and saggar firing."
-        }
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -215,16 +223,17 @@
         "key": "jacktroy.net"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text mentions hands-on workshops involving an anagama firing that the public can participate in by contacting the organizer.",
-        "types": {
-          "wood": "September 25-29, 2023 – Anagama firing workshop at Trevor Youngberg’s in Woodbridge, CT ( filled )."
-        }
+        "why": "The text states Jack Troy does 4-6 workshops per year that are hands-on and involve firings, with a specific anagama firing workshop listed, and interested parties can contact to participate.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "lat": 41.3532,
-      "lng": -73.01149
+      "lng": -73.01149,
+      "weak": true
     },
     {
       "id": "newenglandwfc",
@@ -234,8 +243,8 @@
       "public": true,
       "firing_types_guess": [
         "wood",
-        "pit_barrel_saggar",
-        "soda"
+        "soda",
+        "pit_barrel_saggar"
       ],
       "region": "New Haven",
       "city": "New Haven",
@@ -256,8 +265,8 @@
         "url": "https://www.newenglandwfc.com/",
         "types": [
           "wood",
-          "pit_barrel_saggar",
-          "soda"
+          "soda",
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-07"
       },
@@ -268,15 +277,17 @@
         "key": "newenglandwfc.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The conference offers tickets that allow participants to join a host kiln crew and fire their own work in non-electric kilns.",
+        "why": "The text shows potters of all levels can participate in wood firings by purchasing kiln passes that include participation in kiln firing activities, with 2 cubic feet of kiln space allocated per participant at various host kilns throughout New England.",
         "types": {
-          "wood": "A 9 day wood firing extravaganza and centralized conference.",
-          "pit_barrel_saggar": "Open to pit fired works, soda/wood pieces, straight-up wood fired wares, clays of every kind; any and all wood-fired wares and sculptures welcomed.",
-          "soda": "Open to pit fired works, soda/wood pieces, straight-up wood fired wares, clays of every kind; any and all wood-fired wares and sculptures welcomed."
-        }
+          "wood": "Spanning New England, stoke crew participants will join a Host Kiln crew and experience a wood firing from start to finish.",
+          "soda": "Open to pit fired works, soda/wood pieces, straight-up wood fired wares, clays of every kind; any and all wood-fired wares and sculptures welcomed.",
+          "pit_barrel_saggar": "Open to pit fired works, soda/wood pieces, straight-up wood fired wares, clays of every kind; any and all wood-fired wares and sculptures welcomed."
+        },
+        "state": "CT",
+        "town": "New Haven"
       },
       "lat": 41.30821,
       "lng": -72.92505
@@ -319,11 +330,13 @@
         "key": "ctclayguild.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and contains no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The snippets mention wood-fired and soda kilns at a studio property and reference a 'firing' page, but the actual page text is empty, so public access cannot be confirmed from the provided text.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -365,13 +378,15 @@
         "key": "ny.jpf.go.jp"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text states the conference is an opportunity for potters of all stages to create their own high-fire works at one of several Host Kilns.",
+        "why": "The text states potters of all stages can create their own high-fire works at Host Kilns during the New England Wood Firing Conference, indicating public participation in wood firing.",
         "types": {
           "wood": "The New England Wood Firing Conference is an opportunity for potters of all stages to create their own high-fire works at one of several Host Kilns."
-        }
+        },
+        "state": "CT",
+        "town": "New Haven"
       },
       "lat": 41.30821,
       "lng": -72.92505
@@ -404,11 +419,13 @@
         "key": "barbarajallenceramics.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "why": "The page text provided is empty; only search snippets are available, which mention workshops but provide no verifiable information about public access to non-electric ceramic firings, location details, or firing services.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -450,13 +467,15 @@
         "key": "mudstonestudios.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text describes a hands-on pit firing workshop that is open to participants as a communal process.",
+        "verdict": "unclear",
+        "why": "The search snippet describes a pit firing workshop open to participants, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
         "types": {
-          "pit_barrel_saggar": "This hands-on workshop celebrates pit firing as a communal process where we will craft and prepare our work together, participate in a group loading and lighting of the pit, and share in a collective unloading of the pit during the final day to reveal our pieces."
-        }
+          "pit_barrel_saggar": "pit firing as a communal process where we will craft and prepare our work together, participate in a group loading and lighting of the pit"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -500,11 +519,13 @@
         "key": "mudpuddlepottery.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The provided page text is empty, so it contains no information about firing services or public access for Canton Clay Works.",
-        "types": {}
+        "why": "The search snippets mention Canton Clay Works offers wood firing service and classes, but the actual page text is empty, providing no verifiable information about public access to non-electric firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -546,13 +567,15 @@
         "key": "creativeartsworkshop.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly offers a 'High Fire Glazing and Reduction Kiln Firing' workshop that is open for enrollment.",
+        "why": "The text describes a public workshop where students can participate in reduction kiln firing, with clear enrollment and firing fee information.",
         "types": {
           "gas_reduction": "We will glaze the pots, load them, and fire an updraft kiln in the reduction firing process between 2,350°-70° Fahrenheit."
-        }
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -585,11 +608,16 @@
         "key": "bellhillpottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public firing opportunities.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The text describes four kilns including anagama and soda but does not explicitly state whether the public can participate in firings or only view finished work.",
+        "types": {
+          "wood": "A 29 foot anagama, a converted noborigama, a soda kiln and a coffin kiln.",
+          "soda": "A 29 foot anagama, a converted noborigama, a soda kiln and a coffin kiln."
+        },
+        "state": "CT",
+        "town": "Washington"
       },
       "weak": true,
       "lat": 41.63056,
@@ -635,14 +663,16 @@
         "key": "expressionspottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text states that the studio features kilns to fire Raku and Saggar pottery and offers studio rental for experienced potters.",
+        "why": "The text states the studio has 'kilns to fire Raku and Saggar pottery' and offers studio membership and rental options for potters to use these facilities.",
         "types": {
-          "raku": "The studio features 10 pottery wheels, a slab roller, an extruder, wedging table, spray booth for glazing, electric and gas kiln for firing as well as kilns to fire Raku and Saggar pottery.",
-          "pit_barrel_saggar": "The studio features 10 pottery wheels, a slab roller, an extruder, wedging table, spray booth for glazing, electric and gas kiln for firing as well as kilns to fire Raku and Saggar pottery."
-        }
+          "raku": "kilns to fire Raku and Saggar pottery",
+          "pit_barrel_saggar": "kilns to fire Raku and Saggar pottery"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -653,8 +683,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "gas_reduction"
+        "gas_reduction",
+        "raku"
       ],
       "region": "Guilford",
       "city": "Guilford",
@@ -674,8 +704,8 @@
         "quote": "The studio is equipped with 12 wheels, a hand building table, 3 electric kilns, slab roller, extruder, outdoor downdraft gas kiln, raku kiln, and a glaze mixing room.",
         "url": "https://guilfordartcenter.org/art-class/ceramics-classes/",
         "types": [
-          "raku",
-          "gas_reduction"
+          "gas_reduction",
+          "raku"
         ],
         "checked": "2026-10-07"
       },
@@ -686,14 +716,16 @@
         "key": "guilfordartcenter.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The studio offers workshops for enthusiasts of all levels and explicitly lists a raku kiln and an outdoor downdraft gas kiln as part of its equipment.",
+        "why": "The text states the studio has an 'outdoor downdraft gas kiln' and 'raku kiln' and offers 'classes and workshops for students and enthusiasts of all levels' with opportunities to learn about firings.",
         "types": {
-          "raku": "The studio is equipped with 12 wheels, a hand building table, 3 electric kilns, slab roller, extruder, outdoor downdraft gas kiln, raku kiln, and a glaze mixing room.",
-          "gas_reduction": "The studio is equipped with 12 wheels, a hand building table, 3 electric kilns, slab roller, extruder, outdoor downdraft gas kiln, raku kiln, and a glaze mixing room."
-        }
+          "gas_reduction": "outdoor downdraft gas kiln",
+          "raku": "raku kiln"
+        },
+        "state": "CT",
+        "town": "Guilford"
       },
       "lat": 41.28276,
       "lng": -72.68164
@@ -705,7 +737,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "raku",
+        "gas_reduction"
       ],
       "region": "New Haven",
       "city": "New Haven",
@@ -725,7 +758,8 @@
         "quote": "The ceramics studio comes fully equipped, stocked with 12 pottery wheels, three electric kilns, a slab roller, an extruder, an outdoor downdraft gas kiln, and a raku kiln, giving students access to a genuinely complete toolkit.",
         "url": "https://decorhint.com/pottery-classes-in-connecticut-made-for-anyone-ready-to-discover-a-new-passion/",
         "types": [
-          "raku"
+          "raku",
+          "gas_reduction"
         ],
         "checked": "2026-10-07"
       },
@@ -736,17 +770,74 @@
         "key": "decorhint.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text mentions classes and workshops involving a raku kiln and a gas kiln that outsiders can sign up for.",
+        "why": "The page text states the studio has 'an outdoor downdraft gas kiln, and a raku kiln' and describes classes where 'glazing instruction and professional kiln firing are built right into the class structure,' with open studio sessions and multiple class formats available to anyone ready to enroll.",
         "types": {
-          "raku": "The ceramics studio comes fully equipped, stocked with 12 pottery wheels, three electric kilns, a slab roller, an extruder, an outdoor downdraft gas kiln, and a raku kiln, giving students access to a genuinely complete toolkit."
+          "raku": "an outdoor downdraft gas kiln, and a raku kiln",
+          "gas_reduction": "an outdoor downdraft gas kiln, and a raku kiln"
         },
-        "street": "286 Whisconier Rd"
+        "state": "CT",
+        "town": "New Haven"
       },
       "lat": 41.30821,
       "lng": -72.92505
+    },
+    {
+      "id": "canton-clay-works",
+      "org": "Canton Clay Works",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction",
+        "pit_barrel_saggar"
+      ],
+      "region": "Canton",
+      "city": "Canton",
+      "urls": [
+        "https://www.cantonclayworks.com/"
+      ],
+      "notes": "Gas firing service, saggar workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Canton, Connecticut",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.cantonclayworks.com/"
+      },
+      "access": {
+        "how": "Gas firing service, saggar workshops",
+        "note": "Gas firing service, saggar workshops",
+        "quote": "2026 Saggar Firing Workshops",
+        "url": "https://www.cantonclayworks.com/saggar-workshops",
+        "types": [
+          "gas_reduction",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-06"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-06",
+        "key": "cantonclayworks.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "page says state is CT, not MA",
+        "types": {
+          "gas_reduction": "The Canton Clay Works offers a high-fire glaze/gas reduction firing service with access to close to thirty spectacular glazes!",
+          "pit_barrel_saggar": "In this 2.5-day workshop, we will cover two varieties of Saggar firing in our new kiln."
+        },
+        "state": "CT",
+        "town": "Canton"
+      },
+      "weak": true,
+      "lat": 41.82454,
+      "lng": -72.89371
     }
   ],
   "_removed": [

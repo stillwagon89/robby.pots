@@ -119,14 +119,16 @@
       "lat": 43.65736,
       "lng": -70.25866,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text lists a workshop for atmospheric firing in soda and wood kilns that is open for sign-ups via Creative Portland.",
+        "why": "The page advertises a workshop in 'Atmospheric Firing in Soda & Wood kilns' through Continuing Studies at Maine College of Art & Design, which offers public enrollment via Creative Portland's events listing.",
         "types": {
           "soda": "Atmospheric Firing in Soda & Wood kilns with Mitch Johnson",
           "wood": "Atmospheric Firing in Soda & Wood kilns with Mitch Johnson"
         },
+        "state": "ME",
+        "town": "Portland",
         "street": "522 Congress Street"
       }
     },
@@ -137,17 +139,18 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
+        "soda",
         "pit_barrel_saggar",
-        "soda"
+        "raku"
       ],
-      "region": "Maine",
-      "city": null,
+      "region": "Eliot",
+      "city": "Eliot",
       "urls": [
         "https://www.southernmaineclayguild.com/"
       ],
       "notes": "Community pit firing + potluck. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Eliot, Maine",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.southernmaineclayguild.com/"
@@ -158,8 +161,9 @@
         "quote": "This is a community pit firing and dinner potluck!",
         "url": "https://www.southernmaineclayguild.com/events",
         "types": [
+          "soda",
           "pit_barrel_saggar",
-          "soda"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -170,17 +174,21 @@
         "key": "southernmaineclayguild.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text mentions events and workshops like pit firings and soda firings hosted by the guild, but they are limited to members and filled workshops.",
+        "why": "The page lists multiple non-electric firing workshops and events open to guild members and the public, including soda firing, pit firing, raku, and saggar firing.",
         "types": {
-          "pit_barrel_saggar": "June 8th pending burn permit - Guild Spring Meeting & learning to Pit Fire pots!",
-          "soda": "June 20 - small group soda firing @Barbara's"
+          "soda": "Tyler Gulden with an Introduction to Soda Firing - 2.5 days in 2025",
+          "pit_barrel_saggar": "Guild Spring Meeting & learning to Pit Fire pots!",
+          "raku": "Artist Vicente Garcia will lead this fast-paced, three day workshop covering pit, saggar, raku, and smoke firing techniques."
         },
-        "street": "9 Spurwink Rd"
+        "state": "ME",
+        "town": "Eliot"
       },
-      "weak": true
+      "weak": true,
+      "lat": 43.10813,
+      "lng": -70.77764
     },
     {
       "id": "turning-arts-studio",
@@ -222,13 +230,15 @@
       "lat": 44.00989,
       "lng": -69.89694,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The studio offers a public two-part workshop where participants can glaze and fire their own work using the raku method.",
+        "why": "The text describes a two-part raku firing workshop open to the public with no experience necessary, where participants can register and fire their own work.",
         "types": {
-          "raku": "In this two-part workshop, you’ll explore the dramatic and hands-on process of raku firing."
-        }
+          "raku": "In this two-part workshop, you'll explore the dramatic and hands-on process of raku firing."
+        },
+        "state": "ME",
+        "town": "Bowdoinham"
       }
     },
     {
@@ -273,14 +283,16 @@
       "lat": 44.28119,
       "lng": -69.00865,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text offers pottery workshops open to participants covering raku, pit firing, and barrel firing techniques.",
+        "why": "The text describes workshops open to artists of all skill levels where participants can sign up to experience raku, pit firing, and barrel firing techniques over a 2.5-day session.",
         "types": {
-          "raku": "We explore raku techniques fired in a Peter Pugger gas kiln, as well as pit firing and barrel firings in homemade barrel kilns.",
-          "pit_barrel_saggar": "We explore raku techniques fired in a Peter Pugger gas kiln, as well as pit firing and barrel firings in homemade barrel kilns."
+          "raku": "We explore raku techniques fired in a Peter Pugger gas kiln",
+          "pit_barrel_saggar": "as well as pit firing and barrel firings in homemade barrel kilns"
         },
+        "state": "ME",
+        "town": "Lincolnville",
         "street": "34 Beach Road"
       }
     },
@@ -324,13 +336,15 @@
       "lat": 43.78942,
       "lng": -70.40834,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The studio offers hands-on Raku firing workshops that are open to the public for registration.",
+        "why": "The text shows public can sign up for hands-on Raku firing workshops at Nate Winter Studios in Windham, Maine, designed for potters of all levels with advance registration and payment options.",
         "types": {
           "raku": "Join us for an unforgettable hands-on experience with Raku firing, led by Nate Winter, a seasoned ceramic artist with more than 1,000 firings and hundreds of workshops behind him."
-        }
+        },
+        "state": "ME",
+        "town": "Windham"
       }
     },
     {
@@ -371,13 +385,15 @@
         "key": "maineprairiestudio.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The site lists 'Rocinante Wood Firing' as a product that can be added to a cart, indicating it is a service available for purchase.",
+        "verdict": "unclear",
+        "why": "The page mentions wood firing and classes, but does not explicitly state that non-enrolled members or the public can sign up for or participate in a wood firing workshop or class.",
         "types": {
           "wood": "Great variety in effects with wood fired technique."
-        }
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -421,13 +437,15 @@
       "lat": 43.65736,
       "lng": -70.25866,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that the public can take adult classes that fire in a reduction kiln at the studio.",
+        "why": "Portland Pottery offers adult classes where the public can enroll and participate in reduction kiln firing, as stated: 'Classes at the 118 Washington Avenue Studio use high-fire (cone 10) clay and fire in the reduction kiln - a unique offering in a community ceramics studio setting!'",
         "types": {
           "gas_reduction": "Classes at the 118 Washington Avenue Studio use high-fire (cone 10) clay and fire in the reduction kiln - a unique offering in a community ceramics studio setting!"
         },
+        "state": "ME",
+        "town": "Portland",
         "street": "118 Washington Avenue"
       }
     },
@@ -461,11 +479,14 @@
       "lat": 43.99669,
       "lng": -70.06061,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The provided page text is empty, so no information regarding firing services or public access is available.",
-        "types": {}
+        "why": "No page text provided to verify public access to non-electric ceramic firings.",
+        "types": {},
+        "state": "ME",
+        "town": "Lisbon",
+        "street": "2 Lisbon St"
       },
       "weak": true
     }

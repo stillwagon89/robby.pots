@@ -67,66 +67,19 @@
         "key": "vermontartscouncil.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text describes a hands-on Raku Firing workshop that is open for registration at a cost of $175.",
+        "why": "The text describes a hands-on Raku Firing Workshop open to participants who can sign up for a one-day class at $175, with clear instructions for public attendance.",
         "types": {
           "raku": "Experience the excitement of Raku Firing in our hands-on workshop."
         },
+        "state": "VT",
+        "town": "Montpelier",
         "street": "36 College St."
       },
       "lat": 44.11393,
       "lng": -72.85554
-    },
-    {
-      "id": "first-house-pottery",
-      "org": "First House Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Vermont",
-      "city": null,
-      "urls": [
-        "https://www.firsthousepottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.firsthousepottery.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "The one day workshop lets students explore traditional raku glazes, One & Two Step Slip Resist Naked Raku, Horse Hair and Obvara firings.",
-        "url": "https://www.firsthousepottery.com/service-page/raku-firing",
-        "types": [
-          "raku",
-          "raku",
-          "raku",
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "firsthousepottery.com"
-      },
-      "verify": {
-        "by": "gemini-3.1-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty, so there is no information confirming public access to non-electric firings.",
-        "types": {}
-      },
-      "weak": true
     },
     {
       "id": "third-branch-pottery",
@@ -156,11 +109,15 @@
         "key": "thirdbranchpotterysupply.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, so no firing services or workshops can be verified from the text.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets describe raku workshops open to participants, but the actual page text is empty, so location details cannot be verified.",
+        "types": {
+          "raku": "Raku is an ancient Japanese firing method, sure to get your adrenaline rushing!"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -202,11 +159,15 @@
         "key": "acrossthegrainpottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public firing events or methods.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions raku sculptures and art but provides no page text confirming that public workshops, classes, or firing services are available for participation.",
+        "types": {
+          "raku": "Raku Sculptures"
+        },
+        "state": "VT",
+        "town": "South Hero"
       },
       "weak": true,
       "lat": 44.6457,
@@ -219,8 +180,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood"
+        "raku"
       ],
       "region": "Woodstock",
       "city": "Woodstock",
@@ -251,11 +211,16 @@
         "key": "farmhousepottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention a raku firing workshop, but the actual page text provided is empty, so I cannot verify from the page itself that outsiders can book or join.",
+        "types": {
+          "raku": "The one day workshop lets students explore traditional raku glazes, One & Two Step Slip Resist Naked Raku, Horse Hair and Obvara firings."
+        },
+        "state": "VT",
+        "town": "Woodstock",
+        "street": "1837 W. Woodstock Road (Route 4), Woodstock, VT 05091"
       },
       "weak": true,
       "lat": 43.62476,
@@ -289,61 +254,15 @@
         "key": "distinguishedteaching.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions a soda kiln but does not explicitly state that the public can book, sign up for, or participate in a firing.",
+        "why": "The text mentions a soda kiln and describes pottery instruction, but does not explicitly state that public outsiders can book, sign up for, or participate in an actual firing event.",
         "types": {
-          "soda": "Needless to say, Matt is a genius Potter with expansive knowledge of clay, wheel throwing, hand building and glaze and flashing slips and the chemistry involved and how to apply them to achieve color in the soda kiln."
-        }
-      },
-      "weak": true,
-      "lat": 44.47616,
-      "lng": -73.21291
-    },
-    {
-      "id": "burlington-potters-guild",
-      "org": "Burlington Potters' Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Burlington",
-      "city": "Burlington",
-      "urls": [
-        "https://www.burlingtonpottersguild.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Burlington, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.burlingtonpottersguild.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Click on this link to access Signup Genius. This is where you can book the Electric and GAS kilns as well as sign up for space in the upcoming Guild Community Firings",
-        "url": "https://www.burlingtonpottersguild.com/membership-info-copy-for-when-we-move",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "burlingtonpottersguild.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, so there is no information to confirm public non-electric ceramic firings.",
-        "types": {}
+          "soda": "how to apply them to achieve color in the soda kiln."
+        },
+        "state": "VT",
+        "town": "Burlington"
       },
       "weak": true,
       "lat": 44.47616,
@@ -387,13 +306,15 @@
         "key": "walterslowinskipottery.weebly.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site explicitly states that as part of the 2025 New England Woodfiring Conference, Orchard Street Pottery will host a workshop where participants can fire their own work.",
+        "why": "The text states that as part of the 2025 New England Woodfiring Conference, Orchard Street Pottery will host a 4-day workshop where participants can fire their own work by joining in firing the kiln.",
         "types": {
           "wood": "As part of the 2025 New England Woodfiring Conference, Orchard Street Pottery will be hosting a 4 day workshop where participants will be able to fire their own work as they join in firing the kiln."
-        }
+        },
+        "state": "VT",
+        "town": "Brattleboro"
       },
       "lat": 42.85076,
       "lng": -72.55729
@@ -436,13 +357,15 @@
         "key": "middleburystudioschool.corsizio.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The studio offers public registration for an 'Alternative Firing: Naked Raku & Horse Hair Firing' workshop.",
+        "why": "The text shows public workshops for non-electric alternative firing techniques including raku and horse hair firing that can be booked via registration with pricing listed.",
         "types": {
           "raku": "Alternative Firing: Naked Raku & Horse Hair Firing"
         },
+        "state": "VT",
+        "town": "MIDDLEBURY",
         "street": "2377 ROUTE 7 S"
       },
       "lat": 44.0143,
@@ -486,13 +409,16 @@
         "key": "manchesterjournal.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text states that the facility hosts weekly classes, retreats, wood firing, and guest workshops where artists can stay and fire the wood kiln.",
+        "why": "The text states the facility hosts weekly classes, retreats, wood firing, guest workshops, and residencies for beginners through professional artists, and Sedlock teaches week-long workshops on how to fire wood kilns with residents staying in the guest house.",
         "types": {
           "wood": "It hosts weekly classes, retreats, wood firing, guest workshops, and short- and long-term residencies for beginners, intermediates, and professional artists."
-        }
+        },
+        "state": "VT",
+        "town": "Pownal",
+        "street": "North Mason Hill Road"
       },
       "lat": 42.79527,
       "lng": -73.22403
@@ -534,6 +460,14 @@
     {
       "id": "artscenter-vt",
       "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "first-house-pottery",
+      "why": "Second check (gemma4-local): The provided text does not contain information about public participation in non-electric ceramic firings. (2026-10-07)"
+    },
+    {
+      "id": "burlington-potters-guild",
+      "why": "Second check (gemma4-local): The text only mentions booking electric and gas kilns and does not mention any other non-electric firing types for the public. (2026-10-07)"
     }
   ]
 }

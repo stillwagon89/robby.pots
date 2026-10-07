@@ -80,13 +80,15 @@
         "key": "claycompany.kilnfire.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly invites the public to a hands-on Raku workshop that includes multiple firing opportunities.",
+        "why": "The text describes a hands-on Raku workshop open to beginners and experienced ceramicists where participants can attend and participate in raku firing.",
         "types": {
           "raku": "Come spend the day at Carl's studio immersed in the art of Raku firing—an exciting, fast-paced ceramic technique known for its dramatic surfaces, metallic finishes, and unpredictable beauty."
-        }
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -128,11 +130,15 @@
         "key": "mudmakers.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet describes a raku firing workshop that participants can join, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "types": {
+          "raku": "participants will bring their own bisque-fired pottery and experience the Raku firing process from glazing through firing and post-firing reduction"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -176,17 +182,20 @@
         "key": "enrole.com"
       },
       "verify": {
-        "by": "gemma-4-31b-it",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text lists workshops for raku and soda firing where participants can participate in the firing process.",
+        "verdict": "unclear",
+        "why": "The page describes raku and soda firing workshops but shows 'This course contains no sessions' for both, making it unclear if outsiders can currently enroll.",
         "types": {
           "raku": "You will create ceramic artworks specifically designed for raku firing and participate in this quick and spontaneous firing process.",
           "soda": "You will create ceramic artworks with slips and glazes specifically designed for soda firing and participate in the soda firing process."
-        }
+        },
+        "state": "IL",
+        "town": "Edwardsville"
       },
       "lat": 38.81144,
-      "lng": -89.95316
+      "lng": -89.95316,
+      "weak": true
     },
     {
       "id": "tinkermills-muddy-makers-pottery-studio",
@@ -216,11 +225,15 @@
         "key": "tickettailor.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The page text is empty, preventing confirmation of public participation details despite the search snippet mentioning a raku workshop.",
-        "types": {}
+        "why": "The search snippets mention a raku firing workshop available for booking, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "types": {
+          "raku": "raku firing involves removing red-hot pottery from the kiln and placing it into combustible materials"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -262,11 +275,13 @@
         "key": "chicagokilnservice.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The snippets mention 'High School Raku' and winter/spring 2025 workshops/classes, but the actual page text is empty, so it cannot be verified whether public outsiders can participate or what firing types are offered.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 41.87556,
@@ -300,11 +315,13 @@
         "key": "yutangceramics.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, providing no information about firings or public access.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions a raku firing workshop open to students, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -346,11 +363,13 @@
         "key": "rubysclaystudio.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty, so there is no information to confirm public access or firing methods.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions a wood firing workshop open to participants, but the page text itself is empty, providing no verifiable details about location, address, or confirmation of public access.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -361,8 +380,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
-        "salt"
+        "salt",
+        "wood"
       ],
       "region": "Villa Park",
       "city": "Villa Park",
@@ -382,8 +401,8 @@
         "quote": "When firing a salt kiln, salt is put directly into the kiln through special ports over the flame.",
         "url": "https://www.saltcreekpottery.net/",
         "types": [
-          "wood",
-          "salt"
+          "salt",
+          "wood"
         ],
         "checked": "2026-10-07"
       },
@@ -394,14 +413,16 @@
         "key": "saltcreekpottery.net"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions wood and salt firing processes and workshops, but does not explicitly state that the public can sign up for or participate in these specific firings.",
+        "why": "The text mentions salt firing and wood firing processes but does not explicitly state that the public can sign up for or participate in these firings.",
         "types": {
-          "wood": "We focused discussions on techniques and systems used to gain fluidity in the wood firing process.",
-          "salt": "When firing a salt kiln, salt is put directly into the kiln through special ports over the flame."
+          "salt": "When firing a salt kiln, salt is put directly into the kiln through special ports over the flame.",
+          "wood": "We focused discussions on techniques and systems used to gain fluidity in the wood firing process."
         },
+        "state": "IL",
+        "town": "Villa Park",
         "street": "48 S. Villa Ave., Villa Park, IL 60181"
       },
       "weak": true,
@@ -448,14 +469,16 @@
         "key": "littlecreekceramics.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The website offers public workshops for raku and pit firing that individuals can sign up for or book as a group.",
+        "why": "The page offers public raku and pit firing workshops that anyone can sign up for, with clear pricing and registration options.",
         "types": {
           "raku": "Experience the art of raku firing in our six hour workshop.",
           "pit_barrel_saggar": "Learn traditional pit firing techniques in this six hour hands-on session."
-        }
+        },
+        "state": "",
+        "town": ""
       },
       "lat": 40.07005,
       "lng": -90.42901
@@ -498,11 +521,15 @@
         "key": "simonlevin.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and contains no information about non-electric ceramic firings open to the public.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The text mentions a weeklong wood fire workshop but does not clearly state whether non-enrolled outsiders can join or if it is limited to the 5-6 selected students.",
+        "types": {
+          "wood": "we end the year with a weeklong wood fire workshop in my Train Kiln in Central Illinois"
+        },
+        "state": "IL",
+        "town": ""
       },
       "weak": true
     },
@@ -544,63 +571,17 @@
         "key": "lighthousearts.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly offers a hands-on class for the public to learn the Saggar Firing method.",
+        "why": "The text describes a hands-on class in Saggar Firing method available to take at Lighthouse ArtCenter, indicating public access to this non-electric firing technique.",
         "types": {
           "pit_barrel_saggar": "This hands-on class will guide you through every step of the Saggar Firing method, an exciting alternative firing technique."
-        }
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
-    },
-    {
-      "id": "chicago-ceramic-center",
-      "org": "Chicago Ceramic Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Chicago",
-      "city": "Chicago",
-      "urls": [
-        "https://www.chicagoceramiccenter.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Chicago, Illinois",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.chicagoceramiccenter.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We fire cone 10 gas reduction, and offer memberships and classes in a beautiful historic building with views of the river, and beautiful light.",
-        "url": "https://www.chicagoceramiccenter.com/about-the-studio",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "chicagoceramiccenter.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and contains no information about non-electric ceramic firings.",
-        "types": {}
-      },
-      "weak": true,
-      "lat": 41.87556,
-      "lng": -87.62442
     },
     {
       "id": "cu-potter-s-club",
@@ -640,11 +621,15 @@
         "key": "cupotters.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, so there is no information showing that the public can take part in a non-electric ceramic firing.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The text mentions raku firing demonstrations that are 'at times open to the public' but does not clearly state whether outsiders can currently book, sign up, or participate in such firings.",
+        "types": {
+          "raku": "collaborate with Kickapoo Pottery for raku firing demonstrations that are at times open to the public"
+        },
+        "state": "IL",
+        "town": "Champaign"
       },
       "weak": true,
       "lat": 40.11579,
@@ -688,13 +673,15 @@
         "key": "wheelartpottery.studio"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly mentions that previous workshops have included Raku and primitive fire workshops and invites the public to contact them about signing up for workshops.",
+        "why": "The text states 'Previous events and workshops have included Raku and primitive fire workshops' and invites people to 'contact us about signing up for classes, workshops' indicating public access to non-electric firings.",
         "types": {
-          "raku": "Previous events and workshops have included Raku and primitive fire workshops, ornament making, carving clay pumpkins, and glaze chemistry."
-        }
+          "raku": "Previous events and workshops have included Raku and primitive fire workshops"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -736,13 +723,15 @@
         "key": "omniform1.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The site offers a Raku Firing Experience that is open to the public via booking.",
+        "why": "The page offers a public raku firing workshop called 'Raku Firing Experience' that accepts bookings from guests at $99 per person with hands-on guidance.",
         "types": {
           "raku": "TRY YOUR HAND AT RAKU: Fire & Finish in a Day"
-        }
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -784,13 +773,15 @@
         "key": "spindriftstudio.art"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly offers private parties where participants can glaze items and experience the entire Raku kiln firing process.",
+        "verdict": "unclear",
+        "why": "The search snippet describes raku firing with public participation, but the page text provided is empty, so the location details cannot be verified.",
         "types": {
-          "raku": "You then can come in and glaze it using our special Raku glazes then experience the entire firing process as we fire your pieces in the Raku kiln."
-        }
+          "raku": "experience the entire firing process as we fire your pieces in the Raku kiln"
+        },
+        "state": "",
+        "town": ""
       },
       "weak": true
     }
@@ -811,6 +802,10 @@
     {
       "id": "clay-play-arts",
       "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "chicago-ceramic-center",
+      "why": "Second check (claude-haiku-4.5): The text describes electric kilns only and does not mention any non-electric firing methods such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction at the Chicago Ceramic Center itself. (2026-10-07)"
     }
   ]
 }

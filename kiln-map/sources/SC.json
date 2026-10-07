@@ -41,14 +41,16 @@
         "key": "greenvillearts.com"
       },
       "verify": {
-        "by": "gemma-4-31b-it",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The SC Clay Con Fall Workshop offers a hands-on workshop where participants can fire works using Saggar and Naked Raku processes.",
+        "why": "The text describes a hands-on Raku workshop on September 15-16, 2023, where workshop participants can fire clay works, and a monthly membership offering kiln firings to members.",
         "types": {
-          "raku": "Explore unique and exciting ceramic surfaces with the potential of a raku kiln",
+          "raku": "Doug Gray, with the assistance of Sandy Singletary, will demonstrate the exciting alternative firing techniques Saggar, Obvara, and Naked Raku processes in a hands-on workshop.",
           "pit_barrel_saggar": "Doug Gray, with the assistance of Sandy Singletary, will demonstrate the exciting alternative firing techniques Saggar, Obvara, and Naked Raku processes in a hands-on workshop."
-        }
+        },
+        "state": "SC",
+        "town": "Greenville"
       },
       "lat": 34.85135,
       "lng": -82.39849
@@ -91,13 +93,15 @@
         "key": "robskiln.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explains that the anagama kiln is fired by a community of artists who work in shifts and welcomes others to participate in the process.",
+        "why": "The text states 'It is fired 3-4 times a year by a community of artists' and describes a detailed process for how people can 'Get Involved' including glazing, wadding, loading, and stoking shifts, indicating public participation in wood-fired anagama kiln firings.",
         "types": {
-          "wood": "Rob’s FireSong Anagama Kiln is located in Pendleton, South Carolina."
-        }
+          "wood": "It is fired 3-4 times a year by a community of artists who work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a wood fired kiln can make."
+        },
+        "state": "SC",
+        "town": "Pendleton"
       },
       "lat": 34.65081,
       "lng": -82.78207
@@ -140,54 +144,17 @@
         "key": "artfieldssc.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly mentions a 3-day workshop on soda firing that participants can join.",
-        "types": {
-          "soda": "In this 3-day workshop, Alexander Thierry will share his vast knowledge of soda firing specifically at mid-range temperatures."
-        }
+        "verdict": "unclear",
+        "why": "The search snippet mentions a soda firing workshop open to participants, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "lat": 32.77804,
-      "lng": -79.93304
-    },
-    {
-      "id": "hollowed-earth-pottery",
-      "org": "Hollowed Earth Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Greenville",
-      "city": "Greenville",
-      "urls": [
-        "https://www.hollowedearthpottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Greenville, South Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.hollowedearthpottery.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "hollowedearthpottery.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
-      },
-      "weak": true,
-      "lat": 34.85135,
-      "lng": -82.39849
+      "lng": -79.93304,
+      "weak": true
     },
     {
       "id": "hernando-arts",
@@ -217,100 +184,15 @@
         "key": "hernandoarts.org"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions a pit firing workshop, but the actual page text provided is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
-    },
-    {
-      "id": "ceramic-central-inc-the-creative-palette-studio",
-      "org": "Ceramic Central Inc & The Creative Palette Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Charleston",
-      "city": "Charleston",
-      "urls": [
-        "https://www.superpages.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Charleston, South Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.superpages.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Ceramic Central Inc & The Creative Palette Studio is the only full-service \"paint your own pottery\" studio in the Charleston area offering: * Pottery Wheels * Clay Hand-Building * Glass Fusion * Mosaics * Slip-Casting * Raku Firing*Classes* Parties",
-        "url": "https://www.superpages.com/moncks-corner-sc/bpp/ceramic-central-inc-the-creative-palette-studio-5782191",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "superpages.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
-        "types": {}
-      },
-      "weak": true,
-      "lat": 32.78844,
-      "lng": -79.93993
-    },
-    {
-      "id": "the-william-felton-school-of-crafts",
-      "org": "The William Felton School of Crafts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "greenville",
-      "city": "greenville",
-      "urls": [
-        "https://www.williamfeltonschool.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "greenville, South Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.williamfeltonschool.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "williamfeltonschool.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text shows that members of the public can sign up for an adult raku class where all students participate in the alternative firing process.",
-        "types": {
-          "raku": "FALL 2026 WEDNESDAY EVENING ADULT RAKU CLASS 6:30 PM TO 9:00PM OCTOBER 14 - DEC 2"
-        }
-      },
-      "lat": 34.85135,
-      "lng": -82.39849
     },
     {
       "id": "hilton-head-pottery",
@@ -350,11 +232,13 @@
         "key": "hiltonheadpottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, so there is no information to verify public participation or firing methods.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippet mentions raku and alternative firing methods, but the actual page text provided is empty, so public access cannot be verified from the text itself.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     }
@@ -375,6 +259,18 @@
     {
       "id": "south-carolina-etv",
       "why": "Second check (gemini-3.1-flash-lite): The text describes a television segment about a group of potters but does not offer any workshops, rentals, or services for the public to participate in a firing. (2026-10-07)"
+    },
+    {
+      "id": "hollowed-earth-pottery",
+      "why": "Second check (gemma4-local): The provided text does not contain information about public participation in non-electric ceramic firings. (2026-10-07)"
+    },
+    {
+      "id": "the-william-felton-school-of-crafts",
+      "why": "Second check (gemma4-local): The text repeatedly mentions that students are required to participate in the firing process or that firings are conducted at the discretion of the studio tech, and it mentions no guests will be allowed in the studio. (2026-10-07)"
+    },
+    {
+      "id": "ceramic-central-inc-the-creative-palette-studio",
+      "why": "Second check (claude-haiku-4.5): The text describes a paint-your-own pottery studio with raku firing mentioned only as a service offering, but provides no evidence that outsiders can book or participate in raku firings; the studio's primary business model is paint-your-own pottery. (2026-10-07)"
     }
   ]
 }

@@ -59,8 +59,8 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "wood",
-        "soda"
+        "soda",
+        "wood"
       ],
       "region": "Grand Rapids",
       "city": "Grand Rapids",
@@ -81,8 +81,8 @@
         "url": "https://potterylanegr.com/light-it-up",
         "types": [
           "raku",
-          "wood",
-          "soda"
+          "soda",
+          "wood"
         ],
         "checked": "2026-10-06"
       },
@@ -95,15 +95,17 @@
       "lat": 42.96324,
       "lng": -85.66786,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly advertises public workshops and classes for raku, soda, and wood firings that outsiders can sign up for and participate in.",
+        "why": "The text shows outsiders can join raku, soda, and wood firing workshops and classes via registration, with pricing listed for public participation.",
         "types": {
           "raku": "Raku pottery is the technique of taking pottery out of a kiln while it is still glowing orange and hot, and placing it in a barrel of combustibles, essentially lighting the pottery on fire.",
-          "wood": "CONE 10 WOOD FIRING EXPERIENCE — $35",
-          "soda": "CONE 10 SODA FIRING EXPERIENCE — $35"
-        }
+          "soda": "CONE 10 SODA FIRING EXPERIENCE — $35",
+          "wood": "CONE 10 WOOD FIRING EXPERIENCE — $35"
+        },
+        "state": "MI",
+        "town": "Grand Rapids"
       }
     },
     {
@@ -146,12 +148,16 @@
       "lat": 42.96324,
       "lng": -85.66786,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions wood fire ceramics in a snippet but does not provide details on whether the public can sign up for or participate in such a firing.",
-        "types": {},
-        "street": "3 Leonard NE Grand Rapids, MI, USA"
+        "why": "The site mentions 'wood fire ceramics' and 'ceramic firing events' but provides no details about public access, booking, or participation in actual firings.",
+        "types": {
+          "wood": "Explore our wood fire ceramics and pottery"
+        },
+        "state": "MI",
+        "town": "Grand Rapids",
+        "street": "3 Leonard NE"
       },
       "weak": true
     },
@@ -199,15 +205,17 @@
       "lat": 42.29171,
       "lng": -85.58723,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text offers classes open for enrollment that include soda, raku, sagger, and pit firings.",
+        "why": "The text shows that outsiders can enroll in multiple non-electric ceramic firing classes including soda firing, raku firing, pit firing, and sagger firings through the Kirk Newman Art School at Kalamazoo Institute of Arts.",
         "types": {
-          "soda": "Learn the history of soda and salt firing and allow it to spark a new direction in your clay work.",
+          "soda": "Explore a popular approach to firing your work in a high-temperature soda kiln.",
           "raku": "Pulling hot pots from the kiln and seeing results within minutes describes the excitement of raku firing.",
           "pit_barrel_saggar": "Finishing techniques will include burnishing, pit firing, and high firing."
         },
+        "state": "MI",
+        "town": "Kalamazoo",
         "street": "314 S. Park St."
       }
     },
@@ -251,13 +259,15 @@
       "lat": 42.39282,
       "lng": -83.04964,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The school offers a free, public wood-fire workshop where participants can make items to fire in their wood kiln and assist with the firing process.",
+        "why": "The text explicitly offers free, public wood-fire workshops with no sign-up required, open to the public, where participants can join firing events.",
         "types": {
-          "wood": "Three-part free, public wood-fire workshop at Ceramics School"
+          "wood": "Fire the wood kiln! We will be firing the kiln all day with all of our ceramics in it!"
         },
+        "state": "MI",
+        "town": "Hamtramck",
         "street": "2692 Carpenter Ave."
       }
     },
@@ -301,13 +311,15 @@
       "lat": 42.58698,
       "lng": -82.92,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The page allows participants to sign up for a Raku firing course via an 'Add To Cart' option.",
+        "why": "The text describes a Raku Firing Cycles course where participants can fire their pre-event glazed pottery under faculty direction, indicating public access via a workshop/class.",
         "types": {
-          "raku": "Part two of a two-part series on the ancient Japanese pottery technique Raku."
+          "raku": "Part two of a two-part series on the ancient Japanese pottery technique Raku. Participants will fire their pre-event glazed pottery in cycles under the direction of Fine Arts faculty."
         },
+        "state": "MI",
+        "town": "Clinton Township",
         "street": "44575 Garfield Road"
       }
     },
@@ -318,7 +330,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "raku",
+        "pit_barrel_saggar"
       ],
       "region": "Ann Arbor",
       "city": "Ann Arbor",
@@ -338,7 +351,8 @@
         "quote": "REGISTRATION IS OPEN! Join us on Saturday, October 12 and Sunday, October 13. 10:00am – 6:00pm for a raku workshop with Jane White and Susan Salmaron.",
         "url": "https://www.pottersguild.net/workshops",
         "types": [
-          "raku"
+          "raku",
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
       },
@@ -351,13 +365,16 @@
       "lat": 42.28137,
       "lng": -83.74846,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows that the public can register and pay for hands-on raku workshops that include actual raku firings.",
+        "why": "The page offers open registration for hands-on raku and foil saggar firing workshops open to the public at $150 per person.",
         "types": {
-          "raku": "Through lectures and firings, participants will identify variables that influence results of raku firings."
+          "raku": "Join us on Saturday July 26 and Sunday July 27 from 10am to 6pm for a raku workshop with Jane White and Susan Salmaron.",
+          "pit_barrel_saggar": "Through combination of lecture and firings, participants will identify variables that influence results of raku and saggar firings."
         },
+        "state": "MI",
+        "town": "Ann Arbor",
         "street": "201 Hill Street"
       }
     },
@@ -368,7 +385,9 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "soda"
+        "soda",
+        "raku",
+        "gas_reduction"
       ],
       "region": "Ann Arbor",
       "city": "Ann Arbor",
@@ -388,7 +407,9 @@
         "quote": "We provide exhibition opportunities for our artists whose works are professionally developed.",
         "url": "https://www.youristpottery.com/the-studio",
         "types": [
-          "soda"
+          "soda",
+          "raku",
+          "gas_reduction"
         ],
         "checked": "2026-10-06"
       },
@@ -401,13 +422,17 @@
       "lat": 42.28137,
       "lng": -83.74846,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text shows the studio offers classes and atmospheric soda firings that outsiders can register for, alongside community workspace options.",
+        "why": "The text explicitly lists classes and workshops available for registration, including 'Atmospheric Soda Firing' and mentions 'Raku firings' and 'Atmospheric soda firings' as equipment/services offered to the community studio workspace.",
         "types": {
-          "soda": "There's still time to register for this semester's classes, including two: Atmospheric Soda Firing and Designing Your Surface."
+          "soda": "Atmospheric Soda Firing",
+          "raku": "Raku firings",
+          "gas_reduction": "Cone 9/10 reduction firings"
         },
+        "state": "MI",
+        "town": "Ann Arbor",
         "street": "6087 Jackson Road"
       }
     },
@@ -451,11 +476,13 @@
       "lat": 42.48948,
       "lng": -83.14465,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The studio offers one-day workshops and classes for Raku pottery that are open to the public.",
-        "types": {}
+        "why": "The text states that raku pottery classes are available to the public through enrollment, with monthly firings led by kiln techs, and one-day workshops listed on their class calendar.",
+        "types": {},
+        "state": "MI",
+        "town": "Royal Oak"
       },
       "weak": true
     },
@@ -499,14 +526,16 @@
       "lat": 44.76065,
       "lng": -85.6166,
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text offers a Raku workshop open to the public where outsiders can join a non-electric ceramic firing.",
+        "why": "The text explicitly offers a FALL Raku Workshop for $150 per student with no experience required, open to the public for registration, consisting of building, glazing, and raku firing days.",
         "types": {
-          "raku": "FALL Raku Workshop:$150 per student."
+          "raku": "This workshop consists of one building day, one glaze day and one Raku firing experience."
         },
-        "street": "1465 Barlow Street"
+        "state": "MI",
+        "town": "Traverse City",
+        "street": "1465 Barlow Street, Traverse City Michigan 49686"
       }
     },
     {
@@ -549,11 +578,15 @@
       "lat": 42.2431,
       "lng": -84.75303,
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "unclear",
-        "why": "The text mentions an Anagama Kiln associated with Ken Shenstone Ceramic Studio but provides no information on whether the public can participate in firings or how to book them.",
-        "types": {}
+        "why": "The text mentions Ken Shenstone Ceramic Studio and Anagama Kiln but provides no details about public access to firings, workshops, or how to participate.",
+        "types": {
+          "wood": "Ken Shenstone Ceramic Studio and Anagama Kiln"
+        },
+        "state": "MI",
+        "town": "Albion"
       },
       "weak": true
     }

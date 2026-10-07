@@ -1,42 +1,52 @@
-# Spot check 2026-10-07: 18/40 flagged
+# Spot check 2026-10-07: 11/50 flagged
 
-ok    IN Beale Pottery | 200 | missing: - | state on page: true
-ok    WV Rainwater Pottery | 200 | missing: - | state on page: true
-CHECK KY KJones Pottery | 200 | missing: - | state on page: false
-ok    CA John Dix | 200 | missing: - | state on page: true
-ok    DC Joe Hicks Ceramics | 200 | missing: - | state on page: true
-ok    MI Ken Shenstone Ceramic Studio | 200 | missing: - | state on page: true
-ok    MA Mudflat | 200 | missing: - | state on page: true
-CHECK LA Clemson Art Department | 200 | missing: - | state on page: false
-ok    CA Ceramic Heights | 200 | missing: - | state on page: true
-CHECK IL Clay & Company | 200 | missing: raku | state on page: false
-CHECK AR Pottery Mill | 200 | missing: raku | state on page: false
-ok    NY Tony Moore Wood-Fire Kiln / Garrison Art Center | 200 | missing: - | state on page: true
-CHECK IL Salt Creek Pottery | 200 | missing: wood,salt | state on page: true
-CHECK MD District Clay Center | 429 | missing: raku,pit_barrel_saggar | state on page: false
-CHECK KY Warehome Studios | 200 | missing: - | state on page: false
+CHECK NC Fat Cat Pottery | 200 | missing: pit_barrel_saggar | state on page: true
+CHECK FL UWF Department of Art & Design | 200 | missing: raku | state on page: true
+ok    NJ Toshiko Takaezu Ceramic Studios | 200 | missing: - | state on page: true
+ok    NY The Potter's Wheel | 200 | missing: - | state on page: true
+CHECK MN NEMAA | 403 | missing: raku,soda | state on page: false
+ok    WI Ceramic Review | 200 | missing: - | state on page: true
+ok    GA Atlanta Clay Works | 200 | missing: - | state on page: true
+ok    KS House of Clay | 200 | missing: - | state on page: true
+CHECK IA Kunzler Studios | 200 | missing: - | state on page: false
+ok    OK OKC Pottery Studio | 200 | missing: - | state on page: true
+ok    NC Wood Song Pottery | 200 | missing: - | state on page: true
+ok    OR Oregon Coast School of Art | 200 | missing: - | state on page: true
+ok    IN Fire Arts, Inc. | 200 | missing: - | state on page: true
+ok    MI Ceramics School | 200 | missing: - | state on page: true
+ok    NY The Pottery Studio | 200 | missing: - | state on page: true
+ok    OH Yellow Springs raku day / John Bryan Community Pottery | 200 | missing: - | state on page: true
 ok    MO Artistree Pottery | 200 | missing: - | state on page: true
-ok    CA American Museum of Ceramic Art (AMOCA) | 200 | missing: - | state on page: true
-CHECK AK Homer Hai Studio | 200 | missing: raku | state on page: false
-CHECK MS Dogwood Ceramic Supply | 403 | missing: raku | state on page: false
-ok    NC AVL Clay | 200 | missing: - | state on page: true
-ok    AK Lisa Wood | 200 | missing: - | state on page: true
-CHECK NH timisaacpottery | 200 | missing: - | state on page: false
-ok    NJ Jersey Clay Society | 200 | missing: - | state on page: true
-CHECK AL Department of Art & Art History | 200 | missing: - | state on page: false
-CHECK AL Montgomery Pottery | 200 | missing: - | state on page: false
-ok    AL The Mad Pottery | 200 | missing: - | state on page: true
-ok    VA Bradley B Pottery | 200 | missing: - | state on page: true
-CHECK MD Virgin Valley Artists Association | 403 | missing: - | state on page: false
-ok    WA Tacoma Clay | 200 | missing: - | state on page: true
-CHECK AL Shelby County Arts Council | 200 | missing: raku | state on page: true
-CHECK MA Kiln Cambridge | 200 | missing: gas_reduction | state on page: false
-ok    WA The Clay Connection | 200 | missing: - | state on page: true
-ok    CT Creative Arts Workshop | 200 | missing: - | state on page: true
-CHECK NE Bone Creek Museum of Agrarian Art | 403 | missing: raku | state on page: false
-CHECK IL Chicago Ceramic Center | 200 | missing: gas_reduction | state on page: true
-CHECK NC Delores Pottery & Studios | 404 | missing: - | state on page: true
-ok    AR Stephen Driver | 200 | missing: - | state on page: true
-ok    WI Art on the Town | 200 | missing: - | state on page: true
-ok    NH New Hampshire Potters Guild | 200 | missing: - | state on page: true
-ok    CT vicentegarciaart | 200 | missing: - | state on page: true
+ok    MA Worcester Center for Crafts | 200 | missing: - | state on page: true
+CHECK MT theclaystudioofmissoula | 200 | missing: wood | state on page: true
+ok    MA LexArt | 200 | missing: - | state on page: true
+ok    VA Academy Center of the Arts | 200 | missing: - | state on page: true
+ok    NM Museum of New Mexico Foundation | 200 | missing: - | state on page: true
+ok    ME Coastal Maine Raku & Pit Firing | 200 | missing: - | state on page: true
+ok    NM Taos Ceramics Center | 200 | missing: - | state on page: true
+CHECK NC Rising Sun Pottery | ECONNREFUSED | missing: - | state on page: true
+ok    CA Common Clay Space (Miki Shim) | 200 | missing: - | state on page: true
+ok    AL Athens State University | 200 | missing: - | state on page: true
+CHECK NC The Bascom | 200 | missing: soda | state on page: true
+ok    CA CLAYFOLK Studio | 200 | missing: - | state on page: true
+ok    ND MonDak Heritage Center | 200 | missing: - | state on page: true
+CHECK OR Clay Space | 200 | missing: raku | state on page: true
+ok    CA Kickwheel Sonoma | 200 | missing: - | state on page: true
+ok    GA Spruill Center for the Arts | 200 | missing: - | state on page: true
+ok    CT decorhint | 200 | missing: - | state on page: true
+CHECK UT Logan Artists Association | 200 | missing: - | state on page: false
+ok    NY Craigardan | 200 | missing: - | state on page: true
+CHECK MN The Workshop Mpls | 200 | missing: soda,gas_reduction | state on page: false
+ok    MD VisArts | 200 | missing: - | state on page: true
+ok    TX Eye of the Dog Art Center | 200 | missing: - | state on page: true
+ok    GA Annette Howell Turner Center for the Arts | 200 | missing: - | state on page: true
+ok    CT Lakeside Pottery | 200 | missing: - | state on page: true
+ok    WI RAM Wustum | 200 | missing: - | state on page: true
+ok    NC Raku workshop, Leland | 200 | missing: - | state on page: true
+ok    NY Studio Sales Pottery | 200 | missing: - | state on page: true
+ok    CA Claytivity Pottery Studio | 200 | missing: - | state on page: true
+ok    NM Paseo Pottery | 200 | missing: - | state on page: true
+ok    WI Bethel Horizons Foundation Inc | 200 | missing: - | state on page: true
+CHECK WI Artisan Center | 200 | missing: pit_barrel_saggar | state on page: true
+ok    IA Arts + Culture Alliance | 200 | missing: - | state on page: true
+ok    MO Back Door Pottery | 200 | missing: - | state on page: true

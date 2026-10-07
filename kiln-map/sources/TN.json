@@ -54,11 +54,15 @@
         "key": "alewinepottery.net"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text explicitly offers a Raku Firing Experience that is open to individuals, couples, families, and small groups with no prior experience needed.",
-        "types": {},
+        "why": "The text describes a Raku Firing Experience open to the public with no prior experience needed, located at a specific address in Gatlinburg, TN.",
+        "types": {
+          "raku": "due to the nature of the Raku firing process, Raku pottery is porous and not watertight"
+        },
+        "state": "TN",
+        "town": "Gatlinburg",
         "street": "623 Glades Road"
       },
       "weak": true,
@@ -103,16 +107,19 @@
         "key": "classes.mightymud.com"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states that Mighty Mud offers one-night group event classes including Raku that are open for group events, date nights, or friends.",
+        "verdict": "unclear",
+        "why": "The text mentions Raku classes and one-night events open to the public, but does not explicitly state whether outsiders can participate in an actual raku firing or only in wheel-throwing classes.",
         "types": {
-          "raku": "These classes include Raku, ‘Wine & Wheel’, ‘Cup, Bowl & Plate’, ‘Mug Makers’, and ‘Experience the Wheel’."
-        }
+          "raku": "These classes include Raku, 'Wine & Wheel', 'Cup, Bowl & Plate', 'Mug Makers', and 'Experience the Wheel'."
+        },
+        "state": "",
+        "town": ""
       },
       "lat": 35.96039,
-      "lng": -83.92103
+      "lng": -83.92103,
+      "weak": true
     },
     {
       "id": "mid-south-ceramics",
@@ -142,11 +149,13 @@
         "key": "midsouthceramics.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention a public firing service and raku ceramics, but the actual page text is empty, so the specific firing types and public access details cannot be verified from the page itself.",
+        "types": {},
+        "state": "TN",
+        "town": "Nashville"
       },
       "weak": true,
       "lat": 36.16228,
@@ -190,11 +199,13 @@
         "key": "commongracepottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty, so there is no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The search snippets mention raku pottery and pottery classes/workshops, but the actual page text is empty, so it cannot be verified whether outsiders can participate in raku firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 36.16228,
@@ -238,16 +249,19 @@
         "key": "blogs.tntech.edu"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text invites the public to check out a wide array of workshops and provides a link to register for the soda-fired ceramics workshop.",
+        "verdict": "unclear",
+        "why": "The text describes a soda firing workshop but does not explicitly state whether non-students or non-employees can register, only that employees and students receive a discount.",
         "types": {
           "soda": "Learn about firing earthenware in the soda kiln."
-        }
+        },
+        "state": "TN",
+        "town": "Smithville"
       },
       "lat": 35.96062,
-      "lng": -85.81415
+      "lng": -85.81415,
+      "weak": true
     },
     {
       "id": "studio-s-pottery-and-galleries",
@@ -289,11 +303,16 @@
         "key": "studiospottery.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
-        "types": {}
+        "verdict": "unclear",
+        "why": "The text mentions raku and pit-fired clay as artworks Studio S creates, and references pottery classes with firing included, but does not explicitly state whether the public can book or participate in non-electric firings.",
+        "types": {
+          "raku": "raku* and pit-fired* clay",
+          "pit_barrel_saggar": "raku* and pit-fired* clay"
+        },
+        "state": "TN",
+        "town": "Murfreesboro"
       },
       "weak": true,
       "lat": 35.84604,
@@ -327,11 +346,13 @@
         "key": "bookwhen.com"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "no",
-        "why": "The page text is empty and provides no details about public non-electric ceramic firings.",
-        "types": {}
+        "why": "The page text is empty; only search snippets are provided, which reference a workshop but contain no actual page content to verify public access or location details.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true
     },
@@ -373,66 +394,18 @@
         "key": "themakercity.org"
       },
       "verify": {
-        "by": "gemini-3.1-flash-lite",
+        "by": "claude-haiku-4.5",
         "date": "2026-10-07",
         "verdict": "yes",
-        "why": "The text states that beginners can try the Raku process through one-time Friday evening classes.",
+        "why": "The text explicitly states beginners can try the Raku process at Mighty Mud, which offers one-time Friday evening classes and other classes open to folks who want to participate.",
         "types": {
           "raku": "Beginners can try the Raku process or make a cup, bowl and plate on the pottery wheel."
-        }
+        },
+        "state": "TN",
+        "town": "Knoxville"
       },
       "lat": 35.96039,
       "lng": -83.92103
-    },
-    {
-      "id": "the-pottery-place-of-chattanooga",
-      "org": "The Pottery Place of Chattanooga",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
-      ],
-      "region": "Chattanooga",
-      "city": "Chattanooga",
-      "urls": [
-        "https://www.thepotteryplacechattanooga.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Chattanooga, Tennessee",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.thepotteryplacechattanooga.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Handmade pottery by Robert Mohler specializing in ancient firing methods: Pitfire, Raku, Naked Raku, Ferric Chloride, and Dragon's Breath techniques.",
-        "url": "https://www.thepotteryplacechattanooga.com/faq",
-        "types": [
-          "raku",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "thepotteryplacechattanooga.com"
-      },
-      "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The provided page text is empty and contains no information about non-electric ceramic firings or public access.",
-        "types": {}
-      },
-      "weak": true,
-      "lat": 35.04572,
-      "lng": -85.30949
     }
   ],
   "_removed": [
@@ -459,6 +432,10 @@
     {
       "id": "east-tennessee-state-university",
       "why": "Second check (gemini-3.5-flash-lite): The page describes university courses and student facilities for enrolled students only, with no mention of public access, rentals, or workshops for outsiders. (2026-10-07)"
+    },
+    {
+      "id": "the-pottery-place-of-chattanooga",
+      "why": "Second check (gemma4-local): The provided text does not contain any information about the public taking part in a non-electric ceramic firing. (2026-10-07)"
     }
   ]
 }
