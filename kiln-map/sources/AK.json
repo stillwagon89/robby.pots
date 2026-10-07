@@ -49,7 +49,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "east-creek-art",
@@ -99,47 +109,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
-    },
-    {
-      "id": "copper-kiln-pottery",
-      "org": "Copper Kiln Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Fairbanks",
-      "city": "Fairbanks",
-      "urls": [
-        "https://www.copperkilnpottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fairbanks, Alaska",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.copperkilnpottery.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "copperkilnpottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The text describes the artist's personal soda firing experiments and studio locations but contains no information about public access to workshops, classes, memberships, rentals, or firing services.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
       "weak": true,
-      "lat": 64.83785,
-      "lng": -147.71668
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "midnight-potter-studios",
@@ -191,7 +171,15 @@
         "street": "5861 Arctic Blvd. Ste. D"
       },
       "lat": 61.21631,
-      "lng": -149.89485
+      "lng": -149.89485,
+      "located": {
+        "state": "AK",
+        "town": "Anchorage",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "homer-hai-studio",
@@ -229,7 +217,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "cynthia-morelli-s",
@@ -279,7 +277,17 @@
       },
       "weak": true,
       "lat": 59.64541,
-      "lng": -151.54456
+      "lng": -151.54456,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -294,6 +302,10 @@
     {
       "id": "lisa-wood",
       "why": "Second check (gemma-4-31b-it): The text describes the artist's personal firing process but does not mention any way for the public to participate. (2026-10-07)"
+    },
+    {
+      "id": "copper-kiln-pottery",
+      "why": "Two models agree: This is an individual potter's studio site that sells work and offers studio tours and custom orders; the soda firing mentioned is the potter's own experiment with a friend, with no public sign-up for any non-electric firing. (2026-10-07)"
     }
   ]
 }

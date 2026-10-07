@@ -53,7 +53,15 @@
         },
         "state": "OK",
         "town": "Oklahoma City"
-      }
+      },
+      "located": {
+        "state": "OK",
+        "town": "Oklahoma City",
+        "score": 30,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "contemporary-arts-of-tulsa-c-a-t",
@@ -93,7 +101,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "downtown-tulsa",
@@ -144,7 +156,15 @@
         },
         "state": "OK",
         "town": "Tulsa"
-      }
+      },
+      "located": {
+        "state": "OK",
+        "town": "Tulsa",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "paseo-pottery-ok",
@@ -192,7 +212,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "oklahoma-contemporary",
@@ -204,15 +228,15 @@
         "raku",
         "pit_barrel_saggar"
       ],
-      "region": "Oklahoma",
-      "city": null,
+      "region": "Oklahoma City",
+      "city": "Oklahoma City",
       "urls": [
         "https://oklahomacontemporary.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Oklahoma City, Oklahoma",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://oklahomacontemporary.org/"
       },
@@ -245,7 +269,14 @@
         "state": "OK",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "OK",
+        "town": "Oklahoma City",
+        "score": 12,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "riverwood-pottery",
@@ -295,7 +326,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "waterworks-art-center",
@@ -307,15 +342,15 @@
         "raku",
         "pit_barrel_saggar"
       ],
-      "region": "Oklahoma",
-      "city": null,
+      "region": "Tulsa",
+      "city": "Tulsa",
       "urls": [
         "https://www.waterworksartcenter.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Tulsa, Oklahoma",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.waterworksartcenter.com/"
       },
@@ -348,7 +383,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "OK",
+        "town": "Tulsa",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "lara-o-keefe-pottery-shop",
@@ -396,7 +438,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "3rd-street-clayworks",
@@ -446,7 +492,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "OK",
+        "town": "Tulsa",
+        "score": 2,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "oil-clay-studio",
@@ -501,7 +554,14 @@
         "state": "OK",
         "town": "Norman"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "OK",
+        "town": "Norman",
+        "score": 5,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "oklahoma-state-university",
@@ -553,7 +613,11 @@
         "state": "OK",
         "town": "Stillwater"
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

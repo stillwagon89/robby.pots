@@ -103,7 +103,12 @@
         "town": "Tracys Landing"
       },
       "lat": 38.78012,
-      "lng": -76.59579
+      "lng": -76.59579,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "madewithclay",
@@ -154,7 +159,12 @@
         "town": "Solomons"
       },
       "lat": 38.33504,
-      "lng": -76.46257
+      "lng": -76.46257,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "the-potters-guild-of-baltimore",
@@ -209,7 +219,14 @@
       },
       "weak": true,
       "lat": 39.29088,
-      "lng": -76.61076
+      "lng": -76.61076,
+      "located": {
+        "state": "MD",
+        "town": "Baltimore",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "washington-street-studios",
@@ -259,7 +276,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "district-clay-center-md",
@@ -309,7 +330,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "fox-haven-organic-farm-learning-center",
@@ -320,14 +345,14 @@
       "firing_types_guess": [
         "pit_barrel_saggar"
       ],
-      "region": "Frederick",
-      "city": "Frederick",
+      "region": "Jefferson",
+      "city": "Jefferson",
       "urls": [
         "https://foxhavenfarm.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Frederick, Maryland",
+      "geocode": "Jefferson, Maryland",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://foxhavenfarm.org/"
@@ -357,9 +382,14 @@
         "state": "MD",
         "town": "Frederick"
       },
-      "lat": 39.41578,
-      "lng": -77.41276,
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "MD",
+        "town": "Jefferson",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "baltimore-clayworks-md",
@@ -411,7 +441,11 @@
       },
       "weak": true,
       "lat": 39.29088,
-      "lng": -76.61076
+      "lng": -76.61076,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "annapolis-moms",
@@ -422,14 +456,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Annapolis",
-      "city": "Annapolis",
+      "region": "Gambrills",
+      "city": "Gambrills",
       "urls": [
         "https://annapolismomsmedia.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Annapolis, Maryland",
+      "geocode": "Gambrills, Maryland",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://annapolismomsmedia.com/"
@@ -460,8 +494,13 @@
         "town": ""
       },
       "weak": true,
-      "lat": 38.97864,
-      "lng": -76.49279
+      "located": {
+        "state": "MD",
+        "town": "Gambrills",
+        "score": 5,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "visarts-md",
@@ -512,7 +551,72 @@
         "town": "Rockville"
       },
       "lat": 39.0818,
-      "lng": -77.15168
+      "lng": -77.15168,
+      "located": {
+        "state": "MD",
+        "town": "Rockville",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
+    },
+    {
+      "id": "glen-echo-park",
+      "org": "Glen Echo Park",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Boulevard Glen Echo",
+      "city": "Boulevard Glen Echo",
+      "urls": [
+        "https://www.glenechopottery.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Boulevard Glen Echo, Maryland",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.glenechopottery.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Students' pieces are fired to cone 10 in a gas reduction kiln.",
+        "url": "https://www.glenechopottery.org/classes.html",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "glenechopottery.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states classes are offered for all levels and students' pieces are fired in a gas reduction kiln, with public registration available through Glen Echo Park's website.",
+        "types": {
+          "gas_reduction": "Students' pieces are fired to cone 10 in a gas reduction kiln."
+        },
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "state": "MD",
+        "town": "Boulevard Glen Echo",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": true
     }
   ],
   "_removed": [

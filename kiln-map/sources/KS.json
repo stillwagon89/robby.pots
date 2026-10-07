@@ -51,7 +51,12 @@
         "state": "KS",
         "town": "Matfield Green",
         "street": "Highway KS-177"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "camp-singers",
@@ -89,60 +94,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
-    },
-    {
-      "id": "community-arts-center-ks",
-      "org": "Community Arts Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "raku"
-      ],
-      "region": "Kansas",
-      "city": null,
-      "urls": [
-        "https://communityartscenter.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://communityartscenter.org/"
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "SHORT CLASS: Raku and Alternative Firings (afternoon) with Laura Demme 2:00pm-5:00pm, 9/23/26-12/2/26 (10 weeks) *NO CLASS 11/25/26",
-        "url": "https://communityartscenter.org/schedule-fall-2026/",
-        "types": [
-          "wood",
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "communityartscenter.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text lists 'Wood Kiln Firing - September 2026' and 'Wood Kiln Firing - November 2026' as special kiln firings open for registration, and classes like 'Making Work for the Wood-Fired Kiln' and 'SHORT CLASS: Raku and Alternative Firings' indicate public can participate.",
-        "types": {
-          "wood": "Wood Kiln Firing - September 2026",
-          "raku": "SHORT CLASS: Raku and Alternative Firings (afternoon) with Laura Demme"
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "house-of-clay-ks",
@@ -194,6 +156,19 @@
         "state": "KS",
         "town": "Overland Park",
         "street": "7811 Marty St, Overland Park, KS 66204"
+      },
+      "located": {
+        "state": "IL",
+        "town": "Chicago",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
       }
     },
     {
@@ -244,7 +219,16 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "house-of-clay",
@@ -294,10 +278,22 @@
         "state": "KS",
         "town": "Overland Park"
       },
-      "weak": true,
+      "weak": false,
       "lat": 38.97425,
-      "lng": -94.68517
+      "lng": -94.68517,
+      "located": {
+        "state": "KS",
+        "town": "Overland Park",
+        "score": 22,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
-  "_removed": []
+  "_removed": [
+    {
+      "id": "community-arts-center-ks",
+      "why": "Its own pages give an address in PA (Wallingford), not KS. Moved. (2026-10-07)"
+    }
+  ]
 }

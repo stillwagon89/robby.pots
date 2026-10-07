@@ -65,7 +65,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "art-source-gallery",
@@ -106,7 +116,17 @@
       },
       "lat": 43.61662,
       "lng": -116.20089,
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "ceramica-arthouse",
@@ -117,14 +137,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Boise",
-      "city": "Boise",
+      "region": "Vista Avenue Boise",
+      "city": "Vista Avenue Boise",
       "urls": [
         "https://www.ceramicaboise.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Boise, Idaho",
+      "geocode": "Vista Avenue Boise, Idaho",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.ceramicaboise.com/"
@@ -154,9 +174,20 @@
         "state": "",
         "town": ""
       },
-      "lat": 43.61662,
-      "lng": -116.20089,
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "ID",
+        "town": "Vista Avenue Boise",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "sandpoint-ceramics",
@@ -201,7 +232,17 @@
       },
       "weak": true,
       "lat": 48.27613,
-      "lng": -116.54878
+      "lng": -116.54878,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "boulder-mountain-clayworks",
@@ -253,7 +294,20 @@
       },
       "weak": true,
       "lat": 43.68074,
-      "lng": -114.36366
+      "lng": -114.36366,
+      "located": {
+        "state": "ID",
+        "town": "Ketchum",
+        "score": 18,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

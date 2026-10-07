@@ -84,7 +84,12 @@
         },
         "state": "NY",
         "town": "Germantown"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "alterwork-studios",
@@ -96,14 +101,14 @@
         "raku",
         "pit_barrel_saggar"
       ],
-      "region": "Port Washington",
-      "city": "Port Washington",
+      "region": "Long Island City",
+      "city": "Long Island City",
       "urls": [
         "https://www.alterworkstudios.com/"
       ],
       "notes": "By appointment. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Port Washington, New York",
+      "geocode": "Long Island City, New York",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.alterworkstudios.com/"
@@ -125,8 +130,6 @@
         "date": "2026-10-06",
         "key": "alterworkstudios.com"
       },
-      "lat": 40.8264,
-      "lng": -73.68499,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -139,7 +142,14 @@
         "state": "NY",
         "town": "Port Washington"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "NY",
+        "town": "Long Island City",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "tony-moore-wood-fire-kiln-garrison-art-center",
@@ -191,7 +201,14 @@
         "state": "NY",
         "town": "Cold Spring"
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "NY",
+        "town": "Cold Spring",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "uptown-clay-walton-woodfire-kiln",
@@ -202,14 +219,14 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Walton",
-      "city": "Walton",
+      "region": "New York",
+      "city": "New York",
       "urls": [
         "https://www.uptown-clay.com/"
       ],
       "notes": "Off-grid firing experience. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Walton, New York",
+      "geocode": "New York, New York",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.uptown-clay.com/"
@@ -230,8 +247,6 @@
         "date": "2026-10-06",
         "key": "uptown-clay.com"
       },
-      "lat": 42.16953,
-      "lng": -75.12934,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -242,7 +257,15 @@
         },
         "state": "NY",
         "town": "Walton"
-      }
+      },
+      "located": {
+        "state": "NY",
+        "town": "New York",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "craigardan",
@@ -297,7 +320,12 @@
         "state": "NY",
         "town": "Elizabethtown",
         "street": "9216 New York 9N"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "salem-art-works",
@@ -349,7 +377,15 @@
         "state": "NY",
         "town": "Salem",
         "street": "19 Cary Lane, Salem NY 12865"
-      }
+      },
+      "located": {
+        "state": "NY",
+        "town": "Salem",
+        "score": 14,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "new-prospect-pottery",
@@ -407,7 +443,12 @@
         "state": "NY",
         "town": "Pine Bush",
         "street": "2646 New Prospect Road"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "woodstock-byrdcliffe-guild",
@@ -462,7 +503,12 @@
         "state": "NY",
         "town": "Woodstock",
         "street": "485 Upper Byrdcliffe Rd"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "collective",
@@ -514,7 +560,11 @@
         "state": "NY",
         "town": "Troy"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "studio-sales-pottery",
@@ -565,7 +615,12 @@
         },
         "state": "NY",
         "town": "Avon"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "view-arts-center",
@@ -616,7 +671,15 @@
         },
         "state": "NY",
         "town": "Old Forge"
-      }
+      },
+      "located": {
+        "state": "NY",
+        "town": "Old Forge",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "clayworks-on-columbia-demetria-chappo",
@@ -666,7 +729,11 @@
         "state": "NY",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "artshack-at-camp-singers",
@@ -717,7 +784,12 @@
         },
         "state": "NY",
         "town": "Delancey"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "the-d-amico-institute-of-art",
@@ -769,7 +841,15 @@
         "state": "NY",
         "town": "Amagansett",
         "street": "Napeague Meadow Road, Amagansett"
-      }
+      },
+      "located": {
+        "state": "NY",
+        "town": "Amagansett",
+        "score": 12,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "the-pottery-studio",
@@ -821,7 +901,15 @@
         "state": "NY",
         "town": "Brooklyn",
         "street": "43C 9th Street Brooklyn NY 11215"
-      }
+      },
+      "located": {
+        "state": "CA",
+        "town": "Drive Culver City",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": true
     },
     {
       "id": "makerspace-nyc",
@@ -872,7 +960,12 @@
         },
         "state": "NY",
         "town": "Brooklyn"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "choplet-ceramic-studio",
@@ -924,7 +1017,15 @@
         "state": "NY",
         "town": "Brooklyn",
         "street": "238 Grand St"
-      }
+      },
+      "located": {
+        "state": "NY",
+        "town": "Brooklyn",
+        "score": 14,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "the-potter-s-wheel",
@@ -976,7 +1077,15 @@
         "state": "NY",
         "town": "Kew Gardens",
         "street": "120-33 83rd Avenue, Kew Gardens, NY 11415"
-      }
+      },
+      "located": {
+        "state": "NY",
+        "town": "Kew Gardens",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "brooklyn-clay-industries",
@@ -1027,7 +1136,12 @@
         },
         "state": "NY",
         "town": "Brooklyn"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     }
   ],
   "_removed": [

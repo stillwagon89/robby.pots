@@ -102,7 +102,12 @@
         "state": "GA",
         "town": "Atlanta",
         "street": "42 Howard St SE"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "callanwolde-fine-arts-center",
@@ -157,7 +162,15 @@
         "state": "GA",
         "town": "Atlanta",
         "street": "980 Briarcliff Road NE"
-      }
+      },
+      "located": {
+        "state": "GA",
+        "town": "Atlanta",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "spruill-center-for-the-arts",
@@ -209,7 +222,15 @@
         "state": "GA",
         "town": "Dunwoody",
         "street": "5339 Chamblee Dunwoody Road"
-      }
+      },
+      "located": {
+        "state": "GA",
+        "town": "Dunwoody",
+        "score": 20,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "clayer-co",
@@ -266,7 +287,12 @@
         },
         "state": "GA",
         "town": "Thunderbolt"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "annette-howell-turner-center-for-the-arts",
@@ -277,14 +303,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Valdosta",
-      "city": "Valdosta",
+      "region": "Patterson Street Valdosta",
+      "city": "Patterson Street Valdosta",
       "urls": [
         "https://turnercenter.org/"
       ],
       "notes": "Raku class. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Valdosta, Georgia",
+      "geocode": "Patterson Street Valdosta, Georgia",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://turnercenter.org/"
@@ -305,8 +331,6 @@
         "date": "2026-10-06",
         "key": "turnercenter.org"
       },
-      "lat": 30.8327,
-      "lng": -83.27849,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -318,7 +342,15 @@
         "state": "GA",
         "town": "Valdosta",
         "street": "527 N. Patterson Street"
-      }
+      },
+      "located": {
+        "state": "GA",
+        "town": "Patterson Street Valdosta",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     }
   ],
   "_removed": [

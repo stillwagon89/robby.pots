@@ -47,7 +47,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "SD",
+        "town": "Street Sioux Falls",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "north-dakota-state-university",
@@ -97,7 +104,11 @@
       },
       "weak": true,
       "lat": 46.87723,
-      "lng": -96.78982
+      "lng": -96.78982,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "bismarck-state-college",
@@ -149,58 +160,15 @@
         "street": "1500 Edwards Avenue"
       },
       "lat": 46.80833,
-      "lng": -100.78374
-    },
-    {
-      "id": "mondak-heritage-center",
-      "org": "MonDak Heritage Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Minot",
-      "city": "Minot",
-      "urls": [
-        "https://www.roundupweb.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Minot, North Dakota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.roundupweb.com/"
+      "lng": -100.78374,
+      "located": {
+        "state": "ND",
+        "town": "Bismarck",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
       },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "On Saturday, May 6, Olson will be at the MonDak Heritage Center to teach a free Raku & lace pottery workshop beginning at 11 a.m.",
-        "url": "https://www.roundupweb.com/story/2023/04/26/special-editions/mondak-heritage-center-hosts-linda-olson-exhibition-andamp-ceramics-demonstration/18669.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "roundupweb.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states the MonDak Heritage Center will host a free Raku pottery workshop open to the public where an instructor will demonstrate the Raku firing process.",
-        "types": {
-          "raku": "She will share the workings of an affordable, portable Raku firing setup and demonstrate the Raku process."
-        },
-        "state": "",
-        "town": ""
-      },
-      "lat": 48.23251,
-      "lng": -101.29627
+      "weak": false
     },
     {
       "id": "msu-lifelong-learning-institute",
@@ -240,7 +208,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -255,6 +227,10 @@
     {
       "id": "morean-center-for-clay",
       "why": "Second check (claude-haiku-4.5): page says state is FL, not ND (2026-10-07)"
+    },
+    {
+      "id": "mondak-heritage-center",
+      "why": "Its own pages give an address in MT (Sidney), not ND. Moved. (2026-10-07)"
     }
   ]
 }

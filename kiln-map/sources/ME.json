@@ -87,14 +87,14 @@
         "soda",
         "wood"
       ],
-      "region": "Portland",
-      "city": "Portland",
+      "region": "Free Street Portland",
+      "city": "Free Street Portland",
       "urls": [
         "https://www.creativeportland.com/"
       ],
       "notes": "Dated course. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Portland, Maine",
+      "geocode": "Free Street Portland, Maine",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.creativeportland.com/"
@@ -116,8 +116,6 @@
         "date": "2026-10-06",
         "key": "creativeportland.com"
       },
-      "lat": 43.65736,
-      "lng": -70.25866,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -130,7 +128,15 @@
         "state": "ME",
         "town": "Portland",
         "street": "522 Congress Street"
-      }
+      },
+      "located": {
+        "state": "ME",
+        "town": "Free Street Portland",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "southern-maine-clay-guild",
@@ -186,9 +192,13 @@
         "state": "ME",
         "town": "Eliot"
       },
-      "weak": true,
+      "weak": false,
       "lat": 43.10813,
-      "lng": -70.77764
+      "lng": -70.77764,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "turning-arts-studio",
@@ -239,7 +249,12 @@
         },
         "state": "ME",
         "town": "Bowdoinham"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "coastal-maine-raku-pit-firing",
@@ -294,7 +309,12 @@
         "state": "ME",
         "town": "Lincolnville",
         "street": "34 Beach Road"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "nate-winter-studios",
@@ -345,7 +365,12 @@
         },
         "state": "ME",
         "town": "Windham"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "maine-prairie-studio",
@@ -395,7 +420,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "portland-pottery",
@@ -447,7 +476,15 @@
         "state": "ME",
         "town": "Portland",
         "street": "118 Washington Avenue"
-      }
+      },
+      "located": {
+        "state": "ME",
+        "town": "Portland",
+        "score": 4,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "work-in-progress",
@@ -488,7 +525,11 @@
         "town": "Lisbon",
         "street": "2 Lisbon St"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

@@ -50,7 +50,15 @@
         "town": "New Orleans"
       },
       "lat": 29.95747,
-      "lng": -90.06295
+      "lng": -90.06295,
+      "located": {
+        "state": "LA",
+        "town": "New Orleans",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "nclac",
@@ -61,15 +69,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Louisiana",
-      "city": null,
+      "region": "Ruston",
+      "city": "Ruston",
       "urls": [
         "https://www.nclac.org/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Ruston, Louisiana",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.nclac.org/"
       },
@@ -88,7 +96,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "LA",
+        "town": "Ruston",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "laima-ceramics-la",
@@ -126,7 +141,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "crescent-city-clayworks",
@@ -166,57 +185,11 @@
       },
       "weak": true,
       "lat": 29.95747,
-      "lng": -90.06295
-    },
-    {
-      "id": "smoke-in-the-mountains-pottery",
-      "org": "Smoke in the Mountains Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Louisiana",
-      "city": null,
-      "urls": [
-        "https://smokeinthemountainspottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://smokeinthemountainspottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The kiln can hold over 700 pots, most of which will be brought by potters and students in the region, who along with other volunteers, will work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a real wood fired kiln can make.",
-        "url": "https://smokeinthemountainspottery.com/wood-firing/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "smokeinthemountainspottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text describes a community wood kiln fired 4-5 times per year where potters, students, and volunteers from the region participate in shifts to fire pots, with public opening day events where people gather to unload.",
-        "types": {
-          "wood": "The kiln can hold over 700 pots, most of which will be brought by potters and students in the region, who along with other volunteers, will work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a real wood fired kiln can make."
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true
+      "lng": -90.06295,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "bayou-bend-studio",
@@ -264,7 +237,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "monroe-clayworks",
@@ -312,7 +289,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "ceramic-association-of-la-borne",
@@ -364,7 +345,11 @@
       },
       "lat": 29.92051,
       "lng": -90.37836,
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -379,6 +364,10 @@
     {
       "id": "clemson-art-department",
       "why": "Second check (gemini-3.1-flash-lite): page says state is South Carolina, not LA (2026-10-07)"
+    },
+    {
+      "id": "smoke-in-the-mountains-pottery",
+      "why": "Its own pages give an address in NC (Brasstown), not LA. Moved. (2026-10-07)"
     }
   ]
 }

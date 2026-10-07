@@ -79,7 +79,12 @@
         },
         "state": "MO",
         "town": "Kansas City"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "back-door-pottery",
@@ -131,7 +136,15 @@
         "state": "MO",
         "town": "Kansas City",
         "street": "3922 St John Ave, Kansas City, MO 64123"
-      }
+      },
+      "located": {
+        "state": "MO",
+        "town": "Kansas City",
+        "score": 12,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "kc-clay-guild-mo",
@@ -184,7 +197,11 @@
         "town": "Kansas City",
         "street": "200 West 74th Street, Kansas City, MO 64114"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "munson",
@@ -234,7 +251,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "fire-and-muck-pottery",
@@ -284,7 +305,11 @@
         "state": "MO",
         "town": ""
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "south-broadway-art-project",
@@ -296,14 +321,14 @@
         "raku",
         "pit_barrel_saggar"
       ],
-      "region": "St. Louis",
-      "city": "St. Louis",
+      "region": "Saint Louis",
+      "city": "Saint Louis",
       "urls": [
         "https://southbroadwayartproject.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "St. Louis, Missouri",
+      "geocode": "Saint Louis, Missouri",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://southbroadwayartproject.org/"
@@ -325,8 +350,6 @@
         "date": "2026-10-07",
         "key": "southbroadwayartproject.org"
       },
-      "lat": 38.62541,
-      "lng": -90.19001,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -339,7 +362,15 @@
         "state": "MO",
         "town": "Saint Louis",
         "street": "3816 South Broadway"
-      }
+      },
+      "located": {
+        "state": "MO",
+        "town": "Saint Louis",
+        "score": 7,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "springfield-pottery",
@@ -400,7 +431,11 @@
         "state": "MO",
         "town": "Springfield"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "creava-studio",
@@ -452,7 +487,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "artistree-pottery",
@@ -503,7 +542,15 @@
         },
         "state": "MO",
         "town": "Springfield"
-      }
+      },
+      "located": {
+        "state": "MO",
+        "town": "Springfield",
+        "score": 18,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "missouri-southern-state-university",
@@ -515,15 +562,15 @@
         "raku",
         "gas_reduction"
       ],
-      "region": "Missouri",
-      "city": null,
+      "region": "Joplin",
+      "city": "Joplin",
       "urls": [
         "https://www.mssu.edu/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Joplin, Missouri",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.mssu.edu/"
       },
@@ -556,7 +603,14 @@
         "state": "MO",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "MO",
+        "town": "Joplin",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

@@ -52,7 +52,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "kittery-point-potters-and-pcms",
@@ -100,7 +104,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "rooted-in-clay",
@@ -112,15 +120,15 @@
         "pit_barrel_saggar",
         "raku"
       ],
-      "region": "Rindge",
-      "city": "Rindge",
+      "region": "Winchendon Rd. Rindge",
+      "city": "Winchendon Rd. Rindge",
       "urls": [
         "https://www.rootedinclay.com/"
       ],
       "notes": "By appointment. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Rindge, New Hampshire",
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Winchendon Rd. Rindge, New Hampshire",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.rootedinclay.com/"
       },
@@ -154,8 +162,13 @@
         "town": "Rindge"
       },
       "weak": true,
-      "lat": 42.7512,
-      "lng": -72.0098
+      "located": {
+        "state": "NH",
+        "town": "Winchendon Rd. Rindge",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "the-wheel-house",
@@ -195,9 +208,16 @@
         "state": "NH",
         "town": "Portsmouth"
       },
-      "weak": true,
+      "weak": false,
       "lat": 43.07513,
-      "lng": -70.76018
+      "lng": -70.76018,
+      "located": {
+        "state": "NH",
+        "town": "Portsmouth",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "jonkeenan",
@@ -252,7 +272,11 @@
       },
       "weak": true,
       "lat": 43.42091,
-      "lng": -71.9373
+      "lng": -71.9373,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "nh-potters-guild",
@@ -304,59 +328,11 @@
       },
       "weak": true,
       "lat": 42.90594,
-      "lng": -72.06198
-    },
-    {
-      "id": "truro-center-for-the-arts-at-castle-hill",
-      "org": "Truro Center for the Arts at Castle Hill",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda"
-      ],
-      "region": "New Hampshire",
-      "city": null,
-      "urls": [
-        "https://nhclayproject.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://nhclayproject.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Whether you are an experienced potter or have never handled clay, we have a workshop for you!",
-        "url": "https://nhclayproject.org/the-residency",
-        "types": [
-          "soda",
-          "wood",
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "nhclayproject.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippets mention gas, soda, wood fired and raku kilns and wood firing at Castle Hill, but the actual page text provided is empty, so I cannot verify these claims or confirm public access from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true
+      "lng": -72.06198,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -383,6 +359,10 @@
     {
       "id": "artscenter-nh",
       "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "truro-center-for-the-arts-at-castle-hill",
+      "why": "Its own pages give an address in IN (New Harmony), not NH. Moved. (2026-10-07)"
     }
   ]
 }

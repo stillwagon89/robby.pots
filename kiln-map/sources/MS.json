@@ -80,7 +80,15 @@
         "town": "Biloxi"
       },
       "lat": 30.40076,
-      "lng": -88.88938
+      "lng": -88.88938,
+      "located": {
+        "state": "MS",
+        "town": "Biloxi",
+        "score": 4,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "juliet-bravo-pottery-llc",
@@ -118,7 +126,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "oxford-kilns",
@@ -166,7 +178,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "almonte-potters-guild",
@@ -214,7 +230,11 @@
         "state": "",
         "town": "Almonte"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

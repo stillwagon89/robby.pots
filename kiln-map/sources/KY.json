@@ -75,9 +75,16 @@
         "state": "KY",
         "town": "Danville"
       },
-      "weak": true,
+      "weak": false,
       "lat": 37.64565,
-      "lng": -84.77218
+      "lng": -84.77218,
+      "located": {
+        "state": "KY",
+        "town": "Danville",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "art-center-of-the-bluegrass",
@@ -130,9 +137,16 @@
         "state": "KY",
         "town": "Danville"
       },
-      "weak": true,
+      "weak": false,
       "lat": 37.64565,
-      "lng": -84.77218
+      "lng": -84.77218,
+      "located": {
+        "state": "KY",
+        "town": "Danville",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "ryandurbinceramics",
@@ -184,59 +198,12 @@
         "street": "138 Hope Ln"
       },
       "lat": 37.50788,
-      "lng": -82.81544
-    },
-    {
-      "id": "rickman-pottery",
-      "org": "Rickman Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "gas_reduction"
-      ],
-      "region": "Bowling Green",
-      "city": "Bowling Green",
-      "urls": [
-        "https://www.etsy.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bowling Green, Kentucky",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.etsy.com/"
+      "lng": -82.81544,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "After has many years of throwing and firing stoneware pottery in a large gas fired kiln, Lynn Dee returned to Raku, a more primitive type of firing.",
-        "url": "https://www.etsy.com/shop/RickmanPotteryKY",
-        "types": [
-          "gas_reduction",
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "etsy.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty; only search snippets are provided, and they describe finished pottery products and past practices rather than public access to non-electric ceramic firings.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 36.99292,
-      "lng": -86.44287
+      "weak": false
     },
     {
       "id": "kjones-pottery",
@@ -286,7 +253,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -325,6 +296,10 @@
     {
       "id": "thecuriousforge",
       "why": "Second check (claude-haiku-4.5): page says state is CA, not KY (2026-10-07)"
+    },
+    {
+      "id": "rickman-pottery",
+      "why": "Two models agree: This is an Etsy shop for Rickman Pottery selling handmade ware; the snippets mention gas-fired and raku firing only as the makers' own work, with no public firing workshop, class, rental or service offered. (2026-10-07)"
     }
   ]
 }

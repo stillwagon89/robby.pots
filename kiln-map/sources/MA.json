@@ -141,7 +141,12 @@
         "state": "MA",
         "town": "Needham",
         "street": "31 Thorpe Rd."
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "the-umbrella-arts-center",
@@ -193,7 +198,15 @@
         "state": "MA",
         "town": "Concord",
         "street": "40 Stow Street"
-      }
+      },
+      "located": {
+        "state": "MA",
+        "town": "Concord",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "dewclaw-studios",
@@ -243,7 +256,11 @@
         "state": "MA",
         "town": ""
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "mudflat",
@@ -295,7 +312,12 @@
         "state": "MA",
         "town": "Somerville",
         "street": "81 Broadway"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "ben-eberle-ceramics-karma-kiln",
@@ -346,7 +368,12 @@
         },
         "state": "MA",
         "town": "Conway"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "indigo-fire-pottery-studio",
@@ -397,7 +424,12 @@
         },
         "state": "MA",
         "town": "Watertown"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "lexart",
@@ -452,7 +484,12 @@
         "state": "MA",
         "town": "Lexington",
         "street": "130 Waltham St, Lexington, MA 02421"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "old-school-clay-and-ceramics",
@@ -504,7 +541,15 @@
         "state": "MA",
         "town": "Groton",
         "street": "145 Main St Groton, Ma 01450"
-      }
+      },
+      "located": {
+        "state": "MA",
+        "town": "Groton",
+        "score": 79,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "featherstone-center-for-the-arts",
@@ -559,7 +604,15 @@
         "state": "MA",
         "town": "Oak Bluffs",
         "street": "30 Featherstone Lane, Oak Bluffs, MA 02557"
-      }
+      },
+      "located": {
+        "state": "MA",
+        "town": "Oak Bluffs",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "worcester-center-for-crafts",
@@ -614,7 +667,15 @@
         "state": "MA",
         "town": "Worcester",
         "street": "25 Sagamore Road"
-      }
+      },
+      "located": {
+        "state": "MA",
+        "town": "Worcester",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "gustin-ceramics",
@@ -665,7 +726,12 @@
         },
         "state": "",
         "town": ""
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": true
     },
     {
       "id": "kiln-cambridge",
@@ -717,7 +783,12 @@
         "state": "",
         "town": "Cambridge",
         "street": "57 Ditton Walk, Cambridge CB5 8QD"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": true
     },
     {
       "id": "pottery-mill",
@@ -767,9 +838,13 @@
         "state": "MA",
         "town": "Dracut"
       },
-      "weak": true,
+      "weak": false,
       "lat": 42.66882,
-      "lng": -71.30337
+      "lng": -71.30337,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

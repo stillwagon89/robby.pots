@@ -181,7 +181,12 @@
         "street": "121 NW 28th Street"
       },
       "lat": 44.56457,
-      "lng": -123.26204
+      "lng": -123.26204,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "st-johns-clay-collective",
@@ -236,7 +241,12 @@
         "state": "OR",
         "town": "Portland",
         "street": "6635 North Baltimore Avenue suite 125 Workshop St. Johns Complex"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "georgies-ceramic-clay-co",
@@ -288,7 +298,15 @@
         "state": "OR",
         "town": "Portland",
         "street": "756 NE Lombard"
-      }
+      },
+      "located": {
+        "state": "OR",
+        "town": "Portland",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "willamette-art-center",
@@ -340,7 +358,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "OR",
+        "town": "Salem",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "wildling-collaborative-arts",
@@ -392,7 +417,12 @@
         "state": "OR",
         "town": "Eugene",
         "street": "250 Taylor Street"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "clay-space",
@@ -434,7 +464,12 @@
         "state": "OR",
         "town": "Eugene",
         "street": "222 Polk Street"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "calapooia-clay",
@@ -489,7 +524,15 @@
         "state": "OR",
         "town": "Albany",
         "street": "1533 SE 7th Ave"
-      }
+      },
+      "located": {
+        "state": "OR",
+        "town": "Albany",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "synergy-ceramics",
@@ -541,7 +584,12 @@
         "state": "OR",
         "town": "Bend",
         "street": "1900 Northeast Division Street suite 108"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "oregon-coast-school-of-art",
@@ -552,14 +600,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Gardiner",
-      "city": "Gardiner",
+      "region": "High Street Gardiner",
+      "city": "High Street Gardiner",
       "urls": [
         "https://oregoncoastschoolofart.org/"
       ],
       "notes": "$30 raku (pot included). Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Gardiner, Oregon",
+      "geocode": "High Street Gardiner, Oregon",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://oregoncoastschoolofart.org/"
@@ -580,8 +628,6 @@
         "date": "2026-10-06",
         "key": "oregoncoastschoolofart.org"
       },
-      "lat": 43.73014,
-      "lng": -124.1106,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -593,7 +639,15 @@
         "state": "OR",
         "town": "Gardiner",
         "street": "325 High Street"
-      }
+      },
+      "located": {
+        "state": "OR",
+        "town": "High Street Gardiner",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     }
   ],
   "_removed": [

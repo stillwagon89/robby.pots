@@ -2,44 +2,6 @@
   "_note": "WV firing sources.",
   "sources": [
     {
-      "id": "business-ligonier",
-      "org": "business.ligonier",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "West Virginia",
-      "city": null,
-      "urls": [
-        "https://business.ligonier.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://business.ligonier.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "business.ligonier.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a Raku firing workshop open to the public, but the actual page text is empty, so I cannot verify the location details or confirm the firing type from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true
-    },
-    {
       "id": "damian-grava",
       "org": "Damian Grava",
       "kind": "studio",
@@ -75,7 +37,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "WA",
+        "town": "Seattle",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "lockbridge-pottery",
@@ -130,7 +99,11 @@
       },
       "lat": 38.3506,
       "lng": -81.63328,
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "stifel-fine-arts-center",
@@ -182,7 +155,11 @@
       },
       "lat": 40.06396,
       "lng": -80.72091,
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "parkersburg-art-center",
@@ -235,7 +212,14 @@
       },
       "weak": true,
       "lat": 39.26673,
-      "lng": -81.56208
+      "lng": -81.56208,
+      "located": {
+        "state": "WV",
+        "town": "Parkersburg",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "parkersburg-art-center-the-clay-studio",
@@ -285,7 +269,14 @@
       },
       "weak": true,
       "lat": 39.26673,
-      "lng": -81.56208
+      "lng": -81.56208,
+      "located": {
+        "state": "WV",
+        "town": "Parkersburg",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "the-potters-guild-wv",
@@ -323,7 +314,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "PA",
+        "town": "Mill Road Wallingford",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -354,6 +352,10 @@
     {
       "id": "jh-pottery-works",
       "why": "Second check (claude-haiku-4.5): The search snippets mention JH Pottery Works offers electric, wood, gas, and raku firing methods, but no actual page text from jhpotteryworks.com is provided to verify public access to these firings or confirm the business location. (2026-10-07)"
+    },
+    {
+      "id": "business-ligonier",
+      "why": "Its own pages give an address in PA (Ligonier), not WV. Moved. (2026-10-07)"
     }
   ]
 }

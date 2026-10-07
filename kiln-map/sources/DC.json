@@ -74,7 +74,12 @@
         "town": "Washington"
       },
       "lat": 38.8951,
-      "lng": -77.03638
+      "lng": -77.03638,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "rachel-lindsay-pottery",
@@ -112,96 +117,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
-    },
-    {
-      "id": "glen-echo-park",
-      "org": "Glen Echo Park",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Washington",
-      "city": "Washington",
-      "urls": [
-        "https://www.glenechopottery.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Washington, District of Columbia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.glenechopottery.org/"
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Students' pieces are fired to cone 10 in a gas reduction kiln.",
-        "url": "https://www.glenechopottery.org/classes.html",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "glenechopottery.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+      "agree": {
+        "model": "claude-sonnet-5-5",
         "verdict": "yes",
-        "why": "The text states classes are offered for all levels and students' pieces are fired in a gas reduction kiln, with public registration available through Glen Echo Park's website.",
-        "types": {
-          "gas_reduction": "Students' pieces are fired to cone 10 in a gas reduction kiln."
-        },
-        "state": "",
-        "town": ""
-      },
-      "lat": 38.8951,
-      "lng": -77.03638
-    },
-    {
-      "id": "bisc-pottery-studio",
-      "org": "BISC Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "District of Columbia",
-      "city": null,
-      "urls": [
-        "https://www.biscpotterystudio.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.biscpotterystudio.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "biscpotterystudio.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text provided is empty; only search snippets mention raku firing, but no actual page content confirms public access, booking, or participation details.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "the-district-clay-center",
@@ -253,7 +179,17 @@
       },
       "weak": true,
       "lat": 38.8951,
-      "lng": -77.03638
+      "lng": -77.03638,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "joe-hicks-ceramics",
@@ -303,7 +239,17 @@
       },
       "weak": true,
       "lat": 38.8951,
-      "lng": -77.03638
+      "lng": -77.03638,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -314,6 +260,14 @@
     {
       "id": "john-riley-pottery",
       "why": "Second check (gemini-3.5-flash-lite): The text describes an individual potter's work, exhibitions, and personal firing activities, but does not offer any opportunities for the public to join, book, or sign up for non-electric ceramic firings. (2026-10-07)"
+    },
+    {
+      "id": "glen-echo-park",
+      "why": "Its own pages give an address in MD (Boulevard Glen Echo), not DC. Moved. (2026-10-07)"
+    },
+    {
+      "id": "bisc-pottery-studio",
+      "why": "Its own pages give an address in NJ (Scotch Plains), not DC. Moved. (2026-10-07)"
     }
   ]
 }

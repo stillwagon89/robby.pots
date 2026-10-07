@@ -50,7 +50,12 @@
         "town": "West Des Moines"
       },
       "lat": 41.56445,
-      "lng": -93.75941
+      "lng": -93.75941,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "villages-folk-school",
@@ -101,7 +106,17 @@
         "town": "Bentonsport",
         "street": "hawk Drive"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "iowa-ceramics-center-and-glass-studio",
@@ -157,7 +172,20 @@
         "town": "Cedar Rapids",
         "street": "329 10th Avenue Southeast"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "IA",
+        "town": "Cedar Rapids",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "creston-arts",
@@ -195,7 +223,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "amana-colonies",
@@ -245,7 +283,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "paul-koch",
@@ -256,15 +304,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Carson",
-      "city": "Carson",
+      "region": "Council Bluffs",
+      "city": "Council Bluffs",
       "urls": [
         "https://www.unleashcb.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Carson, Iowa",
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Council Bluffs, Iowa",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.unleashcb.com/"
       },
@@ -295,8 +343,14 @@
         "state": "IA",
         "town": "Carson"
       },
-      "lat": 41.2365,
-      "lng": -95.42121
+      "located": {
+        "state": "IA",
+        "town": "Council Bluffs",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "kmaland",
@@ -307,15 +361,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Iowa",
-      "city": null,
+      "region": "Shenandoah",
+      "city": "Shenandoah",
       "urls": [
         "https://www.kmaland.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Shenandoah, Iowa",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.kmaland.com/"
       },
@@ -346,105 +400,20 @@
         "state": "",
         "town": ""
       },
-      "weak": true
-    },
-    {
-      "id": "plimton",
-      "org": "plimton",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Iowa",
-      "city": null,
-      "urls": [
-        "https://plimton.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://plimton.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Among the many firing techniques available, reduction firing in a gas kiln stands out as a particularly transformative process.",
-        "url": "https://plimton.com/how-to-induce-a-reduction-atmosphere-in-a-gas-kiln-pm1508/",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "plimton.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The site is a blog/directory about ceramic techniques and candle-making with no information about public access to actual firings, workshops, classes, or firing services.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true
-    },
-    {
-      "id": "sara-krause-pottery",
-      "org": "Sara Krause Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Marion",
-      "city": "Marion",
-      "urls": [
-        "https://marketspread.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Marion, Iowa",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://marketspread.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Horsehair Raku Pottery",
-        "url": "https://marketspread.com/vendor/150885/sara-krause-pottery/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "marketspread.com"
-      },
-      "lat": 41.31441,
-      "lng": -93.10101,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text shows Sara Krause Pottery sells finished raku pottery products but contains no information about public access to ceramic firings, workshops, classes, or firing services.",
-        "types": {},
+      "weak": true,
+      "located": {
         "state": "IA",
-        "town": "Marion"
+        "town": "Shenandoah",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
       },
-      "weak": true
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "linda-hardie",
@@ -482,7 +451,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "arthaus",
@@ -533,58 +512,12 @@
         },
         "state": "IA",
         "town": "Decorah"
-      }
-    },
-    {
-      "id": "carl-s-pottery",
-      "org": "Carl's Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Decorah",
-      "city": "Decorah",
-      "urls": [
-        "https://www.iowaarttour.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Decorah, Iowa",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.iowaarttour.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Wheel-thrown and hand-built stoneware and raku artwork featuring original drawing, carving, and unique surface textures.",
-        "url": "https://www.iowaarttour.com/24-carl-shick/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "iowaarttour.com"
-      },
-      "lat": 43.30416,
-      "lng": -91.78591,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The text describes Carl's Pottery as creating raku artwork but provides no information about public access to firings, workshops, classes, or firing services.",
-        "types": {},
-        "state": "IA",
-        "town": "Decorah",
-        "street": "3251 Echo Valley Road"
-      },
-      "weak": true
+      "weak": false
     },
     {
       "id": "shady-grove-pottery",
@@ -624,7 +557,17 @@
         "state": "IA",
         "town": "Sioux City"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "arts-culture-alliance",
@@ -675,58 +618,33 @@
         "town": "Marshalltown"
       },
       "lat": 42.04888,
-      "lng": -92.91227
+      "lng": -92.91227,
+      "located": {
+        "state": "IA",
+        "town": "Marshalltown",
+        "score": 11,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
+    }
+  ],
+  "_removed": [
+    {
+      "id": "plimton",
+      "why": "Two models agree: plimton.com is a blog of general ceramics and candle-making articles, including one on gas kiln reduction, with no workshops, classes, rentals, firing services or any way for the public to join a firing. (2026-10-07)"
+    },
+    {
+      "id": "sara-krause-pottery",
+      "why": "Two models agree: This is a vendor profile for a home-studio potter who sells raku pieces, and nothing in the text offers the public a chance to join, book or take part in any firing. (2026-10-07)"
+    },
+    {
+      "id": "carl-s-pottery",
+      "why": "Two models agree: The listing describes an artist's studio that makes stoneware and raku work for the Iowa Art Tour, and nothing says the public can join, book or sign up for any firing. (2026-10-07)"
     },
     {
       "id": "aaronmoseley",
-      "org": "aaronmoseley",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Iowa City",
-      "city": "Iowa City",
-      "urls": [
-        "https://www.aaronmoseley.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Iowa City, Iowa",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.aaronmoseley.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Handmade Wood and Soda Fired Ceramics, Made locally in Iowa City, Iowa.",
-        "url": "https://www.aaronmoseley.com/",
-        "types": [
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "aaronmoseley.com"
-      },
-      "lat": 41.66126,
-      "lng": -91.52991,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty; no information about public access to firings, workshops, or classes is provided.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true
+      "why": "Two models agree: The only text is a snippet describing an Iowa City potter's wood and soda fired ceramics, with nothing about public participation in firings, so it reads as an artist's portfolio or shop. (2026-10-07)"
     }
-  ],
-  "_removed": []
+  ]
 }

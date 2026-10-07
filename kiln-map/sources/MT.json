@@ -91,7 +91,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "the-clay-studio-of-missoula",
@@ -143,7 +147,11 @@
         "state": "MT",
         "town": "Missoula"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "missoulaevents",
@@ -185,7 +193,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "whitefish-pottery",
@@ -227,7 +239,11 @@
         "state": "MT",
         "town": "Whitefish"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "tinworks-art",
@@ -238,15 +254,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Montana",
-      "city": null,
+      "region": "Main St Bozeman",
+      "city": "Main St Bozeman",
       "urls": [
         "https://www.tinworksart.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Main St Bozeman, Montana",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.tinworksart.org/"
       },
@@ -275,7 +291,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "MT",
+        "town": "Main St Bozeman",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "teachinart",
@@ -328,7 +351,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "the-clay",
@@ -368,7 +395,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "theclaystudioofmissoula",
@@ -422,7 +453,12 @@
         },
         "state": "MT",
         "town": "Missoula"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "clay-arts-guild-of-helena",
@@ -434,14 +470,14 @@
         "raku",
         "gas_reduction"
       ],
-      "region": "Helena",
-      "city": "Helena",
+      "region": "Bozeman Ave Helena",
+      "city": "Bozeman Ave Helena",
       "urls": [
         "https://www.clayartsguildofhelena.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Helena, Montana",
+      "geocode": "Bozeman Ave Helena, Montana",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.clayartsguildofhelena.com/"
@@ -463,8 +499,6 @@
         "date": "2026-10-07",
         "key": "clayartsguildofhelena.com"
       },
-      "lat": 46.59274,
-      "lng": -112.03628,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -477,7 +511,14 @@
         "state": "MT",
         "town": "Helena"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "MT",
+        "town": "Bozeman Ave Helena",
+        "score": 4,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "montana-clay-tour",
@@ -517,7 +558,11 @@
         "state": "MT",
         "town": "Helena"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "freight-train-ceramics",
@@ -569,7 +614,11 @@
         "state": "MT",
         "town": "Bozeman"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "missoula-clay-studio",
@@ -621,7 +670,14 @@
         "state": "MT",
         "town": "Missoula"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "MT",
+        "town": "Missoula",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "jerry-baldwin-ceramics",
@@ -670,6 +726,67 @@
         "types": {},
         "state": "",
         "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "mondak-heritage-center",
+      "org": "MonDak Heritage Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Sidney",
+      "city": "Sidney",
+      "urls": [
+        "https://www.roundupweb.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Sidney, Montana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.roundupweb.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "On Saturday, May 6, Olson will be at the MonDak Heritage Center to teach a free Raku & lace pottery workshop beginning at 11 a.m.",
+        "url": "https://www.roundupweb.com/story/2023/04/26/special-editions/mondak-heritage-center-hosts-linda-olson-exhibition-andamp-ceramics-demonstration/18669.html",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "roundupweb.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states the MonDak Heritage Center will host a free Raku pottery workshop open to the public where an instructor will demonstrate the Raku firing process.",
+        "types": {
+          "raku": "She will share the workings of an affordable, portable Raku firing setup and demonstrate the Raku process."
+        },
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "state": "MT",
+        "town": "Sidney",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-07"
       },
       "weak": true
     }

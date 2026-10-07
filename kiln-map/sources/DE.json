@@ -37,7 +37,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "folkware-studio",
@@ -77,7 +87,17 @@
       },
       "weak": true,
       "lat": 39.15817,
-      "lng": -75.52437
+      "lng": -75.52437,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "dover-pottery-studio",
@@ -127,7 +147,17 @@
       },
       "lat": 39.15817,
       "lng": -75.52437,
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

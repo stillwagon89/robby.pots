@@ -159,7 +159,12 @@
         "state": "PA",
         "town": "Wallingford",
         "street": "414 Plush Mill Road"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "fleisher-art-memorial-allens-lane-art-center",
@@ -211,7 +216,15 @@
         "state": "PA",
         "town": "Philadelphia",
         "street": "719 Catharine Street"
-      }
+      },
+      "located": {
+        "state": "PA",
+        "town": "Philadelphia",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "yay-clay",
@@ -265,7 +278,15 @@
         },
         "state": "PA",
         "town": "Philadelphia"
-      }
+      },
+      "located": {
+        "state": "PA",
+        "town": "Philadelphia",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "earth-center-pottery",
@@ -321,7 +342,14 @@
         "town": "Richboro",
         "street": "10 Stable Mill Road"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "PA",
+        "town": "Richboro",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "kettle-creek-pottery",
@@ -373,7 +401,12 @@
         "state": "PA",
         "town": "Stroudsburg",
         "street": "6257 U.S. 209 Business"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "lancaster-creative-factory",
@@ -428,7 +461,15 @@
         "state": "PA",
         "town": "Lancaster",
         "street": "580 S Prince St, Rear, Lancaster, PA. 17603"
-      }
+      },
+      "located": {
+        "state": "PA",
+        "town": "Lancaster",
+        "score": 4,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "union-project",
@@ -486,7 +527,12 @@
         "state": "PA",
         "town": "Pittsburgh",
         "street": "801 N Negley Avenue"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "fireborn-studios",
@@ -498,14 +544,14 @@
         "raku",
         "wood"
       ],
-      "region": "Pittsburgh",
-      "city": "Pittsburgh",
+      "region": "Sarah Street Pittsburgh",
+      "city": "Sarah Street Pittsburgh",
       "urls": [
         "https://fireborn.com/"
       ],
       "notes": "Firing for outside work. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Pittsburgh, Pennsylvania",
+      "geocode": "Sarah Street Pittsburgh, Pennsylvania",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://fireborn.com/"
@@ -527,8 +573,6 @@
         "date": "2026-10-06",
         "key": "fireborn.com"
       },
-      "lat": 40.4407,
-      "lng": -80.00257,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -542,7 +586,14 @@
         "town": "Pittsburgh",
         "street": "2338 Sarah Street"
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "PA",
+        "town": "Sarah Street Pittsburgh",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "erie-clayspace",
@@ -553,14 +604,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Erie",
-      "city": "Erie",
+      "region": "PACA Building Erie",
+      "city": "PACA Building Erie",
       "urls": [
         "https://erieclayspace.com/"
       ],
       "notes": "Raku firings for members. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Erie, Pennsylvania",
+      "geocode": "PACA Building Erie, Pennsylvania",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://erieclayspace.com/"
@@ -581,8 +632,6 @@
         "date": "2026-10-06",
         "key": "erieclayspace.com"
       },
-      "lat": 42.12947,
-      "lng": -80.08527,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -594,7 +643,15 @@
         "state": "PA",
         "town": "Erie",
         "street": "1505 State St., 3rd Floor, PACA Building"
-      }
+      },
+      "located": {
+        "state": "PA",
+        "town": "PACA Building Erie",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "northampton-community-college",
@@ -646,7 +703,15 @@
         "state": "PA",
         "town": "Bethlehem",
         "street": "3835 Green Pond Road"
-      }
+      },
+      "located": {
+        "state": "PA",
+        "town": "Bethlehem",
+        "score": 21,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "greeny-gary-greenberg",
@@ -696,7 +761,11 @@
         "state": "PA",
         "town": ""
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "nixdorf-pottery",
@@ -746,7 +815,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "lisa-york-arts",
@@ -796,9 +869,118 @@
         "state": "PA",
         "town": "Wallingford"
       },
-      "weak": true,
+      "weak": false,
       "lat": 39.90364,
-      "lng": -75.37166
+      "lng": -75.37166,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "community-arts-center-ks",
+      "org": "Community Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "raku"
+      ],
+      "region": "Wallingford",
+      "city": "Wallingford",
+      "urls": [
+        "https://communityartscenter.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Wallingford, Pennsylvania",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://communityartscenter.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "SHORT CLASS: Raku and Alternative Firings (afternoon) with Laura Demme 2:00pm-5:00pm, 9/23/26-12/2/26 (10 weeks) *NO CLASS 11/25/26",
+        "url": "https://communityartscenter.org/schedule-fall-2026/",
+        "types": [
+          "wood",
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "communityartscenter.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text lists 'Wood Kiln Firing - September 2026' and 'Wood Kiln Firing - November 2026' as special kiln firings open for registration, and classes like 'Making Work for the Wood-Fired Kiln' and 'SHORT CLASS: Raku and Alternative Firings' indicate public can participate.",
+        "types": {
+          "wood": "Wood Kiln Firing - September 2026",
+          "raku": "SHORT CLASS: Raku and Alternative Firings (afternoon) with Laura Demme"
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "PA",
+        "town": "Wallingford",
+        "score": 21,
+        "osm": false,
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "business-ligonier",
+      "org": "business.ligonier",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Ligonier",
+      "city": "Ligonier",
+      "urls": [
+        "https://business.ligonier.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Ligonier, Pennsylvania",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://business.ligonier.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "business.ligonier.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippet mentions a Raku firing workshop open to the public, but the actual page text is empty, so I cannot verify the location details or confirm the firing type from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "PA",
+        "town": "Ligonier",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

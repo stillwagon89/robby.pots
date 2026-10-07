@@ -79,55 +79,10 @@
         },
         "state": "",
         "town": "Bacchus Marsh"
-      }
-    },
-    {
-      "id": "studio-channel-islands",
-      "org": "Studio Channel Islands",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Rhode Island",
-      "city": null,
-      "urls": [
-        "https://studiochannelislands.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://studiochannelislands.org/"
       },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Raku Firing April 8",
-        "url": "https://studiochannelislands.org/adult-edu/raku-workshop/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "studiochannelislands.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The page describes a raku workshop with a firing date, but provides no information about location (town, state, or street address) or how to register/book.",
-        "types": {
-          "raku": "It differentiates from Japanese raku in that it focuses primarily on this post firing reduction."
-        },
-        "state": "",
-        "town": ""
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
       },
       "weak": true
     },
@@ -179,7 +134,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -194,6 +153,10 @@
     {
       "id": "lindsey-epstein-pottery",
       "why": "Second check (gemma-4-31b-it): The text mentions raku sculpture but does not state that the public can take part in firings. (2026-10-07)"
+    },
+    {
+      "id": "studio-channel-islands",
+      "why": "Its own pages give an address in CA (Camarillo), not RI. Moved. (2026-10-07)"
     }
   ]
 }

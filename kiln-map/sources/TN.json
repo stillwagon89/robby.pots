@@ -65,9 +65,16 @@
         "town": "Gatlinburg",
         "street": "623 Glades Road"
       },
-      "weak": true,
+      "weak": false,
       "lat": 35.71426,
-      "lng": -83.51016
+      "lng": -83.51016,
+      "located": {
+        "state": "TN",
+        "town": "Gatlinburg",
+        "score": 5,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "mighty-mud",
@@ -119,7 +126,14 @@
       },
       "lat": 35.96039,
       "lng": -83.92103,
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "TN",
+        "town": "Knoxville",
+        "score": 48,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "mid-south-ceramics",
@@ -159,7 +173,14 @@
       },
       "weak": true,
       "lat": 36.16228,
-      "lng": -86.7743
+      "lng": -86.7743,
+      "located": {
+        "state": "TN",
+        "town": "Nashville",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "common-grace-pottery",
@@ -170,14 +191,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Nashville",
-      "city": "Nashville",
+      "region": "Antioch",
+      "city": "Antioch",
       "urls": [
         "https://commongracepottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Nashville, Tennessee",
+      "geocode": "Antioch, Tennessee",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://commongracepottery.com/"
@@ -208,8 +229,13 @@
         "town": ""
       },
       "weak": true,
-      "lat": 36.16228,
-      "lng": -86.7743
+      "located": {
+        "state": "TN",
+        "town": "Antioch",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "tech-times",
@@ -261,7 +287,11 @@
       },
       "lat": 35.96062,
       "lng": -85.81415,
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "studio-s-pottery-and-galleries",
@@ -316,7 +346,11 @@
       },
       "weak": true,
       "lat": 35.84604,
-      "lng": -86.39211
+      "lng": -86.39211,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "bookwhen",
@@ -354,7 +388,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "the-maker-city",
@@ -405,7 +443,72 @@
         "town": "Knoxville"
       },
       "lat": 35.96039,
-      "lng": -83.92103
+      "lng": -83.92103,
+      "located": {
+        "state": "TN",
+        "town": "Knoxville",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
+    },
+    {
+      "id": "canton-clay-works-ct",
+      "org": "Canton Clay Works",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda"
+      ],
+      "region": "PEGRAM",
+      "city": "PEGRAM",
+      "urls": [
+        "https://mudpuddlepottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "PEGRAM, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://mudpuddlepottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The Canton Clay Works is a premier wood firing studio and school committed to ceramic education and the art of wood firing.",
+        "url": "https://mudpuddlepottery.com/pages/vicente-garcia-raku-alternate-firing",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "mudpuddlepottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The search snippets mention Canton Clay Works offers wood firing service and classes, but the actual page text is empty, providing no verifiable information about public access to non-electric firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "TN",
+        "town": "PEGRAM",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

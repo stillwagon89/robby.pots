@@ -80,7 +80,15 @@
         },
         "state": "NE",
         "town": "Omaha"
-      }
+      },
+      "located": {
+        "state": "NE",
+        "town": "Omaha",
+        "score": 30,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "makit-takit",
@@ -132,7 +140,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "bone-creek-museum-of-agrarian-art",
@@ -184,7 +196,12 @@
         "state": "NE",
         "town": "David City",
         "street": "620 D Street"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "big-table-studios",
@@ -234,7 +251,11 @@
         "state": "NE",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "omahaclayworks",
@@ -288,7 +309,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "lincoln",
@@ -299,15 +324,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Nebraska",
-      "city": null,
+      "region": "Lincoln",
+      "city": "Lincoln",
       "urls": [
         "https://www.lincoln.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Lincoln, Nebraska",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.lincoln.org/"
       },
@@ -336,7 +361,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "NE",
+        "town": "Lincoln",
+        "score": 27,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": []

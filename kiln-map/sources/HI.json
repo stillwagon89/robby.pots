@@ -37,14 +37,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Oʻahu",
-      "city": "Oʻahu",
+      "region": "HONOLULU",
+      "city": "HONOLULU",
       "urls": [
         "https://www.hawaiicraftsmen.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Oʻahu, Hawaii",
+      "geocode": "HONOLULU, Hawaii",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.hawaiicraftsmen.org/"
@@ -77,8 +77,19 @@
         "town": ""
       },
       "weak": true,
-      "lat": 21.48344,
-      "lng": -158.03651
+      "located": {
+        "state": "HI",
+        "town": "HONOLULU",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "hawaii-ceramic-supply",
@@ -129,9 +140,13 @@
         "town": "Honolulu",
         "street": "1920 Colburn Street, Honolulu, HI 96819"
       },
-      "weak": true,
+      "weak": false,
       "lat": 21.30455,
-      "lng": -157.85568
+      "lng": -157.85568,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "nendo-studio-hawaii",
@@ -143,15 +158,15 @@
         "raku",
         "wood"
       ],
-      "region": "Hawaii",
-      "city": null,
+      "region": "Colburn Street Honolulu",
+      "city": "Colburn Street Honolulu",
       "urls": [
         "https://www.nendostudiohawaii.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Colburn Street Honolulu, Hawaii",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.nendostudiohawaii.com/"
       },
@@ -184,105 +199,20 @@
         "state": "",
         "town": ""
       },
-      "weak": true
-    },
-    {
-      "id": "sculpture",
-      "org": "sculpture",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Hilo",
-      "city": "Hilo",
-      "urls": [
-        "https://sculpture.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Hilo, Hawaii",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://sculpture.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The three-acre tropical atelier in northern Hilo, Hawaii is visually stunning as it merges indoor and outdoor space.",
-        "url": "https://sculpture.org/blogpost/1810776/349144/In-the-Studio-Clayton-Amemiya-s-Anagama-Firing-Collaborates-with-Fire",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "sculpture.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty; only search snippets about Clayton Amemiya's studio are provided, which describe an anagama kiln but contain no information about public access, workshops, classes, or firing services.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
       "weak": true,
-      "lat": 19.70737,
-      "lng": -155.08158
-    },
-    {
-      "id": "uncle-paul-s",
-      "org": "Uncle Paul's",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Hawaii",
-      "city": null,
-      "urls": [
-        "https://www.unclepaulsnorthbeach.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.unclepaulsnorthbeach.com/"
+      "located": {
+        "state": "HI",
+        "town": "Colburn Street Honolulu",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
       },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Day 1 - Saturday, July 25th 2-5pm - Workshop at Uncle Paul’s Orientation and brief introduction to soda firing and high fire clay.",
-        "url": "https://www.unclepaulsnorthbeach.com/classes/p/soda-firing-workshop",
-        "types": [
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "unclepaulsnorthbeach.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a soda firing field trip workshop, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "mudd-studio-ceramics",
@@ -333,99 +263,17 @@
       },
       "weak": true,
       "lat": 21.30455,
-      "lng": -157.85568
-    },
-    {
-      "id": "j-davis-studio",
-      "org": "J. Davis Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Kauaʻi",
-      "city": "Kauaʻi",
-      "urls": [
-        "https://www.lulakauai.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Kauaʻi, Hawaii",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.lulakauai.com/"
+      "lng": -157.85568,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "lulakauai.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+      "agree": {
+        "model": "claude-sonnet-5-5",
         "verdict": "no",
-        "why": "The page text is empty; no information about public access to firings, workshops, or classes is provided.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 22.05038,
-      "lng": -159.55886
-    },
-    {
-      "id": "haleiwa-art-gallery",
-      "org": "Haleiwa Art Gallery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Haleiwa",
-      "city": "Haleiwa",
-      "urls": [
-        "https://www.haleiwaartgallery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Haleiwa, Hawaii",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.haleiwaartgallery.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Jeff Chang is a modern master of Raku pottery, a traditional Japanese style of ceramics where the vessel is fired at a low temperature and removed from the kiln while red-hot, allowing it to cool in the open air.",
-        "url": "https://www.haleiwaartgallery.com/jeff-chang/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "haleiwaartgallery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The text describes Jeff Chang's raku pottery work but contains no information about public access to firings, workshops, classes, or any way for outsiders to participate in ceramic firings.",
-        "types": {
-          "raku": "Jeff Chang is a modern master of Raku pottery, a traditional Japanese style of ceramics where the vessel is fired at a low temperature and removed from the kiln while red-hot, allowing it to cool in the open air."
-        },
-        "state": "HI",
-        "town": "Haleiwa"
-      },
-      "weak": true,
-      "lat": 21.5818,
-      "lng": -158.10504
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "studio-7-fine-arts",
@@ -475,7 +323,17 @@
       },
       "weak": true,
       "lat": 19.70737,
-      "lng": -155.08158
+      "lng": -155.08158,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -494,6 +352,22 @@
     {
       "id": "maui-potter",
       "why": "Second check (gemini-3.5-flash-lite): The text describes an annual event hosted by Hawaii Craftsman on Oahu rather than a listing where the public can take part in a firing at Maui Potter. (2026-10-07)"
+    },
+    {
+      "id": "uncle-paul-s",
+      "why": "Its own pages give an address in CA (Broadway San Francisco), not HI. Moved. (2026-10-07)"
+    },
+    {
+      "id": "sculpture",
+      "why": "Two models agree: The text is only a magazine article snippet from sculpture.org about an artist's studio with an anagama kiln, and it says nothing about public participation in any firing. (2026-10-07)"
+    },
+    {
+      "id": "j-davis-studio",
+      "why": "Two models agree: The snippet only describes the artist's own Raku creations and says nothing about public participation, classes, rentals or firing services. (2026-10-07)"
+    },
+    {
+      "id": "haleiwa-art-gallery",
+      "why": "Two models agree: The text only describes an artist's raku pottery sold at a gallery, with nothing about public workshops, classes, rentals or firing services. (2026-10-07)"
     }
   ]
 }

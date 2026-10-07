@@ -127,7 +127,11 @@
         "town": "Seattle",
         "street": "35 S Hanford St"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "rat-city-studios",
@@ -179,7 +183,12 @@
         "state": "WA",
         "town": "Seattle",
         "street": "2410 SW 106th Street"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "rain-city-clay",
@@ -192,14 +201,14 @@
         "raku",
         "soda"
       ],
-      "region": "West Seattle",
-      "city": "West Seattle",
+      "region": "Seattle",
+      "city": "Seattle",
       "urls": [
         "https://raincityclay.com/"
       ],
       "notes": "Soda kiln firings and raku. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "West Seattle, Washington",
+      "geocode": "Seattle, Washington",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://raincityclay.com/"
@@ -222,8 +231,6 @@
         "date": "2026-10-06",
         "key": "raincityclay.com"
       },
-      "lat": 47.57093,
-      "lng": -122.38652,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -236,7 +243,15 @@
         },
         "state": "WA",
         "town": "West Seattle"
-      }
+      },
+      "located": {
+        "state": "WA",
+        "town": "Seattle",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "washington-clay-arts-association",
@@ -290,7 +305,12 @@
         },
         "state": "WA",
         "town": ""
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "burnish-clay-studio",
@@ -342,7 +362,12 @@
         "state": "WA",
         "town": "Bellingham",
         "street": "2006 N State St, Bellingham, WA, 98225"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "tacoma-clay",
@@ -394,7 +419,15 @@
         "state": "WA",
         "town": "Tacoma",
         "street": "2329-2333 Tacoma Ave S"
-      }
+      },
+      "located": {
+        "state": "WA",
+        "town": "Tacoma",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "kilnfolk-clay-studio",
@@ -445,7 +478,12 @@
         },
         "state": "WA",
         "town": "Vancouver"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "the-clay-connection",
@@ -497,7 +535,14 @@
         "state": "WA",
         "town": "Spokane"
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "WA",
+        "town": "Spokane",
+        "score": 7,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "gathering-ways",
@@ -548,7 +593,12 @@
         },
         "state": "WA",
         "town": "Quilcene"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "olympic-coast-creative",
@@ -559,14 +609,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Sequim",
-      "city": "Sequim",
+      "region": "Port Angeles",
+      "city": "Port Angeles",
       "urls": [
         "https://olympiccoastcreative.com/"
       ],
       "notes": "Non-members can join (contact Brian). Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Sequim, Washington",
+      "geocode": "Port Angeles, Washington",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://olympiccoastcreative.com/"
@@ -587,8 +637,6 @@
         "date": "2026-10-06",
         "key": "olympiccoastcreative.com"
       },
-      "lat": 48.08493,
-      "lng": -123.10967,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -600,7 +648,15 @@
         "state": "WA",
         "town": "Sequim",
         "street": "453 Taylor Cutoff Rd"
-      }
+      },
+      "located": {
+        "state": "WA",
+        "town": "Port Angeles",
+        "score": 28,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "evergreen-coast-pit-workshop",
@@ -612,15 +668,15 @@
         "salt",
         "pit_barrel_saggar"
       ],
-      "region": "Ilwaco",
-      "city": "Ilwaco",
+      "region": "Seaview",
+      "city": "Seaview",
       "urls": [
         "https://www.evergreencoastwa.com/"
       ],
       "notes": "Two-day workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Ilwaco, Washington",
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Seaview, Washington",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.evergreencoastwa.com/"
       },
@@ -654,9 +710,116 @@
         "town": "Ilwaco",
         "street": "109 First Avenue North"
       },
-      "lat": 46.30904,
-      "lng": -124.04366,
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "WA",
+        "town": "Seaview",
+        "score": 42,
+        "osm": false,
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "yu-tang-ceramics",
+      "org": "Yu Tang Ceramics",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Avenue North Seattle",
+      "city": "Avenue North Seattle",
+      "urls": [
+        "https://www.yutangceramics.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Avenue North Seattle, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.yutangceramics.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "yutangceramics.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippet mentions a raku firing workshop open to students, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "WA",
+        "town": "Avenue North Seattle",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "eastside-pottery",
+      "org": "Eastside Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Bellevue",
+      "city": "Bellevue",
+      "urls": [
+        "https://www.eastsidepottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Bellevue, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.eastsidepottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Bring up to four bisque pieces and finish them using traditional raku firing.",
+        "url": "https://www.eastsidepottery.com/classes/raku-firing-workshop",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "eastsidepottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly describes a Raku Firing Workshop open to the public (\"All levels welcome\") where participants can bring bisque pieces and finish them using traditional raku firing.",
+        "types": {
+          "raku": "Bring up to four bisque pieces and finish them using traditional raku firing."
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "WA",
+        "town": "Bellevue",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

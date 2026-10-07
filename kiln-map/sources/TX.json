@@ -73,14 +73,14 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Austin",
-      "city": "Austin",
+      "region": "McPhaul St Austin",
+      "city": "McPhaul St Austin",
       "urls": [
         "https://featsofclaypottery.com/"
       ],
       "notes": "Build-and-fire workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Austin, Texas",
+      "geocode": "McPhaul St Austin, Texas",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://featsofclaypottery.com/"
@@ -101,8 +101,6 @@
         "date": "2026-10-06",
         "key": "featsofclaypottery.com"
       },
-      "lat": 30.27113,
-      "lng": -97.7437,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -114,7 +112,15 @@
         "state": "TX",
         "town": "Austin",
         "street": "806 McPhaul St"
-      }
+      },
+      "located": {
+        "state": "TX",
+        "town": "McPhaul St Austin",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "fireseed-clay-arts-studios",
@@ -165,7 +171,12 @@
         },
         "state": "TX",
         "town": "Austin"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "eye-of-the-dog-art-center",
@@ -216,7 +227,12 @@
         },
         "state": "TX",
         "town": "San Marcos"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "houston-pottery-studio",
@@ -270,7 +286,15 @@
         },
         "state": "TX",
         "town": "Houston"
-      }
+      },
+      "located": {
+        "state": "TX",
+        "town": "Houston",
+        "score": 10,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "fire-gallery",
@@ -325,7 +349,15 @@
         "state": "TX",
         "town": "Houston",
         "street": "1520 Silver St."
-      }
+      },
+      "located": {
+        "state": "TX",
+        "town": "Houston",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "four-circle-studio",
@@ -378,7 +410,14 @@
         "town": "Houston",
         "street": "825 Studewood st. Houston TX 77007"
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "TX",
+        "town": "Houston",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "potters-place-pottery",
@@ -389,14 +428,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Stafford",
-      "city": "Stafford",
+      "region": "Katy",
+      "city": "Katy",
       "urls": [
         "https://pottersplacepottery.com/"
       ],
       "notes": "Sep 25, 2026. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Stafford, Texas",
+      "geocode": "Katy, Texas",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://pottersplacepottery.com/"
@@ -417,8 +456,6 @@
         "date": "2026-10-06",
         "key": "pottersplacepottery.com"
       },
-      "lat": 29.61607,
-      "lng": -95.55772,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -430,7 +467,15 @@
         "state": "TX",
         "town": "Stafford",
         "street": "741 A Dulles Ave."
-      }
+      },
+      "located": {
+        "state": "TX",
+        "town": "Katy",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "dallas-pottery-studio",
@@ -485,7 +530,14 @@
         "state": "TX",
         "town": "Dallas"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "TX",
+        "town": "Dallas",
+        "score": 10,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "cliff-house-studio-and-gallery",
@@ -537,7 +589,12 @@
         "state": "TX",
         "town": "Fort",
         "street": "8092 Eagle Mountain Dr"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "cera",
@@ -548,14 +605,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Fort Worth",
-      "city": "Fort Worth",
+      "region": "Willow Park",
+      "city": "Willow Park",
       "urls": [
         "https://cera-fw.org/"
       ],
       "notes": "Studio membership. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Fort Worth, Texas",
+      "geocode": "Willow Park, Texas",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://cera-fw.org/"
@@ -576,8 +633,6 @@
         "date": "2026-10-06",
         "key": "cera-fw.org"
       },
-      "lat": 32.75318,
-      "lng": -97.33275,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -590,7 +645,14 @@
         "town": "Fort Worth",
         "street": "3300 Bryant Irvin Rd."
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "TX",
+        "town": "Willow Park",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "roadrunner-ceramics",
@@ -645,7 +707,15 @@
         "state": "TX",
         "town": "San Antonio",
         "street": "12747 Cimarron Path"
-      }
+      },
+      "located": {
+        "state": "TX",
+        "town": "San Antonio",
+        "score": 8,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "rockport-center-for-the-arts",
@@ -697,7 +767,12 @@
         "state": "TX",
         "town": "Rockport",
         "street": "204 South Austin Street"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "lhuca-clay-studio",
@@ -752,7 +827,15 @@
         "state": "TX",
         "town": "Lubbock",
         "street": "511 Ave K"
-      }
+      },
+      "located": {
+        "state": "TX",
+        "town": "Lubbock",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     }
   ],
   "_removed": [

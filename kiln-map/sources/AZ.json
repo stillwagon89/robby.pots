@@ -36,14 +36,14 @@
         "raku",
         "pit_barrel_saggar"
       ],
-      "region": "Sedona",
-      "city": "Sedona",
+      "region": "Barn Road Sedona",
+      "city": "Barn Road Sedona",
       "urls": [
         "https://sedonaartscenter.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Sedona, Arizona",
+      "geocode": "Barn Road Sedona, Arizona",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://sedonaartscenter.org/"
@@ -78,8 +78,19 @@
         "town": ""
       },
       "weak": true,
-      "lat": 34.86886,
-      "lng": -111.76144
+      "located": {
+        "state": "AZ",
+        "town": "Barn Road Sedona",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "marjon-ceramics",
@@ -121,55 +132,12 @@
         "street": "3434 W Earll Drive Suite 101"
       },
       "lat": 33.44844,
-      "lng": -112.07414
-    },
-    {
-      "id": "az-wildlife-gallery",
-      "org": "AZ Wildlife Gallery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://www.azwildlifegallery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.azwildlifegallery.com/"
+      "lng": -112.07414,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Multiple taxidermy exhibits are combined with sculpture, metal art, sand stone, Raku and clay pottery, clay ceramic sculptures, handmade jewelry, Russian, Mexican and Native American Art.",
-        "url": "https://www.azwildlifegallery.com/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "azwildlifegallery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The text describes AZ Wildlife Gallery as an art gallery and shop displaying finished raku pottery and horse hair pottery, but contains no information about public access to ceramic firings, workshops, classes, or firing services.",
-        "types": {},
-        "state": "AZ",
-        "town": ""
-      },
-      "weak": true
+      "weak": false
     },
     {
       "id": "arizona-clay-space",
@@ -180,15 +148,15 @@
       "firing_types_guess": [
         "salt"
       ],
-      "region": "Arizona",
-      "city": null,
+      "region": "Clarkdale",
+      "city": "Clarkdale",
       "urls": [
         "https://www.arizonaclayspace.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Clarkdale, Arizona",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.arizonaclayspace.com/"
       },
@@ -209,7 +177,20 @@
         "state": "AZ",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "AZ",
+        "town": "Clarkdale",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "douglas-campus-art-department",
@@ -261,7 +242,12 @@
         "street": "4190 West Highway 80"
       },
       "lat": 31.34499,
-      "lng": -109.55449
+      "lng": -109.55449,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "arcosanti",
@@ -309,7 +295,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "potteryclassess",
@@ -364,59 +360,17 @@
       },
       "lat": 33.44844,
       "lng": -112.07414,
-      "weak": true
-    },
-    {
-      "id": "phgmag",
-      "org": "phgmag",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Scottsdale",
-      "city": "Scottsdale",
-      "urls": [
-        "https://www.phgmag.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Scottsdale, Arizona",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.phgmag.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We do events, have kiln openings and even a couple open houses.",
-        "url": "https://www.phgmag.com/nicholas-bernard-ceramicist/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "phgmag.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The text describes Nicholas Bernard's raku pottery work and mentions kiln openings and events at his studio, but provides no information about public access to participate in firings, workshops, or classes.",
-        "types": {
-          "raku": "Raku is a low-firing process that involves removing the pot from the kiln when it's red-hot and placing it into containers with combustible materials, such as newspapers."
-        },
-        "state": "AZ",
-        "town": "Scottsdale"
-      },
       "weak": true,
-      "lat": 33.49422,
-      "lng": -111.92602
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "rhonda-davis",
@@ -466,7 +420,80 @@
       },
       "weak": true,
       "lat": 35.19875,
-      "lng": -111.65182
+      "lng": -111.65182,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "mud-makers",
+      "org": "Mud Makers",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Ave Chino Valley",
+      "city": "Ave Chino Valley",
+      "urls": [
+        "https://www.mudmakers.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Ave Chino Valley, Arizona",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.mudmakers.org/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "In this hands-on workshop, participants will bring their own bisque-fired pottery and experience the Raku firing process from glazing through firing and post-firing reduction.",
+        "url": "https://www.mudmakers.org/workshops/p/raku-firing-workshop",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "mudmakers.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippet describes a raku firing workshop that participants can join, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "types": {
+          "raku": "participants will bring their own bisque-fired pottery and experience the Raku firing process from glazing through firing and post-firing reduction"
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "AZ",
+        "town": "Ave Chino Valley",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -533,6 +560,14 @@
     {
       "id": "raku-gallery",
       "why": "Second check (claude-haiku-4.5): The search snippets describe Raku Gallery as a shop selling handmade raku pottery and saggar-fired ceramics, but provide no evidence that the public can participate in or book any ceramic firing workshops, classes, or firing services. (2026-10-07)"
+    },
+    {
+      "id": "az-wildlife-gallery",
+      "why": "Two models agree: This is a gallery that sells art, including raku pottery, and describes how raku is made, but nothing offers public participation in a firing, class, rental or service. (2026-10-07)"
+    },
+    {
+      "id": "phgmag",
+      "why": "Two models agree: The page is a magazine profile of ceramicist Nicholas Bernard that mentions he made raku pots and holds kiln openings and open houses, but it offers no public firing workshop, class, rental, or booking. (2026-10-07)"
     }
   ]
 }

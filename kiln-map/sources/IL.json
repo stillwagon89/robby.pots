@@ -90,57 +90,16 @@
         "state": "",
         "town": ""
       },
-      "weak": true
-    },
-    {
-      "id": "mud-makers",
-      "org": "Mud Makers",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Illinois",
-      "city": null,
-      "urls": [
-        "https://www.mudmakers.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.mudmakers.org/"
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
       },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "In this hands-on workshop, participants will bring their own bisque-fired pottery and experience the Raku firing process from glazing through firing and post-firing reduction.",
-        "url": "https://www.mudmakers.org/workshops/p/raku-firing-workshop",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "mudmakers.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippet describes a raku firing workshop that participants can join, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
-        "types": {
-          "raku": "participants will bring their own bisque-fired pottery and experience the Raku firing process from glazing through firing and post-firing reduction"
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "southern-illinois-university-edwardsville",
@@ -195,7 +154,20 @@
       },
       "lat": 38.81144,
       "lng": -89.95316,
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "NC",
+        "town": "Raleigh",
+        "score": 7,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "tinkermills-muddy-makers-pottery-studio",
@@ -235,7 +207,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "chicago-kiln-service",
@@ -285,93 +267,17 @@
       },
       "weak": true,
       "lat": 41.87556,
-      "lng": -87.62442
-    },
-    {
-      "id": "yu-tang-ceramics",
-      "org": "Yu Tang Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Illinois",
-      "city": null,
-      "urls": [
-        "https://www.yutangceramics.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.yutangceramics.com/"
+      "lng": -87.62442,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "yutangceramics.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+      "agree": {
+        "model": "claude-sonnet-5-5",
         "verdict": "unclear",
-        "why": "The search snippet mentions a raku firing workshop open to students, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true
-    },
-    {
-      "id": "ruby-s-clay-studio",
-      "org": "ruby's clay studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Illinois",
-      "city": null,
-      "urls": [
-        "https://www.rubysclaystudio.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.rubysclaystudio.org/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Wood firing is a community effort, so participants are expected to commit to all steps in the process -- firing preparation, loading, stoking, and cleanup.",
-        "url": "https://www.rubysclaystudio.org/workshop-registration/workshop-f2yrm-6wtpy-5jzj5-tlap8-5njk6-kg23a-clz8m",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "rubysclaystudio.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a wood firing workshop open to participants, but the page text itself is empty, providing no verifiable details about location, address, or confirmation of public access.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "salt-creek-pottery",
@@ -427,7 +333,17 @@
       },
       "weak": true,
       "lat": 41.88931,
-      "lng": -87.97784
+      "lng": -87.97784,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "little-creek-studios",
@@ -481,7 +397,17 @@
         "town": ""
       },
       "lat": 40.07005,
-      "lng": -90.42901
+      "lng": -90.42901,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "simonlevin",
@@ -492,15 +418,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Illinois",
-      "city": null,
+      "region": "Pawnee Rd. Pawnee",
+      "city": "Pawnee Rd. Pawnee",
       "urls": [
         "https://www.simonlevin.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Pawnee Rd. Pawnee, Illinois",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.simonlevin.com/"
       },
@@ -531,7 +457,20 @@
         "state": "IL",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "IL",
+        "town": "Pawnee Rd. Pawnee",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "lighthouse-artcenter",
@@ -581,7 +520,16 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "cu-potter-s-club",
@@ -633,7 +581,17 @@
       },
       "weak": true,
       "lat": 40.11579,
-      "lng": -88.24119
+      "lng": -88.24119,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "wheel-art-pottery-studios",
@@ -644,15 +602,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Illinois",
-      "city": null,
+      "region": "Peoria",
+      "city": "Peoria",
       "urls": [
         "https://www.wheelartpottery.studio/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Peoria, Illinois",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.wheelartpottery.studio/"
       },
@@ -683,7 +641,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "IL",
+        "town": "Peoria",
+        "score": 10,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "omniform1",
@@ -733,7 +698,16 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "spindrift-studio",
@@ -783,7 +757,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -806,6 +790,18 @@
     {
       "id": "chicago-ceramic-center",
       "why": "Second check (claude-haiku-4.5): The text describes electric kilns only and does not mention any non-electric firing methods such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction at the Chicago Ceramic Center itself. (2026-10-07)"
+    },
+    {
+      "id": "mud-makers",
+      "why": "Its own pages give an address in AZ (Ave Chino Valley), not IL. Moved. (2026-10-07)"
+    },
+    {
+      "id": "yu-tang-ceramics",
+      "why": "Its own pages give an address in WA (Avenue North Seattle), not IL. Moved. (2026-10-07)"
+    },
+    {
+      "id": "ruby-s-clay-studio",
+      "why": "Its own pages give an address in CA (San Francisco), not IL. Moved. (2026-10-07)"
     }
   ]
 }

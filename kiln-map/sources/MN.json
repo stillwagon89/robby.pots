@@ -101,7 +101,14 @@
       },
       "weak": true,
       "lat": 48.90527,
-      "lng": -95.3144
+      "lng": -95.3144,
+      "located": {
+        "state": "MN",
+        "town": "Warroad",
+        "score": 14,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "buffalo-art-guild",
@@ -112,15 +119,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Minnesota",
-      "city": null,
+      "region": "Buffalo",
+      "city": "Buffalo",
       "urls": [
         "https://www.buffaloartguild.org/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Buffalo, Minnesota",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.buffaloartguild.org/"
       },
@@ -151,7 +158,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "MN",
+        "town": "Buffalo",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "minnetonka-center-for-the-arts",
@@ -164,15 +178,15 @@
         "soda",
         "gas_reduction"
       ],
-      "region": "Minnetonka",
-      "city": "Minnetonka",
+      "region": "Shore Drive Wayzata",
+      "city": "Shore Drive Wayzata",
       "urls": [
         "https://minnetonkaarts.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Minnetonka, Minnesota",
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Shore Drive Wayzata, Minnesota",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://minnetonkaarts.org/"
       },
@@ -207,9 +221,14 @@
         "state": "MN",
         "town": "Minnetonka"
       },
-      "weak": true,
-      "lat": 44.94051,
-      "lng": -93.46389
+      "weak": false,
+      "located": {
+        "state": "MN",
+        "town": "Shore Drive Wayzata",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "bending-pines-pottery",
@@ -259,7 +278,14 @@
       },
       "weak": true,
       "lat": 46.52052,
-      "lng": -94.28861
+      "lng": -94.28861,
+      "located": {
+        "state": "MN",
+        "town": "Nisswa",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "north-house-folk-school",
@@ -270,15 +296,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Minnesota",
-      "city": null,
+      "region": "Grand Marais",
+      "city": "Grand Marais",
       "urls": [
         "https://northhouse.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Grand Marais, Minnesota",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://northhouse.org/"
       },
@@ -309,7 +335,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "MN",
+        "town": "Grand Marais",
+        "score": 11,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "the-workshop-mpls",
@@ -363,7 +396,12 @@
         "town": ""
       },
       "lat": 44.9773,
-      "lng": -93.26547
+      "lng": -93.26547,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": true
     },
     {
       "id": "nemaa",
@@ -417,7 +455,12 @@
         "town": "Minneapolis"
       },
       "lat": 44.9773,
-      "lng": -93.26547
+      "lng": -93.26547,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "logan-c-pottery",
@@ -457,7 +500,11 @@
       },
       "weak": true,
       "lat": 44.9773,
-      "lng": -93.26547
+      "lng": -93.26547,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "featherstone-pottery",
@@ -509,7 +556,11 @@
       },
       "weak": true,
       "lat": 44.56247,
-      "lng": -92.5338
+      "lng": -92.5338,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

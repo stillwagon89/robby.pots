@@ -51,7 +51,11 @@
       },
       "weak": true,
       "lat": 40.45325,
-      "lng": -111.77796
+      "lng": -111.77796,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "petersen-art-center",
@@ -101,7 +105,11 @@
       },
       "lat": 40.75962,
       "lng": -111.8868,
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "i-j-and-jeanne-wagner-jewish",
@@ -151,7 +159,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "cruz-quintero-ceramics",
@@ -201,7 +213,11 @@
       },
       "lat": 40.23373,
       "lng": -111.65871,
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "kayenta-fire",
@@ -212,14 +228,14 @@
       "firing_types_guess": [
         "pit_barrel_saggar"
       ],
-      "region": "Boulder",
-      "city": "Boulder",
+      "region": "Orem",
+      "city": "Orem",
       "urls": [
         "https://kayentafire.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Boulder, Utah",
+      "geocode": "Orem, Utah",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://kayentafire.com/"
@@ -250,8 +266,13 @@
         "town": ""
       },
       "weak": true,
-      "lat": 37.90824,
-      "lng": -111.42306
+      "located": {
+        "state": "UT",
+        "town": "Orem",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "pottery-workshops-slc",
@@ -262,14 +283,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Salt Lake City",
-      "city": "Salt Lake City",
+      "region": "Draper",
+      "city": "Draper",
       "urls": [
         "https://potteryworkshopslc.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Salt Lake City, Utah",
+      "geocode": "Draper, Utah",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://potteryworkshopslc.com/"
@@ -301,8 +322,14 @@
         "state": "UT",
         "town": "Salt Lake City"
       },
-      "lat": 40.75962,
-      "lng": -111.8868
+      "located": {
+        "state": "UT",
+        "town": "Draper",
+        "score": 10,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "throw-art-studio",
@@ -352,7 +379,11 @@
       },
       "weak": true,
       "lat": 40.23373,
-      "lng": -111.65871
+      "lng": -111.65871,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "desert-sun-ceramics",
@@ -407,7 +438,11 @@
       },
       "lat": 38.57381,
       "lng": -109.54621,
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "the-tilted-kiln",
@@ -462,7 +497,12 @@
         "street": "955 E Tabernacle Street"
       },
       "lat": 37.10988,
-      "lng": -113.58321
+      "lng": -113.58321,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "logan-artists-association",
@@ -513,7 +553,12 @@
         "town": "Logan"
       },
       "lat": 41.73131,
-      "lng": -111.83491
+      "lng": -111.83491,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": true
     },
     {
       "id": "corbridge-pottery",
@@ -563,7 +608,11 @@
       },
       "weak": true,
       "lat": 41.73131,
-      "lng": -111.83491
+      "lng": -111.83491,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "patty-s-ceramics",
@@ -613,7 +662,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "granary-arts",
@@ -624,14 +677,14 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Spring City",
-      "city": "Spring City",
+      "region": "Ephraim",
+      "city": "Ephraim",
       "urls": [
         "https://www.granaryarts.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Spring City, Utah",
+      "geocode": "Ephraim, Utah",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.granaryarts.org/"
@@ -652,8 +705,13 @@
         "town": ""
       },
       "weak": true,
-      "lat": 39.48246,
-      "lng": -111.49602
+      "located": {
+        "state": "UT",
+        "town": "Ephraim",
+        "score": 4,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

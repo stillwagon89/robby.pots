@@ -465,7 +465,12 @@
         },
         "state": "CA",
         "town": "San Francisco"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "clay-by-the-bay",
@@ -523,7 +528,17 @@
         "state": "CA",
         "town": "San Francisco"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "the-potters-studio",
@@ -576,57 +591,20 @@
         "town": "",
         "street": "724 Camelia St."
       },
-      "weak": true
-    },
-    {
-      "id": "berkeley-potters-guild",
-      "org": "Berkeley Potters Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Berkeley",
-      "city": "Berkeley",
-      "urls": [
-        "https://berkeleypotters.com/"
-      ],
-      "notes": "Annual wood firing event. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Berkeley, California",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://berkeleypotters.com/"
+      "weak": true,
+      "located": {
+        "state": "CA",
+        "town": "Berkeley",
+        "score": 8,
+        "osm": true,
+        "date": "2026-10-07"
       },
-      "access": {
-        "how": "Annual wood firing event",
-        "note": "Annual wood firing event",
-        "quote": "Everyone’s favorite event of the year, the Berkeley Potters Guild Seconds Sale offers mind blowing discounts of superb ceramics AND exceptional new work still warm from the kilns filling studios, open to the public for two weekends.",
-        "url": "https://berkeleypotters.com/current-upcoming-events",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "berkeleypotters.com"
-      },
-      "lat": 37.87084,
-      "lng": -122.27286,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The text describes a collective of professional ceramic artists with private studios and mentions a seconds sale, but provides no information about public access to non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "clayroom-oakland",
@@ -678,7 +656,12 @@
         "state": "CA",
         "town": "Oakland",
         "street": "4268 Broadway, Oakland, CA, USA"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "the-crucible",
@@ -689,14 +672,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Oakland",
-      "city": "Oakland",
+      "region": "St. Oakland",
+      "city": "St. Oakland",
       "urls": [
         "https://www.thecrucible.org/"
       ],
       "notes": "Raku class (bring fired work). Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Oakland, California",
+      "geocode": "St. Oakland, California",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.thecrucible.org/"
@@ -717,8 +700,6 @@
         "date": "2026-10-06",
         "key": "thecrucible.org"
       },
-      "lat": 37.80446,
-      "lng": -122.27136,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -730,7 +711,15 @@
         "state": "CA",
         "town": "Oakland",
         "street": "1260 7th Street"
-      }
+      },
+      "located": {
+        "state": "CA",
+        "town": "St. Oakland",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "jtown-clay-higher-fire",
@@ -785,7 +774,15 @@
         "state": "CA",
         "town": "San Jose",
         "street": "520 N 7th St"
-      }
+      },
+      "located": {
+        "state": "CA",
+        "town": "San Jose",
+        "score": 147,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "common-clay-space-miki-shim",
@@ -836,7 +833,12 @@
         },
         "state": "CA",
         "town": "Cupertino"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "spiffy-pottery-studio",
@@ -876,7 +878,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "oribe-firing-center",
@@ -936,7 +948,12 @@
         },
         "state": "CA",
         "town": "San Gregorio"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "slowfire",
@@ -986,7 +1003,16 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "kickwheel-sonoma",
@@ -1040,7 +1066,15 @@
         },
         "state": "CA",
         "town": "Petaluma"
-      }
+      },
+      "located": {
+        "state": "CA",
+        "town": "Petaluma",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "sebastopol-center-for-the-arts",
@@ -1095,7 +1129,15 @@
         "state": "CA",
         "town": "Sebastopol",
         "street": "282 South High Street"
-      }
+      },
+      "located": {
+        "state": "CA",
+        "town": "Sebastopol",
+        "score": 2,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "clayfolk-studio",
@@ -1106,14 +1148,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Occidental",
-      "city": "Occidental",
+      "region": "Main Street Occidental",
+      "city": "Main Street Occidental",
       "urls": [
         "https://www.clayfolkstudio.com/"
       ],
       "notes": "Saturday workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Occidental, California",
+      "geocode": "Main Street Occidental, California",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.clayfolkstudio.com/"
@@ -1134,8 +1176,6 @@
         "date": "2026-10-06",
         "key": "clayfolkstudio.com"
       },
-      "lat": 38.40103,
-      "lng": -122.93121,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -1147,7 +1187,15 @@
         "state": "CA",
         "town": "Occidental",
         "street": "Behind Altamont General Store in Occidental, Ca"
-      }
+      },
+      "located": {
+        "state": "CA",
+        "town": "Main Street Occidental",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "john-dix",
@@ -1201,7 +1249,12 @@
         },
         "state": "CA",
         "town": "Mendocino"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "acai-studios-gallery",
@@ -1252,7 +1305,15 @@
         },
         "state": "CA",
         "town": "Fair Oaks"
-      }
+      },
+      "located": {
+        "state": "CA",
+        "town": "Fair Oaks",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "auburn-clay-arts",
@@ -1303,6 +1364,16 @@
         },
         "state": "",
         "town": ""
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
       }
     },
     {
@@ -1315,14 +1386,14 @@
         "soda",
         "salt"
       ],
-      "region": "Pomona",
-      "city": "Pomona",
+      "region": "Garey Ave Pomona",
+      "city": "Garey Ave Pomona",
       "urls": [
         "https://www.amoca.org/"
       ],
       "notes": "Workshops; salt firing days. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Pomona, California",
+      "geocode": "Garey Ave Pomona, California",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.amoca.org/"
@@ -1344,8 +1415,6 @@
         "date": "2026-10-06",
         "key": "amoca.org"
       },
-      "lat": 34.05538,
-      "lng": -117.75175,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -1358,7 +1427,15 @@
         "state": "CA",
         "town": "Pomona",
         "street": "301 N Garey Ave"
-      }
+      },
+      "located": {
+        "state": "CA",
+        "town": "Garey Ave Pomona",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "green-bisque-clayhouse",
@@ -1409,7 +1486,20 @@
         "town": "Pasadena",
         "street": "1563 North Lake Ave."
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "CA",
+        "town": "Pasadena",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "element-art-center",
@@ -1461,7 +1551,12 @@
         "state": "CA",
         "town": "San Francisco",
         "street": "1045 Sutter Street"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "claytivity-pottery-studio",
@@ -1513,7 +1608,12 @@
         "state": "CA",
         "town": "Los Angeles",
         "street": "2910 Gilroy St, Los Angeles, CA"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "summer-studios",
@@ -1564,7 +1664,15 @@
         },
         "state": "CA",
         "town": "Lomita"
-      }
+      },
+      "located": {
+        "state": "CA",
+        "town": "Lomita",
+        "score": 2,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "ceramic-heights",
@@ -1616,7 +1724,15 @@
         "state": "CA",
         "town": "San Diego",
         "street": "5509 El Cajon Boulevard"
-      }
+      },
+      "located": {
+        "state": "CA",
+        "town": "San Diego",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "ica-north",
@@ -1668,7 +1784,15 @@
         "state": "CA",
         "town": "Encinitas",
         "street": "1550 S El Camino Real, Encinitas, CA 92024"
-      }
+      },
+      "located": {
+        "state": "CA",
+        "town": "Encinitas",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "thecuriousforge",
@@ -1718,9 +1842,241 @@
         "state": "CA",
         "town": "Nevada City"
       },
-      "weak": true,
+      "weak": false,
       "lat": 39.2626,
-      "lng": -121.01873
+      "lng": -121.01873,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "uncle-paul-s",
+      "org": "Uncle Paul's",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Broadway San Francisco",
+      "city": "Broadway San Francisco",
+      "urls": [
+        "https://www.unclepaulsnorthbeach.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Broadway San Francisco, California",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.unclepaulsnorthbeach.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Day 1 - Saturday, July 25th 2-5pm - Workshop at Uncle Paul’s Orientation and brief introduction to soda firing and high fire clay.",
+        "url": "https://www.unclepaulsnorthbeach.com/classes/p/soda-firing-workshop",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "unclepaulsnorthbeach.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippet mentions a soda firing field trip workshop, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "CA",
+        "town": "Broadway San Francisco",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "ruby-s-clay-studio",
+      "org": "ruby's clay studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "San Francisco",
+      "city": "San Francisco",
+      "urls": [
+        "https://www.rubysclaystudio.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "San Francisco, California",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.rubysclaystudio.org/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Wood firing is a community effort, so participants are expected to commit to all steps in the process -- firing preparation, loading, stoking, and cleanup.",
+        "url": "https://www.rubysclaystudio.org/workshop-registration/workshop-f2yrm-6wtpy-5jzj5-tlap8-5njk6-kg23a-clz8m",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "rubysclaystudio.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippet mentions a wood firing workshop open to participants, but the page text itself is empty, providing no verifiable details about location, address, or confirmation of public access.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "CA",
+        "town": "San Francisco",
+        "score": 12,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "cider-creek-collective",
+      "org": "Cider Creek Collective",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Albion",
+      "city": "Albion",
+      "urls": [
+        "https://www.cidercreekcollective.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Albion, California",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.cidercreekcollective.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Check out our classes and special workshops specializing in wood firing!",
+        "url": "https://www.cidercreekcollective.com/classes-workshops",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "cidercreekcollective.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippet mentions wood firing classes and workshops, but the actual page text provided is empty, so public access cannot be confirmed.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "CA",
+        "town": "Albion",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "studio-channel-islands",
+      "org": "Studio Channel Islands",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Camarillo",
+      "city": "Camarillo",
+      "urls": [
+        "https://studiochannelislands.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Camarillo, California",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://studiochannelislands.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Raku Firing April 8",
+        "url": "https://studiochannelislands.org/adult-edu/raku-workshop/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "studiochannelislands.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The page describes a raku workshop with a firing date, but provides no information about location (town, state, or street address) or how to register/book.",
+        "types": {
+          "raku": "It differentiates from Japanese raku in that it focuses primarily on this post firing reduction."
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "CA",
+        "town": "Camarillo",
+        "score": 92,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -1775,6 +2131,10 @@
     {
       "id": "san-diego-potters-guild",
       "why": "Second check (claude-haiku-4.5): The text mentions a gas kiln and classes, but provides no evidence that non-members or the public can book, sign up for, or participate in any non-electric ceramic firing; membership is juried and limited to San Diego County residents. (2026-10-07)"
+    },
+    {
+      "id": "berkeley-potters-guild",
+      "why": "Two models agree: The text describes a collective of private artist studios and a public seconds sale, but says nothing about the public joining or booking raku, wood, soda, salt, pit or gas-reduction firings. (2026-10-07)"
     }
   ]
 }

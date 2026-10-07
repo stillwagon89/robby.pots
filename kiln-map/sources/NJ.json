@@ -68,7 +68,14 @@
       },
       "weak": true,
       "lat": 40.72157,
-      "lng": -74.04745
+      "lng": -74.04745,
+      "located": {
+        "state": "NJ",
+        "town": "Jersey City",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "jersey-clay-society",
@@ -79,15 +86,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "New Jersey",
-      "city": null,
+      "region": "Wharton",
+      "city": "Wharton",
       "urls": [
         "https://jerseyclay.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Wharton, New Jersey",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://jerseyclay.com/"
       },
@@ -108,7 +115,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "NJ",
+        "town": "Wharton",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "burntmillpotters",
@@ -148,7 +162,11 @@
       },
       "weak": true,
       "lat": 40.61538,
-      "lng": -74.77044
+      "lng": -74.77044,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "artscenter",
@@ -198,7 +216,11 @@
       },
       "weak": true,
       "lat": 40.74092,
-      "lng": -74.38367
+      "lng": -74.38367,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "truro-center-for-the-arts",
@@ -236,7 +258,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "wooten-clayworks",
@@ -284,7 +310,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "peters-valley-school-of-craft",
@@ -334,7 +364,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "toshiko-takaezu-ceramic-studios",
@@ -345,14 +379,14 @@
       "firing_types_guess": [
         "pit_barrel_saggar"
       ],
-      "region": "Quakertown",
-      "city": "Quakertown",
+      "region": "Clinton",
+      "city": "Clinton",
       "urls": [
         "https://www.hunterdonartmuseum.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Quakertown, New Jersey",
+      "geocode": "Clinton, New Jersey",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.hunterdonartmuseum.org/"
@@ -385,8 +419,14 @@
         "town": "Quakertown",
         "street": "1177 Croton Road, Quakertown, NJ 08822"
       },
-      "lat": 40.56566,
-      "lng": -74.94156
+      "located": {
+        "state": "NJ",
+        "town": "Clinton",
+        "score": 36,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "getpotteryclass",
@@ -439,7 +479,11 @@
       },
       "lat": 40.73566,
       "lng": -74.17237,
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "montclair-art-museum",
@@ -479,7 +523,56 @@
       },
       "weak": true,
       "lat": 40.81645,
-      "lng": -74.22106
+      "lng": -74.22106,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "bisc-pottery-studio",
+      "org": "BISC Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Scotch Plains",
+      "city": "Scotch Plains",
+      "urls": [
+        "https://www.biscpotterystudio.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Scotch Plains, New Jersey",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.biscpotterystudio.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "biscpotterystudio.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text provided is empty; only search snippets mention raku firing, but no actual page content confirms public access, booking, or participation details.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "NJ",
+        "town": "Scotch Plains",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

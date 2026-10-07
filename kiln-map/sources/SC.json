@@ -53,7 +53,15 @@
         "town": "Greenville"
       },
       "lat": 34.85135,
-      "lng": -82.39849
+      "lng": -82.39849,
+      "located": {
+        "state": "SC",
+        "town": "Greenville",
+        "score": 36,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "rob-gentry-s-firesong-anagama-kiln",
@@ -104,7 +112,12 @@
         "town": "Pendleton"
       },
       "lat": 34.65081,
-      "lng": -82.78207
+      "lng": -82.78207,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "artfields",
@@ -154,7 +167,11 @@
       },
       "lat": 32.77804,
       "lng": -79.93304,
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "hernando-arts",
@@ -192,7 +209,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "FL",
+        "town": "Brooksville",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "hilton-head-pottery",
@@ -203,15 +227,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "South Carolina",
-      "city": null,
+      "region": "Hilton Head Island",
+      "city": "Hilton Head Island",
       "urls": [
         "https://www.hiltonheadpottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Hilton Head Island, South Carolina",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.hiltonheadpottery.com/"
       },
@@ -240,7 +264,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "SC",
+        "town": "Hilton Head Island",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

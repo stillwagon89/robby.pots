@@ -77,7 +77,12 @@
         "state": "OH",
         "town": "Columbus",
         "street": "2050 South High Street"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "langweil-studio-pottery",
@@ -132,7 +137,12 @@
         "state": "OH",
         "town": "Groveport",
         "street": "596 Main St."
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "willahollow-pottery",
@@ -143,14 +153,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Perry",
-      "city": "Perry",
+      "region": "Main Street Perry",
+      "city": "Main Street Perry",
       "urls": [
         "https://www.willahollowpottery.com/"
       ],
       "notes": "Dated raku workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Perry, Ohio",
+      "geocode": "Main Street Perry, Ohio",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.willahollowpottery.com/"
@@ -171,8 +181,6 @@
         "date": "2026-10-06",
         "key": "willahollowpottery.com"
       },
-      "lat": 39.63703,
-      "lng": -82.20444,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -185,7 +193,14 @@
         "town": "Perry",
         "street": "3521 Main St."
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "OH",
+        "town": "Main Street Perry",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "yellow-springs-raku-day-john-bryan-community-pot",
@@ -236,7 +251,12 @@
         },
         "state": "OH",
         "town": "Yellow Springs"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "the-cracked-pot-studio",
@@ -288,7 +308,12 @@
         "state": "OH",
         "town": "Bellefontaine",
         "street": "613 Hamilton St"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "quill-pottery",
@@ -339,7 +364,11 @@
         "town": "Westlake",
         "street": "1055 C Bradley Rd"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "don-drumm-studios-jack-s-kiln-repair-training",
@@ -390,7 +419,12 @@
         },
         "state": "OH",
         "town": "Akron"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     }
   ],
   "_removed": [

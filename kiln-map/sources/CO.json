@@ -104,7 +104,12 @@
         },
         "state": "CO",
         "town": "Denver"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "denver-ceramic-studio",
@@ -156,7 +161,12 @@
         "state": "CO",
         "town": "Denver",
         "street": "369 S Pearl, Denver, 80209"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "alex-schupp-ceramics",
@@ -207,7 +217,12 @@
         },
         "state": "CO",
         "town": "Denver"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "asld-art-students-league-of-denver",
@@ -259,7 +274,12 @@
         "state": "CO",
         "town": "Denver",
         "street": "499 Broadway"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "jl-pottery-justin",
@@ -313,7 +333,12 @@
         },
         "state": "CO",
         "town": "Morrison"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "friend-assembly",
@@ -324,14 +349,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Aurora",
-      "city": "Aurora",
+      "region": "Dallas St. Aurora",
+      "city": "Dallas St. Aurora",
       "urls": [
         "https://www.stanleymarketplace.com/"
       ],
       "notes": "Dated raku experience. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Aurora, Colorado",
+      "geocode": "Dallas St. Aurora, Colorado",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.stanleymarketplace.com/"
@@ -352,8 +377,6 @@
         "date": "2026-10-06",
         "key": "stanleymarketplace.com"
       },
-      "lat": 39.74014,
-      "lng": -104.87334,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -365,7 +388,15 @@
         "state": "CO",
         "town": "Aurora",
         "street": "2501 Dallas Street"
-      }
+      },
+      "located": {
+        "state": "CO",
+        "town": "Dallas St. Aurora",
+        "score": 2,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "flingin-pots",
@@ -415,7 +446,20 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "CO",
+        "town": "Fort Collins",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "joseph-miranda-smokestack",
@@ -467,7 +511,12 @@
         "state": "CO",
         "town": "Fort Collins",
         "street": "168 Yale Avenue, Fort Collins, CO"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "stinky-cheese-ceramics",
@@ -507,7 +556,17 @@
         "state": "CO",
         "town": "Loveland"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "boulder-potters-guild",
@@ -562,7 +621,15 @@
         "state": "CO",
         "town": "Boulder",
         "street": "3185 Sterling Cir, Boulder, CO 80301"
-      }
+      },
+      "located": {
+        "state": "CO",
+        "town": "Boulder",
+        "score": 12,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "cottonwood-center-for-the-arts",
@@ -573,14 +640,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Colorado Springs",
-      "city": "Colorado Springs",
+      "region": "Ave Colorado Springs",
+      "city": "Ave Colorado Springs",
       "urls": [
         "https://cottonwoodcenterforthearts.com/"
       ],
       "notes": "Monthly raku in open studio. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Colorado Springs, Colorado",
+      "geocode": "Ave Colorado Springs, Colorado",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://cottonwoodcenterforthearts.com/"
@@ -601,8 +668,6 @@
         "date": "2026-10-06",
         "key": "cottonwoodcenterforthearts.com"
       },
-      "lat": 38.83396,
-      "lng": -104.82535,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -614,7 +679,15 @@
         "state": "CO",
         "town": "Colorado Springs",
         "street": "427 E Colorado Ave"
-      }
+      },
+      "located": {
+        "state": "CO",
+        "town": "Ave Colorado Springs",
+        "score": 4,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "fine-arts-center-at-colorado-college",
@@ -666,7 +739,20 @@
         "state": "CO",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "CO",
+        "town": "Colorado Springs",
+        "score": 129,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "carbondale-clay-center",
@@ -718,7 +804,15 @@
         "state": "CO",
         "town": "Carbondale",
         "street": "135 Main Street"
-      }
+      },
+      "located": {
+        "state": "CO",
+        "town": "Carbondale",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     }
   ],
   "_removed": [

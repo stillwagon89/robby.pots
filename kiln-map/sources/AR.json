@@ -33,15 +33,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Arkansas",
-      "city": null,
+      "region": "Little Rock",
+      "city": "Little Rock",
       "urls": [
         "https://arkmfa.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Little Rock, Arkansas",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://arkmfa.org/"
       },
@@ -72,7 +72,14 @@
         "state": "AR",
         "town": ""
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "AR",
+        "town": "Little Rock",
+        "score": 8,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "eureka-springs-school-of-the-arts",
@@ -123,7 +130,17 @@
         "town": ""
       },
       "lat": 36.40008,
-      "lng": -93.73924
+      "lng": -93.73924,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "sullivan-pottery",
@@ -162,7 +179,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "hunter-may-pottery",
@@ -213,7 +240,12 @@
         "town": "Little Rock"
       },
       "lat": 34.74651,
-      "lng": -92.28963
+      "lng": -92.28963,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "cub-creek-foundation",
@@ -263,7 +295,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "ozark-folk-center",
@@ -313,7 +355,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "arkansas-state-parks",
@@ -359,57 +411,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
-    },
-    {
-      "id": "flaming-earth-pottery",
-      "org": "Flaming Earth Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Little Rock",
-      "city": "Little Rock",
-      "urls": [
-        "https://www.flamingearthpottery.studio/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Little Rock, Arkansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.flamingearthpottery.studio/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "I benefit from being part of an active community of potters who come together annually to support the firing of an authentic wood-fired anagama kiln in Oark, Arkansas.",
-        "url": "https://www.flamingearthpottery.studio/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "flamingearthpottery.studio"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The text mentions the owner's participation in an annual wood-fired anagama kiln firing in Oark, Arkansas, but provides no information about public access, workshops, classes, memberships, or any way for outsiders to participate in firings at Flaming Earth Pottery itself.",
-        "types": {},
-        "state": "AR",
-        "town": "Little Rock"
-      },
       "weak": true,
-      "lat": 34.74651,
-      "lng": -92.28963
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "life-in-mountain-view",
@@ -447,7 +459,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -482,6 +504,10 @@
     {
       "id": "pottery-mill",
       "why": "Second check (claude-haiku-4.5): page says state is MA, not AR (2026-10-07)"
+    },
+    {
+      "id": "flaming-earth-pottery",
+      "why": "Two models agree: This is an individual potter's site that mentions she takes part in a community wood-firing of an anagama kiln in Oark, but nothing says the public can join, book or sign up for any firing. (2026-10-07)"
     }
   ]
 }

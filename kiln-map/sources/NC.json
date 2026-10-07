@@ -90,14 +90,14 @@
       "firing_types_guess": [
         "soda"
       ],
-      "region": "Highlands",
-      "city": "Highlands",
+      "region": "Franklin Road Highlands",
+      "city": "Franklin Road Highlands",
       "urls": [
         "https://www.thebascom.org/"
       ],
       "notes": "Workshops (Ben Owen III, Gertrude Graham Smith). Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Highlands, North Carolina",
+      "geocode": "Franklin Road Highlands, North Carolina",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.thebascom.org/"
@@ -108,8 +108,6 @@
         "date": "2026-10-06",
         "key": "thebascom.org"
       },
-      "lat": 35.05259,
-      "lng": -83.19682,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -121,7 +119,15 @@
         "state": "NC",
         "town": "Highlands",
         "street": "323 Franklin Road"
-      }
+      },
+      "located": {
+        "state": "NC",
+        "town": "Franklin Road Highlands",
+        "score": 4,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "wood-song-pottery",
@@ -173,7 +179,12 @@
         "state": "NC",
         "town": "Bakersville",
         "street": "524 Wilson Road"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "doug-dotson-pottery",
@@ -184,14 +195,14 @@
       "firing_types_guess": [
         "soda"
       ],
-      "region": "Carrboro",
-      "city": "Carrboro",
+      "region": "Pittsboro",
+      "city": "Pittsboro",
       "urls": [
         "https://dougdotsonpottery.com/"
       ],
       "notes": "Students join soda firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Carrboro, North Carolina",
+      "geocode": "Pittsboro, North Carolina",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://dougdotsonpottery.com/"
@@ -212,8 +223,6 @@
         "date": "2026-10-06",
         "key": "dougdotsonpottery.com"
       },
-      "lat": 35.90999,
-      "lng": -79.07529,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -225,7 +234,15 @@
         "state": "NC",
         "town": "Pittsboro",
         "street": "305 Mockernut Rd, Pittsboro, NC 27312"
-      }
+      },
+      "located": {
+        "state": "NC",
+        "town": "Pittsboro",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "delores-pottery-studios",
@@ -280,7 +297,12 @@
         "state": "NC",
         "town": "Durham",
         "street": "1010 West Main St"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "pasca-pottery",
@@ -332,7 +354,14 @@
         "state": "NC",
         "town": "Durham"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "NC",
+        "town": "Durham",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "clayworks",
@@ -384,7 +413,12 @@
         "state": "NC",
         "town": "Charlotte",
         "street": "4506 Monroe Road"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "charlotte-pottery-studio",
@@ -439,7 +473,14 @@
         "state": "NC",
         "town": "Charlotte"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "NC",
+        "town": "Charlotte",
+        "score": 10,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "cedar-oak-farm-pottery",
@@ -491,7 +532,15 @@
         "state": "NC",
         "town": "Indian Trail",
         "street": "7816 West Duncan Road, Indian Trail, NC 28079"
-      }
+      },
+      "located": {
+        "state": "NC",
+        "town": "Indian Trail",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "rising-sun-pottery",
@@ -546,7 +595,12 @@
         "street": "209 South Academy Street"
       },
       "lat": 35.47375,
-      "lng": -81.25453
+      "lng": -81.25453,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "fat-cat-pottery",
@@ -601,7 +655,15 @@
         "state": "NC",
         "town": "Wilmington",
         "street": "2500 Blue Clay Road"
-      }
+      },
+      "located": {
+        "state": "NC",
+        "town": "Wilmington",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "raku-workshop-leland",
@@ -652,7 +714,12 @@
         },
         "state": "NC",
         "town": "Leland"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "avl-clay",
@@ -704,7 +771,15 @@
         "state": "NC",
         "town": "Asheville",
         "street": "4 Mulvaney Street"
-      }
+      },
+      "located": {
+        "state": "NC",
+        "town": "Asheville",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "the-village-potters-clay-center",
@@ -716,14 +791,14 @@
         "gas_reduction",
         "raku"
       ],
-      "region": "Asheville",
-      "city": "Asheville",
+      "region": "Westgate Parkway Asheville",
+      "city": "Westgate Parkway Asheville",
       "urls": [
         "https://thevillagepotters.com/"
       ],
       "notes": "Classes, 12+ kilns. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Asheville, North Carolina",
+      "geocode": "Westgate Parkway Asheville, North Carolina",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://thevillagepotters.com/"
@@ -745,8 +820,6 @@
         "date": "2026-10-06",
         "key": "thevillagepotters.com"
       },
-      "lat": 35.59536,
-      "lng": -82.55084,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -758,7 +831,15 @@
         },
         "state": "NC",
         "town": "Asheville"
-      }
+      },
+      "located": {
+        "state": "NC",
+        "town": "Westgate Parkway Asheville",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "jeff-brown-pottery",
@@ -811,7 +892,71 @@
         "town": "Seagrove",
         "street": "505 E Main St."
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "NC",
+        "town": "Seagrove",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "smoke-in-the-mountains-pottery",
+      "org": "Smoke in the Mountains Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Brasstown",
+      "city": "Brasstown",
+      "urls": [
+        "https://smokeinthemountainspottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Brasstown, North Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://smokeinthemountainspottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The kiln can hold over 700 pots, most of which will be brought by potters and students in the region, who along with other volunteers, will work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a real wood fired kiln can make.",
+        "url": "https://smokeinthemountainspottery.com/wood-firing/",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "smokeinthemountainspottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text describes a community wood kiln fired 4-5 times per year where potters, students, and volunteers from the region participate in shifts to fire pots, with public opening day events where people gather to unload.",
+        "types": {
+          "wood": "The kiln can hold over 700 pots, most of which will be brought by potters and students in the region, who along with other volunteers, will work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a real wood fired kiln can make."
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "NC",
+        "town": "Brasstown",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

@@ -78,7 +78,12 @@
         "state": "FL",
         "town": "Orange Park",
         "street": "1904 Debarry Avenue"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "the-clay-co-op",
@@ -130,7 +135,15 @@
         "state": "FL",
         "town": "St. Petersburg",
         "street": "2724 6th Ave S"
-      }
+      },
+      "located": {
+        "state": "FL",
+        "town": "St. Petersburg",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "atlantic-beach-arts-market",
@@ -182,7 +195,15 @@
         "state": "FL",
         "town": "Atlantic Beach",
         "street": "1805 Mayport Rd"
-      }
+      },
+      "located": {
+        "state": "FL",
+        "town": "Atlantic Beach",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "eat-your-yard-jax",
@@ -193,14 +214,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Jacksonville",
-      "city": "Jacksonville",
+      "region": "Tallahassee",
+      "city": "Tallahassee",
       "urls": [
         "https://visitfloridafarms.org/"
       ],
       "notes": "Dated class (May 3). Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Jacksonville, Florida",
+      "geocode": "Tallahassee, Florida",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://visitfloridafarms.org/"
@@ -221,8 +242,6 @@
         "date": "2026-10-06",
         "key": "visitfloridafarms.org"
       },
-      "lat": 30.32622,
-      "lng": -81.65792,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -234,7 +253,15 @@
         "state": "FL",
         "town": "Jacksonville",
         "street": "6500 Utsey Road"
-      }
+      },
+      "located": {
+        "state": "FL",
+        "town": "Tallahassee",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "eniko-ujj-nick-phoenix",
@@ -285,7 +312,12 @@
         },
         "state": "FL",
         "town": "Pensacola"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "lemoyne-arts",
@@ -338,7 +370,11 @@
         "town": "",
         "street": "417 E. Call St."
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "super-awesome-cool-pottery",
@@ -390,7 +426,12 @@
         "state": "FL",
         "town": "Orlando",
         "street": "930 Hoffner Ave"
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "peace-and-mud-pottery-studio",
@@ -442,7 +483,14 @@
         "state": "FL",
         "town": "St. Augustine"
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "FL",
+        "town": "St. Augustine",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "make-space",
@@ -493,7 +541,12 @@
         },
         "state": "FL",
         "town": "St. Augustine"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "city-of-orlando-ceramics-studio",
@@ -548,7 +601,15 @@
         "state": "FL",
         "town": "Orlando",
         "street": "800 Grand Street, Building B, Orlando, FL 32805"
-      }
+      },
+      "located": {
+        "state": "FL",
+        "town": "Orlando",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "sarasota-clay-company",
@@ -600,7 +661,12 @@
         "state": "FL",
         "town": "Sarasota",
         "street": "1733 Northgate Blvd"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "armory-art-center",
@@ -653,7 +719,17 @@
         "town": "West Palm Beach",
         "street": "811 Park Place"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "first-city-art-center",
@@ -705,7 +781,12 @@
         "state": "FL",
         "town": "Pensacola",
         "street": "1060 N. Guillemard St."
-      }
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "richard-rosen-s-studio",
@@ -756,7 +837,12 @@
         "town": "Naples"
       },
       "lat": 26.1422,
-      "lng": -81.79429
+      "lng": -81.79429,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "let-it-burn-pottery",
@@ -807,7 +893,12 @@
         },
         "state": "FL",
         "town": "Bonita Springs"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "uwf-department-of-art-design",
@@ -818,14 +909,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Pensacola",
-      "city": "Pensacola",
+      "region": "University Parkway Pensacola",
+      "city": "University Parkway Pensacola",
       "urls": [
         "https://uwf.edu/"
       ],
       "notes": "June 1–5. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Pensacola, Florida",
+      "geocode": "University Parkway Pensacola, Florida",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://uwf.edu/"
@@ -836,8 +927,6 @@
         "date": "2026-10-06",
         "key": "uwf.edu"
       },
-      "lat": 30.42131,
-      "lng": -87.21691,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -848,7 +937,15 @@
         },
         "state": "FL",
         "town": "Pensacola"
-      }
+      },
+      "located": {
+        "state": "FL",
+        "town": "University Parkway Pensacola",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "smith-works-studios",
@@ -898,7 +995,16 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "morean-center-for-clay",
@@ -951,9 +1057,13 @@
         "state": "FL",
         "town": "St. Pete"
       },
-      "weak": true,
+      "weak": false,
       "lat": 27.72531,
-      "lng": -82.74121
+      "lng": -82.74121,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

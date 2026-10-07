@@ -76,7 +76,12 @@
         "town": "Albion"
       },
       "lat": 41.39578,
-      "lng": -85.42426
+      "lng": -85.42426,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "tekventure-makerspace",
@@ -89,14 +94,14 @@
         "pit_barrel_saggar",
         "gas_reduction"
       ],
-      "region": "Allen County",
-      "city": "Allen County",
+      "region": "Fort Wayne",
+      "city": "Fort Wayne",
       "urls": [
         "https://www.tekventure.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Allen County, Indiana",
+      "geocode": "Fort Wayne, Indiana",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.tekventure.org/"
@@ -133,8 +138,19 @@
         "town": ""
       },
       "weak": true,
-      "lat": 41.09756,
-      "lng": -85.05621
+      "located": {
+        "state": "IN",
+        "town": "Fort Wayne",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "beale-pottery",
@@ -145,15 +161,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Indiana",
-      "city": null,
+      "region": "Porter",
+      "city": "Porter",
       "urls": [
         "https://www.indianadunes.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Porter, Indiana",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.indianadunes.com/"
       },
@@ -184,7 +200,20 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "IN",
+        "town": "Porter",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "amphora-ceramic-studio",
@@ -234,57 +263,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
-    },
-    {
-      "id": "eastside-pottery",
-      "org": "Eastside Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://www.eastsidepottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.eastsidepottery.com/"
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Bring up to four bisque pieces and finish them using traditional raku firing.",
-        "url": "https://www.eastsidepottery.com/classes/raku-firing-workshop",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "eastsidepottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly describes a Raku Firing Workshop open to the public (\"All levels welcome\") where participants can bring bisque pieces and finish them using traditional raku firing.",
-        "types": {
-          "raku": "Bring up to four bisque pieces and finish them using traditional raku firing."
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "indy-art-center",
@@ -335,7 +324,15 @@
         "town": "Indianapolis"
       },
       "lat": 39.76833,
-      "lng": -86.15835
+      "lng": -86.15835,
+      "located": {
+        "state": "IN",
+        "town": "Indianapolis",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "northern-indiana-clay-alliance",
@@ -389,55 +386,15 @@
         "town": "Goshen"
       },
       "lat": 41.58504,
-      "lng": -85.83445
-    },
-    {
-      "id": "cider-creek-collective",
-      "org": "Cider Creek Collective",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://www.cidercreekcollective.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.cidercreekcollective.com/"
+      "lng": -85.83445,
+      "located": {
+        "state": "IN",
+        "town": "Goshen",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-07"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Check out our classes and special workshops specializing in wood firing!",
-        "url": "https://www.cidercreekcollective.com/classes-workshops",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "cidercreekcollective.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippet mentions wood firing classes and workshops, but the actual page text provided is empty, so public access cannot be confirmed.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true
+      "weak": false
     },
     {
       "id": "buck-creek-pottery",
@@ -489,7 +446,17 @@
       },
       "weak": true,
       "lat": 39.76833,
-      "lng": -86.15835
+      "lng": -86.15835,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "greater-lafayette-clay-guild",
@@ -540,7 +507,12 @@
         "town": "Monticello"
       },
       "lat": 40.74487,
-      "lng": -86.76188
+      "lng": -86.76188,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "playin-with-fire-studios",
@@ -582,7 +554,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "fire-arts-inc-in",
@@ -593,14 +569,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "South Bend",
-      "city": "South Bend",
+      "region": "Ave. South Bend",
+      "city": "Ave. South Bend",
       "urls": [
         "https://fireartsinc.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "South Bend, Indiana",
+      "geocode": "Ave. South Bend, Indiana",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://fireartsinc.com/"
@@ -633,8 +609,14 @@
         "town": "South Bend",
         "street": "305 E. Colfax Ave."
       },
-      "lat": 41.68338,
-      "lng": -86.25001
+      "located": {
+        "state": "IN",
+        "town": "Ave. South Bend",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "lala-gallery",
@@ -646,15 +628,15 @@
         "soda",
         "pit_barrel_saggar"
       ],
-      "region": "Indiana",
-      "city": null,
+      "region": "Lafayette",
+      "city": "Lafayette",
       "urls": [
         "https://lalagallery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Lafayette, Indiana",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://lalagallery.com/"
       },
@@ -684,7 +666,20 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "IN",
+        "town": "Lafayette",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "made-in-muncie",
@@ -739,48 +734,20 @@
       },
       "weak": true,
       "lat": 40.19369,
-      "lng": -85.38653
-    },
-    {
-      "id": "spears-gallery",
-      "org": "Spears Gallery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood"
-      ],
-      "region": "Nashville",
-      "city": "Nashville",
-      "urls": [
-        "https://www.spearspottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Nashville, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.spearspottery.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "spearspottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page shows a gallery/shop displaying finished raku and woodfire ceramics but contains no information about public access to firings, workshops, classes, or firing services.",
-        "types": {},
+      "lng": -85.38653,
+      "located": {
         "state": "IN",
-        "town": "Nashville"
+        "town": "Muncie",
+        "score": 8,
+        "osm": true,
+        "date": "2026-10-07"
       },
-      "weak": true,
-      "lat": 39.20724,
-      "lng": -86.24695
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "monte-young",
@@ -832,7 +799,17 @@
       },
       "weak": true,
       "lat": 41.03218,
-      "lng": -87.10666
+      "lng": -87.10666,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "creative-hands-studio",
@@ -882,7 +859,81 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "truro-center-for-the-arts-at-castle-hill",
+      "org": "Truro Center for the Arts at Castle Hill",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda"
+      ],
+      "region": "New Harmony",
+      "city": "New Harmony",
+      "urls": [
+        "https://nhclayproject.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "New Harmony, Indiana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://nhclayproject.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Whether you are an experienced potter or have never handled clay, we have a workshop for you!",
+        "url": "https://nhclayproject.org/the-residency",
+        "types": [
+          "soda",
+          "wood",
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "nhclayproject.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippets mention gas, soda, wood fired and raku kilns and wood firing at Castle Hill, but the actual page text provided is empty, so I cannot verify these claims or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "IN",
+        "town": "New Harmony",
+        "score": 10,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -925,6 +976,18 @@
     {
       "id": "common-clay-space-in",
       "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "eastside-pottery",
+      "why": "Its own pages give an address in WA (Bellevue), not IN. Moved. (2026-10-07)"
+    },
+    {
+      "id": "cider-creek-collective",
+      "why": "Its own pages give an address in CA (Albion), not IN. Moved. (2026-10-07)"
+    },
+    {
+      "id": "spears-gallery",
+      "why": "Two models agree: The page is an artist gallery site whose Raku and Woodfire albums only display work, with nothing about public participation in firings. (2026-10-07)"
     }
   ]
 }

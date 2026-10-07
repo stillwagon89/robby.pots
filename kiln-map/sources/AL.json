@@ -74,7 +74,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "alabama-center-for-the-arts",
@@ -125,7 +135,15 @@
         "town": "Decatur"
       },
       "lat": 34.60602,
-      "lng": -86.98382
+      "lng": -86.98382,
+      "located": {
+        "state": "AL",
+        "town": "Decatur",
+        "score": 50,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "athens-state-university",
@@ -176,7 +194,12 @@
         "town": "Athens"
       },
       "lat": 34.80455,
-      "lng": -86.97117
+      "lng": -86.97117,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "sullivan-pottery-al",
@@ -226,7 +249,17 @@
       },
       "lat": 34.72985,
       "lng": -86.5859,
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "the-mad-pottery",
@@ -281,7 +314,12 @@
         "street": "4405 Halls Mill Road B-2"
       },
       "lat": 30.69135,
-      "lng": -88.04375
+      "lng": -88.04375,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "montgomery-pottery",
@@ -335,7 +373,18 @@
         "town": ""
       },
       "lat": 32.37771,
-      "lng": -86.30908
+      "lng": -86.30908,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "celeste-sabel-haynie",
@@ -349,14 +398,14 @@
         "pit_barrel_saggar",
         "gas_reduction"
       ],
-      "region": "Montgomery",
-      "city": "Montgomery",
+      "region": "Boykin",
+      "city": "Boykin",
       "urls": [
         "https://www.blackbelttreasures.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Montgomery, Alabama",
+      "geocode": "Boykin, Alabama",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.blackbelttreasures.com/"
@@ -390,8 +439,19 @@
         "town": "Montgomery"
       },
       "weak": true,
-      "lat": 32.37771,
-      "lng": -86.30908
+      "located": {
+        "state": "AL",
+        "town": "Boykin",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "eastern-shore-art-center",
@@ -404,14 +464,14 @@
         "raku",
         "pit_barrel_saggar"
       ],
-      "region": "Fairhope",
-      "city": "Fairhope",
+      "region": "Snarr Rd. Silverhill",
+      "city": "Snarr Rd. Silverhill",
       "urls": [
         "https://www.maria-pots.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Fairhope, Alabama",
+      "geocode": "Snarr Rd. Silverhill, Alabama",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.maria-pots.com/"
@@ -448,8 +508,14 @@
         "town": "Fairhope",
         "street": "Pine Wood Kilnyard, Eastern Shore Art, Fairhope, AL 36532"
       },
-      "lat": 30.52316,
-      "lng": -87.90285
+      "located": {
+        "state": "AL",
+        "town": "Snarr Rd. Silverhill",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "shelby-county-arts-council",
@@ -460,15 +526,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Alabama",
-      "city": null,
+      "region": "Columbiana",
+      "city": "Columbiana",
       "urls": [
         "https://shelbycountyartscouncil.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Columbiana, Alabama",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://shelbycountyartscouncil.com/"
       },
@@ -487,7 +553,20 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "AL",
+        "town": "Columbiana",
+        "score": 16,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "university-of-montevallo",
@@ -529,7 +608,17 @@
       },
       "weak": true,
       "lat": 33.10067,
-      "lng": -86.86416
+      "lng": -86.86416,
+      "located": {
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

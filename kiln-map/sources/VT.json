@@ -38,14 +38,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Warren",
-      "city": "Warren",
+      "region": "Montpelier",
+      "city": "Montpelier",
       "urls": [
         "https://www.vermontartscouncil.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Warren, Vermont",
+      "geocode": "Montpelier, Vermont",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.vermontartscouncil.org/"
@@ -78,8 +78,14 @@
         "town": "Montpelier",
         "street": "36 College St."
       },
-      "lat": 44.11393,
-      "lng": -72.85554
+      "located": {
+        "state": "VT",
+        "town": "Montpelier",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "third-branch-pottery",
@@ -119,7 +125,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "across-the-grain-pottery-studio",
@@ -171,7 +181,11 @@
       },
       "weak": true,
       "lat": 44.6457,
-      "lng": -73.30248
+      "lng": -73.30248,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "farmhouse-pottery",
@@ -224,7 +238,14 @@
       },
       "weak": true,
       "lat": 43.62476,
-      "lng": -72.51898
+      "lng": -72.51898,
+      "located": {
+        "state": "VT",
+        "town": "Woodstock",
+        "score": 4,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "distinguished-teaching",
@@ -266,7 +287,14 @@
       },
       "weak": true,
       "lat": 44.47616,
-      "lng": -73.21291
+      "lng": -73.21291,
+      "located": {
+        "state": "IL",
+        "town": "Chicago",
+        "score": 122,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "orchard-street-pottery",
@@ -317,7 +345,12 @@
         "town": "Brattleboro"
       },
       "lat": 42.85076,
-      "lng": -72.55729
+      "lng": -72.55729,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "middlebury-studio-school-vt",
@@ -369,7 +402,12 @@
         "street": "2377 ROUTE 7 S"
       },
       "lat": 44.0143,
-      "lng": -73.16723
+      "lng": -73.16723,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "jackie-sedlock-pottery-vt",
@@ -380,14 +418,14 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Pownal",
-      "city": "Pownal",
+      "region": "Manchester",
+      "city": "Manchester",
       "urls": [
         "https://www.manchesterjournal.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Pownal, Vermont",
+      "geocode": "Manchester, Vermont",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.manchesterjournal.com/"
@@ -420,8 +458,14 @@
         "town": "Pownal",
         "street": "North Mason Hill Road"
       },
-      "lat": 42.79527,
-      "lng": -73.22403
+      "located": {
+        "state": "VT",
+        "town": "Manchester",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     }
   ],
   "_removed": [

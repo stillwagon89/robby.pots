@@ -75,7 +75,20 @@
         "town": "Stamford"
       },
       "lat": 41.05343,
-      "lng": -73.53873
+      "lng": -73.53873,
+      "located": {
+        "state": "DE",
+        "town": "Lewes",
+        "score": 5,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "vicentegarciaart",
@@ -128,9 +141,13 @@
         "state": "CT",
         "town": "New Britain"
       },
-      "weak": true,
+      "weak": false,
       "lat": 41.66121,
-      "lng": -72.77954
+      "lng": -72.77954,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "featherstoneart-app-neoncrm",
@@ -183,7 +200,16 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "jack-troy",
@@ -233,7 +259,20 @@
       },
       "lat": 41.3532,
       "lng": -73.01149,
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "PA",
+        "town": "Huntingdon",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "newenglandwfc",
@@ -290,7 +329,12 @@
         "town": "New Haven"
       },
       "lat": 41.30821,
-      "lng": -72.92505
+      "lng": -72.92505,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "connecticut-clay-guild",
@@ -301,15 +345,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Connecticut",
-      "city": null,
+      "region": "New Haven",
+      "city": "New Haven",
       "urls": [
         "https://www.ctclayguild.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "New Haven, Connecticut",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.ctclayguild.com/"
       },
@@ -338,7 +382,20 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "state": "CT",
+        "town": "New Haven",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "the-japan-foundation",
@@ -389,7 +446,12 @@
         "town": "New Haven"
       },
       "lat": 41.30821,
-      "lng": -72.92505
+      "lng": -72.92505,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "barbara-j-allen-studio",
@@ -427,7 +489,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "mudstone-studios",
@@ -477,57 +549,17 @@
         "state": "",
         "town": ""
       },
-      "weak": true
-    },
-    {
-      "id": "canton-clay-works-ct",
-      "org": "Canton Clay Works",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda"
-      ],
-      "region": "Connecticut",
-      "city": null,
-      "urls": [
-        "https://mudpuddlepottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://mudpuddlepottery.com/"
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Canton Clay Works is a premier wood firing studio and school committed to ceramic education and the art of wood firing.",
-        "url": "https://mudpuddlepottery.com/pages/vicente-garcia-raku-alternate-firing",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "mudpuddlepottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The search snippets mention Canton Clay Works offers wood firing service and classes, but the actual page text is empty, providing no verifiable information about public access to non-electric firings.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "creative-arts-workshop",
@@ -538,15 +570,15 @@
       "firing_types_guess": [
         "gas_reduction"
       ],
-      "region": "Connecticut",
-      "city": null,
+      "region": "New Haven",
+      "city": "New Haven",
       "urls": [
         "https://creativeartsworkshop.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "New Haven, Connecticut",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://creativeartsworkshop.org/"
       },
@@ -577,7 +609,14 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "CT",
+        "town": "New Haven",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "bell-hill-pottery",
@@ -621,7 +660,17 @@
       },
       "weak": true,
       "lat": 41.63056,
-      "lng": -73.31127
+      "lng": -73.31127,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "expressions-pottery",
@@ -674,7 +723,16 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "guilford-art-center",
@@ -686,14 +744,14 @@
         "gas_reduction",
         "raku"
       ],
-      "region": "Guilford",
-      "city": "Guilford",
+      "region": "Church Street Guilford",
+      "city": "Church Street Guilford",
       "urls": [
         "https://guilfordartcenter.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Guilford, Connecticut",
+      "geocode": "Church Street Guilford, Connecticut",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://guilfordartcenter.org/"
@@ -727,8 +785,14 @@
         "state": "CT",
         "town": "Guilford"
       },
-      "lat": 41.28276,
-      "lng": -72.68164
+      "located": {
+        "state": "CT",
+        "town": "Church Street Guilford",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "decorhint",
@@ -782,7 +846,12 @@
         "town": "New Haven"
       },
       "lat": 41.30821,
-      "lng": -72.92505
+      "lng": -72.92505,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "canton-clay-works",
@@ -835,9 +904,13 @@
         "state": "CT",
         "town": "Canton"
       },
-      "weak": true,
+      "weak": false,
       "lat": 41.82454,
-      "lng": -72.89371
+      "lng": -72.89371,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -868,6 +941,10 @@
     {
       "id": "chris-jones-pottery-ct",
       "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "canton-clay-works-ct",
+      "why": "Its own pages give an address in TN (PEGRAM), not CT. Moved. (2026-10-07)"
     }
   ]
 }

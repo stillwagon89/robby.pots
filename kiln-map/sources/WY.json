@@ -2,46 +2,6 @@
   "_note": "WY firing sources.",
   "sources": [
     {
-      "id": "workhouse-arts-center",
-      "org": "Workhouse Arts Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Wyoming",
-      "city": null,
-      "urls": [
-        "https://www.workhousearts.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.workhousearts.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "workhousearts.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippets describe a raku workshop open to public participation, but the page text provided is empty, so location details cannot be verified.",
-        "types": {
-          "raku": "Get fired up to participate in the Raku firing process with ceramicist David Newquist"
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true
-    },
-    {
       "id": "peter-callas",
       "org": "Peter Callas",
       "kind": "studio",
@@ -89,7 +49,11 @@
         "state": "",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "laramie-county-community-college",
@@ -100,14 +64,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Laramie",
-      "city": "Laramie",
+      "region": "Cheyenne",
+      "city": "Cheyenne",
       "urls": [
         "https://lccc.coursestorm.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Laramie, Wyoming",
+      "geocode": "Cheyenne, Wyoming",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://lccc.coursestorm.com/"
@@ -128,8 +92,6 @@
         "date": "2026-10-07",
         "key": "lccc.coursestorm.com"
       },
-      "lat": 41.31164,
-      "lng": -105.59179,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -141,7 +103,14 @@
         "state": "WY",
         "town": "Laramie"
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "WY",
+        "town": "Cheyenne",
+        "score": 2,
+        "osm": true,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "red-bison-studios",
@@ -193,7 +162,11 @@
         "state": "WY",
         "town": "Sheridan"
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -208,6 +181,10 @@
     {
       "id": "rod-dugal-ceramics",
       "why": "Second check (gemma4-local): The text only mentions the owner firing pieces at their studio and does not mention public participation in non-electric firings. (2026-10-07)"
+    },
+    {
+      "id": "workhouse-arts-center",
+      "why": "Its own pages give an address in VA (Workhouse Way Lorton), not WY. Moved. (2026-10-07)"
     }
   ]
 }

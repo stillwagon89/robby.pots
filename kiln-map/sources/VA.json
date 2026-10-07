@@ -126,7 +126,12 @@
         },
         "state": "VA",
         "town": "Lexington"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "muddy-creek-pottery",
@@ -177,7 +182,12 @@
         },
         "state": "VA",
         "town": "North Garden"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "bradley-b-pottery",
@@ -237,7 +247,12 @@
         },
         "state": "VA",
         "town": "Manassas"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "althouse-pottery",
@@ -289,7 +304,15 @@
         "state": "VA",
         "town": "Berryville",
         "street": "1320 Chilly Hollow Road"
-      }
+      },
+      "located": {
+        "state": "VA",
+        "town": "Berryville",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "river-city-clay",
@@ -301,14 +324,14 @@
         "raku",
         "pit_barrel_saggar"
       ],
-      "region": "Midlothian",
-      "city": "Midlothian",
+      "region": "Richmond",
+      "city": "Richmond",
       "urls": [
         "https://www.rivercity-clay.com/"
       ],
       "notes": "Raku workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Midlothian, Virginia",
+      "geocode": "Richmond, Virginia",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.rivercity-clay.com/"
@@ -330,8 +353,6 @@
         "date": "2026-10-06",
         "key": "rivercity-clay.com"
       },
-      "lat": 37.48681,
-      "lng": -77.64732,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -343,7 +364,15 @@
         },
         "state": "VA",
         "town": "Midlothian"
-      }
+      },
+      "located": {
+        "state": "VA",
+        "town": "Richmond",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "academy-center-of-the-arts",
@@ -395,6 +424,61 @@
         "state": "VA",
         "town": "Lynchburg",
         "street": "600 Main Street"
+      },
+      "located": {
+        "state": "VA",
+        "town": "Lynchburg",
+        "score": 14,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
+    },
+    {
+      "id": "workhouse-arts-center",
+      "org": "Workhouse Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Workhouse Way Lorton",
+      "city": "Workhouse Way Lorton",
+      "urls": [
+        "https://www.workhousearts.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Workhouse Way Lorton, Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.workhousearts.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "workhousearts.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The search snippets describe a raku workshop open to public participation, but the page text provided is empty, so location details cannot be verified.",
+        "types": {
+          "raku": "Get fired up to participate in the Raku firing process with ceramicist David Newquist"
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "VA",
+        "town": "Workhouse Way Lorton",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
       }
     }
   ],

@@ -74,7 +74,15 @@
         },
         "state": "NM",
         "town": "Santa Fe"
-      }
+      },
+      "located": {
+        "state": "NM",
+        "town": "Santa Fe",
+        "score": 12,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "museum-of-new-mexico-foundation",
@@ -126,7 +134,15 @@
         "state": "NM",
         "town": "Santa Fe",
         "street": "1411 Paseo de Peralta"
-      }
+      },
+      "located": {
+        "state": "NM",
+        "town": "Santa Fe",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "rottenstone-gallery",
@@ -138,14 +154,14 @@
         "wood",
         "salt"
       ],
-      "region": "Tres Piedras",
-      "city": "Tres Piedras",
+      "region": "Arroyo Seco",
+      "city": "Arroyo Seco",
       "urls": [
         "https://rottenstonegallery.com/"
       ],
       "notes": "Open to potters joining firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Tres Piedras, New Mexico",
+      "geocode": "Arroyo Seco, New Mexico",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://rottenstonegallery.com/"
@@ -167,8 +183,6 @@
         "date": "2026-10-06",
         "key": "rottenstonegallery.com"
       },
-      "lat": 36.64722,
-      "lng": -105.9668,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-07",
@@ -180,7 +194,15 @@
         },
         "state": "NM",
         "town": "Tres Piedras"
-      }
+      },
+      "located": {
+        "state": "NM",
+        "town": "Arroyo Seco",
+        "score": 2,
+        "osm": true,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "nm-potters-and-clay-artists-nmpca",
@@ -191,15 +213,15 @@
       "firing_types_guess": [
         "soda"
       ],
-      "region": "Abiquiu",
-      "city": "Abiquiu",
+      "region": "Albuquerque",
+      "city": "Albuquerque",
       "urls": [
         "https://www.nmpotters.org/"
       ],
       "notes": "Kazegama kiln community, events. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Abiquiu, New Mexico",
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Albuquerque, New Mexico",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.nmpotters.org/"
       },
@@ -231,8 +253,13 @@
         "town": "Abiquiu"
       },
       "weak": true,
-      "lat": 36.2071,
-      "lng": -106.31863
+      "located": {
+        "state": "NM",
+        "town": "Albuquerque",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     },
     {
       "id": "taos-ceramics-center",
@@ -287,7 +314,12 @@
         "state": "NM",
         "town": "Taos",
         "street": "114 Este Es Road"
-      }
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "potters-guild-of-las-cruces",
@@ -345,7 +377,15 @@
         "state": "NM",
         "town": "Las Cruces",
         "street": "2345 East Nevada St Las Cruces"
-      }
+      },
+      "located": {
+        "state": "NM",
+        "town": "Las Cruces",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      },
+      "weak": false
     },
     {
       "id": "alaska-mudhead-pottery",
@@ -404,7 +444,14 @@
         "town": "Silver City",
         "street": "371 Camino De Viento"
       },
-      "weak": true
+      "weak": false,
+      "located": {
+        "state": "NM",
+        "town": "Silver City",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [

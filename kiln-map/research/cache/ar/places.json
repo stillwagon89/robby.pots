@@ -84,7 +84,11 @@
       "confidence": "high",
       "reason": "The page advertises a specific, upcoming raku firing workshop for the public.",
       "quote_verified": true,
-      "secs": 33
+      "secs": 33,
+      "state_on_page": true,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "potterymill.com": {
@@ -118,7 +122,11 @@
       "confidence": "high",
       "reason": "The text advertises public raku workshops in Arkansas.",
       "quote_verified": true,
-      "secs": 13
+      "secs": 13,
+      "state_on_page": true,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "saac-arts.org": {
@@ -176,7 +184,12 @@
       "confidence": "high",
       "reason": "The page advertises an exhibition featuring Raku and Pit Firing techniques, which are non-electric firings.",
       "quote_verified": true,
-      "secs": 15
+      "secs": 15,
+      "state_on_page": true,
+      "supported_types": [
+        "raku",
+        "pit_barrel_saggar"
+      ]
     }
   },
   "downtowntulsa.com": {
@@ -202,7 +215,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in OK",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "natewinterstudios.com": {
@@ -222,7 +236,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in ME",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "https://allevents.in/events/raku-pottery-with-david-dahlstedt-and-gordon-bull/200029441235311": {
@@ -242,7 +257,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in OH",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "clayplayarts.com": {
@@ -268,7 +284,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in WI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "facebook.com": {
@@ -470,7 +487,11 @@
       "confidence": "high",
       "reason": "The text describes a workshop where students participate in a raku firing event in Arkansas.",
       "quote_verified": true,
-      "secs": 14
+      "secs": 14,
+      "state_on_page": true,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "yutangceramics.com": {
@@ -490,7 +511,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IL",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "sullivanpotteryhsv.com": {
@@ -526,7 +548,12 @@
       "confidence": "high",
       "reason": "The site advertises a specific, public workshop for a non-electric firing.",
       "quote_verified": false,
-      "secs": 12
+      "secs": 12,
+      "state_on_page": false,
+      "supported_types": [
+        "raku",
+        "pit_barrel_saggar"
+      ]
     }
   },
   "lemoyne.org": {
@@ -546,7 +573,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in FL",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "adamahartstudio.org": {
@@ -566,7 +594,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in WI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "sarareevesphoto.com": {
@@ -605,7 +634,8 @@
       "confidence": "high",
       "reason": "The text only documents a past or future event and does not indicate public participation.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true
     }
   },
   "ceramicinfospot.com": {
@@ -640,7 +670,8 @@
       "confidence": "high",
       "reason": "The text is a guide about anagama firing and does not mention any specific location or public access to fire in Arkansas.",
       "quote_verified": false,
-      "secs": 12
+      "secs": 12,
+      "state_on_page": false
     }
   },
   "hambidge.org": {
@@ -666,7 +697,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in GA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "weberwoodfire.com": {
@@ -691,7 +723,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in WI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "theclaystudioofmissoula.org": {
@@ -711,7 +744,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in MT",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "rockrose.studio": {
@@ -742,7 +776,8 @@
       "confidence": "low",
       "reason": "No readable page text was provided to confirm public access.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "commonclayspace.com": {
@@ -762,7 +797,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in MN",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "petersvalley.org": {
@@ -782,7 +818,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NJ",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "canvas.kirklandartscenter.org": {
@@ -821,7 +858,8 @@
       "confidence": "high",
       "reason": "The location is in Washington, not Arkansas.",
       "quote_verified": false,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": false
     }
   },
   "theokidokistudio.com": {
@@ -847,7 +885,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "huntermaypottery.com": {
@@ -926,7 +965,11 @@
       "confidence": "high",
       "reason": "The studio offers soda firing participation to local potters/students via email invitation.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true,
+      "supported_types": [
+        "soda"
+      ]
     }
   },
   "fifthstreet.studio": {
@@ -983,7 +1026,7 @@
       "name": "Fifth Street Studio",
       "city": "Bentonville",
       "state": "AR",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "other"
@@ -991,9 +1034,11 @@
       "quote": "Fifth Street Studio is a pottery studio in Bentonville, AR that offers classes; creative workshops; memberships; firing services; as well as clay, glazes, and tools for ceramic artists of all skill levels.",
       "dates": [],
       "confidence": "high",
-      "reason": "The studio offers firing services and is located in Arkansas.",
+      "reason": "The studio offers firing services and is located in Arkansas. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "valynchburgweb.myvscloud.com": {
@@ -1024,7 +1069,11 @@
       "confidence": "high",
       "reason": "The text advertises a specific salt firing workshop at a location in Arkansas.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false,
+      "supported_types": [
+        "salt"
+      ]
     }
   },
   "spinninglovepottery.wordpress.com": {
@@ -1060,7 +1109,11 @@
       "confidence": "high",
       "reason": "The text mentions a salt firing at Arkansas State University.",
       "quote_verified": true,
-      "secs": 20
+      "secs": 20,
+      "state_on_page": true,
+      "supported_types": [
+        "salt"
+      ]
     }
   },
   "andersonranch.org": {
@@ -1086,7 +1139,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in CO",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "cidercreekcollective.com": {
@@ -1106,7 +1160,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IN",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "arkansascraftschool.org": {
@@ -1132,7 +1187,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "newprospectpottery.com": {
@@ -1156,7 +1212,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "arktimes.com": {
@@ -1201,7 +1258,11 @@
       "confidence": "high",
       "reason": "The article details an annual wood-fired kiln firing event in Arkansas that draws ceramicists to participate.",
       "quote_verified": true,
-      "secs": 16
+      "secs": 16,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
     }
   },
   "goeldorado.com": {
@@ -1241,7 +1302,12 @@
       "confidence": "high",
       "reason": "The text describes an exhibition featuring Raku and pit firing techniques in El Dorado, Arkansas.",
       "quote_verified": true,
-      "secs": 14
+      "secs": 14,
+      "state_on_page": true,
+      "supported_types": [
+        "raku",
+        "pit_barrel_saggar"
+      ]
     }
   },
   "police1.com": {
@@ -1276,7 +1342,8 @@
       "confidence": "high",
       "reason": "The website is about police incidents and does not offer ceramic firing services.",
       "quote_verified": false,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true
     }
   },
   "artistsworkshopgallery.com": {
@@ -1315,7 +1382,8 @@
       "confidence": "high",
       "reason": "The text only mentions electric kiln firing and does not confirm public access to non-electric firings.",
       "quote_verified": false,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": false
     }
   },
   "craftcourses.com": {
@@ -1341,7 +1409,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in UK",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "theclay.studio": {
@@ -1367,7 +1436,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in UK",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "ceramicreview.com": {
@@ -1393,7 +1463,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in WI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "instagram.com": {
@@ -1436,7 +1507,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "register.ryzer.com": {
@@ -1476,7 +1548,8 @@
       "confidence": "high",
       "reason": "The text describes a professional training course for wildland fire operations, not public participation in ceramic firing.",
       "quote_verified": false,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true
     }
   },
   "agriculture.arkansas.gov": {
@@ -1502,7 +1575,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "nwcg.gov": {
@@ -1531,7 +1605,8 @@
       "confidence": "high",
       "reason": "The provided text is not readable and does not mention public firing opportunities.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": false
     }
   },
   "blackrivertech.edu": {
@@ -1557,7 +1632,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "clay-king.com": {
@@ -1592,7 +1668,8 @@
       "confidence": "low",
       "reason": "The website is an online store for supplies and does not list public firing services in Arkansas.",
       "quote_verified": false,
-      "secs": 19
+      "secs": 19,
+      "state_on_page": false
     }
   },
   "potterywithapurpose.com": {
@@ -1629,7 +1706,8 @@
       "confidence": "high",
       "reason": "The page does not provide enough information to confirm public access to a firing in Arkansas.",
       "quote_verified": false,
-      "secs": 7
+      "secs": 7,
+      "state_on_page": false
     }
   },
   "kilnfrog.com": {
@@ -1658,7 +1736,8 @@
       "confidence": "high",
       "reason": "The website is a directory for kiln repair technicians, not a place offering public firings.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": false
     }
   },
   "kilnshare.com": {
@@ -1706,7 +1785,8 @@
       "confidence": "high",
       "reason": "The website is a global directory and does not specify any location or Arkansas availability.",
       "quote_verified": true,
-      "secs": 21
+      "secs": 21,
+      "state_on_page": false
     }
   },
   "heattreatnow.com": {
@@ -1735,7 +1815,8 @@
       "confidence": "high",
       "reason": "The website is a directory for kiln repair technicians, not a place offering public firings.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": false
     }
   },
   "euclids.com": {
@@ -1770,7 +1851,8 @@
       "confidence": "high",
       "reason": "The page is a directory and does not mention public firing opportunities.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": false
     }
   },
   "arkansas.com": {
@@ -1815,7 +1897,11 @@
       "confidence": "high",
       "reason": "The text advertises a public wood firing event at a location in Arkansas.",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
     }
   },
   "arkansasstateparks.com": {
@@ -1842,7 +1928,7 @@
       "name": "Arkansas State Parks",
       "city": "",
       "state": "AR",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "wood"
@@ -1852,9 +1938,11 @@
         "Saturday, April 19"
       ],
       "confidence": "high",
-      "reason": "The text describes a public workshop participation in a wood firing.",
+      "reason": "The text describes a public workshop participation in a wood firing. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "happeningnext.com": {
@@ -1905,7 +1993,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "engagearkansas.org": {
@@ -1931,7 +2020,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "muddypigstudio.com": {
@@ -1982,7 +2072,7 @@
       "name": "The Muddy Pig Studio",
       "city": "Little Rock",
       "state": "AR",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "wood"
@@ -1992,9 +2082,11 @@
         "until the end of August"
       ],
       "confidence": "high",
-      "reason": "The studio offers workshops and private lessons, indicating public access to firing services.",
+      "reason": "The studio offers workshops and private lessons, indicating public access to firing services. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 11
+      "secs": 11,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "flamingearthpottery.studio": {
@@ -2031,7 +2123,11 @@
       "confidence": "high",
       "reason": "The text mentions an annual community event for a wood-fired anagama firing in Arkansas.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
     }
   },
   "mindtrip.ai": {
@@ -2056,7 +2152,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "tripadvisor.com": {
@@ -2133,7 +2230,8 @@
       "confidence": "high",
       "reason": "The studio is located in New York, not Arkansas.",
       "quote_verified": true,
-      "secs": 10
+      "secs": 10,
+      "state_on_page": false
     }
   },
   "alexadamsclaywork.com": {
@@ -2169,7 +2267,8 @@
       "confidence": "high",
       "reason": "The studio is located in Kentucky, not Arkansas.",
       "quote_verified": true,
-      "secs": 16
+      "secs": 16,
+      "state_on_page": false
     }
   },
   "paintedpigstudio.com": {
@@ -2189,7 +2288,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "thepotterystudio.com": {
@@ -2239,7 +2339,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "communitypottery.org": {
@@ -2337,7 +2438,8 @@
       "confidence": "high",
       "reason": "The studio memberships are on a waitlist, making public access difficult to confirm.",
       "quote_verified": true,
-      "secs": 12
+      "secs": 12,
+      "state_on_page": false
     }
   },
   "faulknerstudio.com": {
@@ -2357,7 +2459,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "mountsequoyah.org": {
@@ -2396,7 +2499,7 @@
       "name": "Mount Sequoyah Clay Studio",
       "city": "",
       "state": "AR",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "other"
@@ -2404,9 +2507,11 @@
       "quote": "Memberships include 24/7 access and firing services.",
       "dates": [],
       "confidence": "high",
-      "reason": "The studio offers firing services as part of its membership program in Arkansas.",
+      "reason": "The studio offers firing services as part of its membership program in Arkansas. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 8
+      "secs": 8,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "usingart.org": {
@@ -2441,7 +2546,8 @@
       "confidence": "low",
       "reason": "The provided text does not mention the location or the type of firing available to the public.",
       "quote_verified": false,
-      "secs": 6
+      "secs": 6,
+      "state_on_page": false
     }
   },
   "communitycreativecenter.coursestorm.com": {
@@ -2480,7 +2586,11 @@
       "confidence": "high",
       "reason": "The page advertises a workshop that includes participation in an outdoor raku firing.",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": false,
+      "supported_types": [
+        "raku"
+      ]
     }
   },
   "yelp.com": {
@@ -2568,7 +2678,7 @@
       "name": "Community Creative Center",
       "city": "Fayetteville",
       "state": "AR",
-      "decision": "qualifies",
+      "decision": "unclear",
       "access": "ongoing_class_or_membership",
       "firing_types": [
         "wood",
@@ -2577,9 +2687,11 @@
       "quote": "Regular kiln firing schedule",
       "dates": [],
       "confidence": "high",
-      "reason": "The site mentions a 'Regular kiln firing schedule' and offers kiln firing services, suggesting public access.",
+      "reason": "The site mentions a 'Regular kiln firing schedule' and offers kiln firing services, suggesting public access. [gate: quote names no specific non-electric firing]",
       "quote_verified": true,
-      "secs": 9
+      "secs": 9,
+      "state_on_page": true,
+      "supported_types": []
     }
   },
   "creativespacesnwa.org": {
@@ -2601,7 +2713,25 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Mount Sequoyah Clay Studio",
+      "city": "",
+      "state": "AR",
+      "decision": "unclear",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "The Mount Sequoyah Clay Studio is a coworking space for dozens of ceramic artists in Northwest Arkansas. The Clay Studio is built on the cooperation and participation of its members, who collectively care for the space and share their craft with each other and the greater community.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The studio is a coworking space for artists, implying shared access to facilities. [gate: quote names no specific non-electric firing]",
+      "quote_verified": true,
+      "secs": 12,
+      "state_on_page": true,
+      "supported_types": []
+    }
   },
   "artistreepottery.com": {
     "key": "artistreepottery.com",
@@ -2630,7 +2760,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in MO",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "my.ceramicmaterialsworkshop.com": {
@@ -2665,7 +2796,22 @@
       "https://my.ceramicmaterialsworkshop.com/studios/double-springs-pottery-and-clay-works-fayetteville-ar": "♨ Facilities\nNot provided yet — the owner can publish kilns, equipment and work areas after claiming.\nAbout this listing\nVerification Unclaimed · source details not confirmed by the owner\nFix a flaw\nKiln Log\nPlaster calculator\nLearn\n",
       "https://my.ceramicmaterialsworkshop.com/studios/hidden-cove-pottery-jonesboro-ar": "♨ Facilities\nNot provided yet — the owner can publish kilns, equipment and work areas after claiming.\nAbout this listing\nVerification Unclaimed · source details not confirmed by the owner\nFix a flaw\nKiln Log\nPlaster calculator\nLearn\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "my.ceramicmaterialsworkshop.com",
+      "city": "",
+      "state": "",
+      "decision": "unclear",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "The page structure suggests educational or studio resources but does not confirm public access to specific firing types or dates.",
+      "quote_verified": false,
+      "secs": 9,
+      "state_on_page": true
+    }
   },
   "griffithpotteryworks.weebly.com": {
     "key": "griffithpotteryworks.weebly.com",
@@ -2683,7 +2829,25 @@
       "https://griffithpotteryworks.weebly.com/": "at 55 Pleasent Street in West Fork, just south of Fayetteville, Arkansas.\nThe class fee of $65.00 per guest covers all instruction, supplies, two firings and glazing of your hand thrown pottery that is microwave, dishwasher, oven and food safe.\nNo fee is due until the day of the class, payable by cash, check or Venmo.\nPlease email a selection of your preferred dates to [email protected]\n",
       "https://griffithpotteryworks.weebly.com/class-information.html": "PLEASE BRING A TOWEL FOR YOUR LAP. The clay will wash out of your towel. LADIES Moving the clay is very difficult if you have long nails, you might want to wait on a full manicure.\nCLASS FEE PER PERSON The fee of $65.00 per person is all inclusive of materials, instruction, two firings and studio glazing. No fee is due till the day of the class, payable by cash, Venmo or check. There is no charge to reserve a date for a class.\nHOW LONG IS A CLASS Plan for about an hour for one person, or about an hour and a half for two guests.\nHOW MANY CAN COME IN A GROUP A limit of four guests is recommended but exceptions are gladly made. Children age 12 and above are welcome. On your own? Let's play in the clay, just you and me.\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Griffith Pottery Works",
+      "city": "West Fork",
+      "state": "AR",
+      "decision": "unclear",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "other"
+      ],
+      "quote": "The class fee of $65.00 per guest covers all instruction, supplies, two firings and glazing of your hand thrown pottery that is microwave, dishwasher, oven and food safe.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The class fee includes two firings, indicating public access to firing services. [gate: quote names no specific non-electric firing]",
+      "quote_verified": true,
+      "secs": 10,
+      "state_on_page": true,
+      "supported_types": []
+    }
   },
   "ineurekasprings.com": {
     "key": "ineurekasprings.com",
@@ -2704,7 +2868,32 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Out on Main Pottery",
+      "city": "Eureka Springs",
+      "state": "AR",
+      "decision": "qualifies",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "raku",
+        "pit_barrel_saggar",
+        "wood"
+      ],
+      "quote": "Out on Main Pottery | Galleries | Eureka Springs: Apr 18, 2016 · One-of-a-kind hand-built pottery in Raku, pitfire, and horse-hair finishes. Art shopping where the art is made.",
+      "dates": [
+        "Apr 18, 2016"
+      ],
+      "confidence": "high",
+      "reason": "The snippet mentions Raku and pitfire finishes at a location in Eureka Springs, Arkansas.",
+      "quote_verified": false,
+      "secs": 11,
+      "state_on_page": true,
+      "supported_types": [
+        "raku",
+        "pit_barrel_saggar"
+      ]
+    }
   },
   "nwamakers.com": {
     "key": "nwamakers.com",
@@ -2725,7 +2914,32 @@
       "https://nwamakers.com/maker/craftednwawoodworks-com/?gallery=product": "",
       "https://nwamakers.com/maker/jessica-ames-russell/": "Jessica Ames-Russell | Eureka Springs\nHello, my name is Jessica and I am excited and proud to be part of this amazing community of NWA artists! I offer paintings, pottery, and personalized art. I work in oils, watercolor, and chalk pastels when painting. On the ceramics side of things, I create functional wares like mugs, bowls, plates, etc. as well as decorative and sculptural works with which I explore experimental firing techniques including raku, saggar, barrel firing and more! I am also available for commissions in both painting and pottery.\nShare this Maker:\nMost Popular Fine Art Oil Paintings, Prints & Cards, Ceramic Mugs, Cups, Bowls, Plates, Vases, etc.\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Jessica Ames-Russell",
+      "city": "Eureka Springs",
+      "state": "AR",
+      "decision": "qualifies",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "raku",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "quote": "On the ceramics side of things, I create functional wares like mugs, bowls, plates, etc. as well as decorative and sculptural works with which I explore experimental firing techniques including raku, saggar, barrel firing and more!",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The artist offers experimental firing techniques like raku and saggar firing.",
+      "quote_verified": true,
+      "secs": 11,
+      "state_on_page": false,
+      "supported_types": [
+        "raku",
+        "pit_barrel_saggar"
+      ]
+    }
   },
   "oddbowlz.com": {
     "key": "oddbowlz.com",
@@ -2746,7 +2960,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "visiteurekasprings.com": {
@@ -2766,7 +2981,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "essa-art.org": {
@@ -2791,7 +3007,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "bmb-designs.com": {
@@ -2807,7 +3024,24 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "BMB Designs",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "other"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The page content is not available to determine if public firing participation is possible.",
+      "quote_verified": false,
+      "secs": 5,
+      "state_on_page": false
+    }
   },
   "fireomearth.com": {
     "key": "fireomearth.com",
@@ -2832,7 +3066,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "findglocal.com": {
@@ -2860,7 +3095,22 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Eureka Springs Pottery Association",
+      "city": "Eureka Springs",
+      "state": "AR",
+      "decision": "unclear",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "The listing is for advertising and does not confirm public firing access.",
+      "quote_verified": false,
+      "secs": 6,
+      "state_on_page": true
+    }
   },
   "escommunity.org": {
     "key": "escommunity.org",
@@ -2885,7 +3135,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "tripadvisor.co.uk": {
@@ -2901,7 +3152,25 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "FOX PASS POTTERY",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "gas_reduction",
+        "wood"
+      ],
+      "quote": "We fire our pottery in both gas kilns and a 2 chambered wood fired kiln.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The location is outside of Arkansas.",
+      "quote_verified": true,
+      "secs": 6,
+      "state_on_page": false
+    }
   },
   "allthingshotsprings.com": {
     "key": "allthingshotsprings.com",
@@ -2936,7 +3205,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "hotsprings.org": {
@@ -2968,7 +3238,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "drydenpottery.com": {
@@ -2996,7 +3267,29 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Fox Pass Pottery",
+      "city": "Hot Springs",
+      "state": "AR",
+      "decision": "qualifies",
+      "access": "dated_events",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "Apr 9, 2026 · Fire experience in the captivating catenary chamber of Adamah's Anagama kiln.",
+      "dates": [
+        "Apr 9, 2026"
+      ],
+      "confidence": "high",
+      "reason": "The text advertises a specific, bookable wood firing workshop in Hot Springs, AR.",
+      "quote_verified": true,
+      "secs": 9,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
+    }
   },
   "foxpasspottery.com": {
     "key": "foxpasspottery.com",
@@ -3015,7 +3308,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "baileypottery.com": {
@@ -3031,7 +3325,29 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "baileypottery.com",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "wood",
+        "raku",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The page content is not available to determine firing options.",
+      "quote_verified": false,
+      "secs": 6,
+      "state_on_page": false
+    }
   },
   "harleyspotterypainting.com": {
     "key": "harleyspotterypainting.com",
@@ -3064,7 +3380,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "mudpuppy-studios.com": {
@@ -3084,7 +3401,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "yellowpages.com": {
@@ -3100,7 +3418,22 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Harley's Pottery Painting Studio",
+      "city": "Fort Smith",
+      "state": "AR",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "The text describes a paint-your-own pottery studio, which does not qualify for a kiln firing service.",
+      "quote_verified": false,
+      "secs": 8,
+      "state_on_page": true
+    }
   },
   "findapotteryclass.com": {
     "key": "findapotteryclass.com",
@@ -3142,7 +3475,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in NY",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "discoverfortsmith.com": {
@@ -3174,7 +3508,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "potterynorthwest.org": {
@@ -3194,7 +3529,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in WA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "placesformakers.com": {
@@ -3210,7 +3546,22 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "N/A",
+      "city": "N/A",
+      "state": "N/A",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The page content is not available to determine if public firing access exists.",
+      "quote_verified": false,
+      "secs": 5,
+      "state_on_page": false
+    }
   },
   "community.ceramicartsdaily.org": {
     "key": "community.ceramicartsdaily.org",
@@ -3225,7 +3576,24 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "gas_reduction"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "No readable text was provided to determine firing availability.",
+      "quote_verified": false,
+      "secs": 5,
+      "state_on_page": false
+    }
   },
   "marianwilliamspottery.com": {
     "key": "marianwilliamspottery.com",
@@ -3244,7 +3612,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in TX",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "openstudiojonesboro.com": {
@@ -3316,7 +3685,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "booandfinni.com": {
@@ -3348,7 +3718,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "potterylist.com": {
@@ -3368,7 +3739,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "jonespottery.net": {
@@ -3392,7 +3764,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IN",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "offthebeatenpathstudiotour.com": {
@@ -3423,7 +3796,27 @@
       "http://offthebeatenpathstudiotour.com/": "",
       "http://offthebeatenpathstudiotour.com/perry-munn/": "John and Judi invite you to visit their pine-covered hilltop property, adjacent to the Ozark National Forest, just down the road from the bike trails. At their studio, they create wheel-thrown functional pottery decorated with colored clay as well as two-dimensional works.\nThey have three main bodies of clay work. They use wild ferns to decorate a wide variety of dinnerware and serving pieces. A popular whimsical line of work focuses on animal motifs. This includes mugs with sculptures of clay animals as well as hand-drawn decorations. They also make wood-fired pottery in a Groundhog kiln at the Ozark Folk Center where they work. In addition, they have several other styles of work that they are experimenting with.\nJudi’s two-dimensional art is a recent addition to the Munn/Perry pottery studio. The paintings are housed in the upstairs apartment. She focuses on animal portraits and Ozark landscapes using traditional media: watercolor, pastel, oil paint, acrylic as well as less conventional use of colored clay on clay tablets. She has cards and prints on hand as well as originals. Talk to her about pet portraits!\nJudi and John are members of the Arkansas Craft Guild.\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "John Perry & Judi Munn",
+      "city": "",
+      "state": "AR",
+      "decision": "qualifies",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "They also make wood-fired pottery in a Groundhog kiln at the Ozark Folk Center where they work.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text mentions the artists make wood-fired pottery at the Ozark Folk Center, which is in Arkansas.",
+      "quote_verified": true,
+      "secs": 10,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
+    }
   },
   "arkansascraftguild.org": {
     "key": "arkansascraftguild.org",
@@ -3448,7 +3841,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "https://allevents.in/mountain-view/groundhog-kiln-woodfiring-in-the-craft-village/200030475642506": {
@@ -3468,7 +3862,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in OH",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "lifeinmountainview.com": {
@@ -3490,7 +3885,30 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Life in Mountain View",
+      "city": "",
+      "state": "AR",
+      "decision": "qualifies",
+      "access": "dated_events",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "Groundhog Kiln Woodfiring — Life in Mountain View: Apr 16, 2025 · Once the pottery is fired, the kiln is banked and the potters go home to sleep. After cooling for two days, the kiln will be opened and unloaded on Saturday, April 19, during our annual Open House in the Craft Village.",
+      "dates": [
+        "Apr 16, 2025",
+        "April 19"
+      ],
+      "confidence": "high",
+      "reason": "The text advertises a public open house following a wood firing event.",
+      "quote_verified": false,
+      "secs": 8,
+      "state_on_page": true,
+      "supported_types": [
+        "wood"
+      ]
+    }
   },
   "https://allevents.in/mountain-view/groundhog-kiln-woodfiring-opening-week-in-craft-village/200028071029140": {
     "key": "https://allevents.in/mountain-view/groundhog-kiln-woodfiring-opening-week-in-craft-village/200028071029140",
@@ -3509,7 +3927,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in OH",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "southbayceramics.com": {
@@ -3531,7 +3950,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "openingtimes.co": {
@@ -3556,7 +3976,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "kruegerpottery.com": {
@@ -3572,7 +3993,29 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Krueger Pottery Supply",
+      "city": "St. Louis",
+      "state": "MO",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "wood",
+        "raku",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The location is in Missouri, not Arkansas.",
+      "quote_verified": false,
+      "secs": 4,
+      "state_on_page": false
+    }
   },
   "midsouthceramics.com": {
     "key": "midsouthceramics.com",
@@ -3597,7 +4040,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in TN",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "theceramicshop.com": {
@@ -3619,7 +4063,24 @@
       "https://www.theceramicshop.com/store/category/6/350/sio-2/Low%2BFire/": "Mid Range\nWood Fire\nStandard Clay\nHigh Fire\nRaku\nSample Sizes\nTucker's Clay\nMoon Rocks\nSnow Gems\nSpecialty Glazes\n(HF) High Fire - High Fire\n(KI) Kiln Ice - High Fire\n(PG) Phase Glaze - High Fire\n(PC) Potter's Choice - High Fire\n800 Semi Transparent Low Fire\n850 Raku\n900 Low Stone\n1100 Stoneware\n1200 Cone 10\n1400 Cone 5 Shino\n1430 Floating Glaze\nWiggle Wires\nKilns\nConeArt\nCeramic Oval Kilns\nCeramic Round Kilns\nCeramic Square Kilns\nGlass Kilns\nUpgrades and Add Ons\nEvenheat\nCrossover\nHigh Fire Series\nKnife Ovens\nDoll/Test\nSchool Kilns\nLaguna\nGas Kilns\nNabertherm\nFront Loaders\nOlympic\n120 Volt Kilns\nLarge Capacity Front Loaders\nDual Media\nGas & Electric Raku\nMedallion Series\nOval Kilns\nSolid Jacket\nStackable\nParagon\nAnnealing Kilns\nLarge Front Loaders\nPottery Kilns\nJewelry & Metal Kilns\nSkutt\nMultimedia Kilns\nProduction Kilns\nEquipment\nWork Tables\nKiln Parts\nConnection Wires & Connectors\nElement Connectors\nFuses\nKiln Brick\nL&L Brick\nSkutt Brick\nKiln Controllers\nBartlett\nKiln Elements\nAmerican Beauty\nAmaco\nPins & Insulators\nKiln Hardware\nKiln Sitter\nKiln Stands\nL&L\nTube Assemblies\nKiln Room\nAprons\nCones\nSilicon Carbide\nCustom Cut Kiln Shelves\nStands\nSample Sets\nHeat-Thru Kiln Shelves\nHydroBat\nStandard Bats\nAdapters\nKiln Posts\n1\" Thick Posts\n1.5\" Thick Posts\nSoft Brick Filler\nKiln Wash\nRibs\nTORQ Tools\nCustom Decal Design Service\nFiring Retail\nKiln Repair\nShipping\nStilts\nWire\nVent-Thru (Kiln Vent Kit)\nWax Resist\nWax On\n(3)\nFiring Range\nFilter\nLow Fire\nServices &#13\nConsulting\nCustom Decals\nCrating and Shipping\nFiring\nFinancing\nGift Cards\n",
       "https://www.theceramicshop.com/store/category/15/328/Raku/": "Raku Kilns - The Ceramic Shop\nAbout Us\nContact Us\nMid Range\nWood Fire\nStandard Clay\nHigh Fire\nRaku\nSample Sizes\nTucker's Clay\nMoon Rocks\nSnow Gems\nSpecialty Glazes\n(HF) High Fire - High Fire\n(KI) Kiln Ice - High Fire\n(PG) Phase Glaze - High Fire\n(PC) Potter's Choice - High Fire\n800 Semi Transparent Low Fire\n850 Raku\n900 Low Stone\n1100 Stoneware\n1200 Cone 10\n1400 Cone 5 Shino\n1430 Floating Glaze\nWiggle Wires\nKilns\nConeArt\nCeramic Oval Kilns\nCeramic Round Kilns\nCeramic Square Kilns\nGlass Kilns\nUpgrades and Add Ons\nEvenheat\nCrossover\nHigh Fire Series\nKnife Ovens\nDoll/Test\nSchool Kilns\nLaguna\nGas Kilns\nNabertherm\nFront Loaders\nOlympic\n120 Volt Kilns\nLarge Capacity Front Loaders\nDual Media\nGas & Electric Raku\nMedallion Series\nOval Kilns\nSolid Jacket\nStackable\nParagon\nAnnealing Kilns\nLarge Front Loaders\nPottery Kilns\nJewelry & Metal Kilns\nSkutt\nMultimedia Kilns\nProduction Kilns\nEquipment\nWork Tables\nKiln Parts\nConnection Wires & Connectors\nElement Connectors\nFuses\nKiln Brick\nL&L Brick\nSkutt Brick\nKiln Controllers\nBartlett\nKiln Elements\nAmerican Beauty\nAmaco\nPins & Insulators\nKiln Hardware\nKiln Sitter\nKiln Stands\nL&L\nTube Assemblies\nKiln Room\nAprons\nCones\nSilicon Carbide\nCustom Cut Kiln Shelves\nStands\nSample Sets\nHeat-Thru Kiln Shelves\nHydroBat\nStandard Bats\nAdapters\nKiln Posts\n1\" Thick Posts\n1.5\" Thick Posts\nSoft Brick Filler\nKiln Wash\nRibs\nTORQ Tools\nCustom Decal Design Service\nFiring Retail\nKiln Repair\nShipping\nStilts\nWire\nVent-Thru (Kiln Vent Kit)\nWax Resist\nWax On\nHome\nFilter\nKiln Price\nUnder $1,000.00\n(4)\nCheck out our Kilns 101 FAQ!\nBACK TO ALL\nSort Fields\n5 products in this category, displaying products 1 to 5 .\nAxner\nHeat Wave Raku Kiln 24 x18\n$899.00\nAdd to Cart\nHeat Wave Raku Kiln Kit\n$1,545.08\nCustomize\nLaguna Model LE-201 Raku Kilns\n$2,750.00\n$2,612.50\nQuick View\nItem #: PRAKUKILN\nPeter Pugger\nPeter Pugger Clam Raku Kiln\n$3,499.00\nRaku Propane Burner Kit\n$269.00\nServices &#13\nConsulting\nCustom Decals\nCrating and Shipping\nFiring\nFinancing\nGift Cards\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "The Ceramic Shop",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "raku"
+      ],
+      "quote": "Raku Kilns - The Ceramic Shop: Raku kiln kits and burners available on sale at The Ceramic Shop! We ship world-wide.",
+      "dates": [],
+      "confidence": "low",
+      "reason": "The website sells kiln equipment and services but does not confirm public access to firing in Arkansas.",
+      "quote_verified": false,
+      "secs": 16,
+      "state_on_page": false
+    }
   },
   "sheffield-pottery.com": {
     "key": "sheffield-pottery.com",
@@ -3634,7 +4095,24 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "N/A",
+      "city": "N/A",
+      "state": "N/A",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "raku"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The provided text is insufficient to determine if the public can participate in a firing in Arkansas.",
+      "quote_verified": false,
+      "secs": 5,
+      "state_on_page": false
+    }
   },
   "theclaybank.com": {
     "key": "theclaybank.com",
@@ -3651,7 +4129,22 @@
     "pages": {
       "https://theclaybank.com/": "Welcome to the Clay Bank\nWe are your one-stop center for pottery. You are welcome to walk through, ask questions, and share your project ideas. You will find pottery crafted by Gailen, and all the materials, equipment, and tools you need for your own works of art. We have everything from clays and glazes to wheels, kilns, and tools. Gailen is a gifted potter and can usually be found sitting at the potter’s wheel throwing a project.\nDiscover your creativity\nAsk Gailen your questions. He is a wealth of knowledge and is willing to share. His wit and sense of humor is inviting. This is the place of art through clay.\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "The Clay Bank",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text does not mention public access to firing services.",
+      "quote_verified": false,
+      "secs": 4,
+      "state_on_page": false
+    }
   },
   "arkansaspotter.com": {
     "key": "arkansaspotter.com",
@@ -3666,7 +4159,22 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Arkansas Potter",
+      "city": "",
+      "state": "AR",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "The page is a shop that only sells pottery, not a firing service.",
+      "quote_verified": false,
+      "secs": 4,
+      "state_on_page": true
+    }
   },
   "lyon.edu": {
     "key": "lyon.edu",
@@ -3681,7 +4189,25 @@
       }
     ],
     "pages": {},
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Lyon College Kilted Kiln",
+      "city": "Batesville",
+      "state": "AR",
+      "decision": "unclear",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "The Lyon College Kilted Kiln offers ceramics courses to Lyon students for class credit, and it will offer community workshops in partnership with the Batesville Area Art Council.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text mentions community workshops, indicating public access to firings. [gate: quote names no specific non-electric firing]",
+      "quote_verified": true,
+      "secs": 6,
+      "state_on_page": true,
+      "supported_types": []
+    }
   },
   "nwacc.edu": {
     "key": "nwacc.edu",
@@ -3709,7 +4235,22 @@
       "https://www.nwacc.edu/_documents/courseoutlines/art2503.pdf": "",
       "https://www.nwacc.edu/_documents/courseoutlines/art2513.pdf": ""
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Northwest Arkansas Community College",
+      "city": "",
+      "state": "AR",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The provided text only describes courses and does not confirm public access to non-electric firings.",
+      "quote_verified": false,
+      "secs": 5,
+      "state_on_page": true
+    }
   },
   "northark.edu": {
     "key": "northark.edu",
@@ -3734,7 +4275,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "arkansascc.org": {
@@ -3754,7 +4296,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "en.wikipedia.org": {
@@ -3776,7 +4319,22 @@
       "https://en.wikipedia.org/wiki/File:Wikibooks-logo.svg": "",
       "https://en.wikipedia.org/wiki/Anagama_kiln": "Anagama kiln - Wikipedia\nJump to content\nMain menu\n(Top)\nKiln variants\nCharacteristics\nSee also\nToggle the table of contents\nAnagama kiln\n8 languages\nCatalà\nFrom Wikipedia, the free encyclopedia\nAncient type of pottery kiln\nSchematic drawing of an Anagama kiln:\n1 Door about 75 centimetres (30   in) wide\n2 Firebox\n7 Refractory arch\nNoborigama in Tokoname , Aichi\nA noborigama\nKiln in Shigaraki\nAnagama Kiln in New Jersey, USA, 1979\nThe anagama kiln (Japanese Kanji: 穴窯/ Hiragana: あながま) is an ancient type of pottery kiln brought to Japan by Korean potters around the 5th century. [ 1 ] It is a version of the climbing dragon kiln of south China, whose further development was also copied, for example in breaking up the firing space into a series of chambers in the noborigama kiln.\nAn anagama (a Japanese term meaning \"cave kiln \") consists of a firing chamber with a firebox at one end and a flue at the other. Although the term \"firebox\" is used to describe the space for the fire, there is no physical structure separating the stoking space from the pottery space. The term anagama describes single-chamber kilns built in a sloping tunnel shape. In fact, ancient kilns were sometimes built by digging tunnels into banks of clay.\nThe anagama is fueled with firewood, in contrast to the electric or gas-fueled kilns commonly used by most modern potters . A continuous supply of fuel is needed for firing, as wood thrown into the hot kiln is consumed very rapidly. Stoking occurs round the clock until a variety of variables are achieved including the way the fired pots look inside the kiln, the temperatures reached and sustained, the amount of ash applied, the wetness of the walls and the pots, etc.\nThe length of the firing depends on the volume of the kiln and may take anywhere from 48 hours to 12 or more days. The kiln generally takes the same amount of time to cool down. Records of historic firings in large Asian kilns shared by several village potters describe several weeks of steady stoking per firing.\n[ edit ]\nOne variant on the anagama style is the waritake kiln. A waritake kiln is akin to anagama in structure, but it has partition walls built every several meters through the length of the kiln. Each partition can be side stoked.\nA noborigama 登り窯 chambered climbing kiln is also built on a slope, and each succeeding chamber is situated higher than the one before it. The chambers in a noborigama are pierced at intervals with stoking ports. Such climbing kilns have been used in Japan since the 17th century. The largest working Noborigama kiln in Japan is located in Shigaraki , in the southern portion of Shiga Prefecture .\nThe renboshiki noborigama is a multi-chambered climbing kiln. There are many distinguishing characteristics between the noborigama and anagama style. For example, an anagama is somewhat like a half-tube (long vault ) with a fire burned at the lower end. A noborigama is like a set of half-tubes ( arches or short vaults, buttressing each other) placed side-by-side with piercings that allow each chamber to feed into the next.\nThe jagama (snake kiln or dragon kiln ) is related to anagama , noborigama , and waritake kilns, and was used extensively in China since at least the 3rd century CE. Jagama are tube shaped similarly to anagama kilns, but can be longer at around 60 m. Although partitioned and side stoked, jagama do not have partition walls, rather, improvised walls are created by densely stacking pottery at intervals.\nAll of these kilns use two counter-flow exchange mechanisms to maintain the air supply and to change the ware being fired, with minimal loss of heat. Each of these exchanges works on the same principle as countercurrent exchange , the principal difference being that the ware is not a fluid.\nAn advantage of the chambered and semi-chambered variants appears to be that they are partly downdraft, which makes the firing results less sensitive to the way the ware is loaded.\nA disadvantage of smaller climbing kilns is a"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text is a general Wikipedia article about kiln types and does not mention any public firing events in Arkansas.",
+      "quote_verified": false,
+      "secs": 8,
+      "state_on_page": false
+    }
   },
   "gustinceramics.com": {
     "key": "gustinceramics.com",
@@ -3799,7 +4357,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in MA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "cassvilleanagama.com": {
@@ -3820,7 +4379,24 @@
       "https://cassvilleanagama.com/firing-photos": "Firing Group Photos\nCassville Anagama\nArtists\nArchive\nEvents\nFiring Photos\nFiring Data\nVideo\nLog in\nThis page is for group shots, candid participant moments, and kiln-side memories. Please keep artwork images on artist profile pages.\n2026\n2025\nShowing 20 of 74 photos\nfrom this firing year.\nAdded by Belinda Shastal\nParticipant uploads\nLog in with your participant account to add group photos for the firing years you were part of.\nLog in to upload\nCassville Anagama Kiln Group\nFiring photos\nArtist access\n",
       "https://cassvilleanagama.com/firing-history": "Firing Data History\nFireMonitor History\nLive\nThermocouple archive\nFiring data history\nCSV thermocouple records for kiln firings, cropped into clean probe runs and plotted for review.\nData set\n2026 - 09/22 / Cassville Salt Soda / Cassville Salt 1\n2026 - 09/22\nTemperature Graph\nThermocouple temperature history in degrees Fahrenheit over time. Current numeric values are displayed below the graph.\nNo firing data selected\n15-minute average\nChange in temperature per hour\nTemperature change in °F/hour using a rolling 15-minute average. The latest rate is displayed below the graph.\nArchive\nImported data sets\n1 upload\nFiring\nKiln\nProbe\nRange\nCassville Salt Soda\nCassville Salt 1\nSep 22, 2026, 3:50 PM - Sep 24, 2026, 5:17 PM\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Cassville Anagama Kiln Group",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "The Cassville Anagama is a 27 ft long wood fired pottery kiln located near Cassville, WI.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The kiln is located in Wisconsin, not Arkansas.",
+      "quote_verified": true,
+      "secs": 11,
+      "state_on_page": false
+    }
   },
   "artcenterky.org": {
     "key": "artcenterky.org",
@@ -3845,7 +4421,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in KY",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "amnews.com": {
@@ -3867,7 +4444,24 @@
       "https://amnews.com/services/policies/": "",
       "https://www.amnews.com/2026/03/19/art-center-of-the-bluegrass-invites-public-to-witness-inaugural-kiln-firing/": "Art Center of the Bluegrass invites public to witness inaugural kiln firing | The Advocate-Messenger\nYou are using an outdated browser. Please upgrade your browser or activate Google Chrome Frame to improve your experience.\nSubscribe\nNewsletters\nArt Center of the Bluegrass invites public to witness inaugural kiln firing\nPublished 2:25 pm Thursday, March 19, 2026\nBy News release\nThe anagama kiln was built in 1993, settled into a sloping hillside in rural Danville on land once owned by Dr. Mack Jackson. (Submitted photo)\nGetting your Trinity Audio player ready...\nArt Center of the Bluegrass will host an opening ceremony for the inaugural firing of an anagama kiln from 2-4 pm on Sunday, April 12. This wood-fired pottery experience is unique in this part of the United States, drawing potters from around the region and beyond to participate.\nThe anagama kiln was built in 1993, settled into a sloping hillside in rural Danville on land once owned by Dr. Mack Jackson. Constructed by Jackson with renowned glass artist Stephen Rolfe Powell and his Centre College ceramics students, it was fired regularly until 2005, when Jackson passed away. Since that time, the kiln has remained unused.\nLocal potter and Art Center board member Jonas Hurley has worked to refurbish the kiln, beginning in the late summer of 2025. Working with a dedicated team of corporate sponsors and volunteers throughout the fall and winter, the kiln is ready to fire for the first time in decades, beginning on April 12.\n\"The broad support Art Center board member Dr. Jonas Hurley has been able to attract is astounding and we owe a huge amount of gratitude to the passionate community that has rallied behind this unique project,\" said Art Center executive director Laura Elwyn.\nBuilt modeling an ancient Japanese design, the kiln has undergone extensive renovations, with complete reconstruction of its firebox and chimney, and added insulation to the catenary arch. It will be filled with hundreds of pots, and fired around-the-clock for six to seven days before reaching a final temperature of approximately 2,400 degrees Fahrenheit. Teams of volunteers will keep the fires burning throughout the firing period.\nMaterials and labor were generously donated by Sellers Manufacturing, Corning Inc., Doss and Horky Inc., electrician Zack Burton, Kenneth Littrell of Arlington Tree Service, and Scott Brady of Reimagine Millworks. A special thanks to Chris Smith for sharing his masonry expertise.\nEmail newsletter signup\n\"I would like to give my heartfelt thanks to all the potters and friends who have donated many hours of labor and many cords of wood to make this project a success,\" Hurley commented, \"and I would especially like to thank Brian, Cindy and Gabby Crall for their enthusiasm in allowing this project to occur on their property and their invaluable assistance in seeing it to its completion.\"\nThe public is welcome to visit the kiln during the Dragon Fire Celebration, from 2-4 pm on Sunday, April 12, at 3125 Chrisman Lane, in Danville, Kentucky.\nFeatured Local Savings\nYou Might Like\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Art Center of the Bluegrass",
+      "city": "Danville",
+      "state": "KY",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "The public is welcome to visit the kiln during the Dragon Fire Celebration, from 2-4 pm on Sunday, April 12, at 3125 Chrisman Lane, in Danville, Kentucky.",
+      "dates": [
+        "April 12"
+      ],
+      "confidence": "high",
+      "reason": "The location is in Kentucky, not Arkansas.",
+      "quote_verified": true,
+      "secs": 14,
+      "state_on_page": false
+    }
   },
   "clemson.world": {
     "key": "clemson.world",
@@ -3885,7 +4479,29 @@
       "https://clemson.world/": "-->\nAtmospheric Analysis\nAlumni Stories\nSeptember 23, 2026\n",
       "https://clemson.world/all-fired-up/": "If you head down a path in the Experimental Forest near the civil engineering research facility, you’ll begin to see seemingly random pieces of ceramic art perched on stumps and nestled beside trees.\nFollow that path a bit farther, and you catch a glimpse of a metal roof. Under that metal roof, you’ll find an Anagama kiln, a Japanese-inspired wood-fired kiln that has a firebox at one end and a chimney flue on the other. On the far end of the Anagama, you’ll see what’s called a Catenary kiln, somewhat smaller and sporting an arched opening, from which it gets its name.\nIf you happen out there during a firing of either kiln, you’ll find yourself amid a community of Clemson students and faculty, local potters and guests from nearby universities all taking part in a centuries-old tradition rooted in Japan.\n“It’s a group effort,” said Valerie Zimany, chair of the Department of Art, who did her training in Japan in contemporary art and stayed there another three years to help rebuild an Anagama kiln back to its original state. “It’s team based, with collective problem-solving — a firing of this scale is not a single individual’s endeavor.”\nZimany said the kiln gives students “a way to meet other faculty and alumni, to have conversations about artwork and interests, and to meet members of a committed community who have kept this kiln going for almost 20 years. It’s a great network; we host participants from ceramics programs in the region and invite a guest artist annually for firings.”\nA chart documents the temperature in the kiln rising every hour — from zero to nearly 2,500 degrees Fahrenheit — then cools down slowly. Between glazing, loading, firing and cooling, it’s a process that can last up to 12 days.\nThe kiln was originally conceived and built by then-chair of the Department of Art, Mike Vatalaro, who had returned from an International Workshop for Ceramic Arts in Tokoname, Japan, in 1998. Participants had spent three weeks creating ceramic pieces and firing them in traditional Anagama and Noborigama kilns.\n“I realized that we had all the resources here that would allow such a unique type of firing to be part of the Clemson Art Department,” Vatalaro said. What followed was a proposal for a Provost Research Grant for $20,000 to design and build an Anagama kiln for Clemson. A 99-year lease for a tract of land in the Experimental Forest provided the location. Faculty and students worked together to build the kiln, affectionally nicknamed the “Vata-gama,” through volunteer labor over multiple years. On November 14, 2004, the kiln was loaded and fired for the first time.\n“It was the first to be built in South Carolina,” said faculty member Daniel Bare, who has fired and assisted with maintaining it since 2010 with Zimany and Vatalaro, “and after almost 20 years, the kiln needs some support as it’s now showing its age.” Zimany adds, “We still have at least 80 years left on that land lease, so we will work to make necessary repairs to keep the ‘Vata-gama’ going for many more generations of Clemson student and faculty research.”\nAnagama kiln ceramic arts Clemson Experimental Forest CW Winter 2023 CW Winter 2023 In These Hills Department of Art\nPrevious Article\nIn the Game.\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "Clemson Art Department",
+      "city": "",
+      "state": "SC",
+      "decision": "unclear",
+      "access": "ongoing_class_or_membership",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "If you happen out there during a firing of either kiln, you’ll find yourself amid a community of Clemson students and faculty, local potters and guests from nearby universities all taking part in a centuries-old tradition rooted in Japan.",
+      "dates": [
+        "CW Winter 2023"
+      ],
+      "confidence": "high",
+      "reason": "The text mentions local potters and guests from nearby universities participating in firings. [gate: quote names no specific non-electric firing]",
+      "quote_verified": true,
+      "secs": 12,
+      "state_on_page": false,
+      "supported_types": [
+        "wood"
+      ]
+    }
   },
   "clayerco.com": {
     "key": "clayerco.com",
@@ -3904,7 +4520,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in GA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "oribefiring.com": {
@@ -3930,7 +4547,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in CA",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "spindriftstudio.art": {
@@ -3950,7 +4568,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in IL",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "pewabic.org": {
@@ -3976,7 +4595,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in MI",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "art.uark.edu": {
@@ -3996,7 +4616,25 @@
       "https://art.uark.edu/news-events/index.php": "",
       "https://art.uark.edu/undergraduate-program/studio-art/ceramics.php": "build skills in all major forming methods–including wheel-throwing, hand-building\nand slip-casting–and are exposed to various firing techniques and clay and glaze formulation.\nDEGREE PROGRAMS\nCeramics students are encouraged to consider clay in combination with performance,\nto hand-built ceramics. Students will also be introduced to ceramic studio processes,\nincluding clay and glaze mixing, low temperature gas and electric firing, and studio\nsafety procedures.\nWheelthrowing I\nin wheel-thrown ceramics. Students will also be introduced to ceramic studio processes,\nincluding clay and glaze mixing, high temperature gas and electric firing, and studio\nWheelthrowing II\nand knowledge of wheel-thrown and hand-built forms. Additional emphasis will be placed\non clay and glaze testing, and understanding the processes of firing in electric,\ngas, salt/soda, and wood-firing kilns.\nSlip-Casting\nThis concept-driven intermediate-level course focuses on the techniques and approaches\nslip mixing, and slip-casting are emphasized. Students will utilize low and high temperature\ngas and electric firings.\nIntermediate Ceramics (Handbuilding II)\nFocuses on discovering and developing a personal approach to the creation of ceramic\nobjects. Students will explore and test clay bodies, surface treatments, and firing\nmethods while simultaneously exploring ideas, formats, contexts, and interpretations\nto their work. Any or all ceramic processes may be used.\nAdvanced study of ceramic materials and processes. Clay composition, clay body formulation\nand analysis, glaze composition and formulation, firing methods (low, mid, and high-temperature\ngas, electric and atmospheric firings), and kiln design will be covered in depth.\nAdvanced Ceramics\nThis course focuses on the generation and development of ideas and objects to form\nwheel (if needed). Residents collectively decide on the division and origination of\ntheir studio according to the needs of the group. There is easy access to kilns, mixers,\nraw materials, and all other studio equipment. Our studio is among the finest you\nwill find at any university in North America.\nthat each resident contribute 2-3 hours each week to the operation of the studio.\nThis could mean managing kiln meetings, overseeing our critique space, loading kilns,\nor other tasks that help the studio run effectively.\nApply\nduring the Fall 2025 semester.\nA furnished studio is provided, along with stocked ceramic materials, kiln firings,\nand a modest stipend. UARK Ceramics faculty and graduate students will be available\nto help familiarize residents with basic studio processes and help guide them through\nthe resident studios are at the heart of the Studio and Design Center and offer easy\naccess to kilns, mixers, raw materials, and all other studio equipment. Access to\nstudios is 24/7.\nHonorarium, Accommodations, and Materials\nIn fall 2025, each resident artist will receive a stipend of $3,500. Dry materials,\nstudio glazes, and kiln firings are included in the residency—materials not available\nin our studios are the responsibility of the artist.\nCurrently, each artist is responsible for arranging their own travel and accommodations . We’re able to help you with recommendations and have relationships with several\nEquipment List\nINTERIOR Kiln Pad\nBlaauww automated 12 & 54 & 100 cu.ft. gas kilns\nBlaauww automated 18 cu.ft. electric kiln\nBailey Studio Pro 12 & 18 cu.ft. gas kilns\nBailey Thermal Logic 20 cu.ft. electric with two cars\n12 computer-controlled Skutt electric kilns\nCounterbalance stacker\nGeil 8, 12, and 24 cu.ft. gas kilns\nMaster Kiln Builders 24 cu.ft. soda kiln\nTechnology Lab\nPotterbot Super 10 clay printer (2)\ntheir own projects, participating in a clay club event, attending a visiting artist\nlecture, or simply loading a kiln together. To this end, we work hard to make our\ncommunity one in which inclusiveness and personal diligence coalesce in an experience\ntailored to bring the best out of each student.\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "University of Arkansas",
+      "city": "",
+      "state": "AR",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "gas_reduction",
+        "wood"
+      ],
+      "quote": "Students will also be introduced to ceramic studio processes, including clay and glaze mixing, high temperature gas and electric firing, and studio safety procedures.",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text describes firing techniques available only to enrolled students in degree programs.",
+      "quote_verified": false,
+      "secs": 13,
+      "state_on_page": true
+    }
   },
   "watershedceramics.org": {
     "key": "watershedceramics.org",
@@ -4028,7 +4666,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in ME",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "schoolofservice.org": {
@@ -4050,7 +4689,22 @@
       "https://schoolofservice.org/adult-workshops": "",
       "https://schoolofservice.org/artist-residency": "Application open December 8th\nWe are seeking up to three Artists in Residence for our Ceramics department who WILL live on-site. The ideal candidate will have experience teaching wheel-throwing and hand-building classes to adults and/or children. Preference will be given to individuals who have previous experience firing electric and atmospheric kilns. This includes, but is not limited to, Cone 10 gas reduction firings, Anagama Wood Firings, and Raku firings. Program details and application information can be found below.\nStudio-Only Resident, 1-year term\nTerm Start: August\nWe are seeking up to four Artists in Residence for our Ceramics department who will NOT live on-site. The ideal candidate will have experience teaching wheel-throwing and hand-building classes to adults and/or children. Preference will be given to individuals who have previous experience firing electric and atmospheric kilns. This includes, but is not limited to, Cone 10 gas reduction and Raku firings. Program details and application information can be found below.\nInterested in the perks of a ceramics residency, but want to work with children? Check out our youth-focused residency opportunities, where your service hours primarily come from working with kids!\nOur artist residency is the perfect professional development opportunity for creative individuals across the spectrum of experience. While this is typically a teaching-intensive program, artists benefit from time to research, focus, and explore while living in a supportive community of makers. The ceramics program is our most vibrant program. offering year-long residencies.\nResidents will enjoy a range of studio options provided by our growing campus. There are two large studios where classes are held and a private studios just for residents. We have dry materials, clay, slab rollers, and lots of wheels. There is an outdoor shelter that houses our raku kiln and an Olson gas reduction kiln.\nIn addition to developing a body of work, residents may participate in our sales and exhibition schedule. Year-long residents are encouraged to curate a solo show in our beautiful gallery. Artists are encouraged to explore any and all facets of what we have to offer, including collaborative projects with other departments and grant-seeking.\nHere at Access Arts, we strive to provide creative learning experiences for everyone. As an artist in residence a monthly kiln firing, a monthly monetary stipend, some materials, and 24/7 access to our facilities is provided in exchange for a certain number of service hours per week (dependent on live-in vs non-live-in positions) helping to teach classes and maintain studios.​\nThe residents are the heart of our wonderful and diverse community and we expect residents to invest in the growth of this community. Potlucks, informal critiques, and late night philosophical discussions are typical. Residents who participate wholeheartedly in the experience gain the greatest benefit from our program.\nABOUT\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "schoolofservice.org",
+      "city": "",
+      "state": "",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The text only describes residency opportunities and does not mention public access to firings.",
+      "quote_verified": false,
+      "secs": 9,
+      "state_on_page": false
+    }
   },
   "ceramicartsnetwork.org": {
     "key": "ceramicartsnetwork.org",
@@ -4075,7 +4729,8 @@
     "judged": {
       "decision": "reject",
       "reason": "known place in OH",
-      "auto": true
+      "auto": true,
+      "state_on_page": false
     }
   },
   "stephenburksmanmade.com": {
@@ -4099,7 +4754,8 @@
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
-      "auto": true
+      "auto": true,
+      "state_on_page": true
     }
   },
   "ceramicsfieldguide.org": {
@@ -4121,6 +4777,23 @@
       "https://ceramicsfieldguide.org/chapter-6/selecting-an-electric-kiln/": "Chapter 6 : Selecting An Electric Kiln - Field Guide for Ceramic Artisans\nSkip to content\nFacebook\nStudio Insurance\nChapter 6 : Kilns\nElectrical information for Electric kilns\nSelecting an Electric Kiln\nKiln Location\nThoughts on installing a gas kiln\nChapter 7 : Documentation\nDigital Images\nRaw Materials\nFiring\nWater\nWaste\nArtificial Intelligence\nTable of Contents » Chapter 6 : Kilns » Chapter 6 : Selecting An Electric Kiln\nChapter 6 : Selecting An Electric Kiln\nA little prep work before buying a new or used kiln can save you a lot of headaches! Information about buying a used kiln is listed at the end of this page.\nBasic Considerations\nMore... ...Less Factors to consider:\nSpace where kiln will be located\nThe size and shape of your work\nPower supply available\nPrice\nSpace/location-influence size of kiln\nPlan on having 18-36 inches clearance around all sides of your kiln.\nYour kiln should be located next to an external wall for proper kiln venting.\nGiven the gasses emitted during a firing, it is best to have it located in a separate room, (closets and small rooms are not appropriate choices)\nYour work-influence size of kiln\nWhat are the dimensions of the largest pieces you will want to fire?\nWhat is the maximum volume of work that you will need to move through in a set time period?\nHow will your needs grow/change in the next 5 years?\nWhat is your maximum desired firing temperature?\nPower available-determines how the manufacturer will wire kiln\n(For more information see Understanding Electricity)\nVoltage to your building _____volts\nSingle or three phase _____phase\nIf your voltage supply is 240 and your kiln requires 208 volts this situation will shorten the life of the kiln elements and switches. If your voltage is 208 and the kiln draws 240 volts the kiln might not reach its maximum temperature during the firing. The goal is to match the kiln to the power supply.\nExtras Available for Kilns:\nKiln stand\nYou must have one! Kilns should not be operated directly on the floor More... ...Less Kiln controllers-for ease of use\nManual kiln controllers with kiln sitters require users to make all turn-ups. A combination of kiln sitter and timer provides backup to help prevent over-firing.\nComputer controllers\nCome with numerous variations for firing programs. Your own firing program can be entered into the computer. Not very difficult to learn and use. It may be advisable to use a kiln sitter as a backup to prevent overfiring. Discuss with dealer.\nVenting an Electric Kiln\nExtra insulating brick-for greater efficiency\nMany kiln manufacturers offer the use of extra thick brick to aid in kiln insulation, which will provide a more efficient firing and a slower cool down. If you fire to a high temp, cone 6 or higher, or you use crystalline glazes that require a slow cool, you may consider this option.\nKiln Worksheet\nHere is a worksheet to complete and discuss with the supplier: More... ...Less Basic considerations\nDimensions of available area for kiln in studio: __",
       "https://ceramicsfieldguide.org/chapter-2/artist-in-residence-usa/": "Studio Insurance\nChapter 6 : Kilns\nElectrical information for Electric kilns\nSelecting an Electric Kiln\nKiln Location\nThoughts on installing a gas kiln\nChapter 7 : Documentation\nDigital Images\nRaw Materials\nFiring\nWater\nWaste\namoca.org\nLocation: Pomona, CA. Duration: 6mo – 1year. App. Deadline: Jan. Funding: F ully Funded Semi-private studio, studio apartment or housing stipend, $100 /week stipend, material and firing stipend for 20/hr week active studio time. Program Highlights: Teaching and lecture opportunities. Application Fee: Free to Apply.\nMendocino Art Center\nmendocinoartcenter.org\ncobbartandecology.org\nLocation: Cobb, CA. Duration: 2 weeks – 2 years. App. Deadline: Ongoing/ April 4th. Funding: W ork exchange for 24 hr. studio and facility access. Work exchange possible for on-site furnished housing. Program Highlights: Wood kilns, organic garden, sustainability focus. Application Fee: Free to Apply\nCalifornia College of the Arts\ncca.edu\nLocation: San Francisco, CA. Funding: Studio Space, resources, equipment. The Faculty Residency may only be by invitation. Program Highlights: Fully equipped facilities with large gas kilns.\nHeartwood Mountain Sanctuary\nheartwoodhub.com\nandersonranch.org\nLocation: Snowmass, CO. Duration: 10 weeks. App Deadline: Dec – Feb 15th. Funding: $1500 for housing, studio and, 3 meals a day. 4 F ully Funded awards available. Program Highlights: Extensive kiln room, woodshop, print studio and, a rich community of 25 residents of all varying practices. Professional critiques are available. Application Fee: $30\nCarbondale Clay Center\ncarbondaleclay.org\ncantonclayworks.com\nLocation: Canton, CT. Duration: Seasonal sessions App Deadline: No Application. Funding: SPA (Studio Potter Associate), appx. $640 per season. Program Highlights: Atmospheric kilns/ Woodfire. More of facility rental than residency.\nGuilford Art Center\nguilfordartcenter.org\nLocation: Guildford, CT. Duration: 1 year. Funding: Studio space, firings, stipend in exchange for 12- 15 hr/week. Program Highlights: E xhibition, teaching opportunities, selling opportunities. Application Fee: Free to Apply.\nWesleyan Potters\nwesleyanpotters.com\nNot currently accepting new residents due to COVID-19\nWashington, DC. Duration: 1 year. Funding: Private studio space, clay (500#), firings, Work trade for $800/mo. stipend. Program Highlights: Closing exhibition , gas, raku, and electric kilns. Application Fee: Unknown.\nDelaware\nWinterthur Museum Garden and Library\nmoreanartscenter.org\nLocation: St. Petersburg, FL . Duration: 1 -2 years. App Deadline: April 30th. Funding: Work trade 8 hr/ week for s tudio space and access to facilities, c lay discount, firings. Possible $200/mo work opportunity. Program Highlights: Professional critics, exhibition , wood fire opportunities. Application Fee: $25.\nGeorgia\nRoswell Clay Collective\nroswellclaycollective.com\nLocation: Roswell, GA. Duration: 1-2 years. App Deadline: May 1st. Funding: Work trade of 25hr/ week for semi-private studio space and shared on-site housing. Additional part-time hours are available. Stipend $1000 per month. Program Highlights: Exhibition, gas and atmospheric kilns, selling, and teaching opportunities. Application Fee: Free to Apply .\nHambidge\nhambidge.org\nLocation: Rabun Gap, GA. Duration: 2-8 weeks. App Deadline: Jan 15th, April 15th, Sept 15th. Funding: Studio with live workspace, pottery studio access for $250 per week. Evening meals provided. Fellowships are available which include a $700 stipend. “Residents’ time is their own; there are no workshops, critiques, nor required activities.” Program Highlights: Anagama Kiln. Application Fee: $30.\nIllinois\nLillStreet Arts Center\nlillstreet.com\nLocation: Chicago, IL. Duration: Sept – Aug App Deadline: May. Funding: Work trade of 8/hr/week for studio space and a stipend. Free Classes. Program Highlights: Teaching opportunities, exhibition and sales gallery. Gas and, atmospheric kilns. Application Fee: $20.\nIndiana\nNew Harmony Clay Project\n"
     },
-    "fetched": true
+    "fetched": true,
+    "judged": {
+      "name": "N/A",
+      "city": "N/A",
+      "state": "N/A",
+      "decision": "reject",
+      "access": "none",
+      "firing_types": [
+        "wood"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "high",
+      "reason": "The provided text does not mention any firing opportunities in Arkansas.",
+      "quote_verified": false,
+      "secs": 19,
+      "state_on_page": false
+    }
   }
 }
