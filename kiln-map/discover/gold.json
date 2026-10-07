@@ -1,0 +1,8 @@
+[
+  {"name": "Hickory Clay (bad: types invented)", "quote": "No firing fees on standard-size pieces under 10\"", "claimed": ["wood","raku","soda","salt","pit_barrel_saggar","gas_reduction"], "page": "Two kilns firing four to six times a week", "expect": "unclear", "expectTypes": []},
+  {"name": "Potters' Studio (salt not on page)", "quote": "a limited number of slots to potters in the broader community who have a grasp of the basics of gas reduction firing.", "claimed": ["soda","salt","gas_reduction"], "page": "Soda Firing Workshops. cone 9/10 reduction with oxidation strike and sprayed soda", "expect": "qualifies", "expectTypes": ["soda","gas_reduction"]},
+  {"name": "Umbrella Arts (good)", "quote": "This Fall we will offer a three-part raku workshop that covers the full experience of making, glazing, and firing raku work.", "claimed": ["raku","soda"], "page": "raku workshop", "expect": "qualifies", "expectTypes": ["raku"]},
+  {"name": "Cotuit open studio (generic firing)", "quote": "Our target is 5 pieces or fewer per Open Studio attendee per weekly firing.", "claimed": ["wood"], "page": "Open studio ceramics", "expect": "unclear", "expectTypes": []},
+  {"name": "Paint-your-own firing", "quote": "Upgrade your creations with optional professional kiln firing + glazing service", "claimed": ["other"], "page": "paint your own pottery", "expect": "unclear", "expectTypes": []},
+  {"name": "Vegas is not gas", "quote": "Workshops in Las Vegas this fall", "claimed": ["gas_reduction"], "page": "Las Vegas", "expect": "unclear", "expectTypes": []}
+]

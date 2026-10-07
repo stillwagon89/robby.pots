@@ -5,6 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { gate } from "./gate.mjs";
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, "../..");
 const KM = path.resolve(HERE, "..");
@@ -251,11 +252,17 @@ function stageReport(places) {
   // Gemma claims the state too readily; code requires the place's own text to name the state.
   const inState = new RegExp(`${CFG.name}|,\\s*${ST}\\b|\\b${ST}\\s+\\d{5}`);
   for (const p of all) if (p.judged) p.judged.state_on_page = inState.test(Object.values(p.pages).join(" ") + " " + p.hits.map((h) => h.title + " " + h.snippet).join(" "));
+  // Evidence gate: only firing types the page's own words support; a quote naming no specific firing demotes to unclear.
+  for (const p of all) if (p.judged?.decision === "qualifies") {
+    const g = gate(p.judged, Object.values(p.pages).join(" ") + " " + p.hits.map((h) => h.snippet).join(" "));
+    p.judged.supported_types = g.supported;
+    if (g.decision !== "qualifies") { p.judged.decision = "unclear"; p.judged.reason = `${p.judged.reason || ""} [gate: ${g.why}]`.trim(); }
+  }
   const ok = all.filter((p) => p.judged?.decision === "qualifies" && p.judged.quote_verified && p.judged.confidence !== "low" && p.judged.state_on_page && (p.judged.state || ST).toUpperCase() === ST);
   const unclear = all.filter((p) => p.judged && !ok.includes(p) && p.judged.decision !== "reject");
   const rej = all.filter((p) => p.judged?.decision === "reject");
   const social = all.filter((p) => p.social);
-  const row = (p) => `| ${p.judged.name || p.key} | ${p.judged.city || "?"} | ${(p.judged.firing_types || []).join(", ")} | ${p.judged.access || ""} | ${p.known ? "on map" : "**new**"} | ${p.key} | "${(p.judged.quote || "").slice(0, 160)}" |`;
+  const row = (p) => `| ${p.judged.name || p.key} | ${p.judged.city || "?"} | ${(p.judged.supported_types || p.judged.firing_types || []).join(", ")} | ${p.judged.access || ""} | ${p.known ? "on map" : "**new**"} | ${p.key} | "${(p.judged.quote || "").slice(0, 160)}" |`;
   const head = "| Place | City | Types | Access | Map | Site | Quote |\n|---|---|---|---|---|---|---|";
   const md = [
     `# ${CFG.name} discovery report (${new Date().toISOString().slice(0, 10)})`,
@@ -269,7 +276,7 @@ function stageReport(places) {
   ].join("\n");
   fs.writeFileSync(path.join(KM, "research", `${ST.toLowerCase()}-report.md`), md);
   // Compact list for the one Claude review pass: one line per place that isn't rejected.
-  const line = (t, p) => [t, p.key.slice(0, 45), (p.judged.name || "").slice(0, 30), p.judged.city || "?", p.judged.state_on_page ? ST : "-", (p.judged.firing_types || []).join(","), p.judged.access, (p.judged.quote || "").replace(/\s+/g, " ").slice(0, 110)].join(" | ");
+  const line = (t, p) => [t, p.key.slice(0, 45), (p.judged.name || "").slice(0, 30), p.judged.city || "?", p.judged.state_on_page ? ST : "-", (p.judged.supported_types || p.judged.firing_types || []).join(","), p.judged.access, (p.judged.quote || "").replace(/\s+/g, " ").slice(0, 110)].join(" | ");
   fs.writeFileSync(path.join(CACHE, "review.txt"), [...ok.map((p) => line("Q", p)), ...unclear.map((p) => line("U", p))].join("\n"));
   writeJson(path.join(CACHE, "places.json"), places);
   writeJson(path.join(KM, "research", `${ST.toLowerCase()}-discovery.json`), { state: ST, searches: Object.keys(readJson(path.join(CACHE, "search.json"), {})), places: all.map(({ pages, ...p }) => p) });

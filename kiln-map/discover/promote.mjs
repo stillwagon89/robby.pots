@@ -50,7 +50,7 @@ for (const ST of process.argv.slice(2).map((s) => s.toUpperCase())) {
     const townOk = town && !/^\(|^\?|^[A-Z]{2}$|area|coast|^southern|wilds/i.test(town);
     const kind = /college|university|uwf|utsa|cc\b/i.test(org) ? "college" : /guild|center|centre|museum|school|city of|arts|association|society|institute|league|co-?op|collective|club/i.test(org) ? "city_arts" : "studio";
     doc.sources.push({
-      id, org, kind, core: false, public: true, firing_types_guess: guess.length ? guess : (p.judged?.firing_types || []),
+      id, org, kind, core: false, public: true, firing_types_guess: guess.length ? guess : (p.judged?.supported_types || p.judged?.firing_types || []),
       region: townOk ? town : stateName(ST), city: townOk ? town.split(/\s*[\/(]/)[0] : null,
       urls: [website],
       notes: `${access}. Found by discovery v3 on ${TODAY}; not yet reviewed.`,
@@ -58,7 +58,7 @@ for (const ST of process.argv.slice(2).map((s) => s.toUpperCase())) {
       geocode: townOk ? `${town.split(/\s*[\/(]/)[0]}, ${stateName(ST)}` : null,
       location_note: townOk ? "Shown at the town." : "Location not confirmed; shown at the state.",
       contact: { website },
-      ...(quote ? { access: { how: access, note: access, quote, url: quoteUrl, types: (p.judged?.firing_types || []).filter((t) => t !== "other"), checked: TODAY } } : {}),
+      ...(quote ? { access: { how: access, note: access, quote, url: quoteUrl, types: (p.judged?.supported_types || p.judged?.firing_types || []).filter((t) => t !== "other"), checked: TODAY } } : {}),
       review: "pending",
       discovered: { by: "discover-v3", date: TODAY, key: p.key },
     });

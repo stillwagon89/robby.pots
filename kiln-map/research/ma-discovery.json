@@ -407,7 +407,10 @@
         "reason": "The text advertises regular Raku workshops open to the public.",
         "quote_verified": true,
         "secs": 69,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "raku"
+        ]
       }
     },
     {
@@ -513,7 +516,10 @@
         "reason": "The site offers Raku workshops that can be scheduled for groups, indicating public access beyond just members.",
         "quote_verified": true,
         "secs": 68,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "raku"
+        ]
       }
     },
     {
@@ -674,7 +680,11 @@
         "reason": "The text details specific dates for public participation in both raku and soda firings.",
         "quote_verified": true,
         "secs": 43,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "raku",
+          "soda"
+        ]
       }
     },
     {
@@ -746,7 +756,11 @@
         "reason": "The text details multiple workshops offering public participation in non-electric firings (Raku and Soda) in Massachusetts.",
         "quote_verified": true,
         "secs": 62,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "raku",
+          "soda"
+        ]
       }
     },
     {
@@ -783,7 +797,10 @@
         "reason": "The website advertises a specific Raku Firing Workshop in Massachusetts for the public.",
         "quote_verified": true,
         "secs": 35,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "raku"
+        ]
       }
     },
     {
@@ -913,7 +930,12 @@
         "reason": "The site mentions an outdoor kiln deck with raku, gas, and pit firing areas, and the context suggests public access through workshops.",
         "quote_verified": true,
         "secs": 44,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "raku",
+          "gas_reduction",
+          "pit_barrel_saggar"
+        ]
       }
     },
     {
@@ -1042,7 +1064,10 @@
         "reason": "The text advertises a specific soda firing workshop with dates and location in Massachusetts.",
         "quote_verified": true,
         "secs": 49,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "soda"
+        ]
       }
     },
     {
@@ -1076,7 +1101,10 @@
         "reason": "The text advertises a specific, dated soda firing workshop in Massachusetts.",
         "quote_verified": true,
         "secs": 40,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "soda"
+        ]
       }
     },
     {
@@ -1125,7 +1153,10 @@
         "reason": "The text states the kiln is available to local potters interested in wood-soda firing.",
         "quote_verified": true,
         "secs": 55,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "wood"
+        ]
       }
     },
     {
@@ -1170,7 +1201,10 @@
         "reason": "The site advertises a specific soda firing workshop in Watertown, MA.",
         "quote_verified": true,
         "secs": 19,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "soda"
+        ]
       }
     },
     {
@@ -1223,7 +1257,12 @@
         "reason": "The text describes a scheduled saggar firing workshop open to enrolled students at a Massachusetts location.",
         "quote_verified": true,
         "secs": 28,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "soda",
+          "soda",
+          "soda"
+        ]
       }
     },
     {
@@ -1352,7 +1391,14 @@
         "reason": "The text details multiple classes involving non-electric firings like soda and gas reduction in Massachusetts.",
         "quote_verified": true,
         "secs": 37,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "soda",
+          "gas_reduction",
+          "soda",
+          "gas_reduction",
+          "soda"
+        ]
       }
     },
     {
@@ -1430,7 +1476,11 @@
         "reason": "The text mentions a kiln room with multiple firing options available through class registration.",
         "quote_verified": true,
         "secs": 36,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "raku",
+          "pit_barrel_saggar"
+        ]
       }
     },
     {
@@ -1584,7 +1634,7 @@
         "name": "Pottery with a Purpose",
         "city": "Cambridge",
         "state": "MA",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "other"
@@ -1592,10 +1642,11 @@
         "quote": "Upgrade your creations with optional professional kiln firing + glazing service so your finished piece is food-safe and waterproof.",
         "dates": [],
         "confidence": "high",
-        "reason": "The site offers an optional professional kiln firing add-on for workshops held in Massachusetts.",
+        "reason": "The site offers an optional professional kiln firing add-on for workshops held in Massachusetts. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 19,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": []
       }
     },
     {
@@ -1696,7 +1747,11 @@
         "reason": "The page advertises specific, bookable workshops for saggar firing, which is a type of reduction firing.",
         "quote_verified": true,
         "secs": 21,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "gas_reduction",
+          "pit_barrel_saggar"
+        ]
       }
     },
     {
@@ -1830,7 +1885,10 @@
         "reason": "The text describes a multi-session workshop involving saggar firing in Massachusetts.",
         "quote_verified": true,
         "secs": 21,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "pit_barrel_saggar"
+        ]
       }
     },
     {
@@ -1881,7 +1939,10 @@
         "reason": "The text describes a multi-day workshop involving a saggar pit firing in Groton, MA.",
         "quote_verified": true,
         "secs": 27,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "pit_barrel_saggar"
+        ]
       }
     },
     {
@@ -1954,7 +2015,10 @@
         "reason": "The text advertises a specific, multi-day workshop on saggar firing.",
         "quote_verified": true,
         "secs": 10,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "pit_barrel_saggar"
+        ]
       }
     },
     {
@@ -2022,7 +2086,11 @@
         "reason": "The text describes a dated workshop featuring multiple non-electric firings in Massachusetts.",
         "quote_verified": true,
         "secs": 14,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "raku",
+          "pit_barrel_saggar"
+        ]
       }
     },
     {
@@ -2099,7 +2167,10 @@
         "reason": "The text describes a public workshop involving pit firing.",
         "quote_verified": true,
         "secs": 10,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "pit_barrel_saggar"
+        ]
       }
     },
     {
@@ -2137,7 +2208,11 @@
         "reason": "The site mentions teaching workshops on Raku and pit-fired pottery from a Massachusetts location.",
         "quote_verified": true,
         "secs": 19,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "raku",
+          "pit_barrel_saggar"
+        ]
       }
     },
     {
@@ -2177,7 +2252,7 @@
         "name": "Center Ceramics Pottery Studio",
         "city": "Chelmsford",
         "state": "MA",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "other"
@@ -2185,10 +2260,11 @@
         "quote": "We offer kiln firing services for outside work — $30 per shelf for bisque/low fire and $40 per shelf for cone 5 glaze.",
         "dates": [],
         "confidence": "high",
-        "reason": "The studio offers kiln firing services for outside work.",
+        "reason": "The studio offers kiln firing services for outside work. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 12,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": []
       }
     },
     {
@@ -2220,7 +2296,7 @@
         "name": "Pottery Studio",
         "city": "Boston",
         "state": "MA",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "gas_reduction",
@@ -2232,10 +2308,11 @@
         "quote": "A potter's wheel, clay, tools + firing.",
         "dates": [],
         "confidence": "high",
-        "reason": "The site offers one-time classes that include firing services in Massachusetts.",
+        "reason": "The site offers one-time classes that include firing services in Massachusetts. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 22,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": []
       }
     },
     {
@@ -2318,7 +2395,7 @@
         "name": "Feet of Clay",
         "city": "Brookline",
         "state": "MA",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "other"
@@ -2328,10 +2405,11 @@
           "Third Thursday"
         ],
         "confidence": "high",
-        "reason": "The site advertises a free class with available firing options for the public.",
+        "reason": "The site advertises a free class with available firing options for the public. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 18,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": []
       }
     },
     {
@@ -2478,7 +2556,12 @@
         "reason": "The text mentions various non-electric firings and ongoing class/studio options.",
         "quote_verified": true,
         "secs": 19,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "soda",
+          "wood",
+          "raku"
+        ]
       }
     },
     {
@@ -2529,7 +2612,7 @@
         "name": "The Saint John’s Pottery",
         "city": "",
         "state": "MA",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "dated_events",
         "firing_types": [
           "wood"
@@ -2539,10 +2622,11 @@
           "fall"
         ],
         "confidence": "high",
-        "reason": "The text explicitly mentions welcoming visitors during fall firings of a wood-burning kiln.",
+        "reason": "The text explicitly mentions welcoming visitors during fall firings of a wood-burning kiln. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 12,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": []
       }
     },
     {
@@ -2620,7 +2704,7 @@
         "name": "NEW ENGLAND WOOD FIRING CONFERENCE",
         "city": "New Haven",
         "state": "CT",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "wood"
@@ -2630,10 +2714,13 @@
           "June 18-26, 2027"
         ],
         "confidence": "high",
-        "reason": "The conference explicitly offers participation in wood firing for potters of all levels.",
+        "reason": "The conference explicitly offers participation in wood firing for potters of all levels. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 18,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "wood"
+        ]
       }
     },
     {
@@ -2701,7 +2788,7 @@
         "name": "Firebrick Pottery",
         "city": "",
         "state": "",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "soda",
@@ -2711,10 +2798,11 @@
         "quote": "Choose from monthly memberships, kiln shelf rentals, or pay-by-item firing options.",
         "dates": [],
         "confidence": "high",
-        "reason": "The site offers membership and pay-by-item firing services.",
+        "reason": "The site offers membership and pay-by-item firing services. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 8,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": []
       }
     },
     {
@@ -2925,7 +3013,10 @@
         "reason": "The text mentions a 'big gas firing' and the studio is open-access, suggesting public participation is possible.",
         "quote_verified": true,
         "secs": 23,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "gas_reduction"
+        ]
       }
     },
     {
@@ -3214,7 +3305,11 @@
         "reason": "The text mentions paying for firings and lists raku and gas firing options.",
         "quote_verified": true,
         "secs": 8,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "raku",
+          "gas_reduction"
+        ]
       }
     },
     {
@@ -3482,7 +3577,11 @@
         "reason": "The site mentions workshops and membership access to various non-electric firings in Massachusetts.",
         "quote_verified": true,
         "secs": 17,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "raku",
+          "gas_reduction"
+        ]
       }
     },
     {
@@ -3667,7 +3766,7 @@
         "name": "Cone 6 Ceramics",
         "city": "",
         "state": "",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "none",
         "firing_types": [
           "soda",
@@ -3677,10 +3776,11 @@
         "quote": "Our Outside Artist Firing Membership offers unlimited monthly firings for ceramic artists who need access to a kiln.",
         "dates": [],
         "confidence": "high",
-        "reason": "The membership explicitly offers unlimited firings for independent artists.",
+        "reason": "The membership explicitly offers unlimited firings for independent artists. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 11,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": []
       }
     },
     {
@@ -3741,7 +3841,10 @@
         "reason": "The site advertises Raku workshops with specific dates for 2026 and allows the public to participate.",
         "quote_verified": true,
         "secs": 16,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "raku"
+        ]
       }
     },
     {
@@ -3797,7 +3900,7 @@
         "name": "Brush It Off",
         "city": "",
         "state": "",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "other"
@@ -3805,10 +3908,11 @@
         "quote": "Have a wheel at home? Bring your pieces in for a bisque fireing, Come back and glaze them, we will then fire them for you.",
         "dates": [],
         "confidence": "high",
-        "reason": "The membership tier allows outside potters to bring pieces in for bisque firing and subsequent glazing/firing.",
+        "reason": "The membership tier allows outside potters to bring pieces in for bisque firing and subsequent glazing/firing. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 12,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": []
       }
     },
     {
@@ -3907,7 +4011,7 @@
         "name": "Cotuit Center for the Arts",
         "city": "Cotuit",
         "state": "MA",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "wood"
@@ -3915,10 +4019,11 @@
         "quote": "Our target is 5 pieces or fewer per Open Studio attendee per weekly firing.",
         "dates": [],
         "confidence": "high",
-        "reason": "The open studio format implies public access to firing services.",
+        "reason": "The open studio format implies public access to firing services. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 9,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": []
       }
     },
     {
@@ -3944,7 +4049,7 @@
         "name": "Meetinghouse Clay Center",
         "city": "Falmouth",
         "state": "MA",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "wood",
@@ -3956,10 +4061,11 @@
           "September 26 and 27"
         ],
         "confidence": "high",
-        "reason": "The page mentions a public event at a specific location in Massachusetts.",
+        "reason": "The page mentions a public event at a specific location in Massachusetts. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 10,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": []
       }
     },
     {
@@ -4084,7 +4190,7 @@
         "name": "Lois Hirshberg",
         "city": "",
         "state": "",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "raku",
@@ -4098,10 +4204,14 @@
           "Monday, August 25, 2025 – Friday, August 29, 2025"
         ],
         "confidence": "high",
-        "reason": "The site advertises a workshop with alternative firings open to participants.",
+        "reason": "The site advertises a workshop with alternative firings open to participants. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 17,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "raku",
+          "pit_barrel_saggar"
+        ]
       }
     },
     {
@@ -4173,7 +4283,10 @@
         "reason": "The text mentions studios offering wood and soda firings and that memberships with kiln access are widely available.",
         "quote_verified": true,
         "secs": 20,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "soda"
+        ]
       }
     },
     {
@@ -4206,7 +4319,10 @@
         "reason": "The listing mentions saggar firing and is located in Massachusetts.",
         "quote_verified": true,
         "secs": 7,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "pit_barrel_saggar"
+        ]
       }
     },
     {
@@ -4226,7 +4342,7 @@
         "name": "NOHO Pottery",
         "city": "Northampton",
         "state": "MA",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "firing_service_or_rental",
         "firing_types": [
           "wood",
@@ -4235,10 +4351,11 @@
         "quote": "Clay, glaze and firing are included in the cost of the class.",
         "dates": [],
         "confidence": "high",
-        "reason": "The class includes firing and the location is in Massachusetts.",
+        "reason": "The class includes firing and the location is in Massachusetts. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 7,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": []
       }
     },
     {
@@ -4396,7 +4513,10 @@
         "reason": "The membership includes access to gas reduction firings.",
         "quote_verified": true,
         "secs": 7,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "gas_reduction"
+        ]
       }
     },
     {
@@ -4488,7 +4608,7 @@
         "name": "The Barn Pottery",
         "city": "Pocasset",
         "state": "MA",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "wood"
@@ -4496,10 +4616,11 @@
         "quote": "I also fire with wood several times a year and am happy and honored to be part of the crew at Gustin Ceramics.",
         "dates": [],
         "confidence": "high",
-        "reason": "The text mentions the artist fires with wood and is part of a community that hosts workshops.",
+        "reason": "The text mentions the artist fires with wood and is part of a community that hosts workshops. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 11,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": []
       }
     },
     {
@@ -4588,7 +4709,7 @@
         "name": "Joyous Spring Pottery",
         "city": "Monterey",
         "state": "MA",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "none",
         "firing_types": [
           "wood"
@@ -4598,10 +4719,13 @@
           "December 12, 2023"
         ],
         "confidence": "high",
-        "reason": "The text mentions the kiln and its location, but does not specify if the public can participate in a firing.",
+        "reason": "The text mentions the kiln and its location, but does not specify if the public can participate in a firing. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 8,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "wood"
+        ]
       }
     },
     {
@@ -4633,7 +4757,7 @@
         "name": "Gustin Ceramics",
         "city": "",
         "state": "",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "wood"
@@ -4641,10 +4765,13 @@
         "quote": "If you are interested in participating in the firings or visiting us during a firing, email me at gustinceramics@gmail.com for information.",
         "dates": [],
         "confidence": "high",
-        "reason": "The site indicates interest in participating in firings is welcome via email.",
+        "reason": "The site indicates interest in participating in firings is welcome via email. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 12,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "wood"
+        ]
       }
     },
     {
@@ -4706,7 +4833,10 @@
         "reason": "The lab offers woodfire classes where students are involved in the firing process.",
         "quote_verified": true,
         "secs": 8,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "wood"
+        ]
       }
     },
     {
@@ -4768,7 +4898,10 @@
         "reason": "The listing mentions an Anagama kiln, which is a type of wood firing.",
         "quote_verified": true,
         "secs": 6,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "wood"
+        ]
       }
     },
     {
@@ -4874,7 +5007,10 @@
         "reason": "The text describes an event where participants can fire their own work in a wood-fired kiln.",
         "quote_verified": true,
         "secs": 9,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "wood"
+        ]
       }
     },
     {
@@ -4966,7 +5102,11 @@
         "reason": "The text mentions the availability of gas-fired and wood-fired kilns for students and faculty.",
         "quote_verified": true,
         "secs": 11,
-        "state_on_page": true
+        "state_on_page": true,
+        "supported_types": [
+          "gas_reduction",
+          "wood"
+        ]
       }
     },
     {
@@ -5028,7 +5168,10 @@
         "reason": "The text indicates the kiln engages the local community in the traditional wood-firing artform.",
         "quote_verified": true,
         "secs": 14,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "wood"
+        ]
       }
     },
     {
@@ -5048,7 +5191,7 @@
         "name": "Tabor Academy",
         "city": "",
         "state": "MA",
-        "decision": "qualifies",
+        "decision": "unclear",
         "access": "ongoing_class_or_membership",
         "firing_types": [
           "wood"
@@ -5061,10 +5204,13 @@
           "3/5"
         ],
         "confidence": "high",
-        "reason": "The text mentions an open reception and presentations involving the community, suggesting public access to the facility and related activities.",
+        "reason": "The text mentions an open reception and presentations involving the community, suggesting public access to the facility and related activities. [gate: quote names no specific non-electric firing]",
         "quote_verified": true,
         "secs": 15,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "wood"
+        ]
       }
     },
     {
@@ -5203,7 +5349,10 @@
         "reason": "The site offers a public, bookable raku firing experience.",
         "quote_verified": true,
         "secs": 12,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "raku"
+        ]
       }
     },
     {
@@ -5256,7 +5405,10 @@
         "reason": "The site advertises bookable Raku workshops for 2026.",
         "quote_verified": true,
         "secs": 10,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "raku"
+        ]
       }
     },
     {
@@ -5292,7 +5444,13 @@
         "reason": "The site offers public workshops for multiple non-electric firing types in Massachusetts.",
         "quote_verified": true,
         "secs": 26,
-        "state_on_page": false
+        "state_on_page": false,
+        "supported_types": [
+          "raku",
+          "pit_barrel_saggar",
+          "wood",
+          "soda"
+        ]
       }
     },
     {
