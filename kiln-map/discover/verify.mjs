@@ -125,7 +125,20 @@ if (APPLY) {
       if (j.v.town && !j.s.city) { j.s.city = j.v.town; j.s.region = j.v.town; j.s.geocode = `${j.v.town}, ${stateName(j.ST)}`; }
     }
   }
-  for (const [f, doc] of docs) fs.writeFileSync(path.join(KM, "sources", f), JSON.stringify(doc, null, 2) + "\n");
+  // Re-read each file right before writing and merge by id, so geocoding or promotion that ran meanwhile is never overwritten.
+  for (const [f] of docs) {
+    const fp = path.join(KM, "sources", f);
+    const cur = JSON.parse(fs.readFileSync(fp, "utf8"));
+    const mine = docs.get(f);
+    const removed = new Set((mine._removed || []).map((r) => r.id));
+    const byId = new Map(mine.sources.map((x) => [x.id, x]));
+    cur.sources = cur.sources.filter((x) => !removed.has(x.id)).map((x) => {
+      const m = byId.get(x.id);
+      return m && m.verify ? { ...x, firing_types_guess: m.firing_types_guess, access: m.access ?? x.access, verify: m.verify, ...(m.weak ? { weak: true } : {}), ...(m.city && !x.city ? { city: m.city, region: m.region, geocode: m.geocode } : {}) } : x;
+    });
+    cur._removed = [...(cur._removed || []), ...(mine._removed || []).filter((r) => !(cur._removed || []).some((c) => c.id === r.id))];
+    fs.writeFileSync(fp, JSON.stringify(cur, null, 2) + "\n");
+  }
   fs.writeFileSync(path.join(KM, "research/cache/verify-last.json"), JSON.stringify(jobs.map((j) => ({ st: j.ST, id: j.s.id, ...j.v })), null, 1));
 }
 log("verify: done");
