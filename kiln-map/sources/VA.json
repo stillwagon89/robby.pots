@@ -78,82 +78,6 @@
       "newsletter_url": "https://www.constantcontact.com/legal/about-constant-contact"
     },
     {
-      "id": "all-hands-pottery-studio",
-      "org": "All Hands Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Norfolk",
-      "city": "Norfolk",
-      "urls": [
-        "https://www.allhandspottery.com/"
-      ],
-      "notes": "Raku workshop with Ray Wood. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Norfolk, Virginia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.allhandspottery.com/"
-      },
-      "access": {
-        "how": "Raku workshop with Ray Wood",
-        "note": "Raku workshop with Ray Wood",
-        "quote": "Glaze firing available for an additional fee",
-        "url": "https://www.allhandspottery.com/open-studio",
-        "types": [],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "allhandspottery.com"
-      },
-      "lat": 36.84937,
-      "lng": -76.28995
-    },
-    {
-      "id": "virginia-beach-art-center",
-      "org": "Virginia Beach Art Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Virginia Beach",
-      "city": "Virginia Beach",
-      "urls": [
-        "https://www.artcentervb.org/"
-      ],
-      "notes": "Raku workshop, ceramics classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Virginia Beach, Virginia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.artcentervb.org/"
-      },
-      "access": {
-        "how": "Raku workshop, ceramics classes",
-        "note": "Raku workshop, ceramics classes",
-        "quote": "Class tuition includes clay, glazes and firing.",
-        "url": "https://www.artcentervb.org/pottery.html",
-        "types": [],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "artcentervb.org"
-      },
-      "lat": 36.84966,
-      "lng": -75.97608
-    },
-    {
       "id": "the-workshop-at-timber-ridge",
       "org": "The Workshop at Timber Ridge",
       "kind": "studio",
@@ -191,7 +115,16 @@
         "key": "theworkshopattimberridge.com"
       },
       "lat": 37.78402,
-      "lng": -79.44282
+      "lng": -79.44282,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site explicitly lists raku firings as an offering for people to come together to create community.",
+        "types": {
+          "raku": "From open studio days to raku firings to gallery nights and a speaker series, we want to be a place to share art, ideas and collaborations."
+        }
+      }
     },
     {
       "id": "muddy-creek-pottery",
@@ -231,7 +164,16 @@
         "key": "noahwoodfired.com"
       },
       "lat": 37.95735,
-      "lng": -78.63751
+      "lng": -78.63751,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers wood-firing workshops that are open to the public via a sign-up process.",
+        "types": {
+          "wood": "Five to eight-day workshop including three-day anagama firing, with hands-on experience stoking, monitoring and steering the kiln in a small group setting."
+        }
+      }
     },
     {
       "id": "bradley-b-pottery",
@@ -240,9 +182,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda"
+        "soda",
+        "raku"
       ],
       "region": "Manassas",
       "city": "Manassas",
@@ -263,8 +204,7 @@
         "url": "https://bradleybpottery.com",
         "types": [
           "soda",
-          "raku",
-          "wood"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -275,7 +215,17 @@
         "key": "bradleybpottery.com"
       },
       "lat": 38.75095,
-      "lng": -77.47527
+      "lng": -77.47527,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly advertises hands-on workshops for soda and raku firing that are open to participants and enthusiasts.",
+        "types": {
+          "soda": "Experience the mystery and beauty of soda firing in a hands on workshop with other clay enthusiasts.",
+          "raku": "Attendees experience the excitement and unpredictability of Raku."
+        }
+      }
     },
     {
       "id": "althouse-pottery",
@@ -315,7 +265,17 @@
         "key": "althousepottery.com"
       },
       "lat": 39.15175,
-      "lng": -77.98252
+      "lng": -77.98252,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text invites the public to register for Raku events at Chilly Hollow Brewery where they can glaze and fire pottery.",
+        "types": {
+          "raku": "Come glaze and fire some raku pottery!"
+        },
+        "street": "669 Chilly Hollow Road"
+      }
     },
     {
       "id": "river-city-clay",
@@ -324,7 +284,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "raku",
+        "pit_barrel_saggar"
       ],
       "region": "Midlothian",
       "city": "Midlothian",
@@ -344,7 +305,8 @@
         "quote": "Beautiful Raku fired pottery taught at a workshop at River City Clay in Richmond, Virginia",
         "url": "https://www.rivercity-clay.com",
         "types": [
-          "raku"
+          "raku",
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
       },
@@ -355,7 +317,17 @@
         "key": "rivercity-clay.com"
       },
       "lat": 37.48681,
-      "lng": -77.64732
+      "lng": -77.64732,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text lists workshops that have included raku and saggar firings for participants.",
+        "types": {
+          "raku": "Beautiful Raku fired pottery taught at a workshop at River City Clay in Richmond, Virginia",
+          "pit_barrel_saggar": "Previous Workshops have included: Raku, Make Your Own Glazes, Saggar, Slip Casting, Cone 10, Brushmaking and others!"
+        }
+      }
     },
     {
       "id": "academy-center-of-the-arts",
@@ -364,7 +336,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood"
+        "wood",
+        "raku"
       ],
       "region": "Lynchburg",
       "city": "Lynchburg",
@@ -384,7 +357,8 @@
         "quote": "Wood Fire Workshop (Two Weekends)",
         "url": "https://academycenter.org/event/wood-fire-workshop-two-weekends",
         "types": [
-          "wood"
+          "wood",
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -395,7 +369,18 @@
         "key": "academycenter.org"
       },
       "lat": 37.41375,
-      "lng": -79.14225
+      "lng": -79.14225,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers workshops for wood and raku firing that are open for registration to the public.",
+        "types": {
+          "wood": "Develop your wood firing skills during this hands-on workshop 's catenary arch wood kiln.",
+          "raku": "Mobile Raku Workshop with Brett Thomas"
+        },
+        "street": "600 Main Street"
+      }
     },
     {
       "id": "still-life-studio",
@@ -435,47 +420,17 @@
         "key": "rva.still-life-studio.com"
       },
       "lat": 37.53851,
-      "lng": -77.43428
-    },
-    {
-      "id": "alexandria-clay-co-op",
-      "org": "Alexandria Clay Co-Op",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Alexandria",
-      "city": "Alexandria",
-      "urls": [
-        "https://www.alexandriaclaycoop.com/"
-      ],
-      "notes": "Co-op studio. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Alexandria, Virginia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.alexandriaclaycoop.com/"
-      },
-      "access": {
-        "how": "Co-op studio",
-        "note": "Co-op studio",
-        "quote": "The studio has a variety of Raku glazes available for your use.",
-        "url": "https://www.alexandriaclaycoop.com/workshops",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "alexandriaclaycoop.com"
-      },
-      "lat": 38.80511,
-      "lng": -77.04702
+      "lng": -77.43428,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows outsiders can rent kilns and join memberships for firing services.",
+        "types": {
+          "gas_reduction": "We fire Cone 6 Oxidation weekly, as well as Cone 10 Reduction firing in our state of the art Blaauw gas kiln."
+        },
+        "street": "1600 Altamont Ave"
+      }
     }
   ],
   "_removed": [
@@ -486,6 +441,18 @@
     {
       "id": "handthrown-studio",
       "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "all-hands-pottery-studio",
+      "why": "Second check (gemma-4-31b-it): The text mentions bisque and glaze firing but does not list any non-electric firing methods. (2026-10-07)"
+    },
+    {
+      "id": "virginia-beach-art-center",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions that their kilns fire at cone 5/6 and does not mention any specific non-electric firing methods such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-07)"
+    },
+    {
+      "id": "alexandria-clay-co-op",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text explicitly states that the Raku workshops are for ACC members only, and the kiln firing services page does not specify the firing methods used. (2026-10-07)"
     }
   ]
 }

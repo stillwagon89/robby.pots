@@ -84,8 +84,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
-        "soda"
+        "soda",
+        "wood"
       ],
       "region": "Portland",
       "city": "Portland",
@@ -117,7 +117,18 @@
         "key": "creativeportland.com"
       },
       "lat": 43.65736,
-      "lng": -70.25866
+      "lng": -70.25866,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text lists a workshop for atmospheric firing in soda and wood kilns that is open for sign-ups via Creative Portland.",
+        "types": {
+          "soda": "Atmospheric Firing in Soda & Wood kilns with Mitch Johnson",
+          "wood": "Atmospheric Firing in Soda & Wood kilns with Mitch Johnson"
+        },
+        "street": "522 Congress Street"
+      }
     },
     {
       "id": "southern-maine-clay-guild",
@@ -126,7 +137,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "pit_barrel_saggar"
+        "pit_barrel_saggar",
+        "soda"
       ],
       "region": "Maine",
       "city": null,
@@ -146,7 +158,8 @@
         "quote": "This is a community pit firing and dinner potluck!",
         "url": "https://www.southernmaineclayguild.com/events",
         "types": [
-          "pit_barrel_saggar"
+          "pit_barrel_saggar",
+          "soda"
         ],
         "checked": "2026-10-06"
       },
@@ -155,7 +168,19 @@
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "southernmaineclayguild.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text mentions events and workshops like pit firings and soda firings hosted by the guild, but they are limited to members and filled workshops.",
+        "types": {
+          "pit_barrel_saggar": "June 8th pending burn permit - Guild Spring Meeting & learning to Pit Fire pots!",
+          "soda": "June 20 - small group soda firing @Barbara's"
+        },
+        "street": "9 Spurwink Rd"
+      },
+      "weak": true
     },
     {
       "id": "turning-arts-studio",
@@ -195,7 +220,16 @@
         "key": "turningartsstudio.com"
       },
       "lat": 44.00989,
-      "lng": -69.89694
+      "lng": -69.89694,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers a public two-part workshop where participants can glaze and fire their own work using the raku method.",
+        "types": {
+          "raku": "In this two-part workshop, you’ll explore the dramatic and hands-on process of raku firing."
+        }
+      }
     },
     {
       "id": "coastal-maine-raku-pit-firing",
@@ -237,7 +271,18 @@
         "key": "coastalmaineraku.com"
       },
       "lat": 44.28119,
-      "lng": -69.00865
+      "lng": -69.00865,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers pottery workshops open to participants covering raku, pit firing, and barrel firing techniques.",
+        "types": {
+          "raku": "We explore raku techniques fired in a Peter Pugger gas kiln, as well as pit firing and barrel firings in homemade barrel kilns.",
+          "pit_barrel_saggar": "We explore raku techniques fired in a Peter Pugger gas kiln, as well as pit firing and barrel firings in homemade barrel kilns."
+        },
+        "street": "34 Beach Road"
+      }
     },
     {
       "id": "nate-winter-studios",
@@ -277,125 +322,16 @@
         "key": "natewinterstudios.com"
       },
       "lat": 43.78942,
-      "lng": -70.40834
-    },
-    {
-      "id": "downeast-lakes-land-trust",
-      "org": "Downeast Lakes Land Trust",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Grand Lake Stream",
-      "city": "Grand Lake Stream",
-      "urls": [
-        "https://downeastlakes.org/"
-      ],
-      "notes": "Community pit-firing event. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Grand Lake Stream, Maine",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://downeastlakes.org/"
-      },
-      "access": {
-        "how": "Community pit-firing event",
-        "note": "Community pit-firing event",
-        "quote": "Felise told the participants as they layered the pit with sawdust, salt, pine cones, seaweed, brined corn husks and pine needles, copper carbonate, kindling wood and quartered logs, and set it ablaze.",
-        "url": "https://downeastlakes.org/earth-wind-and-fire-hand-building-and-contemporary-pit-firing-pottery-class-wraps-up",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "downeastlakes.org"
-      },
-      "lat": 45.17889,
-      "lng": -67.77503
-    },
-    {
-      "id": "jackie-sedlock-pottery",
-      "org": "Jackie Sedlock Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Maine",
-      "city": null,
-      "urls": [
-        "https://www.jackiesedlock.com/"
-      ],
-      "notes": "Local artists can join firings (contact studio). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.jackiesedlock.com/"
-      },
-      "access": {
-        "how": "Local artists can join firings (contact studio)",
-        "note": "Local artists can join firings (contact studio)",
-        "quote": "For participation as a local artist who doesn't require housing, please contact the studio.",
-        "url": "https://www.jackiesedlock.com/wood-firing",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "jackiesedlock.com"
+      "lng": -70.40834,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers hands-on Raku firing workshops that are open to the public for registration.",
+        "types": {
+          "raku": "Join us for an unforgettable hands-on experience with Raku firing, led by Nate Winter, a seasoned ceramic artist with more than 1,000 firings and hundreds of workshops behind him."
+        }
       }
-    },
-    {
-      "id": "jody-johnstone-pottery",
-      "org": "Jody Johnstone Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Swanville",
-      "city": "Swanville",
-      "urls": [
-        "https://www.jodyjohnstonepottery.com/"
-      ],
-      "notes": "Rotating firing crew. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Swanville, Maine",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.jodyjohnstonepottery.com/"
-      },
-      "access": {
-        "how": "Rotating firing crew",
-        "note": "Rotating firing crew",
-        "quote": "My firing crew has been a slowly rotating group of great potters who bring their pots, energy, and enthusiasm for the firing. Twice a year we spend thirteen days together, loading and firing the kiln, making meals (click for recipes), stacking wood, trading stories and talking about pots.",
-        "url": "https://www.jodyjohnstonepottery.com/firing",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "jodyjohnstonepottery.com"
-      },
-      "lat": 44.52137,
-      "lng": -68.99831
     },
     {
       "id": "maine-prairie-studio",
@@ -433,7 +369,17 @@
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "maineprairiestudio.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site lists 'Rocinante Wood Firing' as a product that can be added to a cart, indicating it is a service available for purchase.",
+        "types": {
+          "wood": "Great variety in effects with wood fired technique."
+        }
+      },
+      "weak": true
     },
     {
       "id": "portland-pottery",
@@ -462,8 +408,7 @@
         "quote": "Classes at the 118 Washington Avenue Studio use high-fire (cone 10) clay and fire in the reduction kiln - a unique offering in a community ceramics studio setting!",
         "url": "https://portlandpottery.com/adult-classes",
         "types": [
-          "wood",
-          "raku"
+          "gas_reduction"
         ],
         "checked": "2026-10-06"
       },
@@ -474,7 +419,17 @@
         "key": "portlandpottery.com"
       },
       "lat": 43.65736,
-      "lng": -70.25866
+      "lng": -70.25866,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that the public can take adult classes that fire in a reduction kiln at the studio.",
+        "types": {
+          "gas_reduction": "Classes at the 118 Washington Avenue Studio use high-fire (cone 10) clay and fire in the reduction kiln - a unique offering in a community ceramics studio setting!"
+        },
+        "street": "118 Washington Avenue"
+      }
     },
     {
       "id": "work-in-progress",
@@ -504,13 +459,33 @@
         "key": "workinprogress.me"
       },
       "lat": 43.99669,
-      "lng": -70.06061
+      "lng": -70.06061,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty, so no information regarding firing services or public access is available.",
+        "types": {}
+      },
+      "weak": true
     }
   ],
   "_removed": [
     {
       "id": "belfast-clay-studio",
       "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "downeast-lakes-land-trust",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes a past pottery class that has already wrapped up and does not offer current or ongoing public registration for firings. (2026-10-07)"
+    },
+    {
+      "id": "jackie-sedlock-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): page says state is Vermont, not ME (2026-10-07)"
+    },
+    {
+      "id": "jody-johnstone-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes a private/invited firing crew with fixed members and does not show that outsiders can join, book, or sign up for firings. (2026-10-07)"
     }
   ]
 }

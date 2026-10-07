@@ -116,7 +116,15 @@
         "key": "https://www.eventbrite.com/e/raku-firing-workshop-at-seattle-pottery-supply-tickets-1677130375099"
       },
       "lat": 47.60383,
-      "lng": -122.33006
+      "lng": -122.33006,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "rat-city-studios",
@@ -125,7 +133,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "soda"
+        "raku"
       ],
       "region": "Seattle",
       "city": "Seattle",
@@ -145,7 +153,7 @@
         "quote": "🔥Oct 12th Soda Firing",
         "url": "https://ratcitystudios.com/soda-firing-participation",
         "types": [
-          "soda"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -156,7 +164,17 @@
         "key": "ratcitystudios.com"
       },
       "lat": 47.60383,
-      "lng": -122.33006
+      "lng": -122.33006,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers public workshops and firing services for both soda and raku firing methods that individuals can register for or purchase shares in.",
+        "types": {
+          "raku": "Raku Workshop Participation:"
+        },
+        "street": "2410 SW 106th Street"
+      }
     },
     {
       "id": "rain-city-clay",
@@ -165,8 +183,9 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
+        "soda",
         "raku",
-        "soda"
+        "gas_reduction"
       ],
       "region": "West Seattle",
       "city": "West Seattle",
@@ -187,7 +206,8 @@
         "url": "https://raincityclay.com",
         "types": [
           "soda",
-          "raku"
+          "raku",
+          "gas_reduction"
         ],
         "checked": "2026-10-06"
       },
@@ -198,49 +218,18 @@
         "key": "raincityclay.com"
       },
       "lat": 47.57093,
-      "lng": -122.38652
-    },
-    {
-      "id": "westwood-art-studio-damian-grava",
-      "org": "Westwood Art Studio (Damian Grava)",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "soda"
-      ],
-      "region": "Seattle",
-      "city": "Seattle",
-      "urls": [
-        "https://www.damiangrava.com/"
-      ],
-      "notes": "By appointment. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Seattle, Washington",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.damiangrava.com/"
-      },
-      "access": {
-        "how": "By appointment",
-        "note": "By appointment",
-        "quote": "Reach out through email to schedule a studio visit!",
-        "url": "https://www.damiangrava.com",
-        "types": [
-          "soda",
-          "wood"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "damiangrava.com"
-      },
-      "lat": 47.60383,
-      "lng": -122.33006
+      "lng": -122.38652,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that the studio offers soda kiln firings, raku, and gas kiln certification and rental for local potters.",
+        "types": {
+          "soda": "Soda Kiln Firings & RAKU",
+          "raku": "Soda Kiln Firings & RAKU",
+          "gas_reduction": "Certification - Gas Kiln Firing"
+        }
+      }
     },
     {
       "id": "washington-clay-arts-association",
@@ -249,7 +238,6 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
         "soda"
       ],
       "region": "Snohomish",
@@ -270,7 +258,6 @@
         "quote": "Member event! Raku firing at Burkhead studio in Snohomish",
         "url": "https://www.washingtonclayarts.org/education",
         "types": [
-          "raku",
           "soda"
         ],
         "checked": "2026-10-06"
@@ -282,7 +269,16 @@
         "key": "washingtonclayarts.org"
       },
       "lat": 48.00747,
-      "lng": -121.73049
+      "lng": -121.73049,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows members can sign up for a soda firing through a workshop lottery.",
+        "types": {
+          "soda": "WCA board member Betsy Smith has organized an opportunity for us to offer a ^10 Soda Firing at Kirkland Art Center the weekend of September 6th."
+        }
+      }
     },
     {
       "id": "burnish-clay-studio",
@@ -291,7 +287,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "soda"
+        "soda",
+        "gas_reduction"
       ],
       "region": "Bellingham",
       "city": "Bellingham",
@@ -311,7 +308,8 @@
         "quote": "Concurrently to this workshop, an In-Person workshop that includes loading and firing a soda kiln is available for those able to travel to Bellingham WA.",
         "url": "https://burnishclaystudio.com/workshops",
         "types": [
-          "soda"
+          "soda",
+          "gas_reduction"
         ],
         "checked": "2026-10-06"
       },
@@ -322,7 +320,18 @@
         "key": "burnishclaystudio.com"
       },
       "lat": 48.7544,
-      "lng": -122.47884
+      "lng": -122.47884,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers an in-person workshop that includes loading and firing a soda kiln, which is open to those who can travel to the location.",
+        "types": {
+          "soda": "Concurrently to this workshop, an In-Person workshop that includes loading and firing a soda kiln is available for those able to travel to Bellingham WA.",
+          "gas_reduction": "We offer firing services for home studio potters as a routine service and are happy to help with bisque firing to cone 06, electric glaze firing to cone 5 or 6, and reduction glaze firing to cone 10."
+        },
+        "street": "2006 N State St"
+      }
     },
     {
       "id": "tacoma-clay",
@@ -362,7 +371,17 @@
         "key": "tacomaclay.com"
       },
       "lat": 47.2455,
-      "lng": -122.43833
+      "lng": -122.43833,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers public Raku workshops that outsiders can sign up for, allowing participants to take part in an outdoor raku firing process.",
+        "types": {
+          "raku": "In this workshop, you'll learn the basics of the Raku firing process—from glazing to pulling red-hot pots from the kiln and plunging them into combustibles for stunning effects."
+        },
+        "street": "2329-2333 Tacoma Ave S"
+      }
     },
     {
       "id": "kilnfolk-clay-studio",
@@ -402,7 +421,16 @@
         "key": "kilnfolkclay.com"
       },
       "lat": 45.6307,
-      "lng": -122.67446
+      "lng": -122.67446,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers Raku firing events that are open to the public, including options to join a class or book a spot in the firing event for those who bring their own pieces.",
+        "types": {
+          "raku": "Through our partnership with Kadence Raku, we offer quarterly clay classes and Raku firings."
+        }
+      }
     },
     {
       "id": "the-clay-connection",
@@ -442,7 +470,16 @@
         "key": "clayconnectionspokane.com"
       },
       "lat": 47.65719,
-      "lng": -117.42351
+      "lng": -117.42351,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly mentions Raku firing sessions and events that are open to the public where outsiders can bring bisque pieces to be fired.",
+        "types": {
+          "raku": "Bring your own bisque pieces to be fired in the raku kiln or just come and watch the process and see the results!"
+        }
+      }
     },
     {
       "id": "gathering-ways",
@@ -482,7 +519,16 @@
         "key": "gatheringways.com"
       },
       "lat": 47.82229,
-      "lng": -122.87517
+      "lng": -122.87517,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text provides a registration link for the public to sign up for the pit-firing day of the workshop.",
+        "types": {
+          "pit_barrel_saggar": "ceremonial low-fire pit-firing"
+        }
+      }
     },
     {
       "id": "olympic-coast-creative",
@@ -522,7 +568,17 @@
         "key": "olympiccoastcreative.com"
       },
       "lat": 48.08493,
-      "lng": -123.10967
+      "lng": -123.10967,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The page text shows a Raku Firing Workshop open to participants including non-studio members.",
+        "types": {
+          "raku": "Raku Firing Workshop (Sequim) @ Sequim"
+        },
+        "street": "453 Taylor Cutoff Rd"
+      }
     },
     {
       "id": "evergreen-coast-pit-workshop",
@@ -531,16 +587,17 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
+        "salt",
         "pit_barrel_saggar"
       ],
-      "region": "Washington",
-      "city": null,
+      "region": "Ilwaco",
+      "city": "Ilwaco",
       "urls": [
         "https://www.evergreencoastwa.com/"
       ],
       "notes": "Two-day workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Ilwaco, Washington",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.evergreencoastwa.com/"
@@ -551,6 +608,7 @@
         "quote": "In this two-day workshop, students will create coil-built vessels designed specifically to respond beautifully to a communal pit firing later in the month.",
         "url": "https://www.evergreencoastwa.com/event/active-surface-vessels-for-pit-firing",
         "types": [
+          "salt",
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
@@ -560,6 +618,17 @@
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "evergreencoastwa.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers workshops for salt and pit firing that are open for registration to the public.",
+        "types": {
+          "salt": "Dive into the dynamic and unpredictable world of salt firing in this multi-part workshop.",
+          "pit_barrel_saggar": "In this two-day workshop, students will create coil-built vessels designed specifically to respond beautifully to a communal pit firing later in the month."
+        },
+        "street": "109 First Avenue North"
       }
     }
   ],
@@ -575,6 +644,10 @@
     {
       "id": "spun-clay-arts-studio",
       "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "westwood-art-studio-damian-grava",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions soda and wood firing for their own pottery and classes, but does not state that outsiders can participate in or book these non-electric firings. (2026-10-07)"
     }
   ]
 }

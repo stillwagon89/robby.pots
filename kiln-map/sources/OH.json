@@ -65,7 +65,17 @@
         "key": "kilnroomcolumbus.com"
       },
       "lat": 39.96226,
-      "lng": -83.00071
+      "lng": -83.00071,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that the public can sign up for raku firings and workshops.",
+        "types": {
+          "raku": "We offer monthly raku firings, every third Thursday of the month."
+        },
+        "street": "2050 South High Street"
+      }
     },
     {
       "id": "langweil-studio-pottery",
@@ -74,9 +84,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda"
+        "raku"
       ],
       "region": "Groveport",
       "city": "Groveport",
@@ -96,9 +104,7 @@
         "quote": "We have raku, naked raku, horsehair, and obvara experimental firing workshops at our studio in fall and spring.",
         "url": "https://www.langweilstudiopottery.com/classes-workshops",
         "types": [
-          "raku",
-          "wood",
-          "soda"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -109,7 +115,17 @@
         "key": "langweilstudiopottery.com"
       },
       "lat": 39.85224,
-      "lng": -82.88686
+      "lng": -82.88686,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states they offer experimental firing and raku workshops at their studio which outsiders can sign up for.",
+        "types": {
+          "raku": "We have raku, naked raku, horsehair, and obvara experimental firing workshops at our studio in fall and spring."
+        },
+        "street": "596 Main St."
+      }
     },
     {
       "id": "willahollow-pottery",
@@ -149,7 +165,15 @@
         "key": "willahollowpottery.com"
       },
       "lat": 39.63703,
-      "lng": -82.20444
+      "lng": -82.20444,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "yellow-springs-raku-day-john-bryan-community-pot",
@@ -189,47 +213,16 @@
         "key": "yellowspringsohio.org"
       },
       "lat": 39.80454,
-      "lng": -83.89252
-    },
-    {
-      "id": "ohio-university-atmospheric-conference",
-      "org": "Ohio University (Atmospheric Conference)",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Athens",
-      "city": "Athens",
-      "urls": [
-        "https://www.ohio.edu/"
-      ],
-      "notes": "Conference with 9 simultaneous kiln firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Athens, Ohio",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.ohio.edu/"
-      },
-      "access": {
-        "how": "Conference with 9 simultaneous kiln firings",
-        "note": "Conference with 9 simultaneous kiln firings",
-        "quote": "The conference will host nine simultaneous kiln firings on OHIO’s outdoor kiln pad.",
-        "url": "https://www.ohio.edu/news/2025/05/ohio-ceramics-program-build-community-through-inaugural-atmospheric-firing-conference",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "ohio.edu"
-      },
-      "lat": 39.32418,
-      "lng": -82.10156
+      "lng": -83.89252,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text describes a one-day hands-on workshop open to anyone that allows participants to take part in a raku firing process.",
+        "types": {
+          "raku": "Discover the thrill of Raku Firing!"
+        }
+      }
     },
     {
       "id": "dayton-soda-workshop-hp-bloomer",
@@ -269,7 +262,16 @@
         "key": "ceramicartsnetwork.org"
       },
       "lat": 39.75895,
-      "lng": -84.19161
+      "lng": -84.19161,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text lists a 'Soda Firing' workshop with HP Bloomer in Dayton, Ohio, which is open for registration.",
+        "types": {
+          "soda": "“Soda Firing: Exploring Atmospheric Glaze and Surfaces,” with HP Bloomer (June 28–July 3). Fee: $760."
+        }
+      }
     },
     {
       "id": "the-cracked-pot-studio",
@@ -298,8 +300,6 @@
         "quote": "Saggar Firing Sat, 13 Sep, 2025 at 09:00 am to 04:00 pm The Cracked Pot Studio, 613 Hamilton St,Bellefontaine, Ohio, United States",
         "url": "https://allevents.in/bellefontaine/saggar-firing/200028451623126",
         "types": [
-          "soda",
-          "salt",
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
@@ -311,7 +311,17 @@
         "key": "https://allevents.in/bellefontaine/saggar-firing/200028451623126"
       },
       "lat": 40.36116,
-      "lng": -83.75966
+      "lng": -83.75966,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The page offers a public event for a saggar firing that outsiders can attend.",
+        "types": {
+          "pit_barrel_saggar": "Saggar Firing"
+        },
+        "street": "613 Hamilton St"
+      }
     },
     {
       "id": "quill-pottery",
@@ -351,7 +361,18 @@
         "key": "quillpottery.com"
       },
       "lat": 41.45532,
-      "lng": -81.91792
+      "lng": -81.91792,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions upcoming raku firing events and invites people to subscribe or message to get on the list, but it does not explicitly confirm public sign-up or booking details.",
+        "types": {
+          "raku": "Raku is coming to Quill!"
+        },
+        "street": "1055 C Bradley Rd"
+      },
+      "weak": true
     },
     {
       "id": "core-clay",
@@ -391,7 +412,16 @@
         "key": "coreclay.com"
       },
       "lat": 39.15561,
-      "lng": -84.45966
+      "lng": -84.45966,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers kiln firings including gas, and provides services such as studio rentals and workshops that are accessible to the public.",
+        "types": {},
+        "street": "1912 Hudson Avenue"
+      },
+      "weak": true
     },
     {
       "id": "don-drumm-studios-jack-s-kiln-repair-training",
@@ -431,7 +461,16 @@
         "key": "jackskilnrepair.com"
       },
       "lat": 41.08306,
-      "lng": -81.51848
+      "lng": -81.51848,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states that Jack offers Raku workshops at Don Drumm Studios where students can explore Raku firing.",
+        "types": {
+          "raku": "Jack’s immersive sessions allow students to breathe life into clay by exploring the magic of glazing, Raku firing, and ceramic transformation."
+        }
+      }
     }
   ],
   "_removed": [
@@ -446,6 +485,10 @@
     {
       "id": "sunshine-studios",
       "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "ohio-university-atmospheric-conference",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes a university-hosted conference for students, faculty, alumni, and invited visiting artists, but does not offer a way for the general public to sign up for or participate in firings. (2026-10-07)"
     }
   ]
 }

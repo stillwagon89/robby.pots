@@ -51,12 +51,798 @@
       },
       "lat": 37.57033,
       "lng": -89.31759
+    },
+    {
+      "id": "clay-company",
+      "org": "Clay & Company",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Illinois",
+      "city": null,
+      "urls": [
+        "https://claycompany.kilnfire.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://claycompany.kilnfire.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "claycompany.kilnfire.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites the public to a hands-on Raku workshop that includes multiple firing opportunities.",
+        "types": {
+          "raku": "Come spend the day at Carl's studio immersed in the art of Raku firing—an exciting, fast-paced ceramic technique known for its dramatic surfaces, metallic finishes, and unpredictable beauty."
+        }
+      },
+      "weak": true
+    },
+    {
+      "id": "mud-makers",
+      "org": "Mud Makers",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Illinois",
+      "city": null,
+      "urls": [
+        "https://www.mudmakers.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.mudmakers.org/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "In this hands-on workshop, participants will bring their own bisque-fired pottery and experience the Raku firing process from glazing through firing and post-firing reduction.",
+        "url": "https://www.mudmakers.org/workshops/p/raku-firing-workshop",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "mudmakers.org"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "southern-illinois-university-edwardsville",
+      "org": "Southern Illinois University Edwardsville",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "soda"
+      ],
+      "region": "Edwardsville",
+      "city": "Edwardsville",
+      "urls": [
+        "https://www.enrole.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Edwardsville, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.enrole.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "You will create ceramic artworks specifically designed for raku firing and participate in this quick and spontaneous firing process.",
+        "url": "https://www.enrole.com/siue/jsp/course.jsp?courseId=CRFW",
+        "types": [
+          "raku",
+          "soda"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "enrole.com"
+      },
+      "verify": {
+        "by": "gemma-4-31b-it",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text lists workshops for raku and soda firing where participants can participate in the firing process.",
+        "types": {
+          "raku": "You will create ceramic artworks specifically designed for raku firing and participate in this quick and spontaneous firing process.",
+          "soda": "You will create ceramic artworks with slips and glazes specifically designed for soda firing and participate in the soda firing process."
+        }
+      }
+    },
+    {
+      "id": "tinkermills-muddy-makers-pottery-studio",
+      "org": "TinkerMills Muddy Makers Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Illinois",
+      "city": null,
+      "urls": [
+        "https://www.tickettailor.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.tickettailor.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "tickettailor.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The page text is empty, preventing confirmation of public participation details despite the search snippet mentioning a raku workshop.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "chicago-kiln-service",
+      "org": "Chicago Kiln Service",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Chicago",
+      "city": "Chicago",
+      "urls": [
+        "https://www.chicagokilnservice.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Chicago, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.chicagokilnservice.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "High School Raku at our working artist studio ...",
+        "url": "https://www.chicagokilnservice.com/raku-workshops",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "chicagokilnservice.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public ceramic firings.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "clay-play-arts",
+      "org": "Clay Play & Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Illinois",
+      "city": null,
+      "urls": [
+        "https://www.clayplayarts.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.clayplayarts.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Experience the magic of horse hair raku in this hands-on, community-focused workshop!",
+        "url": "https://www.clayplayarts.com/store/p2549/Raku_Firing_Horsehair_Workshop_(4/4/2026)_Sat_4PM.html",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "clayplayarts.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers public workshops for horsehair raku firing that can be booked via their website.",
+        "types": {
+          "raku": "Horse hair raku is a fascinating firing technique where strands of horse hair, feathers, and other natural materials are applied to hot, bare clay surfaces straight from the kiln."
+        }
+      },
+      "weak": true
+    },
+    {
+      "id": "yu-tang-ceramics",
+      "org": "Yu Tang Ceramics",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Illinois",
+      "city": null,
+      "urls": [
+        "https://www.yutangceramics.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.yutangceramics.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "yutangceramics.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, providing no information about firings or public access.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "ruby-s-clay-studio",
+      "org": "ruby's clay studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Illinois",
+      "city": null,
+      "urls": [
+        "https://www.rubysclaystudio.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.rubysclaystudio.org/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Wood firing is a community effort, so participants are expected to commit to all steps in the process -- firing preparation, loading, stoking, and cleanup.",
+        "url": "https://www.rubysclaystudio.org/workshop-registration/workshop-f2yrm-6wtpy-5jzj5-tlap8-5njk6-kg23a-clz8m",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "rubysclaystudio.org"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The provided page text is empty, so there is no information to confirm public access or firing methods.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "salt-creek-pottery",
+      "org": "Salt Creek Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "salt"
+      ],
+      "region": "Villa Park",
+      "city": "Villa Park",
+      "urls": [
+        "https://www.saltcreekpottery.net/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Villa Park, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.saltcreekpottery.net/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "When firing a salt kiln, salt is put directly into the kiln through special ports over the flame.",
+        "url": "https://www.saltcreekpottery.net/",
+        "types": [
+          "wood",
+          "salt"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "saltcreekpottery.net"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions wood and salt firing processes and workshops, but does not explicitly state that the public can sign up for or participate in these specific firings.",
+        "types": {
+          "wood": "We focused discussions on techniques and systems used to gain fluidity in the wood firing process.",
+          "salt": "When firing a salt kiln, salt is put directly into the kiln through special ports over the flame."
+        },
+        "street": "48 S. Villa Ave., Villa Park, IL 60181"
+      },
+      "weak": true
+    },
+    {
+      "id": "little-creek-studios",
+      "org": "Little Creek Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Frederick",
+      "city": "Frederick",
+      "urls": [
+        "https://littlecreekceramics.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Frederick, Illinois",
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://littlecreekceramics.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Experience the art of raku firing in our six hour workshop.",
+        "url": "https://littlecreekceramics.com/workshops",
+        "types": [
+          "raku",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "littlecreekceramics.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The website offers public workshops for raku and pit firing that individuals can sign up for or book as a group.",
+        "types": {
+          "raku": "Experience the art of raku firing in our six hour workshop.",
+          "pit_barrel_saggar": "Learn traditional pit firing techniques in this six hour hands-on session."
+        }
+      }
+    },
+    {
+      "id": "simonlevin",
+      "org": "simonlevin",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Illinois",
+      "city": null,
+      "urls": [
+        "https://www.simonlevin.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.simonlevin.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "We end the year with a weeklong wood fire workshop in my Train Kiln in Central Illinois.",
+        "url": "https://www.simonlevin.com/studio",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "simonlevin.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about non-electric ceramic firings open to the public.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "lighthouse-artcenter",
+      "org": "Lighthouse ArtCenter",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Illinois",
+      "city": null,
+      "urls": [
+        "https://www.lighthousearts.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.lighthousearts.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "This hands-on class will guide you through every step of the Saggar Firing method, an exciting alternative firing technique.",
+        "url": "http://www.lighthousearts.org/Classes/saggar-forms-and-firing",
+        "types": [
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "lighthousearts.org"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly offers a hands-on class for the public to learn the Saggar Firing method.",
+        "types": {
+          "pit_barrel_saggar": "This hands-on class will guide you through every step of the Saggar Firing method, an exciting alternative firing technique."
+        }
+      },
+      "weak": true
+    },
+    {
+      "id": "chicago-ceramic-center",
+      "org": "Chicago Ceramic Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Chicago",
+      "city": "Chicago",
+      "urls": [
+        "https://www.chicagoceramiccenter.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Chicago, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.chicagoceramiccenter.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "We fire cone 10 gas reduction, and offer memberships and classes in a beautiful historic building with views of the river, and beautiful light.",
+        "url": "https://www.chicagoceramiccenter.com/about-the-studio",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "chicagoceramiccenter.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty and contains no information about non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "cu-potter-s-club",
+      "org": "CU Potter's Club",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Champaign-Urbana",
+      "city": "Champaign-Urbana",
+      "urls": [
+        "https://cupotters.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Champaign-Urbana, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://cupotters.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "For the East Central Illinois community, we offer a beginner adult pottery class occasionally, sponsor guest lectures, and collaborate with Kickapoo Pottery for raku firing demonstrations that are at times open to the public.",
+        "url": "https://cupotters.org/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "cupotters.org"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information showing that the public can take part in a non-electric ceramic firing.",
+        "types": {}
+      },
+      "weak": true
+    },
+    {
+      "id": "wheel-art-pottery-studios",
+      "org": "Wheel Art Pottery Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Illinois",
+      "city": null,
+      "urls": [
+        "https://www.wheelartpottery.studio/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.wheelartpottery.studio/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Previous events and workshops have included Raku and primitive fire workshops, ornament making, carving clay pumpkins, and glaze chemistry.",
+        "url": "https://www.wheelartpottery.studio/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "wheelartpottery.studio"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly mentions that previous workshops have included Raku and primitive fire workshops and invites the public to contact them about signing up for workshops.",
+        "types": {
+          "raku": "Previous events and workshops have included Raku and primitive fire workshops, ornament making, carving clay pumpkins, and glaze chemistry."
+        }
+      },
+      "weak": true
+    },
+    {
+      "id": "omniform1",
+      "org": "omniform1",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Illinois",
+      "city": null,
+      "urls": [
+        "https://omniform1.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://omniform1.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "TRY YOUR HAND AT RAKU: Fire & Finish in a Day",
+        "url": "https://omniform1.com/forms/v1/landingPage/5cd55c808653ed3e50c95b37/685daf1950692b456508322e",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "omniform1.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers a Raku Firing Experience that is open to the public via booking.",
+        "types": {
+          "raku": "TRY YOUR HAND AT RAKU: Fire & Finish in a Day"
+        }
+      },
+      "weak": true
+    },
+    {
+      "id": "spindrift-studio",
+      "org": "Spindrift Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Illinois",
+      "city": null,
+      "urls": [
+        "https://www.spindriftstudio.art/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.spindriftstudio.art/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "You then can come in and glaze it using our special Raku glazes then experience the entire firing process as we fire your pieces in the Raku kiln.",
+        "url": "https://www.spindriftstudio.art/events",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "spindriftstudio.art"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly offers private parties where participants can glaze items and experience the entire Raku kiln firing process.",
+        "types": {
+          "raku": "You then can come in and glaze it using our special Raku glazes then experience the entire firing process as we fire your pieces in the Raku kiln."
+        }
+      },
+      "weak": true
     }
   ],
   "_removed": [
     {
       "id": "college-of-lake-county",
       "why": "College pages show no ceramics firing information. (2026-10-05)"
+    },
+    {
+      "id": "out-of-the-fire-ceramic-art-studio",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text is a directory website that describes what a pottery studio is in general terms but does not provide specific information or booking details for the firing services offered by 'Out of the Fire'. (2026-10-07)"
+    },
+    {
+      "id": "siue",
+      "why": "Second check (gemini-3.5-flash-lite): The text shows that the kilns are used within the university curriculum for students and faculty, but does not indicate that outsiders can join or book firings. (2026-10-07)"
     }
   ]
 }

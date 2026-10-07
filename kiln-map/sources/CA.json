@@ -423,8 +423,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "gas_reduction"
+        "raku"
       ],
       "region": "San Francisco",
       "city": "San Francisco",
@@ -455,7 +454,16 @@
         "key": "smaartstudio.com"
       },
       "lat": 37.78794,
-      "lng": -122.40752
+      "lng": -122.40752,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers Raku firing through 1-day workshops and specialty workshops that are open to the public.",
+        "types": {
+          "raku": "Classes for All Levels – Learn wheel throwing, hand building, sculpture, and Raku in 1-day, 4-week, or 6-week sessions"
+        }
+      }
     },
     {
       "id": "clay-by-the-bay",
@@ -464,7 +472,10 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "raku",
+        "pit_barrel_saggar",
+        "soda",
+        "gas_reduction"
       ],
       "region": "San Francisco",
       "city": "San Francisco",
@@ -484,7 +495,10 @@
         "quote": "REGISTER FOR A RAKU WORKSHOP.",
         "url": "https://www.claybythebaysf.com/raku-workshops",
         "types": [
-          "raku"
+          "raku",
+          "pit_barrel_saggar",
+          "soda",
+          "gas_reduction"
         ],
         "checked": "2026-10-06"
       },
@@ -495,7 +509,19 @@
         "key": "claybythebaysf.com"
       },
       "lat": 37.78794,
-      "lng": -122.40752
+      "lng": -122.40752,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly invites the public to register for Raku workshops and mentions that workshops explore various firing techniques including Raku, Pitfire, Soda, and Reduction.",
+        "types": {
+          "raku": "REGISTER FOR A RAKU WORKSHOP.",
+          "pit_barrel_saggar": "These workshops explore the ways in which pottery can be finishes, from Raku, to Pitfire, to Soda & Reduction Firing.",
+          "soda": "These workshops explore the ways in which pottery can be finishes, from Raku, to Pitfire, to Soda & Reduction Firing.",
+          "gas_reduction": "These workshops explore the ways in which pottery can be finishes, from Raku, to Pitfire, to Soda & Reduction Firing."
+        }
+      }
     },
     {
       "id": "sweet-spirit-ceramics-center",
@@ -535,7 +561,15 @@
         "key": "artworksdowntown.org"
       },
       "lat": 37.97478,
-      "lng": -122.53167
+      "lng": -122.53167,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states that gas and electric kilns are available upon arrangement, offering kiln firings to the public by request.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "the-potters-studio",
@@ -565,7 +599,8 @@
         "quote": "We welcome Potters’ Studio Members and Students to workshops and also offer a limited number of slots to potters in the broader community who have a grasp of the basics of gas reduction firing.",
         "url": "https://www.thepottersstudio.org/upcoming-soda-firing-workshops",
         "types": [
-          "soda"
+          "soda",
+          "gas_reduction"
         ],
         "checked": "2026-10-06"
       },
@@ -576,7 +611,18 @@
         "key": "thepottersstudio.org"
       },
       "lat": 37.87084,
-      "lng": -122.27286
+      "lng": -122.27286,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers soda firing workshops and gas-reduction firing services that are open to the broader community, not just enrolled students or members.",
+        "types": {
+          "soda": "We believe in sharing knowledge about soda firing with everyone who is interested in learning more about this unique and exciting method of firing!",
+          "gas_reduction": "We offer low, mid, and high-fire services in our electric and cone 10 gas kilns on a contract basis."
+        },
+        "street": "724 Camelia St."
+      }
     },
     {
       "id": "berkeley-potters-guild",
@@ -616,7 +662,15 @@
         "key": "berkeleypotters.com"
       },
       "lat": 37.87084,
-      "lng": -122.27286
+      "lng": -122.27286,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The text mentions a sale with work from kilns, but contains no information about the public participating in non-electric ceramic firings.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "clayroom-oakland",
@@ -656,7 +710,17 @@
         "key": "clayroomoakland.com"
       },
       "lat": 37.80446,
-      "lng": -122.27136
+      "lng": -122.27136,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers monthly Raku workshops that are open for the public to join and book.",
+        "types": {
+          "raku": "Join us at Clayroom Oakland for our monthly Raku firing!"
+        },
+        "street": "4268 Broadway"
+      }
     },
     {
       "id": "the-crucible",
@@ -696,7 +760,17 @@
         "key": "thecrucible.org"
       },
       "lat": 37.80446,
-      "lng": -122.27136
+      "lng": -122.27136,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that the public can sign up for raku classes and firing experiences at The Crucible.",
+        "types": {
+          "raku": "Raku firings, where ceramic pieces are taken out of the kiln glowing hot and placed in an oxygen-reduced atmosphere, are one of the ways to get vibrant, sparkling colors in glazeware."
+        },
+        "street": "1260 7th Street"
+      }
     },
     {
       "id": "jtown-clay-higher-fire",
@@ -706,7 +780,6 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "soda",
         "pit_barrel_saggar"
       ],
       "region": "San Jose",
@@ -728,7 +801,6 @@
         "url": "https://higherfirestudios.com/event/saggar-firing-and-horsehair-raku-workshop-10am-2pm",
         "types": [
           "raku",
-          "soda",
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
@@ -740,88 +812,18 @@
         "key": "higherfirestudios.com"
       },
       "lat": 37.33617,
-      "lng": -121.89059
-    },
-    {
-      "id": "spring-valley-anagama",
-      "org": "Spring Valley Anagama",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "San Jose",
-      "city": "San Jose",
-      "urls": [
-        "https://woodkiln.org/"
-      ],
-      "notes": "Anagama crew. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "San Jose, California",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://woodkiln.org/"
-      },
-      "access": {
-        "how": "Anagama crew",
-        "note": "Anagama crew",
-        "quote": "woodkiln.org, shares the experiences of building and firing the Spring Valley Anagama, near San Jose, CA.",
-        "url": "http://woodkiln.org",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "woodkiln.org"
-      },
-      "lat": 37.33617,
-      "lng": -121.89059
-    },
-    {
-      "id": "sunnyvale-city-ceramics-studio",
-      "org": "Sunnyvale city ceramics studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Sunnyvale",
-      "city": "Sunnyvale",
-      "urls": [
-        "https://www.sunnyvale.ca.gov/"
-      ],
-      "notes": "City classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Sunnyvale, California",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.sunnyvale.ca.gov/"
-      },
-      "access": {
-        "how": "City classes",
-        "note": "City classes",
-        "quote": "Notice: No production pottery, outside firing, outside clay or glazes, will be permitted.",
-        "url": "https://www.sunnyvale.ca.gov/recreation-and-community/classes-and-activities/painting-and-pottery-studio",
-        "types": [
-          "raku",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "sunnyvale.ca.gov"
-      },
-      "lat": 37.36883,
-      "lng": -122.03635
+      "lng": -121.89059,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers public mini-workshops for saggar and horsehair raku firing that individuals can sign up for via ticket purchase.",
+        "types": {
+          "raku": "Anthony Rollins offers an exciting mini-workshop for students to explore saggar and horsehair raku firing on bisqueware prepared with terra sigillata.",
+          "pit_barrel_saggar": "Anthony Rollins offers an exciting mini-workshop for students to explore saggar and horsehair raku firing on bisqueware prepared with terra sigillata."
+        },
+        "street": "520 N. 7th St."
+      }
     },
     {
       "id": "common-clay-space-miki-shim",
@@ -861,7 +863,16 @@
         "key": "mikisr.com"
       },
       "lat": 37.32289,
-      "lng": -122.03229
+      "lng": -122.03229,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers a pit firing workshop that participants can join.",
+        "types": {
+          "pit_barrel_saggar": "Saturday, February 7th\\ (8:00AM-5:00PM) - Pit Firing at Pine Tree State Park in Santa Cruz"
+        }
+      }
     },
     {
       "id": "spiffy-pottery-studio",
@@ -891,7 +902,16 @@
         "key": "thespiffystudio.info"
       },
       "lat": 37.45197,
-      "lng": -122.17799
+      "lng": -122.17799,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly lists a Soda Firing Workshop open to the public at the studio's address.",
+        "types": {},
+        "street": "1919 Menalto Ave"
+      },
+      "weak": true
     },
     {
       "id": "oribe-firing-center",
@@ -900,10 +920,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood",
         "soda",
-        "pit_barrel_saggar"
+        "raku"
       ],
       "region": "San Gregorio",
       "city": "San Gregorio",
@@ -923,10 +941,8 @@
         "quote": "We offer workshops, firings, and private group events for individuals, studios, and schools interested in atmospheric firing.",
         "url": "https://oribefiring.com",
         "types": [
-          "raku",
           "soda",
-          "wood",
-          "pit_barrel_saggar"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -937,7 +953,17 @@
         "key": "oribefiring.com"
       },
       "lat": 37.32692,
-      "lng": -122.38658
+      "lng": -122.38658,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly offers workshops and firings for individuals to participate in soda, raku, pit, and wood firings.",
+        "types": {
+          "soda": "Come learn the fundamentals of soda firing at our Atmospheric Firing Center in San Gregorio!",
+          "raku": "Come join us for an awesome day of Raku at our Atmospheric Firing Center!"
+        }
+      }
     },
     {
       "id": "slowfire",
@@ -975,7 +1001,17 @@
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "slowfireceramics.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers gas reduction firings through both their multi-week classes and ongoing monthly memberships available to the public.",
+        "types": {
+          "gas_reduction": "We're also excited to offer cone 10 clay bodies, reduction gas firings, and a growing selection of cone 10 glazes, giving artists the opportunity to explore both oxidation and reduction firing techniques."
+        }
+      },
+      "weak": true
     },
     {
       "id": "kickwheel-sonoma",
@@ -1015,7 +1051,16 @@
         "key": "kickwheelsonoma.com"
       },
       "lat": 38.23258,
-      "lng": -122.63647
+      "lng": -122.63647,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that the public can participate in pit-fired ceramic workshops and private raku workshops at Kickwheel Sonoma.",
+        "types": {
+          "pit_barrel_saggar": "Come and learn about the ancient art of pit-fired ceramics in this multi-day workshop put on by Mike and Karen."
+        }
+      }
     },
     {
       "id": "sebastopol-center-for-the-arts",
@@ -1024,8 +1069,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
-        "soda"
+        "soda",
+        "wood"
       ],
       "region": "Sebastopol",
       "city": "Sebastopol",
@@ -1057,7 +1102,18 @@
         "key": "sebarts.org"
       },
       "lat": 38.4021,
-      "lng": -122.82422
+      "lng": -122.82422,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The Sebastopol Center for the Arts offers a public workshop where participants can sign up to take part in a soda and wood firing process.",
+        "types": {
+          "soda": "This class is a workshop designed to teach the basics of soda glazing and wood firing ceramics.",
+          "wood": "This class is a workshop designed to teach the basics of soda glazing and wood firing ceramics."
+        },
+        "street": "282 South High Street"
+      }
     },
     {
       "id": "clayfolk-studio",
@@ -1097,7 +1153,16 @@
         "key": "clayfolkstudio.com"
       },
       "lat": 38.40103,
-      "lng": -122.93121
+      "lng": -122.93121,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that the studio offers public raku firing workshops and retreats.",
+        "types": {
+          "raku": "Due to California’s wildfire season beginning early this year, we will resume Raku workshops when the rain returns at the end of the year."
+        }
+      }
     },
     {
       "id": "john-dix",
@@ -1139,7 +1204,17 @@
         "key": "johndix.com"
       },
       "lat": 39.31765,
-      "lng": -123.41264
+      "lng": -123.41264,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text advertises hands-on firing workshops open for sign-up that include wood and soda firing methods.",
+        "types": {
+          "wood": "In this hands-on firing workshop, students will get the chance to load and fire both the wood-fired train kiln and the wood-fired soda kiln.",
+          "soda": "In this hands-on firing workshop, students will get the chance to load and fire both the wood-fired train kiln and the wood-fired soda kiln."
+        }
+      }
     },
     {
       "id": "acai-studios-gallery",
@@ -1179,7 +1254,16 @@
         "key": "acaistudios.com"
       },
       "lat": 38.64291,
-      "lng": -121.24625
+      "lng": -121.24625,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that outsiders can sign up for a Raku workshop where they can take part in a non-electric ceramic firing.",
+        "types": {
+          "raku": "Unravel the secrets of Raku, a 16th-century fast-firing technique."
+        }
+      }
     },
     {
       "id": "auburn-clay-arts",
@@ -1219,7 +1303,16 @@
         "key": "auburnclayarts.com"
       },
       "lat": 38.89459,
-      "lng": -121.07399
+      "lng": -121.07399,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers memberships that include access to a gas kiln for reduction firing, and the text indicates that membership is open to those who are skilled enough to work independently.",
+        "types": {
+          "gas_reduction": "We bisque fire work to cone 06 in our electric kiln, and fire glazed work in our gas kiln to cone 10/11 in a reduction atmosphere."
+        }
+      }
     },
     {
       "id": "american-museum-of-ceramic-art-amoca",
@@ -1261,7 +1354,18 @@
         "key": "amoca.org"
       },
       "lat": 34.05538,
-      "lng": -117.75175
+      "lng": -117.75175,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers public workshops for soda and salt firing where participants can fire their own work.",
+        "types": {
+          "soda": "Participants learned all aspects of the process of soda firing, about Haley’s work, and had the opportunity to fire their own work in AMOCA’s outdoor kiln.",
+          "salt": "Participants learned all aspects of the process of salt firing and had the opportunity to fire their own work in AMOCA’s outdoor kiln."
+        },
+        "street": "301 N Garey Ave"
+      }
     },
     {
       "id": "green-bisque-clayhouse",
@@ -1301,49 +1405,16 @@
         "key": "gbclayhouse.com"
       },
       "lat": 34.14765,
-      "lng": -118.14415
-    },
-    {
-      "id": "turning-earth",
-      "org": "Turning Earth",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Los Angeles",
-      "city": "Los Angeles",
-      "urls": [
-        "https://www.turningearth.org/"
-      ],
-      "notes": "Membership. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Los Angeles, California",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.turningearth.org/"
+      "lng": -118.14415,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers monthly raku firings that are explicitly open to the public, as well as private raku firing sessions available for booking.",
+        "types": {},
+        "street": "1563 North Lake Ave."
       },
-      "access": {
-        "how": "Membership",
-        "note": "Membership",
-        "quote": "If you’ve ever taken part in one of our Raku firing workshops, you’ve already encountered Reduction firing — it’s what gives some of our Raku glazes their distinctive metallic sheen.",
-        "url": "https://www.turningearth.org/news/gas-kiln-launch",
-        "types": [
-          "raku",
-          "gas_reduction",
-          "wood"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "turningearth.org"
-      },
-      "lat": 34.05222,
-      "lng": -118.2434
+      "weak": true
     },
     {
       "id": "element-art-center",
@@ -1352,7 +1423,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "pit_barrel_saggar"
+        "raku"
       ],
       "region": "Los Angeles",
       "city": "Los Angeles",
@@ -1383,7 +1454,17 @@
         "key": "https://classbento.com/raku-firing-workshop-san-francisco"
       },
       "lat": 34.05222,
-      "lng": -118.2434
+      "lng": -118.2434,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers a Raku firing workshop that is open for individuals and groups to book via the ClassBento platform.",
+        "types": {
+          "raku": "Experience the excitement, heat, and unpredictability of Raku firing in this dynamic, hands-on workshop."
+        },
+        "street": "1045 Sutter Street"
+      }
     },
     {
       "id": "claytivity-pottery-studio",
@@ -1423,7 +1504,17 @@
         "key": "https://coursehorse.com/los-angeles/classes/art/pottery/ceramics/raku-workshop"
       },
       "lat": 34.05222,
-      "lng": -118.2434
+      "lng": -118.2434,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The page offers a Night Raku Firing workshop at Claytivity Pottery Studio that outsiders can book.",
+        "types": {
+          "raku": "Explore the ancient Japanese technique of Raku firing and create stunning, one-of-a-kind ceramics."
+        },
+        "street": "2910 Gilroy St"
+      }
     },
     {
       "id": "summer-studios",
@@ -1463,7 +1554,16 @@
         "key": "summerstudioslomita.com"
       },
       "lat": 33.80365,
-      "lng": -118.3195
+      "lng": -118.3195,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers firing services for a gas kiln to the public, as indicated by their pricing and instructions to consult with staff before dropping off work.",
+        "types": {
+          "gas_reduction": "Glaze fire to Cone 10 Reduction and bisque to Cone 06"
+        }
+      }
     },
     {
       "id": "ceramic-heights",
@@ -1503,7 +1603,17 @@
         "key": "ceramicheights.com"
       },
       "lat": 32.71571,
-      "lng": -117.16383
+      "lng": -117.16383,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers a Raku workshop that the public can sign up for and participate in.",
+        "types": {
+          "raku": "Raku Firing Sign up"
+        },
+        "street": "5509 El Cajon Boulevard"
+      }
     },
     {
       "id": "san-diego-potters-guild",
@@ -1543,47 +1653,18 @@
         "key": "sandiegopottersguild.org"
       },
       "lat": 32.71571,
-      "lng": -117.16383
-    },
-    {
-      "id": "san-diego-ceramic-connection",
-      "org": "San Diego Ceramic Connection",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "San Diego",
-      "city": "San Diego",
-      "urls": [
-        "https://www.sdceramic.com/"
-      ],
-      "notes": "Studio raku kiln. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "San Diego, California",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.sdceramic.com/"
+      "lng": -117.16383,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "no",
+        "why": "The text indicates the guild is a juried membership organization and while classes are offered, there is no information stating that the public can book or sign up for firing services or use the kilns independently.",
+        "types": {
+          "gas_reduction": "The Guild is equipped with six electric wheels, a programmable Skutt electric kiln, and a gas kiln."
+        },
+        "street": "1770 Village Place"
       },
-      "access": {
-        "how": "Studio raku kiln",
-        "note": "Studio raku kiln",
-        "quote": "1 Raku kiln",
-        "url": "https://www.sdceramic.com/contact",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "sdceramic.com"
-      },
-      "lat": 32.71571,
-      "lng": -117.16383
+      "weak": true
     },
     {
       "id": "ica-north",
@@ -1623,7 +1704,17 @@
         "key": "icasandiego.org"
       },
       "lat": 33.04318,
-      "lng": -117.28498
+      "lng": -117.28498,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The ICA offers public enrollment in six-week Raku firing courses at their North location.",
+        "types": {
+          "raku": "Multiple Raku firings throughout the session"
+        },
+        "street": "1550 S El Camino Real, Encinitas, CA 92024"
+      }
     }
   ],
   "_removed": [
@@ -1654,6 +1745,22 @@
     {
       "id": "cone-6-ceramics",
       "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "spring-valley-anagama",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes a private community kiln and shares personal firing logs, but it does not mention any workshops, classes, memberships, rentals, or firing services open to the public. (2026-10-07)"
+    },
+    {
+      "id": "sunnyvale-city-ceramics-studio",
+      "why": "Second check (gemini-3.1-flash-lite): The text explicitly states that no outside firing is permitted. (2026-10-07)"
+    },
+    {
+      "id": "turning-earth",
+      "why": "Second check (gemini-3.5-flash-lite): The text discusses electric firings and upcoming gas reduction workshops for members, but does not show that outsiders can join, book, or sign up for a non-electric ceramic firing. (2026-10-07)"
+    },
+    {
+      "id": "san-diego-ceramic-connection",
+      "why": "Second check (gemini-3.5-flash-lite): The text lists facilities and equipment including a Raku kiln and gas kilns, but does not state that the public can participate in non-electric firings. (2026-10-07)"
     }
   ]
 }

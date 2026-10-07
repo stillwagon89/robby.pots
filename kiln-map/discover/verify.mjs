@@ -115,13 +115,13 @@ if (APPLY) {
     const types = Object.keys(j.v.types);
     j.s.verify = { by: j.v.model || MODEL, date: TODAY, verdict: j.v.verdict, why: j.v.why, types: j.v.types, ...(j.v.street ? { street: j.v.street } : {}) };
     const stOk = !j.v.state || new RegExp(`^(${j.ST}|${stateName(j.ST)})$`, "i").test(j.v.state.trim());
-    if (j.v.verdict === "no" || !stOk) {
+    if ((j.v.verdict === "no" && !/empty|no (readable )?(page )?text|no information|not provided|no content/i.test(j.v.why)) || !stOk) {
       if (!stOk && j.v.verdict !== "no") j.v.why = `page says state is ${j.v.state}, not ${j.ST}`;
       (j.doc._removed ||= []).push({ id: j.s.id, why: `Second check (${j.v.model}): ${j.v.why} (${TODAY})` });
       j.doc.sources = j.doc.sources.filter((x) => x !== j.s);
     } else {
       if (types.length) { j.s.firing_types_guess = types; if (j.s.access) j.s.access.types = types; }
-      if (j.v.verdict === "unclear" || !types.length || !(j.v.town || j.s.city)) j.s.weak = true;
+      if (j.v.verdict !== "yes" || !types.length || !(j.v.town || j.s.city)) j.s.weak = true;
       if (j.v.town && !j.s.city) { j.s.city = j.v.town; j.s.region = j.v.town; j.s.geocode = `${j.v.town}, ${stateName(j.ST)}`; }
     }
   }

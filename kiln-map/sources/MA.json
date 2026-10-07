@@ -129,7 +129,17 @@
         "key": "thepottersshopandschool.com"
       },
       "lat": 42.28026,
-      "lng": -71.23606
+      "lng": -71.23606,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers Raku workshops that can be scheduled for groups, which are open to the public beyond just enrolled students or members.",
+        "types": {
+          "raku": "Raku workshops can also be scheduled for your group, studio, guild, school, co-op, etc."
+        },
+        "street": "31 Thorpe Rd."
+      }
     },
     {
       "id": "the-umbrella-arts-center",
@@ -171,7 +181,18 @@
         "key": "dev.theumbrellaarts.org"
       },
       "lat": 42.46052,
-      "lng": -71.3489
+      "lng": -71.3489,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that outsiders and enrolled students can sign up for raku and soda firing workshops at the art center.",
+        "types": {
+          "raku": "This spring we will be offering a three-part raku workshop that encompasses the full experience of making, glazing, and firing raku work.",
+          "soda": "We are offering currently enrolled students the chance to register for upcoming soda firings."
+        },
+        "street": "40 Stow Street"
+      }
     },
     {
       "id": "dewclaw-studios",
@@ -209,7 +230,17 @@
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "dewclawstudios.com"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly offers a Raku Firing Workshop that outsiders can join.",
+        "types": {
+          "raku": "Raku Firing Workshop - 1 Day - $175."
+        }
+      },
+      "weak": true
     },
     {
       "id": "mudflat",
@@ -249,47 +280,17 @@
         "key": "mudflat.org"
       },
       "lat": 42.3876,
-      "lng": -71.0995
-    },
-    {
-      "id": "the-clay-school",
-      "org": "The Clay School",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Shelburne Falls",
-      "city": "Shelburne Falls",
-      "urls": [
-        "https://www.theclayschool.com/"
-      ],
-      "notes": "Soda firing workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Shelburne Falls, Massachusetts",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.theclayschool.com/"
-      },
-      "access": {
-        "how": "Soda firing workshop",
-        "note": "Soda firing workshop",
-        "quote": "Soda Firing Workshop 2025",
-        "url": "https://www.theclayschool.com/soda-fire-2025",
-        "types": [
-          "soda"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "theclayschool.com"
-      },
-      "lat": 42.60356,
-      "lng": -72.73946
+      "lng": -71.0995,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "Mudflat offers public workshops for soda firing that allow participants to create work to be fired in their soda kiln.",
+        "types": {
+          "soda": "Discover the fascinating world of soda firing, an exciting atmospheric firing process that results in unique and unpredictable effects on ceramic pieces."
+        },
+        "street": "81 Broadway"
+      }
     },
     {
       "id": "ben-eberle-ceramics-karma-kiln",
@@ -298,8 +299,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
-        "soda"
+        "wood"
       ],
       "region": "Conway",
       "city": "Conway",
@@ -330,7 +330,16 @@
         "key": "beneberleceramic.com"
       },
       "lat": 42.50786,
-      "lng": -72.69616
+      "lng": -72.69616,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly states that wood-soda firing workshops are offered through outside organizations, allowing public participation.",
+        "types": {
+          "wood": "I will be offering a two, wood-soda firing workshops throughout 2024 both through ouside organizations: The Clay School of Lynn, MA and the New England Woodfiring Conference."
+        }
+      }
     },
     {
       "id": "indigo-fire-pottery-studio",
@@ -370,50 +379,16 @@
         "key": "indigofirestudio.com"
       },
       "lat": 42.36526,
-      "lng": -71.18432
-    },
-    {
-      "id": "office-for-the-arts-at-harvard",
-      "org": "Office for the Arts at Harvard",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda",
-        "pit_barrel_saggar"
-      ],
-      "region": "Allston",
-      "city": "Allston",
-      "urls": [
-        "https://ofa.fas.harvard.edu/"
-      ],
-      "notes": "Multi-session saggar/soda workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Allston, Massachusetts",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://ofa.fas.harvard.edu/"
-      },
-      "access": {
-        "how": "Multi-session saggar/soda workshop",
-        "note": "Multi-session saggar/soda workshop",
-        "quote": "In this intensive, multi-session workshop, students will begin with an orientation led by instructor Tom Hubbard. This session will provide an overview of saggar firing, including techniques for preparing ceramic surfaces with terra sigillata—a refined slip used to seal the clay and enhance the unique effects of this low-fire process.",
-        "url": "https://ofa.fas.harvard.edu/event/saggar-firing-workshop-tom-hubbard-1-2-summer-2026",
-        "types": [
-          "soda",
-          "soda",
-          "soda"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "ofa.fas.harvard.edu"
-      },
-      "lat": 42.35301,
-      "lng": -71.13212
+      "lng": -71.18432,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly mentions a soda firing workshop is available for registration.",
+        "types": {
+          "soda": "This year we are unlocking another layer of Ben's artistic prowess in the form of a soda firing workshop."
+        }
+      }
     },
     {
       "id": "lexart",
@@ -422,7 +397,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "pit_barrel_saggar"
+        "pit_barrel_saggar",
+        "raku"
       ],
       "region": "Lexington",
       "city": "Lexington",
@@ -442,9 +418,8 @@
         "quote": "In the workshop we will explore several techniques of saggar firing.",
         "url": "https://www.lexart.org/event-details/saggar-workshop-with-shamai-gibsh",
         "types": [
-          "soda",
-          "salt",
-          "pit_barrel_saggar"
+          "pit_barrel_saggar",
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -455,7 +430,18 @@
         "key": "lexart.org"
       },
       "lat": 42.44732,
-      "lng": -71.2245
+      "lng": -71.2245,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers public workshops for saggar and raku firing that individuals can sign up for.",
+        "types": {
+          "pit_barrel_saggar": "In the workshop we will explore several techniques of saggar firing.",
+          "raku": "Modern raku is a low fire smoking process that produces a variety of unique colors and textures on bisque pottery."
+        },
+        "street": "130 Waltham St"
+      }
     },
     {
       "id": "old-school-clay-and-ceramics",
@@ -495,7 +481,17 @@
         "key": "oldschoolclayandceramics.com"
       },
       "lat": 42.61122,
-      "lng": -71.57454
+      "lng": -71.57454,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that outsiders can sign up and participate in a saggar pit firing workshop with no previous experience needed.",
+        "types": {
+          "pit_barrel_saggar": "Join us for a 4 class – 3 week saggar pit firing workshop."
+        },
+        "street": "145 Main St"
+      }
     },
     {
       "id": "featherstone-center-for-the-arts",
@@ -504,7 +500,6 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
         "pit_barrel_saggar"
       ],
       "region": "Oak Bluffs",
@@ -525,9 +520,6 @@
         "quote": "In this workshop, participants will experiment with raku, horsehair, obvara and saggar firing.",
         "url": "https://calendar.vineyardgazette.com/event/raku-alternative-firing-workshop",
         "types": [
-          "raku",
-          "soda",
-          "salt",
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
@@ -539,49 +531,16 @@
         "key": "calendar.vineyardgazette.com"
       },
       "lat": 41.45362,
-      "lng": -70.56843
-    },
-    {
-      "id": "bob-green-pottery",
-      "org": "Bob Green Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
-      ],
-      "region": "Conway",
-      "city": "Conway",
-      "urls": [
-        "https://bobgreenpottery.com/"
-      ],
-      "notes": "Occasional workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Conway, Massachusetts",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://bobgreenpottery.com/"
-      },
-      "access": {
-        "how": "Occasional workshops",
-        "note": "Occasional workshops",
-        "quote": "I am a full- time studio potter and occasionally teach workshops on Raku and pit-fired pottery.",
-        "url": "https://bobgreenpottery.com",
-        "types": [
-          "raku",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "bobgreenpottery.com"
-      },
-      "lat": 42.50786,
-      "lng": -72.69616
+      "lng": -70.56843,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows a public workshop where participants can buy tickets and join a raku and saggar firing.",
+        "types": {
+          "pit_barrel_saggar": "In this workshop, participants will experiment with raku, horsehair, obvara and saggar firing."
+        }
+      }
     },
     {
       "id": "worcester-center-for-crafts",
@@ -623,7 +582,18 @@
         "key": "worcestercraftcenter.org"
       },
       "lat": 42.26256,
-      "lng": -71.80189
+      "lng": -71.80189,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that outsiders can join classes and workshops that utilize non-electric firing methods such as raku, gas reduction, sodium vapor, and wood-fueled firing.",
+        "types": {
+          "raku": "With the 2013 renovation of the Ceramics Studio, our students and artists now enjoy five kilns and firing types: raku, electric oxidation, gas reduction, sodium vapor, and wood-fueled firing.",
+          "gas_reduction": "With the 2013 renovation of the Ceramics Studio, our students and artists now enjoy five kilns and firing types: raku, electric oxidation, gas reduction, sodium vapor, and wood-fueled firing."
+        },
+        "street": "25 Sagamore Road"
+      }
     },
     {
       "id": "gustin-ceramics",
@@ -632,7 +602,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood"
+        "soda",
+        "salt"
       ],
       "region": "Dartmouth",
       "city": "Dartmouth",
@@ -652,7 +623,8 @@
         "quote": "If you are interested in participating in the firings or visiting us during a firing, email me at gustinceramics@gmail.com for information.",
         "url": "https://gustinceramics.com/anagama",
         "types": [
-          "wood"
+          "soda",
+          "salt"
         ],
         "checked": "2026-10-06"
       },
@@ -663,7 +635,17 @@
         "key": "gustinceramics.com"
       },
       "lat": 41.63869,
-      "lng": -70.99335
+      "lng": -70.99335,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site explicitly invites interested individuals to email for information on participating in the anagama firings.",
+        "types": {
+          "soda": "We then built a new catenary for soda, and a third chamber for residual and a new chimney.",
+          "salt": "The second chamber was a big catenary arch kiln which we primarily used for salt firing."
+        }
+      }
     },
     {
       "id": "canton-clay-works",
@@ -672,8 +654,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "pit_barrel_saggar",
-        "gas_reduction"
+        "gas_reduction",
+        "pit_barrel_saggar"
       ],
       "region": "Canton",
       "city": "Canton",
@@ -694,8 +676,6 @@
         "url": "https://www.cantonclayworks.com/saggar-workshops",
         "types": [
           "gas_reduction",
-          "soda",
-          "salt",
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
@@ -707,7 +687,17 @@
         "key": "cantonclayworks.com"
       },
       "lat": 42.15843,
-      "lng": -71.14477
+      "lng": -71.14477,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers a gas reduction firing service available to the public by appointment and hosts public workshops for saggar firing.",
+        "types": {
+          "gas_reduction": "The Canton Clay Works offers a high-fire glaze/gas reduction firing service with access to close to thirty spectacular glazes!",
+          "pit_barrel_saggar": "Immerse yourself into the world of extraordinarily beautiful firing techniques in our Saggar Firing Workshops!"
+        }
+      }
     },
     {
       "id": "kiln-cambridge",
@@ -747,7 +737,17 @@
         "key": "kilncambridge.com"
       },
       "lat": 42.36563,
-      "lng": -71.104
+      "lng": -71.104,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that outsiders can join pottery classes and taster sessions, and mentions an upcoming gas firing.",
+        "types": {
+          "gas_reduction": "GLAZING ALL DONE - ahead of tomorrow’s big gas firing @KilnCambridge."
+        },
+        "street": "57 Ditton Walk"
+      }
     }
   ],
   "_removed": [
@@ -758,6 +758,18 @@
     {
       "id": "meetinghouse-clay-center",
       "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "the-clay-school",
+      "why": "Second check (gemini-3.1-flash-lite): The text explicitly states that the soda firing workshop is for members only and requires participants to be students or artists-in-residence during the session. (2026-10-07)"
+    },
+    {
+      "id": "office-for-the-arts-at-harvard",
+      "why": "Second check (gemini-3.5-flash-lite): The text states that registration for the workshop is strictly limited to those currently enrolled in a Ceramics Program course, meaning outsiders cannot join. (2026-10-07)"
+    },
+    {
+      "id": "bob-green-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): page says state is Vermont, not MA (2026-10-07)"
     }
   ]
 }

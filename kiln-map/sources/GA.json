@@ -53,90 +53,6 @@
       "newsletter_url": "https://www.active.com/newsletters"
     },
     {
-      "id": "roger-jamison",
-      "org": "Roger Jamison",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "salt"
-      ],
-      "region": "Juliette",
-      "city": "Juliette",
-      "urls": [
-        "https://rogerjamison.com/"
-      ],
-      "notes": "Group anagama firings with ~15 potters. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Juliette, Georgia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://rogerjamison.com/"
-      },
-      "access": {
-        "how": "Group anagama firings with ~15 potters",
-        "note": "Group anagama firings with ~15 potters",
-        "quote": "These are group firings with about 15 potters.",
-        "url": "https://rogerjamison.com/rogers-bio-work-process-and-thoughts-about-the-craft",
-        "types": [
-          "wood",
-          "salt",
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "rogerjamison.com"
-      },
-      "lat": 33.10953,
-      "lng": -83.80877
-    },
-    {
-      "id": "georgia-clay-council",
-      "org": "Georgia Clay Council",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Canton",
-      "city": "Canton",
-      "urls": [
-        "https://www.gaclaycouncil.com/"
-      ],
-      "notes": "Bring bisque to the pit firing. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Canton, Georgia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.gaclaycouncil.com/"
-      },
-      "access": {
-        "how": "Bring bisque to the pit firing",
-        "note": "Bring bisque to the pit firing",
-        "quote": "Bring your bisque pieces for the pit firing.",
-        "url": "https://www.gaclaycouncil.com/workshops2025",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "gaclaycouncil.com"
-      },
-      "lat": 34.23676,
-      "lng": -84.49076
-    },
-    {
       "id": "atlanta-clay-works",
       "org": "Atlanta Clay Works",
       "kind": "studio",
@@ -174,7 +90,17 @@
         "key": "atlantaclayworks.org"
       },
       "lat": 33.75447,
-      "lng": -84.38982
+      "lng": -84.38982,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers Raku workshops that outsiders can join by appointment.",
+        "types": {
+          "raku": "Raku Workshops are held a few times a year and are a firing experience of instant gratification."
+        },
+        "street": "42 Howard St SE"
+      }
     },
     {
       "id": "callanwolde-fine-arts-center",
@@ -183,8 +109,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
+        "raku"
       ],
       "region": "Atlanta",
       "city": "Atlanta",
@@ -215,7 +140,16 @@
         "key": "callanwolde.org"
       },
       "lat": 33.75447,
-      "lng": -84.38982
+      "lng": -84.38982,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly offers a 'Pottery Workshop: Raku Ornaments' that the public can sign up for via ticket purchase.",
+        "types": {
+          "raku": "This glazing workshop introduces you to the spectacular art of raku firing."
+        }
+      }
     },
     {
       "id": "spruill-center-for-the-arts",
@@ -255,86 +189,17 @@
         "key": "spruillarts.org"
       },
       "lat": 33.94638,
-      "lng": -84.33427
-    },
-    {
-      "id": "mudfire-pottery-studio",
-      "org": "MudFire Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Decatur",
-      "city": "Decatur",
-      "urls": [
-        "https://scienceatl.org/"
-      ],
-      "notes": "Raku firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Decatur, Georgia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://scienceatl.org/"
-      },
-      "access": {
-        "how": "Raku firings",
-        "note": "Raku firings",
-        "quote": "Raku firing tends to produce thin and fragile pottery with easily chipped glaze surface due to its rapid-firing process.",
-        "url": "https://scienceatl.org/science-behind-pottery-mudfire-pottery-studio",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "scienceatl.org"
-      },
-      "lat": 30.87366,
-      "lng": -84.5741
-    },
-    {
-      "id": "good-dirt-clay-studio",
-      "org": "Good Dirt Clay Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "gas_reduction"
-      ],
-      "region": "Athens",
-      "city": "Athens",
-      "urls": [
-        "https://www.gooddirt.net/"
-      ],
-      "notes": "Membership, frequent gas and raku firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Athens, Georgia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.gooddirt.net/"
-      },
-      "access": {
-        "how": "Membership, frequent gas and raku firings",
-        "note": "Membership, frequent gas and raku firings",
-        "quote": "Studio membership gives you 24/7 studio access to come in and create outside of class time, access to our equipment, our 18 food safe glazes and the ability to fire your work in our kilns.",
-        "url": "https://www.gooddirt.net",
-        "types": [],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "gooddirt.net"
-      },
-      "lat": 33.95977,
-      "lng": -83.3764
+      "lng": -84.33427,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The center offers ceramics classes and workshops for artists of all levels, including Raku firing, which is a non-electric firing method.",
+        "types": {
+          "raku": "Raku Practice a contemporary take on Raku firing – a Japanese ceramic technique that involves taking hot ceramic pieces from the kiln and immersing them in flammable materials."
+        },
+        "street": "5339 Chamblee Dunwoody Road"
+      }
     },
     {
       "id": "clayer-co",
@@ -378,7 +243,18 @@
         "key": "clayerco.com"
       },
       "lat": 32.03354,
-      "lng": -81.04983
+      "lng": -81.04983,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that Clayer & Co is a pottery studio offering classes, workshops, and open studio options for the public, featuring raku, soda, and gas-reduction firing methods.",
+        "types": {
+          "raku": "Our studio features 4 different forms of firing methods (electric, raku, soda, and gas) along with an assortment of vibrant glazes, pottery wheels, and a dedicated hand-building space.",
+          "soda": "Our studio features 4 different forms of firing methods (electric, raku, soda, and gas) along with an assortment of vibrant glazes, pottery wheels, and a dedicated hand-building space.",
+          "gas_reduction": "WE ARE COOKING WITH GAS! FEATURING GAS REDUCTION FIRING, ALONG WITH CONE 6 ELECTRIC, RAKU, AND SODA!"
+        }
+      }
     },
     {
       "id": "annette-howell-turner-center-for-the-arts",
@@ -418,13 +294,39 @@
         "key": "turnercenter.org"
       },
       "lat": 30.8327,
-      "lng": -83.27849
+      "lng": -83.27849,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The center offers Raku firing sessions that are open to the public via registration for a class fee.",
+        "types": {
+          "raku": "Explore the process of Raku firing!"
+        },
+        "street": "527 N. Patterson Street"
+      }
     }
   ],
   "_removed": [
     {
       "id": "savannah-clay-community",
       "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "roger-jamison",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes Roger Jamison's personal studio pottery and group firings he participates in, but does not state that the public can join, book, or sign up for firings. (2026-10-07)"
+    },
+    {
+      "id": "georgia-clay-council",
+      "why": "Second check (gemini-3.1-flash-lite): The text specifies that the workshop costs are \"Only $20 per member,\" indicating the events are restricted to members of the Georgia Clay Council rather than the general public. (2026-10-07)"
+    },
+    {
+      "id": "mudfire-pottery-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The text only discusses pottery and mentions raku firing theoretically, but does not state that the public can join, book, or sign up for a non-electric ceramic firing. (2026-10-07)"
+    },
+    {
+      "id": "good-dirt-clay-studio",
+      "why": "Second check (gemma-4-31b-it): The text mentions the ability to fire work in kilns but does not specify any non-electric firing methods. (2026-10-07)"
     }
   ]
 }

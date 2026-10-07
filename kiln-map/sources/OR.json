@@ -140,14 +140,14 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Oregon",
-      "city": null,
+      "region": "Corvallis",
+      "city": "Corvallis",
       "urls": [
         "https://jaywidmer.com/"
       ],
       "notes": "Firing run as a loose workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Corvallis, Oregon",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://jaywidmer.com/"
@@ -167,47 +167,17 @@
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "jaywidmer.com"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states that the firing is run as a workshop where Jay shares his observations, and lists upcoming wood-fire workshop events open for participation.",
+        "types": {
+          "wood": "Wheel Throwing - Wood Fire Workshop :: Digger Mtn Studios - Alsea Anagama Kiln, Alsea, OR"
+        },
+        "street": "121 NW 28th Street"
       }
-    },
-    {
-      "id": "hikarigama-hiroshi-ogawa-s-kiln",
-      "org": "Hikarigama (Hiroshi Ogawa's kiln)",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Elkton",
-      "city": "Elkton",
-      "urls": [
-        "https://jenniferlongpottery.com/"
-      ],
-      "notes": "Group firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Elkton, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://jenniferlongpottery.com/"
-      },
-      "access": {
-        "how": "Group firings",
-        "note": "Group firings",
-        "quote": "I had my first experience firing with wood about eight years ago when I began attending firings in Elkton, Oregon at Hiroshi Ogawa’s kiln, Hikarigama.",
-        "url": "https://jenniferlongpottery.com/wood-fired",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "jenniferlongpottery.com"
-      },
-      "lat": 43.63706,
-      "lng": -123.56738
     },
     {
       "id": "st-johns-clay-collective",
@@ -216,8 +186,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "soda"
+        "soda",
+        "raku"
       ],
       "region": "Portland",
       "city": "Portland",
@@ -249,7 +219,18 @@
         "key": "stjohnsclay.com"
       },
       "lat": 45.52025,
-      "lng": -122.67419
+      "lng": -122.67419,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that the public can buy tickets to join soda and raku firing events at the collective.",
+        "types": {
+          "soda": "Elevate your work with stunning effects with Soda Firing.",
+          "raku": "Traditional raku firing along with Obvara and hair/ feather options."
+        },
+        "street": "6635 North Baltimore Avenue suite 125"
+      }
     },
     {
       "id": "georgies-ceramic-clay-co",
@@ -278,8 +259,7 @@
         "quote": "July 10 th - Raku 1: Traditional - $90.00 Wil Labelle leads this hands-on workshop that features the basics of Raku using our trash can quick-fire Raku kiln and Georgie's raku glazes.",
         "url": "http://www.georgies.com/gcc-main-classes-pdx.shtml",
         "types": [
-          "raku",
-          "wood"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -290,49 +270,17 @@
         "key": "georgies.com"
       },
       "lat": 45.52025,
-      "lng": -122.67419
-    },
-    {
-      "id": "portland-community-college-kiln-yard",
-      "org": "Portland Community College kiln yard",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "soda"
-      ],
-      "region": "Portland",
-      "city": "Portland",
-      "urls": [
-        "https://www.pcc.edu/"
-      ],
-      "notes": "Enrollment. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Portland, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.pcc.edu/"
-      },
-      "access": {
-        "how": "Enrollment",
-        "note": "Enrollment",
-        "quote": "The new kiln yard offers students in the ceramics and sculpture classes a dry and bright space in which to do their thing.",
-        "url": "https://www.pcc.edu/news/2014/12/sylvania-new-kiln-yard",
-        "types": [
-          "raku",
-          "soda"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "pcc.edu"
-      },
-      "lat": 45.52025,
-      "lng": -122.67419
+      "lng": -122.67419,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers hands-on Raku workshops that are open to the public for registration.",
+        "types": {
+          "raku": "Wil Labelle leads this hands-on workshop that features the basics of Raku using our trash can quick-fire Raku kiln and Georgie's raku glazes."
+        },
+        "street": "756 NE Lombard"
+      }
     },
     {
       "id": "willamette-art-center",
@@ -372,7 +320,16 @@
         "key": "willametteartcenter.com"
       },
       "lat": 44.93916,
-      "lng": -123.03312
+      "lng": -123.03312,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The page explicitly lists a 'Pit Firing Workshop' which is an event that the public can sign up for.",
+        "types": {
+          "pit_barrel_saggar": "Pit Firing Workshop"
+        }
+      }
     },
     {
       "id": "wildling-collaborative-arts",
@@ -412,7 +369,17 @@
         "key": "whitesnakearts.com"
       },
       "lat": 44.05051,
-      "lng": -123.09505
+      "lng": -123.09505,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that outsiders can register for an 'Intro to Pit Firing' class which includes participating in a pit firing.",
+        "types": {
+          "pit_barrel_saggar": "Pit firing is an invigorating practice of sculpting with fire while attending our delicate greenware through every step of their transformation to ceramic."
+        },
+        "street": "250 Taylor Street"
+      }
     },
     {
       "id": "pleasant-hill-pottery",
@@ -421,9 +388,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
-        "soda",
-        "salt"
+        "salt",
+        "soda"
       ],
       "region": "Eugene",
       "city": "Eugene",
@@ -443,7 +409,6 @@
         "quote": "Call, email, or message for a tour or more information.",
         "url": "https://www.pleasanthillpottery.com/about.html",
         "types": [
-          "wood",
           "salt",
           "soda"
         ],
@@ -456,49 +421,18 @@
         "key": "pleasanthillpottery.com"
       },
       "lat": 44.05051,
-      "lng": -123.09505
-    },
-    {
-      "id": "club-mud-ceramics-cooperative-maude-kerns",
-      "org": "Club Mud Ceramics Cooperative (Maude Kerns)",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "gas_reduction"
-      ],
-      "region": "Eugene",
-      "city": "Eugene",
-      "urls": [
-        "https://www.mkartcenter.org/"
-      ],
-      "notes": "Co-op. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Eugene, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.mkartcenter.org/"
+      "lng": -123.09505,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions the pottery has various wood, salt, and soda kilns and invites the public to contact them for a tour or more information, but it does not explicitly state that the public can participate in firings.",
+        "types": {
+          "salt": "The first to be constructed on the property - a 60 cubic foot two-chambered wood, biodiesel and salt kiln nicknamed Pepino - was built in 2001.",
+          "soda": "A 30cf wood/biodiesel soda kiln was built in 2012, and a 25cf wood/biodiesel train kiln followed in 2014."
+        }
       },
-      "access": {
-        "how": "Co-op",
-        "note": "Co-op",
-        "quote": "Low Fire; Earthenware and Raku (1800-2000 deg. F)",
-        "url": "https://www.mkartcenter.org/clubmud.html",
-        "types": [
-          "raku",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "mkartcenter.org"
-      },
-      "lat": 44.05051,
-      "lng": -123.09505
+      "weak": true
     },
     {
       "id": "clay-space",
@@ -528,7 +462,17 @@
         "key": "clayspaceeugene.org"
       },
       "lat": 44.05051,
-      "lng": -123.09505
+      "lng": -123.09505,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows workshops and introductory sessions for raku firings that outsiders can sign up for and participate in.",
+        "types": {
+          "raku": "Raku Firing!"
+        },
+        "street": "222 Polk Street"
+      }
     },
     {
       "id": "calapooia-clay",
@@ -570,7 +514,18 @@
         "key": "calapooiaclay.com"
       },
       "lat": 44.63651,
-      "lng": -123.10593
+      "lng": -123.10593,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers Raku and Saggar firings, and the public can sign up for classes and workshops to participate in studio activities.",
+        "types": {
+          "raku": "We primarily fire to Cone 5/6 in electric kilns and occasionally offer Raku and Saggar firings for ornamental work.",
+          "pit_barrel_saggar": "We primarily fire to Cone 5/6 in electric kilns and occasionally offer Raku and Saggar firings for ornamental work."
+        },
+        "street": "1533 SE 7th Ave"
+      }
     },
     {
       "id": "synergy-ceramics",
@@ -610,7 +565,16 @@
         "key": "synergyceramicsbend.com"
       },
       "lat": 44.05817,
-      "lng": -121.31531
+      "lng": -121.31531,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that outsiders can sign up for a raku workshop event open to adults with no prior experience.",
+        "types": {
+          "raku": "Explore the wonders of raku firing!"
+        }
+      }
     },
     {
       "id": "oregon-coast-school-of-art",
@@ -650,7 +614,17 @@
         "key": "oregoncoastschoolofart.org"
       },
       "lat": 43.73014,
-      "lng": -124.1106
+      "lng": -124.1106,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows that outsiders can register and participate in a raku firing event for $30.",
+        "types": {
+          "raku": "See the pot loaded in a raku kiln, fired and then pulled out while glowing hot!"
+        },
+        "street": "325 High Street"
+      }
     }
   ],
   "_removed": [
@@ -685,6 +659,18 @@
     {
       "id": "dragon-s-breath-pottery-supply",
       "why": "Discovery judge claimed firing types that appear nowhere in the cached pages or quote; no non-electric firing evidenced. (2026-10-06)"
+    },
+    {
+      "id": "hikarigama-hiroshi-ogawa-s-kiln",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes the author's personal experiences attending wood and soda firings at another location, but does not indicate that the public can join, book, or sign up for firings at Hikarigama. (2026-10-07)"
+    },
+    {
+      "id": "portland-community-college-kiln-yard",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes a college kiln yard for students and classes with no mention of public workshops, rentals, or firing services for outsiders. (2026-10-07)"
+    },
+    {
+      "id": "club-mud-ceramics-cooperative-maude-kerns",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes a member-based cooperative for clay workers but does not state that outsiders can join or sign up for non-electric firings. (2026-10-07)"
     }
   ]
 }

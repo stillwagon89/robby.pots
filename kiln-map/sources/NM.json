@@ -63,7 +63,16 @@
         "key": "paseopottery.com"
       },
       "lat": 35.68761,
-      "lng": -105.93846
+      "lng": -105.93846,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The studio offers Raku workshops that are open to the public for registration via their website.",
+        "types": {
+          "raku": "Do you want to practice the ancient art of Raku Firings?"
+        }
+      }
     },
     {
       "id": "museum-of-new-mexico-foundation",
@@ -103,7 +112,17 @@
         "key": "museumfoundation.org"
       },
       "lat": 35.68761,
-      "lng": -105.93846
+      "lng": -105.93846,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text offers a public workshop called Micaceous Pottery Class II where participants can learn and take part in open-pit firing.",
+        "types": {
+          "pit_barrel_saggar": "Traditional firing methods, such as open-pit firing, connect the process to centuries-old techniques used by Indigenous potters of the Southwest."
+        },
+        "street": "1411 Paseo de Peralta"
+      }
     },
     {
       "id": "rottenstone-gallery",
@@ -145,7 +164,18 @@
         "key": "rottenstonegallery.com"
       },
       "lat": 36.64722,
-      "lng": -105.9668
+      "lng": -105.9668,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site explicitly states they are open to having interested potters join in upcoming firings and provides contact information to do so.",
+        "types": {
+          "wood": "We wanted to try an simply designed easy to fire wood / salt kiln that would produce salt fired effects different from the japanese style Anagama kilns.",
+          "salt": "We wanted to try an simply designed easy to fire wood / salt kiln that would produce salt fired effects different from the japanese style Anagama kilns."
+        },
+        "street": "US 64"
+      }
     },
     {
       "id": "nm-potters-and-clay-artists-nmpca",
@@ -183,7 +213,15 @@
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "nmpotters.org"
-      }
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions wood and soda pots in a lecture topic, but does not explicitly state that the public can participate in a wood or soda firing.",
+        "types": {}
+      },
+      "weak": true
     },
     {
       "id": "taos-ceramics-center",
@@ -225,7 +263,18 @@
         "key": "taosceramics.com"
       },
       "lat": 36.40724,
-      "lng": -105.57328
+      "lng": -105.57328,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly mentions a class that covers Raku and Saggar firing techniques, which are non-electric methods.",
+        "types": {
+          "raku": "Raku is a low-temperature fast-firing technique that achieves unique metallic and lustrous surfaces by cooling the piece in a smoky atmosphere.",
+          "pit_barrel_saggar": "Smoke Firing techniques will include Saggar and Terra Sigillata."
+        },
+        "street": "114 Este Es Road"
+      }
     },
     {
       "id": "potters-guild-of-las-cruces",
@@ -234,7 +283,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood"
+        "wood",
+        "raku"
       ],
       "region": "Las Cruces",
       "city": "Las Cruces",
@@ -254,7 +304,8 @@
         "quote": "Glenn’s wood kiln firing.",
         "url": "https://www.pottersguildlc.org/currentevents",
         "types": [
-          "wood"
+          "wood",
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -265,7 +316,17 @@
         "key": "pottersguildlc.org"
       },
       "lat": 32.31404,
-      "lng": -106.77981
+      "lng": -106.77981,
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text lists events open to the community such as Glenn's wood kiln firing and Raku Sunday.",
+        "types": {
+          "wood": "Glenn's wood kiln firing.",
+          "raku": "Raku Sunday"
+        }
+      }
     },
     {
       "id": "taos-clay-studio",
@@ -274,7 +335,6 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
         "soda"
       ],
       "region": "Taos",
@@ -306,49 +366,16 @@
         "key": "cysoda.com"
       },
       "lat": 36.40724,
-      "lng": -105.57328
-    },
-    {
-      "id": "don-a-ana-community-college",
-      "org": "Doña Ana Community College",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "gas_reduction"
-      ],
-      "region": "Las Cruces",
-      "city": "Las Cruces",
-      "urls": [
-        "https://dacc.nmsu.edu/"
-      ],
-      "notes": "Ceramics lab classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Las Cruces, New Mexico",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://dacc.nmsu.edu/"
-      },
-      "access": {
-        "how": "Ceramics lab classes",
-        "note": "Ceramics lab classes",
-        "quote": "The lab features three electric kilns, a raku kiln, and a natural-gas shuttle kiln.",
-        "url": "https://dacc.nmsu.edu/dacc-community/in-the-media/posts/ceramics-studio-open-house.html",
-        "types": [
-          "raku",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "dacc.nmsu.edu"
-      },
-      "lat": 32.31404,
-      "lng": -106.77981
+      "lng": -105.57328,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text states that Taos Clay Studio offers workshops and classes that teach soda firing, providing access to soda kilns for participants.",
+        "types": {
+          "soda": "The studio offers workshops and classes that teach the basics of soda firing, as well as more advanced techniques for experienced artists."
+        }
+      }
     },
     {
       "id": "alaska-mudhead-pottery",
@@ -357,9 +384,9 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
+        "gas_reduction",
         "soda",
-        "gas_reduction"
+        "raku"
       ],
       "region": "Silver City",
       "city": "Silver City",
@@ -379,8 +406,9 @@
         "quote": "Pottery Studio, cone 10 (high fired), gas reduction fired porcelain, white and black stoneware. Also soda fired, and Raku fired pottery. Kilns on site. I make my own glazes and built my kilns. Open by appointment and special events.",
         "url": "https://www.silvercityart.com/letha-cress-woolf",
         "types": [
-          "raku",
-          "soda"
+          "gas_reduction",
+          "soda",
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -391,13 +419,30 @@
         "key": "silvercityart.com"
       },
       "lat": 32.77118,
-      "lng": -108.27642
+      "lng": -108.27642,
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text states the studio is open by appointment and special events, but it does not explicitly state that the public can participate in the firing processes mentioned.",
+        "types": {
+          "gas_reduction": "Letha Cress Woolf, Alaska Mudhead Pottery Studio, cone 10 (high fired), gas reduction fired porcelain, white and black stoneware.",
+          "soda": "Also soda fired, and Raku fired pottery.",
+          "raku": "Also soda fired, and Raku fired pottery."
+        },
+        "street": "371 Camino De Viento"
+      },
+      "weak": true
     }
   ],
   "_removed": [
     {
       "id": "ghost-ranch",
       "why": "No firing activity on their pages. (2026-10-05)"
+    },
+    {
+      "id": "don-a-ana-community-college",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes classes and equipment for students, but does not indicate that the public can participate in non-electric firings. (2026-10-07)"
     }
   ]
 }
