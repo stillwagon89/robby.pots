@@ -27,70 +27,6 @@
       "lng": -73.47692
     },
     {
-      "id": "lakeside-pottery",
-      "org": "Lakeside Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Stamford",
-      "city": "Stamford",
-      "urls": [
-        "https://lakesidepottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Stamford, Connecticut",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://lakesidepottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We give workshops for groups or individuals. We also do private firings for artists who wish their work to be Rakued.",
-        "url": "https://lakesidepottery.com/Pages/rakupage.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "lakesidepottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly states 'We give workshops for groups or individuals' and 'We also do private firings for artists' with pricing listed, allowing public participation in raku firings.",
-        "types": {
-          "raku": "We give workshops for groups or individuals. We also do private firings for artists who wish their work to be Rakued."
-        },
-        "state": "CT",
-        "town": "Stamford"
-      },
-      "lat": 41.05343,
-      "lng": -73.53873,
-      "located": {
-        "state": "DE",
-        "town": "Lewes",
-        "score": 5,
-        "osm": false,
-        "date": "2026-10-07"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "agree-yes",
-        "date": "2026-10-07"
-      }
-    },
-    {
       "id": "vicentegarciaart",
       "org": "vicentegarciaart",
       "kind": "studio",
@@ -146,7 +82,7 @@
       "lng": -72.77954,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       }
     },
     {
@@ -202,14 +138,15 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-07"
-      }
+      },
+      "weak": true
     },
     {
       "id": "jack-troy",
@@ -265,7 +202,7 @@
         "town": "Huntingdon",
         "score": 2,
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -332,7 +269,7 @@
       "lng": -72.92505,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     },
@@ -388,7 +325,7 @@
         "town": "New Haven",
         "score": 6,
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -449,7 +386,7 @@
       "lng": -72.92505,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     },
@@ -492,7 +429,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -552,7 +489,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -615,7 +552,7 @@
         "town": "New Haven",
         "score": 6,
         "osm": true,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       }
     },
     {
@@ -663,7 +600,7 @@
       "lng": -73.31127,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -725,14 +662,15 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-07"
-      }
+      },
+      "weak": true
     },
     {
       "id": "guilford-art-center",
@@ -790,7 +728,7 @@
         "town": "Church Street Guilford",
         "score": 6,
         "osm": true,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     },
@@ -849,7 +787,7 @@
       "lng": -72.92505,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     },
@@ -909,7 +847,7 @@
       "lng": -72.89371,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       }
     }
   ],
@@ -945,6 +883,10 @@
     {
       "id": "canton-clay-works-ct",
       "why": "Its own pages give an address in TN (PEGRAM), not CT. Moved. (2026-10-07)"
+    },
+    {
+      "id": "lakeside-pottery",
+      "why": "Its own pages give an address in DE (Lewes), not CT. Moved. (2026-10-08)"
     }
   ]
 }

@@ -77,7 +77,7 @@
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -141,7 +141,7 @@
         "town": "Decatur",
         "score": 50,
         "osm": true,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     },
@@ -197,7 +197,7 @@
       "lng": -86.97117,
       "located": {
         "osm": true,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     },
@@ -252,7 +252,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -317,7 +317,7 @@
       "lng": -88.04375,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     },
@@ -328,7 +328,6 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
         "gas_reduction"
       ],
       "region": "Montgomery",
@@ -344,12 +343,11 @@
         "website": "https://www.montgomerypottery.com/"
       },
       "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
+        "how": "Classes include cone 10 reduction firing",
+        "note": "Confirmed by Robby 2026-10-07: cone 10 reduction classes open to outsiders; raku only mentioned, no classes.",
         "quote": "Pottery Raku Pottery",
         "url": "http://www.montgomerypottery.com/",
         "types": [
-          "raku",
           "gas_reduction"
         ],
         "checked": "2026-10-07"
@@ -376,15 +374,16 @@
       "lng": -86.30908,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
-      "weak": true,
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "confirmed_by_robby": "2026-10-07",
+      "weak": true
     },
     {
       "id": "celeste-sabel-haynie",
@@ -444,7 +443,7 @@
         "town": "Boykin",
         "score": 8,
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -513,7 +512,7 @@
         "town": "Snarr Rd. Silverhill",
         "score": 2,
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     },
@@ -559,7 +558,7 @@
         "town": "Columbiana",
         "score": 16,
         "osm": true,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -611,7 +610,7 @@
       "lng": -86.86416,
       "located": {
         "osm": true,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",

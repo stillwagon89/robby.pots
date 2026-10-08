@@ -40,7 +40,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -90,7 +90,7 @@
       "lng": -75.52437,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -150,7 +150,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -158,6 +158,69 @@
         "result": "split",
         "date": "2026-10-07"
       }
+    },
+    {
+      "id": "lakeside-pottery",
+      "org": "Lakeside Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Lewes",
+      "city": "Lewes",
+      "urls": [
+        "https://lakesidepottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Lewes, Delaware",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://lakesidepottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "We give workshops for groups or individuals. We also do private firings for artists who wish their work to be Rakued.",
+        "url": "https://lakesidepottery.com/Pages/rakupage.html",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "lakesidepottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text explicitly states 'We give workshops for groups or individuals' and 'We also do private firings for artists' with pricing listed, allowing public participation in raku firings.",
+        "types": {
+          "raku": "We give workshops for groups or individuals. We also do private firings for artists who wish their work to be Rakued."
+        },
+        "state": "CT",
+        "town": "Stamford"
+      },
+      "located": {
+        "state": "DE",
+        "town": "Lewes",
+        "score": 5,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      },
+      "weak": true
     }
   ],
   "_removed": [

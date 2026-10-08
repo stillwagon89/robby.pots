@@ -92,82 +92,15 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "southern-illinois-university-edwardsville",
-      "org": "Southern Illinois University Edwardsville",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "soda"
-      ],
-      "region": "Edwardsville",
-      "city": "Edwardsville",
-      "urls": [
-        "https://www.enrole.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Edwardsville, Illinois",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.enrole.com/"
       },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "You will create ceramic artworks specifically designed for raku firing and participate in this quick and spontaneous firing process.",
-        "url": "https://www.enrole.com/siue/jsp/course.jsp?courseId=CRFW",
-        "types": [
-          "raku",
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "enrole.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The page describes raku and soda firing workshops but shows 'This course contains no sessions' for both, making it unclear if outsiders can currently enroll.",
-        "types": {
-          "raku": "You will create ceramic artworks specifically designed for raku firing and participate in this quick and spontaneous firing process.",
-          "soda": "You will create ceramic artworks with slips and glazes specifically designed for soda firing and participate in the soda firing process."
-        },
-        "state": "IL",
-        "town": "Edwardsville"
-      },
-      "lat": 38.81144,
-      "lng": -89.95316,
-      "weak": true,
-      "located": {
-        "state": "NC",
-        "town": "Raleigh",
-        "score": 7,
-        "osm": false,
-        "date": "2026-10-07"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-07"
-      }
+      "weak": true
     },
     {
       "id": "tinkermills-muddy-makers-pottery-studio",
@@ -210,7 +143,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -270,7 +203,7 @@
       "lng": -87.62442,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -336,7 +269,7 @@
       "lng": -87.97784,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -400,14 +333,15 @@
       "lng": -90.42901,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-07"
-      }
+      },
+      "weak": true
     },
     {
       "id": "simonlevin",
@@ -463,7 +397,7 @@
         "town": "Pawnee Rd. Pawnee",
         "score": 2,
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -522,14 +456,15 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-07"
-      }
+      },
+      "weak": true
     },
     {
       "id": "cu-potter-s-club",
@@ -584,7 +519,7 @@
       "lng": -88.24119,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -647,7 +582,7 @@
         "town": "Peoria",
         "score": 10,
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       }
     },
     {
@@ -700,14 +635,15 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-07"
-      }
+      },
+      "weak": true
     },
     {
       "id": "spindrift-studio",
@@ -760,13 +696,124 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "house-of-clay-ks",
+      "org": "House of Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Chicago",
+      "city": "Chicago",
+      "urls": [
+        "https://hunthalloween.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Chicago, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://hunthalloween.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Join us at House of Clay for Raku Day, a one-of-a-kind fall pottery experience in Downtown Overland Park.",
+        "url": "https://hunthalloween.com/event/raku-day-at-house-of-clay-–-ceramic-pumpkin-firing-eid4a7hbgbtk0",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "hunthalloween.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The text shows outsiders can join House of Clay's Raku Day event by registering for tickets, which includes ceramic pumpkins, glazes, and the raku firing process.",
+        "types": {
+          "raku": "watch as your pumpkin goes through the dramatic Raku firing process"
+        },
+        "state": "KS",
+        "town": "Overland Park",
+        "street": "7811 Marty St, Overland Park, KS 66204"
+      },
+      "located": {
+        "state": "IL",
+        "town": "Chicago",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      },
+      "weak": true
+    },
+    {
+      "id": "distinguished-teaching",
+      "org": "Distinguished Teaching",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Chicago",
+      "city": "Chicago",
+      "urls": [
+        "https://distinguishedteaching.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Chicago, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://distinguishedteaching.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "distinguishedteaching.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions a soda kiln and describes pottery instruction, but does not explicitly state that public outsiders can book, sign up for, or participate in an actual firing event.",
+        "types": {
+          "soda": "how to apply them to achieve color in the soda kiln."
+        },
+        "state": "VT",
+        "town": "Burlington"
+      },
+      "weak": true,
+      "located": {
+        "state": "IL",
+        "town": "Chicago",
+        "score": 122,
+        "osm": false,
+        "date": "2026-10-08"
       }
     }
   ],
@@ -802,6 +849,10 @@
     {
       "id": "ruby-s-clay-studio",
       "why": "Its own pages give an address in CA (San Francisco), not IL. Moved. (2026-10-07)"
+    },
+    {
+      "id": "southern-illinois-university-edwardsville",
+      "why": "Its own pages give an address in NC (Raleigh), not IL. Moved. (2026-10-08)"
     }
   ]
 }

@@ -15,8 +15,8 @@ const MODEL = process.env.AGREE_MODEL || "claude-sonnet-5-5";
 const norm = (s) => (s || "").toLowerCase().replace(/[^a-z0-9$]+/g, " ").trim();
 const log = (...a) => console.log(new Date().toISOString().slice(11, 19), ...a);
 const PROMPT = `You fact-check one listing for a map of places where the PUBLIC can take part in a NON-electric ceramic firing. Read ONLY the text given; no outside knowledge.
-verdict "yes": outsiders (not only enrolled students or existing members) can join, book or sign up for at least one raku, wood/anagama, soda, salt, pit/barrel/saggar or gas-reduction firing (workshop, class, membership, rental, firing service or appointment). "no": electric-only, paint-your-own, directory/blog/shop with no firings, students only, or nothing about such firings. "unclear": hints only.
-"types": ONLY firing types for which you can copy a sentence word for word from the text naming that method. "state_on_page": two-letter state of THIS place's own address; empty if not stated.
+verdict "yes": outsiders (not only enrolled students or existing members) can join, book or sign up for at least one raku, wood/anagama, soda, salt, pit/barrel/saggar or gas-reduction firing (workshop, class, membership, rental, firing service, appointment, or an open invitation to email/contact them to join: an invitation COUNTS). "no": electric-only, paint-your-own, directory/blog/shop with no firings, students only, or nothing about such firings. "unclear": hints only.
+"types": ONLY firing types where you can copy a sentence word for word showing outsiders can take part in THAT firing type; a bare mention of a technique does not count. "state_on_page": two-letter state of THIS place's own address; empty if not stated.
 Return ONLY JSON: {"verdict":"yes|unclear|no","why":"one sentence","state_on_page":"","types":[{"type":"raku|wood|soda|salt|pit_barrel_saggar|gas_reduction","quote":"word-for-word"}]}`;
 let spent = 0;
 async function ask(text) {

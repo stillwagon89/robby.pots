@@ -54,7 +54,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     },
@@ -97,77 +97,12 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "unclear",
         "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "house-of-clay-ks",
-      "org": "House of Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Overland Park",
-      "city": "Overland Park",
-      "urls": [
-        "https://hunthalloween.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Overland Park, Kansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://hunthalloween.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Join us at House of Clay for Raku Day, a one-of-a-kind fall pottery experience in Downtown Overland Park.",
-        "url": "https://hunthalloween.com/event/raku-day-at-house-of-clay-–-ceramic-pumpkin-firing-eid4a7hbgbtk0",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "hunthalloween.com"
-      },
-      "lat": 38.97425,
-      "lng": -94.68517,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text shows outsiders can join House of Clay's Raku Day event by registering for tickets, which includes ceramic pumpkins, glazes, and the raku firing process.",
-        "types": {
-          "raku": "watch as your pumpkin goes through the dramatic Raku firing process"
-        },
-        "state": "KS",
-        "town": "Overland Park",
-        "street": "7811 Marty St, Overland Park, KS 66204"
-      },
-      "located": {
-        "state": "IL",
-        "town": "Chicago",
-        "score": 15,
-        "osm": false,
-        "date": "2026-10-07"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "agree-yes",
         "date": "2026-10-07"
       }
     },
@@ -221,14 +156,15 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-07"
-      }
+      },
+      "weak": true
     },
     {
       "id": "house-of-clay",
@@ -286,7 +222,7 @@
         "town": "Overland Park",
         "score": 22,
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       }
     }
   ],
@@ -294,6 +230,10 @@
     {
       "id": "community-arts-center-ks",
       "why": "Its own pages give an address in PA (Wallingford), not KS. Moved. (2026-10-07)"
+    },
+    {
+      "id": "house-of-clay-ks",
+      "why": "Its own pages give an address in IL (Chicago), not KS. Moved. (2026-10-08)"
     }
   ]
 }

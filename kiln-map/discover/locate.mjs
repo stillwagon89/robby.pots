@@ -36,7 +36,7 @@ function extract(html) {
   for (const m of html.matchAll(/"addressLocality"\s*:\s*"([^"]+)"[^}]*?"addressRegion"\s*:\s*"([A-Za-z .]+)"|"addressRegion"\s*:\s*"([A-Za-z .]+)"[^}]*?"addressLocality"\s*:\s*"([^"]+)"/g)) {
     const town = m[1] || m[4], reg = (m[2] || m[3] || "").trim();
     const code = CODES.has(reg.toUpperCase()) ? reg.toUpperCase() : Object.keys(STATES).find((c) => stateName(c).toLowerCase() === reg.toLowerCase());
-    if (code) out.push({ st: code, town, w: 5 });
+    if (code) out.push({ st: code, town, w: 5, ld: true });
   }
   const text = html.replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ").replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ");
   for (const m of text.matchAll(/([A-Z][A-Za-z.'’-]+(?: [A-Z][A-Za-z.'’-]+){0,2}),?\s+([A-Z]{2})\s+(\d{5})(?:-\d{4})?\b/g)) if (CODES.has(m[2])) out.push({ st: m[2], town: m[1], zip: m[3], w: 2 });
@@ -59,9 +59,10 @@ async function worker() {
     for (const l of [...new Map(links.map((x) => [x.u, x])).values()].slice(0, 2)) html += " " + (await get(l.u));
     const found = extract(html);
     const tally = {};
-    for (const x of found) { const k = `${x.st}|${x.town}`; tally[k] = (tally[k] || 0) + x.w; }
+    const ldSet = new Set();
+    for (const x of found) { const k = `${x.st}|${x.town}`; tally[k] = (tally[k] || 0) + x.w; if (x.ld) ldSet.add(k); }
     const best = Object.entries(tally).sort((a, b) => b[1] - a[1])[0];
-    j.loc = best ? { st: best[0].split("|")[0], town: best[0].split("|")[1], score: best[1], found: Object.keys(tally).length } : null;
+    j.loc = best ? { st: best[0].split("|")[0], town: best[0].split("|")[1], score: best[1], found: Object.keys(tally).length, ld: ldSet.has(best[0]) } : null;
     if (++done % 25 === 0) log(`locate ${done}/${jobs.length}`);
   }
 }
@@ -80,9 +81,9 @@ async function osm(j) {
 }
 for (const j of REUSE ? [] : jobs.filter((j) => !j.loc || j.loc.st === j.ST)) { j.osm = await osm(j); await new Promise((r) => setTimeout(r, 1100)); }
 
-// A move needs the address evidence AND the Claude reading of the page not to put the place in its filed state.
+// The page's own schema.org address beats any AI reading (Lakeside Pottery: AI said CT, the page says DE). A zip-text address alone also needs the AI reading not to put the place in its filed state.
 const claims = (j) => (j.s.verify?.state || "").toUpperCase() === j.ST || (j.s.verify?.state || "").toLowerCase() === stateName(j.ST).toLowerCase();
-const mism = jobs.filter((j) => j.loc && j.loc.score >= 4 && j.loc.st !== j.ST && !claims(j));
+const mism = jobs.filter((j) => j.loc && j.loc.st !== j.ST && (j.loc.ld || (j.loc.score >= 4 && !claims(j))));
 const noAddr = jobs.filter((j) => !j.loc);
 log(`locate: ${jobs.length - mism.length - noAddr.length} confirmed in filed state, ${mism.length} in another state, ${noAddr.length} no address found`);
 for (const j of mism) console.log(`  ${j.ST} -> ${j.loc.st}: ${j.s.org} (${j.loc.town})`);

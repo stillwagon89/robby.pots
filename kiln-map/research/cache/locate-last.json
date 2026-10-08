@@ -16,18 +16,13 @@
  },
  {
   "st": "AK",
-  "id": "copper-kiln-pottery",
-  "loc": null,
-  "osm": null
- },
- {
-  "st": "AK",
   "id": "midnight-potter-studios",
   "loc": {
    "st": "AK",
    "town": "Anchorage",
-   "score": 6,
-   "found": 1
+   "score": 4,
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -59,7 +54,8 @@
    "st": "AL",
    "town": "Decatur",
    "score": 50,
-   "found": 2
+   "found": 2,
+   "ld": true
   },
   "osm": {
    "name": "Alabama Center for the Arts, 2nd Avenue Northeast, West Decatur, Decatur, Morgan County, Alabama, 35601, United States",
@@ -100,7 +96,8 @@
    "st": "AL",
    "town": "Boykin",
    "score": 8,
-   "found": 3
+   "found": 3,
+   "ld": false
   },
   "osm": null
  },
@@ -111,7 +108,8 @@
    "st": "AL",
    "town": "Snarr Rd. Silverhill",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -122,7 +120,8 @@
    "st": "AL",
    "town": "Columbiana",
    "score": 16,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Shelby County Arts Council, 105, West College Street, Columbiana, Shelby County, Alabama, 35051, United States",
@@ -134,7 +133,7 @@
   "id": "university-of-montevallo",
   "loc": null,
   "osm": {
-   "name": "University of Montevallo, Middle Street, Montevallo, Shelby County, Alabama, 35115, United States",
+   "name": "University of Montevallo, Flowerhill Drive, Montevallo, Shelby County, Alabama, 35115, United States",
    "type": "university"
   }
  },
@@ -145,7 +144,8 @@
    "st": "AR",
    "town": "Little Rock",
    "score": 8,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Arkansas Museum of Fine Arts, 501, East 9th Street, Little Rock, Big Rock Township, Pulaski County, Arkansas, 72203, Uni",
@@ -196,12 +196,6 @@
  },
  {
   "st": "AR",
-  "id": "flaming-earth-pottery",
-  "loc": null,
-  "osm": null
- },
- {
-  "st": "AR",
   "id": "life-in-mountain-view",
   "loc": null,
   "osm": null
@@ -213,7 +207,8 @@
    "st": "AZ",
    "town": "Barn Road Sedona",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -225,21 +220,13 @@
  },
  {
   "st": "AZ",
-  "id": "az-wildlife-gallery",
-  "loc": null,
-  "osm": {
-   "name": "AZ Wildlife Gallery, 1839, Payson–Show Low Highway, Heber, Heber–Overgaard, Arizona, Navajo County, Arizona, 85928, Unit",
-   "type": "gift"
-  }
- },
- {
-  "st": "AZ",
   "id": "arizona-clay-space",
   "loc": {
    "st": "AZ",
    "town": "Clarkdale",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -266,14 +253,20 @@
  },
  {
   "st": "AZ",
-  "id": "phgmag",
+  "id": "rhonda-davis",
   "loc": null,
   "osm": null
  },
  {
   "st": "AZ",
-  "id": "rhonda-davis",
-  "loc": null,
+  "id": "mud-makers",
+  "loc": {
+   "st": "AZ",
+   "town": "Ave Chino Valley",
+   "score": 6,
+   "found": 1,
+   "ld": false
+  },
   "osm": null
  },
  {
@@ -281,8 +274,8 @@
   "id": "smaart-studio",
   "loc": null,
   "osm": {
-   "name": "Smaart Gallery & Studio, 3135, 24th Street, Mission, San Francisco, California, 94110, United States",
-   "type": "pottery"
+   "name": "Smaart Gallery & Studio, 832, Sutter Street, Lower Nob Hill, Tenderloin, San Francisco, California, 94164, United States",
+   "type": "art"
   }
  },
  {
@@ -301,24 +294,11 @@
    "st": "CA",
    "town": "Berkeley",
    "score": 8,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "The Potters Studio, 722, Camelia Street, Ocean View, Berkeley, Alameda County, California, 94710, United States",
-   "type": "pottery"
-  }
- },
- {
-  "st": "CA",
-  "id": "berkeley-potters-guild",
-  "loc": {
-   "st": "CA",
-   "town": "Berkeley",
-   "score": 2,
-   "found": 1
-  },
-  "osm": {
-   "name": "Berkeley Potters Guild, 731, Jones Street, Ocean View, Berkeley, Alameda County, California, 94710, United States",
    "type": "pottery"
   }
  },
@@ -335,7 +315,8 @@
    "st": "CA",
    "town": "St. Oakland",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "The Crucible, 1260, 7th Street, West Oakland, Oakland, Alameda County, California, 94607, United States",
@@ -349,7 +330,8 @@
    "st": "CA",
    "town": "San Jose",
    "score": 147,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -384,7 +366,8 @@
    "st": "CA",
    "town": "Petaluma",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -395,7 +378,8 @@
    "st": "CA",
    "town": "Sebastopol",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Sebastopol Center for the Arts, 282, South High Street, Sebastopol, Sonoma County, California, 95472, United States",
@@ -409,7 +393,8 @@
    "st": "CA",
    "town": "Main Street Occidental",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "CLAYFOLK studio, 3703, Main Street, Occidental, Sonoma County, California, 95465, United States",
@@ -429,7 +414,8 @@
    "st": "CA",
    "town": "Fair Oaks",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -446,7 +432,8 @@
    "st": "CA",
    "town": "Garey Ave Pomona",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": {
    "name": "American Museum of Ceramic Art / AMOCA, 399, North Garey Avenue, Edison Historic District, Pomona, Los Angeles County, C",
@@ -460,7 +447,8 @@
    "st": "CA",
    "town": "Pasadena",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -486,7 +474,8 @@
    "st": "CA",
    "town": "Lomita",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Summer Studios, Woodward Avenue, Lomita, Los Angeles County, California, 90717, United States",
@@ -500,7 +489,8 @@
    "st": "CA",
    "town": "San Diego",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Ceramic Heights, 5509, El Cajon Boulevard, El Cerrito, Mid-City, San Diego, San Diego County, California, 92115, United ",
@@ -514,7 +504,8 @@
    "st": "CA",
    "town": "Encinitas",
    "score": 8,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -523,6 +514,57 @@
   "id": "thecuriousforge",
   "loc": null,
   "osm": null
+ },
+ {
+  "st": "CA",
+  "id": "uncle-paul-s",
+  "loc": {
+   "st": "CA",
+   "town": "Broadway San Francisco",
+   "score": 6,
+   "found": 1,
+   "ld": false
+  },
+  "osm": null
+ },
+ {
+  "st": "CA",
+  "id": "ruby-s-clay-studio",
+  "loc": {
+   "st": "CA",
+   "town": "San Francisco",
+   "score": 12,
+   "found": 1,
+   "ld": false
+  },
+  "osm": null
+ },
+ {
+  "st": "CA",
+  "id": "cider-creek-collective",
+  "loc": {
+   "st": "CA",
+   "town": "Albion",
+   "score": 4,
+   "found": 1,
+   "ld": false
+  },
+  "osm": null
+ },
+ {
+  "st": "CA",
+  "id": "studio-channel-islands",
+  "loc": {
+   "st": "CA",
+   "town": "Camarillo",
+   "score": 92,
+   "found": 2,
+   "ld": false
+  },
+  "osm": {
+   "name": "Studio Channel Islands, East Ventura Boulevard, Old Town, Camarillo, Ventura County, California, 93010, United States",
+   "type": "jewelry"
+  }
  },
  {
   "st": "CO",
@@ -561,7 +603,8 @@
    "st": "CO",
    "town": "Dallas St. Aurora",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Friend Assembly, 2501, Dallas Street, Aurora, Colorado, 80010, United States",
@@ -575,7 +618,8 @@
    "st": "CO",
    "town": "Fort Collins",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -598,7 +642,8 @@
    "st": "CO",
    "town": "Boulder",
    "score": 12,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -609,7 +654,8 @@
    "st": "CO",
    "town": "Ave Colorado Springs",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Cottonwood Center for the Arts, 419, East Colorado Avenue, Historic Uptown, Downtown, Colorado Springs, El Paso County, ",
@@ -623,7 +669,8 @@
    "st": "CO",
    "town": "Colorado Springs",
    "score": 129,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -634,7 +681,8 @@
    "st": "CO",
    "town": "Carbondale",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Carbondale Clay Center, 135, Rio Grande Trail, Carbondale, Garfield County, Colorado, 81623, United States",
@@ -648,7 +696,8 @@
    "st": "DE",
    "town": "Lewes",
    "score": 5,
-   "found": 1
+   "found": 1,
+   "ld": true
   }
  },
  {
@@ -670,7 +719,8 @@
    "st": "PA",
    "town": "Huntingdon",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   }
  },
  {
@@ -686,7 +736,8 @@
    "st": "CT",
    "town": "New Haven",
    "score": 6,
-   "found": 12
+   "found": 12,
+   "ld": false
   },
   "osm": null
  },
@@ -710,22 +761,13 @@
  },
  {
   "st": "CT",
-  "id": "canton-clay-works-ct",
-  "loc": {
-   "st": "TN",
-   "town": "PEGRAM",
-   "score": 4,
-   "found": 2
-  }
- },
- {
-  "st": "CT",
   "id": "creative-arts-workshop",
   "loc": {
    "st": "CT",
    "town": "New Haven",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Creative Arts Workshop, 80, Audubon Street, Downtown, Barnesville, New Haven, Connecticut, 06511, United States",
@@ -751,7 +793,8 @@
    "st": "CT",
    "town": "Church Street Guilford",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Guilford Art Center, 411, Church Street, Guilford, South Central Connecticut Planning Region, Connecticut, 06437, United",
@@ -781,26 +824,6 @@
   "id": "rachel-lindsay-pottery",
   "loc": null,
   "osm": null
- },
- {
-  "st": "DC",
-  "id": "glen-echo-park",
-  "loc": {
-   "st": "MD",
-   "town": "Boulevard Glen Echo",
-   "score": 6,
-   "found": 2
-  }
- },
- {
-  "st": "DC",
-  "id": "bisc-pottery-studio",
-  "loc": {
-   "st": "NJ",
-   "town": "Scotch Plains",
-   "score": 6,
-   "found": 1
-  }
  },
  {
   "st": "DC",
@@ -845,7 +868,8 @@
    "st": "FL",
    "town": "St. Petersburg",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -856,7 +880,8 @@
    "st": "FL",
    "town": "Atlantic Beach",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -867,7 +892,8 @@
    "st": "FL",
    "town": "Tallahassee",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -902,7 +928,8 @@
    "st": "FL",
    "town": "St. Augustine",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -919,7 +946,8 @@
    "st": "FL",
    "town": "Orlando",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -966,7 +994,8 @@
    "st": "FL",
    "town": "University Parkway Pensacola",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -998,7 +1027,8 @@
    "st": "GA",
    "town": "Atlanta",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Callanwolde Fine Arts Center, 980, Briarcliff Road Northeast, Druid Hills, Atlanta, DeKalb County, Georgia, 30345, Unite",
@@ -1012,7 +1042,8 @@
    "st": "GA",
    "town": "Dunwoody",
    "score": 20,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -1029,7 +1060,8 @@
    "st": "GA",
    "town": "Patterson Street Valdosta",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1040,7 +1072,8 @@
    "st": "HI",
    "town": "HONOLULU",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -1057,46 +1090,14 @@
    "st": "HI",
    "town": "Colburn Street Honolulu",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
- },
- {
-  "st": "HI",
-  "id": "sculpture",
-  "loc": null,
-  "osm": null
- },
- {
-  "st": "HI",
-  "id": "uncle-paul-s",
-  "loc": {
-   "st": "CA",
-   "town": "Broadway San Francisco",
-   "score": 6,
-   "found": 1
-  }
  },
  {
   "st": "HI",
   "id": "mudd-studio-ceramics",
-  "loc": null,
-  "osm": null
- },
- {
-  "st": "HI",
-  "id": "j-davis-studio",
-  "loc": {
-   "st": "HI",
-   "town": "Hanapepe Rd Hanapepe",
-   "score": 6,
-   "found": 2
-  },
-  "osm": null
- },
- {
-  "st": "HI",
-  "id": "haleiwa-art-gallery",
   "loc": null,
   "osm": null
  },
@@ -1125,7 +1126,8 @@
    "st": "IA",
    "town": "Cedar Rapids",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1154,7 +1156,8 @@
    "st": "IA",
    "town": "Council Bluffs",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1165,20 +1168,9 @@
    "st": "IA",
    "town": "Shenandoah",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
-  "osm": null
- },
- {
-  "st": "IA",
-  "id": "plimton",
-  "loc": null,
-  "osm": null
- },
- {
-  "st": "IA",
-  "id": "sara-krause-pottery",
-  "loc": null,
   "osm": null
  },
  {
@@ -1198,17 +1190,6 @@
  },
  {
   "st": "IA",
-  "id": "carl-s-pottery",
-  "loc": {
-   "st": "IA",
-   "town": "Decorah",
-   "score": 2,
-   "found": 2
-  },
-  "osm": null
- },
- {
-  "st": "IA",
   "id": "shady-grove-pottery",
   "loc": null,
   "osm": null
@@ -1220,14 +1201,9 @@
    "st": "IA",
    "town": "Marshalltown",
    "score": 11,
-   "found": 2
+   "found": 2,
+   "ld": true
   },
-  "osm": null
- },
- {
-  "st": "IA",
-  "id": "aaronmoseley",
-  "loc": null,
   "osm": null
  },
  {
@@ -1252,7 +1228,8 @@
    "st": "ID",
    "town": "Vista Avenue Boise",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1269,7 +1246,8 @@
    "st": "ID",
    "town": "Ketchum",
    "score": 18,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1281,22 +1259,13 @@
  },
  {
   "st": "IL",
-  "id": "mud-makers",
-  "loc": {
-   "st": "AZ",
-   "town": "Ave Chino Valley",
-   "score": 6,
-   "found": 1
-  }
- },
- {
-  "st": "IL",
   "id": "southern-illinois-university-edwardsville",
   "loc": {
    "st": "NC",
    "town": "Raleigh",
    "score": 7,
-   "found": 1
+   "found": 1,
+   "ld": true
   }
  },
  {
@@ -1310,26 +1279,6 @@
   "id": "chicago-kiln-service",
   "loc": null,
   "osm": null
- },
- {
-  "st": "IL",
-  "id": "yu-tang-ceramics",
-  "loc": {
-   "st": "WA",
-   "town": "Avenue North Seattle",
-   "score": 6,
-   "found": 1
-  }
- },
- {
-  "st": "IL",
-  "id": "ruby-s-clay-studio",
-  "loc": {
-   "st": "CA",
-   "town": "San Francisco",
-   "score": 12,
-   "found": 1
-  }
  },
  {
   "st": "IL",
@@ -1350,7 +1299,8 @@
    "st": "IL",
    "town": "Pawnee Rd. Pawnee",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1373,7 +1323,8 @@
    "st": "IL",
    "town": "Peoria",
    "score": 10,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1402,7 +1353,8 @@
    "st": "IN",
    "town": "Fort Wayne",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1413,7 +1365,8 @@
    "st": "IN",
    "town": "Porter",
    "score": 15,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -1425,22 +1378,13 @@
  },
  {
   "st": "IN",
-  "id": "eastside-pottery",
-  "loc": {
-   "st": "WA",
-   "town": "Bellevue",
-   "score": 8,
-   "found": 2
-  }
- },
- {
-  "st": "IN",
   "id": "indy-art-center",
   "loc": {
    "st": "IN",
    "town": "Indianapolis",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1451,19 +1395,10 @@
    "st": "IN",
    "town": "Goshen",
    "score": 15,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
- },
- {
-  "st": "IN",
-  "id": "cider-creek-collective",
-  "loc": {
-   "st": "CA",
-   "town": "Albion",
-   "score": 4,
-   "found": 1
-  }
  },
  {
   "st": "IN",
@@ -1490,7 +1425,8 @@
    "st": "IN",
    "town": "Ave. South Bend",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1501,7 +1437,8 @@
    "st": "IN",
    "town": "Lafayette",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1512,18 +1449,13 @@
    "st": "IN",
    "town": "Muncie",
    "score": 8,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Made in Muncie Pottery, South Walnut Street, Muncie, Delaware County, Indiana, 47305, United States",
    "type": "commercial"
   }
- },
- {
-  "st": "IN",
-  "id": "spears-gallery",
-  "loc": null,
-  "osm": null
  },
  {
   "st": "IN",
@@ -1535,6 +1467,18 @@
   "st": "IN",
   "id": "creative-hands-studio",
   "loc": null,
+  "osm": null
+ },
+ {
+  "st": "IN",
+  "id": "truro-center-for-the-arts-at-castle-hill",
+  "loc": {
+   "st": "IN",
+   "town": "New Harmony",
+   "score": 10,
+   "found": 1,
+   "ld": false
+  },
   "osm": null
  },
  {
@@ -1551,22 +1495,13 @@
  },
  {
   "st": "KS",
-  "id": "community-arts-center-ks",
-  "loc": {
-   "st": "PA",
-   "town": "Wallingford",
-   "score": 21,
-   "found": 1
-  }
- },
- {
-  "st": "KS",
   "id": "house-of-clay-ks",
   "loc": {
    "st": "IL",
    "town": "Chicago",
    "score": 15,
-   "found": 10
+   "found": 10,
+   "ld": true
   }
  },
  {
@@ -1582,7 +1517,8 @@
    "st": "KS",
    "town": "Overland Park",
    "score": 22,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -1593,7 +1529,8 @@
    "st": "KY",
    "town": "Danville",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1603,20 +1540,15 @@
   "loc": {
    "st": "KY",
    "town": "Danville",
-   "score": 6,
-   "found": 1
+   "score": 2,
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
  {
   "st": "KY",
   "id": "ryandurbinceramics",
-  "loc": null,
-  "osm": null
- },
- {
-  "st": "KY",
-  "id": "rickman-pottery",
   "loc": null,
   "osm": null
  },
@@ -1633,7 +1565,8 @@
    "st": "LA",
    "town": "New Orleans",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1644,7 +1577,8 @@
    "st": "LA",
    "town": "Ruston",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1659,16 +1593,6 @@
   "id": "crescent-city-clayworks",
   "loc": null,
   "osm": null
- },
- {
-  "st": "LA",
-  "id": "smoke-in-the-mountains-pottery",
-  "loc": {
-   "st": "NC",
-   "town": "Brasstown",
-   "score": 6,
-   "found": 1
-  }
  },
  {
   "st": "LA",
@@ -1701,7 +1625,8 @@
    "st": "MA",
    "town": "Concord",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "The Umbrella Community Arts Center, 40, Stow Street, Concord, Middlesex County, Massachusetts, 01742, United States",
@@ -1751,7 +1676,8 @@
    "st": "MA",
    "town": "Groton",
    "score": 79,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -1762,7 +1688,8 @@
    "st": "MA",
    "town": "Oak Bluffs",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Featherstone Center for the Arts, 30, Featherstone Lane, Oak Bluffs, Dukes County, Massachusetts, 02557, United States",
@@ -1776,7 +1703,8 @@
    "st": "MA",
    "town": "Worcester",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Worcester Center For Crafts, 25, Sagamore Road, Massachusetts Avenue Historic District, Chadwick Square, Worcester, Worc",
@@ -1823,7 +1751,8 @@
    "st": "MD",
    "town": "Baltimore",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1846,7 +1775,8 @@
    "st": "MD",
    "town": "Jefferson",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1866,7 +1796,8 @@
    "st": "MD",
    "town": "Gambrills",
    "score": 5,
-   "found": 2
+   "found": 2,
+   "ld": true
   },
   "osm": null
  },
@@ -1877,10 +1808,26 @@
    "st": "MD",
    "town": "Rockville",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "VisArts, 155, Gibbs Street, Rockville Town Square, Rockville, Montgomery County, Maryland, 20850, United States",
+   "type": "arts_centre"
+  }
+ },
+ {
+  "st": "MD",
+  "id": "glen-echo-park",
+  "loc": {
+   "st": "MD",
+   "town": "Boulevard Glen Echo",
+   "score": 6,
+   "found": 2,
+   "ld": false
+  },
+  "osm": {
+   "name": "Glen Echo Park, 7300, MacArthur Boulevard, Glen Echo, Montgomery County, Maryland, 20812, United States",
    "type": "arts_centre"
   }
  },
@@ -1891,7 +1838,8 @@
    "st": "ME",
    "town": "Free Street Portland",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -1932,7 +1880,8 @@
    "st": "ME",
    "town": "Portland",
    "score": 4,
-   "found": 3
+   "found": 3,
+   "ld": false
   },
   "osm": {
    "name": "Portland Pottery, 118, Washington Avenue, East Bayside, East End, Portland, Cumberland County, Maine, 04101, United Stat",
@@ -1952,7 +1901,8 @@
    "st": "MI",
    "town": "NW Grand Rapids",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -1963,7 +1913,8 @@
    "st": "MI",
    "town": "Grand Rapids",
    "score": 5,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -1974,7 +1925,8 @@
    "st": "MI",
    "town": "Kalamazoo",
    "score": 26,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": {
    "name": "Kalamazoo Institute of Arts, 314, South Park Street, Downtown, Kalamazoo, Kalamazoo County, Michigan, 49007, United Stat",
@@ -1994,7 +1946,8 @@
    "st": "MI",
    "town": "Clinton Township",
    "score": 8,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": {
    "name": "Macomb Community College Center Campus, 44575, Garfield Road, Clinton Township, Macomb County, Michigan, 48038, United S",
@@ -2008,7 +1961,8 @@
    "st": "MI",
    "town": "St Ann Arbor",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "The Potters Guild, 201, Hill Street, Germantown, Ann Arbor, Washtenaw County, Michigan, 48104, United States",
@@ -2022,7 +1976,8 @@
    "st": "MI",
    "town": "Road Ann Arbor",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2033,7 +1988,8 @@
    "st": "MI",
    "town": "Street Royal Oak",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -2056,7 +2012,8 @@
    "st": "MN",
    "town": "Warroad",
    "score": 14,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2067,7 +2024,8 @@
    "st": "MN",
    "town": "Buffalo",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2078,7 +2036,8 @@
    "st": "MN",
    "town": "Shore Drive Wayzata",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2089,7 +2048,8 @@
    "st": "MN",
    "town": "Nisswa",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2100,7 +2060,8 @@
    "st": "MN",
    "town": "Grand Marais",
    "score": 11,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": {
    "name": "North House Folk School, 500, West Highway 61, Grand Marais, Cook County, Minnesota, 55604, United States",
@@ -2147,7 +2108,8 @@
    "st": "MO",
    "town": "Kansas City",
    "score": 12,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Back Door Pottery, Saint John Avenue, South Indian Mound, Kansas City, Jackson County, Missouri, 64123, United States",
@@ -2185,7 +2147,8 @@
    "st": "MO",
    "town": "Saint Louis",
    "score": 7,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -2208,7 +2171,8 @@
    "st": "MO",
    "town": "Springfield",
    "score": 18,
-   "found": 2
+   "found": 2,
+   "ld": true
   },
   "osm": null
  },
@@ -2219,10 +2183,11 @@
    "st": "MO",
    "town": "Joplin",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": {
-   "name": "Missouri Southern State University, Julie Hughes Drive, Joplin, Jasper County, Missouri, 64801, United States",
+   "name": "Missouri Southern State University, Mansion Lane, Joplin, Jasper County, Missouri, 64801, United States",
    "type": "university"
   }
  },
@@ -2233,7 +2198,8 @@
    "st": "MS",
    "town": "Biloxi",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "City of Biloxi Center For Ceramics, Kuhn Street, Biloxi, Harrison County, Mississippi, 39501, United States",
@@ -2292,7 +2258,8 @@
    "st": "MT",
    "town": "Main St Bozeman",
    "score": 8,
-   "found": 3
+   "found": 3,
+   "ld": false
   },
   "osm": null
  },
@@ -2321,7 +2288,8 @@
    "st": "MT",
    "town": "Bozeman Ave Helena",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Clay Arts Guild of Helena, Bozeman Avenue, Helena, Lewis and Clark County, Montana, 59604, United States",
@@ -2346,8 +2314,9 @@
   "loc": {
    "st": "MT",
    "town": "Missoula",
-   "score": 6,
-   "found": 4
+   "score": 12,
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -2358,13 +2327,29 @@
   "osm": null
  },
  {
+  "st": "MT",
+  "id": "mondak-heritage-center",
+  "loc": {
+   "st": "MT",
+   "town": "Sidney",
+   "score": 8,
+   "found": 1,
+   "ld": false
+  },
+  "osm": {
+   "name": "MonDak Heritage Center, 120, 3rd Avenue Southeast, Four Seasons Trailer Court, Sidney, Richland County, Montana, 59270, ",
+   "type": "museum"
+  }
+ },
+ {
   "st": "NC",
   "id": "the-bascom",
   "loc": {
    "st": "NC",
    "town": "Franklin Road Highlands",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "The Bascom, 323, Franklin Road, Highlands, Macon County, North Carolina, 28741, United States",
@@ -2384,7 +2369,8 @@
    "st": "NC",
    "town": "Pittsboro",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2401,7 +2387,8 @@
    "st": "NC",
    "town": "Durham",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2421,7 +2408,8 @@
    "st": "NC",
    "town": "Charlotte",
    "score": 10,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -2432,7 +2420,8 @@
    "st": "NC",
    "town": "Indian Trail",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2449,7 +2438,8 @@
    "st": "NC",
    "town": "Wilmington",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2466,7 +2456,8 @@
    "st": "NC",
    "town": "Asheville",
    "score": 8,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2477,7 +2468,8 @@
    "st": "NC",
    "town": "Westgate Parkway Asheville",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -2488,7 +2480,20 @@
    "st": "NC",
    "town": "Seagrove",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
+  },
+  "osm": null
+ },
+ {
+  "st": "NC",
+  "id": "smoke-in-the-mountains-pottery",
+  "loc": {
+   "st": "NC",
+   "town": "Brasstown",
+   "score": 6,
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2499,7 +2504,8 @@
    "st": "SD",
    "town": "Street Sioux Falls",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   }
  },
  {
@@ -2507,7 +2513,7 @@
   "id": "north-dakota-state-university",
   "loc": null,
   "osm": {
-   "name": "North Dakota State University, 18th Street North, Fargo, Cass County, North Dakota, 58102, United States",
+   "name": "North Dakota State University, Albrecht Boulevard, Roosevelt/NDSU, Fargo, Cass County, North Dakota, 58105, United State",
    "type": "university"
   }
  },
@@ -2518,21 +2524,12 @@
    "st": "ND",
    "town": "Bismarck",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
-   "name": "Bismarck State College, Edwards Avenue, Bismarck, Burleigh County, North Dakota, 58505, United States",
+   "name": "Bismarck State College, East Highland Acres Road, Bismarck, Burleigh County, North Dakota, 58505, United States",
    "type": "college"
-  }
- },
- {
-  "st": "ND",
-  "id": "mondak-heritage-center",
-  "loc": {
-   "st": "MT",
-   "town": "Sidney",
-   "score": 8,
-   "found": 1
   }
  },
  {
@@ -2548,7 +2545,8 @@
    "st": "NE",
    "town": "Omaha",
    "score": 30,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -2583,7 +2581,8 @@
    "st": "NE",
    "town": "Lincoln",
    "score": 27,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": {
    "name": "Lincoln, 277, Pinnacle Arena Drive, Haymarket, Lincoln, Lancaster County, Nebraska, 68508, United States",
@@ -2609,7 +2608,8 @@
    "st": "NH",
    "town": "Winchendon Rd. Rindge",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2620,7 +2620,8 @@
    "st": "NH",
    "town": "Portsmouth",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2637,23 +2638,14 @@
   "osm": null
  },
  {
-  "st": "NH",
-  "id": "truro-center-for-the-arts-at-castle-hill",
-  "loc": {
-   "st": "IN",
-   "town": "New Harmony",
-   "score": 10,
-   "found": 1
-  }
- },
- {
   "st": "NJ",
   "id": "new-jersey-academy-of-ceramic-art",
   "loc": {
    "st": "NJ",
    "town": "Jersey City",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2664,7 +2656,8 @@
    "st": "NJ",
    "town": "Wharton",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2705,7 +2698,8 @@
    "st": "NJ",
    "town": "Clinton",
    "score": 36,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -2725,13 +2719,26 @@
   }
  },
  {
+  "st": "NJ",
+  "id": "bisc-pottery-studio",
+  "loc": {
+   "st": "NJ",
+   "town": "Scotch Plains",
+   "score": 6,
+   "found": 1,
+   "ld": false
+  },
+  "osm": null
+ },
+ {
   "st": "NM",
   "id": "paseo-pottery",
   "loc": {
    "st": "NM",
    "town": "Santa Fe",
    "score": 12,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Paseo Pottery, 1273, Calle de Comercio, Santa Fe, Santa Fe County, New Mexico, 87505, United States",
@@ -2745,7 +2752,8 @@
    "st": "NM",
    "town": "Santa Fe",
    "score": 8,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2756,7 +2764,8 @@
    "st": "NM",
    "town": "Arroyo Seco",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Rottenstone Pottery Studio & Gallery, NM 150, Arroyo Seco, Taos County, New Mexico, 87514, United States",
@@ -2770,7 +2779,8 @@
    "st": "NM",
    "town": "Albuquerque",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2787,7 +2797,8 @@
    "st": "NM",
    "town": "Las Cruces",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2798,7 +2809,8 @@
    "st": "NM",
    "town": "Silver City",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2815,7 +2827,8 @@
    "st": "NV",
    "town": "Tuscarora",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Tuscarora Pottery School, 138, Main Street, Tuscarora, Elko County, Nevada, 89834, United States",
@@ -2865,7 +2878,8 @@
    "st": "NY",
    "town": "Long Island City",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2876,7 +2890,8 @@
    "st": "NY",
    "town": "Cold Spring",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2887,7 +2902,8 @@
    "st": "NY",
    "town": "New York",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2904,11 +2920,12 @@
    "st": "NY",
    "town": "Salem",
    "score": 14,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
-   "name": "Salem Art Works, Vincent Lane, Town of Salem, Washington County, New York, 12865, United States",
-   "type": "arts_centre"
+   "name": "Salem Art Works, Stanton Hill Road, Town of Salem, Washington County, New York, 12865, United States",
+   "type": "art"
   }
  },
  {
@@ -2948,7 +2965,8 @@
    "st": "NY",
    "town": "Old Forge",
    "score": 8,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2971,7 +2989,8 @@
    "st": "NY",
    "town": "Amagansett",
    "score": 12,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -2982,7 +3001,8 @@
    "st": "CA",
    "town": "Drive Culver City",
    "score": 4,
-   "found": 9
+   "found": 9,
+   "ld": false
   }
  },
  {
@@ -3001,10 +3021,11 @@
    "st": "NY",
    "town": "Brooklyn",
    "score": 14,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": {
-   "name": "Choplet Ceramic Studio & Gallery, Grand Street, Williamsburg, Brooklyn, Kings County, New York, 11211, United States",
+   "name": "Choplet Ceramic Studio & Gallery, 121, Meserole Avenue, Greenpoint, Brooklyn, Kings County, New York, 11222, United Stat",
    "type": "pottery"
   }
  },
@@ -3015,7 +3036,8 @@
    "st": "NY",
    "town": "Kew Gardens",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "The Potter's Wheel, 120-33, 83rd Avenue, Queens, Queens County, New York, 11415, United States",
@@ -3047,7 +3069,8 @@
    "st": "OH",
    "town": "Main Street Perry",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3082,7 +3105,8 @@
    "st": "OK",
    "town": "Oklahoma City",
    "score": 30,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -3099,7 +3123,8 @@
    "st": "OK",
    "town": "Tulsa",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Downtown Tulsa, Tulsa, Oklahoma, 74103, United States",
@@ -3122,7 +3147,8 @@
    "st": "OK",
    "town": "Oklahoma City",
    "score": 12,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Oklahoma Contemporary Arts Center, 11, Northwest 11th Street, Oklahoma City, Oklahoma County, Oklahoma, 73101, United St",
@@ -3142,7 +3168,8 @@
    "st": "OK",
    "town": "Tulsa",
    "score": 8,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3159,7 +3186,8 @@
    "st": "OK",
    "town": "Tulsa",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "3rd Street Clayworks Teaching Studio, Charles Page Boulevard, Tulsa, Oklahoma, 74127, United States",
@@ -3173,7 +3201,8 @@
    "st": "OK",
    "town": "Norman",
    "score": 5,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -3205,7 +3234,8 @@
    "st": "OR",
    "town": "Portland",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3216,7 +3246,8 @@
    "st": "OR",
    "town": "Salem",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3239,7 +3270,8 @@
    "st": "OR",
    "town": "Albany",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -3256,7 +3288,8 @@
    "st": "OR",
    "town": "High Street Gardiner",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3276,7 +3309,8 @@
    "st": "PA",
    "town": "Philadelphia",
    "score": 8,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3287,7 +3321,8 @@
    "st": "PA",
    "town": "Philadelphia",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3298,7 +3333,8 @@
    "st": "PA",
    "town": "Richboro",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3315,7 +3351,8 @@
    "st": "PA",
    "town": "Lancaster",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Lancaster Creative Factory, 580 REAR, South Prince Street, Southside, Lancaster, Lancaster County, Pennsylvania, 17603, ",
@@ -3338,7 +3375,8 @@
    "st": "PA",
    "town": "Sarah Street Pittsburgh",
    "score": 8,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3349,7 +3387,8 @@
    "st": "PA",
    "town": "PACA Building Erie",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -3360,7 +3399,8 @@
    "st": "PA",
    "town": "Bethlehem",
    "score": 21,
-   "found": 2
+   "found": 2,
+   "ld": true
   },
   "osm": {
    "name": "Northampton County Community College, Bethlehem Township, Northampton County, Pennsylvania, 18020, United States",
@@ -3386,20 +3426,37 @@
   "osm": null
  },
  {
-  "st": "RI",
-  "id": "ri-creations",
-  "loc": null,
+  "st": "PA",
+  "id": "community-arts-center-ks",
+  "loc": {
+   "st": "PA",
+   "town": "Wallingford",
+   "score": 21,
+   "found": 1,
+   "ld": true
+  },
+  "osm": {
+   "name": "Community Arts Center, 414, Plush Mill Road, Pendle Hill, South Media, Nether Providence Township, Delaware County, Penn",
+   "type": "yes"
+  }
+ },
+ {
+  "st": "PA",
+  "id": "business-ligonier",
+  "loc": {
+   "st": "PA",
+   "town": "Ligonier",
+   "score": 6,
+   "found": 1,
+   "ld": false
+  },
   "osm": null
  },
  {
   "st": "RI",
-  "id": "studio-channel-islands",
-  "loc": {
-   "st": "CA",
-   "town": "Camarillo",
-   "score": 92,
-   "found": 2
-  }
+  "id": "ri-creations",
+  "loc": null,
+  "osm": null
  },
  {
   "st": "RI",
@@ -3414,7 +3471,8 @@
    "st": "SC",
    "town": "Greenville",
    "score": 36,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -3440,7 +3498,8 @@
    "st": "FL",
    "town": "Brooksville",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   }
  },
  {
@@ -3450,7 +3509,8 @@
    "st": "SC",
    "town": "Hilton Head Island",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3473,11 +3533,12 @@
    "st": "TN",
    "town": "Gatlinburg",
    "score": 5,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": {
    "name": "Alewine Pottery, Glades Road, Glade, Gatlinburg, Sevier County, East Tennessee, Tennessee, 37738, United States",
-   "type": "bus_stop"
+   "type": "pottery"
   }
  },
  {
@@ -3487,7 +3548,8 @@
    "st": "TN",
    "town": "Knoxville",
    "score": 48,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3498,7 +3560,8 @@
    "st": "TN",
    "town": "Nashville",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3509,7 +3572,8 @@
    "st": "TN",
    "town": "Antioch",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3538,7 +3602,20 @@
    "st": "TN",
    "town": "Knoxville",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
+  },
+  "osm": null
+ },
+ {
+  "st": "TN",
+  "id": "canton-clay-works-ct",
+  "loc": {
+   "st": "TN",
+   "town": "PEGRAM",
+   "score": 4,
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -3549,7 +3626,8 @@
    "st": "TX",
    "town": "McPhaul St Austin",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3572,7 +3650,8 @@
    "st": "TX",
    "town": "Houston",
    "score": 10,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -3583,7 +3662,8 @@
    "st": "TX",
    "town": "Houston",
    "score": 4,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -3594,7 +3674,8 @@
    "st": "TX",
    "town": "Houston",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3605,7 +3686,8 @@
    "st": "TX",
    "town": "Katy",
    "score": 2,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -3616,7 +3698,8 @@
    "st": "TX",
    "town": "Dallas",
    "score": 10,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -3633,7 +3716,8 @@
    "st": "TX",
    "town": "Willow Park",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -3644,7 +3728,8 @@
    "st": "TX",
    "town": "San Antonio",
    "score": 8,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Roadrunner Ceramics, 12747, Cimarron Path, San Antonio, Bexar County, Texas, 78249, United States",
@@ -3667,7 +3752,8 @@
    "st": "TX",
    "town": "Lubbock",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3702,7 +3788,8 @@
    "st": "UT",
    "town": "Orem",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3713,7 +3800,8 @@
    "st": "UT",
    "town": "Draper",
    "score": 10,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": null
  },
@@ -3763,7 +3851,8 @@
    "st": "UT",
    "town": "Ephraim",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Granary Arts, 85, Main Street, Ephraim, Sanpete County, Utah, 84627, United States",
@@ -3795,7 +3884,8 @@
    "st": "VA",
    "town": "Berryville",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3806,7 +3896,8 @@
    "st": "VA",
    "town": "Richmond",
    "score": 6,
-   "found": 2
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -3817,11 +3908,27 @@
    "st": "VA",
    "town": "Lynchburg",
    "score": 14,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Academy Center of the Arts, 600, Main Street, Court House Hill, Downtown, Lynchburg, Virginia, 24504, United States",
    "type": "theatre"
+  }
+ },
+ {
+  "st": "VA",
+  "id": "workhouse-arts-center",
+  "loc": {
+   "st": "VA",
+   "town": "Workhouse Way Lorton",
+   "score": 6,
+   "found": 1,
+   "ld": false
+  },
+  "osm": {
+   "name": "Workhouse Arts Center, Workhouse Way, Lorton, Fairfax County, Virginia, 22125, United States",
+   "type": "arts_centre"
   }
  },
  {
@@ -3831,7 +3938,8 @@
    "st": "VT",
    "town": "Montpelier",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3854,7 +3962,8 @@
    "st": "VT",
    "town": "Woodstock",
    "score": 4,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Farmhouse Pottery, 1837, West Woodstock Road, West Woodstock, Woodstock, Windsor County, Vermont, 05091, United States",
@@ -3868,7 +3977,8 @@
    "st": "IL",
    "town": "Chicago",
    "score": 122,
-   "found": 2
+   "found": 2,
+   "ld": true
   }
  },
  {
@@ -3890,7 +4000,8 @@
    "st": "VT",
    "town": "Manchester",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3916,7 +4027,8 @@
    "st": "WA",
    "town": "Seattle",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -3942,7 +4054,8 @@
    "st": "WA",
    "town": "Tacoma",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Tacoma Clay, 2333, Tacoma Avenue South, McCarver Neighborhood, Brewery District, Tacoma, Pierce County, Washington, 9840",
@@ -3962,7 +4075,8 @@
    "st": "WA",
    "town": "Spokane",
    "score": 7,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": {
    "name": "The Clay Connection, East 1st Avenue, University District, Spokane, Spokane County, Washington, 99202, United States",
@@ -3982,7 +4096,8 @@
    "st": "WA",
    "town": "Port Angeles",
    "score": 28,
-   "found": 1
+   "found": 1,
+   "ld": true
   },
   "osm": {
    "name": "Olympic Coast Creative, East 1st Street, Port Angeles, Clallam County, Washington, 98362, United States",
@@ -3996,7 +4111,32 @@
    "st": "WA",
    "town": "Seaview",
    "score": 42,
-   "found": 1
+   "found": 1,
+   "ld": true
+  },
+  "osm": null
+ },
+ {
+  "st": "WA",
+  "id": "yu-tang-ceramics",
+  "loc": {
+   "st": "WA",
+   "town": "Avenue North Seattle",
+   "score": 6,
+   "found": 1,
+   "ld": false
+  },
+  "osm": null
+ },
+ {
+  "st": "WA",
+  "id": "eastside-pottery",
+  "loc": {
+   "st": "WA",
+   "town": "Bellevue",
+   "score": 8,
+   "found": 2,
+   "ld": false
   },
   "osm": null
  },
@@ -4007,7 +4147,8 @@
    "st": "WI",
    "town": "St. Beaver Dam",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Art on the Town: The Studio, 127, Front Street, Downtown Beaver Dam, Beaver Dam, Dodge County, Wisconsin, 53916, United ",
@@ -4027,7 +4168,8 @@
    "st": "WI",
    "town": "Green Bay",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -4038,7 +4180,8 @@
    "st": "WI",
    "town": "Mineral Point",
    "score": 8,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -4067,7 +4210,8 @@
    "st": "MN",
    "town": "Lindstrom",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   }
  },
  {
@@ -4119,7 +4263,8 @@
    "st": "WI",
    "town": "Racine",
    "score": 22,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -4131,22 +4276,13 @@
  },
  {
   "st": "WV",
-  "id": "business-ligonier",
-  "loc": {
-   "st": "PA",
-   "town": "Ligonier",
-   "score": 6,
-   "found": 1
-  }
- },
- {
-  "st": "WV",
   "id": "damian-grava",
   "loc": {
    "st": "WA",
    "town": "Seattle",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   }
  },
  {
@@ -4168,7 +4304,8 @@
    "st": "WV",
    "town": "Parkersburg",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
    "name": "Parkersburg Art Center, 725, Market Street, Julia-Ann Square Historic District, Parkersburg, Wood County, West Virginia,",
@@ -4182,7 +4319,8 @@
    "st": "WV",
    "town": "Parkersburg",
    "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": null
  },
@@ -4193,17 +4331,8 @@
    "st": "PA",
    "town": "Mill Road Wallingford",
    "score": 2,
-   "found": 1
-  }
- },
- {
-  "st": "WY",
-  "id": "workhouse-arts-center",
-  "loc": {
-   "st": "VA",
-   "town": "Workhouse Way Lorton",
-   "score": 6,
-   "found": 1
+   "found": 1,
+   "ld": false
   }
  },
  {
@@ -4219,11 +4348,12 @@
    "st": "WY",
    "town": "Cheyenne",
    "score": 2,
-   "found": 1
+   "found": 1,
+   "ld": false
   },
   "osm": {
-   "name": "Laramie County Community College, East College Drive, Fox Farm-College, Laramie County, Wyoming, 82097, United States",
-   "type": "college"
+   "name": "Laramie County Community College, 1400, East College Drive, Cheyenne, Laramie County, Wyoming, 82007, United States",
+   "type": "school"
   }
  },
  {

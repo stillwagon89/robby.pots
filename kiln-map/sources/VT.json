@@ -83,7 +83,7 @@
         "town": "Montpelier",
         "score": 6,
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     },
@@ -128,7 +128,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       }
     },
     {
@@ -184,7 +184,7 @@
       "lng": -73.30248,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       }
     },
     {
@@ -244,56 +244,7 @@
         "town": "Woodstock",
         "score": 4,
         "osm": true,
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "distinguished-teaching",
-      "org": "Distinguished Teaching",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Burlington",
-      "city": "Burlington",
-      "urls": [
-        "https://distinguishedteaching.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Burlington, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://distinguishedteaching.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "distinguishedteaching.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text mentions a soda kiln and describes pottery instruction, but does not explicitly state that public outsiders can book, sign up for, or participate in an actual firing event.",
-        "types": {
-          "soda": "how to apply them to achieve color in the soda kiln."
-        },
-        "state": "VT",
-        "town": "Burlington"
-      },
-      "weak": true,
-      "lat": 44.47616,
-      "lng": -73.21291,
-      "located": {
-        "state": "IL",
-        "town": "Chicago",
-        "score": 122,
-        "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       }
     },
     {
@@ -348,7 +299,7 @@
       "lng": -72.55729,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     },
@@ -405,7 +356,7 @@
       "lng": -73.16723,
       "located": {
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     },
@@ -463,7 +414,7 @@
         "town": "Manchester",
         "score": 2,
         "osm": false,
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       },
       "weak": false
     }
@@ -512,6 +463,10 @@
     {
       "id": "burlington-potters-guild",
       "why": "Second check (gemma4-local): The text only mentions booking electric and gas kilns and does not mention any other non-electric firing types for the public. (2026-10-07)"
+    },
+    {
+      "id": "distinguished-teaching",
+      "why": "Its own pages give an address in IL (Chicago), not VT. Moved. (2026-10-08)"
     }
   ]
 }

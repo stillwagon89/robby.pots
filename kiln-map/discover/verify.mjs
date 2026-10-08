@@ -31,10 +31,10 @@ const SCHEMA = {
 };
 const PROMPT = `You fact-check one listing for a map of places where the PUBLIC can take part in a NON-electric ceramic firing.
 Read ONLY the page text given. Do not use outside knowledge.
-verdict "yes": the text shows outsiders (not only enrolled students or existing members) can join, book or sign up for at least one raku, wood/anagama, soda, salt, pit/barrel/saggar or gas-reduction firing, via a workshop, class, membership, rental, firing service or appointment.
+verdict "yes": the text shows outsiders (not only enrolled students or existing members) can join, book or sign up for at least one raku, wood/anagama, soda, salt, pit/barrel/saggar or gas-reduction firing, via a workshop, class, membership, rental, firing service, appointment, or an open invitation to email/contact them to join a firing (an open invitation COUNTS as public access).
 verdict "no": electric-only, paint-your-own, a directory/blog/shop that runs no firings, a school with students only, or nothing about such firings.
 verdict "unclear": hints but cannot tell.
-"types": list ONLY firing types for which you can copy a sentence word for word from the text that names that firing method. No sentence naming it = leave it out. Never guess.
+"types": list ONLY firing types where you can copy a sentence word for word showing a way for outsiders to take part in THAT firing type (class, workshop, membership, rental, firing service, or an invitation to contact them to join). A bare mention of a technique (e.g. a menu item, a photo caption, "we also do raku") does not count. No such sentence = leave it out. Never guess.
 "state_on_page": the two-letter state where THIS place itself is located, taken from its own address or contact details (not from where an instructor, event, or other site is). Empty string if the text does not say. "town_on_page" and "street_address": same rule.`;
 
 const POOL = (process.env.VERIFY_MODELS || "gemma-4-31b-it,gemini-3.1-flash-lite,gemini-3.5-flash-lite,gemini-3-flash-preview,gemma-4-26b-a4b-it").split(",");
@@ -159,7 +159,13 @@ if (APPLY) {
       if (!stOk && j.v.verdict !== "no" && STATES[dstCode] && dstCode !== j.ST) rehome.push({ to: dstCode, s: { ...j.s, verify: { by: j.v.model || MODEL, date: TODAY, verdict: j.v.verdict, why: j.v.why, types: j.v.types, state: dstCode, town: j.v.town || "" } } });
       j.doc.sources = j.doc.sources.filter((x) => x !== j.s);
     } else {
-      if (types.length) { j.s.firing_types_guess = types; if (j.s.access) j.s.access.types = types; }
+      if (types.length) {
+        j.s.firing_types_guess = types; if (j.s.access) j.s.access.types = types;
+        // Link people straight to the page that talks about the firing, not the homepage.
+        const q = norm(Object.values(j.v.types)[0]);
+        const pg = Object.entries(j.p.pages).find(([, t]) => norm(t).includes(q));
+        if (pg && j.s.access) j.s.access.url = pg[0];
+      }
       if (j.v.verdict !== "yes" || !types.length || !(j.v.town || j.s.city)) j.s.weak = true;
       if (j.v.town && !j.s.city) { j.s.city = j.v.town; j.s.region = j.v.town; j.s.geocode = `${j.v.town}, ${stateName(j.ST)}`; }
     }
