@@ -17,6 +17,5 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 10 | Eastern Shore Art Center | Fairhope | wood | Classes or membership | maria-pots.com |
 | 11 | Department of Art & Art History | Auburn | raku, gas_reduction | Classes or membership | cla.auburn.edu |
 | 12 | MudFire Pottery Studio | Decatur | raku, soda | Classes or membership | scienceatl.org |
-| 13 | MudFire Pottery Studio and Gallery | ? | raku, soda | Classes or membership | mudfire.com |
-| 14 | Shelby County Arts Council | ? | raku | See site | shelbycountyartscouncil.com |
-| 15 | University of Montevallo | Montevallo | wood | See site | flashandash.com |
+| 13 | Shelby County Arts Council | ? | raku | See site | shelbycountyartscouncil.com |
+| 14 | University of Montevallo | Montevallo | wood | See site | flashandash.com |

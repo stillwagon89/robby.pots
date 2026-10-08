@@ -13,3 +13,9 @@
 6. **Test the cheap thing first** on 1–2 units before launching a multi-hour run; patch, then launch once (the overnight run was
    restarted three times, losing ~40 minutes).
 7. **Commit + hand over a plain status** at least every 2 hours of unattended work.
+
+## Publishing guard (added 2026-10-08)
+`npm run kiln:build` is the PUBLIC build: it leaves out every source with `review: "pending"` or `weak`. `npm run kiln:build:dev`
+(= `KILN_DEV=1`) includes them for the dev map. The review branch commits the DEV build. **Before merging anything to main, run
+`npm run kiln:build` and commit that firings.json**, so only approved places go live. Approve places with
+`node kiln-map/discover/approve.mjs ST [--reject 3,7]` (numbers from REVIEW-SOLID.md).

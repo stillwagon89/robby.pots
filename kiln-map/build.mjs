@@ -16,7 +16,10 @@ const OUT = join(ROOT, "..", "site", "data", "firings.json");
 const TODAY = new Date().toISOString().slice(0, 10); // generation date only; "past" uses each place's local date
 const read = (f) => JSON.parse(readFileSync(f, "utf8"));
 
-const sources = loadSources();
+// Public build: places still awaiting Robby's review (review: "pending") and unconfirmed ones (weak) stay off the map.
+// KILN_DEV=1 includes them for the dev map.
+const DEV = process.env.KILN_DEV === "1";
+const sources = loadSources().filter((s) => DEV || (s.review !== "pending" && !s.weak));
 const approvedDir = join(ROOT, "data", "approved");
 const approved = existsSync(approvedDir) ? readdirSync(approvedDir).filter((f) => f.endsWith(".json")).map((f) => read(join(approvedDir, f))) : [];
 
