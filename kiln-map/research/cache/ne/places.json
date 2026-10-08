@@ -1275,10 +1275,15 @@
         "url": "https://www.saydosay.com/",
         "title": "SayDoSay Pottery Studio",
         "snippet": "• 10 pounds of clay • Glaze and firing • Open studio access every Saturday 12-3 PM throughout your 4-week enrollment All skill levels welcome — whether you've never touched clay or you're looking to refine your technique, this workshop is for you. Ready to get started? Give us a call to get set up (402) 937-1575"
+      },
+      {
+        "q": "osm",
+        "url": "https://www.saydosay.com/",
+        "title": "Say Do Say Pottery Studio",
+        "snippet": "OpenStreetMap: Say Do Say Pottery Studio Lincoln NE"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "SayDoSay Pottery Studio",
       "city": "",
@@ -1293,7 +1298,13 @@
       "quote_verified": false,
       "secs": 8,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "Say Do Say Pottery Studio",
+      "city": "Lincoln",
+      "state": "NE"
+    },
+    "fetched": true
   },
   "truepottery.com": {
     "key": "truepottery.com",
@@ -3913,6 +3924,269 @@
       "reason": "known place in OH",
       "auto": true,
       "state_on_page": false
+    }
+  },
+  "memorialcommunityhealth.org": {
+    "key": "memorialcommunityhealth.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.memorialcommunityhealth.org/health-clinics/",
+        "title": "Clay Center Community Medical Clinic",
+        "snippet": "OpenStreetMap: Clay Center Community Medical Clinic Clay Center"
+      }
+    ],
+    "pages": {
+      "https://www.memorialcommunityhealth.org/": "",
+      "https://memorialcommunityhealth.org/services/": "",
+      "https://memorialcommunityhealth.org/services/health-clinics/": "",
+      "https://memorialcommunityhealth.org/services/health-clinics/acute-care/": "",
+      "https://www.memorialcommunityhealth.org/health-clinics/": ""
+    },
+    "osm": {
+      "name": "Clay Center Community Medical Clinic",
+      "city": "Clay Center"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claycenterdentalclinic.com": {
+    "key": "claycenterdentalclinic.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claycenterdentalclinic.com/",
+        "title": "Clay Center Dental Clinic",
+        "snippet": "OpenStreetMap: Clay Center Dental Clinic Clay Center"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Clay Center Dental Clinic",
+      "city": "Clay Center"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "nebraskahistory.org": {
+    "key": "nebraskahistory.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.nebraskahistory.org/publish/markers/texts/clay_center.htm",
+        "title": "Clay Center",
+        "snippet": "OpenStreetMap: Clay Center"
+      }
+    ],
+    "pages": {
+      "https://www.nebraskahistory.org/": "",
+      "https://www.nebraskahistory.org/publish/markers/texts/clay_center.htm": ""
+    },
+    "osm": {
+      "name": "Clay Center"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "libraries.ne.gov": {
+    "key": "libraries.ne.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "http://libraries.ne.gov/claycenter/",
+        "title": "Clay Center Public Library",
+        "snippet": "OpenStreetMap: Clay Center Public Library Clay Center"
+      }
+    ],
+    "pages": {
+      "http://libraries.ne.gov/": "",
+      "http://libraries.ne.gov/claycenter/": ""
+    },
+    "osm": {
+      "name": "Clay Center Public Library",
+      "city": "Clay Center"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "paintyourselfsilly.net": {
+    "key": "paintyourselfsilly.net",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.paintyourselfsilly.net",
+        "title": "Paint Yourself Silly",
+        "snippet": "OpenStreetMap: Paint Yourself Silly Lincoln NE"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Paint Yourself Silly",
+      "city": "Lincoln",
+      "state": "NE"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "waterdata.usgs.gov": {
+    "key": "waterdata.usgs.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://waterdata.usgs.gov/monitoring-location/410800095542601",
+        "title": "Bellevue Drain at Clay Street",
+        "snippet": "OpenStreetMap: Bellevue Drain at Clay Street"
+      }
+    ],
+    "pages": {
+      "https://waterdata.usgs.gov/": "",
+      "https://waterdata.usgs.gov/monitoring-location/410800095542601": ""
+    },
+    "osm": {
+      "name": "Bellevue Drain at Clay Street"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claycounty.ne.gov": {
+    "key": "claycounty.ne.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://claycounty.ne.gov/",
+        "title": "Clay County Courthouse",
+        "snippet": "OpenStreetMap: Clay County Courthouse Clay Center"
+      }
+    ],
+    "pages": {
+      "https://claycounty.ne.gov/": "",
+      "https://claycounty.ne.gov/veterans-services/": "",
+      "https://claycounty.ne.gov/events/": "",
+      "https://claycounty.ne.gov/dmv-services/": ""
+    },
+    "osm": {
+      "name": "Clay County Courthouse",
+      "city": "Clay Center"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "hotshopsartcenter.org": {
+    "key": "hotshopsartcenter.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://hotshopsartcenter.org/",
+        "title": "Hot Shops Art Center",
+        "snippet": "OpenStreetMap: Hot Shops Art Center Omaha NE"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Hot Shops Art Center",
+      "city": "Omaha",
+      "state": "NE"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "craftwareusa.com": {
+    "key": "craftwareusa.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://craftwareusa.com",
+        "title": "Craft-Ware Pottery Co",
+        "snippet": "OpenStreetMap: Craft-Ware Pottery Co Omaha NE"
+      }
+    ],
+    "pages": {
+      "https://craftwareusa.com/": "",
+      "https://craftwareusa.com": ""
+    },
+    "osm": {
+      "name": "Craft-Ware Pottery Co",
+      "city": "Omaha",
+      "state": "NE"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "whiteclayredo.com": {
+    "key": "whiteclayredo.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://whiteclayredo.com/",
+        "title": "Whiteclay Makerspace & Trading Post",
+        "snippet": "OpenStreetMap: Whiteclay Makerspace & Trading Post"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Whiteclay Makerspace & Trading Post"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

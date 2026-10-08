@@ -4154,5 +4154,145 @@
       "secs": 20,
       "state_on_page": false
     }
+  },
+  "paintnstation.com": {
+    "key": "paintnstation.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.paintnstation.com/",
+        "title": "Paint'n Station",
+        "snippet": "OpenStreetMap: Paint'n Station Oklahoma City OK"
+      }
+    ],
+    "pages": {
+      "https://www.paintnstation.com/": "",
+      "https://www.paintnstation.com/events-and-classes-at-paintnstation.html": "",
+      "https://www.paintnstation.com/offsite-events-by-paintnstation.html": ""
+    },
+    "osm": {
+      "name": "Paint'n Station",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "waterdata.usgs.gov": {
+    "key": "waterdata.usgs.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://waterdata.usgs.gov/monitoring-location/07335790",
+        "title": "Kiamichi River near Clayton",
+        "snippet": "OpenStreetMap: Kiamichi River near Clayton"
+      }
+    ],
+    "pages": {
+      "https://waterdata.usgs.gov/": "",
+      "https://waterdata.usgs.gov/monitoring-location/07335790": ""
+    },
+    "osm": {
+      "name": "Kiamichi River near Clayton"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "tools.usps.com": {
+    "key": "tools.usps.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://tools.usps.com/locations/details/1358256",
+        "title": "Clayton Post Office",
+        "snippet": "OpenStreetMap: Clayton Post Office Clayton OK"
+      }
+    ],
+    "pages": {
+      "https://tools.usps.com/locations/details/1358256": ""
+    },
+    "osm": {
+      "name": "Clayton Post Office",
+      "city": "Clayton",
+      "state": "OK"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "frankomapottery.com": {
+    "key": "frankomapottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.frankomapottery.com/",
+        "title": "Frankoma Pottery",
+        "snippet": "OpenStreetMap: Frankoma Pottery Glenpool OK"
+      }
+    ],
+    "pages": {
+      "https://www.frankomapottery.com/": "",
+      "https://frankomapottery.com/books/": ""
+    },
+    "osm": {
+      "name": "Frankoma Pottery",
+      "city": "Glenpool",
+      "state": "OK"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claytonmuskogee.com": {
+    "key": "claytonmuskogee.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claytonmuskogee.com/",
+        "title": "Clayton Homes",
+        "snippet": "OpenStreetMap: Clayton Homes Muskogee OK"
+      }
+    ],
+    "pages": {
+      "https://www.claytonmuskogee.com/": "",
+      "https://www.claytonmuskogee.com/news-events": "",
+      "https://www.claytonmuskogee.com/event/protecting-our-customers-from-fraud": "",
+      "https://www.claytonmuskogee.com/news/like-us-on-faceboo-4756": ""
+    },
+    "osm": {
+      "name": "Clayton Homes",
+      "city": "Muskogee",
+      "state": "OK"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
   }
 }

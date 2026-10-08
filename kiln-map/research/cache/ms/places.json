@@ -4299,5 +4299,58 @@
       "auto": true,
       "state_on_page": false
     }
+  },
+  "hattiesburgclinic.com": {
+    "key": "hattiesburgclinic.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "http://www.hattiesburgclinic.com/department/internal-medicine-dr-bridget-tah-clayton-2",
+        "title": "Hattiesburg Clinic Internal Medicine: Dr. Bridget Tah-Clayton",
+        "snippet": "OpenStreetMap: Hattiesburg Clinic Internal Medicine: Dr. Bridget Tah-Clayton Hattiesburg MS"
+      }
+    ],
+    "pages": {
+      "http://www.hattiesburgclinic.com/": "",
+      "https://www.hattiesburgclinic.com/services/": "",
+      "http://www.hattiesburgclinic.com/services/": "",
+      "https://www.hattiesburgclinic.com/news-seth-brown-providing-services-in-hattiesburg/": ""
+    },
+    "osm": {
+      "name": "Hattiesburg Clinic Internal Medicine: Dr. Bridget Tah-Clayton",
+      "city": "Hattiesburg",
+      "state": "MS"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claycountyms.com": {
+    "key": "claycountyms.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claycountyms.com/",
+        "title": "Clay County",
+        "snippet": "OpenStreetMap: Clay County"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Clay County"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
   }
 }

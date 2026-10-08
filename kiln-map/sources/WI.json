@@ -1041,6 +1041,52 @@
         "osm": false,
         "date": "2026-10-08"
       }
+    },
+    {
+      "id": "simply-dunn-pottery",
+      "org": "Simply Dunn Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Street Menomonie",
+      "city": "Street Menomonie",
+      "urls": [
+        "https://simply-dunn.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Street Menomonie, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://simply-dunn.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "simply-dunn.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The page describes a pottery gallery and gift shop that sells finished wood-fired pottery but contains no information about public access to participate in firings, classes, workshops, or firing services.",
+        "types": {},
+        "state": "WI",
+        "town": "Menomonie"
+      },
+      "weak": true,
+      "located": {
+        "state": "WI",
+        "town": "Street Menomonie",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [

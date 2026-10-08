@@ -15,14 +15,14 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 8 | Earth Center Pottery | Richboro | raku, pit_barrel_saggar | Dated workshop or firing event | earthcenterpottery.com |
 | 9 | margueritahagan | Philadelphia | pit_barrel_saggar | By appointment | margueritahagan.com |
 | 10 | Union Project | Pittsburgh | raku, soda, gas_reduction | See site | claypittsburgh.org, unionproject.org |
-| 11 | Lancaster Creative Factory | Lancaster | wood, salt, soda | Classes or membership | lancastercreativefactory.org, discoverlancaster.com |
-| 12 | Allens Lane Art Center | Mount Airy | raku | Classes or membership | phillymag.com |
-| 13 | Yay Clay! | Philadelphia | raku, pit_barrel_saggar | Classes or membership | yayclay.com |
-| 14 | canvas.allenslane | Philadelphia | raku | Dated workshop or firing event | canvas.allenslane.org |
-| 15 | Fireborn Studios | Pittsburgh | wood | Classes or membership | fireborn.com |
-| 16 | Creek Road Pottery LLC | Laceyville | wood | Dated workshop or firing event | creekroadpottery.com |
-| 17 | Inspire Pottery Studio | Ephrata | wood | Classes or membership | lancasterpa.com |
-| 18 | Kilnjoy Ceramics | ? | soda, wood, pit_barrel_saggar, gas_reduction, raku | See site | kilnjoy.com |
+| 11 | Up In Smoke Pottery | ? | pit_barrel_saggar, raku, wood, soda, salt | Classes or membership | upinsmokepottery.com |
+| 12 | Lancaster Creative Factory | Lancaster | wood, salt, soda | Classes or membership | lancastercreativefactory.org, discoverlancaster.com |
+| 13 | Allens Lane Art Center | Mount Airy | raku | Classes or membership | phillymag.com |
+| 14 | Yay Clay! | Philadelphia | raku, pit_barrel_saggar | Classes or membership | yayclay.com |
+| 15 | canvas.allenslane | Philadelphia | raku | Dated workshop or firing event | canvas.allenslane.org |
+| 16 | Fireborn Studios | Pittsburgh | wood | Classes or membership | fireborn.com |
+| 17 | Creek Road Pottery LLC | Laceyville | wood | Dated workshop or firing event | creekroadpottery.com |
+| 18 | Inspire Pottery Studio | Ephrata | wood | Classes or membership | lancasterpa.com |
 | 19 | Lancaster Clay Studios LLC | Lancaster | gas_reduction | Classes or membership | lancasterclaystudios.com |
 | 20 | The Clay Studio | ? | soda | Dated workshop or firing event | public.theclaystudio.org |
 | 21 | Erie ClaySpace | Erie | raku | Dated workshop or firing event | erieclayspace.com |

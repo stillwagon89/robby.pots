@@ -26,3 +26,4 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 19 | RAM Wustum | Racine | raku | Dated workshop or firing event | ramart.org |
 | 20 | MSCR | Madison | wood | Classes or membership | mscr.org |
 | 21 | clayfestwi | ? | raku | Classes or membership | clayfestwi.com |
+| 22 | Simply Dunn Pottery | ? | wood, gas_reduction | See site | simply-dunn.com |

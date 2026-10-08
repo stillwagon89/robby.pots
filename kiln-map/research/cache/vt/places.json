@@ -387,10 +387,15 @@
         "url": "https://www.firsthousepottery.com/service-page/raku-firing",
         "title": "Raku firing - First House Pottery",
         "snippet": "Workshop Overview The one day workshop lets students explore traditional raku glazes, One & Two Step Slip Resist Naked Raku, Horse Hair and Obvara firings."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.firsthousepottery.com/",
+        "title": "First House Pottery",
+        "snippet": "OpenStreetMap: First House Pottery Underhill VT"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "First House Pottery",
       "city": "",
@@ -416,7 +421,13 @@
         "raku",
         "raku"
       ]
-    }
+    },
+    "osm": {
+      "name": "First House Pottery",
+      "city": "Underhill",
+      "state": "VT"
+    },
+    "fetched": true
   },
   "thirdbranchpotterysupply.com": {
     "key": "thirdbranchpotterysupply.com",
@@ -1261,10 +1272,15 @@
         "url": "https://www.farmhousepottery.com/pages/wheel-workshops",
         "title": "Wheel Workshops – Farmhouse Pottery",
         "snippet": "At our Woodstock, Vermont studio, our potters craft each piece by hand. We are a community that escapes the world of modern machinery and mass production and we’re darn proud of it."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.farmhousepottery.com/",
+        "title": "Farmhouse Pottery",
+        "snippet": "OpenStreetMap: Farmhouse Pottery Woodstock VT"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Farmhouse Pottery",
       "city": "Woodstock",
@@ -1287,7 +1303,13 @@
       "supported_types": [
         "raku"
       ]
-    }
+    },
+    "osm": {
+      "name": "Farmhouse Pottery",
+      "city": "Woodstock",
+      "state": "VT"
+    },
+    "fetched": true
   },
   "themudstudio.com": {
     "key": "themudstudio.com",
@@ -4430,6 +4452,84 @@
       "reason": "known place in MA",
       "auto": true,
       "state_on_page": false
+    }
+  },
+  "claysclothing.com": {
+    "key": "claysclothing.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claysclothing.com/hours-locations-and-contact-info/south-burlington/",
+        "title": "Clay's",
+        "snippet": "OpenStreetMap: Clay's South Burlington VT"
+      }
+    ],
+    "pages": {
+      "https://www.claysclothing.com/": ""
+    },
+    "osm": {
+      "name": "Clay's",
+      "city": "South Burlington",
+      "state": "VT"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "ladybugcreativevt.com": {
+    "key": "ladybugcreativevt.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.ladybugcreativevt.com/",
+        "title": "Ladybug Creative",
+        "snippet": "OpenStreetMap: Ladybug Creative Burlington VT"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Ladybug Creative",
+      "city": "Burlington",
+      "state": "VT"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "georgescatchardpottery.com": {
+    "key": "georgescatchardpottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://georgescatchardpottery.com/",
+        "title": "George Scatchard Pottery",
+        "snippet": "OpenStreetMap: George Scatchard Pottery  VT"
+      }
+    ],
+    "pages": {
+      "https://georgescatchardpottery.com/": ""
+    },
+    "osm": {
+      "name": "George Scatchard Pottery",
+      "state": "VT"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

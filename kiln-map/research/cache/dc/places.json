@@ -1986,6 +1986,12 @@
         "url": "https://allfiredupdc.com/",
         "title": "All Fired Up - Pottery Painting Studio",
         "snippet": "Welcome to All Fired Up! Independent and Woman-Owned Since 2004 Reserve Your Table Here. Pottery is ready in 7-10 days. Digital Gift Certificates Available for Instant Delivery! Fall & Holiday Happenings!"
+      },
+      {
+        "q": "osm",
+        "url": "https://allfiredupdc.com/",
+        "title": "All Fired Up",
+        "snippet": "OpenStreetMap: All Fired Up Washington DC"
       }
     ],
     "pages": {
@@ -1994,7 +2000,6 @@
       "https://allfiredupdc.com/about-all-fired-up/faqs/": "We are a paint-your-own-pottery studio also offering fused glass, mosaics, and acrylic painting (either on the pottery or on canvas).  During your time with us, you select the project you would like to do, and we will set you up with the appropriate materials depending on which type of project you are doing. Then a staff person will explain the process and answer any questions.\nYour pottery is ready depending on our kiln schedule (usually 7-10 days). Glass fusion projects can take longer to fire. Mosaics are taken home the same day as well as an acrylic painted piece/canvas. If you can’t finish your pottery in one visit, we will package up your piece for you to take with you and bring back any other time to finish for no extra charge. We can also pour paint ($1.50) per color) for you to take home if you’d like to finish at home. We don’t hold any unfinished pieces in the studio.\nPlease note:  We hold onto finished pottery for 30 day from the time we first text you for pick up.  If you cannot make it into the studio within that time frame, please call or email us and we can arrange to keep your pieces longer.\nI am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.\nWhat if I don't finish my piece?\nWe don’t hold any items unfinished. Any pieces you are working on and complete in the timeframe will be wrapped up and you will take them with you. Then you can come back to finish your work. Everything that is left in the studio gets glazed and fired in the kiln.\nHow long until I can pick up my pottery?\nTypically items are ready in 7-10 days. We will text you when your item(s) are ready for pick up.\n",
       "https://allfiredupdc.com/about-all-fired-up/gift-ideas/": ""
     },
-    "fetched": true,
     "judged": {
       "name": "All Fired Up",
       "city": "Washington",
@@ -2009,7 +2014,13 @@
       "quote_verified": true,
       "secs": 7,
       "state_on_page": false
-    }
+    },
+    "osm": {
+      "name": "All Fired Up",
+      "city": "Washington",
+      "state": "DC"
+    },
+    "fetched": true
   },
   "rakuasiandining.com": {
     "key": "rakuasiandining.com",
@@ -2969,16 +2980,25 @@
         "url": "https://sioceramics.com/collections",
         "title": "Collections – Sio Ceramics",
         "snippet": "Join the best pottery classes in DC at Sio Ceramics. Beginner-friendly workshops, date nights, and private events in Brookland, Washington, DC."
+      },
+      {
+        "q": "osm",
+        "url": "https://sioceramics.com/",
+        "title": "Sio Ceramics",
+        "snippet": "OpenStreetMap: Sio Ceramics"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "Sio Ceramics"
+    },
+    "fetched": true
   },
   "joehicksceramics.com": {
     "key": "joehicksceramics.com",
@@ -3527,6 +3547,135 @@
       "reason": "known place in OH",
       "auto": true,
       "state_on_page": false
+    }
+  },
+  "kuzehpottery.com": {
+    "key": "kuzehpottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.kuzehpottery.com/",
+        "title": "Kuzeh Pottery",
+        "snippet": "OpenStreetMap: Kuzeh Pottery"
+      }
+    ],
+    "pages": {
+      "https://www.kuzehpottery.com/": ""
+    },
+    "osm": {
+      "name": "Kuzeh Pottery"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "thehotelwashington.com": {
+    "key": "thehotelwashington.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.thehotelwashington.com/washington-dc-restaurants/fireclay",
+        "title": "Fireclay",
+        "snippet": "OpenStreetMap: Fireclay Washington DC"
+      }
+    ],
+    "pages": {
+      "https://www.thehotelwashington.com/": ""
+    },
+    "osm": {
+      "name": "Fireclay",
+      "city": "Washington",
+      "state": "DC"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "artsybeast.com": {
+    "key": "artsybeast.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.artsybeast.com/",
+        "title": "Artsy Beast",
+        "snippet": "OpenStreetMap: Artsy Beast Washington DC"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Artsy Beast",
+      "city": "Washington",
+      "state": "DC"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "theharp-dc.com": {
+    "key": "theharp-dc.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://theharp-dc.com/",
+        "title": "The Harp Cask & Kiln",
+        "snippet": "OpenStreetMap: The Harp Cask & Kiln Washington DC"
+      }
+    ],
+    "pages": {
+      "https://theharp-dc.com/": ""
+    },
+    "osm": {
+      "name": "The Harp Cask & Kiln",
+      "city": "Washington",
+      "state": "DC"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claytondc.com": {
+    "key": "claytondc.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "http://claytondc.com/",
+        "title": "The Clayton",
+        "snippet": "OpenStreetMap: The Clayton Washington DC"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "The Clayton",
+      "city": "Washington",
+      "state": "DC"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

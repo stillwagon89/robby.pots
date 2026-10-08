@@ -1,204 +1,36 @@
 [
  {
-  "st": "AZ",
-  "id": "mesa-arts-center",
+  "st": "WY",
+  "id": "muddy-mountain-pottery",
   "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "Mesa Arts Center offers public classes in both raku and soda firing that outsiders can register for, with clear enrollment pathways.",
-  "town": "Mesa",
-  "state": "AZ",
+  "verdict": "no",
+  "why": "The site is a pottery shop that sells finished raku-fired pieces and functional stoneware; there is no mention of classes, workshops, memberships, rentals, firing services, or invitations for outsiders to participate in any firings.",
+  "town": "Centennial",
+  "state": "WY",
+  "street": "",
+  "types": {}
+ },
+ {
+  "st": "WY",
+  "id": "art-association-of-jackson-hole",
+  "model": "claude-haiku-4.5",
+  "verdict": "unclear",
+  "why": "The page mentions gas-reduction firing capability and open studio passes, but does not explicitly state whether non-members or the general public can access the firings or must be members.",
+  "town": "Jackson Hole",
+  "state": "WY",
   "street": "",
   "types": {
-   "raku": "In this course, students will experience the exciting and unpredictable process of Raku firing.",
-   "soda": "Wheel Throwing: Cone 10 Soda Firing for the Kitchen : Intermediate to Advanced"
+   "gas_reduction": "We fire to Cone 10 reduction in two downdraft natural gas kilns"
   }
  },
  {
-  "st": "AZ",
-  "id": "thisistucson",
+  "st": "WY",
+  "id": "rod-dugal-ceramics",
   "model": "claude-haiku-4.5",
   "verdict": "no",
-  "why": "The page mentions raku pottery and ceramics classes but provides no information about public access to raku firings, only that an artist teaches hand-building and pottery classes at Tucson Parks and Recreation.",
-  "town": "Tucson",
-  "state": "AZ",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "anne-s-desert-studio",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page text contains only product descriptions and artist information with no mention of classes, workshops, memberships, rentals, firing services, or public access to firings.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "az-wildlife-gallery",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes AZ Wildlife Gallery as an art gallery and shop displaying various artworks including raku pottery, but provides no information about public access to firings, classes, workshops, or any way for outsiders to participate in ceramic firing activities.",
-  "town": "",
-  "state": "AZ",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "kenny-wayne",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The text mentions Kenny Wayne has given workshops for Pit Firing and Raku, and specializes in Raku, but does not explicitly state that outsiders can currently book or join these workshops.",
-  "town": "Yarnell",
-  "state": "AZ",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "arizona-clay-association",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page is a directory/blog listing community ceramics facilities and events, but contains no information about Arizona Clay Association itself offering public access to non-electric ceramic firings.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "cochise-college",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes a free public festival to watch pit firing, but contains no information about how outsiders can participate in or take part in the actual pit firing itself—only that they can attend as spectators.",
-  "town": "Douglas",
-  "state": "AZ",
-  "street": "4190 W. Highway 80",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "potteryclassess",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page is a blog/directory about pottery classes with no specific enrollment information, contact details, or booking mechanism for any actual firing workshops or classes at a real location.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "raku-gallery",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The search snippets describe Raku Gallery as a shop selling handmade raku and saggar-fired pottery, with no mention of classes, workshops, memberships, rentals, firing services, or invitations for outsiders to participate in firings.",
-  "town": "Jerome",
-  "state": "AZ",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "grand-clay-arts",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "The site offers multiple alternative firing classes and workshops open to all skill levels, including raku, naked raku, saggar, and obvara firings that outsiders can join.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {
-   "gas_reduction": "Students will fire pieces in the gas kiln on the patio."
-  }
- },
- {
-  "st": "AZ",
-  "id": "phgmag",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page is a magazine article about ceramicist Nicholas Bernard that mentions raku as his past work but contains no information about public access to firings, classes, workshops, memberships, or any way for outsiders to participate in ceramic firings.",
-  "town": "Scottsdale",
-  "state": "AZ",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "tu-kaets-studios",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes Tu Kaets Studios' firing process and environmental practices but contains no information about public access to classes, workshops, memberships, rentals, firing services, or invitations for outsiders to participate in any firing type.",
-  "town": "Tucson",
-  "state": "AZ",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "zonies-galleria-sedona",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes raku firing as a technique used by their artists but only sells finished pottery pieces; there is no indication that outsiders can participate in or book a raku firing workshop, class, or firing service.",
-  "town": "Sedona",
-  "state": "AZ",
-  "street": "215 AZ-89A, Sedona, AZ 86336",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "christopher-heede",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes Christopher Heede's ceramic artwork and techniques (raku, woodfire) but contains no information about public access to firings, workshops, classes, memberships, rentals, or firing services.",
-  "town": "Scottsdale",
-  "state": "AZ",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "heath-krieger",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page mentions raku firing as a demo but provides no information about public access, workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate in any firing.",
-  "town": "Prescott",
-  "state": "AZ",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "the-art-store",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The Art Store offers electric kiln firing services (cone 10) but no non-electric ceramic firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction).",
-  "town": "Prescott",
-  "state": "AZ",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "azhandmade",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page mentions raku firing as an artistic technique used by Alan Potter but provides no information about public access to raku firings, workshops, classes, memberships, rentals, or firing services. The ornament activity described involves kiln cooling, not ceramic firing participation.",
-  "town": "Bisbee",
-  "state": "AZ",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "AZ",
-  "id": "reitz-ranch-center-for-ceramic-arts",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The page mentions Virgil Ortiz's residency at Reitz Ranch and atmospheric firings including raku and soda-fired pieces, but does not explicitly state that outsiders can book, join, or sign up for firings there.",
-  "town": "Clarkdale",
-  "state": "AZ",
+  "why": "The text describes Rod Dugal's personal studio practice with a hybrid wood/soda kiln but contains no information about public access to workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate in firings.",
+  "town": "Sheridan",
+  "state": "WY",
   "street": "",
   "types": {}
  }

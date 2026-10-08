@@ -3980,7 +3980,8 @@
       "name": "LCCC Clay Pathfinder",
       "city": "Cheyenne",
       "state": "WY"
-    }
+    },
+    "fetched": true
   },
   "wyo4news.com": {
     "key": "wyo4news.com",
@@ -4442,9 +4443,20 @@
         "snippet": "OpenStreetMap: Clay Sturman Skateboard Park"
       }
     ],
-    "pages": {},
+    "pages": {
+      "https://www.cheyennecity.org/": "",
+      "https://www.cheyennecity.org/Your-Government/Departments/Community-Recreation-Events": "",
+      "https://www.cheyennecity.org/Your-Government/Departments/Cheyenne-Fire-Rescue": "Cheyenne Fire Rescue provides fire protection and prevention, emergency medical, and other life safety services for the City of Cheyenne.\nFormally created in 1909, the department has been protecting Cheyenne for more than 110 years. The department is staffed by more than 100 individuals with stations across the community. Cheyenne Fire Rescue aims to be a leader in fire and emergency services in the Front Range with an emphasis on service delivery, community engagement, and community risk reduction.\nTo learn more about Cheyenne Fire Rescue, visit http://cheyennefire.org .\nDepartment Head\n",
+      "https://www.cheyennecity.org/Services": ""
+    },
     "osm": {
       "name": "Clay Sturman Skateboard Park"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

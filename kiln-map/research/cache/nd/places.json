@@ -4123,6 +4123,12 @@
     "osm": {
       "name": "Prairie Fire Pottery",
       "city": "Beach"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   },
   "ccsclays.com": {
@@ -4137,11 +4143,22 @@
         "snippet": "OpenStreetMap: Capital City Sporting Clays Bismarck ND"
       }
     ],
-    "pages": {},
+    "pages": {
+      "https://ccsclays.com/": "",
+      "https://ccsclays.com/events": "",
+      "https://ccsclays.com/events/list/?shortcode=42cf1b8c": "",
+      "https://ccsclays.com/events/month/?shortcode=42cf1b8c": ""
+    },
     "osm": {
       "name": "Capital City Sporting Clays",
       "city": "Bismarck",
       "state": "ND"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

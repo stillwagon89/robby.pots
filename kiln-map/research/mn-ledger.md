@@ -21,3 +21,4 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 14 | Minnesota Clay | ? | raku | Classes or membership | mnclay.com |
 | 15 | Dick Cooter Pottery | Two Harbors | wood | Classes or membership | cooterpottery.com |
 | 16 | Tom S Pudic | Cokato | wood | See site | tsclayartgallery.com |
+| 17 | Beste's Sporting Clays and Pheasant Hunting Preserve | Sauk Centre | soda | See site | bestessportingclays.com |

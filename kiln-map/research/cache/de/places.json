@@ -1116,10 +1116,15 @@
         "url": "https://www.newcastlede.gov/2301/Pottery-Studio",
         "title": "Pottery Studio | New Castle County, DE - Official Website",
         "snippet": "Potery Studio is a creative hub specializing in artisanal pottery and handmade ceramics. Our skilled artisans blend traditional techniques with modern design, offering unique, high-quality pieces for both functional use and decor. We host workshops and events, inviting the community to explore the art of pottery and embrace their creativity."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.newcastlede.gov/298/Claymont-Library",
+        "title": "Claymont Public Library",
+        "snippet": "OpenStreetMap: Claymont Public Library Claymont DE"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Potery Studio",
       "city": "New Castle County",
@@ -1134,7 +1139,13 @@
       "quote_verified": false,
       "secs": 7,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "Claymont Public Library",
+      "city": "Claymont",
+      "state": "DE"
+    },
+    "fetched": true
   },
   "potterymason.com": {
     "key": "potterymason.com",
@@ -2599,19 +2610,31 @@
         "url": "https://romanickpottery.com/",
         "title": "Romanick Pottery",
         "snippet": "Creating the finest functional and decorative handcrafted stoneware since1994."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.romanickpottery.com",
+        "title": "Romanick Pottery",
+        "snippet": "OpenStreetMap: Romanick Pottery Newark DE"
       }
     ],
     "pages": {
       "https://romanickpottery.com/": "",
-      "https://romanickpottery.com/pottery-classes": ""
+      "https://romanickpottery.com/pottery-classes": "",
+      "https://www.romanickpottery.com": ""
     },
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": false
-    }
+    },
+    "osm": {
+      "name": "Romanick Pottery",
+      "city": "Newark",
+      "state": "DE"
+    },
+    "fetched": true
   },
   "aboutmybeaches.com": {
     "key": "aboutmybeaches.com",
@@ -3791,6 +3814,203 @@
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": false
+    }
+  },
+  "claymont13.com": {
+    "key": "claymont13.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claymont13.com",
+        "title": "Claymont Fire Company",
+        "snippet": "OpenStreetMap: Claymont Fire Company Claymont DE"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Claymont Fire Company",
+      "city": "Claymont",
+      "state": "DE"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claymontsteakshop.com": {
+    "key": "claymontsteakshop.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://claymontsteakshop.com",
+        "title": "Claymont Steak Shop",
+        "snippet": "OpenStreetMap: Claymont Steak Shop Newark DE"
+      }
+    ],
+    "pages": {
+      "https://claymontsteakshop.com/": "",
+      "https://claymontsteakshop.com/-events?source=header&spot_id=76845&destination=events&promotion=mlb_playoffs": "",
+      "https://claymontsteakshop.com/claymont-wilmington-claymont-steak-shop-events": "",
+      "https://claymontsteakshop.com": ""
+    },
+    "osm": {
+      "name": "Claymont Steak Shop",
+      "city": "Newark",
+      "state": "DE"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "waterdata.usgs.gov": {
+    "key": "waterdata.usgs.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://waterdata.usgs.gov/monitoring-location/01480025",
+        "title": "White Clay Creek at Stanton",
+        "snippet": "OpenStreetMap: White Clay Creek at Stanton"
+      }
+    ],
+    "pages": {
+      "https://waterdata.usgs.gov/": "",
+      "https://waterdata.usgs.gov/monitoring-location/01480025": ""
+    },
+    "osm": {
+      "name": "White Clay Creek at Stanton"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "wccpc.org": {
+    "key": "wccpc.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://wccpc.org",
+        "title": "White Clay Creek Presbyterian Church",
+        "snippet": "OpenStreetMap: White Clay Creek Presbyterian Church Newark DE"
+      }
+    ],
+    "pages": {
+      "https://wccpc.org/": "",
+      "https://wccpc.org/get-connected/events/": "",
+      "https://wccpc.org/be-involved/groups-and-classes/": "",
+      "https://wccpc.org/event/24478621-2026-10-16-mens-retreat-2026": "",
+      "https://wccpc.org": ""
+    },
+    "osm": {
+      "name": "White Clay Creek Presbyterian Church",
+      "city": "Newark",
+      "state": "DE"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "jce.irsd.net": {
+    "key": "jce.irsd.net",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://jce.irsd.net/",
+        "title": "John M Clayton Elementary School",
+        "snippet": "OpenStreetMap: John M Clayton Elementary School"
+      }
+    ],
+    "pages": {
+      "https://jce.irsd.net/": "",
+      "https://jce.irsd.net/o/jce/page/one-school-one-book": "",
+      "https://jce.irsd.net/o/jce/events": "",
+      "https://jce.irsd.net/events": ""
+    },
+    "osm": {
+      "name": "John M Clayton Elementary School"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claymont.brandywineschools.org": {
+    "key": "claymont.brandywineschools.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://claymont.brandywineschools.org/",
+        "title": "Claymont Elementary",
+        "snippet": "OpenStreetMap: Claymont Elementary Claymont DE"
+      }
+    ],
+    "pages": {
+      "https://claymont.brandywineschools.org/": "",
+      "https://claymont.brandywineschools.org/calendar": "",
+      "https://claymont.brandywineschools.org/classrooms": "",
+      "https://claymont.brandywineschools.org/classrooms/dual-language-immersion-at-claymont": ""
+    },
+    "osm": {
+      "name": "Claymont Elementary",
+      "city": "Claymont",
+      "state": "DE"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "destateparks.com": {
+    "key": "destateparks.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://destateparks.com/FieldsStreams/WhiteClayCreek",
+        "title": "White Clay Creek State Park",
+        "snippet": "OpenStreetMap: White Clay Creek State Park"
+      }
+    ],
+    "pages": {
+      "https://destateparks.com/": "",
+      "https://www.destateparks.com/programs/": "",
+      "https://destateparks.com/FieldsStreams/WhiteClayCreek": ""
+    },
+    "osm": {
+      "name": "White Clay Creek State Park"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

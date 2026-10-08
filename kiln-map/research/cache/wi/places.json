@@ -2314,10 +2314,15 @@
         "url": "https://www.midwestclayproject.com/",
         "title": "Home - Midwest Clay Project & Studios",
         "snippet": "With a welcoming staff and friendly artistic community, Midwest Clay Project provides a fully-stocked ceramics studio with plenty of equipment since 2011. We sell a variety of stoneware and porcelain clay bodies and mix a comprehensive palette of cone 6 oxidation studio glazes for use in our electric kilns."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.midwestclayproject.com/",
+        "title": "Midwest Clay Project & Studios",
+        "snippet": "OpenStreetMap: Midwest Clay Project & Studios Madison WI"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Midwest Clay Project & Studios",
       "city": "",
@@ -2339,7 +2344,13 @@
       "quote_verified": false,
       "secs": 5,
       "state_on_page": false
-    }
+    },
+    "osm": {
+      "name": "Midwest Clay Project & Studios",
+      "city": "Madison",
+      "state": "WI"
+    },
+    "fetched": true
   },
   "eucalyptusandcompany.com": {
     "key": "eucalyptusandcompany.com",
@@ -2922,10 +2933,15 @@
         "url": "https://www.eckelspottery.com/",
         "title": "HOME | Eckels Pottery",
         "snippet": "Studio 360° will features 2- hour lessons, kids classes, Raku firing workshops, primitive firing workshops, and multi-week classes. We will also feature private lessons, or group private lessons."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.eckelspottery.com/",
+        "title": "Eckel's Pottery",
+        "snippet": "OpenStreetMap: Eckel's Pottery Bayfield WI"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Eckels Pottery",
       "city": "",
@@ -2946,7 +2962,13 @@
       "supported_types": [
         "raku"
       ]
-    }
+    },
+    "osm": {
+      "name": "Eckel's Pottery",
+      "city": "Bayfield",
+      "state": "WI"
+    },
+    "fetched": true
   },
   "nwtc.edu": {
     "key": "nwtc.edu",
@@ -4652,6 +4674,336 @@
       "quote_verified": false,
       "secs": 7,
       "state_on_page": false
+    }
+  },
+  "fireescapeart.com": {
+    "key": "fireescapeart.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.fireescapeart.com/",
+        "title": "Fire Escape",
+        "snippet": "OpenStreetMap: Fire Escape Oshkosh WI"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Fire Escape",
+      "city": "Oshkosh",
+      "state": "WI"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "wildernessresort.com": {
+    "key": "wildernessresort.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.wildernessresort.com/attractions/polka-dot-pots-paint-your-own-pottery/",
+        "title": "Polka Dot Pots",
+        "snippet": "OpenStreetMap: Polka Dot Pots"
+      }
+    ],
+    "pages": {
+      "https://www.wildernessresort.com/": "",
+      "https://www.wildernessresort.com/book-now/": "",
+      "https://www.wildernessresort.com/glacier-canyon-lodge/weddings/": "",
+      "https://www.wildernessresort.com/waterparks/cabanas/": "",
+      "https://www.wildernessresort.com/attractions/polka-dot-pots-paint-your-own-pottery/": ""
+    },
+    "osm": {
+      "name": "Polka Dot Pots"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "betheatonpottery.com": {
+    "key": "betheatonpottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "http://www.betheatonpottery.com/",
+        "title": "Beth Eaton Pottery",
+        "snippet": "OpenStreetMap: Beth Eaton Pottery Milwaukee WI"
+      }
+    ],
+    "pages": {
+      "http://www.betheatonpottery.com/": ""
+    },
+    "osm": {
+      "name": "Beth Eaton Pottery",
+      "city": "Milwaukee",
+      "state": "WI"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "rosespotterystudio.com": {
+    "key": "rosespotterystudio.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://rosespotterystudio.com/",
+        "title": "Rose's Pottery Studio & Gallery",
+        "snippet": "OpenStreetMap: Rose's Pottery Studio & Gallery Washburn WI"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Rose's Pottery Studio & Gallery",
+      "city": "Washburn",
+      "state": "WI"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "sevenseasarts.com": {
+    "key": "sevenseasarts.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://sevenseasarts.com/",
+        "title": "Seven Seas Creative Space",
+        "snippet": "OpenStreetMap: Seven Seas Creative Space Union Grove"
+      }
+    ],
+    "pages": {
+      "https://sevenseasarts.com/": "",
+      "https://sevenseasarts.com/m/bookings": "",
+      "https://sevenseasarts.com/parties%2Fevents": "- Projects for 8 People - Additional fee for each additional guest (Max 14)\n- Pottery, Tools, Glaze, & Firing\n- Private Party Room\n- Projector Screen\n",
+      "https://sevenseasarts.com/events": ""
+    },
+    "osm": {
+      "name": "Seven Seas Creative Space",
+      "city": "Union Grove"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "potterybarn.com": {
+    "key": "potterybarn.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.potterybarn.com/stores/us-wi-wauwatosa-mayfair-mall/",
+        "title": "Pottery Barn",
+        "snippet": "OpenStreetMap: Pottery Barn"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Pottery Barn"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "hestekinpottery.com": {
+    "key": "hestekinpottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.hestekinpottery.com/",
+        "title": "Hestekin Pottery",
+        "snippet": "OpenStreetMap: Hestekin Pottery Cornucopia WI"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Hestekin Pottery",
+      "city": "Cornucopia",
+      "state": "WI"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "creativefirepottery.com": {
+    "key": "creativefirepottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://creativefirepottery.com/",
+        "title": "Creative Fire Pottery Studio",
+        "snippet": "OpenStreetMap: Creative Fire Pottery Studio Wauwatosa WI"
+      }
+    ],
+    "pages": {
+      "https://creativefirepottery.com/": "",
+      "https://creativefirepottery.com/classes/": "5-17 Year Old Class\nStudents will work with nature prints, pinch pots, wind chimes, tiles, hand building sculpture, mask making and wheel throwing. Cost includes all clay, glazes and firings.\nCost\n$135.00\nAdult Pottery Classes\nClasses are two hours, one night per week for six weeks. Classes are held Tuesday, Thursday, Friday or Saturday. Class price includes all clay used, tool kit and first firing. We teach beginners and those who have worked with clay before. Come on in and let your creative side go!\n$210.00\nMonthly Membership\nAfter taking a class a student is able to join the Monthly Membership. This is $150 and includes up to 50# of clay, firings and the use of the studio. The student is free to come in and work as much as they would like.\n$150.00\n",
+      "https://creativefirepottery.com/specialty-classes/": "Sculpt your own dragon (Adult)\nIn this class students will learn how to sculpt a dragon.  This is a three session class, two hours each class. The student can explore methods of sculpting a full dragon or the head and neck.  The look and style of the dragon is the students choice. All clay, glazes and firings are included.\nClasses are held Wednesdays 6-8pm\nMax students: 8\nSculpt your own dragon (Child)\nThe student will learn to sculpt a dragon, whimsical or scary. This is a three session class, one hour each class. All clay, glazes and firings are included.\nClasses are held 4-5 Pm Tuesday and Saturdays 11-12am\n",
+      "https://creativefirepottery.com/events/": ""
+    },
+    "osm": {
+      "name": "Creative Fire Pottery Studio",
+      "city": "Wauwatosa",
+      "state": "WI"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "clayton.neenah.k12.wi.us": {
+    "key": "clayton.neenah.k12.wi.us",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://clayton.neenah.k12.wi.us/",
+        "title": "Clayton Elementary School",
+        "snippet": "OpenStreetMap: Clayton Elementary School Neenah WI WI"
+      }
+    ],
+    "pages": {
+      "https://clayton.neenah.k12.wi.us/": "",
+      "https://clayton.neenah.k12.wi.us/programs/counseling-services": "",
+      "https://clayton.neenah.k12.wi.us/families/calendar": ""
+    },
+    "osm": {
+      "name": "Clayton Elementary School",
+      "city": "Neenah WI",
+      "state": "WI"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "simply-dunn.com": {
+    "key": "simply-dunn.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://simply-dunn.com/",
+        "title": "Simply Dunn Pottery",
+        "snippet": "OpenStreetMap: Simply Dunn Pottery"
+      }
+    ],
+    "pages": {
+      "https://simply-dunn.com/": "Wisconsin Gallery & Gift Shop\nOur pottery is exquisitely crafted from stoneware, porcelain or terracotta clays, then glazed and fired in a wood or gas kiln for a warm and varied effect. The forms are traditional and are influenced by nature: the woods, gardens, fields, animals, and the human form. Dunn County Pottery also offers a variety of fair trade and locally made gifts. The pottery is located in beautiful Downsville , just minutes south of Menomonie, Wisconsin.\nPottery Gallery\nAbout Us\nVisitors are Always Welcome\nJoin us in the pottery gallery and gift shop just south of Menomonie, Wisconsin. Dunn County Pottery offers a nice selection of wood-fired and hand-thrown pottery for daily use including cups, mugs, bowls, pitchers, storage jars, bakeware, and vases.\nIn easy driving distance of Minneapolis, Minnesota and Eau Claire, Wisconsin.\nOpen 7 days · 10am – 6pm\nMenomonie, Wisconsin\nWood-fired Pottery & Gift Shop\nConnect with Us\nInstagram\n"
+    },
+    "osm": {
+      "name": "Simply Dunn Pottery"
+    },
+    "fetched": true,
+    "judged": {
+      "name": "Simply Dunn Pottery",
+      "city": "",
+      "state": "WI",
+      "decision": "unclear",
+      "access": "none",
+      "firing_types": [
+        "wood",
+        "gas_reduction"
+      ],
+      "quote": "",
+      "dates": [],
+      "confidence": "low",
+      "reason": "OpenStreetMap seed; firing words on its pages",
+      "seed": true
+    }
+  },
+  "ppottery.com": {
+    "key": "ppottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.ppottery.com/",
+        "title": "Paintin' Pottery",
+        "snippet": "OpenStreetMap: Paintin' Pottery De Pere WI"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Paintin' Pottery",
+      "city": "De Pere",
+      "state": "WI"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "dnr.wi.gov": {
+    "key": "dnr.wi.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://dnr.wi.gov/topic/Lands/naturalareas/index.asp?SNA=559",
+        "title": "Cave Point-Clay Banks State Natural Area",
+        "snippet": "OpenStreetMap: Cave Point-Clay Banks State Natural Area"
+      }
+    ],
+    "pages": {
+      "https://dnr.wi.gov/": "",
+      "https://dnr.wi.gov/contact": "",
+      "https://dnr.wi.gov/events": ""
+    },
+    "osm": {
+      "name": "Cave Point-Clay Banks State Natural Area"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

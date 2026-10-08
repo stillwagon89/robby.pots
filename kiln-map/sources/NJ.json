@@ -512,6 +512,63 @@
         "osm": false,
         "date": "2026-10-08"
       }
+    },
+    {
+      "id": "the-clay-pot-pottery",
+      "org": "The Clay Pot Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Main Street Spotswood",
+      "city": "Main Street Spotswood",
+      "urls": [
+        "https://www.theclaypotpottery.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Main Street Spotswood, New Jersey",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.theclaypotpottery.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Our RAKU Workshops for the 2026 season are scheduled for the following dates (weather permitting)",
+        "url": "https://www.theclaypotpottery.com/raku.html",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "theclaypotpottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "page says state is NJ, not NC",
+        "types": {
+          "raku": "The Clay Pot welcomes you to experience this truly unique way of firing pottery by participating in one of our Raku workshops."
+        },
+        "state": "NJ",
+        "town": ""
+      },
+      "weak": false,
+      "located": {
+        "state": "NJ",
+        "town": "Main Street Spotswood",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [

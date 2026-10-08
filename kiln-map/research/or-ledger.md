@@ -20,10 +20,12 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 13 | Guilford Art Center | ? | pit_barrel_saggar, raku | Classes or membership | reg130.imperisoft.com |
 | 14 | Hiroshi Ogawa's kiln, Hikarigama | Elkton | wood | Dated workshop or firing event | jenniferlongpottery.com |
 | 15 | Wildcraft Studios | ? | wood | Classes or membership | wildcraftstudioschool.com |
-| 16 | St Johns Clay Collective | Portland | soda, raku | Dated workshop or firing event | stjohnsclay.com |
-| 17 | Club Mud Ceramics Cooperative | Eugene | raku | See site | mkartcenter.org |
-| 18 | Synergy Ceramics | Bend | raku | Dated workshop or firing event | synergyceramicsbend.com |
-| 19 | Calapooia Clay | Albany | raku, pit_barrel_saggar | Classes or membership | calapooiaclay.com |
-| 20 | East Creek Art Camp | ? | wood | Classes or membership | orartswatch.org |
-| 21 | Portland Community College | Portland | raku, soda | Classes or membership | pcc.edu |
-| 22 | Eutectic Gallery | Portland | wood | Dated workshop or firing event | pdxart.portofportland.online |
+| 16 | East Creek Anagama | ? | wood | Classes or membership | craftcouncil.org |
+| 17 | St Johns Clay Collective | Portland | soda, raku | Dated workshop or firing event | stjohnsclay.com |
+| 18 | Club Mud Ceramics Cooperative | Eugene | raku | See site | mkartcenter.org |
+| 19 | Synergy Ceramics | Bend | raku | Dated workshop or firing event | synergyceramicsbend.com |
+| 20 | Calapooia Clay | Albany | raku, pit_barrel_saggar | Classes or membership | calapooiaclay.com |
+| 21 | East Creek Art Camp | ? | wood | Classes or membership | orartswatch.org |
+| 22 | Portland Community College | Portland | raku, soda | Classes or membership | pcc.edu |
+| 23 | Eutectic Gallery | Portland | wood | Dated workshop or firing event | pdxart.portofportland.online |
+| 24 | Anderson Ranch Art Center | ? | soda, wood, raku | See site | theresidencyreview.com |

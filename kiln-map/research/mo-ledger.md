@@ -15,3 +15,4 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 8 | Creava Studio | Springfield | pit_barrel_saggar, raku | Classes or membership | square.site |
 | 9 | Artistree Pottery | Springfield | raku | Dated workshop or firing event | artistreepottery.com |
 | 10 | Missouri Southern State University | ? | raku | Classes or membership | mssu.edu |
+| 11 | Clay & Fire | ? | wood | See site | clayandfirekc.com |

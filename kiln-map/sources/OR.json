@@ -485,14 +485,14 @@
         "raku",
         "pit_barrel_saggar"
       ],
-      "region": "Albany",
-      "city": "Albany",
+      "region": "Ave Albany",
+      "city": "Ave Albany",
       "urls": [
         "https://calapooiaclay.com/"
       ],
       "notes": "Classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Albany, Oregon",
+      "geocode": "Ave Albany, Oregon",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://calapooiaclay.com/"
@@ -514,8 +514,6 @@
         "date": "2026-10-06",
         "key": "calapooiaclay.com"
       },
-      "lat": 44.63651,
-      "lng": -123.10593,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -528,8 +526,8 @@
       },
       "located": {
         "state": "OR",
-        "town": "Albany",
-        "score": 6,
+        "town": "Ave Albany",
+        "score": 4,
         "osm": false,
         "date": "2026-10-08"
       },
@@ -823,7 +821,8 @@
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-08"
-      }
+      },
+      "weak": true
     },
     {
       "id": "portland-parks",
@@ -882,7 +881,8 @@
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-08"
-      }
+      },
+      "weak": true
     },
     {
       "id": "clayfolk",
@@ -1002,7 +1002,8 @@
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-08"
-      }
+      },
+      "weak": true
     },
     {
       "id": "hiroshi-ogawa-s-kiln-hikarigama",
@@ -1302,6 +1303,117 @@
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "agree-yes",
+        "date": "2026-10-08"
+      },
+      "weak": true
+    },
+    {
+      "id": "east-creek-anagama",
+      "org": "East Creek Anagama",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Oregon",
+      "city": null,
+      "urls": [
+        "https://craftcouncil.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://craftcouncil.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "others, like East Creek Anagama in Oregon, are community-based and host public workshops.",
+        "url": "https://craftcouncil.org/articles/kilns-that-build-community",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "craftcouncil.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The text explicitly states that East Creek Anagama in Oregon is 'community-based and host public workshops,' indicating outsiders can participate in their wood/anagama firings.",
+        "types": {
+          "wood": "others, like East Creek Anagama in Oregon, are community-based and host public workshops"
+        },
+        "state": "OR",
+        "town": ""
+      },
+      "weak": false,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "anderson-ranch-art-center",
+      "org": "Anderson Ranch Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda"
+      ],
+      "region": "Oregon",
+      "city": null,
+      "urls": [
+        "https://www.theresidencyreview.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.theresidencyreview.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "1 — Soda kiln 1 — Anagama wood kiln 1 — Raku kiln",
+        "url": "https://www.theresidencyreview.com/woodfire-kilns",
+        "types": [
+          "soda",
+          "wood",
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "theresidencyreview.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The page is a directory listing kilns at various residencies but contains no information about how outsiders can access, book, or participate in firings at Anderson Ranch Art Center.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
         "date": "2026-10-08"
       }
     }

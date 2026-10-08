@@ -17,5 +17,5 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 10 | Red Heat Ceramic Studio | Tulsa | gas_reduction | Classes or membership | redheatceramics.com |
 | 11 | 3rd Street Clayworks | Tulsa | raku | Classes or membership | clayworkstulsa.com |
 | 12 | KAT Studio | Tulsa | raku | Classes or membership | kilnartsoftulsa.com |
-| 13 | Oil & Clay Studio | Norman | raku, gas_reduction | Classes or membership | normanfirehouse.com |
+| 13 | Oil & Clay Studio | Norman | raku, gas_reduction | Classes or membership | normanfirehouse.com, kilnspot.com |
 | 14 | Oklahoma State University | Stillwater | raku | Dated workshop or firing event | events.okstate.edu |

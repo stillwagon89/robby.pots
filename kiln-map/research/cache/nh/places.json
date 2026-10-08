@@ -1132,10 +1132,15 @@
         "url": "https://www.fireflypotterynh.com/work-with-clay",
         "title": "Work With Clay — Firefly Pottery",
         "snippet": "Our classes include everything you need to make two beautiful hand-thrown bowls from clay, then after they have been fired, come back to paint and glaze! It’s all included!"
+      },
+      {
+        "q": "osm",
+        "url": "https://www.fireflypotterynh.com/",
+        "title": "Firefly Pottery",
+        "snippet": "OpenStreetMap: Firefly Pottery Portsmouth NH"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Firefly Pottery",
       "city": "Portsmouth",
@@ -1157,7 +1162,13 @@
       "quote_verified": false,
       "secs": 11,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "Firefly Pottery",
+      "city": "Portsmouth",
+      "state": "NH"
+    },
+    "fetched": true
   },
   "yourefirednh.com": {
     "key": "yourefirednh.com",
@@ -2945,10 +2956,15 @@
         "url": "https://www.timetoclay.com/contact",
         "title": "Contact - Time To Clay",
         "snippet": "228 Daniel Webster Hwy, Ste 6 Nashua, NH 03060 (603) 888-0482 Mon - Tues: 10 - 6 Wed - Sat: 10 - 9 Sun: 11 - 5 Walk-ins welcome Reservations recommended on weekends"
+      },
+      {
+        "q": "osm",
+        "url": "https://timetoclay.com/",
+        "title": "Time to Clay",
+        "snippet": "OpenStreetMap: Time to Clay Nashua NH"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Time To Clay",
       "city": "Nashua",
@@ -2965,7 +2981,13 @@
       "quote_verified": false,
       "secs": 24,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "Time to Clay",
+      "city": "Nashua",
+      "state": "NH"
+    },
+    "fetched": true
   },
   "placefull.com": {
     "key": "placefull.com",
@@ -4306,6 +4328,187 @@
       "supported_types": [
         "wood"
       ]
+    }
+  },
+  "farmhousepottery.com": {
+    "key": "farmhousepottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.farmhousepottery.com/",
+        "title": "Farmhouse Pottery",
+        "snippet": "OpenStreetMap: Farmhouse Pottery Hanover NH"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Farmhouse Pottery",
+      "city": "Hanover",
+      "state": "NH"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claysclothing.com": {
+    "key": "claysclothing.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claysclothing.com/",
+        "title": "Clay's",
+        "snippet": "OpenStreetMap: Clay's West Lebanon NH"
+      }
+    ],
+    "pages": {
+      "https://www.claysclothing.com/": ""
+    },
+    "osm": {
+      "name": "Clay's",
+      "city": "West Lebanon",
+      "state": "NH"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "cozykiln.com": {
+    "key": "cozykiln.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.cozykiln.com/",
+        "title": "Cozy Kiln Pottery & Art Studio",
+        "snippet": "OpenStreetMap: Cozy Kiln Pottery & Art Studio Plaistow NH"
+      }
+    ],
+    "pages": {
+      "https://www.cozykiln.com/": "Cozy Kiln | Paint Your Own Pottery & Art Studio | Plaistow, NH | Cozy Kiln\n"
+    },
+    "osm": {
+      "name": "Cozy Kiln Pottery & Art Studio",
+      "city": "Plaistow",
+      "state": "NH"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "drbchiropractor.com": {
+    "key": "drbchiropractor.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.drbchiropractor.com/",
+        "title": "Warren Barclay Chiropractor",
+        "snippet": "OpenStreetMap: Warren Barclay Chiropractor Hudson"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Warren Barclay Chiropractor",
+      "city": "Hudson"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "morgantechnicalceramics.com": {
+    "key": "morgantechnicalceramics.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.morgantechnicalceramics.com/",
+        "title": "Morgan Technical Ceramics",
+        "snippet": "OpenStreetMap: Morgan Technical Ceramics Hudson"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Morgan Technical Ceramics",
+      "city": "Hudson"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "uvlt.org": {
+    "key": "uvlt.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://uvlt.org/docs/trails/ClayBrookTrailMap_092613.pdf",
+        "title": "Clay Brook Trail",
+        "snippet": "OpenStreetMap: Clay Brook Trail"
+      }
+    ],
+    "pages": {
+      "https://uvlt.org/": "",
+      "https://uvlt.org/employer-sponsored-service/": "",
+      "https://uvlt.org/events/": "",
+      "https://uvlt.org/docs/trails/ClayBrookTrailMap_092613.pdf": ""
+    },
+    "osm": {
+      "name": "Clay Brook Trail"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "salmonfalls.com": {
+    "key": "salmonfalls.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.salmonfalls.com",
+        "title": "Salmon Falls Stoneware",
+        "snippet": "OpenStreetMap: Salmon Falls Stoneware"
+      }
+    ],
+    "pages": {
+      "https://www.salmonfalls.com/": "",
+      "https://www.salmonfalls.com": ""
+    },
+    "osm": {
+      "name": "Salmon Falls Stoneware"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

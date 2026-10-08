@@ -4139,5 +4139,32 @@
       "secs": 9,
       "state_on_page": false
     }
+  },
+  "claygroundstudio.com": {
+    "key": "claygroundstudio.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "http://claygroundstudio.com/",
+        "title": "Clayground Studio",
+        "snippet": "OpenStreetMap: Clayground Studio East Greenwich RI"
+      }
+    ],
+    "pages": {
+      "http://claygroundstudio.com/": "Shaped with Intention\nEvery piece passes through fire — thrown on the wheel, glazed by hand, and kiln-fired in our Singapore studio. No two are exactly alike.\nVisit by Appointment\nFollow the Process\n@clayground_studio\nBehind-the-scenes from the wheel to the kiln.\nFollow on Instagram\nHand-thrown, illustrated ceramics from our Singapore studio.\n"
+    },
+    "osm": {
+      "name": "Clayground Studio",
+      "city": "East Greenwich",
+      "state": "RI"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
   }
 }

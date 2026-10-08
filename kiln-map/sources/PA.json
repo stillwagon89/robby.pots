@@ -1585,6 +1585,121 @@
         "osm": true,
         "date": "2026-10-08"
       }
+    },
+    {
+      "id": "the-ceramic-shop",
+      "org": "The Ceramic Shop",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Norristown",
+      "city": "Norristown",
+      "urls": [
+        "https://www.theceramicshop.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Norristown, Pennsylvania",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.theceramicshop.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Bring your work to our Philadelphia store and we will fire it for you!",
+        "url": "https://www.theceramicshop.com/store/category/21/109/Firing-Retail/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "theceramicshop.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "page says state is PA, not NJ",
+        "types": {},
+        "state": "PA",
+        "town": "Norristown"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "up-in-smoke-pottery",
+      "org": "Up In Smoke Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar"
+      ],
+      "region": "Pennsylvania",
+      "city": null,
+      "urls": [
+        "https://www.upinsmokepottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.upinsmokepottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "We typically fire these saggars in a raku kiln, but can be done in an electric or a pit.",
+        "url": "https://www.upinsmokepottery.com/saggar-firing.html",
+        "types": [
+          "pit_barrel_saggar",
+          "raku",
+          "wood",
+          "soda",
+          "salt"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "upinsmokepottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The page describes firing techniques but contains no information about public access, classes, workshops, memberships, rentals, firing services, or invitations for outsiders to participate in any firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "SD",
+        "town": "Medary Ave Brookings",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [

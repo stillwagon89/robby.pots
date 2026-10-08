@@ -16,14 +16,13 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 9 | Playin' with Fire studios | ? | pit_barrel_saggar, raku | Dated workshop or firing event | simpletix.com |
 | 10 | Smoke in the Mountains Pottery | ? | wood | Classes or membership | smokeinthemountainspottery.com |
 | 11 | Praying Mantis Pottery | Indianapolis | raku | Classes or membership | prayingmantispottery.com |
-| 12 | communitypottery | ? | raku, pit_barrel_saggar | Classes or membership | communitypottery.org |
-| 13 | Fire Arts Inc. | South Bend | raku, wood | Classes or membership | southbendtribune.com |
-| 14 | Fire Arts, Inc. | South Bend | raku | Classes or membership | fireartsinc.com |
-| 15 | Angi Peterson Pottery | West Lafayette | raku | Classes or membership | angipetersonpottery.com |
-| 16 | LaLa Gallery | ? | soda, pit_barrel_saggar | Classes or membership | lalagallery.com |
-| 17 | Made in Muncie | Muncie | raku | Classes or membership | madeinmuncie.com |
-| 18 | Spears Gallery | Nashville | raku, wood, wood, wood | See site | spearspottery.com |
-| 19 | Monte Young | Jasper | wood | Classes or membership | silivingmag.com |
-| 20 | Monte Young Pottery | Jasper | wood | Classes or membership | monteyoungpottery.com |
-| 21 | Meir Moheban | ? | wood | Classes or membership | meirmoheban.com |
-| 22 | Creative Hands Studio | ? | raku | Classes or membership | creativehandsstudio.net |
+| 12 | Fire Arts Inc. | South Bend | raku, wood | Classes or membership | southbendtribune.com |
+| 13 | Fire Arts, Inc. | South Bend | raku | Classes or membership | fireartsinc.com |
+| 14 | Angi Peterson Pottery | West Lafayette | raku | Classes or membership | angipetersonpottery.com |
+| 15 | LaLa Gallery | ? | soda, pit_barrel_saggar | Classes or membership | lalagallery.com |
+| 16 | Made in Muncie | Muncie | raku | Classes or membership | madeinmuncie.com |
+| 17 | Spears Gallery | Nashville | raku, wood, wood, wood | See site | spearspottery.com |
+| 18 | Monte Young | Jasper | wood | Classes or membership | silivingmag.com |
+| 19 | Monte Young Pottery | Jasper | wood | Classes or membership | monteyoungpottery.com |
+| 20 | Meir Moheban | ? | wood | Classes or membership | meirmoheban.com |
+| 21 | Creative Hands Studio | ? | raku | Classes or membership | creativehandsstudio.net |

@@ -25,3 +25,4 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 18 | Jemma Gascoine | ? | raku | See site | jemmagascoine.com |
 | 19 | Jody Johnstone | ? | wood | See site | mainepottersmarket.com |
 | 20 | Tyler Gulden Ceramics | ? | wood | Classes or membership | tylergulden.com |
+| 21 | Watershed Center for the Ceramic Arts | Deer Isle | wood | Classes or membership | ceramicsfieldguide.org |

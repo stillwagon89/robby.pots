@@ -200,7 +200,8 @@
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-08"
-      }
+      },
+      "weak": true
     },
     {
       "id": "warehome-studios",
@@ -247,6 +248,63 @@
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "alexadamsclaywork",
+      "org": "alexadamsclaywork",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Louisiville",
+      "city": "Louisiville",
+      "urls": [
+        "https://alexadamsclaywork.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Louisiville, Kentucky",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://alexadamsclaywork.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Public are welcome to come out on firing day and see the exciting results from the raku kiln.",
+        "url": "https://alexadamsclaywork.com/raku-workshop.php",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "alexadamsclaywork.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page explicitly states 'Public are welcome to come out on firing day' and offers a raku workshop for $125 per person with registration, plus free public spectator access to the firing event.",
+        "types": {
+          "raku": "Public are welcome to come out on firing day and see the exciting results from the raku kiln."
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "KY",
+        "town": "Louisiville",
+        "score": 21,
+        "osm": false,
         "date": "2026-10-08"
       }
     }

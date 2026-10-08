@@ -35,7 +35,7 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 28 | Art Center of Corpus Christi | Corpus Christi | raku | Firing service | artcentercc.org |
 | 29 | The Louise Hopkins Underwood Center for the Arts | Lubbock | soda, raku, soda, raku | Dated workshop or firing event | lhuca.org |
 | 30 | Barry Brown Clay Studio & Gallery | Corpus Christi | raku | See site | bbclaystudio.org |
-| 31 | Brazos Clay | Waco | raku | Classes or membership | showmelocal.com |
+| 31 | Brazos Clay | Waco | raku | Classes or membership | superpages.com, showmelocal.com |
 | 32 | Hill Potters' Guild | ? | wood | Classes or membership | hillpotters.square.site |
 | 33 | UTSA College of Liberal and Fine Arts | San Antonio | raku, wood, soda, gas_reduction | Classes or membership | colfa.utsa.edu |
-| 34 | VR Pottery OBX | ? | raku | Classes or membership | vrpotteryobx.com |
+| 34 | Pine Mills Pottery Studio and Gallery | ? | wood | See site | pinemills.com |

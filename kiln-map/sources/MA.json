@@ -1150,7 +1150,8 @@
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-08"
-      }
+      },
+      "weak": true
     },
     {
       "id": "gustin-s",
@@ -1220,7 +1221,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "pit_barrel_saggar"
       ],
       "region": "Cotuit",
       "city": "Cotuit",
@@ -1237,10 +1238,12 @@
       "access": {
         "how": "Dated workshop or firing event",
         "note": "Dated workshop or firing event",
-        "quote": "Experience the excitement of raku firing in this beginner friendly 6 hour workshop.",
-        "url": "https://cotuit.org/classes/raku-workshop",
+        "quote": "Participants will have the opportunity to prepare and fire a few small bisque pieces throughout the day and discover how heat, smoke, and combustion create beautiful and unexpected results.",
+        "url": "https://cotuit.org/classes/saggar-workshop",
         "types": [
-          "raku"
+          "soda",
+          "salt",
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-08"
       },
@@ -1254,9 +1257,9 @@
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
         "verdict": "yes",
-        "why": "page says state is MA, not CT",
+        "why": "page says state is MA, not MI",
         "types": {
-          "raku": "Experience the excitement of raku firing in this beginner friendly 6 hour workshop."
+          "pit_barrel_saggar": "Students will learn the basics of foil saggar firing while experimenting with materials such as seaweed, straw, sawdust, copper wire, salt, and used coffee grounds to influence the finished surface."
         },
         "state": "MA",
         "town": "Cotuit"

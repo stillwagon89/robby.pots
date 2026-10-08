@@ -1365,6 +1365,63 @@
         "result": "split",
         "date": "2026-10-08"
       }
+    },
+    {
+      "id": "turning-earth",
+      "org": "Turning Earth",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction",
+        "raku"
+      ],
+      "region": "London",
+      "city": "London",
+      "urls": [
+        "https://www.turningearth.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "London, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.turningearth.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "If you’ve ever taken part in one of our Raku firing workshops, you’ve already encountered Reduction firing — it’s what gives some of our Raku glazes their distinctive metallic sheen.",
+        "url": "https://www.turningearth.org/news/gas-kiln-launch",
+        "types": [
+          "gas_reduction",
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "turningearth.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page announces upcoming Reduction Firing workshops at their London studios open to studio members, and describes Raku firing workshops as existing offerings where outsiders can participate.",
+        "types": {
+          "gas_reduction": "We're really excited to announce the upcoming launch of Reduction Firing workshops across our London studios.",
+          "raku": "If you've ever taken part in one of our Raku firing workshops, you've already encountered Reduction firing — it's what gives some of our Raku glazes their distinctive metallic sheen."
+        },
+        "state": "",
+        "town": "London"
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": true
     }
   ],
   "_removed": [

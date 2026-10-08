@@ -15,10 +15,13 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 8 | ologygallery | ? | wood | See site | ologygallery.com |
 | 9 | Roger Jamison | Juliette | wood, salt, wood, gas_reduction | Classes or membership | rogerjamison.com |
 | 10 | Odyssey Gallery of Ceramic Arts | ? | soda, raku | Dated workshop or firing event | connect.artsavl.org |
-| 11 | Carter Stone Studio | ? | raku | See site | carterstonestudio.com |
-| 12 | Salish Sea Ceramic Studio | ? | raku | Classes or membership | salishseaceramicstudio.com |
-| 13 | Corranny Forest Pottery | ? | raku | Dated workshop or firing event | corrannyforestpottery.com |
-| 14 | Oxcombe Pottery | ? | raku | Dated workshop or firing event | oxcombepottery.co.uk |
-| 15 | The School of Arts and Letters | Macon | raku | Classes or membership | inside.mga.edu |
-| 16 | Blue Ridge Community College | ? | wood | Classes or membership | blueridge.edu |
-| 17 | spiritlabceramics | ? | wood | Dated workshop or firing event | spiritlabceramics.com |
+| 11 | MudFire Pottery Studio and Gallery | Decatur | raku, soda | Classes or membership | mudfire.com |
+| 12 | Carter Stone Studio | ? | raku | See site | carterstonestudio.com |
+| 13 | Salish Sea Ceramic Studio | ? | raku | Classes or membership | salishseaceramicstudio.com |
+| 14 | Corranny Forest Pottery | ? | raku | Dated workshop or firing event | corrannyforestpottery.com |
+| 15 | Oxcombe Pottery | ? | raku | Dated workshop or firing event | oxcombepottery.co.uk |
+| 16 | MudFire Pottery Studio | Decatur | raku | Classes or membership | scienceatl.org |
+| 17 | The School of Arts and Letters | Macon | raku | Classes or membership | inside.mga.edu |
+| 18 | Blue Ridge Community College | ? | wood | Classes or membership | blueridge.edu |
+| 19 | spiritlabceramics | ? | wood | Dated workshop or firing event | spiritlabceramics.com |
+| 20 | Hambidge | Rabun Gap | wood | Classes or membership | ceramicsfieldguide.org |

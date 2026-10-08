@@ -2823,16 +2823,27 @@
         "url": "https://claygroundonline.com/",
         "title": "The ClayGround Studio & Gallery | Pottery Studio in Maryland ...",
         "snippet": "We offer classes in pottery, fused glass and mosaics, and we feature local artists in our gallery, many of which are our very talented instructors. The ClayGround is a place for fun and inspiration, where you can try something new."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.claygroundonline.com/",
+        "title": "The ClayGround Studio",
+        "snippet": "OpenStreetMap: The ClayGround Studio Ellicott City MD"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "The ClayGround Studio",
+      "city": "Ellicott City",
+      "state": "MD"
+    },
+    "fetched": true
   },
   "my.ceramicmaterialsworkshop.com": {
     "key": "my.ceramicmaterialsworkshop.com",
@@ -3562,10 +3573,15 @@
         "url": "https://www.pottersguildoffrederick.com/joanne-rome",
         "title": "Joanne Rome - pottersguild",
         "snippet": "She works mainly on the wheel in both porcelain and stoneware. While most of her work is fired in her electric kiln, she also creates wood-fired work and raku."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.pottersguildoffrederick.com/",
+        "title": "Potters' Guild of Frederick",
+        "snippet": "OpenStreetMap: Potters' Guild of Frederick Frederick MD"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Potters Guild of Frederick",
       "city": "Frederick",
@@ -3583,7 +3599,13 @@
       "quote_verified": false,
       "secs": 5,
       "state_on_page": false
-    }
+    },
+    "osm": {
+      "name": "Potters' Guild of Frederick",
+      "city": "Frederick",
+      "state": "MD"
+    },
+    "fetched": true
   },
   "doreldalyaseramik.com": {
     "key": "doreldalyaseramik.com",
@@ -4882,6 +4904,358 @@
       "reason": "known place in OH",
       "auto": true,
       "state_on_page": false
+    }
+  },
+  "clayhillpcs.org": {
+    "key": "clayhillpcs.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.clayhillpcs.org/",
+        "title": "Clay Hill Public Charter School",
+        "snippet": "OpenStreetMap: Clay Hill Public Charter School Baltimore MD"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Clay Hill Public Charter School",
+      "city": "Baltimore",
+      "state": "MD"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "thepotterystop.com": {
+    "key": "thepotterystop.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://thepotterystop.com/",
+        "title": "The Pottery Stop",
+        "snippet": "OpenStreetMap: The Pottery Stop Ellicott City"
+      }
+    ],
+    "pages": {
+      "https://thepotterystop.com/": "Create at Home\nYou can't quarantine creativity! Choose your projects, colors, and materials online to paint at home. Just bring back for firing.\nSHop Online\nContactless Pick Up & Drop Off\n"
+    },
+    "osm": {
+      "name": "The Pottery Stop",
+      "city": "Ellicott City"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "thepotterypatch.weebly.com": {
+    "key": "thepotterypatch.weebly.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://thepotterypatch.weebly.com/",
+        "title": "The Pottery Patch",
+        "snippet": "OpenStreetMap: The Pottery Patch Dunkirk MD"
+      }
+    ],
+    "pages": {
+      "https://thepotterypatch.weebly.com/": ""
+    },
+    "osm": {
+      "name": "The Pottery Patch",
+      "city": "Dunkirk",
+      "state": "MD"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "sbarclaystaxservices.com": {
+    "key": "sbarclaystaxservices.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.sbarclaystaxservices.com/",
+        "title": "Barclay's Tax Services",
+        "snippet": "OpenStreetMap: Barclay's Tax Services Baltimore MD"
+      }
+    ],
+    "pages": {
+      "https://www.sbarclaystaxservices.com/": ""
+    },
+    "osm": {
+      "name": "Barclay's Tax Services",
+      "city": "Baltimore",
+      "state": "MD"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "wildyampottery.com": {
+    "key": "wildyampottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.wildyampottery.com/",
+        "title": "Wild Yam Pottery",
+        "snippet": "OpenStreetMap: Wild Yam Pottery"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Wild Yam Pottery"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "etsy.com": {
+    "key": "etsy.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.etsy.com/shop/shorefirepottery",
+        "title": "Shore Fire Pottery",
+        "snippet": "OpenStreetMap: Shore Fire Pottery"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Shore Fire Pottery"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "potterybarn.com": {
+    "key": "potterybarn.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.potterybarn.com/stores/us-md-annapolis-town/",
+        "title": "Pottery Barn",
+        "snippet": "OpenStreetMap: Pottery Barn"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Pottery Barn"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "pinotspalette.com": {
+    "key": "pinotspalette.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.pinotspalette.com",
+        "title": "Pinot's Palette",
+        "snippet": "OpenStreetMap: Pinot's Palette Ellicott City MD"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Pinot's Palette",
+      "city": "Ellicott City",
+      "state": "MD"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claypotsbaltimore.org": {
+    "key": "claypotsbaltimore.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claypotsbaltimore.org/",
+        "title": "Clay Pots",
+        "snippet": "OpenStreetMap: Clay Pots"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Clay Pots"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claytonscollectables.com": {
+    "key": "claytonscollectables.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claytonscollectables.com/",
+        "title": "Clayton's Collectables",
+        "snippet": "OpenStreetMap: Clayton's Collectables"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Clayton's Collectables"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "tools.usps.com": {
+    "key": "tools.usps.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://tools.usps.com/locations/details/1354029",
+        "title": "Barclay Post Office",
+        "snippet": "OpenStreetMap: Barclay Post Office Barclay MD"
+      }
+    ],
+    "pages": {
+      "https://tools.usps.com/locations/details/1354029": ""
+    },
+    "osm": {
+      "name": "Barclay Post Office",
+      "city": "Barclay",
+      "state": "MD"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claytonridge.com": {
+    "key": "claytonridge.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://claytonridge.com",
+        "title": "Clayton Ridge Horse Farm",
+        "snippet": "OpenStreetMap: Clayton Ridge Horse Farm Joppa MD"
+      }
+    ],
+    "pages": {
+      "https://claytonridge.com/": "",
+      "https://claytonridge.com": ""
+    },
+    "osm": {
+      "name": "Clayton Ridge Horse Farm",
+      "city": "Joppa",
+      "state": "MD"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claytonvista.com": {
+    "key": "claytonvista.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "http://claytonvista.com/",
+        "title": "Clayton Vista",
+        "snippet": "OpenStreetMap: Clayton Vista"
+      }
+    ],
+    "pages": {
+      "http://claytonvista.com/": ""
+    },
+    "osm": {
+      "name": "Clayton Vista"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "barclaymaryland.com": {
+    "key": "barclaymaryland.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.barclaymaryland.com",
+        "title": "Barclay",
+        "snippet": "OpenStreetMap: Barclay"
+      }
+    ],
+    "pages": {
+      "https://www.barclaymaryland.com/": "",
+      "https://barclaymaryland.com/events/": "",
+      "https://www.barclaymaryland.com": ""
+    },
+    "osm": {
+      "name": "Barclay"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

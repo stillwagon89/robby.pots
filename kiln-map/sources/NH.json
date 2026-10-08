@@ -230,6 +230,58 @@
         "osm": false,
         "date": "2026-10-08"
       }
+    },
+    {
+      "id": "timisaacpottery",
+      "org": "timisaacpottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "New Hampshire",
+      "city": null,
+      "urls": [
+        "https://www.timisaacpottery.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.timisaacpottery.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "I offer a one day workshop, a two day workshop, and a custom firing day for practicing potters.",
+        "url": "https://www.timisaacpottery.com/workshops/raku-workshops/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "timisaacpottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The search snippets describe raku workshops available to outsiders, but the actual page text is empty, so location details cannot be verified.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [

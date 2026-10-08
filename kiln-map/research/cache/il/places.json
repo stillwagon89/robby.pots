@@ -2572,10 +2572,15 @@
         "url": "https://www.potshop.com/",
         "title": "The Pot Shop",
         "snippet": "The Pot Shop offers wheel throw pottery classes and parties for adults and children. The Pot Shop is located in Evanston, IL right outside of Chicago."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.potshop.com/",
+        "title": "The Pot Shop",
+        "snippet": "OpenStreetMap: The Pot Shop Evanston IL"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "The Pot Shop",
       "city": "Evanston",
@@ -2593,7 +2598,13 @@
       "secs": 6,
       "state_on_page": true,
       "supported_types": []
-    }
+    },
+    "osm": {
+      "name": "The Pot Shop",
+      "city": "Evanston",
+      "state": "IL"
+    },
+    "fetched": true
   },
   "cityofevanston.org": {
     "key": "cityofevanston.org",
@@ -3322,10 +3333,15 @@
         "url": "https://sites.google.com/site/wheelartpotterystudio/",
         "title": "Wheel Art Pottery Studios - Google Sites",
         "snippet": "Previous events and workshops have included Raku and primitive fire workshops, ornament making, carving clay pumpkins, and glaze chemistry. Join us for our upcoming Date Night or Wheel 101..."
+      },
+      {
+        "q": "osm",
+        "url": "https://sites.google.com/northclayschools.com/nccusd25/elementary?utm_source=smlc_project&utm_medium=referral&utm_campaign=smlc_elementary_outreach&utm_id=G-Z9M5LXQ5XN",
+        "title": "North Clay Elementary-Junior High School",
+        "snippet": "OpenStreetMap: North Clay Elementary-Junior High School Louisville IL"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Wheel Art Pottery Studios",
       "city": "",
@@ -3343,7 +3359,13 @@
       "quote_verified": false,
       "secs": 4,
       "state_on_page": false
-    }
+    },
+    "osm": {
+      "name": "North Clay Elementary-Junior High School",
+      "city": "Louisville",
+      "state": "IL"
+    },
+    "fetched": true
   },
   "community.ceramicartsdaily.org": {
     "key": "community.ceramicartsdaily.org",
@@ -3473,6 +3495,12 @@
         "url": "https://thepotterylounge.com/f/discover-the-pottery-lounge",
         "title": "Discover The Pottery Lounge",
         "snippet": "No prior experience is needed and we provide all the tools, guidance, and kiln firing needed to turn a blank ceramic piece into a personalized keepsake. From mugs and plates to whimsical figurines, the possibilities are limited only by imagination."
+      },
+      {
+        "q": "osm",
+        "url": "https://thepotterylounge.com/",
+        "title": "The Pottery Lounge",
+        "snippet": "OpenStreetMap: The Pottery Lounge"
       }
     ],
     "pages": {
@@ -3481,7 +3509,6 @@
       "https://thepotterylounge.com/large-group-events": "Would you like your event held at The Pottery Lounge or off-site?*\nWould you like to use acrylic or glaze paints? (Glazed items have to be fired in our kiln - wait is up to 2 weeks. Acrylic is ready to go same day)*\nDo you have any preferred pieces in mind? (Mugs, plates, figurines, etc)*\nSend\n",
       "https://thepotterylounge.com/f/discover-the-pottery-lounge": ""
     },
-    "fetched": true,
     "judged": {
       "name": "The Pottery Lounge",
       "city": "",
@@ -3496,7 +3523,11 @@
       "quote_verified": false,
       "secs": 5,
       "state_on_page": false
-    }
+    },
+    "osm": {
+      "name": "The Pottery Lounge"
+    },
+    "fetched": true
   },
   "findglocal.com": {
     "key": "findglocal.com",
@@ -4732,6 +4763,525 @@
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": false
+    }
+  },
+  "altoclayworks.com": {
+    "key": "altoclayworks.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "http://www.altoclayworks.com/",
+        "title": "Alto Clay Works",
+        "snippet": "OpenStreetMap: Alto Clay Works Alto Pass IL"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Alto Clay Works",
+      "city": "Alto Pass",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "mtd.org": {
+    "key": "mtd.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://mtd.org/maps-and-schedules/bus-stops/info/bradcltn/",
+        "title": "Bradley & Clayton",
+        "snippet": "OpenStreetMap: Bradley & Clayton"
+      }
+    ],
+    "pages": {
+      "https://mtd.org/": "MTD Announces Service Changes for the 2026-2027 Service Year | Effective Sunday, August 9\nSummer Service Reductions Begin | May 16 – August 20, 2026\nBuilding the Future of Transit Data: A First Look at MTD API V3\nFare Information\n",
+      "https://mtd.org/riding/mtd-services/": "",
+      "https://mtd.org/inside/mtd-pulse/full-ui-service-levels-resume-friday-august-21/": "",
+      "https://mtd.org/inside/mtd-pulse/mtd-announces-service-changes-for-the-2026-2027-service-year-effective-sunday-august-9/": "",
+      "https://mtd.org/maps-and-schedules/bus-stops/info/bradcltn/": ""
+    },
+    "osm": {
+      "name": "Bradley & Clayton"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "imancentral.org": {
+    "key": "imancentral.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://imancentral.org/",
+        "title": "IMAN Beloved Community Ceramics Studio",
+        "snippet": "OpenStreetMap: IMAN Beloved Community Ceramics Studio Chicago IL"
+      }
+    ],
+    "pages": {
+      "https://imancentral.org/": "",
+      "https://imancentral.org/news-events/news-updates/": "",
+      "https://imancentral.org/news-events/calendar-of-events/": "",
+      "https://imancentral.org/news-events/media/": ""
+    },
+    "osm": {
+      "name": "IMAN Beloved Community Ceramics Studio",
+      "city": "Chicago",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "potterybayoustudio.com": {
+    "key": "potterybayoustudio.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://potterybayoustudio.com/",
+        "title": "Pottery Bayou",
+        "snippet": "OpenStreetMap: Pottery Bayou Naperville IL"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Pottery Bayou",
+      "city": "Naperville",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "chinatowneceramics.com": {
+    "key": "chinatowneceramics.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.chinatowneceramics.com/",
+        "title": "China Towne",
+        "snippet": "OpenStreetMap: China Towne Springfield IL"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "China Towne",
+      "city": "Springfield",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "waterdata.usgs.gov": {
+    "key": "waterdata.usgs.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://waterdata.usgs.gov/monitoring-location/03379500",
+        "title": "Little Wabash River below Clay City",
+        "snippet": "OpenStreetMap: Little Wabash River below Clay City"
+      }
+    ],
+    "pages": {
+      "https://waterdata.usgs.gov/": "",
+      "https://waterdata.usgs.gov/monitoring-location/03379500": ""
+    },
+    "osm": {
+      "name": "Little Wabash River below Clay City"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "potteryplacechampaign.com": {
+    "key": "potteryplacechampaign.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://potteryplacechampaign.com/",
+        "title": "The Pottery Place",
+        "snippet": "OpenStreetMap: The Pottery Place Champaign IL"
+      }
+    ],
+    "pages": {
+      "https://potteryplacechampaign.com/": "",
+      "https://potteryplacechampaign.com/parties-events/": "CORPORATE CRATES\nLooking for a group activity TO-GO?  Our CORPORATE CRATES are the perfect solution.  We pack the crate with pottery & needed materials and you return to us for glazing and firing.  email for pricing/availability.\nBirthdays\nStandard Birthday Party package includes :\n• Choice of any $10 pieces-boxes, banks, animals, or dishes to paint\n• All paints, supplies, instruction, glazing and firing of pieces\n$15.00 Each Painter\nBirthday Party package includes:\n• Hand-painted platter for guest of honor (of any age)!\n$17.50 Each Painter\n",
+      "https://potteryplacechampaign.com/classes/": "The Pottery Place is now offering handbuilding pottery classes for all skill levels. These classes are a fun way to learn about the ceramics process while making your very own unique art.\nDuring our classes, participants will build a 6″-8″ pottery piece. Choose a time to return to The Pottery Place for color painting & glazing. Fee is $25-$40 depending on project, and includes all materials, firing, and color glazing. All ages welcome.\nClasses are offered monthly basis. There is something for everyone as themes vary each month. Questions? Email info@potteryplacechampaign.com\nLoading…\n",
+      "https://potteryplacechampaign.com/design/parties-events/": "CORPORATE CRATES\nLooking for a group activity TO-GO?  Our CORPORATE CRATES are the perfect solution.  We pack the crate with pottery & needed materials and you return to us for glazing and firing.  email for pricing/availability.\nBirthdays\nStandard Birthday Party package includes :\n• Choice of any $10 pieces-boxes, banks, animals, or dishes to paint\n• All paints, supplies, instruction, glazing and firing of pieces\n$15.00 Each Painter\nBirthday Party package includes:\n• Hand-painted platter for guest of honor (of any age)!\n$17.50 Each Painter\n"
+    },
+    "osm": {
+      "name": "The Pottery Place",
+      "city": "Champaign",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "clay.cps.edu": {
+    "key": "clay.cps.edu",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "http://clay.cps.edu/",
+        "title": "Henry Clay Elementary School",
+        "snippet": "OpenStreetMap: Henry Clay Elementary School Chicago IL"
+      }
+    ],
+    "pages": {
+      "http://clay.cps.edu/": ""
+    },
+    "osm": {
+      "name": "Henry Clay Elementary School",
+      "city": "Chicago",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "powell.cps.edu": {
+    "key": "powell.cps.edu",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://powell.cps.edu/",
+        "title": "Adam Clayton Powell, Jr. Paideia Academy",
+        "snippet": "OpenStreetMap: Adam Clayton Powell, Jr. Paideia Academy Chicago IL"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Adam Clayton Powell, Jr. Paideia Academy",
+      "city": "Chicago",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claydooley.com": {
+    "key": "claydooley.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claydooley.com/champaign-shop/",
+        "title": "Clay Dooley Tire and Auto Services",
+        "snippet": "OpenStreetMap: Clay Dooley Tire and Auto Services Champaign IL"
+      }
+    ],
+    "pages": {
+      "https://www.claydooley.com/": "",
+      "https://www.claydooley.com/services/": "",
+      "https://www.claydooley.com/services/ac-service-repair/": "",
+      "https://www.claydooley.com/services/auto-repair-tune-up-services/": "",
+      "https://www.claydooley.com/champaign-shop/": ""
+    },
+    "osm": {
+      "name": "Clay Dooley Tire and Auto Services",
+      "city": "Champaign",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claycountyhospital.org": {
+    "key": "claycountyhospital.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://claycountyhospital.org/",
+        "title": "Clay County Hospital",
+        "snippet": "OpenStreetMap: Clay County Hospital Flora"
+      }
+    ],
+    "pages": {
+      "https://claycountyhospital.org/": "",
+      "https://claycountyhospital.org/clay-county-hospital/about-us/newsevents/": ""
+    },
+    "osm": {
+      "name": "Clay County Hospital",
+      "city": "Flora"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "www2.illinois.gov": {
+    "key": "www2.illinois.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www2.illinois.gov/idoc/facilities/Pages/ClaytonWorkCamp.aspx",
+        "title": "Clayton Work Camp",
+        "snippet": "OpenStreetMap: Clayton Work Camp Clayton IL"
+      }
+    ],
+    "pages": {
+      "https://www2.illinois.gov/": "",
+      "https://www2.illinois.gov/search-results.html?contentType=service": "",
+      "https://www2.illinois.gov/services/service.road-conditions.html": "",
+      "https://www2.illinois.gov/services/service.certify-unemployment-benefits.html": "",
+      "https://www2.illinois.gov/idoc/facilities/Pages/ClaytonWorkCamp.aspx": "Joe Coleman Medical Release Act FAQ\nCrime Reduction Act\nRANA Task Force\nSentencing Policy Advisory Council\n"
+    },
+    "osm": {
+      "name": "Clayton Work Camp",
+      "city": "Clayton",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "mississippimudpottery.com": {
+    "key": "mississippimudpottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.mississippimudpottery.com/",
+        "title": "Mississippi Mud Pottery",
+        "snippet": "OpenStreetMap: Mississippi Mud Pottery Alton IL"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Mississippi Mud Pottery",
+      "city": "Alton",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "barclayplace.com": {
+    "key": "barclayplace.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "http://www.barclayplace.com/",
+        "title": "Barclay Place",
+        "snippet": "OpenStreetMap: Barclay Place Lincolnwood IL"
+      }
+    ],
+    "pages": {
+      "http://www.barclayplace.com/": ""
+    },
+    "osm": {
+      "name": "Barclay Place",
+      "city": "Lincolnwood",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "illinoiscourts.gov": {
+    "key": "illinoiscourts.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.illinoiscourts.gov/courts-directory/73/Clay-County-Courthouse/court/",
+        "title": "Clay County Courthouse",
+        "snippet": "OpenStreetMap: Clay County Courthouse Louisville IL"
+      }
+    ],
+    "pages": {
+      "https://www.illinoiscourts.gov/": "",
+      "https://www.illinoiscourts.gov/eservices/attorney-licensure/": "",
+      "https://www.illinoiscourts.gov/eservices/certificate-of-registration-pursuant-to-supreme-court-rule-721": "",
+      "https://www.illinoiscourts.gov/courts/appellate-court/oral-arguments-calendar/": "",
+      "https://www.illinoiscourts.gov/courts-directory/73/Clay-County-Courthouse/court/": ""
+    },
+    "osm": {
+      "name": "Clay County Courthouse",
+      "city": "Louisville",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "barclay.lib.il.us": {
+    "key": "barclay.lib.il.us",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://barclay.lib.il.us/",
+        "title": "Barclay Public Library",
+        "snippet": "OpenStreetMap: Barclay Public Library Warrensburg IL"
+      }
+    ],
+    "pages": {
+      "https://barclay.lib.il.us/": "",
+      "https://barclay.lib.il.us/events/": "",
+      "https://barclay.lib.il.us/services/": "",
+      "https://barclay.lib.il.us/download-ebooks-eaudiobooks/": ""
+    },
+    "osm": {
+      "name": "Barclay Public Library",
+      "city": "Warrensburg",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claytonpubliclibrary.org": {
+    "key": "claytonpubliclibrary.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claytonpubliclibrary.org/",
+        "title": "Clayton Public Library District",
+        "snippet": "OpenStreetMap: Clayton Public Library District Clayton IL"
+      }
+    ],
+    "pages": {
+      "https://www.claytonpubliclibrary.org/": "",
+      "https://www.claytonpubliclibrary.org/services": "",
+      "https://www.claytonpubliclibrary.org/calendar": ""
+    },
+    "osm": {
+      "name": "Clayton Public Library District",
+      "city": "Clayton",
+      "state": "IL"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claycountyillinois.org": {
+    "key": "claycountyillinois.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://claycountyillinois.org/",
+        "title": "Clay County",
+        "snippet": "OpenStreetMap: Clay County"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Clay County"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "pacebus.com": {
+    "key": "pacebus.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.pacebus.com/route/272",
+        "title": "Bus 272: Golf Mill Mall -> Barclay -> Hawthorn Mall",
+        "snippet": "OpenStreetMap: Bus 272: Golf Mill Mall -> Barclay -> Hawthorn Mall"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Bus 272: Golf Mill Mall -> Barclay -> Hawthorn Mall"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

@@ -1677,6 +1677,101 @@
         "date": "2026-10-08"
       },
       "weak": false
+    },
+    {
+      "id": "brazos-clay-tx",
+      "org": "Brazos Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Waco",
+      "city": "Waco",
+      "urls": [
+        "https://www.superpages.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Waco, Texas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.superpages.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Brazos Clay also offers pottery classes, wheel throwing, paint",
+        "url": "https://www.superpages.com/waco-tx/bpp/brazos-clay-581521463",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "superpages.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The page text is empty; only search snippets mention raku pieces and pottery classes, but provide no details about public access to non-electric ceramic firings.",
+        "types": {},
+        "state": "TX",
+        "town": "Waco",
+        "street": "608 Dry Creek Rd, Waco, TX 76705"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "pine-mills-pottery-studio-and-gallery",
+      "org": "Pine Mills Pottery Studio and Gallery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Texas",
+      "city": null,
+      "urls": [
+        "https://www.pinemills.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.pinemills.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "pinemills.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The page describes a pottery studio's gallery and past firings but contains no information about public access to workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate in any ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [
@@ -1743,6 +1838,10 @@
     {
       "id": "stephen-f-austin-university-sfa",
       "why": "Two models agree: The page is a Glasstire article recounting a wood firing at SFA by instructors and students from SFA and the Glassell Studio School, with no offer or invitation for outsiders to join, book or sign up for a firing. (2026-10-08)"
+    },
+    {
+      "id": "n-a",
+      "why": "Second check (claude-haiku-4.5): Armadillo Clay & Supplies is a clay and kiln supply shop/distributor with a directory of local studios and firing services, but does not itself offer public access to ceramic firings. (2026-10-08)"
     }
   ]
 }

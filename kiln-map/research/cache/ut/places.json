@@ -1173,10 +1173,15 @@
         "url": "https://www.thekreativekiln.com/",
         "title": "Home | The Kreative Kiln",
         "snippet": "Experienced potters can pursue individual goals with personalized instructor guidance. Includes six 2½-hour sessions, studio tools, half a bag of clay (~12 lbs), and firing and glazing for class projects."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.thekreativekiln.com",
+        "title": "The Kreative Kiln",
+        "snippet": "OpenStreetMap: The Kreative Kiln Provo UT"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "The Kreative Kiln",
       "city": "",
@@ -1198,7 +1203,13 @@
       "quote_verified": false,
       "secs": 31,
       "state_on_page": false
-    }
+    },
+    "osm": {
+      "name": "The Kreative Kiln",
+      "city": "Provo",
+      "state": "UT"
+    },
+    "fetched": true
   },
   "ceramicsupplyusa.com": {
     "key": "ceramicsupplyusa.com",
@@ -1210,16 +1221,27 @@
         "url": "https://ceramicsupplyusa.com/studio/",
         "title": "The Studio - Ceramic Supply USA | Ceramic & Pottery Classes",
         "snippet": "Drop in for open studio time or reserve a spot in one of our classes! Give us a call at (385)222-7885 if you have any questions."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.ceramicsupplyusa.com/",
+        "title": "Ceramic Supply USA",
+        "snippet": "OpenStreetMap: Ceramic Supply USA Salt Lake City UT"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": false
-    }
+    },
+    "osm": {
+      "name": "Ceramic Supply USA",
+      "city": "Salt Lake City",
+      "state": "UT"
+    },
+    "fetched": true
   },
   "kayentafire.com": {
     "key": "kayentafire.com",
@@ -1360,12 +1382,17 @@
         "url": "https://thetiltedkiln.com/",
         "title": "The Tilted Kiln",
         "snippet": "Southern Utah's favorite place to imagine and create! The Tilted Kiln offers many services that make it a destination for families, friends, and companies to come and create your own pottery and ceramics."
+      },
+      {
+        "q": "osm",
+        "url": "https://thetiltedkiln.com/",
+        "title": "The Tilted Kiln",
+        "snippet": "OpenStreetMap: The Tilted Kiln"
       }
     ],
     "pages": {
       "https://thetiltedkiln.com/": "– The Tilted Kiln\nSkip to content\nThe Tilted Kiln\nHome\nAbout Us\nHandmade or Hand Painted by You!\nAt The Tilted Kiln we let you do your own thing!\nFrom throwing to glazing to firing, watch as your masterpiece comes together!\nOr come with a party, group, work event, and more to paint ceramics!\nCERAMICS SHOP\nEMAIL US\ninfo@thetiltedkiln.com\nJOIN EMAIL LIST\nSubscribe!\n(435)275-6603\nCopyright &copy; 2026 The Tilted Kiln\n"
     },
-    "fetched": true,
     "judged": {
       "name": "The Tilted Kiln",
       "city": "",
@@ -1380,7 +1407,11 @@
       "quote_verified": false,
       "secs": 22,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "The Tilted Kiln"
+    },
+    "fetched": true
   },
   "theclay.studio": {
     "key": "theclay.studio",
@@ -1494,10 +1525,15 @@
         "url": "https://www.muddiebuddiespottery.com/fun-classes",
         "title": "Fun Stuff | Muddie Buddies",
         "snippet": "Barrel Firing is a fascinating and primitive method of firing pottery. The outcome is uncontrollable and very often exceptional. It is a fun alternative to glazing pottery. Please join us for a fun experience. $100 Instructor: Cindy Erickson. Contact the studio for dates and times."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.muddiebuddiespottery.com/",
+        "title": "Muddie Buddies Pottery and Art Studio",
+        "snippet": "OpenStreetMap: Muddie Buddies Pottery and Art Studio Bountiful UT"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Muddie Buddies Pottery",
       "city": "",
@@ -1515,7 +1551,13 @@
       "secs": 20,
       "state_on_page": false,
       "supported_types": []
-    }
+    },
+    "osm": {
+      "name": "Muddie Buddies Pottery and Art Studio",
+      "city": "Bountiful",
+      "state": "UT"
+    },
+    "fetched": true
   },
   "lighthousearts.org": {
     "key": "lighthousearts.org",
@@ -2180,16 +2222,27 @@
         "url": "https://saltlakepotterystudio.com/pages/memberships",
         "title": "Pottery Studio Memberships & Punch Passes | Salt Lake City ...",
         "snippet": "We are proud to offer a discounted membership for first responders and teachers as a thank you for your service to our community."
+      },
+      {
+        "q": "osm",
+        "url": "https://saltlakepotterystudio.com/",
+        "title": "Salt Lake Pottery Studio",
+        "snippet": "OpenStreetMap: Salt Lake Pottery Studio Salt Lake City UT"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "Salt Lake Pottery Studio",
+      "city": "Salt Lake City",
+      "state": "UT"
+    },
+    "fetched": true
   },
   "cottonwoodclay.com": {
     "key": "cottonwoodclay.com",
@@ -4612,6 +4665,278 @@
       "quote_verified": false,
       "secs": 15,
       "state_on_page": false
+    }
+  },
+  "provo.colormemine.com": {
+    "key": "provo.colormemine.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://provo.colormemine.com/",
+        "title": "Color Me Mine",
+        "snippet": "OpenStreetMap: Color Me Mine Provo UT"
+      }
+    ],
+    "pages": {
+      "https://provo.colormemine.com/": "",
+      "https://provo.colormemine.com/calendar": "",
+      "https://provo.colormemine.com/events": "",
+      "https://provo.colormemine.com/events/kids/": ""
+    },
+    "osm": {
+      "name": "Color Me Mine",
+      "city": "Provo",
+      "state": "UT"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "kiln.com": {
+    "key": "kiln.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://kiln.com/communities/salt-lake-city/",
+        "title": "Kiln",
+        "snippet": "OpenStreetMap: Kiln Salt Lake City UT"
+      }
+    ],
+    "pages": {
+      "https://kiln.com/": "Coworking Office Spaces for Rent | Kiln\nSkip to Content\nLocations Arizona Phoenix Biltmore\nHolladay\nKiln Cabin\nLehi\nPark City\n&darr;\nKiln is a workspace experience designed to elevate performance and lifestyle. Offering coworking, private offices, meeting rooms, and event spaces, each Kiln location is thoughtfully designed to support the way modern teams work and connect. With over 25 locations across the West, Kiln helps companies attract, retain, and empower top talent through environments built for creativity, focus, and growth.\nWorkspaces Designed to Elevate Performance\nNo buildout costs. No long-term lease. No hidden fees.\nFive ways to work at Kiln, from occasional access to a full team studio. Every membership is all-inclusive and month to month.\nTeam Studios\nFully-equipped, branded office space for teams of 15 to 100. Financial and operational agility, customized to leave an impression.\nOur Locations\nAccess the entire Kiln network across the West, all located in vibrant lifestyle towns with immediate access to world-class dining, shopping, entertainment, and the outdoors.\nFind Your Nearest Kiln\nEnter your zip code and we'll point you to the Kiln communities closest to you.\nSearch\nKiln Seattle-Fremont Kiln Bellevue Kiln Woodinville Kiln Portland Kiln Bend Kiln Boise Kiln Meridian Kiln Bozeman Kiln Reno Kiln Las Vegas The Assembly by Kiln Kiln Salt Lake City Kiln Holladay Kiln Daybreak Kiln Lehi Kiln Park City Kiln Cabin Kiln Provo Kiln St. George Kiln Fort Collins Kiln Boulder Kiln Littleton Kiln Biltmore Kiln Gilbert Kiln Tucson Kiln Manhattan Beach Kiln Anaheim Kiln Carlsbad Kiln Leucadia Kiln Solana Beach Kiln Rancho Bernardo Kiln Plano Kiln Preston Hollow\nA Community of Professionals, Startups, and Growing Teams\nFrom emerging startups to established companies, teams choose Kiln to scale faster without the constraints of traditional office space\nThe Kiln Difference\nPrevious Slide &larr;\nNext Slide &rarr;\nCommunity Teams\nOur local teams are an extension of yours, passionate, detail-oriented professionals dedicated to personalizing your Kiln experience every day. As your front desk service, they provide a professional and warm first impression, ensuring every guest is greeted with a smile and your business always feels welcoming.\nBook a Tour\nIntegrated Design\nLed by Co-Founder Leigh Radford, our design team, guided by London design principles, has developed 26+ furniture products, including our Club, Resident, and Signature paneling systems. Designed for flexibility, they create a frictionless workspace that supports productivity and professional business interactions.\nKiln’s Design Method\nEvents & Experiences\nAt Kiln, we curate a dynamic calendar of events designed to fuel both professional growth and personal well-being. From high-impact networking and educational workshops to après-work socials and off-site community experiences, our programming fosters connection, learning, and balance, helping you and your team thrive inside and outside the workplace.\nMeeting Rooms & Event Spaces\nFlexible Memberships\nWhether you’re a team of 1 or 100, Kiln offers tailored memberships designed to meet your unique needs, scaling effortlessly as your business grows. More than just a workspace, Kiln adapts to your goals, evolving with you whether you’re expanding, streamlining, or redefining your business. Our memberships and experiences are thoughtfully designed to support every stage of development, ensuring you have the right resources, connections, and environment to thrive.\nExplore Memberships\nWhat Kiln Members Are Saying\nHear how professionals and teams are building momentum, connection, and better workdays across the Kiln network.\n“I absolutely love working from Kiln. It is such a wonderful place with all the amenities you can think of. I also love the sense of community that is built here and the connections I have made. Beyond all of this, Kiln is such an aesthetically pleasing place to be.”\nMcKenna Ryan Kiln Member\n“I work re",
+      "https://kiln.com/communities/sundance-kiln-cabin/": "Meeting & Retreat Space at Sundance, UT | Kiln\nSkip to Content\nLocations Arizona Phoenix Biltmore\nHolladay\nKiln Cabin\nLehi\nPark City\nDiscover a creative retreat for your team to gather, reconnect, and create in nature.\nThe Kiln Cabin at Sundance Resort is designed for teams of up to 8 looking to gather, host a brainstorming session, or get off-site for a retreat. The modern meeting space for rent is equipped with a conference table, small seating area, kitchenette, whiteboard, TV, and wifi.\nWe believe that nature promotes innovation and good thinking. Tap into Utah’s natural beauty to connect with colleagues, come up with the next big idea and build strong bonds through experiences.\n9049 Timphaven Road\nSundance, Utah 84604\n385-249-0049\nBook the Kiln Cabin\nView the experience\nTeam Experiences\nMemorable Gatherings\nKiln Cabin at Sundance Mountain Resort offers a stunning venue located in the heart of Utah’s picturesque natural landscape, making it the ideal location for your next meeting, brainstorming session, or retreat. With its breathtaking views of the mountains and surrounding wilderness, the resort provides a peaceful and serene atmosphere that is perfect for inspiring creativity, fostering collaboration, and promoting relaxation.\nCreative Inspiration\nSundance Mountain Resort offers world-class mountain experiences for all skill levels, providing endless opportunities for adventure and relaxation. Explore over 42 skiing and snowboarding runs, 10 miles of hiking trails, or enjoy thrilling activities like mountain biking, horseback riding, and zip-lining. Learn new skills and create souvenirs in pottery and jewelry making classes. Sundance Mountain Resort is the perfect destination for an unforgettable adventure in Utah’s stunning natural beauty.\nNext Slide &rarr;\nTo book the Kiln Cabin, call the Kiln Lehi team today.\nBook the Kiln Cabin →\nMember Portal\nMember Events\nBook a Tour\nKiln is meant to be experienced. Come by yourself or with your team and immerse yourself in the future of workplace environments.\nArizona\nBiltmore\nSt. George\nWashington\nBellevue\nMessage Our Team\nBook the Kiln Cabin.\nShare a few details and our team will help you plan your next gathering at the Kiln Cabin at Sundance Mountain Resort.\nDownload Brochure\nLearn more about what Kiln Rancho Bernardo has to offer, including memberships, amenities, and benefits.\nWe value your privacy\nCookies help us shape a better experience for you. By using our site, you agree to our cookie policy.\n",
+      "https://kiln.com/communities/woodinville/": "Coworking & Office Space in Woodinville, WA | Kiln\nSkip to Content\nLocations Arizona Phoenix Biltmore\nHolladay\nKiln Cabin\nLehi\nPark City\nA boutique, flex-office community built for the way people actually work, whether you're solo, hybrid, running a team, or hosting your next event.\nThis boutique space is built to support teams of all sizes, from solo entrepreneurs to enterprise companies. With vibrant coworking areas, customizable team studios, private offices, A/V equipped meeting rooms, and event venues, Kiln provides everything needed to fuel productivity and creativity.\nDoors open mid-2027. Waitlist now open.\nKiln Woodinville\n14486 147th Place NE\nSuites D30 & D34\nNo buildout costs. No long-term lease. No hidden fees.\nFour ways to work at Kiln Woodinville, from a shared desk to a full team studio. Every membership is all-inclusive and month to month.\nTeam Studios\nInquire\nSpace for Every Way You Work\nFour ways to work at Kiln Woodinville. Explore the one that fits you and your team.\nFor Solo Professionals and Hybrid Workers\nKiln Woodinville's coworking memberships give you a professional environment with everything you need to do focused work, and a community to be part of when you want it.\nShared desks and dedicated desks to match how you work\nPhone booths and deep work rooms for heads-down time\nFor Growing Teams\nFrom two-person startups to scaling companies, Kiln's private offices for rent give your team a professional home base without the headaches of a traditional lease. Move in fast, scale up when you need to, and keep your energy on the work, not on the office.\nPrivate, lockable offices for teams of 1 to 15\nLayouts designed for collaboration and focus\nFor Enterprise and Large Teams\nStudio Offices at Kiln Woodinville are fully customizable, branded team suites for companies of 15 to 50+. Bring your team together in a dedicated space that reflects your culture, with enterprise-grade infrastructure already built in and operations handled for you.\nPrivate, brandable team suites\nConfigurable layouts designed around your team\nFor Meetings, Offsites, and Events\nHosting a client pitch, a quarterly offsite, a product launch, or a networking happy hour? Rent a meeting room or event space at Kiln Woodinville. You don't need a membership to book. Just pick the right space for your group size and vibe, and our team handles the rest.\nA/V equipped conference rooms from small huddles to full-board presentations\nEvent spaces for 10 to 100 guests\nEverything Included. Nothing to Set Up.\nEvery Kiln Woodinville membership, from Club to Team Studios, includes full access to our amenities. Meeting room and event space guests get the same pro-grade infrastructure and hospitality without the commitment.\nWaitlist now open. A limited number of spots are available.\nApply for Waitlist\nA Community of Professionals, Startups, and Growing Teams\nFrom emerging startups to established companies, teams choose Kiln to scale faster without the constraints of traditional off",
+      "https://kiln.com/meetings-events/": "Meeting Rooms & Event Spaces | Kiln\nSkip to Content\nLocations Arizona Phoenix Biltmore\nHolladay\nKiln Cabin\nLehi\nPark City\nFrom two-person huddle rooms to boardrooms that seat twenty, every room is furnished, cleaned, and ready the moment you walk in. Most are set up for presenting and for video calls, with a screen, a whiteboard, and a conferencing camera and mic.\nYou don’t need to be a member. Rooms book by the hour, for an hour or for the whole day. Compare rooms and rates across every Kiln community.\nEverything included. Nothing to bring.\nThe hourly rate is the whole rate. There is no separate line for the Wi-Fi, the coffee, the furniture, or the person on site making sure it all works.\nFind your space\nTell us where you are and how many people you are expecting. We will show you the closest Kiln communities that can host you.\nZip code\nEstimated guests\nLet’s answer your questions.\nWhat kinds of meeting and event spaces does Kiln offer? &darr;\nKiln has more than 240 bookable meeting and event spaces across its communities , ranging from small huddle rooms that seat three to venues that hold up to 250 guests. Options include conference rooms, boardrooms, training rooms, lounges, galleries, and dedicated event venues.\nMany spaces can be arranged in a theater, classroom, U-shape, round table, or cocktail reception layout, so the same room can work for a client meeting, an all-hands, a workshop, or an evening reception.\nDo I need to be a Kiln member to book a meeting or event space? &darr;\nNo. Kiln meeting rooms and event venues are available to book whether or not you are a member. Members can reserve space as part of their plan, and non-members are welcome to book directly.\nIf you are not sure which location or room size fits, use the space finder above or send an inquiry and someone from the local team will help you narrow it down.\nHow much does it cost to rent a meeting room or event space at Kiln? &darr;\nKiln meeting and event spaces are priced by the hour, so you only pay for the time you need. Rates start around $40 per hour for smaller meeting rooms and increase with capacity, layout, and the production needs of larger event venues.\nPricing is listed on each individual space, so you can compare options across rooms and locations before you book.\nWhat is included when I book a space at Kiln? &darr;\nMost Kiln meeting rooms are equipped for presentations and video calls, with presentation screens, whiteboards, and conferencing cameras and microphones. Many spaces also support wireless screen sharing through AirPlay, Miracast, or USB-C, and a smaller number include recording equipment or whiteboard cameras.\nAmenities vary by room, so each listing shows exactly what that space includes before you reserve it.\nHow do I find and book a meeting room near me? &darr;\nMost rooms can be reserved online. A smaller number of larger venues are confirmed by the local team after a quick review, to make sure the space is the right fit for what you are planning",
+      "https://kiln.com/communities/salt-lake-city/": "Coworking & Office Space in Salt Lake City, UT | Kiln\nSkip to Content\nLocations Arizona Phoenix Biltmore\nHolladay\nKiln Cabin\nLehi\nPark City\nBest Work Happens\nKiln Salt Lake City is a boutique flexible shared office and coworking space for rent in downtown Salt Lake City, designed to elevate performance and lifestyle.\nEmpowering teams from 1 to 100, our flexible Salt Lake City office space is a truly turnkey solution no matter the size of your business. The fully furnished, handcrafted environment includes open coworking areas, private offices, and team studios, alongside 22 A/V equipped conference rooms, a 170-person theater, and a fitness pod.\nMemberships are all-inclusive and month to month, so there is no buildout, no long-term lease, and nothing to set up. Members plug into a community supported by a robust calendar of networking and wellness events.\nLocated in the heart of The Gateway, our downtown Salt Lake City office space offers diverse food options and direct access to public transit, and sits just 10 minutes from Salt Lake City International Airport.\nKiln Salt Lake City\n26 South Rio Grande Street\nSuite 2072\nNo buildout costs. No long-term lease. No hidden fees.\nFour ways to work at Kiln Salt Lake City, from a shared desk to a full team studio. Every membership is all-inclusive and month to month.\nTeam Studios\nStarting at $7,160/mo\nSpace for Every Way You Work\nFour ways to work at Kiln Salt Lake City. Explore the one that fits you and your team.\nFor Solo Professionals and Hybrid Workers\nKiln Salt Lake City's coworking memberships give you a professional environment with everything you need to do focused work, and a community to be part of when you want it.\nShared desks and dedicated desks to match how you work\nPhone booths and deep work rooms for heads-down time\nFor Growing Teams\nFrom two-person startups to scaling companies, Kiln Salt Lake City's private offices for rent give your team a professional home base without the headaches of a traditional lease. Move in fast, scale up when you need to, and keep your energy on the work, not on the office.\nPrivate, lockable offices for teams of 1 to 15\nLayouts designed for collaboration and focus\nFor Enterprise and Large Teams\nStudio Offices at Kiln Salt Lake City are fully customizable, branded team suites for companies of 15 to 50+. Bring your team together in a dedicated space that reflects your culture, with enterprise-grade infrastructure already built in and operations handled for you.\nPrivate, brandable team suites\nConfigurable layouts designed around your team\nFor Meetings, Offsites, and Events\nHosting a client pitch, a quarterly offsite, a product launch, or a networking happy hour? Rent a meeting room or event space at Kiln Salt Lake City. You don't need a membership to book. Just pick the right space for your group size and vibe, and our team handles the rest.\nA/V equipped conference rooms from small huddles to full-board presentations\nA theater and event spaces for groups of up to 170\n03 Tour\nCome experience Kiln for yourself.\n04 Move in or book the date\nFully ready, no buildout required.\nA Community of Professionals, Startups, and Growing Teams\nFrom emerging startups to established companies, teams choose Kiln to scale faster without the constraints of traditional office space\nMore Than a Place to Work\nThe space, the community, and the network that come with every Kiln Salt Lake City membership.\nA Workspace Designed Around Your Day\nKiln is a handcrafted environment of open coworking space, private offices, phone booths, conference rooms, event spaces, and quiet lounges, designed so you can move through your day without fighting your space. Take a call in a phone booth, run a client meeting in an A/V equipped conference room, grind through deep work at a dedicated desk, and wrap with a networking happy hour in the event space. All under one roof.\nMore Than a Coworking Space: A Community\nEvery Kiln Salt Lake City membership includes access to a curated calendar of"
+    },
+    "osm": {
+      "name": "Kiln",
+      "city": "Salt Lake City",
+      "state": "UT"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "sandy.colormemine.com": {
+    "key": "sandy.colormemine.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://sandy.colormemine.com/",
+        "title": "Color Me Mine",
+        "snippet": "OpenStreetMap: Color Me Mine"
+      }
+    ],
+    "pages": {
+      "https://sandy.colormemine.com/": "",
+      "https://sandy.colormemine.com/calendar": "",
+      "https://sandy.colormemine.com/events": "",
+      "https://sandy.colormemine.com/events/kids/": ""
+    },
+    "osm": {
+      "name": "Color Me Mine"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "thefrontclimbingclub.com": {
+    "key": "thefrontclimbingclub.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://thefrontclimbingclub.com/studio-1396/",
+        "title": "Studio 1396",
+        "snippet": "OpenStreetMap: Studio 1396"
+      }
+    ],
+    "pages": {
+      "https://thefrontclimbingclub.com/": "",
+      "https://thefrontclimbingclub.com/slc/groups": "",
+      "https://thefrontclimbingclub.com/ogden/groups": "",
+      "https://thefrontclimbingclub.com/southmain/groups": "",
+      "https://thefrontclimbingclub.com/studio-1396/": "Front memberships give you unlimited access to Open Studio hours and discounts on ceramic studio classes, along with all of the regular gym membership perks.\nClay, tools, and firings must be purchased separately.\nIs there a studio-only membership available?\nWe do not currently offer studio-only memberships, but you may purchase a 10 visit Studio Pass!\nHow do I know when to pick up my finished (fired) work?\nWe fire at least one Bisque (first firing) and one Glaze (second firing) per week. Each firing takes about 24 hours to fire and cool. Firing times are posted both in studio and on our Instagram !\nIs there open studio time?\nOf course! We have both Assisted Open Studio and Open Studio for hand building, wheel throwing, and glazing. These are typically two-hour blocks offered at various times throughout our studio hours. If you need assistance, have questions, or need a demo, please sign up for Assisted Open Studio hours.\n"
+    },
+    "osm": {
+      "name": "Studio 1396"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "splashofcolorpottery.com": {
+    "key": "splashofcolorpottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://splashofcolorpottery.com/",
+        "title": "Splash of Color Pottery",
+        "snippet": "OpenStreetMap: Splash of Color Pottery Saratoga Springs UT"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Splash of Color Pottery",
+      "city": "Saratoga Springs",
+      "state": "UT"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "potterybarn.com": {
+    "key": "potterybarn.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.potterybarn.com/stores/us/ut/salt-lake-city-trolley-square/",
+        "title": "Pottery Barn",
+        "snippet": "OpenStreetMap: Pottery Barn Salt Lake City UT"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Pottery Barn",
+      "city": "Salt Lake City",
+      "state": "UT"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "clayton.slcschools.org": {
+    "key": "clayton.slcschools.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://clayton.slcschools.org/",
+        "title": "Clayton Intermediate School",
+        "snippet": "OpenStreetMap: Clayton Intermediate School Salt Lake City UT"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Clayton Intermediate School",
+      "city": "Salt Lake City",
+      "state": "UT"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "phillips66gas.com": {
+    "key": "phillips66gas.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.phillips66gas.com/station/P66-CLAYS-66-0000820232/",
+        "title": "Clays 66",
+        "snippet": "OpenStreetMap: Clays 66 Beaver UT"
+      }
+    ],
+    "pages": {
+      "https://www.phillips66gas.com/": "",
+      "https://www.phillips66gas.com/station/P66-CLAYS-66-0000820232/": ""
+    },
+    "osm": {
+      "name": "Clays 66",
+      "city": "Beaver",
+      "state": "UT"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claysrvsales.com": {
+    "key": "claysrvsales.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claysrvsales.com/",
+        "title": "Clay's Utah RV Sales",
+        "snippet": "OpenStreetMap: Clay's Utah RV Sales Salt Lake City UT"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Clay's Utah RV Sales",
+      "city": "Salt Lake City",
+      "state": "UT"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "metroatfireclay.com": {
+    "key": "metroatfireclay.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://metroatfireclay.com",
+        "title": "Metro At Fireclay",
+        "snippet": "OpenStreetMap: Metro At Fireclay"
+      }
+    ],
+    "pages": {
+      "https://metroatfireclay.com/": "",
+      "https://metroatfireclay.com": ""
+    },
+    "osm": {
+      "name": "Metro At Fireclay"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

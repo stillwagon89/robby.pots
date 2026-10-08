@@ -37,8 +37,10 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 30 | Clayscapes Pottery | ? | raku | Firing service | clayscapespottery.com |
 | 31 | Ceramics of New York | Springville | raku | Classes or membership | ceramicsofny.com |
 | 32 | Thousand Islands Arts Center | ? | raku | Classes or membership | tiartscenter.org |
-| 33 | Island Pottery & Studio | ? | raku | Classes or membership | islandpotterystudio.com |
+| 33 | Island Pottery & Studio | Mineola | raku | Classes or membership | islandpotterystudio.com, clayatlas.com |
 | 34 | Long Island University | Brooklyn | raku, wood | Classes or membership | liu.edu |
 | 35 | Garrison Art Center | Garrison | wood | Classes or membership | tonymooreart.com |
 | 36 | Rochester Folk Art Guild | Rochester | wood | Classes or membership | hamishjacksonpottery.com |
 | 37 | Patchogue Arts Council | Patchogue | raku | Classes or membership | patchoguearts.org |
+| 38 | East Fork | ? | wood | See site | eastfork.com |
+| 39 | Ridgewood Ceramics | Ridgewood | raku | See site | ridgewoodceramics.com |

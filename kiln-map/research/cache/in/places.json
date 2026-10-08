@@ -2767,10 +2767,15 @@
         "url": "http://www.potteryhousestudio.com/",
         "title": "The Pottery House Studio",
         "snippet": "We’ll fire your piece in our kiln and let you know when it’s ready to pick up! We have ten student pottery wheels and all the tools and equipment you need to grow from beginner to expert! Our Clay Studio classes range from one-time lessons in the basics to weekly classes to practice your skills."
+      },
+      {
+        "q": "osm",
+        "url": "http://www.potteryhousestudio.com/",
+        "title": "Pottery House Studio",
+        "snippet": "OpenStreetMap: Pottery House Studio"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "The Pottery House Studio",
       "city": "Bloomington",
@@ -2788,7 +2793,11 @@
       "secs": 12,
       "state_on_page": true,
       "supported_types": []
-    }
+    },
+    "osm": {
+      "name": "Pottery House Studio"
+    },
+    "fetched": true
   },
   "yelp.com": {
     "key": "yelp.com",
@@ -3202,10 +3211,15 @@
         "url": "https://www.pigeonhenpottery.com/about/",
         "title": "How PYOP Works — The Pigeon and The Hen Pottery",
         "snippet": "Choose from 500+ pottery items—bowls, plates, platters, figurines, cups, seasonal pieces, and more. Each item is priced separately and includes paint, pottery, and firing."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.pigeonhenpottery.com/",
+        "title": "The Pigeon & the Hen Pottery",
+        "snippet": "OpenStreetMap: The Pigeon & the Hen Pottery South Bend IN"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "The Pigeon and The Hen Pottery",
       "city": "South Bend",
@@ -3222,7 +3236,13 @@
       "quote_verified": true,
       "secs": 10,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "The Pigeon & the Hen Pottery",
+      "city": "South Bend",
+      "state": "IN"
+    },
+    "fetched": true
   },
   "southbendtribune.com": {
     "key": "southbendtribune.com",
@@ -5291,6 +5311,284 @@
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": true
+    }
+  },
+  "clayshirecastle.com": {
+    "key": "clayshirecastle.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://clayshirecastle.com/",
+        "title": "Clayshire Castle",
+        "snippet": "OpenStreetMap: Clayshire Castle Bowling Green IN"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Clayshire Castle",
+      "city": "Bowling Green",
+      "state": "IN"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "mylittlesoapshop.com": {
+    "key": "mylittlesoapshop.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.mylittlesoapshop.com/#reach-us",
+        "title": "My Little Soap Shop & Paint Your Own Pottery",
+        "snippet": "OpenStreetMap: My Little Soap Shop & Paint Your Own Pottery Huntingburg IN"
+      }
+    ],
+    "pages": {
+      "https://www.mylittlesoapshop.com/": "",
+      "https://www.mylittlesoapshop.com/#reach-us": ""
+    },
+    "osm": {
+      "name": "My Little Soap Shop & Paint Your Own Pottery",
+      "city": "Huntingburg",
+      "state": "IN"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "barclaysf.com": {
+    "key": "barclaysf.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.barclaysf.com/",
+        "title": "Ryan Barclay Insurance",
+        "snippet": "OpenStreetMap: Ryan Barclay Insurance Greenwood IN"
+      }
+    ],
+    "pages": {
+      "https://www.barclaysf.com/": "Greenwood, IN 46143-1438\nJust around the corner from Edward Jones and the Oaken Barrel.\nContact Us\n"
+    },
+    "osm": {
+      "name": "Ryan Barclay Insurance",
+      "city": "Greenwood",
+      "state": "IN"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "usi.edu": {
+    "key": "usi.edu",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.usi.edu/liberal-arts/art/facilities",
+        "title": "Ceramics Center",
+        "snippet": "OpenStreetMap: Ceramics Center Evansville IN"
+      }
+    ],
+    "pages": {
+      "https://www.usi.edu/": "",
+      "https://www.usi.edu/about/student-services": "",
+      "https://www.usi.edu/registrar/academic-calendar": "",
+      "https://www.usi.edu/registrar/classes": ""
+    },
+    "osm": {
+      "name": "Ceramics Center",
+      "city": "Evansville",
+      "state": "IN"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "healthcare.ascension.org": {
+    "key": "healthcare.ascension.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://healthcare.ascension.org/locations/indiana/ineva/brazil-ascension-st-vincent-clay",
+        "title": "Ascension Saint Vincent Clay Hospital",
+        "snippet": "OpenStreetMap: Ascension Saint Vincent Clay Hospital Brazil"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Ascension Saint Vincent Clay Hospital",
+      "city": "Brazil"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "tools.usps.com": {
+    "key": "tools.usps.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://tools.usps.com/locations/details/1358267",
+        "title": "United States Postal Service Clayton",
+        "snippet": "OpenStreetMap: United States Postal Service Clayton Clayton Indiana"
+      }
+    ],
+    "pages": {
+      "https://tools.usps.com/locations/details/1358267": ""
+    },
+    "osm": {
+      "name": "United States Postal Service Clayton",
+      "city": "Clayton",
+      "state": "Indiana"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "ccs.k12.in.us": {
+    "key": "ccs.k12.in.us",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.ccs.k12.in.us/cce",
+        "title": "Clay Center Elementary",
+        "snippet": "OpenStreetMap: Clay Center Elementary Carmel IN"
+      }
+    ],
+    "pages": {
+      "https://www.ccs.k12.in.us/": "",
+      "https://www.ccs.k12.in.us/services/community-relations": "",
+      "https://www.ccs.k12.in.us/about/district-calendar": "",
+      "https://www.ccs.k12.in.us/services": "",
+      "https://www.ccs.k12.in.us/cce": ""
+    },
+    "osm": {
+      "name": "Clay Center Elementary",
+      "city": "Carmel",
+      "state": "IN"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "slip-happens.com": {
+    "key": "slip-happens.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://slip-happens.com/",
+        "title": "Slip Happens Ceramics and Gifts",
+        "snippet": "OpenStreetMap: Slip Happens Ceramics and Gifts La Porte IN"
+      }
+    ],
+    "pages": {
+      "https://slip-happens.com/": ""
+    },
+    "osm": {
+      "name": "Slip Happens Ceramics and Gifts",
+      "city": "La Porte",
+      "state": "IN"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "clayfd.com": {
+    "key": "clayfd.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "http://www.clayfd.com/2154/Station-25",
+        "title": "Clay Fire Station 25",
+        "snippet": "OpenStreetMap: Clay Fire Station 25 Granger IN"
+      }
+    ],
+    "pages": {
+      "http://www.clayfd.com/": "",
+      "http://www.clayfd.com/FormCenter/Fire-Department-2/Your-Opinion-Matters-40": "",
+      "http://www.clayfd.com/Layout/WidgetShare/ShareLink/Facebook": "",
+      "http://www.clayfd.com/2154/Station-25": ""
+    },
+    "osm": {
+      "name": "Clay Fire Station 25",
+      "city": "Granger",
+      "state": "IN"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "sycamorelandtrust.org": {
+    "key": "sycamorelandtrust.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://sycamorelandtrust.org/preserves/barclay-woods/",
+        "title": "Barclay Woods Preserve",
+        "snippet": "OpenStreetMap: Barclay Woods Preserve"
+      }
+    ],
+    "pages": {
+      "https://sycamorelandtrust.org/": "",
+      "https://sycamorelandtrust.org/2025/11/download-our-free-wildflower-coloring-book/": "",
+      "https://sycamorelandtrust.org/bulletin-board/": "",
+      "https://sycamorelandtrust.org/bulletin-board/events-calendar/": "",
+      "https://sycamorelandtrust.org/preserves/barclay-woods/": ""
+    },
+    "osm": {
+      "name": "Barclay Woods Preserve"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

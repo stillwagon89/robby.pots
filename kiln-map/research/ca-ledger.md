@@ -38,17 +38,19 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 31 | Ceramic Heights | San Diego | raku | Dated workshop or firing event | ceramicheights.com |
 | 32 | Mendicino Art Center | Mendicino | pit_barrel_saggar, raku | Dated workshop or firing event | acga.net |
 | 33 | Santa Cruz Mountains Art Center | ? | raku | Classes or membership | mountainartcenter.org |
-| 34 | Clay+Kiln | Healdsburg | pit_barrel_saggar | See site | clayandkilnceramics.com |
-| 35 | Sweet Spirit Ceramics Center | San Rafael | raku | Classes or membership | sweetspiritceramics.weebly.com |
-| 36 | San Diego Craft Collective | San Diego | raku | Dated workshop or firing event | sandiegocraft.org |
-| 37 | San Diego Potters' Guild | San Diego | gas_reduction | Classes or membership | sandiegopottersguild.org |
-| 38 | ICA North | Encinitas | raku | Dated workshop or firing event | icasandiego.org |
-| 39 | ACAI Studios & Gallery | Fair Oaks | raku | Dated workshop or firing event | acaistudios.com |
-| 40 | San Diego Ceramic Connection | San Diego | raku | Classes or membership | sdceramic.com |
-| 41 | thefoundrypotterystudio | Moolap | gas_reduction | Firing service | thefoundrypotterystudio.com |
-| 42 | Maker House | Goleta | raku | Classes or membership | makerhouse.org |
-| 43 | Gaucho R.E.C. | Santa Barbara | soda, raku | Classes or membership | recreation.ucsb.edu |
-| 44 | Earth Interrupted Pottery | ? | raku | Classes or membership | earthinterruptedpottery.com |
-| 45 | thecuriousforge | ? | raku | Classes or membership | thecuriousforge.org |
-| 46 | John Dix | Mendocino | wood, soda | Dated workshop or firing event | johndix.com |
-| 47 | Fraser Valley Potters Guild | ? | raku, wood, soda, pit_barrel_saggar | See site | fraservalleypottersguild.com |
+| 34 | Multiple | Multiple | raku, gas_reduction | Classes or membership | clay-king.com |
+| 35 | Clay+Kiln | Healdsburg | pit_barrel_saggar | See site | clayandkilnceramics.com |
+| 36 | Sweet Spirit Ceramics Center | San Rafael | raku | Classes or membership | sweetspiritceramics.weebly.com |
+| 37 | San Diego Craft Collective | San Diego | raku | Dated workshop or firing event | sandiegocraft.org |
+| 38 | San Diego Potters' Guild | San Diego | gas_reduction | Classes or membership | sandiegopottersguild.org |
+| 39 | ICA North | Encinitas | raku | Dated workshop or firing event | icasandiego.org |
+| 40 | ACAI Studios & Gallery | Fair Oaks | raku | Dated workshop or firing event | acaistudios.com |
+| 41 | San Diego Ceramic Connection | San Diego | raku | Classes or membership | sdceramic.com |
+| 42 | thefoundrypotterystudio | Moolap | gas_reduction | Firing service | thefoundrypotterystudio.com |
+| 43 | Maker House | Goleta | raku | Classes or membership | makerhouse.org |
+| 44 | Gaucho R.E.C. | Santa Barbara | soda, raku | Classes or membership | recreation.ucsb.edu |
+| 45 | Earth Interrupted Pottery | ? | raku | Classes or membership | earthinterruptedpottery.com |
+| 46 | thecuriousforge | ? | raku | Classes or membership | thecuriousforge.org |
+| 47 | John Dix | Mendocino | wood, soda | Dated workshop or firing event | johndix.com |
+| 48 | Fraser Valley Potters Guild | ? | raku, wood, soda, pit_barrel_saggar | See site | fraservalleypottersguild.com |
+| 49 | Clay Planet | ? | raku, gas_reduction | See site | clay-planet.com |

@@ -4844,5 +4844,58 @@
       "auto": true,
       "state_on_page": false
     }
+  },
+  "barclayii.com": {
+    "key": "barclayii.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://barclayii.com/",
+        "title": "Barclay II Supper Club & Lounge",
+        "snippet": "OpenStreetMap: Barclay II Supper Club & Lounge"
+      }
+    ],
+    "pages": {
+      "https://barclayii.com/": "",
+      "https://barclayii.com/events.html": ""
+    },
+    "osm": {
+      "name": "Barclay II Supper Club & Lounge"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claysincalico.com": {
+    "key": "claysincalico.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://claysincalico.com/",
+        "title": "Clays in Calico",
+        "snippet": "OpenStreetMap: Clays in Calico Cardwell MT"
+      }
+    ],
+    "pages": {
+      "https://claysincalico.com/": ""
+    },
+    "osm": {
+      "name": "Clays in Calico",
+      "city": "Cardwell",
+      "state": "MT"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
   }
 }

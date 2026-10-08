@@ -379,7 +379,8 @@
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-08"
-      }
+      },
+      "weak": true
     },
     {
       "id": "super-awesome-cool-pottery",
@@ -1124,7 +1125,8 @@
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-08"
-      }
+      },
+      "weak": true
     },
     {
       "id": "the-clay-studios",
@@ -1248,7 +1250,8 @@
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-08"
-      }
+      },
+      "weak": true
     },
     {
       "id": "gulf-coast-kiln-walk-society",
@@ -1485,7 +1488,8 @@
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-08"
-      }
+      },
+      "weak": true
     },
     {
       "id": "josephy",
@@ -1592,64 +1596,8 @@
         "verdict": "yes",
         "result": "agree-yes",
         "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "anhinga-clay-studios",
-      "org": "Anhinga Clay Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Miami",
-      "city": "Miami",
-      "urls": [
-        "https://anhingaclaystudios.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Miami, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://anhingaclaystudios.com/"
       },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Saturday, March 28 10am -5pm",
-        "url": "https://anhingaclaystudios.com/product/polo-ramirez-workshop",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-08"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "anhingaclaystudios.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "page says state is FL, not CO",
-        "types": {
-          "pit_barrel_saggar": "In this hands-on workshop, we'll explore pit and smoke firing."
-        },
-        "state": "FL",
-        "town": "Homestead"
-      },
-      "weak": false,
-      "located": {
-        "state": "FL",
-        "town": "Miami",
-        "score": 6,
-        "osm": false,
-        "date": "2026-10-08"
-      }
+      "weak": true
     }
   ],
   "_removed": [
@@ -1756,6 +1704,10 @@
     {
       "id": "axner-laguna-clay",
       "why": "Second check (claude-haiku-4.5): This is a pottery supply shop that sells kilns and materials but does not offer public access to any non-electric ceramic firings; the page mentions raku kilns and firing supplies for sale, and references 'Laguna Clay Florida Firing Services' but provides no details about how outsiders can participate in actual firings. (2026-10-08)"
+    },
+    {
+      "id": "alexadamsclaywork",
+      "why": "Its own pages give an address in KY (Louisiville), not FL. Moved. (2026-10-08)"
     }
   ]
 }

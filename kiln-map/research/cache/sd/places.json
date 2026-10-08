@@ -4191,5 +4191,34 @@
       "secs": 11,
       "state_on_page": false
     }
+  },
+  "claycountysd.org": {
+    "key": "claycountysd.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "http://www.claycountysd.org/extensionoffice4h.cfm",
+        "title": "Clay County Extension Office and 4-H Building",
+        "snippet": "OpenStreetMap: Clay County Extension Office and 4-H Building Vermillion SD"
+      }
+    ],
+    "pages": {
+      "http://www.claycountysd.org/": "",
+      "http://www.claycountysd.org/careers.cfm": "",
+      "http://www.claycountysd.org/extensionoffice4h.cfm": ""
+    },
+    "osm": {
+      "name": "Clay County Extension Office and 4-H Building",
+      "city": "Vermillion",
+      "state": "SD"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
   }
 }

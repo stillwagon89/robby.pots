@@ -252,9 +252,9 @@
       }
     },
     {
-      "id": "mosaic-arts-dc",
-      "org": "Mosaic Arts DC",
-      "kind": "city_arts",
+      "id": "clay-cafe",
+      "org": "Clay Café",
+      "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
@@ -275,8 +275,8 @@
       "access": {
         "how": "Classes or membership",
         "note": "Classes or membership",
-        "quote": "You can also take more advanced or specialized technique classes, like screen printing on clay, Raku firing, figurative ceramics, and surface design.",
-        "url": "https://notboredindc.com/pottery-and-ceramics-classes-near-dc/",
+        "quote": "You can sign up for multi-week course and multi-day workshops to build your skills and learn more specialized techniques, like Raku firing and special glazes.",
+        "url": "https://notboredindc.com/pottery-and-ceramics-classes-near-dc",
         "types": [
           "raku"
         ],
@@ -292,14 +292,13 @@
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
         "verdict": "yes",
-        "why": "page says state is MD, not DC",
+        "why": "The page states Clay Café offers classes where you can learn 'specialized techniques, like Raku firing' and mentions 'You can sign up for multi-week course and multi-day workshops to build your skills and learn more specialized techniques, like Raku firing and special glazes.'",
         "types": {
-          "raku": "You can also take more advanced or specialized technique classes, like screen printing on clay, Raku firing, figurative ceramics, and surface design."
+          "raku": "You can sign up for multi-week course and multi-day workshops to build your skills and learn more specialized techniques, like Raku firing and special glazes."
         },
-        "state": "MD",
-        "town": "Capitol Heights"
+        "state": "VA",
+        "town": "Chantilly"
       },
-      "weak": true,
       "located": {
         "state": "DC",
         "town": "Washington",
@@ -307,12 +306,7 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "no",
-        "result": "split",
-        "date": "2026-10-08"
-      }
+      "weak": true
     }
   ],
   "_removed": [

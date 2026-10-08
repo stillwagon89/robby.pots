@@ -1100,10 +1100,15 @@
         "url": "https://mudclaystudio.com/firing-services",
         "title": "Firing Services — Pottery Studio in New Jersey",
         "snippet": "Home Potters and Sculptors are welcome to fire their work at Mud Clay Studio as well! This service is designed for people who already have either intermediate or advanced handbuilding/throwing and glazing skills. Please join one of our classes or workshops if you’d like to learn some of the basics!"
+      },
+      {
+        "q": "osm",
+        "url": "https://mudclaystudio.com/",
+        "title": "Mud Clay Studio",
+        "snippet": "OpenStreetMap: Mud Clay Studio Madison NJ"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Peters Valley School of Craft",
       "city": "",
@@ -1127,7 +1132,13 @@
         "wood",
         "pit_barrel_saggar"
       ]
-    }
+    },
+    "osm": {
+      "name": "Mud Clay Studio",
+      "city": "Madison",
+      "state": "NJ"
+    },
+    "fetched": true
   },
   "newprospectpottery.com": {
     "key": "newprospectpottery.com",
@@ -4055,16 +4066,27 @@
         "url": "https://www.atimetokiln.com/about",
         "title": "About | A Time to Kiln",
         "snippet": "Visitors can choose from an array of different activities including: painting on pottery, canvas and wood; Mosaic Making, Critter Stuffing, and Art Classes. Walk-ins are always welcome, and no appointment is needed. We're located in the heart of beautiful, historic downtown Red Bank."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.atimetokiln.com",
+        "title": "A Time To Kiln",
+        "snippet": "OpenStreetMap: A Time To Kiln Red Bank NJ"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": false
-    }
+    },
+    "osm": {
+      "name": "A Time To Kiln",
+      "city": "Red Bank",
+      "state": "NJ"
+    },
+    "fetched": true
   },
   "rockclay.com": {
     "key": "rockclay.com",
@@ -4406,6 +4428,298 @@
       "supported_types": [
         "wood"
       ]
+    }
+  },
+  "bbs.monroe.k12.nj.us": {
+    "key": "bbs.monroe.k12.nj.us",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://bbs.monroe.k12.nj.us/",
+        "title": "Barclay Brook Elementary School",
+        "snippet": "OpenStreetMap: Barclay Brook Elementary School Monroe Township NJ"
+      }
+    ],
+    "pages": {
+      "https://bbs.monroe.k12.nj.us/": "",
+      "https://bbs.monroe.k12.nj.us/important-information/classroom-supply-lists": ""
+    },
+    "osm": {
+      "name": "Barclay Brook Elementary School",
+      "city": "Monroe Township",
+      "state": "NJ"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "doindishes.com": {
+    "key": "doindishes.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.doindishes.com/",
+        "title": "Doin' Dishes",
+        "snippet": "OpenStreetMap: Doin' Dishes Montclair NJ"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Doin' Dishes",
+      "city": "Montclair",
+      "state": "NJ"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "barclayfamilydental.com": {
+    "key": "barclayfamilydental.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.barclayfamilydental.com/",
+        "title": "Barclay Family Dental",
+        "snippet": "OpenStreetMap: Barclay Family Dental Cherry Hill NJ"
+      }
+    ],
+    "pages": {
+      "https://www.barclayfamilydental.com/": "",
+      "https://www.barclayfamilydental.com/emergency-dental-services-what-to-do-if-you-have-a-dental-emergency-in-cherry-hill-new-jersey": ""
+    },
+    "osm": {
+      "name": "Barclay Family Dental",
+      "city": "Cherry Hill",
+      "state": "NJ"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "lore-ceramics.com": {
+    "key": "lore-ceramics.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.lore-ceramics.com/",
+        "title": "Lore Ceramics",
+        "snippet": "OpenStreetMap: Lore Ceramics Metuchen NJ"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Lore Ceramics",
+      "city": "Metuchen",
+      "state": "NJ"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "5elementsclayworks.com": {
+    "key": "5elementsclayworks.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://5elementsclayworks.com/",
+        "title": "5 Elements Clayworks",
+        "snippet": "OpenStreetMap: 5 Elements Clayworks Haddon Township NJ"
+      }
+    ],
+    "pages": {
+      "https://5elementsclayworks.com/": ""
+    },
+    "osm": {
+      "name": "5 Elements Clayworks",
+      "city": "Haddon Township",
+      "state": "NJ"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "potterybarn.com": {
+    "key": "potterybarn.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.potterybarn.com/stores/us-nj-princeton-market-fair/",
+        "title": "Pottery Barn",
+        "snippet": "OpenStreetMap: Pottery Barn Princeton NJ"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Pottery Barn",
+      "city": "Princeton",
+      "state": "NJ"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claytonfuneralhome.com": {
+    "key": "claytonfuneralhome.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://claytonfuneralhome.com/",
+        "title": "Clayton & McGirr Funeral Home",
+        "snippet": "OpenStreetMap: Clayton & McGirr Funeral Home"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Clayton & McGirr Funeral Home"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "trentonnj.org": {
+    "key": "trentonnj.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.trentonnj.org/PARKS/ClayStreet.html",
+        "title": "Clay Street Park",
+        "snippet": "OpenStreetMap: Clay Street Park Trenton city"
+      }
+    ],
+    "pages": {
+      "https://www.trentonnj.org/": "",
+      "https://www.trentonnj.org/CivicAlerts.aspx?AID=1482": "",
+      "https://www.trentonnj.org/CivicAlerts.aspx?AID=1595": "",
+      "https://www.trentonnj.org/CivicAlerts.aspx?AID=1592": ""
+    },
+    "osm": {
+      "name": "Clay Street Park",
+      "city": "Trenton city"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "acpolice.org": {
+    "key": "acpolice.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "http://www.acpolice.org",
+        "title": "Clayton G. Graham Public Safety Building",
+        "snippet": "OpenStreetMap: Clayton G. Graham Public Safety Building Atlantic City"
+      }
+    ],
+    "pages": {
+      "http://www.acpolice.org/": "",
+      "http://www.acpolice.org/Calendar": "",
+      "http://www.acpolice.org": ""
+    },
+    "osm": {
+      "name": "Clayton G. Graham Public Safety Building",
+      "city": "Atlantic City"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claytonsselfstorage.com": {
+    "key": "claytonsselfstorage.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claytonsselfstorage.com/self-storage-atlantic-city-nj-f7059",
+        "title": "Clayton's Self Storage",
+        "snippet": "OpenStreetMap: Clayton's Self Storage Atlantic City NJ"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Clayton's Self Storage",
+      "city": "Atlantic City",
+      "state": "NJ"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "shamcomanagement.com": {
+    "key": "shamcomanagement.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://shamcomanagement.com/properties/new-jersey/south-harrison-property/?utm_knock=g",
+        "title": "Harclay House",
+        "snippet": "OpenStreetMap: Harclay House East Orange NJ"
+      }
+    ],
+    "pages": {
+      "https://shamcomanagement.com/": "",
+      "https://shamcomanagement.com/resident-services/": "",
+      "https://shamcomanagement.com/properties/new-jersey/south-harrison-property/?utm_knock=g": ""
+    },
+    "osm": {
+      "name": "Harclay House",
+      "city": "East Orange",
+      "state": "NJ"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
     }
   }
 }

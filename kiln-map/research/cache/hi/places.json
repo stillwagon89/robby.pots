@@ -1019,6 +1019,12 @@
         "url": "https://www.highfirehawaii.com/ceramics-studio",
         "title": "High Fire Hawaii Ceramics Studio",
         "snippet": "Explore High Fire Hawaii's ceramics studio for workshops, classes, and a creative space to craft unique ceramic art pieces on Hawaii Island."
+      },
+      {
+        "q": "osm",
+        "url": "https://www.highfirehawaii.com/",
+        "title": "High Fire Gallery Art and Studio",
+        "snippet": "OpenStreetMap: High Fire Gallery Art and Studio Hilo HI"
       }
     ],
     "pages": {
@@ -1026,13 +1032,18 @@
       "https://www.highfirehawaii.com/ceramics-studio": "",
       "https://www.highfirehawaii.com/contact-us": ""
     },
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "High Fire Gallery Art and Studio",
+      "city": "Hilo",
+      "state": "HI"
+    },
+    "fetched": true
   },
   "mudd-studio.com": {
     "key": "mudd-studio.com",

@@ -4632,5 +4632,109 @@
       "secs": 12,
       "state_on_page": false
     }
+  },
+  "waterdata.usgs.gov": {
+    "key": "waterdata.usgs.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://waterdata.usgs.gov/monitoring-location/05411500",
+        "title": "Mississippi River at Clayton",
+        "snippet": "OpenStreetMap: Mississippi River at Clayton"
+      }
+    ],
+    "pages": {
+      "https://waterdata.usgs.gov/": "",
+      "https://waterdata.usgs.gov/monitoring-location/05411500": ""
+    },
+    "osm": {
+      "name": "Mississippi River at Clayton"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claytonfarms.com": {
+    "key": "claytonfarms.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://claytonfarms.com/",
+        "title": "Clayton Farms Salads",
+        "snippet": "OpenStreetMap: Clayton Farms Salads Ames IA"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Clayton Farms Salads",
+      "city": "Ames",
+      "state": "IA"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claycounty.iowa.gov": {
+    "key": "claycounty.iowa.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://claycounty.iowa.gov/",
+        "title": "Clay County",
+        "snippet": "OpenStreetMap: Clay County"
+      }
+    ],
+    "pages": {
+      "https://claycounty.iowa.gov/": "",
+      "https://claycounty.iowa.gov/emergency-medical-services/": ""
+    },
+    "osm": {
+      "name": "Clay County"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "claytoncountyia.gov": {
+    "key": "claytoncountyia.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "osm",
+        "url": "https://www.claytoncountyia.gov/",
+        "title": "Clayton County",
+        "snippet": "OpenStreetMap: Clayton County"
+      }
+    ],
+    "pages": {
+      "https://www.claytoncountyia.gov/": "",
+      "https://www.claytoncountyia.gov/calendar/": "",
+      "https://www.claytoncountyia.gov/departments/": ""
+    },
+    "osm": {
+      "name": "Clayton County"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
   }
 }
