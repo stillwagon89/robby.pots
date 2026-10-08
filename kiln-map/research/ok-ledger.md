@@ -1,4 +1,4 @@
-# Oklahoma firings ledger (2026-10-07, discovery v3, automatic)
+# Oklahoma firings ledger (2026-10-08, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -17,5 +17,5 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 10 | Red Heat Ceramic Studio | Tulsa | gas_reduction | Classes or membership | redheatceramics.com |
 | 11 | 3rd Street Clayworks | Tulsa | raku | Classes or membership | clayworkstulsa.com |
 | 12 | KAT Studio | Tulsa | raku | Classes or membership | kilnartsoftulsa.com |
-| 13 | Oil & Clay Studio | Norman | raku, gas_reduction | Classes or membership | normanfirehouse.com, kilnspot.com |
+| 13 | Oil & Clay Studio | Norman | raku, gas_reduction | Classes or membership | normanfirehouse.com |
 | 14 | Oklahoma State University | Stillwater | raku | Dated workshop or firing event | events.okstate.edu |

@@ -68,9 +68,9 @@
       "lng": -83.00071,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states 'We offer monthly raku firings, every third Thursday of the month' and 'we'll provide materials to apply smoke, feather, and obvara firing techniques to your pieces' with sign-ups available to the public via workshops and monthly bookings.",
+        "why": "The page explicitly offers monthly raku firings and workshops with sign-ups available to the public, plus private raku parties and firing services.",
         "types": {
           "raku": "We offer monthly raku firings, every third Thursday of the month."
         },
@@ -127,16 +127,16 @@
       "lng": -82.88686,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states 'We have raku, naked raku, horsehair, and obvara experimental firing workshops at our studio in fall and spring' and invites people to sign up, indicating public access to non-electric ceramic firing workshops.",
+        "why": "The page explicitly offers raku and pit-fire workshops open to the public with sign-up instructions and contact details for booking.",
         "types": {
-          "raku": "We have raku, naked raku, horsehair, and obvara experimental firing workshops at our studio in fall and spring.",
+          "raku": "We have raku, naked raku, horsehair, and obvara experimental firing workshops at our studio in fall and spring. Watch the site or sign up for our email list to be first to know dates when they are announced.",
           "pit_barrel_saggar": "Alternative firing workshops including Raku, Naked Raku, Horsehair, Obvara, and Pit-fire."
         },
         "state": "OH",
         "town": "Groveport",
-        "street": "596 Main St."
+        "street": "596 Main St., Groveport, OH 43125"
       },
       "located": {
         "osm": false,
@@ -183,12 +183,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention raku workshops and an address in Perry, Ohio, but the actual page text provided is empty, so I cannot verify from the page itself that public participation is available.",
-        "types": {
-          "raku": "Raku Workshops Horsehair Raku Saturday May 10th at 4:00 p.m. is a method of decorating ceramic pottery using the mane and tail hair"
-        },
+        "why": "The search snippets mention raku workshops and an address in Perry, Ohio, but the actual page text provided is empty, so public access cannot be verified from the page itself.",
+        "types": {},
         "state": "OH",
         "town": "Perry",
         "street": "3521 Main St."
@@ -199,6 +197,12 @@
         "town": "Main Street Perry",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -243,11 +247,11 @@
       "lng": -83.89252,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a public workshop where anyone 18+ can register and participate in a raku firing for $60, with no requirement to be an enrolled student or existing member.",
+        "why": "The page describes a public raku workshop open to anyone 18+ for $60 with registration, allowing outsiders to participate in a hands-on raku firing experience.",
         "types": {
-          "raku": "Discover the thrill of Raku Firing!"
+          "raku": "This one day hands on experience workshop allows students to glaze a pot made by skilled studio staff, load it into our propane fueled top hat raku kiln, watch as pots reach 1900 degrees and be part of the process as we pull them, glowing orange from the kiln!"
         },
         "state": "OH",
         "town": "Yellow Springs"
@@ -299,9 +303,9 @@
       "lng": -83.75966,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page lists a public Saggar Firing workshop event at The Cracked Pot Studio on September 13, 2025, open to participants to book.",
+        "why": "The page shows a saggar firing event open to the public on a specific date at The Cracked Pot Studio with full event details and registration available.",
         "types": {
           "pit_barrel_saggar": "Saggar Firing"
         },
@@ -356,9 +360,9 @@
       "lng": -81.91792,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text announces raku firing is coming and invites people to subscribe or message to get on a list, but does not explicitly state whether outsiders can book/join or if it is students-only.",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page invites outsiders to join a raku firing by subscribing to the newsletter or messaging to get on the list.",
         "types": {},
         "state": "OH",
         "town": "Westlake",
@@ -367,6 +371,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -411,20 +421,253 @@
       "lng": -81.51848,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states Jack offers Raku workshops at Don Drumm Studios in Akron, Ohio where students can explore Raku firing, and he offers training opportunities each year that are open to sign up via his events list.",
+        "why": "The page states Jack offers Raku workshops at Don Drumm Studios in Akron, Ohio, and invites people to sign up for future events via an emailing list.",
         "types": {
-          "raku": "Jack offers several training opportunities, including Raku workshops at Don Drumm Studios in Akron, Ohio"
+          "raku": "Each year, Jack offers several training opportunities, including Raku workshops at Don Drumm Studios in Akron, Ohio"
         },
         "state": "OH",
-        "town": "Akron"
+        "town": "Ravenna"
       },
       "located": {
         "osm": false,
         "date": "2026-10-08"
       },
       "weak": false
+    },
+    {
+      "id": "canton-museum-of-art",
+      "org": "Canton Museum of Art",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Canton",
+      "city": "Canton",
+      "urls": [
+        "https://www.cantonart.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Canton, Ohio",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.cantonart.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Day Two 6/7 10:30 am–4:30 pm: Students participate in Raku firing to create unique colors and patterns.",
+        "url": "https://www.cantonart.org/classes/basic-raku-two-part-workshop",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "cantonart.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The Canton Museum of Art offers public workshops where outsiders can register and participate in raku firing.",
+        "types": {
+          "raku": "Students participate in Raku firing to create unique colors and patterns."
+        },
+        "state": "OH",
+        "town": "canton",
+        "street": "1001 market avenue n"
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "tomradca",
+      "org": "tomradca",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Ohio",
+      "city": null,
+      "urls": [
+        "https://www.tomradca.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.tomradca.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "In this firing intensive section of the workshop, you will learn the philosophy and technique of saggar firing and how to build and fire a saggar kiln. Each participant is welcome to put 1 to 4 of his or her own pieces in the firing.",
+        "url": "http://www.tomradca.com/PDF/Workshop_Description.pdf",
+        "types": [
+          "soda",
+          "salt",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "tomradca.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a workshop where participants can learn saggar firing and put their own pieces in the firing, indicating public access via workshop enrollment.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "577-foundation-oh",
+      "org": "577 Foundation",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Perrysburg",
+      "city": "Perrysburg",
+      "urls": [
+        "https://577foundation.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Perrysburg, Ohio",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://577foundation.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "For 577 six-week pottery class graduates: If you’re also enrolled in the October–November Raku class and would like to explore Raku firing your polar bear, let Julie know when you arrive at class.",
+        "url": "https://577foundation.org/classes-events/pottery",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "577foundation.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The text shows outsiders can register for classes with raku firing, including a hybrid raku class and classes where pottery staff complete the firing process.",
+        "types": {
+          "raku": "This class is a hybrid of our popular \"work from home\" classes where you will make all the pieces at home and then join us for an in-person outdoor firing of the raku kiln."
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": false,
+      "located": {
+        "state": "OH",
+        "town": "Perrysburg",
+        "score": 8,
+        "osm": true,
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "communitypottery",
+      "org": "communitypottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Yellow Springs",
+      "city": "Yellow Springs",
+      "urls": [
+        "https://communitypottery.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Yellow Springs, Ohio",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://communitypottery.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Options to participate in Raku and Pit firings.",
+        "url": "https://communitypottery.org/studio-memberships",
+        "types": [
+          "raku",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "communitypottery.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "page says state is OH, not IN",
+        "types": {
+          "raku": "Options to participate in Raku and Pit firings.",
+          "pit_barrel_saggar": "Options to participate in Raku and Pit firings.",
+          "gas_reduction": "Inclusion in approximately 6 firings per year in our gas reduction kiln."
+        },
+        "state": "OH",
+        "town": "Yellow Springs"
+      },
+      "weak": false,
+      "located": {
+        "state": "OH",
+        "town": "Yellow Springs",
+        "score": 18,
+        "osm": false,
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [
@@ -451,6 +694,14 @@
     {
       "id": "core-clay",
       "why": "Second check (claude-haiku-4.5): The text mentions only electric and gas kiln firings, with no non-electric ceramic firing methods (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) described. (2026-10-07)"
+    },
+    {
+      "id": "ohio-university",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes an institutional university program and a private conference for enrolled students, faculty, and invited artists, with no option for outside members of the public to join or book firings. (2026-10-08)"
+    },
+    {
+      "id": "jonathan-stein",
+      "why": "Two models agree: The only text is a snippet about a potter who makes his own wood- and soda-fired work, and it says nothing about outsiders joining, booking or signing up for any firing. (2026-10-08)"
     }
   ]
 }

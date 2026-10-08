@@ -1,4 +1,4 @@
-# Maryland firings ledger (2026-10-07, discovery v3, automatic)
+# Maryland firings ledger (2026-10-08, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -13,12 +13,10 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 6 | Washington Street Studios | ? | raku, pit_barrel_saggar | See site | hfclay.com |
 | 7 | District Clay Center | ? | raku, pit_barrel_saggar | Classes or membership | canvas.districtclaycenter.com |
 | 8 | Fox Haven Organic Farm & Learning Center | Frederick | pit_barrel_saggar | Dated workshop or firing event | foxhavenfarm.org |
-| 9 | Virgin Valley Artists Association | ? | pit_barrel_saggar | Dated workshop or firing event | mesquitefineartscenter.com |
-| 10 | Ashton Pottery | Ashton | wood | Dated workshop or firing event | ashtonpottery.com |
-| 11 | Baltimore Clayworks | Baltimore | raku, wood | Classes or membership | claystuff.com, canvas.baltimoreclayworks.org |
-| 12 | Annapolis Moms | Annapolis | raku | See site | annapolismomsmedia.com |
-| 13 | Raku | Bethesda | raku | Classes or membership | rakuasiandining.com, restaurantjump.com |
-| 14 | Glen Echo Park | ? | gas_reduction | Classes or membership | glenechopottery.org |
-| 15 | VisArts | ? | raku | Classes or membership | visartscenter.org |
-| 16 | Amused Studios | Fruitland | raku, pit_barrel_saggar | Classes or membership | amusedstudios.com |
-| 17 | Clayworks Supplies | ? | raku | Dated workshop or firing event | clayworkssupplies.com |
+| 9 | Ashton Pottery | Ashton | wood | Dated workshop or firing event | ashtonpottery.com |
+| 10 | Baltimore Clayworks | Baltimore | raku, wood | Classes or membership | claystuff.com, canvas.baltimoreclayworks.org |
+| 11 | Annapolis Moms | Annapolis | raku | See site | annapolismomsmedia.com |
+| 12 | Raku | Bethesda | raku | Classes or membership | rakuasiandining.com, restaurantjump.com |
+| 13 | VisArts | ? | raku | Classes or membership | visartscenter.org |
+| 14 | Amused Studios | Fruitland | raku, pit_barrel_saggar | Classes or membership | amusedstudios.com |
+| 15 | Clayworks Supplies | ? | raku | Dated workshop or firing event | clayworkssupplies.com |

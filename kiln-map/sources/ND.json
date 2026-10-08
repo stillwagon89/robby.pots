@@ -40,9 +40,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states \"During our monthly workshop we will fire your pieces\" and \"Sign up today- $10.00 is seating fee,\" showing that the public can sign up for raku firing workshops.",
+        "why": "The page clearly states \"During our monthly workshop we will fire your pieces\" and \"Sign up today- $10.00 is seating fee,\" showing public access to raku firing via a workshop with a sign-up process open to ages 5 and above.",
         "types": {},
         "state": "",
         "town": ""
@@ -53,6 +53,12 @@
         "town": "Street Sioux Falls",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -95,9 +101,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text describes NDSU's annual wood kiln firing with faculty, students, and community members present, but does not explicitly state whether non-enrolled outsiders can book, sign up, or join the firing.",
+        "why": "The text describes NDSU's annual wood kiln firing with faculty, students, and community members participating, but does not explicitly state how outsiders can sign up, register, or gain access to participate in future firings.",
         "types": {},
         "state": "ND",
         "town": "Fargo"
@@ -107,6 +113,12 @@
       "lng": -96.78982,
       "located": {
         "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -149,12 +161,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states that clay is available for the public to pick up and participate in the annual community raku firing event at no charge, with specific firing dates and hours provided.",
-        "types": {
-          "raku": "The Bismarck State College Art program has clay available to pick up in the ceramics studio, on the second floor of Skogen Hall, for the annual community raku firing April 28–30 on the BSC campus."
-        },
+        "why": "The page shows outsiders can pick up clay and participate in the annual community raku firing event at no charge during ArtsQuest.",
+        "types": {},
         "state": "ND",
         "town": "Bismarck",
         "street": "1500 Edwards Avenue"
@@ -168,7 +178,13 @@
         "osm": true,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "msu-lifelong-learning-institute",
@@ -199,18 +215,22 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text mentions 'Raku firing' as a possible topic but does not specify whether public outsiders can actually participate in or book such firings.",
-        "types": {
-          "raku": "Raku firing, kiln firing, or others as demonstrated by student interest"
-        },
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The page text provided is empty; only search snippets are available, and snippets alone cannot confirm public access to firings.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     }

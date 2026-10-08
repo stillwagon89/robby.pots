@@ -40,12 +40,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes Raku Workshops open to the public (age 18+) where participants can sign up, with details about the firing process and kiln specifications.",
-        "types": {
-          "raku": "The reason we suggest having previous throwing experience is that if your pot is too thick, it will blow up in the Raku kiln as the pots go through rapid temperature changes during this process."
-        },
+        "why": "The page describes raku workshops open to the public (18+) with clear signup process and liability waiver, indicating outsiders can participate.",
+        "types": {},
         "state": "IA",
         "town": "West Des Moines"
       },
@@ -55,7 +53,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "villages-folk-school",
@@ -98,13 +102,13 @@
       "lng": -91.85483,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a Raku Pottery Experience workshop open to the public (novice students) who can sign up for a class on October 24th, 2026, where they learn and participate in raku firing.",
+        "why": "The page describes a raku pottery workshop open to the public with a class fee, instructor, and scheduled dates where outsiders can participate in raku firing.",
         "types": {},
         "state": "IA",
         "town": "Bentonsport",
-        "street": "hawk Drive"
+        "street": "hawk Drive in Bentonsport"
       },
       "weak": true,
       "located": {
@@ -161,18 +165,18 @@
       "lng": -91.67041,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The Raku Workshop page shows public sign-ups for a one-time workshop, but the Soda Firing Wadding Workshop explicitly states 'This mandatory workshop is intended for currently enrolled students' and 'Participants must be currently enrolled in the session,' limiting it to existing members only.",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page shows outsiders can join a Raku Workshop by signing up for a shift, and a Soda Firing Wadding Workshop is available for currently enrolled students who want to participate in soda firings.",
         "types": {
-          "raku": "Raku Workshop– We will be hosting a Raku Workshop in our kiln patio.",
-          "soda": "A Soda Firing will produce different effects than our standard High Fire firings."
+          "raku": "Raku Workshop– We will be hosting a Raku Workshop in our kiln patio. Each person may bring 2 pieces of their own bisqueware, or select 2 pieces from our premade handbuilt collection.",
+          "soda": "In this workshop you will learn about wadding techniques for the ICCGS soda kiln."
         },
         "state": "IA",
         "town": "Cedar Rapids",
-        "street": "329 10th Avenue Southeast"
+        "street": "329 10th Avenue Southeast, Suite 117"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "IA",
         "town": "Cedar Rapids",
@@ -216,9 +220,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions a Raku Pottery Workshop but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "why": "The search snippet mentions a Raku Pottery Workshop but the actual page text provided is empty, so I cannot verify public access details or confirm the workshop is actually offered.",
         "types": {},
         "state": "",
         "town": ""
@@ -276,9 +280,9 @@
       "lng": -91.87073,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention a Raku pottery workshop in Amana, Iowa, but the actual page text is empty, so I cannot verify from the page itself whether public participation is available or confirm the location details.",
+        "why": "Search snippets mention a raku workshop but no page text is provided to verify public access details, pricing, booking method, or location specifics.",
         "types": {},
         "state": "",
         "town": ""
@@ -334,11 +338,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page text shows a pottery workshop where the public can learn to make Raku pottery, described as 'an hands on opportunity' where 'each person will have the opportunity to design their own pieces,' indicating public participation.",
+        "why": "The page shows a pottery workshop where outsiders can learn raku pottery hands-on, with contact information provided to sign up.",
         "types": {
-          "raku": "Learn the art of making Raku and horsehair pottery."
+          "raku": "Learn the art of making Raku and horsehair pottery. This is an hands on opportunity."
         },
         "state": "IA",
         "town": "Carson"
@@ -351,117 +355,6 @@
         "date": "2026-10-08"
       },
       "weak": false
-    },
-    {
-      "id": "kmaland",
-      "org": "kmaland",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Shenandoah",
-      "city": "Shenandoah",
-      "urls": [
-        "https://www.kmaland.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Shenandoah, Iowa",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.kmaland.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Southwest Iowa Raku & Horsehair Pottery Class",
-        "url": "https://www.kmaland.com/community/calendar/southwest-iowa-raku-horsehair-pottery-class/event_04207c37-42cc-43fd-a3e7-64a1dd02221f.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "kmaland.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippets mention raku pottery classes and workshops, but the page text provided does not contain details about public access, booking, or enrollment information.",
-        "types": {
-          "raku": "Southwest Iowa Raku & Horsehair Pottery Class"
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "IA",
-        "town": "Shenandoah",
-        "score": 6,
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "linda-hardie",
-      "org": "Linda Hardie",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Iowa",
-      "city": null,
-      "urls": [
-        "https://iowaartistdirectory.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://iowaartistdirectory.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "iowaartistdirectory.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text mentions raku and wood kilns are 'coming soon' but does not confirm they are operational or that public can currently book firings through them.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-07"
-      }
     },
     {
       "id": "arthaus",
@@ -504,11 +397,11 @@
       "lng": -91.78591,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a raku firing event open to participants (\"those experienced in pottery or new to the medium\") who can join at noon on Saturday to fire pieces in their raku kiln.",
+        "why": "The text invites people to join a raku firing at a specific time and place, indicating public access to participate in the firing process.",
         "types": {
-          "raku": "Raku can be learned by those experienced in pottery or new to the medium and is a very experiential firing that takes all the participants working together to help create the art and the communal experience."
+          "raku": "Then join us starting at noon on Saturday to fire them in our raku kiln in the parking lot."
         },
         "state": "IA",
         "town": "Decorah"
@@ -550,12 +443,12 @@
       "lng": -96.40588,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippet mentions raku firing but the actual page text is empty, so public access cannot be verified.",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "No page text provided to verify public access to any non-electric firing types.",
         "types": {},
-        "state": "IA",
-        "town": "Sioux City"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "located": {
@@ -568,65 +461,6 @@
         "result": "split",
         "date": "2026-10-07"
       }
-    },
-    {
-      "id": "arts-culture-alliance",
-      "org": "Arts + Culture Alliance",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Marshalltown",
-      "city": "Marshalltown",
-      "urls": [
-        "https://www.timesrepublican.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Marshalltown, Iowa",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.timesrepublican.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The closest wood-fired kiln open to the public Muller is aware of is in Dodgeville.",
-        "url": "https://www.timesrepublican.com/news/todays-news/2026/04/only-wood-fired-kiln-in-area-draws-potters-from-as-far-as-200-miles/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "timesrepublican.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states the wood-fired kiln at Jon Muller's residence will be available for potters of all levels, with usage communicated through the Arts + Culture Alliance, making it open to the public.",
-        "types": {
-          "wood": "The only wood-fired kiln in the area was constructed and fired up on Saturday at the residence of Jon Muller."
-        },
-        "state": "IA",
-        "town": "Marshalltown"
-      },
-      "lat": 42.04888,
-      "lng": -92.91227,
-      "located": {
-        "state": "IA",
-        "town": "Marshalltown",
-        "score": 11,
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "weak": false
     }
   ],
   "_removed": [
@@ -645,6 +479,18 @@
     {
       "id": "aaronmoseley",
       "why": "Two models agree: The only text is a snippet describing an Iowa City potter's wood and soda fired ceramics, with nothing about public participation in firings, so it reads as an artist's portfolio or shop. (2026-10-07)"
+    },
+    {
+      "id": "kmaland",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text consists of calendar event titles but does not contain information about the facility, access, or how the public can participate in the firings. (2026-10-08)"
+    },
+    {
+      "id": "linda-hardie",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions electric kilns and upcoming raku and wood kilns without stating that outsiders can participate in those specific non-electric firings. (2026-10-08)"
+    },
+    {
+      "id": "arts-culture-alliance",
+      "why": "Second check (gemini-3.5-flash-lite): The text discusses a private wood-fired kiln built at an individual's residence and does not provide an address, class sign-up, membership, or rental option for outsiders on the page itself. (2026-10-08)"
     }
   ]
 }

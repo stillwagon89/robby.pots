@@ -57,14 +57,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention a Raku Workshop and describe the raku firing process, but the actual page text is empty, so there is no information about whether outsiders can actually book or participate.",
-        "types": {
-          "raku": "The rigors on the clay (any clay) during the Raku firing and reduction process can range from the wonderful to the brutal."
-        },
-        "state": "NJ",
-        "town": "Jersey City"
+        "why": "Search snippets mention a Raku Workshop and public education focus, but the actual page text is empty, so cannot verify outsider access details or location information.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 40.72157,
@@ -74,6 +72,12 @@
         "town": "Jersey City",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -106,7 +110,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
         "why": "The search snippets describe a Raku Workshop open to participants, but the actual page text is empty, so location details cannot be verified.",
         "types": {
@@ -121,6 +125,12 @@
         "town": "Wharton",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -153,9 +163,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions a raku firing workshop in Whitehouse NJ, but the actual page text is empty, so I cannot verify the details or confirm public participation from the page itself.",
+        "why": "Search snippets mention a raku firing workshop in Whitehouse NJ, but the actual page text is empty, so I cannot verify the details or confirm public access from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -165,6 +175,12 @@
       "lng": -74.77044,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -207,9 +223,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a soda firing workshop open to students, but the actual page text is empty, so I cannot verify from the page itself whether outsiders can participate or confirm the location details.",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "No page text provided to verify public access, location details, or firing participation details.",
         "types": {},
         "state": "",
         "town": ""
@@ -219,6 +235,12 @@
       "lng": -74.38367,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -251,9 +273,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text provided is empty; no information about the place, its location, or firing access can be verified from the text itself.",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The search snippet mentions a soda firing workshop at Truro Center for the Arts, but the page text provided is empty, so I cannot verify the location details or confirm public access terms.",
         "types": {},
         "state": "",
         "town": ""
@@ -261,6 +283,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -303,9 +331,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions a salt kiln workshop open to students, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "why": "The search snippet mentions a salt kiln workshop open to participants, but the actual page text provided is empty, so I cannot verify the location details or confirm public access from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -313,6 +341,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -357,9 +391,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "no",
-        "why": "The page text is empty; no information about Peters Valley School of Craft's firing services or public access to non-electric firings can be verified from the actual page content.",
+        "why": "The page text is empty; no information about Peters Valley School of Craft's location, firing types, or public access to firings can be verified from the actual page content.",
         "types": {},
         "state": "",
         "town": ""
@@ -367,6 +401,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -409,9 +449,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a 4-day pit firing workshop open to non-members (tuition listed for both members and non-members) at a specific location with dates and registration details.",
+        "why": "The page describes a 4-day pit firing workshop open to non-members (tuition listed for both members and non-members) at a specific location with dates and registration details.",
         "types": {
           "pit_barrel_saggar": "This 4-day workshop for making and firing ceramic work for pit firing will take place at the Toshiko Takaezu Ceramic Studios and property, which includes a beautiful garden and welcoming studio space."
         },
@@ -427,107 +467,6 @@
         "date": "2026-10-08"
       },
       "weak": false
-    },
-    {
-      "id": "getpotteryclass",
-      "org": "getpotteryclass",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Newark",
-      "city": "Newark",
-      "urls": [
-        "https://getpotteryclass.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Newark, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://getpotteryclass.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Pottery studios in Newark offer wheel throwing classes, hand building workshops, glazing courses, and raku firing sessions.",
-        "url": "https://getpotteryclass.com/locations/newark",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "getpotteryclass.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The page is a directory listing that mentions raku firing sessions are available in Newark pottery studios, but provides no specific details about how to book, whether public access is allowed, or which studio offers this.",
-        "types": {
-          "raku": "Pottery studios in Newark offer wheel throwing classes, hand building workshops, glazing courses, and raku firing sessions."
-        },
-        "state": "",
-        "town": "Newark",
-        "street": "NG22 9DN"
-      },
-      "lat": 40.73566,
-      "lng": -74.17237,
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "montclair-art-museum",
-      "org": "Montclair Art Museum",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Montclair",
-      "city": "Montclair",
-      "urls": [
-        "https://www.montclairartmuseum.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Montclair, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.montclairartmuseum.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "montclairartmuseum.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly mentions a 'Naked Raku' workshop where participants can register and learn this firing technique, with all materials and safety gear provided.",
-        "types": {},
-        "state": "NJ",
-        "town": "Montclair"
-      },
-      "weak": true,
-      "lat": 40.81645,
-      "lng": -74.22106,
-      "located": {
-        "osm": true,
-        "date": "2026-10-08"
-      }
     },
     {
       "id": "bisc-pottery-studio",
@@ -607,6 +546,18 @@
     {
       "id": "the-clay-pot-pottery-studio",
       "why": "Second check (claude-haiku-4.5): The text describes paint-your-own bisque workshops where participants paint pre-made pieces with raku glazes, which falls under the paint-your-own category excluded from the verdict criteria. (2026-10-07)"
+    },
+    {
+      "id": "getpotteryclass",
+      "why": "Second check (gemma-4-31b-it): The site is a directory of pottery studios and does not run firings itself. (2026-10-08)"
+    },
+    {
+      "id": "montclair-art-museum",
+      "why": "Second check (gemini-3.5-flash-lite): The page text mentions no details about public ceramic firings. (2026-10-08)"
+    },
+    {
+      "id": "the-clay-pot-pottery",
+      "why": "Second check (claude-haiku-4.5): The text describes paint-your-own bisque workshops where participants paint pre-made pieces with raku glazes, which is a paint-your-own activity rather than a firing workshop where outsiders can participate in the actual firing process. (2026-10-08)"
     }
   ]
 }

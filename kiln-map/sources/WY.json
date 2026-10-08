@@ -40,18 +40,22 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The snippets mention an Anagama firing workshop with participant involvement, but the actual page text is empty, so cannot verify public access details, location, or booking information.",
-        "types": {
-          "wood": "firing the Meeteetse Anagama"
-        },
+        "why": "The search snippets mention an Anagama workshop with participant involvement, but the actual page text is empty, so I cannot verify the location details or confirm public access terms from the page itself.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -94,9 +98,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page offers an 'Alternative Firing Pottery' class open to all levels that explicitly covers raku and sagger firing, with public enrollment available through the course registration system.",
+        "why": "The page offers an 'Alternative Firing Pottery' class open to all levels that explicitly covers raku and sagger firing techniques.",
         "types": {
           "raku": "We will discuss and explore raku, obvara, horse hair and sagger firing."
         },
@@ -153,18 +157,22 @@
       "lng": -106.82227,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text mentions a wood-fired kiln at Sheridan College and Stephen Mullins' hope to invite people to future firings, but does not explicitly state that the public can currently book, sign up, or participate in firings.",
-        "types": {
-          "wood": "a wood-fired kiln has been fired to life on the Sheridan College campus"
-        },
+        "why": "The text mentions a wood-fired kiln at Sheridan College and a future intention to invite people to see the process, but does not clearly state how outsiders can currently book, sign up, or participate in a firing.",
+        "types": {},
         "state": "WY",
         "town": "Sheridan"
       },
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     }

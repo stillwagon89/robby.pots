@@ -67,9 +67,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "no",
-        "why": "No page text provided to verify the location details or confirm public access to the firing workshop.",
+        "why": "No page text provided to verify public access, location details, or firing participation methods.",
         "types": {},
         "state": "",
         "town": ""
@@ -125,11 +125,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a four-day soda firing workshop open to participants who can register and pay, with specific dates and location details provided.",
+        "why": "The page shows a soda firing workshop open to participants who can register and pay via a link, with clear instructions to email for questions.",
         "types": {
-          "soda": "This four-day workshop, February 22-25, 2026, will focus on the enigmatic surfaces produced through the process of soda firing."
+          "soda": "This four-day workshop, February 22-25, 2026, will focus on the enigmatic surfaces produced through the process of soda firing. Participants will bring bisque ware to be fired in the kiln as bare clay or with a slipped surface and learn to load with the anticipation of the flame carrying the soda as"
         },
         "state": "AL",
         "town": "Decatur"
@@ -170,7 +170,7 @@
         "how": "Dated workshop or firing event",
         "note": "Dated workshop or firing event",
         "quote": "Soda Firing Workshop with Casey Beck @ ACA",
-        "url": "https://www.athens.edu/event/soda-firing-workshop-with-casey-beck-aca/",
+        "url": "https://www.athens.edu/tag/soda-firing-workshop/",
         "types": [
           "soda"
         ],
@@ -184,9 +184,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a four-day soda firing workshop open to participants who can register and purchase tickets through a public ticketing system.",
+        "why": "The page shows a four-day soda firing workshop open to the public with preregistration and ticket purchase available.",
         "types": {
           "soda": "This four-day workshop, February 22-25, 2026, will focus on the enigmatic surfaces produced through the process of soda firing."
         },
@@ -240,9 +240,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions raku and horse hair firing but the actual page text is empty, so I cannot verify the details or confirm public access.",
+        "why": "The search snippet mentions raku and horse hair firing but the actual page text is empty, so public access cannot be verified from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -302,11 +302,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page describes public raku classes and workshops where outsiders can book and participate, with clear pricing and scheduling information.",
+        "why": "The Mad Pottery offers public raku classes where outsiders can book and participate, with clear pricing and scheduling information.",
         "types": {
-          "raku": "Discover unique and handcrafted ceramic process learning how to Glaze using Raku Techniques on premade forms",
+          "raku": "Discover unique and handcrafted ceramic process learning how to Glaze using Raku Techniques on premade forms (2 pieces per class) All materials provided.",
           "pit_barrel_saggar": "to use Raku Techniques / Horse Hair/ Foil Saggar"
         },
         "state": "AL",
@@ -320,70 +320,6 @@
         "date": "2026-10-08"
       },
       "weak": false
-    },
-    {
-      "id": "montgomery-pottery",
-      "org": "Montgomery Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Montgomery",
-      "city": "Montgomery",
-      "urls": [
-        "https://www.montgomerypottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Montgomery, Alabama",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.montgomerypottery.com/"
-      },
-      "access": {
-        "how": "Classes include cone 10 reduction firing",
-        "note": "Confirmed by Robby 2026-10-07: cone 10 reduction classes open to outsiders; raku only mentioned, no classes.",
-        "quote": "Pottery Raku Pottery",
-        "url": "http://www.montgomerypottery.com/",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "montgomerypottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The site offers pottery classes open to the public with raku and cone 10 reduction firings included, allowing outsiders to register online, by email, or in person.",
-        "types": {
-          "raku": "Pottery Raku Pottery",
-          "gas_reduction": "Firing is cone 10 reduction & occur for 3 seasons"
-        },
-        "state": "",
-        "town": ""
-      },
-      "lat": 32.37771,
-      "lng": -86.30908,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-07"
-      },
-      "confirmed_by_robby": "2026-10-07",
-      "weak": true
     },
     {
       "id": "celeste-sabel-haynie",
@@ -430,12 +366,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippet mentions gas reduction-firing, wood-firing, saggar, and raku, but the actual page text is empty, so I cannot verify whether public participation in these firings is offered.",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The page text provided is empty; only search snippets are available, which mention firing types but contain no information about public access, classes, workshops, memberships, rentals, or invitations for outsiders to participate.",
         "types": {},
-        "state": "AL",
-        "town": "Montgomery"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "located": {
@@ -479,7 +415,7 @@
         "how": "Classes or membership",
         "note": "Classes or membership",
         "quote": "Participants may, and do aid in the unloading in a relay chain that allows each person to examine the pot as it is handed to the next member of the relay chain.",
-        "url": "https://www.maria-pots.com/shows-exhibs.htm",
+        "url": "https://www.maria-pots.com/Classesworks.htm",
         "types": [
           "wood",
           "raku",
@@ -495,13 +431,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes multiple wood firing workshops where students can book space and participate in loading, firing, and unloading the Manabigama kiln, plus raku and saggar firing workshops available by contacting Maria.",
+        "why": "The page shows multiple wood firing workshops where outsiders can book space and join, plus raku and saggar firing workshops available by contacting Maria.",
         "types": {
           "wood": "Join us in a woodfiring at Eastern Shore Art Center's Manabigama Kiln.",
-          "raku": "Raku Firing Workshop",
-          "pit_barrel_saggar": "Saggar Firing Techniques"
+          "raku": "Raku Firing Workshop ( You bring bisque ware ) 1 Day Workshop, date TBD Call or email for details.",
+          "pit_barrel_saggar": "Saggar Firing Techniques 2 day Workshop, date TBD My Studio or your Organization Includes instructions, terra sigillata, bisque firing, saggars and multiple saggar firings Contact Maria at 251-689-8869 or by email"
         },
         "state": "AL",
         "town": "Fairhope",
@@ -545,9 +481,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions a raku kiln and that the studio accommodates classes, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "why": "The search snippet mentions a raku kiln but provides no details about public access, classes, workshops, memberships, or how outsiders can participate in raku firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -596,14 +532,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "no",
-        "why": "The text describes an anagama kiln at the University of Montevallo but provides no information about public access, workshops, classes, memberships, rentals, or firing services for outsiders.",
-        "types": {
-          "wood": "The University of Montevallo's anagama kiln was built by Dr. Scott Meyer as part of a series of wood fire kilns."
-        },
-        "state": "AL",
-        "town": "Montevallo"
+        "why": "The page text provided is empty; only search snippets mention the anagama kiln, but contain no information about public access, workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate in firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 33.10067,
@@ -644,6 +578,10 @@
     {
       "id": "makebhm",
       "why": "Second check (claude-haiku-4.5): The search snippets mention ceramics classes and memberships with firing services, but do not specify any non-electric firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction); only cone 5/6 and cone 10 electric kiln firings are mentioned. (2026-10-07)"
+    },
+    {
+      "id": "montgomery-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions Raku and cone 10 reduction firings, but only in the context of student classes or general studio descriptions without offering public access to these specific firing types via rental, firing services, or open invitations. (2026-10-08)"
     }
   ]
 }

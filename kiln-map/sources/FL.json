@@ -69,11 +69,11 @@
       "lng": -81.70163,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows public workshops and private firing appointments for raku firing that outsiders can book, with no experience needed.",
+        "why": "The page offers public raku workshops and private raku firing services that outsiders can book.",
         "types": {
-          "raku": "Learn the ancient art of Raku firing and the distinctive technique of applying horse hair for mesmerizing patterns."
+          "raku": "Join Tim Bullard for a two-day Horse Hair Raku Workshop!"
         },
         "state": "FL",
         "town": "Orange Park",
@@ -126,11 +126,11 @@
       "lng": -82.63403,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows public can sign up for raku firing workshops on second Saturdays with expert guidance, accessible to folks with zero experience.",
+        "why": "The Clay Co-op offers public raku firing workshops on second Saturdays where outsiders can sign up to participate, with expert guidance provided.",
         "types": {
-          "raku": "Raku is a fast, hands-on firing process that creates dramatic, one-of-a-kind results through rapid firing, post-kiln reduction, and the magic of chance."
+          "raku": "Join us for a fiery, fast-paced evening of Raku Firing—an unforgettable ceramic experience where flames, smoke, and spontaneous results rule the night!"
         },
         "state": "FL",
         "town": "St. Petersburg",
@@ -186,9 +186,9 @@
       "lng": -81.3987,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a 3-day Horse Hair Raku Workshop open to the public for $100 that includes raku firing on the final day.",
+        "why": "The page describes a 3-day Horse Hair Raku Workshop open to the public for $100, with clear dates, times, and registration information.",
         "types": {
           "raku": "The third and final day you will Raku fire the pieces to take home at the end of the third day."
         },
@@ -244,11 +244,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows a public two-day Horse Hair Raku Workshop at Eat Your Yard Jax where outsiders can sign up for $135 per person, including raku firing.",
+        "why": "The page shows a public two-day Horse Hair Raku Workshop with raku firing that outsiders can join for $135 per person through a workshop format.",
         "types": {
-          "raku": "Learn the ancient art of Raku firing and the distinctive technique of applying horse hair for mesmerizing patterns."
+          "raku": "Join Tim Bullard for a two-day Horse Hair Raku Workshop! Learn the ancient art of Raku firing and the distinctive technique of applying horse hair for mesmerizing patterns."
         },
         "state": "FL",
         "town": "Jacksonville",
@@ -304,9 +304,9 @@
       "lng": -87.21691,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page describes a pit firing workshop open to the public with sign-up available, led by Florida-based artists Eniko Ujj and Nick Phoenix on November 14, 2026, with a sliding scale fee for inclusivity.",
+        "why": "The page offers a public pit firing workshop on November 14, 2026, with open sign-up and sliding scale fees for outsiders to join.",
         "types": {
           "pit_barrel_saggar": "Join Florida-based artists Eniko Ujj and Nick Phoenix on November 14, 2026, for a hands-on exploration of pit firing — one of the earliest and most communal forms of firing ceramics."
         },
@@ -360,19 +360,24 @@
       "lng": -84.28093,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page offers Alternative Firing Workshops in pit and saggar firing methods open to non-members for $100 tuition, with specific class details and instructor information provided.",
+        "why": "The page offers Alternative Firing Workshops in pit and saggar firing open to non-members for $100 tuition, with clear class details and registration information.",
         "types": {
-          "pit_barrel_saggar": "Pit Firing, as the name implies, will be done the old-fashioned way in a pit with a small bonfire."
+          "pit_barrel_saggar": "These workshops delve into what is called \"Alternative Firing\" of pottery. With each workshop alternating between a Pit or Saggar firing, your bisqueware will be"
         },
-        "state": "FL",
+        "state": "",
         "town": "",
         "street": "417 E. Call St."
       },
-      "weak": false,
       "located": {
         "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
         "date": "2026-10-08"
       }
     },
@@ -417,9 +422,9 @@
       "lng": -81.37905,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page shows a public pottery workshop on February 21st for salt and wood firing at Super Awesome Cool Pottery with a specific address and ticket availability.",
+        "why": "The page shows a pottery workshop on February 21st for salt and wood firing at Super Awesome Cool Pottery with a public ticket purchase option via StayHappening.",
         "types": {
           "wood": "Pottery Workshop February 21st - Salt & Wood Firing"
         },
@@ -432,65 +437,6 @@
         "date": "2026-10-08"
       },
       "weak": false
-    },
-    {
-      "id": "peace-and-mud-pottery-studio",
-      "org": "Peace and Mud Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "St. Augustine",
-      "city": "St. Augustine",
-      "urls": [
-        "https://peaceandmudpottery.com/"
-      ],
-      "notes": "Classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Augustine, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://peaceandmudpottery.com/"
-      },
-      "access": {
-        "how": "Classes",
-        "note": "Classes",
-        "quote": "Whether you’re interested in throwing on the wheel, hand-building, or trying your hand at Raku firing, we have everything you need to bring your clay dreams to",
-        "url": "https://peaceandmudpottery.com",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "peaceandmudpottery.com"
-      },
-      "lat": 29.8947,
-      "lng": -81.31454,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states 'Whether you're interested in throwing on the wheel, hand-building, or trying your hand at Raku firing, we have everything you need' and describes workshops open to all skill levels including those touching clay for the first time.",
-        "types": {
-          "raku": "trying your hand at Raku firing, we have everything you need to bring your clay dreams to"
-        },
-        "state": "FL",
-        "town": "St. Augustine"
-      },
-      "weak": false,
-      "located": {
-        "state": "FL",
-        "town": "St. Augustine",
-        "score": 6,
-        "osm": false,
-        "date": "2026-10-08"
-      }
     },
     {
       "id": "make-space",
@@ -533,79 +479,16 @@
       "lng": -81.31454,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly invites guests to join a raku firing workshop with visiting artist Herrick Smith, where participants can bring their own bisque and glazes are provided on site.",
+        "why": "The page explicitly invites outsiders to join a raku firing workshop with visiting artist Herrick Smith, described as a BYOB workshop with glazes provided on site.",
         "types": {
-          "raku": "Join us for a very special visiting artist workshop with Herrick Smith, our first ever RAKU firing!"
+          "raku": "Join us for a very special visiting artist workshop with Herrick Smith, our first ever RAKU firing! This is a BYOB (bring your own bisque) workshop, with glazes provided and applied on site."
         },
         "state": "FL",
         "town": "St. Augustine"
       },
       "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "weak": false
-    },
-    {
-      "id": "city-of-orlando-ceramics-studio",
-      "org": "City of Orlando ceramics studio",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction",
-        "raku"
-      ],
-      "region": "Orlando",
-      "city": "Orlando",
-      "urls": [
-        "https://www.orlando.gov/"
-      ],
-      "notes": "City classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Orlando, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.orlando.gov/"
-      },
-      "access": {
-        "how": "City classes",
-        "note": "City classes",
-        "quote": "A natural gas kiln for cone 10 reduction firing 2 Raku kilns",
-        "url": "https://www.orlando.gov/Community-Programs-Events/Pottery-Studio",
-        "types": [
-          "gas_reduction",
-          "raku"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "orlando.gov"
-      },
-      "lat": 28.54212,
-      "lng": -81.37905,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states the studio has 'A natural gas kiln for cone 10 reduction firing' and '2 Raku kilns' and offers pottery classes open to 'artists of all skill levels,' indicating public access to non-electric firings.",
-        "types": {
-          "gas_reduction": "A natural gas kiln for cone 10 reduction firing",
-          "raku": "2 Raku kilns"
-        },
-        "state": "FL",
-        "town": "Orlando",
-        "street": "800 Grand Street, Building B, Orlando, FL 32805"
-      },
-      "located": {
-        "state": "FL",
-        "town": "Orlando",
-        "score": 2,
         "osm": false,
         "date": "2026-10-08"
       },
@@ -652,11 +535,11 @@
       "lng": -82.53085,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes 'Alan Bennett's Raku Fish Workshop 2027' as a 2-day workshop available for booking at intermediate skill level, allowing public participation in a raku firing.",
+        "why": "The site offers Alan Bennett's Raku Fish Workshop as a 2-day workshop that outsiders can book for $495, with a clear 'Book Now' option for public registration.",
         "types": {
-          "raku": "Alan Bennett's Raku Fish Workshop 2027"
+          "raku": "Alan Bennett's Raku Fish Workshop 2027 2-Day Workshop. Friday, January 22nd & 29th (10am-4pm) Intermediate Skill Level Required"
         },
         "state": "FL",
         "town": "Sarasota",
@@ -709,12 +592,10 @@
       "lng": -80.05329,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "Search snippets mention 'Raku and Alternative Firing Techniques' classes but the actual page text is empty, preventing verification of public access details.",
-        "types": {
-          "raku": "Raku and Alternative Firing Techniques"
-        },
+        "why": "Search snippets mention a Raku and Alternative Firing Techniques class but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "types": {},
         "state": "FL",
         "town": "West Palm Beach",
         "street": "811 Park Place"
@@ -772,11 +653,11 @@
       "lng": -87.21691,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states 'First City Art Center is now accepting sign ups for its upcoming Raku firings' and 'Raku Firings for Individuals or Groups allow one to six participants' with pricing and scheduling information, demonstrating public access to raku firings.",
+        "why": "The text shows outsiders can sign up for raku firings via scheduled appointments with a firing fee, and also offers raku firings for individuals or groups that can be booked by calling the center.",
         "types": {
-          "raku": "First City Art Center is now accepting sign ups for its upcoming Raku firings with instructor Ben Twingley"
+          "raku": "First City Art Center is now accepting sign ups for its upcoming Raku firings with instructor Ben Twingley, on Sat., Apr. 20 and again on Sat., June 1 from 9 a.m. – Noon."
         },
         "state": "FL",
         "town": "Pensacola",
@@ -827,11 +708,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a month-long Hand Building and Raku Techniques course held at Richard Rosen's studio throughout the year where students can enroll and participate in raku firing.",
+        "why": "The text describes a month-long course in Hand Building and Raku Techniques held at Richard Rosen's studio where students participate in raku firing as part of the class.",
         "types": {
-          "raku": "Richard employs the Japanese art of raku."
+          "raku": "Throughout the year, Richard teaches Hand Building and Raku Techniques, a once-weekly (Thursdays or Saturdays), month-long course held at his studio."
         },
         "state": "FL",
         "town": "Naples"
@@ -885,63 +766,16 @@
       "lng": -81.7787,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows outsiders can book a mobile raku firing experience for events, with the site stating 'If you're interested in hosting an event send us a message' and offering raku glazing and firing workshops.",
+        "why": "The site offers a mobile raku firing workshop and experience that outsiders can book for events by sending a message.",
         "types": {
-          "raku": "Raku is a firing process where we bring glazed pieces to around 1900 degrees and pull them out of the kiln."
+          "raku": "Offering raku glazing and firing workshop."
         },
         "state": "FL",
         "town": "Bonita Springs"
       },
       "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "weak": false
-    },
-    {
-      "id": "uwf-department-of-art-design",
-      "org": "UWF Department of Art & Design",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "University Parkway Pensacola",
-      "city": "University Parkway Pensacola",
-      "urls": [
-        "https://uwf.edu/"
-      ],
-      "notes": "June 1–5. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "University Parkway Pensacola, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://uwf.edu/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "uwf.edu"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The page offers a Raku Ceramics camp open to incoming 12th grade students (public enrollment via registration), with raku firing explicitly named.",
-        "types": {
-          "raku": "Raku Ceramics with the UWF Department of Art & Design"
-        },
-        "state": "FL",
-        "town": "Pensacola"
-      },
-      "located": {
-        "state": "FL",
-        "town": "University Parkway Pensacola",
-        "score": 6,
         "osm": false,
         "date": "2026-10-08"
       },
@@ -986,9 +820,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The site offers public registration for a Pit Firing Workshop (two-day hands-on workshop) and mentions kiln rental for those who work with clay, plus references to the St. Augagama firing with registration available.",
+        "why": "The page offers public registration for a pit firing workshop and an anagama (St. Augagama) firing with explicit 'Register Now' calls to action for outsiders.",
         "types": {
           "pit_barrel_saggar": "This two-day, step-by-step workshop on pit firing methods and techniques will guide students through the logic of site preparation, design techniques for pit firing, and how to manage a fire for optimal results."
         },
@@ -1065,6 +899,757 @@
         "osm": false,
         "date": "2026-10-08"
       }
+    },
+    {
+      "id": "lemoyne-arts-at-studios-of-lemoyne",
+      "org": "LeMoyne Arts at Studios of LeMoyne",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "TALLAHASSEE",
+      "city": "TALLAHASSEE",
+      "urls": [
+        "https://tallahasseearts.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "TALLAHASSEE, Florida",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://tallahasseearts.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Pit firing, as the name implies, will be done the old-fashioned way in a pit with a small bonfire.",
+        "url": "https://tallahasseearts.org/event/raku-workshop",
+        "types": [
+          "raku",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "tallahasseearts.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page shows LeMoyne Arts offers raku and pit firing workshops open to the public via registration with tuition for both members and non-members.",
+        "types": {
+          "raku": "Take your ceramics to the next level and learn how to raku fire pieces, producing beatiuful and unique finishes!",
+          "pit_barrel_saggar": "Pit firing, as the name implies, will be done the old-fashioned way in a pit with a small bonfire."
+        },
+        "state": "FL",
+        "town": "Tallahassee",
+        "street": "417 E Call St., Tallahassee, FL 32301"
+      },
+      "weak": false,
+      "located": {
+        "state": "FL",
+        "town": "TALLAHASSEE",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "seagrasspottery",
+      "org": "seagrasspottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Melbourne",
+      "city": "Melbourne",
+      "urls": [
+        "https://www.seagrasspottery.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Melbourne, Florida",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.seagrasspottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "seagrasspottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page advertises a hands-on soda firing workshop open to the public for $175.",
+        "types": {},
+        "state": "FL",
+        "town": "Melbourne"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "morean-workshop-space",
+      "org": "Morean Workshop Space",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "St Petersburg",
+      "city": "St Petersburg",
+      "urls": [
+        "https://moreanworkshopspace.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "St Petersburg, Florida",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://moreanworkshopspace.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "In addition to lectures and demonstrations, all participants will take part in loading, firing and unloading the anagama.",
+        "url": "https://moreanworkshopspace.org/florida-heat%3A-wood-fire",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "moreanworkshopspace.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page clearly describes a wood fire workshop where outsiders can register and participate in loading, firing, and unloading an anagama kiln for $895/person in January 2027.",
+        "types": {
+          "wood": "In addition to lectures and demonstrations, all participants will take part in loading, firing and unloading the anagama."
+        },
+        "state": "FL",
+        "town": "St. Petersburg",
+        "street": "2025 3rd Avenue South"
+      },
+      "located": {
+        "state": "FL",
+        "town": "St Petersburg",
+        "score": 5,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "element-art-center-fl",
+      "org": "Element Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Florida",
+      "city": null,
+      "urls": [
+        "https://www.elementartcenter.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.elementartcenter.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Students can join us at the upcoming Beach Pit Firing Course by EAC.",
+        "url": "https://www.elementartcenter.com/post/pit-firing-ceramic-vessels-at-the-beach-a-creative-adventure",
+        "types": [
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "elementartcenter.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a Beach Pit Firing Course where students can join the class to participate in pit firing at Dockweiler Beach.",
+        "types": {
+          "pit_barrel_saggar": "Students can join us at the upcoming Beach Pit Firing Course by EAC."
+        },
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "the-clay-studios",
+      "org": "The Clay Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Florida",
+      "city": null,
+      "urls": [
+        "https://theclay.studio/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://theclay.studio/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Friday & Saturday 3rd & 4th July 2026 | Fri 6-10pm, Sat 2-4pm",
+        "url": "https://theclay.studio/outdoor-firings/raku-experience",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "theclay.studio"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The Clay Studios offers public workshops for both raku and pit/barrel/saggar firings with clear instructions for outsiders to book and participate.",
+        "types": {
+          "raku": "Cellan will guide you through the process of glazing and Raku firing up to 3 pieces. Students of all abilities from complete beginners to experienced potters are very welcome!"
+        },
+        "state": "",
+        "town": "",
+        "street": "Barnsgate Manor Vineyard, on the edge of Ashdown Forest"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "alison-and-abi",
+      "org": "Alison and Abi",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Florida",
+      "city": null,
+      "urls": [
+        "https://www.craftcourses.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.craftcourses.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Raku, Saggar, Barrel, Copper Matte & Horsehair Firing Weekend Workshops 2025",
+        "url": "https://www.craftcourses.com/providers/alison-and-abi-firing-courses",
+        "types": [
+          "raku",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "craftcourses.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page shows weekend workshops in multiple firing types (raku, saggar, barrel) that outsiders can book, with verified customer reviews confirming participation.",
+        "types": {
+          "raku": "Raku, Saggar, Barrel, Copper Matte & Horsehair Firing Weekend Workshops 2025",
+          "pit_barrel_saggar": "Raku, Saggar, Barrel, Copper Matte & Horsehair Firing Weekend Workshops 2025"
+        },
+        "state": "",
+        "town": "",
+        "street": "Glôg Balcon, Canolfan Hermon, Glôg, Sir Benfro, SA36 0DT"
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "gulf-coast-kiln-walk-society",
+      "org": "Gulf Coast Kiln Walk Society",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Pensacola",
+      "city": "Pensacola",
+      "urls": [
+        "https://pensacolastate.edu/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Pensacola, Florida",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://pensacolastate.edu/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "These kilns are central to the annual WoodStoke Pottery and Kiln Festival, during which nearly 50 potters from across the southeastern United States participate in workshops, educational activities, and a multi-day wood-firing event.",
+        "url": "https://pensacolastate.edu/pensacola-state-college-and-gulf-coast-kiln-walk-society-present-connected",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "pensacolastate.edu"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The text shows outsiders can participate in wood-firing at the 20th Annual WoodStoke Pottery Festival and Kiln Opening, a public event where nearly 50 potters participate in workshops, educational activities, and multi-day wood-firing.",
+        "types": {
+          "wood": "These kilns are central to the annual WoodStoke Pottery and Kiln Festival, during which nearly 50 potters from across the southeastern United States participate in workshops, educational activities, and a multi-day wood-firing event."
+        },
+        "state": "FL",
+        "town": "Navarre",
+        "street": "7507 Buckeye Dr. Navarre, FL 32566"
+      },
+      "weak": false,
+      "located": {
+        "state": "FL",
+        "town": "Pensacola",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "ballingerpublishing",
+      "org": "ballingerpublishing",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Florida",
+      "city": null,
+      "urls": [
+        "https://ballingerpublishing.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://ballingerpublishing.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Members of the public are invited to help the potters unload the 32-foot wood-fire kiln, passing freshly fired pieces hand to hand to awaiting",
+        "url": "https://ballingerpublishing.com/stoking-the-flames",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "ballingerpublishing.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "No page text provided to verify public access to non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "tampa-museum-of-art",
+      "org": "Tampa Museum of Art",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Tampa",
+      "city": "Tampa",
+      "urls": [
+        "https://tampamuseum.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Tampa, Florida",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://tampamuseum.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "This four-week workshop immerses students in the bold forms and graphic surfaces that define Jun Kaneko’s iconic ceramic practice, with participants creating sculptural pieces no larger than eight inches cubed.",
+        "url": "https://tampamuseum.org/event/surface-and-fire-a-jun-kaneko-inspired-raku-firing-tmacityoftampagoldingart",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "tampamuseum.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a four-week workshop open to beginners and experienced ceramicists (ages 18+) that culminates in a raku firing where participants fire their own pieces.",
+        "types": {},
+        "state": "FL",
+        "town": "Tampa",
+        "street": "120 W Gasparilla Plaza"
+      },
+      "located": {
+        "state": "FL",
+        "town": "Tampa",
+        "score": 20,
+        "osm": true,
+        "date": "2026-10-08"
+      },
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "queen-city-clay",
+      "org": "Queen City Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Florida",
+      "city": null,
+      "urls": [
+        "https://queen-city-clay-623736.shoplightspeed.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://queen-city-clay-623736.shoplightspeed.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Memorial Day Weekend, May 22-25 OR Labor Day Weekend, Sep 4-7",
+        "url": "https://queen-city-clay-623736.shoplightspeed.com/wood-firing-workshops-2026.html",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "queen-city-clay-623736.shoplightspeed.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page offers wood firing workshops open to the public for a fee, with clear instructions on how to participate and register.",
+        "types": {
+          "wood": "Learn to wood fire at Queen City Clay! Glazing and wadding will take place from 9-1 on Friday. Loading will take place from 1-5. The kiln will be lit Friday evening and fire through early Sunday morning. Unload will be Monday evening with a pot luck at the kiln."
+        },
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "josephy",
+      "org": "josephy",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Florida",
+      "city": null,
+      "urls": [
+        "https://josephy.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://josephy.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "josephy.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "Search snippets show a raku workshop but no page text provided to verify location details or confirm public access terms.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "luke-iannuzzi-pottery-fl",
+      "org": "Luke Iannuzzi Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Florida",
+      "city": null,
+      "urls": [
+        "https://www.lukeiannuzzipottery.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.lukeiannuzzipottery.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "## 2026 Raku Workshops",
+        "url": "https://www.lukeiannuzzipottery.com/book-online",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "lukeiannuzzipottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page lists both '2026 Raku Workshops' and 'Private Raku Firing Workshops' available to book online, indicating public access to raku firings.",
+        "types": {
+          "raku": "2026 Raku Workshops"
+        },
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "anhinga-clay-studios",
+      "org": "Anhinga Clay Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Miami",
+      "city": "Miami",
+      "urls": [
+        "https://anhingaclaystudios.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Miami, Florida",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://anhingaclaystudios.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Saturday, March 28 10am -5pm",
+        "url": "https://anhingaclaystudios.com/product/polo-ramirez-workshop",
+        "types": [
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "anhingaclaystudios.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "page says state is FL, not CO",
+        "types": {
+          "pit_barrel_saggar": "In this hands-on workshop, we'll explore pit and smoke firing."
+        },
+        "state": "FL",
+        "town": "Homestead"
+      },
+      "weak": false,
+      "located": {
+        "state": "FL",
+        "town": "Miami",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [
@@ -1119,6 +1704,58 @@
     {
       "id": "jacksonville-university",
       "why": "Second check (gemma-4-31b-it): The text describes a university degree program for students and does not mention public access to its firing facilities. (2026-10-07)"
+    },
+    {
+      "id": "peace-and-mud-pottery-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions trying Raku firing generally without a specific sentence showing outsiders can book or sign up for it via a class, workshop, membership, rental, or firing service. (2026-10-08)"
+    },
+    {
+      "id": "city-of-orlando-ceramics-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The page mentions a natural gas kiln and raku kilns, but does not provide any way for outsiders to join or participate in those types of firings. (2026-10-08)"
+    },
+    {
+      "id": "uwf-department-of-art-design",
+      "why": "Second check (gemini-3.1-flash-lite): The page describes a camp specifically for incoming 12th-grade students, which does not constitute general public access. (2026-10-08)"
+    },
+    {
+      "id": "n-a",
+      "why": "Second check (gemini-3.5-flash-lite): The text is an article about community kilns and wood-firing culture, not a listing for a specific place offering public firing services or classes. (2026-10-08)"
+    },
+    {
+      "id": "gumbo-limbo-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The page mentions raku as part of artists' specialties in the gallery, but it contains no evidence of public non-electric firings being offered. (2026-10-08)"
+    },
+    {
+      "id": "mingo-pottery-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The page mentions raku as a navigation link, but does not provide details or a way for outsiders to participate in a raku firing. (2026-10-08)"
+    },
+    {
+      "id": "cfk",
+      "why": "Second check (gemini-3.5-flash-lite): The ceramics program is a student class rather than being open to the general public for non-enrolled participation. (2026-10-08)"
+    },
+    {
+      "id": "morean-center-for-clay-fl",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes the Morean Center for Clay only in the context of an artist-in-residency program, which is not an open invitation for the public to participate in firings. (2026-10-08)"
+    },
+    {
+      "id": "anhinga-clay-studios",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions standard electric firings for classes, but does not provide any offering for outsider participation in raku, wood, soda, salt, pit, or gas-reduction firings. (2026-10-08)"
+    },
+    {
+      "id": "clay-creations",
+      "why": "Its own pages give an address in CA (Pacifica), not FL. Moved. (2026-10-08)"
+    },
+    {
+      "id": "goggleworks-center-for-the-arts",
+      "why": "Its own pages give an address in PA (Washington St Reading), not FL. Moved. (2026-10-08)"
+    },
+    {
+      "id": "steamboatcreates",
+      "why": "Its own pages give an address in CO (Steamboat Springs), not FL. Moved. (2026-10-08)"
+    },
+    {
+      "id": "axner-laguna-clay",
+      "why": "Second check (claude-haiku-4.5): This is a pottery supply shop that sells kilns and materials but does not offer public access to any non-electric ceramic firings; the page mentions raku kilns and firing supplies for sale, and references 'Laguna Clay Florida Firing Services' but provides no details about how outsiders can participate in actual firings. (2026-10-08)"
     }
   ]
 }

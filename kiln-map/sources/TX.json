@@ -103,11 +103,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page advertises a hands-on workshop where the public can register to help build and fire a wood-fired rocket kiln.",
+        "why": "The page explicitly advertises a hands-on workshop where outsiders can register to participate in a wood-fired rocket kiln firing.",
         "types": {
-          "wood": "Join us for a hands-on workshop where you will help build and fire a super-efficient wood-fired rocket kiln!"
+          "wood": "Join us for a hands-on workshop where you will help build and fire a super-efficient wood-fired rocket kiln! 🚀"
         },
         "state": "TX",
         "town": "Austin",
@@ -163,12 +163,10 @@
       "lng": -97.7437,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states the studio offers 'Firing Services' and 'Open Studio Access' with raku firing available, allowing public participation.",
-        "types": {
-          "raku": "with kiln firing in cone 6, cone 10, and raku"
-        },
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page mentions raku firing and firing services at a community studio, but does not provide specific details about how outsiders can access or participate in raku firings.",
+        "types": {},
         "state": "TX",
         "town": "Austin"
       },
@@ -176,7 +174,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "eye-of-the-dog-art-center",
@@ -219,9 +223,9 @@
       "lng": -97.94058,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states \"As part of the workshop, we will be able to participate in an upcoming woodfiring!\" showing outsiders can sign up for a workshop and participate in a wood firing at Eye of the Dog Art Center.",
+        "why": "The text describes an Atmospheric Firing Workshop at Eye of the Dog Art Center where outsiders can sign up and participate in woodfiring, with explicit mention that participants will be able to join an upcoming woodfiring as part of the workshop.",
         "types": {
           "wood": "As part of the workshop, we will be able to participate in an upcoming woodfiring!"
         },
@@ -241,8 +245,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "gas_reduction"
+        "raku"
       ],
       "region": "Houston",
       "city": "Houston",
@@ -262,8 +265,7 @@
         "quote": "Special raku workshops available throughout the year.",
         "url": "https://houstonpotterystudio.com/raku-firing-houston",
         "types": [
-          "raku",
-          "gas_reduction"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -277,12 +279,11 @@
       "lng": -95.3677,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly states 'Special raku workshops available throughout the year' and 'Small classes capped at 12 students ensure you get hands-on instruction,' indicating public access to raku firing workshops.",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page mentions raku workshops and classes available, but does not provide clear instructions on how outsiders can sign up, book, or join a specific raku firing.",
         "types": {
-          "raku": "Experience raku firing at Houston Pottery Studio.",
-          "gas_reduction": "3 electric plus 1 gas reduction"
+          "raku": "Special raku workshops available throughout the year."
         },
         "state": "TX",
         "town": "Houston"
@@ -294,7 +295,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "fire-gallery",
@@ -303,8 +310,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "salt"
+        "raku"
       ],
       "region": "Houston",
       "city": "Houston",
@@ -324,8 +330,7 @@
         "quote": "Raku pottery firing for Fire Gallery Members. Call for more information.",
         "url": "https://firegallery.art/product/raku-pottery",
         "types": [
-          "raku",
-          "salt"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -339,16 +344,15 @@
       "lng": -95.3677,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text shows Fire Gallery offers raku firing and salt firing pottery classes/events that outsiders can book or join, with pricing and booking information provided.",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "Raku firing is restricted to Fire Gallery Members with instruction to 'Call for more information,' and salt firing is mentioned as a specialty but no public access mechanism is stated.",
         "types": {
-          "raku": "Raku Firing with Firegallery.art. Bring a few pieces, have some fun.",
-          "salt": "Our specialty in salt firing pottery in Houston, TX, brings a unique flavor to your creations."
+          "raku": "Raku pottery firing for Fire Gallery Members. Call for more information."
         },
         "state": "TX",
         "town": "Houston",
-        "street": "1520 Silver St."
+        "street": "1520 Silver St. Houston TX. 77007"
       },
       "located": {
         "state": "TX",
@@ -357,7 +361,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "four-circle-studio",
@@ -400,11 +410,11 @@
       "lng": -95.3677,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a 2-Day raku Workshop open to the public with registration, where participants can bring pieces to be fired in a raku kiln and post-fired in combustible materials.",
+        "why": "Four Circle Studio offers a 2-Day raku Workshop open to the public with registration, where outsiders can participate in a raku firing.",
         "types": {
-          "raku": "2-Day raku Workshop"
+          "raku": "2-Day raku Workshop Sept 26th-27th 11-12-30pm"
         },
         "state": "TX",
         "town": "Houston",
@@ -458,11 +468,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows raku firing sessions available for both current students ($28/session) and everyone else ($70/session) with a scheduled date of Friday, September 25, 2026 @ 2 PM, allowing public participation.",
+        "why": "The page offers raku firing sessions for both current students ($28/session) and everyone else ($70/session) with a scheduled date of Friday, September 25, 2026 @ 2 PM, demonstrating public access to outsiders.",
         "types": {
-          "raku": "Raku firing: The raku firing process involves heating the pottery piece in a kiln to a high temperature, typically around 1000-1050 degrees Celsius (1850-1900F), and then quickly removing it from the kiln and placing it in a container filled with combustible material such as sawdust or straw."
+          "raku": "$70.00 /raku session for everyone else & limit 8 pieces."
         },
         "state": "TX",
         "town": "Stafford",
@@ -520,11 +530,11 @@
       "lng": -96.79686,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text mentions raku and gas reduction firing classes and workshops, but does not explicitly state that non-members or the general public can sign up; the studio is still in waitlist mode opening in 2026.",
+        "why": "The page mentions raku workshops and gas reduction firing with classes capped at 12 students, but does not explicitly state how outsiders can sign up, book, or join these specific firing types.",
         "types": {
-          "raku": "Experience raku firing at Dallas Pottery Studio.",
+          "raku": "Special raku workshops available throughout the year.",
           "gas_reduction": "5 kilns including electric and gas reduction."
         },
         "state": "TX",
@@ -536,6 +546,12 @@
         "town": "Dallas",
         "score": 10,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -579,22 +595,26 @@
       "lat": 32.75318,
       "lng": -97.33275,
       "verify": {
-        "by": "gemma4-local",
-        "date": "2026-10-07",
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text mentions that 'Participants have described this as magical' after describing the Raku workshop, and also mentions 'A limited number of dinner guests (over 18) are welcome.'",
-        "types": {
-          "raku": "Raku is a firing process developed in the 16th century Japan for the Japanese tea ceremony."
-        },
+        "why": "The page clearly offers Raku workshops for $150 that are open to those with no clay experience as well as experienced potters, with specific dates and registration information.",
+        "types": {},
         "state": "TX",
-        "town": "Fort",
-        "street": "8092 Eagle Mountain Dr"
+        "town": "Fort Worth",
+        "street": "8092 Eagle Mountain Dr."
       },
       "located": {
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "cera",
@@ -635,9 +655,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states the studio has raku kilns and offers on-site classes and workshops for additional fees, allowing public members to access non-electric firing.",
+        "why": "The text states CERA offers a pottery studio with raku kilns accessible through membership and on-site classes/workshops for additional fees, allowing outsiders to participate.",
         "types": {
           "raku": "Well-equipped studio with everything a potter needs for making and firing pottery, including electric and raku kilns and glazes."
         },
@@ -680,7 +700,7 @@
         "how": "Firing service, open studio",
         "note": "Firing service, open studio",
         "quote": "We offer firing service, with drop off and pick up at the loading dock.",
-        "url": "https://roadrunnerceramics.com",
+        "url": "https://roadrunnerceramics.com/",
         "types": [
           "raku",
           "gas_reduction"
@@ -697,9 +717,9 @@
       "lng": -98.49514,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page offers a raku class open to advancing students for registration, and mentions firing service available to the public with drop-off and pick-up.",
+        "why": "The page offers a raku class open to registration and a firing service for non-electric firings, both accessible to the public.",
         "types": {
           "raku": "Explore Three Techniques in Raku in a fun 4 week class for advancing students.",
           "gas_reduction": "We offer a range of classes from beginners to advanced in an array of topics like wheel throwing, sculpture, raku, and cone 10 reduction firings."
@@ -758,11 +778,11 @@
       "lng": -97.05443,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a hands-on raku firing workshop open to non-members for $80 per piece, led by ceramic artist Vivian Rood at Rockport Center for the Arts.",
+        "why": "The page offers a public raku firing workshop open to non-members for $80 per piece, with clear sign-up instructions.",
         "types": {
-          "raku": "Then, watch as Vivian demonstrates the raku firing process—an exciting technique known for its crackled textures and unpredictable finishes."
+          "raku": "Join us for a hands-on raku glazing workshop led by ceramic artist Vivian Rood."
         },
         "state": "TX",
         "town": "Rockport",
@@ -817,9 +837,9 @@
       "lng": -101.84702,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states the studio is 'open to the public through classes, workshops, and studio memberships' and offers 'custom fires work in our wood, soda, reduction, and raku kilns,' making non-electric firings accessible to the public.",
+        "why": "The page states the studio is 'open to the public through classes, workshops, and studio memberships' and offers 'custom fires work in our wood, soda, reduction, and raku kilns,' with classes available year-round for public involvement.",
         "types": {
           "soda": "the Clay Studio also custom fires work in our wood, soda, reduction, and raku kilns",
           "raku": "the Clay Studio also custom fires work in our wood, soda, reduction, and raku kilns"
@@ -832,6 +852,827 @@
         "state": "TX",
         "town": "Lubbock",
         "score": 4,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "blossomhillcrafts",
+      "org": "blossomhillcrafts",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Texas",
+      "city": null,
+      "urls": [
+        "https://www.blossomhillcrafts.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.blossomhillcrafts.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "BHC OFFERS MORE WORKSHOPS TO THEIR MEMBERS Raku and Saggar firing workshops",
+        "url": "https://www.blossomhillcrafts.com/workshops1.html",
+        "types": [
+          "raku",
+          "soda",
+          "salt",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "blossomhillcrafts.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a Horse Hair Raku workshop where outsiders can participate by making a pot in advance and attending 'Raku Day' as part of a class structure with detailed instructions for participants.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "fire-gallery-and-studio",
+      "org": "FIRE GALLERY AND STUDIO",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Texas",
+      "city": null,
+      "urls": [
+        "https://www.clayhouston.org/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.clayhouston.org/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "Wheel throwing and hand building classes for all levels, group/team building, kiln space rental, cone 05 firings (electric) to cone 10 firings (gas reduction), raku firings, pit firings, open studio hours for students only, clay recycling.",
+        "url": "https://www.clayhouston.org/classes-services-northwest-5",
+        "types": [
+          "raku",
+          "pit_barrel_saggar",
+          "gas_reduction"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "clayhouston.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "Fire Gallery and Studio offers classes for all levels, kiln space rental, and raku and pit firings accessible to non-students through these services.",
+        "types": {
+          "raku": "Wheel throwing and hand building classes for all levels, group/team building, kiln space rental, cone 05 firings (electric) to cone 10 firings (gas reduction), raku firings, pit firings",
+          "pit_barrel_saggar": "Wheel throwing and hand building classes for all levels, group/team building, kiln space rental, cone 05 firings (electric) to cone 10 firings (gas reduction), raku firings, pit firings",
+          "gas_reduction": "Wheel throwing and hand building classes for all levels, group/team building, kiln space rental, cone 05 firings (electric) to cone 10 firings (gas reduction), raku firings, pit firings"
+        },
+        "state": "TX",
+        "town": ""
+      },
+      "weak": false,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "summersault",
+      "org": "Summersault",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Austin",
+      "city": "Austin",
+      "urls": [
+        "https://www.gosummersault.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Austin, Texas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.gosummersault.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "This hands-on workshop teaches participants how to create unique ceramic pieces using the dramatic raku firing method, which involves removing pottery from a hot kiln and placing it in combustible materials.",
+        "url": "https://www.gosummersault.com/austin-tx/ceramigos/raku-firing",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "gosummersault.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a hands-on raku firing workshop open to participants ages 18+, with clear public access via Summersault's booking platform.",
+        "types": {
+          "raku": "This hands-on workshop teaches participants how to create unique ceramic pieces using the dramatic raku firing method, which involves removing pottery from a hot kiln and placing it in combustible materials."
+        },
+        "state": "TX",
+        "town": "Austin"
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "marc-jeannin-pottery",
+      "org": "Marc Jeannin Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar",
+        "soda",
+        "salt"
+      ],
+      "region": "Austin",
+      "city": "Austin",
+      "urls": [
+        "https://marcjeannin.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Austin, Texas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://marcjeannin.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Loading and firing electrical and gas kilns low and high fire, atmospheric kilns including wood fueled kilns, soda/salt kilns, and able to conduct a Raku firing as well as other alternative firing methods like a pit firing.",
+        "url": "https://marcjeannin.com/contact",
+        "types": [
+          "raku",
+          "pit_barrel_saggar",
+          "soda",
+          "salt"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "marcjeannin.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page lists 'Raku & Alternative Firing Workshop' as an offering, indicating outsiders can participate in raku firing through a workshop format.",
+        "types": {
+          "raku": "Raku & Alternative Firing Workshop",
+          "pit_barrel_saggar": "able to conduct a Raku firing as well as other alternative firing methods like a pit firing",
+          "soda": "atmospheric kilns including wood fueled kilns, soda/salt kilns",
+          "salt": "atmospheric kilns including wood fueled kilns, soda/salt kilns"
+        },
+        "state": "TX",
+        "town": "Austin"
+      },
+      "located": {
+        "state": "TX",
+        "town": "Austin",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "fire-gallery-tx",
+      "org": "Fire Gallery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Heights",
+      "city": "Heights",
+      "urls": [
+        "https://www.houstoniamag.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Heights, Texas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.houstoniamag.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "You can even rent out space to display your creations or sign up to learn about more advanced techniques like raku firing and making your own glazes.",
+        "url": "https://www.houstoniamag.com/arts-and-culture/best-pottery-studios-houston",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "houstoniamag.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "Fire Gallery offers raku firing classes and workshops that outsiders can sign up for.",
+        "types": {
+          "raku": "You can even rent out space to display your creations or sign up to learn about more advanced techniques like raku firing and making your own glazes."
+        },
+        "state": "TX",
+        "town": "Houston"
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "oblate-clay",
+      "org": "Oblate Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Drive San Antonio",
+      "city": "Drive San Antonio",
+      "urls": [
+        "https://www.oblateclay.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Drive San Antonio, Texas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.oblateclay.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "In these classes, you will learn the art of working with clay under the guidance of knowledgeable and experienced instructors. We offer wheel classes, handbuilding, raku, glazing, and more!",
+        "url": "https://www.oblateclay.com",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "oblateclay.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page explicitly states they offer raku classes for outsiders to join, and membership includes firing services.",
+        "types": {
+          "raku": "We offer wheel classes, handbuilding, raku, glazing, and more!"
+        },
+        "state": "TX",
+        "town": "San Antonio"
+      },
+      "located": {
+        "state": "TX",
+        "town": "Drive San Antonio",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "the-ceramic-school",
+      "org": "The Ceramic School",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Denton",
+      "city": "Denton",
+      "urls": [
+        "https://ceramic.school/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Denton, Texas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://ceramic.school/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Online Kiln Firing Workshops",
+        "url": "https://ceramic.school/places/category/ceramicist/united-states/texas/denton",
+        "types": [
+          "raku",
+          "wood",
+          "gas_reduction"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "ceramic.school"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page lists raku and wood kilns as features and mentions kiln rental and online kiln firing workshops, but does not explicitly state that outsiders can participate in non-electric firings via a specific workshop, class, membership, or contact invitation.",
+        "types": {},
+        "state": "TX",
+        "town": "Denton"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "the-craft-guild",
+      "org": "The Craft Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction",
+        "raku"
+      ],
+      "region": "Carrollton",
+      "city": "Carrollton",
+      "urls": [
+        "https://www.thecraftguild.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Carrollton, Texas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.thecraftguild.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "You’ll learn the entire process of working with clay, from raw material to glazing, and your work will be finished in a high-fire gas reduction or raku kiln.",
+        "url": "https://www.thecraftguild.org/clay-studio-main",
+        "types": [
+          "gas_reduction",
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "thecraftguild.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page states that clay classes are offered where students' work will be finished in a high-fire gas reduction or raku kiln, and tuition covers kiln firing, with all levels welcome to enroll.",
+        "types": {
+          "gas_reduction": "your work will be finished in a high-fire gas reduction or raku kiln",
+          "raku": "your work will be finished in a high-fire gas reduction or raku kiln"
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": false,
+      "located": {
+        "state": "TX",
+        "town": "Carrollton",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "mckinney-art-house",
+      "org": "McKinney Art House",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "McKinney",
+      "city": "McKinney",
+      "urls": [
+        "https://arthousetx.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "McKinney, Texas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://arthousetx.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Firing in 2 different electric kilns, and raku kilns provide a wide range of surface decoration.",
+        "url": "https://arthousetx.com/pottery-classes/pottery-classes",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "arthousetx.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page states 'Firing in 2 different electric kilns, and raku kilns provide a wide range of surface decoration' and offers weekly ongoing pottery classes and private classes where outsiders can register and participate.",
+        "types": {
+          "raku": "Firing in 2 different electric kilns, and raku kilns provide a wide range of surface decoration."
+        },
+        "state": "TX",
+        "town": "McKinney"
+      },
+      "located": {
+        "state": "TX",
+        "town": "McKinney",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "art-center-of-corpus-christi",
+      "org": "Art Center of Corpus Christi",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Corpus Christi",
+      "city": "Corpus Christi",
+      "urls": [
+        "https://www.artcentercc.org/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Corpus Christi, Texas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.artcentercc.org/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "FIRINGS: Our studio offers bisque firings at minimum once a week, and glaze firings usually once a week, the studio also offers Raku if you are interested in partaking or just watching.",
+        "url": "https://www.artcentercc.org/clay-studio",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "artcentercc.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page states the studio offers raku firings and that outsiders can join via membership after completing an orientation class, making raku accessible to the public.",
+        "types": {
+          "raku": "the studio also offers Raku if you are interested in partaking or just watching"
+        },
+        "state": "TX",
+        "town": "Corpus Christi"
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "barry-brown-clay-studio-gallery",
+      "org": "Barry Brown Clay Studio & Gallery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "St Corpus Christi",
+      "city": "St Corpus Christi",
+      "urls": [
+        "https://bbclaystudio.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "St Corpus Christi, Texas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://bbclaystudio.org/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "In addition to the electric kilns, we have 2 Raku kilns! Our kiln technicians ensure your work is properly loaded and fired.",
+        "url": "https://bbclaystudio.org",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "bbclaystudio.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page mentions 2 Raku kilns and that kiln technicians load and fire work, but does not explicitly state how outsiders can access or book a raku firing (no mention of classes, workshops, membership access to firings, rental, or invitation to contact).",
+        "types": {},
+        "state": "TX",
+        "town": "Corpus Christi",
+        "street": "1010 Ayers St"
+      },
+      "weak": true,
+      "located": {
+        "state": "TX",
+        "town": "St Corpus Christi",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "brazos-clay",
+      "org": "Brazos Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Waco",
+      "city": "Waco",
+      "urls": [
+        "https://www.showmelocal.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Waco, Texas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.showmelocal.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Visitors can shop handmade pottery, Western Raku pieces, cowrie shell mugs, sunflower bowls, raku candles, and one-of-a-kind ceramic gifts while seeing potters at work in the studio.",
+        "url": "https://www.showmelocal.com/39693074-brazos-clay-waco",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "showmelocal.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The text mentions raku pieces and a working studio but provides no information about public access to raku firings, classes, workshops, memberships, rentals, or firing services.",
+        "types": {},
+        "state": "TX",
+        "town": "Waco"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "hill-potters-guild",
+      "org": "Hill Potters' Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Texas",
+      "city": null,
+      "urls": [
+        "https://hillpotters.square.site/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://hillpotters.square.site/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Types of Firings | Hill Potters' Guild",
+        "url": "https://hillpotters.square.site/types-of-firings",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "hillpotters.square.site"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page mentions wood firing but does not explicitly state how outsiders can participate (no workshop, class, membership, rental, firing service, or contact invitation is described).",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "utsa-college-of-liberal-and-fine-arts",
+      "org": "UTSA College of Liberal and Fine Arts",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "San Antonio",
+      "city": "San Antonio",
+      "urls": [
+        "https://www.utsa.edu/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "San Antonio, Texas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.utsa.edu/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Tuition also covers shop glazes, and some underglazes as well as kiln firing; however, students should anticipate fees for purchasing additional clay, specialty underglazes, and tools unless otherwise noted.",
+        "url": "https://www.utsa.edu/pace/community-art/adult/ceramics.html",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "utsa.edu"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page states the ceramics program offers classes on raku and that students can register for ceramic classes, making raku accessible to outsiders through class enrollment.",
+        "types": {
+          "raku": "The ceramics program offers classes on hand-building, wheel-throwing, raku, glazing, digital embellishments and much more."
+        },
+        "state": "TX",
+        "town": "San Antonio"
+      },
+      "located": {
+        "state": "TX",
+        "town": "San Antonio",
+        "score": 6,
         "osm": false,
         "date": "2026-10-08"
       },
@@ -890,6 +1731,18 @@
     {
       "id": "process-ceramics",
       "why": "Second check (claude-haiku-4.5): The pit firing workshop is sold out and requires non-students to first register for a separate wild clay workshop, making public access unclear and conditional rather than straightforward. (2026-10-07)"
+    },
+    {
+      "id": "n-a-tx",
+      "why": "Second check (claude-haiku-4.5): Armadillo Clay & Supplies is a clay and kiln supply shop/distributor with a directory of local studios and firing services, but does not itself offer public access to ceramic firings. (2026-10-08)"
+    },
+    {
+      "id": "vr-pottery-obx",
+      "why": "Second check (claude-haiku-4.5): page says state is NC, not TX (2026-10-08)"
+    },
+    {
+      "id": "stephen-f-austin-university-sfa",
+      "why": "Two models agree: The page is a Glasstire article recounting a wood firing at SFA by instructors and students from SFA and the Glassell Studio School, with no offer or invitation for outsiders to join, book or sign up for a firing. (2026-10-08)"
     }
   ]
 }

@@ -31,12 +31,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The search snippets show public workshops for raku and soda/wood firing with pricing and sign-up information, requiring no prior experience.",
+        "why": "The search snippets show Animal House Pottery offers public workshops for raku and soda/wood firing with clear instructions on how to participate and pricing.",
         "types": {
-          "raku": "load it into the Raku kiln, and pull it out glowing hot to watch the crackle and colors come out as it cools",
-          "soda": "Spend a Sunday with us learning soda firing ( this will be a wood/soda firing) from the ground up"
+          "raku": "Bring your own bisque or pick one of Anthony's, glaze it, load it into the Raku kiln, and pull it out glowing hot to watch the crackle and colors come out as it cools.",
+          "soda": "Spend a Sunday with us learning soda firing ( this will be a wood/soda firing) from the ground up."
         },
         "state": "",
         "town": ""
@@ -47,7 +47,12 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": true
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "tuscarora-pottery-school",
@@ -56,11 +61,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "pit_barrel_saggar",
-        "gas_reduction"
+        "raku"
       ],
       "region": "Tuscarora",
       "city": "Tuscarora",
@@ -80,9 +81,7 @@
         "quote": "Book a private Soda Firing. Would you, and up to five other artists, like to book a private firing workshop with one of our instructors?",
         "url": "https://tuscarorapottery.com/workshops/p/spring-community-firing-7kg2b",
         "types": [
-          "soda",
-          "raku",
-          "wood"
+          "raku"
         ],
         "checked": "2026-10-07"
       },
@@ -94,9 +93,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention Tuscarora Pottery School offering soda firing and raku workshops that appear open to participants, but the actual page text is empty, so I cannot verify details from the official site itself.",
+        "why": "Search snippets mention Tuscarora Pottery School offering soda and raku workshops, but no actual page text was provided to verify the details or confirm public access.",
         "types": {},
         "state": "",
         "town": ""
@@ -109,6 +108,12 @@
         "town": "Tuscarora",
         "score": 6,
         "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -151,9 +156,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention a workshop with saggar firing open to participants, but the actual page text is empty, so the venue's location and full details cannot be verified from the page itself.",
+        "why": "The search snippets mention an Obvara & Saggar Fire Workshop on April 26, 2025, but the actual page text is empty, so I cannot verify the details or confirm public access from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -163,6 +168,12 @@
       "lng": -114.98155,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -195,12 +206,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a pit firing workshop open to participants, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
-        "types": {
-          "pit_barrel_saggar": "pit firing—a traditional method of firing ceramics using open flame and natural materials"
-        },
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "No page text provided to verify public access, location details, or specific workshop booking information.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -208,97 +217,11 @@
       "located": {
         "osm": false,
         "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "the-coleman-school-of-porcelain",
-      "org": "The Coleman School of Porcelain",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Henderson",
-      "city": "Henderson",
-      "urls": [
-        "https://www.lisaloveceramics.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Henderson, Nevada",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.lisaloveceramics.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "lisaloveceramics.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippets mention gas reduction firing and a 5-day workshop in Henderson, NV, but the actual page text is empty, so I cannot verify from the page itself whether public outsiders can book or sign up.",
-        "types": {
-          "gas_reduction": "Cone 10 firing schedules for gas reduction and electric oxidation kilns"
-        },
-        "state": "NV",
-        "town": "Henderson"
-      },
-      "weak": true,
-      "lat": 36.03014,
-      "lng": -114.98155,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "tom-coleman",
-      "org": "Tom Coleman",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Henderson",
-      "city": "Henderson",
-      "urls": [
-        "https://www.klineglazeservice.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Henderson, Nevada",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.klineglazeservice.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "klineglazeservice.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The page mentions Tom Coleman Workshops in Henderson, NV and references cone 10 reduction firing, but does not explicitly state whether public outsiders can attend or book these workshops.",
-        "types": {
-          "gas_reduction": "Dry Materials: Slips and Glazes Cone 10 Reduction"
-        },
-        "state": "NV",
-        "town": "Henderson"
-      },
-      "weak": true,
-      "lat": 36.03014,
-      "lng": -114.98155,
-      "located": {
-        "osm": false,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -331,14 +254,70 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention a Raku Firing Workshop with public walk-up option, but the actual page text is empty, so location details cannot be verified from the page itself.",
-        "types": {
-          "raku": "Red hot pieces will be pulled from the kiln by the instructors and placed under a metal bucket with combustibles to create that magic Raku effect."
-        },
+        "why": "The search snippets mention a Raku Firing Workshop but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "types": {},
         "state": "",
         "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "virgin-valley-artists-association",
+      "org": "Virgin Valley Artists Association",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Mesquite",
+      "city": "Mesquite",
+      "urls": [
+        "https://www.mesquitefineartscenter.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Mesquite, Nevada",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.mesquitefineartscenter.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Saggar Firing Workshop This is day one of a 4 day Workshop scheduled for January 11,12, 19 & 24* (firing date may change), $75, limited to 4 students.",
+        "url": "https://www.mesquitefineartscenter.com/content.aspx?page_id=4091&club_id=590375&item_id=1580281",
+        "types": [
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "mesquitefineartscenter.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "page says state is NV, not MD",
+        "types": {},
+        "state": "NV",
+        "town": "Mesquite"
       },
       "weak": true,
       "located": {
@@ -367,6 +346,14 @@
     {
       "id": "nellisauction",
       "why": "Second check (gemma-4-31b-it): The text describes an auction for a piece of pottery, not a service for the public to participate in a firing. (2026-10-07)"
+    },
+    {
+      "id": "the-coleman-school-of-porcelain",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes a workshop for students but does not offer a way for the general public to participate in a firing service, rental, or open firing event. (2026-10-08)"
+    },
+    {
+      "id": "tom-coleman",
+      "why": "Second check (gemini-3.5-flash-lite): The text discusses high-fire cone 10 reduction and electric glazes, but contains no mention of public participation in a non-electric ceramic firing. (2026-10-08)"
     }
   ]
 }

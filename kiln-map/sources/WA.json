@@ -119,9 +119,9 @@
       "lng": -122.33006,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions a raku firing workshop at Seattle Pottery Supply with an address, but the page text provided is empty, so I cannot verify whether public participation is offered.",
+        "why": "The search snippet mentions a raku firing workshop at a specific address, but the page text provided is empty, so I cannot verify details about public access, pricing, or booking procedures.",
         "types": {},
         "state": "WA",
         "town": "Seattle",
@@ -130,6 +130,12 @@
       "weak": true,
       "located": {
         "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -140,7 +146,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "soda"
       ],
       "region": "Seattle",
       "city": "Seattle",
@@ -160,7 +166,7 @@
         "quote": "🔥Oct 12th Soda Firing",
         "url": "https://ratcitystudios.com/soda-firing-participation",
         "types": [
-          "raku"
+          "soda"
         ],
         "checked": "2026-10-06"
       },
@@ -174,11 +180,11 @@
       "lng": -122.33006,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows outsiders can register and participate in soda firing workshops by purchasing shares and joining Clay Q&A, and can register for raku firing workshops, with scheduled appointments and registration available to the public.",
+        "why": "The page shows outsiders can register for and participate in soda firing workshops by purchasing shares and joining Clay Q&A, and can register for raku firing workshops.",
         "types": {
-          "raku": "Raku Workshop Participation"
+          "soda": "Participants are invited to help introduce soda into the kiln!"
         },
         "state": "WA",
         "town": "Seattle",
@@ -197,9 +203,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "gas_reduction",
-        "raku",
-        "soda"
+        "gas_reduction"
       ],
       "region": "Seattle",
       "city": "Seattle",
@@ -217,11 +221,9 @@
         "how": "Soda kiln firings and raku",
         "note": "Soda kiln firings and raku",
         "quote": "Soda Kiln Firings & RAKU",
-        "url": "https://raincityclay.com",
+        "url": "https://raincityclay.com/certification-gas-kiln-firing",
         "types": [
-          "gas_reduction",
-          "raku",
-          "soda"
+          "gas_reduction"
         ],
         "checked": "2026-10-06"
       },
@@ -233,13 +235,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states Rain City Clay offers 'firing services for local potters' and describes a certification process for public access to gas kiln firings via reservation, plus mentions 'Soda Kiln Firings & RAKU' at sister studio Rat City Studios.",
+        "why": "Rain City Clay offers firing services and gas kiln rentals for outsiders, with a clear certification and reservation process for public access to fire kilns.",
         "types": {
-          "gas_reduction": "Certification For Firing Gas Kilns",
-          "raku": "Soda Kiln Firings & RAKU",
-          "soda": "Soda Kiln Firings & RAKU"
+          "gas_reduction": "To reserve a Gas Kiln Designate a kiln leader Kiln leader checks in with the office to coordinate dates around class firings"
         },
         "state": "WA",
         "town": "West Seattle"
@@ -260,8 +260,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "soda",
-        "raku"
+        "raku",
+        "soda"
       ],
       "region": "Snohomish",
       "city": "Snohomish",
@@ -281,8 +281,8 @@
         "quote": "Member event! Raku firing at Burkhead studio in Snohomish",
         "url": "https://www.washingtonclayarts.org/education",
         "types": [
-          "soda",
-          "raku"
+          "raku",
+          "soda"
         ],
         "checked": "2026-10-06"
       },
@@ -296,12 +296,12 @@
       "lng": -121.73049,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text shows members can sign up for soda firing via lottery at Kirkland Art Center and raku firing at Burkhead studio in Snohomish through workshops and member events.",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page mentions raku and soda firings for members via lottery, but does not clearly state whether non-members can join or how to become a member or gain access.",
         "types": {
-          "soda": "WCA board member Betsy Smith has organized an opportunity for us to offer a ^10 Soda Firing at Kirkland Art Center the weekend of September 6th.",
-          "raku": "Member event! Raku firing at Burkhead studio in Snohomish"
+          "raku": "Raku firing at Burkhead studio in Snohomish",
+          "soda": "WCA board member Betsy Smith has organized an opportunity for us to offer a ^10 Soda Firing at Kirkland Art Center the weekend of September 6th."
         },
         "state": "WA",
         "town": ""
@@ -310,7 +310,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "burnish-clay-studio",
@@ -353,9 +359,9 @@
       "lng": -122.47884,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The studio offers in-person soda firing workshops open to the public, including loading and firing a soda kiln for participants who travel to Bellingham.",
+        "why": "Burnish Clay Studio offers in-person soda firing workshops open to the public, with participants able to load and fire a soda kiln during multi-day workshop sessions in Bellingham, WA.",
         "types": {
           "soda": "an In-Person workshop that includes loading and firing a soda kiln is available for those able to travel to Bellingham WA"
         },
@@ -410,9 +416,9 @@
       "lng": -122.43833,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a hands-on Raku workshop open to outside potters (not only students) on October 2nd for $70/person, with full firing process included.",
+        "why": "The text shows outsiders can join a hands-on Raku workshop on October 2nd, with pricing for both studio members/students ($50) and outside potters ($70/person).",
         "types": {
           "raku": "Join us on October 2nd from 4-9pm, for a hands-on Raku workshop where clay meets flame."
         },
@@ -470,12 +476,10 @@
       "lng": -122.67446,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states that outsiders can join Raku firings through classes or by booking a spot in the firing event for $30, with options for community potters, studio members, and multi-week students.",
-        "types": {
-          "raku": "Raku is an exciting, experimental, and unpredictable firing process that creates one-of-a-kind ceramic pieces."
-        },
+        "why": "The page clearly states outsiders can join raku firings through classes, membership, or by booking a spot in the firing event for $30.",
+        "types": {},
         "state": "WA",
         "town": "Vancouver"
       },
@@ -483,7 +487,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "the-clay-connection",
@@ -526,11 +536,11 @@
       "lng": -117.42351,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly mentions 'Raku Firing' as an event where the public can bring bisque pieces to be fired or watch the process, and pottery classes with firing are available to sign up for.",
+        "why": "The page shows raku firing sessions open to the public with an invitation to bring bisque pieces or watch the process, and pottery classes with firing included for outsiders who can book.",
         "types": {
-          "raku": "Raku Firing 2 to ?? 2pm when we're finished Bring your own bisque pieces to be fired in the raku kiln or just come and watch the process and see the results!"
+          "raku": "Bring your own bisque pieces to be fired in the raku kiln or just come and watch the process and see the results!"
         },
         "state": "WA",
         "town": "Spokane"
@@ -585,9 +595,9 @@
       "lng": -122.87517,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows outsiders can sign up for a pit-firing workshop via registration, with an option to join just the firing day for $40.",
+        "why": "The page offers a public workshop where outsiders can register or sign up for a pit-firing event.",
         "types": {
           "pit_barrel_saggar": "ceremonial low-fire pit-firing"
         },
@@ -639,12 +649,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states the Raku Firing Workshop is open to all experience levels and non-studio members can participate by contacting the instructor.",
-        "types": {
-          "raku": "This hands-on Raku Workshop introduces participants to the traditional Japanese ceramic firing technique known for its dramatic and unpredictable results."
-        },
+        "why": "The text explicitly states non-studio members can contact Brian for further information about participating in the raku firing workshop, which is a clear invitation for outsiders to join.",
+        "types": {},
         "state": "WA",
         "town": "Sequim",
         "street": "453 Taylor Cutoff Rd"
@@ -656,7 +664,13 @@
         "osm": true,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "evergreen-coast-pit-workshop",
@@ -684,7 +698,7 @@
         "how": "Two-day workshop",
         "note": "Two-day workshop",
         "quote": "In this two-day workshop, students will create coil-built vessels designed specifically to respond beautifully to a communal pit firing later in the month.",
-        "url": "https://www.evergreencoastwa.com/event/active-surface-vessels-for-pit-firing",
+        "url": "https://www.evergreencoastwa.com/event/intro-to-salt-firing",
         "types": [
           "salt",
           "pit_barrel_saggar"
@@ -699,9 +713,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes multiple workshops open to participants (students) for salt firing and pit firing, with specific dates, locations, and firing fees, indicating public access to non-electric ceramic firings.",
+        "why": "The page shows multiple workshops where outsiders can sign up to participate in salt firing and pit firing, with firing fees and scheduled dates.",
         "types": {
           "salt": "Dive into the dynamic and unpredictable world of salt firing in this multi-part workshop.",
           "pit_barrel_saggar": "In this two-day workshop, students will create coil-built vessels designed specifically to respond beautifully to a communal pit firing later in the month."
@@ -820,6 +834,537 @@
         "osm": false,
         "date": "2026-10-08"
       }
+    },
+    {
+      "id": "kirkland-art-center",
+      "org": "Kirkland Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Kirkland",
+      "city": "Kirkland",
+      "urls": [
+        "https://canvas.kirklandartscenter.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Kirkland, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://canvas.kirklandartscenter.org/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "This workshop is open to all-levels who are interested in soda firing.",
+        "url": "https://canvas.kirklandartscenter.org/classes/380",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "canvas.kirklandartscenter.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "Page text is empty; search snippet mentions a soda firing workshop open to all-levels but lacks complete details about booking or participation.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "washington-art-association",
+      "org": "Washington Art Association",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Bridgewater",
+      "city": "Bridgewater",
+      "urls": [
+        "https://washingtonartassociation.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Bridgewater, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://washingtonartassociation.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Raku Workshop – with Matt Denning (Tue, Sep 8 | 1:00 PM-5:00 PM)",
+        "url": "https://washingtonartassociation.org/shop/education/fall-2026/raku-workshop-with-matt-denning-tue-sep-8-100-pm-500-pm",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "washingtonartassociation.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a public raku workshop open to anyone (experienced potters or curious beginners) that can be booked for $90-$155.",
+        "types": {
+          "raku": "Join potter Matt Denning for an exciting hands-on Raku Workshop at the historic Red Mill in Bridgewater."
+        },
+        "state": "",
+        "town": "Bridgewater",
+        "street": "678 Main St. South, Bridgewater"
+      },
+      "located": {
+        "state": "CT",
+        "town": "Washington Depot",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "seattle-pottery-supply-wa",
+      "org": "Seattle Pottery Supply",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Seattle",
+      "city": "Seattle",
+      "urls": [
+        "https://seattlepotterysupply.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Seattle, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://seattlepotterysupply.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Experience the joy of Raku pottery at our monthly firings! Firings take place at our 35 Hanford Street facility on the first and third Saturday of each month.",
+        "url": "https://seattlepotterysupply.com/pages/raku-workshops",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "seattlepotterysupply.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page clearly states outsiders can register for monthly raku firings at their facility for $50 per person with advance registration.",
+        "types": {
+          "raku": "Experience the joy of Raku pottery at our monthly firings! Firings take place at our 35 Hanford Street facility on the first and third Saturday of each month."
+        },
+        "state": "WA",
+        "town": "Seattle",
+        "street": "35 Hanford Street"
+      },
+      "located": {
+        "state": "WA",
+        "town": "Seattle",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "ilwaco-artworks",
+      "org": "Ilwaco Artworks",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "salt"
+      ],
+      "region": "Ilwaco",
+      "city": "Ilwaco",
+      "urls": [
+        "https://ilwacoartworks.kilnfire.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Ilwaco, Washington",
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://ilwacoartworks.kilnfire.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Intro To Salt Firing - Ilwaco Artworks: Dive into the dynamic and unpredictable world of salt firing in this multi-part workshop.",
+        "url": "https://ilwacoartworks.kilnfire.com/classes/saturday-morning-clay-play/hqedqk",
+        "types": [
+          "salt"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "ilwacoartworks.kilnfire.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page offers a multi-part workshop in salt firing open to participants, with clear instruction on techniques and processes.",
+        "types": {
+          "salt": "Dive into the dynamic and unpredictable world of salt firing in this multi-part workshop."
+        },
+        "state": "WA",
+        "town": "Ilwaco"
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "kmun",
+      "org": "KMUN",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Ilwaco",
+      "city": "Ilwaco",
+      "urls": [
+        "https://kmun.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Ilwaco, Washington",
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://kmun.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Finished pieces will be fired in the communal pit and may be picked up the day after the firing, on 4/27.",
+        "url": "https://kmun.org/events/active-surface-vessels-for-pit-firing",
+        "types": [
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "kmun.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes two-day workshops where students create vessels for communal pit firings, with finished pieces fired in the communal pit, demonstrating public access to pit firing via workshop enrollment.",
+        "types": {},
+        "state": "WA",
+        "town": "Ilwaco",
+        "street": "109 First Avenue North, Ilwaco, WA, 98624"
+      },
+      "weak": true,
+      "located": {
+        "state": "OR",
+        "town": "Astoria",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "spokane-potters-guild",
+      "org": "Spokane Potters' Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Spokane",
+      "city": "Spokane",
+      "urls": [
+        "https://spokanepottersguild.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Spokane, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://spokanepottersguild.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Raku Firing October 10, 2026 8 spots 10:30am-1:30pm 8 Spots 12pm -3pm",
+        "url": "https://spokanepottersguild.org/pages/about",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "spokanepottersguild.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The site offers raku firing sign-ups open to people who can book spots, and membership access to firings for those who complete a class.",
+        "types": {},
+        "state": "WA",
+        "town": "Spokane"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "harrylevensteinpottery",
+      "org": "harrylevensteinpottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Seabeck",
+      "city": "Seabeck",
+      "urls": [
+        "https://www.harrylevensteinpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Seabeck, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.harrylevensteinpottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "\"Three Dragon Kiln\" Seabeck, WA. Santatsugama is a beautiful anagama with an irreplaceable family of artists surrounding it. I've had the great pleasure of",
+        "url": "https://www.harrylevensteinpottery.com/santatsugama.html",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "harrylevensteinpottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The page documents Harry Levenstein's personal participation in firings at other locations but contains no information about public access, workshops, classes, memberships, rentals, or invitations for outsiders to join firings at his own studio.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "seatown-pottery",
+      "org": "Seatown Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Seattle",
+      "city": "Seattle",
+      "urls": [
+        "https://www.seatownpottery.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Seattle, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.seatownpottery.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Bring up to four bisque pieces and finish them using traditional raku firing.",
+        "url": "https://www.seatownpottery.com/classes/raku-firing-workshop",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "seatownpottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page shows a raku firing workshop open to the public for $50, with clear instructions on how to participate and a statement welcoming 'everyone from first-timers to seasoned artists.'",
+        "types": {
+          "raku": "Bring up to four bisque pieces and finish them using traditional raku firing."
+        },
+        "state": "WA",
+        "town": "Seattle"
+      },
+      "weak": false,
+      "located": {
+        "state": "WA",
+        "town": "Seattle",
+        "score": 20,
+        "osm": true,
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "jansen-art-center",
+      "org": "Jansen Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Lynden",
+      "city": "Lynden",
+      "urls": [
+        "https://www.jansenartcenter.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Lynden, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.jansenartcenter.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Step outside into our paved courtyard, perfect for outdoor firing techniques like raku, horsehair, and obvara.",
+        "url": "https://www.jansenartcenter.org/ceramics-studio",
+        "types": [
+          "raku",
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "jansenartcenter.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page states they offer classes and workshops covering raku and other outdoor firing techniques, with a clear call to action to join.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "WA",
+        "town": "Lynden",
+        "score": 12,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [
@@ -838,6 +1383,34 @@
     {
       "id": "westwood-art-studio-damian-grava",
       "why": "Second check (gemini-3.5-flash-lite): The text mentions soda and wood firing for their own pottery and classes, but does not state that outsiders can participate in or book these non-electric firings. (2026-10-07)"
+    },
+    {
+      "id": "sam-fox-school-of-design-visual-arts",
+      "why": "Second check (claude-haiku-4.5): page says state is MO, not WA (2026-10-08)"
+    },
+    {
+      "id": "institute-for-american-indian-studies",
+      "why": "Second check (claude-haiku-4.5): page says state is CT, not WA (2026-10-08)"
+    },
+    {
+      "id": "the-wood-kiln-on-the-hill-by-eva-funderburgh",
+      "why": "Second check (claude-haiku-4.5): The page describes Eva Funderburgh's personal kiln-building project via crowdfunding with no mention of public access to firings, classes, workshops, memberships, rentals, or invitations for outsiders to participate in wood firings. (2026-10-08)"
+    },
+    {
+      "id": "pottery-northwest-wa",
+      "why": "Its own pages give an address in NY (New York), not WA. Moved. (2026-10-08)"
+    },
+    {
+      "id": "throwing-mud-gallery",
+      "why": "Two models agree: The page offers pottery classes with glazing and firing (apparently electric), a paint-your-own studio, and a gallery blog post about salt firing by an outside potter, but no public non-electric firing to join. (2026-10-08)"
+    },
+    {
+      "id": "childhoods-end-gallery",
+      "why": "Two models agree: The site is a gallery with an educational glossary page describing kilns and firing techniques, and nothing offers outsiders a chance to join, book or sign up for any firing. (2026-10-08)"
+    },
+    {
+      "id": "naselle-pottery-studio",
+      "why": "Two models agree: The site is an artist's portfolio for a private wood-fire kiln and studio; it describes his own firings and exhibitions and never offers outsiders a way to join, book or sign up for a firing. (2026-10-08)"
     }
   ]
 }

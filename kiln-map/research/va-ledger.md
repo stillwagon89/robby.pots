@@ -1,24 +1,24 @@
-# Virginia firings ledger (2026-10-06, discovery v3)
+# Virginia firings ledger (2026-10-08, discovery v3, automatic)
 
-`discover/run.mjs VA`: 66 places judged, gemma4 judge, one Claude pass. Machine output: `va-report.md`.
+Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
 ## Qualifies
 | # | Place | Town | Firing | Access | Site |
 |---|---|---|---|---|---|
-| 1 | All Hands Pottery Studio | Norfolk | Raku | Raku workshop with Ray Wood | allhandspottery.com, virginiabeach.com |
-| 2 | Virginia Beach Art Center | Virginia Beach | Raku, gas reduction | Raku workshop, ceramics classes | artcentervb.org, artcentervb.networkforgood.com |
-| 3 | The Workshop at Timber Ridge | Lexington | Raku | Open studio days, raku firings | theworkshopattimberridge.com |
-| 4 | Muddy Creek Pottery | North Garden | Wood | Anagama wood firing workshop | noahwoodfired.com |
-| 5 | Bradley B Pottery | Manassas | Soda, raku, wood | Soda firing workshops | bradleybpottery.com |
-| 6 | Althouse Pottery | Berryville | Raku | Glaze and fire raku | althousepottery.com |
-| 7 | River City Clay | Midlothian | Raku | Raku workshops | rivercity-clay.com |
-| 8 | Academy Center of the Arts | Lynchburg | Wood | Two-weekend wood firing workshop | academycenter.org |
-| 9 | Still Life Studio | Richmond | Gas reduction | Cone 10 reduction in gas kiln, memberships | rva.still-life-studio.com |
-| 10 | Alexandria Clay Co-Op | Alexandria | Raku, soda | Co-op studio | alexandriaclaycoop.com |
-| 11 | Cub Creek Foundation | Appomattox | Wood | Noborigama wood firing workshop | cubcreek.org |
-| 12 | Visual Arts Center of Richmond | Richmond | Gas, raku | Outdoor gas and raku kilns | visarts.org |
-| 13 | Handthrown Studio | Richmond | Raku, gas | Alternative firing course | handthrown.studio |
-
-## Rejected on Claude's pass
-Clay Café, Rosewood, Dragonfly, Norfolk Parks, Torpedo Factory (electric or paint-your-own or unclear), East City Art (DC),
-Torggler (weak), duplicate Still Life and Bradley B listings. Out of state: East Creek (OR), Stifel (WV), Salish Sea.
+| 1 | All Hands Pottery Studio | Norfolk | raku | Dated workshop or firing event | virginiabeach.com |
+| 2 | Virginia Beach Art Center Inc | Virginia Beach | raku | Dated workshop or firing event | artcentervb.networkforgood.com |
+| 3 | The Workshop at Timber Ridge | Lexington | raku | Classes or membership | lexingtonvirginia.com, theworkshopattimberridge.com |
+| 4 | Muddy Creek Pottery | North Garden | wood | Dated workshop or firing event | noahwoodfired.com |
+| 5 | Scott Bartolomei Edmonds | ? | wood | Classes or membership | scottpots.com |
+| 6 | Ceramic Designers Association | ? | soda | See site | cdava.com |
+| 7 | East City Art | ? | raku | Dated workshop or firing event | eastcityart.com |
+| 8 | Althouse Pottery | Berryville | raku | Classes or membership | althousepottery.com |
+| 9 | Stifel Fine Arts Center | ? | raku | Dated workshop or firing event | oionline.com |
+| 10 | River City Clay | Midlothian | raku | Classes or membership | rivercity-clay.com |
+| 11 | Academy Center of the Arts | Lynchburg | wood | Dated workshop or firing event | academycenter.org |
+| 12 | Still Life Studio | Richmond | gas_reduction | Classes or membership | rva.still-life-studio.com |
+| 13 | Bradley B Pottery | Manassas | soda, raku, wood | Classes or membership | bradleybpottery.com |
+| 14 | Alexandria Clay Co-Op | Alexandria | raku, pit_barrel_saggar | Classes or membership | alexandriaclaycoop.com |
+| 15 | Maud and Mabel | ? | raku, wood | Classes or membership | maudandmabel.com |
+| 16 | Torpedo Factory Art Center | Alexandria | raku, wood, pit_barrel_saggar | Classes or membership | torpedofactory.org |
+| 17 | Dharamkot Studio | ? | raku | Classes or membership | dharamkotstudio.com |

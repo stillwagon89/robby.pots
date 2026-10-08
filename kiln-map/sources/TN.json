@@ -55,17 +55,15 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a Raku Firing Experience open to the public with no prior experience needed, located at a specific address in Gatlinburg, TN.",
-        "types": {
-          "raku": "due to the nature of the Raku firing process, Raku pottery is porous and not watertight"
-        },
+        "why": "The search snippets show Alewine Pottery offers a Raku Firing Experience open to the public with no prior experience needed, located at their Gatlinburg address.",
+        "types": {},
         "state": "TN",
         "town": "Gatlinburg",
         "street": "623 Glades Road"
       },
-      "weak": false,
+      "weak": true,
       "lat": 35.71426,
       "lng": -83.51016,
       "located": {
@@ -73,6 +71,12 @@
         "town": "Gatlinburg",
         "score": 5,
         "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -115,12 +119,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text mentions Raku classes and one-night events open to the public, but does not explicitly state whether outsiders can participate in an actual raku firing or only in wheel-throwing classes.",
-        "types": {
-          "raku": "These classes include Raku, 'Wine & Wheel', 'Cup, Bowl & Plate', 'Mug Makers', and 'Experience the Wheel'."
-        },
+        "why": "The text mentions Raku workshops and one-night events but does not provide enough detail about how outsiders can book, sign up, or access these firings.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -132,6 +134,12 @@
         "town": "Knoxville",
         "score": 48,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -164,9 +172,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention a public firing service and raku ceramics, but the actual page text is empty, so the specific firing types and public access details cannot be verified from the page itself.",
+        "why": "Search snippets mention a public firing service and raku supplies/tips, but the actual page text is empty, so no verifiable details about how outsiders can participate in specific firing types.",
         "types": {},
         "state": "TN",
         "town": "Nashville"
@@ -179,6 +187,12 @@
         "town": "Nashville",
         "score": 4,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -221,9 +235,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention raku pottery and pottery classes/workshops, but the actual page text is empty, so it cannot be verified whether outsiders can participate in raku firings.",
+        "why": "The search snippets mention raku pottery and pottery classes/workshops, but the actual page text is empty, so there is no verifiable information about public access to raku firings or other non-electric ceramic firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -234,6 +248,12 @@
         "town": "Antioch",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -276,9 +296,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text describes a soda firing workshop but does not explicitly state whether non-students or non-employees can register, only that employees and students receive a discount.",
+        "why": "The page describes a soda-fired ceramics workshop but does not explicitly state whether outsiders can register or if it is restricted to Tennessee Tech employees and students.",
         "types": {
           "soda": "Learn about firing earthenware in the soda kiln."
         },
@@ -290,6 +310,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -334,13 +360,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text mentions raku and pit-fired clay as artworks Studio S creates, and references pottery classes with firing included, but does not explicitly state whether the public can book or participate in non-electric firings.",
-        "types": {
-          "raku": "raku* and pit-fired* clay",
-          "pit_barrel_saggar": "raku* and pit-fired* clay"
-        },
+        "why": "The snippets mention raku and pit-fired work and pottery classes, but do not explicitly state that outsiders can sign up for or participate in a raku or pit-firing; they only describe what Studio S makes and that classes exist.",
+        "types": {},
         "state": "TN",
         "town": "Murfreesboro"
       },
@@ -349,6 +372,12 @@
       "lng": -86.39211,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -381,9 +410,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "no",
-        "why": "The page text is empty; only search snippets are provided, which reference a workshop but contain no actual page content to verify public access or location details.",
+        "why": "The page text is empty; only search snippets are provided, which show Bookwhen is a booking platform, not a pottery studio offering firings itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -391,6 +420,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -433,9 +468,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states beginners can try the Raku process at Mighty Mud, which offers one-time Friday evening classes and other classes open to folks who want to participate.",
+        "why": "The page explicitly states beginners can try the Raku process in one-time Friday evening classes open to folks who want to participate.",
         "types": {
           "raku": "Beginners can try the Raku process or make a cup, bowl and plate on the pottery wheel."
         },
@@ -454,61 +489,58 @@
       "weak": false
     },
     {
-      "id": "canton-clay-works-ct",
-      "org": "Canton Clay Works",
+      "id": "the-clay-lady-s-campus",
+      "org": "The Clay Lady’s Campus",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood",
         "soda"
       ],
-      "region": "PEGRAM",
-      "city": "PEGRAM",
+      "region": "Nashville",
+      "city": "Nashville",
       "urls": [
-        "https://mudpuddlepottery.com/"
+        "https://theclaylady.com/"
       ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "PEGRAM, Tennessee",
+      "geocode": "Nashville, Tennessee",
       "location_note": "Shown at the town.",
       "contact": {
-        "website": "https://mudpuddlepottery.com/"
+        "website": "https://theclaylady.com/"
       },
       "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Canton Clay Works is a premier wood firing studio and school committed to ceramic education and the art of wood firing.",
-        "url": "https://mudpuddlepottery.com/pages/vicente-garcia-raku-alternate-firing",
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "We’re excited to offer the opportunity for attendees to participate in a soda firing!",
+        "url": "https://theclaylady.com/sodaposium",
         "types": [
-          "wood"
+          "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-08"
       },
       "review": "pending",
       "discovered": {
         "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "mudpuddlepottery.com"
+        "date": "2026-10-08",
+        "key": "theclaylady.com"
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The search snippets mention Canton Clay Works offers wood firing service and classes, but the actual page text is empty, providing no verifiable information about public access to non-electric firings.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "page says state is TN, not NC",
+        "types": {
+          "soda": "We're excited to offer the opportunity for attendees to participate in a soda firing!"
+        },
         "state": "TN",
-        "town": "PEGRAM",
-        "score": 4,
+        "town": "Nashville"
+      },
+      "located": {
         "osm": false,
         "date": "2026-10-08"
-      }
+      },
+      "weak": false
     }
   ],
   "_removed": [
@@ -539,6 +571,10 @@
     {
       "id": "the-pottery-place-of-chattanooga",
       "why": "Second check (gemma4-local): The provided text does not contain any information about the public taking part in a non-electric ceramic firing. (2026-10-07)"
+    },
+    {
+      "id": "canton-clay-works-ct",
+      "why": "Two models agree: The only text is a search snippet about pottery classes at a Nashville studio, with nothing mentioning raku, wood, soda, salt, pit/barrel/saggar or gas-reduction firings that outsiders can join. (2026-10-08)"
     }
   ]
 }

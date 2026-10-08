@@ -1,27 +1,24 @@
-# Georgia firings ledger (2026-10-06, discovery v3)
+# Georgia firings ledger (2026-10-08, discovery v3, automatic)
 
-`discover/run.mjs GA`: 29 Tavily searches, 126 places, gemma4 judge, one Claude pass. Machine output: `ga-report.md`.
-Already on map: Hambidge Center (found again); Chastain Arts Center not found again.
+Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
 ## Qualifies
 | # | Place | Town | Firing | Access | Site |
 |---|---|---|---|---|---|
-| 1 | Hambidge Center (on map) | Rabun Gap | Wood (anagama), raku | Public anagama firings; annual "U Do Raku" | hambidge.org |
-| 2 | Roger Jamison | Juliette | Wood, salt | Group anagama firings with ~15 potters | rogerjamison.com |
-| 3 | Georgia Clay Council | Canton | Pit | Bring bisque to the pit firing | gaclaycouncil.com |
-| 4 | Atlanta Clay Works | Atlanta | Raku | Raku workshops a few times a year | atlantaclayworks.org |
-| 5 | Callanwolde Fine Arts Center | Atlanta | Raku, saggar | Raku glazing workshop; raku & saggar workshop | callanwolde.org |
-| 6 | Spruill Center for the Arts | Dunwoody | Raku | Raku class | spruillarts.org |
-| 7 | MudFire Pottery Studio | Decatur | Raku | Raku firings | scienceatl.org |
-| 8 | Good Dirt Clay Studio | Athens | Raku, gas | Membership, frequent gas and raku firings | gooddirt.net |
-| 9 | Clayer & Co | Thunderbolt | Raku, soda, gas | Full-service studio | clayerco.com |
-| 10 | Savannah Clay Community | Savannah | Wood, raku, gas | Studio tour Apr 18–19, 2026 (studios with kilns) | savannahclaycommunity.com |
-| 11 | Annette Howell Turner Center for the Arts | Valdosta | Raku | Raku class | turnercenter.org |
-
-## Unclear
-Nancy Green (Watkinsville, soda kiln: article), Spirit Lab ceramics residency, Georgia wood-fired pottery list
-(ologygallery.com).
-
-## Rejected on Claude's pass
-Generic classes with electric firing included: Savannah's Clay Spot, City of Savannah, stARTup Studios (Macon), The
-567 Center.
+| 1 | Callanwolde Fine Arts Center | Atlanta | raku | Classes or membership | callanwolde.org |
+| 2 | Hambidge Center for Creative Arts and Sciences | ? | raku | Classes or membership | georgiaencyclopedia.org |
+| 3 | Atlanta Clay Works | Atlanta | raku | By appointment | atlantaclayworks.org |
+| 4 | Annette Howell Turner Center for the Arts | Valdosta | raku | By appointment | turnercenter.org |
+| 5 | Spruill Center for the Arts | Dunwoody | raku | Classes or membership | spruillarts.org |
+| 6 | Clayer & Co | Thunderbolt | raku, soda, gas_reduction | Classes or membership | clayerco.com |
+| 7 | gaclaycouncil | Canton | pit_barrel_saggar | Dated workshop or firing event | gaclaycouncil.com |
+| 8 | ologygallery | ? | wood | See site | ologygallery.com |
+| 9 | Roger Jamison | Juliette | wood, salt, wood, gas_reduction | Classes or membership | rogerjamison.com |
+| 10 | Odyssey Gallery of Ceramic Arts | ? | soda, raku | Dated workshop or firing event | connect.artsavl.org |
+| 11 | Carter Stone Studio | ? | raku | See site | carterstonestudio.com |
+| 12 | Salish Sea Ceramic Studio | ? | raku | Classes or membership | salishseaceramicstudio.com |
+| 13 | Corranny Forest Pottery | ? | raku | Dated workshop or firing event | corrannyforestpottery.com |
+| 14 | Oxcombe Pottery | ? | raku | Dated workshop or firing event | oxcombepottery.co.uk |
+| 15 | The School of Arts and Letters | Macon | raku | Classes or membership | inside.mga.edu |
+| 16 | Blue Ridge Community College | ? | wood | Classes or membership | blueridge.edu |
+| 17 | spiritlabceramics | ? | wood | Dated workshop or firing event | spiritlabceramics.com |

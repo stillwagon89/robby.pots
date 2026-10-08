@@ -1,4 +1,4 @@
-# Utah firings ledger (2026-10-07, discovery v3, automatic)
+# Utah firings ledger (2026-10-08, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -13,7 +13,7 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 6 | Kayenta Fire | Boulder | pit_barrel_saggar | Dated workshop or firing event | kayentafire.com |
 | 7 | Pottery Workshops SLC | Salt Lake City | raku | Classes or membership | potteryworkshopslc.com |
 | 8 | Throw Art Studio | Provo | raku | Classes or membership | throwartstudio.com |
-| 9 | Desert Sun Ceramics | Moab | raku, pit_barrel_saggar | Dated workshop or firing event | desertsunceramics.com, claystuff.com |
+| 9 | Desert Sun Ceramics | Moab | raku, pit_barrel_saggar | Dated workshop or firing event | desertsunceramics.com |
 | 10 | Moab Arts | Moab | raku | Dated workshop or firing event | moabarts.org |
 | 11 | The Tilted Kiln | St George | raku | Dated workshop or firing event | tiltedkilnpottery.com |
 | 12 | Logan Artists Association | Logan | raku | Classes or membership | loganartists.com |

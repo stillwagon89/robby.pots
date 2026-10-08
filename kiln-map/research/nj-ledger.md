@@ -1,4 +1,4 @@
-# New Jersey firings ledger (2026-10-07, discovery v3, automatic)
+# New Jersey firings ledger (2026-10-08, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -16,9 +16,8 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 9 | Peters Valley School of Craft | ? | wood, pit_barrel_saggar | Classes or membership | mudclaystudio.com |
 | 10 | Potters Guild of New Jersey | Union | raku, pit_barrel_saggar, soda | Classes or membership | pottersguildnj.org |
 | 11 | Toshiko Takaezu Ceramic Studios | Quakertown | pit_barrel_saggar | Dated workshop or firing event | hunterdonartmuseum.org |
-| 12 | The Ceramic Shop | ? | raku | Classes or membership | theceramicshop.com |
-| 13 | getpotteryclass | Newark | raku | Dated workshop or firing event | getpotteryclass.com |
-| 14 | Studio Montclair | Montclair | raku | See site | studiomontclair.org |
-| 15 | Montclair Art Museum | Montclair | raku | Dated workshop or firing event | montclairartmuseum.org |
-| 16 | Stonehill Pottery Shop | Newfoundland | raku, pit_barrel_saggar | Classes or membership | stonehillpotteryshop.com |
-| 17 | Pocosin Arts | Pittstown | wood | Classes or membership | pocosinarts.org |
+| 12 | getpotteryclass | Newark | raku | Dated workshop or firing event | getpotteryclass.com |
+| 13 | Studio Montclair | Montclair | raku | See site | studiomontclair.org |
+| 14 | Montclair Art Museum | Montclair | raku | Dated workshop or firing event | montclairartmuseum.org |
+| 15 | Stonehill Pottery Shop | Newfoundland | raku, pit_barrel_saggar | Classes or membership | stonehillpotteryshop.com |
+| 16 | Pocosin Arts | Pittstown | wood | Classes or membership | pocosinarts.org |

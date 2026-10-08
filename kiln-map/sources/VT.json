@@ -68,9 +68,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a hands-on Raku Firing Workshop open to participants who can sign up for a one-day class at $175, with clear instructions for public attendance.",
+        "why": "The page describes a hands-on raku firing workshop open to students for a $175 fee, with detailed instructions for participation.",
         "types": {
           "raku": "Experience the excitement of Raku Firing in our hands-on workshop."
         },
@@ -116,11 +116,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets describe raku workshops open to participants, but the actual page text is empty, so location details cannot be verified.",
+        "why": "Search snippets describe raku workshops but the actual page text is empty, so location details cannot be verified.",
         "types": {
-          "raku": "Raku is an ancient Japanese firing method, sure to get your adrenaline rushing!"
+          "raku": "In this workshop we will explore several of the techniques used in raku to achieve beautiful, one of a kind pieces."
         },
         "state": "",
         "town": ""
@@ -128,6 +128,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -170,12 +176,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippet mentions raku sculptures and art but provides no page text confirming that public workshops, classes, or firing services are available for participation.",
-        "types": {
-          "raku": "Raku Sculptures"
-        },
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The page text provided contains no information about public access to firings, only mentions raku sculptures and classes without details on how outsiders can participate in actual firings.",
+        "types": {},
         "state": "VT",
         "town": "South Hero"
       },
@@ -184,6 +188,12 @@
       "lng": -73.30248,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -226,12 +236,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention a raku firing workshop, but the actual page text provided is empty, so I cannot verify from the page itself that outsiders can book or join.",
-        "types": {
-          "raku": "The one day workshop lets students explore traditional raku glazes, One & Two Step Slip Resist Naked Raku, Horse Hair and Obvara firings."
-        },
+        "why": "The search snippets mention a raku firing workshop, but the actual page text provided is empty, so I cannot verify the details from the page itself.",
+        "types": {},
         "state": "VT",
         "town": "Woodstock",
         "street": "1837 W. Woodstock Road (Route 4), Woodstock, VT 05091"
@@ -244,6 +252,12 @@
         "town": "Woodstock",
         "score": 4,
         "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -286,12 +300,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states that as part of the 2025 New England Woodfiring Conference, Orchard Street Pottery will host a 4-day workshop where participants can fire their own work by joining in firing the kiln.",
-        "types": {
-          "wood": "As part of the 2025 New England Woodfiring Conference, Orchard Street Pottery will be hosting a 4 day workshop where participants will be able to fire their own work as they join in firing the kiln."
-        },
+        "why": "The page describes a 4-day workshop at Orchard Street Pottery as part of the 2025 New England Woodfiring Conference where participants can fire their own work.",
+        "types": {},
         "state": "VT",
         "town": "Brattleboro"
       },
@@ -301,7 +313,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "middlebury-studio-school-vt",
@@ -342,9 +360,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows public workshops for non-electric alternative firing techniques including raku and horse hair firing that can be booked via registration with pricing listed.",
+        "why": "The page lists multiple workshops open for public registration with fees, including 'Alternative Firing: Naked Raku & Horse Hair Firing' and 'Alternative Firing Workshop' where outsiders can sign up and pay to participate.",
         "types": {
           "raku": "Alternative Firing: Naked Raku & Horse Hair Firing"
         },
@@ -399,11 +417,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states the facility hosts weekly classes, retreats, wood firing, guest workshops, and residencies for beginners through professional artists, and Sedlock teaches week-long workshops on how to fire wood kilns with residents staying in the guest house.",
+        "why": "The text states the facility hosts weekly classes, retreats, wood firing, guest workshops, and residencies for beginners through professionals, with explicit mention of week-long workshops teaching wood kiln firing to outsiders.",
         "types": {
-          "wood": "It hosts weekly classes, retreats, wood firing, guest workshops, and short- and long-term residencies for beginners, intermediates, and professional artists."
+          "wood": "And now, I host workshops, week-long workshops, and I teach people how to fire wood kilns."
         },
         "state": "VT",
         "town": "Pownal",

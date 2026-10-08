@@ -81,9 +81,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a hands-on Raku workshop open to beginners and experienced ceramicists where participants can attend and participate in raku firing.",
+        "why": "The page describes a hands-on raku workshop open to beginners and experienced ceramicists, scheduled for Aug 22, 2026, with multiple firing opportunities included.",
         "types": {
           "raku": "Come spend the day at Carl's studio immersed in the art of Raku firing—an exciting, fast-paced ceramic technique known for its dramatic surfaces, metallic finishes, and unpredictable beauty."
         },
@@ -131,12 +131,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention a raku firing workshop available for booking, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
-        "types": {
-          "raku": "raku firing involves removing red-hot pottery from the kiln and placing it into combustible materials"
-        },
+        "why": "The search snippets mention a raku firing workshop available for booking, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -191,9 +189,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The snippets mention 'High School Raku' and winter/spring 2025 workshops/classes, but the actual page text is empty, so it cannot be verified whether public outsiders can participate or what firing types are offered.",
+        "why": "The snippets mention 'High School Raku' and 'Winter/spring 2025 workshops and classes' but do not provide enough detail to confirm public access to a non-electric ceramic firing or the specific terms for participation.",
         "types": {},
         "state": "",
         "town": ""
@@ -208,72 +206,6 @@
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "salt-creek-pottery",
-      "org": "Salt Creek Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "salt",
-        "wood"
-      ],
-      "region": "Villa Park",
-      "city": "Villa Park",
-      "urls": [
-        "https://www.saltcreekpottery.net/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Villa Park, Illinois",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.saltcreekpottery.net/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "When firing a salt kiln, salt is put directly into the kiln through special ports over the flame.",
-        "url": "https://www.saltcreekpottery.net/",
-        "types": [
-          "salt",
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "saltcreekpottery.net"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text mentions salt firing and wood firing processes but does not explicitly state that the public can sign up for or participate in these firings.",
-        "types": {
-          "salt": "When firing a salt kiln, salt is put directly into the kiln through special ports over the flame.",
-          "wood": "We focused discussions on techniques and systems used to gain fluidity in the wood firing process."
-        },
-        "state": "IL",
-        "town": "Villa Park",
-        "street": "48 S. Villa Ave., Villa Park, IL 60181"
-      },
-      "weak": true,
-      "lat": 41.88931,
-      "lng": -87.97784,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "no",
         "result": "split",
         "date": "2026-10-07"
       }
@@ -319,15 +251,15 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page offers public raku and pit firing workshops that anyone can sign up for, with clear pricing and registration options.",
+        "why": "The page offers public workshops for raku and pit firing with clear sign-up instructions and pricing for outsiders.",
         "types": {
           "raku": "Experience the art of raku firing in our six hour workshop.",
           "pit_barrel_saggar": "Learn traditional pit firing techniques in this six hour hands-on session."
         },
         "state": "",
-        "town": ""
+        "town": "Frederick"
       },
       "lat": 40.07005,
       "lng": -90.42901,
@@ -382,13 +314,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text mentions a weeklong wood fire workshop but does not clearly state whether non-enrolled outsiders can join or if it is limited to the 5-6 selected students.",
-        "types": {
-          "wood": "we end the year with a weeklong wood fire workshop in my Train Kiln in Central Illinois"
-        },
-        "state": "IL",
+        "why": "The text mentions a weeklong wood fire workshop in a Train Kiln but does not specify whether outsiders can join or only enrolled students, and provides no contact information or location details on this page.",
+        "types": {},
+        "state": "",
         "town": ""
       },
       "weak": true,
@@ -445,9 +375,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a hands-on class in Saggar Firing method available to take at Lighthouse ArtCenter, indicating public access to this non-electric firing technique.",
+        "why": "The page offers a hands-on class in saggar firing open to the public through Lighthouse ArtCenter's class registration.",
         "types": {
           "pit_barrel_saggar": "This hands-on class will guide you through every step of the Saggar Firing method, an exciting alternative firing technique."
         },
@@ -505,12 +435,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text mentions raku firing demonstrations that are 'at times open to the public' but does not clearly state whether outsiders can currently book, sign up, or participate in such firings.",
-        "types": {
-          "raku": "collaborate with Kickapoo Pottery for raku firing demonstrations that are at times open to the public"
-        },
+        "why": "The text mentions raku firing demonstrations that are 'at times open to the public' but does not provide clear instructions on how outsiders can book, sign up, or join a specific firing.",
+        "types": {},
         "state": "IL",
         "town": "Champaign"
       },
@@ -567,9 +495,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states 'Previous events and workshops have included Raku and primitive fire workshops' and invites people to 'contact us about signing up for classes, workshops' indicating public access to non-electric firings.",
+        "why": "The page text states 'Previous events and workshops have included Raku and primitive fire workshops' and invites people to 'contact us about signing up for classes, workshops' indicating public access to raku and primitive fire workshops.",
         "types": {
           "raku": "Previous events and workshops have included Raku and primitive fire workshops"
         },
@@ -624,9 +552,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page offers a public raku firing workshop called 'Raku Firing Experience' that accepts bookings from guests at $99 per person with hands-on guidance.",
+        "why": "The page offers a public raku firing workshop where outsiders can book a hands-on experience for $99 per person with 24-hour advance booking.",
         "types": {
           "raku": "TRY YOUR HAND AT RAKU: Fire & Finish in a Day"
         },
@@ -684,9 +612,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet describes raku firing with public participation, but the page text provided is empty, so the location details cannot be verified.",
+        "why": "The search snippet describes raku firing access for private parties, but the page text provided is empty, so I cannot verify the location details or confirm public booking procedures from the actual page.",
         "types": {
           "raku": "experience the entire firing process as we fire your pieces in the Raku kiln"
         },
@@ -767,7 +695,7 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": true
+      "weak": false
     },
     {
       "id": "distinguished-teaching",
@@ -853,6 +781,14 @@
     {
       "id": "southern-illinois-university-edwardsville",
       "why": "Its own pages give an address in NC (Raleigh), not IL. Moved. (2026-10-08)"
+    },
+    {
+      "id": "salt-creek-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions wood and salt firing techniques in an educational context but does not provide a way for the public to sign up for, rent, or join these specific firings. (2026-10-08)"
+    },
+    {
+      "id": "southern-illinois-university-edwardsville-il",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes past workshops held for students at a university but does not offer any current opportunities for the public to participate in firings. (2026-10-08)"
     }
   ]
 }

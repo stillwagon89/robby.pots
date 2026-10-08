@@ -93,11 +93,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a Community Raku Firing event open to the public as a hands-on workshop where participants can witness and participate in the traditional Raku pottery firing process.",
+        "why": "The page describes a Community Raku Firing workshop event open to the public on June 20, 2026, offering hands-on participation in the Raku pottery firing process.",
         "types": {
-          "raku": "this event offers a hands-on opportunity to witness and participate in the traditional Raku pottery firing process"
+          "raku": "The Arts Lab of South County invites you to a Community Raku Firing event on June 20, 2026, from 11:00 AM to 3:00 PM. Located in Tracys Landing, Maryland, this event offers a hands-on opportunity to witness and participate in the traditional Raku pottery firing process."
         },
         "state": "MD",
         "town": "Tracys Landing"
@@ -149,12 +149,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page states 'I regularly teach classes at Annmarie Gardens in Solomons, MD' and 'I offer Alternative Firing workshops and private lessons at my studio,' indicating public access to raku, pit fire, and saggar firing through classes and workshops.",
-        "types": {
-          "pit_barrel_saggar": "This technique is similar to pit firing but more controlled. Individual pieces are placed within other sealed containers along with combustibles and colorants and then slowly heated to 1400 degrees."
-        },
+        "why": "The page states 'I regularly teach classes at Annmarie Gardens in Solomons, MD' and 'I offer Alternative Firing workshops and private lessons at my studio. Send me a message If interested in these and I'll get back with you to discuss your interests,' providing public access to raku, pit fire, and saggar firings through classes, workshops, and private lessons.",
+        "types": {},
         "state": "MD",
         "town": "Solomons"
       },
@@ -164,7 +162,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "the-potters-guild-of-baltimore",
@@ -207,14 +211,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text mentions classes that prepare work for wood/salt/soda firings and states students can fire at regional kilns, but does not explicitly state that the public can directly participate in or book a firing at this location.",
-        "types": {
-          "wood": "This course will focus on creating work thst is intended to be fired in a wood fired and/or salt and soda fired kiln.",
-          "soda": "This course will focus on creating work thst is intended to be fired in a wood fired and/or salt and soda fired kiln."
-        },
-        "state": "MD",
+        "why": "The text mentions classes focused on wood/salt/soda firing and opportunities to fire work at regional kilns, but does not explicitly state how outsiders can book, sign up, or access these firings (no workshop, class enrollment process, membership, rental, or contact invitation is described).",
+        "types": {},
+        "state": "",
         "town": ""
       },
       "weak": true,
@@ -225,6 +226,12 @@
         "town": "Baltimore",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -269,9 +276,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions raku and pit firing workshops, but the page text provided is empty, so I cannot verify if public sign-ups are available or confirm the location details.",
+        "why": "The search snippet mentions a raku and pit firing workshop, but the page text provided is empty, so I cannot verify the location details or confirm public access from the actual page content.",
         "types": {},
         "state": "",
         "town": ""
@@ -279,6 +286,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -323,9 +336,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions pit firing and naked raku workshops, but the actual page text is empty, so I cannot verify public access, location details, or confirm these firing types from the page itself.",
+        "why": "The search snippet mentions pit firing and naked raku workshops, but the actual page text is empty, so I cannot verify public access details or confirm the location information.",
         "types": {},
         "state": "",
         "town": ""
@@ -333,6 +346,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -375,9 +394,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a two-part public workshop where participants can join to forage clay and fire pottery in a traditional pit kiln using natural materials.",
+        "why": "The page describes a two-part workshop open to the public where outsiders can participate in pit-fired pottery, with registration via Eventbrite.",
         "types": {},
         "state": "MD",
         "town": "Frederick"
@@ -388,6 +407,12 @@
         "town": "Jefferson",
         "score": 4,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -432,9 +457,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The page lists Baltimore Clayworks with services including 'Kiln Firing Services' but does not specify the firing type (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) or confirm public access.",
+        "why": "The page lists Baltimore Clayworks with services including 'Kiln Firing Services' and 'Memberships' but provides no details about firing types, public access, or how to participate.",
         "types": {},
         "state": "",
         "town": ""
@@ -444,6 +469,12 @@
       "lng": -76.61076,
       "located": {
         "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -486,9 +517,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "no",
-        "why": "The search snippet mentions a raku firing event, but the actual page text provided is empty, so the claim cannot be verified from the page itself.",
+        "why": "The search snippet mentions a raku firing event, but the actual page text provided is empty, so there is no verifiable information about public access, location details, or how to participate.",
         "types": {},
         "state": "",
         "town": ""
@@ -499,6 +530,12 @@
         "town": "Gambrills",
         "score": 5,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -541,9 +578,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "VisArts offers raku firing workshops open to the public through their specialty ceramics workshops program, as stated: 'Specialty ceramics workshops, such as raku firings, intensive boot camps, and specialized glazing sessions, are offered periodically throughout the year.'",
+        "why": "VisArts offers specialty ceramics workshops including raku firings that are periodically offered throughout the year for participants to join, and also offers Firing Passes for people with home studios.",
         "types": {
           "raku": "Specialty ceramics workshops, such as raku firings, intensive boot camps, and specialized glazing sessions, are offered periodically throughout the year."
         },
@@ -562,61 +599,68 @@
       "weak": false
     },
     {
-      "id": "glen-echo-park",
-      "org": "Glen Echo Park",
+      "id": "kilnjoy-ceramics",
+      "org": "Kilnjoy Ceramics",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "pit_barrel_saggar",
         "gas_reduction"
       ],
-      "region": "Boulevard Glen Echo",
-      "city": "Boulevard Glen Echo",
+      "region": "Smithsburg",
+      "city": "Smithsburg",
       "urls": [
-        "https://www.glenechopottery.org/"
+        "https://www.kilnjoy.com/"
       ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Boulevard Glen Echo, Maryland",
+      "geocode": "Smithsburg, Maryland",
       "location_note": "Shown at the town.",
       "contact": {
-        "website": "https://www.glenechopottery.org/"
+        "website": "https://www.kilnjoy.com/"
       },
       "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Students' pieces are fired to cone 10 in a gas reduction kiln.",
-        "url": "https://www.glenechopottery.org/classes.html",
+        "how": "See site",
+        "note": "See site",
+        "quote": "A Clay Co-Op sponsored Soda-Firing workshop",
+        "url": "http://www.kilnjoy.com/events.html",
         "types": [
-          "gas_reduction"
+          "soda",
+          "wood",
+          "pit_barrel_saggar",
+          "gas_reduction",
+          "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-08"
       },
       "review": "pending",
       "discovered": {
         "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "glenechopottery.org"
+        "date": "2026-10-08",
+        "key": "kilnjoy.com"
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states classes are offered for all levels and students' pieces are fired in a gas reduction kiln, with public registration available through Glen Echo Park's website.",
+        "why": "page says state is MD, not PA",
         "types": {
-          "gas_reduction": "Students' pieces are fired to cone 10 in a gas reduction kiln."
+          "raku": "2023 Raku and Barrel Firing Wilson College, Chambersburg, PA",
+          "pit_barrel_saggar": "2013 Pit Firing Frederick Clay Studio, Frederick, MD",
+          "soda": "2014 Soda-Firing Frederick Clay Studio, Frederick, MD"
         },
-        "state": "",
-        "town": ""
-      },
-      "located": {
         "state": "MD",
-        "town": "Boulevard Glen Echo",
-        "score": 6,
-        "osm": true,
-        "date": "2026-10-08"
+        "town": "Smithsburg"
       },
-      "weak": false
+      "weak": false,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [
@@ -651,6 +695,14 @@
     {
       "id": "virgin-valley-artists-association",
       "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "mosaic-arts-dc",
+      "why": "Its own pages give an address in DC (Washington), not MD. Moved. (2026-10-08)"
+    },
+    {
+      "id": "mosaic-arts-dc",
+      "why": "Its own pages give an address in DC (Washington), not MD. Moved. (2026-10-08)"
     }
   ]
 }

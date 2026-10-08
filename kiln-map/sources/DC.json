@@ -64,9 +64,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly mentions 'a raku firing pit' and 'Raku firing workshops' as offerings where the public can participate.",
+        "why": "The page explicitly lists 'Raku firing workshops' as a class offering at District Clay Center, with a clear sentence showing outsiders can participate.",
         "types": {
           "raku": "Raku firing workshops"
         },
@@ -110,9 +110,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions a saggar workshop but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "why": "Search snippets mention a saggar workshop but the actual page text is empty, so cannot verify public access details or location information.",
         "types": {},
         "state": "",
         "town": ""
@@ -170,9 +170,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "Search snippets mention raku and gas firing workshops at The District Clay Center in Washington DC, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "why": "Search snippets mention raku and gas firing workshops, but the actual page text is empty, so public access cannot be verified from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -230,9 +230,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "no",
-        "why": "The page text provided is empty; only search snippets are available, and they reference firing at an external location (District Clay's kiln), not at Joe Hicks Ceramics itself.",
+        "why": "The page text provided is empty; only search snippets are available, and snippets alone cannot confirm public access details or establish the location's state and address.",
         "types": {},
         "state": "",
         "town": ""
@@ -249,6 +249,69 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "mosaic-arts-dc",
+      "org": "Mosaic Arts DC",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Washington",
+      "city": "Washington",
+      "urls": [
+        "https://notboredindc.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Washington, District of Columbia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://notboredindc.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "You can also take more advanced or specialized technique classes, like screen printing on clay, Raku firing, figurative ceramics, and surface design.",
+        "url": "https://notboredindc.com/pottery-and-ceramics-classes-near-dc/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "notboredindc.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "page says state is MD, not DC",
+        "types": {
+          "raku": "You can also take more advanced or specialized technique classes, like screen printing on clay, Raku firing, figurative ceramics, and surface design."
+        },
+        "state": "MD",
+        "town": "Capitol Heights"
+      },
+      "weak": true,
+      "located": {
+        "state": "DC",
+        "town": "Washington",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-08"
       }
     }
   ],

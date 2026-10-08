@@ -110,11 +110,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes workshops where participants can join, load, fire, and finish their own work in the Bascom's soda glaze kiln, with multiple soda firing workshops listed as available for registration.",
+        "why": "The page describes soda firing workshops open to participants who can sign up, with detailed descriptions of how outsiders can join and participate in the soda firing process.",
         "types": {
-          "soda": "Once the soda kiln is loaded, it will be preheated overnight and fired to completion the following day."
+          "soda": "Once the soda kiln is loaded, it will be preheated overnight and fired to completion the following day. A discussion of the firing process will be integral, providing participants the chance to assist with kiln adjustments and the addition of soda during the final stages of firing."
         },
         "state": "NC",
         "town": "Highlands",
@@ -170,12 +170,10 @@
       "lng": -82.15874,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a soda firing workshop at Wood Song Pottery in Bakersville, NC where participants can sign up, bring bisqueware, and join the entire soda firing process including glazing, loading, and firing.",
-        "types": {
-          "soda": "This 3 day weekend workshop will allow participants the opportunity to engage deeply with the soda firing process, using a gas fired soda kiln that holds about 20 cubic feet of pottery and will be fired to Cone 10."
-        },
+        "why": "Wood Song Pottery offers a soda firing workshop (October 25-27, 2024) open to participants who can register and join the entire firing process including glazing, loading, and firing.",
+        "types": {},
         "state": "NC",
         "town": "Bakersville",
         "street": "524 Wilson Road"
@@ -184,7 +182,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "doug-dotson-pottery",
@@ -211,7 +215,7 @@
         "how": "Students join soda firings",
         "note": "Students join soda firings",
         "quote": "Students are welcome to come for as much or as little of the firing as they like. Soda spraying will probably be in the early afternoon and students can participate.",
-        "url": "https://dougdotsonpottery.com/soda-firing-workshop-artscenter/",
+        "url": "https://dougdotsonpottery.com/events/",
         "types": [
           "soda"
         ],
@@ -225,11 +229,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows public workshops where students can sign up for soda firing classes at multiple venues (ArtsCenter, Claymakers, ClayWorx) with detailed participation details.",
+        "why": "The page shows soda firing workshops at ArtsCenter and other venues where students can sign up for classes and participate in the firing process.",
         "types": {
-          "soda": "Cone 6 Soda Firing Workshop"
+          "soda": "Cone 6 Soda Firing Workshop, August 2026. ArtsCenter, Carrboro, NC"
         },
         "state": "NC",
         "town": "Pittsboro",
@@ -287,16 +291,16 @@
       "lng": -78.90181,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page shows multiple public workshops and classes where outsiders can register and participate in raku and wood firings, including a one-day raku workshop ($225), an 8-week wood firing experience with three participation options, and a 7-week raku firing experience ($325).",
+        "why": "The page shows multiple workshops and classes where outsiders can register and participate in raku and wood firings.",
         "types": {
           "raku": "Join Delores for an exciting one-day workshop where you'll glaze, fire, and finish your pottery using the Raku firing process.",
           "wood": "The course culminates in a community wood firing, where students will work alongside fellow potters to stoke the kiln, monitor temperatures, and experience the teamwork that makes wood firing so rewarding."
         },
         "state": "NC",
         "town": "Durham",
-        "street": "1010 West Main St"
+        "street": "1010 West Main St Durham Nc"
       },
       "located": {
         "osm": false,
@@ -345,12 +349,10 @@
       "lng": -78.90181,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The page mentions raku firing and is open by appointment, but does not explicitly state whether the public can participate in firings or only view them.",
-        "types": {
-          "raku": "Raku Pottery Firing & the Pottery Process"
-        },
+        "why": "The page mentions raku firing and provides contact information, but does not explicitly state whether outsiders can participate in firings or how to book/join one.",
+        "types": {},
         "state": "NC",
         "town": "Durham"
       },
@@ -360,6 +362,12 @@
         "town": "Durham",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -404,11 +412,11 @@
       "lng": -80.84308,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes hands-on raku firing workshops open to the public (ages 18+) where participants can join, glaze, and fire pottery the same day, plus multi-week raku classes and weekend raku firing sessions.",
+        "why": "Clayworks offers public raku workshops and classes where outsiders ages 18+ can join hands-on raku firing sessions and learn the technique.",
         "types": {
-          "raku": "Join Clayworks for a hands-on raku firing workshop!"
+          "raku": "Join Clayworks for a hands-on raku firing workshop! Participants will receive a hand-thrown and sculpted pumpkin, perfect for fall and Halloween decor, and built to last a lifetime, to glaze and fire."
         },
         "state": "NC",
         "town": "Charlotte",
@@ -427,8 +435,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "gas_reduction"
+        "raku"
       ],
       "region": "Charlotte",
       "city": "Charlotte",
@@ -448,8 +455,7 @@
         "quote": "Special raku workshops available throughout the year.",
         "url": "https://charlottepotterystudio.com/raku-firing-charlotte",
         "types": [
-          "raku",
-          "gas_reduction"
+          "raku"
         ],
         "checked": "2026-10-06"
       },
@@ -463,12 +469,11 @@
       "lng": -80.84308,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The studio mentions raku workshops and gas reduction kilns, but the text states it is 'Opening 2026' and only invites people to join a waitlist, making it unclear whether public can currently book or participate in firings.",
+        "why": "The studio mentions raku workshops and classes but states it is 'Opening 2026' with only a waitlist available, so current public access cannot be confirmed from the text.",
         "types": {
-          "raku": "Experience raku firing at Charlotte Pottery Studio.",
-          "gas_reduction": "5 kilns including gas reduction, 50+ glazes, and proper ventilation."
+          "raku": "Special raku workshops available throughout the year."
         },
         "state": "NC",
         "town": "Charlotte"
@@ -480,6 +485,12 @@
         "score": 10,
         "osm": false,
         "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
       }
     },
     {
@@ -489,7 +500,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
+        "raku",
+        "pit_barrel_saggar"
       ],
       "region": "Indian Trail",
       "city": "Indian Trail",
@@ -509,7 +521,8 @@
         "quote": "External Artists (Pit-Firing only): Bring your own - not using any Cedar Oak Farm Pottery materials: $75, Bring your own - using School materials: $95",
         "url": "https://www.cedaroakfarmpottery.com/alternative-pottery-firing-classes",
         "types": [
-          "raku"
+          "raku",
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-06"
       },
@@ -523,11 +536,12 @@
       "lng": -80.66924,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "External artists can participate in pit-firing and raku firing for a fee, bringing their own pots.",
+        "why": "External artists can participate in pit-firing and raku firing for a fee, with clear pricing and contact information to join.",
         "types": {
-          "raku": "Firing Raku or the Pit occur Spring, Fall and Winter but due to summer heat and burn conditions we rarely will fire during summer months."
+          "raku": "Artists wishing to join in on the fun, can bring their own pots-Raku clays highly recommended.",
+          "pit_barrel_saggar": "External Artists (Pit-Firing only): Bring your own - not using any Cedar Oak Farm Pottery materials: $75, Bring your own - using School materials: $95"
         },
         "state": "NC",
         "town": "Indian Trail",
@@ -568,7 +582,7 @@
         "how": "Spring and fall Saturday raku firings",
         "note": "Spring and fall Saturday raku firings",
         "quote": "Each Spring and Fall, Rising Sun Pottery hosts a Saturday raku firing. All students and area potters are invited.",
-        "url": "http://www.risingsunpottery.com/workshops.html",
+        "url": "http://www.risingsunpottery.com/classes.html",
         "types": [
           "raku",
           "gas_reduction"
@@ -583,11 +597,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states that 'All students and area potters are invited' to Saturday raku firings held each Spring and Fall, and workshops offer 'gas cone 10 and raku and firings available during the week' to outside participants.",
+        "why": "The text explicitly states that for raku firings, 'All students and area potters are invited' to Saturday raku firing events, and workshops with raku and gas cone 10 firings are available to workshop participants who can register.",
         "types": {
-          "raku": "Each Spring and Fall, Rising Sun Pottery hosts a Saturday raku firing.",
+          "raku": "Half-day and full-day Saturday workshop classes teaching wheel, hand-building, glaze making, raku firing, or other special topics are held at various times throughout the year.",
           "gas_reduction": "There will be gas cone 10 and raku and firings available during the week along with instruction on how to fire these kilns."
         },
         "state": "NC",
@@ -645,16 +659,16 @@
       "lng": -77.94873,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states that gas reduction firing and saggar firing are available to the public (\"Whether you're a studio member or an outside artist\" and \"Reduction firing is available to everyone - not just FCP members\"), with scheduled firings, pricing, and a workshop signup process.",
+        "why": "Fat Cat Pottery offers public access to gas reduction firing (\"Reduction firing is available to everyone - not just FCP members\") and saggar firing workshops open to outsiders who can sign up by calling or emailing.",
         "types": {
-          "gas_reduction": "At Fat Cat Pottery, our community-built gas kiln provides artists with an affordable way to experience atmospheric firing without owning a gas kiln themselves.",
+          "gas_reduction": "Reduction firing is available to everyone - not just FCP members.",
           "pit_barrel_saggar": "In this two part workshop students will have the opportunity to create one of a kind Saggar fired wares using feathers, horse hair, sugar and other combustibles."
         },
         "state": "NC",
         "town": "Wilmington",
-        "street": "2500 Blue Clay Road"
+        "street": "2500 Blue Clay Road, Wilmington, NC 28405"
       },
       "located": {
         "state": "NC",
@@ -706,11 +720,11 @@
       "lng": -78.004,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows a public raku workshop in Leland, NC where outsiders can sign up for hands-on glazing and firing experience across two days (November 6-7, 2026), with pricing listed and all experience levels welcome.",
+        "why": "The page shows a public raku workshop in Leland, NC where outsiders can sign up and participate in glazing and firing raku pottery.",
         "types": {
-          "raku": "Gain hands-on experience glazing and firing raku pottery."
+          "raku": "Gain hands-on experience glazing and firing raku pottery. On day one, you'll glaze up to five pots (each no wider than 8 inches) using provided raku glazes. On day two, you'll assist with firing your pots in the raku style."
         },
         "state": "NC",
         "town": "Leland"
@@ -762,12 +776,10 @@
       "lng": -82.55084,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text shows a public raku firing workshop scheduled at AVL Clay where outsiders can sign up.",
-        "types": {
-          "raku": "Raku Firing"
-        },
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The search snippet shows a raku firing event at AVL Clay in Asheville, NC, but the page text provided is empty, so I cannot verify whether outsiders can actually participate or find details about how to join.",
+        "types": {},
         "state": "NC",
         "town": "Asheville",
         "street": "4 Mulvaney Street"
@@ -779,67 +791,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
-    },
-    {
-      "id": "the-village-potters-clay-center",
-      "org": "The Village Potters Clay Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction",
-        "raku"
-      ],
-      "region": "Westgate Parkway Asheville",
-      "city": "Westgate Parkway Asheville",
-      "urls": [
-        "https://thevillagepotters.com/"
-      ],
-      "notes": "Classes, 12+ kilns. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Westgate Parkway Asheville, North Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://thevillagepotters.com/"
-      },
-      "access": {
-        "how": "Classes, 12+ kilns",
-        "note": "Classes, 12+ kilns",
-        "quote": "Over 12 kilns with cone 6 electric, cone 10 gas reduction, raku, and atmospheric firing options (special training required)",
-        "url": "https://thevillagepotters.com/professional-working-studios",
-        "types": [
-          "gas_reduction",
-          "raku"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "thevillagepotters.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states the facility offers studio rental with access to kilns including gas reduction, raku, and atmospheric firing options, available to professional potters who join as tenants.",
-        "types": {
-          "gas_reduction": "Over 12 kilns with cone 6 electric, cone 10 gas reduction, raku, and atmospheric firing options (special training required)",
-          "raku": "Over 12 kilns with cone 6 electric, cone 10 gas reduction, raku, and atmospheric firing options (special training required)"
-        },
-        "state": "NC",
-        "town": "Asheville"
-      },
-      "located": {
-        "state": "NC",
-        "town": "Westgate Parkway Asheville",
-        "score": 6,
-        "osm": false,
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
-      },
-      "weak": false
+      }
     },
     {
       "id": "jeff-brown-pottery",
@@ -884,9 +842,9 @@
       "lng": -79.77789,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states 'I offer workshops and classes at my studio in Wheel throwing, altering and texturing, glazing, wood firing, and Raku firing,' indicating public can join workshops and classes for non-electric firings.",
+        "why": "The page states 'I offer workshops and classes at my studio in Wheel throwing, altering and texturing, glazing, wood firing, and Raku firing,' indicating outsiders can participate in both wood firing and raku firing through workshops and classes.",
         "types": {},
         "state": "NC",
         "town": "Seagrove",
@@ -899,62 +857,11 @@
         "score": 6,
         "osm": false,
         "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "smoke-in-the-mountains-pottery",
-      "org": "Smoke in the Mountains Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Brasstown",
-      "city": "Brasstown",
-      "urls": [
-        "https://smokeinthemountainspottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Brasstown, North Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://smokeinthemountainspottery.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The kiln can hold over 700 pots, most of which will be brought by potters and students in the region, who along with other volunteers, will work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a real wood fired kiln can make.",
-        "url": "https://smokeinthemountainspottery.com/wood-firing/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "smokeinthemountainspottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+      "agree": {
+        "model": "claude-sonnet-5-5",
         "verdict": "yes",
-        "why": "The text describes a community wood kiln fired 4-5 times per year where potters, students, and volunteers from the region participate in shifts to fire pots, with public opening day events where people gather to unload.",
-        "types": {
-          "wood": "The kiln can hold over 700 pots, most of which will be brought by potters and students in the region, who along with other volunteers, will work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a real wood fired kiln can make."
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": false,
-      "located": {
-        "state": "NC",
-        "town": "Brasstown",
-        "score": 6,
-        "osm": false,
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -1023,6 +930,554 @@
         "result": "split",
         "date": "2026-10-07"
       }
+    },
+    {
+      "id": "gertrude-graham-smith-pottery",
+      "org": "Gertrude Graham Smith Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "The Bascom Highlands",
+      "city": "The Bascom Highlands",
+      "urls": [
+        "https://www.gertrudegrahamsmith.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "The Bascom Highlands, North Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.gertrudegrahamsmith.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "gertrudegrahamsmith.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The search snippet mentions a soda firing workshop, but the page text provided is empty, so I cannot verify the details or confirm public access from the actual page content.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "sawtooth-school-for-visual-art",
+      "org": "Sawtooth School for Visual Art",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Winston-Salem",
+      "city": "Winston-Salem",
+      "urls": [
+        "https://generationscenter.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Winston-Salem, North Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://generationscenter.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "The Raku kiln building portion of the workshop is held in our new studio located at the Generation Center / 114 W. 30th St, W-S, NC 27105.",
+        "url": "https://generationscenter.org/event/raku-kiln-building-raku-firing-workshop/2024-09-06",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "generationscenter.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page shows a Raku Kiln Building and Raku Firing Workshop open to ages 16–Adult with a $145 fee and $30 material fee, allowing outsiders to participate in raku firing.",
+        "types": {
+          "raku": "Learn how to build an efficient Raku kiln with ceramic wools and metal wire casing. Students will also learn to properly lay out a movable brick foundation for Raku firing."
+        },
+        "state": "NC",
+        "town": "Winston-Salem",
+        "street": "114 W. 30th St"
+      },
+      "located": {
+        "state": "NC",
+        "town": "Winston-Salem",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "n-a-nc",
+      "org": "N/A",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Durham",
+      "city": "Durham",
+      "urls": [
+        "https://familyvacationsus.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Durham, North Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://familyvacationsus.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "Beginners start with fundamentals in welcoming introductory classes, but the real excitement comes from specialty workshops covering everything from raku firing to sculptural hand-building techniques.",
+        "url": "https://familyvacationsus.com/these-15-north-carolina-pottery-workshops-turn-a-simple-afternoon-into-a-creative-escape",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "familyvacationsus.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page mentions STARworks offering raku firing workshops but does not provide a clear sentence showing how outsiders can book, sign up, or access a raku firing; it only states that specialty workshops cover 'everything from raku firing to sculptural hand-building techniques' without explicit enrollment details.",
+        "types": {},
+        "state": "NC",
+        "town": ""
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-08"
+      },
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "exploreasheville",
+      "org": "exploreasheville",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Asheville",
+      "city": "Asheville",
+      "urls": [
+        "https://www.exploreasheville.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Asheville, North Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.exploreasheville.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "exploreasheville.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The search snippet mentions a workshop but provides no page text with location details, contact information, or confirmation that outsiders can actually register or participate.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "woodfire-nc",
+      "org": "Woodfire NC",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "North Carolina",
+      "city": null,
+      "urls": [
+        "https://www.woodfirenc.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.woodfirenc.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "woodfirenc.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The snippet mentions wood kiln firings and participation opportunities, but the actual page text is empty, so I cannot verify the details or extract a direct quote showing how outsiders can access these firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "cedar-creek-gallery",
+      "org": "Cedar Creek Gallery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "salt",
+        "wood"
+      ],
+      "region": "Creedmoor",
+      "city": "Creedmoor",
+      "urls": [
+        "https://thepathbesttraveled.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Creedmoor, North Carolina",
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://thepathbesttraveled.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Cedar Creek runs occasional weekend pottery workshops — typically one- or two-day intensives led by visiting or resident artists, focused on a specific technique like porcelain throwing, raku, salt-firing, or wood-firing.",
+        "url": "https://thepathbesttraveled.com/where-to-take-a-pottery-class-in-the-triangle-even-if-youve-never-touched-clay",
+        "types": [
+          "raku",
+          "salt",
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "thepathbesttraveled.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "Cedar Creek Gallery runs occasional weekend pottery workshops focused on specific techniques including raku, salt-firing, and wood-firing, open to outsiders who have taken basic courses.",
+        "types": {
+          "raku": "Cedar Creek runs occasional weekend pottery workshops — typically one- or two-day intensives led by visiting or resident artists, focused on a specific technique like porcelain throwing, raku, salt-firing, or wood-firing.",
+          "salt": "Cedar Creek runs occasional weekend pottery workshops — typically one- or two-day intensives led by visiting or resident artists, focused on a specific technique like porcelain throwing, raku, salt-firing, or wood-firing.",
+          "wood": "Cedar Creek runs occasional weekend pottery workshops — typically one- or two-day intensives led by visiting or resident artists, focused on a specific technique like porcelain throwing, raku, salt-firing, or wood-firing."
+        },
+        "state": "NC",
+        "town": "Creedmoor"
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "turning-point-clay-studio",
+      "org": "Turning Point Clay Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Brasstown",
+      "city": "Brasstown",
+      "urls": [
+        "https://podielski.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Brasstown, North Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://podielski.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "In their Brasstown studio, Turning Point Clay Studio , Harry & Julie make beautiful fine-crafted Raku vessels. Their classes at the Folk School are an invaluable way to learn all about the history, technique, and application in a hands-on environment.",
+        "url": "https://podielski.com/firing-it-up-raku-style",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "podielski.com"
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": true,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes multiple raku firing classes at the Folk School taught by Harry & Julie Hearne that are open to the public, including 'The Art of Throwing and Raku Firing' and 'Build Your Own Raku Kiln'.",
+        "types": {},
+        "state": "NC",
+        "town": "Brasstown"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "joseph-sand-pottery",
+      "org": "Joseph Sand Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "salt"
+      ],
+      "region": "North Carolina",
+      "city": null,
+      "urls": [
+        "https://www.josephsandpottery.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.josephsandpottery.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Next Kiln Opening November 27-29 & December 5-6 Friday & Saturday: 10 am - 5 pm & Sunday: 1 pm - 5 pm",
+        "url": "https://www.josephsandpottery.com/our-kilns",
+        "types": [
+          "salt"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "josephsandpottery.com"
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": true,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page describes two wood-fired kilns (anagama/salt and glaze) and lists kiln opening dates, but does not explicitly state how outsiders can participate in firings (no mention of classes, workshops, memberships, rentals, firing services, or invitations to join).",
+        "types": {},
+        "state": "NC",
+        "town": ""
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "jackson-county-green-energy-park",
+      "org": "Jackson County Green Energy Park",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Park Rd. Sylva",
+      "city": "Park Rd. Sylva",
+      "urls": [
+        "https://jcgep.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Park Rd. Sylva, North Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://jcgep.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "We encourage both public and private use. Rental is open to schools, professional potters, general artists, hobbyists, groups of individuals, and more.",
+        "url": "https://jcgep.org/ourfacilities",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "jcgep.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page explicitly offers kiln rental to the public (schools, professional potters, general artists, hobbyists, groups) for wood, salt, and soda firings at stated rates.",
+        "types": {
+          "soda": "A second kiln is used for salt & soda-fired pottery, while the main chamber is reserved for traditional wood firing."
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": false,
+      "located": {
+        "state": "NC",
+        "town": "Park Rd. Sylva",
+        "score": 4,
+        "osm": false,
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "vr-pottery-obx",
+      "org": "VR Pottery OBX",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Nags Head",
+      "city": "Nags Head",
+      "urls": [
+        "https://vrpotteryobx.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Nags Head, North Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://vrpotteryobx.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Join us for Raku Glazing Events or book your at-home party, we will come to you!",
+        "url": "https://vrpotteryobx.com/pages/raku-events",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "vrpotteryobx.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "page says state is NC, not TX",
+        "types": {},
+        "state": "NC",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "NC",
+        "town": "Nags Head",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [
@@ -1057,6 +1512,54 @@
     {
       "id": "southwestern-community-college",
       "why": "Second check (gemini-3.5-flash-lite): The text describes a certificate program and classes for enrolled students, and states that outsiders cannot use the kilns unless they are in a class or renting a kiln, but does not provide an option for the public to join, book, or sign up for independent non-electric firings without enrolling. (2026-10-07)"
+    },
+    {
+      "id": "the-village-potters-clay-center",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions non-electric firings as part of studio rental for professional tenant artists rather than accessible to the general public. (2026-10-08)"
+    },
+    {
+      "id": "smoke-in-the-mountains-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions wood and gas firings, but does not provide any way for the public to join, book, sign up, rent, or take part in them. (2026-10-08)"
+    },
+    {
+      "id": "ben-owen-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions workshops hosted at other institutions (like the Bascom Art Center and Penland School of Craft) or studio tours and kiln openings at Ben Owen Pottery, but does not offer public non-electric ceramic firing services, rentals, or open classes at its own location. (2026-10-08)"
+    },
+    {
+      "id": "seagrove-potters",
+      "why": "Second check (gemma-4-31b-it): The text mentions wood firing and demonstrations, but does not offer a way for the public to participate in a firing. (2026-10-08)"
+    },
+    {
+      "id": "josh-copus",
+      "why": "Second check (gemini-3.5-flash-lite): The page is a journalistic article about wood-firing potters and does not offer public workshops, classes, memberships, or firing services for outsiders to join. (2026-10-08)"
+    },
+    {
+      "id": "studio-touya",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes the studio as a private workspace that is closed to the public except for gallery events, and it does not offer any firing services, rentals, or workshops for the public to participate in wood firings at their location. (2026-10-08)"
+    },
+    {
+      "id": "the-triangle-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions wood kilns and tours, but does not provide any classes, workshops, memberships, or firing services for outsiders to take part in wood firings. (2026-10-08)"
+    },
+    {
+      "id": "fromthegrounduppots",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes events where the public can view and purchase wood-fired pottery, but it does not offer any classes, rentals, or opportunities for the public to participate in the firing process itself. (2026-10-08)"
+    },
+    {
+      "id": "puppers-grove-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text shows an independent ceramic studio currently under development that sells work through limited collections and releases, but it does not offer classes, workshops, memberships, or firing services for the public. (2026-10-08)"
+    },
+    {
+      "id": "haywood-community-college",
+      "why": "Second check (gemini-3.5-flash-lite): The text only describes an academic program's facilities and degrees without showing that outsiders can participate in non-electric firings. (2026-10-08)"
+    },
+    {
+      "id": "the-clay-lady-s-campus",
+      "why": "Second check (claude-haiku-4.5): page says state is TN, not NC (2026-10-08)"
+    },
+    {
+      "id": "firefly-valley-design",
+      "why": "Second check (claude-haiku-4.5): The page mentions classes, camps, and kiln rentals but provides no specific information about non-electric ceramic firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) that outsiders can access, despite a passing reference to 'horsehair raku pieces' as a personal artistic interest. (2026-10-08)"
     }
   ]
 }

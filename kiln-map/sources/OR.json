@@ -170,11 +170,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a Professional Development Workshop at the Alsea Anagama kiln open to other potters, with scheduled wheel throwing and firing events in July 2017 that outsiders can join.",
+        "why": "The page describes a wood-fire workshop at the Alsea Anagama Kiln where Jay Widmer opens the kiln to other potters for professional development, with scheduled workshop dates listed.",
         "types": {
-          "wood": "The Alsea Anagama kiln is based on the anagama style kilns originally built in Korea."
+          "wood": "Jay would like to help others learn from his experience and is opening up the Anagama kiln for a Professional Development Workshop to other potters."
         },
         "state": "OR",
         "town": "Corvallis",
@@ -231,12 +231,12 @@
       "lng": -122.67419,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows public can book soda firing and raku firing workshops with ticket purchase and registration at St. Johns Clay Collective.",
+        "why": "The page shows multiple public firing events with ticket purchases available, including soda and raku firings where outsiders can participate.",
         "types": {
           "soda": "Elevate your work with stunning effects with Soda Firing.",
-          "raku": "Traditional raku firing along with Obvara and hair/ feather options."
+          "raku": "Traditional raku firing along with Obvara and hair/ feather options. Bring 4-6 of your bisque fired ware and spend the day learning and firing together."
         },
         "state": "OR",
         "town": "Portland",
@@ -289,11 +289,11 @@
       "lng": -122.67419,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes Raku workshops open to the public: 'July 10th - Raku 1: Traditional - $90.00' and 'July 24th - Raku 2: Advanced Techniques - $90.00' where participants can sign up for hands-on raku firing experiences.",
+        "why": "The page offers raku workshops open to the public with clear registration details and firing participation.",
         "types": {
-          "raku": "July 10 th - Raku 1: Traditional - $90.00"
+          "raku": "Wil Labelle leads this hands-on workshop that features the basics of Raku using our trash can quick-fire Raku kiln and Georgie's raku glazes."
         },
         "state": "OR",
         "town": "Portland",
@@ -349,16 +349,16 @@
       "lng": -123.03312,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The page mentions a Pit Firing Workshop but provides no details about whether the public can sign up, book, or participate, nor does it include the center's location address.",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a Pit Firing Workshop at Willamette Art Center, indicating public access to pit firing through a workshop format.",
         "types": {
           "pit_barrel_saggar": "Pit Firing Workshop"
         },
         "state": "",
         "town": ""
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "OR",
         "town": "Salem",
@@ -408,12 +408,10 @@
       "lng": -123.09505,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes an \"Intro to Pit Firing\" workshop open to the public with two registration options (in-person class or at-home with shipped clay), culminating in a firing event on March 30th.",
-        "types": {
-          "pit_barrel_saggar": "Pit firing is an invigorating practice of sculpting with fire while attending our delicate greenware through every step of their transformation to ceramic."
-        },
+        "why": "The page offers public access to pit firing through two registration options: an in-person handbuilding class or a mail-in clay option, both leading to a firing event on March 30th.",
+        "types": {},
         "state": "OR",
         "town": "Eugene",
         "street": "250 Taylor Street"
@@ -422,7 +420,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "clay-space",
@@ -455,11 +459,11 @@
       "lng": -123.09505,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows public workshops for raku firing that can be booked for $90, with a preparatory class available, indicating outsiders can sign up for non-electric raku firings.",
+        "why": "Clay Space offers public raku firing workshops that outsiders can register for and attend, with clear pricing and scheduling information.",
         "types": {
-          "raku": "Raku Firing!"
+          "raku": "Raku Firing! Level: Raku 101 or previous experience is required Starts Oct 11 $90"
         },
         "state": "OR",
         "town": "Eugene",
@@ -514,13 +518,10 @@
       "lng": -123.10593,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states they 'occasionally offer Raku and Saggar firings for ornamental work' and members and 5-week class participants can access firing resources through the studio, making these non-electric firings available to the public via classes and membership.",
-        "types": {
-          "raku": "occasionally offer Raku and Saggar firings for ornamental work",
-          "pit_barrel_saggar": "occasionally offer Raku and Saggar firings for ornamental work"
-        },
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page mentions raku and saggar firings are occasionally offered, but does not specify how outsiders can access them (no class, workshop, membership, rental, firing service, or contact invitation is explicitly linked to these specific firing types).",
+        "types": {},
         "state": "OR",
         "town": "Albany",
         "street": "1533 SE 7th Ave"
@@ -532,7 +533,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "synergy-ceramics",
@@ -575,21 +582,25 @@
       "lng": -121.31531,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a public raku workshop event on 7/19/26 where adults with no clay experience can sign up and participate in raku firing for $150 per person.",
-        "types": {
-          "raku": "Raku firing: We remove the pottery from a gas powered kiln with large tongs, place them into a trash can with combustibles, and watch the magic happen!"
-        },
+        "why": "The page describes a raku workshop class open to adults with no clay experience needed, available for public sign-up with ticket purchase.",
+        "types": {},
         "state": "OR",
         "town": "Bend",
-        "street": "1900 Northeast Division Street suite 108"
+        "street": "1900 Northeast Division Street suite 108, Bend, OR, 97701"
       },
       "located": {
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "oregon-coast-school-of-art",
@@ -630,9 +641,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page offers a public raku firing workshop for $30 with registration open to all ages and experience levels, where participants can glaze pots and watch them fired in a raku kiln.",
+        "why": "The page offers a public raku workshop with registration open to all ages and experience levels, with specific dates and pricing.",
         "types": {
           "raku": "See the pot loaded in a raku kiln, fired and then pulled out while glowing hot!"
         },
@@ -648,6 +659,651 @@
         "date": "2026-10-08"
       },
       "weak": false
+    },
+    {
+      "id": "jominceramic",
+      "org": "jominceramic",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Portland",
+      "city": "Portland",
+      "urls": [
+        "https://www.jominceramic.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Portland, Oregon",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.jominceramic.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "jominceramic.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "No page text provided to verify public access to non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "rogue-valley-pottery-supply-and-studios",
+      "org": "Rogue Valley Pottery Supply and Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Ashland",
+      "city": "Ashland",
+      "urls": [
+        "https://www.storytownashland.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Ashland, Oregon",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.storytownashland.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The highlight is experiencing the raku firing process firsthand, removing pieces from the kiln and completing the reduction process (3:30–6:00 PM).",
+        "url": "https://www.storytownashland.com/events/raku-class",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "storytownashland.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a raku workshop open to the public with clear instructions on how to participate in the raku firing process.",
+        "types": {
+          "raku": "Participants will receive instruction on raku safety and techniques (2:00–3:00 PM), then glaze their own bisque-fired vase (3:00–3:30 PM). The highlight is experiencing the raku firing process firsthand, removing pieces from the kiln and completing the reduction process (3:30–6:00 PM)."
+        },
+        "state": "OR",
+        "town": "Ashland",
+        "street": "300 E Hersey St Unit 8, Ashland, OR"
+      },
+      "located": {
+        "state": "OR",
+        "town": "Ashland",
+        "score": 5,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "uo-erb-memorial-union",
+      "org": "UO Erb Memorial Union",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Oregon",
+      "city": null,
+      "urls": [
+        "https://myemu.uoregon.edu/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://myemu.uoregon.edu/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Experience the thrill of Raku firing in a dramatic outdoor setting! Our final session will run for three hours as we fire all your glazed works together, revealing stunning metallic and crackle effects unique to Raku.",
+        "url": "https://myemu.uoregon.edu/Program/GetProgramDetails?courseId=17e65bf9-f51d-4c0f-a9d6-ecce66cf10ef",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "myemu.uoregon.edu"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a multi-session raku workshop open to registration for ceramic enthusiasts, with public sign-up available.",
+        "types": {
+          "raku": "Experience the thrill of Raku firing in a dramatic outdoor setting! Our final session will run for three hours as we fire all your glazed works together, revealing stunning metallic and crackle effects unique to Raku."
+        },
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "portland-parks",
+      "org": "Portland Parks",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Portland",
+      "city": "Portland",
+      "urls": [
+        "https://apm.activecommunities.com/portlandparks/Activity_Search/ceramics---raku-workshop-9-3/199906?locale=en-US"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Portland, Oregon",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://apm.activecommunities.com/portlandparks/Activity_Search/ceramics---raku-workshop-9-3/199906?locale=en-US"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Learn about raku glazes, decorating techniques, and firing in this one-day workshop.",
+        "url": "https://apm.activecommunities.com/portlandparks/Activity_Search/ceramics---raku-workshop-9-3/199906?locale=en-US",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "https://apm.activecommunities.com/portlandparks/Activity_Search/ceramics---raku-workshop-9-3/199906?locale=en-US"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a one-day raku workshop open to the public through Portland Parks' activity registration system, with instruction on raku firing techniques.",
+        "types": {
+          "raku": "Learn about raku glazes, decorating techniques, and firing in this one-day workshop."
+        },
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "clayfolk",
+      "org": "Clayfolk",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Oregon",
+      "city": null,
+      "urls": [
+        "https://www.clayfolk.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.clayfolk.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "He also participates in long firings of collaborative wood kilns that can cook over a hundred hours for unique results.",
+        "url": "https://www.clayfolk.org/project",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "clayfolk.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page mentions raku and wood firing by individual artists but does not clearly state whether outsiders can participate in these firings through classes, workshops, memberships, rentals, or firing services.",
+        "types": {},
+        "state": "OR",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "guilford-art-center-or",
+      "org": "Guilford Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar",
+        "raku"
+      ],
+      "region": "Oregon",
+      "city": null,
+      "urls": [
+        "https://reg130.imperisoft.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://reg130.imperisoft.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "In addition to developing the fundamentals of wheel-throwing and hand building, this course will explore various alternative firing techniques including pit-firing, raku, smoke firings and more.",
+        "url": "https://reg130.imperisoft.com/GuilfordArtCenter/ProgramDetail/313034393934/Registration.aspx",
+        "types": [
+          "pit_barrel_saggar",
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "reg130.imperisoft.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The course description explicitly states it will explore pit-firing and raku as alternative firing techniques, and tuition includes bench time for enrolled students with lab and clay fees covering firing costs, indicating public access through class enrollment.",
+        "types": {
+          "pit_barrel_saggar": "this course will explore various alternative firing techniques including pit-firing, raku, smoke firings and more",
+          "raku": "this course will explore various alternative firing techniques including pit-firing, raku, smoke firings and more"
+        },
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "hiroshi-ogawa-s-kiln-hikarigama",
+      "org": "Hiroshi Ogawa's kiln, Hikarigama",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Elkton",
+      "city": "Elkton",
+      "urls": [
+        "https://jenniferlongpottery.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Elkton, Oregon",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://jenniferlongpottery.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "I had my first experience firing with wood about eight years ago when I began attending firings in Elkton, Oregon at Hiroshi Ogawa’s kiln, Hikarigama.",
+        "url": "https://jenniferlongpottery.com/wood-fired",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "jenniferlongpottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The text describes Jennifer Long's personal experience attending firings at Hiroshi Ogawa's kiln in Elkton, Oregon, but does not explicitly state whether outsiders can currently book, join, or sign up for firings there.",
+        "types": {
+          "soda": "firing with wood and soda has presented many changes and challenges."
+        },
+        "state": "OR",
+        "town": "Elkton"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "wildcraft-studios",
+      "org": "Wildcraft Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Portland",
+      "city": "Portland",
+      "urls": [
+        "https://wildcraftstudioschool.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Portland, Oregon",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://wildcraftstudioschool.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "East Creek is a community art studio and retreat. Situated on 20 forest acres in Oregon's coastal mountains, the 40' East Creek Anagama wood fired kiln is at the center of our community.",
+        "url": "https://wildcraftstudioschool.com/joe-robinson.html",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "wildcraftstudioschool.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The text describes a wood-fired anagama kiln and community studio but does not explicitly state how outsiders can access or participate in firings (no mention of classes, workshops, memberships, rentals, firing services, or contact invitations for firing participation).",
+        "types": {},
+        "state": "OR",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "OR",
+        "town": "Portland",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "club-mud-ceramics-cooperative",
+      "org": "Club Mud Ceramics Cooperative",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Eugene",
+      "city": "Eugene",
+      "urls": [
+        "https://www.mkartcenter.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Eugene, Oregon",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.mkartcenter.org/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Low Fire; Earthenware and Raku (1800-2000 deg. F)",
+        "url": "https://www.mkartcenter.org/clubmud.html",
+        "types": [
+          "raku",
+          "gas_reduction"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "mkartcenter.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page mentions raku firing and gas kilns but does not explicitly state whether outsiders can join firings or only existing members can participate.",
+        "types": {},
+        "state": "OR",
+        "town": "Eugene",
+        "street": "1910 East 15th Avenue"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "east-creek-art-camp",
+      "org": "East Creek Art Camp",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Portland",
+      "city": "Portland",
+      "urls": [
+        "https://www.orartswatch.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Portland, Oregon",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.orartswatch.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "“We’re opening the door to everyone.”",
+        "url": "https://www.orartswatch.org/at-east-creek-art-camp-a-community-of-potters-gathers-around-the-anagama-kiln",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "orartswatch.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The text describes East Creek Art Camp's anagama kiln and mentions 'We're opening the door to everyone,' but does not explicitly state how outsiders can book, sign up, or join a firing (no workshop, class, membership, rental, firing service, or contact invitation is described).",
+        "types": {},
+        "state": "OR",
+        "town": "Willamina"
+      },
+      "weak": true,
+      "located": {
+        "state": "OR",
+        "town": "Portland",
+        "score": 8,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "portland-parks-or",
+      "org": "Portland Parks",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Portland",
+      "city": "Portland",
+      "urls": [
+        "https://apm.activecommunities.com/portlandparks/Activity_Search/ceramics---raku-workshop-9-3/199906?locale=en-US"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Portland, Oregon",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://apm.activecommunities.com/portlandparks/Activity_Search/ceramics---raku-workshop-9-3/199906?locale=en-US"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Learn about raku glazes, decorating techniques, and firing in this one-day workshop.",
+        "url": "https://apm.activecommunities.com/portlandparks/Activity_Search/ceramics---raku-workshop-9-3/199906?locale=en-US",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "https://apm.activecommunities.com/portlandparks/Activity_Search/ceramics---raku-workshop-9-3/199906?locale=en-US"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a one-day raku workshop open to the public through Portland Parks' activity registration system, with instruction on raku firing techniques.",
+        "types": {
+          "raku": "Learn about raku glazes, decorating techniques, and firing in this one-day workshop."
+        },
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [
@@ -694,6 +1350,18 @@
     {
       "id": "club-mud-ceramics-cooperative-maude-kerns",
       "why": "Second check (gemini-3.5-flash-lite): The text describes a member-based cooperative for clay workers but does not state that outsiders can join or sign up for non-electric firings. (2026-10-07)"
+    },
+    {
+      "id": "portland-community-college",
+      "why": "Second check (claude-haiku-4.5): The text describes a college ceramics facility for enrolled students in classes, with no mention of public access, workshops, memberships, rentals, firing services, or invitations for outsiders to participate in firings. (2026-10-08)"
+    },
+    {
+      "id": "southern-oregon-guild-of-artist-and-artisans",
+      "why": "Two models agree: The pages only describe member artists' own pit and smoke firings and sales at the Guild Gallery; nothing offers outsiders a way to join, book or sign up for a non-electric firing. (2026-10-08)"
+    },
+    {
+      "id": "eutectic-gallery",
+      "why": "Two models agree: The page describes an exhibition of wood-fired ceramics at the airport and gives no way for the public to join, book or sign up for any firing. (2026-10-08)"
     }
   ]
 }

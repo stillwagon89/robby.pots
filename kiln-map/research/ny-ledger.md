@@ -1,44 +1,44 @@
-# New York firings ledger (2026-10-06, discovery v3)
+# New York firings ledger (2026-10-08, discovery v3, automatic)
 
-`discover/run.mjs NY`: 33 Tavily searches, 156 places, gemma4 judge, one Claude pass. Machine output: `ny-report.md`.
-Already on map: 28A Clay (found again via Sugar Maples salt firing).
+Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
 ## Qualifies
 | # | Place | Town | Firing | Access | Site |
 |---|---|---|---|---|---|
-| 1 | 28A Clay at Sugar Maples Center (on map) | Maplecrest | Salt | Salt firing (Jul 5) | 28aclay.com |
-| 2 | The Oki Doki Studio (Andrew Sartorius) | Germantown | Soda, wood | **Book a private soda firing** for up to 6 artists | theokidokistudio.com |
-| 3 | AlterWork Studios | Port Washington | Raku, barrel, pit | By appointment | alterworkstudios.com |
-| 4 | Tony Moore Wood-Fire Kiln / Garrison Art Center | Cold Spring / Garrison | Wood | Communal week-long firings 3×/year | tonymoorekiln.com |
-| 5 | Tim See Ceramics | Cazenovia | Wood | Cooperative firings 3×/year | timseeceramics.com |
-| 6 | Uptown Clay, Walton Woodfire kiln | Walton | Wood | Off-grid firing experience | uptown-clay.com |
-| 7 | Craigardan | Elizabethtown | Wood | Wood kiln firing workshop | craigardan.org |
-| 8 | Salem Art Works | Salem | Wood | One-day firing can be arranged; experienced users fire on their own | salemartworks.org |
-| 9 | New Prospect Pottery | Pine Bush | Salt, reduction | Ongoing firings | newprospectpottery.com |
-| 10 | Munson (Munson-Williams-Proctor) | Utica | Salt, wood | Summer workshops a few times a year | munson.art |
-| 11 | Woodstock Byrdcliffe Guild | Woodstock | Soda | Shared-kiln soda workshop | woodstockguild.org |
-| 12 | Collective | Troy | Salt | "The Salt Fire Experience", all levels | eventbrite |
-| 13 | Studio Sales Pottery | Avon | Raku, wood | Workshops | studiosalespottery.com |
-| 14 | Buffalo Clayart Center | Buffalo | Wood | Workshop with Don Reed | buffaloclayart.com |
-| 15 | Syracuse Ceramic Guild | Syracuse | Raku, wood | Guild membership | syracuseceramicguild.com |
-| 16 | View Arts Center | Old Forge | Wood-fired raku | Sat Oct 10, 10am–3pm | viewarts.org |
-| 17 | Clayworks on Columbia (Demetria Chappo) | Columbia Co. | Pit | One-day workshop | demetriachappo.com |
-| 18 | Artshack at Camp Singers | Delancey (Catskills) | Pit | Pit-firing workshop | wetravel.com |
-| 19 | The D'Amico Institute of Art | Amagansett | Pit | Class ends with a pit fire | damico-art.org |
-| 20 | Clay Art Guild of the Hamptons | Water Mill | Raku, wood, soda, salt, pit, gas | Guild membership | hamptonsclayart.org |
-| 21 | Fall Kill Creative Works | Poughkeepsie | Gas reduction | Membership | fallkillcreativeworks.org |
-| 22 | Peekskill Clay Studios | Peekskill | Wood, gas reduction | Membership | peekskillclaystudios.com |
-| 23 | The Pottery Studio | New York | Cone 10 gas reduction | Firing service | thepotterystudio.com |
-| 24 | MakerSpace NYC | Brooklyn / Staten Island | Raku | Raku firing days | happeningnext.com |
-| 25 | Choplet Ceramic Studio | Brooklyn | Raku | Raku workshop | choplet.com |
-| 26 | The Potter's Wheel | Kew Gardens | Raku | Workshops | potterswheelny.com |
-| 27 | Brooklyn Clay Industries | Brooklyn | Raku | Lessons; raku | findapotteryclass.com |
-
-## Unclear
-JL Pottery tube anagama (Pine Bush), Academy of Ceramic Art raku day (NY or NJ?), City Potters firing service (kiln
-type unknown), "Raku in Brooklyn" demo (allevents).
-
-## Rejected on Claude's pass
-Generic classes or electric firing included: Bushwick Ceramics, BKLYN Clay, La Mano, Hudson Valley Pottery, Wheel &
-Slab, Artyard, Great Wheel, Island Pottery, pottery-nyc. Not joinable: Bailey Pottery visit, LIU faculty bio. NYSATA
-listing was a duplicate of Munson.
+| 1 | Studio Sales | Avon | raku | Dated workshop or firing event | studiosalespottery.com |
+| 2 | Silk Road Ceramics Studio | ? | raku | Dated workshop or firing event | hisawyer.com |
+| 3 | Choplet Ceramic Studio & Gallery | Brooklyn | raku | Dated workshop or firing event | choplet.com |
+| 4 | Tony Moore Wood-Fire Kiln | Cold Spring | wood | Classes or membership | tonymoorekiln.com |
+| 5 | The Oki Doki Studio | Germantown | soda | Classes or membership | theokidokistudio.com |
+| 6 | Andrew Sartorius Ceramics | Germantown | soda | Dated workshop or firing event | andrewsartoriusceramics.com |
+| 7 | Woodstock Byrdcliffe Guild | Woodstock | soda | Classes or membership | woodstockguild.org |
+| 8 | Demetria Chappo | Columbia | pit_barrel_saggar | Dated workshop or firing event | demetriachappo.com |
+| 9 | The D’Amico Institute of Art | Amagansett | pit_barrel_saggar | Dated workshop or firing event | damico-art.org |
+| 10 | Artshack | Delancey | pit_barrel_saggar | Dated workshop or firing event | wetravel.com |
+| 11 | UPTOWN CLAY | Walton | wood | Classes or membership | uptown-clay.com |
+| 12 | Craigardan | Elizabethtown | wood | Dated workshop or firing event | craigardan.org |
+| 13 | New York State Art Teachers Association | ? | salt | Dated workshop or firing event | nysata.memberclicks.net |
+| 14 | Gasworks NYC | New York | gas_reduction | See site | gasworksnyc.com |
+| 15 | Sculpture Space NYC | New York | gas_reduction | See site | sculpturespacenyc.com |
+| 16 | New Prospect Pottery | Pine Bush | salt, wood | Classes or membership | newprospectpottery.com |
+| 17 | Tim See Ceramics | Cazenovia | wood | Dated workshop or firing event | timseeceramics.com |
+| 18 | The Pottery Studio | New York | gas_reduction | Firing service | thepotterystudio.com |
+| 19 | Powerhouse Arts | Brooklyn | gas_reduction | Firing service | powerhousearts.org |
+| 20 | AlterWork Studios | Port Washington | raku, pit_barrel_saggar | By appointment | alterworkstudios.com |
+| 21 | The Potter's Wheel | Kew Gardens | raku | Classes or membership | potterswheelny.com |
+| 22 | View Arts Center | Old Forge | wood, raku | Dated workshop or firing event | viewarts.org |
+| 23 | Brooklyn Clay Industries | Brooklyn | gas_reduction | See site | brooklynclayindustries.com |
+| 24 | Bailey Pottery | Accord | wood | Classes or membership | baileypottery.com |
+| 25 | Peekskill Clay Studios | Peekskill | wood, gas_reduction | Classes or membership | peekskillclaystudios.com |
+| 26 | Wheel & Slab Pottery Club | Rochester | wood | Classes or membership | wheelandslab.com |
+| 27 | Buffalo Clayart Center | Buffalo | wood | Dated workshop or firing event | buffaloclayart.com |
+| 28 | Waterbrook Potters Studio | ? | wood, raku | Classes or membership | waterbrookpotters.com |
+| 29 | Syracuse Ceramic Guild | Syracuse | raku, wood | Classes or membership | syracuseceramicguild.com |
+| 30 | Clayscapes Pottery | ? | raku | Firing service | clayscapespottery.com |
+| 31 | Ceramics of New York | Springville | raku | Classes or membership | ceramicsofny.com |
+| 32 | Thousand Islands Arts Center | ? | raku | Classes or membership | tiartscenter.org |
+| 33 | Island Pottery & Studio | ? | raku | Classes or membership | islandpotterystudio.com |
+| 34 | Long Island University | Brooklyn | raku, wood | Classes or membership | liu.edu |
+| 35 | Garrison Art Center | Garrison | wood | Classes or membership | tonymooreart.com |
+| 36 | Rochester Folk Art Guild | Rochester | wood | Classes or membership | hamishjacksonpottery.com |
+| 37 | Patchogue Arts Council | Patchogue | raku | Classes or membership | patchoguearts.org |

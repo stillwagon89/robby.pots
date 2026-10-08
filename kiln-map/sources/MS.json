@@ -69,9 +69,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a hands-on workshop open to all skill levels where outsiders can join and participate in raku and salt firing techniques.",
+        "why": "The page offers a hands-on workshop open to all skill levels where outsiders can participate in raku and salt firing techniques with instruction.",
         "types": {
           "raku": "In this hands-on workshop, Randy will share his throwing & raku firing skills.",
           "salt": "2 Days of Firing: will include low-fire salt firing using aluminum and clay saggars, naked raku, mica & stannous chloride firing."
@@ -119,9 +119,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet describes a raku firing workshop open to participants, but the actual page text is empty, so the listing details cannot be verified from the page itself.",
+        "why": "The search snippet describes a raku firing workshop open to outsiders, but the actual page text provided is empty, so I cannot verify the location details or confirm the workshop details from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -129,6 +129,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -171,9 +177,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The snippets mention woodfiring workshops and courses open to all levels, but the actual page text is empty, so specific firing types and public access details cannot be verified from the text itself.",
+        "why": "Search snippets mention workshops and wood-firing courses that are inclusive and welcoming to all levels, but the actual page text provided is empty, so specific details about how to book or participate cannot be verified.",
         "types": {},
         "state": "",
         "town": ""
@@ -182,57 +188,11 @@
       "located": {
         "osm": false,
         "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "almonte-potters-guild",
-      "org": "Almonte Potters Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Almonte",
-      "city": "Almonte",
-      "urls": [
-        "https://crownandpumpkin.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Almonte, Mississippi",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://crownandpumpkin.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Almonte Potters Guild was founded in September 2002. With combined resources and donations from friends in the community, a pottery studio was opened in the heart of Mississippi Mills.",
-        "url": "https://crownandpumpkin.com/makers/ceramics-glass/almonte-potters-guild/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "crownandpumpkin.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text describes the Almonte Potters Guild as a pottery studio but contains no information about public access to ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
-        "types": {},
-        "state": "",
-        "town": "Almonte"
-      },
-      "weak": true,
-      "located": {
-        "osm": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     }
@@ -245,6 +205,10 @@
     {
       "id": "olemiss",
       "why": "Second check (gemini-3.5-flash-lite): The text only mentions ceramics programs for enrolled students and does not indicate that the public can participate in firings. (2026-10-07)"
+    },
+    {
+      "id": "almonte-potters-guild",
+      "why": "Second check (gemini-3-flash-preview): The text mentions a pottery studio but does not mention any non-electric ceramic firing types or public access to them. (2026-10-08)"
     }
   ]
 }

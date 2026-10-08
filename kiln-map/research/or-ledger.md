@@ -1,38 +1,29 @@
-# Oregon firings ledger (2026-10-06, discovery v3)
+# Oregon firings ledger (2026-10-08, discovery v3, automatic)
 
-`discover/run.mjs OR`: 29 Tavily searches, 125 places, gemma4 judge, one Claude pass. Machine output: `or-report.md`.
-Already on map: East Creek Art, Radius, Rogue Valley Pottery Supply (found again); Elemental Studios and Sitka Center
-not found again.
+Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
 ## Qualifies
 | # | Place | Town | Firing | Access | Site |
 |---|---|---|---|---|---|
-| 1 | East Creek Art (on map) | Willamina | Wood (anagama, Oaxacan) | Join a firing; OPA firings; art camp | eastcreekart.org |
-| 2 | Radius Community Art Studio (on map) | Portland | Cone 10 reduction | Join the firing | radiusstudio.org |
-| 3 | Rogue Valley Pottery Supply (on map) | Ashland | Raku | Raku firing experience | storytownashland.com |
-| 4 | Jay Widmer | OR | Wood | Firing run as a loose workshop | jaywidmer.com |
-| 5 | Hikarigama (Hiroshi Ogawa's kiln) | Elkton | Wood | Group firings | jenniferlongpottery.com |
-| 6 | St Johns Clay Collective | Portland | Raku, obvara, soda | Nov 14 raku/obvara | stjohnsclay.com |
-| 7 | Georgies Ceramic & Clay Co. | Portland | Raku | Raku 1 workshop ($90) | georgies.com |
-| 8 | Portland Community College kiln yard | Portland | Raku, wood, soda | Enrollment | pcc.edu |
-| 9 | Morning Ceramics Studio | Portland | Gas reduction | Membership | morningceramics.com |
-| 10 | Willamette Art Center | Salem | Pit | Pit firing workshop | willametteartcenter.com |
-| 11 | Clay & Kiln Collective | Salem | Raku, wood, soda, salt, pit, gas | Community studio | statesmanjournal.com |
-| 12 | Wildling Collaborative Arts | Eugene | Pit | Mar 30 pit firing (Mandala Sanctuary) | whitesnakearts.com |
-| 13 | Pleasant Hill Pottery | Eugene | Wood, salt, soda | Tours; contact | pleasanthillpottery.com |
-| 14 | Club Mud Ceramics Cooperative (Maude Kerns) | Eugene | Raku, gas | Co-op | mkartcenter.org |
-| 15 | Clay Space | Eugene | Raku | Raku 101 + firing workshop | clayspaceeugene.org |
-| 16 | Calapooia Clay | Albany | Raku, soda, salt, pit, gas | Classes | calapooiaclay.com |
-| 17 | Synergy Ceramics | Bend | Raku | Sun Jul 19 raku day | synergyceramicsbend.com |
-| 18 | SAVEcamp clay | Bend | Wood, gas | Membership | potterylist.com |
-| 19 | Ashland Clayhouse | Ashland | Wood, gas | Firing services | ashlandclayhouse.com |
-| 20 | Oregon Coast School of Art | Gardiner | Raku | $30 raku (pot included) | oregoncoastschoolofart.org |
-| 21 | Dragon's Breath Pottery & Supply | Florence | Raku, wood, gas | Firing service by the pound | dragonsbreathpottery.com |
-
-## Unclear
-Jomin Ceramic wood-soda firing (Portland community studio), Clayfolk and Southern Oregon Guild artist pages (wood
-kilns), Eutectic Gallery partnership. Burnish Clay Studio's monthly community soda firings matched both WA and OR;
-check its location.
-
-## Rejected on Claude's pass
-Electric only: Camp Clay (cone 6), Ashley B Artisticworks.
+| 1 | Jay Widmer | ? | wood | Classes or membership | jaywidmer.com |
+| 2 | jominceramic | Portland | soda | Dated workshop or firing event | jominceramic.com |
+| 3 | Rogue Valley Pottery Supply and Studios | Ashland | raku | Classes or membership | storytownashland.com |
+| 4 | Clay Space | Eugene | raku | Dated workshop or firing event | clayspaceeugene.org |
+| 5 | Oregon Coast School of Art | Gardiner | raku | Classes or membership | oregoncoastschoolofart.org |
+| 6 | UO Erb Memorial Union | ? | raku | Dated workshop or firing event | myemu.uoregon.edu |
+| 7 | Portland Parks | Portland | raku | Dated workshop or firing event | https://apm.activecommunities.com/portlandparks/Activity_Search/ceramics---raku-workshop-9-3/199906?locale=en-US |
+| 8 | Willamette Art Center | ? | pit_barrel_saggar | Dated workshop or firing event | willametteartcenter.com |
+| 9 | Pleasant Hill Pottery | Eugene | wood, salt, soda | See site | pleasanthillpottery.com |
+| 10 | Wildling Collaborative Arts | Eugene | pit_barrel_saggar | Dated workshop or firing event | whitesnakearts.com |
+| 11 | Clayfolk | ? | wood | Classes or membership | clayfolk.org |
+| 12 | Southern Oregon Guild of Artist and Artisans | ? | wood | Classes or membership | southernoregonguild.org |
+| 13 | Guilford Art Center | ? | pit_barrel_saggar, raku | Classes or membership | reg130.imperisoft.com |
+| 14 | Hiroshi Ogawa's kiln, Hikarigama | Elkton | wood | Dated workshop or firing event | jenniferlongpottery.com |
+| 15 | Wildcraft Studios | ? | wood | Classes or membership | wildcraftstudioschool.com |
+| 16 | St Johns Clay Collective | Portland | soda, raku | Dated workshop or firing event | stjohnsclay.com |
+| 17 | Club Mud Ceramics Cooperative | Eugene | raku | See site | mkartcenter.org |
+| 18 | Synergy Ceramics | Bend | raku | Dated workshop or firing event | synergyceramicsbend.com |
+| 19 | Calapooia Clay | Albany | raku, pit_barrel_saggar | Classes or membership | calapooiaclay.com |
+| 20 | East Creek Art Camp | ? | wood | Classes or membership | orartswatch.org |
+| 21 | Portland Community College | Portland | raku, soda | Classes or membership | pcc.edu |
+| 22 | Eutectic Gallery | Portland | wood | Dated workshop or firing event | pdxart.portofportland.online |

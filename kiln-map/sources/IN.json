@@ -66,9 +66,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a public raku firing workshop open to ages 18+ where participants can sign up to bring bisqueware and participate in the firing process on August 14, 2026.",
+        "why": "The page describes a raku firing workshop open to the public (ages 18+) where outsiders can sign up to participate in a raku firing on August 14, 2026.",
         "types": {
           "raku": "The raku firing day will be Friday August 14 from 10:00am - 4:00pm."
         },
@@ -82,138 +82,6 @@
         "date": "2026-10-08"
       },
       "weak": false
-    },
-    {
-      "id": "tekventure-makerspace",
-      "org": "TekVenture Makerspace",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Fort Wayne",
-      "city": "Fort Wayne",
-      "urls": [
-        "https://www.tekventure.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fort Wayne, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.tekventure.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Members utilized saggar, horsehair, obvara and reduction firing techniques to create amazing pieces!",
-        "url": "https://www.tekventure.org/home/ocflo48myseqlzeu5abzhl5jj4hzjl",
-        "types": [
-          "raku",
-          "pit_barrel_saggar",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "tekventure.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The snippets mention raku firing and members utilizing saggar and reduction techniques at TekVenture Makerspace in Allen County Indiana, but do not explicitly state whether non-members or the public can participate in these firings.",
-        "types": {
-          "raku": "Raku firing is a dramatic and fast-paced pottery technique that originated in Japan in the 16th century.",
-          "pit_barrel_saggar": "Members utilized saggar, horsehair, obvara and reduction firing techniques to create amazing pieces!",
-          "gas_reduction": "Members utilized saggar, horsehair, obvara and reduction firing techniques to create amazing pieces!"
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "IN",
-        "town": "Fort Wayne",
-        "score": 2,
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "beale-pottery",
-      "org": "Beale Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Porter",
-      "city": "Porter",
-      "urls": [
-        "https://www.indianadunes.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Porter, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.indianadunes.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Rhythm & Raku Fest @ Beale Pottery",
-        "url": "https://www.indianadunes.com/event/rhythm-&-raku-fest-@-beale-pottery/11990/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "indianadunes.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The page mentions 'Rhythm & Raku Fest @ Beale Pottery' and references a pottery studio with classes and workshops, but the provided text does not explicitly state whether the public can participate in the raku firing or if it is students-only.",
-        "types": {
-          "raku": "Rhythm & Raku Fest @ Beale Pottery"
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "IN",
-        "town": "Porter",
-        "score": 15,
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-07"
-      }
     },
     {
       "id": "amphora-ceramic-studio",
@@ -254,9 +122,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The page mentions a Raku Firing Workshop but provides no details about whether the public can sign up, pricing, dates, or how to book.",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page offers a Raku Firing Workshop that outsiders can join.",
         "types": {
           "raku": "Raku Firing Workshop"
         },
@@ -314,11 +182,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows multiple public workshops and classes where outsiders can sign up for raku and wood firings, including 'Make It Take It: Raku Ceramics' and 'Raku Art Lab' workshops, plus options to have work fired in wood or raku kilns.",
+        "why": "The page offers multiple public workshops and classes where outsiders can participate in raku and wood firings, including 'Make It Take It: Raku Ceramics' and 'Raku Art Lab' classes that are open for registration.",
         "types": {
-          "raku": "Raku is a traditional Japanese firing method that uses fire and air to create dazzling effects on clay pieces."
+          "raku": "In two hours, you can experience all the stages of Raku firing, reduction, and cooling."
         },
         "state": "IN",
         "town": "Indianapolis"
@@ -341,8 +209,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "soda",
-        "wood"
+        "soda"
       ],
       "region": "Goshen",
       "city": "Goshen",
@@ -362,8 +229,7 @@
         "quote": "In this workshop participants will learn from Justin Rothshank about firing earthenware in the soda kiln.",
         "url": "https://www.indianaclay.org/workshops/",
         "types": [
-          "soda",
-          "wood"
+          "soda"
         ],
         "checked": "2026-10-07"
       },
@@ -375,12 +241,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page text shows a soda kiln workshop where participants can bring work to be fired, and mentions instructors who do soda firing and wood firing as part of the Northern Indiana Clay Alliance's activities.",
+        "why": "The page shows a soda kiln workshop where participants can bring work to be fired, with explicit instructions to attend and participate in the firing process.",
         "types": {
-          "soda": "In this workshop participants will learn from Justin Rothshank about firing earthenware in the soda kiln.",
-          "wood": "Making high fire functional and one-of-a-kind pots in 3 separate firing techniques, wood-fire, soda-fire, and glazed ware."
+          "soda": "In this workshop participants will learn from Justin Rothshank about firing earthenware in the soda kiln. Participants are invited to bring 8-12 cups or bowls for a cone 3 firing in the soda kiln."
         },
         "state": "IN",
         "town": "Goshen"
@@ -395,68 +260,6 @@
         "date": "2026-10-08"
       },
       "weak": false
-    },
-    {
-      "id": "buck-creek-pottery",
-      "org": "Buck Creek Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Indianapolis",
-      "city": "Indianapolis",
-      "urls": [
-        "https://www.buckcreekpottery.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Indianapolis, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.buckcreekpottery.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We offer on-going pottery classes, workshops, one-night classes, open studio time, group events, and pottery sales.",
-        "url": "https://www.buckcreekpottery.org/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "buckcreekpottery.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text mentions a Raku kiln and plans for pit firing and wood firing, but does not explicitly state whether the public can book or participate in these firings.",
-        "types": {
-          "raku": "They have two electric kilns and a Raku kiln."
-        },
-        "state": "IN",
-        "town": "Indianapolis"
-      },
-      "weak": true,
-      "lat": 39.76833,
-      "lng": -86.15835,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-07"
-      }
     },
     {
       "id": "greater-lafayette-clay-guild",
@@ -497,14 +300,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text describes a pit firing event open to guild members who can sign up via email, and membership is open to all clay artists and appreciators of all experience levels.",
-        "types": {
-          "pit_barrel_saggar": "The pit firing event will be on March 8th from 10 AM."
-        },
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page describes a pit firing event for members on March 8th with a sign-up link, but does not explicitly state whether non-members can participate or only current members.",
+        "types": {},
         "state": "IN",
-        "town": "Monticello"
+        "town": "Lafayette"
       },
       "lat": 40.74487,
       "lng": -86.76188,
@@ -512,7 +313,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "playin-with-fire-studios",
@@ -521,8 +328,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "pit_barrel_saggar",
-        "raku"
+        "pit_barrel_saggar"
       ],
       "region": "Indiana",
       "city": null,
@@ -544,19 +350,24 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a workshop open to participants where they can join for barrel kiln Saggar firing and Obvara Raku firing, with ticket sales available via Simpletix.",
+        "why": "The page shows a workshop where outsiders can join a saggar firing and raku (obvara) firing by purchasing tickets.",
         "types": {
           "pit_barrel_saggar": "A combination workshop featuring barrel kiln Saggar firing and Obvara firing.",
-          "raku": "A combination workshop featuring barrel kiln Saggar firing and Obvara Raku firing."
+          "raku": "A combination workshop featuring barrel kiln Saggar firing and Obvara firing."
         },
         "state": "",
         "town": ""
       },
-      "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
         "date": "2026-10-08"
       }
     },
@@ -599,9 +410,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows a public class where participants can sign up and fire the raku kiln as part of a pottery workshop series.",
+        "why": "The page shows a class where outsiders can pay to participate in raku firing as part of a multi-session pottery workshop.",
         "types": {
           "raku": "During Session 8, we will fire the raku kiln, and while the kiln temperature rises to the proper level, we will glaze the last of the functional pieces."
         },
@@ -659,9 +470,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention barrel firing and wood/soda firing at LaLa Studio, but the actual page text is empty, so I cannot verify from the page itself whether public outsiders can book or join these firings.",
+        "why": "The snippets mention barrel firing and wood/soda firing in the studio description, but do not explicitly state that outsiders can join these firings through a class, workshop, membership, rental, or service—only that pottery classes are offered.",
         "types": {},
         "state": "",
         "town": ""
@@ -677,136 +488,6 @@
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "made-in-muncie",
-      "org": "Made in Muncie",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "soda"
-      ],
-      "region": "Muncie",
-      "city": "Muncie",
-      "urls": [
-        "https://www.madeinmuncie.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Muncie, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.madeinmuncie.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "One unforgettable day of live music, raku firings, clay games, good food and local beer, amazing people, and the joy of making together.",
-        "url": "http://www.madeinmuncie.com/",
-        "types": [
-          "raku",
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "madeinmuncie.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippets mention raku firings and soda kiln firing, but the actual page text is empty, so I cannot verify if Made in Muncie itself offers public access to these firings or if they are references to other events/studios.",
-        "types": {
-          "raku": "One unforgettable day of live music, raku firings, clay games, good food and local beer, amazing people, and the joy of making together.",
-          "soda": "In this workshop participants will learn from Justin Rothshank about firing earthenware in the soda kiln."
-        },
-        "state": "IN",
-        "town": "Muncie"
-      },
-      "weak": true,
-      "lat": 40.19369,
-      "lng": -85.38653,
-      "located": {
-        "state": "IN",
-        "town": "Muncie",
-        "score": 8,
-        "osm": true,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "no",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "monte-young",
-      "org": "Monte Young",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Jasper",
-      "city": "Jasper",
-      "urls": [
-        "https://silivingmag.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Jasper, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://silivingmag.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Young invites other potters to add some of their pieces to his kiln in exchange for their help.",
-        "url": "https://silivingmag.com/2026/03/01/wood-fired-pottery/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "silivingmag.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The text describes Monte Young's personal wood-fired pottery practice and studio but contains no information about public access, workshops, classes, memberships, rentals, firing services, or appointments for outsiders to participate.",
-        "types": {
-          "wood": "Young now specializes in wood-fired stoneware with minimal earth-toned glazes and a rustic Japanese aesthetic."
-        },
-        "state": "IN",
-        "town": "Jasper"
-      },
-      "weak": true,
-      "lat": 41.03218,
-      "lng": -87.10666,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
       }
@@ -850,9 +531,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page offers a Raku Firing Workshop for $50 that is open to walk-ins and participants (beginners and experienced artists alike), with all materials and instruction included.",
+        "why": "The page offers a Raku Firing Workshop for $50 that is open to public sign-up with specific dates listed, including instruction, materials, and firing included.",
         "types": {
           "raku": "Participants will learn the fundamentals of the Raku process, including glazing techniques, kiln firing, and post-firing reduction methods that give each piece its one-of-a-kind appearance."
         },
@@ -914,9 +595,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippets mention gas, soda, wood fired and raku kilns and wood firing at Castle Hill, but the actual page text provided is empty, so I cannot verify these claims or confirm public access from the page itself.",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The page text provided contains only a description snippet with no information about public access to ceramic firings or firing types.",
         "types": {},
         "state": "",
         "town": ""
@@ -934,6 +615,64 @@
         "verdict": "no",
         "result": "split",
         "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "fortwayneclay",
+      "org": "fortwayneclay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Fort Wayne",
+      "city": "Fort Wayne",
+      "urls": [
+        "https://fortwayneclay.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Fort Wayne, Indiana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://fortwayneclay.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Next Dates: Sunday, Sept 27. 1 - 8 pm",
+        "url": "https://fortwayneclay.com/pages/raku-firing",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "fortwayneclay.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The search snippets describe Fort Wayne Clay as a pottery and ceramics supplier selling clay, tools, and glazes, with no text showing public access to non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
       }
     }
   ],
@@ -989,6 +728,30 @@
     {
       "id": "spears-gallery",
       "why": "Two models agree: The page is an artist gallery site whose Raku and Woodfire albums only display work, with nothing about public participation in firings. (2026-10-07)"
+    },
+    {
+      "id": "tekventure-makerspace",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not contain any information about the studio's offerings or public access policies. (2026-10-08)"
+    },
+    {
+      "id": "beale-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions an event name containing raku but provides no details on how outsiders can take part in a firing. (2026-10-08)"
+    },
+    {
+      "id": "buck-creek-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions a Raku kiln but does not offer any information on how the public can participate in a firing. (2026-10-08)"
+    },
+    {
+      "id": "made-in-muncie",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes the studio as a paint-your-own pottery and general ceramics studio that uses electric bisque firing, and while it mentions a raku event and a soda firing workshop, these are associated with external entities or specific guest artists rather than being services offered by Made in Muncie itself. (2026-10-08)"
+    },
+    {
+      "id": "monte-young",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions that the artist invites other potters to help with his kiln, but it does not provide a way for the general public to sign up, book, or contact him for participation. (2026-10-08)"
+    },
+    {
+      "id": "common-clay-space",
+      "why": "Its own pages give an address in CA (Creek Blvd Cupertino), not IN. Moved. (2026-10-08)"
     }
   ]
 }

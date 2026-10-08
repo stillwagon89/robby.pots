@@ -26,7 +26,7 @@
         "how": "Classes or membership",
         "note": "Classes or membership",
         "quote": "Please call (504) 234-1080 to find out when our next firing is scheduled.",
-        "url": "https://earthandfirestudio.com/portfolio/raku-firing/",
+        "url": "https://earthandfirestudio.com/pottery-classes/raku-firing/",
         "types": [
           "raku"
         ],
@@ -40,12 +40,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states 'We occasionally schedule group raku firing' and provides a phone number to inquire about upcoming firings, indicating the public can participate.",
-        "types": {
-          "raku": "We occasionally schedule group raku firing"
-        },
+        "why": "The page explicitly invites outsiders to contact them by phone or email to find out when the next raku firing is scheduled, providing a clear pathway for public participation.",
+        "types": {},
         "state": "LA",
         "town": "New Orleans"
       },
@@ -58,7 +56,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "nclac",
@@ -89,9 +93,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions a raku firing workshop open to participants, but the actual page text is empty, so I cannot verify the details or confirm public access from the page itself.",
+        "why": "The search snippet mentions a raku firing workshop but the actual page text is empty, so I cannot verify public access details or location information from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -102,6 +106,12 @@
         "town": "Ruston",
         "score": 4,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -134,9 +144,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "no",
-        "why": "No page text provided to verify public access to firings or location details.",
+        "why": "The page text provided contains only a search snippet describing raku technique with no information about public access, workshops, classes, memberships, rentals, or contact invitations for outsiders to participate in any firing.",
         "types": {},
         "state": "",
         "town": ""
@@ -145,209 +155,11 @@
       "located": {
         "osm": false,
         "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "crescent-city-clayworks",
-      "org": "Crescent City Clayworks",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "New Orleans",
-      "city": "New Orleans",
-      "urls": [
-        "https://www.crescentcityclayworks.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "New Orleans, Louisiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.crescentcityclayworks.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "crescentcityclayworks.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text contains no information about non-electric ceramic firings; it only mentions electric and gas kilns without describing any public access to raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
-        "types": {},
-        "state": "LA",
-        "town": "New Orleans"
-      },
-      "weak": true,
-      "lat": 29.95747,
-      "lng": -90.06295,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "bayou-bend-studio",
-      "org": "Bayou Bend Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Louisiana",
-      "city": null,
-      "urls": [
-        "https://www.bayoubendstudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.bayoubendstudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Bayou Bend Studio is a pottery studio specializing in functional ware, decorative Raku pottery, and clay artworks including Rudy the Raku Reindeer, porcelain buttons and jewelry, stoneware, and much more.",
-        "url": "https://www.bayoubendstudio.com/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "bayoubendstudio.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The text mentions raku pottery as a product specialty but provides no information about public access to firings, workshops, classes, or any firing services.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "monroe-clayworks",
-      "org": "Monroe ClayWorks",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Louisiana",
-      "city": null,
-      "urls": [
-        "https://monroeclayworks.barbaracostanzo.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://monroeclayworks.barbaracostanzo.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We’ll be set up at 11 am to begin glazing and firing our bisques pots.",
-        "url": "https://monroeclayworks.barbaracostanzo.com/raku-firings/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "monroeclayworks.barbaracostanzo.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text describes raku firings open to the public at a nominal $5 per piece, with specific setup times and size restrictions, inviting people to \"be part of our clay community.\"",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "ceramic-association-of-la-borne",
-      "org": "Ceramic association of La Borne",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "La Borne",
-      "city": "La Borne",
-      "urls": [
-        "https://www.laborne.org/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "La Borne, Louisiana",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.laborne.org/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "Hiring of the workshop and firings",
-        "url": "https://www.laborne.org/en/le_four_anagama_au_ccclb/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "laborne.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+      "agree": {
+        "model": "claude-sonnet-5-5",
         "verdict": "unclear",
-        "why": "The page mentions anagama and wood-fired kilns with workshops and hiring of firings, but does not explicitly state that outsiders (non-members/non-students) can book or participate.",
-        "types": {
-          "wood": "Wood-fired kilns"
-        },
-        "state": "",
-        "town": ""
-      },
-      "lat": 29.92051,
-      "lng": -90.37836,
-      "weak": true,
-      "located": {
-        "osm": false,
+        "result": "split",
         "date": "2026-10-08"
       }
     }
@@ -368,6 +180,22 @@
     {
       "id": "smoke-in-the-mountains-pottery",
       "why": "Its own pages give an address in NC (Brasstown), not LA. Moved. (2026-10-07)"
+    },
+    {
+      "id": "bayou-bend-studio",
+      "why": "Second check (gemma-4-31b-it): The text mentions Raku pottery but does not state that the public can participate in firings. (2026-10-08)"
+    },
+    {
+      "id": "monroe-clayworks",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions raku firings and costs, but does not provide any sentence showing how outsiders can join, book, or sign up for them. (2026-10-08)"
+    },
+    {
+      "id": "ceramic-association-of-la-borne",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions wood-fired kilns such as the anagama kiln, but does not state that outsiders can take part in or sign up for such firings. (2026-10-08)"
+    },
+    {
+      "id": "crescent-city-clayworks",
+      "why": "Second check (claude-haiku-4.5): The search snippets mention electric and gas kilns but provide no evidence of public access to non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings. (2026-10-08)"
     }
   ]
 }

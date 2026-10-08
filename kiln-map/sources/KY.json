@@ -28,73 +28,13 @@
       "lng": -84.77218
     },
     {
-      "id": "danvilleky",
-      "org": "danvilleky",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Danville",
-      "city": "Danville",
-      "urls": [
-        "https://www.danvilleky.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Danville, Kentucky",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.danvilleky.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Join us as we prepare for the historic April 2026 firing of the newly restored Anagama kiln.",
-        "url": "https://www.danvilleky.org/Calendar.aspx?EID=2676",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "danvilleky.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text shows a public class open to ages 14+ where participants can join to prepare for an April 2026 Anagama (wood) firing, with registration available.",
-        "types": {
-          "wood": "Learn wheel-throwing, trimming, and forming techniques using a special clay body designed for atmospheric wood firing."
-        },
-        "state": "KY",
-        "town": "Danville"
-      },
-      "weak": false,
-      "lat": 37.64565,
-      "lng": -84.77218,
-      "located": {
-        "state": "KY",
-        "town": "Danville",
-        "score": 6,
-        "osm": false,
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "art-center-of-the-bluegrass",
       "org": "Art Center of the Bluegrass",
       "kind": "city_arts",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
-        "soda"
+        "wood"
       ],
       "region": "Danville",
       "city": "Danville",
@@ -114,8 +54,7 @@
         "quote": "Art Center of the Bluegrass will host an opening ceremony for the inaugural firing of an anagama kiln from 2-4 p.m. on Sunday, April 12. This wood-fired pottery experience is unique in this part of the United States, drawing potters from around the region and beyond to participate.",
         "url": "https://danvillekentucky.com/event/creating-pottery-for-the-anagama-kiln/2026-08-27/",
         "types": [
-          "wood",
-          "soda"
+          "wood"
         ],
         "checked": "2026-10-07"
       },
@@ -127,12 +66,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The search snippets show the Art Center of the Bluegrass offers public workshops for anagama (wood) firing and soda firing, with explicit invitations to join and participate.",
+        "why": "The search snippets show public workshops for both anagama (wood) firing and soda firing where outsiders can join and participate.",
         "types": {
-          "wood": "Learn wheel-throwing, trimming, and forming techniques using a special clay body designed for atmospheric wood firing.",
-          "soda": "On the second day, the pots will be hit with soda, creating unique colors and textures."
+          "wood": "Join us as we prepare for the firing of the newly restored Anagama kiln."
         },
         "state": "KY",
         "town": "Danville"
@@ -187,14 +125,14 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a hands-on soda firing workshop open to the public at the instructor's home studio in Northern Kentucky, with registration via waitlist and email signup.",
+        "why": "The page offers a hands-on soda firing workshop open to the public with a clear registration process (join waitlist or email list for future dates).",
         "types": {
           "soda": "I'm excited to welcome folks to my home studio in Northern Kentucky for a 2.5-day deep dive into cone 6 soda firing — from glazing to unloading."
         },
         "state": "KY",
-        "town": "",
+        "town": "Northern Kentucky",
         "street": "138 Hope Ln"
       },
       "lat": 37.50788,
@@ -244,18 +182,71 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states visitors can book a raku firing for groups, studios, or individuals by requesting a date and time.",
+        "why": "The site offers public raku firings that can be booked by groups, studios, or individuals through a scheduling request process.",
         "types": {
-          "raku": "Book a Raku Firing (Mobile)"
+          "raku": "Book a Raku Firing (Mobile) Schedule a Raku Firing. This can be for groups, studios, or individuals."
         },
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "warehome-studios",
+      "org": "Warehome Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Kentucky",
+      "city": null,
+      "urls": [
+        "https://www.warehomestudios.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.warehomestudios.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "warehomestudios.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "Search snippets show a raku firing event but no page text provided to verify public access details, location, or how to sign up.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     }
@@ -300,6 +291,14 @@
     {
       "id": "rickman-pottery",
       "why": "Two models agree: This is an Etsy shop for Rickman Pottery selling handmade ware; the snippets mention gas-fired and raku firing only as the makers' own work, with no public firing workshop, class, rental or service offered. (2026-10-07)"
+    },
+    {
+      "id": "danvilleky",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions a class for creating pottery for an anagama kiln, but does not state that outsiders can participate in the actual firing itself. (2026-10-08)"
+    },
+    {
+      "id": "alexadamsclaywork",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions standard kiln firing without any reference to raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction firings. (2026-10-08)"
     }
   ]
 }

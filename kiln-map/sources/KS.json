@@ -2,63 +2,6 @@
   "_note": "KS firing sources.",
   "sources": [
     {
-      "id": "tallgrass-artist-residency",
-      "org": "Tallgrass Artist Residency",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Matfield Green",
-      "city": "Matfield Green",
-      "urls": [
-        "https://tallgrassartistresidency.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Matfield Green, Kansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://tallgrassartistresidency.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Join ceramics artist Justice Catron for an outdoor demonstration of pit firing techniques.",
-        "url": "https://tallgrassartistresidency.org/pit-firing-demonstration-with-justice-catron/",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "tallgrassartistresidency.org"
-      },
-      "lat": 38.15918,
-      "lng": -96.56057,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text describes a public pit firing demonstration that anyone can join ('Join ceramics artist Justice Catron for an outdoor demonstration of pit firing techniques').",
-        "types": {
-          "pit_barrel_saggar": "Pit firing is an ancient method for firing unglazed ceramics that produces interesting and unpredictable surfaces."
-        },
-        "state": "KS",
-        "town": "Matfield Green",
-        "street": "Highway KS-177"
-      },
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "weak": false
-    },
-    {
       "id": "camp-singers",
       "org": "Camp Singers",
       "kind": "studio",
@@ -87,9 +30,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions pit firing workshops at Camp Singers, but the page text provided is empty, so I cannot verify if public enrollment is possible or extract location details.",
+        "why": "The page text is empty; only a search snippet mentions pit firing but provides no information about public access, booking, or participation methods.",
         "types": {},
         "state": "",
         "town": ""
@@ -145,9 +88,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states Bracker's provides Raku workshops where outsiders (students from schools and arts centers) can participate, with instruction included, either at their location or brought to schools.",
+        "why": "Bracker's offers Raku Workshops where outsiders can bring students and pots, with instruction included, and also offers a mobile 'Raku to you' version for schools and arts centers.",
         "types": {
           "raku": "We provide the complete Raku setup, you bring your students and their pots."
         },
@@ -191,7 +134,7 @@
         "how": "Classes or membership",
         "note": "Classes or membership",
         "quote": "Raku Pumpkin Day October 10 Experience the fire and excitement of Raku while creating a one-of-a-kind ceramic pumpkin.",
-        "url": "https://www.houseofclaykc.com/",
+        "url": "https://www.houseofclaykc.com/raku-pottery-workshop-overland-park/",
         "types": [
           "raku"
         ],
@@ -205,11 +148,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "page says state is KS, not MO",
+        "why": "House of Clay offers Raku Pumpkin Day, a public workshop where outsiders can reserve a spot to participate in a live Raku firing for $75 per person with no experience required.",
         "types": {
-          "raku": "Experience the fire and excitement of Raku while creating a one-of-a-kind ceramic pumpkin."
+          "raku": "Join us for Raku Pumpkin Day on October 10 at House of Clay in Overland Park! In this one-day pottery experience, you'll glaze your own handmade ceramic pumpkin and watch it transform during a live Raku firing."
         },
         "state": "KS",
         "town": "Overland Park"
@@ -234,6 +177,10 @@
     {
       "id": "house-of-clay-ks",
       "why": "Its own pages give an address in IL (Chicago), not KS. Moved. (2026-10-08)"
+    },
+    {
+      "id": "tallgrass-artist-residency",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes a demonstration for the public to watch, but does not offer a way for outsiders to participate in the firing process itself. (2026-10-08)"
     }
   ]
 }

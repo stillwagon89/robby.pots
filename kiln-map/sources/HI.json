@@ -67,11 +67,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets describe a raku firing event open to ceramic artists, but the actual page text is empty, so location details cannot be verified from the page itself.",
+        "why": "The search snippets describe a raku event that brings together ceramic artists to participate in raku firing, but the actual page text is empty, so I cannot verify the location details or confirm public access terms.",
         "types": {
-          "raku": "participate in raku and related firing techniques at a campout"
+          "raku": "brings together ceramic artists to participate in raku and related firing techniques at a campout"
         },
         "state": "",
         "town": ""
@@ -130,11 +130,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a raku workshop open to the public at Hawaii Ceramic Supply where participants can sign up to learn raku firing techniques including copper matte luster, mica, naked raku, horsehair and sagar.",
+        "why": "The text shows a raku workshop open to outsiders with specific dates, location, and instructors, where participants can sign up to learn raku firing techniques.",
         "types": {
-          "raku": "Several raku techniques will be covered including copper matte luster with alcohol reduction, mica, naked raku, horsehair and sagar."
+          "raku": "Raku Workshop Featuring Don Ellis & Randy Brodnax (2-1/2 Days) Dates: August 9th (1pm to 4pm), 10th (9:30am to 4pm) and 11th (9:30am to 4pm) Location: Hawaii Ceramic Supply, 1920 Colburn Street, Honolulu, HI 96819"
         },
         "state": "HI",
         "town": "Honolulu",
@@ -189,13 +189,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The snippets mention raku and woodfiring workshops, but the actual page text is empty, so location details and whether outsiders can participate cannot be verified.",
-        "types": {
-          "raku": "we specialize in alternate forms of firings like raku",
-          "wood": "coordinate woodfiring workshop trips to Japan"
-        },
+        "why": "The snippets mention raku and woodfiring workshops but do not provide enough detail about how outsiders can access these specific firing types or their location.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -210,127 +207,6 @@
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "mudd-studio-ceramics",
-      "org": "Mudd-Studio Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Honolulu",
-      "city": "Honolulu",
-      "urls": [
-        "https://clayatlas.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Honolulu, Hawaii",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://clayatlas.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Classes cover wedging, centering, trimming, glazing, coiling, and slab building; all materials including clay, tools, and kiln firings are included.",
-        "url": "https://clayatlas.com/pottery-classes/mudd-studio-ceramics/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "clayatlas.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The page mentions kiln rental/firing and classes with kiln firings included, but does not specify the firing type (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction).",
-        "types": {},
-        "state": "HI",
-        "town": "Honolulu",
-        "street": "1192 Smith St, Honolulu, HI 96817"
-      },
-      "weak": true,
-      "lat": 21.30455,
-      "lng": -157.85568,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "no",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "studio-7-fine-arts",
-      "org": "Studio 7 Fine Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Hilo",
-      "city": "Hilo",
-      "urls": [
-        "https://www.studiosevenfinearts.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Hilo, Hawaii",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.studiosevenfinearts.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The three-acre tropical atelier in northern Hilo, Hawaii is visually stunning as it merges indoor and outdoor space.",
-        "url": "https://www.studiosevenfinearts.com/cid-tolkien",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "studiosevenfinearts.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippets describe Studio 7 Fine Arts' anagama kiln and Clayton Amemiya's work, but the actual page text is empty, so there is no information about whether the public can participate in firings.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 19.70737,
-      "lng": -155.08158,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "no",
         "result": "split",
         "date": "2026-10-07"
       }
@@ -368,6 +244,14 @@
     {
       "id": "haleiwa-art-gallery",
       "why": "Two models agree: The text only describes an artist's raku pottery sold at a gallery, with nothing about public workshops, classes, rentals or firing services. (2026-10-07)"
+    },
+    {
+      "id": "mudd-studio-ceramics",
+      "why": "Second check (gemini-3-flash-preview): The text mentions kiln firings and workshops but does not specify any non-electric firing types like raku, wood, or soda for this studio. (2026-10-08)"
+    },
+    {
+      "id": "studio-7-fine-arts",
+      "why": "Second check (gemma-4-31b-it): The text mentions an anagama kiln but does not state that the public can participate in firings. (2026-10-08)"
     }
   ]
 }

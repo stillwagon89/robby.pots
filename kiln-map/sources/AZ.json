@@ -67,9 +67,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention raku and saggar firing workshops open to students, but the actual page text is empty, so location details and public access cannot be verified.",
+        "why": "The search snippets describe raku and saggar firing workshops, but the page text provided is empty, so location details cannot be verified.",
         "types": {
           "raku": "We will be using non-traditional finishes such as Raku, Saggar, and Obvara to create beautiful surface results.",
           "pit_barrel_saggar": "We will be using non-traditional finishes such as Raku, Saggar, and Obvara to create beautiful surface results."
@@ -121,15 +121,15 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows a public Raku Workshop available for registration by calling the phone number provided, with a specific address and price listed.",
+        "why": "Marjon Ceramics offers a Raku Workshop open to the public for registration by calling their phone number, with a clear price and schedule listed.",
         "types": {
-          "raku": "Raku Workshop"
+          "raku": "Raku Workshop with Gordon Leishman $115.00"
         },
         "state": "AZ",
         "town": "Phoenix",
-        "street": "3434 W Earll Drive Suite 101"
+        "street": "3434 W Earll Drive Suite 101 Phoenix, AZ 85017"
       },
       "lat": 33.44844,
       "lng": -112.07414,
@@ -168,12 +168,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text mentions salt firing and wood firing at the location and references wood kilns available to residents, but does not explicitly state whether non-residents or the general public can participate in firings.",
-        "types": {
-          "salt": "salt firing"
-        },
+        "why": "The text mentions wood firing and salt firing at the location, and describes a residency program with access to kilns, but does not explicitly state whether outsiders (non-residents) can participate in firings or how to book/join them.",
+        "types": {},
         "state": "AZ",
         "town": ""
       },
@@ -231,12 +229,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text explicitly states 'The public is invited to join us for the annual Pit Fire Pottery Festival' and describes pit fire as an ancient ceramic firing method, with the event open to the community with free admission.",
-        "types": {
-          "pit_barrel_saggar": "A pit fire is an ancient method of \"baking\" clay that has been placed in a hole, or pit dug into the ground with a wood fire burning above, resulting in pieces covered in swirls of colors and patterns."
-        },
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The text describes a public festival event but does not explicitly state that outsiders can participate in the actual pit firing itself—only that they can attend the festival, purchase items, and watch performances.",
+        "types": {},
         "state": "AZ",
         "town": "Douglas",
         "street": "4190 West Highway 80"
@@ -247,7 +243,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "arcosanti",
@@ -288,9 +290,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes two clay pit-firing weekend workshops open to participants who can register, with clear dates, costs, and registration information.",
+        "why": "The page describes two clay pit-firing weekend workshops open to participants who can register, with clear pricing and registration details.",
         "types": {},
         "state": "",
         "town": ""
@@ -303,71 +305,6 @@
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "potteryclassess",
-      "org": "potteryclassess",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
-      ],
-      "region": "Phoenix",
-      "city": "Phoenix",
-      "urls": [
-        "https://potteryclassess.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Phoenix, Arizona",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://potteryclassess.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "You can also find classes that focus on specific techniques, such as Raku firing or pit firing.",
-        "url": "https://potteryclassess.com/pottery-classes-in-phoenix/",
-        "types": [
-          "raku",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "potteryclassess.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The page mentions pottery classes in Phoenix that focus on Raku firing and pit firing techniques, but does not explicitly state that outsiders can book, sign up, or participate in these firings.",
-        "types": {
-          "raku": "You can also find classes that focus on specific techniques, such as Raku firing or pit firing.",
-          "pit_barrel_saggar": "You can also find classes that focus on specific techniques, such as Raku firing or pit firing."
-        },
-        "state": "AZ",
-        "town": "Phoenix"
-      },
-      "lat": 33.44844,
-      "lng": -112.07414,
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
       }
@@ -411,9 +348,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "no",
-        "why": "The text describes a directory listing with no information about public access to firings, workshop offerings, or how to participate in any ceramic firing.",
+        "why": "The snippet mentions raku but provides no page text showing how outsiders can access a firing—only that Rhonda Davis is a ceramic artist who specializes in raku and teaches students.",
         "types": {},
         "state": "",
         "town": ""
@@ -433,66 +370,51 @@
       }
     },
     {
-      "id": "mud-makers",
-      "org": "Mud Makers",
+      "id": "laima-ceramics",
+      "org": "Laima Ceramics",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Ave Chino Valley",
-      "city": "Ave Chino Valley",
+      "region": "Arizona",
+      "city": null,
       "urls": [
-        "https://www.mudmakers.org/"
+        "https://www.laimaceramics.com/"
       ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Ave Chino Valley, Arizona",
-      "location_note": "Shown at the town.",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
       "contact": {
-        "website": "https://www.mudmakers.org/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "In this hands-on workshop, participants will bring their own bisque-fired pottery and experience the Raku firing process from glazing through firing and post-firing reduction.",
-        "url": "https://www.mudmakers.org/workshops/p/raku-firing-workshop",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
+        "website": "https://www.laimaceramics.com/"
       },
       "review": "pending",
       "discovered": {
         "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "mudmakers.org"
+        "date": "2026-10-08",
+        "key": "laimaceramics.com"
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippet describes a raku firing workshop that participants can join, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
-        "types": {
-          "raku": "participants will bring their own bisque-fired pottery and experience the Raku firing process from glazing through firing and post-firing reduction"
-        },
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The search snippet mentions a raku workshop but the actual page text is empty, providing no information about how to book, sign up, or access the workshop, and no location details.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
-        "state": "AZ",
-        "town": "Ave Chino Valley",
-        "score": 6,
         "osm": false,
         "date": "2026-10-08"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
+        "verdict": "yes",
         "result": "split",
-        "date": "2026-10-07"
+        "date": "2026-10-08"
       }
     }
   ],
@@ -568,6 +490,14 @@
     {
       "id": "phgmag",
       "why": "Two models agree: The page is a magazine profile of ceramicist Nicholas Bernard that mentions he made raku pots and holds kiln openings and open houses, but it offers no public firing workshop, class, rental, or booking. (2026-10-07)"
+    },
+    {
+      "id": "mud-makers",
+      "why": "Second check (gemini-3-flash-preview): The text mentions clay workshops and community studio access but does not list any specific non-electric firing types like raku, wood, or soda. (2026-10-08)"
+    },
+    {
+      "id": "potteryclassess",
+      "why": "Second check (claude-haiku-4.5): The page is a blog/directory about pottery classes with no specific enrollment information, contact details, or booking mechanism for any actual firing workshops or classes at a real location. (2026-10-08)"
     }
   ]
 }

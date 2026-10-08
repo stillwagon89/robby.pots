@@ -37,8 +37,7 @@
       "public": true,
       "firing_types_guess": [
         "wood",
-        "soda",
-        "raku"
+        "soda"
       ],
       "region": "Germantown",
       "city": "Germantown",
@@ -56,11 +55,10 @@
         "how": "**Book a private soda firing** for up to 6 artists",
         "note": "**Book a private soda firing** for up to 6 artists",
         "quote": "Book a private Soda Firing. Would you, and up to five other artists, like to book a private firing workshop with one of our instructors? This firing allows up to 6 partisticpzants 2-2.5 cubic feet each of bisque fired work to be glazed and fired during the 3 day workshop.",
-        "url": "https://www.theokidokistudio.com/about",
+        "url": "https://www.theokidokistudio.com/workshops-1",
         "types": [
           "wood",
-          "soda",
-          "raku"
+          "soda"
         ],
         "checked": "2026-10-06"
       },
@@ -74,13 +72,12 @@
       "lng": -73.8918,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The studio offers public workshops for ceramic artists of all levels to participate in wood, soda, and anagama firings, with multiple scheduled classes available for registration.",
+        "why": "The studio offers multiple workshops where outsiders can register and participate in wood, soda, and anagama firings.",
         "types": {
-          "wood": "In 2019, in an effort to make a more intimate, quieter wood firing experience possible, I had a small Train kiln built that can be fired by as few as two people in a few days.",
-          "soda": "The Oki Doki Studio is a private studio committed to offering exceptional ceramic workshops focused on the wood and soda firing process.",
-          "raku": "During those years I did raku firings on weekends in upstate NY and sold all my work through A Show of Hands Gallery, an upper-west side Manhattan institution for fine crafts."
+          "wood": "August 2-4 and 7th: Introduction to Wood Firing with Harrison Levenstein",
+          "soda": "August 21-23 and 26th: Firing the soda kiln with Samantha Hostert"
         },
         "state": "NY",
         "town": "Germantown"
@@ -132,9 +129,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text describes Raku, barrel, and pit firings offered in Port Washington, NY, but does not explicitly state whether the public can book, sign up, or participate in these firings.",
+        "why": "The page describes raku, barrel, and pit firings offered by AlterWork Studios but does not explicitly state how outsiders can access them (no mention of classes, workshops, memberships, rentals, firing services, or contact instructions).",
         "types": {
           "raku": "AlterWork Studios offers Raku, barrel and pit firings in Port Washington, NY, just 30 minutes away from our Long Island City location.",
           "pit_barrel_saggar": "AlterWork Studios offers Raku, barrel and pit firings in Port Washington, NY, just 30 minutes away from our Long Island City location."
@@ -148,6 +145,12 @@
         "town": "Long Island City",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -192,21 +195,25 @@
       "lng": -73.95458,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states the kiln is fired four times a year and welcomes many participants to fire with him in celebratory communal events, indicating public access to wood-fire firings.",
-        "types": {
-          "wood": "The Wood-Fire Kiln is a Japanese style Anagama-Noborigama cross-draft kiln"
-        },
+        "why": "The page states the kiln is fired four times a year and welcomes many participants to fire with him in celebratory communal events, with testimonials from participants describing their firing experiences.",
+        "types": {},
         "state": "NY",
         "town": "Cold Spring"
       },
-      "weak": false,
+      "weak": true,
       "located": {
         "state": "NY",
         "town": "Cold Spring",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -249,12 +256,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows public can book and participate in a Woodfire Intensive workshop with scheduled dates, pricing ($350), and a 'Book Now' button for outsiders to join.",
-        "types": {
-          "wood": "The Walton Woodfire kiln is an off grid firing experience, located in Walton, NY, 2.5 hours from the GWB."
-        },
+        "why": "The page offers a public Woodfire Intensive workshop with a 'Book Now' button and clear pricing ($350 per 1 cu ft), allowing outsiders to participate in wood firing via a scheduled workshop.",
+        "types": {},
         "state": "NY",
         "town": "Walton"
       },
@@ -265,7 +270,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "craigardan",
@@ -274,8 +285,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
-        "salt"
+        "wood"
       ],
       "region": "Elizabethtown",
       "city": "Elizabethtown",
@@ -295,8 +305,7 @@
         "quote": "2025 Wood Kiln Firing Workshop",
         "url": "http://www.craigardan.org/events/2025/9/1/2025-wood-kiln-firing-workshop",
         "types": [
-          "wood",
-          "salt"
+          "wood"
         ],
         "checked": "2026-10-06"
       },
@@ -310,12 +319,11 @@
       "lng": -73.5908,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes multiple wood kiln firing workshops and a weekend firing event open to the public via registration, with hands-on instruction in glazing, loading, and firing processes.",
+        "why": "The page offers multiple workshops and a firing weekend where outsiders can sign up to participate in wood and wood/salt kiln firings with instruction.",
         "types": {
-          "wood": "Join us for a week-long workshop in the Adirondacks to gain hands-on experience learning about the exciting process of wood firing.",
-          "salt": "Participants will spend a long weekend at the beautiful Craigardan campus, glazing, loading and firing our wood/salt kiln as a group, with instruction from our staff along the way."
+          "wood": "Join us for a week-long workshop in the Adirondacks to gain hands-on experience learning about the exciting process of wood firing."
         },
         "state": "NY",
         "town": "Elizabethtown",
@@ -368,12 +376,10 @@
       "lng": -73.33015,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes multiple wood-fired kilns available for public participation through workshops, rentals, and residencies, including the Large Kiln, Flat Top Kiln, Spitfire Kiln, and a Kiln Building Workshop where groups can design and fire temporary kilns.",
-        "types": {
-          "raku": "Our wood-fired raku kiln holds about a cubic foot of space per load."
-        },
+        "why": "Salem Art Works offers multiple wood-fired kiln workshops, rentals, and residencies open to outsiders, including raku and wood-firing options with clear booking procedures.",
+        "types": {},
         "state": "NY",
         "town": "Salem",
         "street": "19 Cary Lane, Salem NY 12865"
@@ -385,7 +391,13 @@
         "osm": true,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "new-prospect-pottery",
@@ -432,14 +444,10 @@
       "lng": -74.29391,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states 'Please contact me if you would like to come and glaze your pots' for salt and reduction firings that are ongoing, and describes upcoming wood firing events open to participation.",
-        "types": {
-          "gas_reduction": "Gas Reduction Kiln for ^10 reduction firings;",
-          "salt": "Salt Kiln (aka Morty)for ^10 salt firings;",
-          "wood": "Anagama Wood Kiln (aka The Donnagama) for multi-day, wood firings."
-        },
+        "why": "The page explicitly invites outsiders to contact them to participate in salt, gas reduction, and wood firings, with specific contact information provided.",
+        "types": {},
         "state": "NY",
         "town": "Pine Bush",
         "street": "2646 New Prospect Road"
@@ -448,7 +456,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "woodstock-byrdcliffe-guild",
@@ -493,11 +507,11 @@
       "lng": -74.11825,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes an Intermediate & Advanced Soda Firing class open for registration where participants can prepare for and participate in soda firing, with an option to fire work in gas reduction.",
+        "why": "The page shows an Intermediate & Advanced Soda Firing class that outsiders can register for, with a specific address and dates provided.",
         "types": {
-          "soda": "Soda firing is an atmospheric process that creates unique and unpredictable effects as soda ash vapors react with the clay and glaze at high temperatures.",
+          "soda": "This class will cover the materials and techniques required to prepare for a soda firing.",
           "gas_reduction": "students will also have the option to fire their work in gas reduction"
         },
         "state": "NY",
@@ -551,18 +565,22 @@
       "lng": -73.69179,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention a salt fire workshop open to all levels, but the page text provided is empty, so I cannot verify the location details or confirm public access.",
-        "types": {
-          "salt": "The Salt Fire Experience: an ALL levels ceramic workshop"
-        },
+        "why": "The search snippets mention a salt fire workshop at Collective in Troy, NY, but the page text provided is empty, so I cannot verify the details or copy word-for-word sentences about how outsiders can participate.",
+        "types": {},
         "state": "NY",
         "town": "Troy"
       },
       "weak": true,
       "located": {
         "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -591,7 +609,7 @@
         "how": "Workshops",
         "note": "Workshops",
         "quote": "Workshops in Raku firing and wood firing are also offered.",
-        "url": "https://studiosalespottery.com/about",
+        "url": "https://studiosalespottery.com/shop/classes/workshop-raku-firing-copy",
         "types": [
           "raku"
         ],
@@ -607,11 +625,11 @@
       "lng": -77.74546,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a workshop where public participants can sign up for raku firing, with pricing and enrollment details provided.",
+        "why": "The page offers public raku firing workshops that outsiders can sign up for at $150 per workshop.",
         "types": {
-          "raku": "Raku firing of pottery and sculpture in the West is typically a low-fire process done in a fast manner followed by unloading the red hot pots into barrels of straw or newsprint to influence metal oxides and carbonates in the glazes."
+          "raku": "Workshop includes firing up to 6 pieces made from raku clay ( I recommend #239 clay from Standard Ceramics), bisque firing at Studio Sales if needed, the instruction in the use of studio raku glazes and the firing of the vessels and forms."
         },
         "state": "NY",
         "town": "Avon"
@@ -663,11 +681,11 @@
       "lng": -74.96909,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows public can join the Fall Raku Firing event on October 10th to purchase a pot, glaze it, and watch it get fired in real time in their wood-fired raku kiln.",
+        "why": "The page clearly invites the public to join raku firings on specific dates with instructions to purchase a pot and glaze it to be fired in real time.",
         "types": {
-          "raku": "Join us on Saturday, October 10th between 10am and 3pm for a wood-fired raku firing."
+          "raku": "Purchase a pot, glaze it in one of View's raku glazes and watch it get fired in real time."
         },
         "state": "NY",
         "town": "Old Forge"
@@ -722,9 +740,9 @@
       "lng": -73.67235,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a one-day 'Smoke and Sawdust - Pit Firing Workshop' where the public can bring bisqueware and learn pit firing technique.",
+        "why": "The page offers a public one-day workshop where outsiders can bring bisqueware and learn pit firing technique.",
         "types": {},
         "state": "NY",
         "town": ""
@@ -732,6 +750,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -776,11 +800,11 @@
       "lng": -73.99093,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a hands-on ceramic pit firing workshop open to the public (no experience required, beginner-friendly) where participants can join and create clay pieces.",
+        "why": "The page shows outsiders can join a hands-on ceramic pit firing workshop via booking at Camp Singers.",
         "types": {
-          "pit_barrel_saggar": "learn the ancient art of pit firing—where ceramics are fired in an open pit using natural materials like wood, sawdust, and leaves to create rich, organic surface patterns"
+          "pit_barrel_saggar": "Join Artshack at Camp Singers for a hands-on ceramic pit firing workshop in the stunning Catskills!"
         },
         "state": "NY",
         "town": "Delancey"
@@ -816,7 +840,7 @@
         "how": "Class ends with a pit fire",
         "note": "Class ends with a pit fire",
         "quote": "Participants load and observe a pit fire on the final day of class, and pick up their completed pieces the following Monday.",
-        "url": "https://damico-art.org/event/pit-fire-ceramics-2-2",
+        "url": "https://damico-art.org/events/month/",
         "types": [
           "pit_barrel_saggar"
         ],
@@ -832,9 +856,9 @@
       "lng": -72.13322,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows a pit fire ceramics class open to all levels with public enrollment via workshop, where participants load and observe an actual pit fire.",
+        "why": "The page shows a pit fire ceramics class open to all levels where outsiders can sign up for a workshop that includes participating in an actual pit firing.",
         "types": {
           "pit_barrel_saggar": "This hand-building clay class offers an exploration into pit fired ceramics, an ancient method of \"baking\" clay in a pit fire to produce unpredictable designs, spectacular colors, smoky variations and textural imprints."
         },
@@ -892,9 +916,9 @@
       "lng": -74.00602,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The Gowanus location offers memberships with firing access and classes to the public, and explicitly states 'We fire cone 10 reduction at this facility!'",
+        "why": "The Gowanus location offers memberships and classes with access to cone 10 reduction firing, which is a non-electric gas-reduction firing type available to outsiders.",
         "types": {
           "gas_reduction": "We fire cone 10 reduction at this facility!"
         },
@@ -909,7 +933,12 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": true
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "makerspace-nyc",
@@ -952,11 +981,11 @@
       "lng": -73.94972,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a raku pottery class series at MakerSpace NYC in Brooklyn where the public can sign up for building sessions and a raku firing day in Staten Island, with pricing listed for both members and non-members.",
+        "why": "The page shows outsiders can join raku firing classes and a firing day through a workshop series at MakerSpace NYC in Brooklyn, with public sign-up available.",
         "types": {
-          "raku": "Discover the ancient Japanese art of raku pottery firing, where vibrant glazes and intense heat create stunning, one-of-a-kind masterpieces."
+          "raku": "join us in our Brooklyn pottery studio to hand build your own raku piece with instruction from master teacher Darren Corona"
         },
         "state": "NY",
         "town": "Brooklyn"
@@ -1008,11 +1037,11 @@
       "lng": -73.94972,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows a Raku Workshop available for $500 with scheduled dates (August 28-30 and October 23-25) that people can register for, indicating public access to a non-electric ceramic firing.",
+        "why": "The page shows a raku workshop available for $500 with scheduled dates and registration open to the public.",
         "types": {
-          "raku": "Raku Workshop"
+          "raku": "Raku Workshop $500 available at Choplet Ceramics Studio"
         },
         "state": "NY",
         "town": "Brooklyn",
@@ -1068,12 +1097,10 @@
       "lng": -73.83074,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states 'Additional workshops over the course of the year will touch on other methods and styles, which include raku' and welcomes all to join, indicating public access to raku workshops.",
-        "types": {
-          "raku": "Additional workshops over the course of the year will touch on other methods and styles, which include raku, sculpture, and other glazing techniques, to name a few."
-        },
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "Raku is mentioned as a workshop topic but no specific details about how outsiders can access or participate in raku firings.",
+        "types": {},
         "state": "NY",
         "town": "Kew Gardens",
         "street": "120-33 83rd Avenue, Kew Gardens, NY 11415"
@@ -1085,7 +1112,13 @@
         "osm": true,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "brooklyn-clay-industries",
@@ -1128,12 +1161,10 @@
       "lng": -73.94972,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text lists 'Raku' and 'Outside Firing Services' as offerings at Brooklyn Clay Industries, and states the studio provides 'firing services' to both adults and children through classes and memberships, allowing public access.",
-        "types": {
-          "raku": "Raku"
-        },
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page lists 'Raku' and 'Outside Firing Services' as offerings at Brooklyn Clay Industries, but provides no specific sentence describing how outsiders can book or participate in raku firings.",
+        "types": {},
         "state": "NY",
         "town": "Brooklyn"
       },
@@ -1141,7 +1172,579 @@
         "osm": false,
         "date": "2026-10-08"
       },
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "silk-road-ceramics-studio",
+      "org": "Silk Road Ceramics Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "New York",
+      "city": null,
+      "urls": [
+        "https://www.hisawyer.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.hisawyer.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Experience the excitement of Raku firing in this intensive workshop!",
+        "url": "https://www.hisawyer.com/marketplace/activity-set/1916408",
+        "types": [
+          "raku",
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "hisawyer.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "Search snippet mentions a raku workshop but no page text is provided to verify public access details or location information.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "andrew-sartorius-ceramics",
+      "org": "Andrew Sartorius Ceramics",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Germantown",
+      "city": "Germantown",
+      "urls": [
+        "https://www.andrewsartoriusceramics.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Germantown, New York",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.andrewsartoriusceramics.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "The Oki Doki Studio is a private studio committed to offering exceptional ceramic workshops. Nestled in Germantown, New York on 14 acres of scenic Hudson River Valley wilderness, the studio offers making and firing workshops focused on wood and soda firing ceramic processes.",
+        "url": "https://www.andrewsartoriusceramics.com/services-1",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "andrewsartoriusceramics.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page explicitly states the studio offers studio workshops and making and firing workshops focused on wood and soda firing, open to ceramic artists of all levels.",
+        "types": {
+          "soda": "the studio offers making and firing workshops focused on wood and soda firing ceramic processes"
+        },
+        "state": "NY",
+        "town": "Germantown"
+      },
+      "weak": false,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "new-york-state-art-teachers-association",
+      "org": "New York State Art Teachers Association",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "salt"
+      ],
+      "region": "New York",
+      "city": null,
+      "urls": [
+        "https://nysata.memberclicks.net/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://nysata.memberclicks.net/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "This workshop will explore form, function, aesthetic values, textures, tactile qualities, and surface development of atmospheric firing through salt over four summer Saturdays.",
+        "url": "https://nysata.memberclicks.net/index.php?option=com_jevents&task=icalrepeat.detail&evid=365&Itemid=1&year=2024&month=07&day=20&title=r3-salt-firing-workshops&uid=a4b8e97a875fea68bed85990614db832",
+        "types": [
+          "salt"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "nysata.memberclicks.net"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a salt-firing workshop offered by NYSATA where outsiders can enroll in classes over four summer Saturdays.",
+        "types": {},
+        "state": "NY",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "wheel-slab-pottery-club",
+      "org": "Wheel & Slab Pottery Club",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Rochester",
+      "city": "Rochester",
+      "urls": [
+        "https://www.wheelandslab.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Rochester, New York",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.wheelandslab.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Club pricing is all inclusive! Clay, glazes, shelf space, and firings are included in a simple, easy to manage monthly fee!",
+        "url": "https://www.wheelandslab.com",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "wheelandslab.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The text mentions firings are included in club membership and references past wood firings, but does not specify what types of firings are currently offered or provide clear instructions for outsiders to participate in a specific firing type.",
+        "types": {},
+        "state": "NY",
+        "town": "Rochester",
+        "street": "1867 Mt. Hope Avenue Building 2"
+      },
+      "weak": true,
+      "located": {
+        "state": "NY",
+        "town": "Rochester",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "waterbrook-potters-studio",
+      "org": "Waterbrook Potters Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood"
+      ],
+      "region": "Watervliet",
+      "city": "Watervliet",
+      "urls": [
+        "https://www.waterbrookpotters.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Watervliet, New York",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.waterbrookpotters.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "waterbrookpotters.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The search snippets mention raku and woodfire but the page text provided is empty, so no details about public access, workshops, or how to participate can be verified.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "NY",
+        "town": "Watervliet",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "thousand-islands-arts-center",
+      "org": "Thousand Islands Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "New York",
+      "city": null,
+      "urls": [
+        "https://tiartscenter.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://tiartscenter.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "TIAC’s raku firing experience is designed to give you a feel for that ancient process.",
+        "url": "https://tiartscenter.org/classes/pottery-studio",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "tiartscenter.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page offers public raku firing parties available by appointment, with explicit instructions to contact Kathy to book.",
+        "types": {},
+        "state": "NY",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "long-island-university",
+      "org": "Long Island University",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Brookville",
+      "city": "Brookville",
+      "urls": [
+        "https://liu.edu/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Brookville, New York",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://liu.edu/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "He currently is a contributing member of the Brooklyn Project, an experimental propane/wood fired kiln located in downtown Brooklyn.",
+        "url": "https://liu.edu/brooklyn/academics/school-of-professional-and-continuing-studies/Language-Creative-Arts/Ceramics",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "liu.edu"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "Long Island University offers a Raku course (ARTX 150) open to students via registration, with clear public enrollment available through their registration process.",
+        "types": {
+          "raku": "Raku: Primitive Sophistication (ARTX 150, $440)Raku is a low-temperature Japanese technique involving a very rapid firing cycle; the work is quickly fired and removed from a red-hot kiln --- then quickly reduced and cooled."
+        },
+        "state": "NY",
+        "town": "Brooklyn",
+        "street": "1 University Plaza, Brooklyn, New York 11201-5372"
+      },
+      "located": {
+        "state": "NY",
+        "town": "Brookville",
+        "score": 10,
+        "osm": true,
+        "date": "2026-10-08"
+      },
       "weak": false
+    },
+    {
+      "id": "rochester-folk-art-guild",
+      "org": "Rochester Folk Art Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Rochester",
+      "city": "Rochester",
+      "urls": [
+        "https://www.hamishjacksonpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Rochester, New York",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.hamishjacksonpottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "hamishjacksonpottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "The page text provided contains no information about public access to firings, classes, workshops, memberships, rentals, or firing services at Rochester Folk Art Guild.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "patchogue-arts-council",
+      "org": "Patchogue Arts Council",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "PATCHOGUE",
+      "city": "PATCHOGUE",
+      "urls": [
+        "https://patchoguearts.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "PATCHOGUE, New York",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://patchoguearts.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "A limited number of guests will glaze a hand thrown bowl and take part in a hands on exciting outdoor firing process.",
+        "url": "https://patchoguearts.org/raku-party-fundraiser",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "patchoguearts.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page clearly describes a hands-on RAKU firing event open to the public where guests can glaze a bowl and participate in an outdoor firing process by purchasing tickets.",
+        "types": {},
+        "state": "NY",
+        "town": "Patchogue",
+        "street": "20 TERRY STREET, SUITE 116"
+      },
+      "weak": true,
+      "located": {
+        "state": "NY",
+        "town": "PATCHOGUE",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "pottery-northwest-wa",
+      "org": "Pottery Northwest",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "New York",
+      "city": "New York",
+      "urls": [
+        "https://www.artsy.net/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "New York, New York",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.artsy.net/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Student work at Pottery Northwest, Seattle, WA. Courtesy of Pottery Northwest.",
+        "url": "https://www.artsy.net/article/artsy-editorial-best-places-ceramics-classes",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "artsy.net"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page text lists Pottery Northwest with popular classes including 'Soda Firing' but provides no details about how outsiders can access or participate in that firing.",
+        "types": {},
+        "state": "WA",
+        "town": "Seattle"
+      },
+      "weak": true,
+      "located": {
+        "state": "NY",
+        "town": "New York",
+        "score": 10,
+        "osm": false,
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [
@@ -1192,6 +1795,42 @@
     {
       "id": "peekskill-clay-studios",
       "why": "Second check (gemini-3.1-flash-lite): The text mentions that the studio has a reduction gas kiln and staff who use wood or gas kilns, but it does not offer any workshops, rentals, or firing services for the public to participate in these non-electric firings. (2026-10-07)"
+    },
+    {
+      "id": "powerhouse-arts",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions gas reduction and upcoming raku firings, but does not provide a way for outsiders to take part in those specific non-electric firings through a class, workshop, membership, rental, firing service, or invitation. (2026-10-08)"
+    },
+    {
+      "id": "brooklyn-clay-industries-ny",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only explicitly mentions electric kiln firing services and does not confirm the availability of any non-electric firing methods like raku, wood, soda, salt, pit, or gas-reduction. (2026-10-08)"
+    },
+    {
+      "id": "bailey-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text is a blog post about the Hudson Valley Pottery Tour and does not offer any public firings, classes, or workshops at Bailey Pottery. (2026-10-08)"
+    },
+    {
+      "id": "clayscapes-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions Raku and Wood as categories for materials and firing, but does not provide any information or invitation for the public to participate in these specific firing types. (2026-10-08)"
+    },
+    {
+      "id": "ceramics-of-new-york",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes the business as a distributor of ceramic supplies and bisque that offers classes in painting and kiln usage, but it does not provide any information or invitation for the public to participate in specific non-electric firing processes like raku, wood, or soda. (2026-10-08)"
+    },
+    {
+      "id": "island-pottery-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text mentions a raku firing associated with the Art League of Long Island, but does not provide an address, town, state, or an explicit sentence showing outsiders can sign up directly on this studio's page. (2026-10-08)"
+    },
+    {
+      "id": "garrison-art-center",
+      "why": "Second check (gemini-3.5-flash-lite): The text discusses an artist's biography and an exhibition at the Garrison Art Center, but it does not provide any way for the public to sign up, book, or take part in a ceramic firing. (2026-10-08)"
+    },
+    {
+      "id": "gasworks-nyc",
+      "why": "Second check (claude-haiku-4.5): The studio offers only electric (Cone 6) and gas firings, but gas firings are for cone 10 high-fire work in a kiln, not non-electric ceramic firing techniques like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction; tourist firings are available but only for electric and gas kiln firing, not alternative firing methods. (2026-10-08)"
+    },
+    {
+      "id": "sculpture-space-nyc",
+      "why": "Second check (claude-haiku-4.5): The page describes only electric kiln firings (bisque, oxidation up to cone 6) and gas reduction firings, with no mention of raku, wood, soda, salt, pit/barrel/saggar, or other non-electric ceramic firing types that meet the criteria. (2026-10-08)"
     }
   ]
 }

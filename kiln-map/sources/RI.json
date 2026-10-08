@@ -70,11 +70,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states workshops for Raku and pit firing are available to book via email, with specific dates listed (August 29th & October 3rd 2026 for Raku, and Raku and Pit Firing Workshop dates mentioned), and classes are open to the public in Ri's studio in Bacchus Marsh.",
+        "why": "The page clearly states outsiders can book raku and pit firing workshops via email to join firings at Ri-Creations Studio in Bacchus Marsh.",
         "types": {
-          "raku": "Enjoy the fun of feeding the pit fire with wood and the amazing process of heat, fire and reduction of the Raku kiln firing.",
+          "raku": "NEXT RAKU WORKSHOP August 29th & October 3rd 2026 email [email protected] OR go to the contact page for more information and to book you spot!",
           "pit_barrel_saggar": "Enjoy the fun of feeding the pit fire with wood and the amazing process of heat, fire and reduction of the Raku kiln firing."
         },
         "state": "",
@@ -84,7 +84,12 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": true
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "riblogger",
@@ -125,16 +130,16 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text describes a pit firing workshop but does not explicitly state whether the public can sign up or if enrollment is restricted to existing students or members.",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a pit firing workshop open to artists with intermediate-advanced skills, offering a three-week class where participants can explore pit firing techniques.",
         "types": {
-          "pit_barrel_saggar": "through the process of pit firing"
+          "pit_barrel_saggar": "This three week intermediate-advanced workshop will give artists the opportunity to explore new surfaces and firing techniques for their ceramic forms through the process of pit firing."
         },
-        "state": "",
+        "state": "RI",
         "town": ""
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": false,
         "date": "2026-10-08"

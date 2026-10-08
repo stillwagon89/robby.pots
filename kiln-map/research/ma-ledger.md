@@ -1,34 +1,31 @@
-# Massachusetts firings ledger (2026-10-06, discovery v3)
+# Massachusetts firings ledger (2026-10-08, discovery v3, automatic)
 
-`discover/run.mjs MA`: 34 Tavily searches, 142 places, gemma4 judge, one Claude pass. Machine output: `ma-report.md`.
-Already on map (not repeated): Snow Farm, Berkshire Art Center, Truro Center for the Arts at Castle Hill.
+Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
 ## Qualifies
 | # | Place | Town | Firing | Access | Site |
 |---|---|---|---|---|---|
-| 1 | The Potters Shop & School | Needham | Raku | Monthly member raku firings | thepottersshopandschool.com |
-| 2 | The Umbrella Arts Center | Concord | Raku, soda | Three-part raku workshop with group firings | theumbrellaarts.org |
-| 3 | Dewclaw Studios | ? | Raku | Raku firing workshop, up to 4 participants | dewclawstudios.com |
-| 4 | Mudflat | Somerville | Soda | Soda kiln workshops and classes | mudflat.org |
-| 5 | The Clay School | Shelburne Falls | Soda | Soda firing workshop | theclayschool.com |
-| 6 | Ben Eberle Ceramics (Karma Kiln) | Conway | Wood, soda | Kiln open to regional potters | beneberleceramic.com |
-| 7 | Indigo Fire Pottery Studio | Watertown | Soda | Soda firing workshop | indigofirestudio.com |
-| 8 | Office for the Arts at Harvard | Allston | Saggar, soda | Multi-session saggar/soda workshop | ofa.fas.harvard.edu |
-| 9 | LexArt | Lexington | Saggar | Saggar firing workshop | lexart.org |
-| 10 | Old School Clay and Ceramics | Groton | Pit, saggar | 4-class saggar pit firing workshop | oldschoolclayandceramics.com |
-| 11 | Featherstone Center for the Arts | Oak Bluffs | Raku, saggar, obvara | Dated alternative-firing workshop | calendar.vineyardgazette.com |
-| 12 | Bob Green Pottery | Conway | Raku, pit | Occasional workshops | bobgreenpottery.com |
-| 13 | Worcester Center for Crafts | Worcester | Raku, gas, wood, soda | Classes and workshops | worcestercraftcenter.org |
-| 14 | Gustin Ceramics | Dartmouth | Wood | Email to take part in anagama firings | gustinceramics.com |
-| 15 | Canton Clay Works | Canton | Gas reduction, saggar | Gas firing service, saggar workshops | cantonclayworks.com |
-| 16 | Meetinghouse Clay Center | Falmouth | Wood, raku, gas | Classes and events | meetinghouseclay.com |
-| 17 | Kiln Cambridge | Cambridge | Gas reduction | Open-access studio, gas firings | kilncambridge.com |
-
-## Unclear
-Luke Iannuzzi Pottery, Clay Pot Pottery, Paseo-style raku pages with no state on the page, Mudstone Studios (pit fire
-page, no town), Firebrick Pottery, Clay Dreaming, Middlesex CC (student firings), Meesh Pottery (kiln access via classes).
-
-## Rejected on Claude's pass
-Cotuit open studio (likely electric), Pottery with a Purpose, Center Ceramics, Pottery Studio Boston (generic),
-Tabor Academy (school), Joyous Spring (no public access), Northampton Pottery and claydirectory (directories),
-Barn Pottery (crew member at Gustin, kept Gustin). Out of state: Paseo (NM), Oribe (CA), Groundworks (NY), St. John's (MN).
+| 1 | The Potters Shop & School | Needham | raku | Classes or membership | thepottersshopandschool.com |
+| 2 | The Umbrella Arts Center | Concord | raku, soda | Dated workshop or firing event | dev.theumbrellaarts.org, theumbrellaarts.org |
+| 3 | Dewclaw Studios | ? | raku | Dated workshop or firing event | dewclawstudios.com |
+| 4 | Mudflat | Somerville | soda | Classes or membership | mudflat.org |
+| 5 | The Clay School | Shelburne Falls | soda | Dated workshop or firing event | theclayschool.com |
+| 6 | Ben Eberle Ceramics | ? | wood | Classes or membership | beneberleceramic.com |
+| 7 | Indigo Fire Pottery Studio | Watertown | soda | Dated workshop or firing event | indigofirestudio.com |
+| 8 | Office for the Arts at Harvard | Allston | soda, soda, soda | Dated workshop or firing event | ofa.fas.harvard.edu |
+| 9 | Harvard | Allston | raku, pit_barrel_saggar | Classes or membership | meeshpottery.com |
+| 10 | LexArt | Lexington | pit_barrel_saggar | Dated workshop or firing event | lexart.org |
+| 11 | Old School Clay and Ceramics | Groton | pit_barrel_saggar | Dated workshop or firing event | oldschoolclayandceramics.com |
+| 12 | berkshires | ? | pit_barrel_saggar | Dated workshop or firing event | berkshires.org |
+| 13 | Bob Green Pottery | Conway | raku, pit_barrel_saggar | Classes or membership | bobgreenpottery.com |
+| 14 | Kiln Cambridge | Cambridge | gas_reduction | Classes or membership | kilncambridge.com |
+| 15 | The local fire Arts center | ? | raku, gas_reduction | See site | community.ceramicartsdaily.org |
+| 16 | Worcester Center for Crafts | Worcester | raku, gas_reduction | Classes or membership | worcestercraftcenter.org |
+| 17 | Lois Hirshberg | ? | raku, pit_barrel_saggar | Classes or membership | potterybylois.com |
+| 18 | Northampton Pottery | Northampton | pit_barrel_saggar | Dated workshop or firing event | gokidoz.com |
+| 19 | Sunset Canyon Pottery | ? | gas_reduction | See site | sunsetcanyonpottery.com |
+| 20 | Joyous Spring Pottery | Monterey | wood | See site | blogfinger.net |
+| 21 | Gustin Ceramics | ? | wood | Classes or membership | gustinceramics.com |
+| 22 | Gustin's | Dartmouth | wood | Classes or membership | dartmouth.theweektoday.com |
+| 23 | Tabor Academy | ? | gas_reduction, wood | Classes or membership | taboracademy.org, info.taboracademy.org |
+| 24 | Middlesex Community College | Lowell | wood | Classes or membership | middlesex.edu |

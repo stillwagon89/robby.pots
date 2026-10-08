@@ -30,9 +30,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "no",
-        "why": "The page text is empty; no information about public access to firings can be verified from the actual page content.",
+        "why": "The page text provided is empty; only search snippets are available, which show Shelby Prindaville attending raku workshops at Dakota Potters Supply but do not contain word-for-word sentences showing how outsiders can join a firing at Shelby Prindaville's own location.",
         "types": {},
         "state": "",
         "town": ""
@@ -42,6 +42,12 @@
       "lng": -96.72936,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -84,9 +90,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippets describe a raku firing workshop open to participants, but the actual page text is empty, so I cannot verify the details from the source page itself.",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "WebTrac offers a Raku Pottery Alternative Firing workshop where participants can take part in raku firing on a scheduled date with registration through their activity system.",
         "types": {},
         "state": "SD",
         "town": "Aberdeen",
@@ -97,6 +103,12 @@
       "lng": -98.48781,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     }

@@ -42,13 +42,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a hands-on Raku workshop on September 15-16, 2023, where workshop participants can fire clay works, and a monthly membership offering kiln firings to members.",
-        "types": {
-          "raku": "Doug Gray, with the assistance of Sandy Singletary, will demonstrate the exciting alternative firing techniques Saggar, Obvara, and Naked Raku processes in a hands-on workshop.",
-          "pit_barrel_saggar": "Doug Gray, with the assistance of Sandy Singletary, will demonstrate the exciting alternative firing techniques Saggar, Obvara, and Naked Raku processes in a hands-on workshop."
-        },
+        "why": "The page shows a hands-on raku workshop open to the public for $110, and a monthly membership that includes kiln firings.",
+        "types": {},
         "state": "SC",
         "town": "Greenville"
       },
@@ -61,7 +58,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "rob-gentry-s-firesong-anagama-kiln",
@@ -102,9 +105,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states 'It is fired 3-4 times a year by a community of artists' and describes a detailed process for how people can 'Get Involved' including glazing, wadding, loading, and stoking shifts, indicating public participation in wood-fired anagama kiln firings.",
+        "why": "The page explicitly states 'It is fired 3-4 times a year by a community of artists' and describes detailed processes for how artists can participate in glazing, loading, and stoking shifts, with a 'Get Involved' menu option indicating public access to firings.",
         "types": {
           "wood": "It is fired 3-4 times a year by a community of artists who work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a wood fired kiln can make."
         },
@@ -158,9 +161,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions a soda firing workshop open to participants, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "why": "The search snippet mentions a soda firing workshop but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -170,6 +173,12 @@
       "weak": true,
       "located": {
         "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -202,9 +211,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions a pit firing workshop, but the actual page text provided is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "why": "The search snippet mentions a pit firing workshop but the actual page text is empty, so I cannot verify public access details or location information from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -215,6 +224,12 @@
         "town": "Brooksville",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -257,9 +272,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions raku and alternative firing methods, but the actual page text provided is empty, so public access cannot be verified from the text itself.",
+        "why": "The search snippet mentions raku and alternative firing methods but the actual page text provided is empty, so public access cannot be verified.",
         "types": {},
         "state": "",
         "town": ""
@@ -270,6 +285,73 @@
         "town": "Hilton Head Island",
         "score": 6,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "clemson-art-department",
+      "org": "Clemson Art Department",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Clemson",
+      "city": "Clemson",
+      "urls": [
+        "https://clemson.world/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Clemson, South Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://clemson.world/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "If you happen out there during a firing of either kiln, you’ll find yourself amid a community of Clemson students and faculty, local potters and guests from nearby universities all taking part in a centuries-old tradition rooted in Japan.",
+        "url": "https://clemson.world/all-fired-up/",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "clemson.world"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The text describes an Anagama kiln at Clemson and mentions hosting participants from regional ceramics programs and inviting guest artists, but does not explicitly state how outsiders can book, sign up, or join a firing.",
+        "types": {},
+        "state": "SC",
+        "town": "Clemson"
+      },
+      "weak": true,
+      "located": {
+        "state": "SC",
+        "town": "Clemson",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     }

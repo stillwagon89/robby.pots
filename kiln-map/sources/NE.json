@@ -70,13 +70,13 @@
       "lng": -95.93838,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows public can join raku and soda firing classes via workshops with small class sizes and all materials included.",
+        "why": "The studio offers raku and soda firing classes open to the public with a waitlist signup, and mentions gas reduction firing available to members.",
         "types": {
-          "raku": "Experience raku firing at Omaha Pottery Studio.",
-          "soda": "Experience soda firing at Omaha Pottery Studio.",
-          "gas_reduction": "5 kilns (4 electric plus 1 gas reduction)"
+          "raku": "Experience raku firing at Omaha Pottery Studio. This dramatic firing technique produces unique metallic lusters and crackle patterns. Special raku workshops available seasonally.",
+          "soda": "Experience soda firing at Omaha Pottery Studio. Sodium introduced at peak temperature vapor-glazes the work, leaving flashing and orange peel no brushed glaze can imitate.",
+          "gas_reduction": "High-fire stoneware, cone 6 electric and gas reduction firing."
         },
         "state": "NE",
         "town": "Omaha"
@@ -131,18 +131,22 @@
       "lng": -96.70778,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets describe a raku firing event open to public participation, but the actual page text is empty, so location details cannot be verified from the page itself.",
-        "types": {
-          "raku": "fire it using the Raku firing process"
-        },
+        "why": "Search snippets describe a raku firing event at a location in Lincoln, NE, but the actual page text is empty, so I cannot verify the details or confirm public access terms.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -187,9 +191,9 @@
       "lng": -97.13007,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a public raku firing workshop open to participants, held at a specific location with registration available.",
+        "why": "The page text shows a raku firing workshop open to participants who can register, with clear instructions on location, date, and what they will learn.",
         "types": {
           "raku": "Learn and practice the Western raku firing process for clay objects, and create two decorated, raku-fired pieces of art!"
         },
@@ -202,60 +206,6 @@
         "date": "2026-10-08"
       },
       "weak": false
-    },
-    {
-      "id": "big-table-studios",
-      "org": "Big Table Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Nebraska",
-      "city": null,
-      "urls": [
-        "https://www.bigtablestudios.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.bigtablestudios.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Built in the spring of 2005 the Lynn Kiln is a 250 cubic foot anagama style wood burning kiln.",
-        "url": "https://www.bigtablestudios.com/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "bigtablestudios.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text describes Big Table Studios' wood-firing kiln and process but does not explicitly state whether the public can participate in firings or only view the artists' work.",
-        "types": {
-          "wood": "Built in the spring of 2005 the Lynn Kiln is a 250 cubic foot anagama style wood burning kiln."
-        },
-        "state": "NE",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      }
     },
     {
       "id": "omahaclayworks",
@@ -302,9 +252,9 @@
       "lng": -95.93838,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "no",
-        "why": "The page text is empty; no information about public access to firings, firing types, or location details can be verified from the actual page content.",
+        "why": "The page text is empty; only search snippets mention firing techniques but provide no details about public access, classes, workshops, or how outsiders can participate in any specific firing.",
         "types": {},
         "state": "",
         "town": ""
@@ -312,6 +262,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -354,10 +310,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets describe a Raku firing event open to the public, but the actual page text provided does not contain details about the firing, location, or how to participate.",
-        "types": {},
+        "why": "The search snippets describe a Raku firing event open to participants, but the page text provided does not include the full event details, location, or contact information needed to verify public access and confirm the place's address.",
+        "types": {
+          "raku": "During this outdoor firing event, you will glaze a piece of bisqueware and then fire it using the Raku firing process."
+        },
         "state": "",
         "town": ""
       },
@@ -368,8 +326,19 @@
         "score": 27,
         "osm": true,
         "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
       }
     }
   ],
-  "_removed": []
+  "_removed": [
+    {
+      "id": "big-table-studios",
+      "why": "Two models agree: The snippets describe an artist-run anagama wood kiln that produces the artists' own work, with nothing saying outsiders can join, book or sign up for a firing. (2026-10-08)"
+    }
+  ]
 }

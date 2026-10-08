@@ -66,9 +66,9 @@
       "lng": -105.93846,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "Paseo Pottery offers public raku workshops on the third Friday of every month and horsehair-only raku workshops by appointment, both open to outsiders aged 18+ for $195 per person.",
+        "why": "Paseo Pottery offers public raku workshops on the third Friday of every month and horsehair-only raku workshops by appointment, both open to outsiders for a fee.",
         "types": {
           "raku": "Paseo Pottery conducts Raku Workshops on the third Friday of every month!"
         },
@@ -125,11 +125,11 @@
       "lng": -105.93846,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a public workshop (registration $50 per person, register online) teaching open-pit firing of micaceous pottery, with materials provided and participants taking home their creations.",
+        "why": "The page describes a public workshop class where outsiders can register and participate in open-pit firing for $50 per person.",
         "types": {
-          "pit_barrel_saggar": "Traditional firing methods, such as open-pit firing, connect the process to centuries-old techniques used by Indigenous potters of the Southwest."
+          "pit_barrel_saggar": "In this class you will learn how you can fire your micaceous pottery, including preparing your pot for firing, choose a firing method, open-pit firing process, kiln firing, and finishing touches."
         },
         "state": "NM",
         "town": "Santa Fe",
@@ -185,13 +185,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states 'We are open to having any interested potters join in the community and upcoming firings' and describes wood/salt and wood-fired kilns where public potters can participate.",
-        "types": {
-          "wood": "We wanted to try an simply designed easy to fire wood / salt kiln that would produce salt fired effects different from the japanese style Anagama kilns.",
-          "salt": "We wanted to try an simply designed easy to fire wood / salt kiln that would produce salt fired effects different from the japanese style Anagama kilns."
-        },
+        "why": "The page explicitly states 'We are open to having any interested potters join in the community and upcoming firings. Please contact us,' providing an open invitation for outsiders to participate in wood and salt firings.",
+        "types": {},
         "state": "NM",
         "town": "Tres Piedras"
       },
@@ -202,7 +199,13 @@
         "osm": true,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "nm-potters-and-clay-artists-nmpca",
@@ -243,12 +246,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The page mentions 'Wood and Soda Pots' in a lecture title but does not explicitly state that public participants can book or sign up for actual wood or soda firings; it only describes workshop demonstrations and instruction.",
-        "types": {
-          "soda": "Building the Kazegama Kiln, Fostering the Community, Wood and Soda Pots"
-        },
+        "why": "The page mentions wood and soda firing techniques in a lecture title but does not explicitly state that workshop participants can take part in an actual wood or soda firing; it only describes demonstrations and instruction in wheel-thrown and hand-built forms.",
+        "types": {},
         "state": "NM",
         "town": "Abiquiu"
       },
@@ -258,6 +259,12 @@
         "town": "Albuquerque",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -304,11 +311,11 @@
       "lng": -105.57328,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a Raku class open to outsiders (limited to 8 students, registration available) and mentions Saggar firing techniques within the raku instruction.",
+        "why": "The page offers a raku class open to outsiders with registration, and mentions a kiln yard accessible to members and studio renters, indicating public access to non-electric firings.",
         "types": {
-          "raku": "Raku is a low-temperature fast-firing technique that achieves unique metallic and lustrous surfaces by cooling the piece in a smoky atmosphere.",
+          "raku": "We will cover basic and specialty raku techniques including Halo, Slip Resist (or Naked Raku), Copper Mat, Obvara, Horsehair.",
           "pit_barrel_saggar": "Smoke Firing techniques will include Saggar and Terra Sigillata."
         },
         "state": "NM",
@@ -328,9 +335,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
-        "raku",
-        "gas_reduction"
+        "wood"
       ],
       "region": "Las Cruces",
       "city": "Las Cruces",
@@ -350,9 +355,7 @@
         "quote": "Glenn’s wood kiln firing.",
         "url": "https://www.pottersguildlc.org/currentevents",
         "types": [
-          "wood",
-          "raku",
-          "gas_reduction"
+          "wood"
         ],
         "checked": "2026-10-06"
       },
@@ -366,17 +369,14 @@
       "lng": -106.77981,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page lists 'Glenn's wood kiln firing' and 'Raku Sunday' as events open to the community, and mentions classes with 'special alternative firings' and gas kiln firing available to the public.",
+        "why": "The page lists 'Glenn's wood kiln firing' as an event and mentions 'Raku Sunday' as a local offering, indicating non-electric ceramic firings available to the community.",
         "types": {
-          "wood": "Glenn's wood kiln firing",
-          "raku": "Raku Sunday",
-          "gas_reduction": "Work is fired in a Daily downdraft gas kiln"
+          "wood": "Glenn's wood kiln firing"
         },
         "state": "NM",
-        "town": "Las Cruces",
-        "street": "2345 East Nevada St Las Cruces"
+        "town": "Las Cruces"
       },
       "located": {
         "state": "NM",
@@ -388,70 +388,58 @@
       "weak": false
     },
     {
-      "id": "alaska-mudhead-pottery",
-      "org": "Alaska Mudhead Pottery",
+      "id": "calliope-gallery",
+      "org": "Calliope gallery",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "gas_reduction",
-        "soda",
         "raku"
       ],
-      "region": "Silver City",
-      "city": "Silver City",
+      "region": "Santa Fe",
+      "city": "Santa Fe",
       "urls": [
-        "https://www.silvercityart.com/"
+        "https://www.calliopemadrid.com/"
       ],
-      "notes": "By appointment. Found by discovery v3 on 2026-10-06; not yet reviewed.",
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Silver City, New Mexico",
+      "geocode": "Santa Fe, New Mexico",
       "location_note": "Shown at the town.",
       "contact": {
-        "website": "https://www.silvercityart.com/"
+        "website": "https://www.calliopemadrid.com/"
       },
       "access": {
-        "how": "By appointment",
-        "note": "By appointment",
-        "quote": "Pottery Studio, cone 10 (high fired), gas reduction fired porcelain, white and black stoneware. Also soda fired, and Raku fired pottery. Kilns on site. I make my own glazes and built my kilns. Open by appointment and special events.",
-        "url": "https://www.silvercityart.com/letha-cress-woolf",
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Join us for an unforgettable pottery experience in Santa Fe, where you glaze your chosen piece and watch it fired in a traditional Raku kiln.",
+        "url": "https://www.calliopemadrid.com/rakuparty",
         "types": [
-          "gas_reduction",
-          "soda",
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-08"
       },
       "review": "pending",
       "discovered": {
         "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "silvercityart.com"
+        "date": "2026-10-08",
+        "key": "calliopemadrid.com"
       },
-      "lat": 32.77118,
-      "lng": -108.27642,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states the studio is 'Open by appointment and special events' and lists gas reduction, soda, and raku firing methods available on site.",
+        "why": "The page offers public raku firing workshops where outsiders can join a small group or create a private event by calling or emailing to book.",
         "types": {
-          "gas_reduction": "gas reduction fired porcelain",
-          "soda": "Also soda fired",
-          "raku": "and Raku fired pottery"
+          "raku": "Join us for an unforgettable pottery experience in Santa Fe, where you glaze your chosen piece and watch it fired in a traditional Raku kiln."
         },
         "state": "NM",
-        "town": "Silver City",
-        "street": "371 Camino De Viento"
+        "town": "Santa Fe"
       },
-      "weak": false,
       "located": {
-        "state": "NM",
-        "town": "Silver City",
-        "score": 6,
         "osm": false,
         "date": "2026-10-08"
-      }
+      },
+      "weak": false
     }
   ],
   "_removed": [
@@ -466,6 +454,42 @@
     {
       "id": "taos-clay-studio",
       "why": "Second check (claude-haiku-4.5): CySoda is a blog/directory about drinking sodas and soda beverages, not a pottery studio; the article mentions Taos Clay Studio in Taos, New Mexico with soda kilns and workshops, but CySoda itself is located in Apalachicola, Florida and runs no ceramic firings. (2026-10-07)"
+    },
+    {
+      "id": "alaska-mudhead-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions the firing techniques but does not offer any classes, workshops, rentals, or invitations for the public to participate in them. (2026-10-08)"
+    },
+    {
+      "id": "make-santa-fe",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any specific non-electric firing types available for outsiders to join. (2026-10-08)"
+    },
+    {
+      "id": "creativity-warehouse",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions the instructor's past experience with Raku and wood-fired kilns, but does not offer any public workshops, rentals, or firing services for these non-electric techniques. (2026-10-08)"
+    },
+    {
+      "id": "coyote-clay",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions gas or electric kilns and raku in snippets, but does not provide a way for outsiders to join a non-electric ceramic firing in the main page text. (2026-10-08)"
+    },
+    {
+      "id": "blue-dome-gallery",
+      "why": "Second check (gemma-4-31b-it): The text describes a pottery exhibition and lists firing techniques used for the displayed art, but does not offer firing services or classes to the public. (2026-10-08)"
+    },
+    {
+      "id": "new-mexico-woodfire-association",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions electric kilns and does not mention any non-electric ceramic firings like raku, wood, soda, salt, pit, or gas reduction. (2026-10-08)"
+    },
+    {
+      "id": "artquesta-studios-gallery",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes the owner's personal experience and her own kiln, but does not offer any workshops, rentals, or services for the public to participate in non-electric firings. (2026-10-08)"
+    },
+    {
+      "id": "arroyo-seco-gallery",
+      "why": "Second check (gemma-4-31b-it): The text mentions a wood kiln and atmospheric firing, but only in the context of the artists' work and viewing the gallery, with no mention of public participation. (2026-10-08)"
+    },
+    {
+      "id": "anderson-ranch-art-center",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text is a directory listing kiln types at various locations but does not contain any information regarding public access, workshops, classes, or contact instructions for Anderson Ranch Art Center. (2026-10-08)"
     }
   ]
 }

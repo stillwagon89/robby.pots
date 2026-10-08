@@ -56,12 +56,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets describe raku firing workshops open to participants, but the actual page text is empty, so location details cannot be verified from the page itself.",
-        "types": {
-          "raku": "Explore the Raku firing process on pieces of pottery you make!"
-        },
+        "why": "The search snippets describe raku firing workshops on Meetup, but the actual page text is empty, so I cannot verify the location details or confirm public access terms from the page itself.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -106,13 +104,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text describes multiple raku workshops open to participants (students and those with prior raku experience), with a specific studio address provided for the Spring Hand Building and Raku Workshop.",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The search snippets show raku workshops offered, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
         "types": {},
-        "state": "ID",
-        "town": "Boise",
-        "street": "2800 N. Lancaster Drive"
+        "state": "",
+        "town": ""
       },
       "lat": 43.61662,
       "lng": -116.20089,
@@ -167,9 +164,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention raku firing and wood firing at Ceramica Arthouse, but the actual page text is empty, so I cannot verify details from the site itself.",
+        "why": "The search snippets mention raku firing and workshops at Ceramica Arthouse in Boise, ID, but the actual page text provided is empty, so I cannot verify the details or find a direct quote showing how outsiders can participate.",
         "types": {},
         "state": "",
         "town": ""
@@ -219,16 +216,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention raku and pit fire workshops, but the actual page text is empty, so public access cannot be confirmed from the text itself.",
-        "types": {
-          "raku": "Workshops will delve into different firing methods, such as electric and gas kilns, raku, and pit fire.",
-          "pit_barrel_saggar": "Workshops will delve into different firing methods, such as electric and gas kilns, raku, and pit fire."
-        },
+        "why": "Snippets mention raku and pit fire workshops but provide no details about how outsiders can actually sign up, book, or participate in these specific firing types.",
+        "types": {},
         "state": "ID",
         "town": "Sandpoint",
-        "street": "suite 206 of the Cedar Street Bridge"
+        "street": "Suite 206, Cedar Street Bridge"
       },
       "weak": true,
       "lat": 48.27613,
@@ -283,12 +277,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text mentions raku pottery and a gas kiln but does not explicitly state whether non-students or the public can participate in raku or gas-reduction firings.",
-        "types": {
-          "raku": "Our Ketchum studio is fully equipped for stoneware, porcelain and raku pottery."
-        },
+        "why": "The text mentions raku pottery and a gas kiln but does not explicitly state how outsiders can access or participate in raku or gas-reduction firings.",
+        "types": {},
         "state": "",
         "town": "Ketchum"
       },
@@ -330,6 +322,10 @@
     {
       "id": "gledhillpottery",
       "why": "Second check (gemini-3.5-flash-lite): The text mentions wood-fired and sagger-fired processes and that many people have participated in the past, but it does not state that the general public can currently join, book, or sign up for such firings. (2026-10-07)"
+    },
+    {
+      "id": "n-a-id",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes workshops taught by an alumnus, but it does not provide a way for the public to sign up, book, or contact the university for these firings. (2026-10-08)"
     }
   ]
 }

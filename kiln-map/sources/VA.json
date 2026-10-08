@@ -118,12 +118,10 @@
       "lng": -79.44282,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states 'From open studio days to raku firings to gallery nights and a speaker series, we want to be a place to share art, ideas and collaborations' and mentions that Judd is 'offering raku firings,' indicating public access to raku firings through classes and open studio days.",
-        "types": {
-          "raku": "From open studio days to raku firings to gallery nights and a speaker series, we want to be a place to share art, ideas and collaborations."
-        },
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page mentions raku firings and plans for a wood-fired kiln, but provides no specific sentence showing how outsiders can register for or access these non-electric firings; only ceramics classes with firing are described with registration details.",
+        "types": {},
         "state": "VA",
         "town": "Lexington"
       },
@@ -131,7 +129,13 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "muddy-creek-pottery",
@@ -174,9 +178,9 @@
       "lng": -78.63751,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes open-enrollment wood firing workshops at Brown Pot Studio where members of the public can sign up to participate in hands-on anagama firing experience.",
+        "why": "The page clearly offers public wood firing workshops where outsiders can sign up to participate in hands-on anagama firing experience.",
         "types": {
           "wood": "Learn to fire an anagama style wood kiln nestled on a wooded four-acre property during this small group workshop."
         },
@@ -236,13 +240,13 @@
       "lng": -77.47527,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly describes hands-on soda firing workshops, raku firing workshops, and wood fired workshops open to participants and students, with detailed descriptions of the firing processes and what attendees experience.",
+        "why": "The page explicitly offers soda fired workshops and raku firing workshops where participants can engage in hands-on firing experiences.",
         "types": {
           "soda": "Experience the mystery and beauty of soda firing in a hands on workshop with other clay enthusiasts.",
           "raku": "Bradley offers immersive raku firing workshops for students, where participants engage in the full process—from glazing and unconventional loading to live reduction firing and post-firing cleanup.",
-          "wood": "Wood Fired Workshops",
+          "wood": "Over 20 years or wood firing experience building, designing and firing.",
           "gas_reduction": "Gas reduction Soda kilns are a specialty firing atmosphere for Brad and his work. He leads hands-on kiln firing workshops for ceramic students, guiding them through every stage of the process—from kiln loading and firing techniques to unloading and evaluating finished work."
         },
         "state": "VA",
@@ -295,9 +299,9 @@
       "lng": -77.98252,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows public can register and participate in raku firing events on specific October dates by picking a day and hour, with tickets available for purchase.",
+        "why": "The page clearly states 'Come glaze and fire some raku pottery!' with specific October dates and times where people can register and participate in raku firing events open to the public.",
         "types": {
           "raku": "Come glaze and fire some raku pottery!"
         },
@@ -415,12 +419,10 @@
       "lng": -79.14225,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a Wood Fire Workshop open to participants who can sign up, with hands-on instruction in wood firing at a catenary arch wood kiln.",
-        "types": {
-          "wood": "Develop your wood firing skills during this hands-on workshop 's catenary arch wood kiln."
-        },
+        "why": "The text describes a Wood Fire Workshop where participants can sign up to take part in wood firing, including making, glazing, kiln loading, firing/stoking shifts, and unloading.",
+        "types": {},
         "state": "VA",
         "town": "Lynchburg",
         "street": "600 Main Street"
@@ -432,7 +434,13 @@
         "osm": true,
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": true,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "workhouse-arts-center",
@@ -480,6 +488,464 @@
         "osm": true,
         "date": "2026-10-08"
       }
+    },
+    {
+      "id": "virginia-beach-art-center-inc",
+      "org": "Virginia Beach Art Center Inc",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Virginia Beach",
+      "city": "Virginia Beach",
+      "urls": [
+        "https://artcentervb.networkforgood.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Virginia Beach, Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://artcentervb.networkforgood.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Saturday, August 9th, 12:30pm - 5:00pm (1 day workshop)",
+        "url": "https://artcentervb.networkforgood.com/events/88246-2025-p07-08-raku-firing-todd-starr-michael-graham-and-grey-barona",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "artcentervb.networkforgood.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page describes a raku firing workshop open to participants who can sign up, with clear instructions on what to bring and contact information for enrollment.",
+        "types": {
+          "raku": "This Raku firing workshop offers a unique opportunity to experience the dramatic and unpredictable nature of this ancient pottery technique."
+        },
+        "state": "VA",
+        "town": "Virginia Beach"
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "the-workshop-at-timber-ridge-va",
+      "org": "The Workshop at Timber Ridge",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Lexington",
+      "city": "Lexington",
+      "urls": [
+        "https://lexingtonvirginia.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Lexington, Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://lexingtonvirginia.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "From open studio days to ceramics classes and raku firings to gallery nights and a speaker series, The Workshop at Timber Ridge plans to be a place to share art, ideas, and collaborations.",
+        "url": "https://lexingtonvirginia.com/directory/attractions/the-workshop-at-timber-ridge",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "lexingtonvirginia.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "The page states 'From open studio days to ceramics classes and raku firings to gallery nights and a speaker series' and provides contact information 'Email info@theworkshopattimberridge.com or call 804-514-9412' indicating outsiders can contact them to participate in raku firings.",
+        "types": {
+          "raku": "From open studio days to ceramics classes and raku firings to gallery nights and a speaker series, The Workshop at Timber Ridge plans to be a place to share art, ideas, and collaborations."
+        },
+        "state": "VA",
+        "town": "Lexington"
+      },
+      "located": {
+        "state": "VA",
+        "town": "Lexington",
+        "score": 17,
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "weak": false
+    },
+    {
+      "id": "ceramic-designers-association",
+      "org": "Ceramic Designers Association",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Virginia",
+      "city": null,
+      "urls": [
+        "https://www.cdava.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.cdava.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "cdava.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "no",
+        "why": "No page text provided to verify public access to non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "east-city-art",
+      "org": "East City Art",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Lorton",
+      "city": "Lorton",
+      "urls": [
+        "https://www.eastcityart.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Lorton, Virginia",
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.eastcityart.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Workshop: Saturday, June 24 at 11am",
+        "url": "https://www.eastcityart.com/workshops-and-classes/firing",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "eastcityart.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page describes a raku workshop at Workhouse Arts Center but does not clearly state whether East City Art itself is located there or if they are merely advertising an external workshop; the Workhouse address is given but not confirmed as East City Art's own location.",
+        "types": {
+          "raku": "Get fired up (!) for an action packed day learning all aspects of the Raku Firing process."
+        },
+        "state": "VA",
+        "town": "Lorton",
+        "street": "9518 Workhouse Way"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "stifel-fine-arts-center-va",
+      "org": "Stifel Fine Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Virginia",
+      "city": null,
+      "urls": [
+        "https://oionline.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://oionline.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Week 3: Participate in an exciting outdoor Raku firing and watch your pottery transform with dramatic crackle and metallic effects.",
+        "url": "https://oionline.com/classes/art",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "oionline.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "Multiple classes and workshops open to the public (ages 16+, no experience necessary) offer hands-on participation in raku firings with registration.",
+        "types": {
+          "raku": "Participate in an exciting outdoor Raku firing and watch your pottery transform with dramatic crackle and metallic effects."
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "torpedo-factory-art-center",
+      "org": "Torpedo Factory Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "pit_barrel_saggar"
+      ],
+      "region": "Alexandria",
+      "city": "Alexandria",
+      "urls": [
+        "https://torpedofactory.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Alexandria, Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://torpedofactory.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "We offer pottery. applying techniques from raku to woodfire, sager to pitfired and functional, food-, microwave- and dishwasher-safe stoneware and porcelain.",
+        "url": "https://torpedofactory.org/partners/fire-on-gallery",
+        "types": [
+          "raku",
+          "wood",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "torpedofactory.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page mentions raku, woodfire, and pit-fired techniques and states 'Seasoned makers embrace education through demonstration and instruction' but does not explicitly describe how outsiders can book, sign up for, or participate in these specific firing types.",
+        "types": {},
+        "state": "VA",
+        "town": "Alexandria",
+        "street": "105 N. Union St."
+      },
+      "weak": true,
+      "located": {
+        "state": "VA",
+        "town": "Alexandria",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "no",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "dharamkot-studio",
+      "org": "Dharamkot Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Virginia",
+      "city": null,
+      "urls": [
+        "https://www.dharamkotstudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.dharamkotstudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "At Dharamkot Studio, we work with multiple kiln types — from electric to raku — allowing participants to explore how different firing techniques influence form, glaze, and feeling.",
+        "url": "https://www.dharamkotstudio.com/types-of-kilns-in-pottery",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "dharamkotstudio.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The page describes various kiln types including raku, wood, soda, gas, and salt kilns, but provides no information about how outsiders can participate in firings at Dharamkot Studio—only that the studio 'works with multiple kiln types' and mentions a pottery retreat with hand-building and wheel-throwing sessions, with no firing participation details.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "bradley-b-pottery-md",
+      "org": "Bradley B Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Manassas",
+      "city": "Manassas",
+      "urls": [
+        "https://www.bradleybirkhimer.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Manassas, Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.bradleybirkhimer.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Soda Fire Workshop at Tin Barn Pottery, April and June 2016",
+        "url": "https://www.bradleybirkhimer.com/events/work-shops/",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "bradleybirkhimer.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-08",
+        "verdict": "yes",
+        "why": "page says state is VA, not MD",
+        "types": {
+          "soda": "Experience the mystery and beauty of soda firing in a hands on workshop with other clay enthusiasts."
+        },
+        "state": "VA",
+        "town": "Manassas"
+      },
+      "weak": false,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [
@@ -506,6 +972,14 @@
     {
       "id": "still-life-studio",
       "why": "Second check (gemma4-local): The text mentions firing services for local ceramicists and firing memberships, but it only details oxidation and reduction firings, and does not mention any non-electric ceramic firing methods like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firing in a way that confirms public participation outside of membership/rental structures. (2026-10-07)"
+    },
+    {
+      "id": "scott-bartolomei-edmonds",
+      "why": "Second check (claude-haiku-4.5): The page describes Scott Bartolomei Edmonds' anagama wood-firing process and mentions he fires at Roger Baumann's kiln in Lake Peekskill, New York, but provides no information about public access, workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate in any firing. (2026-10-08)"
+    },
+    {
+      "id": "maud-and-mabel",
+      "why": "Two models agree: Maud and Mabel is a shop with a blog post describing raku, wood and pit firing and the artists it stocks, but it offers no firings, workshops or sign-ups for the public. (2026-10-08)"
     }
   ]
 }

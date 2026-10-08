@@ -1,39 +1,43 @@
-# North Carolina firings ledger (2026-10-06, discovery v3)
+# North Carolina firings ledger (2026-10-08, discovery v3, automatic)
 
-`discover/run.mjs NC`: 33 Tavily searches, 125 places, gemma4 judge, one Claude pass. Machine output: `nc-report.md`.
-Already on map: John C. Campbell Folk School, Sawtooth (both found again). Penland was not found again; its site
-is already crawled weekly.
+Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
 ## Qualifies
 | # | Place | Town | Firing | Access | Site |
 |---|---|---|---|---|---|
-| 1 | John C. Campbell Folk School (on map) | Brasstown | Wood, raku, soda | Week-long classes (e.g. Nate Winter raku + kiln building) | folkschool.org |
-| 2 | Sawtooth School for Visual Art (on map) | Winston-Salem | Raku | Raku kiln-building workshop | generationscenter.org |
-| 3 | STARworks | Star | Raku, wood | Raku workshop; residency | starworksnc.org |
-| 4 | The Bascom | Highlands | Soda, salt | Workshops (Ben Owen III, Gertrude Graham Smith) | thebascom.org |
-| 5 | Wood Song Pottery | Bakersville | Soda | 3-day weekend workshop | ncclayclub.blogspot.com |
-| 6 | Doug Dotson Pottery | Carrboro | Soda | Students join soda firings | dougdotsonpottery.com |
-| 7 | Clayboro Studios | Carrboro | Soda, salt, pit | Classes, membership, firing services | clayboro.com |
-| 8 | Delores Pottery & Studios | Durham | Raku; wood kiln being built | One-day raku workshop; kiln rental | site.corsizio.com |
-| 9 | Pasca Pottery | Durham | Raku | Raku firing sessions | pascapottery.com |
-| 10 | Natalie Boorman | Chapel Hill | Raku, pit | Raku sessions | natalieboorman.com |
-| 11 | Clayworks | Charlotte | Raku | Same-day raku firing | clayworksinc.org |
-| 12 | Charlotte Pottery Studio | Charlotte | Raku | Raku workshops | charlottepotterystudio.com |
-| 13 | Cedar Oak Farm & Pottery | Indian Trail | Pit, raku | Outside artists can bring work to pit firings | cedaroakfarmpottery.com |
-| 14 | Rising Sun Pottery | NC | Raku, gas | Spring and fall Saturday raku firings | risingsunpottery.com |
-| 15 | Fat Cat Pottery | Wilmington | Gas reduction | Reduction firing open to non-members | fatcatpottery.com |
-| 16 | Raku workshop, Leland | Leland | Raku | 2-day workshop | activekids.com |
-| 17 | AVL Clay | Asheville | Raku | Jun 20, 2026; membership with firing | avlclay.com |
-| 18 | Odyssey ClayWorks | Asheville | Wood, soda, salt, raku, gas | Kiln rental, classes | clayatlas.com |
-| 19 | The Village Potters Clay Center | Asheville | Raku, gas, pit | Classes, 12+ kilns | thevillagepotters.com |
-| 20 | Jeff Brown Pottery | Seagrove | Wood, raku | Classes at studio | jeffbrownpottery.com |
-| 21 | Middleton Clay Project | Moyock | Raku, saggar | 2-day workshop | middletonclayproject.com |
-| 22 | Southwestern Community College | Sylva | Wood, raku, soda, salt, gas | Enrollment | southwesterncc.edu |
-
-## Unclear
-Josh Copus (Marshall, team wood firing: article), Dan Finch Pottery (wood), Seagrove Wood Fire NC (Jun 5–6, 2027
-event: likely an opening), Puppers Grove (sells raku).
-
-## Rejected on Claude's pass
-The Clay Lady's Campus (Nashville, TN). Generic or tour pages: NC Pottery Center classes, A Little Twisted, Discover
-Seagrove, Studio Touya tour, family-vacation listicle.
+| 1 | Starworks | Star | raku, wood | Dated workshop or firing event | starworksnc.org, guelmann.com |
+| 2 | Doug Dotson Pottery | Carrboro | soda | Classes or membership | dougdotsonpottery.com |
+| 3 | Gertrude Graham Smith Pottery | The Bascom Highlands | soda | Dated workshop or firing event | gertrudegrahamsmith.com |
+| 4 | The Bascom | Highlands | soda | Classes or membership | thebascom.org |
+| 5 | The Clay Lady’s Campus | Nashville | soda | Dated workshop or firing event | theclaylady.com |
+| 6 | DCAC | ? | wood, salt, soda | Classes or membership | jcgep.org |
+| 7 | Clayworks | Charlotte | raku | Dated workshop or firing event | clayworksinc.org |
+| 8 | Rising Sun Pottery | ? | raku, gas_reduction | Classes or membership | risingsunpottery.com |
+| 9 | Sawtooth School for Visual Art | Winston-Salem | raku | Dated workshop or firing event | generationscenter.org |
+| 10 | Charlotte Pottery Studio | Charlotte | raku | Dated workshop or firing event | charlottepotterystudio.com |
+| 11 | Cedar Oak Farm & Pottery | Indian Trail | raku, pit_barrel_saggar | Classes or membership | cedaroakfarmpottery.com |
+| 12 | Fat Cat Pottery | Wilmington | gas_reduction | Classes or membership | fatcatpottery.com |
+| 13 | Ben Owen Pottery | Seagrove | soda, salt | Dated workshop or firing event | benowenpottery.com |
+| 14 | N/A | Durham | raku, wood | Firing service | familyvacationsus.com, heartofnorthcarolina.com |
+| 15 | exploreasheville | Asheville | soda | Dated workshop or firing event | exploreasheville.com |
+| 16 | Middleton Clay Project | Moyock | raku, pit_barrel_saggar | Dated workshop or firing event | middletonclayproject.com |
+| 17 | AVL Clay | Asheville | raku | Dated workshop or firing event | avlclay.com |
+| 18 | Delores Pottery & Studios | Durham | raku | Dated workshop or firing event | site.corsizio.com, delorespottery.corsizio.com |
+| 19 | Seagrove Potters | Seagrove | wood | Classes or membership | discoverseagrove.com |
+| 20 | Jeff Brown Pottery | Seagrove | raku, wood | Classes or membership | jeffbrownpottery.com |
+| 21 | Josh Copus | Marshall | wood | Dated workshop or firing event | dailyyonder.com |
+| 22 | Woodfire NC | ? | wood | Classes or membership | woodfirenc.com |
+| 23 | Odyssey ClayWorks | Asheville | raku, soda | Classes or membership | odysseyclayworks.com |
+| 24 | The Village Potters Clay Center | Asheville | raku, gas_reduction | Classes or membership | thevillagepotters.com |
+| 25 | Firefly Valley Design | Asheville | raku | Classes or membership | fireflyvalleydesign.com |
+| 26 | Studio Touya | Seagrove | wood | Classes or membership | studiotouya.com |
+| 27 | The Triangle Studio | Seagrove | wood | Classes or membership | thetrianglestudio.com |
+| 28 | fromthegrounduppots | Seagrove | wood | Classes or membership | fromthegrounduppots.com |
+| 29 | Pasca Pottery | Durham | raku | Classes or membership | pascapottery.com |
+| 30 | Natalie Boorman | Chapel Hill | raku, pit_barrel_saggar | See site | natalieboorman.com |
+| 31 | Cedar Creek Gallery | ? | raku, salt | Dated workshop or firing event | thepathbesttraveled.com |
+| 32 | Puppers Grove Pottery | Currie | raku | Classes or membership | puppersgrovepottery.com |
+| 33 | Turning Point Clay Studio | Brasstown | raku | Classes or membership | podielski.com |
+| 34 | Haywood Community College | ? | soda, raku, wood | Classes or membership | haywood.edu |
+| 35 | Southwestern Community College | Sylva | wood, raku | See site | southwesterncc.edu |
+| 36 | Joseph Sand Pottery | ? | salt | Dated workshop or firing event | josephsandpottery.com |

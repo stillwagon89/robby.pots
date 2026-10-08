@@ -1,4 +1,4 @@
-# Kansas firings ledger (2026-10-07, discovery v3, automatic)
+# Kansas firings ledger (2026-10-08, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -7,6 +7,5 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 |---|---|---|---|---|---|
 | 1 | Tallgrass Artist Residency | Matfield Green | pit_barrel_saggar | Dated workshop or firing event | tallgrassartistresidency.org |
 | 2 | Camp Singers | ? | pit_barrel_saggar | See site | campsingers.com |
-| 3 | Community Arts Center | ? | wood | Classes or membership | communityartscenter.org |
-| 4 | House of Clay | Overland Park | raku | Dated workshop or firing event | hunthalloween.com, houseofclay.kilnfire.com |
-| 5 | Bracker's | ? | raku | Classes or membership | brackers.com |
+| 3 | House of Clay | ? | raku | Dated workshop or firing event | houseofclay.kilnfire.com |
+| 4 | Bracker's | ? | raku | Classes or membership | brackers.com |

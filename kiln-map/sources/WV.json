@@ -30,7 +30,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
         "why": "The search snippet mentions a soda kiln firing workshop, but the actual page text provided is empty, so I cannot verify the details or confirm public access from the page itself.",
         "types": {},
@@ -43,6 +43,12 @@
         "town": "Seattle",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -87,13 +93,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention salt firing, gas reduction, and raku kiln activities, but the actual page text is empty, so it cannot be verified whether public participation is offered.",
-        "types": {
-          "gas_reduction": "Although Diehl fires a majority of his work in a gas reduction kiln, he feels a special fondness for his salt-fired pieces.",
-          "raku": "be it glazing a vase and watching it being fired in a raku kiln"
-        },
+        "why": "The search snippets mention salt firing, gas reduction, and raku firings, but the actual page text is empty, so there is no verifiable information about public access to these firings.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -102,6 +105,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -144,12 +153,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text mentions 'a raku firing' and 'ceramic workshops' at Stifel Fine Arts Center but does not specify whether the public can sign up, book, or participate in these events.",
-        "types": {
-          "raku": "a raku firing"
-        },
+        "why": "The text mentions a raku firing and ceramic workshops at Stifel Fine Arts Center but does not specify how outsiders can register, book, or participate in these events.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -158,6 +165,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -200,9 +213,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention raku pottery demonstrations and a Clay Studio with classes and memberships, but the actual page text provided is empty, so public access cannot be confirmed from the page itself.",
+        "why": "The search snippets mention raku demonstrations and pottery classes with firing included, but the actual page text provided is empty, so public access details cannot be verified from the page itself.",
         "types": {
           "raku": "The Parkersburg Art Center showcased a unique form of pottery on Saturday afternoon called raku."
         },
@@ -218,6 +231,12 @@
         "town": "Parkersburg",
         "score": 6,
         "osm": true,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -260,9 +279,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "no",
-        "why": "The page text is empty; only search snippets are provided, which describe a past event but contain no information about current public access to firings or the studio's location details.",
+        "why": "The page text is empty; only search snippets are provided, which describe a past event but contain no information about how outsiders can currently access firings or any contact/booking details.",
         "types": {},
         "state": "",
         "town": ""
@@ -275,6 +294,12 @@
         "town": "Parkersburg",
         "score": 6,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -307,9 +332,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The search snippets mention wood kiln firings and a community of clay artists, but the actual page text is empty, providing no verifiable information about public access to non-electric ceramic firings, workshops, classes, or membership options at The Potters Guild.",
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The search snippets mention wood kiln firings and a community of potters, but the actual page text is empty, so there is no verifiable information about public access to firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -320,6 +345,12 @@
         "town": "Mill Road Wallingford",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
         "date": "2026-10-08"
       }
     }

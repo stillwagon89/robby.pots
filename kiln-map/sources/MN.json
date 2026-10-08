@@ -92,9 +92,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet describes a raku firing workshop open to guests, but the actual page text is empty, so I cannot verify the details or extract location information from the page itself.",
+        "why": "The search snippet describes a raku workshop open to guests, but the actual page text provided is empty, so I cannot verify the location details or confirm public access terms from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -107,6 +107,12 @@
         "town": "Warroad",
         "score": 14,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -149,12 +155,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention a Horsehair Raku Pottery Workshop but provide no page text confirming public access, pricing, booking details, or the guild's location.",
-        "types": {
-          "raku": "you will learn the multistep process of creating beautiful horsehair Raku fired pottery"
-        },
+        "why": "The search snippets mention a Horsehair Raku Pottery Workshop but the actual page text is empty, so public access cannot be verified from the page itself.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -164,6 +168,12 @@
         "town": "Buffalo",
         "score": 2,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -210,11 +220,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page describes classes and workshops for all skill levels where participants can have their work fired in raku, soda, and gas-reduction kilns, with firing fees purchased as needed.",
+        "why": "The page shows multiple classes where outsiders can enroll and participate in raku, soda, and gas-reduction firings through the ceramics program at Minnetonka Center for the Arts.",
         "types": {
-          "raku": "Raku firing is a quick-fire process (same day).",
+          "raku": "High‑fire, raku, and soda firing will be explored.",
           "soda": "We fire our Cone 10 Soda Kiln about every five weeks.",
           "gas_reduction": "Students have the option to finish their work in a high fire reduction kiln or soda kiln."
         },
@@ -226,63 +236,6 @@
         "state": "MN",
         "town": "Shore Drive Wayzata",
         "score": 2,
-        "osm": false,
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "bending-pines-pottery",
-      "org": "Bending Pines Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Nisswa",
-      "city": "Nisswa",
-      "urls": [
-        "https://bendingpinespottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Nisswa, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://bendingpinespottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "One-of-a-kind pieces created in Nisswa, Minnesota.",
-        "url": "https://bendingpinespottery.com/pottery-store",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "bendingpinespottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty; only search snippets are provided, which describe a shop selling finished horsehair raku pieces but contain no information about public access to firings, workshops, or classes.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 46.52052,
-      "lng": -94.28861,
-      "located": {
-        "state": "MN",
-        "town": "Nisswa",
-        "score": 4,
         "osm": false,
         "date": "2026-10-08"
       }
@@ -326,11 +279,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The page text explicitly describes a 'Raku Pottery Experience' course at North House Folk School where participants can experience the raku firing process, welcoming beginners with no prior experience needed.",
+        "why": "The page describes a 1-day Raku Pottery Experience course at North House Folk School, which is a public course offering for outsiders to participate in raku firing.",
         "types": {
-          "raku": "Experience the thrill, alchemy and magic of the ancient pottery process called \"raku.\""
+          "raku": "Raku Pottery Experience"
         },
         "state": "",
         "town": ""
@@ -385,12 +338,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text explicitly states 'Fire your pottery with us! Soda firings, Gas kiln firings' and mentions making 'Firing services drop off' appointments, indicating public access to non-electric firings.",
+        "why": "The page offers soda and gas kiln firings via a firing services appointment system open to outsiders.",
         "types": {
-          "soda": "Fire your pottery with us! Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns!",
-          "gas_reduction": "Fire your pottery with us! Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns!"
+          "soda": "Fire your pottery with us! Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns! Please make a \"Firing services drop off\" appointment before coming in.",
+          "gas_reduction": "Fire your pottery with us! Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns! Please make a \"Firing services drop off\" appointment before coming in."
         },
         "state": "",
         "town": ""
@@ -401,7 +354,12 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": true
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      }
     },
     {
       "id": "nemaa",
@@ -444,13 +402,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "yes",
-        "why": "The text states they have raku kilns and a soda kiln, offer firing services, and welcome the community to their firings.",
-        "types": {
-          "raku": "We have five electric kilns, ^10 gas kiln, raku kilns and soda kiln.",
-          "soda": "We have five electric kilns, ^10 gas kiln, raku kilns and soda kiln."
-        },
+        "date": "2026-10-08",
+        "verdict": "unclear",
+        "why": "The search snippets mention raku and soda kilns and welcome the community to firings, but the actual page text is empty, so I cannot verify specific ways for outsiders to participate (class, workshop, membership, rental, firing service, or contact invitation).",
+        "types": {},
         "state": "MN",
         "town": "Minneapolis"
       },
@@ -460,105 +415,11 @@
         "osm": false,
         "date": "2026-10-08"
       },
-      "weak": false
-    },
-    {
-      "id": "logan-c-pottery",
-      "org": "Logan C Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Minneapolis",
-      "city": "Minneapolis",
-      "urls": [
-        "https://logan-chyla.squarespace.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Minneapolis, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://logan-chyla.squarespace.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "logan-chyla.squarespace.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "no",
-        "why": "The page text is empty; no information about public access to firings is provided.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
       "weak": true,
-      "lat": 44.9773,
-      "lng": -93.26547,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "featherstone-pottery",
-      "org": "Featherstone Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Red Wing",
-      "city": "Red Wing",
-      "urls": [
-        "https://www.exploreminnesota.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Red Wing, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.exploreminnesota.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "This annual sale showcases the latest pieces and welcomes those inquiring minds to learn more about the wood-firing process.",
-        "url": "https://www.exploreminnesota.com/things-to-do/museums-galleries/ceramics-scene",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "exploreminnesota.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippets mention Featherstone Pottery has a wood-fired kiln and welcomes people to learn about the wood-firing process at an annual sale, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
-        "types": {
-          "wood": "they recruited their father, Jerry, a bricklayer, to build the four-chambered 30 foot wood-fired climbing kiln"
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 44.56247,
-      "lng": -92.5338,
-      "located": {
-        "osm": false,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     }
@@ -599,6 +460,18 @@
     {
       "id": "common-clay-space",
       "why": "Same website filed under several states by the search; state could not be confirmed. (2026-10-07)"
+    },
+    {
+      "id": "bending-pines-pottery",
+      "why": "Second check (gemma-4-31b-it): The text describes a studio where an artist creates and sells pottery, but does not mention public access to firings. (2026-10-08)"
+    },
+    {
+      "id": "logan-c-pottery",
+      "why": "Second check (gemma-4-31b-it): The text describes the artist's personal focus on soda firing but does not mention any public access, classes, or services. (2026-10-08)"
+    },
+    {
+      "id": "featherstone-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes the pottery as a family-owned studio and showroom but does not offer any classes, rentals, or services for the public to participate in non-electric firings. (2026-10-08)"
     }
   ]
 }

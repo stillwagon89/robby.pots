@@ -63,13 +63,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text shows public workshops where outsiders can sign up to participate in raku firing, with two pieces of pottery provided and the option for experienced students to bring their own bisqueware.",
+        "why": "The Arkansas Museum of Fine Arts offers public raku firing workshops where outsiders can sign up to participate in one-day classes.",
         "types": {
-          "raku": "Learn all about the basics of raku firing!"
+          "raku": "Learn all about the basics of raku firing! Two pieces of pottery will be provided for you to decorate, glaze, and fire."
         },
-        "state": "AR",
+        "state": "",
         "town": ""
       },
       "weak": false,
@@ -120,14 +120,14 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a raku firing workshop where students participate in the firing process and take home finished artworks, indicating public access to a non-electric ceramic firing.",
+        "why": "The text shows outsiders can participate in a raku firing workshop where 'Everyone will participate in the thrilling firing process' as part of a paid workshop registration.",
         "types": {
           "raku": "Everyone will participate in the thrilling firing process and take home three distinct finished artworks, each reflecting the creativity and magic of raku firing."
         },
-        "state": "",
-        "town": ""
+        "state": "AR",
+        "town": "Eureka Springs"
       },
       "lat": 36.40008,
       "lng": -93.73924,
@@ -141,7 +141,7 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": true
+      "weak": false
     },
     {
       "id": "sullivan-pottery",
@@ -173,9 +173,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions raku and saggar firing workshops, but the actual page text is empty, so I cannot verify the details from the page itself.",
+        "why": "The search snippet mentions a Horse Hair Raku Workshop and saggar firing, but the actual page text provided is empty, so I cannot verify the details or extract required information from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -231,9 +231,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text states 'Fire with us: If you are a local potter or pottery student interested in soda firing, send us an email at huntermaypottery@gmail.com and we can invite you to participate in the next soda firing,' showing public participation is available.",
+        "why": "The text explicitly invites local potters and pottery students to email to participate in soda firing, and mentions they teach pottery classes.",
         "types": {
           "soda": "If you are a local potter or pottery student interested in soda firing, send us an email at huntermaypottery@gmail.com and we can invite you to participate in the next soda firing."
         },
@@ -288,12 +288,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
         "why": "The search snippet describes a salt firing workshop open to participants, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
-        "types": {
-          "salt": "Cone 10 Salt Firing Workshop"
-        },
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -305,66 +303,6 @@
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "ozark-folk-center",
-      "org": "Ozark Folk Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Arkansas",
-      "city": null,
-      "urls": [
-        "https://www.arkansas.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.arkansas.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Experience one of Arkansas’s most dramatic and time-honored pottery traditions when the Ozark Folk Center hosts the 23rd Annual Groundhog Kiln Pottery Wood Firing, Wednesday, November 4, through Saturday, November 7, in the Craft Village.",
-        "url": "https://www.arkansas.com/state-parks/experiences/park-events/the-heat-of-history-groundhog-kiln-wood-firing",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "arkansas.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The snippets describe a public wood-firing event at Ozark Folk Center, but the actual page text is empty, so I cannot verify the location details or confirm public participation terms.",
-        "types": {
-          "wood": "the 100-cubic-foot traditional groundhog kiln, a rare wood-fired kiln style"
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": true,
-        "date": "2026-10-08"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
       }
@@ -406,9 +344,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippets mention a wood-firing workshop at Arkansas State Parks, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "why": "Search snippets mention a wood-firing workshop with participant involvement, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -434,14 +372,14 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Arkansas",
-      "city": null,
+      "region": "Mountain View",
+      "city": "Mountain View",
       "urls": [
         "https://www.lifeinmountainview.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Mountain View, Arkansas",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.lifeinmountainview.com/"
@@ -454,9 +392,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The snippets mention a Groundhog Kiln Woodfiring event at Life in Mountain View with dates and descriptions, but the page text itself is empty, so no details about public participation, location, or contact information can be verified.",
+        "why": "The snippets mention a Groundhog Kiln Woodfiring event and Open House but do not explicitly state whether outsiders can participate in the firing or only view the results.",
         "types": {},
         "state": "",
         "town": ""
@@ -510,6 +448,10 @@
     {
       "id": "flaming-earth-pottery",
       "why": "Two models agree: This is an individual potter's site that mentions she takes part in a community wood-firing of an anagama kiln in Oark, but nothing says the public can join, book or sign up for any firing. (2026-10-07)"
+    },
+    {
+      "id": "ozark-folk-center",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only invites the public to observe the firing, not to take part in it. (2026-10-08)"
     }
   ]
 }

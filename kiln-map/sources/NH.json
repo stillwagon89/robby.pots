@@ -42,19 +42,22 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions raku, naked raku, and saggar firing techniques, but the actual page text is empty, so I cannot verify the public access policy or location details from the page itself.",
-        "types": {
-          "raku": "raku",
-          "pit_barrel_saggar": "saggar firing"
-        },
+        "why": "The search snippet mentions raku and saggar firing classes, but the actual page text is empty, so public access cannot be verified from the page itself.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -97,9 +100,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The search snippet mentions a pit firing workshop, but the actual page text provided is only the Couchsurfing homepage with no details about the workshop, location, or how to participate.",
+        "why": "The search snippet mentions a pit firing workshop, but the actual page text provided is only the Couchsurfing homepage with no details about Kittery Point Potters, their location, or how to access their firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -107,6 +110,12 @@
       "weak": true,
       "located": {
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -151,13 +160,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "unclear",
-        "why": "The text mentions workshops with primitive pit firing and raku firing can be scheduled upon request, but does not explicitly state whether outsiders can book or sign up.",
-        "types": {
-          "pit_barrel_saggar": "Alternative firing techniques, such as primitive pit firing and raku firing are some favorite activities.",
-          "raku": "Alternative firing techniques, such as primitive pit firing and raku firing are some favorite activities."
-        },
+        "why": "The snippets mention workshops with primitive pit firing and raku firing can be scheduled upon request, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "types": {},
         "state": "NH",
         "town": "Rindge"
       },
@@ -167,6 +173,12 @@
         "town": "Winchendon Rd. Rindge",
         "score": 6,
         "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
         "date": "2026-10-08"
       }
     },
@@ -199,11 +211,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
+        "date": "2026-10-08",
         "verdict": "yes",
-        "why": "The text describes a three-week Raku project open to anyone, and the home page states the studio is 'open to anyone willing to give it a try,' indicating public access to non-electric ceramic firing.",
+        "why": "The Wheel House offers a three-week Raku project open to anyone, described as a class where participants can throw or hand-build forms and have them fired in raku.",
         "types": {
-          "raku": "Dive into one of pottery's most exciting firing methods—Raku!"
+          "raku": "Dive into one of pottery's most exciting firing methods—Raku! Over three weeks, you'll throw or hand-build up to three bold forms, decorate and glaze them for fiery transformation."
         },
         "state": "NH",
         "town": "Portsmouth"
@@ -215,121 +227,6 @@
         "state": "NH",
         "town": "Portsmouth",
         "score": 6,
-        "osm": false,
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "jonkeenan",
-      "org": "jonkeenan",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Elkins",
-      "city": "Elkins",
-      "urls": [
-        "https://jonkeenan.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Elkins, New Hampshire",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://jonkeenan.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "My recent focus has been on anagama wood-fired natural ash glazed ceramics made and fired at my studio and kiln in Elkins, New Hampshire, along with gas-fired glazed stoneware pieces.",
-        "url": "https://jonkeenan.com/about",
-        "types": [
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "jonkeenan.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text describes the artist's own work and studio firings but does not explicitly state whether the public can participate in or book these firings.",
-        "types": {
-          "wood": "My recent focus has been on anagama wood-fired natural ash glazed ceramics made and fired at my studio and kiln in Elkins, New Hampshire",
-          "gas_reduction": "along with gas-fired glazed stoneware pieces"
-        },
-        "state": "NH",
-        "town": "Elkins"
-      },
-      "weak": true,
-      "lat": 43.42091,
-      "lng": -71.9373,
-      "located": {
-        "osm": false,
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "nh-potters-guild",
-      "org": "NH Potters' Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Dublin",
-      "city": "Dublin",
-      "urls": [
-        "https://maxtmakerspace.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Dublin, New Hampshire",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://maxtmakerspace.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Guild has a wood kiln in Deerfield and Guild members fire it multiple times each year.",
-        "url": "https://maxtmakerspace.org/resources/training-opportunities/2/NH-Potters-Guild",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "maxtmakerspace.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text states the Guild has a wood kiln and fires it multiple times yearly, but does not explicitly state whether non-members or the public can participate in firings.",
-        "types": {
-          "wood": "The Guild has a wood kiln in Deerfield and Guild members fire it multiple times each year."
-        },
-        "state": "NH",
-        "town": "Dublin"
-      },
-      "weak": true,
-      "lat": 42.90594,
-      "lng": -72.06198,
-      "located": {
         "osm": false,
         "date": "2026-10-08"
       }
@@ -363,6 +260,14 @@
     {
       "id": "truro-center-for-the-arts-at-castle-hill",
       "why": "Its own pages give an address in IN (New Harmony), not NH. Moved. (2026-10-07)"
+    },
+    {
+      "id": "jonkeenan",
+      "why": "Second check (gemma-4-31b-it): The text describes the artist's own work and process but does not offer public access, classes, or services for others to participate in firings. (2026-10-08)"
+    },
+    {
+      "id": "nh-potters-guild",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions a wood kiln for Guild members and provides no way for outsiders to take part in a firing. (2026-10-08)"
     }
   ]
 }
