@@ -307,7 +307,8 @@ function placeDetail(p) {
     <p class="kf-addr">${esc(p.address || `${p.city}, ${p.state || ""}`)} <span class="kf-precision">${p.location_precision === "address" ? "Exact address" : "Approximate area"}</span></p>
     ${p.location_note ? `<p class="kf-note">${esc(p.location_note)}</p>` : ""}
     <p class="kf-tags">${types.map((t) => `<span class="kf-tag">${esc(TYPE_LABEL[t])}</span>`).join("")}</p>
-    ${p.access ? evidenceBox("Clay.AI: how you can use their kilns", p.access.note, { quote: p.access.quote, url: p.access.url }, null, null, p.access.url) : ""}
+    ${p.access ? evidenceBox(p.access.status === "past_only" ? "Clay.AI: they have hosted firings here before" : p.access.status === "ongoing" ? "Clay.AI: open to outsiders now" : "Clay.AI: how you can use their kilns", p.access.note, { quote: p.access.quote, url: p.access.url }, null, null, p.access.url) : ""}
+    ${p.access?.status === "past_only" ? `<p class="kf-note">No upcoming firing is posted. Contact them to ask about the next one.</p>` : ""}
     ${detailRows([["How outsiders get in", esc(p.get_in.join(" · ") || (updatesUrl(p) || contactUrl(p) ? "Not posted. Contact them to ask." : "No public way in found yet. Know how to reach them? Tell me below."))]])}
     <p class="kf-eyebrow kf-eyebrow-gap">Upcoming here</p>
     ${p.opportunities.length

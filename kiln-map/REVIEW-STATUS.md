@@ -1,15 +1,15 @@
 # Review status
 
-2 states checked off, 47 with solid places still to review, 2 with nothing solid yet.
+3 states checked off, 46 with solid places still to review, 2 with nothing solid yet.
 
 ## Checked off
 - **AK** (2026-10-09): 1 public. Midnight Potter Studios approved, linked to its kiln-firing page.
-- **AL** (2026-10-09): 5 public. Approved Mad Pottery, Eastern Shore Art Center (Maria Spies), Montgomery Pottery (cone 10 only), Alabama Center for the Arts (as a place, not the past event). Athens State held: duplicate of the ACA Feb 2026 event.
+- **AL** (2026-10-09): 6 public. All 5 decided: Mad Pottery, Eastern Shore Art Center (Maria Spies), Montgomery Pottery (cone 10), shown as ongoing; Alabama Center for the Arts and Athens State shown as places with previous workshops only.
+- **AR** (2026-10-09): 4 public. Arkansas Museum of Fine Arts: upcoming event, approved. Eureka Springs School of the Arts: past 2025 events, shown as a place with previous events. Hunter & May: ongoing open invitation.
 
 ## To review (solid places waiting)
 | State | Solid to review | Already public | Weak (hidden) |
 |---|---|---|---|
-| AR | 3 | 1 | 4 |
 | AZ | 4 | 1 | 3 |
 | CA | 23 | 16 | 10 |
 | CO | 12 | 2 | 7 |

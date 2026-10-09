@@ -164,7 +164,7 @@ const places = sources.map((s) => {
     newsletter_url: s.newsletter_url || null,
     place_summary: lastRun.get(s.id)?.place_summary || null,
     firing_evidence: dedupeEvidence(lastRun.get(s.id)?.place_summary, lastRun.get(s.id)?.firing_evidence || []),
-    access: s.access ? { how: s.access.how, note: s.access.note, quote: s.access.quote, url: s.access.url } : null,
+    access: s.access ? { how: s.access.how, note: s.access.note, quote: s.access.quote, url: s.access.url, status: s.access.status || null } : null,
     get_in: [...new Set([...(s.access?.how ? [s.access.how] : []), ...items.map((i) => ({ dated: "Workshops and firings", ongoing_membership: "Membership", class_enrollment: "Classes", residency: "Residencies", rental_service: "Kiln rental" })[i.access_kind])].filter(Boolean))],
     firing_types: firingTypes,
     tracking,

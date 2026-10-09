@@ -1,34 +1,10 @@
-# Solid places to review (292)
+# Solid places to review (288)
 
 ## What these are and why you are reviewing them
 Each entry is a place (studio, guild, school, art center) that an AI search found and that the checks say lets the public take part in a non-electric firing (raku, wood, soda, salt, pit/saggar or gas reduction). If you approve it, it appears on the public Flaming Clay map as a pin with the quoted sentence and a link to the page that describes the firing.
 You review because every step so far was automated. A wrong entry sends a potter to a place that cannot help them and puts Flaming Clay's name on it. Your yes is the last gate.
 **What the checks already did:** a firing word appears in the quote; Claude read the live page and copied a sentence showing outsiders can take part; the address on the page is in the filed state.
 **Under each place** you will see "Why it is here" (the quote and link) and "Look at" (specific reasons to doubt it). No "Look at" line means no known concern. Reply per state: numbers to REJECT, plus any notes; everything else is approved.
-
-## AL (1)
-
-1. **Athens State University**, Athens — soda
-   Why it is here: "This four-day workshop, February 22-25, 2026, will focus on the enigmatic surfaces produced through the process of soda firing."
-   Page: https://www.athens.edu/tag/soda-firing-workshop/
-   Look at: the example firing in its quote (February 22-25, 2026) is already over. The place may still be fine, but it should show as a place, not an event; it is a college or school; check the firing is open to the public, not only students; no street address was found on its pages, so the pin is only at the town; Its page repeats the Feb 2026 soda workshop that was held at the Alabama Center for the Arts. Unclear that Athens State itself runs public firings. Waiting on Robby..
-
-## AR (3)
-
-1. **Arkansas Museum of Fine Arts**, Little Rock — raku
-   Why it is here: "Learn all about the basics of raku firing! Two pieces of pottery will be provided for you to decorate, glaze, and fire."
-   Page: https://arkmfa.org/event/raku-firing-workshop/
-   Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
-
-2. **EUREKA SPRINGS SCHOOL OF THE ARTS**, Eureka Springs — raku
-   Why it is here: "Everyone will participate in the thrilling firing process and take home three distinct finished artworks, each reflecting the creativity and magic of raku firing."
-   Page: https://reg131.imperisoft.com/essa-art/ProgramDetail/3639303636/Registration.aspx
-   Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part; no street address was found on its pages, so the pin is only at the town.
-
-3. **Hunter & May Pottery**, Little Rock — soda
-   Why it is here: "If you are a local potter or pottery student interested in soda firing, send us an email at huntermaypottery@gmail.com and we can invite you to participate in the next soda firing."
-   Page: https://www.huntermaypottery.com/about
-   Look at: no street address was found on its pages, so the pin is only at the town.
 
 ## AZ (4)
 

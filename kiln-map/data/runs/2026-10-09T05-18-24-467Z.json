@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-09",
+  "started": "2026-10-09T05:18:24.467Z",
+  "model": "claude-haiku-4-5-20251001",
+  "sources": [
+    {
+      "id": "arkansas-museum-of-fine-arts",
+      "org": "Arkansas Museum of Fine Arts",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://arkmfa.org/",
+          "status": 200,
+          "chars": 5611,
+          "jsOnly": false
+        },
+        {
+          "url": "https://arkmfa.org/membership/",
+          "status": 200,
+          "chars": 8771,
+          "jsOnly": false
+        },
+        {
+          "url": "https://arkmfa.org/events/",
+          "status": 200,
+          "chars": 6559,
+          "jsOnly": false
+        },
+        {
+          "url": "https://arkmfa.org/support/membership/",
+          "status": 200,
+          "chars": 8771,
+          "jsOnly": false
+        },
+        {
+          "url": "https://arkmfa.org/event/exhibition-tour-the-age-of-anxiety-oct-10/",
+          "status": 200,
+          "chars": 4037,
+          "jsOnly": false
+        },
+        {
+          "url": "https://arkmfa.org/event/art-insights-the-age-of-anxiety/",
+          "status": 200,
+          "chars": 6307,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The Arkansas Museum of Fine Arts website and events pages describe classes and workshops in various media (wire art, glass torchworking, printmaking, metalsmithing, woodcarving, painting, audition skills). None of the pages mention firing in a kiln or pit, wood, soda, salt, raku, pit/barrel/saggar, or gas reduction firings. Although the museum is known to offer raku firings, these specific pages contain no evidence of raku classes, workshops, or firings, no dates, no descriptions of how potters can participate, and no quotes naming a firing type or kiln. The membership benefits mention discounts on classes but do not specify any firing-based classes. Therefore, no opportunities can be recorded based on the text provided.\"",
+      "signups": {
+        "instagram": [
+          "arkmfa"
+        ],
+        "newsletter": [
+          "https://arkmfa.org/membership/ (sign-up form on this page)",
+          "https://arkmfa.org/support/membership/ (sign-up form on this page)"
+        ]
+      },
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": null,
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 14934,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 251,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "eureka-springs-school-of-the-arts",
+      "org": "EUREKA SPRINGS SCHOOL OF THE ARTS",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://reg131.imperisoft.com/",
+          "status": 200,
+          "chars": 297,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The only page provided is a registration error page with no information about Eureka Springs School of the Arts or any firing opportunities. The page is inaccessible and contains no data about raku firings or other ceramics programs.",
+      "signups": {
+        "instagram": [],
+        "newsletter": []
+      },
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "No firings or kiln-based ceramics programs could be identified from the pages provided.",
+      "firing_evidence": [],
+      "usage": {
+        "input_tokens": 3141,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 151,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    },
+    {
+      "id": "hunter-may-pottery",
+      "org": "Hunter & May Pottery",
+      "core": false,
+      "pages": [
+        {
+          "url": "https://www.huntermaypottery.com/",
+          "status": 200,
+          "chars": 726,
+          "jsOnly": false
+        }
+      ],
+      "found": 0,
+      "written": 0,
+      "updated": 0,
+      "skipped": 0,
+      "notes": "The homepage mentions \"soda firing and teaching clay in central Arkansas\" but provides no specific details about dated firings, workshops, classes, memberships, residencies, or kiln rental services. The page does not state how outside potters can participate in soda firings. No firing opportunities with actionable details were found.",
+      "signups": {
+        "instagram": [
+          "huntermaystudios"
+        ],
+        "newsletter": []
+      },
+      "emails": 0,
+      "instagram_posts": 0,
+      "place_summary": "Hunter & May Pottery in Hensley, Arkansas offers soda firing and clay instruction, but the homepage does not specify how outside potters can access the soda kiln.",
+      "firing_evidence": [
+        {
+          "firing_type": "soda",
+          "sentence": "The studio identifies itself as offering soda firing and teaching clay in central Arkansas.",
+          "quote": "soda firing and teaching clay in central Arkansas",
+          "url": "https://www.huntermaypottery.com/#:~:text=soda%20firing%20and%20teaching%20clay%20in%20central%20Arkansas",
+          "via": null
+        }
+      ],
+      "usage": {
+        "input_tokens": 3295,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 232,
+        "service_tier": "batch",
+        "inference_geo": "not_available"
+      }
+    }
+  ],
+  "inbox_note": null,
+  "unmatched_emails": [
+    {
+      "from": "robert.stillwagon@gmail.com",
+      "subject": "test",
+      "date": "2026-10-05T05:04:31.000Z"
+    },
+    {
+      "from": "info@vergecontemporary.ccsend.com",
+      "subject": "What's Next At Verge?",
+      "date": "2026-10-06T17:01:53.000Z"
+    }
+  ],
+  "finished": "2026-10-09T05:22:20.858Z"
+}

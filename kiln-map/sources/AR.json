@@ -55,7 +55,7 @@
         ],
         "checked": "2026-10-07"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -72,14 +72,15 @@
         "state": "",
         "town": ""
       },
-      "weak": false,
       "located": {
         "state": "AR",
         "town": "Little Rock",
         "score": 8,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "approved": "2026-10-09",
+      "confirmed_by_robby": "2026-10-09"
     },
     {
       "id": "eureka-springs-school-of-the-arts",
@@ -104,15 +105,16 @@
       },
       "access": {
         "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
+        "note": "Has hosted raku firing workshops here (most recent in 2025, now over). Check with them for the next one.",
         "quote": "Everyone will participate in the thrilling firing process and take home three distinct finished artworks, each reflecting the creativity and magic of raku firing.",
         "url": "https://reg131.imperisoft.com/essa-art/ProgramDetail/3639303636/Registration.aspx",
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -141,7 +143,8 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": false
+      "approved": "2026-10-09",
+      "confirmed_by_robby": "2026-10-09"
     },
     {
       "id": "sullivan-pottery",
@@ -215,15 +218,16 @@
       },
       "access": {
         "how": "Email them for an open invitation to join soda firings",
-        "note": "Classes or membership",
+        "note": "Open invitation: email them to be invited to the next soda firing.",
         "quote": "If you are a local potter or pottery student interested in soda firing, send us an email at huntermaypottery@gmail.com and we can invite you to participate in the next soda firing.",
         "url": "https://www.huntermaypottery.com/about",
         "types": [
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -246,8 +250,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "confirmed_by_robby": "2026-10-07",
-      "weak": false
+      "confirmed_by_robby": "2026-10-09",
+      "approved": "2026-10-09"
     },
     {
       "id": "cub-creek-foundation",
