@@ -5,18 +5,18 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 const KM = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const ST = (process.argv[2] || "").toUpperCase();
-const rej = new Set(((process.argv.indexOf("--reject") > 0 && process.argv[process.argv.indexOf("--reject") + 1]) || "").split(",").filter(Boolean).map(Number));
+const rej = new Set(((process.argv.indexOf("--reject") > 0 && process.argv[process.argv.indexOf("--reject") + 1]) || "").split(",").filter(Boolean)); // place ids from REVIEW-SOLID.md
 const fp = path.join(KM, "sources", `${ST}.json`);
 const doc = JSON.parse(fs.readFileSync(fp, "utf8"));
 let i = 0, ok = 0;
-for (const s of [...doc.sources]) if (s.review === "pending" && !s.weak && s.verify) {
+for (const s of [...doc.sources]) if ((s.review === "pending" && !s.weak && s.verify) || (s.auto_approved && !s.confirmed_by_robby)) {
   i++;
-  if (rej.has(i)) { doc.sources = doc.sources.filter((x) => x !== s); (doc._removed ||= []).push({ id: s.id, why: `Rejected by Robby on review. (${new Date().toISOString().slice(0, 10)})` }); }
+  if (rej.has(s.id)) { doc.sources = doc.sources.filter((x) => x !== s); (doc._removed ||= []).push({ id: s.id, why: `Rejected by Robby on review. (${new Date().toISOString().slice(0, 10)})` }); }
   else {
     // approving a place also approves its upcoming, quote-verified pending events
     const pend = path.join(KM, "data/pending"), appr = path.join(KM, "data/approved");
     if (fs.existsSync(pend)) for (const f of fs.readdirSync(pend)) { const e = JSON.parse(fs.readFileSync(path.join(pend, f), "utf8")); if (e.source_id === s.id && !e.past && e.quote_verified !== false) { e.reviewed = new Date().toISOString().slice(0, 10); fs.writeFileSync(path.join(appr, f), JSON.stringify(e, null, 2) + "\n"); fs.unlinkSync(path.join(pend, f)); } }
-    s.review = "approved"; s.approved = new Date().toISOString().slice(0, 10); ok++; }
+    s.review = "approved"; s.confirmed_by_robby = new Date().toISOString().slice(0, 10); s.approved = new Date().toISOString().slice(0, 10); ok++; }
 }
 fs.writeFileSync(fp, JSON.stringify(doc, null, 2) + "\n");
 console.log(`${ST}: approved ${ok}, rejected ${rej.size}`);
