@@ -28,7 +28,9 @@
       "access": {
         "status": "upcoming"
       },
-      "address": "2480 Bingham St., Honolulu, HI 96826"
+      "address": "2480 Bingham St., Honolulu, HI 96826",
+      "lat": 21.29513,
+      "lng": -157.82304
     },
     {
       "id": "hawai-i-craftsmen",
@@ -39,15 +41,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "HONOLULU",
-      "city": "HONOLULU",
+      "region": "Honolulu",
+      "city": "Honolulu",
       "urls": [
         "https://www.hawaiicraftsmen.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "HONOLULU, Hawaii",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.hawaiicraftsmen.org/"
       },
@@ -95,8 +97,9 @@
         "date": "2026-10-07"
       },
       "auto_approved": "2026-10-09",
-      "lat": 21.30455,
-      "lng": -157.85568
+      "address": "1110 Nuuanu Ave, Honolulu, HI 96817",
+      "lat": 21.31124,
+      "lng": -157.86187
     },
     {
       "id": "hawaii-ceramic-supply",
@@ -113,9 +116,9 @@
         "https://www.hawaiiceramicsupply.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Honolulu, Hawaii",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.hawaiiceramicsupply.com/"
       },
@@ -128,7 +131,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -149,13 +152,14 @@
         "street": "1920 Colburn Street, Honolulu, HI 96819"
       },
       "weak": false,
-      "lat": 21.30455,
-      "lng": -157.85568,
       "located": {
         "osm": false,
         "date": "2026-10-09"
       },
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "1922 Colburn St, Honolulu, HI 96819",
+      "lat": 21.32808,
+      "lng": -157.88185
     },
     {
       "id": "nendo-studio-hawaii",

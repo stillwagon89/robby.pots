@@ -17,15 +17,19 @@
         "https://thecontemporaryaustin.org/courses/wheel-throwing-with-salt-and-raku/"
       ],
       "notes": "Wheel throwing with salt and raku course.",
-      "location_precision": "approximate",
-      "geocode": "Austin, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.thecontemporaryaustin.org/",
         "instagram": "contemporaryatx"
       },
-      "lat": 30.27113,
-      "lng": -97.7437
+      "access": {
+        "status": "past_only"
+      },
+      "address": "700 Congress Ave, Austin, TX 78701",
+      "lat": 30.26927,
+      "lng": -97.74282
     },
     {
       "id": "craft-guild-dallas",
@@ -36,21 +40,19 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Dallas",
-      "city": "Addison",
+      "region": "Carrollton",
+      "city": "Carrollton",
       "urls": [
         "https://www.craftguildofdallas.com/"
       ],
       "notes": "Year-round classes and workshops.",
-      "location_precision": "approximate",
-      "geocode": "Addison, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.craftguildofdallas.com/",
         "instagram": "craftguildofdallas"
       },
-      "lat": 32.96012,
-      "lng": -96.83,
       "newsletter_url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.newsletter/db63d1d8-ddfa-4a83-a844-b6776748afac_120/website.components.newsletter.styles.css",
       "access": {
         "how": "Clay classes",
@@ -61,8 +63,13 @@
           "gas_reduction",
           "raku"
         ],
-        "checked": "2026-10-05"
-      }
+        "checked": "2026-10-05",
+        "status": "ongoing"
+      },
+      "address": "3410 Midcourt Rd, Carrollton, TX 75006",
+      "address_found": "3410 Midcourt Rd Suite 115, Carrollton, TX 75006",
+      "lat": 32.96362,
+      "lng": -96.84146
     },
     {
       "id": "feats-of-clay-pottery",
@@ -94,7 +101,7 @@
           "wood"
         ],
         "checked": "2026-10-06",
-        "status": "annual"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -124,6 +131,7 @@
       "weak": false,
       "address": "806 McPhaul St, Austin, TX 78758",
       "auto_approved": "2026-10-09",
+      "address_found": "806 McPhaul St, Austin, TX 78758",
       "lat": 30.27113,
       "lng": -97.7437
     },
@@ -332,9 +340,9 @@
         "https://www.fourcirclestudio.com/"
       ],
       "notes": "Glaze + raku class. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Houston, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.fourcirclestudio.com/"
       },
@@ -347,7 +355,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -355,8 +363,6 @@
         "date": "2026-10-06",
         "key": "fourcirclestudio.com"
       },
-      "lat": 29.75894,
-      "lng": -95.3677,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -377,7 +383,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "825 Studewood st., Houston, TX 77007",
+      "lat": 29.78648,
+      "lng": -95.38813
     },
     {
       "id": "potters-place-pottery",
@@ -409,7 +418,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "coming_soon"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -535,7 +544,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -543,8 +552,6 @@
         "date": "2026-10-06",
         "key": "cliffhousestudio.com"
       },
-      "lat": 32.75318,
-      "lng": -97.33275,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -568,7 +575,11 @@
         "result": "split",
         "date": "2026-10-08"
       },
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "8092 Eagle Mountain Drive, Fort Worth, TX 76135",
+      "address_found": "8092 Eagle Mountain Drive, Fort Worth, TX 76135",
+      "lat": 32.75318,
+      "lng": -97.33275
     },
     {
       "id": "cera",
@@ -600,7 +611,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "annual"
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -646,9 +657,9 @@
         "https://roadrunnerceramics.com/"
       ],
       "notes": "Firing service, open studio. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "San Antonio, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://roadrunnerceramics.com/"
       },
@@ -670,8 +681,6 @@
         "date": "2026-10-06",
         "key": "roadrunnerceramics.com"
       },
-      "lat": 29.4246,
-      "lng": -98.49514,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -693,7 +702,11 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "12747 Cimarron Path, San Antonio, TX 78249",
+      "address_found": "12747 Cimarron Path Suite 116, San Antonio, TX 78249",
+      "lat": 29.56056,
+      "lng": -98.59888
     },
     {
       "id": "rockport-center-for-the-arts",
@@ -774,9 +787,9 @@
         "https://lhuca.org/"
       ],
       "notes": "Custom firing + workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lubbock, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://lhuca.org/"
       },
@@ -790,7 +803,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -798,8 +811,6 @@
         "date": "2026-10-06",
         "key": "lhuca.org"
       },
-      "lat": 33.58557,
-      "lng": -101.84702,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -821,7 +832,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "511 Ave K, Lubbock, TX 79401",
+      "lat": 33.59075,
+      "lng": -101.84761
     },
     {
       "id": "fire-gallery-and-studio",
@@ -857,7 +871,7 @@
           "gas_reduction"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -914,7 +928,7 @@
           "raku"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {
@@ -1148,9 +1162,9 @@
         "https://www.thecraftguild.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Carrollton, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.thecraftguild.org/"
       },
@@ -1192,10 +1206,11 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "address": "3410 Midcourt Rd Suite 115, Carrollton, TX 75006",
+      "address": "3410 Midcourt Rd, Carrollton, TX 75006",
       "auto_approved": "2026-10-09",
-      "lat": 32.95155,
-      "lng": -96.90342
+      "address_found": "3410 Midcourt Rd Suite 115, Carrollton, TX 75006",
+      "lat": 32.96362,
+      "lng": -96.84146
     },
     {
       "id": "mckinney-art-house",
@@ -1273,9 +1288,9 @@
         "https://www.artcentercc.org/"
       ],
       "notes": "Firing service. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Corpus Christi, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.artcentercc.org/"
       },
@@ -1312,8 +1327,9 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "lat": 27.76353,
-      "lng": -97.40332
+      "address": "100 N. Shoreline Blvd., Corpus Christi, TX 78401",
+      "lat": 27.79201,
+      "lng": -97.39255
     },
     {
       "id": "barry-brown-clay-studio-gallery",
@@ -1518,9 +1534,9 @@
         "https://www.utsa.edu/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "San Antonio, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.utsa.edu/"
       },
@@ -1560,8 +1576,7 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "lat": 29.4246,
-      "lng": -98.49514
+      "address": "501 W. Cesar Chavez Blvd. Frio Building, FS 4.450, San Antonio, TX"
     },
     {
       "id": "brazos-clay-tx",

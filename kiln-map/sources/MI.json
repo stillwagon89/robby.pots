@@ -26,7 +26,10 @@
       },
       "lat": 42.65492,
       "lng": -86.20406,
-      "newsletter_url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.newsletter/db63d1d8-ddfa-4a83-a844-b6776748afac_120/website.components.newsletter.styles.css"
+      "newsletter_url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.newsletter/db63d1d8-ddfa-4a83-a844-b6776748afac_120/website.components.newsletter.styles.css",
+      "access": {
+        "status": "coming_soon"
+      }
     },
     {
       "id": "pewabic",
@@ -49,7 +52,10 @@
       },
       "lat": 42.36209,
       "lng": -82.98176,
-      "newsletter_url": "https://www.pewabic.org/"
+      "newsletter_url": "https://www.pewabic.org/",
+      "access": {
+        "status": "ongoing"
+      }
     },
     {
       "id": "pottery-lane",
@@ -214,7 +220,7 @@
           "wood"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -277,7 +283,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -519,9 +525,9 @@
         "https://glenarborart.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Glen Arbor, Michigan",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://glenarborart.org/"
       },
@@ -534,7 +540,7 @@
           "raku"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {
@@ -561,10 +567,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "address": "6112 Physical Address 6031 S Lake St, Glen Arbor, MI 49636",
+      "address": "6031 South Lake Street, Glen Arbor, MI 49636",
       "auto_approved": "2026-10-09",
-      "lat": 44.89773,
-      "lng": -85.98888
+      "lat": 44.89648,
+      "lng": -85.98772
     },
     {
       "id": "clawson-clay-guild",

@@ -12,21 +12,25 @@
         "salt",
         "soda"
       ],
-      "region": "Midcoast Maine",
+      "region": "Newcastle",
       "city": "Newcastle",
       "urls": [
         "https://www.watershedceramics.org/"
       ],
       "notes": "Train kiln intensive; wood firing workshops.",
-      "location_precision": "approximate",
-      "geocode": "Newcastle, Maine",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.watershedceramics.org/",
         "instagram": "watershedceramics"
       },
-      "lat": 44.03423,
-      "lng": -69.53586
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "19 Brick Hill Road, Newcastle, ME",
+      "lat": 44.01176,
+      "lng": -69.62445
     },
     {
       "id": "haystack",
@@ -35,22 +39,26 @@
       "core": false,
       "public": true,
       "firing_types_guess": [],
-      "region": "Downeast",
+      "region": "Deer Isle",
       "city": "Deer Isle",
       "urls": [
         "https://www.haystack-mtn.org/"
       ],
       "notes": "Craft school workshops; firing types unconfirmed.",
-      "location_precision": "approximate",
-      "geocode": "Deer Isle, Maine",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.haystack-mtn.org/",
         "instagram": "haystack_school"
       },
-      "lat": 44.22404,
-      "lng": -68.6776,
-      "newsletter_url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.newsletter/0ecc76af-8a35-40b0-9f44-037abe0d90f6_119/website.components.newsletter.styles.css"
+      "newsletter_url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.newsletter/0ecc76af-8a35-40b0-9f44-037abe0d90f6_119/website.components.newsletter.styles.css",
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "89 Haystack School Drive, Deer Isle, ME 04627",
+      "lat": 44.18825,
+      "lng": -68.58434
     },
     {
       "id": "waterville-creates",
@@ -61,21 +69,25 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Central Maine",
+      "region": "Waterville",
       "city": "Waterville",
       "urls": [
         "https://www.watervillecreates.org/"
       ],
       "notes": "Community raku firing.",
-      "location_precision": "approximate",
-      "geocode": "Waterville, Maine",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.watervillecreates.org/",
         "instagram": "wtvlcreates"
       },
-      "lat": 44.55058,
-      "lng": -69.63032
+      "access": {
+        "status": "upcoming"
+      },
+      "address": "93 Main Street, Waterville, ME 04901",
+      "lat": 44.54987,
+      "lng": -69.62965
     },
     {
       "id": "maine-college-of-art-continuing-studies",
@@ -216,9 +228,9 @@
         "https://www.coastalmaineraku.com/"
       ],
       "notes": "Dated workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lincolnville, Maine",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.coastalmaineraku.com/"
       },
@@ -232,7 +244,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "annual"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -240,8 +252,6 @@
         "date": "2026-10-06",
         "key": "coastalmaineraku.com"
       },
-      "lat": 44.28119,
-      "lng": -69.00865,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -260,7 +270,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "34 Beach Road, Lincolnville, ME 04849",
+      "lat": 44.2821,
+      "lng": -69.01169
     },
     {
       "id": "nate-winter-studios",
@@ -292,7 +305,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -350,7 +363,7 @@
           "gas_reduction"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -413,7 +426,7 @@
           "soda"
         ],
         "checked": "2026-10-08",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -462,7 +475,7 @@
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Walpole, ME",
+      "geocode": "Walpole, Maine",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.tylergulden.com/"
@@ -507,6 +520,7 @@
       },
       "address": "45 Clark's Cove Rd, Walpole, ME 04573",
       "auto_approved": "2026-10-09",
+      "address_found": "45 Clark's Cove Rd, Walpole, ME 04573",
       "lat": 43.95043,
       "lng": -69.5571
     },

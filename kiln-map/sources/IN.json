@@ -39,15 +39,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Albion",
-      "city": "Albion",
+      "region": "Kendallville",
+      "city": "Kendallville",
       "urls": [
         "https://discover.events.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Albion, Indiana",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://discover.events.com/"
       },
@@ -79,13 +79,14 @@
         "state": "IN",
         "town": "Albion"
       },
-      "lat": 41.39578,
-      "lng": -85.42426,
       "located": {
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "401 East Diamond Street, Kendallville, IN 46755",
+      "lat": 41.44033,
+      "lng": -85.26026
     },
     {
       "id": "amphora-ceramic-studio",
@@ -176,7 +177,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "upcoming"
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -222,9 +223,9 @@
         "https://www.indianaclay.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Goshen, Indiana",
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.indianaclay.org/"
       },
@@ -237,7 +238,7 @@
           "soda"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -256,8 +257,6 @@
         "state": "IN",
         "town": "Goshen"
       },
-      "lat": 41.58504,
-      "lng": -85.83445,
       "located": {
         "state": "IN",
         "town": "Goshen",
@@ -266,7 +265,11 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "118 South Main Street, Goshen, IN",
+      "address_found": "118 South Main Street, Suite 2, Goshen, IN",
+      "lat": 41.58586,
+      "lng": -85.83438
     },
     {
       "id": "greater-lafayette-clay-guild",
@@ -414,7 +417,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -479,7 +482,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {

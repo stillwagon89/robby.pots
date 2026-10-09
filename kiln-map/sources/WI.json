@@ -10,7 +10,7 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Southeast Wisconsin",
+      "region": "Oconomowoc",
       "city": "Oconomowoc",
       "urls": [
         "https://uwm.edu/waukesha-field-station/events/"
@@ -22,6 +22,11 @@
       "contact": {
         "website": "https://uwm.edu/waukesha-field-station/"
       },
+      "access": {
+        "status": "past_only"
+      },
+      "address": "W349 S1480 S. Waterville Road, Oconomowoc, WI 53066",
+      "address_found": "W349 S1480 S. Waterville Road, Oconomowoc, WI 53066",
       "lat": 43.11167,
       "lng": -88.49927
     },
@@ -36,21 +41,25 @@
         "salt",
         "raku"
       ],
-      "region": "Southwest Wisconsin",
+      "region": "Dodgeville",
       "city": "Dodgeville",
       "urls": [
         "https://www.adamahartstudio.org/"
       ],
       "notes": "Workshops with wood, salt and raku (Ceramics Monthly 2026).",
-      "location_precision": "approximate",
-      "geocode": "Dodgeville, Wisconsin",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.adamahartstudio.org/",
         "instagram": "adamahartsstudio"
       },
-      "lat": 42.96001,
-      "lng": -90.13045
+      "access": {
+        "status": "upcoming"
+      },
+      "address": "4681 County ZZ, Dodgeville, WI 53533",
+      "lat": 43.05101,
+      "lng": -90.12234
     },
     {
       "id": "weber-woodfire",
@@ -74,7 +83,10 @@
         "website": "http://weberwoodfire.com/"
       },
       "lat": 46.83243,
-      "lng": -91.26102
+      "lng": -91.26102,
+      "access": {
+        "status": "upcoming"
+      }
     },
     {
       "id": "art-on-the-town",
@@ -146,9 +158,9 @@
         "https://empowerdriftless.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Dodgeville, Wisconsin",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://empowerdriftless.com/"
       },
@@ -161,7 +173,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -180,13 +192,14 @@
         "state": "WI",
         "town": "Dodgeville"
       },
-      "lat": 42.96001,
-      "lng": -90.13045,
       "located": {
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "4681 County ZZ, Dodgeville, WI 53533",
+      "lat": 43.05101,
+      "lng": -90.12234
     },
     {
       "id": "artisan-center",
@@ -218,7 +231,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -337,7 +350,7 @@
           "wood"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {

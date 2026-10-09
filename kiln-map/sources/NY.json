@@ -11,23 +11,27 @@
         "wood",
         "soda"
       ],
-      "region": "Catskills",
+      "region": "West Shokan",
       "city": "West Shokan",
       "urls": [
         "https://28aclay.com/"
       ],
       "notes": "175 cu ft catenary crossdraft wood kiln (Levin map).",
-      "location_precision": "approximate",
-      "geocode": "West Shokan, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://28aclay.com/",
         "email": "info@28aclay.com",
         "instagram": "28a_clay"
       },
-      "lat": 41.96728,
-      "lng": -74.2871,
-      "newsletter_url": "https://28aclay.com/"
+      "newsletter_url": "https://28aclay.com/",
+      "access": {
+        "status": "past_only"
+      },
+      "address": "4095 Route 28A, West Shokan, NY",
+      "lat": 41.96803,
+      "lng": -74.27718
     },
     {
       "id": "the-oki-doki-studio-andrew-sartorius",
@@ -61,7 +65,7 @@
           "soda"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -316,7 +320,7 @@
           "wood"
         ],
         "checked": "2026-10-06",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -324,8 +328,6 @@
         "date": "2026-10-06",
         "key": "craigardan.org"
       },
-      "lat": 44.21627,
-      "lng": -73.5908,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -343,7 +345,11 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "9216 New York 9N, Elizabethtown, NY 12932",
+      "address_found": "9216 New York 9N, Elizabethtown, NY 12932",
+      "lat": 44.21627,
+      "lng": -73.5908
     },
     {
       "id": "salem-art-works",
@@ -493,9 +499,9 @@
         "https://www.woodstockguild.org/"
       ],
       "notes": "Shared-kiln soda workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Woodstock, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.woodstockguild.org/"
       },
@@ -517,8 +523,6 @@
         "date": "2026-10-06",
         "key": "woodstockguild.org"
       },
-      "lat": 42.04106,
-      "lng": -74.11825,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -537,7 +541,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "485 Upper Byrdcliffe Rd, Woodstock, NY 12498",
+      "lat": 42.05379,
+      "lng": -74.14656
     },
     {
       "id": "collective",
@@ -673,9 +680,9 @@
         "https://www.viewarts.org/"
       ],
       "notes": "Sat Oct 10, 10am–3pm. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Old Forge, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.viewarts.org/"
       },
@@ -696,8 +703,6 @@
         "date": "2026-10-06",
         "key": "viewarts.org"
       },
-      "lat": 43.7079,
-      "lng": -74.96909,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -717,7 +722,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "3273 State Route 28, Old Forge, NY 13420",
+      "lat": 43.71429,
+      "lng": -74.96113
     },
     {
       "id": "clayworks-on-columbia-demetria-chappo",
@@ -867,7 +875,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {
@@ -875,8 +883,6 @@
         "date": "2026-10-06",
         "key": "damico-art.org"
       },
-      "lat": 40.98154,
-      "lng": -72.13322,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -897,7 +903,11 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "Napeague Meadow Road, Amagansett, NY",
+      "address_found": "Napeague Meadow Road, Amagansett, NY",
+      "lat": 40.98154,
+      "lng": -72.13322
     },
     {
       "id": "the-pottery-studio",
@@ -1161,9 +1171,9 @@
         "https://www.andrewsartoriusceramics.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Germantown, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.andrewsartoriusceramics.com/"
       },
@@ -1176,7 +1186,7 @@
           "soda"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {
@@ -1201,8 +1211,9 @@
         "date": "2026-10-09"
       },
       "auto_approved": "2026-10-09",
-      "lat": 42.13453,
-      "lng": -73.8918
+      "address": "534 Church Ave., Germantown, NY 12526",
+      "lat": 42.10206,
+      "lng": -73.87405
     },
     {
       "id": "waterbrook-potters-studio",
@@ -1222,9 +1233,9 @@
         "https://www.waterbrookpotters.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Watervliet, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.waterbrookpotters.com/"
       },
@@ -1264,11 +1275,12 @@
         "date": "2026-10-08"
       },
       "access": {
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "auto_approved": "2026-10-09",
-      "lat": 42.73008,
-      "lng": -73.70123
+      "address": "406B 9th Ave., Watervliet, NY 12189",
+      "lat": 42.73729,
+      "lng": -73.70794
     },
     {
       "id": "thousand-islands-arts-center",
@@ -1285,9 +1297,9 @@
         "https://tiartscenter.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Clayton, New York",
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://tiartscenter.org/"
       },
@@ -1331,8 +1343,9 @@
         "result": "split",
         "date": "2026-10-08"
       },
-      "lat": 44.23949,
-      "lng": -76.08578
+      "address": "321 James Street, Clayton, NY 13624",
+      "lat": 44.24055,
+      "lng": -76.08787
     },
     {
       "id": "long-island-university",
@@ -1364,7 +1377,7 @@
           "raku"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {

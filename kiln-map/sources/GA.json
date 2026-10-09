@@ -16,9 +16,9 @@
         "https://www.hambidge.org/anagama-kiln-firings"
       ],
       "notes": "Anagama firings by lottery; Fall 2026 firing Oct 9-11.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
+      "location_precision": "approximate",
+      "geocode": "Rabun Gap, Georgia",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.hambidge.org/",
         "instagram": "hambidgecenter"
@@ -27,7 +27,10 @@
       "access": {
         "status": "upcoming"
       },
-      "address": "105 Hambidge Court, Rabun Gap, GA 30568"
+      "address": "105 Hambidge Court, Rabun Gap, GA 30568",
+      "address_found": "105 Hambidge Court, Rabun Gap, GA 30568",
+      "lat": 34.95721,
+      "lng": -83.38645
     },
     {
       "id": "chastain-arts-atlanta",
@@ -54,7 +57,9 @@
       "access": {
         "status": "past_only"
       },
-      "address": "980 Briarcliff Rd NE, Atlanta, GA 30306"
+      "address": "980 Briarcliff Rd NE, Atlanta, GA 30306",
+      "lat": 33.78177,
+      "lng": -84.3452
     },
     {
       "id": "atlanta-clay-works",
@@ -71,9 +76,9 @@
         "https://www.atlantaclayworks.org/"
       ],
       "notes": "Raku workshops a few times a year. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Atlanta, Georgia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.atlantaclayworks.org/"
       },
@@ -86,7 +91,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -94,8 +99,6 @@
         "date": "2026-10-06",
         "key": "atlantaclayworks.org"
       },
-      "lat": 33.75447,
-      "lng": -84.38982,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -113,7 +116,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "42 Howard St SE, Atlanta, GA 30317",
+      "lat": 33.75085,
+      "lng": -84.32309
     },
     {
       "id": "callanwolde-fine-arts-center",
@@ -130,9 +136,9 @@
         "https://callanwolde.org/"
       ],
       "notes": "Raku glazing workshop; raku & saggar workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Atlanta, Georgia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://callanwolde.org/"
       },
@@ -145,7 +151,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -153,8 +159,6 @@
         "date": "2026-10-06",
         "key": "callanwolde.org"
       },
-      "lat": 33.75447,
-      "lng": -84.38982,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -175,7 +179,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "980 Briarcliff Road NE, Atlanta, GA 30306",
+      "lat": 33.78177,
+      "lng": -84.3452
     },
     {
       "id": "clayer-co",
@@ -432,15 +439,15 @@
         "raku",
         "soda"
       ],
-      "region": "Atlanta",
-      "city": "Atlanta",
+      "region": "Decatur",
+      "city": "Decatur",
       "urls": [
         "https://www.mudfire.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Atlanta, Georgia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.mudfire.com/"
       },
@@ -479,8 +486,9 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "lat": 33.75447,
-      "lng": -84.38982
+      "address": "175 Laredo Drive, Decatur, GA 30030",
+      "lat": 33.78021,
+      "lng": -84.2682
     },
     {
       "id": "macon-arts-alliance",

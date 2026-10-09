@@ -17,15 +17,19 @@
         "https://www.cliftonculturalarts.org/"
       ],
       "notes": "Raku workshop series (August 2026).",
-      "location_precision": "approximate",
-      "geocode": "Clifton, Cincinnati, Ohio",
-      "location_note": "Shown at the neighborhood.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.cliftonculturalarts.org/",
         "instagram": "ccaccincinnati"
       },
-      "lat": 39.14498,
-      "lng": -84.52045
+      "access": {
+        "status": "past_only"
+      },
+      "address": "3412 Clifton Ave, Cincinnati, OH 45220",
+      "lat": 39.14416,
+      "lng": -84.51883
     },
     {
       "id": "kiln-room",
@@ -42,9 +46,9 @@
         "https://www.kilnroomcolumbus.com/"
       ],
       "notes": "**Monthly raku firing every 3rd Thursday**; fire your own pieces. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Columbus, Ohio",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.kilnroomcolumbus.com/"
       },
@@ -57,7 +61,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -65,8 +69,6 @@
         "date": "2026-10-06",
         "key": "kilnroomcolumbus.com"
       },
-      "lat": 39.96226,
-      "lng": -83.00071,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -83,7 +85,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "2050 South High Street, Columbus, OH",
+      "lat": 39.91921,
+      "lng": -82.99528
     },
     {
       "id": "langweil-studio-pottery",
@@ -117,7 +122,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {
@@ -181,7 +186,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -232,9 +237,9 @@
         "https://yellowspringsohio.org/"
       ],
       "notes": "One-day raku firing. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Yellow Springs, Ohio",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://yellowspringsohio.org/"
       },
@@ -255,8 +260,6 @@
         "date": "2026-10-06",
         "key": "yellowspringsohio.org"
       },
-      "lat": 39.80454,
-      "lng": -83.89252,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -273,7 +276,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "100 Dayton St, Yellow Springs, OH 45387",
+      "lat": 39.80839,
+      "lng": -83.88702
     },
     {
       "id": "the-cracked-pot-studio",
@@ -290,9 +296,9 @@
         "https://allevents.in/bellefontaine/saggar-firing/200028451623126"
       ],
       "notes": "Dated saggar firing. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bellefontaine, Ohio",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://allevents.in/bellefontaine/saggar-firing/200028451623126"
       },
@@ -305,7 +311,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -313,8 +319,6 @@
         "date": "2026-10-06",
         "key": "https://allevents.in/bellefontaine/saggar-firing/200028451623126"
       },
-      "lat": 40.36116,
-      "lng": -83.75966,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -331,7 +335,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "613 Hamilton St, Bellefontaine, OH",
+      "lat": 40.35344,
+      "lng": -83.7575
     },
     {
       "id": "quill-pottery",
@@ -425,7 +432,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {
@@ -468,9 +475,9 @@
         "https://www.cantonart.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Canton, Ohio",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.cantonart.org/"
       },
@@ -509,8 +516,9 @@
       },
       "weak": false,
       "auto_approved": "2026-10-09",
-      "lat": 40.79855,
-      "lng": -81.37495
+      "address": "1001 Market Ave. N, Canton, OH 44702",
+      "lat": 40.80717,
+      "lng": -81.37335
     },
     {
       "id": "tomradca",
@@ -603,7 +611,7 @@
           "raku"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -651,9 +659,9 @@
         "https://communitypottery.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Yellow Springs, Ohio",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://communitypottery.org/"
       },
@@ -696,10 +704,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "address": "9022 100 Dayton St., Yellow Springs, OH 45387",
+      "address": "100 Dayton St., Yellow Springs, OH 45387",
       "auto_approved": "2026-10-09",
-      "lat": 39.80454,
-      "lng": -83.89252
+      "lat": 39.80839,
+      "lng": -83.88702
     }
   ],
   "_removed": [

@@ -10,22 +10,26 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Central Virginia",
+      "region": "Appomattox",
       "city": "Appomattox",
       "urls": [
         "https://www.cubcreek.org/"
       ],
       "notes": "Three-chamber noborigama, 500 cu ft (Levin map); residencies.",
-      "location_precision": "approximate",
-      "geocode": "Appomattox, Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.cubcreek.org/",
         "email": "info@cubcreek.org",
         "instagram": "cubcreekfoundation"
       },
-      "lat": 37.35355,
-      "lng": -78.82727
+      "access": {
+        "status": "coming_soon"
+      },
+      "address": "4871 Wheelers Spring Rd., Appomattox, VA 24522",
+      "lat": 37.22396,
+      "lng": -78.74455
     },
     {
       "id": "art-league-va",
@@ -66,16 +70,20 @@
         "https://visarts.org/"
       ],
       "notes": "Raku firing workshops; Olympic raku kiln.",
-      "location_precision": "approximate",
-      "geocode": "Richmond, Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://visarts.org/",
         "instagram": "visartsrva"
       },
-      "lat": 37.53851,
-      "lng": -77.43428,
-      "newsletter_url": "https://www.constantcontact.com/legal/about-constant-contact"
+      "newsletter_url": "https://www.constantcontact.com/legal/about-constant-contact",
+      "access": {
+        "status": "upcoming"
+      },
+      "address": "1812 West Main Street, Richmond, VA",
+      "lat": 37.5488,
+      "lng": -77.46389
     },
     {
       "id": "the-workshop-at-timber-ridge",
@@ -107,7 +115,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {
@@ -171,7 +179,7 @@
           "wood"
         ],
         "checked": "2026-10-06",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -236,7 +244,7 @@
           "gas_reduction"
         ],
         "checked": "2026-10-06",
-        "status": "past_only"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {
@@ -301,7 +309,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -331,6 +339,7 @@
       "weak": false,
       "address": "1320 Chilly Hollow Road, Berryville, VA 22611",
       "auto_approved": "2026-10-09",
+      "address_found": "1320 Chilly Hollow Road, Berryville, VA 22611",
       "lat": 39.15175,
       "lng": -77.98252
     },
@@ -350,9 +359,9 @@
         "https://www.rivercity-clay.com/"
       ],
       "notes": "Raku workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Richmond, Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.rivercity-clay.com/"
       },
@@ -366,7 +375,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -395,8 +404,10 @@
       },
       "weak": false,
       "auto_approved": "2026-10-09",
-      "lat": 37.53851,
-      "lng": -77.43428
+      "address": "1811 Huguenot Rd. -, Richmond, VA 23113",
+      "address_found": "1811 Huguenot Rd. - Suite 408, Richmond, VA 23113",
+      "lat": 37.56207,
+      "lng": -77.54388
     },
     {
       "id": "academy-center-of-the-arts",
@@ -530,9 +541,9 @@
         "https://artcentervb.networkforgood.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Virginia Beach, Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://artcentervb.networkforgood.com/"
       },
@@ -570,8 +581,9 @@
       },
       "weak": false,
       "auto_approved": "2026-10-09",
-      "lat": 36.84966,
-      "lng": -75.97608
+      "address": "532 Virginia Beach Blvd, Virginia Beach, VA 23451",
+      "lat": 36.84445,
+      "lng": -75.97993
     },
     {
       "id": "the-workshop-at-timber-ridge-va",

@@ -79,7 +79,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -121,9 +121,9 @@
         "https://www.denverceramicstudio.com/"
       ],
       "notes": "By appointment. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Denver, Colorado",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.denverceramicstudio.com/"
       },
@@ -136,7 +136,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -144,8 +144,6 @@
         "date": "2026-10-06",
         "key": "denverceramicstudio.com"
       },
-      "lat": 39.73924,
-      "lng": -104.98486,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -162,7 +160,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "369 S. Pearl, Denver, CO 80209",
+      "lat": 39.70984,
+      "lng": -104.98067
     },
     {
       "id": "alex-schupp-ceramics",
@@ -179,9 +180,9 @@
         "https://www.alexschuppceramics.com/"
       ],
       "notes": "**Private raku sessions**. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Denver, Colorado",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.alexschuppceramics.com/"
       },
@@ -194,7 +195,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {
@@ -202,8 +203,6 @@
         "date": "2026-10-06",
         "key": "alexschuppceramics.com"
       },
-      "lat": 39.73924,
-      "lng": -104.98486,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -220,7 +219,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "2412 Stout St., Denver, CO 80205",
+      "lat": 39.75341,
+      "lng": -104.98288
     },
     {
       "id": "asld-art-students-league-of-denver",
@@ -237,9 +239,9 @@
         "https://asld.org/"
       ],
       "notes": "3-week raku workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Denver, Colorado",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://asld.org/"
       },
@@ -252,7 +254,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {
@@ -260,8 +262,6 @@
         "date": "2026-10-06",
         "key": "asld.org"
       },
-      "lat": 39.73924,
-      "lng": -104.98486,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -279,7 +279,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "200 Grant Street, Denver, CO 80203",
+      "lat": 39.71972,
+      "lng": -104.98345
     },
     {
       "id": "jl-pottery-justin",
@@ -311,7 +314,7 @@
           "soda"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -419,9 +422,9 @@
         "https://www.flinginpots.com/"
       ],
       "notes": "2-night raku workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fort Collins, Colorado",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.flinginpots.com/"
       },
@@ -434,7 +437,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {
@@ -442,8 +445,6 @@
         "date": "2026-10-06",
         "key": "flinginpots.com"
       },
-      "lat": 40.58718,
-      "lng": -105.07701,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -469,7 +470,10 @@
         "result": "split",
         "date": "2026-10-07"
       },
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "2614 Pleasant Valley rd, Fort Collins, CO 80521",
+      "lat": 40.57291,
+      "lng": -105.1257
     },
     {
       "id": "joseph-miranda-smokestack",
@@ -726,9 +730,9 @@
         "https://www.carbondaleclay.org/"
       ],
       "notes": "Raku events; atmospheric firing. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Carbondale, Colorado",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.carbondaleclay.org/"
       },
@@ -741,7 +745,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -769,10 +773,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "address": "215 12th Street, Unit D, Carbondale, CO",
+      "address": "135 Main Street, Carbondale, CO 81623",
       "auto_approved": "2026-10-09",
-      "lat": 39.40056,
-      "lng": -107.21124
+      "lat": 39.40062,
+      "lng": -107.208
     },
     {
       "id": "groundworks-art-lab",
@@ -808,7 +812,7 @@
           "soda"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -1036,9 +1040,9 @@
         "https://www.steamboatcreates.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Steamboat Springs, Colorado",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.steamboatcreates.org/"
       },
@@ -1078,8 +1082,9 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "lat": 40.4848,
-      "lng": -106.83173
+      "address": "1001 13th Street, Steamboat Springs, CO 80487",
+      "lat": 40.48955,
+      "lng": -106.84056
     },
     {
       "id": "warehome-studios",
@@ -1096,9 +1101,9 @@
         "https://www.warehomestudios.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Steamboat Springs, Colorado",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.warehomestudios.com/"
       },
@@ -1131,11 +1136,13 @@
         "date": "2026-10-08"
       },
       "access": {
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "auto_approved": "2026-10-09",
-      "lat": 40.4848,
-      "lng": -106.83173
+      "address": "2520 Copper Ridge Dr. Springs, CO",
+      "address_found": "2520 Copper Ridge Dr. Unit C2, Steamboat Springs, CO",
+      "lat": 40.50552,
+      "lng": -106.85454
     }
   ],
   "_removed": [

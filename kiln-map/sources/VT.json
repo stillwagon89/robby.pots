@@ -11,7 +11,7 @@
         "raku",
         "pit_barrel_saggar"
       ],
-      "region": "Champlain Valley",
+      "region": "Middlebury",
       "city": "Middlebury",
       "urls": [
         "https://www.middleburystudioschool.org/"
@@ -24,10 +24,15 @@
         "instagram": "middleburystudioschool"
       },
       "geocode": "Middlebury, Vermont",
-      "location_note": "Shown at the town; the studio is at 2377 Route 7 S.",
+      "location_note": "Shown at the town.",
+      "newsletter_url": "https://www.middleburystudioschool.org/",
+      "access": {
+        "status": "upcoming"
+      },
+      "address": "2377 Route 7 South, Middlebury, VT 05753",
+      "address_found": "2377 Route 7 South, Middlebury, VT 05753",
       "lat": 44.0143,
-      "lng": -73.16723,
-      "newsletter_url": "https://www.middleburystudioschool.org/"
+      "lng": -73.16723
     },
     {
       "id": "luke-iannuzzi-pottery",
@@ -59,7 +64,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -289,9 +294,9 @@
         "https://walterslowinskipottery.weebly.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Brattleboro, Vermont",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://walterslowinskipottery.weebly.com/"
       },
@@ -304,7 +309,7 @@
           "wood"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -324,8 +329,6 @@
         "town": "Brattleboro",
         "street": "658 Orchard Street"
       },
-      "lat": 42.85076,
-      "lng": -72.55729,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -336,7 +339,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "658 Orchard Street, Brattleboro, VT 05301",
+      "lat": 42.86547,
+      "lng": -72.59465
     },
     {
       "id": "middlebury-studio-school-vt",
@@ -409,15 +415,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Manchester",
-      "city": "Manchester",
+      "region": "Pownal",
+      "city": "Pownal",
       "urls": [
         "https://www.manchesterjournal.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Manchester, Vermont",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.manchesterjournal.com/"
       },
@@ -458,8 +464,9 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "lat": 43.17691,
-      "lng": -73.05687
+      "address": "1179 North Mason Hill Road, Pownal, VT",
+      "lat": 42.75986,
+      "lng": -73.20587
     },
     {
       "id": "jackie-sedlock-pottery",

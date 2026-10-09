@@ -11,21 +11,25 @@
         "wood",
         "soda"
       ],
-      "region": "Central Kentucky",
+      "region": "Danville",
       "city": "Danville",
       "urls": [
         "https://artcenterky.org/community/ceramics-studio/"
       ],
       "notes": "Dragon Fire anagama restored (first firing April 2026); soda fire workshop June 2026; member ceramics studio.",
-      "location_precision": "approximate",
-      "geocode": "Danville, Kentucky",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://artcenterky.org/",
         "instagram": "artcenterky"
       },
-      "lat": 37.64565,
-      "lng": -84.77218
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "401 West Main Street, Danville, KY 40422",
+      "lat": 37.64601,
+      "lng": -84.77418
     },
     {
       "id": "art-center-of-the-bluegrass",
@@ -57,7 +61,7 @@
           "wood"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -116,7 +120,7 @@
           "soda"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {

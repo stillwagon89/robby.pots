@@ -1,6 +1,6 @@
 # Review status
 
-3 states checked off, 46 with solid places still to review, 2 with nothing solid yet.
+3 states checked off, 38 with solid places still to review, 10 with nothing solid yet.
 
 ## Checked off
 - **AK** (2026-10-09): 1 public. Midnight Potter Studios approved, linked to its kiln-firing page.
@@ -10,52 +10,44 @@
 ## To review (solid places waiting)
 | State | Solid to review | Already public | Weak (hidden) |
 |---|---|---|---|
-| AZ | 4 | 1 | 3 |
-| CA | 23 | 16 | 10 |
-| CO | 12 | 2 | 7 |
-| CT | 8 | 1 | 5 |
+| CA | 8 | 31 | 11 |
+| CO | 5 | 9 | 6 |
+| CT | 2 | 7 | 4 |
 | DC | 3 | 1 | 0 |
-| DE | 1 | 0 | 2 |
-| FL | 17 | 1 | 11 |
-| GA | 4 | 2 | 4 |
-| HI | 3 | 1 | 1 |
-| IA | 3 | 0 | 5 |
+| FL | 7 | 11 | 11 |
+| GA | 2 | 4 | 5 |
+| IA | 1 | 2 | 5 |
 | ID | 1 | 1 | 3 |
-| IL | 4 | 2 | 7 |
-| IN | 5 | 1 | 6 |
-| KS | 1 | 0 | 2 |
+| IL | 2 | 4 | 7 |
+| IN | 2 | 4 | 5 |
 | KY | 2 | 1 | 1 |
 | LA | 1 | 0 | 2 |
-| MA | 14 | 3 | 6 |
-| MD | 3 | 2 | 6 |
-| ME | 7 | 3 | 1 |
-| MI | 8 | 2 | 2 |
-| MN | 3 | 2 | 4 |
-| MO | 4 | 1 | 3 |
+| MA | 2 | 15 | 6 |
+| MD | 2 | 3 | 6 |
+| ME | 2 | 8 | 1 |
+| MI | 1 | 9 | 2 |
+| MN | 1 | 4 | 4 |
+| MO | 1 | 3 | 4 |
 | MS | 1 | 1 | 2 |
-| MT | 3 | 2 | 4 |
-| NC | 17 | 3 | 7 |
-| NE | 2 | 1 | 1 |
+| MT | 2 | 3 | 4 |
+| NC | 6 | 14 | 7 |
 | NH | 2 | 0 | 3 |
-| NJ | 3 | 1 | 5 |
-| NM | 6 | 1 | 1 |
-| NV | 3 | 0 | 2 |
-| NY | 13 | 1 | 12 |
-| OH | 9 | 1 | 2 |
+| NJ | 2 | 2 | 5 |
+| NM | 3 | 4 | 1 |
+| NV | 2 | 1 | 2 |
+| NY | 5 | 9 | 12 |
+| OH | 3 | 7 | 2 |
 | OK | 3 | 0 | 4 |
-| OR | 11 | 5 | 9 |
-| PA | 15 | 4 | 11 |
-| RI | 1 | 1 | 1 |
-| SC | 1 | 0 | 5 |
-| TN | 4 | 1 | 5 |
-| TX | 20 | 2 | 6 |
-| UT | 4 | 0 | 6 |
-| VA | 9 | 3 | 4 |
-| VT | 5 | 1 | 3 |
-| WA | 14 | 3 | 11 |
-| WI | 8 | 3 | 11 |
-| WV | 2 | 0 | 3 |
+| OR | 4 | 12 | 9 |
+| PA | 5 | 14 | 11 |
+| TN | 1 | 4 | 5 |
+| TX | 8 | 14 | 6 |
+| VA | 3 | 9 | 4 |
+| VT | 4 | 2 | 3 |
+| WA | 2 | 15 | 12 |
+| WI | 4 | 6 | 12 |
+| WV | 1 | 1 | 3 |
 | WY | 1 | 0 | 2 |
 
 ## Nothing solid yet (needs tips or more search)
-ND (3 weak), SD (2 weak)
+AZ (3 weak), DE (2 weak), HI (1 weak), KS (2 weak), ND (3 weak), NE (1 weak), RI (1 weak), SC (5 weak), SD (2 weak), UT (6 weak)

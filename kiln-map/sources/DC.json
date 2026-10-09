@@ -43,9 +43,9 @@
         "https://classcub.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Washington, District of Columbia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://classcub.com/"
       },
@@ -77,13 +77,14 @@
         "state": "DC",
         "town": "Washington"
       },
-      "lat": 38.8951,
-      "lng": -77.03638,
       "located": {
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "2414 Douglas St NE, Washington, DC 20018",
+      "lat": 38.92388,
+      "lng": -76.97145
     },
     {
       "id": "rachel-lindsay-pottery",
@@ -135,7 +136,7 @@
         "date": "2026-10-07"
       },
       "access": {
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "lat": 38.8951,
       "lng": -77.03638

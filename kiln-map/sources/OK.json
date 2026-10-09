@@ -33,7 +33,7 @@
           "gas_reduction"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -391,9 +391,9 @@
         "https://events.okstate.edu/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "STILLWATER, Oklahoma",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://events.okstate.edu/"
       },
@@ -433,8 +433,9 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "lat": 36.11563,
-      "lng": -97.05857
+      "address": "1001 S DUCK STREET, STILLWATER, OK 74074",
+      "lat": 36.11098,
+      "lng": -97.06179
     }
   ],
   "_removed": [

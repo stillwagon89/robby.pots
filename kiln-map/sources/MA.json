@@ -12,22 +12,26 @@
         "soda",
         "raku"
       ],
-      "region": "Cape Cod",
+      "region": "Truro",
       "city": "Truro",
       "urls": [
         "https://www.castlehill.org/"
       ],
       "notes": "Wood, soda and raku workshops.",
-      "location_precision": "approximate",
-      "geocode": "Truro, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.castlehill.org/",
         "instagram": "castlehilltruro"
       },
-      "lat": 41.99344,
-      "lng": -70.04975,
-      "newsletter_url": "https://visitor.r20.constantcontact.com/d.jsp?llr=ge6rvhqab&p=oi&m=1116948984966&sit=ws7txmuib&f=dcdf499d-9a87-4841-a40a-e1b7b700aeed"
+      "newsletter_url": "https://visitor.r20.constantcontact.com/d.jsp?llr=ge6rvhqab&p=oi&m=1116948984966&sit=ws7txmuib&f=dcdf499d-9a87-4841-a40a-e1b7b700aeed",
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "10 Meetinghouse Road, Truro, MA 02666",
+      "lat": 41.99784,
+      "lng": -70.06121
     },
     {
       "id": "snow-farm",
@@ -36,21 +40,19 @@
       "core": false,
       "public": true,
       "firing_types_guess": [],
-      "region": "Pioneer Valley",
+      "region": "Williamsburg",
       "city": "Williamsburg",
       "urls": [
         "https://www.snowfarm.org/"
       ],
       "notes": "Craft workshops; firing types unconfirmed.",
-      "location_precision": "approximate",
-      "geocode": "Williamsburg, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.snowfarm.org/",
         "instagram": "snowfarmcraft"
       },
-      "lat": 42.39263,
-      "lng": -72.73025,
       "newsletter_url": "https://www.constantcontact.com/legal/about-constant-contact",
       "access": {
         "how": "Ceramics workshops",
@@ -62,8 +64,12 @@
           "gas_reduction",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-05"
-      }
+        "checked": "2026-10-05",
+        "status": "coming_soon"
+      },
+      "address": "5 Clary Rd, Williamsburg, MA 01096",
+      "lat": 42.40702,
+      "lng": -72.76186
     },
     {
       "id": "berkshire-art-center",
@@ -74,22 +80,26 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Berkshires",
-      "city": "Lenox",
+      "region": "Stockbridge",
+      "city": "Stockbridge",
       "urls": [
         "https://berkshireartcenter.org/"
       ],
       "notes": "Raku firing classes.",
-      "location_precision": "approximate",
-      "geocode": "Lenox, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://berkshireartcenter.org/",
         "instagram": "berkshireartcenter"
       },
-      "lat": 42.35682,
-      "lng": -73.28509,
-      "newsletter_url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.newsletter/21fe1bd4-f2e9-44c8-ab4d-ca9ea4fe571b_121/website.components.newsletter.styles.css"
+      "newsletter_url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.newsletter/21fe1bd4-f2e9-44c8-ab4d-ca9ea4fe571b_121/website.components.newsletter.styles.css",
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "13 Willard Hill Road, Stockbridge, MA 01262",
+      "lat": 42.31627,
+      "lng": -73.3311
     },
     {
       "id": "the-potters-shop-school",
@@ -290,9 +300,9 @@
         "https://www.mudflat.org/"
       ],
       "notes": "Soda kiln workshops and classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Somerville, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.mudflat.org/"
       },
@@ -305,7 +315,7 @@
           "soda"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {
@@ -313,8 +323,6 @@
         "date": "2026-10-06",
         "key": "mudflat.org"
       },
-      "lat": 42.3876,
-      "lng": -71.0995,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -332,7 +340,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "81 Broadway, Somerville, MA 02145",
+      "lat": 42.38743,
+      "lng": -71.08195
     },
     {
       "id": "ben-eberle-ceramics-karma-kiln",
@@ -364,7 +375,7 @@
           "soda"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -407,9 +418,9 @@
         "https://www.indigofirestudio.com/"
       ],
       "notes": "Soda firing workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Watertown, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.indigofirestudio.com/"
       },
@@ -422,7 +433,7 @@
           "soda"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -430,8 +441,6 @@
         "date": "2026-10-06",
         "key": "indigofirestudio.com"
       },
-      "lat": 42.36526,
-      "lng": -71.18432,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -448,7 +457,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "79R Grove St, Watertown, MA 02472",
+      "lat": 42.36919,
+      "lng": -71.15266
     },
     {
       "id": "lexart",
@@ -466,9 +478,9 @@
         "https://www.lexart.org/"
       ],
       "notes": "Saggar firing workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lexington, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.lexart.org/"
       },
@@ -482,7 +494,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {
@@ -490,8 +502,6 @@
         "date": "2026-10-06",
         "key": "lexart.org"
       },
-      "lat": 42.44732,
-      "lng": -71.2245,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -510,7 +520,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "130 Waltham St, Lexington, MA 02421",
+      "lat": 42.44523,
+      "lng": -71.22818
     },
     {
       "id": "old-school-clay-and-ceramics",
@@ -542,7 +555,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -673,7 +686,7 @@
           "gas_reduction"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {
@@ -777,15 +790,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Dracut",
-      "city": "Dracut",
+      "region": "Lowell",
+      "city": "Lowell",
       "urls": [
         "https://www.potterymill.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Dracut, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.potterymill.com/"
       },
@@ -818,13 +831,14 @@
         "town": "Dracut"
       },
       "weak": false,
-      "lat": 42.66882,
-      "lng": -71.30337,
       "located": {
         "osm": false,
         "date": "2026-10-09"
       },
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "325 Chelmsford St., Lowell, MA 01851",
+      "lat": 42.63068,
+      "lng": -71.3216
     },
     {
       "id": "the-umbrella-arts-center-ma",
@@ -858,7 +872,7 @@
           "soda"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {
@@ -907,9 +921,9 @@
         "https://www.meeshpottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Allston, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.meeshpottery.com/"
       },
@@ -922,7 +936,7 @@
           "raku"
         ],
         "checked": "2026-10-08",
-        "status": "annual"
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -947,8 +961,9 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "lat": 42.35301,
-      "lng": -71.13212
+      "address": "224 Western Avenue, Allston, MA 02134",
+      "lat": 42.36345,
+      "lng": -71.13397
     },
     {
       "id": "the-local-fire-arts-center",
@@ -1043,7 +1058,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-08",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {

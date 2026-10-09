@@ -26,7 +26,10 @@
       },
       "lat": 44.96283,
       "lng": -93.23727,
-      "newsletter_url": "https://northernclaycenter.org/newsletter/"
+      "newsletter_url": "https://northernclaycenter.org/newsletter/",
+      "access": {
+        "status": "ongoing"
+      }
     },
     {
       "id": "grand-marais-art-colony",
@@ -37,21 +40,25 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "North Shore",
+      "region": "Grand Marais",
       "city": "Grand Marais",
       "urls": [
         "https://grandmaraisartcolony.org/"
       ],
       "notes": "Wood firing workshops (Ceramics Monthly 2026).",
-      "location_precision": "approximate",
-      "geocode": "Grand Marais, Minnesota",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://grandmaraisartcolony.org/"
       },
-      "lat": 47.75047,
-      "lng": -90.33468,
-      "newsletter_url": "https://grandmaraisartcolony.org/about/newsroom/e-newsletter/"
+      "newsletter_url": "https://grandmaraisartcolony.org/about/newsroom/e-newsletter/",
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "120 3rd Ave W, Grand Marais, MN 55604",
+      "lat": 47.75092,
+      "lng": -90.33722
     },
     {
       "id": "warroad-riverplace",
@@ -251,8 +258,9 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "address": "2240 North Shore Drive, Wayzata, MN 55391",
+      "address": "2240 North Shore Drive, Wayzata, MN 55391-9347",
       "auto_approved": "2026-10-09",
+      "address_found": "2240 North Shore Drive, Wayzata, MN 55391-9347",
       "lat": 44.97076,
       "lng": -93.51195
     },
@@ -271,9 +279,9 @@
         "https://northhouse.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Grand Marais, Minnesota",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://northhouse.org/"
       },
@@ -286,7 +294,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -313,8 +321,9 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "lat": 47.75047,
-      "lng": -90.33468
+      "address": "500 W Hwy 61, Grand Marais, MN 55604",
+      "lat": 47.74909,
+      "lng": -90.34037
     },
     {
       "id": "the-workshop-mpls",

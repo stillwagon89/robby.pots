@@ -40,9 +40,9 @@
         "https://paseopottery.com/"
       ],
       "notes": "Monthly raku workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Santa Fe, New Mexico",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://paseopottery.com/"
       },
@@ -55,7 +55,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -82,10 +82,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "address": "135 W. Palace Ave. Suite 100, Santa Fe, NM 87501",
+      "address": "1273 Calle de Comercio, Santa Fe, NM 87507",
       "auto_approved": "2026-10-09",
-      "lat": 35.68761,
-      "lng": -105.93846
+      "lat": 35.65968,
+      "lng": -105.98881
     },
     {
       "id": "museum-of-new-mexico-foundation",
@@ -102,9 +102,9 @@
         "https://www.museumfoundation.org/"
       ],
       "notes": "Dated pit-firing class. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Santa Fe, New Mexico",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.museumfoundation.org/"
       },
@@ -117,7 +117,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {
@@ -125,8 +125,6 @@
         "date": "2026-10-06",
         "key": "museumfoundation.org"
       },
-      "lat": 35.68761,
-      "lng": -105.93846,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -147,7 +145,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "1411 Paseo de Peralta, Santa Fe, NM 87501",
+      "lat": 35.68098,
+      "lng": -105.94435
     },
     {
       "id": "rottenstone-gallery",
@@ -245,7 +246,7 @@
           "soda"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -297,9 +298,9 @@
         "https://www.taosceramics.com/"
       ],
       "notes": "Classes and membership. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Taos, New Mexico",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.taosceramics.com/"
       },
@@ -313,7 +314,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -321,8 +322,6 @@
         "date": "2026-10-06",
         "key": "taosceramics.com"
       },
-      "lat": 36.40724,
-      "lng": -105.57328,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -340,7 +339,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "114 Este Es Road, Taos, NM",
+      "lat": 36.36959,
+      "lng": -105.59176
     },
     {
       "id": "potters-guild-of-las-cruces",
@@ -372,7 +374,7 @@
           "wood"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -411,15 +413,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Santa Fe",
-      "city": "Santa Fe",
+      "region": "Madrid",
+      "city": "Madrid",
       "urls": [
         "https://www.calliopemadrid.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Santa Fe, New Mexico",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.calliopemadrid.com/"
       },
@@ -432,7 +434,7 @@
           "raku"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -457,8 +459,9 @@
       },
       "weak": false,
       "auto_approved": "2026-10-09",
-      "lat": 35.68761,
-      "lng": -105.93846
+      "address": "2876 NM-14, Madrid, NM 87010",
+      "lat": 35.40737,
+      "lng": -106.15202
     }
   ],
   "_removed": [

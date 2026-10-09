@@ -12,22 +12,26 @@
         "salt",
         "soda"
       ],
-      "region": "Western NC",
-      "city": "Penland",
+      "region": "Bakersville",
+      "city": "Bakersville",
       "urls": [
         "https://penland.org/"
       ],
       "notes": "Clay workshops incl. wood firing (Form and Fire, July 2026).",
-      "location_precision": "approximate",
-      "geocode": "Penland, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://penland.org/",
         "instagram": "penlandschool"
       },
-      "lat": 35.93012,
-      "lng": -82.11206,
-      "newsletter_url": "https://penland.us4.list-manage.com/subscribe?u=e826e108a2b84cf1c69339cc5&id=e5385b124d"
+      "newsletter_url": "https://penland.us4.list-manage.com/subscribe?u=e826e108a2b84cf1c69339cc5&id=e5385b124d",
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "2687 Conley Ridge Road, Bakersville, NC 28705",
+      "lat": 35.94448,
+      "lng": -82.11525
     },
     {
       "id": "john-c-campbell",
@@ -39,20 +43,24 @@
         "raku",
         "gas_reduction"
       ],
-      "region": "Western NC",
+      "region": "Brasstown",
       "city": "Brasstown",
       "urls": [
         "https://www.folkschool.org/"
       ],
       "notes": "Raku and cone 10 reduction workshops. Site blocks bots.",
-      "location_precision": "approximate",
-      "geocode": "Brasstown, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.folkschool.org/"
       },
-      "lat": 35.0399,
-      "lng": -83.95739
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "4590 Brasstown Road, Brasstown, NC 28902",
+      "lat": 35.03748,
+      "lng": -83.96416
     },
     {
       "id": "sawtooth",
@@ -64,22 +72,26 @@
         "wood",
         "salt"
       ],
-      "region": "Piedmont",
+      "region": "Winston-Salem",
       "city": "Winston-Salem",
       "urls": [
         "https://www.sawtooth.org/"
       ],
       "notes": "Wood firing / salt firing classes.",
-      "location_precision": "approximate",
-      "geocode": "Winston-Salem, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.sawtooth.org/",
         "instagram": "sawtoothschool"
       },
-      "lat": 36.09981,
-      "lng": -80.24405,
-      "newsletter_url": "https://www.sawtooth.org/"
+      "newsletter_url": "https://www.sawtooth.org/",
+      "access": {
+        "status": "upcoming"
+      },
+      "address": "251 N. Spruce Street, Winston-Salem, NC 27101",
+      "lat": 36.09631,
+      "lng": -80.24839
     },
     {
       "id": "the-bascom",
@@ -129,7 +141,7 @@
       },
       "weak": false,
       "access": {
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "address": "323 Franklin Road, Highlands, NC 28741",
       "auto_approved": "2026-10-09",
@@ -151,9 +163,9 @@
         "https://ncclayclub.blogspot.com/"
       ],
       "notes": "3-day weekend workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bakersville, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://ncclayclub.blogspot.com/"
       },
@@ -166,7 +178,7 @@
           "soda"
         ],
         "checked": "2026-10-06",
-        "status": "upcoming"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -174,8 +186,6 @@
         "date": "2026-10-06",
         "key": "ncclayclub.blogspot.com"
       },
-      "lat": 36.01567,
-      "lng": -82.15874,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -198,7 +208,8 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "524 Wilson Road, Bakersville, NC 28705"
     },
     {
       "id": "doug-dotson-pottery",
@@ -279,9 +290,9 @@
         "https://site.corsizio.com/"
       ],
       "notes": "One-day raku workshop; kiln rental. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Durham, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://site.corsizio.com/"
       },
@@ -295,7 +306,7 @@
           "wood"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -303,8 +314,6 @@
         "date": "2026-10-06",
         "key": "site.corsizio.com"
       },
-      "lat": 35.99665,
-      "lng": -78.90181,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -322,7 +331,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "1010 West Main St, Durham, NC",
+      "lat": 36.00123,
+      "lng": -78.91049
     },
     {
       "id": "pasca-pottery",
@@ -660,9 +672,9 @@
         "https://www.activekids.com/"
       ],
       "notes": "2-day workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Leland, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.activekids.com/"
       },
@@ -683,8 +695,6 @@
         "date": "2026-10-06",
         "key": "activekids.com"
       },
-      "lat": 34.23643,
-      "lng": -78.004,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -700,7 +710,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "1212 Magnolia Village Way, Leland, NC 28451",
+      "lat": 34.2131,
+      "lng": -78.02882
     },
     {
       "id": "avl-clay",
@@ -732,7 +745,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "past_only"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -803,7 +816,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {
@@ -920,15 +933,15 @@
       "firing_types_guess": [
         "soda"
       ],
-      "region": "The Bascom Highlands",
-      "city": "The Bascom Highlands",
+      "region": "Bakersville",
+      "city": "Bakersville",
       "urls": [
         "https://www.gertrudegrahamsmith.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "The Bascom Highlands, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.gertrudegrahamsmith.com/"
       },
@@ -962,11 +975,12 @@
         "date": "2026-10-08"
       },
       "access": {
-        "status": "ongoing"
+        "status": "past_only"
       },
       "auto_approved": "2026-10-09",
-      "lat": 35.05761,
-      "lng": -83.20412
+      "address": "Cane Creek Road, Bakersville, NC",
+      "lat": 36.01681,
+      "lng": -82.08602
     },
     {
       "id": "sawtooth-school-for-visual-art",
@@ -1222,9 +1236,9 @@
         "https://thepathbesttraveled.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Creedmoor, North Carolina",
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://thepathbesttraveled.com/"
       },
@@ -1239,7 +1253,7 @@
           "wood"
         ],
         "checked": "2026-10-08",
-        "status": "annual"
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -1265,8 +1279,9 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "lat": 36.12274,
-      "lng": -78.68623
+      "address": "1150 Fleming Rd, Creedmoor, NC 27522",
+      "lat": 36.07686,
+      "lng": -78.74697
     },
     {
       "id": "joseph-sand-pottery",
@@ -1474,7 +1489,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {

@@ -114,7 +114,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -239,7 +239,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -275,6 +275,7 @@
       },
       "address": "5909 Labrador Lane, Antioch, TN 37013",
       "auto_approved": "2026-10-09",
+      "address_found": "5909 Labrador Lane, Antioch, TN 37013",
       "lat": 36.06006,
       "lng": -86.67222
     },
@@ -483,7 +484,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -528,9 +529,9 @@
         "https://theclaylady.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Nashville, Tennessee",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://theclaylady.com/"
       },
@@ -568,8 +569,9 @@
       },
       "weak": false,
       "auto_approved": "2026-10-09",
-      "lat": 36.16228,
-      "lng": -86.7743
+      "address": "1416 Lebanon Pike, Nashville, TN",
+      "lat": 36.15337,
+      "lng": -86.72491
     }
   ],
   "_removed": [

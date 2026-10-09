@@ -12,22 +12,26 @@
         "salt",
         "soda"
       ],
-      "region": "Chester County",
+      "region": "Chester Springs",
       "city": "Chester Springs",
       "urls": [
         "https://yellowsprings.org/wood-kiln-firing/"
       ],
       "notes": "Community wood kiln firings 2026; soda kiln build workshop.",
-      "location_precision": "approximate",
-      "geocode": "Chester Springs, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://yellowsprings.org/wood-kiln-firing/",
         "instagram": "historicyellowsprings"
       },
-      "lat": 40.0951,
-      "lng": -75.61687,
-      "newsletter_url": "https://yellowsprings.org/"
+      "newsletter_url": "https://yellowsprings.org/",
+      "access": {
+        "status": "upcoming"
+      },
+      "address": "1668 Art School Rd, Chester Springs, PA 19425",
+      "lat": 40.10001,
+      "lng": -75.62036
     },
     {
       "id": "clay-studio-philadelphia",
@@ -44,16 +48,20 @@
         "https://theclaystudio.org/soda-kiln-firing"
       ],
       "notes": "Community soda kiln firings ($75 per cubic foot; students and associated artists).",
-      "location_precision": "approximate",
-      "geocode": "Philadelphia, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://theclaystudio.org/",
         "instagram": "theclaystudiophl"
       },
-      "lat": 39.95272,
-      "lng": -75.16353,
-      "newsletter_url": "https://theclaystudio.org/"
+      "newsletter_url": "https://theclaystudio.org/",
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "1425 N American Street, Philadelphia, PA 19122",
+      "lat": 39.97824,
+      "lng": -75.13892
     },
     {
       "id": "main-line-art-center",
@@ -64,21 +72,25 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Philadelphia suburbs",
+      "region": "Haverford",
       "city": "Haverford",
       "urls": [
         "https://mainlineart.org/"
       ],
       "notes": "Raku classes and Raku Guild.",
-      "location_precision": "approximate",
-      "geocode": "Haverford, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://mainlineart.org/",
         "instagram": "mainlineartcenter"
       },
-      "lat": 40.01292,
-      "lng": -75.29669
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "746 Panmure Road, Haverford, PA 19041",
+      "lat": 40.01585,
+      "lng": -75.3097
     },
     {
       "id": "tyler-park-arts",
@@ -89,22 +101,26 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Bucks County",
-      "city": "Newtown",
+      "region": "Richboro",
+      "city": "Richboro",
       "urls": [
         "https://tylerparkarts.org/woodkiln-firing"
       ],
       "notes": "Wood kiln firings.",
-      "location_precision": "approximate",
-      "geocode": "Newtown, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://tylerparkarts.org/",
         "instagram": "tylerparkarts"
       },
-      "lat": 40.2294,
-      "lng": -74.93653,
-      "newsletter_url": "https://www.cognitoforms.com/TylerParkCenterForTheArts/NewSubscriberOrSpecialEventInquiry"
+      "newsletter_url": "https://www.cognitoforms.com/TylerParkCenterForTheArts/NewSubscriberOrSpecialEventInquiry",
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "10 Stable Mill Road, Richboro, PA 18954",
+      "lat": 40.22216,
+      "lng": -74.98692
     },
     {
       "id": "community-arts-center",
@@ -122,9 +138,9 @@
         "https://reg127.imperisoft.com/"
       ],
       "notes": "Raku weekend workshop; soda workshop (Lisa York). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Wallingford, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://reg127.imperisoft.com/"
       },
@@ -138,7 +154,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -146,8 +162,6 @@
         "date": "2026-10-06",
         "key": "reg127.imperisoft.com"
       },
-      "lat": 39.90364,
-      "lng": -75.37166,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -165,7 +179,10 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "414 Plush Mill Road, Wallingford, PA 19086",
+      "lat": 39.90872,
+      "lng": -75.36349
     },
     {
       "id": "fleisher-art-memorial-allens-lane-art-center",
@@ -197,7 +214,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "upcoming"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -454,7 +471,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -462,8 +479,6 @@
         "date": "2026-10-06",
         "key": "lancastercreativefactory.org"
       },
-      "lat": 40.038,
-      "lng": -76.30567,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -485,7 +500,11 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "580 S Prince St, Rear, Lanca, PA 17603",
+      "address_found": "580 S Prince St, Rear, Lancaster, PA 17603",
+      "lat": 40.038,
+      "lng": -76.30567
     },
     {
       "id": "union-project",
@@ -521,7 +540,7 @@
           "gas_reduction"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -631,15 +650,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "PACA Building Erie",
-      "city": "PACA Building Erie",
+      "region": "Erie",
+      "city": "Erie",
       "urls": [
         "https://erieclayspace.com/"
       ],
       "notes": "Raku firings for members. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "PACA Building Erie, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://erieclayspace.com/"
       },
@@ -679,7 +698,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "1505 State Street, 3rd Floor, Erie, PA 16501"
     },
     {
       "id": "northampton-community-college",
@@ -711,7 +731,7 @@
           "wood"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -893,7 +913,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "upcoming"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -1007,7 +1027,7 @@
           "raku"
         ],
         "checked": "2026-10-08",
-        "status": "past_only"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {
@@ -1071,7 +1091,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {
@@ -1198,7 +1218,7 @@
           "soda"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -1241,9 +1261,9 @@
         "https://www.phillymag.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Mount Airy, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.phillymag.com/"
       },
@@ -1281,8 +1301,9 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "lat": 40.06518,
-      "lng": -75.19119
+      "address": "601 West Allens Lane, Mount Airy, PA",
+      "lat": 40.05227,
+      "lng": -75.20165
     },
     {
       "id": "canvas-allenslane",
@@ -1576,7 +1597,7 @@
           "raku"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {

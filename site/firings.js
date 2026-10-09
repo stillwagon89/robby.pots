@@ -96,20 +96,29 @@ function firingCards() {
   }
   // What can a visitor actually do soonest? Open sign-ups first (by date), then ongoing access, then sign-ups opening soon,
   // waitlists, unclear status, and full ones last. Places with no listings come after every listing.
-  const TIER = { open: 0, ongoing: 1, opens_soon: 2, waitlist: 3, more_info: 4, full: 5 };
+  const TIER = { opens_soon: 2, waitlist: 3, more_info: 4, full: 5 };
   const today = new Date().toISOString().slice(0, 10);
+  // Order matches the divider: joinable now (open sign-ups by date, then ongoing access), then everything else.
   const rank = (c) => {
     if (c.kind === "place") return "9|9999";
     const o = c.o;
     const upcoming = o.start_date && o.start_date >= today ? o.start_date : "9998";
-    const tier = o.status === "ongoing" && upcoming === "9998" ? 1.5 : TIER[o.status] ?? 4;
+    if (o.status === "open" && upcoming !== "9998") return `0|${upcoming}`;
+    if (o.status === "open" && (!o.start_date || (o.end_date && o.end_date >= today))) return `0|${o.start_date && o.start_date >= today ? o.start_date : today}`;
+    if (o.status === "ongoing") return `1|${upcoming}`;
+    const tier = o.status === "open" ? 2.5 : TIER[o.status] ?? 4;
     return `${tier}|${upcoming}`;
   };
   return cards.sort((a, b) => { const [ta, da] = rank(a).split("|"), [tb, db] = rank(b).split("|"); return Number(ta) - Number(tb) || (da + a.id).localeCompare(db + b.id); });
 }
 // A place reached through "View all firings" is pinned first so it shows at the top; normal clicks never reorder the list.
+const placeRank = (p) => {
+  const open = p.opportunities.filter((o) => o.status === "open" && (!o.start_date || o.start_date >= availToday())).map((o) => o.start_date || "9998").sort()[0];
+  if (open) return `0|${open}`;
+  return p.opportunities.some((o) => o.status === "ongoing") || ["ongoing", "upcoming"].includes(p.access?.status) ? "1|" : "2|";
+};
 const locationCards = () => DATA.places.filter((p) => inRange(p) && placeMatchesType(p)).map((p) => ({ kind: "place", id: p.id, place: p }))
-  .sort((a, b) => (b.id === state.pin) - (a.id === state.pin));
+  .sort((a, b) => (b.id === state.pin) - (a.id === state.pin) || placeRank(a.place).localeCompare(placeRank(b.place)) || a.place.org.localeCompare(b.place.org));
 
 function placeLinks(p, signupUrl) {
   const c = p.contact || {};
@@ -189,6 +198,20 @@ function cardHtml(c) {
 // Places with matching kilns but no firing listings (shown in Kiln locations, counted under the Firings list).
 const placesWithoutListings = () => DATA.places.filter((p) => inRange(p) && placeMatchesType(p) && !p.opportunities.some((o) => typeMatch(o.firing_type))).length;
 
+// "Available": a listing you can sign up for now (open, or ongoing access), or a place that has one. Everything else sits below a thin line.
+const availToday = () => new Date().toISOString().slice(0, 10);
+const listingAvail = (o) => (o.status === "open" && (!o.start_date || o.start_date >= availToday() || (o.end_date && o.end_date >= availToday()))) || o.status === "ongoing";
+const cardAvail = (c) => c.kind === "place" ? (c.place.opportunities.some(listingAvail) || ["ongoing", "upcoming"].includes(c.place.access?.status)) : listingAvail(c.o);
+function listHtml(cards) {
+  const flags = cards.map(cardAvail);
+  const anyAvail = flags.some(Boolean), anyOther = flags.some((a) => !a);
+  let out = "", dividerDone = false;
+  cards.forEach((c, i) => {
+    if (anyOther && !dividerDone && !flags[i]) { out += `<div class="kf-divider" role="separator" aria-label="Not confirmed available"><span>${anyAvail ? "Sign-up not confirmed open" : "No sign-up confirmed open right now"}</span></div>`; dividerDone = true; }
+    out += cardHtml(c);
+  });
+  return out;
+}
 function renderList() {
   const cards = state.view === "firings" ? firingCards() : locationCards();
   const typeWord = state.type === "all" ? "" : `${TYPE_LABEL[state.type].toLowerCase()} `;
@@ -196,9 +219,9 @@ function renderList() {
   const radiusOn = state.near && state.radius !== "all";
   const where = radiusOn ? ` within ${RADII.find(([v]) => v === state.radius)[1]} of ${state.near.label}` : "";
   document.getElementById("kf-count").textContent = `${cards.length} ${typeWord}${noun}${cards.length === 1 ? "" : "s"}${where}`;
-  document.getElementById("kf-sort").textContent = state.view === "firings" ? "Available soonest first" : "";
+  document.getElementById("kf-sort").textContent = "Available soonest first";
   document.getElementById("kf-list").innerHTML = cards.length
-    ? cards.map(cardHtml).join("")
+    ? listHtml(cards)
     : `<p class="kf-empty">No firing listings ${radiusOn ? "in this area " : ""}for this filter yet. ${radiusOn ? "Try a wider distance or another firing type." : "Try another firing type."}</p>`;
   const more = state.view === "firings" ? placesWithoutListings() : 0;
   if (more) document.getElementById("kf-list").insertAdjacentHTML("beforeend", `<p class="kf-note kf-more"><button type="button" class="kf-linkish" data-show-locations>${more} more place${more === 1 ? " has" : "s have"} these kilns but no firing dates posted &rarr;</button></p>`);

@@ -26,7 +26,10 @@
       },
       "lat": 46.60961,
       "lng": -112.06818,
-      "newsletter_url": "https://archiebray.org/newsletters/"
+      "newsletter_url": "https://archiebray.org/newsletters/",
+      "access": {
+        "status": "ongoing"
+      }
     },
     {
       "id": "red-lodge-clay-center",
@@ -37,21 +40,25 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "South Central Montana",
+      "region": "Red Lodge",
       "city": "Red Lodge",
       "urls": [
         "https://www.redlodgeclaycenter.com/"
       ],
       "notes": "Train kiln (Levin map); residencies and workshops.",
-      "location_precision": "approximate",
-      "geocode": "Red Lodge, Montana",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.redlodgeclaycenter.com/"
       },
-      "lat": 45.1859,
-      "lng": -109.24706,
-      "newsletter_url": "http://visitor.r20.constantcontact.com/d.jsp?llr=iq9psqcab&p=oi&m=1102215375368&sit=f9vf84pdb&f=26359b24-324c-4b5a-b3da-528f3fd133bc"
+      "newsletter_url": "http://visitor.r20.constantcontact.com/d.jsp?llr=iq9psqcab&p=oi&m=1102215375368&sit=f9vf84pdb&f=26359b24-324c-4b5a-b3da-528f3fd133bc",
+      "access": {
+        "status": "upcoming"
+      },
+      "address": "123 S. Broadway Ave., Red Lodge, MT 59068",
+      "lat": 45.18565,
+      "lng": -109.2471
     },
     {
       "id": "montana-harvest-moon",
@@ -237,9 +244,9 @@
         "https://theclaystudioofmissoula.app.neoncrm.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Missoula, Montana",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://theclaystudioofmissoula.app.neoncrm.com/"
       },
@@ -254,7 +261,7 @@
           "soda"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {
@@ -262,8 +269,6 @@
         "date": "2026-10-07",
         "key": "theclaystudioofmissoula.app.neoncrm.com"
       },
-      "lat": 46.8701,
-      "lng": -113.99527,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -282,7 +287,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "1106 Hawthorne St, Missoula, MT 59802",
+      "lat": 46.88214,
+      "lng": -114.00765
     },
     {
       "id": "clay-arts-guild-of-helena",
@@ -443,7 +451,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {

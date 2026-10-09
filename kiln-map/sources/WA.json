@@ -20,11 +20,16 @@
       "notes": "Nonprofit clay center with soda, salt and raku kilns; moving to South Lake Union with new atmospheric kilns (opening 2026).",
       "location_precision": "approximate",
       "geocode": "Seattle, Washington",
-      "location_note": "Moving to a new building in South Lake Union. Shown at the city.",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.potterynorthwest.org/",
         "instagram": "potterynorthwest"
       },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "220 3rd Ave S Lower Level, Seattle, WA 98104",
+      "address_found": "220 3rd Ave S Lower Level, Seattle, WA 98104",
       "lat": 47.60383,
       "lng": -122.33006
     },
@@ -44,15 +49,19 @@
         "https://www.seattleartistleague.com/art-classes/"
       ],
       "notes": "Raku for All Levels workshops and a reduction kiln class (Georgetown).",
-      "location_precision": "approximate",
-      "geocode": "Georgetown, Seattle, Washington",
-      "location_note": "Georgetown Arts District. Shown at the neighborhood.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.seattleartistleague.com/"
       },
-      "lat": 47.54893,
-      "lng": -122.33006,
-      "newsletter_url": "http://eepurl.com/iv0eDg"
+      "newsletter_url": "http://eepurl.com/iv0eDg",
+      "access": {
+        "status": "upcoming"
+      },
+      "address": "5516 4th Ave S, Seattle, WA 98108",
+      "lat": 47.55288,
+      "lng": -122.32904
     },
     {
       "id": "norris-arts",
@@ -61,22 +70,27 @@
       "core": false,
       "public": true,
       "firing_types_guess": [],
-      "region": "Southwest Washington",
+      "region": "Camas",
       "city": "Camas",
       "urls": [
         "https://norrisarts.com/"
       ],
       "notes": "OPA studio partner; firing types unconfirmed.",
-      "location_precision": "approximate",
-      "geocode": "Camas, Washington",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://norrisarts.com/",
         "instagram": "norrisarts"
       },
-      "lat": 45.5863,
-      "lng": -122.40328,
-      "newsletter_url": "https://norrisarts.com/in-the-news/"
+      "newsletter_url": "https://norrisarts.com/in-the-news/",
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "1605 NW 6th Avenue, Camas, WA 98607",
+      "address_found": "1605 NW 6th Avenue, STE D, Camas, WA 98607",
+      "lat": 45.58122,
+      "lng": -122.42707
     },
     {
       "id": "seattle-pottery-supply",
@@ -155,9 +169,9 @@
         "https://ratcitystudios.com/"
       ],
       "notes": "Oct 12 soda firing. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Seattle, Washington",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://ratcitystudios.com/"
       },
@@ -178,8 +192,6 @@
         "date": "2026-10-06",
         "key": "ratcitystudios.com"
       },
-      "lat": 47.60383,
-      "lng": -122.33006,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -197,7 +209,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "2410 SW 106th Street, Seattle, WA 98146",
+      "lat": 47.50881,
+      "lng": -122.36326
     },
     {
       "id": "rain-city-clay",
@@ -229,7 +244,7 @@
           "gas_reduction"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -291,7 +306,7 @@
           "soda"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -354,7 +369,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -713,9 +728,9 @@
         "https://www.eastsidepottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bellevue, Washington",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.eastsidepottery.com/"
       },
@@ -756,8 +771,10 @@
         "date": "2026-10-09"
       },
       "auto_approved": "2026-10-09",
-      "lat": 47.61442,
-      "lng": -122.19234
+      "address": "1809 130th Ave NE, Bellevue, WA 98005",
+      "address_found": "1809 130th Ave NE #124, Bellevue, WA 98005",
+      "lat": 47.62679,
+      "lng": -122.16826
     },
     {
       "id": "kirkland-art-center",
@@ -850,7 +867,7 @@
           "raku"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -897,9 +914,9 @@
         "https://ilwacoartworks.kilnfire.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Ilwaco, Washington",
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://ilwacoartworks.kilnfire.com/"
       },
@@ -912,7 +929,7 @@
           "salt"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {
@@ -937,8 +954,9 @@
       },
       "weak": false,
       "auto_approved": "2026-10-09",
-      "lat": 46.30904,
-      "lng": -124.04366
+      "address": "109 1st Ave North, Ilwaco, WA 98624",
+      "lat": 46.30916,
+      "lng": -124.04349
     },
     {
       "id": "kmun",
@@ -1528,9 +1546,9 @@
         "https://www.damiangrava.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Seattle, Washington",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.damiangrava.com/"
       },
@@ -1569,8 +1587,9 @@
         "status": "ongoing"
       },
       "auto_approved": "2026-10-09",
-      "lat": 47.60383,
-      "lng": -122.33006
+      "address": "9042 31st Ave SW, Seattle, WA 98126",
+      "lat": 47.52152,
+      "lng": -122.3724
     },
     {
       "id": "creative-hands-studio",

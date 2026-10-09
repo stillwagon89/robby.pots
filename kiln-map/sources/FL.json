@@ -46,9 +46,9 @@
         "https://www.atlanticpotterysupply.com/"
       ],
       "notes": "Dated workshops + private firings by appointment. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Orange Park, Florida",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.atlanticpotterysupply.com/"
       },
@@ -69,8 +69,6 @@
         "date": "2026-10-06",
         "key": "atlanticpotterysupply.com"
       },
-      "lat": 30.16547,
-      "lng": -81.70163,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -88,7 +86,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "1904 Debarry Avenue, Orange Park, FL 32073",
+      "lat": 30.16625,
+      "lng": -81.72095
     },
     {
       "id": "the-clay-co-op",
@@ -105,9 +106,9 @@
         "https://www.claycoopstpete.com/"
       ],
       "notes": "Raku firings; kiln firing services. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Petersburg, Florida",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.claycoopstpete.com/"
       },
@@ -120,7 +121,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -148,10 +149,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "address": "2724 6th Ave, S St. Petersburg, FL 33712",
+      "address": "2724 6th Ave S, St. Petersburg, FL 33712",
       "auto_approved": "2026-10-09",
-      "lat": 27.77123,
-      "lng": -82.63403
+      "lat": 27.76451,
+      "lng": -82.67054
     },
     {
       "id": "atlantic-beach-arts-market",
@@ -225,15 +226,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Tallahassee",
-      "city": "Tallahassee",
+      "region": "Jacksonville",
+      "city": "Jacksonville",
       "urls": [
         "https://visitfloridafarms.org/"
       ],
       "notes": "Dated class (May 3). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tallahassee, Florida",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://visitfloridafarms.org/"
       },
@@ -246,7 +247,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -274,8 +275,9 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "lat": 30.43808,
-      "lng": -84.28093
+      "address": "6500 Utsey Road, Jacksonville, FL 32219",
+      "lat": 30.40226,
+      "lng": -81.78317
     },
     {
       "id": "eniko-ujj-nick-phoenix",
@@ -414,9 +416,9 @@
         "https://stayhappening.com/"
       ],
       "notes": "Dated workshop (Feb 21). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Orlando, Florida",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://stayhappening.com/"
       },
@@ -437,8 +439,6 @@
         "date": "2026-10-06",
         "key": "stayhappening.com"
       },
-      "lat": 28.54212,
-      "lng": -81.37905,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -455,7 +455,10 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "930 Hoffner Ave, Orlando, FL 32809",
+      "lat": 28.47499,
+      "lng": -81.3663
     },
     {
       "id": "make-space",
@@ -466,15 +469,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "St. Augustine",
-      "city": "St. Augustine",
+      "region": "Saint Augustine",
+      "city": "Saint Augustine",
       "urls": [
         "https://www.makespaceworkshop.com/"
       ],
       "notes": "Dated workshop, bring your own bisque. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Augustine, Florida",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.makespaceworkshop.com/"
       },
@@ -487,7 +490,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {
@@ -514,10 +517,11 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "address": "1 in St., Augustine, FL",
+      "address": "39 Ma Drive, Saint Augustine",
       "auto_approved": "2026-10-09",
-      "lat": 29.8947,
-      "lng": -81.31454
+      "address_found": "39 Masters Drive STE 1, Saint Augustine, FL 32084",
+      "lat": 30.02084,
+      "lng": -81.51365
     },
     {
       "id": "sarasota-clay-company",
@@ -534,9 +538,9 @@
         "https://www.sarasotaclaycompany.com/"
       ],
       "notes": "Jan 22 & 29, 2027. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Sarasota, Florida",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.sarasotaclaycompany.com/"
       },
@@ -557,8 +561,6 @@
         "date": "2026-10-06",
         "key": "sarasotaclaycompany.com"
       },
-      "lat": 27.33658,
-      "lng": -82.53085,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -576,7 +578,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "1733 Northgate Blvd, Sarasota, FL 34234",
+      "lat": 27.37328,
+      "lng": -82.53554
     },
     {
       "id": "armory-art-center",
@@ -655,9 +660,9 @@
         "https://firstcityart.org/"
       ],
       "notes": "Sign-ups for raku firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pensacola, Florida",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://firstcityart.org/"
       },
@@ -670,7 +675,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -678,8 +683,6 @@
         "date": "2026-10-06",
         "key": "firstcityart.org"
       },
-      "lat": 30.42131,
-      "lng": -87.21691,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -697,7 +700,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "1060 N. Guillemard St., Pensacola, FL",
+      "lat": 30.42404,
+      "lng": -87.21638
     },
     {
       "id": "richard-rosen-s-studio",
@@ -829,9 +835,9 @@
         "https://smithworksstudios.com/"
       ],
       "notes": "Two-day workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Saint Augustine, Florida",
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://smithworksstudios.com/"
       },
@@ -844,7 +850,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "upcoming"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -876,8 +882,9 @@
       },
       "weak": false,
       "auto_approved": "2026-10-09",
-      "lat": 29.8947,
-      "lng": -81.31454
+      "address": "24 Grove Ave, Saint Augustine, FL",
+      "lat": 29.89994,
+      "lng": -81.31693
     },
     {
       "id": "morean-center-for-clay",
@@ -889,15 +896,15 @@
         "wood",
         "soda"
       ],
-      "region": "St. Pete",
-      "city": "St. Pete",
+      "region": "St. Petersburg",
+      "city": "St. Petersburg",
       "urls": [
         "https://ilovetheburg.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Pete, Florida",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://ilovetheburg.com/"
       },
@@ -911,7 +918,7 @@
           "soda"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -932,12 +939,13 @@
         "town": "St. Pete"
       },
       "weak": false,
-      "lat": 27.72531,
-      "lng": -82.74121,
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "420 22nd St S, St. Petersburg, FL",
+      "lat": 27.76735,
+      "lng": -82.66226
     },
     {
       "id": "lemoyne-arts-at-studios-of-lemoyne",
@@ -1065,15 +1073,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "St Petersburg",
-      "city": "St Petersburg",
+      "region": "St. Petersburg",
+      "city": "St. Petersburg",
       "urls": [
         "https://moreanworkshopspace.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St Petersburg, Florida",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://moreanworkshopspace.org/"
       },
@@ -1086,7 +1094,7 @@
           "wood"
         ],
         "checked": "2026-10-08",
-        "status": "upcoming"
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1114,8 +1122,9 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "lat": 27.77123,
-      "lng": -82.63403
+      "address": "2025 3rd Avenue South, St. Petersburg, FL 33712",
+      "lat": 27.7685,
+      "lng": -82.66084
     },
     {
       "id": "element-art-center-fl",
@@ -1332,7 +1341,7 @@
           "wood"
         ],
         "checked": "2026-10-08",
-        "status": "past_only"
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -1438,9 +1447,9 @@
         "https://tampamuseum.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tampa, Florida",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://tampamuseum.org/"
       },
@@ -1453,7 +1462,7 @@
           "raku"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -1488,8 +1497,9 @@
         "date": "2026-10-08"
       },
       "auto_approved": "2026-10-09",
-      "lat": 27.94499,
-      "lng": -82.45831
+      "address": "120 W. Gasparilla Plaza, Tampa, FL 33602",
+      "lat": 27.94947,
+      "lng": -82.46236
     },
     {
       "id": "queen-city-clay",

@@ -61,7 +61,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -181,7 +181,7 @@
           "wood"
         ],
         "checked": "2026-10-07",
-        "status": "upcoming"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -457,9 +457,9 @@
         "https://expressionspottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "East Granby, Connecticut",
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://expressionspottery.com/"
       },
@@ -473,7 +473,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -506,8 +506,9 @@
       },
       "weak": false,
       "auto_approved": "2026-10-09",
-      "lat": 41.9418,
-      "lng": -72.7275
+      "address": "9 School St, East Granby, CT",
+      "lat": 41.94162,
+      "lng": -72.72564
     },
     {
       "id": "canton-clay-works",
@@ -525,9 +526,9 @@
         "https://www.cantonclayworks.com/"
       ],
       "notes": "Gas firing service, saggar workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Canton, Connecticut",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.cantonclayworks.com/"
       },
@@ -541,7 +542,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -563,13 +564,14 @@
         "street": "150 Cherry Brook Rd, Canton"
       },
       "weak": false,
-      "lat": 41.82454,
-      "lng": -72.89371,
       "located": {
         "osm": false,
         "date": "2026-10-09"
       },
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "150 Cherry Brook Rd., Canton, CT 06019",
+      "lat": 41.85116,
+      "lng": -72.91915
     },
     {
       "id": "lakeside-pottery-ct",
@@ -654,7 +656,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -715,7 +717,7 @@
           "soda"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "approved",
       "discovered": {

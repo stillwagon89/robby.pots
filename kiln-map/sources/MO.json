@@ -25,7 +25,10 @@
         "instagram": "kcclayguild"
       },
       "lat": 38.99416,
-      "lng": -94.59192
+      "lng": -94.59192,
+      "access": {
+        "status": "upcoming"
+      }
     },
     {
       "id": "belger-arts",
@@ -42,9 +45,9 @@
         "https://belgerarts.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Kansas City, Missouri",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://belgerarts.org/"
       },
@@ -57,7 +60,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -65,8 +68,6 @@
         "date": "2026-10-07",
         "key": "belgerarts.org"
       },
-      "lat": 39.1001,
-      "lng": -94.57814,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -82,7 +83,10 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "2011 Tracy Ave, Kansas City, MO 64108",
+      "lat": 39.08809,
+      "lng": -94.56655
     },
     {
       "id": "back-door-pottery",
@@ -114,7 +118,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "past_only"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -342,9 +346,9 @@
         "https://www.artistreepottery.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Springfield, Missouri",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.artistreepottery.com/"
       },
@@ -357,7 +361,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "upcoming"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -384,10 +388,11 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "address": "1423 E. Cherry Street, Suite 103, Springfield, MO 65802",
+      "address": "1423 E. Cherry Street, Springfield, MO 65802",
       "auto_approved": "2026-10-09",
-      "lat": 37.20817,
-      "lng": -93.29227
+      "address_found": "1423 E. Cherry Street, Suite 103, Springfield, MO 65802",
+      "lat": 37.20381,
+      "lng": -93.2702
     },
     {
       "id": "sam-fox-school-of-design-visual-arts",

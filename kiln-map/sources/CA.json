@@ -20,9 +20,9 @@
       ],
       "newsletter_url": "https://www.cobbartandecology.org/email-newsletter",
       "notes": "Homepage says firing updates go out via mailing list and Instagram.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
+      "location_precision": "approximate",
+      "geocode": "Middletown, California",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.cobbartandecology.org",
         "email": "cobbartandecology@gmail.com",
@@ -32,7 +32,10 @@
       "access": {
         "status": "upcoming"
       },
-      "address": "9700 Rocky's Rd, Middletown, CA 95461"
+      "address": "9700 Rocky's Rd, Middletown, CA 95461",
+      "address_found": "9700 Rocky's Rd, Middletown, CA 95461",
+      "lat": 38.74966,
+      "lng": -122.62159
     },
     {
       "id": "mendocino-art-center",
@@ -300,9 +303,9 @@
       "city": "Middletown",
       "urls": [],
       "notes": "255 cu ft anagama (Levin map). Parady directs Cobb Mountain.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
+      "location_precision": "approximate",
+      "geocode": "Middletown, California",
+      "location_note": "Shown at the town.",
       "contact": {
         "note": "No public contact found yet. Scott Parady also directs Cobb Mountain Art & Ecology, which is the most public way to reach him.",
         "website": "https://www.cobbartandecology.org"
@@ -310,7 +313,10 @@
       "access": {
         "status": "upcoming"
       },
-      "address": "9700 Rocky's Rd, Middletown, CA 95461"
+      "address": "9700 Rocky's Rd, Middletown, CA 95461",
+      "address_found": "9700 Rocky's Rd, Middletown, CA 95461",
+      "lat": 38.74966,
+      "lng": -122.62159
     },
     {
       "id": "browe-hoyman",
@@ -505,7 +511,9 @@
       },
       "approved": "2026-10-09",
       "confirmed_by_robby": "2026-10-09",
-      "address": "1045 Sutter St, San Francisco, CA 94109"
+      "address": "1045 Sutter St, San Francisco, CA 94109",
+      "lat": 37.78786,
+      "lng": -122.41759
     },
     {
       "id": "clay-by-the-bay",
@@ -789,7 +797,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -838,9 +846,9 @@
         "https://thespiffystudio.info/"
       ],
       "notes": "Soda firing workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Menlo Park, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://thespiffystudio.info/"
       },
@@ -850,8 +858,6 @@
         "date": "2026-10-06",
         "key": "thespiffystudio.info"
       },
-      "lat": 37.45197,
-      "lng": -122.17799,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -878,7 +884,10 @@
       "access": {
         "status": "ongoing"
       },
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "1919 Menalto Ave, Menlo Park, CA 94025",
+      "lat": 37.45898,
+      "lng": -122.1527
     },
     {
       "id": "oribe-firing-center",
@@ -912,7 +921,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "upcoming"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -1018,9 +1027,9 @@
         "https://kickwheelsonoma.com/"
       ],
       "notes": "Nov 7, 2026 pit firing (with Clay+Kiln). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Petaluma, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://kickwheelsonoma.com/"
       },
@@ -1042,8 +1051,6 @@
         "date": "2026-10-06",
         "key": "kickwheelsonoma.com"
       },
-      "lat": 38.23258,
-      "lng": -122.63647,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -1064,7 +1071,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "5400 Old Redwood Hwy N, Petaluma, CA 94954",
+      "lat": 38.27825,
+      "lng": -122.66858
     },
     {
       "id": "sebastopol-center-for-the-arts",
@@ -1158,7 +1168,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -1282,7 +1292,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -1409,7 +1419,7 @@
           "salt"
         ],
         "checked": "2026-10-06",
-        "status": "past_only"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -1473,7 +1483,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "coming_soon"
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -1585,9 +1595,9 @@
         "https://coursehorse.com/los-angeles/classes/art/pottery/ceramics/raku-workshop"
       ],
       "notes": "Raku class. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Los Angeles, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://coursehorse.com/los-angeles/classes/art/pottery/ceramics/raku-workshop"
       },
@@ -1600,7 +1610,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -1608,8 +1618,6 @@
         "date": "2026-10-06",
         "key": "https://coursehorse.com/los-angeles/classes/art/pottery/ceramics/raku-workshop"
       },
-      "lat": 34.05222,
-      "lng": -118.2434,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -1632,7 +1640,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "2910 Gilroy St, Los Angeles, CA",
+      "lat": 34.10629,
+      "lng": -118.25152
     },
     {
       "id": "ceramic-heights",
@@ -1664,7 +1675,7 @@
           "raku"
         ],
         "checked": "2026-10-06",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -1712,9 +1723,9 @@
         "https://icasandiego.org/"
       ],
       "notes": "Several raku firings per session. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Encinitas, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://icasandiego.org/"
       },
@@ -1735,8 +1746,6 @@
         "date": "2026-10-06",
         "key": "icasandiego.org"
       },
-      "lat": 33.04318,
-      "lng": -117.28498,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -1756,7 +1765,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "1550 S El Camino Real, Encinitas, CA 92024",
+      "lat": 33.02786,
+      "lng": -117.25757
     },
     {
       "id": "thecuriousforge",
@@ -2069,9 +2081,9 @@
         "https://coursehorse.com/los-angeles/classes/art/pottery/ceramics/raku-workshop"
       ],
       "notes": "Raku class. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Los Angeles, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://coursehorse.com/los-angeles/classes/art/pottery/ceramics/raku-workshop"
       },
@@ -2084,7 +2096,7 @@
           "raku"
         ],
         "checked": "2026-10-09",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -2115,8 +2127,9 @@
         "result": "split",
         "date": "2026-10-08"
       },
-      "lat": 34.05369,
-      "lng": -118.24277
+      "address": "2910 Gilroy St, Los Angeles, CA",
+      "lat": 34.10629,
+      "lng": -118.25152
     },
     {
       "id": "clay-creations",
@@ -2150,7 +2163,7 @@
           "raku"
         ],
         "checked": "2026-10-08",
-        "status": "upcoming"
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -2260,9 +2273,9 @@
         "https://events.humanitix.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pomona, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://events.humanitix.com/"
       },
@@ -2276,7 +2289,7 @@
           "soda"
         ],
         "checked": "2026-10-08",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -2302,8 +2315,9 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "lat": 34.05538,
-      "lng": -117.75175
+      "address": "301 N Garey Ave, Pomona, CA 91767",
+      "lat": 34.06068,
+      "lng": -117.75035
     },
     {
       "id": "turning-earth-ca",

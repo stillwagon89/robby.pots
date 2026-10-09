@@ -139,9 +139,9 @@
         "https://iowaceramicscenter.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Cedar Rapids, Iowa",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://iowaceramicscenter.org/"
       },
@@ -155,7 +155,7 @@
           "soda"
         ],
         "checked": "2026-10-07",
-        "status": "past_only"
+        "status": "ongoing"
       },
       "review": "approved",
       "discovered": {
@@ -163,8 +163,6 @@
         "date": "2026-10-07",
         "key": "iowaceramicscenter.org"
       },
-      "lat": 41.97589,
-      "lng": -91.67041,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -192,7 +190,11 @@
         "result": "split",
         "date": "2026-10-07"
       },
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "329 10th Ave SE, Cedar Rapids, IA 52401",
+      "address_found": "329 10th Ave SE, Suite 117, Cedar Rapids, IA 52401",
+      "lat": 41.97194,
+      "lng": -91.65895
     },
     {
       "id": "creston-arts",
@@ -336,7 +338,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {

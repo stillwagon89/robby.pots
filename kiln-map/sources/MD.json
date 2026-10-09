@@ -26,7 +26,10 @@
       },
       "lat": 39.36817,
       "lng": -76.65327,
-      "newsletter_url": "https://baltimoreclayworks.org/october-2026-newsletter/"
+      "newsletter_url": "https://baltimoreclayworks.org/october-2026-newsletter/",
+      "access": {
+        "status": "upcoming"
+      }
     },
     {
       "id": "academy-art-museum",
@@ -37,22 +40,26 @@
       "firing_types_guess": [
         "pit_barrel_saggar"
       ],
-      "region": "Eastern Shore",
+      "region": "Easton",
       "city": "Easton",
       "urls": [
         "https://academyartmuseum.org/pueblo-pottery-and-pit-fired-ceramics/"
       ],
       "notes": "Pueblo Pottery and Pit Fired Ceramics, Sep 9 - Oct 28, 2026, with class pit firings.",
-      "location_precision": "approximate",
-      "geocode": "Easton, Maryland",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://academyartmuseum.org/",
         "instagram": "academyartmuseum"
       },
-      "lat": 38.77446,
-      "lng": -76.07632,
-      "newsletter_url": "https://us14.campaign-archive.com/?e=[UNIQID]&u=e65f412333f9a469a81b71aaa&id=14e92192db"
+      "newsletter_url": "https://us14.campaign-archive.com/?e=[UNIQID]&u=e65f412333f9a469a81b71aaa&id=14e92192db",
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "106 South Street, Easton, MD 21601",
+      "lat": 38.77198,
+      "lng": -76.07392
     },
     {
       "id": "arts-lab-of-south-county",
@@ -69,9 +76,9 @@
         "https://www.entradasx.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tracys Landing, Maryland",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.entradasx.com/"
       },
@@ -103,13 +110,14 @@
         "state": "MD",
         "town": "Tracys Landing"
       },
-      "lat": 38.78012,
-      "lng": -76.59579,
       "located": {
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "312 Deale Rd, Tracys Landing, MD 20779",
+      "lat": 38.77771,
+      "lng": -76.57161
     },
     {
       "id": "madewithclay",
@@ -524,7 +532,7 @@
           "raku"
         ],
         "checked": "2026-10-08",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {

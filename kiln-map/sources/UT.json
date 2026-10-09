@@ -79,9 +79,9 @@
         "https://www.petersenartcenter.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Salt Lake City, Utah",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.petersenartcenter.com/"
       },
@@ -113,14 +113,15 @@
         "state": "UT",
         "town": "Salt Lake City"
       },
-      "lat": 40.75962,
-      "lng": -111.8868,
       "weak": false,
       "located": {
         "osm": false,
         "date": "2026-10-09"
       },
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "1025 East 2100 South, Salt Lake City, UT 84106",
+      "lat": 40.72567,
+      "lng": -111.86164
     },
     {
       "id": "i-j-and-jeanne-wagner-jewish",
@@ -211,7 +212,7 @@
           "soda"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {

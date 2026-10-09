@@ -14,16 +14,20 @@
         "https://www.luxcenter.org/"
       ],
       "notes": "Community art center with ceramics; firing types unconfirmed.",
-      "location_precision": "approximate",
-      "geocode": "Lincoln, Nebraska",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.luxcenter.org/",
         "instagram": "lux_center"
       },
-      "lat": 40.80889,
-      "lng": -96.70778,
-      "newsletter_url": "https://www.luxcenter.org/"
+      "newsletter_url": "https://www.luxcenter.org/",
+      "access": {
+        "status": "upcoming"
+      },
+      "address": "2601 North 48th Street, Lincoln, NE 68504",
+      "lat": 40.83847,
+      "lng": -96.65396
     },
     {
       "id": "omaha-pottery-studio",
@@ -59,7 +63,7 @@
           "gas_reduction"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "approved",
       "discovered": {
@@ -107,9 +111,9 @@
         "https://bonecreek.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "David City, Nebraska",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://bonecreek.org/"
       },
@@ -130,8 +134,6 @@
         "date": "2026-10-07",
         "key": "bonecreek.org"
       },
-      "lat": 41.25274,
-      "lng": -97.13007,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -149,7 +151,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "312 N 5th Street, David City, NE 68632",
+      "lat": 41.25188,
+      "lng": -97.12858
     },
     {
       "id": "omahaclayworks",

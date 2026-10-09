@@ -1493,3 +1493,7 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 .kf-modal-send { background: var(--cobalt); color: #fff; border: 0; border-radius: 8px; padding: 9px 18px; font: inherit; font-size: 15px; cursor: pointer; }
 .kf-modal-send:hover, .kf-modal-send:focus-visible { filter: brightness(1.12); }
 .kf-modal-sub { margin-top: 14px !important; font-size: 13px !important; color: #555; }
+
+/* Thin line between what you can join now and everything else */
+.kf-divider { display: flex; align-items: center; gap: 10px; margin: 14px 0 12px; border-top: 1px solid var(--cobalt); position: relative; height: 0; }
+.kf-divider span { position: absolute; top: -8px; left: 0; padding: 0 8px 0 0; background: var(--paper, #fff); font-family: var(--font-mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--cobalt-muted, var(--cobalt)); }

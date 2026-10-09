@@ -11,15 +11,15 @@
         "raku",
         "soda"
       ],
-      "region": "Las Vegas",
-      "city": "Las Vegas",
+      "region": "North Las Vegas",
+      "city": "North Las Vegas",
       "urls": [
         "https://animalhousepottery.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Las Vegas, Nevada",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://animalhousepottery.com/"
       },
@@ -41,8 +41,6 @@
         "state": "NV",
         "town": "Las Vegas"
       },
-      "lat": 36.16743,
-      "lng": -115.14841,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -55,9 +53,13 @@
       },
       "weak": false,
       "access": {
-        "status": "ongoing"
+        "status": "upcoming"
       },
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-09",
+      "address": "3355 Clayton St, North Las Vegas, NV 89032",
+      "address_found": "3355 Clayton St Ste 44, North Las Vegas, NV 89032",
+      "lat": 36.22038,
+      "lng": -115.17054
     },
     {
       "id": "tuscarora-pottery-school",
@@ -91,7 +93,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -160,7 +162,7 @@
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
