@@ -75,16 +75,27 @@
         "url": "https://www.sullivanpotteryhsv.com/",
         "title": "Sullivan Pottery | Huntsville Pottery Classes",
         "snippet": "Sullivan Pottery is a friendly and inviting community pottery studio that offers pottery classes in Huntsville, Alabama. We are also your source to buy ceramic supplies in North Alabama."
+      },
+      {
+        "q": "dir:hsvpottery.com",
+        "url": "https://www.sullivanpotteryhsv.com/",
+        "title": "#",
+        "snippet": "Listed on hsvpottery.com: #"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "known place in AR",
       "auto": true,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "#",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "business.eschamber.org": {
     "key": "business.eschamber.org",
@@ -1007,15 +1018,21 @@
         "url": "https://earthbornpottery.net/about/cahaba-clayworks/",
         "title": "CAHABA CLAYWORKS - Earthborn Pottery",
         "snippet": "Cahaba Clayworks offers pottery workshops and classes for all skill levels, fostering creativity and craftsmanship in a welcoming environment."
+      },
+      {
+        "q": "dir:kilnfire.com",
+        "url": "http://www.earthbornpottery.net/",
+        "title": "Website",
+        "snippet": "Listed on kilnfire.com: Website"
       }
     ],
     "pages": {
       "https://earthbornpottery.net/": "The Science of Functionality\nEarthborn products have been professionally tested for glaze leaching, scratch, compression, dishwasher, and thermal shock resistance. Critical attention to firing times, temperature, and clay-glaze relationship make Earthborn products extremely durable.\nLearn More\nPottery Classes & 2 Hour Workshops\nReady to Throw Down?\nPottery Classes are forming now! Cost is $275 for a 6 week class including instruction, 25 lbs of clay, glazing and firing.\nSeats are limited!\nRegister Online Now\n",
       "https://earthbornpottery.net/about/cahaba-clayworks/interested-in-a-specific-class-or-time/": "",
       "https://earthbornpottery.net/about/cahaba-clayworks/offering-2-hour-pottery-workshops/": "",
-      "https://earthbornpottery.net/about/cahaba-clayworks/": "Cost\nNow priced at $275, we provide 6 WEEKS of instruction, FREE studio use during business hours, glazes, firing and 25 lbs of clay to find your inner potter!\nInformation\nCall us at the Studio (205) 702.7055!\n"
+      "https://earthbornpottery.net/about/cahaba-clayworks/": "Cost\nNow priced at $275, we provide 6 WEEKS of instruction, FREE studio use during business hours, glazes, firing and 25 lbs of clay to find your inner potter!\nInformation\nCall us at the Studio (205) 702.7055!\n",
+      "http://www.earthbornpottery.net/": "The Science of Functionality\nEarthborn products have been professionally tested for glaze leaching, scratch, compression, dishwasher, and thermal shock resistance. Critical attention to firing times, temperature, and clay-glaze relationship make Earthborn products extremely durable.\nLearn More\nPottery Classes & 2 Hour Workshops\nReady to Throw Down?\nPottery Classes are forming now! Cost is $275 for a 6 week class including instruction, 25 lbs of clay, glazing and firing.\nSeats are limited!\nRegister Online Now\n"
     },
-    "fetched": true,
     "judged": {
       "name": "Cahaba Clayworks",
       "city": "",
@@ -1033,7 +1050,13 @@
       "secs": 7,
       "state_on_page": false,
       "supported_types": []
-    }
+    },
+    "osm": {
+      "name": "Website",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "redmountainmakers.wildapricot.org": {
     "key": "redmountainmakers.wildapricot.org",
@@ -1900,6 +1923,12 @@
         "url": "https://www.doityourselfcrafts.com",
         "title": "Do It Yourself Crafts",
         "snippet": "OpenStreetMap: Do It Yourself Crafts"
+      },
+      {
+        "q": "dir:kilnfire.com",
+        "url": "http://www.doityourselfcrafts.com/",
+        "title": "Website",
+        "snippet": "Listed on kilnfire.com: Website"
       }
     ],
     "pages": {},
@@ -2654,16 +2683,27 @@
         "url": "https://www.thevesselstudio.org/membership",
         "title": "Membership — The Vessel | Community Ceramic Studio",
         "snippet": "Membership Details Unlimited Studio Access 24/7/365 Work whenever inspiration strikes. Our members enjoy round-the-clock access to the studio, giving you the freedom to create on your own schedule—early mornings, late nights, or weekends."
+      },
+      {
+        "q": "dir:hsvpottery.com",
+        "url": "http://www.thevesselstudio.org/",
+        "title": "check us out",
+        "snippet": "Listed on hsvpottery.com: check us out"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "check us out",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "my.ceramicmaterialsworkshop.com": {
     "key": "my.ceramicmaterialsworkshop.com",
@@ -5435,6 +5475,169 @@
     "pages": {},
     "osm": {
       "name": "Saint-Gobain Industrial Ceramics"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "annamaspottery.com": {
+    "key": "annamaspottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:thepottersguild.com",
+        "url": "https://annamaspottery.com/",
+        "title": "Anna Masciantonio Pottery",
+        "snippet": "Listed on thepottersguild.com: Anna Masciantonio Pottery"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Anna Masciantonio Pottery",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "tebbensclay.com": {
+    "key": "tebbensclay.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:thepottersguild.com",
+        "url": "http://www.tebbensclay.com/",
+        "title": "www.tebbensclay.com",
+        "snippet": "Listed on thepottersguild.com: www.tebbensclay.com"
+      }
+    ],
+    "pages": {
+      "http://www.tebbensclay.com/": ""
+    },
+    "osm": {
+      "name": "www.tebbensclay.com",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "junebugpotteryonline.com": {
+    "key": "junebugpotteryonline.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:hsvpottery.com",
+        "url": "https://www.junebugpotteryonline.com/",
+        "title": "Shop",
+        "snippet": "Listed on hsvpottery.com: Shop"
+      }
+    ],
+    "pages": {
+      "https://www.junebugpotteryonline.com/": ""
+    },
+    "osm": {
+      "name": "Shop",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "macymcferrenstudios.com": {
+    "key": "macymcferrenstudios.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:hsvpottery.com",
+        "url": "https://www.macymcferrenstudios.com/",
+        "title": "View Collection",
+        "snippet": "Listed on hsvpottery.com: View Collection"
+      }
+    ],
+    "pages": {
+      "https://www.macymcferrenstudios.com/": ""
+    },
+    "osm": {
+      "name": "View Collection",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "sds.ua.edu": {
+    "key": "sds.ua.edu",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:ua.edu",
+        "url": "https://sds.ua.edu/",
+        "title": "SCHOOL OF DATA SCIENCE",
+        "snippet": "Listed on ua.edu: SCHOOL OF DATA SCIENCE"
+      }
+    ],
+    "pages": {
+      "https://sds.ua.edu/": ""
+    },
+    "osm": {
+      "name": "SCHOOL OF DATA SCIENCE",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "news.ua.edu": {
+    "key": "news.ua.edu",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:ua.edu",
+        "url": "https://news.ua.edu/",
+        "title": "Intentional, strong relationships propel Graduate School growth",
+        "snippet": "Listed on ua.edu: Intentional, strong relationships propel Graduate School growth"
+      }
+    ],
+    "pages": {
+      "https://news.ua.edu/": "",
+      "https://news.ua.edu/2026/07/umc-expands-services-over-summer/": "",
+      "https://news.ua.edu/category/culture-community/events/": "",
+      "https://news.ua.edu/2026/08/18-selected-for-2026-2027-leadership-u-class/": ""
+    },
+    "osm": {
+      "name": "Intentional, strong relationships propel Graduate School growth",
+      "city": "",
+      "state": ""
     },
     "fetched": true,
     "judged": {

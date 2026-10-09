@@ -771,10 +771,15 @@
         "url": "https://www.smudgestudiosceramics.com/about-3",
         "title": "About Us | Smudge Studios",
         "snippet": "At Smudge Studios, we aspire to create a vibrant, inclusive community where creativity flourishes through the art of pottery. Located in the heart of Tea, South Dakota, our studio is a place where people of all skill levels can explore their artistic potential, connect with others, and find joy in the tactile process of shaping clay. We aim to foster a welcoming environment that celebrates ..."
+      },
+      {
+        "q": "dir:siouxfalls.business",
+        "url": "https://www.smudgestudiosceramics.com/",
+        "title": "To learn, more click here.",
+        "snippet": "Listed on siouxfalls.business: To learn, more click here."
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Smudge Studios",
       "city": "Tea",
@@ -794,7 +799,13 @@
       "secs": 10,
       "state_on_page": true,
       "supported_types": []
-    }
+    },
+    "osm": {
+      "name": "To learn, more click here.",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "facebook.com": {
     "key": "facebook.com",
@@ -2476,15 +2487,21 @@
         "url": "http://www.thedahl.org/uploads/2/9/0/8/2908437/opsrequirements.pdf",
         "title": "Rapid City Arts Council Open Pottery Studio Welcome to the ...",
         "snippet": "The Studio is fully furnished with the basic equipment needed to explore ceramics. We offer nine (9) pottery wheels, a slab roller, large work tables, two wedging tables, and basic potter/ceramics tools. We offer electric kiln firing up to cone 6. We also sell new and recycled brownstone clay (ranging from cone 4 to cone 6)."
+      },
+      {
+        "q": "dir:rapidcityartscouncil.org",
+        "url": "http://thedahl.org/",
+        "title": "Teen Art Studio",
+        "snippet": "Listed on rapidcityartscouncil.org: Teen Art Studio"
       }
     ],
     "pages": {
       "http://www.thedahl.org/": "",
       "http://www.thedahl.org/events.html": "",
       "http://www.thedahl.org/event-space-rental.html": "",
-      "http://www.thedahl.org/uploads/2/9/0/8/2908437/opsrequirements.pdf": ""
+      "http://www.thedahl.org/uploads/2/9/0/8/2908437/opsrequirements.pdf": "",
+      "http://thedahl.org/": ""
     },
-    "fetched": true,
     "judged": {
       "name": "The Dahl",
       "city": "",
@@ -2506,7 +2523,13 @@
       "quote_verified": true,
       "secs": 5,
       "state_on_page": false
-    }
+    },
+    "osm": {
+      "name": "Teen Art Studio",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "radiusstudio.org": {
     "key": "radiusstudio.org",
@@ -4213,6 +4236,88 @@
       "name": "Clay County Extension Office and 4-H Building",
       "city": "Vermillion",
       "state": "SD"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "annamaspottery.com": {
+    "key": "annamaspottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:thepottersguild.com",
+        "url": "https://annamaspottery.com/",
+        "title": "Anna Masciantonio Pottery",
+        "snippet": "Listed on thepottersguild.com: Anna Masciantonio Pottery"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Anna Masciantonio Pottery",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "tebbensclay.com": {
+    "key": "tebbensclay.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:thepottersguild.com",
+        "url": "http://www.tebbensclay.com/",
+        "title": "www.tebbensclay.com",
+        "snippet": "Listed on thepottersguild.com: www.tebbensclay.com"
+      }
+    ],
+    "pages": {
+      "http://www.tebbensclay.com/": ""
+    },
+    "osm": {
+      "name": "www.tebbensclay.com",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "artssouthdakota.org": {
+    "key": "artssouthdakota.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:rapidcityartscouncil.org",
+        "url": "https://artssouthdakota.org/",
+        "title": "South Dakota Opportunities",
+        "snippet": "Listed on rapidcityartscouncil.org: South Dakota Opportunities"
+      }
+    ],
+    "pages": {
+      "https://artssouthdakota.org/": "",
+      "https://artssouthdakota.org/calendar/": "2120 S Grange Ave, Sioux Falls, SD 57197, Sioux Falls, United States\nKorstjens' practice interrogates the Western impulse to capture, categorize and exhaustively “know” the natural world. Instead of wielding knowledge as a tool for reduction, their work is an attempt to cultivate a space of co-presence — a visual language that respects the irreducibility of things.\nThu\nAmerica in Art\n",
+      "https://artssouthdakota.org/event/lakota-history-cultural-presentation-by-jj-kent/": "",
+      "https://artssouthdakota.org/event/arts-resident-experience-community-listening-session/": ""
+    },
+    "osm": {
+      "name": "South Dakota Opportunities",
+      "city": "",
+      "state": ""
     },
     "fetched": true,
     "judged": {

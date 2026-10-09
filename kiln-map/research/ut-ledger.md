@@ -1,4 +1,4 @@
-# Utah firings ledger (2026-10-08, discovery v3, automatic)
+# Utah firings ledger (2026-10-09, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -20,3 +20,4 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 13 | Corbridge Pottery | Logan | salt | Classes or membership | adamcorbridgepottery.com |
 | 14 | Patty's Ceramics | ? | raku | Firing service | pattysceramics.com |
 | 15 | Granary Arts | Spring City | wood | Dated workshop or firing event | granaryarts.org |
+| 16 | language Visit Website | ? | soda | See site | moabadventurecenter.com |

@@ -4732,5 +4732,157 @@
       "reason": "OSM seed: no firing words on its pages",
       "auto": true
     }
+  },
+  "kcclayguild.portal.approach.app": {
+    "key": "kcclayguild.portal.approach.app",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:kcclayguild.org",
+        "url": "https://kcclayguild.portal.approach.app/",
+        "title": "Membership Portal",
+        "snippet": "Listed on kcclayguild.org: Membership Portal"
+      }
+    ],
+    "pages": {
+      "https://kcclayguild.portal.approach.app/": ""
+    },
+    "osm": {
+      "name": "Membership Portal",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "portal.kansas.gov": {
+    "key": "portal.kansas.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:kansas.gov",
+        "url": "https://portal.kansas.gov/",
+        "title": "Subscriber Center",
+        "snippet": "Listed on kansas.gov: Subscriber Center"
+      }
+    ],
+    "pages": {
+      "https://portal.kansas.gov/": "",
+      "https://portal.kansas.gov/services/": "",
+      "https://portal.kansas.gov/services/taxes-finance/": "",
+      "https://portal.kansas.gov/services/jobs-and-unemployment/": ""
+    },
+    "osm": {
+      "name": "Subscriber Center",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "admin.ks.gov": {
+    "key": "admin.ks.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:kansas.gov",
+        "url": "https://admin.ks.gov/",
+        "title": "State Employment Center",
+        "snippet": "Listed on kansas.gov: State Employment Center"
+      },
+      {
+        "q": "dir:portal.kansas.gov",
+        "url": "https://admin.ks.gov/",
+        "title": "State Employment Center",
+        "snippet": "Listed on portal.kansas.gov: State Employment Center"
+      }
+    ],
+    "pages": {
+      "https://admin.ks.gov/": "",
+      "https://admin.ks.gov/offices/personnel-services/jobs": "",
+      "https://admin.ks.gov/offices/personnel-services/jobs/ks-internships": "",
+      "https://admin.ks.gov/offices/personnel-services/agency-information/civil-service-board": ""
+    },
+    "osm": {
+      "name": "State Employment Center",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "travelks.com": {
+    "key": "travelks.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:portal.kansas.gov",
+        "url": "https://www.travelks.com/",
+        "title": "Arts + Entertainment",
+        "snippet": "Listed on portal.kansas.gov: Arts + Entertainment"
+      }
+    ],
+    "pages": {
+      "https://www.travelks.com/": "",
+      "https://www.travelks.com/planners/group-travel/motorcoach/motocoach-and-tour-operator-services/": "",
+      "https://www.travelks.com/planners/meetings/": "",
+      "https://www.travelks.com/events/": ""
+    },
+    "osm": {
+      "name": "Arts + Entertainment",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "kansas.gov": {
+    "key": "kansas.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:portal.kansas.gov",
+        "url": "https://www.kansas.gov/",
+        "title": "Employee Service Center",
+        "snippet": "Listed on portal.kansas.gov: Employee Service Center"
+      }
+    ],
+    "pages": {
+      "https://www.kansas.gov/": "",
+      "https://www.kansas.gov/services/": "",
+      "https://www.kansas.gov/employee/": ""
+    },
+    "osm": {
+      "name": "Employee Service Center",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
   }
 }

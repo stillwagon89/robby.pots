@@ -1,4 +1,4 @@
-# South Carolina firings ledger (2026-10-08, discovery v3, automatic)
+# South Carolina firings ledger (2026-10-09, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -12,8 +12,7 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 5 | Hernando Arts | ? | pit_barrel_saggar | Dated workshop or firing event | hernandoarts.org |
 | 6 | Clay-King | ? | raku | Firing service | clay-king.com |
 | 7 | Revealed Gallery | Charleston | raku | Classes or membership | charlestonmag.com |
-| 8 | Ceramic Central Inc & The Creative Palette Studio | Charleston | raku | Classes or membership | superpages.com |
-| 9 | The William Felton School of Crafts | greenville | raku | Classes or membership | williamfeltonschool.com |
-| 10 | kilnspot | ? | raku | Classes or membership | kilnspot.com |
-| 11 | Hilton Head Pottery | ? | raku | Classes or membership | hiltonheadpottery.com |
-| 12 | South Carolina ETV | ? | wood | See site | scetv.org |
+| 8 | The William Felton School of Crafts | greenville | raku | Classes or membership | williamfeltonschool.com |
+| 9 | kilnspot | ? | raku | Classes or membership | kilnspot.com |
+| 10 | Hilton Head Pottery | ? | raku | Classes or membership | hiltonheadpottery.com |
+| 11 | South Carolina ETV | ? | wood | See site | scetv.org |

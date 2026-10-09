@@ -1,4 +1,4 @@
-# Minnesota firings ledger (2026-10-08, discovery v3, automatic)
+# Minnesota firings ledger (2026-10-09, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -22,3 +22,4 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 15 | Dick Cooter Pottery | Two Harbors | wood | Classes or membership | cooterpottery.com |
 | 16 | Tom S Pudic | Cokato | wood | See site | tsclayartgallery.com |
 | 17 | Beste's Sporting Clays and Pheasant Hunting Preserve | Sauk Centre | soda | See site | bestessportingclays.com |
+| 18 | ceramicsow | ? | wood | See site | ceramicsow.com |

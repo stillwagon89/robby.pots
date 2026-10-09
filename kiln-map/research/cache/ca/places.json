@@ -1159,10 +1159,15 @@
         "url": "https://canvas.berkeleypottersstudio.org/classes/293",
         "title": "Soda Firing Workshop w/ Haley Tessler – Classes",
         "snippet": "March 14 - 15, 2026 8:00 AM – 8:00 PM. Ages 16 year through adult $425.00 $325.00 … workshop we will focus on glazing and surfaces for soda firing. Berkeley CA"
+      },
+      {
+        "q": "dir:thepottersstudio.org",
+        "url": "https://canvas.berkeleypottersstudio.org/",
+        "title": "Sign Up For a Class",
+        "snippet": "Listed on thepottersstudio.org: Sign Up For a Class"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Berkeley Potters Studio",
       "city": "Berkeley",
@@ -1181,7 +1186,13 @@
       "quote_verified": false,
       "secs": 14,
       "state_on_page": false
-    }
+    },
+    "osm": {
+      "name": "Sign Up For a Class",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "ceramic.school": {
     "key": "ceramic.school",
@@ -8843,6 +8854,18 @@
         "url": "http://berkeleypotters.com/",
         "title": "Berkeley Potters Guild",
         "snippet": "OpenStreetMap: Berkeley Potters Guild  CA"
+      },
+      {
+        "q": "dir:beniciamagazine.com",
+        "url": "https://berkeleypotters.com/",
+        "title": "The Berkeley Potters Guild",
+        "snippet": "Listed on beniciamagazine.com: The Berkeley Potters Guild"
+      },
+      {
+        "q": "dir:neighborhoodlink.com",
+        "url": "http://berkeleypotters.com/",
+        "title": "Berkeley Potters Guild",
+        "snippet": "Listed on neighborhoodlink.com: Berkeley Potters Guild"
       }
     ],
     "pages": {
@@ -10282,6 +10305,12 @@
         "url": "https://berkeleypottersstudio.org/",
         "title": "The Potters Studio",
         "snippet": "OpenStreetMap: The Potters Studio Berkeley"
+      },
+      {
+        "q": "dir:thepottersstudio.org",
+        "url": "https://berkeleypottersstudio.org/",
+        "title": "Membership Details →",
+        "snippet": "Listed on thepottersstudio.org: Membership Details →"
       }
     ],
     "pages": {},
@@ -10289,12 +10318,12 @@
       "name": "The Potters Studio",
       "city": "Berkeley"
     },
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "OSM seed: no firing words on its pages",
       "auto": true
-    }
+    },
+    "fetched": true
   },
   "getcreateit.com": {
     "key": "getcreateit.com",
@@ -10983,6 +11012,59 @@
     },
     "osm": {
       "name": "Limekiln Canyon Park"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "artsbenicia.org": {
+    "key": "artsbenicia.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:beniciamagazine.com",
+        "url": "https://artsbenicia.org/",
+        "title": "Arts Benicia",
+        "snippet": "Listed on beniciamagazine.com: Arts Benicia"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Arts Benicia",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "lindsayartglass.com": {
+    "key": "lindsayartglass.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:beniciamagazine.com",
+        "url": "http://lindsayartglass.com/",
+        "title": "glassblowing studios",
+        "snippet": "Listed on beniciamagazine.com: glassblowing studios"
+      }
+    ],
+    "pages": {
+      "http://lindsayartglass.com/": "",
+      "https://lindsayartglass.com/events/": ""
+    },
+    "osm": {
+      "name": "glassblowing studios",
+      "city": "",
+      "state": ""
     },
     "fetched": true,
     "judged": {

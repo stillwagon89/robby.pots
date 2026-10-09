@@ -1,4 +1,4 @@
-# New Mexico firings ledger (2026-10-08, discovery v3, automatic)
+# New Mexico firings ledger (2026-10-09, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -23,4 +23,3 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 16 | ArtQuesta Studios & Gallery | ? | wood | Classes or membership | questacreative.org |
 | 17 | Calliope gallery | Santa Fe | raku | Classes or membership | calliopemadrid.com |
 | 18 | Arroyo Seco Gallery | Taos | wood | Classes or membership | loganwannamaker.com |
-| 19 | Anderson Ranch Art Center | ? | soda, wood, raku | See site | theresidencyreview.com |

@@ -1,4 +1,4 @@
-# North Carolina firings ledger (2026-10-08, discovery v3, automatic)
+# North Carolina firings ledger (2026-10-09, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -42,3 +42,4 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 35 | Haywood Community College | ? | soda, raku, wood | Classes or membership | haywood.edu |
 | 36 | Southwestern Community College | Sylva | wood, raku | See site | southwesterncc.edu |
 | 37 | Joseph Sand Pottery | ? | salt | Dated workshop or firing event | josephsandpottery.com |
+| 38 | Village Pottery Marketplace of Seagrove | ? | raku, wood | See site | seagrovevillagepottery.com |

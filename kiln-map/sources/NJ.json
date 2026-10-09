@@ -72,7 +72,7 @@
         "town": "Jersey City",
         "score": 2,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -125,7 +125,7 @@
         "town": "Wharton",
         "score": 2,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -175,7 +175,7 @@
       "lng": -74.77044,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -235,7 +235,7 @@
       "lng": -74.38367,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -283,7 +283,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -341,7 +341,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -401,7 +401,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -464,7 +464,7 @@
         "town": "Clinton",
         "score": 36,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -510,7 +510,7 @@
         "town": "Scotch Plains",
         "score": 6,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       }
     },
     {
@@ -527,7 +527,7 @@
       "urls": [
         "https://www.theclaypotpottery.com/"
       ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-09; not yet reviewed.",
       "location_precision": "approximate",
       "geocode": "Main Street Spotswood, New Jersey",
       "location_note": "Shown at the town.",
@@ -542,17 +542,17 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "review": "pending",
       "discovered": {
         "by": "discover-v3",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "key": "theclaypotpottery.com"
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
         "why": "page says state is NJ, not NC",
         "types": {
@@ -567,7 +567,53 @@
         "town": "Main Street Spotswood",
         "score": 6,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
+      }
+    },
+    {
+      "id": "potters-8217-guild-of-new-jersey",
+      "org": "Potters&#8217; Guild of New Jersey",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "soda",
+        "pit_barrel_saggar"
+      ],
+      "region": "Union",
+      "city": "Union",
+      "urls": [
+        "https://pottersguildnj.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Union, New Jersey",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://pottersguildnj.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "pottersguildnj.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "page says state is NJ, not ND",
+        "types": {
+          "raku": "Each summer the guild meets at Peter Syak's studio for a full day of Raku and Horsehair firing."
+        },
+        "state": "NJ",
+        "town": "Union"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
       }
     }
   ],

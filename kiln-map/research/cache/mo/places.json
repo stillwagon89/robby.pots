@@ -218,10 +218,15 @@
         "url": "https://belgerarts.org/residency-programs",
         "title": "Residency Programs — Belger Arts - KC,MO",
         "snippet": "This residency is ideal for artists who thrive in a shared, communal space, and are preparing for the next step in their professional pursuits. We accept four to six Foundation Residents per term, with two spots reserved for potters and two spots reserved for sculptors."
+      },
+      {
+        "q": "dir:artskc.org",
+        "url": "https://belgerarts.org/",
+        "title": "Belger Arts",
+        "snippet": "Listed on artskc.org: Belger Arts"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Belger Arts",
       "city": "Kansas City",
@@ -245,7 +250,13 @@
         "raku",
         "pit_barrel_saggar"
       ]
-    }
+    },
+    "osm": {
+      "name": "Belger Arts",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "happeningnext.com": {
     "key": "happeningnext.com",
@@ -872,6 +883,12 @@
         "url": "https://kcclayguild.org/",
         "title": "KC Clay Guild",
         "snippet": "OpenStreetMap: KC Clay Guild Kansas City MO"
+      },
+      {
+        "q": "dir:artskc.org",
+        "url": "https://kcclayguild.org/",
+        "title": "KC Clay Guild",
+        "snippet": "Listed on artskc.org: KC Clay Guild"
       }
     ],
     "pages": {},
@@ -1208,10 +1225,15 @@
         "url": "https://artskcgo.com/event/handmade-mug-workshop/",
         "title": "Handmade Mug Workshop, Cherry Pit Collective at Cherry Pit ...",
         "snippet": "May 17, 2026 · Students will receive instruction on slab building & decorating their own ceramic mug. Instruction, clay, glaze & firing included. Pick up will be arranged with instructor at Cherry Pit after kiln firing. Taught by Angela Rangel. For adults (ages 16 and up)"
+      },
+      {
+        "q": "dir:artskc.org",
+        "url": "https://artskcgo.com/",
+        "title": "ArtsKCGo.com",
+        "snippet": "Listed on artskc.org: ArtsKCGo.com"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Cherry Pit Collective",
       "city": "St. Louis",
@@ -1231,7 +1253,13 @@
       "secs": 9,
       "state_on_page": false,
       "supported_types": []
-    }
+    },
+    "osm": {
+      "name": "ArtsKCGo.com",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "lemoyne.org": {
     "key": "lemoyne.org",
@@ -5147,6 +5175,679 @@
     },
     "osm": {
       "name": "Clay County"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "kcclayguild.portal.approach.app": {
+    "key": "kcclayguild.portal.approach.app",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:kcclayguild.org",
+        "url": "https://kcclayguild.portal.approach.app/",
+        "title": "Membership Portal",
+        "snippet": "Listed on kcclayguild.org: Membership Portal"
+      }
+    ],
+    "pages": {
+      "https://kcclayguild.portal.approach.app/": ""
+    },
+    "osm": {
+      "name": "Membership Portal",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "kansascommerce.gov": {
+    "key": "kansascommerce.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://www.kansascommerce.gov/",
+        "title": "Kansas Creative Arts Industries Commission",
+        "snippet": "Listed on artskc.org: Kansas Creative Arts Industries Commission"
+      }
+    ],
+    "pages": {
+      "https://www.kansascommerce.gov/": "",
+      "https://www.kansascommerce.gov/grantscalendar": "",
+      "https://www.kansascommerce.gov/industry/corporate-services/": "",
+      "https://www.kansascommerce.gov/2026/09/kansas-offers-1-5m-to-transform-vacant-underutilized-downtown-buildings/": ""
+    },
+    "osm": {
+      "name": "Kansas Creative Arts Industries Commission",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "missouriartscouncil.org": {
+    "key": "missouriartscouncil.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://www.missouriartscouncil.org/",
+        "title": "Missouri Arts Council: Artist Opportunities",
+        "snippet": "Listed on artskc.org: Missouri Arts Council: Artist Opportunities"
+      }
+    ],
+    "pages": {
+      "https://www.missouriartscouncil.org/": ""
+    },
+    "osm": {
+      "name": "Missouri Arts Council: Artist Opportunities",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "blog.praxiscenterforaesthetics.com": {
+    "key": "blog.praxiscenterforaesthetics.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "http://blog.praxiscenterforaesthetics.com/",
+        "title": "Praxis Center for Aesthetic Studies",
+        "snippet": "Listed on artskc.org: Praxis Center for Aesthetic Studies"
+      }
+    ],
+    "pages": {
+      "http://blog.praxiscenterforaesthetics.com/": "",
+      "https://blog.praxiscenterforaesthetics.com/it-all-fades-eventually/": ""
+    },
+    "osm": {
+      "name": "Praxis Center for Aesthetic Studies",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "womenarts.org": {
+    "key": "womenarts.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://www.womenarts.org/",
+        "title": "Women Arts",
+        "snippet": "Listed on artskc.org: Women Arts"
+      }
+    ],
+    "pages": {
+      "https://www.womenarts.org/": "",
+      "https://www.womenarts.org/swan-day-overview-2020/annual-swan-day-posts-from-2008-to-2018/": ""
+    },
+    "osm": {
+      "name": "Women Arts",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "arts.gov": {
+    "key": "arts.gov",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://www.arts.gov/",
+        "title": "Creative Writing Fellowships – National Endowment for the Arts",
+        "snippet": "Listed on artskc.org: Creative Writing Fellowships – National Endowment for the Arts"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Creative Writing Fellowships – National Endowment for the Arts",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "foundationforcontemporaryarts.org": {
+    "key": "foundationforcontemporaryarts.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "http://www.foundationforcontemporaryarts.org/",
+        "title": "Foundation for Contemporary Arts",
+        "snippet": "Listed on artskc.org: Foundation for Contemporary Arts"
+      }
+    ],
+    "pages": {
+      "http://www.foundationforcontemporaryarts.org/": "",
+      "http://www.foundationforcontemporaryarts.org/terms-of-service/": ""
+    },
+    "osm": {
+      "name": "Foundation for Contemporary Arts",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "cityofls.net": {
+    "key": "cityofls.net",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "http://cityofls.net/",
+        "title": "Lee’s Summit Arts Council (LSAC) Annual Grant Opportunity and Mini-Grants",
+        "snippet": "Listed on artskc.org: Lee’s Summit Arts Council (LSAC) Annual Grant Opportunity and Mini-Grants"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Lee’s Summit Arts Council (LSAC) Annual Grant Opportunity and Mini-Grants",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "maaa.org": {
+    "key": "maaa.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://www.maaa.org/",
+        "title": "Mid America Arts Alliance",
+        "snippet": "Listed on artskc.org: Mid America Arts Alliance"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Mid America Arts Alliance",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "sustainableartsfoundation.org": {
+    "key": "sustainableartsfoundation.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://www.sustainableartsfoundation.org/",
+        "title": "Sustainable Arts Foundation",
+        "snippet": "Listed on artskc.org: Sustainable Arts Foundation"
+      }
+    ],
+    "pages": {
+      "https://www.sustainableartsfoundation.org/": ""
+    },
+    "osm": {
+      "name": "Sustainable Arts Foundation",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "universityhealthkc.org": {
+    "key": "universityhealthkc.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://www.universityhealthkc.org/",
+        "title": "University Health (formerly Truman Medical Centers)",
+        "snippet": "Listed on artskc.org: University Health (formerly Truman Medical Centers)"
+      }
+    ],
+    "pages": {
+      "https://www.universityhealthkc.org/": "",
+      "https://www.universityhealthkc.org/locations/university-health-lakewood-medical-center/": "",
+      "https://www.universityhealthkc.org/patients-visitors/guest-services/": "",
+      "https://www.universityhealthkc.org/patients-visitors/guest-services/patient-and-family-engagement/": ""
+    },
+    "osm": {
+      "name": "University Health (formerly Truman Medical Centers)",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "kcvlaa.org": {
+    "key": "kcvlaa.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "http://www.kcvlaa.org/",
+        "title": "The Kansas City Volunteer Lawyers and Accountants for the Arts (KCVLAA)",
+        "snippet": "Listed on artskc.org: The Kansas City Volunteer Lawyers and Accountants for the Arts (KCVLAA)"
+      }
+    ],
+    "pages": {
+      "http://www.kcvlaa.org/": "",
+      "https://www.kcvlaa.org/get-help/take-a-workshop/": ""
+    },
+    "osm": {
+      "name": "The Kansas City Volunteer Lawyers and Accountants for the Arts (KCVLAA)",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "guildit.org": {
+    "key": "guildit.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "http://guildit.org/",
+        "title": "GuildIt",
+        "snippet": "Listed on artskc.org: GuildIt"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "GuildIt",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "artistinc.art": {
+    "key": "artistinc.art",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://artistinc.art/",
+        "title": "Pushing The Flywheel Blog",
+        "snippet": "Listed on artskc.org: Pushing The Flywheel Blog"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Pushing The Flywheel Blog",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "actorsfund.org": {
+    "key": "actorsfund.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://actorsfund.org/",
+        "title": "The Artists’ Health Insurance Resource Center",
+        "snippet": "Listed on artskc.org: The Artists’ Health Insurance Resource Center"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "The Artists’ Health Insurance Resource Center",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "thestudiosinc.org": {
+    "key": "thestudiosinc.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "http://thestudiosinc.org/",
+        "title": "The Studios, Inc.",
+        "snippet": "Listed on artskc.org: The Studios, Inc."
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "The Studios, Inc.",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "charlottestreet.org": {
+    "key": "charlottestreet.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "http://charlottestreet.org/",
+        "title": "Charlotte Street Foundation – Studio Residency Program",
+        "snippet": "Listed on artskc.org: Charlotte Street Foundation – Studio Residency Program"
+      }
+    ],
+    "pages": {
+      "http://charlottestreet.org/": "",
+      "https://charlottestreet.org/events/": "",
+      "https://charlottestreet.org/2026-event-calendar/": "",
+      "https://charlottestreet.org/events/past-events/": ""
+    },
+    "osm": {
+      "name": "Charlotte Street Foundation – Studio Residency Program",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "craftschools.us": {
+    "key": "craftschools.us",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "http://www.craftschools.us/",
+        "title": "CraftSchools.us",
+        "snippet": "Listed on artskc.org: CraftSchools.us"
+      }
+    ],
+    "pages": {
+      "http://www.craftschools.us/": ""
+    },
+    "osm": {
+      "name": "CraftSchools.us",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "osageac.org": {
+    "key": "osageac.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://osageac.org/",
+        "title": "Osage Arts Community",
+        "snippet": "Listed on artskc.org: Osage Arts Community"
+      }
+    ],
+    "pages": {
+      "https://osageac.org/": "",
+      "https://osageac.org/past-events/": ""
+    },
+    "osm": {
+      "name": "Osage Arts Community",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "theartsasylum.org": {
+    "key": "theartsasylum.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "http://www.theartsasylum.org/",
+        "title": "The Arts Asylum",
+        "snippet": "Listed on artskc.org: The Arts Asylum"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "The Arts Asylum",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "kcwoodworkersguild.org": {
+    "key": "kcwoodworkersguild.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "http://kcwoodworkersguild.org/",
+        "title": "Kansas City Woodworkers Guild ,",
+        "snippet": "Listed on artskc.org: Kansas City Woodworkers Guild ,"
+      }
+    ],
+    "pages": {
+      "http://kcwoodworkersguild.org/": "",
+      "http://kcwoodworkersguild.org/calendar": ""
+    },
+    "osm": {
+      "name": "Kansas City Woodworkers Guild ,",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "kcclay.com": {
+    "key": "kcclay.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "http://kcclay.com/",
+        "title": "Crane Yard Clay",
+        "snippet": "Listed on artskc.org: Crane Yard Clay"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Crane Yard Clay",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "cerfplus.org": {
+    "key": "cerfplus.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://cerfplus.org/",
+        "title": "CERF+ Craft Emergency Relief Fund",
+        "snippet": "Listed on artskc.org: CERF+ Craft Emergency Relief Fund"
+      }
+    ],
+    "pages": {
+      "https://cerfplus.org/": ""
+    },
+    "osm": {
+      "name": "CERF+ Craft Emergency Relief Fund",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "sbtdc.umkc.edu": {
+    "key": "sbtdc.umkc.edu",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://sbtdc.umkc.edu/",
+        "title": "UMKC’s Small Business &amp; Technology Development Center",
+        "snippet": "Listed on artskc.org: UMKC’s Small Business &amp; Technology Development Center"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "UMKC’s Small Business &amp; Technology Development Center",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "apap365.org": {
+    "key": "apap365.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:artskc.org",
+        "url": "https://www.apap365.org/",
+        "title": "Association of Performing Arts Professionals",
+        "snippet": "Listed on artskc.org: Association of Performing Arts Professionals"
+      }
+    ],
+    "pages": {
+      "https://www.apap365.org/": "",
+      "https://apap365.org/apap-calendar-of-events/": "",
+      "https://apap365.org/upcoming-events/": "",
+      "https://apap365.org/live-performance-calendar/": ""
+    },
+    "osm": {
+      "name": "Association of Performing Arts Professionals",
+      "city": "",
+      "state": ""
     },
     "fetched": true,
     "judged": {

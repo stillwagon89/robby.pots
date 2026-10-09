@@ -105,7 +105,7 @@
       },
       "located": {
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -165,7 +165,7 @@
         "town": "Atlanta",
         "score": 6,
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -221,7 +221,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -277,7 +277,7 @@
         "town": "Patterson Street Valdosta",
         "score": 4,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": true,
       "agree": {
@@ -336,7 +336,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -395,7 +395,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": true,
       "agree": {
@@ -455,7 +455,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -519,7 +519,52 @@
       "weak": false,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
+      }
+    },
+    {
+      "id": "macon-arts-alliance",
+      "org": "Macon Arts Alliance",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "St. Macon",
+      "city": "St. Macon",
+      "urls": [
+        "https://www.maconartsalliance.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "St. Macon, Georgia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.maconartsalliance.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "maconartsalliance.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "The page mentions 'Anagama' as a sponsor on two pages (Firedworks and Fire and Ice) but provides no details about public access, workshops, classes, memberships, rentals, or firing services.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "GA",
+        "town": "St. Macon",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-09"
       }
     }
   ],

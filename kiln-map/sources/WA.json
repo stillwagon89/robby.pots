@@ -130,7 +130,7 @@
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -192,7 +192,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -249,7 +249,7 @@
         "town": "Seattle",
         "score": 2,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -308,7 +308,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": true,
       "agree": {
@@ -371,7 +371,7 @@
       },
       "located": {
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -431,7 +431,7 @@
         "town": "Tacoma",
         "score": 6,
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -485,7 +485,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": true,
       "agree": {
@@ -551,7 +551,7 @@
         "town": "Spokane",
         "score": 7,
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       }
     },
     {
@@ -606,7 +606,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -662,7 +662,7 @@
         "town": "Port Angeles",
         "score": 28,
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": true,
       "agree": {
@@ -730,7 +730,7 @@
         "town": "Seaview",
         "score": 42,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       }
     },
     {
@@ -775,7 +775,7 @@
         "town": "Avenue North Seattle",
         "score": 6,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       }
     },
     {
@@ -832,7 +832,7 @@
         "town": "Bellevue",
         "score": 8,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       }
     },
     {
@@ -884,7 +884,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -947,7 +947,7 @@
         "town": "Washington Depot",
         "score": 2,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": true,
       "agree": {
@@ -1011,7 +1011,7 @@
         "town": "Seattle",
         "score": 6,
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -1065,7 +1065,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -1122,7 +1122,7 @@
         "town": "Astoria",
         "score": 2,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1180,7 +1180,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1238,7 +1238,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1301,7 +1301,7 @@
         "town": "Seattle",
         "score": 20,
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       }
     },
     {
@@ -1357,7 +1357,7 @@
         "town": "Lynden",
         "score": 12,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1419,9 +1419,181 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": true
+    },
+    {
+      "id": "dahl-arts-studio",
+      "org": "Dahl Arts Studio",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Washington",
+      "city": null,
+      "urls": [
+        "https://www.dahlartsstudio.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.dahlartsstudio.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "dahlartsstudio.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "The page mentions raku and firing services but does not explicitly state how outsiders can sign up for or participate in a raku firing (e.g., no workshop, class, membership, rental, or contact invitation is clearly described for raku specifically).",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
+      }
+    },
+    {
+      "id": "natasha-alphonse",
+      "org": "Natasha Alphonse",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Washington",
+      "city": null,
+      "urls": [
+        "https://alphonsestudio.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://alphonsestudio.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "alphonsestudio.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "The page mentions high-fired reduction kiln work in classes but does not explicitly state whether outsiders/non-students can enroll or how to sign up for classes.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
+      }
+    },
+    {
+      "id": "robbie-lobell",
+      "org": "Robbie Lobell",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Washington",
+      "city": null,
+      "urls": [
+        "https://www.cookonclay.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.cookonclay.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "cookonclay.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "The page mentions a 2026 soda kiln workshop but does not explicitly state whether outsiders can register, book, or join it.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
+      }
+    },
+    {
+      "id": "stillfire-pottery",
+      "org": "Stillfire Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "gas_reduction"
+      ],
+      "region": "Freeland",
+      "city": "Freeland",
+      "urls": [
+        "https://www.stillfirepottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Freeland, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.stillfirepottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "stillfirepottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page mentions raku pieces as finished products but provides no information about public access to raku firings, classes, workshops, memberships, rentals, or firing services.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "WA",
+        "town": "Freeland",
+        "score": 7,
+        "osm": false,
+        "date": "2026-10-09"
+      }
     }
   ],
   "_removed": [
@@ -1468,6 +1640,10 @@
     {
       "id": "naselle-pottery-studio",
       "why": "Two models agree: The site is an artist's portfolio for a private wood-fire kiln and studio; it describes his own firings and exhibitions and never offers outsiders a way to join, book or sign up for a firing. (2026-10-08)"
+    },
+    {
+      "id": "ginny-conrow",
+      "why": "Second check (claude-haiku-4.5): The workshops described involve crystalline firing (an electric kiln firing) and other techniques, but no non-electric ceramic firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) are mentioned as available for public participation. (2026-10-09)"
     }
   ]
 }

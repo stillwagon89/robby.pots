@@ -1,4 +1,4 @@
-# Solid places to review (237)
+# Solid places to review (240)
 
 Each place passed the keyword check, the Claude check with a quoted sentence, and the address check. Reply per state with the numbers to REJECT; everything else gets approved.
 
@@ -188,11 +188,15 @@ Each place passed the keyword check, the Claude check with a quoted sentence, an
    "Join a three-day workshop in which participants will be guided through the construction and pit-firing of their own clay vessel."
    https://explorewashingtonct.com/events/lets-get-fired-up-traditional-pottery-workshop-2023
 
-## DC (1)
+## DC (2)
 
 1. **District Clay Center**, Washington — raku
    "Raku firing workshops"
    https://classcub.com/provider/district-clay-center-washington-dc
+
+2. **Clay Café**, Washington — raku
+   "You can sign up for multi-week course and multi-day workshops to build your skills and learn more specialized techniques, like Raku firing and special glazes."
+   https://notboredindc.com/pottery-and-ceramics-classes-near-dc
 
 ## DE (1)
 
@@ -416,7 +420,7 @@ Each place passed the keyword check, the Claude check with a quoted sentence, an
    "2023 Raku and Barrel Firing Wilson College, Chambersburg, PA"
    http://www.kilnjoy.com/events.html
 
-## ME (7)
+## ME (8)
 
 1. **Maine College of Art Continuing Studies**, Free Street Portland — soda, wood
    "Atmospheric Firing in Soda & Wood kilns with Mitch Johnson"
@@ -445,6 +449,10 @@ Each place passed the keyword check, the Claude check with a quoted sentence, an
 7. **Tyler Gulden Ceramics**, Walpole — gas/reduction, wood
    "Workshop: Cone 10 Reduction Firing @ Snowfarm May 29-31, 2021 Get details & Register!"
    https://www.tylergulden.com/exhibitionsevents.html
+
+8. **Southern Maine Clay Guild** — pit/barrel_saggar, soda
+   "This is a community pit firing and dinner potluck!"
+   https://www.southernmaineclayguild.com/
 
 ## MI (8)
 
@@ -712,7 +720,7 @@ Each place passed the keyword check, the Claude check with a quoted sentence, an
    "festival goers can take part in Raku Firing ($10 per bowl)"
    https://events.okstate.edu/event/stillwater-arts-festival-8581
 
-## OR (8)
+## OR (9)
 
 1. **Jay Widmer**, Corvallis — wood
    "Jay would like to help others learn from his experience and is opening up the Anagama kiln for a Professional Development Workshop to other potters."
@@ -742,7 +750,11 @@ Each place passed the keyword check, the Claude check with a quoted sentence, an
    "Participants will receive instruction on raku safety and techniques (2:00–3:00 PM), then glaze their own bisque-fired vase (3:00–3:30 PM). The highlight is experiencing the raku firing process firstha"
    https://www.storytownashland.com/events/raku-class
 
-8. **East Creek Anagama** — wood
+8. **Portland Parks**, Portland — raku
+   "Learn about raku glazes, decorating techniques, and firing in this one-day workshop."
+   https://apm.activecommunities.com/portlandparks/Activity_Search/ceramics---raku-workshop-9-3/199906?locale=en-US
+
+9. **East Creek Anagama** — wood
    "others, like East Creek Anagama in Oregon, are community-based and host public workshops"
    https://craftcouncil.org/articles/kilns-that-build-community
 

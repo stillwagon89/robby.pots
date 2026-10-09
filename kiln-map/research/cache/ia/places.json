@@ -3131,16 +3131,27 @@
         "url": "https://www.clay-mationsstudio.com/about",
         "title": "Shop 2 Hour Pottery Studios - Learn the Art of Spinning Clay",
         "snippet": "Sam aimed to create the perfect creative space to help millennials and students reconnect to their breath and bodies, allowing them the chance to relax while learning the touch of clay."
+      },
+      {
+        "q": "dir:amesart.org",
+        "url": "https://www.clay-mationsstudio.com/",
+        "title": "CLAY-MATIONS Studio",
+        "snippet": "Listed on amesart.org: CLAY-MATIONS Studio"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "CLAY-MATIONS Studio",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "amesart.org": {
     "key": "amesart.org",
@@ -3233,6 +3244,12 @@
         "url": "https://www.nathanandclay.com/",
         "title": "nathan & clay - About",
         "snippet": "Nathan's studio is located in Ames, IA and offers portable pottery workshops, in-studio lessons and handmade pottery."
+      },
+      {
+        "q": "dir:amesart.org",
+        "url": "https://www.nathanandclay.com/",
+        "title": "Nathan &amp; Clay",
+        "snippet": "Listed on amesart.org: Nathan &amp; Clay"
       }
     ],
     "pages": {
@@ -3241,7 +3258,6 @@
       "https://www.nathanandclay.com/classes.html": "Classes\nKiln Repair\nPaint Your Own\nContact\n",
       "https://www.nathanandclay.com/kiln-repair.html": "Kiln Repair - nathan & clay\nAbout\nPortable Events\nClasses\nKiln Repair\nPaint Your Own\nContact\nIowa's Ceramic Kiln Repair\nNathan is an experienced ceramic artist and can help diagnose an issue with your kiln, please fill out the form below to help describe the problem. Nathan will later reach out with a quote.\n* Indicates required field\nName *\nCity/State *\nBrand of Kiln *\nSkutt\nL&L\nIf Other, please specify: *\nKiln Model and Serial Number *\nType of Repair *\nReplace Elements\n"
     },
-    "fetched": true,
     "judged": {
       "name": "nathan & clay",
       "city": "Ames",
@@ -3259,7 +3275,13 @@
       "secs": 6,
       "state_on_page": true,
       "supported_types": []
-    }
+    },
+    "osm": {
+      "name": "Nathan &amp; Clay",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "my.ceramicmaterialsworkshop.com": {
     "key": "my.ceramicmaterialsworkshop.com",
@@ -4729,6 +4751,111 @@
     },
     "osm": {
       "name": "Clayton County"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "iowaceramicscenter.square.site": {
+    "key": "iowaceramicscenter.square.site",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:iowaceramicscenter.org",
+        "url": "http://iowaceramicscenter.square.site/",
+        "title": "Store",
+        "snippet": "Listed on iowaceramicscenter.org: Store"
+      }
+    ],
+    "pages": {
+      "http://iowaceramicscenter.square.site/": ""
+    },
+    "osm": {
+      "name": "Store",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "danielmoorestudios.com": {
+    "key": "danielmoorestudios.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:amesart.org",
+        "url": "https://www.danielmoorestudios.com/",
+        "title": "Daniel Moore Studios",
+        "snippet": "Listed on amesart.org: Daniel Moore Studios"
+      }
+    ],
+    "pages": {
+      "https://www.danielmoorestudios.com/": "",
+      "https://www.danielmoorestudios.com/my-services": ""
+    },
+    "osm": {
+      "name": "Daniel Moore Studios",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "barbaraewalton.com": {
+    "key": "barbaraewalton.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:amesart.org",
+        "url": "https://barbaraewalton.com/",
+        "title": "Holy Dog Studio",
+        "snippet": "Listed on amesart.org: Holy Dog Studio"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Holy Dog Studio",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "octagonarts.org": {
+    "key": "octagonarts.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:amesart.org",
+        "url": "https://octagonarts.org/",
+        "title": "Octagon Studios",
+        "snippet": "Listed on amesart.org: Octagon Studios"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Octagon Studios",
+      "city": "",
+      "state": ""
     },
     "fetched": true,
     "judged": {

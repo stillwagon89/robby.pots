@@ -1,4 +1,4 @@
-# Alabama firings ledger (2026-10-08, discovery v3, automatic)
+# Alabama firings ledger (2026-10-09, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 

@@ -54,7 +54,7 @@
       "lng": -111.77796,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -116,7 +116,7 @@
       "weak": false,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       }
     },
     {
@@ -168,7 +168,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -230,7 +230,7 @@
       "weak": false,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       }
     },
     {
@@ -285,7 +285,7 @@
         "town": "Orem",
         "score": 2,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -347,7 +347,7 @@
         "town": "Draper",
         "score": 10,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -402,7 +402,7 @@
       "lng": -111.65871,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -467,7 +467,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -532,7 +532,7 @@
       "lng": -113.58321,
       "located": {
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -588,7 +588,7 @@
       "lng": -111.83491,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": true,
       "agree": {
@@ -652,7 +652,7 @@
         "town": "Logan",
         "score": 10,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -711,7 +711,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -733,6 +733,10 @@
     {
       "id": "granary-arts",
       "why": "Two models agree: The only text is a snippet about an artist who fires his own wood kiln at Horseshoe Mountain Pottery, which says nothing about public participation in a firing at Granary Arts. (2026-10-08)"
+    },
+    {
+      "id": "language-visit-website",
+      "why": "Second check (claude-haiku-4.5): The page text describes adventure tours and shuttle services with no mention of ceramic firings of any kind. (2026-10-09)"
     }
   ]
 }

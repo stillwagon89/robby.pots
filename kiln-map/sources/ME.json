@@ -134,7 +134,7 @@
         "town": "Free Street Portland",
         "score": 4,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -190,7 +190,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -250,7 +250,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -306,7 +306,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -366,7 +366,7 @@
         "town": "Portland",
         "score": 4,
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -411,7 +411,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -474,7 +474,7 @@
         "town": "Rd West Gardiner",
         "score": 6,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -535,7 +535,98 @@
         "town": "Walpole",
         "score": 2,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
+      }
+    },
+    {
+      "id": "castine-arts-association",
+      "org": "Castine Arts Association",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Castine",
+      "city": "Castine",
+      "urls": [
+        "https://www.castinearts.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Castine, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.castinearts.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "castinearts.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "page says state is ME, not ND",
+        "types": {},
+        "state": "ME",
+        "town": "Castine"
+      },
+      "weak": true,
+      "located": {
+        "state": "ME",
+        "town": "Castine",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-09"
+      }
+    },
+    {
+      "id": "southern-maine-clay-guild",
+      "org": "Southern Maine Clay Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda",
+        "pit_barrel_saggar"
+      ],
+      "region": "Maine",
+      "city": null,
+      "urls": [
+        "https://www.southernmaineclayguild.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.southernmaineclayguild.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "southernmaineclayguild.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "page says state is ME, not ND",
+        "types": {
+          "pit_barrel_saggar": "This is a community pit firing and dinner potluck!",
+          "soda": "June 20 - small group soda firing @Barbara's"
+        },
+        "state": "ME",
+        "town": ""
+      },
+      "weak": false,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
       }
     }
   ],
@@ -611,6 +702,10 @@
     {
       "id": "watershed-center-for-the-ceramic-arts",
       "why": "Second check (claude-haiku-4.5): The page is a directory/guide of artist residency programs and kiln technical information, with no description of public access to non-electric ceramic firings at Watershed Center for the Ceramic Arts itself. (2026-10-08)"
+    },
+    {
+      "id": "aa-clay-ceramics-studio",
+      "why": "Its own pages give an address in KY (Louisiville), not ME. Moved. (2026-10-09)"
     }
   ]
 }

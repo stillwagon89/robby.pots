@@ -83,7 +83,7 @@
         "town": "Montpelier",
         "score": 6,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -128,7 +128,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -188,7 +188,7 @@
       "lng": -73.30248,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -252,7 +252,7 @@
         "town": "Woodstock",
         "score": 4,
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -311,7 +311,7 @@
       "lng": -72.55729,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": true,
       "agree": {
@@ -374,7 +374,7 @@
       "lng": -73.16723,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
     },
@@ -432,9 +432,108 @@
         "town": "Manchester",
         "score": 2,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": false
+    },
+    {
+      "id": "jackie-sedlock-pottery",
+      "org": "Jackie Sedlock Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Vermont",
+      "city": null,
+      "urls": [
+        "https://www.jackiesedlock.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.jackiesedlock.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "For participation as a local artist who doesn't require housing, please contact the studio.",
+        "url": "https://www.jackiesedlock.com/wood-firing",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-09"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "jackiesedlock.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "page says state is VT, not ME",
+        "types": {},
+        "state": "VT",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
+      }
+    },
+    {
+      "id": "vermont-crafts-council",
+      "org": "Vermont Crafts Council",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda"
+      ],
+      "region": "Montpelier",
+      "city": "Montpelier",
+      "urls": [
+        "https://www.vermontcrafts.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Montpelier, Vermont",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.vermontcrafts.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "vermontcrafts.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "page says state is VT, not ND",
+        "types": {},
+        "state": "VT",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "VT",
+        "town": "Montpelier",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-09"
+      }
     }
   ],
   "_removed": [

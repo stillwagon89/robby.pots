@@ -53,7 +53,7 @@
         "town": "Street Sioux Falls",
         "score": 2,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -113,7 +113,7 @@
       "lng": -96.78982,
       "located": {
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -176,7 +176,7 @@
         "town": "Bismarck",
         "score": 6,
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": true,
       "agree": {
@@ -225,13 +225,55 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "woodland-weavers-amp-spinners-guild",
+      "org": "Woodland Weavers &amp; Spinners Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "North Dakota",
+      "city": null,
+      "urls": [
+        "https://wwas.info/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://wwas.info/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "wwas.info"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text describes a weaving and spinning guild with textile arts events, workshops, and markets, but contains no information about ceramic firings of any type.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
       }
     }
   ],
@@ -251,6 +293,70 @@
     {
       "id": "mondak-heritage-center",
       "why": "Its own pages give an address in MT (Sidney), not ND. Moved. (2026-10-07)"
+    },
+    {
+      "id": "san-diego-potters-8217-guild",
+      "why": "Second check (claude-haiku-4.5): page says state is CA, not ND (2026-10-09)"
+    },
+    {
+      "id": "windward-artists-guild",
+      "why": "Second check (claude-haiku-4.5): page says state is HI, not ND (2026-10-09)"
+    },
+    {
+      "id": "pacific-northwest-needle-arts-guild",
+      "why": "Second check (claude-haiku-4.5): The page describes fused glass and ice dyeing classes, not ceramic firings like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-09)"
+    },
+    {
+      "id": "montana-clay",
+      "why": "Second check (claude-haiku-4.5): Montana Clay is a directory/blog listing ceramics organizations and events in Montana, not a place that itself operates firings or offers public access to non-electric ceramic firings. (2026-10-09)"
+    },
+    {
+      "id": "glass-art-guild-of-utah",
+      "why": "Second check (claude-haiku-4.5): The page mentions raku glass as a topic in what appears to be a class or workshop description, but provides no information about public access to actual raku firings, only discussion of raku as an art form and glass inclusions. (2026-10-09)"
+    },
+    {
+      "id": "minnesota-knitters-8217-guild",
+      "why": "Second check (claude-haiku-4.5): This is a knitting guild with no mention of ceramic firings of any type. (2026-10-09)"
+    },
+    {
+      "id": "arizona-clay-association",
+      "why": "Second check (claude-haiku-4.5): The page text shows event demonstrations and studio tours about firing techniques (soda, atmospheric) but contains no information about public access to actual firings through workshops, classes, memberships, rentals, or firing services. (2026-10-09)"
+    },
+    {
+      "id": "central-oklahoma-polymer-clay-guild",
+      "why": "Second check (claude-haiku-4.5): The page describes polymer clay projects baked in ovens or with baking soda, not ceramic firings like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-09)"
+    },
+    {
+      "id": "castine-arts-association",
+      "why": "Second check (claude-haiku-4.5): page says state is ME, not ND (2026-10-09)"
+    },
+    {
+      "id": "southern-maine-clay-guild",
+      "why": "Second check (claude-haiku-4.5): page says state is ME, not ND (2026-10-09)"
+    },
+    {
+      "id": "potters-8217-guild-of-new-jersey",
+      "why": "Second check (claude-haiku-4.5): page says state is NJ, not ND (2026-10-09)"
+    },
+    {
+      "id": "northern-star-quilters-guild",
+      "why": "Second check (claude-haiku-4.5): Northern Star Quilters' Guild is a quilting organization with no mention of ceramic firings of any type. (2026-10-09)"
+    },
+    {
+      "id": "vermont-crafts-council",
+      "why": "Second check (claude-haiku-4.5): page says state is VT, not ND (2026-10-09)"
+    },
+    {
+      "id": "west-virginia-art-amp-craft-guild",
+      "why": "Second check (claude-haiku-4.5): The page text mentions raku only as a title of an artwork in a juried exhibition, with no information about public access to raku firings, classes, workshops, or firing services. (2026-10-09)"
+    },
+    {
+      "id": "macon-arts-alliance",
+      "why": "Its own pages give an address in GA (St. Macon), not ND. Moved. (2026-10-09)"
+    },
+    {
+      "id": "south-carolina-arts-commission",
+      "why": "Its own pages give an address in SC (Columbia), not ND. Moved. (2026-10-09)"
     }
   ]
 }

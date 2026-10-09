@@ -127,7 +127,7 @@
   "id": "university-of-montevallo",
   "loc": null,
   "osm": {
-   "name": "University of Montevallo, Flowerhill Drive, Montevallo, Shelby County, Alabama, 35115, United States",
+   "name": "University of Montevallo, Middle Street, Montevallo, Shelby County, Alabama, 35115, United States",
    "type": "university"
   }
  },
@@ -562,17 +562,20 @@
  },
  {
   "st": "CA",
-  "id": "element-art-center-ca",
+  "id": "turning-earth-ca",
   "loc": null,
-  "osm": {
-   "name": "Element Art Center, 835, North Broadway, New Chinatown, Civic Center, Chinatown, Los Angeles, Los Angeles County, Califo",
-   "type": "arts_centre"
-  }
+  "osm": null
  },
  {
   "st": "CA",
-  "id": "claytivity-pottery-studio-ca",
-  "loc": null,
+  "id": "san-diego-potters-8217-guild",
+  "loc": {
+   "st": "CA",
+   "town": "San Diego",
+   "score": 10,
+   "found": 1,
+   "ld": false
+  },
   "osm": null
  },
  {
@@ -883,6 +886,18 @@
   "osm": null
  },
  {
+  "st": "DC",
+  "id": "clay-cafe",
+  "loc": {
+   "st": "DC",
+   "town": "Washington",
+   "score": 15,
+   "found": 1,
+   "ld": true
+  },
+  "osm": null
+ },
+ {
   "st": "DE",
   "id": "rebel-potters",
   "loc": null,
@@ -1135,17 +1150,6 @@
   "osm": null
  },
  {
-  "st": "FL",
-  "id": "alexadamsclaywork",
-  "loc": {
-   "st": "KY",
-   "town": "Louisiville",
-   "score": 21,
-   "found": 1,
-   "ld": true
-  }
- },
- {
   "st": "GA",
   "id": "atlanta-clay-works",
   "loc": null,
@@ -1239,6 +1243,12 @@
    "found": 1,
    "ld": false
   },
+  "osm": null
+ },
+ {
+  "st": "HI",
+  "id": "windward-artists-guild",
+  "loc": null,
   "osm": null
  },
  {
@@ -1765,7 +1775,7 @@
   "id": "harvard",
   "loc": null,
   "osm": {
-   "name": "Harvard Business School, Western Avenue, Allston, Boston, Suffolk County, Massachusetts, 02163, United States",
+   "name": "Harvard University, Athol Street, Lower Allston, Allston, Boston, Suffolk County, Massachusetts, 02134, United States",
    "type": "university"
   }
  },
@@ -1812,6 +1822,30 @@
    "found": 2,
    "ld": false
   },
+  "osm": null
+ },
+ {
+  "st": "MA",
+  "id": "shachi-shah",
+  "loc": null,
+  "osm": null
+ },
+ {
+  "st": "MA",
+  "id": "tom-white",
+  "loc": {
+   "st": "MA",
+   "town": "Northfield",
+   "score": 6,
+   "found": 1,
+   "ld": false
+  },
+  "osm": null
+ },
+ {
+  "st": "MA",
+  "id": "sam-taylor",
+  "loc": null,
   "osm": null
  },
  {
@@ -1893,7 +1927,7 @@
    "st": "MD",
    "town": "Gambrills",
    "score": 5,
-   "found": 3,
+   "found": 2,
    "ld": true
   },
   "osm": null
@@ -1992,6 +2026,35 @@
    "found": 2,
    "ld": false
   },
+  "osm": null
+ },
+ {
+  "st": "ME",
+  "id": "aa-clay-ceramics-studio",
+  "loc": {
+   "st": "KY",
+   "town": "Louisiville",
+   "score": 21,
+   "found": 1,
+   "ld": true
+  }
+ },
+ {
+  "st": "ME",
+  "id": "castine-arts-association",
+  "loc": {
+   "st": "ME",
+   "town": "Castine",
+   "score": 2,
+   "found": 1,
+   "ld": false
+  },
+  "osm": null
+ },
+ {
+  "st": "ME",
+  "id": "southern-maine-clay-guild",
+  "loc": null,
   "osm": null
  },
  {
@@ -2183,6 +2246,12 @@
  {
   "st": "MN",
   "id": "nemaa",
+  "loc": null,
+  "osm": null
+ },
+ {
+  "st": "MN",
+  "id": "ceramicsow",
   "loc": null,
   "osm": null
  },
@@ -2536,7 +2605,7 @@
   "id": "n-a-nc",
   "loc": null,
   "osm": {
-   "name": "North Carolina Central University, Cecil Street, Durham, Durham County, North Carolina, 27707, United States",
+   "name": "North Carolina Central University, Columbia Avenue, Durham, Durham County, North Carolina, 27707, United States",
    "type": "university"
   }
  },
@@ -2601,6 +2670,18 @@
   "osm": null
  },
  {
+  "st": "NC",
+  "id": "village-pottery-marketplace-of-seagrove",
+  "loc": {
+   "st": "NC",
+   "town": "Seagrove",
+   "score": 10,
+   "found": 1,
+   "ld": false
+  },
+  "osm": null
+ },
+ {
   "st": "ND",
   "id": "dakota-potters-supply",
   "loc": {
@@ -2616,7 +2697,7 @@
   "id": "north-dakota-state-university",
   "loc": null,
   "osm": {
-   "name": "North Dakota State University, NDSU Research Circle North, Fargo, Cass County, North Dakota, 58102, United States",
+   "name": "North Dakota State University, 12th Avenue North, Fargo, Cass County, North Dakota, 58102, United States",
    "type": "university"
   }
  },
@@ -2631,7 +2712,7 @@
    "ld": false
   },
   "osm": {
-   "name": "Bismarck State College, East Highland Acres Road, Bismarck, Burleigh County, North Dakota, 58505, United States",
+   "name": "Bismarck State College, River Road, Bismarck, Burleigh County, North Dakota, 58554, United States",
    "type": "college"
   }
  },
@@ -2640,6 +2721,34 @@
   "id": "msu-lifelong-learning-institute",
   "loc": null,
   "osm": null
+ },
+ {
+  "st": "ND",
+  "id": "woodland-weavers-amp-spinners-guild",
+  "loc": null,
+  "osm": null
+ },
+ {
+  "st": "ND",
+  "id": "macon-arts-alliance",
+  "loc": {
+   "st": "GA",
+   "town": "St. Macon",
+   "score": 6,
+   "found": 3,
+   "ld": false
+  }
+ },
+ {
+  "st": "ND",
+  "id": "south-carolina-arts-commission",
+  "loc": {
+   "st": "SC",
+   "town": "Columbia",
+   "score": 6,
+   "found": 1,
+   "ld": false
+  }
  },
  {
   "st": "NE",
@@ -2816,6 +2925,12 @@
    "found": 1,
    "ld": false
   },
+  "osm": null
+ },
+ {
+  "st": "NJ",
+  "id": "potters-8217-guild-of-new-jersey",
+  "loc": null,
   "osm": null
  },
  {
@@ -3000,8 +3115,8 @@
    "ld": false
   },
   "osm": {
-   "name": "Salem Art Works, Stanton Hill Road, Town of Salem, Washington County, New York, 12865, United States",
-   "type": "art"
+   "name": "Salem Art Works, Vincent Lane, Town of Salem, Washington County, New York, 12865, United States",
+   "type": "arts_centre"
   }
  },
  {
@@ -3024,8 +3139,8 @@
   "id": "collective",
   "loc": null,
   "osm": {
-   "name": "The Collective, 272, River Street, Downtown, City of Troy, Rensselaer County, New York, 12180, United States",
-   "type": "gift"
+   "name": "Vibe: A Beauty Collective, 501, Broadway, Downtown, City of Troy, Rensselaer County, New York, 12180, United States",
+   "type": "hairdresser"
   }
  },
  {
@@ -3452,8 +3567,8 @@
   "id": "calapooia-clay",
   "loc": {
    "st": "OR",
-   "town": "Ave Albany",
-   "score": 4,
+   "town": "Albany",
+   "score": 6,
    "found": 2,
    "ld": false
   },
@@ -3557,15 +3672,6 @@
    "ld": false
   },
   "osm": null
- },
- {
-  "st": "OR",
-  "id": "portland-parks-or",
-  "loc": null,
-  "osm": {
-   "name": "Portland Firefighters Park, Goose Hollow, Portland, Multnomah County, Oregon, United States",
-   "type": "park"
-  }
  },
  {
   "st": "OR",
@@ -3704,7 +3810,7 @@
    "ld": true
   },
   "osm": {
-   "name": "Northampton Area Community College, Bethlehem Township, Northampton County, Pennsylvania, 18020, United States",
+   "name": "Northampton County Community College, Bethlehem Township, Northampton County, Pennsylvania, 18020, United States",
    "type": "service"
   }
  },
@@ -3967,7 +4073,7 @@
   },
   "osm": {
    "name": "Alewine Pottery, Glades Road, Glade, Gatlinburg, Sevier County, East Tennessee, Tennessee, 37738, United States",
-   "type": "bus_stop"
+   "type": "pottery"
   }
  },
  {
@@ -3988,7 +4094,7 @@
   "loc": {
    "st": "TN",
    "town": "Nashville",
-   "score": 4,
+   "score": 2,
    "found": 1,
    "ld": false
   },
@@ -4547,17 +4653,6 @@
   "osm": null
  },
  {
-  "st": "VA",
-  "id": "clay-cafe",
-  "loc": {
-   "st": "DC",
-   "town": "Washington",
-   "score": 15,
-   "found": 1,
-   "ld": true
-  }
- },
- {
   "st": "VT",
   "id": "luke-iannuzzi-pottery",
   "loc": {
@@ -4615,6 +4710,24 @@
    "st": "VT",
    "town": "Manchester",
    "score": 2,
+   "found": 1,
+   "ld": false
+  },
+  "osm": null
+ },
+ {
+  "st": "VT",
+  "id": "jackie-sedlock-pottery",
+  "loc": null,
+  "osm": null
+ },
+ {
+  "st": "VT",
+  "id": "vermont-crafts-council",
+  "loc": {
+   "st": "VT",
+   "town": "Montpelier",
+   "score": 6,
    "found": 1,
    "ld": false
   },
@@ -4847,6 +4960,36 @@
   "st": "WA",
   "id": "turning-earth",
   "loc": null,
+  "osm": null
+ },
+ {
+  "st": "WA",
+  "id": "dahl-arts-studio",
+  "loc": null,
+  "osm": null
+ },
+ {
+  "st": "WA",
+  "id": "natasha-alphonse",
+  "loc": null,
+  "osm": null
+ },
+ {
+  "st": "WA",
+  "id": "robbie-lobell",
+  "loc": null,
+  "osm": null
+ },
+ {
+  "st": "WA",
+  "id": "stillfire-pottery",
+  "loc": {
+   "st": "WA",
+   "town": "Freeland",
+   "score": 7,
+   "found": 1,
+   "ld": true
+  },
   "osm": null
  },
  {
@@ -5087,6 +5230,18 @@
   "st": "WY",
   "id": "red-bison-studios",
   "loc": null,
+  "osm": null
+ },
+ {
+  "st": "WY",
+  "id": "official-website",
+  "loc": {
+   "st": "WY",
+   "town": "Gillette",
+   "score": 2,
+   "found": 1,
+   "ld": false
+  },
   "osm": null
  }
 ]

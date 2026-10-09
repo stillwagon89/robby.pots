@@ -5530,5 +5530,82 @@
       "reason": "OSM seed: no firing words on its pages",
       "auto": true
     }
+  },
+  "annamaspottery.com": {
+    "key": "annamaspottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:thepottersguild.com",
+        "url": "https://annamaspottery.com/",
+        "title": "Anna Masciantonio Pottery",
+        "snippet": "Listed on thepottersguild.com: Anna Masciantonio Pottery"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Anna Masciantonio Pottery",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "tebbensclay.com": {
+    "key": "tebbensclay.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:thepottersguild.com",
+        "url": "http://www.tebbensclay.com/",
+        "title": "www.tebbensclay.com",
+        "snippet": "Listed on thepottersguild.com: www.tebbensclay.com"
+      }
+    ],
+    "pages": {
+      "http://www.tebbensclay.com/": ""
+    },
+    "osm": {
+      "name": "www.tebbensclay.com",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "mozilla.org": {
+    "key": "mozilla.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:ohio.gov",
+        "url": "https://www.mozilla.org/",
+        "title": "Mozilla&nbsp;Firefox",
+        "snippet": "Listed on ohio.gov: Mozilla&nbsp;Firefox"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Mozilla&nbsp;Firefox",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
   }
 }

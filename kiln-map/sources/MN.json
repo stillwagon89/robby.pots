@@ -107,7 +107,7 @@
         "town": "Warroad",
         "score": 14,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -168,7 +168,7 @@
         "town": "Buffalo",
         "score": 2,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -237,7 +237,7 @@
         "town": "Shore Drive Wayzata",
         "score": 2,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       }
     },
     {
@@ -294,7 +294,7 @@
         "town": "Grand Marais",
         "score": 11,
         "osm": true,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       }
     },
     {
@@ -352,7 +352,7 @@
       "lng": -93.26547,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -414,7 +414,7 @@
       "lng": -93.26547,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "weak": true,
       "agree": {
@@ -422,6 +422,48 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "ceramicsow",
+      "org": "ceramicsow",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Minnesota",
+      "city": null,
+      "urls": [
+        "https://www.ceramicsow.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.ceramicsow.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "ceramicsow.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "The site mentions classes with firing fees and a woodfire clay option, but does not explicitly state whether non-students or outsiders can enroll in classes or access any firings.",
+        "types": {},
+        "state": "MN",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
       }
     }
   ],

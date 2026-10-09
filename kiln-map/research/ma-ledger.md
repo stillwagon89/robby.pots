@@ -1,4 +1,4 @@
-# Massachusetts firings ledger (2026-10-08, discovery v3, automatic)
+# Massachusetts firings ledger (2026-10-09, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -21,12 +21,14 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 14 | Kiln Cambridge | Cambridge | gas_reduction | Classes or membership | kilncambridge.com |
 | 15 | The local fire Arts center | ? | raku, gas_reduction | See site | community.ceramicartsdaily.org |
 | 16 | Worcester Center for Crafts | Worcester | raku, gas_reduction | Classes or membership | worcestercraftcenter.org |
-| 17 | The Clay Pot Pottery | ? | raku | Dated workshop or firing event | theclaypotpottery.com |
-| 18 | Lois Hirshberg | ? | raku, pit_barrel_saggar | Classes or membership | potterybylois.com |
-| 19 | Northampton Pottery | Northampton | pit_barrel_saggar | Dated workshop or firing event | gokidoz.com |
-| 20 | Sunset Canyon Pottery | ? | gas_reduction | See site | sunsetcanyonpottery.com |
-| 21 | Joyous Spring Pottery | Monterey | wood | See site | blogfinger.net |
-| 22 | Gustin Ceramics | ? | wood | Classes or membership | gustinceramics.com |
-| 23 | Gustin's | Dartmouth | wood | Classes or membership | dartmouth.theweektoday.com |
-| 24 | Tabor Academy | ? | gas_reduction, wood | Classes or membership | taboracademy.org, info.taboracademy.org |
-| 25 | Middlesex Community College | Lowell | wood | Classes or membership | middlesex.edu |
+| 17 | Lois Hirshberg | ? | raku, pit_barrel_saggar | Classes or membership | potterybylois.com |
+| 18 | Northampton Pottery | Northampton | pit_barrel_saggar | Dated workshop or firing event | gokidoz.com |
+| 19 | Sunset Canyon Pottery | ? | gas_reduction | See site | sunsetcanyonpottery.com |
+| 20 | Joyous Spring Pottery | Monterey | wood | See site | blogfinger.net |
+| 21 | Gustin Ceramics | ? | wood | Classes or membership | gustinceramics.com |
+| 22 | Gustin's | Dartmouth | wood | Classes or membership | dartmouth.theweektoday.com |
+| 23 | Tabor Academy | ? | gas_reduction, wood | Classes or membership | taboracademy.org, info.taboracademy.org |
+| 24 | Middlesex Community College | Lowell | wood | Classes or membership | middlesex.edu |
+| 25 | Shachi Shah | ? | wood, salt, gas_reduction | See site | shachishah.studio |
+| 26 | Tom White | ? | wood, soda | See site | tomwhitepottery.com |
+| 27 | Sam Taylor | ? | wood, salt | See site | dogbarpottery.com |

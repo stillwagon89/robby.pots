@@ -902,16 +902,27 @@
         "url": "https://www.terraceclaystudio.com/",
         "title": "Terrace Clay Studio",
         "snippet": "Members based Pottery/Ceramic Arts Studio with classes and services for pottery artists in Charleston, SC"
+      },
+      {
+        "q": "dir:kilnfire.com",
+        "url": "https://www.terraceclaystudio.com/",
+        "title": "Website",
+        "snippet": "Listed on kilnfire.com: Website"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "Website",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "hollowedearthpottery.com": {
     "key": "hollowedearthpottery.com",
@@ -2182,10 +2193,15 @@
         "url": "https://www.irisstonepottery.com/membership",
         "title": "Services | Iris & Stone Pottery Studio",
         "snippet": "Pottery and art classes near Charleston, SC. Iris & Stone Pottery Studio in Summerville offers ceramics classes, memberships, kiln firing, and workshops."
+      },
+      {
+        "q": "dir:kilnfire.com",
+        "url": "https://www.irisstonepottery.com/",
+        "title": "Website",
+        "snippet": "Listed on kilnfire.com: Website"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Iris & Stone Pottery Studio",
       "city": "Summerville",
@@ -2203,7 +2219,13 @@
       "secs": 7,
       "state_on_page": true,
       "supported_types": []
-    }
+    },
+    "osm": {
+      "name": "Website",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "charlestonmag.com": {
     "key": "charlestonmag.com",
@@ -2401,10 +2423,15 @@
         "url": "https://www.claycottageandartstudio.com/adult-classes",
         "title": "Adult Classes | main",
         "snippet": "Adult Classes: Information Our adult classes meet once a week for 8 weeks, providing a fun and supportive environment to learn the art of pottery. Tuition: $375 Supply Fee: $60* (includes one bag of clay, glazes, studio supplies, and kiln firing) *If you choose to pay a deposit, your $60 covers the supply fee."
+      },
+      {
+        "q": "dir:kilnfire.com",
+        "url": "https://www.claycottageandartstudio.com/",
+        "title": "Website",
+        "snippet": "Listed on kilnfire.com: Website"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "claycottageandartstudio.com",
       "city": "",
@@ -2426,7 +2453,13 @@
       "quote_verified": false,
       "secs": 7,
       "state_on_page": false
-    }
+    },
+    "osm": {
+      "name": "Website",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "communitypottery.org": {
     "key": "communitypottery.org",
@@ -2997,16 +3030,27 @@
         "url": "https://stateoftheartsc.com/",
         "title": "SOTA – State of the Art | Gallery & Pottery Studio",
         "snippet": "SOTA’s pottery classes are conveniently located for residents of the Lexington, Columbia, and surrounding areas. Part gallery, part artisanal shop, part pottery studio, State of the Art is a place that proudly displays creative works from South Carolina in a way that is casual, friendly, and relatable. The common-man’s art gallery. Art for all."
+      },
+      {
+        "q": "dir:sciway.net",
+        "url": "https://stateoftheartsc.com/",
+        "title": "stateoftheartsc.com",
+        "snippet": "Listed on sciway.net: "
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "decision": "reject",
       "reason": "no firing words on any page",
       "auto": true,
       "state_on_page": true
-    }
+    },
+    "osm": {
+      "name": "stateoftheartsc.com",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "parksandrec.columbiasc.gov": {
     "key": "parksandrec.columbiasc.gov",
@@ -4242,10 +4286,15 @@
         "url": "https://www.hiltonheadpottery.com/",
         "title": "Hilton Head Pottery",
         "snippet": "Hilton Head Pottery is a working pottery studio located on Hilton Head Island offering pottery classes and workshop's on raku and alternative firing methods."
+      },
+      {
+        "q": "dir:kilnfire.com",
+        "url": "https://www.hiltonheadpottery.com/",
+        "title": "Website",
+        "snippet": "Listed on kilnfire.com: Website"
       }
     ],
     "pages": {},
-    "fetched": true,
     "judged": {
       "name": "Hilton Head Pottery",
       "city": "",
@@ -4270,7 +4319,13 @@
       "supported_types": [
         "raku"
       ]
-    }
+    },
+    "osm": {
+      "name": "Website",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true
   },
   "davensceramiccenter.com": {
     "key": "davensceramiccenter.com",
@@ -4981,6 +5036,110 @@
       "name": "No. 3 Pottery",
       "city": "Simpsonville",
       "state": "SC"
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "hartworksstoneware.com": {
+    "key": "hartworksstoneware.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:sciway.net",
+        "url": "https://www.hartworksstoneware.com/",
+        "title": "hArtworks Stoneware",
+        "snippet": "Listed on sciway.net: hArtworks Stoneware"
+      }
+    ],
+    "pages": {
+      "https://www.hartworksstoneware.com/": ""
+    },
+    "osm": {
+      "name": "hArtworks Stoneware",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "scpictureproject.org": {
+    "key": "scpictureproject.org",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:sciway.net",
+        "url": "https://scpictureproject.org/",
+        "title": "Old Edgefield Pottery",
+        "snippet": "Listed on sciway.net: Old Edgefield Pottery"
+      }
+    ],
+    "pages": {
+      "https://scpictureproject.org/": ""
+    },
+    "osm": {
+      "name": "Old Edgefield Pottery",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "pluffmudpottery.com": {
+    "key": "pluffmudpottery.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:kilnfire.com",
+        "url": "https://www.pluffmudpottery.com/",
+        "title": "Website",
+        "snippet": "Listed on kilnfire.com: Website"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Website",
+      "city": "",
+      "state": ""
+    },
+    "fetched": true,
+    "judged": {
+      "decision": "reject",
+      "reason": "OSM seed: no firing words on its pages",
+      "auto": true
+    }
+  },
+  "studiounionchs.com": {
+    "key": "studiounionchs.com",
+    "social": false,
+    "known": null,
+    "hits": [
+      {
+        "q": "dir:kilnfire.com",
+        "url": "https://www.studiounionchs.com/",
+        "title": "Website",
+        "snippet": "Listed on kilnfire.com: Website"
+      }
+    ],
+    "pages": {},
+    "osm": {
+      "name": "Website",
+      "city": "",
+      "state": ""
     },
     "fetched": true,
     "judged": {

@@ -82,7 +82,7 @@
         "town": "HONOLULU",
         "score": 6,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -145,7 +145,7 @@
       "lng": -157.85568,
       "located": {
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       }
     },
     {
@@ -202,13 +202,55 @@
         "town": "Colburn Street Honolulu",
         "score": 6,
         "osm": false,
-        "date": "2026-10-08"
+        "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
+      }
+    },
+    {
+      "id": "windward-artists-guild",
+      "org": "Windward Artists Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Honolulu",
+      "city": "Honolulu",
+      "urls": [
+        "https://windwardartistsguild.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Honolulu, Hawaii",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://windwardartistsguild.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "windwardartistsguild.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "page says state is HI, not ND",
+        "types": {},
+        "state": "HI",
+        "town": "Honolulu"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
       }
     }
   ],

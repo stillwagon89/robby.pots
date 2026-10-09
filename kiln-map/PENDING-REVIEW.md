@@ -1,6 +1,6 @@
-# Places pending review (551; 314 flagged weak)
+# Places pending review (572; 332 flagged weak)
 
-Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a firing type. Reply with names to reject.
+Generated 2026-10-09. "Weak" = the second check was unsure or could not quote a firing type. Reply with names to reject.
 
 ## AK (5)
 
@@ -50,7 +50,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Rhonda Davis | Flagstaff | raku | WEAK | potteryteachers.com |
 | Laima Ceramics | ? | raku | WEAK | laimaceramics.com |
 
-## CA (31)
+## CA (33)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
@@ -85,6 +85,8 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Clay Creations | Pacifica | soda, raku | verified | claycreationspacifica.com |
 | Common Clay Space | Creek Blvd Cupertino | wood | verified | commonclayspace.com |
 | AMOCA Ceramics Studio | Pomona | salt, soda | verified | events.humanitix.com |
+| Turning Earth | Los Angeles | gas_reduction, raku | WEAK | turningearth.org |
+| San Diego Potters&#8217; Guild | San Diego | gas_reduction | WEAK | sandiegopottersguild.org |
 
 ## CO (20)
 
@@ -136,7 +138,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Rachel Lindsay Pottery | ? | raku | WEAK | rachellindsaypottery.com |
 | THE DISTRICT CLAY CENTER | Washington | raku, gas_reduction | WEAK | handthrown.studio |
 | Joe Hicks Ceramics | Washington | gas_reduction | WEAK | joehicksceramics.com |
-| Clay Café | Washington | raku | WEAK | notboredindc.com |
+| Clay Café | Washington | raku | verified | notboredindc.com |
 
 ## DE (4)
 
@@ -179,7 +181,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | josephy | ? | raku | WEAK | josephy.org |
 | Luke Iannuzzi Pottery | ? | raku | WEAK | lukeiannuzzipottery.com |
 
-## GA (8)
+## GA (9)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
@@ -191,14 +193,16 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Corranny Forest Pottery | Roslea | raku | WEAK | corrannyforestpottery.com |
 | Oxcombe Pottery | ? | raku | WEAK | oxcombepottery.co.uk |
 | MudFire Pottery Studio and Gallery | Atlanta | raku, soda | verified | mudfire.com |
+| Macon Arts Alliance | St. Macon | wood | WEAK | maconartsalliance.org |
 
-## HI (3)
+## HI (4)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
 | Hawai'i Craftsmen | HONOLULU | raku | WEAK | hawaiicraftsmen.org |
 | Hawaii Ceramic Supply | Honolulu | raku | verified | hawaiiceramicsupply.com |
 | nendo studio hawaii | Colburn Street Honolulu | raku, wood | WEAK | nendostudiohawaii.com |
+| Windward Artists Guild | Honolulu | raku | WEAK | windwardartistsguild.org |
 
 ## IA (8)
 
@@ -272,7 +276,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | ryandurbinceramics | Northern | soda | verified | ryandurbinceramics.com |
 | KJones Pottery | ? | raku | WEAK | kjonespottery.com |
 | Warehome Studios | ? | raku | WEAK | warehomestudios.com |
-| alexadamsclaywork | Louisiville | raku | WEAK | alexadamsclaywork.com |
+| AA Clay - Ceramics Studio | Louisiville | raku | WEAK | alexadamsclaywork.com |
 
 ## LA (3)
 
@@ -282,7 +286,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | nclac | Ruston | raku | WEAK | nclac.org |
 | Laima Ceramics | ? | raku | WEAK | laimaceramics.squarespace.com |
 
-## MA (20)
+## MA (23)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
@@ -305,6 +309,9 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Lois Hirshberg | East Sandwich | raku, pit_barrel_saggar | WEAK | potterybylois.com |
 | Sunset Canyon Pottery | ? | gas_reduction | WEAK | sunsetcanyonpottery.com |
 | Gustin's | Grove Street Middleboro | wood | WEAK | dartmouth.theweektoday.com |
+| Shachi Shah | ? | wood, salt, gas_reduction | WEAK | shachishah.studio |
+| Tom White | Northfield | soda | WEAK | tomwhitepottery.com |
+| Sam Taylor | ? | wood, salt | WEAK | dogbarpottery.com |
 | Cotuit Center for the Arts | Cotuit | pit_barrel_saggar | verified | cotuit.org |
 
 ## MD (10)
@@ -322,7 +329,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | VisArts | Rockville | raku | verified | visartscenter.org |
 | Kilnjoy Ceramics | Smithsburg | raku, wood, soda, pit_barrel_saggar, gas_reduction | verified | kilnjoy.com |
 
-## ME (8)
+## ME (10)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
@@ -334,6 +341,8 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Work in Progress | Lisbon | raku | WEAK | workinprogress.me |
 | Maine Crafts Association | Rd West Gardiner | soda | verified | mainecrafts.org |
 | Tyler Gulden Ceramics | Walpole | gas_reduction, wood | verified | tylergulden.com |
+| Castine Arts Association | Castine | raku | WEAK | castinearts.org |
+| Southern Maine Clay Guild | ? | soda, pit_barrel_saggar | verified | southernmaineclayguild.com |
 
 ## MI (11)
 
@@ -351,7 +360,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Clawson Clay Guild | Rochester Rd. Clawson | raku | WEAK | clawsonclayguild.com |
 | Ann Arbor Potters Guild | Ann Arbor | raku | WEAK | aadl.org |
 
-## MN (6)
+## MN (7)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
@@ -361,6 +370,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | North House Folk School | Grand Marais | raku | verified | northhouse.org |
 | The Workshop Mpls | Minneapolis | soda, gas_reduction | WEAK | the-workshop-mpls.square.site |
 | NEMAA | Minneapolis | raku, soda | WEAK | nemaa.org |
+| ceramicsow | ? | wood | WEAK | ceramicsow.com |
 
 ## MO (8)
 
@@ -397,7 +407,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Jerry Baldwin Ceramics | Arlee | wood | WEAK | jerrybaldwinceramics.com |
 | MonDak Heritage Center | Sidney | raku | verified | roundupweb.com |
 
-## NC (24)
+## NC (25)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
@@ -425,8 +435,9 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Joseph Sand Pottery | ? | salt | WEAK | josephsandpottery.com |
 | Jackson County Green Energy Park | Park Rd. Sylva | soda | verified | jcgep.org |
 | VR Pottery OBX | Nags Head | raku | WEAK | vrpotteryobx.com |
+| Village Pottery Marketplace of Seagrove | Seagrove | raku, wood | WEAK | seagrovevillagepottery.com |
 
-## ND (4)
+## ND (5)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
@@ -434,6 +445,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | North Dakota State University | Fargo | wood | WEAK | inforum.com |
 | Bismarck State College | Bismarck | raku | WEAK | bismarckstate.edu |
 | MSU Lifelong Learning Institute | Misu | raku | WEAK | misu.nodak.edu |
+| Woodland Weavers &amp; Spinners Guild | ? | raku | WEAK | wwas.info |
 
 ## NE (5)
 
@@ -455,7 +467,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | The Wheel House | Portsmouth | raku | verified | thewheelhousenh.com |
 | timisaacpottery | ? | raku | WEAK | timisaacpottery.com |
 
-## NJ (10)
+## NJ (11)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
@@ -469,6 +481,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Toshiko Takaezu Ceramic Studios | Clinton | pit_barrel_saggar | verified | hunterdonartmuseum.org |
 | BISC Pottery Studio | Scotch Plains | raku | WEAK | biscpotterystudio.com |
 | The Clay Pot Pottery | Main Street Spotswood | raku | verified | theclaypotpottery.com |
+| Potters&#8217; Guild of New Jersey | Union | raku, soda, pit_barrel_saggar | WEAK | pottersguildnj.org |
 
 ## NM (7)
 
@@ -567,7 +580,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Willamette Art Center | Salem | pit_barrel_saggar | verified | willametteartcenter.com |
 | Wildling Collaborative Arts | Eugene | pit_barrel_saggar | WEAK | whitesnakearts.com |
 | Clay Space | Eugene | raku | verified | clayspaceeugene.org |
-| Calapooia Clay | Ave Albany | raku, pit_barrel_saggar | WEAK | calapooiaclay.com |
+| Calapooia Clay | Albany | raku, pit_barrel_saggar | WEAK | calapooiaclay.com |
 | Synergy Ceramics | Bend | raku | WEAK | synergyceramicsbend.com |
 | Oregon Coast School of Art | High Street Gardiner | raku | verified | oregoncoastschoolofart.org |
 | jominceramic | Portland | soda | WEAK | jominceramic.com |
@@ -580,7 +593,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Wildcraft Studios | Portland | wood | WEAK | wildcraftstudioschool.com |
 | Club Mud Ceramics Cooperative | Eugene | raku | WEAK | mkartcenter.org |
 | East Creek Art Camp | Portland | wood | WEAK | orartswatch.org |
-| Portland Parks | Portland | raku | WEAK | apm.activecommunities.com/portlandparks/Activity_Search/ceramics---raku-workshop-9-3/199906?locale=en-US |
+| Portland Parks | Portland | raku | verified | apm.activecommunities.com/portlandparks/Activity_Search/ceramics---raku-workshop-9-3/199906?locale=en-US |
 | East Creek Anagama | ? | wood | verified | craftcouncil.org |
 | Anderson Ranch Art Center | ? | raku, wood, soda | WEAK | theresidencyreview.com |
 
@@ -623,7 +636,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | ri-creations | Bacchus Marsh | raku, pit_barrel_saggar | WEAK | ri-creations.com |
 | riblogger | ? | pit_barrel_saggar | verified | riblogger.com |
 
-## SC (6)
+## SC (7)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
@@ -633,6 +646,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Hernando Arts | ? | pit_barrel_saggar | WEAK | hernandoarts.org |
 | Hilton Head Pottery | Hilton Head Island | raku | WEAK | hiltonheadpottery.com |
 | Clemson Art Department | Clemson | wood | WEAK | clemson.world |
+| South Carolina Arts Commission | Columbia | raku | WEAK | southcarolinaarts.com |
 
 ## SD (2)
 
@@ -726,7 +740,7 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Dharamkot Studio | ? | raku | WEAK | dharamkotstudio.com |
 | Bradley B Pottery | Manassas | soda | verified | bradleybirkhimer.com |
 
-## VT (7)
+## VT (9)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
@@ -737,8 +751,10 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Orchard Street Pottery | Brattleboro | wood | WEAK | walterslowinskipottery.weebly.com |
 | Middlebury Studio School | MIDDLEBURY | raku | verified | middleburystudioschool.corsizio.com |
 | Jackie Sedlock Pottery | Manchester | wood | verified | manchesterjournal.com |
+| Jackie Sedlock Pottery | ? | wood | WEAK | jackiesedlock.com |
+| Vermont Crafts Council | Montpelier | raku, wood, soda | WEAK | vermontcrafts.com |
 
-## WA (23)
+## WA (27)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
@@ -765,6 +781,10 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Seatown Pottery | Seattle | raku | verified | seatownpottery.com |
 | Jansen Art Center | Lynden | raku | WEAK | jansenartcenter.org |
 | Turning Earth | London | gas_reduction, raku | WEAK | turningearth.org |
+| Dahl Arts Studio | ? | raku | WEAK | dahlartsstudio.com |
+| Natasha Alphonse | ? | gas_reduction | WEAK | alphonsestudio.com |
+| Robbie Lobell | ? | soda | WEAK | cookonclay.com |
+| Stillfire Pottery | Freeland | raku, gas_reduction | WEAK | stillfirepottery.com |
 
 ## WI (18)
 
@@ -800,10 +820,11 @@ Generated 2026-10-08. "Weak" = the second check was unsure or could not quote a 
 | Parkersburg Art Center / The Clay Studio | Parkersburg | raku | WEAK | wtap.com |
 | The Potters Guild | ? | wood | WEAK | thepottersguild.com |
 
-## WY (3)
+## WY (4)
 
 | Place | Town | Firing (quoted) | Check | Site |
 |---|---|---|---|---|
 | Peter Callas | ? | wood | WEAK | petercallas.com |
 | Laramie County Community College | Cheyenne | raku | verified | lccc.coursestorm.com |
 | Red Bison Studios | Sheridan | wood | WEAK | sheridanwyoming.com |
+| Official website ↗ | Gillette | raku, pit_barrel_saggar | WEAK | avacenter.org |
