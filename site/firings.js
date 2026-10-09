@@ -241,7 +241,9 @@ function sendFlag(btn) {
   const o = p?.opportunities.find((x) => x.id === id);
   const box = btn.closest(".kf-ai");
   const payload = {
-    place_id: placeId, listing_id: o ? id : "", place_name: p?.org || "", title: o?.title || "",
+    place_id: placeId, listing_id: o ? id : "", place_name: p?.org || "", place_where: [p?.city, p?.state].filter(Boolean).join(", "),
+    title: o?.title || "", listing_when: o ? fmtDates(o) : "", firing_type: o?.firing_type || "",
+    view_url: `${location.origin}${location.pathname}?sel=${encodeURIComponent(o ? id : placeId)}`,
     section: box?.querySelector(".kf-ai-head")?.textContent?.trim() || "",
     shown_text: (box?.querySelector(".kf-ai-body, .kf-quote")?.textContent || "").trim(),
     page_url: location.href, source_url: box?.querySelector("a[href^=http]")?.href || "",

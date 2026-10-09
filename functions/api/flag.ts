@@ -22,6 +22,10 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     place_id: clip(b.place_id, 120),
     listing_id: clip(b.listing_id, 120),
     place_name: clip(b.place_name, 200),
+    place_where: clip(b.place_where, 120),
+    listing_when: clip(b.listing_when, 120),
+    firing_type: clip(b.firing_type, 40),
+    view_url: clip(b.view_url, 400),
     title: clip(b.title, 300),
     section: clip(b.section, 120),
     shown_text: clip(b.shown_text, 600),
@@ -44,9 +48,14 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   try { await env.GALLERY_CACHE.put(key, JSON.stringify(flag), { expirationTtl: 2 * 365 * 24 * 60 * 60 }); } catch (e) { console.error("flag store failed", e); }
 
   if (env.RESEND_API_KEY) {
-    const lines = [`Listing flagged as wrong`, ``, `Place: ${flag.place_name} (${flag.place_id})`, flag.listing_id && `Listing: ${flag.title} (${flag.listing_id})`, flag.section && `Section: ${flag.section}`, flag.shown_text && `Shown: ${flag.shown_text}`, `Page: ${flag.page_url}`, flag.source_url && `Source: ${flag.source_url}`, `When: ${flag.at}`].filter(Boolean).join("\n");
+    const what = flag.listing_id ? `LISTING: ${flag.title}${flag.listing_when ? ` (${flag.listing_when})` : ""}${flag.firing_type ? `, ${flag.firing_type}` : ""}` : "PLACE (the place itself, not one of its dated listings)";
+    const lines = [
+      `Someone flagged this as wrong:`, ``, what, `AT: ${flag.place_name}${flag.place_where ? `, ${flag.place_where}` : ""}`, ``,
+      `WHICH PART: ${flag.section || "the listing card"}`, flag.shown_text && `TEXT SHOWN: "${flag.shown_text}"`, flag.source_url && `SOURCE LINK SHOWN: ${flag.source_url}`, ``,
+      `OPEN IT: ${flag.view_url || flag.page_url}`, `IDs: place=${flag.place_id}${flag.listing_id ? ` listing=${flag.listing_id}` : ""}`, `When: ${flag.at}`,
+    ].filter((x) => x !== undefined && x !== false).join("\n");
     try {
-      await fetch("https://api.resend.com/emails", { method: "POST", headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" }, body: JSON.stringify({ to: NOTIFY_TO, from: `Kiln Locator <${FROM_ADDRESS}>`, subject: `Flagged: ${flag.place_name || flag.title}`, text: lines }) });
+      await fetch("https://api.resend.com/emails", { method: "POST", headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" }, body: JSON.stringify({ to: NOTIFY_TO, from: `Kiln Locator <${FROM_ADDRESS}>`, subject: `Flagged: ${flag.place_name}${flag.title ? ` / ${flag.title}` : " (place)"}`, text: lines }) });
     } catch { /* the flag is already saved */ }
   }
   return json({ ok: true, noted: true }, 200);

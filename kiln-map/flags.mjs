@@ -10,6 +10,6 @@ const wr = (...a) => execFileSync("npx", ["wrangler@4", "kv", "key", ...a, "--na
 const keys = JSON.parse(wr("list", "--prefix", "flag:")).map((k) => k.name).sort().reverse();
 const rows = keys.map((k) => { try { return JSON.parse(wr("get", k)); } catch { return null; } }).filter(Boolean);
 let out = `# Flagged listings (${rows.length})\n\nFlags never remove anything. Newest first. Generated ${new Date().toISOString()}.\n`;
-for (const f of rows) out += `\n- **${f.at.slice(0, 16).replace("T", " ")} UTC** ${f.place_name || f.place_id}${f.title ? ` / ${f.title}` : ""}\n  Section: ${f.section || "(place)"}; shown: "${(f.shown_text || "").slice(0, 200)}"\n  Source: ${f.source_url || "-"}; page: ${f.page_url}\n`;
+for (const f of rows) out += `\n- **${f.at.slice(0, 16).replace("T", " ")} UTC** ${f.listing_id ? `LISTING "${f.title}"${f.listing_when ? ` (${f.listing_when})` : ""} at` : "PLACE"} ${f.place_name || f.place_id}${f.place_where ? `, ${f.place_where}` : ""}\n  Part flagged: ${f.section || "(card)"}; text shown: "${(f.shown_text || "").slice(0, 200)}"\n  Open: ${f.view_url || f.page_url}; source: ${f.source_url || "-"}; ids: ${f.place_id}${f.listing_id ? "/" + f.listing_id : ""}\n`;
 fs.writeFileSync(path.join(KM, "FLAGS.md"), out);
 console.log(`${rows.length} flags written to kiln-map/FLAGS.md`);
