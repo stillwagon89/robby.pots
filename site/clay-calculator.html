@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>How Much Clay? — Flaming Clay</title>
+  <meta name="description" content="Pick a form, set the finished size, choose your clay body, and see how much clay to weigh out.">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@variable&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=dev">
+  <style>
+    .cc-wrap { display: grid; gap: var(--space-xl); }
+    .cc-forms { display: grid; grid-template-columns: repeat(auto-fill, minmax(116px, 1fr)); gap: var(--space-sm); }
+    .cc-form {
+      display: flex; flex-direction: column; align-items: center; gap: 2px;
+      padding: var(--space-sm) var(--space-xs) var(--space-sm);
+      background: var(--paper); border: 1px solid var(--border); border-radius: var(--radius-md);
+      font: 500 13px var(--font-body); color: var(--cobalt-deep); cursor: pointer;
+      transition: border-color .15s, background .15s, transform .15s;
+    }
+    .cc-form:hover { border-color: var(--cobalt-mid); transform: translateY(-1px); }
+    .cc-form[aria-pressed="true"] { border-color: var(--cobalt); background: #fff; box-shadow: 0 0 0 2px var(--cobalt) inset; }
+    .cc-form svg { width: 100%; height: 76px; }
+    .cc-form small { font: 400 11px var(--font-mono); color: var(--cobalt-muted); }
+
+    .cc-main { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, 1fr); gap: var(--space-xl); align-items: start; }
+    .cc-stage {
+      position: sticky; top: var(--space-md);
+      background: var(--paper); border: 1px solid var(--border); border-radius: var(--radius-lg);
+      padding: var(--space-md);
+    }
+    .cc-stage svg { width: 100%; height: auto; display: block; }
+    .cc-stage-title { display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-md); margin-bottom: var(--space-sm); }
+    .cc-stage-title h2 { font: 700 22px var(--font-display); color: var(--cobalt-ink); margin: 0; }
+    .cc-stage-title span { font: 400 12px var(--font-mono); color: var(--cobalt-muted); text-align: right; }
+
+    .cc-panel { display: grid; gap: var(--space-lg); }
+    .cc-block h3 { font: 500 11px var(--font-mono); letter-spacing: .16em; text-transform: uppercase; color: var(--cobalt-muted); margin: 0 0 var(--space-sm); }
+    .cc-seg { display: inline-flex; border: 1px solid var(--border); border-radius: var(--radius-full); overflow: hidden; }
+    .cc-seg button { border: 0; background: #fff; padding: 6px 14px; font: 500 13px var(--font-body); color: var(--cobalt); cursor: pointer; }
+    .cc-seg button[aria-pressed="true"] { background: var(--cobalt); color: #fff; }
+    .cc-row { display: flex; gap: var(--space-md); flex-wrap: wrap; align-items: center; }
+
+    .cc-slider { display: grid; grid-template-columns: 1fr auto; gap: 2px var(--space-md); margin-bottom: var(--space-md); }
+    .cc-slider label { font: 500 14px var(--font-body); color: var(--cobalt-deep); }
+    .cc-slider output { font: 500 14px var(--font-mono); color: var(--cobalt-ink); }
+    .cc-slider input { grid-column: 1 / -1; width: 100%; accent-color: var(--cobalt); }
+    .cc-slider small { grid-column: 1 / -1; color: var(--cobalt-muted); font-size: 12px; }
+
+    .cc-clays { display: grid; gap: var(--space-xs); }
+    .cc-clay {
+      display: grid; grid-template-columns: 22px 1fr auto; align-items: center; gap: var(--space-sm);
+      padding: 8px 10px; background: #fff; border: 1px solid var(--border); border-radius: var(--radius-md);
+      font: 500 14px var(--font-body); color: var(--cobalt-deep); text-align: left; cursor: pointer;
+    }
+    .cc-clay[aria-pressed="true"] { border-color: var(--cobalt); box-shadow: 0 0 0 1px var(--cobalt) inset; }
+    .cc-clay i { width: 20px; height: 20px; border-radius: 50%; border: 1px solid rgba(14,23,48,.25); }
+    .cc-clay small { font: 400 11px var(--font-mono); color: var(--cobalt-muted); text-align: right; }
+
+    .cc-result { background: var(--cobalt-ink); color: #fff; border-radius: var(--radius-lg); padding: var(--space-lg); }
+    .cc-result .cc-eyebrow { font: 500 11px var(--font-mono); letter-spacing: .16em; text-transform: uppercase; color: var(--cobalt-mid); }
+    .cc-big { font: 700 48px/1.05 var(--font-display); margin: 4px 0 2px; }
+    .cc-alt { font: 400 14px var(--font-mono); color: var(--cobalt-mid); }
+    .cc-facts { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-md); margin-top: var(--space-lg); padding-top: var(--space-md); border-top: 1px solid rgba(255,255,255,.18); }
+    .cc-facts dt { font: 400 12px var(--font-body); color: var(--cobalt-mid); }
+    .cc-facts dd { margin: 0; font: 500 16px var(--font-body); }
+    .cc-note { font-size: 13px; color: var(--cobalt-muted); line-height: 1.5; }
+
+    .cc-qty { display: inline-flex; align-items: center; gap: var(--space-sm); }
+    .cc-qty button { width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border); background: #fff; font-size: 18px; color: var(--cobalt); cursor: pointer; }
+    .cc-qty output { min-width: 28px; text-align: center; font: 500 16px var(--font-mono); }
+    .cc-draft { display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: 99px; background: var(--warning); color: #fff; font: 500 11px var(--font-mono); letter-spacing: .1em; vertical-align: middle; }
+
+    @media (max-width: 880px) {
+      .cc-main { grid-template-columns: 1fr; }
+      .cc-stage { position: static; }
+      .cc-big { font-size: 40px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container page-shell">
+    <aside class="sidebar">
+      <a href="index.html" class="wordmark-lockup" aria-label="Flaming Clay — home">
+        <span class="wordmark-line">FLAMING</span>
+        <span class="wordmark-line">CLAY<img src="assets/flame-mark.png" alt="" class="flame-mark"></span>
+      </a>
+      <nav class="site-nav-v3">
+        <a href="gallery.html">Shop</a>
+        <a href="folsom.html">Folsom<span class="nav-long"> Collection</span></a>
+        <a href="tools.html" class="active">Potter's Toolkit</a>
+        <a href="contact.html">Contact</a>
+        <a href="bio.html">Bio</a>
+      </nav>
+    </aside>
+
+    <main class="page-content">
+      <header class="kf-header">
+        <p class="kf-eyebrow">Potter's Toolkit <span class="cc-draft">DRAFT</span></p>
+        <h1>How Much Clay?</h1>
+        <p class="kf-sub">Pick a form, dial in the finished size, choose your clay body. See the piece drawn to scale next to the ball of clay you'll need to weigh out.</p>
+      </header>
+
+      <div class="cc-wrap">
+        <section aria-label="Choose a form">
+          <div class="cc-forms" id="forms"></div>
+        </section>
+
+        <div class="cc-main">
+          <div class="cc-stage">
+            <div class="cc-stage-title"><h2 id="stage-name"></h2><span id="stage-sub"></span></div>
+            <svg id="stage" viewBox="0 0 640 420" role="img" aria-labelledby="stage-name"></svg>
+          </div>
+
+          <div class="cc-panel">
+            <div class="cc-block">
+              <h3>Units</h3>
+              <div class="cc-seg" id="units" role="group" aria-label="Units">
+                <button data-u="cm" aria-pressed="true">Centimeters</button>
+                <button data-u="in" aria-pressed="false">Inches</button>
+              </div>
+            </div>
+
+            <div class="cc-block">
+              <h3>Finished size (after firing)</h3>
+              <div id="sliders"></div>
+            </div>
+
+            <div class="cc-block">
+              <h3>Clay body</h3>
+              <div class="cc-clays" id="clays"></div>
+            </div>
+
+            <div class="cc-block">
+              <h3>How you'll make it</h3>
+              <div class="cc-row">
+                <div class="cc-seg" id="tech" role="group" aria-label="Making method">
+                  <button data-t="wheel" aria-pressed="true">Wheel</button>
+                  <button data-t="hand" aria-pressed="false">Handbuilt</button>
+                </div>
+                <div class="cc-qty" role="group" aria-label="Number of pieces">
+                  <button id="qminus" aria-label="Fewer pieces">&minus;</button>
+                  <output id="qty">1</output>
+                  <button id="qplus" aria-label="More pieces">+</button>
+                  <span class="cc-note">pieces</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="cc-result" aria-live="polite">
+              <div class="cc-eyebrow">Weigh out per piece</div>
+              <div class="cc-big" id="r-big"></div>
+              <div class="cc-alt" id="r-alt"></div>
+              <dl class="cc-facts">
+                <div><dt>Throw / build it at (wet)</dt><dd id="r-wet"></dd></div>
+                <div><dt>Finished piece weighs about</dt><dd id="r-fin"></dd></div>
+                <div><dt id="r-tot-label">Total for pieces</dt><dd id="r-tot"></dd></div>
+                <div><dt>That is</dt><dd id="r-box"></dd></div>
+              </dl>
+            </div>
+            <p class="cc-note" id="r-note"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+<script>
+(() => {
+  'use strict';
+
+  /* ---------- data ---------- */
+
+  // Clay bodies: wet-to-fired linear shrinkage, wet clay density (g/cm3), display color.
+  // Shrinkage varies by brand and firing; the bag's spec sheet wins.
+  const CLAYS = [
+    { id: 'terra',  name: 'Terracotta / red earthenware',  cone: 'cone 06–04', shrink: 0.07,  dens: 2.00, color: '#B4573A' },
+    { id: 'buff',   name: 'White / buff stoneware',        cone: 'cone 5–6',   shrink: 0.115, dens: 2.02, color: '#D8C7A6' },
+    { id: 'speck',  name: 'Speckled stoneware',            cone: 'cone 5–6',   shrink: 0.12,  dens: 2.02, color: '#CDB48F', speckle: true },
+    { id: 'dark',   name: 'Dark brown stoneware',          cone: 'cone 6–10',  shrink: 0.125, dens: 2.05, color: '#6D4B3B' },
+    { id: 'porc',   name: 'Porcelain',                     cone: 'cone 6–10',  shrink: 0.15,  dens: 1.90, color: '#EFECE5' },
+    { id: 'raku',   name: 'Raku (grogged)',                cone: 'cone 06',    shrink: 0.08,  dens: 2.05, color: '#B49A80', speckle: true },
+  ];
+
+  // Round forms are revolved from an outer profile: [height 0..1 from foot, radius 0..1 of max].
+  // Slab forms are boxes. Dimensions are fired cm: h = height, w = width/diameter, d = depth, t = wall.
+  // extra = clay for handles/spout as a fraction of the body; baseMult = foot thickness vs wall.
+  const FORMS = [
+    { id: 'cup', name: 'Tumbler', kind: 'round', open: true, tech: 'wheel', baseMult: 1.3, extra: 0,
+      profile: [[0,.78],[.05,.8],[.5,.92],[1,1]],
+      dims: { h: [10, 5, 18], w: [8, 5, 12], t: [.4, .2, .9] } },
+    { id: 'mug', name: 'Mug', kind: 'round', open: true, tech: 'wheel', baseMult: 1.3, extra: .08, handle: 'mug',
+      profile: [[0,.92],[.04,.95],[.6,1],[1,1]],
+      dims: { h: [9.5, 6, 14], w: [8.5, 6, 12], t: [.4, .25, .8] } },
+    { id: 'yunomi', name: 'Teacup', kind: 'round', open: true, tech: 'wheel', baseMult: 1.3, extra: 0,
+      profile: [[0,.55],[.06,.6],[.45,.95],[.75,1],[1,.96]],
+      dims: { h: [7, 4, 10], w: [8, 5, 11], t: [.3, .2, .6] } },
+    { id: 'bowl', name: 'Bowl', kind: 'round', open: true, tech: 'wheel', baseMult: 1.4, extra: 0,
+      profile: [[0,.38],[.06,.42],[.25,.72],[.55,.94],[1,1]],
+      dims: { h: [8, 4, 16], w: [15, 8, 40], t: [.5, .25, 1.2] } },
+    { id: 'plate', name: 'Plate', kind: 'round', open: true, tech: 'wheel', baseMult: 1.2, extra: 0,
+      profile: [[0,.6],[.06,.64],[.45,.86],[1,1]],
+      dims: { h: [2.5, 1.5, 5], w: [26, 15, 40], t: [.7, .4, 1.2] } },
+    { id: 'vase', name: 'Vase', kind: 'round', open: true, tech: 'wheel', baseMult: 1.5, extra: 0,
+      profile: [[0,.45],[.05,.5],[.3,.9],[.55,1],[.8,.55],[.92,.38],[1,.42]],
+      dims: { h: [28, 10, 60], w: [16, 8, 36], t: [.5, .3, 1.2] } },
+    { id: 'bottle', name: 'Bottle', kind: 'round', open: true, tech: 'wheel', baseMult: 1.4, extra: 0,
+      profile: [[0,.8],[.05,.85],[.4,1],[.6,.85],[.75,.35],[.9,.25],[1,.32]],
+      dims: { h: [25, 10, 45], w: [12, 6, 24], t: [.4, .25, .9] } },
+    { id: 'jar', name: 'Lidded jar', kind: 'round', open: false, tech: 'wheel', baseMult: 1.4, extra: .05,
+      profile: [[0,.8],[.05,.85],[.4,1],[.65,.9],[.7,.78],[.72,.72],[.78,.74],[.86,.55],[.93,.2],[.97,.13],[1,.15]],
+      dims: { h: [20, 8, 40], w: [14, 7, 28], t: [.5, .3, 1] } },
+    { id: 'pitcher', name: 'Pitcher', kind: 'round', open: true, tech: 'wheel', baseMult: 1.4, extra: .12, handle: 'pitcher',
+      profile: [[0,.8],[.05,.84],[.4,1],[.75,.9],[1,.9]],
+      dims: { h: [20, 12, 32], w: [12, 8, 20], t: [.45, .3, .9] } },
+    { id: 'planter', name: 'Planter', kind: 'round', open: true, tech: 'wheel', baseMult: 1.6, extra: 0,
+      profile: [[0,.62],[.04,.66],[.5,.9],[1,1]],
+      dims: { h: [16, 8, 40], w: [18, 8, 50], t: [.7, .4, 1.5] } },
+    { id: 'teapot', name: 'Teapot', kind: 'round', open: false, tech: 'wheel', baseMult: 1.3, extra: .35, handle: 'teapot',
+      profile: [[0,.55],[.05,.62],[.35,1],[.65,.88],[.72,.55],[.75,.5],[.8,.5],[.88,.28],[.95,.13],[1,.15]],
+      dims: { h: [15, 9, 26], w: [16, 10, 26], t: [.4, .25, .8] } },
+    { id: 'tray', name: 'Slab tray', kind: 'slab', tech: 'hand', extra: 0,
+      dims: { h: [3, 1.5, 8], w: [30, 10, 60], d: [18, 8, 40], t: [.8, .5, 1.5] } },
+    { id: 'tile', name: 'Tile', kind: 'tile', tech: 'hand', extra: 0,
+      dims: { w: [15, 5, 40], d: [15, 5, 40], t: [.9, .5, 2] } },
+  ];
+
+  const WASTE = { wheel: 0.25, hand: 0.10 }; // trimming, wedging loss, slop
+  const WATER_LOSS = 0.85;                   // finished weight ≈ wet piece weight × this
+  const BOX_G = 11340;                       // standard 25 lb box
+  const DIM_LABEL = { h: 'Height', w: 'Width', d: 'Depth', t: 'Wall thickness' };
+
+  /* ---------- state ---------- */
+
+  const state = {
+    form: 'mug', units: 'cm', clay: 'buff', tech: 'wheel', qty: 1,
+    vals: {}, // per form: { h, w, d, t } in cm
+  };
+  const formById = id => FORMS.find(f => f.id === id);
+  const clayById = id => CLAYS.find(c => c.id === id);
+  const currentForm = () => formById(state.form);
+  const currentClay = () => clayById(state.clay);
+
+  function valsFor(form) {
+    if (!state.vals[form.id]) {
+      const v = {};
+      for (const k in form.dims) v[k] = form.dims[k][0];
+      state.vals[form.id] = v;
+    }
+    return state.vals[form.id];
+  }
+
+  /* ---------- geometry ---------- */
+
+  // Catmull-Rom through the profile points, sampled into a dense polyline.
+  function smoothProfile(pts, per = 10) {
+    const out = [];
+    for (let i = 0; i < pts.length - 1; i++) {
+      const p0 = pts[Math.max(i - 1, 0)], p1 = pts[i], p2 = pts[i + 1], p3 = pts[Math.min(i + 2, pts.length - 1)];
+      for (let s = 0; s < per; s++) {
+        const t = s / per, t2 = t * t, t3 = t2 * t;
+        const f = k => 0.5 * ((2 * p1[k]) + (-p0[k] + p2[k]) * t + (2 * p0[k] - 5 * p1[k] + 4 * p2[k] - p3[k]) * t2 + (-p0[k] + 3 * p1[k] - 3 * p2[k] + p3[k]) * t3);
+        out.push([Math.min(Math.max(f(0), 0), 1), Math.max(f(1), 0.02)]);
+      }
+    }
+    out.push(pts[pts.length - 1]);
+    return out;
+  }
+  const profileCache = {};
+  const profileOf = form => profileCache[form.id] || (profileCache[form.id] = smoothProfile(form.profile));
+
+  // Wet-clay mass in grams for a single piece, before trimming allowance.
+  function pieceClayGrams(form, v, clay) {
+    const k = 1 / (1 - clay.shrink); // fired → wet linear scale
+    let volFired; // cm3 of clay in fired-size geometry
+    if (form.kind === 'round') {
+      const R = v.w / 2;
+      let area = 0;
+      const pr = profileOf(form);
+      for (let i = 1; i < pr.length; i++) {
+        const r1 = pr[i - 1][1] * R, r2 = pr[i][1] * R;
+        const dy = (pr[i][0] - pr[i - 1][0]) * v.h;
+        area += Math.PI * (r1 + r2) * Math.hypot(r2 - r1, dy);
+      }
+      const r0 = pr[0][1] * R;
+      volFired = (area + Math.PI * r0 * r0 * form.baseMult) * v.t;
+    } else if (form.kind === 'slab') {
+      volFired = (v.w * v.d + 2 * (v.w + v.d) * v.h) * v.t;
+    } else {
+      volFired = v.w * v.d * v.t;
+    }
+    return volFired * k ** 3 * clay.dens * (1 + form.extra);
+  }
+
+  /* ---------- formatting ---------- */
+
+  const IN = 2.54, OZ = 28.3495;
+  const fmtNum = (n, d = 1) => (+n.toFixed(d)).toString();
+  const fmtLen = cm => state.units === 'cm' ? `${fmtNum(cm)} cm` : `${fmtNum(cm / IN, 2)} in`;
+  const fmtThick = cm => state.units === 'cm' ? `${fmtNum(cm * 10)} mm` : `${fmtNum(cm / IN, 2)} in`;
+  const fmtMetric = g => g >= 1000 ? `${fmtNum(g / 1000, 2)} kg` : `${Math.round(g)} g`;
+  function fmtImperial(g) {
+    const oz = Math.round(g / OZ);
+    const lb = Math.floor(oz / 16), r = oz % 16;
+    return lb ? (r ? `${lb} lb ${r} oz` : `${lb} lb`) : `${oz} oz`;
+  }
+  const fmtWeight = g => state.units === 'cm' ? fmtMetric(g) : fmtImperial(g);
+  const fmtWeightAlt = g => state.units === 'cm' ? fmtImperial(g) : fmtMetric(g);
+
+  /* ---------- drawing ---------- */
+
+  const NS = 'http://www.w3.org/2000/svg';
+  const shade = (hex, amt) => { // amt -1 (black) .. 1 (white)
+    const n = parseInt(hex.slice(1), 16);
+    const ch = [n >> 16, (n >> 8) & 255, n & 255].map(c => Math.round(amt < 0 ? c * (1 + amt) : c + (255 - c) * amt));
+    return `rgb(${ch.join(',')})`;
+  };
+
+  // Deterministic speckles so the pattern doesn't jitter on every redraw.
+  function speckles(x0, y0, w, h, n, seed) {
+    let s = seed, out = '';
+    const rnd = () => (s = (s * 16807) % 2147483647) / 2147483647;
+    for (let i = 0; i < n; i++)
+      out += `<circle cx="${(x0 + rnd() * w).toFixed(1)}" cy="${(y0 + rnd() * h).toFixed(1)}" r="${(0.6 + rnd() * 1.1).toFixed(1)}" fill="#3a2a22" opacity="${(0.35 + rnd() * 0.4).toFixed(2)}"/>`;
+    return out;
+  }
+
+  // Extents of a piece in cm, including handles/spouts and the perspective of the rim ellipse.
+  function extentsOf(form, v) {
+    if (form.kind === 'round') {
+      const eL = form.handle === 'teapot' ? .3 * v.h : 0;
+      const eR = { mug: .36 * v.h, pitcher: .3 * v.h, teapot: .38 * v.h }[form.handle] || 0;
+      return { left: eL, right: eR, w: v.w + eL + eR, h: v.h + .22 * v.w };
+    }
+    const dx = v.d * .42, dy = v.d * .26;
+    const th = form.kind === 'tile' ? v.t : v.h;
+    return { left: 0, right: 0, w: v.w + dx, h: th + dy };
+  }
+
+  // Returns SVG markup for a piece whose foot-center is at (cx, baseY), at `s` px per cm.
+  function drawPiece(form, v, clay, cx, baseY, s, uid, labels) {
+    const base = clay.color;
+    const dark = shade(base, -.38), mid = shade(base, -.12), light = shade(base, .18);
+    const stroke = shade(base, -.5);
+    let g = `<defs><linearGradient id="g${uid}" x1="0" x2="1">
+      <stop offset="0" stop-color="${shade(base, -.3)}"/><stop offset=".28" stop-color="${light}"/>
+      <stop offset=".6" stop-color="${base}"/><stop offset="1" stop-color="${shade(base, -.42)}"/></linearGradient></defs>`;
+
+    if (form.kind === 'round') {
+      const R = v.w / 2 * s, H = v.h * s;
+      const pr = profileOf(form);
+      const ry = Math.max(R * .2, 2);
+      const left = pr.map(([y, r]) => [cx - r * R, baseY - y * H]);
+      const right = pr.map(([y, r]) => [cx + r * R, baseY - y * H]).reverse();
+      const r0 = pr[0][1] * R, rTop = pr[pr.length - 1][1] * R;
+      const topY = baseY - H;
+      let d = `M${(cx - r0).toFixed(1)},${baseY.toFixed(1)} `;
+      d += left.map(p => `L${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ');
+      d += ` L${(cx + rTop).toFixed(1)},${topY.toFixed(1)} `;
+      d += right.map(p => `L${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ');
+      d += ` A${r0.toFixed(1)},${(r0 * .2).toFixed(1)} 0 0 1 ${(cx - r0).toFixed(1)},${baseY.toFixed(1)}Z`;
+
+      // handles drawn behind the body
+      const hw = Math.max(v.h * s * .1, 3);
+      const edgeAt = (yFrac, side) => { // x of body edge at height fraction
+        let best = pr[0];
+        for (const p of pr) if (Math.abs(p[0] - yFrac) < Math.abs(best[0] - yFrac)) best = p;
+        return cx + side * best[1] * R;
+      };
+      let handle = '';
+      const hs = `fill="none" stroke="${mid}" stroke-linecap="round"`;
+      if (form.handle === 'mug') {
+        const x1 = edgeAt(.8, 1), y1 = baseY - .8 * H, x2 = edgeAt(.25, 1), y2 = baseY - .25 * H;
+        handle = `<path d="M${x1},${y1} C${x1 + .42 * H},${y1 - .05 * H} ${x2 + .42 * H},${y2 + .05 * H} ${x2},${y2}" ${hs} stroke-width="${hw}"/>`;
+      } else if (form.handle === 'pitcher') {
+        const x1 = edgeAt(.88, 1), y1 = baseY - .88 * H, x2 = edgeAt(.2, 1), y2 = baseY - .2 * H;
+        handle = `<path d="M${x1},${y1} C${x1 + .36 * H},${y1 - .1 * H} ${x2 + .3 * H},${y2 + .1 * H} ${x2},${y2}" ${hs} stroke-width="${hw}"/>`;
+      } else if (form.handle === 'teapot') {
+        const x1 = edgeAt(.75, 1), y1 = baseY - .75 * H, x2 = edgeAt(.28, 1), y2 = baseY - .28 * H;
+        const sx = edgeAt(.3, -1), sy = baseY - .3 * H;
+        handle = `<path d="M${x1},${y1} C${x1 + .42 * H},${y1 - .12 * H} ${x2 + .4 * H},${y2 + .12 * H} ${x2},${y2}" ${hs} stroke-width="${hw}"/>
+          <path d="M${sx + 2},${sy + hw * .4} C${sx - .15 * H},${sy - .05 * H} ${sx - .2 * H},${sy - .3 * H} ${sx - .3 * H},${sy - .5 * H}" ${hs} stroke-width="${hw * 1.1}"/>`;
+      }
+
+      g += handle;
+      g += `<clipPath id="c${uid}"><path d="${d}"/></clipPath>`;
+      g += `<path d="${d}" fill="url(#g${uid})" stroke="${stroke}" stroke-width="1.2" stroke-linejoin="round"/>`;
+      if (clay.speckle) g += `<g clip-path="url(#c${uid})">${speckles(cx - R, topY, R * 2, H, Math.round(R * H / 120), 7 + uid)}</g>`;
+      if (form.open) {
+        const tIn = Math.min(v.t * s, rTop * .6);
+        g += `<ellipse cx="${cx}" cy="${topY}" rx="${rTop}" ry="${rTop * .2}" fill="${light}" stroke="${stroke}" stroke-width="1.2"/>
+              <ellipse cx="${cx}" cy="${topY}" rx="${Math.max(rTop - tIn, 1)}" ry="${Math.max((rTop - tIn) * .2, .6)}" fill="${dark}"/>`;
+      }
+      if (labels) labels.w = { x1: cx - R, x2: cx + R, y: baseY + ry * 1.0 + 16 };
+      if (labels) labels.h = { x: cx - R - Math.max(...pr.map(p => p[1])) * 0 - 18, y1: topY, y2: baseY };
+      return g;
+    }
+
+    // slab and tile: simple oblique projection
+    const W = v.w * s, D = v.d * s, T = (form.kind === 'tile' ? v.t : v.h) * s;
+    const dx = D * .42, dy = D * .26;
+    const x0 = cx - (W + dx) / 2, yb = baseY; // front-bottom-left
+    const fl = [x0, yb], fr = [x0 + W, yb], ftl = [x0, yb - T], ftr = [x0 + W, yb - T];
+    const bl = [x0 + dx, yb - T - dy], br = [x0 + W + dx, yb - T - dy];
+    const pt = p => `${p[0].toFixed(1)},${p[1].toFixed(1)}`;
+    g += `<path d="M${pt(fr)} L${pt(ftr)} L${pt(br)} L${pt([br[0], br[1] + T])}Z" fill="${shade(base, -.3)}" stroke="${stroke}" stroke-width="1.2" stroke-linejoin="round"/>`;
+    g += `<path d="M${pt(fl)} L${pt(fr)} L${pt(ftr)} L${pt(ftl)}Z" fill="url(#g${uid})" stroke="${stroke}" stroke-width="1.2" stroke-linejoin="round"/>`;
+    g += `<path d="M${pt(ftl)} L${pt(ftr)} L${pt(br)} L${pt(bl)}Z" fill="${light}" stroke="${stroke}" stroke-width="1.2" stroke-linejoin="round"/>`;
+    if (form.kind === 'slab') {
+      const tI = Math.min(v.t * s, W * .2, D * .2);
+      const a = [ftl[0] + tI, ftl[1] - tI * .6], b = [ftr[0] - tI, ftr[1] - tI * .6];
+      const c = [br[0] - tI, br[1] + tI * .6], dd = [bl[0] + tI, bl[1] + tI * .6];
+      g += `<path d="M${pt(a)} L${pt(b)} L${pt(c)} L${pt(dd)}Z" fill="${dark}"/>`;
+    }
+    if (clay.speckle) g += `<g>${speckles(ftl[0], bl[1], W + dx, T + dy, Math.round(W * D / 260), 11 + uid)}</g>`;
+    if (labels) {
+      labels.w = { x1: x0, x2: x0 + W, y: yb + 18 };
+      labels.h = { x: x0 - 16, y1: yb - T, y2: yb };
+    }
+    return g;
+  }
+
+  function renderStage() {
+    const form = currentForm(), v = valsFor(form), clay = currentClay();
+    const grams = weighOut(form, v, clay);
+    const ballVol = grams / clay.dens;
+    const ballR = Math.cbrt(3 * ballVol / (4 * Math.PI)); // cm
+
+    const ext = extentsOf(form, v);
+    const gapCm = Math.max(ext.w, ext.h) * .12;
+    const sceneW = ext.w + gapCm + ballR * 2;
+    const sceneH = Math.max(ext.h, ballR * 2);
+    const VW = 640, VH = 420, padX = 36, padTop = 24, padBot = 80;
+    const s = Math.min((VW - padX * 2) / sceneW, (VH - padTop - padBot) / sceneH);
+
+    const baseY = VH - padBot - 8;
+    const startX = (VW - sceneW * s) / 2;
+    const cx = startX + (ext.left + (form.kind === 'round' ? v.w / 2 : (v.w + v.d * .42) / 2)) * s;
+    const labels = {};
+    let svg = `<ellipse cx="${VW / 2}" cy="${baseY + 4}" rx="${VW / 2 - 30}" ry="9" fill="#0E1730" opacity=".07"/>`;
+    svg += drawPiece(form, v, clay, cx, baseY, s, 0, labels);
+
+    // clay ball, same scale
+    const bx = startX + (ext.w + gapCm + ballR) * s, br = ballR * s, by = baseY - br + 3;
+    svg += `<defs><radialGradient id="ball" cx=".35" cy=".3" r=".85">
+      <stop offset="0" stop-color="${shade(clay.color, .22)}"/><stop offset=".6" stop-color="${clay.color}"/>
+      <stop offset="1" stop-color="${shade(clay.color, -.45)}"/></radialGradient></defs>
+      <circle cx="${bx}" cy="${by}" r="${br}" fill="url(#ball)" stroke="${shade(clay.color, -.5)}" stroke-width="1.2"/>`;
+    if (clay.speckle) svg += `<clipPath id="bc"><circle cx="${bx}" cy="${by}" r="${br}"/></clipPath><g clip-path="url(#bc)">${speckles(bx - br, by - br, br * 2, br * 2, Math.round(br * br / 90), 3)}</g>`;
+    svg += `<text x="${bx}" y="${baseY + 36}" text-anchor="middle" class="t-lbl">clay to weigh out</text>
+      <text x="${bx}" y="${baseY + 52}" text-anchor="middle" class="t-sub">${fmtWeight(grams)} &middot; ball &#8960; ${fmtLen(ballR * 2)}</text>`;
+
+    // dimension lines
+    const ink = '#2B4C9B';
+    const wl = labels.w, hl = labels.h;
+    hl.x -= ext.left * s; // keep the height line clear of a teapot spout
+    svg += `<g stroke="${ink}" stroke-width="1" fill="none">
+      <path d="M${wl.x1},${wl.y - 6} v6 M${wl.x2},${wl.y - 6} v6 M${wl.x1},${wl.y} H${wl.x2}"/>
+      <path d="M${hl.x - 5},${hl.y1} h6 M${hl.x - 5},${hl.y2} h6 M${hl.x},${hl.y1} V${hl.y2}"/></g>
+      <text x="${(wl.x1 + wl.x2) / 2}" y="${wl.y + 15}" text-anchor="middle" class="t-dim">${form.kind === 'round' ? 'ø ' : ''}${fmtLen(v.w)}</text>
+      <text x="${hl.x - 8}" y="${(hl.y1 + hl.y2) / 2}" text-anchor="middle" class="t-dim" transform="rotate(-90 ${hl.x - 8} ${(hl.y1 + hl.y2) / 2})">${fmtThick(form.kind === 'tile' ? v.t : v.h) === '' ? '' : (form.kind === 'tile' ? fmtThick(v.t) : fmtLen(v.h))}</text>`;
+
+    const el = document.getElementById('stage');
+    el.innerHTML = `<style>.t-lbl{font:500 15px 'DM Sans',sans-serif;fill:#16265C}.t-sub{font:400 13px 'JetBrains Mono',monospace;fill:#7C8AAB}.t-dim{font:500 14px 'JetBrains Mono',monospace;fill:${ink}}</style>` + svg;
+  }
+
+  /* ---------- calc ---------- */
+
+  function weighOut(form, v, clay) {
+    return pieceClayGrams(form, v, clay) * (1 + WASTE[state.tech]);
+  }
+
+  function renderResults() {
+    const form = currentForm(), v = valsFor(form), clay = currentClay();
+    const body = pieceClayGrams(form, v, clay);
+    const g = weighOut(form, v, clay);
+    const k = 1 / (1 - clay.shrink);
+    document.getElementById('r-big').textContent = fmtWeight(g);
+    document.getElementById('r-alt').textContent = '≈ ' + fmtWeightAlt(g);
+    const wetDims = form.kind === 'tile' ? `${fmtLen(v.w * k)} × ${fmtLen(v.d * k)}`
+      : form.kind === 'slab' ? `${fmtLen(v.w * k)} × ${fmtLen(v.d * k)} × ${fmtLen(v.h * k)}`
+      : `${fmtLen(v.h * k)} tall × ${fmtLen(v.w * k)} wide`;
+    document.getElementById('r-wet').textContent = wetDims;
+    document.getElementById('r-fin').textContent = fmtWeight(body * WATER_LOSS);
+    const tot = g * state.qty;
+    document.getElementById('r-tot-label').textContent = `Total for ${state.qty} piece${state.qty > 1 ? 's' : ''}`;
+    document.getElementById('r-tot').textContent = fmtWeight(tot);
+    const boxes = tot / BOX_G;
+    document.getElementById('r-box').textContent = boxes < 0.01 ? '< 1% of a 25 lb box'
+      : `${fmtNum(boxes * 100, boxes < .1 ? 1 : 0)}% of a 25 lb (11.3 kg) box`;
+    document.getElementById('r-note').textContent =
+      `Includes ${Math.round(WASTE[state.tech] * 100)}% extra for ${state.tech === 'wheel' ? 'trimming and wedging loss' : 'trimming and scraps'}. ` +
+      `${clay.name} shrinks about ${fmtNum(clay.shrink * 100)}% from wet to fired, so make it ${fmtNum(k * 100 - 100, 0)}% bigger than the size you want. ` +
+      `Brands vary, so check your clay's spec sheet. This is an estimate for planning, not a guarantee.`;
+    document.getElementById('stage-sub').textContent = `${clay.name} · ${clay.cone}`;
+    document.getElementById('stage-name').textContent = form.name;
+  }
+
+  /* ---------- UI ---------- */
+
+  function renderForms() {
+    const wrap = document.getElementById('forms');
+    wrap.innerHTML = '';
+    const refClay = clayById('buff');
+    FORMS.forEach((f, i) => {
+      const v = {}; for (const k in f.dims) v[k] = f.dims[k][0];
+      const ext = extentsOf(f, v);
+      const VW = 120, VH = 76, s = Math.min((VW - 16) / ext.w, (VH - 14) / ext.h);
+      const cx = (VW - ext.w * s) / 2 + (ext.left + (f.kind === 'round' ? v.w / 2 : (v.w + v.d * .42) / 2)) * s;
+      const svg = drawPiece(f, v, refClay, cx, VH - 8, s, 100 + i, null);
+      const g = pieceClayGrams(f, v, refClay) * (1 + WASTE[f.tech]);
+      const b = document.createElement('button');
+      b.className = 'cc-form'; b.dataset.id = f.id;
+      b.setAttribute('aria-pressed', f.id === state.form);
+      b.innerHTML = `<svg viewBox="0 0 ${VW} ${VH}" aria-hidden="true">${svg}</svg><span>${f.name}</span><small>~${fmtMetric(Math.round(g / 10) * 10)}</small>`;
+      wrap.appendChild(b);
+    });
+  }
+
+  function renderSliders() {
+    const form = currentForm(), v = valsFor(form), metric = state.units === 'cm';
+    const wrap = document.getElementById('sliders');
+    wrap.innerHTML = '';
+    const order = ['h', 'w', 'd', 't'].filter(k => form.dims[k]);
+    for (const k of order) {
+      const [, lo, hi] = form.dims[k];
+      const thick = k === 't';
+      // slider runs in display units: cm / mm (metric) or inches
+      const conv = metric ? (thick ? 10 : 1) : 1 / IN;
+      const step = metric ? (thick ? .5 : .5) : (thick ? .01 : .25);
+      const label = k === 'w' && form.kind === 'round' ? 'Diameter (widest point)' : (k === 'h' && form.kind === 'tile' ? '' : DIM_LABEL[k]);
+      const id = 'sl-' + k;
+      const div = document.createElement('div');
+      div.className = 'cc-slider';
+      div.innerHTML = `<label for="${id}">${label}</label><output id="${id}-o"></output>
+        <input type="range" id="${id}" min="${(lo * conv).toFixed(2)}" max="${(hi * conv).toFixed(2)}" step="${step}" value="${(v[k] * conv).toFixed(2)}">`;
+      wrap.appendChild(div);
+      const input = div.querySelector('input'), out = div.querySelector('output');
+      const show = () => { out.textContent = thick ? fmtThick(v[k]) : fmtLen(v[k]); };
+      show();
+      input.addEventListener('input', () => {
+        v[k] = +input.value / conv;
+        show(); update();
+      });
+    }
+  }
+
+  function renderClays() {
+    const wrap = document.getElementById('clays');
+    wrap.innerHTML = '';
+    for (const c of CLAYS) {
+      const b = document.createElement('button');
+      b.className = 'cc-clay'; b.dataset.id = c.id;
+      b.setAttribute('aria-pressed', c.id === state.clay);
+      b.innerHTML = `<i style="background:${c.color}"></i><span>${c.name}</span><small>${c.cone}<br>${fmtNum(c.shrink * 100)}% shrink</small>`;
+      wrap.appendChild(b);
+    }
+  }
+
+  const pressed = (sel, attr, val) => document.querySelectorAll(sel).forEach(b => b.setAttribute('aria-pressed', b.dataset[attr] === val));
+
+  function update() { renderStage(); renderResults(); }
+
+  function selectForm(id) {
+    state.form = id;
+    state.tech = currentForm().tech;
+    pressed('#forms .cc-form', 'id', id);
+    pressed('#tech button', 't', state.tech);
+    renderSliders(); update();
+  }
+
+  document.getElementById('forms').addEventListener('click', e => {
+    const b = e.target.closest('.cc-form'); if (b) selectForm(b.dataset.id);
+  });
+  document.getElementById('clays').addEventListener('click', e => {
+    const b = e.target.closest('.cc-clay'); if (!b) return;
+    state.clay = b.dataset.id; pressed('#clays .cc-clay', 'id', state.clay); update();
+  });
+  document.getElementById('units').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    state.units = b.dataset.u; pressed('#units button', 'u', state.units);
+    renderSliders(); update();
+  });
+  document.getElementById('tech').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    state.tech = b.dataset.t; pressed('#tech button', 't', state.tech); update();
+  });
+  const setQty = n => { state.qty = Math.min(Math.max(n, 1), 99); document.getElementById('qty').textContent = state.qty; renderResults(); };
+  document.getElementById('qminus').addEventListener('click', () => setQty(state.qty - 1));
+  document.getElementById('qplus').addEventListener('click', () => setQty(state.qty + 1));
+
+  renderForms(); renderClays(); selectForm(state.form);
+})();
+</script>
+</body>
+</html>
