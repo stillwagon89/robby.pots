@@ -40,6 +40,8 @@ function extract(html) {
   }
   const text = html.replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ").replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ");
   for (const m of text.matchAll(/([A-Z][A-Za-z.'’-]+(?: [A-Z][A-Za-z.'’-]+){0,2}),?\s+([A-Z]{2})\s+(\d{5})(?:-\d{4})?\b/g)) if (CODES.has(m[2])) out.push({ st: m[2], town: m[1], zip: m[3], w: 2 });
+  // Street addresses: "3434 W. Earll Dr., Suite 101, Phoenix, AZ 85017" or "4190 West Highway 80, Douglas, AZ"
+  for (const m of text.matchAll(/(\d{1,6}\s+(?:[NSEW]\.?\s+|North\s+|South\s+|East\s+|West\s+)?[A-Za-z0-9.'’ -]{2,40}?\s(?:Street|St|Avenue|Ave|Road|Rd|Boulevard|Blvd|Drive|Dr|Lane|Ln|Way|Highway|Hwy|Parkway|Pkwy|Court|Ct|Place|Pl|Circle|Cir|Trail|Trl)\b\.?(?:,?\s*(?:Suite|Ste|Unit|#)\.?\s*[\w-]+)?),?\s+([A-Z][A-Za-z.'’ -]{2,30}),?\s+([A-Z]{2})\b(?:\s+(\d{5}))?/g)) if (CODES.has(m[3])) out.push({ st: m[3], town: m[2].trim(), street: m[1].replace(/\s+/g, " ").trim(), zip: m[4] || "", w: 3 });
   return out;
 }
 const jobs = [];
@@ -59,10 +61,10 @@ async function worker() {
     for (const l of [...new Map(links.map((x) => [x.u, x])).values()].slice(0, 2)) html += " " + (await get(l.u));
     const found = extract(html);
     const tally = {};
-    const ldSet = new Set();
-    for (const x of found) { const k = `${x.st}|${x.town}`; tally[k] = (tally[k] || 0) + x.w; if (x.ld) ldSet.add(k); }
+    const ldSet = new Set(); const streets = {};
+    for (const x of found) { const k = `${x.st}|${x.town}`; tally[k] = (tally[k] || 0) + x.w; if (x.ld) ldSet.add(k); if (x.street) (streets[k] ||= []).push(x); }
     const best = Object.entries(tally).sort((a, b) => b[1] - a[1])[0];
-    j.loc = best ? { st: best[0].split("|")[0], town: best[0].split("|")[1], score: best[1], found: Object.keys(tally).length, ld: ldSet.has(best[0]) } : null;
+    j.loc = best ? { st: best[0].split("|")[0], town: best[0].split("|")[1], score: best[1], found: Object.keys(tally).length, ld: ldSet.has(best[0]), street: streets[best[0]]?.[0] || null } : null;
     if (++done % 25 === 0) log(`locate ${done}/${jobs.length}`);
   }
 }
@@ -100,7 +102,10 @@ if (APPLY) {
       s.located = { ...(j.loc ? { state: j.loc.st, town: j.loc.town, score: j.loc.score } : {}), osm: j.osm ? true : false, date: TODAY };
       if (s.confirmed_by_robby || s.review === "approved") { s.located = { ...s.located, kept: true }; continue; }
       if (mism.includes(j)) { cur.sources = cur.sources.filter((x) => x !== s); (cur._removed ||= []).push({ id: s.id, why: `Its own pages give an address in ${j.loc.st} (${j.loc.town}), not ${ST}. Moved. (${TODAY})` }); rehome.push({ to: j.loc.st, s }); continue; }
-      if (j.loc && j.loc.st === ST && j.loc.town && j.loc.town !== s.city) { s.city = j.loc.town; s.region = j.loc.town; s.geocode = `${j.loc.town}, ${stateName(ST)}`; delete s.lat; delete s.lng; s.location_note = "Shown at the town."; }
+      // Exact pin when the page itself gives a street address (not for home studios or "private" places).
+      if (j.loc?.street && j.loc.st === ST && s.location_precision !== "address" && !/home studio|private residence|my home|by appointment only/i.test(s.access?.quote || "")) {
+        const st = j.loc.street; s.location_precision = "address"; s.address = `${st.street}, ${st.town}, ${ST}${st.zip ? " " + st.zip : ""}`; s.city = st.town; s.region = st.town; s.geocode = null; delete s.lat; delete s.lng; s.location_note = "Exact address from their page.";
+      } else if (j.loc && j.loc.st === ST && j.loc.town && j.loc.town !== s.city) { s.city = j.loc.town; s.region = j.loc.town; s.geocode = `${j.loc.town}, ${stateName(ST)}`; delete s.lat; delete s.lng; s.location_note = "Shown at the town."; }
       const stated = (s.verify?.state || "").toUpperCase() === ST || (s.verify?.state || "").toLowerCase() === stateName(ST).toLowerCase();
       const solid = s.verify?.verdict === "yes" && Object.keys(s.verify?.types || {}).length && ((j.loc && j.loc.st === ST) || (!j.loc && stated));
       s.weak = !solid;

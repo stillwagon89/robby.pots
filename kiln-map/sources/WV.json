@@ -30,9 +30,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -62,7 +63,8 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "stifel-fine-arts-center",
@@ -93,7 +95,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -139,9 +142,9 @@
         "https://www.parkersburgartcenter.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Parkersburg, West Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.parkersburgartcenter.org/"
       },
@@ -153,7 +156,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -172,12 +176,10 @@
         "street": "725 Market Street"
       },
       "weak": true,
-      "lat": 39.26673,
-      "lng": -81.56208,
       "located": {
         "state": "WV",
         "town": "Parkersburg",
-        "score": 6,
+        "score": 15,
         "osm": true,
         "date": "2026-10-09"
       },
@@ -186,7 +188,10 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "725 Market Street, Parkersburg, WV 26101",
+      "lat": 39.26751,
+      "lng": -81.55767
     },
     {
       "id": "parkersburg-art-center-the-clay-studio",
@@ -217,7 +222,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -267,9 +273,9 @@
         "https://oionline.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Wheeling, West Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://oionline.com/"
       },
@@ -281,7 +287,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -302,6 +309,9 @@
       },
       "weak": false,
       "located": {
+        "state": "WV",
+        "town": "Wheeling",
+        "score": 24,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -310,7 +320,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "1330 National Rd., Wheeling, WV",
+      "lat": 40.0695,
+      "lng": -80.68076
     }
   ],
   "_removed": [

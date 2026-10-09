@@ -47,6 +47,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -78,7 +81,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -138,9 +142,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -170,7 +175,10 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 38.7734,
+      "lng": -75.13796
     }
   ],
   "_removed": [

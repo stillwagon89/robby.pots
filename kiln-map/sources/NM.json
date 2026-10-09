@@ -54,16 +54,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "paseopottery.com"
       },
-      "lat": 35.68761,
-      "lng": -105.93846,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -78,11 +77,15 @@
       "located": {
         "state": "NM",
         "town": "Santa Fe",
-        "score": 12,
+        "score": 21,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "135 W. Palace Ave. Suite 100, Santa Fe, NM 87501",
+      "auto_approved": "2026-10-09",
+      "lat": 35.68761,
+      "lng": -105.93846
     },
     {
       "id": "museum-of-new-mexico-foundation",
@@ -113,9 +116,10 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -142,7 +146,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "rottenstone-gallery",
@@ -175,7 +180,8 @@
           "wood",
           "salt"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -205,7 +211,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 36.51602,
+      "lng": -105.56999
     },
     {
       "id": "nm-potters-and-clay-artists-nmpca",
@@ -236,7 +244,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -268,7 +277,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 35.0841,
+      "lng": -106.65099
     },
     {
       "id": "taos-ceramics-center",
@@ -301,7 +312,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -359,7 +371,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -418,9 +431,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -441,7 +455,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 35.68761,
+      "lng": -105.93846
     }
   ],
   "_removed": [

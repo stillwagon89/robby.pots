@@ -59,7 +59,7 @@ await Promise.all(Array.from({ length: 4 }, async () => {
 const tally = {};
 for (const j of jobs) {
   if (j.v.error || j.s.confirmed_by_robby || j.s.review === "approved") continue;
-  const h = j.s.verify?.verdict, both = Object.keys(j.s.verify?.types || {}).filter((t) => j.v.types[t]);
+  const h = j.s.verify?.verdict, both = [...new Set([...Object.keys(j.s.verify?.types || {}), ...Object.keys(j.v.types)])];
   const stOk = !j.v.state || j.v.state.toUpperCase() === j.ST || j.v.state.toLowerCase() === stateName(j.ST).toLowerCase();
   j.out = h === "yes" && j.v.verdict === "yes" && both.length && stOk ? "agree-yes" : h === "no" && j.v.verdict === "no" ? "agree-no" : "split";
   j.both = both; tally[j.out] = (tally[j.out] || 0) + 1;

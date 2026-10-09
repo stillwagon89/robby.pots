@@ -137,7 +137,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -181,9 +182,9 @@
         "https://fleisher.org/"
       ],
       "notes": "Raku firing days (Dec 6; October). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Philadelphia, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://fleisher.org/"
       },
@@ -195,16 +196,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "fleisher.org"
       },
-      "lat": 39.95272,
-      "lng": -75.16353,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -220,11 +220,15 @@
       "located": {
         "state": "PA",
         "town": "Philadelphia",
-        "score": 8,
+        "score": 20,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "719 Catharine Street, Philadelphia, PA 19147",
+      "auto_approved": "2026-10-09",
+      "lat": 39.93909,
+      "lng": -75.155
     },
     {
       "id": "yay-clay",
@@ -236,15 +240,15 @@
         "raku",
         "pit_barrel_saggar"
       ],
-      "region": "Philadelphia / Langhorne",
+      "region": "Philadelphia",
       "city": "Philadelphia",
       "urls": [
         "https://yayclay.com/"
       ],
       "notes": "Offsite alternative firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Philadelphia, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://yayclay.com/"
       },
@@ -257,16 +261,15 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "yayclay.com"
       },
-      "lat": 39.95272,
-      "lng": -75.16353,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -282,11 +285,15 @@
       "located": {
         "state": "PA",
         "town": "Philadelphia",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "3237 Amber Street, Philadelphia, PA 19134",
+      "auto_approved": "2026-10-09",
+      "lat": 39.99259,
+      "lng": -75.10904
     },
     {
       "id": "earth-center-pottery",
@@ -304,9 +311,9 @@
         "https://earthcenterpottery.com/"
       ],
       "notes": "2026 raku firing events. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Richboro, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://earthcenterpottery.com/"
       },
@@ -319,7 +326,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -327,8 +335,6 @@
         "date": "2026-10-06",
         "key": "earthcenterpottery.com"
       },
-      "lat": 40.22968,
-      "lng": -74.99949,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -343,7 +349,7 @@
       "located": {
         "state": "PA",
         "town": "Richboro",
-        "score": 4,
+        "score": 10,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -352,7 +358,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "10 Stable Mill Road, Richboro, PA 18954",
+      "lat": 40.22216,
+      "lng": -74.98692
     },
     {
       "id": "kettle-creek-pottery",
@@ -383,9 +392,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -409,7 +419,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "lancaster-creative-factory",
@@ -442,9 +453,10 @@
           "wood",
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -472,7 +484,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "union-project",
@@ -485,15 +498,15 @@
         "soda",
         "gas_reduction"
       ],
-      "region": "Negley Avenue Pittsburgh",
-      "city": "Negley Avenue Pittsburgh",
+      "region": "Pittsburgh",
+      "city": "Pittsburgh",
       "urls": [
         "https://unionproject.org/"
       ],
       "notes": "**Kiln rental to outside potters**; firing workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Negley Avenue Pittsburgh, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://unionproject.org/"
       },
@@ -507,9 +520,10 @@
           "soda",
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -531,12 +545,16 @@
       },
       "located": {
         "state": "PA",
-        "town": "Negley Avenue Pittsburgh",
-        "score": 6,
+        "town": "Pittsburgh",
+        "score": 9,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "801 N Negley Avenue, Pittsburgh, PA 15206",
+      "auto_approved": "2026-10-09",
+      "lat": 40.47192,
+      "lng": -79.92651
     },
     {
       "id": "fireborn-studios",
@@ -548,15 +566,15 @@
         "raku",
         "wood"
       ],
-      "region": "Sarah Street Pittsburgh",
-      "city": "Sarah Street Pittsburgh",
+      "region": "Pittsburgh",
+      "city": "Pittsburgh",
       "urls": [
         "https://fireborn.com/"
       ],
       "notes": "Firing for outside work. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Sarah Street Pittsburgh, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://fireborn.com/"
       },
@@ -569,9 +587,10 @@
           "raku",
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -593,11 +612,15 @@
       "weak": false,
       "located": {
         "state": "PA",
-        "town": "Sarah Street Pittsburgh",
-        "score": 8,
+        "town": "Pittsburgh",
+        "score": 12,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "2338 Sarah Street, Pittsburgh, PA 15203",
+      "auto_approved": "2026-10-09",
+      "lat": 40.42728,
+      "lng": -79.97245
     },
     {
       "id": "erie-clayspace",
@@ -628,7 +651,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -672,9 +696,9 @@
         "https://www.northampton.edu/"
       ],
       "notes": "New wood kiln: community firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bethlehem, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.northampton.edu/"
       },
@@ -686,7 +710,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -694,8 +719,6 @@
         "date": "2026-10-06",
         "key": "northampton.edu"
       },
-      "lat": 40.61789,
-      "lng": -75.37865,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -711,11 +734,14 @@
       "located": {
         "state": "PA",
         "town": "Bethlehem",
-        "score": 21,
+        "score": 30,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "3835 Green Pond Road, Bethlehem, PA 18020",
+      "lat": 40.67473,
+      "lng": -75.32648
     },
     {
       "id": "greeny-gary-greenberg",
@@ -746,7 +772,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -804,7 +831,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -849,9 +877,9 @@
         "https://communityartscenter.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Wallingford, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://communityartscenter.org/"
       },
@@ -864,9 +892,10 @@
           "wood",
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -888,10 +917,14 @@
       "located": {
         "state": "PA",
         "town": "Wallingford",
-        "score": 21,
+        "score": 30,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "address": "414 Plush Mill Road, Wallingford, PA 19086",
+      "auto_approved": "2026-10-09",
+      "lat": 39.90872,
+      "lng": -75.36349
     },
     {
       "id": "business-ligonier",
@@ -908,9 +941,9 @@
         "https://business.ligonier.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Ligonier, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://business.ligonier.com/"
       },
@@ -933,10 +966,16 @@
       "located": {
         "state": "PA",
         "town": "Ligonier",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "120 E Main St, Ligonier, PA 15658",
+      "lat": 40.24279,
+      "lng": -79.23723
     },
     {
       "id": "pittsburgh-center-for-arts-media",
@@ -953,9 +992,9 @@
         "https://pghartsmedia.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pittsburgh, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://pghartsmedia.org/"
       },
@@ -967,9 +1006,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -987,10 +1027,17 @@
         "town": ""
       },
       "located": {
+        "state": "PA",
+        "town": "Pittsburgh",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "1047 Shady Avenue, Pittsburgh, PA",
+      "auto_approved": "2026-10-09",
+      "lat": 40.45148,
+      "lng": -79.92018
     },
     {
       "id": "yayclay",
@@ -1023,9 +1070,10 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1047,7 +1095,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 40.17618,
+      "lng": -74.92025
     },
     {
       "id": "margueritahagan",
@@ -1064,9 +1115,9 @@
         "https://www.margueritahagan.com/"
       ],
       "notes": "By appointment. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Philadelphia, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.margueritahagan.com/"
       },
@@ -1078,7 +1129,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1100,7 +1152,7 @@
       "located": {
         "state": "PA",
         "town": "Philadelphia",
-        "score": 4,
+        "score": 10,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -1109,7 +1161,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "557 N 5th Street, Philadelphia, PA 19123",
+      "lat": 39.96176,
+      "lng": -75.14644
     },
     {
       "id": "union-project-pa",
@@ -1142,7 +1197,8 @@
           "raku",
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1166,7 +1222,9 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "lat": 40.4407,
+      "lng": -80.00257
     },
     {
       "id": "allens-lane-art-center",
@@ -1197,7 +1255,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1221,7 +1280,9 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "lat": 40.06518,
+      "lng": -75.19119
     },
     {
       "id": "canvas-allenslane",
@@ -1252,7 +1313,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1280,7 +1342,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 39.95272,
+      "lng": -75.16353
     },
     {
       "id": "creek-road-pottery-llc",
@@ -1291,15 +1355,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Road Clarks Summit",
-      "city": "Road Clarks Summit",
+      "region": "Montrose",
+      "city": "Montrose",
       "urls": [
         "https://creekroadpottery.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Road Clarks Summit, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://creekroadpottery.com/"
       },
@@ -1311,7 +1375,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -1332,8 +1397,8 @@
       "weak": true,
       "located": {
         "state": "PA",
-        "town": "Road Clarks Summit",
-        "score": 2,
+        "town": "Montrose",
+        "score": 6,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -1342,7 +1407,10 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "35 Pine Street, Montrose, PA",
+      "lat": 41.83464,
+      "lng": -75.87785
     },
     {
       "id": "lancaster-clay-studios-llc",
@@ -1359,9 +1427,9 @@
         "https://lancasterclaystudios.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Landisville, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://lancasterclaystudios.com/"
       },
@@ -1374,7 +1442,8 @@
           "wood",
           "gas_reduction"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1396,7 +1465,7 @@
       "located": {
         "state": "PA",
         "town": "Landisville",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -1405,7 +1474,10 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "235 Elizabeth St, Landisville, PA 17538",
+      "lat": 40.09542,
+      "lng": -76.41437
     },
     {
       "id": "potters-guild-of-central-pa",
@@ -1423,9 +1495,9 @@
         "https://artallianceofcentralpa.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lemont, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://artallianceofcentralpa.org/"
       },
@@ -1438,7 +1510,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1459,7 +1532,7 @@
       "located": {
         "state": "PA",
         "town": "Lemont",
-        "score": 18,
+        "score": 36,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -1468,7 +1541,10 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "824 Pike Street, Lemont, PA 16851",
+      "lat": 40.80993,
+      "lng": -77.81891
     },
     {
       "id": "goggleworks-center-for-the-arts",
@@ -1479,15 +1555,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Washington St Reading",
-      "city": "Washington St Reading",
+      "region": "Reading",
+      "city": "Reading",
       "urls": [
         "https://goggleworks.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Washington St Reading, Pennsylvania",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://goggleworks.org/"
       },
@@ -1499,9 +1575,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1521,11 +1598,15 @@
       "weak": false,
       "located": {
         "state": "PA",
-        "town": "Washington St Reading",
-        "score": 6,
+        "town": "Reading",
+        "score": 20,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "address": "201 Washington St., Reading, PA",
+      "auto_approved": "2026-10-09",
+      "lat": 40.33735,
+      "lng": -75.93332
     },
     {
       "id": "the-ceramic-shop",
@@ -1556,7 +1637,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1577,7 +1659,9 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 40.1146,
+      "lng": -75.34465
     },
     {
       "id": "up-in-smoke-pottery",
@@ -1616,7 +1700,8 @@
           "soda",
           "salt"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1636,8 +1721,8 @@
       "weak": true,
       "located": {
         "state": "SD",
-        "town": "Medary Ave Brookings",
-        "score": 2,
+        "town": "Brookings",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
       }

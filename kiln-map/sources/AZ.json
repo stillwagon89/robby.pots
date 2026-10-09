@@ -57,9 +57,10 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -78,7 +79,6 @@
         "town": "Sedona",
         "street": "15 Art Barn Road, Sedona, AZ 86336"
       },
-      "weak": false,
       "located": {
         "state": "AZ",
         "town": "Barn Road Sedona",
@@ -91,7 +91,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "approved": "2026-10-09",
+      "confirmed_by_robby": "2026-10-09",
+      "lat": 34.87228,
+      "lng": -111.75693
     },
     {
       "id": "marjon-ceramics",
@@ -108,13 +112,13 @@
         "https://www.marjonceramics.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Phoenix, Arizona",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.marjonceramics.com/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -132,13 +136,19 @@
         "town": "Phoenix",
         "street": "3434 W Earll Drive Suite 101 Phoenix, AZ 85017"
       },
-      "lat": 33.44844,
-      "lng": -112.07414,
       "located": {
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "approved": "2026-10-09",
+      "confirmed_by_robby": "2026-10-09",
+      "address": "3434 W Earll Dr, Phoenix, AZ 85017",
+      "access": {
+        "status": "upcoming",
+        "url": "https://www.marjonceramics.com/97/Calendar/"
+      },
+      "lat": 33.48439,
+      "lng": -112.13288
     },
     {
       "id": "arizona-clay-space",
@@ -161,7 +171,7 @@
       "contact": {
         "website": "https://www.arizonaclayspace.com/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -179,7 +189,6 @@
         "town": "Clarkdale",
         "street": "2724 Sullivan Ranch Road"
       },
-      "weak": false,
       "located": {
         "state": "AZ",
         "town": "Clarkdale",
@@ -192,7 +201,16 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "approved": "2026-10-09",
+      "confirmed_by_robby": "2026-10-09",
+      "access": {
+        "status": "coming_soon",
+        "note": "Members get access to electric, gas and wood kilns (firing and fuel fees apply). Workshops led by resident and guest artists, covering firing processes, are announced as coming soon; check back for the schedule.",
+        "quote": "Arizona Clay Space will be hosting workshops led by resident and guest ceramic artists from around the country, covering techniques, firing processes, and everything in between. Check back for updates as the schedule develops."
+      },
+      "lat": 34.77113,
+      "lng": -112.05794
     },
     {
       "id": "douglas-campus-art-department",
@@ -211,21 +229,22 @@
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
       "geocode": "Douglas, Arizona",
-      "location_note": "Shown at the town.",
+      "location_note": "Cochise College Douglas Campus, 4190 W Highway 80. Shown at the town.",
       "contact": {
         "website": "https://www.cochise.edu/"
       },
       "access": {
         "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
+        "note": "Cochise College's Douglas Campus holds an annual Pit Fire Pottery Festival that the public is invited to join. Check their page for this year's date.",
         "quote": "The public is invited to join us for the annual Pit Fire Pottery Festival, proudly produced by the Douglas Campus Art Department.",
         "url": "https://www.cochise.edu/community/pit-fire-pottery-festival/index.html",
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "annual"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -242,19 +261,21 @@
         "state": "AZ",
         "town": "Douglas"
       },
-      "lat": 31.34499,
-      "lng": -109.55449,
       "located": {
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false,
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "approved": "2026-10-09",
+      "confirmed_by_robby": "2026-10-09",
+      "address": null,
+      "lat": 31.34499,
+      "lng": -109.55449
     },
     {
       "id": "arcosanti",
@@ -285,7 +306,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -343,7 +365,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -420,6 +443,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
+      },
+      "access": {
+        "status": "ongoing"
       }
     }
   ],

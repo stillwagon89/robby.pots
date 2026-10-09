@@ -160,9 +160,10 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -186,7 +187,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "st-johns-clay-collective",
@@ -219,9 +221,10 @@
           "soda",
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -246,7 +249,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "georgies-ceramic-clay-co",
@@ -277,9 +281,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -306,7 +311,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "willamette-art-center",
@@ -337,9 +343,10 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -365,7 +372,8 @@
         "score": 2,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "wildling-collaborative-arts",
@@ -396,7 +404,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -473,7 +482,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "access": {
+        "status": "upcoming"
+      }
     },
     {
       "id": "calapooia-clay",
@@ -491,9 +503,9 @@
         "https://calapooiaclay.com/"
       ],
       "notes": "Classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Albany, Oregon",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://calapooiaclay.com/"
       },
@@ -506,9 +518,10 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -530,7 +543,7 @@
       "located": {
         "state": "OR",
         "town": "Albany",
-        "score": 6,
+        "score": 12,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -540,7 +553,11 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "1533 SE 7th Ave, Albany, OR 97321",
+      "auto_approved": "2026-10-09",
+      "lat": 44.63479,
+      "lng": -123.08609
     },
     {
       "id": "synergy-ceramics",
@@ -571,16 +588,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "synergyceramicsbend.com"
       },
-      "lat": 44.05817,
-      "lng": -121.31531,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -594,6 +610,9 @@
         "street": "1900 Northeast Division Street suite 108"
       },
       "located": {
+        "state": "OR",
+        "town": "Bend",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -603,7 +622,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "1900 NE Division St, Suite 108, Bend, OR",
+      "auto_approved": "2026-10-09",
+      "lat": 44.05817,
+      "lng": -121.31531
     },
     {
       "id": "oregon-coast-school-of-art",
@@ -614,15 +637,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "High Street Gardiner",
-      "city": "High Street Gardiner",
+      "region": "Gardiner",
+      "city": "Gardiner",
       "urls": [
         "https://oregoncoastschoolofart.org/"
       ],
       "notes": "$30 raku (pot included). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "High Street Gardiner, Oregon",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://oregoncoastschoolofart.org/"
       },
@@ -634,9 +657,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -656,12 +680,16 @@
       },
       "located": {
         "state": "OR",
-        "town": "High Street Gardiner",
-        "score": 4,
+        "town": "Gardiner",
+        "score": 6,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "325 High Street, Gardiner, OR 97441",
+      "auto_approved": "2026-10-09",
+      "lat": 43.73126,
+      "lng": -124.11013
     },
     {
       "id": "rogue-valley-pottery-supply-and-studios",
@@ -692,7 +720,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -719,7 +748,9 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "lat": 42.19725,
+      "lng": -122.7154
     },
     {
       "id": "uo-erb-memorial-union",
@@ -750,7 +781,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -810,7 +842,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -839,7 +872,9 @@
         "result": "agree-yes",
         "date": "2026-10-08"
       },
-      "weak": true
+      "weak": true,
+      "lat": 45.52025,
+      "lng": -122.67419
     },
     {
       "id": "clayfolk",
@@ -850,15 +885,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Oregon",
-      "city": null,
+      "region": "Ruch",
+      "city": "Ruch",
       "urls": [
         "https://www.clayfolk.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
+      "location_precision": "address",
       "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.clayfolk.org/"
       },
@@ -870,7 +905,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -889,6 +925,9 @@
       },
       "weak": true,
       "located": {
+        "state": "OR",
+        "town": "Ruch",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -897,7 +936,10 @@
         "verdict": "no",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "3901 Upper Applegate Road, Ruch, OR",
+      "lat": 42.23569,
+      "lng": -123.04214
     },
     {
       "id": "hiroshi-ogawa-s-kiln-hikarigama",
@@ -928,7 +970,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -955,7 +998,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 43.63706,
+      "lng": -123.56738
     },
     {
       "id": "club-mud-ceramics-cooperative",
@@ -987,7 +1032,8 @@
           "raku",
           "gas_reduction"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1015,7 +1061,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 44.05051,
+      "lng": -123.09505
     },
     {
       "id": "east-creek-art-camp",
@@ -1032,9 +1080,9 @@
         "https://www.orartswatch.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Portland, Oregon",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.orartswatch.org/"
       },
@@ -1046,7 +1094,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -1067,7 +1116,7 @@
       "located": {
         "state": "OR",
         "town": "Portland",
-        "score": 8,
+        "score": 20,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -1076,7 +1125,8 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "3519 NE 15th Ave, #259, Portland, OR 97212"
     },
     {
       "id": "portland-parks-or",
@@ -1107,7 +1157,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-09"
+        "checked": "2026-10-09",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1136,7 +1187,9 @@
         "result": "agree-yes",
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": false,
+      "lat": 45.52025,
+      "lng": -122.67419
     },
     {
       "id": "east-creek-anagama",
@@ -1167,7 +1220,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -1225,7 +1279,8 @@
           "wood",
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1263,9 +1318,9 @@
         "https://josephy.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Joseph, Oregon",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://josephy.org/"
       },
@@ -1286,6 +1341,9 @@
       },
       "weak": true,
       "located": {
+        "state": "OR",
+        "town": "Joseph",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -1294,7 +1352,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "12 - 4 pm 403 N Main St, Joseph, OR"
     }
   ],
   "_removed": [

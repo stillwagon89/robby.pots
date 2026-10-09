@@ -83,7 +83,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -139,7 +140,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -201,7 +203,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -261,7 +264,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -305,9 +309,9 @@
         "https://foxhavenfarm.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Jefferson, Maryland",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://foxhavenfarm.org/"
       },
@@ -319,7 +323,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -341,7 +346,7 @@
       "located": {
         "state": "MD",
         "town": "Jefferson",
-        "score": 4,
+        "score": 10,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -350,7 +355,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "3630 Poffenberger Rd, Jefferson, MD 21755",
+      "lat": 39.3711,
+      "lng": -77.54343
     },
     {
       "id": "annapolis-moms",
@@ -381,7 +389,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -411,7 +420,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 39.09635,
+      "lng": -76.65491
     },
     {
       "id": "visarts-md",
@@ -428,9 +439,9 @@
         "https://www.visartscenter.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Rockville, Maryland",
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.visartscenter.org/"
       },
@@ -442,9 +453,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -461,16 +473,18 @@
         "state": "MD",
         "town": "Rockville"
       },
-      "lat": 39.0818,
-      "lng": -77.15168,
       "located": {
         "state": "MD",
         "town": "Rockville",
-        "score": 6,
+        "score": 15,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "155 Gibbs Street, Rockville, MD 20850",
+      "auto_approved": "2026-10-09",
+      "lat": 39.08677,
+      "lng": -77.15181
     },
     {
       "id": "kilnjoy-ceramics",
@@ -491,9 +505,9 @@
         "https://www.kilnjoy.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Smithsburg, Maryland",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.kilnjoy.com/"
       },
@@ -509,7 +523,8 @@
           "gas_reduction",
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -532,9 +547,13 @@
       },
       "weak": false,
       "located": {
+        "state": "MD",
+        "town": "Smithsburg",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "2023 from 10am-3pm 22201 Pondsville Rd., Smithsburg, MD"
     },
     {
       "id": "joe-hicks-ceramics",
@@ -565,7 +584,8 @@
         "types": [
           "gas_reduction"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -592,7 +612,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "lat": 38.93648,
+      "lng": -76.9597
     }
   ],
   "_removed": [

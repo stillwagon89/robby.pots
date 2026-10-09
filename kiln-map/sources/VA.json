@@ -106,9 +106,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -137,7 +138,8 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "muddy-creek-pottery",
@@ -148,15 +150,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "North Garden",
-      "city": "North Garden",
+      "region": "Lovingston",
+      "city": "Lovingston",
       "urls": [
         "https://www.noahwoodfired.com/"
       ],
       "notes": "Anagama wood firing workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "North Garden, Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.noahwoodfired.com/"
       },
@@ -168,7 +170,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -176,8 +179,6 @@
         "date": "2026-10-06",
         "key": "noahwoodfired.com"
       },
-      "lat": 37.95735,
-      "lng": -78.63751,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -190,10 +191,14 @@
         "town": "North Garden"
       },
       "located": {
+        "state": "VA",
+        "town": "Lovingston",
+        "score": 6,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "470 Ponton Lane, Lovingston, VA"
     },
     {
       "id": "bradley-b-pottery",
@@ -207,15 +212,15 @@
         "wood",
         "gas_reduction"
       ],
-      "region": "Manassas",
-      "city": "Manassas",
+      "region": "Nokesville",
+      "city": "Nokesville",
       "urls": [
         "https://bradleybpottery.com/"
       ],
       "notes": "Soda firing workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Manassas, Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://bradleybpottery.com/"
       },
@@ -230,16 +235,15 @@
           "wood",
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "bradleybpottery.com"
       },
-      "lat": 38.75095,
-      "lng": -77.47527,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -255,10 +259,17 @@
         "town": "Manassas"
       },
       "located": {
+        "state": "VA",
+        "town": "Nokesville",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "9076 Keyser Rd., Nokesville, VA",
+      "auto_approved": "2026-10-09",
+      "lat": 38.66021,
+      "lng": -77.46854
     },
     {
       "id": "althouse-pottery",
@@ -289,16 +300,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "althousepottery.com"
       },
-      "lat": 39.15175,
-      "lng": -77.98252,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -314,11 +324,15 @@
       "located": {
         "state": "VA",
         "town": "Berryville",
-        "score": 2,
+        "score": 8,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "1320 Chilly Hollow Road, Berryville, VA 22611",
+      "auto_approved": "2026-10-09",
+      "lat": 39.15175,
+      "lng": -77.98252
     },
     {
       "id": "river-city-clay",
@@ -351,9 +365,10 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -378,7 +393,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 37.53851,
+      "lng": -77.43428
     },
     {
       "id": "academy-center-of-the-arts",
@@ -395,9 +413,9 @@
         "https://academycenter.org/"
       ],
       "notes": "Two-weekend wood firing workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lynchburg, Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://academycenter.org/"
       },
@@ -409,7 +427,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -417,8 +436,6 @@
         "date": "2026-10-06",
         "key": "academycenter.org"
       },
-      "lat": 37.41375,
-      "lng": -79.14225,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -432,7 +449,7 @@
       "located": {
         "state": "VA",
         "town": "Lynchburg",
-        "score": 14,
+        "score": 35,
         "osm": true,
         "date": "2026-10-09"
       },
@@ -442,7 +459,8 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "3256 600 Main Street, Lynchburg, VA 24504"
     },
     {
       "id": "workhouse-arts-center",
@@ -453,15 +471,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Workhouse Way Lorton",
-      "city": "Workhouse Way Lorton",
+      "region": "Lorton",
+      "city": "Lorton",
       "urls": [
         "https://www.workhousearts.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Workhouse Way Lorton, Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.workhousearts.org/"
       },
@@ -485,11 +503,17 @@
       "weak": true,
       "located": {
         "state": "VA",
-        "town": "Workhouse Way Lorton",
-        "score": 6,
+        "town": "Lorton",
+        "score": 9,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "9518 Workhouse Way, Lorton, VA 22079",
+      "lat": 38.69764,
+      "lng": -77.25542
     },
     {
       "id": "virginia-beach-art-center-inc",
@@ -520,9 +544,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -543,7 +568,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 36.84966,
+      "lng": -75.97608
     },
     {
       "id": "the-workshop-at-timber-ridge-va",
@@ -560,9 +588,9 @@
         "https://lexingtonvirginia.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lexington, Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://lexingtonvirginia.com/"
       },
@@ -574,7 +602,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -596,11 +625,14 @@
       "located": {
         "state": "VA",
         "town": "Lexington",
-        "score": 17,
+        "score": 20,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "106 E Washington St, Lexington, VA 24450",
+      "lat": 37.78451,
+      "lng": -79.44085
     },
     {
       "id": "ceramic-designers-association",
@@ -648,6 +680,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -667,9 +702,9 @@
         "https://torpedofactory.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Alexandria, Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://torpedofactory.org/"
       },
@@ -683,7 +718,8 @@
           "wood",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -705,7 +741,7 @@
       "located": {
         "state": "VA",
         "town": "Alexandria",
-        "score": 6,
+        "score": 15,
         "osm": true,
         "date": "2026-10-09"
       },
@@ -714,7 +750,10 @@
         "verdict": "no",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "105 N. Union St., Alexandria, VA 22314",
+      "lat": 38.80486,
+      "lng": -77.03979
     },
     {
       "id": "bradley-b-pottery-md",
@@ -745,9 +784,10 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -768,7 +808,10 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 38.75095,
+      "lng": -77.47527
     },
     {
       "id": "the-district-clay-center",
@@ -786,9 +829,9 @@
         "https://www.handthrown.studio/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Richmond, Virginia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.handthrown.studio/"
       },
@@ -801,7 +844,8 @@
           "raku",
           "gas_reduction"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -823,6 +867,9 @@
       },
       "weak": false,
       "located": {
+        "state": "VA",
+        "town": "Richmond",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -831,7 +878,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "address": "123 West Brookland Park Boulevard, Richmond, VA",
+      "lat": 37.57141,
+      "lng": -77.43484
     }
   ],
   "_removed": [

@@ -32,7 +32,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -90,7 +91,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -129,15 +131,15 @@
         "pit_barrel_saggar",
         "raku"
       ],
-      "region": "Winchendon Rd. Rindge",
-      "city": "Winchendon Rd. Rindge",
+      "region": "Rindge",
+      "city": "Rindge",
       "urls": [
         "https://www.rootedinclay.com/"
       ],
       "notes": "By appointment. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Winchendon Rd. Rindge, New Hampshire",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.rootedinclay.com/"
       },
@@ -150,7 +152,8 @@
           "pit_barrel_saggar",
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -174,8 +177,8 @@
       "weak": false,
       "located": {
         "state": "NH",
-        "town": "Winchendon Rd. Rindge",
-        "score": 6,
+        "town": "Rindge",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -184,7 +187,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "208 Middle Winchendon Rd., Rindge, NH 03461",
+      "lat": 42.74659,
+      "lng": -72.0245
     },
     {
       "id": "the-wheel-house",
@@ -201,9 +207,9 @@
         "https://www.thewheelhousenh.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Portsmouth, New Hampshire",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.thewheelhousenh.com/"
       },
@@ -225,15 +231,17 @@
         "town": "Portsmouth"
       },
       "weak": false,
-      "lat": 43.07513,
-      "lng": -70.76018,
       "located": {
         "state": "NH",
         "town": "Portsmouth",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "865 Islington St, Suite 200, Portsmouth, NH 03801"
     },
     {
       "id": "timisaacpottery",
@@ -264,7 +272,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {

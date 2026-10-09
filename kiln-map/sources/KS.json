@@ -47,6 +47,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -78,7 +81,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -124,9 +128,9 @@
         "https://www.houseofclaykc.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Overland Park, Kansas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.houseofclaykc.com/"
       },
@@ -138,9 +142,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -158,15 +163,17 @@
         "town": "Overland Park"
       },
       "weak": false,
-      "lat": 38.97425,
-      "lng": -94.68517,
       "located": {
         "state": "KS",
         "town": "Overland Park",
-        "score": 22,
+        "score": 25,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "7811 Marty St, Overland Park, KS 66204",
+      "auto_approved": "2026-10-09",
+      "lat": 38.98736,
+      "lng": -94.66995
     }
   ],
   "_removed": [

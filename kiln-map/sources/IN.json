@@ -56,7 +56,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -112,7 +113,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -156,9 +158,9 @@
         "https://indyartcenter.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Indianapolis, Indiana",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://indyartcenter.org/"
       },
@@ -170,7 +172,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -189,16 +192,17 @@
         "state": "IN",
         "town": "Indianapolis"
       },
-      "lat": 39.76833,
-      "lng": -86.15835,
       "located": {
         "state": "IN",
         "town": "Indianapolis",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "820 E 67th St., Indianapolis, IN 46220",
+      "lat": 39.87778,
+      "lng": -86.14367
     },
     {
       "id": "northern-indiana-clay-alliance",
@@ -229,9 +233,10 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -257,7 +262,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "greater-lafayette-clay-guild",
@@ -268,15 +274,15 @@
       "firing_types_guess": [
         "pit_barrel_saggar"
       ],
-      "region": "Monticello",
-      "city": "Monticello",
+      "region": "Lafayette",
+      "city": "Lafayette",
       "urls": [
         "https://www.greaterlafayetteclayguild.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Monticello, Indiana",
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.greaterlafayetteclayguild.org/"
       },
@@ -288,7 +294,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -305,9 +312,10 @@
         "state": "IN",
         "town": "Lafayette"
       },
-      "lat": 40.74487,
-      "lng": -86.76188,
       "located": {
+        "state": "IN",
+        "town": "Lafayette",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -317,7 +325,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "619 Ferry Street, Lafayette, IN",
+      "lat": 40.41997,
+      "lng": -86.89032
     },
     {
       "id": "playin-with-fire-studios",
@@ -365,7 +376,10 @@
         "result": "agree-yes",
         "date": "2026-10-08"
       },
-      "weak": true
+      "weak": true,
+      "access": {
+        "status": "upcoming"
+      }
     },
     {
       "id": "fire-arts-inc-in",
@@ -376,15 +390,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Ave. South Bend",
-      "city": "Ave. South Bend",
+      "region": "South Bend",
+      "city": "South Bend",
       "urls": [
         "https://fireartsinc.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Ave. South Bend, Indiana",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://fireartsinc.com/"
       },
@@ -396,9 +410,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -418,12 +433,16 @@
       },
       "located": {
         "state": "IN",
-        "town": "Ave. South Bend",
-        "score": 4,
+        "town": "South Bend",
+        "score": 6,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "305 E. Colfax Ave., South Bend, IN 46617",
+      "auto_approved": "2026-10-09",
+      "lat": 41.67779,
+      "lng": -86.24516
     },
     {
       "id": "lala-gallery",
@@ -441,9 +460,9 @@
         "https://lalagallery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lafayette, Indiana",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://lalagallery.com/"
       },
@@ -456,9 +475,10 @@
           "soda",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -481,7 +501,7 @@
       "located": {
         "state": "IN",
         "town": "Lafayette",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -490,65 +510,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "creative-hands-studio",
-      "org": "Creative Hands Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://www.creativehandsstudio.net/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.creativehandsstudio.net/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Participants will learn the fundamentals of the Raku process, including glazing techniques, kiln firing, and post-firing reduction methods that give each piece its one-of-a-kind appearance.",
-        "url": "https://www.creativehandsstudio.net/product/raku-workshop/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "creativehandsstudio.net"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "no",
-        "why": "The page describes ceramic painting, glazing, and pottery wheel throwing classes, but contains no information about raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings—only mentions of bisque and glaze firing as optional services for pieces made in classes.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "agree-yes",
-        "date": "2026-10-07"
-      },
-      "weak": true
+      "address": "1816 Main Street, Lafayette, IN 47904",
+      "auto_approved": "2026-10-09",
+      "lat": 40.4152,
+      "lng": -86.87608
     },
     {
       "id": "truro-center-for-the-arts-at-castle-hill",
@@ -567,9 +533,9 @@
         "https://nhclayproject.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "New Harmony, Indiana",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://nhclayproject.org/"
       },
@@ -583,7 +549,8 @@
           "wood",
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -605,7 +572,7 @@
       "located": {
         "state": "IN",
         "town": "New Harmony",
-        "score": 10,
+        "score": 16,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -614,7 +581,10 @@
         "verdict": "no",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "address": "402 North Street, New Harmony, IN 47631",
+      "lat": 38.13129,
+      "lng": -87.93643
     },
     {
       "id": "fortwayneclay",
@@ -645,7 +615,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -673,7 +644,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 41.07999,
+      "lng": -85.1386
     }
   ],
   "_removed": [
@@ -752,6 +725,10 @@
     {
       "id": "common-clay-space",
       "why": "Its own pages give an address in CA (Creek Blvd Cupertino), not IN. Moved. (2026-10-08)"
+    },
+    {
+      "id": "creative-hands-studio",
+      "why": "Its own pages give an address in WA (Bothell), not IN. Moved. (2026-10-09)"
     }
   ]
 }

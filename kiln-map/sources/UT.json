@@ -32,7 +32,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -92,9 +93,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -117,7 +119,8 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "i-j-and-jeanne-wagner-jewish",
@@ -148,7 +151,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -206,9 +210,10 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -231,7 +236,8 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "kayenta-fire",
@@ -262,7 +268,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -293,7 +300,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 40.29816,
+      "lng": -111.69443
     },
     {
       "id": "pottery-workshops-slc",
@@ -324,9 +333,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -350,7 +360,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 40.52478,
+      "lng": -111.8628
     },
     {
       "id": "desert-sun-ceramics",
@@ -383,7 +396,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -445,9 +459,10 @@
           "raku",
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -472,7 +487,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "corbridge-pottery",
@@ -503,7 +519,8 @@
         "types": [
           "salt"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -526,7 +543,7 @@
       "located": {
         "state": "UT",
         "town": "Logan",
-        "score": 10,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -566,7 +583,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {

@@ -214,12 +214,47 @@ function detailRows(rows) {
 function linksHtml(links) {
   return links.length ? `<p class="kf-eyebrow kf-eyebrow-gap">Links</p><ul class="kf-links">${links.map(([u, t]) => `<li><a href="${esc(u)}" target="_blank" rel="noopener"><span>${esc(t)}</span>${ext}</a></li>`).join("")}</ul>` : "";
 }
+// ---------- "Is this listing wrong?" flag ----------
+const FLAG_SVG = `<svg class="kf-flag-ic" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><path d="M3 1.5v13M3 2.5h8.5l-1.8 3 1.8 3H3" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const flagBtn = () => `<button type="button" class="kf-flag" data-flag>${FLAG_SVG}<span>Is this listing wrong?</span></button>`;
+let flagReturnFocus = null;
+function closeFlagModal() { document.getElementById("kf-flag-modal")?.remove(); document.removeEventListener("keydown", flagKey, true); flagReturnFocus?.focus?.(); }
+function flagKey(e) { if (e.key === "Escape") { e.stopPropagation(); closeFlagModal(); } }
+function openFlagModal() {
+  closeFlagModal();
+  const m = document.createElement("div");
+  m.id = "kf-flag-modal"; m.className = "kf-modal";
+  m.innerHTML = `<div class="kf-modal-card" role="dialog" aria-modal="true" aria-labelledby="kf-flag-title">
+    <button type="button" class="kf-modal-x" aria-label="Close and go back to the list">&times;</button>
+    <h3 id="kf-flag-title">Thank you. Your info has been noted.</h3>
+    <p>If you would like to add more details, you can <a href="contact.html">contact me</a>.</p>
+  </div>`;
+  m.addEventListener("click", (e) => { if (e.target === m || e.target.closest(".kf-modal-x")) closeFlagModal(); });
+  document.body.appendChild(m);
+  document.addEventListener("keydown", flagKey, true);
+  m.querySelector(".kf-modal-x").focus();
+}
+function sendFlag(btn) {
+  const card = btn.closest(".kf-card");
+  const placeId = card?.dataset.place || "", id = card?.dataset.id || "";
+  const p = DATA.places.find((x) => x.id === placeId);
+  const o = p?.opportunities.find((x) => x.id === id);
+  const box = btn.closest(".kf-ai");
+  const payload = {
+    place_id: placeId, listing_id: o ? id : "", place_name: p?.org || "", title: o?.title || "",
+    section: box?.querySelector(".kf-ai-head")?.textContent?.trim() || "",
+    shown_text: (box?.querySelector(".kf-ai-body, .kf-quote")?.textContent || "").trim(),
+    page_url: location.href, source_url: box?.querySelector("a[href^=http]")?.href || "",
+  };
+  fetch("/api/flag", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) }).catch(() => {});
+}
+
 function aiBox(title, text, sourceUrl, checked) {
   if (!text) return "";
   return `<div class="kf-ai">
     <p class="kf-ai-head"><span class="kf-ai-dot"></span>${esc(title)}</p>
     <p class="kf-ai-body">${esc(text)}</p>
-    <p class="kf-ai-foot">${sourceUrl ? `${esc(host(sourceUrl))} · ` : ""}${checked ? `checked ${esc(fmtDay(checked))} · ` : ""}<a href="contact.html">Is this wrong?</a></p>
+    <p class="kf-ai-foot">${sourceUrl ? `${esc(host(sourceUrl))} · ` : ""}${checked ? `checked ${esc(fmtDay(checked))} · ` : ""}${flagBtn()}</p>
   </div>`;
 }
 const wordSet = (t) => new Set((t || "").toLowerCase().replace(/[^a-z ]+/g, " ").split(" ").filter((w) => w.length > 3));
@@ -234,7 +269,7 @@ function evidenceBox(title, text, ev, primary, checked, fallbackUrl) {
     <p class="kf-ai-head"><span class="kf-ai-dot"></span>${esc(title)}</p>
     ${text ? `<p class="kf-ai-body">${esc(text)}</p>` : ""}
     ${ev?.quote ? `<p class="kf-quote">Their page says: &ldquo;${esc(ev.quote)}&rdquo;</p>` : ""}
-    <p class="kf-ai-foot">${srcUrl ? `${esc(host(srcUrl))} ·` : ""}${link} ${checked ? `checked ${esc(fmtDay(checked))} · ` : ""}<a href="contact.html">Is this wrong?</a></p>
+    <p class="kf-ai-foot">${srcUrl ? `${esc(host(srcUrl))} ·` : ""}${link} ${checked ? `checked ${esc(fmtDay(checked))} · ` : ""}${flagBtn()}</p>
   </div>`;
 }
 function contactLine(p) {
@@ -269,7 +304,7 @@ function placeEvidence(p) {
     <p class="kf-ai-head"><span class="kf-ai-dot"></span>Clay.AI summary of their website</p>
     ${p.place_summary ? `<p class="kf-ai-body">${esc(p.place_summary)}</p>` : ""}
     ${lines ? `<ul class="kf-evidence">${lines}</ul>` : ""}
-    <p class="kf-ai-foot">${p.last_checked ? `checked ${esc(fmtDay(p.last_checked))} · ` : ""}<a href="contact.html">Is this wrong?</a></p>
+    <p class="kf-ai-foot">${p.last_checked ? `checked ${esc(fmtDay(p.last_checked))} · ` : ""}${flagBtn()}</p>
   </div>`;
 }
 
@@ -307,7 +342,7 @@ function placeDetail(p) {
     <p class="kf-addr">${esc(p.address || `${p.city}, ${p.state || ""}`)} <span class="kf-precision">${p.location_precision === "address" ? "Exact address" : "Approximate area"}</span></p>
     ${p.location_note ? `<p class="kf-note">${esc(p.location_note)}</p>` : ""}
     <p class="kf-tags">${types.map((t) => `<span class="kf-tag">${esc(TYPE_LABEL[t])}</span>`).join("")}</p>
-    ${p.access ? evidenceBox(p.access.status === "past_only" ? "Clay.AI: they have hosted firings here before" : p.access.status === "ongoing" ? "Clay.AI: open to outsiders now" : "Clay.AI: how you can use their kilns", p.access.note, { quote: p.access.quote, url: p.access.url }, null, null, p.access.url) : ""}
+    ${p.access ? evidenceBox(({ past_only: "Clay.AI: they have hosted firings here before", ongoing: "Clay.AI: open to outsiders now", coming_soon: "Clay.AI: workshops coming soon here", annual: "Clay.AI: they hold this every year", upcoming: "Clay.AI: how you can use their kilns" })[p.access.status] || "Clay.AI: how you can use their kilns", p.access.note, { quote: p.access.quote, url: p.access.url }, null, null, p.access.url) : ""}
     ${p.access?.status === "past_only" ? `<p class="kf-note">No upcoming firing is posted. Contact them to ask about the next one.</p>` : ""}
     ${detailRows([["How outsiders get in", esc(p.get_in.join(" · ") || (updatesUrl(p) || contactUrl(p) ? "Not posted. Contact them to ask." : "No public way in found yet. Know how to reach them? Tell me below."))]])}
     <p class="kf-eyebrow kf-eyebrow-gap">Upcoming here</p>
@@ -477,6 +512,8 @@ function bind() {
   });
   const list = document.getElementById("kf-list");
   list.addEventListener("click", (e) => {
+    const fb = e.target.closest("[data-flag]");
+    if (fb) { e.stopPropagation(); flagReturnFocus = fb; sendFlag(fb); return openFlagModal(); }
     const l = e.target.closest("[data-open-listing]");
     if (l) { state.view = "firings"; state.type = "all"; return select(l.dataset.openListing, true, { scroll: true }); }
     const pl = e.target.closest("[data-open-place]");

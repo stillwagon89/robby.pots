@@ -98,7 +98,10 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": true
+      "weak": true,
+      "access": {
+        "status": "ongoing"
+      }
     },
     {
       "id": "tinkermills-muddy-makers-pottery-studio",
@@ -146,6 +149,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -177,7 +183,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -239,7 +246,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -282,15 +290,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Champaign-Urbana",
-      "city": "Champaign-Urbana",
+      "region": "Urbana",
+      "city": "Urbana",
       "urls": [
         "https://cupotters.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Champaign-Urbana, Illinois",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://cupotters.org/"
       },
@@ -302,7 +310,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -323,9 +332,10 @@
         "street": "900 South Race St., Urbana, IL"
       },
       "weak": false,
-      "lat": 40.11579,
-      "lng": -88.24119,
       "located": {
+        "state": "IL",
+        "town": "Urbana",
+        "score": 6,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -334,7 +344,10 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "address": "900 South Race St., Urbana, IL",
+      "lat": 40.10539,
+      "lng": -88.20936
     },
     {
       "id": "wheel-art-pottery-studios",
@@ -351,9 +364,9 @@
         "https://www.wheelartpottery.studio/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Peoria, Illinois",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.wheelartpottery.studio/"
       },
@@ -365,9 +378,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -388,10 +402,14 @@
       "located": {
         "state": "IL",
         "town": "Peoria",
-        "score": 10,
+        "score": 16,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "1101 SW Washington St., Peoria, IL 61602",
+      "auto_approved": "2026-10-09",
+      "lat": 40.68305,
+      "lng": -89.60096
     },
     {
       "id": "omniform1",
@@ -422,7 +440,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -480,7 +499,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -538,7 +558,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -571,7 +592,9 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": false
+      "weak": false,
+      "lat": 41.87556,
+      "lng": -87.62442
     },
     {
       "id": "distinguished-teaching",
@@ -588,9 +611,9 @@
         "https://distinguishedteaching.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Chicago, Illinois",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://distinguishedteaching.com/"
       },
@@ -615,10 +638,16 @@
       "located": {
         "state": "IL",
         "town": "Chicago",
-        "score": 122,
+        "score": 203,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "4717 N Lincoln Ave, Chicago, IL",
+      "lat": 41.96737,
+      "lng": -87.68719
     },
     {
       "id": "common-clay-space-miki-shim",
@@ -649,9 +678,10 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -678,7 +708,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 42.41573,
+      "lng": -90.42947
     }
   ],
   "_removed": [

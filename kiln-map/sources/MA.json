@@ -106,9 +106,9 @@
         "https://www.thepottersshopandschool.com/"
       ],
       "notes": "Monthly member raku firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Needham, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.thepottersshopandschool.com/"
       },
@@ -120,16 +120,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "thepottersshopandschool.com"
       },
-      "lat": 42.28026,
-      "lng": -71.23606,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -143,10 +142,17 @@
         "street": "31 Thorpe Rd. Needham, MA 02494"
       },
       "located": {
+        "state": "MA",
+        "town": "Needham",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "31 Thorpe Rd, Needham, MA 02494",
+      "auto_approved": "2026-10-09",
+      "lat": 42.29228,
+      "lng": -71.23033
     },
     {
       "id": "the-umbrella-arts-center",
@@ -164,9 +170,9 @@
         "https://theumbrellaarts.org/"
       ],
       "notes": "Three-part raku workshop with group firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Concord, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://theumbrellaarts.org/"
       },
@@ -179,16 +185,15 @@
           "raku",
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "dev.theumbrellaarts.org"
       },
-      "lat": 42.46052,
-      "lng": -71.3489,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -205,11 +210,15 @@
       "located": {
         "state": "MA",
         "town": "Concord",
-        "score": 6,
+        "score": 15,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "40 Stow Street, Concord, MA 01742",
+      "auto_approved": "2026-10-09",
+      "lat": 42.4575,
+      "lng": -71.35243
     },
     {
       "id": "dewclaw-studios",
@@ -240,7 +249,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -294,9 +304,10 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -320,7 +331,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "ben-eberle-ceramics-karma-kiln",
@@ -351,9 +363,10 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -376,7 +389,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "indigo-fire-pottery-studio",
@@ -407,9 +421,10 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -432,7 +447,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "lexart",
@@ -465,9 +481,10 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -492,7 +509,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "old-school-clay-and-ceramics",
@@ -509,9 +527,9 @@
         "https://oldschoolclayandceramics.com/"
       ],
       "notes": "4-class saggar pit firing workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Groton, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://oldschoolclayandceramics.com/"
       },
@@ -523,16 +541,15 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "oldschoolclayandceramics.com"
       },
-      "lat": 42.61122,
-      "lng": -71.57454,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -548,11 +565,15 @@
       "located": {
         "state": "MA",
         "town": "Groton",
-        "score": 79,
+        "score": 82,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "145 Main Street, Groton, MA 01450",
+      "auto_approved": "2026-10-09",
+      "lat": 42.60698,
+      "lng": -71.57023
     },
     {
       "id": "featherstone-center-for-the-arts",
@@ -570,9 +591,9 @@
         "https://www.featherstoneart.org/"
       ],
       "notes": "Dated alternative-firing workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Oak Bluffs, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.featherstoneart.org/"
       },
@@ -585,16 +606,15 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "calendar.vineyardgazette.com"
       },
-      "lat": 41.45362,
-      "lng": -70.56843,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -611,11 +631,15 @@
       "located": {
         "state": "MA",
         "town": "Oak Bluffs",
-        "score": 6,
+        "score": 9,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "30 Featherstone Lane, Oak Bluffs, MA 02557",
+      "auto_approved": "2026-10-09",
+      "lat": 41.42447,
+      "lng": -70.59812
     },
     {
       "id": "worcester-center-for-crafts",
@@ -633,9 +657,9 @@
         "https://worcestercraftcenter.org/"
       ],
       "notes": "Classes and workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Worcester, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://worcestercraftcenter.org/"
       },
@@ -648,16 +672,15 @@
           "raku",
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "worcestercraftcenter.org"
       },
-      "lat": 42.26256,
-      "lng": -71.80189,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -674,11 +697,15 @@
       "located": {
         "state": "MA",
         "town": "Worcester",
-        "score": 6,
+        "score": 15,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "25 Sagamore Road, Worcester, MA 01605",
+      "auto_approved": "2026-10-09",
+      "lat": 42.28109,
+      "lng": -71.80741
     },
     {
       "id": "gustin-ceramics",
@@ -709,7 +736,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -769,9 +797,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -794,7 +823,8 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "the-umbrella-arts-center-ma",
@@ -812,9 +842,9 @@
         "https://dev.theumbrellaarts.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Concord, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://dev.theumbrellaarts.org/"
       },
@@ -827,9 +857,10 @@
           "raku",
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -851,11 +882,15 @@
       "located": {
         "state": "MA",
         "town": "Concord",
-        "score": 6,
+        "score": 15,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "40 Stow Street, Concord, MA 01742",
+      "auto_approved": "2026-10-09",
+      "lat": 42.4575,
+      "lng": -71.35243
     },
     {
       "id": "harvard",
@@ -886,7 +921,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "annual"
       },
       "review": "pending",
       "discovered": {
@@ -910,7 +946,9 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "lat": 42.35301,
+      "lng": -71.13212
     },
     {
       "id": "the-local-fire-arts-center",
@@ -943,7 +981,8 @@
           "raku",
           "gas_reduction"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1003,9 +1042,10 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1036,7 +1076,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 41.74177,
+      "lng": -70.45169
     },
     {
       "id": "sunset-canyon-pottery",
@@ -1067,7 +1110,8 @@
         "types": [
           "gas_reduction"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1107,15 +1151,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Grove Street Middleboro",
-      "city": "Grove Street Middleboro",
+      "region": "Carver",
+      "city": "Carver",
       "urls": [
         "https://dartmouth.theweektoday.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Grove Street Middleboro, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://dartmouth.theweektoday.com/"
       },
@@ -1127,7 +1171,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1147,8 +1192,8 @@
       "weak": true,
       "located": {
         "state": "MA",
-        "town": "Grove Street Middleboro",
-        "score": 2,
+        "town": "Carver",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -1157,7 +1202,10 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "39 Pipers Way, Carver, MA",
+      "lat": 41.83742,
+      "lng": -70.72982
     },
     {
       "id": "tom-white",
@@ -1174,9 +1222,9 @@
         "https://tomwhitepottery.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Northfield, Massachusetts",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://tomwhitepottery.com/"
       },
@@ -1200,10 +1248,16 @@
       "located": {
         "state": "MA",
         "town": "Northfield",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "205 Winchester Road, Northfield, MA 01360",
+      "lat": 42.71988,
+      "lng": -72.43195
     },
     {
       "id": "sam-taylor",
@@ -1246,6 +1300,9 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
+      },
+      "access": {
+        "status": "ongoing"
       }
     }
   ],

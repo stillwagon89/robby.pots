@@ -30,7 +30,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -71,15 +72,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Street Sioux Falls",
-      "city": "Street Sioux Falls",
+      "region": "Sioux Falls",
+      "city": "Sioux Falls",
       "urls": [
         "https://dakotapotters.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Street Sioux Falls, South Dakota",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://dakotapotters.com/"
       },
@@ -91,7 +92,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -111,8 +113,8 @@
       "weak": true,
       "located": {
         "state": "SD",
-        "town": "Street Sioux Falls",
-        "score": 2,
+        "town": "Sioux Falls",
+        "score": 12,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -121,7 +123,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "2315 W. Madison Street, Sioux Falls, SD 57104",
+      "lat": 43.55836,
+      "lng": -96.75779
     }
   ],
   "_removed": [

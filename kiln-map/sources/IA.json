@@ -30,7 +30,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -90,7 +91,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -152,9 +154,10 @@
           "raku",
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -188,7 +191,8 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "creston-arts",
@@ -236,6 +240,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -267,7 +274,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -313,9 +321,9 @@
         "https://www.unleashcb.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Council Bluffs, Iowa",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.unleashcb.com/"
       },
@@ -327,7 +335,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -349,11 +358,14 @@
       "located": {
         "state": "IA",
         "town": "Council Bluffs",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "509 23rd Ave., Council Bluffs, IA 51501",
+      "lat": 41.23923,
+      "lng": -95.85296
     },
     {
       "id": "arthaus",
@@ -384,9 +396,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -409,7 +422,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "shady-grove-pottery",
@@ -459,6 +473,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
+      },
+      "access": {
+        "status": "ongoing"
       }
     }
   ],

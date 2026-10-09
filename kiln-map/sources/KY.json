@@ -42,9 +42,9 @@
         "https://danvillekentucky.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Danville, Kentucky",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://danvillekentucky.com/"
       },
@@ -56,7 +56,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -76,15 +77,14 @@
         "town": "Danville"
       },
       "weak": false,
-      "lat": 37.64565,
-      "lng": -84.77218,
       "located": {
         "state": "KY",
         "town": "Danville",
-        "score": 6,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "134 South Second Street, Danville, KY 40422"
     },
     {
       "id": "ryandurbinceramics",
@@ -115,7 +115,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -172,7 +173,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {

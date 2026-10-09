@@ -107,7 +107,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -168,9 +169,10 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -194,7 +196,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "rain-city-clay",
@@ -211,9 +214,9 @@
         "https://raincityclay.com/"
       ],
       "notes": "Soda kiln firings and raku. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Seattle, Washington",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://raincityclay.com/"
       },
@@ -225,9 +228,10 @@
         "types": [
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -247,11 +251,15 @@
       "located": {
         "state": "WA",
         "town": "Seattle",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "4208 SW 100th Street, Seattle, WA 98146",
+      "auto_approved": "2026-10-09",
+      "lat": 47.51398,
+      "lng": -122.38641
     },
     {
       "id": "burnish-clay-studio",
@@ -268,9 +276,9 @@
         "https://burnishclaystudio.com/"
       ],
       "notes": "In-person load-and-fire workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bellingham, Washington",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://burnishclaystudio.com/"
       },
@@ -282,16 +290,15 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "burnishclaystudio.com"
       },
-      "lat": 48.7544,
-      "lng": -122.47884,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -305,10 +312,17 @@
         "street": "2006 N State St, Bellingham, WA, 98225"
       },
       "located": {
+        "state": "WA",
+        "town": "Bellingham",
+        "score": 6,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "2006 N State St, Bellingham, WA",
+      "auto_approved": "2026-10-09",
+      "lat": 48.7557,
+      "lng": -122.46609
     },
     {
       "id": "tacoma-clay",
@@ -319,15 +333,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Tacoma",
-      "city": "Tacoma",
+      "region": "S Tacoma",
+      "city": "S Tacoma",
       "urls": [
         "https://www.tacomaclay.com/"
       ],
       "notes": "Oct 2 raku workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tacoma, Washington",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.tacomaclay.com/"
       },
@@ -339,16 +353,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "tacomaclay.com"
       },
-      "lat": 47.2455,
-      "lng": -122.43833,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -363,12 +376,16 @@
       },
       "located": {
         "state": "WA",
-        "town": "Tacoma",
-        "score": 6,
+        "town": "S Tacoma",
+        "score": 9,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "2333 Tacoma Ave, S Tacoma, WA 98402",
+      "auto_approved": "2026-10-09",
+      "lat": 47.22241,
+      "lng": -122.4391
     },
     {
       "id": "kilnfolk-clay-studio",
@@ -399,7 +416,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -445,9 +463,9 @@
         "https://clayconnectionspokane.com/"
       ],
       "notes": "**Bring your own bisque** for raku firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Spokane, Washington",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://clayconnectionspokane.com/"
       },
@@ -459,16 +477,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "clayconnectionspokane.com"
       },
-      "lat": 47.65719,
-      "lng": -117.42351,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -484,10 +501,14 @@
       "located": {
         "state": "WA",
         "town": "Spokane",
-        "score": 7,
+        "score": 10,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "address": "714 East Sprague Avenue, Spokane, WA 99202",
+      "auto_approved": "2026-10-09",
+      "lat": 47.6573,
+      "lng": -117.40135
     },
     {
       "id": "gathering-ways",
@@ -518,9 +539,10 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -543,7 +565,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "olympic-coast-creative",
@@ -560,9 +583,9 @@
         "https://olympiccoastcreative.com/"
       ],
       "notes": "Non-members can join (contact Brian). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Port Angeles, Washington",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://olympiccoastcreative.com/"
       },
@@ -574,7 +597,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -595,7 +619,7 @@
       "located": {
         "state": "WA",
         "town": "Port Angeles",
-        "score": 28,
+        "score": 40,
         "osm": true,
         "date": "2026-10-09"
       },
@@ -605,7 +629,8 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "1927 E First Street, Port Angeles, WA 98362"
     },
     {
       "id": "evergreen-coast-pit-workshop",
@@ -638,9 +663,10 @@
           "salt",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -663,10 +689,14 @@
       "located": {
         "state": "WA",
         "town": "Seaview",
-        "score": 42,
+        "score": 51,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "3914 Pacific Way, Seaview, WA 98644",
+      "auto_approved": "2026-10-09",
+      "lat": 46.33454,
+      "lng": -124.0546
     },
     {
       "id": "eastside-pottery",
@@ -697,9 +727,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -723,7 +754,10 @@
         "score": 8,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 47.61442,
+      "lng": -122.19234
     },
     {
       "id": "kirkland-art-center",
@@ -754,7 +788,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -781,7 +816,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 47.67654,
+      "lng": -122.20708
     },
     {
       "id": "seattle-pottery-supply-wa",
@@ -798,9 +835,9 @@
         "https://seattlepotterysupply.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Seattle, Washington",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://seattlepotterysupply.com/"
       },
@@ -812,7 +849,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -835,11 +873,14 @@
       "located": {
         "state": "WA",
         "town": "Seattle",
-        "score": 6,
+        "score": 15,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "35 S Hanford St, Seattle, WA 98134",
+      "lat": 47.57492,
+      "lng": -122.33763
     },
     {
       "id": "ilwaco-artworks",
@@ -870,9 +911,10 @@
         "types": [
           "salt"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -893,7 +935,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 46.30904,
+      "lng": -124.04366
     },
     {
       "id": "kmun",
@@ -924,7 +969,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -944,20 +990,22 @@
         "town": "Ilwaco",
         "street": "109 First Avenue North, Ilwaco, WA, 98624"
       },
-      "weak": true,
       "located": {
         "state": "OR",
         "town": "Astoria",
-        "score": 2,
+        "score": 8,
         "osm": false,
         "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
-        "result": "split",
+        "result": "agree-yes (both said yes)",
         "date": "2026-10-08"
-      }
+      },
+      "weak": true,
+      "lat": 46.30904,
+      "lng": -124.04366
     },
     {
       "id": "spokane-potters-guild",
@@ -988,7 +1036,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -1017,7 +1066,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 47.65719,
+      "lng": -117.42351
     },
     {
       "id": "seatown-pottery",
@@ -1034,9 +1085,9 @@
         "https://www.seatownpottery.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Seattle, Washington",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.seatownpottery.com/"
       },
@@ -1048,9 +1099,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1071,10 +1123,14 @@
       "located": {
         "state": "WA",
         "town": "Seattle",
-        "score": 20,
+        "score": 50,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "address": "412 NE 72nd St, Seattle, WA 98115",
+      "auto_approved": "2026-10-09",
+      "lat": 47.68075,
+      "lng": -122.3241
     },
     {
       "id": "jansen-art-center",
@@ -1091,9 +1147,9 @@
         "https://www.jansenartcenter.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lynden, Washington",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.jansenartcenter.org/"
       },
@@ -1105,9 +1161,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1129,7 +1186,7 @@
       "located": {
         "state": "WA",
         "town": "Lynden",
-        "score": 12,
+        "score": 30,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -1138,7 +1195,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "321 Front St, Lynden, WA 98264",
+      "auto_approved": "2026-10-09",
+      "lat": 48.94305,
+      "lng": -122.45138
     },
     {
       "id": "turning-earth",
@@ -1171,7 +1232,8 @@
           "raku",
           "gas_reduction"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -1195,7 +1257,9 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": true
+      "weak": true,
+      "lat": 47.05731,
+      "lng": -123.92711
     },
     {
       "id": "dahl-arts-studio",
@@ -1237,6 +1301,9 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -1279,7 +1346,12 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "lat": 47.60383,
+      "lng": -122.33006
     },
     {
       "id": "robbie-lobell",
@@ -1323,6 +1395,9 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -1370,7 +1445,12 @@
         "score": 7,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "lat": 48.01815,
+      "lng": -122.51547
     },
     {
       "id": "salish-sea-ceramic-studio",
@@ -1401,7 +1481,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1428,7 +1509,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 47.97934,
+      "lng": -122.2127
     },
     {
       "id": "damian-grava",
@@ -1451,7 +1534,7 @@
       "contact": {
         "website": "https://www.damiangrava.com/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -1481,7 +1564,77 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 47.60383,
+      "lng": -122.33006
+    },
+    {
+      "id": "creative-hands-studio",
+      "org": "Creative Hands Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Bothell",
+      "city": "Bothell",
+      "urls": [
+        "https://www.creativehandsstudio.net/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Bothell, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.creativehandsstudio.net/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Participants will learn the fundamentals of the Raku process, including glazing techniques, kiln firing, and post-firing reduction methods that give each piece its one-of-a-kind appearance.",
+        "url": "https://www.creativehandsstudio.net/product/raku-workshop/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07",
+        "status": "ongoing"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "creativehandsstudio.net"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page describes ceramic painting, glazing, and pottery wheel throwing classes, but contains no information about raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings—only mentions of bisque and glaze firing as optional services for pieces made in classes.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "state": "WA",
+        "town": "Bothell",
+        "score": 9,
+        "osm": false,
+        "date": "2026-10-09"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-07"
+      },
+      "weak": true,
+      "lat": 47.76232,
+      "lng": -122.2054
     }
   ],
   "_removed": [

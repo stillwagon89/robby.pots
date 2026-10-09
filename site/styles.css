@@ -1475,3 +1475,15 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
   transition: transform 100ms var(--ease-out);
 }
 .kf-cluster:hover { transform: scale(1.08); }
+
+/* "Is this listing wrong?" flag and its thank-you popup */
+.kf-flag { display: inline-flex; align-items: center; gap: 5px; background: none; border: 0; padding: 0; font: inherit; color: var(--cobalt); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.kf-flag:hover, .kf-flag:focus-visible { color: var(--cobalt-muted, var(--cobalt)); }
+.kf-flag-ic { flex: none; }
+.kf-modal { position: fixed; inset: 0; z-index: 1000; display: flex; align-items: center; justify-content: center; padding: 16px; background: rgba(20, 24, 40, 0.45); }
+.kf-modal-card { position: relative; max-width: 380px; width: 100%; background: #fff; color: #1b1e2b; border-radius: 10px; padding: 28px 24px 22px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25); }
+.kf-modal-card h3 { margin: 0 24px 10px 0; font-size: 18px; line-height: 1.3; }
+.kf-modal-card p { margin: 0; font-size: 15px; line-height: 1.5; }
+.kf-modal-card a { color: var(--cobalt); text-underline-offset: 3px; }
+.kf-modal-x { position: absolute; top: 6px; right: 8px; width: 36px; height: 36px; border: 0; background: none; font-size: 26px; line-height: 1; color: #555; cursor: pointer; border-radius: 6px; }
+.kf-modal-x:hover, .kf-modal-x:focus-visible { background: #eee; }

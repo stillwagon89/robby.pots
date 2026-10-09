@@ -85,15 +85,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "St. Beaver Dam",
-      "city": "St. Beaver Dam",
+      "region": "Beaver Dam",
+      "city": "Beaver Dam",
       "urls": [
         "https://artonthetownwi.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Beaver Dam, Wisconsin",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://artonthetownwi.com/"
       },
@@ -115,8 +115,8 @@
       "weak": true,
       "located": {
         "state": "WI",
-        "town": "St. Beaver Dam",
-        "score": 6,
+        "town": "Beaver Dam",
+        "score": 9,
         "osm": true,
         "date": "2026-10-09"
       },
@@ -125,7 +125,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "9841 127 Front St., Beaver Dam, WI 53916"
     },
     {
       "id": "adamah-art-studios",
@@ -156,7 +160,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -198,9 +203,9 @@
         "https://events.nwtc.edu/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Green Bay, Wisconsin",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://events.nwtc.edu/"
       },
@@ -212,7 +217,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -231,16 +237,17 @@
         "state": "",
         "town": ""
       },
-      "lat": 44.51264,
-      "lng": -88.01258,
       "located": {
         "state": "WI",
         "town": "Green Bay",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "2740 West Mason St, Green Bay, WI 54303",
+      "lat": 44.52811,
+      "lng": -88.10445
     },
     {
       "id": "mineral-point-chamber-of",
@@ -257,9 +264,9 @@
         "https://www.mineralpoint.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Mineral Point, Wisconsin",
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.mineralpoint.com/"
       },
@@ -280,12 +287,10 @@
         "street": "114 High Street, Mineral Point, WI 53565"
       },
       "weak": true,
-      "lat": 42.86011,
-      "lng": -90.17977,
       "located": {
         "state": "WI",
         "town": "Mineral Point",
-        "score": 8,
+        "score": 20,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -294,7 +299,13 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "114 High Street, Mineral Point, WI 53565",
+      "lat": 42.85966,
+      "lng": -90.17866
     },
     {
       "id": "windy-ridge-pottery",
@@ -325,9 +336,10 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -357,7 +369,8 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "potters-without-kilns",
@@ -390,7 +403,8 @@
           "soda",
           "gas_reduction"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -452,9 +466,10 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -478,7 +493,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "linda-christianson-pottery",
@@ -509,7 +525,8 @@
         "types": [
           "salt"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -530,20 +547,20 @@
       },
       "lat": 42.96001,
       "lng": -90.13045,
-      "weak": true,
       "located": {
         "state": "MN",
         "town": "Lindstrom",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
-        "result": "split",
+        "result": "agree-yes (both said yes)",
         "date": "2026-10-08"
-      }
+      },
+      "weak": true
     },
     {
       "id": "bethel-horizons-foundation-inc",
@@ -574,7 +591,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -649,6 +667,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -682,7 +703,8 @@
           "wood",
           "gas_reduction"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -759,6 +781,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -807,6 +832,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -838,7 +866,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -865,7 +894,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 46.47102,
+      "lng": -91.19832
     },
     {
       "id": "ram-wustum",
@@ -882,9 +913,9 @@
         "https://www.ramart.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Racine, Wisconsin",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.ramart.org/"
       },
@@ -896,7 +927,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -915,16 +947,17 @@
         "state": "WI",
         "town": "Racine"
       },
-      "lat": 42.73138,
-      "lng": -87.78348,
       "located": {
         "state": "WI",
         "town": "Racine",
-        "score": 22,
+        "score": 55,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "441 Main Street, Racine, WI 53403",
+      "lat": 42.72828,
+      "lng": -87.78272
     },
     {
       "id": "clayfestwi",
@@ -943,7 +976,7 @@
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
       "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://clayfestwi.com/"
       },
@@ -955,7 +988,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -974,7 +1008,7 @@
         "state": "WI",
         "town": ""
       },
-      "weak": false,
+      "weak": true,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -1001,9 +1035,9 @@
         "https://www.creamcityclay.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "West Allis, Wisconsin",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.creamcityclay.com/"
       },
@@ -1015,9 +1049,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1039,10 +1074,14 @@
       "located": {
         "state": "WI",
         "town": "West Allis",
-        "score": 12,
+        "score": 30,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "7105 W Greenfield Ave., West Allis, WI 53214",
+      "auto_approved": "2026-10-09",
+      "lat": 43.01654,
+      "lng": -88.00152
     },
     {
       "id": "simply-dunn-pottery",
@@ -1054,15 +1093,15 @@
         "wood",
         "gas_reduction"
       ],
-      "region": "Street Menomonie",
-      "city": "Street Menomonie",
+      "region": "Menomonie",
+      "city": "Menomonie",
       "urls": [
         "https://simply-dunn.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Street Menomonie, Wisconsin",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://simply-dunn.com/"
       },
@@ -1085,11 +1124,15 @@
       "weak": true,
       "located": {
         "state": "WI",
-        "town": "Street Menomonie",
-        "score": 6,
+        "town": "Menomonie",
+        "score": 11,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "2543 461st Street, Menomonie, WI 54751"
     },
     {
       "id": "simonlevin",
@@ -1120,7 +1163,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1139,20 +1183,22 @@
         "state": "WI",
         "town": "Gresham"
       },
-      "weak": true,
       "located": {
         "state": "IL",
-        "town": "Pawnee Rd. Pawnee",
-        "score": 2,
+        "town": "Pawnee",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
-        "result": "split",
+        "result": "agree-yes (both said yes)",
         "date": "2026-10-07"
-      }
+      },
+      "weak": true,
+      "lat": 44.85182,
+      "lng": -88.78693
     }
   ],
   "_removed": [

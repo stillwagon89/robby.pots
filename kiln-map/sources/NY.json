@@ -60,7 +60,8 @@
           "wood",
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -104,9 +105,9 @@
         "https://www.alterworkstudios.com/"
       ],
       "notes": "By appointment. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Long Island City, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.alterworkstudios.com/"
       },
@@ -119,7 +120,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -141,7 +143,7 @@
       "located": {
         "state": "NY",
         "town": "Long Island City",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -150,7 +152,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "20 22nd Street, Long Island City, NY 11101",
+      "lat": 40.75776,
+      "lng": -73.93781
     },
     {
       "id": "tony-moore-wood-fire-kiln-garrison-art-center",
@@ -161,15 +166,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Cold Spring / Garrison",
+      "region": "Cold Spring",
       "city": "Cold Spring",
       "urls": [
         "https://tonymoorekiln.com/"
       ],
       "notes": "Communal week-long firings 3×/year. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Cold Spring, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://tonymoorekiln.com/"
       },
@@ -181,7 +186,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -189,8 +195,6 @@
         "date": "2026-10-06",
         "key": "tonymoorekiln.com"
       },
-      "lat": 41.42009,
-      "lng": -73.95458,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -205,7 +209,7 @@
       "located": {
         "state": "NY",
         "town": "Cold Spring",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -214,7 +218,8 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "78 Trout Brook Road, Cold Spring, NY 10516"
     },
     {
       "id": "uptown-clay-walton-woodfire-kiln",
@@ -231,9 +236,9 @@
         "https://www.uptown-clay.com/"
       ],
       "notes": "Off-grid firing experience. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "New York, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.uptown-clay.com/"
       },
@@ -245,7 +250,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -265,7 +271,7 @@
       "located": {
         "state": "NY",
         "town": "New York",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -275,7 +281,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "178 Bennett Avenue, New York, NY",
+      "lat": 40.85603,
+      "lng": -73.93438
     },
     {
       "id": "craigardan",
@@ -306,9 +315,10 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -332,7 +342,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "salem-art-works",
@@ -349,9 +360,9 @@
         "https://www.salemartworks.org/"
       ],
       "notes": "One-day firing can be arranged; experienced users fire on their own. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Salem, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.salemartworks.org/"
       },
@@ -363,7 +374,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -371,8 +383,6 @@
         "date": "2026-10-06",
         "key": "salemartworks.org"
       },
-      "lat": 43.17145,
-      "lng": -73.33015,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -386,7 +396,7 @@
       "located": {
         "state": "NY",
         "town": "Salem",
-        "score": 14,
+        "score": 26,
         "osm": true,
         "date": "2026-10-09"
       },
@@ -396,7 +406,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "19 Cary Lane, Salem, NY 12865",
+      "lat": 43.17098,
+      "lng": -73.3329
     },
     {
       "id": "new-prospect-pottery",
@@ -431,7 +444,8 @@
           "salt",
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -494,9 +508,10 @@
           "soda",
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -521,7 +536,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "collective",
@@ -552,7 +568,8 @@
         "types": [
           "salt"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -612,9 +629,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -637,7 +655,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "view-arts-center",
@@ -668,9 +687,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -696,7 +716,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "clayworks-on-columbia-demetria-chappo",
@@ -727,7 +748,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -787,7 +809,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -843,9 +866,10 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -872,7 +896,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "the-pottery-studio",
@@ -903,7 +928,8 @@
         "types": [
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -927,8 +953,8 @@
       },
       "located": {
         "state": "CA",
-        "town": "Drive Culver City",
-        "score": 4,
+        "town": "Culver City",
+        "score": 6,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -969,7 +995,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -1011,9 +1038,9 @@
         "https://choplet.com/"
       ],
       "notes": "Raku workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Brooklyn, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://choplet.com/"
       },
@@ -1025,16 +1052,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "choplet.com"
       },
-      "lat": 40.6526,
-      "lng": -73.94972,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -1050,11 +1076,15 @@
       "located": {
         "state": "NY",
         "town": "Brooklyn",
-        "score": 14,
+        "score": 35,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "238 Grand St., Brooklyn, NY 11211",
+      "auto_approved": "2026-10-09",
+      "lat": 40.71349,
+      "lng": -73.95925
     },
     {
       "id": "silk-road-ceramics-studio",
@@ -1086,7 +1116,8 @@
           "raku",
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1144,9 +1175,10 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1167,7 +1199,10 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 42.13453,
+      "lng": -73.8918
     },
     {
       "id": "waterbrook-potters-studio",
@@ -1193,7 +1228,7 @@
       "contact": {
         "website": "https://www.waterbrookpotters.com/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1227,7 +1262,13 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 42.73008,
+      "lng": -73.70123
     },
     {
       "id": "thousand-islands-arts-center",
@@ -1258,7 +1299,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1288,7 +1330,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 44.23949,
+      "lng": -76.08578
     },
     {
       "id": "long-island-university",
@@ -1305,9 +1349,9 @@
         "https://liu.edu/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Brookville, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://liu.edu/"
       },
@@ -1319,7 +1363,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1342,11 +1387,14 @@
       "located": {
         "state": "NY",
         "town": "Brookville",
-        "score": 10,
+        "score": 25,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "720 Northern Blvd., Brookville, NY 11548",
+      "lat": 40.81727,
+      "lng": -73.59733
     },
     {
       "id": "rochester-folk-art-guild",
@@ -1394,7 +1442,12 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "lat": 43.15729,
+      "lng": -77.61521
     },
     {
       "id": "patchogue-arts-council",
@@ -1405,15 +1458,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "PATCHOGUE",
-      "city": "PATCHOGUE",
+      "region": "Patchogue",
+      "city": "Patchogue",
       "urls": [
         "https://patchoguearts.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "PATCHOGUE, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://patchoguearts.org/"
       },
@@ -1425,7 +1478,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -1446,8 +1500,8 @@
       "weak": true,
       "located": {
         "state": "NY",
-        "town": "PATCHOGUE",
-        "score": 6,
+        "town": "Patchogue",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -1456,7 +1510,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "20 Terry Street, Patchogue, NY",
+      "lat": 40.76413,
+      "lng": -73.01356
     },
     {
       "id": "pottery-northwest-wa",
@@ -1487,7 +1544,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1511,7 +1569,9 @@
         "score": 10,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 40.71273,
+      "lng": -74.00602
     }
   ],
   "_removed": [

@@ -68,9 +68,9 @@
         "https://www.warroadriverplace.org/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Warroad, Minnesota",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.warroadriverplace.org/"
       },
@@ -82,7 +82,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -101,12 +102,10 @@
         "street": "103 State Avenue"
       },
       "weak": true,
-      "lat": 48.90527,
-      "lng": -95.3144,
       "located": {
         "state": "MN",
         "town": "Warroad",
-        "score": 14,
+        "score": 23,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -115,7 +114,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "103 State Avenue, Warroad, MN 56763",
+      "lat": 48.9025,
+      "lng": -95.32021
     },
     {
       "id": "buffalo-art-guild",
@@ -132,9 +134,9 @@
         "https://www.buffaloartguild.org/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Buffalo, Minnesota",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.buffaloartguild.org/"
       },
@@ -146,9 +148,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -170,7 +173,7 @@
       "located": {
         "state": "MN",
         "town": "Buffalo",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -179,7 +182,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "114 Commerce Cir, Buffalo, MN 55313",
+      "auto_approved": "2026-10-09",
+      "lat": 45.1964,
+      "lng": -93.87333
     },
     {
       "id": "minnetonka-center-for-the-arts",
@@ -192,14 +199,14 @@
         "soda",
         "gas_reduction"
       ],
-      "region": "Shore Drive Wayzata",
-      "city": "Shore Drive Wayzata",
+      "region": "Wayzata",
+      "city": "Wayzata",
       "urls": [
         "https://minnetonkaarts.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Shore Drive Wayzata, Minnesota",
+      "geocode": "Wayzata, Minnesota",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://minnetonkaarts.org/"
@@ -214,9 +221,10 @@
           "soda",
           "gas_reduction"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -238,11 +246,15 @@
       "weak": false,
       "located": {
         "state": "MN",
-        "town": "Shore Drive Wayzata",
-        "score": 2,
+        "town": "Wayzata",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "2240 North Shore Drive, Wayzata, MN 55391",
+      "auto_approved": "2026-10-09",
+      "lat": 44.97076,
+      "lng": -93.51195
     },
     {
       "id": "north-house-folk-school",
@@ -273,7 +285,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -299,7 +312,9 @@
         "score": 11,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 47.75047,
+      "lng": -90.33468
     },
     {
       "id": "the-workshop-mpls",
@@ -332,7 +347,8 @@
           "soda",
           "gas_reduction"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -397,7 +413,8 @@
           "raku",
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -468,6 +485,9 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
+      },
+      "access": {
+        "status": "ongoing"
       }
     }
   ],

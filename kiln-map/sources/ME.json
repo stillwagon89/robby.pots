@@ -87,15 +87,15 @@
         "soda",
         "wood"
       ],
-      "region": "Free Street Portland",
-      "city": "Free Street Portland",
+      "region": "Portland",
+      "city": "Portland",
       "urls": [
         "https://www.creativeportland.com/"
       ],
       "notes": "Dated course. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Free Street Portland, Maine",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.creativeportland.com/"
       },
@@ -108,7 +108,8 @@
           "soda",
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -131,12 +132,15 @@
       },
       "located": {
         "state": "ME",
-        "town": "Free Street Portland",
-        "score": 4,
+        "town": "Portland",
+        "score": 6,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "84 Free Street, Portland, ME 04101",
+      "lat": 43.65536,
+      "lng": -70.26019
     },
     {
       "id": "turning-arts-studio",
@@ -167,9 +171,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -192,7 +197,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "coastal-maine-raku-pit-firing",
@@ -225,9 +231,10 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "annual"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -252,7 +259,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "nate-winter-studios",
@@ -283,9 +291,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -308,7 +317,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "portland-pottery",
@@ -325,9 +335,9 @@
         "https://portlandpottery.com/"
       ],
       "notes": "Classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Portland, Maine",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://portlandpottery.com/"
       },
@@ -339,16 +349,15 @@
         "types": [
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "portlandpottery.com"
       },
-      "lat": 43.65736,
-      "lng": -70.25866,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -364,11 +373,15 @@
       "located": {
         "state": "ME",
         "town": "Portland",
-        "score": 4,
+        "score": 13,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "118 Washington Ave., Portland, ME 04101",
+      "auto_approved": "2026-10-09",
+      "lat": 43.66709,
+      "lng": -70.25335
     },
     {
       "id": "maine-crafts-association",
@@ -379,15 +392,15 @@
       "firing_types_guess": [
         "soda"
       ],
-      "region": "Rd West Gardiner",
-      "city": "Rd West Gardiner",
+      "region": "West Gardiner",
+      "city": "West Gardiner",
       "urls": [
         "https://mainecrafts.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Rd West Gardiner, Maine",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://mainecrafts.org/"
       },
@@ -399,7 +412,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -421,12 +435,15 @@
       },
       "located": {
         "state": "ME",
-        "town": "Rd West Gardiner",
-        "score": 6,
+        "town": "West Gardiner",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "288 Lewiston Rd, West Gardiner, ME 04345",
+      "lat": 44.20844,
+      "lng": -69.83425
     },
     {
       "id": "tyler-gulden-ceramics",
@@ -445,7 +462,7 @@
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Walpole, Maine",
+      "geocode": "Walpole, ME",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.tylergulden.com/"
@@ -459,9 +476,10 @@
           "gas_reduction",
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -483,10 +501,14 @@
       "located": {
         "state": "ME",
         "town": "Walpole",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "45 Clark's Cove Rd, Walpole, ME 04573",
+      "auto_approved": "2026-10-09",
+      "lat": 43.95043,
+      "lng": -69.5571
     },
     {
       "id": "castine-arts-association",
@@ -531,7 +553,12 @@
         "score": 2,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "lat": 44.38783,
+      "lng": -68.79662
     }
   ],
   "_removed": [

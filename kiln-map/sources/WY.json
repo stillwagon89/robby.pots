@@ -30,7 +30,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -76,9 +77,9 @@
         "https://lccc.coursestorm.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Cheyenne, Wyoming",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://lccc.coursestorm.com/"
       },
@@ -90,7 +91,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -113,10 +115,13 @@
       "located": {
         "state": "WY",
         "town": "Cheyenne",
-        "score": 2,
+        "score": 5,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "address": "1400 East College Dr, Cheyenne, WY 82007",
+      "lat": 41.1045,
+      "lng": -104.78297
     },
     {
       "id": "red-bison-studios",
@@ -147,7 +152,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {

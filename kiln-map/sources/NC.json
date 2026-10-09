@@ -90,19 +90,19 @@
       "firing_types_guess": [
         "soda"
       ],
-      "region": "Franklin Road Highlands",
-      "city": "Franklin Road Highlands",
+      "region": "Highlands",
+      "city": "Highlands",
       "urls": [
         "https://www.thebascom.org/"
       ],
       "notes": "Workshops (Ben Owen III, Gertrude Graham Smith). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Franklin Road Highlands, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.thebascom.org/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -122,12 +122,19 @@
       },
       "located": {
         "state": "NC",
-        "town": "Franklin Road Highlands",
-        "score": 4,
+        "town": "Highlands",
+        "score": 6,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "323 Franklin Road, Highlands, NC 28741",
+      "auto_approved": "2026-10-09",
+      "lat": 35.05761,
+      "lng": -83.20412
     },
     {
       "id": "wood-song-pottery",
@@ -158,7 +165,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -207,9 +215,9 @@
         "https://dougdotsonpottery.com/"
       ],
       "notes": "Students join soda firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pittsboro, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://dougdotsonpottery.com/"
       },
@@ -221,9 +229,10 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -244,11 +253,15 @@
       "located": {
         "state": "NC",
         "town": "Pittsboro",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "305 Mockernut Road, Pittsboro, NC 27312",
+      "auto_approved": "2026-10-09",
+      "lat": 35.8092,
+      "lng": -79.13315
     },
     {
       "id": "delores-pottery-studios",
@@ -281,7 +294,8 @@
           "raku",
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -325,9 +339,9 @@
         "https://www.pascapottery.com/"
       ],
       "notes": "Raku firing sessions. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Durham, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.pascapottery.com/"
       },
@@ -339,7 +353,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -347,8 +362,6 @@
         "date": "2026-10-06",
         "key": "pascapottery.com"
       },
-      "lat": 35.99665,
-      "lng": -78.90181,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -363,7 +376,7 @@
       "located": {
         "state": "NC",
         "town": "Durham",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -372,7 +385,8 @@
         "verdict": "no",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "11 am - 4 pm 5 Wyndham Place, Durham, NC 27705"
     },
     {
       "id": "clayworks",
@@ -389,9 +403,9 @@
         "https://www.clayworksinc.org/"
       ],
       "notes": "Same-day raku firing. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Charlotte, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.clayworksinc.org/"
       },
@@ -403,16 +417,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "clayworksinc.org"
       },
-      "lat": 35.22721,
-      "lng": -80.84308,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -426,10 +439,17 @@
         "street": "4506 Monroe Road"
       },
       "located": {
+        "state": "NC",
+        "town": "Charlotte",
+        "score": 9,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "4506 Monroe Road, Charlotte, NC",
+      "auto_approved": "2026-10-09",
+      "lat": 35.19378,
+      "lng": -80.78463
     },
     {
       "id": "cedar-oak-farm-pottery",
@@ -447,9 +467,9 @@
         "https://www.cedaroakfarmpottery.com/"
       ],
       "notes": "Outside artists can bring work to pit firings. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Indian Trail, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.cedaroakfarmpottery.com/"
       },
@@ -462,16 +482,15 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "cedaroakfarmpottery.com"
       },
-      "lat": 35.07681,
-      "lng": -80.66924,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -488,11 +507,15 @@
       "located": {
         "state": "NC",
         "town": "Indian Trail",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "7816 West Duncan Road, Indian Trail, NC 28079",
+      "auto_approved": "2026-10-09",
+      "lat": 35.14594,
+      "lng": -80.56241
     },
     {
       "id": "rising-sun-pottery",
@@ -525,9 +548,10 @@
           "raku",
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -552,7 +576,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "fat-cat-pottery",
@@ -585,16 +610,15 @@
           "gas_reduction",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "fatcatpottery.com"
       },
-      "lat": 34.23529,
-      "lng": -77.94873,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -611,11 +635,15 @@
       "located": {
         "state": "NC",
         "town": "Wilmington",
-        "score": 4,
+        "score": 10,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "2500 Blue Clay Road, Wilmington, NC 28405",
+      "auto_approved": "2026-10-09",
+      "lat": 34.23529,
+      "lng": -77.94873
     },
     {
       "id": "raku-workshop-leland",
@@ -646,7 +674,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -688,9 +717,9 @@
         "https://www.avlclay.com/"
       ],
       "notes": "Jun 20, 2026; membership with firing. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Asheville, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.avlclay.com/"
       },
@@ -702,16 +731,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "avlclay.com"
       },
-      "lat": 35.59536,
-      "lng": -82.55084,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -727,7 +755,7 @@
       "located": {
         "state": "NC",
         "town": "Asheville",
-        "score": 8,
+        "score": 20,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -737,7 +765,11 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "4 Mulvaney St., Asheville, NC 28803",
+      "auto_approved": "2026-10-09",
+      "lat": 35.57287,
+      "lng": -82.52639
     },
     {
       "id": "jeff-brown-pottery",
@@ -755,9 +787,9 @@
         "https://www.jeffbrownpottery.com/"
       ],
       "notes": "Classes at studio. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Seagrove, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.jeffbrownpottery.com/"
       },
@@ -770,16 +802,15 @@
           "wood",
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "jeffbrownpottery.com"
       },
-      "lat": 35.54084,
-      "lng": -79.77789,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -797,7 +828,7 @@
       "located": {
         "state": "NC",
         "town": "Seagrove",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -806,7 +837,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "505 E Main St., Seagrove, NC 27341",
+      "auto_approved": "2026-10-09",
+      "lat": 35.53959,
+      "lng": -79.77216
     },
     {
       "id": "southern-illinois-university-edwardsville",
@@ -824,9 +859,9 @@
         "https://www.enrole.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Raleigh, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.enrole.com/"
       },
@@ -839,7 +874,8 @@
           "raku",
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -863,7 +899,7 @@
       "located": {
         "state": "NC",
         "town": "Raleigh",
-        "score": 7,
+        "score": 10,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -872,7 +908,8 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "address": "7721 Six Forks Road Suite 100, Raleigh, NC 27615"
     },
     {
       "id": "gertrude-graham-smith-pottery",
@@ -895,7 +932,7 @@
       "contact": {
         "website": "https://www.gertrudegrahamsmith.com/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -923,7 +960,13 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 35.05761,
+      "lng": -83.20412
     },
     {
       "id": "sawtooth-school-for-visual-art",
@@ -940,9 +983,9 @@
         "https://generationscenter.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Winston-Salem, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://generationscenter.org/"
       },
@@ -954,7 +997,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -977,11 +1021,14 @@
       "located": {
         "state": "NC",
         "town": "Winston-Salem",
-        "score": 8,
+        "score": 20,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "114 W. 30th St., Winston-Salem, NC 27105",
+      "lat": 36.12836,
+      "lng": -80.24793
     },
     {
       "id": "n-a-nc",
@@ -1012,7 +1059,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1039,7 +1087,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 35.99665,
+      "lng": -78.90181
     },
     {
       "id": "exploreasheville",
@@ -1087,7 +1137,12 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "lat": 35.59536,
+      "lng": -82.55084
     },
     {
       "id": "woodfire-nc",
@@ -1106,11 +1161,11 @@
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
       "location_precision": "approximate",
       "geocode": "Star, North Carolina",
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.woodfirenc.com/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1130,6 +1185,9 @@
       },
       "weak": false,
       "located": {
+        "state": "NC",
+        "town": "Star",
+        "score": 6,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -1138,7 +1196,14 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "2025 100 Russell Drive, Star, NC",
+      "auto_approved": "2026-10-09",
+      "lat": 35.40208,
+      "lng": -79.7842
     },
     {
       "id": "cedar-creek-gallery",
@@ -1173,7 +1238,8 @@
           "salt",
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "annual"
       },
       "review": "pending",
       "discovered": {
@@ -1198,7 +1264,9 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "lat": 36.12274,
+      "lng": -78.68623
     },
     {
       "id": "joseph-sand-pottery",
@@ -1229,7 +1297,8 @@
         "types": [
           "salt"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1267,15 +1336,15 @@
       "firing_types_guess": [
         "soda"
       ],
-      "region": "Park Rd. Sylva",
-      "city": "Park Rd. Sylva",
+      "region": "Sylva",
+      "city": "Sylva",
       "urls": [
         "https://jcgep.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Park Rd. Sylva, North Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://jcgep.org/"
       },
@@ -1287,7 +1356,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1309,11 +1379,12 @@
       "weak": false,
       "located": {
         "state": "NC",
-        "town": "Park Rd. Sylva",
-        "score": 4,
+        "town": "Sylva",
+        "score": 6,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "100 Green Energy Park Rd., Sylva, NC 28779"
     },
     {
       "id": "vr-pottery-obx",
@@ -1344,7 +1415,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1368,7 +1440,9 @@
         "score": 2,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 35.95739,
+      "lng": -75.62406
     },
     {
       "id": "riverwood-pottery",
@@ -1399,9 +1473,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -1428,7 +1503,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 35.37006,
+      "lng": -83.25066
     },
     {
       "id": "lara-o-keefe-pottery-shop",
@@ -1459,7 +1537,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1486,7 +1565,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 35.72012,
+      "lng": -79.17715
     }
   ],
   "_removed": [

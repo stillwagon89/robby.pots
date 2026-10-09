@@ -101,6 +101,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -132,7 +135,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -211,6 +215,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -246,9 +253,10 @@
           "raku",
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -273,7 +281,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "clay-arts-guild-of-helena",
@@ -284,15 +293,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Bozeman Ave Helena",
-      "city": "Bozeman Ave Helena",
+      "region": "Helena",
+      "city": "Helena",
       "urls": [
         "https://www.clayartsguildofhelena.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bozeman Ave Helena, Montana",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.clayartsguildofhelena.com/"
       },
@@ -304,7 +313,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -327,8 +337,8 @@
       "weak": false,
       "located": {
         "state": "MT",
-        "town": "Bozeman Ave Helena",
-        "score": 4,
+        "town": "Helena",
+        "score": 12,
         "osm": true,
         "date": "2026-10-09"
       },
@@ -337,7 +347,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "3025 Bozeman Ave, Helena, MT",
+      "lat": 46.59994,
+      "lng": -111.98524
     },
     {
       "id": "jerry-baldwin-ceramics",
@@ -368,7 +381,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -428,7 +442,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -454,7 +469,9 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "lat": 47.71673,
+      "lng": -104.15597
     }
   ],
   "_removed": [

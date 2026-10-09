@@ -4,6 +4,11 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 const KM = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const STATUS = { upcoming: "Upcoming event", ongoing: "Open now (classes, membership or invitation)", coming_soon: "Workshops coming soon", annual: "Held every year", past_only: "Previously hosted only (no upcoming firing found)" };
+const pendDir = path.join(KM, "data/pending");
+const pending = fs.existsSync(pendDir) ? fs.readdirSync(pendDir).map((f) => JSON.parse(fs.readFileSync(path.join(pendDir, f), "utf8"))) : [];
+const todayStr = new Date().toISOString().slice(0, 10);
+const eventsFor = (id) => pending.filter((e) => e.source_id === id && !e.past && (!e.start_date || (e.end_date || e.start_date) >= todayStr));
 const only = process.argv.slice(2).map((s) => s.toUpperCase());
 const today = new Date();
 const MON = { jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5, jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11 };
@@ -15,9 +20,9 @@ function concerns(s, quote) {
   const pd = pastDate(quote); if (pd) c.push(`the example firing in its quote (${pd}) is already over. The place may still be fine, but it should show as a place, not an event`);
   if (!PARTICIPATE.test(quote)) c.push("the quote only mentions the technique; check the page offers a way for outsiders to take part");
   if (s.kind === "college") c.push("it is a college or school; check the firing is open to the public, not only students");
-  if (!s.located?.town) c.push("no street address was found on its pages, so the pin is only at the town");
+  if (s.location_precision !== "address") c.push("no street address was found on its pages, so the pin is only at the town");
   if (hostOf(s.access?.url) && hostOf(s.access?.url) !== hostOf(s.contact?.website)) c.push(`the evidence page is on a different site (${hostOf(s.access?.url)}) than the place's own site`);
-  if (s.agree?.result === "split") c.push("the two AI models disagreed about it");
+  if (s.agree?.result === "split" && !(s.agree.verdict === "yes" && s.verify?.verdict === "yes")) c.push(`the two AI models did not both say yes (first said ${s.verify?.verdict}, second said ${s.agree.verdict})`);
   if (s.hold) c.push(s.hold);
   return c;
 }
@@ -39,7 +44,8 @@ for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2
     const t = Object.entries(s.verify.types || {});
     const q = t[0]?.[1] || s.access?.quote || "";
     const cs = concerns(s, q);
-    out += `\n${i + 1}. **${s.org}**${s.city ? `, ${s.city}` : ""} — ${t.map(([k]) => k.replace("_", "/")).join(", ")}\n   Why it is here: "${q.slice(0, 220)}"\n   Page: ${s.access?.url || s.contact?.website}\n${cs.length ? `   Look at: ${cs.join("; ")}.\n` : ""}`;
+    const evs = eventsFor(s.id);
+    out += `\n${i + 1}. **${s.org}**${s.city ? `, ${s.city}` : ""} — ${t.map(([k]) => k.replace("_", "/")).join(", ")}\n   Why it is here: "${q.slice(0, 220)}"\n   Page: ${s.access?.url || s.contact?.website}\n   Status: ${STATUS[s.access?.status] || "Open now"}. Pin: ${s.location_precision === "address" ? `exact address (${s.address})` : "town only"}.\n${evs.length ? evs.map((e) => `   Upcoming: ${e.title}, ${e.start_date || e.date_precision}${e.cost_text ? `, ${e.cost_text}` : ""} (${e.registration_status || "status unknown"})${e.signup_url ? ` - signup ${e.signup_url}` : ""} - source ${e.source_url}\n`).join("") : ""}${cs.length ? `   Look at: ${cs.join("; ")}.\n` : ""}`;
   });
   total += rows.length;
 }

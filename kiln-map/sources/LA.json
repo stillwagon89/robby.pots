@@ -16,9 +16,9 @@
         "https://earthandfirestudio.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "New Orleans, Louisiana",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://earthandfirestudio.com/"
       },
@@ -30,7 +30,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -50,12 +51,10 @@
         "town": "New Orleans",
         "street": "724 Adams Street"
       },
-      "lat": 29.95747,
-      "lng": -90.06295,
       "located": {
         "state": "LA",
         "town": "New Orleans",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -65,7 +64,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "724 Adams Street, New Orleans, LA 70118",
+      "lat": 29.94164,
+      "lng": -90.12982
     },
     {
       "id": "nclac",
@@ -82,9 +84,9 @@
         "https://www.nclac.org/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Ruston, Louisiana",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.nclac.org/"
       },
@@ -108,7 +110,7 @@
       "located": {
         "state": "LA",
         "town": "Ruston",
-        "score": 4,
+        "score": 13,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -117,7 +119,13 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "212 N Vienna St, Ruston, LA",
+      "lat": 32.52989,
+      "lng": -92.6379
     },
     {
       "id": "laima-ceramics-la",
@@ -165,6 +173,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
+      },
+      "access": {
+        "status": "ongoing"
       }
     }
   ],

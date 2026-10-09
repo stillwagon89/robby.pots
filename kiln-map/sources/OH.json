@@ -56,7 +56,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -100,9 +101,9 @@
         "https://www.langweilstudiopottery.com/"
       ],
       "notes": "Dated workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Groveport, Ohio",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.langweilstudiopottery.com/"
       },
@@ -115,16 +116,15 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "langweilstudiopottery.com"
       },
-      "lat": 39.85224,
-      "lng": -82.88686,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -139,10 +139,17 @@
         "street": "596 Main St., Groveport, OH 43125"
       },
       "located": {
+        "state": "OH",
+        "town": "Groveport",
+        "score": 10,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "596 Main St., Groveport, OH 43125",
+      "auto_approved": "2026-10-09",
+      "lat": 39.85156,
+      "lng": -82.88391
     },
     {
       "id": "willahollow-pottery",
@@ -153,15 +160,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Main Street Perry",
-      "city": "Main Street Perry",
+      "region": "Perry",
+      "city": "Perry",
       "urls": [
         "https://www.willahollowpottery.com/"
       ],
       "notes": "Dated raku workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Main Street Perry, Ohio",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.willahollowpottery.com/"
       },
@@ -173,7 +180,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -196,8 +204,8 @@
       "weak": false,
       "located": {
         "state": "OH",
-        "town": "Main Street Perry",
-        "score": 2,
+        "town": "Perry",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -206,7 +214,8 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "0059 3521 Main Street, Perry, OH 44081"
     },
     {
       "id": "yellow-springs-raku-day-john-bryan-community-pot",
@@ -237,9 +246,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -262,7 +272,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "the-cracked-pot-studio",
@@ -293,7 +304,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -350,7 +362,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -411,9 +424,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -436,7 +450,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "canton-museum-of-art",
@@ -467,9 +482,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -491,7 +507,10 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 40.79855,
+      "lng": -81.37495
     },
     {
       "id": "tomradca",
@@ -524,7 +543,8 @@
           "salt",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -568,9 +588,9 @@
         "https://577foundation.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Perrysburg, Ohio",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://577foundation.org/"
       },
@@ -582,9 +602,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -605,10 +626,14 @@
       "located": {
         "state": "OH",
         "town": "Perrysburg",
-        "score": 8,
+        "score": 20,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "address": "577 East Front Street, Perrysburg, OH 43551",
+      "auto_approved": "2026-10-09",
+      "lat": 41.56618,
+      "lng": -83.62024
     },
     {
       "id": "communitypottery",
@@ -641,9 +666,10 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -666,10 +692,14 @@
       "located": {
         "state": "OH",
         "town": "Yellow Springs",
-        "score": 18,
+        "score": 45,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "9022 100 Dayton St., Yellow Springs, OH 45387",
+      "auto_approved": "2026-10-09",
+      "lat": 39.80454,
+      "lng": -83.89252
     }
   ],
   "_removed": [

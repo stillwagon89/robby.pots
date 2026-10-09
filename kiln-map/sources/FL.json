@@ -57,9 +57,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -83,7 +84,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "the-clay-co-op",
@@ -114,16 +116,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "claycoopstpete.com"
       },
-      "lat": 27.77123,
-      "lng": -82.63403,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -138,12 +139,16 @@
       },
       "located": {
         "state": "FL",
-        "town": "St. Petersburg",
-        "score": 6,
+        "town": "S St. Petersburg",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "2724 6th Ave, S St. Petersburg, FL 33712",
+      "auto_approved": "2026-10-09",
+      "lat": 27.77123,
+      "lng": -82.63403
     },
     {
       "id": "atlantic-beach-arts-market",
@@ -160,9 +165,9 @@
         "https://atlanticbeachartsmarket.com/"
       ],
       "notes": "Dated 3-class workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Atlantic Beach, Florida",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://atlanticbeachartsmarket.com/"
       },
@@ -174,16 +179,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "atlanticbeachartsmarket.com"
       },
-      "lat": 30.33441,
-      "lng": -81.3987,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -199,11 +203,15 @@
       "located": {
         "state": "FL",
         "town": "Atlantic Beach",
-        "score": 4,
+        "score": 10,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "1805 Mayport Road, Atlantic Beach, FL 32233",
+      "auto_approved": "2026-10-09",
+      "lat": 30.3377,
+      "lng": -81.41348
     },
     {
       "id": "eat-your-yard-jax",
@@ -234,7 +242,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -261,7 +270,9 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "lat": 30.43808,
+      "lng": -84.28093
     },
     {
       "id": "eniko-ujj-nick-phoenix",
@@ -292,9 +303,10 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -317,7 +329,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "lemoyne-arts",
@@ -348,7 +361,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -411,7 +425,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -468,16 +483,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "makespaceworkshop.com"
       },
-      "lat": 29.8947,
-      "lng": -81.31454,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -490,10 +504,17 @@
         "town": "St. Augustine"
       },
       "located": {
+        "state": "FL",
+        "town": "Augustine",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "1 in St., Augustine, FL",
+      "auto_approved": "2026-10-09",
+      "lat": 29.8947,
+      "lng": -81.31454
     },
     {
       "id": "sarasota-clay-company",
@@ -524,9 +545,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -550,7 +572,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "armory-art-center",
@@ -581,7 +604,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -603,7 +627,7 @@
       },
       "weak": true,
       "located": {
-        "osm": true,
+        "osm": false,
         "date": "2026-10-09"
       },
       "agree": {
@@ -642,9 +666,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -668,7 +693,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "richard-rosen-s-studio",
@@ -699,7 +725,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -755,9 +782,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -780,7 +808,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "smith-works-studios",
@@ -811,9 +840,10 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -841,7 +871,10 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 29.8947,
+      "lng": -81.31454
     },
     {
       "id": "morean-center-for-clay",
@@ -874,7 +907,8 @@
           "wood",
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -933,7 +967,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -961,7 +996,9 @@
         "score": 6,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 30.43808,
+      "lng": -84.28093
     },
     {
       "id": "seagrasspottery",
@@ -1009,7 +1046,12 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "lat": 28.0785,
+      "lng": -80.60779
     },
     {
       "id": "morean-workshop-space",
@@ -1040,7 +1082,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -1067,7 +1110,9 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "lat": 27.77123,
+      "lng": -82.63403
     },
     {
       "id": "element-art-center-fl",
@@ -1098,7 +1143,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1158,7 +1204,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -1218,7 +1265,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -1266,9 +1314,9 @@
         "https://pensacolastate.edu/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pensacola, Florida",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://pensacolastate.edu/"
       },
@@ -1280,7 +1328,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -1304,10 +1353,13 @@
       "located": {
         "state": "FL",
         "town": "Pensacola",
-        "score": 8,
+        "score": 17,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "1000 College Blvd., Pensacola, FL 32504",
+      "lat": 30.47826,
+      "lng": -87.19807
     },
     {
       "id": "ballingerpublishing",
@@ -1338,7 +1390,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1396,9 +1449,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1429,7 +1483,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 27.94499,
+      "lng": -82.45831
     },
     {
       "id": "queen-city-clay",
@@ -1460,7 +1517,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1520,7 +1578,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1580,7 +1639,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1607,7 +1667,9 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": true
+      "weak": true,
+      "lat": 26.96094,
+      "lng": -80.08921
     },
     {
       "id": "hernando-arts",
@@ -1658,7 +1720,12 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "lat": 28.55527,
+      "lng": -82.38787
     }
   ],
   "_removed": [

@@ -445,9 +445,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -470,7 +471,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "approved": "2026-10-09",
+      "confirmed_by_robby": "2026-10-09"
     },
     {
       "id": "clay-by-the-bay",
@@ -501,7 +503,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -547,9 +550,9 @@
         "https://www.thepottersstudio.org/"
       ],
       "notes": "Membership. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Berkeley, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.thepottersstudio.org/"
       },
@@ -561,7 +564,8 @@
         "types": [
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -569,8 +573,6 @@
         "date": "2026-10-06",
         "key": "thepottersstudio.org"
       },
-      "lat": 37.87084,
-      "lng": -122.27286,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -585,7 +587,7 @@
       "located": {
         "state": "CA",
         "town": "Berkeley",
-        "score": 8,
+        "score": 20,
         "osm": true,
         "date": "2026-10-09"
       },
@@ -594,7 +596,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "address": "724 Camelia Street, Berkeley, CA 94710",
+      "lat": 37.87703,
+      "lng": -122.30314
     },
     {
       "id": "clayroom-oakland",
@@ -611,9 +616,9 @@
         "https://www.clayroomoakland.com/"
       ],
       "notes": "Monthly raku firing. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Oakland, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.clayroomoakland.com/"
       },
@@ -625,16 +630,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "clayroomoakland.com"
       },
-      "lat": 37.80446,
-      "lng": -122.27136,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -651,7 +655,11 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "approved": "2026-10-09",
+      "confirmed_by_robby": "2026-10-09",
+      "address": "4268 Broadway, Oakland, CA 94611",
+      "lat": 37.83192,
+      "lng": -122.2538
     },
     {
       "id": "the-crucible",
@@ -662,15 +670,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "St. Oakland",
-      "city": "St. Oakland",
+      "region": "Oakland",
+      "city": "Oakland",
       "urls": [
         "https://www.thecrucible.org/"
       ],
       "notes": "Raku class (bring fired work). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Oakland, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.thecrucible.org/"
       },
@@ -682,9 +690,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -704,12 +713,16 @@
       },
       "located": {
         "state": "CA",
-        "town": "St. Oakland",
-        "score": 6,
+        "town": "Oakland",
+        "score": 9,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "address": "1260 7th St., Oakland, CA 94607",
+      "approved": "2026-10-09",
+      "confirmed_by_robby": "2026-10-09",
+      "lat": 37.80503,
+      "lng": -122.29064
     },
     {
       "id": "jtown-clay-higher-fire",
@@ -727,9 +740,9 @@
         "https://higherfirestudios.com/"
       ],
       "notes": "Dec 13 firing. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "San Jose, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://higherfirestudios.com/"
       },
@@ -742,16 +755,15 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "higherfirestudios.com"
       },
-      "lat": 37.33617,
-      "lng": -121.89059,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -768,11 +780,15 @@
       "located": {
         "state": "CA",
         "town": "San Jose",
-        "score": 147,
+        "score": 246,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "499 S. Market Street, San Jose, CA 95113",
+      "auto_approved": "2026-10-09",
+      "lat": 37.32818,
+      "lng": -121.88576
     },
     {
       "id": "spiffy-pottery-studio",
@@ -795,7 +811,7 @@
       "contact": {
         "website": "https://thespiffystudio.info/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -825,7 +841,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "oribe-firing-center",
@@ -858,9 +878,10 @@
           "soda",
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -884,7 +905,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "slowfire",
@@ -915,7 +937,8 @@
         "types": [
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -977,9 +1000,10 @@
           "pit_barrel_saggar",
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -1006,7 +1030,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "sebastopol-center-for-the-arts",
@@ -1023,9 +1048,9 @@
         "https://www.sebarts.org/"
       ],
       "notes": "Workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Sebastopol, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.sebarts.org/"
       },
@@ -1037,7 +1062,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -1045,8 +1071,6 @@
         "date": "2026-10-06",
         "key": "sebarts.org"
       },
-      "lat": 38.4021,
-      "lng": -122.82422,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -1062,11 +1086,14 @@
       "located": {
         "state": "CA",
         "town": "Sebastopol",
-        "score": 2,
+        "score": 5,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "282 S. High Street, Sebastopol, CA 95472",
+      "lat": 38.40013,
+      "lng": -122.82527
     },
     {
       "id": "clayfolk-studio",
@@ -1077,15 +1104,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Main Street Occidental",
-      "city": "Main Street Occidental",
+      "region": "Occidental",
+      "city": "Occidental",
       "urls": [
         "https://www.clayfolkstudio.com/"
       ],
       "notes": "Saturday workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Main Street Occidental, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.clayfolkstudio.com/"
       },
@@ -1097,9 +1124,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -1119,12 +1147,16 @@
       },
       "located": {
         "state": "CA",
-        "town": "Main Street Occidental",
-        "score": 6,
+        "town": "Occidental",
+        "score": 9,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "3703 Main Street, Occidental, CA 95465",
+      "auto_approved": "2026-10-09",
+      "lat": 38.4076,
+      "lng": -122.947
     },
     {
       "id": "john-dix",
@@ -1157,9 +1189,10 @@
           "wood",
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -1183,7 +1216,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "acai-studios-gallery",
@@ -1200,9 +1234,9 @@
         "https://acaistudios.com/"
       ],
       "notes": "$40 raku firing. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fair Oaks, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://acaistudios.com/"
       },
@@ -1214,16 +1248,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "acaistudios.com"
       },
-      "lat": 38.64291,
-      "lng": -121.24625,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -1238,11 +1271,15 @@
       "located": {
         "state": "CA",
         "town": "Fair Oaks",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "7425 Winding Way, Fair Oaks, CA 95628",
+      "auto_approved": "2026-10-09",
+      "lat": 38.64467,
+      "lng": -121.29092
     },
     {
       "id": "auburn-clay-arts",
@@ -1273,7 +1310,8 @@
         "types": [
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1316,15 +1354,15 @@
         "soda",
         "salt"
       ],
-      "region": "Garey Ave Pomona",
-      "city": "Garey Ave Pomona",
+      "region": "Pomona",
+      "city": "Pomona",
       "urls": [
         "https://www.amoca.org/"
       ],
       "notes": "Workshops; salt firing days. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Garey Ave Pomona, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.amoca.org/"
       },
@@ -1337,9 +1375,10 @@
           "soda",
           "salt"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -1360,12 +1399,16 @@
       },
       "located": {
         "state": "CA",
-        "town": "Garey Ave Pomona",
-        "score": 6,
+        "town": "Pomona",
+        "score": 14,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "399 N Garey Ave, Pomona, CA 91767",
+      "auto_approved": "2026-10-09",
+      "lat": 34.06114,
+      "lng": -117.75072
     },
     {
       "id": "green-bisque-clayhouse",
@@ -1382,9 +1425,9 @@
         "https://gbclayhouse.com/"
       ],
       "notes": "Sep 27 ($165). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pasadena, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://gbclayhouse.com/"
       },
@@ -1396,16 +1439,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "coming_soon"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "gbclayhouse.com"
       },
-      "lat": 34.14765,
-      "lng": -118.14415,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -1422,7 +1464,7 @@
       "located": {
         "state": "CA",
         "town": "Pasadena",
-        "score": 6,
+        "score": 21,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -1431,7 +1473,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "address": "1563 North Lake Ave., Pasadena, CA 91104",
+      "auto_approved": "2026-10-09",
+      "lat": 34.1727,
+      "lng": -118.13217
     },
     {
       "id": "element-art-center",
@@ -1462,7 +1508,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1519,7 +1566,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1568,9 +1616,9 @@
         "https://ceramicheights.com/"
       ],
       "notes": "Apr 6 raku fire. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "San Diego, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://ceramicheights.com/"
       },
@@ -1582,16 +1630,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "ceramicheights.com"
       },
-      "lat": 32.71571,
-      "lng": -117.16383,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -1607,11 +1654,15 @@
       "located": {
         "state": "CA",
         "town": "San Diego",
-        "score": 6,
+        "score": 27,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "5509 El Cajon Boulevard, San Diego, CA",
+      "auto_approved": "2026-10-09",
+      "lat": 32.75818,
+      "lng": -117.07608
     },
     {
       "id": "ica-north",
@@ -1642,7 +1693,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -1702,7 +1754,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -1762,7 +1815,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1786,7 +1840,9 @@
         "score": 6,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 37.79881,
+      "lng": -122.39929
     },
     {
       "id": "cider-creek-collective",
@@ -1817,7 +1873,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1841,7 +1898,9 @@
         "score": 4,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 39.22811,
+      "lng": -123.75649
     },
     {
       "id": "studio-channel-islands",
@@ -1858,9 +1917,9 @@
         "https://studiochannelislands.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Camarillo, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://studiochannelislands.org/"
       },
@@ -1872,7 +1931,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1895,10 +1955,13 @@
       "located": {
         "state": "CA",
         "town": "Camarillo",
-        "score": 84,
+        "score": 219,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "address": "2222 Ventura Boulevard, Camarillo, CA 93010",
+      "lat": 34.21647,
+      "lng": -119.03948
     },
     {
       "id": "element-art-center-ca",
@@ -1929,7 +1992,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-09"
+        "checked": "2026-10-09",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1953,7 +2017,9 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "lat": 34.05369,
+      "lng": -118.24277
     },
     {
       "id": "claytivity-pottery-studio-ca",
@@ -1984,7 +2050,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-09"
+        "checked": "2026-10-09",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -2014,7 +2081,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 34.05369,
+      "lng": -118.24277
     },
     {
       "id": "clay-creations",
@@ -2032,9 +2101,9 @@
         "https://claycreationspacifica.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pacifica, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://claycreationspacifica.com/"
       },
@@ -2047,7 +2116,8 @@
           "soda",
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -2071,10 +2141,13 @@
       "located": {
         "state": "CA",
         "town": "Pacifica",
-        "score": 4,
+        "score": 10,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "address": "1290 Danmann Ave., Pacifica, CA 94044",
+      "lat": 37.59525,
+      "lng": -122.50952
     },
     {
       "id": "common-clay-space",
@@ -2085,15 +2158,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Creek Blvd Cupertino",
-      "city": "Creek Blvd Cupertino",
+      "region": "Cupertino",
+      "city": "Cupertino",
       "urls": [
         "https://www.commonclayspace.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Creek Blvd Cupertino, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.commonclayspace.com/"
       },
@@ -2105,9 +2178,10 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -2127,11 +2201,15 @@
       "weak": false,
       "located": {
         "state": "CA",
-        "town": "Creek Blvd Cupertino",
-        "score": 4,
+        "town": "Cupertino",
+        "score": 6,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "19685 Stevens Creek Blvd, Cupertino, CA 95014",
+      "auto_approved": "2026-10-09",
+      "lat": 37.3238,
+      "lng": -122.01791
     },
     {
       "id": "amoca-ceramics-studio",
@@ -2164,7 +2242,8 @@
           "salt",
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -2189,7 +2268,9 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 34.05538,
+      "lng": -117.75175
     },
     {
       "id": "turning-earth-ca",
@@ -2222,7 +2303,8 @@
           "raku",
           "gas_reduction"
         ],
-        "checked": "2026-10-09"
+        "checked": "2026-10-09",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -2246,7 +2328,9 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": true
+      "weak": true,
+      "lat": 34.05369,
+      "lng": -118.24277
     },
     {
       "id": "tao-of-clay",
@@ -2269,7 +2353,7 @@
       "contact": {
         "website": "https://taoofclay.com/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -2296,7 +2380,13 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 32.71571,
+      "lng": -117.16383
     },
     {
       "id": "blossomhillcrafts",
@@ -2314,9 +2404,9 @@
         "https://www.blossomhillcrafts.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Los Gatos, California",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.blossomhillcrafts.com/"
       },
@@ -2331,7 +2421,8 @@
           "salt",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -2350,6 +2441,9 @@
       },
       "weak": true,
       "located": {
+        "state": "CA",
+        "town": "Los Gatos",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -2358,7 +2452,76 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "15900 Blossom Hill Rd., Los Gatos, CA",
+      "lat": 37.23615,
+      "lng": -121.94697
+    },
+    {
+      "id": "clay-play-arts",
+      "org": "Clay Play & Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Northridge",
+      "city": "Northridge",
+      "urls": [
+        "https://www.clayplayarts.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Northridge, California",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.clayplayarts.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Raku Firing Horsehair Workshop (4/18/2026) Sat 10AM-3PM",
+        "url": "https://www.clayplayarts.com/store/p2549/Raku_Firing_Horsehair_Workshop_%284%2F18%2F2026%29_Sat_10AM-3PM.html",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08",
+        "status": "past_only"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "clayplayarts.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The site offers a Raku Firing Horsehair Workshop on 4/18/2026 that outsiders can book as a paid workshop ($150) with a maximum capacity of 10 participants.",
+        "types": {
+          "raku": "Experience the magic of horse hair raku in this hands-on, community-focused workshop!"
+        },
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "state": "CA",
+        "town": "Northridge",
+        "score": 5,
+        "osm": false,
+        "date": "2026-10-09"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      },
+      "weak": true,
+      "lat": 34.23456,
+      "lng": -118.53693
     }
   ],
   "_removed": [

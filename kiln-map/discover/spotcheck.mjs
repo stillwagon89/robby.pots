@@ -9,7 +9,7 @@ const KM = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const N = +process.argv[2] || 30;
 const all = [];
 for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2}\.json$/.test(f)))
-  for (const s of JSON.parse(fs.readFileSync(path.join(KM, "sources", f), "utf8")).sources) if (s.review === "pending" && s.discovered && s.verify && !s.weak) all.push({ ST: f.slice(0, 2), s });
+  for (const s of JSON.parse(fs.readFileSync(path.join(KM, "sources", f), "utf8")).sources) if ((s.review === "pending" || s.auto_approved) && s.discovered && s.verify && !s.weak) all.push({ ST: f.slice(0, 2), s });
 const pick = all.sort(() => Math.random() - 0.5).slice(0, N);
 const txt = (h) => h.replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ").replace(/<[^>]+>/g, " ");
 let bad = 0;

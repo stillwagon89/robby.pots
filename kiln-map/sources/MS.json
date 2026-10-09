@@ -44,9 +44,9 @@
         "https://fireundertheoaks.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Biloxi, Mississippi",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://fireundertheoaks.com/"
       },
@@ -59,7 +59,8 @@
           "raku",
           "salt"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -79,16 +80,17 @@
         "state": "MS",
         "town": "Biloxi"
       },
-      "lat": 30.40076,
-      "lng": -88.88938,
       "located": {
         "state": "MS",
         "town": "Biloxi",
-        "score": 4,
+        "score": 10,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "386 Beach Blvd., Biloxi, MS 39530",
+      "lat": 30.39259,
+      "lng": -88.8713
     },
     {
       "id": "juliet-bravo-pottery-llc",
@@ -138,6 +140,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -169,7 +174,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {

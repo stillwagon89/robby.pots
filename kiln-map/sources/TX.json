@@ -73,14 +73,14 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "McPhaul St Austin",
-      "city": "McPhaul St Austin",
+      "region": "Austin",
+      "city": "Austin",
       "urls": [
         "https://featsofclaypottery.com/"
       ],
       "notes": "Build-and-fire workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "McPhaul St Austin, Texas",
+      "geocode": "Austin, Texas",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://featsofclaypottery.com/"
@@ -93,9 +93,10 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "annual"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -115,12 +116,16 @@
       },
       "located": {
         "state": "TX",
-        "town": "McPhaul St Austin",
-        "score": 6,
+        "town": "Austin",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "806 McPhaul St, Austin, TX 78758",
+      "auto_approved": "2026-10-09",
+      "lat": 30.27113,
+      "lng": -97.7437
     },
     {
       "id": "fireseed-clay-arts-studios",
@@ -151,7 +156,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "annual"
       },
       "review": "pending",
       "discovered": {
@@ -211,7 +217,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -254,9 +261,9 @@
         "https://firegallery.art/"
       ],
       "notes": "Raku workshops (ClassBento), membership. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Houston, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://firegallery.art/"
       },
@@ -269,16 +276,15 @@
           "salt",
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "firegallery.art"
       },
-      "lat": 29.75894,
-      "lng": -95.3677,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -295,7 +301,7 @@
       "located": {
         "state": "TX",
         "town": "Houston",
-        "score": 4,
+        "score": 13,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -305,7 +311,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "1520 Silver St., Houston, TX 77007",
+      "auto_approved": "2026-10-09",
+      "lat": 29.77168,
+      "lng": -95.3769
     },
     {
       "id": "four-circle-studio",
@@ -336,9 +346,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -365,7 +376,8 @@
         "score": 6,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "potters-place-pottery",
@@ -382,9 +394,9 @@
         "https://pottersplacepottery.com/"
       ],
       "notes": "Sep 25, 2026. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Katy, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://pottersplacepottery.com/"
       },
@@ -396,7 +408,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "coming_soon"
       },
       "review": "pending",
       "discovered": {
@@ -419,11 +432,12 @@
       "located": {
         "state": "TX",
         "town": "Katy",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "6729 S Fry Rd, Katy, TX 77494"
     },
     {
       "id": "dallas-pottery-studio",
@@ -456,7 +470,8 @@
           "raku",
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -519,9 +534,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -551,7 +567,8 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "cera",
@@ -568,9 +585,9 @@
         "https://cera-fw.org/"
       ],
       "notes": "Studio membership. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Willow Park, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://cera-fw.org/"
       },
@@ -582,7 +599,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "annual"
       },
       "review": "pending",
       "discovered": {
@@ -606,10 +624,11 @@
       "located": {
         "state": "TX",
         "town": "Willow Park",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "8185 1605 Ranch House Rd., Willow Park, TX 76087"
     },
     {
       "id": "roadrunner-ceramics",
@@ -642,9 +661,10 @@
           "raku",
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -672,7 +692,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "rockport-center-for-the-arts",
@@ -689,9 +710,9 @@
         "https://www.rockportartcenter.com/"
       ],
       "notes": "Raku firing experience (dated). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Rockport, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.rockportartcenter.com/"
       },
@@ -703,16 +724,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "rockportartcenter.com"
       },
-      "lat": 28.02057,
-      "lng": -97.05443,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -726,10 +746,17 @@
         "street": "204 South Austin Street"
       },
       "located": {
+        "state": "TX",
+        "town": "Rockport",
+        "score": 9,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "204 South Austin Street, Rockport, TX",
+      "auto_approved": "2026-10-09",
+      "lat": 28.02281,
+      "lng": -97.05092
     },
     {
       "id": "lhuca-clay-studio",
@@ -762,9 +789,10 @@
           "soda",
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -792,7 +820,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "fire-gallery-and-studio",
@@ -827,7 +856,8 @@
           "pit_barrel_saggar",
           "gas_reduction"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -883,9 +913,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -906,7 +937,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 30.27113,
+      "lng": -97.7437
     },
     {
       "id": "marc-jeannin-pottery",
@@ -926,9 +960,9 @@
         "https://marcjeannin.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Austin, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://marcjeannin.com/"
       },
@@ -943,9 +977,10 @@
           "soda",
           "salt"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -968,11 +1003,15 @@
       "located": {
         "state": "TX",
         "town": "Austin",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "4630 Burnet Rd, Austin, TX 78756",
+      "auto_approved": "2026-10-09",
+      "lat": 30.31779,
+      "lng": -97.74035
     },
     {
       "id": "fire-gallery-tx",
@@ -1003,7 +1042,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1026,7 +1066,9 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "lat": 27.50974,
+      "lng": -99.47421
     },
     {
       "id": "oblate-clay",
@@ -1037,15 +1079,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Drive San Antonio",
-      "city": "Drive San Antonio",
+      "region": "San Antonio",
+      "city": "San Antonio",
       "urls": [
         "https://www.oblateclay.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Drive San Antonio, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.oblateclay.com/"
       },
@@ -1057,9 +1099,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1078,12 +1121,16 @@
       },
       "located": {
         "state": "TX",
-        "town": "Drive San Antonio",
-        "score": 6,
+        "town": "San Antonio",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "906 Oblate Drive, San Antonio, TX 78216",
+      "auto_approved": "2026-10-09",
+      "lat": 29.50426,
+      "lng": -98.49346
     },
     {
       "id": "the-craft-guild",
@@ -1116,9 +1163,10 @@
           "gas_reduction",
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1140,10 +1188,14 @@
       "located": {
         "state": "TX",
         "town": "Carrollton",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "3410 Midcourt Rd Suite 115, Carrollton, TX 75006",
+      "auto_approved": "2026-10-09",
+      "lat": 32.95155,
+      "lng": -96.90342
     },
     {
       "id": "mckinney-art-house",
@@ -1174,9 +1226,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1200,7 +1253,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 33.19765,
+      "lng": -96.61545
     },
     {
       "id": "art-center-of-corpus-christi",
@@ -1231,7 +1287,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1254,7 +1311,9 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "lat": 27.76353,
+      "lng": -97.40332
     },
     {
       "id": "barry-brown-clay-studio-gallery",
@@ -1265,15 +1324,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "St Corpus Christi",
-      "city": "St Corpus Christi",
+      "region": "Corpus Christi",
+      "city": "Corpus Christi",
       "urls": [
         "https://bbclaystudio.org/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St Corpus Christi, Texas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://bbclaystudio.org/"
       },
@@ -1285,7 +1344,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1308,8 +1368,8 @@
       "weak": false,
       "located": {
         "state": "TX",
-        "town": "St Corpus Christi",
-        "score": 6,
+        "town": "Corpus Christi",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -1318,7 +1378,10 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "1010 Ayers St, Corpus Christi, TX 78404",
+      "lat": 27.77371,
+      "lng": -97.4004
     },
     {
       "id": "brazos-clay",
@@ -1349,7 +1412,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1376,7 +1440,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 31.55451,
+      "lng": -97.13256
     },
     {
       "id": "hill-potters-guild",
@@ -1407,7 +1473,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1465,7 +1532,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1491,7 +1559,9 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "lat": 29.4246,
+      "lng": -98.49514
     },
     {
       "id": "brazos-clay-tx",
@@ -1522,7 +1592,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1544,7 +1615,9 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 31.55451,
+      "lng": -97.13256
     },
     {
       "id": "pine-mills-pottery-studio-and-gallery",
@@ -1587,7 +1660,12 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "past_only"
+      },
+      "lat": 32.66334,
+      "lng": -95.48803
     }
   ],
   "_removed": [

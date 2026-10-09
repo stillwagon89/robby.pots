@@ -78,7 +78,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -134,7 +135,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -191,9 +193,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -216,7 +219,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "asld-art-students-league-of-denver",
@@ -247,9 +251,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -273,7 +278,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "jl-pottery-justin",
@@ -304,7 +310,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -340,15 +347,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Dallas St. Aurora",
-      "city": "Dallas St. Aurora",
+      "region": "Aurora",
+      "city": "Aurora",
       "urls": [
         "https://www.stanleymarketplace.com/"
       ],
       "notes": "Dated raku experience. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Dallas St. Aurora, Colorado",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.stanleymarketplace.com/"
       },
@@ -360,7 +367,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -380,8 +388,8 @@
       },
       "located": {
         "state": "CO",
-        "town": "Dallas St. Aurora",
-        "score": 2,
+        "town": "Aurora",
+        "score": 3,
         "osm": true,
         "date": "2026-10-09"
       },
@@ -391,7 +399,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "2501 Dallas St., Aurora, CO 80010",
+      "lat": 39.753,
+      "lng": -104.87747
     },
     {
       "id": "flingin-pots",
@@ -422,9 +433,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -456,7 +468,8 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "joseph-miranda-smokestack",
@@ -487,7 +500,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -567,6 +581,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -584,9 +601,9 @@
         "https://boulderpottersguild.org/"
       ],
       "notes": "Intermediate/advanced classes. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Boulder, Colorado",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://boulderpottersguild.org/"
       },
@@ -598,7 +615,8 @@
         "types": [
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -606,8 +624,6 @@
         "date": "2026-10-06",
         "key": "boulderpottersguild.org"
       },
-      "lat": 40.01499,
-      "lng": -105.27054,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -623,11 +639,14 @@
       "located": {
         "state": "CO",
         "town": "Boulder",
-        "score": 12,
+        "score": 21,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "3185 Sterling Cir, Boulder, CO 80301",
+      "lat": 40.03233,
+      "lng": -105.22758
     },
     {
       "id": "cottonwood-center-for-the-arts",
@@ -638,15 +657,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Ave Colorado Springs",
-      "city": "Ave Colorado Springs",
+      "region": "Colorado Springs",
+      "city": "Colorado Springs",
       "urls": [
         "https://cottonwoodcenterforthearts.com/"
       ],
       "notes": "Monthly raku in open studio. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Ave Colorado Springs, Colorado",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://cottonwoodcenterforthearts.com/"
       },
@@ -658,9 +677,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -680,12 +700,16 @@
       },
       "located": {
         "state": "CO",
-        "town": "Ave Colorado Springs",
-        "score": 4,
+        "town": "Colorado Springs",
+        "score": 12,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "427 E Colorado Ave, Colorado Springs, CO",
+      "auto_approved": "2026-10-09",
+      "lat": 38.83218,
+      "lng": -104.8178
     },
     {
       "id": "carbondale-clay-center",
@@ -716,16 +740,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "carbondaleclay.org"
       },
-      "lat": 39.40056,
-      "lng": -107.21124,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -741,74 +764,15 @@
       "located": {
         "state": "CO",
         "town": "Carbondale",
-        "score": 6,
+        "score": 18,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
-    },
-    {
-      "id": "clay-play-arts",
-      "org": "Clay Play & Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Colorado",
-      "city": null,
-      "urls": [
-        "https://www.clayplayarts.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.clayplayarts.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Raku Firing Horsehair Workshop (4/18/2026) Sat 10AM-3PM",
-        "url": "https://www.clayplayarts.com/store/p2549/Raku_Firing_Horsehair_Workshop_%284%2F18%2F2026%29_Sat_10AM-3PM.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-08"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "clayplayarts.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "yes",
-        "why": "The site offers a Raku Firing Horsehair Workshop on 4/18/2026 that outsiders can book as a paid workshop ($150) with a maximum capacity of 10 participants.",
-        "types": {
-          "raku": "Experience the magic of horse hair raku in this hands-on, community-focused workshop!"
-        },
-        "state": "",
-        "town": ""
-      },
-      "located": {
-        "state": "CA",
-        "town": "Northridge",
-        "score": 2,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "agree-yes",
-        "date": "2026-10-08"
-      },
-      "weak": true
+      "weak": false,
+      "address": "215 12th Street, Unit D, Carbondale, CO",
+      "auto_approved": "2026-10-09",
+      "lat": 39.40056,
+      "lng": -107.21124
     },
     {
       "id": "groundworks-art-lab",
@@ -821,15 +785,15 @@
         "raku",
         "soda"
       ],
-      "region": "Canfield Street Boulder",
-      "city": "Canfield Street Boulder",
+      "region": "Boulder",
+      "city": "Boulder",
       "urls": [
         "https://www.groundworksartlab.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Canfield Street Boulder, Colorado",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.groundworksartlab.org/"
       },
@@ -843,9 +807,10 @@
           "raku",
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -866,12 +831,16 @@
       },
       "located": {
         "state": "CO",
-        "town": "Canfield Street Boulder",
-        "score": 8,
+        "town": "Boulder",
+        "score": 18,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "3750 Canfield Street, Boulder, CO 80301",
+      "auto_approved": "2026-10-09",
+      "lat": 40.04191,
+      "lng": -105.24177
     },
     {
       "id": "colorado-potters-guild",
@@ -902,7 +871,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -929,7 +899,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 39.9936,
+      "lng": -105.0897
     },
     {
       "id": "do303",
@@ -977,7 +949,12 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "lat": 39.74014,
+      "lng": -104.87334
     },
     {
       "id": "abi-higgins-ceramics-studio",
@@ -1014,7 +991,8 @@
           "pit_barrel_saggar",
           "gas_reduction"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1072,7 +1050,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -1098,7 +1077,9 @@
         "score": 6,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 40.4848,
+      "lng": -106.83173
     },
     {
       "id": "warehome-studios",
@@ -1121,7 +1102,7 @@
       "contact": {
         "website": "https://www.warehomestudios.com/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1148,7 +1129,13 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 40.4848,
+      "lng": -106.83173
     }
   ],
   "_removed": [
@@ -1207,6 +1194,10 @@
     {
       "id": "wilson-co",
       "why": "Second check (claude-haiku-4.5): page says state is BC, not CO (2026-10-09)"
+    },
+    {
+      "id": "clay-play-arts",
+      "why": "Its own pages give an address in CA (Northridge), not CO. Moved. (2026-10-09)"
     }
   ]
 }

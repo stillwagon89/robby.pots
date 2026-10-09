@@ -56,7 +56,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -98,9 +99,9 @@
         "https://backdoorpottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Kansas City, Missouri",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://backdoorpottery.com/"
       },
@@ -112,16 +113,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "backdoorpottery.com"
       },
-      "lat": 39.1001,
-      "lng": -94.57814,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -137,11 +137,15 @@
       "located": {
         "state": "MO",
         "town": "Kansas City",
-        "score": 12,
+        "score": 30,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "3922 St John Ave, Kansas City, MO 64123",
+      "auto_approved": "2026-10-09",
+      "lat": 39.11324,
+      "lng": -94.53497
     },
     {
       "id": "kc-clay-guild-mo",
@@ -172,7 +176,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -221,7 +226,7 @@
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
       "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://fireandmuckpottery.com/"
       },
@@ -233,7 +238,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -252,7 +258,7 @@
         "state": "MO",
         "town": ""
       },
-      "weak": false,
+      "weak": true,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -289,7 +295,8 @@
           "pit_barrel_saggar",
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -349,16 +356,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "artistreepottery.com"
       },
-      "lat": 37.20817,
-      "lng": -93.29227,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -373,11 +379,15 @@
       "located": {
         "state": "MO",
         "town": "Springfield",
-        "score": 18,
+        "score": 30,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "1423 E. Cherry Street, Suite 103, Springfield, MO 65802",
+      "auto_approved": "2026-10-09",
+      "lat": 37.20817,
+      "lng": -93.29227
     },
     {
       "id": "sam-fox-school-of-design-visual-arts",
@@ -394,9 +404,9 @@
         "https://samfoxschool.washu.edu/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Louis, Missouri",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://samfoxschool.washu.edu/"
       },
@@ -408,7 +418,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -431,10 +442,11 @@
       "located": {
         "state": "MO",
         "town": "St. Louis",
-        "score": 32,
+        "score": 53,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "01 One Brookings Drive, St. Louis, MO 63130"
     }
   ],
   "_removed": [

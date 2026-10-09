@@ -57,9 +57,10 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -83,7 +84,8 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "featherstoneart-app-neoncrm",
@@ -116,7 +118,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -174,9 +177,10 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -199,7 +203,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "the-japan-foundation",
@@ -230,7 +235,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -286,7 +292,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -330,9 +337,9 @@
         "https://creativeartsworkshop.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "New Haven, Connecticut",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://creativeartsworkshop.org/"
       },
@@ -344,9 +351,10 @@
         "types": [
           "gas_reduction"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -367,10 +375,14 @@
       "located": {
         "state": "CT",
         "town": "New Haven",
-        "score": 6,
+        "score": 15,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "address": "80 Audubon Street, New Haven, CT 06510",
+      "auto_approved": "2026-10-09",
+      "lat": 41.31113,
+      "lng": -72.92138
     },
     {
       "id": "bell-hill-pottery",
@@ -421,6 +433,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -454,9 +469,10 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -485,7 +501,10 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 41.9418,
+      "lng": -72.7275
     },
     {
       "id": "canton-clay-works",
@@ -518,9 +537,10 @@
           "wood",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -545,7 +565,8 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "lakeside-pottery-ct",
@@ -593,70 +614,12 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "chris-jones-pottery",
-      "org": "Chris Jones Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Connecticut",
-      "city": null,
-      "urls": [
-        "https://jonespottery.net/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://jonespottery.net/"
       },
       "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Upcoming Workshop 2027 at the John C Campbell Folk School Cone 10 Reduction Firing for Color and Effect",
-        "url": "https://jonespottery.net/workshops-2026",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-08"
+        "status": "ongoing"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "jonespottery.net"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "yes",
-        "why": "The page shows outsiders can sign up for Cone 10 reduction firing workshops via a sign-up link and at John C Campbell Folk School.",
-        "types": {
-          "gas_reduction": "Bring 10-20 small/medium bisque-fired pieces of cone 9-10 clay and learn to load and fire a gas kiln."
-        },
-        "state": "",
-        "town": ""
-      },
-      "located": {
-        "state": "MS",
-        "town": "Avenue Ocean Springs",
-        "score": 2,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "agree-yes",
-        "date": "2026-10-08"
-      },
-      "weak": true
+      "lat": 41.05343,
+      "lng": -73.53873
     },
     {
       "id": "institute-for-american-indian-studies",
@@ -673,9 +636,9 @@
         "https://explorewashingtonct.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Washington, Connecticut",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://explorewashingtonct.com/"
       },
@@ -687,7 +650,8 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -710,10 +674,13 @@
       "located": {
         "state": "CT",
         "town": "Washington",
-        "score": 36,
+        "score": 270,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "address": "5 Wykeham Road, Washington, CT 06793",
+      "lat": 41.63088,
+      "lng": -73.31126
     },
     {
       "id": "lisa-york-arts",
@@ -744,9 +711,10 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -773,7 +741,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 41.76616,
+      "lng": -72.67327
     }
   ],
   "_removed": [
@@ -832,6 +803,10 @@
     {
       "id": "decorhint",
       "why": "Second check (gemma-4-31b-it): Decorhint is a directory/blog listing pottery classes and does not run firings itself. (2026-10-08)"
+    },
+    {
+      "id": "chris-jones-pottery",
+      "why": "Its own pages give an address in GA (Blue Ridge), not CT. Moved. (2026-10-09)"
     }
   ]
 }

@@ -17,9 +17,9 @@
         "https://www.greenvillearts.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Greenville, South Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.greenvillearts.com/"
       },
@@ -32,7 +32,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -50,12 +51,10 @@
         "town": "Greenville",
         "street": "16 Augusta Street"
       },
-      "lat": 34.85135,
-      "lng": -82.39849,
       "located": {
         "state": "SC",
         "town": "Greenville",
-        "score": 36,
+        "score": 45,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -65,7 +64,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "16 Augusta Street, Greenville, SC 29601",
+      "lat": 34.84412,
+      "lng": -82.40492
     },
     {
       "id": "rob-gentry-s-firesong-anagama-kiln",
@@ -96,9 +98,10 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -121,7 +124,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "artfields",
@@ -152,7 +156,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -198,9 +203,9 @@
         "https://www.hiltonheadpottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Hilton Head Island, South Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.hiltonheadpottery.com/"
       },
@@ -212,7 +217,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -234,7 +240,7 @@
       "located": {
         "state": "SC",
         "town": "Hilton Head Island",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -243,7 +249,8 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "21 Mathews Drive, Suite 2, Hilton Head Island, SC 29926"
     },
     {
       "id": "clemson-art-department",
@@ -260,9 +267,9 @@
         "https://clemson.world/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Clemson, South Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://clemson.world/"
       },
@@ -274,7 +281,8 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -296,7 +304,7 @@
       "located": {
         "state": "SC",
         "town": "Clemson",
-        "score": 6,
+        "score": 18,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -305,7 +313,10 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "114 Daniel Drive, Clemson, SC 29631",
+      "lat": 34.68197,
+      "lng": -82.83412
     },
     {
       "id": "south-carolina-arts-commission",
@@ -322,9 +333,9 @@
         "https://www.southcarolinaarts.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Columbia, South Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.southcarolinaarts.com/"
       },
@@ -347,10 +358,14 @@
       "located": {
         "state": "SC",
         "town": "Columbia",
-        "score": 6,
+        "score": 15,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "1026 Sumter St., Ste. 200, Columbia, SC 29201"
     }
   ],
   "_removed": [

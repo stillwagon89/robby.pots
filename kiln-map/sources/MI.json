@@ -62,14 +62,14 @@
         "soda",
         "wood"
       ],
-      "region": "NW Grand Rapids",
-      "city": "NW Grand Rapids",
+      "region": "Grand Rapids",
+      "city": "Grand Rapids",
       "urls": [
         "https://potterylanegr.com/"
       ],
       "notes": "\"Light It Up Weekend\" firing workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "NW Grand Rapids, Michigan",
+      "geocode": "Grand Rapids, Michigan",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://potterylanegr.com/"
@@ -84,9 +84,10 @@
           "soda",
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -108,11 +109,15 @@
       "located": {
         "state": "MI",
         "town": "NW Grand Rapids",
-        "score": 6,
+        "score": 15,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "2663 Elmridge Dr, NW Grand Rapids, MI 49534",
+      "auto_approved": "2026-10-09",
+      "lat": 42.96324,
+      "lng": -85.66786
     },
     {
       "id": "kalamazoo-institute-of-arts",
@@ -130,9 +135,9 @@
         "https://www.kiarts.org/"
       ],
       "notes": "Dated workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Kalamazoo, Michigan",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.kiarts.org/"
       },
@@ -145,7 +150,8 @@
           "soda",
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -153,8 +159,6 @@
         "date": "2026-10-06",
         "key": "kiarts.org"
       },
-      "lat": 42.29171,
-      "lng": -85.58723,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -171,11 +175,14 @@
       "located": {
         "state": "MI",
         "town": "Kalamazoo",
-        "score": 26,
+        "score": 35,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "314 S. Park St., Kalamazoo, MI 49007",
+      "lat": 42.28918,
+      "lng": -85.588
     },
     {
       "id": "ceramics-school",
@@ -192,9 +199,9 @@
         "https://www.ceramicsschool.com/"
       ],
       "notes": "\"Fire the wood kiln!\" Sun Dec 14. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Hamtramck, Michigan",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.ceramicsschool.com/"
       },
@@ -206,16 +213,15 @@
         "types": [
           "wood"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "ceramicsschool.com"
       },
-      "lat": 42.39282,
-      "lng": -83.04964,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -229,10 +235,17 @@
         "street": "2692 Carpenter St."
       },
       "located": {
+        "state": "MI",
+        "town": "Hamtramck",
+        "score": 12,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "2692 Carpenter St., Hamtramck, MI",
+      "auto_approved": "2026-10-09",
+      "lat": 42.40581,
+      "lng": -83.06545
     },
     {
       "id": "the-potters-guild",
@@ -243,15 +256,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "St Ann Arbor",
-      "city": "St Ann Arbor",
+      "region": "Ann Arbor",
+      "city": "Ann Arbor",
       "urls": [
         "https://www.pottersguild.net/"
       ],
       "notes": "Registration-open firing events. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St Ann Arbor, Michigan",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.pottersguild.net/"
       },
@@ -263,9 +276,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -285,12 +299,16 @@
       },
       "located": {
         "state": "MI",
-        "town": "St Ann Arbor",
-        "score": 4,
+        "town": "Ann Arbor",
+        "score": 6,
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "201 Hill St, Ann Arbor, MI 48104",
+      "auto_approved": "2026-10-09",
+      "lat": 42.27204,
+      "lng": -83.74738
     },
     {
       "id": "yourist-studio-gallery",
@@ -303,15 +321,15 @@
         "raku",
         "gas_reduction"
       ],
-      "region": "Road Ann Arbor",
-      "city": "Road Ann Arbor",
+      "region": "Ann Arbor",
+      "city": "Ann Arbor",
       "urls": [
         "https://www.youristpottery.com/"
       ],
       "notes": "Membership. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Road Ann Arbor, Michigan",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.youristpottery.com/"
       },
@@ -325,9 +343,10 @@
           "raku",
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -349,12 +368,16 @@
       },
       "located": {
         "state": "MI",
-        "town": "Road Ann Arbor",
-        "score": 6,
+        "town": "Ann Arbor",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "6087 Jackson Road, Ann Arbor, MI 48103",
+      "auto_approved": "2026-10-09",
+      "lat": 42.29048,
+      "lng": -83.84916
     },
     {
       "id": "creative-arts-studios",
@@ -365,15 +388,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Street Royal Oak",
-      "city": "Street Royal Oak",
+      "region": "Royal Oak",
+      "city": "Royal Oak",
       "urls": [
         "https://creativeartsstudios.com/"
       ],
       "notes": "Monthly raku firings, weather permitting. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Street Royal Oak, Michigan",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://creativeartsstudios.com/"
       },
@@ -385,9 +408,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -407,11 +431,15 @@
       "weak": false,
       "located": {
         "state": "MI",
-        "town": "Street Royal Oak",
-        "score": 6,
+        "town": "Royal Oak",
+        "score": 24,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "114 West 4th Street, Royal Oak, MI 48067",
+      "auto_approved": "2026-10-09",
+      "lat": 42.48736,
+      "lng": -83.14448
     },
     {
       "id": "clayspacetc",
@@ -428,9 +456,9 @@
         "https://www.clayspacetc.com/"
       ],
       "notes": "Fall raku workshop ($150). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Traverse City, Michigan",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.clayspacetc.com/"
       },
@@ -442,16 +470,15 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "clayspacetc.com"
       },
-      "lat": 44.76065,
-      "lng": -85.6166,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -465,10 +492,17 @@
         "street": "1465 Barlow Street, Traverse City Michigan 49686"
       },
       "located": {
+        "state": "MI",
+        "town": "Traverse City",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "1455 Barlow Street, Traverse City, MI",
+      "auto_approved": "2026-10-09",
+      "lat": 44.74254,
+      "lng": -85.60516
     },
     {
       "id": "glen-arbor-arts-center",
@@ -499,9 +533,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -521,11 +556,15 @@
       "located": {
         "state": "MI",
         "town": "Glen Arbor",
-        "score": 12,
+        "score": 21,
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "address": "6112 Physical Address 6031 S Lake St, Glen Arbor, MI 49636",
+      "auto_approved": "2026-10-09",
+      "lat": 44.89773,
+      "lng": -85.98888
     },
     {
       "id": "clawson-clay-guild",
@@ -536,15 +575,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Rochester Rd. Clawson",
-      "city": "Rochester Rd. Clawson",
+      "region": "Clawson",
+      "city": "Clawson",
       "urls": [
         "https://www.clawsonclayguild.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Rochester Rd. Clawson, Michigan",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.clawsonclayguild.com/"
       },
@@ -556,7 +595,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -577,8 +617,8 @@
       "weak": true,
       "located": {
         "state": "MI",
-        "town": "Rochester Rd. Clawson",
-        "score": 2,
+        "town": "Clawson",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -587,7 +627,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "120 S. Rochester Rd., Clawson, MI 48017",
+      "lat": 42.53008,
+      "lng": -83.13682
     },
     {
       "id": "ann-arbor-potters-guild",
@@ -604,9 +647,9 @@
         "https://aadl.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Ann Arbor, Michigan",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://aadl.org/"
       },
@@ -619,7 +662,8 @@
           "raku",
           "wood"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -641,7 +685,7 @@
       "located": {
         "state": "MI",
         "town": "Ann Arbor",
-        "score": 8,
+        "score": 20,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -650,7 +694,8 @@
         "verdict": "no",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "4200 343 South Fifth Ave., Ann Arbor, MI 48104"
     }
   ],
   "_removed": [

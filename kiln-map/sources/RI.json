@@ -60,7 +60,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -101,15 +102,15 @@
       "firing_types_guess": [
         "pit_barrel_saggar"
       ],
-      "region": "Rhode Island",
-      "city": null,
+      "region": "East Greenwich",
+      "city": "East Greenwich",
       "urls": [
         "https://riblogger.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "East Greenwich, Rhode Island",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://riblogger.com/"
       },
@@ -121,9 +122,10 @@
         "types": [
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -142,9 +144,16 @@
       },
       "weak": false,
       "located": {
+        "state": "RI",
+        "town": "East Greenwich",
+        "score": 3,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "address": "30 PM. Located at 1485 South County Trail, Suite 201, East Greenwich, RI",
+      "auto_approved": "2026-10-09",
+      "lat": 41.66038,
+      "lng": -71.45589
     }
   ],
   "_removed": [

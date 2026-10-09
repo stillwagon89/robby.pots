@@ -57,9 +57,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -90,7 +91,10 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "auto_approved": "2026-10-09",
+      "lat": 21.30455,
+      "lng": -157.85568
     },
     {
       "id": "hawaii-ceramic-supply",
@@ -121,9 +125,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -147,7 +152,8 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "nendo-studio-hawaii",
@@ -159,15 +165,15 @@
         "raku",
         "wood"
       ],
-      "region": "Colburn Street Honolulu",
-      "city": "Colburn Street Honolulu",
+      "region": "Honolulu",
+      "city": "Honolulu",
       "urls": [
         "https://www.nendostudiohawaii.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Colburn Street Honolulu, Hawaii",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.nendostudiohawaii.com/"
       },
@@ -180,9 +186,10 @@
           "raku",
           "wood"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -204,8 +211,8 @@
       "weak": false,
       "located": {
         "state": "HI",
-        "town": "Colburn Street Honolulu",
-        "score": 6,
+        "town": "Honolulu",
+        "score": 9,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -214,7 +221,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "address": "1922 Colburn Street, Honolulu, HI 96819",
+      "auto_approved": "2026-10-09",
+      "lat": 21.32808,
+      "lng": -157.88185
     },
     {
       "id": "windward-artists-guild",
@@ -256,7 +267,12 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "lat": 21.30455,
+      "lng": -157.85568
     }
   ],
   "_removed": [

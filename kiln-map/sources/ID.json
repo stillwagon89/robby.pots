@@ -73,6 +73,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -123,6 +126,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -134,15 +140,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Vista Avenue Boise",
-      "city": "Vista Avenue Boise",
+      "region": "Boise",
+      "city": "Boise",
       "urls": [
         "https://www.ceramicaboise.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Vista Avenue Boise, Idaho",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.ceramicaboise.com/"
       },
@@ -154,7 +160,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -177,8 +184,8 @@
       "weak": false,
       "located": {
         "state": "ID",
-        "town": "Vista Avenue Boise",
-        "score": 4,
+        "town": "Boise",
+        "score": 6,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -187,7 +194,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "address": "1002 South Vista Avenue, Boise, ID 83705",
+      "lat": 43.59549,
+      "lng": -116.21307
     },
     {
       "id": "sandpoint-ceramics",
@@ -242,6 +252,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
+      },
+      "access": {
+        "status": "ongoing"
       }
     }
   ],

@@ -32,7 +32,8 @@
           "raku",
           "gas_reduction"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -113,6 +114,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -144,7 +148,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -189,9 +194,9 @@
         "https://oklahomacontemporary.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Oklahoma City, Oklahoma",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://oklahomacontemporary.org/"
       },
@@ -204,7 +209,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -228,10 +234,13 @@
       "located": {
         "state": "OK",
         "town": "Oklahoma City",
-        "score": 12,
+        "score": 21,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "address": "11 NW 11th St., Oklahoma City, OK 73103",
+      "lat": 35.48053,
+      "lng": -97.51317
     },
     {
       "id": "3rd-street-clayworks",
@@ -248,9 +257,9 @@
         "https://www.clayworkstulsa.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tulsa, Oklahoma",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.clayworkstulsa.com/"
       },
@@ -262,7 +271,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -270,8 +280,6 @@
         "date": "2026-10-07",
         "key": "clayworkstulsa.com"
       },
-      "lat": 36.15631,
-      "lng": -95.99275,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -286,7 +294,7 @@
       "located": {
         "state": "OK",
         "town": "Tulsa",
-        "score": 2,
+        "score": 14,
         "osm": true,
         "date": "2026-10-09"
       },
@@ -295,7 +303,10 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "3121 Charles Page Blvd, Tulsa, OK",
+      "lat": 36.1512,
+      "lng": -96.0252
     },
     {
       "id": "oil-clay-studio",
@@ -313,9 +324,9 @@
         "https://www.normanfirehouse.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Norman, Oklahoma",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.normanfirehouse.com/"
       },
@@ -328,7 +339,8 @@
           "raku",
           "gas_reduction"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -336,8 +348,6 @@
         "date": "2026-10-07",
         "key": "normanfirehouse.com"
       },
-      "lat": 35.22257,
-      "lng": -97.43948,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
@@ -352,7 +362,7 @@
       "located": {
         "state": "OK",
         "town": "Norman",
-        "score": 5,
+        "score": 14,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -361,7 +371,10 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "444 South Flood Avenue, Norman, OK",
+      "lat": 35.21323,
+      "lng": -97.4533
     },
     {
       "id": "oklahoma-state-university",
@@ -372,14 +385,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Stillwater",
-      "city": "Stillwater",
+      "region": "STILLWATER",
+      "city": "STILLWATER",
       "urls": [
         "https://events.okstate.edu/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Stillwater, Oklahoma",
+      "geocode": "STILLWATER, Oklahoma",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://events.okstate.edu/"
@@ -392,7 +405,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -400,8 +414,6 @@
         "date": "2026-10-07",
         "key": "events.okstate.edu"
       },
-      "lat": 36.11563,
-      "lng": -97.05857,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-08",
@@ -415,9 +427,14 @@
       },
       "weak": false,
       "located": {
+        "state": "OK",
+        "town": "STILLWATER",
+        "score": 2,
         "osm": true,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 36.11563,
+      "lng": -97.05857
     }
   ],
   "_removed": [

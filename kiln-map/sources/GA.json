@@ -81,9 +81,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -107,7 +108,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "callanwolde-fine-arts-center",
@@ -138,9 +140,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -167,7 +170,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09"
     },
     {
       "id": "clayer-co",
@@ -198,7 +202,8 @@
         "types": [
           "gas_reduction"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -234,15 +239,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Patterson Street Valdosta",
-      "city": "Patterson Street Valdosta",
+      "region": "Valdosta",
+      "city": "Valdosta",
       "urls": [
         "https://turnercenter.org/"
       ],
       "notes": "Raku class. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Patterson Street Valdosta, Georgia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://turnercenter.org/"
       },
@@ -254,7 +259,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-06"
+        "checked": "2026-10-06",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -274,9 +280,9 @@
       },
       "located": {
         "state": "GA",
-        "town": "Patterson Street Valdosta",
-        "score": 4,
-        "osm": false,
+        "town": "Valdosta",
+        "score": 6,
+        "osm": true,
         "date": "2026-10-09"
       },
       "weak": true,
@@ -285,7 +291,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "527 N. Patterson Street, Valdosta, GA 31601",
+      "lat": 30.83565,
+      "lng": -83.28126
     },
     {
       "id": "corranny-forest-pottery",
@@ -316,7 +325,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -376,7 +386,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "upcoming"
       },
       "review": "pending",
       "discovered": {
@@ -438,7 +449,8 @@
           "raku",
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -462,7 +474,9 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 33.75447,
+      "lng": -84.38982
     },
     {
       "id": "macon-arts-alliance",
@@ -473,15 +487,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "St. Macon",
-      "city": "St. Macon",
+      "region": "Macon",
+      "city": "Macon",
       "urls": [
         "https://www.maconartsalliance.org/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Macon, Georgia",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.maconartsalliance.org/"
       },
@@ -503,11 +517,83 @@
       "weak": true,
       "located": {
         "state": "GA",
-        "town": "St. Macon",
-        "score": 6,
+        "town": "Macon",
+        "score": 28,
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "486 1st St., Macon, GA 31201",
+      "lat": 32.8361,
+      "lng": -83.63154
+    },
+    {
+      "id": "chris-jones-pottery",
+      "org": "Chris Jones Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Blue Ridge",
+      "city": "Blue Ridge",
+      "urls": [
+        "https://jonespottery.net/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Blue Ridge, Georgia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://jonespottery.net/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Upcoming Workshop 2027 at the John C Campbell Folk School Cone 10 Reduction Firing for Color and Effect",
+        "url": "https://jonespottery.net/workshops-2026",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-08",
+        "status": "ongoing"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "jonespottery.net"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page shows outsiders can sign up for Cone 10 reduction firing workshops via a sign-up link and at John C Campbell Folk School.",
+        "types": {
+          "gas_reduction": "Bring 10-20 small/medium bisque-fired pieces of cone 9-10 clay and learn to load and fire a gas kiln."
+        },
+        "state": "",
+        "town": ""
+      },
+      "located": {
+        "state": "GA",
+        "town": "Blue Ridge",
+        "score": 5,
+        "osm": false,
+        "date": "2026-10-09"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "agree-yes",
+        "date": "2026-10-08"
+      },
+      "weak": true,
+      "lat": 34.86397,
+      "lng": -84.32409
     }
   ],
   "_removed": [

@@ -41,9 +41,9 @@
         "https://www.alewinepottery.net/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Gatlinburg, Tennessee",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.alewinepottery.net/"
       },
@@ -64,12 +64,10 @@
         "street": "623 Glades Road"
       },
       "weak": true,
-      "lat": 35.71426,
-      "lng": -83.51016,
       "located": {
         "state": "TN",
         "town": "Gatlinburg",
-        "score": 5,
+        "score": 8,
         "osm": true,
         "date": "2026-10-09"
       },
@@ -78,7 +76,13 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "623 Glades Road, Gatlinburg, TN",
+      "lat": 35.74376,
+      "lng": -83.45493
     },
     {
       "id": "mighty-mud",
@@ -95,9 +99,9 @@
         "https://classes.mightymud.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Knoxville, Tennessee",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://classes.mightymud.com/"
       },
@@ -109,9 +113,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -129,13 +134,11 @@
         "town": "Knoxville",
         "street": "1528 Island Home Avenue"
       },
-      "lat": 35.96039,
-      "lng": -83.92103,
       "weak": false,
       "located": {
         "state": "TN",
         "town": "Knoxville",
-        "score": 48,
+        "score": 51,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -144,7 +147,11 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "1528 Island Home Ave, Knoxville, TN 37920",
+      "auto_approved": "2026-10-09",
+      "lat": 35.95631,
+      "lng": -83.88495
     },
     {
       "id": "mid-south-ceramics",
@@ -197,6 +204,9 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -228,9 +238,10 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -252,7 +263,7 @@
       "located": {
         "state": "TN",
         "town": "Antioch",
-        "score": 2,
+        "score": 5,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -261,7 +272,11 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "address": "5909 Labrador Lane, Antioch, TN 37013",
+      "auto_approved": "2026-10-09",
+      "lat": 36.06006,
+      "lng": -86.67222
     },
     {
       "id": "tech-times",
@@ -292,7 +307,8 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -354,7 +370,8 @@
           "raku",
           "pit_barrel_saggar"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -431,6 +448,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
+      },
+      "access": {
+        "status": "ongoing"
       }
     },
     {
@@ -462,7 +482,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "ongoing"
       },
       "review": "pending",
       "discovered": {
@@ -521,9 +542,10 @@
         "types": [
           "soda"
         ],
-        "checked": "2026-10-08"
+        "checked": "2026-10-08",
+        "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -544,7 +566,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-09",
+      "lat": 36.16228,
+      "lng": -86.7743
     }
   ],
   "_removed": [

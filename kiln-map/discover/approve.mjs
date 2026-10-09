@@ -12,7 +12,11 @@ let i = 0, ok = 0;
 for (const s of [...doc.sources]) if (s.review === "pending" && !s.weak && s.verify) {
   i++;
   if (rej.has(i)) { doc.sources = doc.sources.filter((x) => x !== s); (doc._removed ||= []).push({ id: s.id, why: `Rejected by Robby on review. (${new Date().toISOString().slice(0, 10)})` }); }
-  else { s.review = "approved"; s.approved = new Date().toISOString().slice(0, 10); ok++; }
+  else {
+    // approving a place also approves its upcoming, quote-verified pending events
+    const pend = path.join(KM, "data/pending"), appr = path.join(KM, "data/approved");
+    if (fs.existsSync(pend)) for (const f of fs.readdirSync(pend)) { const e = JSON.parse(fs.readFileSync(path.join(pend, f), "utf8")); if (e.source_id === s.id && !e.past && e.quote_verified !== false) { e.reviewed = new Date().toISOString().slice(0, 10); fs.writeFileSync(path.join(appr, f), JSON.stringify(e, null, 2) + "\n"); fs.unlinkSync(path.join(pend, f)); } }
+    s.review = "approved"; s.approved = new Date().toISOString().slice(0, 10); ok++; }
 }
 fs.writeFileSync(fp, JSON.stringify(doc, null, 2) + "\n");
 console.log(`${ST}: approved ${ok}, rejected ${rej.size}`);
