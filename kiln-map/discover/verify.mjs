@@ -171,7 +171,7 @@ if (APPLY) {
   const docs = new Map();
   const rehome = [];
   for (const j of jobs) {
-    if (j.v.error) continue;
+    if (j.v.error || j.s.confirmed_by_robby || j.s.review === "approved") continue;
     docs.set(j.f, j.doc);
     const types = Object.keys(j.v.types);
     j.s.verify = { by: j.v.model || MODEL, date: TODAY, verdict: j.v.verdict, why: j.v.why, types: j.v.types, state: j.v.state || "", town: j.v.town || "", ...(j.v.street ? { street: j.v.street } : {}) };

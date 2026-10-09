@@ -98,6 +98,7 @@ if (APPLY) {
     for (const j of js) {
       const s = cur.sources.find((x) => x.id === j.s.id); if (!s) continue;
       s.located = { ...(j.loc ? { state: j.loc.st, town: j.loc.town, score: j.loc.score } : {}), osm: j.osm ? true : false, date: TODAY };
+      if (s.confirmed_by_robby || s.review === "approved") { s.located = { ...s.located, kept: true }; continue; }
       if (mism.includes(j)) { cur.sources = cur.sources.filter((x) => x !== s); (cur._removed ||= []).push({ id: s.id, why: `Its own pages give an address in ${j.loc.st} (${j.loc.town}), not ${ST}. Moved. (${TODAY})` }); rehome.push({ to: j.loc.st, s }); continue; }
       if (j.loc && j.loc.st === ST && j.loc.town && j.loc.town !== s.city) { s.city = j.loc.town; s.region = j.loc.town; s.geocode = `${j.loc.town}, ${stateName(ST)}`; delete s.lat; delete s.lng; s.location_note = "Shown at the town."; }
       const stated = (s.verify?.state || "").toUpperCase() === ST || (s.verify?.state || "").toLowerCase() === stateName(ST).toLowerCase();

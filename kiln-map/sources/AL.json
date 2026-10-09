@@ -109,15 +109,15 @@
       },
       "access": {
         "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "This four-day workshop, February 22-25, 2026, will focus on the enigmatic surfaces produced through the process of soda firing.",
+        "note": "Show as a place, not an event: the Feb 2026 workshop has passed. (Robby 2026-10-09)",
+        "quote": "Hosts soda firing workshops in its kiln yard (most recent: Casey Beck, Feb 2026).",
         "url": "https://alabamacenterforthearts.org/event/soda-firing-workshop-with-casey-beck-at-aca/",
         "types": [
           "soda"
         ],
         "checked": "2026-10-07"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -143,7 +143,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "approved": "2026-10-09",
+      "confirmed_by_robby": "2026-10-09"
     },
     {
       "id": "athens-state-university",
@@ -199,7 +200,8 @@
         "osm": true,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "hold": "Its page repeats the Feb 2026 soda workshop that was held at the Alabama Center for the Arts. Unclear that Athens State itself runs public firings. Waiting on Robby."
     },
     {
       "id": "sullivan-pottery-al",
@@ -294,7 +296,7 @@
         ],
         "checked": "2026-10-07"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -319,7 +321,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "approved": "2026-10-09",
+      "confirmed_by_robby": "2026-10-09"
     },
     {
       "id": "celeste-sabel-haynie",
@@ -414,7 +417,7 @@
       },
       "access": {
         "how": "Classes or membership",
-        "note": "Classes or membership",
+        "note": "Confirmed by Robby 2026-10-09: classes clearly offered (Maria Spies Pottery page).",
         "quote": "Participants may, and do aid in the unloading in a relay chain that allows each person to examine the pot as it is handed to the next member of the relay chain.",
         "url": "https://www.maria-pots.com/Classesworks.htm",
         "types": [
@@ -424,7 +427,7 @@
         ],
         "checked": "2026-10-07"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -451,7 +454,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "approved": "2026-10-09",
+      "confirmed_by_robby": "2026-10-09"
     },
     {
       "id": "shelby-county-arts-council",
@@ -553,6 +557,69 @@
         "result": "split",
         "date": "2026-10-07"
       }
+    },
+    {
+      "id": "montgomery-pottery",
+      "org": "Montgomery Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Montgomery",
+      "city": "Montgomery",
+      "urls": [
+        "https://www.montgomerypottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Montgomery, Alabama",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.montgomerypottery.com/"
+      },
+      "access": {
+        "how": "Classes include cone 10 reduction firing",
+        "note": "Confirmed by Robby 2026-10-07: cone 10 reduction classes open to outsiders; raku only mentioned, no classes.",
+        "quote": "Firing is cone 10 reduction & occur for 3 seasons",
+        "url": "http://www.montgomerypottery.com/",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "approved",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "montgomerypottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "yes",
+        "why": "The site offers pottery classes open to the public with raku and cone 10 reduction firings included, allowing outsiders to register online, by email, or in person.",
+        "types": {
+          "gas_reduction": "Firing is cone 10 reduction & occur for 3 seasons"
+        },
+        "state": "",
+        "town": ""
+      },
+      "lat": 32.37771,
+      "lng": -86.30908,
+      "located": {
+        "osm": false,
+        "date": "2026-10-08"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
+      },
+      "confirmed_by_robby": "2026-10-09",
+      "approved": "2026-10-09"
     }
   ],
   "_removed": [
@@ -579,10 +646,6 @@
     {
       "id": "makebhm",
       "why": "Second check (claude-haiku-4.5): The search snippets mention ceramics classes and memberships with firing services, but do not specify any non-electric firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction); only cone 5/6 and cone 10 electric kiln firings are mentioned. (2026-10-07)"
-    },
-    {
-      "id": "montgomery-pottery",
-      "why": "Second check (gemini-3.1-flash-lite): The text mentions Raku and cone 10 reduction firings, but only in the context of student classes or general studio descriptions without offering public access to these specific firing types via rental, firing services, or open invitations. (2026-10-08)"
     }
   ]
 }
