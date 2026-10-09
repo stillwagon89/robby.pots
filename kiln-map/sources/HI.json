@@ -53,7 +53,7 @@
         "how": "Dated workshop or firing event",
         "note": "Dated workshop or firing event",
         "quote": "Raku Hoʻolauleʻa (a celebration of raku) brings together ceramic artists to participate in raku and related firing techniques at a campout which is held in a beautiful beach setting on the North Shore of Oʻahu.",
-        "url": "https://www.hawaiicraftsmen.org/Raku2025",
+        "url": "https://www.hawaiicraftsmen.org/",
         "types": [
           "raku"
         ],
@@ -67,16 +67,17 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets describe a raku event that brings together ceramic artists to participate in raku firing, but the actual page text is empty, so I cannot verify the location details or confirm public access terms.",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page describes Raku Hoʻolauleʻa as bringing together ceramic artists to participate in raku and related firing techniques at a campout, with event registration available to the public.",
         "types": {
-          "raku": "brings together ceramic artists to participate in raku and related firing techniques at a campout"
+          "raku": "Raku Hoʻolauleʻa (a celebration of raku) brings together ceramic artists to participate in raku and related firing techniques at a campout which is held in a beautiful beach setting on the North Shore of Oʻahu."
         },
-        "state": "",
-        "town": ""
+        "state": "HI",
+        "town": "Honolulu",
+        "street": "1110 NUUANU AVE"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "HI",
         "town": "HONOLULU",
@@ -189,14 +190,18 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The snippets mention raku and woodfiring workshops but do not provide enough detail about how outsiders can access these specific firing types or their location.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The studio offers workshops and classes open to all skill levels that include firings, and specifically mentions they specialize in raku and coordinate woodfiring workshop trips.",
+        "types": {
+          "raku": "In addition, we specialize in alternate forms of firings like raku and coordinate woodfiring workshop trips to Japan.",
+          "wood": "In addition, we specialize in alternate forms of firings like raku and coordinate woodfiring workshop trips to Japan."
+        },
+        "state": "HI",
+        "town": "Honolulu",
+        "street": "1922 Colburn Street"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "HI",
         "town": "Colburn Street Honolulu",

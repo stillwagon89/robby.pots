@@ -2,56 +2,6 @@
   "_note": "SD firing sources.",
   "sources": [
     {
-      "id": "shelby-prindaville",
-      "org": "Shelby Prindaville",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Sioux Falls",
-      "city": "Sioux Falls",
-      "urls": [
-        "https://shelbyprindaville.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Sioux Falls, South Dakota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://shelbyprindaville.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "shelbyprindaville.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "The page text provided is empty; only search snippets are available, which show Shelby Prindaville attending raku workshops at Dakota Potters Supply but do not contain word-for-word sentences showing how outsiders can join a firing at Shelby Prindaville's own location.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 43.5476,
-      "lng": -96.72936,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "webtrac",
       "org": "WebTrac",
       "kind": "studio",
@@ -90,9 +40,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "WebTrac offers a Raku Pottery Alternative Firing workshop where participants can take part in raku firing on a scheduled date with registration through their activity system.",
+        "why": "WebTrac offers a Raku Pottery Alternative Firing workshop where participants can take part in raku firing processes at a public recreation center in Aberdeen, SD.",
         "types": {},
         "state": "SD",
         "town": "Aberdeen",
@@ -111,12 +61,77 @@
         "result": "split",
         "date": "2026-10-08"
       }
+    },
+    {
+      "id": "dakota-potters-supply",
+      "org": "Dakota Potters Supply",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Street Sioux Falls",
+      "city": "Street Sioux Falls",
+      "urls": [
+        "https://dakotapotters.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Street Sioux Falls, South Dakota",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://dakotapotters.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "During our monthly workshop we will fire your pieces to Brilliant and Exciting Colors. Our various techniques include general Flash Glazes (gloss and matte), Horse Hair, Ferric Spray, Ferric Sagger (Baked Potato) and more.",
+        "url": "https://dakotapotters.com/raku-firing/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "dakotapotters.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "page says state is SD, not ND",
+        "types": {},
+        "state": "SD",
+        "town": "Sioux Falls"
+      },
+      "weak": true,
+      "located": {
+        "state": "SD",
+        "town": "Street Sioux Falls",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-09"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [
     {
       "id": "up-in-smoke-pottery",
       "why": "Second check (gemini-3.1-flash-lite): The text describes the owners' personal firing processes and mentions they have programming for workshops, but it does not provide information for the public to sign up, book, or participate in any firings. (2026-10-07)"
+    },
+    {
+      "id": "shelby-prindaville",
+      "why": "Second check (claude-haiku-4.5): The page is Shelby Prindaville's personal artist portfolio and blog; it mentions attending raku workshops at Dakota Potters Supply but does not show that outsiders can sign up for or take part in any firing at her own location or business. (2026-10-09)"
     }
   ]
 }

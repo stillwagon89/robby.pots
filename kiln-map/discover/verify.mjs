@@ -12,6 +12,7 @@ const ROOT = path.resolve(KM, "..");
 const env = Object.fromEntries(fs.readFileSync(path.join(ROOT, ".dev.vars"), "utf8").split("\n").map((l) => l.match(/^([A-Z_]+)=(.*)$/)).filter(Boolean).map((m) => [m[1], m[2].replace(/^"|"$/g, "").trim()]));
 const APPLY = process.argv.includes("--apply");
 const FORCE = process.argv.includes("--force");
+const LIVE = process.argv.includes("--live"); // weak places only: re-read their live site (home + class/workshop/firing pages), not the trimmed cache
 const only = process.argv.slice(2).filter((a) => /^[A-Za-z]{2}$/.test(a)).map((a) => a.toUpperCase());
 const MODEL = process.env.VERIFY_MODEL || "gemini-3.5-flash";
 const norm = (s) => (s || "").toLowerCase().replace(/[^a-z0-9$]+/g, " ").trim();
@@ -107,6 +108,28 @@ async function ask(text) {
   throw new Error("no usable answer");
 }
 
+const UA = "Mozilla/5.0 (Macintosh) Chrome/128.0 Safari/537.36 FlamingClayFiringsBot/0.1 (+https://flamingclay.com)";
+const lastHit = new Map(), robotsOk = new Map();
+async function liveGet(u) {
+  try {
+    const o = new URL(u).origin;
+    if (!robotsOk.has(o)) { let ok = true; try { const r = await fetch(`${o}/robots.txt`, { signal: AbortSignal.timeout(8000) }); if (r.ok) ok = !/user-agent:\s*\*\s*\n(?:[^\n]*\n)*?\s*disallow:\s*\/\s*(\n|$)/i.test(await r.text()); } catch {} robotsOk.set(o, ok); }
+    if (!robotsOk.get(o)) return "";
+    const h = new URL(u).host; const w = (lastHit.get(h) || 0) + 1200 - Date.now(); lastHit.set(h, Date.now() + Math.max(w, 0)); if (w > 0) await new Promise((r) => setTimeout(r, w));
+    const r = await fetch(u, { redirect: "follow", signal: AbortSignal.timeout(15000), headers: { "User-Agent": UA, Accept: "text/html" } });
+    return r.ok ? await r.text() : "";
+  } catch { return ""; }
+}
+const toText = (h) => h.replace(/<(script|style|noscript|svg)[\s\S]*?<\/\1>/gi, " ").replace(/<(br|\/p|\/div|\/li|\/h[1-6]|\/tr)[^>]*>/gi, "\n").replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/[ \t]+/g, " ").replace(/\s*\n\s*/g, "\n").trim();
+async function livePages(base) {
+  const pages = {};
+  const home = await liveGet(base); if (!home) return pages;
+  pages[base] = toText(home).slice(0, 3500);
+  const links = [...home.matchAll(/<a\b[^>]*href=["']([^"'#]+)["'][^>]*>([\s\S]{0,80}?)<\/a>/gi)].map((m) => { try { return { u: new URL(m[1], base).href, t: m[2].replace(/<[^>]+>/g, " ") }; } catch { return null; } })
+    .filter((x) => x && new URL(x.u).host === new URL(base).host && !/\.(jpe?g|png|pdf|zip)$/i.test(x.u) && /class|workshop|fir(e|ing)|kiln|member|event|calendar|raku|wood|soda|gas|program|schedule|rent|service|studio|about|visit/i.test(x.u + " " + x.t));
+  for (const l of [...new Map(links.map((x) => [x.u, x])).values()].slice(0, 5)) { const t = toText(await liveGet(l.u)); if (t) pages[l.u] = t.slice(0, 3500); }
+  return pages;
+}
 const jobs = [];
 for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2}\.json$/.test(f))) {
   const ST = f.slice(0, 2);
@@ -114,9 +137,9 @@ for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2
   const doc = JSON.parse(fs.readFileSync(path.join(KM, "sources", f), "utf8"));
   const pf = path.join(KM, "research/cache", ST.toLowerCase(), "places.json");
   const places = fs.existsSync(pf) ? JSON.parse(fs.readFileSync(pf, "utf8")) : {};
-  for (const s of doc.sources.filter((x) => x.discovered?.by === "discover-v3" && x.review === "pending" && (FORCE || !x.verify))) {
+  for (const s of doc.sources.filter((x) => x.discovered?.by === "discover-v3" && x.review === "pending" && (FORCE || LIVE || !x.verify) && (!LIVE || x.weak))) {
     const p = places[s.discovered.key];
-    if (p) jobs.push({ f, ST, doc, s, p });
+    if (p) jobs.push({ f, ST, doc, s, p: LIVE ? { ...p, pages: {} } : p });
   }
 }
 log(`verify: ${jobs.length} places with ${MODEL}`);
@@ -126,6 +149,7 @@ const queue = [...jobs];
 const worker = async () => {
   while (queue.length) {
     const j = queue.shift();
+    if (LIVE && !Object.keys(j.p.pages).length) j.p.pages = await livePages(j.s.contact?.website || j.s.urls?.[0]);
     const pages = Object.entries(j.p.pages).map(([u, t]) => `--- ${u}\n${t}`).join("\n").slice(0, 14000);
     const hay = norm(pages + " " + j.p.hits.map((h) => h.snippet).join(" "));
     try {

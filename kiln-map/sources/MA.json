@@ -721,12 +721,12 @@
       "lng": -70.99335,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The text explicitly invites outsiders to participate in firings via email contact: 'If you are interested in participating in the firings or visiting us during a firing, email me at gustinceramics@gmail.com for information.'",
+        "why": "The page explicitly invites outsiders to participate in anagama and soda firings via email contact: 'If you are interested in participating in the firings or visiting us during a firing, email me at gustinceramics@gmail.com for information.'",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "MA",
+        "town": "South Dartmouth"
       },
       "located": {
         "osm": true,
@@ -913,64 +913,6 @@
       "weak": false
     },
     {
-      "id": "berkshires",
-      "org": "berkshires",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Massachusetts",
-      "city": null,
-      "urls": [
-        "https://berkshires.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://berkshires.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Discover the ancient and unpredictable art of saggar firing in this immersive workshop.",
-        "url": "https://berkshires.org/events/saggar-swagger-intro-to-saggar-firing/2026-05-23",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-08"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "berkshires.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "No page text provided to verify public access, location details, or firing participation methods.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": true,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "the-local-fire-arts-center",
       "org": "The local fire Arts center",
       "kind": "city_arts",
@@ -1011,9 +953,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "Search snippets mention raku and cone 10 reduction firing with payment/membership options, but no actual page text is provided to verify details or extract location information.",
+        "why": "Search snippets mention raku and cone 10 reduction firing with payment/membership options, but no actual page text is provided to verify details about public access, location, or exact participation methods.",
         "types": {},
         "state": "",
         "town": ""
@@ -1071,14 +1013,17 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page offers a public workshop called 'Earth and Fire: Alternative Firing Techniques' at Truro Center Castle Hill for the Arts where participants can register to take part in raku, horsehair, and saggar firings.",
-        "types": {},
+        "why": "The page offers a 5-day workshop at Truro Center for the Arts where outsiders can register to participate in raku, horsehair, and saggar firings.",
+        "types": {
+          "raku": "Join Lois for this fun and exciting workshop to explore a variety of alternative firing techniques. Engage with fire and smoke to explore Horse Hair, Western Raku, Tin Foil Saggar, Obvara and the spontaneous and unpredictable magic of these alternative firing techniques.",
+          "pit_barrel_saggar": "Join Lois for this fun and exciting workshop to explore a variety of alternative firing techniques. Engage with fire and smoke to explore Horse Hair, Western Raku, Tin Foil Saggar, Obvara and the spontaneous and unpredictable magic of these alternative firing techniques."
+        },
         "state": "MA",
         "town": "Truro"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "MA",
         "town": "East Sandwich",
@@ -1132,9 +1077,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page shows outsiders can join via membership to access gas reduction firings and other non-electric firings.",
+        "why": "The site offers Limited and Full Studio Access Memberships that include access to gas reduction firings and bisque firings for outsiders with pottery experience.",
         "types": {
           "gas_reduction": "Access to low fire, mid-range, luster, and gas reduction firings."
         },
@@ -1192,9 +1137,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
-        "why": "No page text provided; cannot verify public access to any firing types or location details.",
+        "why": "The page text mentions Gustin's kiln with an Anagama chamber in a search snippet, but the full article text is not provided—only navigation menus and unrelated content appear. There is no information about public access to firings, workshops, classes, memberships, rentals, or firing services.",
         "types": {},
         "state": "",
         "town": ""
@@ -1212,50 +1157,6 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "shachi-shah",
-      "org": "Shachi Shah",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "salt",
-        "gas_reduction"
-      ],
-      "region": "Massachusetts",
-      "city": null,
-      "urls": [
-        "https://shachishah.studio/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://shachishah.studio/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-09",
-        "key": "shachishah.studio"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "no",
-        "why": "The page shows Shachi Shah fires work in wood, gas, and electric kilns, but provides no information about public access to any firings—no workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
       }
     },
     {
@@ -1288,13 +1189,12 @@
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "The page mentions wood-fired soda and salt pottery and a throwing workshop with soda firing, but does not clearly state whether outsiders can participate in the actual firings or only in the workshop class.",
-        "types": {
-          "soda": "We will cover different types of lids and spouts along with slips and glazing for soda firing."
-        },
-        "state": "",
-        "town": ""
+        "verdict": "no",
+        "why": "The page shows Tom White's pottery studio and workshops, but contains no information about public access to non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
+        "types": {},
+        "state": "MA",
+        "town": "Northfield",
+        "street": "205 Winchester Road, Northfield MA 01360"
       },
       "weak": true,
       "located": {
@@ -1336,8 +1236,8 @@
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "The site shows wood and salt firings occur at Dog Bar Pottery, but provides no explicit information about whether outsiders can participate in firings through workshops, classes, memberships, rentals, or open invitations.",
+        "verdict": "no",
+        "why": "No page text provided; cannot verify public access to non-electric ceramic firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -1345,65 +1245,6 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
-      }
-    },
-    {
-      "id": "cotuit-center-for-the-arts",
-      "org": "Cotuit Center for the Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Cotuit",
-      "city": "Cotuit",
-      "urls": [
-        "https://cotuit.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-09; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Cotuit, Massachusetts",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://cotuit.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Participants will have the opportunity to prepare and fire a few small bisque pieces throughout the day and discover how heat, smoke, and combustion create beautiful and unexpected results.",
-        "url": "https://cotuit.org/classes/saggar-workshop",
-        "types": [
-          "soda",
-          "salt",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-09"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-09",
-        "key": "cotuit.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "yes",
-        "why": "page says state is MA, not MI",
-        "types": {
-          "pit_barrel_saggar": "Students will learn the basics of foil saggar firing while experimenting with materials such as seaweed, straw, sawdust, copper wire, salt, and used coffee grounds to influence the finished surface."
-        },
-        "state": "MA",
-        "town": "Cotuit"
-      },
-      "weak": false,
-      "located": {
-        "state": "MA",
-        "town": "Cotuit",
-        "score": 15,
-        "osm": true,
         "date": "2026-10-09"
       }
     }
@@ -1460,6 +1301,14 @@
     {
       "id": "joyous-spring-pottery",
       "why": "Two models agree: The blog post describes a wood-fired anagama-style kiln at Joyous Spring Pottery, but the potter closed the pottery to become a chef, and nothing says the public could join a firing. (2026-10-08)"
+    },
+    {
+      "id": "berkshires",
+      "why": "Second check (claude-haiku-4.5): berkshires.org is a regional tourism directory/guide with no address or contact details for itself, and the search snippet mentions a saggar firing class but the page text provided contains only navigation menus and general tourism information with no details about how to access any ceramic firings. (2026-10-09)"
+    },
+    {
+      "id": "shachi-shah",
+      "why": "Second check (claude-haiku-4.5): The page shows pottery classes and workshops but does not describe any public access to non-electric ceramic firings; it only mentions that the artist fires work in wood, gas, or electric kilns at her home studio. (2026-10-09)"
     }
   ]
 }

@@ -183,15 +183,17 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets mention raku workshops and an address in Perry, Ohio, but the actual page text provided is empty, so public access cannot be verified from the page itself.",
-        "types": {},
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page clearly describes Raku Workshops open to the public with specific dates, pricing, and registration instructions for outsiders to participate in horsehair raku firing.",
+        "types": {
+          "raku": "When you arrive, you will have a choice of several Raku-ready pots. Each pot will be priced, and you will add the horsehair or feathers to decorate your own creation."
+        },
         "state": "OH",
         "town": "Perry",
-        "street": "3521 Main St."
+        "street": "3521 Main St., Perry, Ohio"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "OH",
         "town": "Main Street Perry",
@@ -360,9 +362,9 @@
       "lng": -81.91792,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page invites outsiders to join a raku firing by subscribing to the newsletter or messaging to get on the list.",
+        "why": "The page states 'Raku is coming to Quill!' and invites outsiders to subscribe to the newsletter or message to 'get on the list' for raku firing updates, providing a clear path for public participation.",
         "types": {},
         "state": "OH",
         "town": "Westlake",
@@ -532,9 +534,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page describes a workshop where participants can learn saggar firing and put their own pieces in the firing, indicating public access via workshop enrollment.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "No page text provided to verify public access to firings at this location.",
         "types": {},
         "state": "",
         "town": ""

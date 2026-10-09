@@ -55,9 +55,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The search snippets show Alewine Pottery offers a Raku Firing Experience open to the public with no prior experience needed, located at their Gatlinburg address.",
+        "why": "The page offers a Raku Firing Experience open to the public for $99 per guest with no prior experience needed, bookable through their website.",
         "types": {},
         "state": "TN",
         "town": "Gatlinburg",
@@ -105,7 +105,7 @@
         "how": "See site",
         "note": "See site",
         "quote": "Mighty Mud offers one-night group event classes, primarily on Friday nights. These classes include Raku, 'Wine & Wheel', 'Cup, Bowl & Plate', 'Mug Makers', and 'Experience the Wheel'.",
-        "url": "https://classes.mightymud.com/collections/workshops",
+        "url": "https://classes.mightymud.com/collections/friday",
         "types": [
           "raku"
         ],
@@ -119,16 +119,19 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The text mentions Raku workshops and one-night events but does not provide enough detail about how outsiders can book, sign up, or access these firings.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page explicitly states Mighty Mud offers one-night group event classes that include Raku, and these are open to the public for booking via their classes website.",
+        "types": {
+          "raku": "These classes include Raku, 'Wine & Wheel', 'Cup, Bowl & Plate', 'Mug Makers', and 'Experience the Wheel'."
+        },
+        "state": "TN",
+        "town": "Knoxville",
+        "street": "1528 Island Home Avenue"
       },
       "lat": 35.96039,
       "lng": -83.92103,
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "TN",
         "town": "Knoxville",
@@ -172,9 +175,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets mention a public firing service and raku supplies/tips, but the actual page text is empty, so no verifiable details about how outsiders can participate in specific firing types.",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The search snippets mention a 'Public Firing Service' that gives ceramic artists access to fire their pieces, and the page is located in Nashville, TN.",
         "types": {},
         "state": "TN",
         "town": "Nashville"
@@ -185,7 +188,7 @@
       "located": {
         "state": "TN",
         "town": "Nashville",
-        "score": 2,
+        "score": 4,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -221,7 +224,7 @@
         "how": "Classes or membership",
         "note": "Classes or membership",
         "quote": "She also offers in-person group pottery classes, individual pottery lessons, and pop-up workshops for those interested in the art of pottery.",
-        "url": "https://commongracepottery.com/",
+        "url": "https://commongracepottery.com/workshops",
         "types": [
           "raku"
         ],
@@ -235,14 +238,17 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets mention raku pottery and pottery classes/workshops, but the actual page text is empty, so there is no verifiable information about public access to raku firings or other non-electric ceramic firings.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page offers public access to raku firing through a hands-on workshop where outsiders can register and participate in a raku firing.",
+        "types": {
+          "raku": "Join us for an intensive Raku firing workshop with Melodie Grace. Hands-on instruction and firing from 10:00am–3:00pm (5 hours)."
+        },
+        "state": "TN",
+        "town": "Antioch",
+        "street": "5909 Labrador Lane Antioch, TN 37013"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "TN",
         "town": "Antioch",
@@ -296,14 +302,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The page describes a soda-fired ceramics workshop but does not explicitly state whether outsiders can register or if it is restricted to Tennessee Tech employees and students.",
-        "types": {
-          "soda": "Learn about firing earthenware in the soda kiln."
-        },
-        "state": "TN",
-        "town": "Smithville"
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is a blog directory/announcements page with no information about ceramic firings, workshops, or public access to any firing activities.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
       "lat": 35.96062,
       "lng": -85.81415,
@@ -360,7 +364,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "The snippets mention raku and pit-fired work and pottery classes, but do not explicitly state that outsiders can sign up for or participate in a raku or pit-firing; they only describe what Studio S makes and that classes exist.",
         "types": {},
@@ -410,9 +414,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
-        "why": "The page text is empty; only search snippets are provided, which show Bookwhen is a booking platform, not a pottery studio offering firings itself.",
+        "why": "Bookwhen is a booking software platform, not a pottery studio or firing facility; the search snippet mentions a saggar barrel firing workshop but that is hosted by a customer using Bookwhen, not by Bookwhen itself, and the page text contains no information about any ceramic firings or pottery operations.",
         "types": {},
         "state": "",
         "town": ""

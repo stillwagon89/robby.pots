@@ -91,66 +91,6 @@
       "weak": false
     },
     {
-      "id": "makit-takit",
-      "org": "Makit Takit",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Lincoln",
-      "city": "Lincoln",
-      "urls": [
-        "https://makittakit.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lincoln, Nebraska",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://makittakit.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "During this outdoor firing event, you will glaze a piece of bisqueware and then fire it using the Raku firing process.",
-        "url": "https://makittakit.com/products/raku-fired-pottery",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "makittakit.com"
-      },
-      "lat": 40.80889,
-      "lng": -96.70778,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets describe a raku firing event at a location in Lincoln, NE, but the actual page text is empty, so I cannot verify the details or confirm public access terms.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "bone-creek-museum-of-agrarian-art",
       "org": "Bone Creek Museum of Agrarian Art",
       "kind": "city_arts",
@@ -252,9 +192,9 @@
       "lng": -95.93838,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
-        "why": "The page text is empty; only search snippets mention firing techniques but provide no details about public access, classes, workshops, or how outsiders can participate in any specific firing.",
+        "why": "The page text is empty; only search snippets mention firing techniques but provide no details about public access, booking, classes, or workshops at this specific location.",
         "types": {},
         "state": "",
         "town": ""
@@ -270,75 +210,20 @@
         "result": "split",
         "date": "2026-10-08"
       }
-    },
-    {
-      "id": "lincoln",
-      "org": "lincoln",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Lincoln",
-      "city": "Lincoln",
-      "urls": [
-        "https://www.lincoln.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lincoln, Nebraska",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.lincoln.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "During this outdoor firing event, you will glaze a piece of bisqueware and then fire it using the Raku firing process.",
-        "url": "https://www.lincoln.org/event/makit-together:-raku-firing/13043/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "lincoln.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets describe a Raku firing event open to participants, but the page text provided does not include the full event details, location, or contact information needed to verify public access and confirm the place's address.",
-        "types": {
-          "raku": "During this outdoor firing event, you will glaze a piece of bisqueware and then fire it using the Raku firing process."
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "NE",
-        "town": "Lincoln",
-        "score": 27,
-        "osm": true,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
     }
   ],
   "_removed": [
     {
       "id": "big-table-studios",
       "why": "Two models agree: The snippets describe an artist-run anagama wood kiln that produces the artists' own work, with nothing saying outsiders can join, book or sign up for a firing. (2026-10-08)"
+    },
+    {
+      "id": "makit-takit",
+      "why": "Second check (claude-haiku-4.5): The page text shows only splatter painting, crochet, knitting, sewing, cross-stitch, and embroidery classes—no non-electric ceramic firings like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction are mentioned or offered. (2026-10-09)"
+    },
+    {
+      "id": "lincoln",
+      "why": "Second check (claude-haiku-4.5): The page text is from lincoln.org, a tourism/visitor bureau website with no ceramic firing facility or operations; the search snippets mention a 'Makit Together: Raku Firing' event but this appears to be a third-party event listed on the tourism site, not operated by lincoln.org itself, and the actual page text provided contains no details about ceramic firings or how to participate. (2026-10-09)"
     }
   ]
 }

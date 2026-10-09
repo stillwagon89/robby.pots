@@ -42,12 +42,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page shows a hands-on raku workshop open to the public for $110, and a monthly membership that includes kiln firings.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is from the Metropolitan Arts Council website, which is a grants and arts advocacy organization, not a ceramics studio or firing facility. The search snippets mention 'SC Clay Con Fall Workshop — Raku' and 'Clay Studio Monthly Membership,' but these do not appear in the actual page text provided, and the page text contains no information about ceramic firings, raku, or public access to firing sessions.",
         "types": {},
         "state": "SC",
-        "town": "Greenville"
+        "town": "Greenville",
+        "street": "16 Augusta Street"
       },
       "lat": 34.85135,
       "lng": -82.39849,
@@ -161,9 +162,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippet mentions a soda firing workshop but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "why": "Search snippets mention a soda firing workshop but the actual page text is empty, so cannot verify public access details or location information.",
         "types": {},
         "state": "",
         "town": ""
@@ -173,57 +174,6 @@
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "hernando-arts",
-      "org": "Hernando Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "South Carolina",
-      "city": null,
-      "urls": [
-        "https://www.hernandoarts.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.hernandoarts.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "hernandoarts.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a pit firing workshop but the actual page text is empty, so I cannot verify public access details or location information from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "FL",
-        "town": "Brooksville",
-        "score": 2,
-        "osm": false,
         "date": "2026-10-09"
       },
       "agree": {
@@ -272,12 +222,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippet mentions raku and alternative firing methods but the actual page text provided is empty, so public access cannot be verified.",
+        "why": "The page mentions 'Alternative Firing Workshops' and 'raku kilns' but provides no specific sentence showing how outsiders can book or join a raku or alternative firing workshop.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "SC",
+        "town": "Hilton Head Island",
+        "street": "21 Mathews Drive, Suite 2"
       },
       "weak": true,
       "located": {
@@ -333,12 +284,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The text describes an Anagama kiln at Clemson and mentions hosting participants from regional ceramics programs and inviting guest artists, but does not explicitly state how outsiders can book, sign up, or join a firing.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is from Clemson World Magazine, a university publication, not the Clemson Art Department itself, and contains no information about public access to ceramic firings or any firing workshops, classes, or services.",
         "types": {},
         "state": "SC",
-        "town": "Clemson"
+        "town": "Clemson",
+        "street": "114 Daniel Drive, Clemson, SC 29631"
       },
       "weak": true,
       "located": {
@@ -396,7 +348,7 @@
         "state": "SC",
         "town": "Columbia",
         "score": 6,
-        "osm": false,
+        "osm": true,
         "date": "2026-10-09"
       }
     }
@@ -429,6 +381,10 @@
     {
       "id": "ceramic-central-inc-the-creative-palette-studio",
       "why": "Second check (claude-haiku-4.5): The text describes a paint-your-own pottery studio with raku firing mentioned only as a service offering, but provides no evidence that outsiders can book or participate in raku firings; the studio's primary business model is paint-your-own pottery. (2026-10-07)"
+    },
+    {
+      "id": "hernando-arts",
+      "why": "Second check (claude-haiku-4.5): page says state is FL, not SC (2026-10-09)"
     }
   ]
 }

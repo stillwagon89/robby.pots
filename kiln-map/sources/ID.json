@@ -56,9 +56,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippets describe raku firing workshops on Meetup, but the actual page text is empty, so I cannot verify the location details or confirm public access terms from the page itself.",
+        "why": "The search snippets describe raku firing workshops on Meetup, but the actual page text is empty, so location details and confirmation of public access cannot be verified from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -104,9 +104,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippets show raku workshops offered, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "why": "The snippets show raku workshops offered, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -150,7 +150,7 @@
         "how": "Dated workshop or firing event",
         "note": "Dated workshop or firing event",
         "quote": "Jerry will be firing raku pottery in the Vista Village parking lot in front of Ceramica Arthouse from 6-9.",
-        "url": "https://www.ceramicaboise.com/events",
+        "url": "https://www.ceramicaboise.com/",
         "types": [
           "raku"
         ],
@@ -164,14 +164,17 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets mention raku firing and workshops at Ceramica Arthouse in Boise, ID, but the actual page text provided is empty, so I cannot verify the details or find a direct quote showing how outsiders can participate.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page clearly states outsiders can participate in raku firing by purchasing bisque ware or bringing their own pieces, with a simple call-ahead reservation process.",
+        "types": {
+          "raku": "Jerry will be firing raku pottery in the Vista Village parking lot in front of Ceramica Arthouse from 6-9. Purchase any of our bisque ware pieces or from any of our hand made pieces for raku painting and firing."
+        },
+        "state": "ID",
+        "town": "Boise",
+        "street": "1002 South Vista Avenue"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "ID",
         "town": "Vista Avenue Boise",
@@ -216,10 +219,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "Snippets mention raku and pit fire workshops but provide no details about how outsiders can actually sign up, book, or participate in these specific firing types.",
-        "types": {},
+        "why": "Snippets mention raku and pit fire workshops but the actual page text is empty, so cannot verify public access details or confirm the studio's location.",
+        "types": {
+          "raku": "Workshops will delve into different firing methods, such as electric and gas kilns, raku, and pit fire.",
+          "pit_barrel_saggar": "Workshops will delve into different firing methods, such as electric and gas kilns, raku, and pit fire."
+        },
         "state": "ID",
         "town": "Sandpoint",
         "street": "Suite 206, Cedar Street Bridge"
@@ -228,69 +234,6 @@
       "lat": 48.27613,
       "lng": -116.54878,
       "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "boulder-mountain-clayworks",
-      "org": "Boulder Mountain Clayworks",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Ketchum",
-      "city": "Ketchum",
-      "urls": [
-        "https://bouldermtnclay.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Ketchum, Idaho",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://bouldermtnclay.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Our Ketchum studio is fully equipped for stoneware, porcelain and raku pottery.",
-        "url": "https://bouldermtnclay.org/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "bouldermtnclay.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The text mentions raku pottery and a gas kiln but does not explicitly state how outsiders can access or participate in raku or gas-reduction firings.",
-        "types": {},
-        "state": "",
-        "town": "Ketchum"
-      },
-      "weak": true,
-      "lat": 43.68074,
-      "lng": -114.36366,
-      "located": {
-        "state": "ID",
-        "town": "Ketchum",
-        "score": 18,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -326,6 +269,10 @@
     {
       "id": "n-a-id",
       "why": "Second check (gemini-3.1-flash-lite): The provided text describes workshops taught by an alumnus, but it does not provide a way for the public to sign up, book, or contact the university for these firings. (2026-10-08)"
+    },
+    {
+      "id": "boulder-mountain-clayworks",
+      "why": "Second check (claude-haiku-4.5): The page mentions raku pottery equipment but only describes classes and workshops for hand-building, throwing, and sculpting with no specific mention of public access to raku firings or any non-electric ceramic firing experiences. (2026-10-09)"
     }
   ]
 }

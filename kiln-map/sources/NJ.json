@@ -57,12 +57,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets mention a Raku Workshop and public education focus, but the actual page text is empty, so cannot verify outsider access details or location information.",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page shows a Raku Workshop offered for Summer 2025 with public registration available at $350 individual tuition, with instruction from Academy founder Frank Bosco.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "NJ",
+        "town": "Jersey City"
       },
       "weak": true,
       "lat": 40.72157,
@@ -110,70 +110,21 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets describe a Raku Workshop open to participants, but the actual page text is empty, so location details cannot be verified.",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page offers a Raku Workshop for $90 that outsiders can book, with a clear description of the firing process and participation.",
         "types": {
           "raku": "Get ready to play with fire and come learn about the Raku!"
         },
-        "state": "",
-        "town": ""
+        "state": "NJ",
+        "town": "Wharton",
+        "street": "94 E Dewey Ave"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "NJ",
         "town": "Wharton",
         "score": 2,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "burntmillpotters",
-      "org": "burntmillpotters",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Whitehouse",
-      "city": "Whitehouse",
-      "urls": [
-        "https://www.burntmillpotters.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Whitehouse, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.burntmillpotters.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "burntmillpotters.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets mention a raku firing workshop in Whitehouse NJ, but the actual page text is empty, so I cannot verify the details or confirm public access from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 40.61538,
-      "lng": -74.77044,
-      "located": {
         "osm": false,
         "date": "2026-10-09"
       },
@@ -223,7 +174,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
         "why": "No page text provided to verify public access, location details, or firing participation details.",
         "types": {},
@@ -273,9 +224,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a soda firing workshop at Truro Center for the Arts, but the page text provided is empty, so I cannot verify the location details or confirm public access terms.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is from Dwayne Sackey's personal pottery website with a closed shop; it contains no information about public access to firings at Truro Center for the Arts, and the search snippet about a soda workshop is not supported by the actual page text provided.",
         "types": {},
         "state": "",
         "town": ""
@@ -331,69 +282,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippet mentions a salt kiln workshop open to participants, but the actual page text provided is empty, so I cannot verify the location details or confirm public access from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "peters-valley-school-of-craft",
-      "org": "Peters Valley School of Craft",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "pit_barrel_saggar"
-      ],
-      "region": "New Jersey",
-      "city": null,
-      "urls": [
-        "https://mudclaystudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://mudclaystudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Oki Doki Studio provides an intimate workshop experience focused on building a strong foundation in atmospheric firing methods.",
-        "url": "https://mudclaystudio.com/firing-services",
-        "types": [
-          "wood",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "mudclaystudio.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "The page text is empty; no information about Peters Valley School of Craft's location, firing types, or public access to firings can be verified from the actual page content.",
+        "why": "The search snippet mentions a salt kiln workshop open to participants, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -514,63 +405,6 @@
       }
     },
     {
-      "id": "the-clay-pot-pottery",
-      "org": "The Clay Pot Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Main Street Spotswood",
-      "city": "Main Street Spotswood",
-      "urls": [
-        "https://www.theclaypotpottery.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-09; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Main Street Spotswood, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.theclaypotpottery.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Our RAKU Workshops for the 2026 season are scheduled for the following dates (weather permitting)",
-        "url": "https://www.theclaypotpottery.com/raku.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-09"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-09",
-        "key": "theclaypotpottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "yes",
-        "why": "page says state is NJ, not NC",
-        "types": {
-          "raku": "The Clay Pot welcomes you to experience this truly unique way of firing pottery by participating in one of our Raku workshops."
-        },
-        "state": "NJ",
-        "town": ""
-      },
-      "weak": false,
-      "located": {
-        "state": "NJ",
-        "town": "Main Street Spotswood",
-        "score": 6,
-        "osm": false,
-        "date": "2026-10-09"
-      }
-    },
-    {
       "id": "potters-8217-guild-of-new-jersey",
       "org": "Potters&#8217; Guild of New Jersey",
       "kind": "city_arts",
@@ -578,8 +412,7 @@
       "public": true,
       "firing_types_guess": [
         "raku",
-        "soda",
-        "pit_barrel_saggar"
+        "soda"
       ],
       "region": "Union",
       "city": "Union",
@@ -602,15 +435,17 @@
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "page says state is NJ, not ND",
+        "verdict": "yes",
+        "why": "The page describes a raku firing event open to Guild members with an invitation to register, and mentions soda firing demonstrations, with raku explicitly offered at Peter Syak's studio summer event where members can participate.",
         "types": {
-          "raku": "Each summer the guild meets at Peter Syak's studio for a full day of Raku and Horsehair firing."
+          "raku": "Each summer the guild meets at Peter Syak's studio for a full day of Raku and Horsehair firing.",
+          "soda": "Soda Firing"
         },
         "state": "NJ",
-        "town": "Union"
+        "town": "Union",
+        "street": "1980 Morris Avenue, Union, NJ 07083"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -661,6 +496,14 @@
     {
       "id": "the-clay-pot-pottery",
       "why": "Second check (claude-haiku-4.5): The text describes paint-your-own bisque workshops where participants paint pre-made pieces with raku glazes, which is a paint-your-own activity rather than a firing workshop where outsiders can participate in the actual firing process. (2026-10-08)"
+    },
+    {
+      "id": "burntmillpotters",
+      "why": "Second check (claude-haiku-4.5): The page text mentions a raku firing workshop in the search snippet but provides no details about how outsiders can register, book, or participate in it; the main page text only describes pottery classes, open studio, wheel workshops, and crafting workshops with no non-electric firing information. (2026-10-09)"
+    },
+    {
+      "id": "peters-valley-school-of-craft",
+      "why": "Second check (claude-haiku-4.5): The page text shows only hand-building classes, wheel classes, and claydates with no mention of atmospheric firings (raku, wood, anagama, soda, salt, pit, or gas-reduction); 'Firing Services' is mentioned in navigation but no details are provided on the actual page. (2026-10-09)"
     }
   ]
 }

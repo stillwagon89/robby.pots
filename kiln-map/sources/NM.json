@@ -185,9 +185,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page explicitly states 'We are open to having any interested potters join in the community and upcoming firings. Please contact us,' providing an open invitation for outsiders to participate in wood and salt firings.",
+        "why": "The page explicitly states 'We are open to having any interested potters join in the community and upcoming firings. Please contact us,' providing an open invitation for outsiders to participate in wood-fired salt and wood-fired firings.",
         "types": {},
         "state": "NM",
         "town": "Tres Piedras"
@@ -246,14 +246,16 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The page mentions wood and soda firing techniques in a lecture title but does not explicitly state that workshop participants can take part in an actual wood or soda firing; it only describes demonstrations and instruction in wheel-thrown and hand-built forms.",
-        "types": {},
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page describes Ghost Ranch Workshops with registration available, and mentions 'Wood and Soda Pots' in the 2025 workshop description, indicating public access to workshops where outsiders can register.",
+        "types": {
+          "soda": "Building the Kazegama Kiln, Fostering the Community, Wood and Soda Pots"
+        },
         "state": "NM",
         "town": "Abiquiu"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "NM",
         "town": "Albuquerque",

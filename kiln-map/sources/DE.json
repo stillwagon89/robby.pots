@@ -30,9 +30,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page offers a workshop on pit firing scheduled for May 16, 2026, open to participants who can sign up.",
+        "why": "The page describes a workshop on pit firing scheduled for May 16, 2026, with public participation where exact timing will be discussed among participants.",
         "types": {},
         "state": "",
         "town": ""
@@ -45,56 +45,6 @@
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "folkware-studio",
-      "org": "Folkware Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Dover",
-      "city": "Dover",
-      "urls": [
-        "https://shop.folkwarestudio.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Dover, Delaware",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://shop.folkwarestudio.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "shop.folkwarestudio.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "The page text is empty; only search snippets are provided, which mention raku firing but contain no information about public access, workshops, classes, memberships, rentals, or contact invitations.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 39.15817,
-      "lng": -75.52437,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
       }
@@ -138,7 +88,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
         "why": "No page text provided to verify public access details, location, or firing participation methods.",
         "types": {},
@@ -231,6 +181,10 @@
     {
       "id": "the-happyrock-pottery",
       "why": "Second check (gemini-3.5-flash-lite): The text only describes visiting a potter's studio and viewing her pottery, but mentions no opportunities for the public to participate in a firing. (2026-10-07)"
+    },
+    {
+      "id": "folkware-studio",
+      "why": "Second check (claude-haiku-4.5): This is a shop selling finished ceramic products and firing services; the page text shows only product listings with no information about how outsiders can participate in raku or wood firings as workshops, classes, or memberships. (2026-10-09)"
     }
   ]
 }

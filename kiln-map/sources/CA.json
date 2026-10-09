@@ -573,13 +573,13 @@
       "lng": -122.27286,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page explicitly states 'We welcome Potters' Studio Members and Students to workshops and also offer a limited number of slots to potters in the broader community' for soda firing workshops, and mentions scholarships available via email, providing public access to outsiders.",
+        "why": "The page text from search snippets shows soda firing workshops open to the broader community: 'We welcome Potters' Studio Members and Students to workshops and also offer a limited number of slots to potters in the broader community who have a grasp of the basics of gas reduction firing.'",
         "types": {},
-        "state": "",
-        "town": "",
-        "street": "724 Camelia St."
+        "state": "CA",
+        "town": "Berkeley",
+        "street": "724 Camelia Street, Berkeley CA 94710"
       },
       "weak": true,
       "located": {
@@ -775,66 +775,6 @@
       "weak": false
     },
     {
-      "id": "common-clay-space-miki-shim",
-      "org": "Common Clay Space (Miki Shim)",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Cupertino",
-      "city": "Cupertino",
-      "urls": [
-        "https://www.mikisr.com/"
-      ],
-      "notes": "Pit firing workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Cupertino, California",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.mikisr.com/"
-      },
-      "access": {
-        "how": "Pit firing workshop",
-        "note": "Pit firing workshop",
-        "quote": "Pit Firing Workshop at Common Clay Space in Cupertino, CA",
-        "url": "https://www.mikisr.com/events/pit-firing-workshop-at-common-clay-space-in-cupertino-ca",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "mikisr.com"
-      },
-      "lat": 37.32289,
-      "lng": -122.03229,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page describes a pit firing workshop open to participants with some clay experience, meeting in the studio for three days then at the beach for the firing.",
-        "types": {},
-        "state": "CA",
-        "town": "Cupertino"
-      },
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "weak": true,
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "spiffy-pottery-studio",
       "org": "Spiffy Pottery Studio",
       "kind": "studio",
@@ -865,14 +805,17 @@
       "lng": -122.17799,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "No page text provided to verify public access to firings or studio location details.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page lists a Soda Firing Workshop available for public sign-up at $280.00 USD, and the search snippet confirms it is held at Spiffy Pottery Studio in Menlo Park, CA.",
+        "types": {
+          "soda": "Soda Firing Workshop"
+        },
+        "state": "CA",
+        "town": "Menlo Park",
+        "street": "1919 Menalto Ave, 94025"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -982,11 +925,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page offers multiple ways for outsiders to participate in gas reduction firings through classes and membership: a Multi-Week Ceramics Class with gas kiln firing access and an Adult Studio Membership with cone 10 gas reduction kiln access.",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "The snippets mention gas reduction firings and classes with firing access, but the actual page text is empty, so I cannot verify the location details or confirm public access terms.",
         "types": {
-          "gas_reduction": "We also offer three clay bodies, including cone 6 and cone 10 options, along with cone 10 glazes and both electric and gas kiln firing, giving students the opportunity to explore oxidation and reduction firing."
+          "gas_reduction": "can fire work in both electric kilns and our cone 10 gas reduction kiln at Slowfire West, allowing artists to explore both oxidation and reduction firing at no additional firing cost"
         },
         "state": "",
         "town": ""
@@ -1342,9 +1285,9 @@
       "lng": -121.07399,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "Auburn Clay Arts offers membership that includes access to gas kiln firing in a reduction atmosphere, which is a non-electric firing type available to members.",
+        "why": "Auburn Clay Arts offers membership with access to gas kiln firing to cone 10/11 in a reduction atmosphere, which is a non-electric gas-reduction firing available to members.",
         "types": {
           "gas_reduction": "fire glazed work in our gas kiln to cone 10/11 in a reduction atmosphere"
         },
@@ -1465,15 +1408,17 @@
       "lng": -118.14415,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The text explicitly states raku firings are 'open to members, students, and the public alike' with registration available at $165 per participant for upcoming monthly firings.",
-        "types": {},
+        "why": "The page shows outsiders can register for raku firings via Acuity and book private raku sessions by emailing, with clear pricing and scheduling information.",
+        "types": {
+          "raku": "A private Raku session for you or a group. The price includes two Raku guides to help make the process as efficient as possible while producing the best results, plus access to all our glazes as well as equipment, gas, trash bins, towels, and everything else — we just want to be transparent about ou"
+        },
         "state": "CA",
         "town": "Pasadena",
         "street": "1563 North Lake Ave."
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "CA",
         "town": "Pasadena",
@@ -1586,10 +1531,12 @@
       "lng": -118.2434,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page describes a Night Raku Firing class at Claytivity Pottery Studio where outsiders can book and attend a raku firing workshop.",
-        "types": {},
+        "why": "The text describes a Night Raku Firing class at Claytivity Pottery Studio where outsiders can book and attend a raku firing workshop.",
+        "types": {
+          "raku": "Explore the ancient Japanese technique of Raku firing and create stunning, one-of-a-kind ceramics."
+        },
         "state": "CA",
         "town": "Los Angeles",
         "street": "2910 Gilroy St, Los Angeles, CA"
@@ -1598,7 +1545,7 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": true,
+      "weak": false,
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
@@ -1765,12 +1712,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page describes a public raku firing experience called 'Raku Magic!' where outsiders can participate by glazing pieces and experiencing the firing process, with clear invitation to attend.",
-        "types": {
-          "raku": "Come experience the magic of firing ceramics the Raku way!"
-        },
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "Page text is empty; only search snippets mention raku workshop coming soon with a waitlist, but no details about public access, location, or how to join.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -2051,8 +1996,10 @@
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page describes a Night Raku Firing class at Claytivity Pottery Studio where outsiders can book and attend a raku firing workshop.",
-        "types": {},
+        "why": "The text describes a Night Raku Firing class at Claytivity Pottery Studio where outsiders can book and attend a raku firing workshop.",
+        "types": {
+          "raku": "Explore the ancient Japanese technique of Raku firing and create stunning, one-of-a-kind ceramics."
+        },
         "state": "CA",
         "town": "Los Angeles",
         "street": "2910 Gilroy St, Los Angeles, CA"
@@ -2061,7 +2008,7 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": true,
+      "weak": false,
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
@@ -2251,8 +2198,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "gas_reduction",
-        "raku"
+        "raku",
+        "gas_reduction"
       ],
       "region": "Los Angeles",
       "city": "Los Angeles",
@@ -2272,8 +2219,8 @@
         "quote": "If you’ve ever taken part in one of our Raku firing workshops, you’ve already encountered Reduction firing — it’s what gives some of our Raku glazes their distinctive metallic sheen.",
         "url": "https://www.turningearth.org/news/gas-kiln-launch",
         "types": [
-          "gas_reduction",
-          "raku"
+          "raku",
+          "gas_reduction"
         ],
         "checked": "2026-10-09"
       },
@@ -2287,10 +2234,10 @@
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page announces upcoming Reduction Firing workshops at their London studios open to studio members, and describes Raku firing workshops as existing offerings where outsiders can participate.",
+        "why": "The page shows outsiders can join pottery classes and workshops, and mentions raku firing workshops and gas kiln reduction firing workshops where outsiders can participate.",
         "types": {
-          "gas_reduction": "We're really excited to announce the upcoming launch of Reduction Firing workshops across our London studios.",
-          "raku": "If you've ever taken part in one of our Raku firing workshops, you've already encountered Reduction firing — it's what gives some of our Raku glazes their distinctive metallic sheen."
+          "raku": "If you've ever taken part in one of our Raku firing workshops, you've already encountered Reduction firing — it's what gives some of our Raku glazes their distinctive metallic sheen.",
+          "gas_reduction": "Gas kiln reduction firing is coming to our studios. Discover the process, history, and seven new high-fire glazes launching with our upcoming workshops."
         },
         "state": "",
         "town": "London"
@@ -2302,48 +2249,115 @@
       "weak": true
     },
     {
-      "id": "san-diego-potters-8217-guild",
-      "org": "San Diego Potters&#8217; Guild",
-      "kind": "city_arts",
+      "id": "tao-of-clay",
+      "org": "Tao of Clay",
+      "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "gas_reduction"
+        "pit_barrel_saggar"
       ],
       "region": "San Diego",
       "city": "San Diego",
       "urls": [
-        "https://www.sandiegopottersguild.org/"
+        "https://taoofclay.com/"
       ],
-      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
       "geocode": "San Diego, California",
       "location_note": "Shown at the town.",
       "contact": {
-        "website": "https://www.sandiegopottersguild.org/"
+        "website": "https://taoofclay.com/"
       },
       "review": "pending",
       "discovered": {
         "by": "discover-v3",
-        "date": "2026-10-09",
-        "key": "sandiegopottersguild.org"
+        "date": "2026-10-07",
+        "key": "taoofclay.com"
       },
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "page says state is CA, not ND",
-        "types": {},
+        "verdict": "yes",
+        "why": "page says state is CA, not NV",
+        "types": {
+          "pit_barrel_saggar": "Pit Fire Workshop with Josh Herman"
+        },
         "state": "CA",
         "town": "San Diego"
       },
-      "weak": true,
+      "weak": false,
       "located": {
-        "state": "CA",
-        "town": "San Diego",
-        "score": 10,
         "osm": false,
         "date": "2026-10-09"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "blossomhillcrafts",
+      "org": "blossomhillcrafts",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Los Gatos",
+      "city": "Los Gatos",
+      "urls": [
+        "https://www.blossomhillcrafts.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Los Gatos, California",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.blossomhillcrafts.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "BHC OFFERS MORE WORKSHOPS TO THEIR MEMBERS Raku and Saggar firing workshops",
+        "url": "https://www.blossomhillcrafts.com/workshops1.html",
+        "types": [
+          "raku",
+          "soda",
+          "salt",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "blossomhillcrafts.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "page says state is CA, not TX",
+        "types": {},
+        "state": "CA",
+        "town": "Los Gatos"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
       }
     }
   ],
@@ -2411,6 +2425,14 @@
     {
       "id": "summer-studios",
       "why": "Second check (claude-haiku-4.5): The page only mentions electric kiln bisque firing and gas kiln glaze firing, with no non-electric ceramic firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) that allow public participation. (2026-10-08)"
+    },
+    {
+      "id": "common-clay-space-miki-shim",
+      "why": "Second check (claude-haiku-4.5): page says state is IL, not CA (2026-10-09)"
+    },
+    {
+      "id": "san-diego-potters-8217-guild",
+      "why": "Second check (claude-haiku-4.5): The page mentions gas kilns and electric kilns but describes only electric wheel classes and gallery sales; no non-electric firing workshops, classes, memberships, rentals, or firing services are offered to the public. (2026-10-09)"
     }
   ]
 }

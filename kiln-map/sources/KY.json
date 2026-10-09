@@ -81,7 +81,7 @@
       "located": {
         "state": "KY",
         "town": "Danville",
-        "score": 2,
+        "score": 6,
         "osm": false,
         "date": "2026-10-09"
       }
@@ -182,7 +182,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
         "why": "The site offers public raku firings that can be booked by groups, studios, or individuals through a scheduling request process.",
         "types": {
@@ -202,111 +202,6 @@
         "date": "2026-10-08"
       },
       "weak": true
-    },
-    {
-      "id": "warehome-studios",
-      "org": "Warehome Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Kentucky",
-      "city": null,
-      "urls": [
-        "https://www.warehomestudios.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.warehomestudios.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "warehomestudios.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets show a raku firing event but no page text provided to verify public access details, location, or how to sign up.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "aa-clay-ceramics-studio",
-      "org": "AA Clay - Ceramics Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Louisiville",
-      "city": "Louisiville",
-      "urls": [
-        "https://alexadamsclaywork.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-09; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Louisiville, Kentucky",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://alexadamsclaywork.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Public are welcome to come out on firing day and see the exciting results from the raku kiln.",
-        "url": "https://alexadamsclaywork.com/raku-workshop.php",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-09"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-09",
-        "key": "alexadamsclaywork.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "yes",
-        "why": "The page explicitly states 'Public are welcome to come out on firing day' for a raku workshop and firing event, with registration available for both the workshop ($125 per person) and free public spectator access to the firing.",
-        "types": {
-          "raku": "Public are welcome to come out on firing day and see the exciting results from the raku kiln."
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "KY",
-        "town": "Louisiville",
-        "score": 21,
-        "osm": false,
-        "date": "2026-10-09"
-      }
     }
   ],
   "_removed": [
@@ -357,6 +252,14 @@
     {
       "id": "alexadamsclaywork",
       "why": "Second check (gemini-3.5-flash-lite): The text only mentions standard kiln firing without any reference to raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction firings. (2026-10-08)"
+    },
+    {
+      "id": "warehome-studios",
+      "why": "Second check (claude-haiku-4.5): page says state is CO, not KY (2026-10-09)"
+    },
+    {
+      "id": "aa-clay-ceramics-studio",
+      "why": "Second check (claude-haiku-4.5): The page describes only electric kiln firing for wheel throwing and hand building classes; no non-electric firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) are mentioned. (2026-10-09)"
     }
   ]
 }

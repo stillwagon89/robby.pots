@@ -122,12 +122,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page offers a Raku Firing Workshop that outsiders can join.",
-        "types": {
-          "raku": "Raku Firing Workshop"
-        },
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "The page text shows only a login screen with no information about firings, access, location, or workshop details.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -300,9 +298,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The page describes a pit firing event for members on March 8th with a sign-up link, but does not explicitly state whether non-members can participate or only current members.",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The pit firing event page explicitly invites outsiders to participate by clicking a link to sign up, with information sent by email on how to attend.",
         "types": {},
         "state": "IN",
         "town": "Lafayette"
@@ -350,13 +348,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page shows a workshop where outsiders can join a saggar firing and raku (obvara) firing by purchasing tickets.",
-        "types": {
-          "pit_barrel_saggar": "A combination workshop featuring barrel kiln Saggar firing and Obvara firing.",
-          "raku": "A combination workshop featuring barrel kiln Saggar firing and Obvara firing."
-        },
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is from SimpleTix, a ticketing platform website, not from Playin' with Fire studios; it contains no information about ceramic firings, workshops, or how to participate in any firing events.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -471,14 +466,18 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The snippets mention barrel firing and wood/soda firing in the studio description, but do not explicitly state that outsiders can join these firings through a class, workshop, membership, rental, or service—only that pottery classes are offered.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The Adult Pottery Class ($210 for 6 weeks) is open to beginners and includes firings, and the studio description explicitly mentions barrel firing and wood/soda firing available to class participants.",
+        "types": {
+          "soda": "LaLa Studio is a well-equipped, safe workspace which includes 6 pottery wheels, 4 large worktables, slab roller, separate glaze studio, 3 large electric kiln offering mid-range firings, barrel firing, wood/soda firing, and all the tools you could imagine, stamps, reference books, magazines, and demo",
+          "pit_barrel_saggar": "LaLa Studio is a well-equipped, safe workspace which includes 6 pottery wheels, 4 large worktables, slab roller, separate glaze studio, 3 large electric kiln offering mid-range firings, barrel firing, wood/soda firing, and all the tools you could imagine, stamps, reference books, magazines, and demo"
+        },
+        "state": "IN",
+        "town": "Lafayette",
+        "street": "1816 Main Street"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "IN",
         "town": "Lafayette",
@@ -532,12 +531,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page offers a Raku Firing Workshop for $50 that is open to public sign-up with specific dates listed, including instruction, materials, and firing included.",
-        "types": {
-          "raku": "Participants will learn the fundamentals of the Raku process, including glazing techniques, kiln firing, and post-firing reduction methods that give each piece its one-of-a-kind appearance."
-        },
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page describes ceramic painting, glazing, and pottery wheel throwing classes, but contains no information about raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings—only mentions of bisque and glaze firing as optional services for pieces made in classes.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -596,12 +593,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
-        "why": "The page text provided contains only a description snippet with no information about public access to ceramic firings or firing types.",
+        "why": "The page describes classes and private events involving clay work (wheel throwing, hand-building) with firing mentioned only as a finishing service (trim, glaze and fire), but provides no information about public access to non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "IN",
+        "town": "New Harmony",
+        "street": "402 North Street"
       },
       "weak": true,
       "located": {
@@ -657,12 +655,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "The search snippets describe Fort Wayne Clay as a pottery and ceramics supplier selling clay, tools, and glazes, with no text showing public access to non-electric ceramic firings.",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The Raku Firing page explicitly states 'Anyone can participate' and describes how outsiders can bring their own pots or buy and glaze one to participate in the raku firing event.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "IN",
+        "town": "Fort Wayne",
+        "street": "5812 E Tillman Rd"
       },
       "weak": true,
       "located": {

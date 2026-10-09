@@ -184,7 +184,7 @@
       "lng": -94.57814,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "The search snippets mention soda firing and an address in Kansas City, MO, but the actual page text provided is empty, so I cannot verify public access details or confirm the firing type information.",
         "types": {},
@@ -200,64 +200,6 @@
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "munson",
-      "org": "Munson",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "salt"
-      ],
-      "region": "Missouri",
-      "city": null,
-      "urls": [
-        "https://www.munson.art/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.munson.art/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "These six-week courses will explore form, function, aesthetic values, textures, tactile qualities, and surface development of atmospheric firing through salt.",
-        "url": "https://www.munson.art/product/32608",
-        "types": [
-          "salt"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "munson.art"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page offers a salt-fired ceramics workshop open to all participants (not just k-12 educators) with explicit instruction that pieces will be fired in the salt kiln at Munson facilities.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": true,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
       }
@@ -359,9 +301,9 @@
       "lng": -93.29227,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets mention pit firing and raku at Creava Studio, but the actual page text is empty, so I cannot verify how outsiders can access these firings or confirm the studio's location details.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is from Square.site, a payment processing platform website with no information about ceramic firings, pottery classes, or public access to any firing activities.",
         "types": {},
         "state": "",
         "town": ""
@@ -519,6 +461,10 @@
     {
       "id": "clay-fire",
       "why": "Second check (claude-haiku-4.5): Clay & Fire is a restaurant with wood-fired food, not a ceramic studio offering public access to non-electric ceramic firings. (2026-10-08)"
+    },
+    {
+      "id": "munson",
+      "why": "Second check (claude-haiku-4.5): The page text mentions a salt-fired ceramics workshop in the search snippet but provides no details about how outsiders can access it, and the main page content shows only museum exhibitions, performances, and general community arts classes with no specific information about ceramic firing workshops or public access to them. (2026-10-09)"
     }
   ]
 }

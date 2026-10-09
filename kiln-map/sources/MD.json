@@ -149,12 +149,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page states 'I regularly teach classes at Annmarie Gardens in Solomons, MD' and 'I offer Alternative Firing workshops and private lessons at my studio. Send me a message If interested in these and I'll get back with you to discuss your interests,' providing public access to raku, pit fire, and saggar firings through classes, workshops, and private lessons.",
+        "why": "The page states 'I offer Alternative Firing workshops and private lessons at my studio. Send me a message If interested in these and I'll get back with you to discuss your interests,' providing an open invitation for outsiders to contact them to join firings.",
         "types": {},
         "state": "MD",
-        "town": "Solomons"
+        "town": "Huntingtown"
       },
       "lat": 38.33504,
       "lng": -76.46257,
@@ -163,71 +163,6 @@
         "date": "2026-10-09"
       },
       "weak": true,
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "the-potters-guild-of-baltimore",
-      "org": "The Potters Guild of Baltimore",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "soda"
-      ],
-      "region": "Baltimore",
-      "city": "Baltimore",
-      "urls": [
-        "https://www.pottersguild.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Baltimore, Maryland",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.pottersguild.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "This course will focus on creating work thst is intended to be fired in a wood fired and/or salt and soda fired kiln.",
-        "url": "https://www.pottersguild.org/classes/",
-        "types": [
-          "wood",
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "pottersguild.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The text mentions classes focused on wood/salt/soda firing and opportunities to fire work at regional kilns, but does not explicitly state how outsiders can book, sign up, or access these firings (no workshop, class enrollment process, membership, rental, or contact invitation is described).",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 39.29088,
-      "lng": -76.61076,
-      "located": {
-        "state": "MD",
-        "town": "Baltimore",
-        "score": 2,
-        "osm": false,
-        "date": "2026-10-09"
-      },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
@@ -276,7 +211,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "The search snippet mentions a raku and pit firing workshop, but the page text provided is empty, so I cannot verify the location details or confirm public access from the actual page content.",
         "types": {},
@@ -336,9 +271,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippet mentions pit firing and naked raku workshops, but the actual page text is empty, so I cannot verify public access details or confirm the location information.",
+        "why": "The search snippet mentions a workshop with pit firing and naked raku, but the actual page text provided is empty, so I cannot verify the details or confirm public access from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -394,12 +329,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page describes a two-part workshop open to the public where outsiders can participate in pit-fired pottery, with registration via Eventbrite.",
+        "why": "The search snippet describes a two-part workshop where outsiders can participate in pit-fired pottery, a non-electric ceramic firing open to the public.",
         "types": {},
         "state": "MD",
-        "town": "Frederick"
+        "town": "Jefferson",
+        "street": "3630 Poffenberger Rd, Jefferson, MD 21755"
       },
       "weak": true,
       "located": {
@@ -412,68 +348,6 @@
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "baltimore-clayworks-md",
-      "org": "Baltimore Clayworks",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood"
-      ],
-      "region": "Baltimore",
-      "city": "Baltimore",
-      "urls": [
-        "https://claystuff.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Baltimore, Maryland",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://claystuff.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Community Studios Beginner Classes Ceramic Supply Date night Hand Building Kids Classes Kiln Firing Services Memberships Open Studio Parties & events Pay-Per-Use Pottery Classes Pottery Workshops Private Lessons Wheel Throwing",
-        "url": "https://claystuff.com/studios/baltimore-clayworks/",
-        "types": [
-          "raku",
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "claystuff.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The page lists Baltimore Clayworks with services including 'Kiln Firing Services' and 'Memberships' but provides no details about firing types, public access, or how to participate.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 39.29088,
-      "lng": -76.61076,
-      "located": {
-        "osm": true,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "no",
         "result": "split",
         "date": "2026-10-08"
       }
@@ -517,9 +391,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
-        "why": "The search snippet mentions a raku firing event, but the actual page text provided is empty, so there is no verifiable information about public access, location details, or how to participate.",
+        "why": "Annapolis Moms is a community events directory and media site with no address or firing facility of its own; the search snippet mentions a raku firing event but the page text provided contains no details about how to access it, no facility address, and no information about the Arts Lab location.",
         "types": {},
         "state": "",
         "town": ""
@@ -661,6 +535,64 @@
         "osm": false,
         "date": "2026-10-09"
       }
+    },
+    {
+      "id": "joe-hicks-ceramics",
+      "org": "Joe Hicks Ceramics",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Mount Rainier",
+      "city": "Mount Rainier",
+      "urls": [
+        "https://www.joehicksceramics.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Mount Rainier, Maryland",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.joehicksceramics.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "During this half-day workshop on Saturday 9/18, participants will learn the mysteries of making, mixing, applying and firing Shino glazes. You will then glaze your work choosing between four Shino glazes and then load it into District Clay's reduction kiln for special carbon trap firing Saturday night.",
+        "url": "https://www.joehicksceramics.com/new-page-1",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "joehicksceramics.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "page says state is MD, not DC",
+        "types": {},
+        "state": "MD",
+        "town": "Mount Rainier"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "unclear",
+        "result": "split",
+        "date": "2026-10-07"
+      }
     }
   ],
   "_removed": [
@@ -703,6 +635,14 @@
     {
       "id": "mosaic-arts-dc",
       "why": "Its own pages give an address in DC (Washington), not MD. Moved. (2026-10-08)"
+    },
+    {
+      "id": "the-potters-guild-of-baltimore",
+      "why": "Second check (claude-haiku-4.5): The Guild does not have wood/salt/soda fired kilns on-site; students fire work at regional kilns at additional cost, which is not public access to a firing at this location. (2026-10-09)"
+    },
+    {
+      "id": "baltimore-clayworks-md",
+      "why": "Second check (claude-haiku-4.5): This is a directory/blog website (Clay Stuff) that lists pottery studios but does not itself run any firings or offer public access to non-electric ceramic firings. (2026-10-09)"
     }
   ]
 }

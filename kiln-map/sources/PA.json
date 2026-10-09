@@ -331,9 +331,9 @@
       "lng": -74.99949,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The page mentions raku and pit firing events but provides no clear mechanism for outsiders to register, join, or participate; raku registration is closed and pit firing details are vague about public access.",
+        "why": "The page mentions raku and pit firing events but provides no current details about how outsiders can register, book, or participate; raku registration is closed and pit firing states firings occur 'as student interest and resources permit' without clear public access information.",
         "types": {},
         "state": "PA",
         "town": "Richboro",
@@ -756,9 +756,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The text explicitly invites outsiders to participate in wood-fired anagama firings by contacting Greeny (Gary Greenberg), and mentions that visiting artists from PA and neighboring states contribute work and assist with the firing.",
+        "why": "The text explicitly states 'many visiting artists from all around PA and neighboring states contribute work and stay for the firing' and provides contact information: 'For more information or to participate, please call Greeny (Gary Greenberg) at Clarion University' or email, indicating public access to the wood-fired anagama kiln.",
         "types": {},
         "state": "PA",
         "town": ""
@@ -814,9 +814,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The text describes a planned wood-fired kiln project for Warwick School District with mentions of community rental, workshops, and classes, but does not confirm the kiln has been built or is currently operational for public access.",
+        "why": "The page mentions a wood-fired kiln in a Critical Action Plan for Warwick School District that will be open to public viewing, but does not specify whether outsiders can participate in actual firings or only view the kiln.",
         "types": {},
         "state": "",
         "town": ""
@@ -829,66 +829,6 @@
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "no",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "lisa-york-arts",
-      "org": "Lisa York Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Wallingford",
-      "city": "Wallingford",
-      "urls": [
-        "https://www.lisayorkarts.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Wallingford, Pennsylvania",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.lisayorkarts.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "My next workshop will be in Minot, North Dakota in October, and stay tuned for more opportunities to work with me in the future.",
-        "url": "https://www.lisayorkarts.com/blog/soda-firing-workshop-review",
-        "types": [
-          "soda"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "lisayorkarts.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page shows Lisa York teaches soda firing workshops at Community Arts Center in Wallingford, PA, with open enrollment for outsiders to sign up for a 5-day workshop.",
-        "types": {},
-        "state": "PA",
-        "town": "Wallingford"
-      },
-      "weak": true,
-      "lat": 39.90364,
-      "lng": -75.37166,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
       }
@@ -1148,9 +1088,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets mention pit-firing workshops and kiln firings with contact information, but the actual page text is empty, so I cannot verify the exact wording of how outsiders can participate.",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page text states 'Pit-Firing Workshops' and includes contact information (marguerita@margueritahagan.com) for outsiders to register for classes that include 'kiln firings,' with the studio address in Philadelphia.",
         "types": {},
         "state": "PA",
         "town": "Philadelphia",
@@ -1322,7 +1262,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "Page text is empty; cannot verify public access to firings despite class listing in search snippet.",
         "types": {},
@@ -1381,9 +1321,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page explicitly invites outsiders (potters, builders, and curious folks) to join scheduled wood kiln workdays with an open invitation to message or just show up.",
+        "why": "The page explicitly invites outsiders (potters, builders, curious folks) to join wood kiln workdays with an open invitation to message or just show up.",
         "types": {},
         "state": "PA",
         "town": "Laceyville",
@@ -1444,12 +1384,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The text mentions wood and gas firings scheduled off-site but provides no details about how outsiders can access or participate in those specific firing types.",
+        "why": "The page mentions wood and gas fired kilns scheduled off-site, but provides no details on how outsiders can access or participate in those firings.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "PA",
+        "town": "Landisville",
+        "street": "235 Elizabeth St"
       },
       "weak": true,
       "located": {
@@ -1507,9 +1448,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The page text provided is empty; only a search snippet mentions raku and pit firings but gives no details about public access, booking, or participation methods.",
+        "why": "The search snippet mentions raku firings and pit firings as past activities, but the page text provided contains only navigation menus and does not include details about how outsiders can currently participate in these firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -1685,9 +1626,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
-        "why": "The page describes firing techniques but contains no information about public access, classes, workshops, memberships, rentals, firing services, or invitations for outsiders to participate in any firings.",
+        "why": "The page describes firing techniques (pit, saggar, raku, wood, soda, salt) but contains no information about public access, workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate in any firing.",
         "types": {},
         "state": "",
         "town": ""
@@ -1738,6 +1679,10 @@
     {
       "id": "pa-guild-of-craftsmen",
       "why": "Two models agree: The page is a guild directory of member craftspeople; it only mentions an artist's apprenticeship with wood-fire potters and offers no firing that outsiders can join. (2026-10-08)"
+    },
+    {
+      "id": "lisa-york-arts",
+      "why": "Second check (claude-haiku-4.5): page says state is CT, not PA (2026-10-09)"
     }
   ]
 }

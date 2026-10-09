@@ -126,13 +126,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page describes a workshop where participants can register to experiment with raku, horsehair, obvara and saggar firing for $150 per day.",
-        "types": {
-          "raku": "In this workshop, participants will experiment with raku, horsehair, obvara and saggar firing.",
-          "pit_barrel_saggar": "In this workshop, participants will experiment with raku, horsehair, obvara and saggar firing."
-        },
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is only a login/account creation interface with no information about ceramic firings, workshops, or public access to any firing types.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -299,7 +296,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
         "why": "No page text provided to verify public access details, location, or firing participation methods.",
         "types": {},
@@ -405,9 +402,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
-        "why": "The page text provided contains no information about public access to firings, workshops, classes, memberships, rentals, or invitations for outsiders to participate in any firing type.",
+        "why": "The page text provided contains no information about public access to firings, workshops, classes, memberships, rentals, or firing services—only a description of the kilns owned.",
         "types": {},
         "state": "CT",
         "town": "Washington"
@@ -436,14 +433,14 @@
         "raku",
         "pit_barrel_saggar"
       ],
-      "region": "Connecticut",
-      "city": null,
+      "region": "East Granby",
+      "city": "East Granby",
       "urls": [
         "https://expressionspottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "East Granby, Connecticut",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://expressionspottery.com/"
@@ -467,15 +464,16 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page states the studio has 'kilns to fire Raku and Saggar pottery' and offers studio rental and membership options for outsiders to access these firings.",
+        "why": "The page explicitly states that classes include raku firing and that renters have access to participate in raku firings, providing public pathways for outsiders to join these non-electric firings.",
         "types": {
-          "raku": "kilns to fire Raku and Saggar pottery",
+          "raku": "Hand building and raku firing (additional fee required) may be offered at the discretion of the instructor.",
           "pit_barrel_saggar": "kilns to fire Raku and Saggar pottery"
         },
-        "state": "",
-        "town": ""
+        "state": "CT",
+        "town": "East Granby",
+        "street": "9 School St"
       },
       "located": {
         "osm": false,
@@ -487,7 +485,7 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": true
+      "weak": false
     },
     {
       "id": "canton-clay-works",
@@ -578,12 +576,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The text describes a raku process but does not explicitly state whether outsiders can participate in a workshop, class, or other public access method.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is from a document-sharing website (DocShare.tips) with no information about Lakeside Pottery's location, contact details, or how to participate in any pottery firings; the search snippet mentions raku but provides no way for outsiders to book or join.",
         "types": {},
-        "state": "CT",
-        "town": "Stamford"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "located": {
@@ -622,7 +620,7 @@
         "how": "Dated workshop or firing event",
         "note": "Dated workshop or firing event",
         "quote": "Upcoming Workshop 2027 at the John C Campbell Folk School Cone 10 Reduction Firing for Color and Effect",
-        "url": "https://jonespottery.net/",
+        "url": "https://jonespottery.net/workshops-2026",
         "types": [
           "gas_reduction"
         ],
@@ -636,11 +634,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page shows multiple gas reduction firing workshops open to intermediate and advanced potters who can sign up via a sign-up link or by contacting the instructor.",
+        "why": "The page shows outsiders can sign up for Cone 10 reduction firing workshops via a sign-up link and at John C Campbell Folk School.",
         "types": {
-          "gas_reduction": "Join our Cone 10 reduction firing workshops to master gas kiln firing techniques and enhance your pottery skills."
+          "gas_reduction": "Bring 10-20 small/medium bisque-fired pieces of cone 9-10 clay and learn to load and fire a gas kiln."
         },
         "state": "",
         "town": ""
@@ -715,6 +713,66 @@
         "score": 36,
         "osm": true,
         "date": "2026-10-09"
+      }
+    },
+    {
+      "id": "lisa-york-arts",
+      "org": "Lisa York Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Hartford",
+      "city": "Hartford",
+      "urls": [
+        "https://www.lisayorkarts.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Hartford, Connecticut",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.lisayorkarts.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "My next workshop will be in Minot, North Dakota in October, and stay tuned for more opportunities to work with me in the future.",
+        "url": "https://www.lisayorkarts.com/blog/soda-firing-workshop-review",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "lisayorkarts.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "page says state is CT, not PA",
+        "types": {
+          "soda": "Join Soda Fire Educational Series"
+        },
+        "state": "CT",
+        "town": "Hartford"
+      },
+      "weak": false,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
       }
     }
   ],

@@ -2,67 +2,6 @@
   "_note": "ND firing sources.",
   "sources": [
     {
-      "id": "dakota-potters-supply",
-      "org": "Dakota Potters Supply",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "North Dakota",
-      "city": null,
-      "urls": [
-        "https://dakotapotters.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://dakotapotters.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "During our monthly workshop we will fire your pieces to Brilliant and Exciting Colors. Our various techniques include general Flash Glazes (gloss and matte), Horse Hair, Ferric Spray, Ferric Sagger (Baked Potato) and more.",
-        "url": "https://dakotapotters.com/raku-firing/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "dakotapotters.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page clearly states \"During our monthly workshop we will fire your pieces\" and \"Sign up today- $10.00 is seating fee,\" showing public access to raku firing via a workshop with a sign-up process open to ages 5 and above.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "SD",
-        "town": "Street Sioux Falls",
-        "score": 2,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "north-dakota-state-university",
       "org": "North Dakota State University",
       "kind": "college",
@@ -101,12 +40,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The text describes NDSU's annual wood kiln firing with faculty, students, and community members participating, but does not explicitly state how outsiders can sign up, register, or gain access to participate in future firings.",
+        "why": "The snippets mention NDSU wood kiln firings and a wood/soda kiln workshop, but the actual page text is empty, so I cannot verify whether outsiders can publicly participate or find the location details.",
         "types": {},
-        "state": "ND",
-        "town": "Fargo"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 46.87723,
@@ -161,13 +100,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page shows outsiders can pick up clay and participate in the annual community raku firing event at no charge during ArtsQuest.",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "Search snippets mention raku firing and public workshops, but the actual page text provided does not contain details about how outsiders can participate in any firing.",
         "types": {},
         "state": "ND",
-        "town": "Bismarck",
-        "street": "1500 Edwards Avenue"
+        "town": "Bismarck"
       },
       "lat": 46.80833,
       "lng": -100.78374,
@@ -215,7 +153,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
         "why": "The page text provided is empty; only search snippets are available, and snippets alone cannot confirm public access to firings.",
         "types": {},
@@ -232,48 +170,6 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "woodland-weavers-amp-spinners-guild",
-      "org": "Woodland Weavers &amp; Spinners Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "North Dakota",
-      "city": null,
-      "urls": [
-        "https://wwas.info/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://wwas.info/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-09",
-        "key": "wwas.info"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "no",
-        "why": "The page text describes a weaving and spinning guild with textile arts events, workshops, and markets, but contains no information about ceramic firings of any type.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
       }
     }
   ],
@@ -357,6 +253,14 @@
     {
       "id": "south-carolina-arts-commission",
       "why": "Its own pages give an address in SC (Columbia), not ND. Moved. (2026-10-09)"
+    },
+    {
+      "id": "dakota-potters-supply",
+      "why": "Second check (claude-haiku-4.5): page says state is SD, not ND (2026-10-09)"
+    },
+    {
+      "id": "woodland-weavers-amp-spinners-guild",
+      "why": "Second check (claude-haiku-4.5): This is a fiber arts guild focused on weaving, spinning, and related textile arts with no mention of ceramic firings of any kind. (2026-10-09)"
     }
   ]
 }

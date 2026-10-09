@@ -370,9 +370,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page describes a public raku pottery workshop open to all curious creatives with online sign-ups and walk-up spots available.",
+        "why": "The page shows outsiders can join Raku firing workshops via online sign-up or walk-up spots, with clear public access and pricing.",
         "types": {},
         "state": "CO",
         "town": "Aurora",
@@ -434,14 +434,16 @@
       "lng": -105.07701,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets mention a Raku Workshop but the actual page text is empty, so public access cannot be verified from the page itself.",
-        "types": {},
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page offers monthly raku workshops as a class that outsiders can register for, with a specific quote showing public access.",
+        "types": {
+          "raku": "Raku Workshop: Inspired by traditional Japanese raku firing, this Western-style raku involves removing pottery from a kiln while at bright red heat and placing it into containers with combustible materials."
+        },
         "state": "CO",
         "town": "Fort Collins"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "CO",
         "town": "Fort Collins",
@@ -497,13 +499,13 @@
       "lng": -105.07701,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page explicitly states that soda firing at Smokestack Pottery is open to the public to participate, with a clear invitation to contact via phone or text to join the soda club email list.",
+        "why": "The site explicitly states that soda firing at Smokestack Pottery is \"open to the public to participate and put work in the kiln\" and invites people to reach out to join the soda club email list.",
         "types": {},
         "state": "CO",
         "town": "Fort Collins",
-        "street": "168 Yale Avenue, Fort Collins, CO"
+        "street": "168 Yale Avenue, Fort Collins, CO, USA"
       },
       "located": {
         "osm": false,
@@ -548,9 +550,9 @@
       "lng": -105.07498,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The site offers public raku firing workshops in Loveland, CO that outsiders can join, with explicit workshop dates and descriptions of the raku firing process.",
+        "why": "The site offers raku firing workshops in Loveland, CO that are open to the public to join and participate in the firing process.",
         "types": {},
         "state": "CO",
         "town": "Loveland"
@@ -686,69 +688,6 @@
       "weak": false
     },
     {
-      "id": "fine-arts-center-at-colorado-college",
-      "org": "Fine Arts Center at Colorado College",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Colorado Springs",
-      "city": "Colorado Springs",
-      "urls": [
-        "https://fac.coloradocollege.edu/"
-      ],
-      "notes": "Pit firing workshop (Laguna Pueblo potter). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Colorado Springs, Colorado",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://fac.coloradocollege.edu/"
-      },
-      "access": {
-        "how": "Pit firing workshop (Laguna Pueblo potter)",
-        "note": "Pit firing workshop (Laguna Pueblo potter)",
-        "quote": "Experience a pit firing workshop with Laguna Pueblo potter and poet, Max Early.",
-        "url": "https://fac.coloradocollege.edu/connect/scenes-of-pit-firing-at-bemis-school-of-art-with-max-early",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "fac.coloradocollege.edu"
-      },
-      "lat": 38.83396,
-      "lng": -104.82535,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The page describes a pit firing workshop with Max Early but does not explicitly state whether outsiders can register, book, or join the workshop, or provide contact information to do so.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "CO",
-        "town": "Colorado Springs",
-        "score": 129,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
       "id": "carbondale-clay-center",
       "org": "Carbondale Clay Center",
       "kind": "city_arts",
@@ -847,9 +786,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page offers a public Raku Firing Horsehair Workshop that outsiders can purchase and attend for $150.",
+        "why": "The site offers a Raku Firing Horsehair Workshop on 4/18/2026 that outsiders can book as a paid workshop ($150) with a maximum capacity of 10 participants.",
         "types": {
           "raku": "Experience the magic of horse hair raku in this hands-on, community-focused workshop!"
         },
@@ -943,14 +882,14 @@
       "firing_types_guess": [
         "soda"
       ],
-      "region": "Colorado",
-      "city": null,
+      "region": "Lafayette",
+      "city": "Lafayette",
       "urls": [
         "https://ceramicscapes.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Lafayette, Colorado",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://ceramicscapes.com/"
@@ -973,12 +912,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The page describes soda firing at Colorado Potters Guild but does not explicitly state how outsiders can access or participate in these firings.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text describes Cindy Guajardo's personal pottery studio and classes she teaches, but contains no information about public access to soda firings or any other non-electric ceramic firings at Colorado Potters Guild or elsewhere.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "CO",
+        "town": "Lafayette"
       },
       "weak": true,
       "located": {
@@ -1021,7 +960,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
         "why": "No page text provided to verify public access, location details, or firing workshop information.",
         "types": {},
@@ -1084,13 +1023,13 @@
         "key": "cademy.io"
       },
       "verify": {
-        "by": "gemini-3.5-flash-lite",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page offers a two-day workshop open to the public for raku, saggar, and barrel firings.",
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is about Cademy, a training management platform software, not about Abi Higgins Ceramics Studio or its ceramic firing offerings. The search snippets mention a workshop but the actual page content provided contains no information about the studio, its location, or how to access any firings.",
         "types": {},
         "state": "",
-        "town": "Christow"
+        "town": ""
       },
       "weak": true,
       "located": {
@@ -1103,66 +1042,6 @@
         "result": "split",
         "date": "2026-10-08"
       }
-    },
-    {
-      "id": "wilson-co",
-      "org": "Wilson & Co.",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Colorado",
-      "city": null,
-      "urls": [
-        "https://wilsonandcogallery.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://wilsonandcogallery.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Join us for a hands-on introduction to saggar firing, an experimental, low fire reduction firing process that uses smoke, carbon, minerals, and organic materials to create distinctive surfaces on clay.",
-        "url": "https://wilsonandcogallery.com/product/intro-to-saggar-firing",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-08"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "wilsonandcogallery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The site offers a hands-on workshop in saggar firing open to participants who can join.",
-        "types": {
-          "pit_barrel_saggar": "Join us for a hands-on introduction to saggar firing, an experimental, low fire reduction firing process that uses smoke, carbon, minerals, and organic materials to create distinctive surfaces on clay."
-        },
-        "state": "",
-        "town": ""
-      },
-      "located": {
-        "osm": true,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "agree-yes",
-        "date": "2026-10-08"
-      },
-      "weak": true
     },
     {
       "id": "steamboatcreates",
@@ -1220,6 +1099,56 @@
         "osm": false,
         "date": "2026-10-09"
       }
+    },
+    {
+      "id": "warehome-studios",
+      "org": "Warehome Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Steamboat Springs",
+      "city": "Steamboat Springs",
+      "urls": [
+        "https://www.warehomestudios.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Steamboat Springs, Colorado",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.warehomestudios.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "warehomestudios.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "page says state is CO, not KY",
+        "types": {
+          "gas_reduction": "Stop by Warehome Studios on Friday, July 24th, to check out all the amazing new work coming out of our big gas-fired reduction kiln"
+        },
+        "state": "CO",
+        "town": "Steamboat Springs"
+      },
+      "weak": false,
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [
@@ -1270,6 +1199,14 @@
     {
       "id": "university-of-colorado-boulder",
       "why": "Two models agree: The only evidence is a snippet saying the kilns (including gas and wood-fired) are available to students enrolled in Ceramics classes, so outsiders are not shown to be able to join any non-electric firing. (2026-10-08)"
+    },
+    {
+      "id": "fine-arts-center-at-colorado-college",
+      "why": "Second check (claude-haiku-4.5): The page text mentions a pit firing workshop with Max Early in search snippets but provides no details about public access, booking, or participation methods on the actual Fine Arts Center website pages provided. (2026-10-09)"
+    },
+    {
+      "id": "wilson-co",
+      "why": "Second check (claude-haiku-4.5): page says state is BC, not CO (2026-10-09)"
     }
   ]
 }

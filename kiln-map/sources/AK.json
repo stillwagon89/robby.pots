@@ -40,9 +40,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets describe a raku ceramic workshop but the actual page text from alaska.net is empty, providing no details about how to book, join, or access the workshop, nor any location information.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is a general Alaska relocation guide with no information about ceramic firings, workshops, or the Raku Masks workshop mentioned in the search snippets.",
         "types": {},
         "state": "",
         "town": ""
@@ -100,7 +100,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "Search snippets mention East Creek Art offering raku and saggar workshops, but the actual page text is empty, so I cannot verify the details or confirm public access from the site itself.",
         "types": {},
@@ -209,7 +209,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
         "why": "The page text provided is empty; only a search snippet mentioning raku firing exists, but no actual page content shows how outsiders can participate in any firing.",
         "types": {},
@@ -224,66 +224,6 @@
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "cynthia-morelli-s",
-      "org": "Cynthia Morelli's",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Homer",
-      "city": "Homer",
-      "urls": [
-        "https://www.loceramics.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Homer, Alaska",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.loceramics.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "As a class we will fire and reduction cool Cynthia Morelli's catenary arch wood fired kiln.",
-        "url": "https://www.loceramics.com/workshops/2020/9/30/wood-fire-workshop-at-cynthia-morellis-in-homer-ak",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "loceramics.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "No page text provided to verify public access details, firing types, or location information.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 59.64541,
-      "lng": -151.54456,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
       }
@@ -305,6 +245,10 @@
     {
       "id": "copper-kiln-pottery",
       "why": "Two models agree: This is an individual potter's studio site that sells work and offers studio tours and custom orders; the soda firing mentioned is the potter's own experiment with a friend, with no public sign-up for any non-electric firing. (2026-10-07)"
+    },
+    {
+      "id": "cynthia-morelli-s",
+      "why": "Second check (claude-haiku-4.5): The page text shows Lindsay Oesterritter's ceramics website with workshops listed, but none of the workshops described on the actual page text involve non-electric ceramic firings; the search snippet mentions a wood fire workshop at Cynthia Morelli's in Homer AK, but that information does not appear in the provided page text from loceramics.com. (2026-10-09)"
     }
   ]
 }

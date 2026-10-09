@@ -42,9 +42,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "Search snippets mention raku workshops and pit firing at Clay Hole in Alpine/Draper, Utah, but the actual page text is empty, so I cannot verify specific ways for outsiders to participate.",
+        "why": "Search snippets mention raku workshops and pit firing at Clay Hole in Alpine/Draper, Utah, but the actual page text is empty, so public access cannot be verified from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -158,9 +158,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "Search snippets mention a raku workshop but the actual page text is empty, so I cannot verify public access details or copy a sentence from the page itself.",
+        "why": "Search snippets mention a raku workshop but the actual page text is empty, so I cannot verify public access details or confirm the workshop is bookable.",
         "types": {},
         "state": "",
         "town": ""
@@ -272,12 +272,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets mention workshops in Boulder, Utah with firing processes, but no actual page text is provided to verify public access details or confirm the location address.",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page offers multiple workshops where outsiders can join pit firing instruction, including a Boulder, Utah fall workshop and Elkhorn gathering workshop with pit firing included.",
         "types": {},
         "state": "UT",
-        "town": "Boulder"
+        "town": "Orem",
+        "street": "Orem, UT 84097"
       },
       "weak": true,
       "located": {
@@ -352,66 +353,6 @@
       "weak": false
     },
     {
-      "id": "throw-art-studio",
-      "org": "Throw Art Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Provo",
-      "city": "Provo",
-      "urls": [
-        "https://www.throwartstudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Provo, Utah",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.throwartstudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Unlock your creativity with a private pottery glazing and firing session at Throw Art Studio in Provo, Utah.",
-        "url": "https://www.throwartstudio.com/pottery-classes",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "throwartstudio.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets mention raku and firing techniques at Throw Art Studio in Provo, UT, but the actual page text is empty, so I cannot verify specific public access details or copy word-for-word sentences from the site itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 40.23373,
-      "lng": -111.65871,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "desert-sun-ceramics",
       "org": "Desert Sun Ceramics",
       "kind": "studio",
@@ -452,13 +393,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "Search snippets mention a raku workshop and memberships/classes, but the actual page text provided is empty, so public access cannot be verified from the page itself.",
-        "types": {
-          "raku": "This 3 day workshop will consist of Smoke, Obvara, Fumed, Saggar and Raku firing techniques.",
-          "pit_barrel_saggar": "This 3 day workshop will consist of Smoke, Obvara, Fumed, Saggar and Raku firing techniques."
-        },
+        "why": "The search snippets mention a raku workshop and memberships/classes, but the actual page text provided is empty, so public access cannot be confirmed from the page itself.",
+        "types": {},
         "state": "UT",
         "town": "Moab"
       },
@@ -537,68 +475,6 @@
       "weak": false
     },
     {
-      "id": "logan-artists-association",
-      "org": "Logan Artists Association",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Logan",
-      "city": "Logan",
-      "urls": [
-        "https://loganartists.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Logan, Utah",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://loganartists.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Our electric and raku kilns which are operated by the Studio Coordinator and other trained and experienced members of LAA are utilized for works completed during classes, social sessions and workshops.",
-        "url": "https://loganartists.com/about/facilities/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "loganartists.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The text explicitly states they have a raku kiln used for pottery classes and workshops open to non-members at $27.50 per class, with public access via pay-as-you-go tutored classes.",
-        "types": {
-          "raku": "Our electric and raku kilns which are operated by the Studio Coordinator and other trained and experienced members of LAA are utilized for works completed during classes, social sessions and workshops."
-        },
-        "state": "",
-        "town": "Logan"
-      },
-      "lat": 41.73131,
-      "lng": -111.83491,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "weak": true,
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "corbridge-pottery",
       "org": "Corbridge Pottery",
       "kind": "studio",
@@ -637,12 +513,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
-        "why": "No page text provided; cannot verify public access to any non-electric ceramic firings.",
+        "why": "The page describes Adam Corbridge's pottery studio and salt kiln project but contains no information about public access to firings through workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "UT",
+        "town": "Logan"
       },
       "weak": true,
       "lat": 41.73131,
@@ -700,7 +576,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
         "why": "The search snippet mentions raku firings but provides no information about how outsiders can participate in them (no class, workshop, membership, rental, firing service, or invitation to contact); the page text is empty and cannot confirm public access.",
         "types": {},
@@ -737,6 +613,14 @@
     {
       "id": "language-visit-website",
       "why": "Second check (claude-haiku-4.5): The page text describes adventure tours and shuttle services with no mention of ceramic firings of any kind. (2026-10-09)"
+    },
+    {
+      "id": "throw-art-studio",
+      "why": "Second check (claude-haiku-4.5): The page text mentions glazing and firing as part of classes and courses, but does not specify any non-electric firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) with a clear way for outsiders to participate. (2026-10-09)"
+    },
+    {
+      "id": "logan-artists-association",
+      "why": "Second check (claude-haiku-4.5): page says state is QLD, not UT (2026-10-09)"
     }
   ]
 }

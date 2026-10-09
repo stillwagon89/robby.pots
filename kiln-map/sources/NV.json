@@ -31,15 +31,15 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The search snippets show Animal House Pottery offers public workshops for raku and soda/wood firing with clear instructions on how to participate and pricing.",
+        "why": "Search snippets show Monthly Raku Workshop and Bi-Monthly Soda Firing (wood/soda) available to the public with pricing and booking information.",
         "types": {
           "raku": "Bring your own bisque or pick one of Anthony's, glaze it, load it into the Raku kiln, and pull it out glowing hot to watch the crackle and colors come out as it cools.",
           "soda": "Spend a Sunday with us learning soda firing ( this will be a wood/soda firing) from the ground up."
         },
-        "state": "",
-        "town": ""
+        "state": "NV",
+        "town": "Las Vegas"
       },
       "lat": 36.16743,
       "lng": -115.14841,
@@ -53,7 +53,7 @@
         "result": "agree-yes",
         "date": "2026-10-08"
       },
-      "weak": true
+      "weak": false
     },
     {
       "id": "tuscarora-pottery-school",
@@ -62,6 +62,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
+        "soda",
         "raku"
       ],
       "region": "Tuscarora",
@@ -82,6 +83,7 @@
         "quote": "Book a private Soda Firing. Would you, and up to five other artists, like to book a private firing workshop with one of our instructors?",
         "url": "https://tuscarorapottery.com/workshops/p/spring-community-firing-7kg2b",
         "types": [
+          "soda",
           "raku"
         ],
         "checked": "2026-10-07"
@@ -94,14 +96,18 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets mention Tuscarora Pottery School offering soda and raku workshops, but no actual page text was provided to verify the details or confirm public access.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page text and search snippets show multiple workshops where outsiders can book or join soda and raku firings, including a 5-day community soda firing workshop and private soda firing bookings for up to 6 participants.",
+        "types": {
+          "soda": "Journey to the fabled Tuscarora Pottery School for an immersive community soda firing. This 5-day intensive offers a chance to explore both cone 10 soda firing and raku/alternative firing in a dynamic, hands-on environment.",
+          "raku": "This 5-day intensive offers a chance to explore both cone 10 soda firing and raku/alternative firing in a dynamic, hands-on environment."
+        },
+        "state": "NV",
+        "town": "Tuscarora",
+        "street": "138 Main Street"
       },
-      "weak": true,
+      "weak": false,
       "lat": 41.31488,
       "lng": -116.22321,
       "located": {
@@ -125,7 +131,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood"
+        "pit_barrel_saggar"
       ],
       "region": "Henderson",
       "city": "Henderson",
@@ -145,7 +151,7 @@
         "quote": "Join us for a unique combination of Obvara and Saggar firing techniques at Bill R's 'Sin City' Studio in Henderson!",
         "url": "https://www.nvclay.org/events/obvara-saggar-fire-workshop",
         "types": [
-          "wood"
+          "pit_barrel_saggar"
         ],
         "checked": "2026-10-07"
       },
@@ -157,64 +163,18 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets mention an Obvara & Saggar Fire Workshop on April 26, 2025, but the actual page text is empty, so I cannot verify the details or confirm public access from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The Nevada Clay Guild offers an Obvara & Saggar Fire Workshop on April 26, 2025, with an open invitation for people to join at Bill R's studio in Henderson.",
+        "types": {
+          "pit_barrel_saggar": "Join us for a unique combination of Obvara and Saggar firing techniques at Bill R's 'Sin City' Studio in Henderson!"
+        },
+        "state": "NV",
+        "town": "Las Vegas"
       },
-      "weak": true,
+      "weak": false,
       "lat": 36.03014,
       "lng": -114.98155,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "tao-of-clay",
-      "org": "Tao of Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Nevada",
-      "city": null,
-      "urls": [
-        "https://taoofclay.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://taoofclay.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "taoofclay.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "No page text provided to verify public access, location details, or specific workshop booking information.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -255,9 +215,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippets mention a Raku Firing Workshop but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "why": "Search snippets mention raku firing workshops but the actual page text is empty, so public access cannot be verified from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -355,6 +315,10 @@
     {
       "id": "tom-coleman",
       "why": "Second check (gemini-3.5-flash-lite): The text discusses high-fire cone 10 reduction and electric glazes, but contains no mention of public participation in a non-electric ceramic firing. (2026-10-08)"
+    },
+    {
+      "id": "tao-of-clay",
+      "why": "Second check (claude-haiku-4.5): page says state is CA, not NV (2026-10-09)"
     }
   ]
 }

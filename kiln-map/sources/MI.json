@@ -235,70 +235,6 @@
       "weak": false
     },
     {
-      "id": "macomb-community-college",
-      "org": "Macomb Community College",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Clinton Township",
-      "city": "Clinton Township",
-      "urls": [
-        "https://wce.macomb.edu/"
-      ],
-      "notes": "Two-part raku workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Clinton Township, Michigan",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://wce.macomb.edu/"
-      },
-      "access": {
-        "how": "Two-part raku workshop",
-        "note": "Two-part raku workshop",
-        "quote": "Part two of a two-part series on the ancient Japanese pottery technique Raku. Participants will fire their pre-event glazed pottery in cycles under the direction of Fine Arts faculty.",
-        "url": "https://wce.macomb.edu/connect/course/courseinformation?int_course_id=2233",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "wce.macomb.edu"
-      },
-      "lat": 42.58698,
-      "lng": -82.92,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page describes a Raku Firing Cycles class where participants can fire pottery, offered through Macomb Community College's Workforce & Continuing Education program with tuition listed.",
-        "types": {},
-        "state": "MI",
-        "town": "Clinton Township",
-        "street": "44575 Garfield Road"
-      },
-      "located": {
-        "state": "MI",
-        "town": "Clinton Township",
-        "score": 8,
-        "osm": true,
-        "date": "2026-10-09"
-      },
-      "weak": true,
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "the-potters-guild",
       "org": "The Potters Guild",
       "kind": "city_arts",
@@ -630,12 +566,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page offers raku classes open to the public with pricing and scheduling information, allowing outsiders to sign up for this non-electric firing technique.",
+        "why": "The page offers raku classes open to the public at $75 for one day or $295 for 6-weeks, with a clear statement that outsiders can join via class enrollment.",
         "types": {},
         "state": "MI",
-        "town": "Clawson"
+        "town": "Clawson",
+        "street": "120 S. Rochester Rd."
       },
       "weak": true,
       "located": {
@@ -692,9 +629,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The text mentions raku and smoke firing techniques but provides no information about whether outsiders can participate in these firings through classes, workshops, memberships, rentals, or other public access methods.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is from the Ann Arbor District Library website and contains only a brief mention that the Ann Arbor Potters Guild exists and uses firing techniques including raku and smoke firing, but provides no information about public access to any firings, classes, workshops, memberships, rentals, or firing services.",
         "types": {},
         "state": "MI",
         "town": "Ann Arbor",
@@ -788,6 +725,10 @@
     {
       "id": "algonac-clay-library",
       "why": "Second check (claude-haiku-4.5): The page describes a library with STEM chemistry events, not ceramic firing facilities or classes. (2026-10-08)"
+    },
+    {
+      "id": "macomb-community-college",
+      "why": "Second check (claude-haiku-4.5): The page text mentions 'Raku Firing Cycles' in search snippets but provides no details about public access, class registration, or how outsiders can participate in any ceramic firing on the actual page content provided. (2026-10-09)"
     }
   ]
 }

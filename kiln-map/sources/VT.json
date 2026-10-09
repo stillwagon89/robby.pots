@@ -116,7 +116,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "Search snippets describe raku workshops but the actual page text is empty, so location details cannot be verified.",
         "types": {
@@ -176,9 +176,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "The page text provided contains no information about public access to firings, only mentions raku sculptures and classes without details on how outsiders can participate in actual firings.",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "The search snippets mention raku sculptures and classes, but the provided page text is empty, so there is no information about how outsiders can participate in firings.",
         "types": {},
         "state": "VT",
         "town": "South Hero"
@@ -236,15 +236,17 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets mention a raku firing workshop, but the actual page text provided is empty, so I cannot verify the details from the page itself.",
-        "types": {},
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The search snippets show a raku firing workshop where outsiders can participate: 'The one day workshop lets students explore traditional raku glazes, One & Two Step Slip Resist Naked Raku, Horse Hair and Obvara firings.'",
+        "types": {
+          "raku": "The one day workshop lets students explore traditional raku glazes, One & Two Step Slip Resist Naked Raku, Horse Hair and Obvara firings."
+        },
         "state": "VT",
         "town": "Woodstock",
         "street": "1837 W. Woodstock Road (Route 4), Woodstock, VT 05091"
       },
-      "weak": true,
+      "weak": false,
       "lat": 43.62476,
       "lng": -72.51898,
       "located": {
@@ -300,12 +302,15 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page describes a 4-day workshop at Orchard Street Pottery as part of the 2025 New England Woodfiring Conference where participants can fire their own work.",
-        "types": {},
+        "why": "The page explicitly states that as part of the 2025 New England Woodfiring Conference, Orchard Street Pottery will host a 4-day workshop where participants can fire their own work.",
+        "types": {
+          "wood": "As part of the 2025 New England Woodfiring Conference, Orchard Street Pottery will be hosting a 4 day workshop where participants will be able to fire their own work as they join in firing the kiln."
+        },
         "state": "VT",
-        "town": "Brattleboro"
+        "town": "Brattleboro",
+        "street": "658 Orchard Street"
       },
       "lat": 42.85076,
       "lng": -72.55729,
@@ -313,7 +318,7 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": true,
+      "weak": false,
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
@@ -487,53 +492,6 @@
         "osm": false,
         "date": "2026-10-09"
       }
-    },
-    {
-      "id": "vermont-crafts-council",
-      "org": "Vermont Crafts Council",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda"
-      ],
-      "region": "Montpelier",
-      "city": "Montpelier",
-      "urls": [
-        "https://www.vermontcrafts.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Montpelier, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.vermontcrafts.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-09",
-        "key": "vermontcrafts.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "page says state is VT, not ND",
-        "types": {},
-        "state": "VT",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "VT",
-        "town": "Montpelier",
-        "score": 6,
-        "osm": false,
-        "date": "2026-10-09"
-      }
     }
   ],
   "_removed": [
@@ -584,6 +542,10 @@
     {
       "id": "distinguished-teaching",
       "why": "Its own pages give an address in IL (Chicago), not VT. Moved. (2026-10-08)"
+    },
+    {
+      "id": "vermont-crafts-council",
+      "why": "Second check (claude-haiku-4.5): The Vermont Crafts Council is a directory and advocacy organization for artists; the page text describes Open Studio as a visitor event to see artists in their studios, but does not show that the Council itself runs any non-electric ceramic firings or offer public access to such firings. (2026-10-09)"
     }
   ]
 }

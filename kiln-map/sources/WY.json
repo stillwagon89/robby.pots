@@ -40,10 +40,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippets mention an Anagama workshop with participant involvement, but the actual page text is empty, so I cannot verify the location details or confirm public access terms from the page itself.",
-        "types": {},
+        "why": "The snippets mention an Anagama workshop with participant involvement, but the actual page text is empty, so location details and booking information cannot be verified from the provided text.",
+        "types": {
+          "wood": "This workshop will involve stacking the kiln and firing the Meeteetse Anagama."
+        },
         "state": "",
         "town": ""
       },
@@ -157,12 +159,12 @@
       "lng": -106.82227,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The text mentions a wood-fired kiln at Sheridan College and a future intention to invite people to see the process, but does not clearly state how outsiders can currently book, sign up, or participate in a firing.",
+        "why": "The search snippets mention a wood-fired kiln at Sheridan College and a future invitation to invite people to see the firing process, but the actual page text provided contains no details about Red Bison Studios, public access to firings, or how to participate.",
         "types": {},
-        "state": "WY",
-        "town": "Sheridan"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "located": {
@@ -174,52 +176,6 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "official-website",
-      "org": "Official website ↗",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
-      ],
-      "region": "Gillette",
-      "city": "Gillette",
-      "urls": [
-        "https://www.avacenter.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Gillette, Wyoming",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.avacenter.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-09",
-        "key": "avacenter.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "The page mentions raku, saggar, and wood firings in titles and product descriptions, but provides no clear information about how outsiders can participate in these firings (no workshop details, registration instructions, or public access information are shown in the text provided).",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "WY",
-        "town": "Gillette",
-        "score": 2,
-        "osm": false,
-        "date": "2026-10-09"
       }
     }
   ],
@@ -239,6 +195,10 @@
     {
       "id": "workhouse-arts-center",
       "why": "Its own pages give an address in VA (Workhouse Way Lorton), not WY. Moved. (2026-10-07)"
+    },
+    {
+      "id": "official-website",
+      "why": "Second check (claude-haiku-4.5): The page text shows only exhibition listings and workshop/survey pages with no specific information about non-electric ceramic firing classes, workshops, or public participation opportunities. (2026-10-09)"
     }
   ]
 }

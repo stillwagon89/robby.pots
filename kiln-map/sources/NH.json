@@ -42,7 +42,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "The search snippet mentions raku and saggar firing classes, but the actual page text is empty, so public access cannot be verified from the page itself.",
         "types": {},
@@ -100,9 +100,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a pit firing workshop, but the actual page text provided is only the Couchsurfing homepage with no details about Kittery Point Potters, their location, or how to access their firings.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is only the Couchsurfing homepage with no information about Kittery Point Potters, PCMS, pit firing workshops, or any ceramic firing details.",
         "types": {},
         "state": "",
         "town": ""
@@ -160,14 +160,18 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The snippets mention workshops with primitive pit firing and raku firing can be scheduled upon request, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
-        "types": {},
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The workshops page states that special workshops can be scheduled upon request for primitive pit firing and raku firing, with an open invitation to contact Shana for details, allowing outsiders to participate.",
+        "types": {
+          "pit_barrel_saggar": "Alternative firing techniques, such as primitive pit firing and raku firing are some favorite activities.",
+          "raku": "Alternative firing techniques, such as primitive pit firing and raku firing are some favorite activities."
+        },
         "state": "NH",
-        "town": "Rindge"
+        "town": "Rindge",
+        "street": "208 Middle Winchendon Rd. Rindge NH 03461"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "NH",
         "town": "Winchendon Rd. Rindge",
@@ -240,14 +244,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "New Hampshire",
-      "city": null,
+      "region": "New Horton",
+      "city": "New Horton",
       "urls": [
         "https://www.timisaacpottery.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "New Horton, New Hampshire",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.timisaacpottery.com/"
@@ -270,12 +274,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets describe raku workshops available to outsiders, but the actual page text is empty, so location details cannot be verified.",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The site offers raku workshops open to the public with multiple booking options including one-day, two-day, and custom firing days.",
         "types": {},
         "state": "",
-        "town": ""
+        "town": "New Horton"
       },
       "weak": true,
       "located": {

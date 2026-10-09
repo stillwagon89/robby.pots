@@ -26,7 +26,7 @@
         "how": "Classes or membership",
         "note": "Classes or membership",
         "quote": "Please call (504) 234-1080 to find out when our next firing is scheduled.",
-        "url": "https://earthandfirestudio.com/pottery-classes/raku-firing/",
+        "url": "https://earthandfirestudio.com/pottery-classes/",
         "types": [
           "raku"
         ],
@@ -40,12 +40,15 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page explicitly invites outsiders to contact them by phone or email to find out when the next raku firing is scheduled, providing a clear pathway for public participation.",
-        "types": {},
+        "why": "The site explicitly states 'We occasionally schedule group raku firing' and provides a phone number to call to find out when the next firing is scheduled, offering public access to raku firings.",
+        "types": {
+          "raku": "We occasionally schedule group raku firing"
+        },
         "state": "LA",
-        "town": "New Orleans"
+        "town": "New Orleans",
+        "street": "724 Adams Street"
       },
       "lat": 29.95747,
       "lng": -90.06295,
@@ -56,7 +59,7 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": true,
+      "weak": false,
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
@@ -93,12 +96,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippet mentions a raku firing workshop but the actual page text is empty, so I cannot verify public access details or location information from the page itself.",
+        "why": "The search snippet mentions a raku firing workshop, but the page text provided does not contain details about how to join or book this firing.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "LA",
+        "town": "Ruston",
+        "street": "212 N Vienna St"
       },
       "weak": true,
       "located": {
@@ -124,14 +128,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Louisiana",
-      "city": null,
+      "region": "Bauska",
+      "city": "Bauska",
       "urls": [
         "https://laimaceramics.squarespace.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Bauska, Louisiana",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://laimaceramics.squarespace.com/"
@@ -144,12 +148,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
-        "why": "The page text provided contains only a search snippet describing raku technique with no information about public access, workshops, classes, memberships, rentals, or contact invitations for outsiders to participate in any firing.",
+        "why": "The page text mentions horse-hair raku firing in a search snippet but provides no information about how outsiders can participate in any firing; the site is primarily a shop and design studio with courses mentioned but no firing workshops or public access details provided.",
         "types": {},
         "state": "",
-        "town": ""
+        "town": "Bauska"
       },
       "weak": true,
       "located": {

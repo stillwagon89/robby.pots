@@ -119,9 +119,9 @@
       "lng": -122.33006,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippet mentions a raku firing workshop at a specific address, but the page text provided is empty, so I cannot verify details about public access, pricing, or booking procedures.",
+        "why": "The search snippet mentions a raku firing workshop with a date, location, and ticket information on Eventbrite, but the actual page text is empty, so I cannot verify the details or confirm public access.",
         "types": {},
         "state": "WA",
         "town": "Seattle",
@@ -252,71 +252,6 @@
         "date": "2026-10-09"
       },
       "weak": false
-    },
-    {
-      "id": "washington-clay-arts-association",
-      "org": "Washington Clay Arts Association",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "soda"
-      ],
-      "region": "Snohomish",
-      "city": "Snohomish",
-      "urls": [
-        "https://www.washingtonclayarts.org/"
-      ],
-      "notes": "Member raku firings (Burkhead studio). Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Snohomish, Washington",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.washingtonclayarts.org/"
-      },
-      "access": {
-        "how": "Member raku firings (Burkhead studio)",
-        "note": "Member raku firings (Burkhead studio)",
-        "quote": "Member event! Raku firing at Burkhead studio in Snohomish",
-        "url": "https://www.washingtonclayarts.org/education",
-        "types": [
-          "raku",
-          "soda"
-        ],
-        "checked": "2026-10-06"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "washingtonclayarts.org"
-      },
-      "lat": 48.00747,
-      "lng": -121.73049,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The page mentions raku and soda firings for members via lottery, but does not clearly state whether non-members can join or how to become a member or gain access.",
-        "types": {
-          "raku": "Raku firing at Burkhead studio in Snohomish",
-          "soda": "WCA board member Betsy Smith has organized an opportunity for us to offer a ^10 Soda Firing at Kirkland Art Center the weekend of September 6th."
-        },
-        "state": "WA",
-        "town": ""
-      },
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "weak": true,
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      }
     },
     {
       "id": "burnish-clay-studio",
@@ -476,9 +411,9 @@
       "lng": -122.67446,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page clearly states outsiders can join raku firings through classes, membership, or by booking a spot in the firing event for $30.",
+        "why": "The page offers raku classes and firing events open to the public through class registration, membership, or direct booking ($30 firing spot option).",
         "types": {},
         "state": "WA",
         "town": "Vancouver"
@@ -649,13 +584,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The text explicitly states non-studio members can contact Brian for further information about participating in the raku firing workshop, which is a clear invitation for outsiders to join.",
+        "why": "The page shows a Raku Firing Workshop in Sequim open to outsiders with a clear booking process and specific details about participation.",
         "types": {},
         "state": "WA",
-        "town": "Sequim",
-        "street": "453 Taylor Cutoff Rd"
+        "town": "Port Angeles",
+        "street": "1927 E First Street"
       },
       "located": {
         "state": "WA",
@@ -729,51 +664,6 @@
         "state": "WA",
         "town": "Seaview",
         "score": 42,
-        "osm": false,
-        "date": "2026-10-09"
-      }
-    },
-    {
-      "id": "yu-tang-ceramics",
-      "org": "Yu Tang Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Avenue North Seattle",
-      "city": "Avenue North Seattle",
-      "urls": [
-        "https://www.yutangceramics.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Avenue North Seattle, Washington",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.yutangceramics.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "yutangceramics.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a raku firing workshop open to students, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "WA",
-        "town": "Avenue North Seattle",
-        "score": 6,
         "osm": false,
         "date": "2026-10-09"
       }
@@ -874,9 +764,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "Page text is empty; search snippet mentions a soda firing workshop open to all-levels but lacks complete details about booking or participation.",
+        "why": "Page text is empty; cannot verify public access to any non-electric ceramic firing.",
         "types": {},
         "state": "",
         "town": ""
@@ -886,70 +776,6 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "washington-art-association",
-      "org": "Washington Art Association",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Bridgewater",
-      "city": "Bridgewater",
-      "urls": [
-        "https://washingtonartassociation.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bridgewater, Washington",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://washingtonartassociation.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Raku Workshop – with Matt Denning (Tue, Sep 8 | 1:00 PM-5:00 PM)",
-        "url": "https://washingtonartassociation.org/shop/education/fall-2026/raku-workshop-with-matt-denning-tue-sep-8-100-pm-500-pm",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-08"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "washingtonartassociation.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page describes a public raku workshop open to anyone (experienced potters or curious beginners) that can be booked for $90-$155.",
-        "types": {
-          "raku": "Join potter Matt Denning for an exciting hands-on Raku Workshop at the historic Red Mill in Bridgewater."
-        },
-        "state": "",
-        "town": "Bridgewater",
-        "street": "678 Main St. South, Bridgewater"
-      },
-      "located": {
-        "state": "CT",
-        "town": "Washington Depot",
-        "score": 2,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "weak": true,
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
@@ -1108,10 +934,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page describes two-day workshops where students create vessels for communal pit firings, with finished pieces fired in the communal pit, demonstrating public access to pit firing via workshop enrollment.",
-        "types": {},
+        "why": "The search snippets show KMUN hosts pit firing workshops where outsiders can participate: 'In this two-day workshop, students will create coil-built vessels designed specifically to respond beautifully to a communal pit firing later in the month' and 'Finished pieces will be fired in the communal pit and may be picked up the day after the firing, on 4/27.'",
+        "types": {
+          "pit_barrel_saggar": "In this two-day workshop, students will create coil-built vessels designed specifically to respond beautifully to a communal pit firing later in the month."
+        },
         "state": "WA",
         "town": "Ilwaco",
         "street": "109 First Avenue North, Ilwaco, WA, 98624"
@@ -1156,7 +984,7 @@
         "how": "Dated workshop or firing event",
         "note": "Dated workshop or firing event",
         "quote": "Raku Firing October 10, 2026 8 spots 10:30am-1:30pm 8 Spots 12pm -3pm",
-        "url": "https://spokanepottersguild.org/pages/about",
+        "url": "https://spokanepottersguild.org/",
         "types": [
           "raku"
         ],
@@ -1170,72 +998,16 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The site offers raku firing sign-ups open to people who can book spots, and membership access to firings for those who complete a class.",
-        "types": {},
+        "why": "The page shows a 'Raku Firing Sign-up' option available to members who have completed at least one class, providing public access to raku firing through membership and class pathways.",
+        "types": {
+          "raku": "Raku Firing Sign-up"
+        },
         "state": "WA",
         "town": "Spokane"
       },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "harrylevensteinpottery",
-      "org": "harrylevensteinpottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Seabeck",
-      "city": "Seabeck",
-      "urls": [
-        "https://www.harrylevensteinpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Seabeck, Washington",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.harrylevensteinpottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "\"Three Dragon Kiln\" Seabeck, WA. Santatsugama is a beautiful anagama with an irreplaceable family of artists surrounding it. I've had the great pleasure of",
-        "url": "https://www.harrylevensteinpottery.com/santatsugama.html",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-08"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "harrylevensteinpottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "The page documents Harry Levenstein's personal participation in firings at other locations but contains no information about public access, workshops, classes, memberships, rentals, or invitations for outsiders to join firings at his own studio.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -1329,10 +1101,9 @@
         "how": "Classes or membership",
         "note": "Classes or membership",
         "quote": "Step outside into our paved courtyard, perfect for outdoor firing techniques like raku, horsehair, and obvara.",
-        "url": "https://www.jansenartcenter.org/ceramics-studio",
+        "url": "https://www.jansenartcenter.org/ceramics-studio/",
         "types": [
-          "raku",
-          "wood"
+          "raku"
         ],
         "checked": "2026-10-08"
       },
@@ -1344,14 +1115,17 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page states they offer classes and workshops covering raku and other outdoor firing techniques, with a clear call to action to join.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "why": "The text states 'Join our classes and workshops covering all these exciting techniques' including raku, and provides a link to 'View All Ceramics Classes' where outsiders can register for public classes.",
+        "types": {
+          "raku": "Step outside into our paved courtyard, perfect for outdoor firing techniques like raku, horsehair, and obvara. Join our classes and workshops covering all these exciting techniques."
+        },
+        "state": "WA",
+        "town": "Lynden",
+        "street": "321 Front St, Lynden, WA 98264"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "WA",
         "town": "Lynden",
@@ -1373,8 +1147,8 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "gas_reduction",
-        "raku"
+        "raku",
+        "gas_reduction"
       ],
       "region": "London",
       "city": "London",
@@ -1394,8 +1168,8 @@
         "quote": "If you’ve ever taken part in one of our Raku firing workshops, you’ve already encountered Reduction firing — it’s what gives some of our Raku glazes their distinctive metallic sheen.",
         "url": "https://www.turningearth.org/news/gas-kiln-launch",
         "types": [
-          "gas_reduction",
-          "raku"
+          "raku",
+          "gas_reduction"
         ],
         "checked": "2026-10-08"
       },
@@ -1407,12 +1181,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page announces upcoming Reduction Firing workshops at their London studios open to studio members, and describes Raku firing workshops as existing offerings where outsiders can participate.",
+        "why": "The page shows outsiders can join pottery classes and workshops, and mentions raku firing workshops and gas kiln reduction firing workshops where outsiders can participate.",
         "types": {
-          "gas_reduction": "We're really excited to announce the upcoming launch of Reduction Firing workshops across our London studios.",
-          "raku": "If you've ever taken part in one of our Raku firing workshops, you've already encountered Reduction firing — it's what gives some of our Raku glazes their distinctive metallic sheen."
+          "raku": "If you've ever taken part in one of our Raku firing workshops, you've already encountered Reduction firing — it's what gives some of our Raku glazes their distinctive metallic sheen.",
+          "gas_reduction": "Gas kiln reduction firing is coming to our studios. Discover the process, history, and seven new high-fire glazes launching with our upcoming workshops."
         },
         "state": "",
         "town": "London"
@@ -1453,8 +1227,8 @@
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "The page mentions raku and firing services but does not explicitly state how outsiders can sign up for or participate in a raku firing (e.g., no workshop, class, membership, rental, or contact invitation is clearly described for raku specifically).",
+        "verdict": "no",
+        "why": "The page mentions 'Raku' in the navigation menu but provides no details about public access to raku firings; all described activities are wheel throwing, hand-building, and glazing classes with no information about non-electric ceramic firing workshops or services.",
         "types": {},
         "state": "",
         "town": ""
@@ -1474,14 +1248,14 @@
       "firing_types_guess": [
         "gas_reduction"
       ],
-      "region": "Washington",
-      "city": null,
+      "region": "Seattle",
+      "city": "Seattle",
       "urls": [
         "https://alphonsestudio.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Seattle, Washington",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://alphonsestudio.com/"
@@ -1495,11 +1269,11 @@
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "The page mentions high-fired reduction kiln work in classes but does not explicitly state whether outsiders/non-students can enroll or how to sign up for classes.",
+        "verdict": "no",
+        "why": "The site offers private pottery classes with high-fire reduction kiln finishing, but provides no information about public access to non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings; classes are private bookings only with no firing participation mentioned.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "WA",
+        "town": "Seattle"
       },
       "weak": true,
       "located": {
@@ -1537,9 +1311,11 @@
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "The page mentions a 2026 soda kiln workshop but does not explicitly state whether outsiders can register, book, or join it.",
-        "types": {},
+        "verdict": "yes",
+        "why": "The page lists two 2026 workshops including 'Expanding Your Surface Vocabulary in a Soda Kiln,' which is a public workshop offering for outsiders to participate in a soda firing.",
+        "types": {
+          "soda": "2026 Workshop: Expanding Your Surface Vocabulary in a Soda Kiln"
+        },
         "state": "",
         "town": ""
       },
@@ -1581,10 +1357,11 @@
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
         "verdict": "no",
-        "why": "The page mentions raku pieces as finished products but provides no information about public access to raku firings, classes, workshops, memberships, rentals, or firing services.",
+        "why": "The site describes a pottery business that sells finished handcrafted pieces and mentions they make raku wall pieces, but provides no information about public access to any ceramic firings—only sales of finished work and studio visits by appointment.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "WA",
+        "town": "Freeland",
+        "street": "5650 Osprey Rd. PO Box 327 Freeland, WA 98249"
       },
       "weak": true,
       "located": {
@@ -1593,6 +1370,117 @@
         "score": 7,
         "osm": false,
         "date": "2026-10-09"
+      }
+    },
+    {
+      "id": "salish-sea-ceramic-studio",
+      "org": "Salish Sea Ceramic Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Everett",
+      "city": "Everett",
+      "urls": [
+        "https://salishseaceramicstudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Everett, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://salishseaceramicstudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "It is possible to purchase Bisque day of from PYOP for anyone to participate.",
+        "url": "https://salishseaceramicstudio.com/book-seasonal-classes/p/raku-firing",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-08",
+        "key": "salishseaceramicstudio.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "page says state is WA, not GA",
+        "types": {},
+        "state": "WA",
+        "town": "Everett"
+      },
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-09"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "damian-grava",
+      "org": "Damian Grava",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Seattle",
+      "city": "Seattle",
+      "urls": [
+        "https://www.damiangrava.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Seattle, Washington",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.damiangrava.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "damiangrava.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "page says state is WA, not WV",
+        "types": {
+          "gas_reduction": "Westwood Art Studio is a cone 10, reduction fire studio. We have a 30 cubic foot gas fire kiln that is incredibly efficient and producing amazing results."
+        },
+        "state": "WA",
+        "town": "Seattle"
+      },
+      "weak": false,
+      "located": {
+        "state": "WA",
+        "town": "Seattle",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-09"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
       }
     }
   ],
@@ -1644,6 +1532,22 @@
     {
       "id": "ginny-conrow",
       "why": "Second check (claude-haiku-4.5): The workshops described involve crystalline firing (an electric kiln firing) and other techniques, but no non-electric ceramic firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) are mentioned as available for public participation. (2026-10-09)"
+    },
+    {
+      "id": "washington-clay-arts-association",
+      "why": "Second check (claude-haiku-4.5): The page text shows firings are members-only (\"Twenty spots are available to members via lottery\" for soda firing, and \"Members-only firings\" listed as a benefit), with no evidence that outsiders/non-members can participate in any firing. (2026-10-09)"
+    },
+    {
+      "id": "yu-tang-ceramics",
+      "why": "Second check (claude-haiku-4.5): The page text describes wheel throwing and handbuilding classes, but contains no mention of any non-electric ceramic firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) that outsiders can participate in. (2026-10-09)"
+    },
+    {
+      "id": "washington-art-association",
+      "why": "Second check (claude-haiku-4.5): The page text shows workshops and classes offered by Washington Art Association, but contains no information about raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction ceramic firings—only mentions in the search snippets which are not part of the page text provided. (2026-10-09)"
+    },
+    {
+      "id": "harrylevensteinpottery",
+      "why": "Second check (claude-haiku-4.5): The site documents Harry Levenstein's personal pottery practice and past firings at other locations, but contains no information about public access to workshops, classes, memberships, rentals, or firing services where outsiders can participate in wood or soda firings. (2026-10-09)"
     }
   ]
 }

@@ -90,14 +90,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "District of Columbia",
-      "city": null,
+      "region": "Washington",
+      "city": "Washington",
       "urls": [
         "https://rachellindsaypottery.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Washington, District of Columbia",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://rachellindsaypottery.com/"
@@ -110,14 +110,16 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets mention a saggar workshop but the actual page text is empty, so cannot verify public access details or location information.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page lists multiple workshops open to students for non-electric ceramic firing techniques including saggar (a form of raku) and obvara firing.",
+        "types": {
+          "raku": "In this special form of raku, students will coat their bisqueware with clay before firing the ware in the kiln."
+        },
+        "state": "DC",
+        "town": "Washington"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -125,128 +127,6 @@
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "the-district-clay-center",
-      "org": "THE DISTRICT CLAY CENTER",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "gas_reduction"
-      ],
-      "region": "Washington",
-      "city": "Washington",
-      "urls": [
-        "https://www.handthrown.studio/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Washington, District of Columbia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.handthrown.studio/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Join us for eight weeks of making annnnd learn the process of Raku and Gas Firing 🔥",
-        "url": "https://www.handthrown.studio/studionews",
-        "types": [
-          "raku",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "handthrown.studio"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets mention raku and gas firing workshops, but the actual page text is empty, so public access cannot be verified from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 38.8951,
-      "lng": -77.03638,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "joe-hicks-ceramics",
-      "org": "Joe Hicks Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Washington",
-      "city": "Washington",
-      "urls": [
-        "https://www.joehicksceramics.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Washington, District of Columbia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.joehicksceramics.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "During this half-day workshop on Saturday 9/18, participants will learn the mysteries of making, mixing, applying and firing Shino glazes. You will then glaze your work choosing between four Shino glazes and then load it into District Clay's reduction kiln for special carbon trap firing Saturday night.",
-        "url": "https://www.joehicksceramics.com/new-page-1",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "joehicksceramics.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "The page text provided is empty; only search snippets are available, and snippets alone cannot confirm public access details or establish the location's state and address.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 38.8951,
-      "lng": -77.03638,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
         "result": "split",
         "date": "2026-10-07"
       }
@@ -325,6 +205,14 @@
     {
       "id": "bisc-pottery-studio",
       "why": "Its own pages give an address in NJ (Scotch Plains), not DC. Moved. (2026-10-07)"
+    },
+    {
+      "id": "the-district-clay-center",
+      "why": "Second check (claude-haiku-4.5): page says state is VA, not DC (2026-10-09)"
+    },
+    {
+      "id": "joe-hicks-ceramics",
+      "why": "Second check (claude-haiku-4.5): page says state is MD, not DC (2026-10-09)"
     }
   ]
 }

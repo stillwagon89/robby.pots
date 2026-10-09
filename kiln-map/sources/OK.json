@@ -94,7 +94,7 @@
       "lng": -95.99275,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "Search snippets show raku workshops but no page text provided to verify location details or confirm public access terms.",
         "types": {
@@ -154,7 +154,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
         "why": "The page text is empty; no information about Paseo Pottery's location, address, or firing access is provided.",
         "types": {},
@@ -234,124 +234,6 @@
       }
     },
     {
-      "id": "riverwood-pottery",
-      "org": "Riverwood Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Oklahoma",
-      "city": null,
-      "urls": [
-        "https://www.riverwoodpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.riverwoodpottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "In the workshop we teach how to make and fire raku beads.",
-        "url": "http://www.riverwoodpottery.com/classes",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "riverwoodpottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets describe raku firing classes but provide no location details (town, state, or street address) from the page text itself.",
-        "types": {
-          "raku": "In the workshop we teach how to make and fire raku beads. The class spans a Thursday and Friday night from 6-9pm where we will make a large variety of beads and pendants."
-        },
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "lara-o-keefe-pottery-shop",
-      "org": "Lara O'Keefe Pottery Shop",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Oklahoma",
-      "city": null,
-      "urls": [
-        "https://okeefepottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://okeefepottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Here you will find pottery collections of tea sets, kitchen wear, and one of a kind centerpiece art all fired in a wood-fueled Anagama kiln.",
-        "url": "https://okeefepottery.com/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "okeefepottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "The page text provided contains no information about public access to firings, classes, workshops, memberships, rentals, or firing services—only a mention that products are fired in a wood-fueled Anagama kiln.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "3rd-street-clayworks",
       "org": "3rd Street Clayworks",
       "kind": "studio",
@@ -392,12 +274,13 @@
       "lng": -95.99275,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The page mentions raku and other firing techniques in a course description, but does not clearly state how outsiders can access or participate in actual firings.",
+        "why": "The page mentions raku and sawdust firing in a search snippet about TCC's ART 2263 course, but the actual page text only describes wheel-throwing classes with glazing and firing included—no specific mention of raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings that outsiders can join.",
         "types": {},
         "state": "OK",
-        "town": "Tulsa"
+        "town": "Tulsa",
+        "street": "3121 Charles Page Blvd"
       },
       "weak": true,
       "located": {
@@ -457,12 +340,13 @@
       "lng": -97.43948,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The snippets mention raku and gas kilns at the Firehouse, and an invitation to email/text about bisque and cone 6 glaze firing, but the actual page text is empty so cannot verify Oil & Clay Studio's own offerings or public access details.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text mentions ceramics classes and kilns but provides no information about public access to non-electric ceramic firings like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
         "types": {},
         "state": "OK",
-        "town": "Norman"
+        "town": "Norman",
+        "street": "444 South Flood Avenue"
       },
       "weak": true,
       "located": {
@@ -556,6 +440,14 @@
     {
       "id": "waterworks-art-center",
       "why": "Second check (gemini-3.1-flash-lite): The provided text does not contain any page content to verify the listing. (2026-10-08)"
+    },
+    {
+      "id": "riverwood-pottery",
+      "why": "Second check (claude-haiku-4.5): page says state is NC, not OK (2026-10-09)"
+    },
+    {
+      "id": "lara-o-keefe-pottery-shop",
+      "why": "Second check (claude-haiku-4.5): page says state is NC, not OK (2026-10-09)"
     }
   ]
 }

@@ -81,12 +81,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page describes a hands-on raku workshop open to beginners and experienced ceramicists, scheduled for Aug 22, 2026, with multiple firing opportunities included.",
-        "types": {
-          "raku": "Come spend the day at Carl's studio immersed in the art of Raku firing—an exciting, fast-paced ceramic technique known for its dramatic surfaces, metallic finishes, and unpredictable beauty."
-        },
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "The search snippets describe a Red Hot Raku Workshop but the page text provided contains only a login form with no location details, address, or state information.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -131,9 +129,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets mention a raku firing workshop available for booking, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is from Ticket Tailor, a ticketing platform website, not from TinkerMills Muddy Makers Pottery Studio itself; it contains no information about the pottery studio's location, address, or firing workshops.",
         "types": {},
         "state": "",
         "town": ""
@@ -189,9 +187,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The snippets mention 'High School Raku' and 'Winter/spring 2025 workshops and classes' but do not provide enough detail to confirm public access to a non-electric ceramic firing or the specific terms for participation.",
+        "why": "The snippets mention 'High School Raku' and 'Winter/spring 2025 workshops and classes' but do not provide enough detail to confirm outsiders can participate in a non-electric ceramic firing.",
         "types": {},
         "state": "",
         "town": ""
@@ -251,139 +249,18 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page offers public workshops for raku and pit firing with clear sign-up instructions and pricing for outsiders.",
+        "why": "The page offers public sign-up for raku and pit firing workshops at stated prices with 'Sign Up' buttons, accessible to all skill levels.",
         "types": {
           "raku": "Experience the art of raku firing in our six hour workshop.",
           "pit_barrel_saggar": "Learn traditional pit firing techniques in this six hour hands-on session."
         },
         "state": "",
-        "town": "Frederick"
+        "town": ""
       },
       "lat": 40.07005,
       "lng": -90.42901,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "agree-yes",
-        "date": "2026-10-07"
-      },
-      "weak": true
-    },
-    {
-      "id": "simonlevin",
-      "org": "simonlevin",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Pawnee Rd. Pawnee",
-      "city": "Pawnee Rd. Pawnee",
-      "urls": [
-        "https://www.simonlevin.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pawnee Rd. Pawnee, Illinois",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.simonlevin.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "We end the year with a weeklong wood fire workshop in my Train Kiln in Central Illinois.",
-        "url": "https://www.simonlevin.com/studio",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "simonlevin.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The text mentions a weeklong wood fire workshop in a Train Kiln but does not specify whether outsiders can join or only enrolled students, and provides no contact information or location details on this page.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "IL",
-        "town": "Pawnee Rd. Pawnee",
-        "score": 2,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-07"
-      }
-    },
-    {
-      "id": "lighthouse-artcenter",
-      "org": "Lighthouse ArtCenter",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Illinois",
-      "city": null,
-      "urls": [
-        "https://www.lighthousearts.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.lighthousearts.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "This hands-on class will guide you through every step of the Saggar Firing method, an exciting alternative firing technique.",
-        "url": "http://www.lighthousearts.org/Classes/saggar-forms-and-firing",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "lighthousearts.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page offers a hands-on class in saggar firing open to the public through Lighthouse ArtCenter's class registration.",
-        "types": {
-          "pit_barrel_saggar": "This hands-on class will guide you through every step of the Saggar Firing method, an exciting alternative firing technique."
-        },
-        "state": "",
-        "town": ""
-      },
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -421,7 +298,7 @@
         "how": "Classes or membership",
         "note": "Classes or membership",
         "quote": "For the East Central Illinois community, we offer a beginner adult pottery class occasionally, sponsor guest lectures, and collaborate with Kickapoo Pottery for raku firing demonstrations that are at times open to the public.",
-        "url": "https://cupotters.org/",
+        "url": "https://cupotters.org/about",
         "types": [
           "raku"
         ],
@@ -435,14 +312,17 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The text mentions raku firing demonstrations that are 'at times open to the public' but does not provide clear instructions on how outsiders can book, sign up, or join a specific firing.",
-        "types": {},
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The text states they 'collaborate with Kickapoo Pottery for raku firing demonstrations that are at times open to the public,' providing public access to raku firings.",
+        "types": {
+          "raku": "collaborate with Kickapoo Pottery for raku firing demonstrations that are at times open to the public"
+        },
         "state": "IL",
-        "town": "Champaign"
+        "town": "Urbana",
+        "street": "900 South Race St., Urbana, IL"
       },
-      "weak": true,
+      "weak": false,
       "lat": 40.11579,
       "lng": -88.24119,
       "located": {
@@ -552,12 +432,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page offers a public raku firing workshop where outsiders can book a hands-on experience for $99 per person with 24-hour advance booking.",
-        "types": {
-          "raku": "TRY YOUR HAND AT RAKU: Fire & Finish in a Day"
-        },
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "The search snippet shows a raku firing experience available for booking, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -612,12 +490,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "The search snippet describes raku firing access for private parties, but the page text provided is empty, so I cannot verify the location details or confirm public booking procedures from the actual page.",
-        "types": {
-          "raku": "experience the entire firing process as we fire your pieces in the Raku kiln"
-        },
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -743,6 +619,66 @@
         "osm": false,
         "date": "2026-10-09"
       }
+    },
+    {
+      "id": "common-clay-space-miki-shim",
+      "org": "Common Clay Space (Miki Shim)",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Galena",
+      "city": "Galena",
+      "urls": [
+        "https://www.mikisr.com/"
+      ],
+      "notes": "Pit firing workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Galena, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.mikisr.com/"
+      },
+      "access": {
+        "how": "Pit firing workshop",
+        "note": "Pit firing workshop",
+        "quote": "Pit Firing Workshop at Common Clay Space in Cupertino, CA",
+        "url": "https://www.mikisr.com/events/pit-firing-workshop-at-common-clay-space-in-cupertino-ca",
+        "types": [
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-06"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-06",
+        "key": "mikisr.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "page says state is IL, not CA",
+        "types": {
+          "pit_barrel_saggar": "Pit Fire Workshop at Rocky Hill Arts, Galena Learn to make pots and prepare for the pit fire."
+        },
+        "state": "IL",
+        "town": "Galena"
+      },
+      "located": {
+        "osm": false,
+        "date": "2026-10-09"
+      },
+      "weak": false,
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-08"
+      }
     }
   ],
   "_removed": [
@@ -789,6 +725,14 @@
     {
       "id": "southern-illinois-university-edwardsville-il",
       "why": "Second check (gemini-3.1-flash-lite): The provided text describes past workshops held for students at a university but does not offer any current opportunities for the public to participate in firings. (2026-10-08)"
+    },
+    {
+      "id": "simonlevin",
+      "why": "Second check (claude-haiku-4.5): page says state is WI, not IL (2026-10-09)"
+    },
+    {
+      "id": "lighthouse-artcenter",
+      "why": "Second check (claude-haiku-4.5): page says state is FL, not IL (2026-10-09)"
     }
   ]
 }

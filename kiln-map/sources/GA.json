@@ -264,9 +264,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The Turner Center offers Raku Firing Sessions as a class open to all students ages 16+ with registration and a $65 fee, with supplies and equipment included.",
+        "why": "The page clearly describes Raku Firing Sessions offered as a class open to all students ages 16+ with registration, where outsiders can participate by paying a $65 class fee.",
         "types": {},
         "state": "GA",
         "town": "Valdosta",
@@ -280,64 +280,6 @@
         "date": "2026-10-09"
       },
       "weak": true,
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "salish-sea-ceramic-studio",
-      "org": "Salish Sea Ceramic Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Georgia",
-      "city": null,
-      "urls": [
-        "https://salishseaceramicstudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://salishseaceramicstudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "It is possible to purchase Bisque day of from PYOP for anyone to participate.",
-        "url": "https://salishseaceramicstudio.com/book-seasonal-classes/p/raku-firing",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-08"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "salishseaceramicstudio.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The text describes raku firings and mentions purchasing a raku firing, but does not provide the studio's location (town, state, or street address) from its own contact details or address information.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
@@ -384,11 +326,11 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The site offers public raku firing workshops that outsiders can book, with specific dates and pricing listed.",
+        "why": "The page offers a public Raku Firing workshop on 25 April 2026 that outsiders can book for £150.00, open to beginners and those with experience.",
         "types": {
-          "raku": "A Raku Firing - Pottery Workshop 10am - 3pm DATE: 10 October 2026"
+          "raku": "A Raku Firing - Pottery Workshop 10am - 3pm DATE: 25 April 2026"
         },
         "state": "",
         "town": "Roslea"
@@ -444,9 +386,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page describes a public raku firing workshop where outsiders can participate by booking and paying £95 for a hands-on day led by Andy Mason.",
+        "why": "The page offers a public raku firing workshop (Raku Firing with Andy Mason) that outsiders can book and attend for £95.00.",
         "types": {
           "raku": "Andy with lead a hands-on day of glazing and then firing work using the Raku method."
         },
@@ -628,6 +570,10 @@
     {
       "id": "hambidge-ga",
       "why": "Second check (claude-haiku-4.5): Hambidge is listed as an artist residency program with anagama kiln access only for accepted residents (2-8 week fellowships with application deadlines and fees), not as a public workshop, class, or firing service open to outsiders. (2026-10-08)"
+    },
+    {
+      "id": "salish-sea-ceramic-studio",
+      "why": "Second check (claude-haiku-4.5): page says state is WA, not GA (2026-10-09)"
     }
   ]
 }

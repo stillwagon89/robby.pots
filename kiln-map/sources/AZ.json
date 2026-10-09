@@ -67,17 +67,18 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets describe raku and saggar firing workshops, but the page text provided is empty, so location details cannot be verified.",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The search snippets explicitly mention 1-day and 2-day workshops in alternative firing techniques including Raku and Saggar that are open to students, indicating public access to non-electric ceramic firings.",
         "types": {
-          "raku": "We will be using non-traditional finishes such as Raku, Saggar, and Obvara to create beautiful surface results.",
-          "pit_barrel_saggar": "We will be using non-traditional finishes such as Raku, Saggar, and Obvara to create beautiful surface results."
+          "raku": "We will be using non-traditional finishes such as Raku, Saggar, and Obvara to create beautiful surface results. This 1-Day workshop will allow students to take their ceramics to new heights with the whole class devoted to the different alternative firing finishings and techniques.",
+          "pit_barrel_saggar": "We will be using non-traditional finishes such as Raku, Saggar, and Obvara to create beautiful surface results. This 1-Day workshop will allow students to take their ceramics to new heights with the whole class devoted to the different alternative firing finishings and techniques."
         },
-        "state": "",
-        "town": ""
+        "state": "AZ",
+        "town": "Sedona",
+        "street": "15 Art Barn Road, Sedona, AZ 86336"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "AZ",
         "town": "Barn Road Sedona",
@@ -146,7 +147,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "salt"
+        "wood"
       ],
       "region": "Clarkdale",
       "city": "Clarkdale",
@@ -168,14 +169,17 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The text mentions wood firing and salt firing at the location, and describes a residency program with access to kilns, but does not explicitly state whether outsiders (non-residents) can participate in firings or how to book/join them.",
-        "types": {},
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The membership page explicitly states members have 'Access to electric, gas, and wood kilns (firing fees and fuel costs apply)' and the page describes how outsiders can join as members to access these kilns.",
+        "types": {
+          "wood": "Access to electric, gas, and wood kilns (firing fees and fuel costs apply)"
+        },
         "state": "AZ",
-        "town": ""
+        "town": "Clarkdale",
+        "street": "2724 Sullivan Ranch Road"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "AZ",
         "town": "Clarkdale",
@@ -229,13 +233,14 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The text describes a public festival event but does not explicitly state that outsiders can participate in the actual pit firing itself—only that they can attend the festival, purchase items, and watch performances.",
-        "types": {},
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The search snippet states 'The public is invited to join us for the annual Pit Fire Pottery Festival' which shows outsiders can participate in a pit firing event.",
+        "types": {
+          "pit_barrel_saggar": "The public is invited to join us for the annual Pit Fire Pottery Festival"
+        },
         "state": "AZ",
-        "town": "Douglas",
-        "street": "4190 West Highway 80"
+        "town": "Douglas"
       },
       "lat": 31.34499,
       "lng": -109.55449,
@@ -243,7 +248,7 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": true,
+      "weak": false,
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
@@ -290,9 +295,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page describes two clay pit-firing weekend workshops open to participants who can register, with clear pricing and registration details.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is from a business magazine website and contains no information about Arcosanti's pit-firing workshops, clay firing access, or any details about the place itself—only a search snippet mentions the workshops but the actual page content does not.",
         "types": {},
         "state": "",
         "town": ""
@@ -348,7 +353,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
         "why": "The snippet mentions raku but provides no page text showing how outsiders can access a firing—only that Rhonda Davis is a ceramic artist who specializes in raku and teaches students.",
         "types": {},
@@ -378,14 +383,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Arizona",
-      "city": null,
+      "region": "Bauska",
+      "city": "Bauska",
       "urls": [
         "https://www.laimaceramics.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Bauska, Arizona",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.laimaceramics.com/"
@@ -398,12 +403,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "The search snippet mentions a raku workshop but the actual page text is empty, providing no information about how to book, sign up, or access the workshop, and no location details.",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "The search snippet mentions a 1-Day Horse Hair Raku Firing Workshop, but the page text provided does not contain details about how to book or access this workshop, making it unclear if outsiders can participate.",
         "types": {},
         "state": "",
-        "town": ""
+        "town": "Bauska"
       },
       "weak": true,
       "located": {

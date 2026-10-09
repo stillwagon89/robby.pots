@@ -82,10 +82,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "Search snippets describe a raku workshop with public participation, but the actual page text is empty, so location details cannot be verified from the page itself.",
-        "types": {},
+        "why": "Search snippets show a raku workshop offered by Montana Harvest Moon, but the actual page text is empty, so location details and confirmation of public access cannot be verified from the page itself.",
+        "types": {
+          "raku": "In this hands-on workshop, participants will learn the art of Raku, a traditional Japanese firing technique known for its dramatic results and unpredictable outcomes."
+        },
         "state": "",
         "town": ""
       },
@@ -142,7 +144,7 @@
       "lng": -113.99527,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "The text mentions wood/anagama kilns but provides no information about how outsiders can access or participate in firings.",
         "types": {},
@@ -151,117 +153,6 @@
       },
       "weak": true,
       "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "missoulaevents",
-      "org": "missoulaevents",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Missoula",
-      "city": "Missoula",
-      "urls": [
-        "https://www.missoulaevents.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Missoula, Montana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.missoulaevents.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "missoulaevents.com"
-      },
-      "lat": 46.8701,
-      "lng": -113.99527,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets mention wood-firing classes and Anagama kiln firings in Missoula, Montana, but the actual page text is empty, so location details and firing access terms cannot be verified from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "tinworks-art",
-      "org": "Tinworks Art",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Main St Bozeman",
-      "city": "Main St Bozeman",
-      "urls": [
-        "https://www.tinworksart.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Main St Bozeman, Montana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.tinworksart.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Participants will gain a deeper understanding of alternative kiln designs and participate in a full build and firing cycle.",
-        "url": "https://www.tinworksart.org/events/artist-workshop-rocket-kiln-building-and-firing-workshop",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-07"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "tinworksart.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page describes a rocket kiln building and firing workshop open to all levels where participants can register and participate in a full build and firing cycle.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "MT",
-        "town": "Main St Bozeman",
-        "score": 8,
         "osm": false,
         "date": "2026-10-09"
       },
@@ -303,9 +194,9 @@
       "lng": -113.99527,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets show wood firing classes at The Clay in Missoula, Montana, but the actual page text is empty, so I cannot verify public access details or confirm the location information.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is from missoulaevents.net, an events calendar directory/portal, not from The Clay studio itself. The search snippets mention wood firing classes at The Clay, but the actual page text provided contains no information about The Clay, its location, address, or how to access any firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -391,8 +282,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "gas_reduction"
+        "raku"
       ],
       "region": "Bozeman Ave Helena",
       "city": "Bozeman Ave Helena",
@@ -412,8 +302,7 @@
         "quote": "We have 4 electric kilns, 2 gas kilns, plus 1 raku kiln available too.",
         "url": "https://www.clayartsguildofhelena.com/",
         "types": [
-          "raku",
-          "gas_reduction"
+          "raku"
         ],
         "checked": "2026-10-07"
       },
@@ -425,14 +314,17 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The text mentions a raku kiln and membership availability, but does not explicitly state whether non-members or the general public can access raku firings through workshops, classes, rentals, firing services, or open invitations.",
-        "types": {},
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page shows membership options (starting at $65/month) that provide access to firing in various kilns including a raku kiln, available to outsiders age 18+.",
+        "types": {
+          "raku": "We have 4 electric kilns, 2 gas kilns, plus 1 raku kiln available too."
+        },
         "state": "MT",
-        "town": "Helena"
+        "town": "Helena",
+        "street": "3025 Bozeman Ave"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "MT",
         "town": "Bozeman Ave Helena",
@@ -488,7 +380,7 @@
       "lng": -114.08508,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "The search snippet mentions wood kilns and firing but provides no details about public access, workshops, memberships, or how outsiders can participate in firings.",
         "types": {},
@@ -601,6 +493,14 @@
     {
       "id": "montana-clay-tour",
       "why": "Two models agree: The snippets only describe individual artists who wood fire their own work in studios near Helena, MT, with nothing showing the public can join, book or sign up for any firing. (2026-10-08)"
+    },
+    {
+      "id": "missoulaevents",
+      "why": "Second check (claude-haiku-4.5): missoulaevents.com is an events calendar directory/portal that lists events posted by others; the search snippets mention a wood-firing class offered by The Clay Studio of Missoula, but this page text does not itself describe how outsiders can access that firing or provide contact details for The Clay Studio. (2026-10-09)"
+    },
+    {
+      "id": "tinworks-art",
+      "why": "Second check (claude-haiku-4.5): The page mentions a rocket kiln workshop in search snippets but the actual page text contains no details about ceramic firing workshops, classes, or public participation in any kiln firing. (2026-10-09)"
     }
   ]
 }

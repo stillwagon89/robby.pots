@@ -2,64 +2,12 @@
   "_note": "WV firing sources.",
   "sources": [
     {
-      "id": "damian-grava",
-      "org": "Damian Grava",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "West Virginia",
-      "city": null,
-      "urls": [
-        "https://www.damiangrava.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.damiangrava.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "damiangrava.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a soda kiln firing workshop, but the actual page text provided is empty, so I cannot verify the details or confirm public access from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "WA",
-        "town": "Seattle",
-        "score": 2,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "lockbridge-pottery",
       "org": "Lockbridge Pottery",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "gas_reduction",
         "raku"
       ],
       "region": "Charleston",
@@ -78,9 +26,8 @@
         "how": "Classes or membership",
         "note": "Classes or membership",
         "quote": "We typically have an off the \"wheel\" activity for our customers to participate in, be it glazing a vase and watching it being fired in a raku kiln, throwing on a treadle wheel, making bricks, or competing in an ...",
-        "url": "https://lockbridgepottery.com/about-us",
+        "url": "https://lockbridgepottery.com/studio-show",
         "types": [
-          "gas_reduction",
           "raku"
         ],
         "checked": "2026-10-07"
@@ -93,16 +40,19 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets mention salt firing, gas reduction, and raku firings, but the actual page text is empty, so there is no verifiable information about public access to these firings.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The Studio Shows page explicitly states customers can participate in glazing a vase and watching it being fired in a raku kiln, and the shows are open to the public.",
+        "types": {
+          "raku": "We typically have an off the \"wheel\" activity for our customers to participate in, be it glazing a vase and watching it being fired in a raku kiln"
+        },
+        "state": "WV",
+        "town": "Meadow Bridge",
+        "street": "4975 Lockbridge Road"
       },
       "lat": 38.3506,
       "lng": -81.63328,
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -153,12 +103,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The text mentions a raku firing and ceramic workshops at Stifel Fine Arts Center but does not specify how outsiders can register, book, or participate in these events.",
+        "why": "The search snippet mentions a raku firing at Stifel Fine Arts Center as part of Ceramics Take Over Wheeling, but the page text provided does not contain details about how outsiders can access or participate in this firing.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "WV",
+        "town": "Wheeling"
       },
       "lat": 40.06396,
       "lng": -80.72091,
@@ -213,12 +163,10 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippets mention raku demonstrations and pottery classes with firing included, but the actual page text provided is empty, so public access details cannot be verified from the page itself.",
-        "types": {
-          "raku": "The Parkersburg Art Center showcased a unique form of pottery on Saturday afternoon called raku."
-        },
+        "why": "The page mentions raku pottery demonstrations and a Clay Studio with memberships, but does not explicitly state that outsiders can take part in a raku firing; it only describes classes, memberships for studio access, and past demonstrations.",
+        "types": {},
         "state": "WV",
         "town": "Parkersburg",
         "street": "725 Market Street"
@@ -279,12 +227,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
-        "why": "The page text is empty; only search snippets are provided, which describe a past event but contain no information about how outsiders can currently access firings or any contact/booking details.",
+        "why": "The page text is from WTAP news website, not from the Parkersburg Art Center or Clay Studio; it contains only a news snippet mentioning a past raku demonstration but no information about how outsiders can currently participate in firings.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "WV",
+        "town": "Parkersburg",
+        "street": "One Television Plaza"
       },
       "weak": true,
       "lat": 39.26673,
@@ -304,52 +253,61 @@
       }
     },
     {
-      "id": "the-potters-guild-wv",
-      "org": "The Potters Guild",
+      "id": "stifel-fine-arts-center-va",
+      "org": "Stifel Fine Arts Center",
       "kind": "city_arts",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood"
+        "raku"
       ],
-      "region": "West Virginia",
-      "city": null,
+      "region": "Wheeling",
+      "city": "Wheeling",
       "urls": [
-        "https://thepottersguild.com/"
+        "https://oionline.com/"
       ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Wheeling, West Virginia",
+      "location_note": "Shown at the town.",
       "contact": {
-        "website": "https://thepottersguild.com/"
+        "website": "https://oionline.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Week 3: Participate in an exciting outdoor Raku firing and watch your pottery transform with dramatic crackle and metallic effects.",
+        "url": "https://oionline.com/classes/art",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-08"
       },
       "review": "pending",
       "discovered": {
         "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "thepottersguild.com"
+        "date": "2026-10-08",
+        "key": "oionline.com"
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets mention wood kiln firings and a community of potters, but the actual page text is empty, so there is no verifiable information about public access to firings.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "page says state is WV, not VA",
+        "types": {
+          "raku": "Discover the exciting art of Raku Pottery in this hands-on workshop! Create a hand-built vessel from Raku clay, learn glazing techniques, and experience the thrill of a live outdoor Raku firing on the front porch of the Stifel Fine Arts Center."
+        },
+        "state": "WV",
+        "town": "Wheeling"
       },
-      "weak": true,
+      "weak": false,
       "located": {
-        "state": "PA",
-        "town": "Mill Road Wallingford",
-        "score": 2,
         "osm": false,
         "date": "2026-10-09"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
+        "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
       }
@@ -387,6 +345,14 @@
     {
       "id": "business-ligonier",
       "why": "Its own pages give an address in PA (Ligonier), not WV. Moved. (2026-10-07)"
+    },
+    {
+      "id": "damian-grava",
+      "why": "Second check (claude-haiku-4.5): page says state is WA, not WV (2026-10-09)"
+    },
+    {
+      "id": "the-potters-guild-wv",
+      "why": "Second check (claude-haiku-4.5): The page describes a pottery guild community and lists a holiday sale event, but contains no information about non-electric ceramic firings (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) or public access to any such firings. (2026-10-09)"
     }
   ]
 }

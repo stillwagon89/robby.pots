@@ -105,12 +105,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets mention Raku classes and a firing event, but the actual page text is empty, so no verifiable details about public access, location, or how to participate can be confirmed.",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page lists 'Raku Firing Event: Ghost & Ghouls' as a bookable class/event that outsiders can register for, providing public access to raku firing.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "WI",
+        "town": "Beaver Dam"
       },
       "weak": true,
       "located": {
@@ -271,12 +271,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a one-day raku workshop open to participants, but the actual page text provided is empty, so I cannot verify the details or extract the required location information from the page itself.",
+        "date": "2026-10-09",
+        "verdict": "no",
+        "why": "The page text is from the Mineral Point Chamber of Commerce website itself, which is a directory and events listing service, not a pottery studio or firing facility. While a search snippet mentions a raku workshop at 'Adamah,' the actual page text provided contains no information about ceramic firings, pottery classes, or public access to any firing types.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "WI",
+        "town": "Mineral Point",
+        "street": "114 High Street, Mineral Point, WI 53565"
       },
       "weak": true,
       "lat": 42.86011,
@@ -302,8 +303,6 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar",
         "wood"
       ],
       "region": "Dodgeville",
@@ -322,10 +321,8 @@
         "how": "Classes or membership",
         "note": "Classes or membership",
         "quote": "Join Joe at Windy Ridge Pottery in the Driftless Area for a wood firing workshop.",
-        "url": "http://www.windyridgepottery.com/windy-ridge-workshops/",
+        "url": "https://www.windyridgepottery.com/windy-ridge-workshops",
         "types": [
-          "raku",
-          "pit_barrel_saggar",
           "wood"
         ],
         "checked": "2026-10-07"
@@ -338,16 +335,19 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "Search snippets mention multiple firing workshops (anagama, pit, barrel, saggar, raku) at Windy Ridge Pottery and affiliated locations, but the actual page text is empty, so public access cannot be verified from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page offers wood firing workshops open to the public via registration and email contact, with specific dates, costs, and registration instructions.",
+        "types": {
+          "wood": "Join Joe at Windy Ridge Pottery in the Driftless Area for a wood firing workshop. Bring your own ready-to-fire pots (we can help you in advance to choose appropriate clay and glazes) and together we will prep the kiln and wood, load, fire, and unload our 3-chambered climbing kiln."
+        },
+        "state": "WI",
+        "town": "Mineral Point",
+        "street": "262 High Street Mineral Point, WI 53565"
       },
       "lat": 42.96001,
       "lng": -90.13045,
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -400,9 +400,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "yes",
-        "why": "The page explicitly states artists can purchase shelf space to fire their work, book a firing personally, and educational workshops are available, with access for local schools—all indicating public participation in non-electric firings.",
+        "date": "2026-10-09",
+        "verdict": "unclear",
+        "why": "The site mentions reduction and salt/soda kilns and workshops, but provides no specific details about how outsiders can book, sign up, or access firings.",
         "types": {},
         "state": "WI",
         "town": "New Richmond"
@@ -519,9 +519,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The page lists a Women's Wood/Salt Firing workshop in Dodgeville, Wisconsin, but does not explicitly state whether outsiders/non-members can register or how to sign up.",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page lists multiple workshops including a Women's Wood/Salt Firing workshop at Bethel Horizons in Dodgeville, Wisconsin, which outsiders can join.",
         "types": {
           "salt": "Women's Wood/Salt Firing"
         },
@@ -632,7 +632,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
         "why": "No page text provided to verify public access to firings at a specific location.",
         "types": {},
@@ -692,7 +692,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "The search snippets mention wood-firing and gas-firing with classes and membership available, but the actual page text is empty, so no word-for-word sentence can be verified from the page itself.",
         "types": {},
@@ -742,7 +742,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "The snippets mention workshops and wood/gas firings in progress, but the actual page text is empty, so no specific details about public access, booking procedures, or participation methods can be verified.",
         "types": {},
@@ -790,7 +790,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
         "why": "The search snippets only describe what raku firing is; there is no information about public access to classes, workshops, memberships, rentals, or firing services.",
         "types": {},
@@ -818,14 +818,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Wisconsin",
-      "city": null,
+      "region": "Bayfield",
+      "city": "Bayfield",
       "urls": [
         "https://www.eckelspottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Bayfield, Wisconsin",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.eckelspottery.com/"
@@ -848,12 +848,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippet mentions raku and primitive firing workshops, but the actual page text provided is empty, so public access cannot be verified from the page itself.",
+        "why": "The search snippets mention raku and primitive firing workshops, but the actual page text provided is empty, so public access cannot be verified from the page itself.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "WI",
+        "town": "Bayfield"
       },
       "weak": true,
       "located": {
@@ -951,7 +951,7 @@
         "how": "Classes or membership",
         "note": "Classes or membership",
         "quote": "For a hands-on art experience, participate in a live Raku firing! After purchasing a pre-made Vessel from Sam Frey, participants will be guided through different Raku glazing and decorating techniques to create their very own one of a kind piece.",
-        "url": "https://clayfestwi.com/raku-firing-schedule",
+        "url": "https://clayfestwi.com/",
         "types": [
           "raku"
         ],
@@ -965,14 +965,16 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page explicitly invites public participation in raku firings with no pre-signup required, only arrival 60 minutes before the scheduled time.",
-        "types": {},
+        "why": "The page explicitly states outsiders can participate in raku firing by glazing a pot to create their own unique piece at the Clay Fest event.",
+        "types": {
+          "raku": "Don't just be a spectator - participate in glazing a pot to create your own unique Raku piece."
+        },
         "state": "WI",
         "town": ""
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -1072,12 +1074,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "no",
-        "why": "The page describes a pottery gallery and gift shop that sells finished wood-fired pottery but contains no information about public access to participate in firings, classes, workshops, or firing services.",
+        "why": "The site describes a pottery gallery and gift shop where visitors can view and purchase finished wood-fired pottery, but provides no information about public access to participate in wood firings, workshops, classes, memberships, rentals, or firing services.",
         "types": {},
         "state": "WI",
-        "town": "Menomonie"
+        "town": "Menomonie",
+        "street": "N2543 461st Street"
       },
       "weak": true,
       "located": {
@@ -1086,6 +1089,69 @@
         "score": 6,
         "osm": false,
         "date": "2026-10-09"
+      }
+    },
+    {
+      "id": "simonlevin",
+      "org": "simonlevin",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Gresham",
+      "city": "Gresham",
+      "urls": [
+        "https://www.simonlevin.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Gresham, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.simonlevin.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "We end the year with a weeklong wood fire workshop in my Train Kiln in Central Illinois.",
+        "url": "https://www.simonlevin.com/studio",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-07"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "simonlevin.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "page says state is WI, not IL",
+        "types": {
+          "wood": "Once a year, I take on 5 or 6 students in an expanded workshop. Over a year's time, we meet as individuals and as a group to move the conversation, ideas, and the work to the next level. We end the year with a weeklong wood fire workshop in my Train Kiln in Central Illinois."
+        },
+        "state": "WI",
+        "town": "Gresham"
+      },
+      "weak": true,
+      "located": {
+        "state": "IL",
+        "town": "Pawnee Rd. Pawnee",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-09"
+      },
+      "agree": {
+        "model": "claude-sonnet-5-5",
+        "verdict": "yes",
+        "result": "split",
+        "date": "2026-10-07"
       }
     }
   ],

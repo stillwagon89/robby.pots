@@ -371,56 +371,6 @@
       "weak": false
     },
     {
-      "id": "work-in-progress",
-      "org": "Work in Progress",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Lisbon",
-      "city": "Lisbon",
-      "urls": [
-        "https://www.workinprogress.me/"
-      ],
-      "notes": "$25 raku firing booking. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lisbon, Maine",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.workinprogress.me/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "workinprogress.me"
-      },
-      "lat": 43.99669,
-      "lng": -70.06061,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "no",
-        "why": "No page text provided to verify public access to non-electric ceramic firings.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "maine-crafts-association",
       "org": "Maine Crafts Association",
       "kind": "city_arts",
@@ -582,52 +532,6 @@
         "osm": false,
         "date": "2026-10-09"
       }
-    },
-    {
-      "id": "southern-maine-clay-guild",
-      "org": "Southern Maine Clay Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda",
-        "pit_barrel_saggar"
-      ],
-      "region": "Maine",
-      "city": null,
-      "urls": [
-        "https://www.southernmaineclayguild.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.southernmaineclayguild.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-09",
-        "key": "southernmaineclayguild.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "yes",
-        "why": "page says state is ME, not ND",
-        "types": {
-          "pit_barrel_saggar": "This is a community pit firing and dinner potluck!",
-          "soda": "June 20 - small group soda firing @Barbara's"
-        },
-        "state": "ME",
-        "town": ""
-      },
-      "weak": false,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      }
     }
   ],
   "_removed": [
@@ -706,6 +610,10 @@
     {
       "id": "aa-clay-ceramics-studio",
       "why": "Its own pages give an address in KY (Louisiville), not ME. Moved. (2026-10-09)"
+    },
+    {
+      "id": "work-in-progress",
+      "why": "Second check (claude-haiku-4.5): The page mentions electric kilns only (cone 5/6 firings), kiln rental, and classes, but contains no evidence of public access to non-electric firings like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-09)"
     }
   ]
 }

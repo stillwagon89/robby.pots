@@ -92,12 +92,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
-        "why": "The search snippet describes a raku workshop open to guests, but the actual page text provided is empty, so I cannot verify the location details or confirm public access terms from the page itself.",
+        "why": "The search snippet mentions a Raku Ceramic Workshop with live firing demonstration, but the full page text provided does not contain details about how to register, book, or join this specific workshop.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "MN",
+        "town": "Warroad",
+        "street": "103 State Avenue"
       },
       "weak": true,
       "lat": 48.90527,
@@ -141,7 +142,7 @@
         "how": "See site",
         "note": "See site",
         "quote": "Horsehair Raku Pottery Workshop In this three-session workshop, led by artist Mae Spencer, you will learn the multistep process of creating beautiful horsehair Raku fired pottery.",
-        "url": "https://www.buffaloartguild.org/events/raku",
+        "url": "https://www.buffaloartguild.org/events",
         "types": [
           "raku"
         ],
@@ -155,14 +156,17 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets mention a Horsehair Raku Pottery Workshop but the actual page text is empty, so public access cannot be verified from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "date": "2026-10-09",
+        "verdict": "yes",
+        "why": "The page shows a Horsehair Raku Pottery Workshop open to the public as a three-session workshop where outsiders can learn the firing technique.",
+        "types": {
+          "raku": "In this three-session workshop, led by artist Mae Spencer, you will learn the multistep process of creating beautiful horsehair Raku fired pottery."
+        },
+        "state": "MN",
+        "town": "Buffalo",
+        "street": "114 Commerce Cir, Buffalo, MN 55313"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "MN",
         "town": "Buffalo",
@@ -338,9 +342,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "yes",
-        "why": "The page offers soda and gas kiln firings via a firing services appointment system open to outsiders.",
+        "why": "The text shows outsiders can access soda and gas kiln firings via a firing services appointment system.",
         "types": {
           "soda": "Fire your pottery with us! Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns! Please make a \"Firing services drop off\" appointment before coming in.",
           "gas_reduction": "Fire your pottery with us! Soda firings, Gas kiln firings and ^08 and ^6 Electric kilns! Please make a \"Firing services drop off\" appointment before coming in."
@@ -403,7 +407,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-09",
         "verdict": "unclear",
         "why": "The search snippets mention raku and soda kilns and welcome the community to firings, but the actual page text is empty, so I cannot verify specific ways for outsiders to participate (class, workshop, membership, rental, firing service, or contact invitation).",
         "types": {},
@@ -454,8 +458,8 @@
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "The site mentions classes with firing fees and a woodfire clay option, but does not explicitly state whether non-students or outsiders can enroll in classes or access any firings.",
+        "verdict": "no",
+        "why": "The page describes classes and a gallery but provides no information about public access to any non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
         "types": {},
         "state": "MN",
         "town": ""
