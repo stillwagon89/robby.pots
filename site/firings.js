@@ -226,13 +226,30 @@ function openFlagModal() {
   m.id = "kf-flag-modal"; m.className = "kf-modal";
   m.innerHTML = `<div class="kf-modal-card" role="dialog" aria-modal="true" aria-labelledby="kf-flag-title">
     <button type="button" class="kf-modal-x" aria-label="Close and go back to the list">&times;</button>
-    <h3 id="kf-flag-title">Thank you. Your info has been noted.</h3>
-    <p>If you would like to add more details, you can <a href="contact.html">contact me</a>.</p>
+    <h3 id="kf-flag-title">Thank you. Your flag has been noted.</h3>
+    <div id="kf-flag-body">
+      <p>Can you tell me why you flagged it? A sentence helps me check this listing. This part is optional.</p>
+      <textarea id="kf-flag-why" rows="3" maxlength="1000" placeholder="For example: closed, wrong date, wrong address, not open to the public" aria-label="Why did you flag this listing?"></textarea>
+      <div class="kf-modal-actions"><button type="button" class="kf-modal-send">Send</button></div>
+      <p class="kf-modal-sub">You can also <a href="contact.html">contact me</a> with more details.</p>
+    </div>
   </div>`;
-  m.addEventListener("click", (e) => { if (e.target === m || e.target.closest(".kf-modal-x")) closeFlagModal(); });
+  m.addEventListener("click", (e) => {
+    if (e.target === m || e.target.closest(".kf-modal-x")) return closeFlagModal();
+    if (e.target.closest(".kf-modal-send")) {
+      const why = m.querySelector("#kf-flag-why").value.trim();
+      if (why) sendFlagReason(why);
+      m.querySelector("#kf-flag-title").textContent = why ? "Thank you. That helps me check it." : "Thank you.";
+      m.querySelector("#kf-flag-body").innerHTML = `<p class="kf-modal-sub">You can also <a href="contact.html">contact me</a> with more details. Use the X to go back to the list.</p>`;
+    }
+  });
   document.body.appendChild(m);
   document.addEventListener("keydown", flagKey, true);
-  m.querySelector(".kf-modal-x").focus();
+  m.querySelector("#kf-flag-why").focus();
+}
+let flagPending = null;
+function sendFlagReason(reason) {
+  Promise.resolve(flagPending).then((id) => { if (id) fetch("/api/flag", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ flag_id: id, reason }) }).catch(() => {}); });
 }
 function sendFlag(btn) {
   const card = btn.closest(".kf-card");
@@ -248,7 +265,7 @@ function sendFlag(btn) {
     shown_text: (box?.querySelector(".kf-ai-body, .kf-quote")?.textContent || "").trim(),
     page_url: location.href, source_url: box?.querySelector("a[href^=http]")?.href || "",
   };
-  fetch("/api/flag", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) }).catch(() => {});
+  flagPending = fetch("/api/flag", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) }).then((r) => r.json()).then((d) => d.flag_id || null).catch(() => null);
 }
 
 function aiBox(title, text, sourceUrl, checked) {

@@ -26,7 +26,10 @@
       },
       "lat": 30.51729,
       "lng": -87.8945,
-      "newsletter_url": "https://business.eschamber.com/events/details/saturday-raku-workshop-at-the-kiln-studio-43556"
+      "newsletter_url": "https://business.eschamber.com/events/details/saturday-raku-workshop-at-the-kiln-studio-43556",
+      "access": {
+        "status": "ongoing"
+      }
     },
     {
       "id": "al",
@@ -102,9 +105,9 @@
         "https://alabamacenterforthearts.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Decatur, Alabama",
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://alabamacenterforthearts.org/"
       },
@@ -136,8 +139,6 @@
         "state": "AL",
         "town": "Decatur"
       },
-      "lat": 34.60602,
-      "lng": -86.98382,
       "located": {
         "state": "AL",
         "town": "Decatur",
@@ -146,7 +147,8 @@
         "date": "2026-10-09"
       },
       "approved": "2026-10-09",
-      "confirmed_by_robby": "2026-10-09"
+      "confirmed_by_robby": "2026-10-09",
+      "address": "133 2nd Avenue NE, Decatur, AL 35601"
     },
     {
       "id": "athens-state-university",
@@ -163,9 +165,9 @@
         "https://www.athens.edu/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Athens, Alabama",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.athens.edu/"
       },
@@ -197,14 +199,13 @@
         "state": "AL",
         "town": "Athens"
       },
-      "lat": 34.80455,
-      "lng": -86.97117,
       "located": {
         "osm": true,
         "date": "2026-10-09"
       },
       "approved": "2026-10-09",
-      "confirmed_by_robby": "2026-10-09"
+      "confirmed_by_robby": "2026-10-09",
+      "address": "300 N. Beaty Street, Athens, AL 35611"
     },
     {
       "id": "sullivan-pottery-al",
@@ -283,9 +284,9 @@
         "https://themadpottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Mobile, Alabama",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://themadpottery.com/"
       },
@@ -320,14 +321,13 @@
         "town": "Mobile",
         "street": "4405 Halls Mill Road B-2"
       },
-      "lat": 30.69135,
-      "lng": -88.04375,
       "located": {
         "osm": false,
         "date": "2026-10-09"
       },
       "approved": "2026-10-09",
-      "confirmed_by_robby": "2026-10-09"
+      "confirmed_by_robby": "2026-10-09",
+      "address": "4405 Halls Mill Road B-2, Mobile, AL 36693"
     },
     {
       "id": "celeste-sabel-haynie",
@@ -417,9 +417,9 @@
         "https://www.maria-pots.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Silverhill, Alabama",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.maria-pots.com/"
       },
@@ -465,8 +465,7 @@
       },
       "approved": "2026-10-09",
       "confirmed_by_robby": "2026-10-09",
-      "lat": 30.54547,
-      "lng": -87.75166
+      "address": "13556 Snarr Rd., Silverhill, AL 36576"
     },
     {
       "id": "shelby-county-arts-council",

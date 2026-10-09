@@ -19,9 +19,9 @@ const read = (f) => JSON.parse(readFileSync(f, "utf8"));
 // Public build: places still awaiting Robby's review (review: "pending") and unconfirmed ones (weak) stay off the map.
 // KILN_DEV=1 includes them for the dev map.
 const DEV = process.env.KILN_DEV === "1";
-const sources = loadSources().filter((s) => DEV || (s.review !== "pending" && !s.weak));
+const sources = loadSources().filter((s) => DEV || (s.review !== "pending" && !s.weak && !s.flag_hold));
 const approvedDir = join(ROOT, "data", "approved");
-const approved = existsSync(approvedDir) ? readdirSync(approvedDir).filter((f) => f.endsWith(".json")).map((f) => read(join(approvedDir, f))) : [];
+const approved = existsSync(approvedDir) ? readdirSync(approvedDir).filter((f) => f.endsWith(".json")).map((f) => read(join(approvedDir, f))).filter((it) => DEV || !it.flag_hold) : [];
 
 // Each source's most recent run entry, to say whether its site can be checked automatically.
 const runsDir = join(ROOT, "data", "runs");

@@ -21,7 +21,7 @@ for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2
   const ST = f.slice(0, 2); const fp = path.join(KM, "sources", f); const doc = JSON.parse(fs.readFileSync(fp, "utf8"));
   for (const s of doc.sources) {
     if (APPLY && s.auto_approved && !s.confirmed_by_robby) { s.review = "pending"; delete s.auto_approved; }
-    if (s.review !== "pending" || s.weak || !s.verify || s.hold) continue;
+    if (s.review !== "pending" || s.weak || !s.verify || s.hold || s.needs_recheck || s.flag_hold) continue;
     const q = Object.values(s.verify.types || {}).join(" ");
     const stated = (s.verify.state || "").toUpperCase() === ST || (s.verify.state || "").toLowerCase() === stateName(ST).toLowerCase() || s.located?.state === ST;
     const why = s.verify.verdict !== "yes" ? "not yes" : !Object.keys(s.verify.types || {}).length ? "no type" : !stated ? "state" : s.kind === "college" ? "college" : !nameMatchesHost(s.org, hostOf(s.contact?.website)) ? "name not on its own site" : !(PART.test(q) || s.agree?.result?.startsWith("agree-yes")) ? "mention only" : null;

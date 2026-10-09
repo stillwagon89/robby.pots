@@ -24,6 +24,7 @@ function concerns(s, quote) {
   if (hostOf(s.access?.url) && hostOf(s.access?.url) !== hostOf(s.contact?.website)) c.push(`the evidence page is on a different site (${hostOf(s.access?.url)}) than the place's own site`);
   if (s.agree?.result === "split" && !(s.agree.verdict === "yes" && s.verify?.verdict === "yes")) c.push(`the two AI models did not both say yes (first said ${s.verify?.verdict}, second said ${s.agree.verdict})`);
   if (s.hold) c.push(s.hold);
+  if (s.flags) c.unshift(`FLAGGED by ${s.flags.visitors} visitor${s.flags.visitors > 1 ? "s" : ""}${s.flags.hold ? " (held out of the public map until you check it)" : ""}${s.flags.reasons?.length ? `. Reasons given: ${s.flags.reasons.map((r) => `"${r}"`).join("; ")}` : ""}`);
   return c;
 }
 let out = `# Solid places to review
@@ -37,7 +38,7 @@ You review because every step so far was automated. A wrong entry sends a potter
 let total = 0;
 for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2}\.json$/.test(f))) {
   const ST = f.slice(0, 2); if (only.length && !only.includes(ST)) continue;
-  const rows = JSON.parse(fs.readFileSync(path.join(KM, "sources", f), "utf8")).sources.filter((s) => s.review === "pending" && !s.weak && s.verify);
+  const rows = JSON.parse(fs.readFileSync(path.join(KM, "sources", f), "utf8")).sources.filter((s) => (s.review === "pending" && !s.weak && s.verify) || s.needs_recheck).sort((a, b) => (b.needs_recheck ? 1 : 0) - (a.needs_recheck ? 1 : 0));
   if (!rows.length) continue;
   out += `\n## ${ST} (${rows.length})\n`;
   rows.forEach((s, i) => {

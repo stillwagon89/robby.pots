@@ -82,7 +82,7 @@ if (APPLY) {
     for (const j of js) {
       const s = doc.sources.find((x) => x.id === j.s.id); if (!s) continue;
       const locked = s.confirmed_by_robby && s.access?.status; // Robby's own status wording stays
-      if (j.out.status && !locked) s.access = { ...(s.access || {}), status: j.out.events.length ? "upcoming" : j.out.status };
+      if (j.out.status && !locked) s.access = { ...(s.access || {}), status: j.out.events.length ? "upcoming" : j.out.status === "upcoming" ? "ongoing" : j.out.status };
       if (j.out.address && s.location_precision !== "address" && !/home studio|private residence/i.test(s.access?.quote || "")) { const a = j.out.address; s.location_precision = "address"; s.address = `${a.street}, ${a.city}, ${ST}${a.zip ? " " + a.zip : ""}`; s.city = a.city; s.region = a.city; s.geocode = null; delete s.lat; delete s.lng; s.location_note = "Exact address from their page."; }
       for (const e of j.out.events) {
         const ft = ["raku", "wood", "soda", "salt", "pit_barrel_saggar", "gas_reduction"].includes(e.firing_type) ? e.firing_type : "raku";

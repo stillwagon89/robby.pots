@@ -1487,3 +1487,9 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 .kf-modal-card a { color: var(--cobalt); text-underline-offset: 3px; }
 .kf-modal-x { position: absolute; top: 6px; right: 8px; width: 36px; height: 36px; border: 0; background: none; font-size: 26px; line-height: 1; color: #555; cursor: pointer; border-radius: 6px; }
 .kf-modal-x:hover, .kf-modal-x:focus-visible { background: #eee; }
+.kf-modal-card textarea { width: 100%; margin: 12px 0 0; padding: 10px 12px; font: inherit; font-size: 15px; line-height: 1.4; border: 1px solid #c9cde0; border-radius: 8px; resize: vertical; box-sizing: border-box; }
+.kf-modal-card textarea:focus { outline: 2px solid var(--cobalt); outline-offset: 1px; }
+.kf-modal-actions { margin-top: 12px; display: flex; justify-content: flex-end; }
+.kf-modal-send { background: var(--cobalt); color: #fff; border: 0; border-radius: 8px; padding: 9px 18px; font: inherit; font-size: 15px; cursor: pointer; }
+.kf-modal-send:hover, .kf-modal-send:focus-visible { filter: brightness(1.12); }
+.kf-modal-sub { margin-top: 14px !important; font-size: 13px !important; color: #555; }

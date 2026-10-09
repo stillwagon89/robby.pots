@@ -22,7 +22,10 @@
         "website": "https://communitycreativecenter.coursestorm.com/course/raku-fast-fire-techniques1"
       },
       "lat": 36.06434,
-      "lng": -94.16593
+      "lng": -94.16593,
+      "access": {
+        "status": "past_only"
+      }
     },
     {
       "id": "arkansas-museum-of-fine-arts",
@@ -39,9 +42,9 @@
         "https://arkmfa.org/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Little Rock, Arkansas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://arkmfa.org/"
       },
@@ -53,7 +56,8 @@
         "types": [
           "raku"
         ],
-        "checked": "2026-10-07"
+        "checked": "2026-10-07",
+        "status": "upcoming"
       },
       "review": "approved",
       "discovered": {
@@ -81,8 +85,7 @@
       },
       "approved": "2026-10-09",
       "confirmed_by_robby": "2026-10-09",
-      "lat": 34.74651,
-      "lng": -92.28963
+      "address": "501 East Ninth Street, Little Rock, AR 72202"
     },
     {
       "id": "eureka-springs-school-of-the-arts",
@@ -99,9 +102,9 @@
         "https://reg131.imperisoft.com/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Eureka Springs, Arkansas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://reg131.imperisoft.com/"
       },
@@ -133,8 +136,6 @@
         "state": "AR",
         "town": "Eureka Springs"
       },
-      "lat": 36.40008,
-      "lng": -93.73924,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -146,7 +147,8 @@
         "date": "2026-10-07"
       },
       "approved": "2026-10-09",
-      "confirmed_by_robby": "2026-10-09"
+      "confirmed_by_robby": "2026-10-09",
+      "address": "15751 Hwy 62 West, Eureka Springs, AR 72632"
     },
     {
       "id": "sullivan-pottery",

@@ -17,6 +17,24 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   let b: Record<string, unknown>;
   try { b = await request.json(); } catch { return json({ error: "Invalid request" }, 400); }
 
+  // Second step: the visitor tells us why. Added to the saved flag and mailed as a follow-up.
+  if (b.flag_id) {
+    const id = String(b.flag_id);
+    if (!id.startsWith("flag:") || id.length > 80) return json({ error: "Invalid flag" }, 400);
+    const raw = await env.GALLERY_CACHE.get(id);
+    if (!raw) return json({ ok: true }, 200);
+    const saved = JSON.parse(raw);
+    if (saved.reason) return json({ ok: true }, 200);
+    saved.reason = clip(b.reason, 1000);
+    await env.GALLERY_CACHE.put(id, JSON.stringify(saved), { expirationTtl: 2 * 365 * 24 * 60 * 60 });
+    if (env.RESEND_API_KEY && saved.reason) {
+      try {
+        await fetch("https://api.resend.com/emails", { method: "POST", headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" }, body: JSON.stringify({ to: NOTIFY_TO, from: `Kiln Locator <${FROM_ADDRESS}>`, subject: `Why it was flagged: ${saved.place_name}${saved.title ? ` / ${saved.title}` : " (place)"}`, text: `The visitor's reason:\n"${saved.reason}"\n\nAbout: ${saved.listing_id ? `LISTING ${saved.title}${saved.listing_when ? ` (${saved.listing_when})` : ""} at ` : "PLACE "}${saved.place_name}${saved.place_where ? `, ${saved.place_where}` : ""}\nOpen it: ${saved.view_url || saved.page_url}\nIDs: place=${saved.place_id}${saved.listing_id ? ` listing=${saved.listing_id}` : ""}\nFlagged: ${saved.at}` }) });
+      } catch { /* the reason is saved */ }
+    }
+    return json({ ok: true }, 200);
+  }
+
   const flag = {
     at: new Date().toISOString(),
     place_id: clip(b.place_id, 120),
@@ -32,6 +50,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     page_url: clip(b.page_url, 400),
     source_url: clip(b.source_url, 400),
     ua: clip(request.headers.get("User-Agent"), 160),
+    who: await visitorHash(request),
   };
   if (!flag.place_id && !flag.listing_id) return json({ error: "Nothing to flag" }, 400);
 
@@ -40,7 +59,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   if (env.RATE_LIMIT) {
     const k = `flagrate:${ip}:${new Date().toISOString().slice(0, 13)}`;
     const n = Number((await env.RATE_LIMIT.get(k)) || 0);
-    if (n >= 8) return json({ ok: true, noted: true }, 200);
+    if (n >= 8) return json({ ok: true, noted: true, flag_id: null }, 200);
     await env.RATE_LIMIT.put(k, String(n + 1), { expirationTtl: 3700 });
   }
 
@@ -58,7 +77,14 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
       await fetch("https://api.resend.com/emails", { method: "POST", headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" }, body: JSON.stringify({ to: NOTIFY_TO, from: `Kiln Locator <${FROM_ADDRESS}>`, subject: `Flagged: ${flag.place_name}${flag.title ? ` / ${flag.title}` : " (place)"}`, text: lines }) });
     } catch { /* the flag is already saved */ }
   }
-  return json({ ok: true, noted: true }, 200);
+  return json({ ok: true, noted: true, flag_id: key }, 200);
 };
+
+// A short one-way hash of the visitor, so several flags from one person count once.
+async function visitorHash(request: Request): Promise<string> {
+  const raw = `${request.headers.get("CF-Connecting-IP") || ""}|${request.headers.get("User-Agent") || ""}`;
+  const d = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(raw));
+  return [...new Uint8Array(d)].slice(0, 6).map((x) => x.toString(16).padStart(2, "0")).join("");
+}
 
 const json = (data: unknown, status: number) => new Response(JSON.stringify(data), { status, headers: { "Content-Type": "application/json" } });
