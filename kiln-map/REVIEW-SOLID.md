@@ -1,4 +1,4 @@
-# Solid places to review (279)
+# Solid places to review (276)
 
 ## What these are and why you are reviewing them
 Each entry is a place (studio, guild, school, art center) that an AI search found and that the checks say lets the public take part in a non-electric firing (raku, wood, soda, salt, pit/saggar or gas reduction). If you approve it, it appears on the public Flaming Clay map as a pin with the quoted sentence and a link to the page that describes the firing.
@@ -6,19 +6,19 @@ You review because every step so far was automated. A wrong entry sends a potter
 **What the checks already did:** a firing word appears in the quote; Claude read the live page and copied a sentence showing outsiders can take part; the address on the page is in the filed state.
 **Under each place** you will see "Why it is here" (the quote and link) and "Look at" (specific reasons to doubt it). No "Look at" line means no known concern. Reply per state: the numbers (or [ids]) to REJECT, plus any notes; everything else is approved.
 
-## CA (20)
+## CA (17)
 
 1. **JTown Clay (Higher Fire)** [jtown-clay-higher-fire], San Jose — raku, pit/barrel_saggar
    Why it is here: "Join us on Sunday, Dec 13 from 10am-2pm to experience the magic of saggar & horsehair raku firing."
    Page: https://higherfirestudios.com/event/saggar-firing-and-horsehair-raku-workshop-10am-2pm
-   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (499 S. Market Street, San Jose, CA 95113).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Upcoming event. Pin: exact address (499 S. Market Street, San Jose, CA 95113).
    Upcoming: Saggar Firing and Horsehair Raku Workshop, 2026-12-13, $95.00 – $110.00 (open) - signup https://higherfirestudios.com/event/saggar-firing-and-horsehair-raku-workshop-10am-2pm - source https://higherfirestudios.com/event/saggar-firing-and-horsehair-raku-workshop-10am-2pm
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
 
 2. **Kickwheel Sonoma** [kickwheel-sonoma], Petaluma — pit/barrel_saggar, raku
    Why it is here: "Come and learn about the ancient art of pit-fired ceramics in this multi-day workshop put on by Mike and Karen."
    Page: https://kickwheelsonoma.com/pages/studio-participation
-   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (5400 Old Redwood Hwy N, Petaluma, CA 94954).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Upcoming event. Pin: exact address (5400 Old Redwood Hwy N, Petaluma, CA 94954).
    Upcoming: PitFire Workshop, 2026-12-19, $125.00 (more_info) - source https://kickwheelsonoma.com/pages/studio-participation
    Upcoming: PitFire Workshop, 2026-11-07, $125.00 (more_info) - source https://kickwheelsonoma.com/pages/studio-participation
    Upcoming: Tuesday Mornings [Cone 10] with Miles, 10am - 1pm October through November 2026, 2026-10-27, $265.00 (open) - source https://kickwheelsonoma.com/collections/classes/products/tuesday-ceramics-10a-1p-july-august-2025
@@ -26,21 +26,21 @@ You review because every step so far was automated. A wrong entry sends a potter
 3. **Oribe Firing Center** [oribe-firing-center], San Gregorio — soda, raku
    Why it is here: "Come learn the fundamentals of soda firing at our Atmospheric Firing Center in San Gregorio!"
    Page: https://oribefiring.com/soda/
-   LIVE on the site already (auto-approved); reject to take it down. Status: Open now (classes, membership or invitation). Pin: town only.
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Open now (classes, membership or invitation). Pin: town only.
    Upcoming: Private Group Soda Firing, none, $195 per participant (12 minimum) (unknown) - source https://oribefiring.com/private-firings/
-   Upcoming: Private Group Pit Firing, none, $120 per participant (10 participants) (unknown) - source https://oribefiring.com/private-firings/
-   Upcoming: Private Group Raku Firing, none, $120 per participant (18–25 participants) (unknown) - source https://oribefiring.com/private-firings/
    Upcoming: January 2027 Soda Firing Workshop, 2027-01-10, $205 (sold_out) - source https://oribefiring.com/soda/
    Upcoming: April 2027 Soda Firing Workshop, 2027-04-04, $205 (sold_out) - source https://oribefiring.com/soda/
    Upcoming: February 2027 Soda Firing Workshop, 2027-02-07, $205 (sold_out) - source https://oribefiring.com/soda/
    Upcoming: November Raku Firing, 2026-11-22, $120 (sold_out) - source https://oribefiring.com/raku/
    Upcoming: November Soda Firing Workshop, 2026-11-08, $195 (sold_out) - source https://oribefiring.com/soda/
+   Upcoming: Private Group Pit Firing, none, $120 per participant (10 participants) (unknown) - source https://oribefiring.com/private-firings/
+   Upcoming: Private Group Raku Firing, none, $120 per participant (18–25 participants) (unknown) - source https://oribefiring.com/private-firings/
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part; no street address was found on its pages, so the pin is only at the town.
 
 4. **CLAYFOLK Studio** [clayfolk-studio], Occidental — raku
    Why it is here: "Join us for a packed day of community raku, a delicious catered lunch, and festivities out in the lush rolling hills of Occidental, CA"
    Page: https://www.clayfolkstudio.com/workshops-1
-   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (3703 Main Street, Occidental, CA 95465).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Upcoming event. Pin: exact address (3703 Main Street, Occidental, CA 95465).
    Upcoming: Advanced Raku Firing Retreat, 2027-03-01, $225 (more_info) - source https://www.clayfolkstudio.com/workshops-1
    Upcoming: 1-Day Raku Firing Retreat, 2027-03-01, $195 (more_info) - source https://www.clayfolkstudio.com/workshops-1
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
@@ -48,14 +48,14 @@ You review because every step so far was automated. A wrong entry sends a potter
 5. **Green & Bisque Clayhouse** [green-bisque-clayhouse], Pasadena — raku
    Why it is here: "A private Raku session for you or a group. The price includes two Raku guides to help make the process as efficient as possible while producing the best results, plus access to all our glazes as well as equipment, gas, t"
    Page: https://gbclayhouse.com/raku
-   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (1563 North Lake Ave., Pasadena, CA 91104).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Upcoming event. Pin: exact address (1563 North Lake Ave., Pasadena, CA 91104).
    Upcoming: Raku Firing, 2026-11-15, $165 (more_info) - source https://gbclayhouse.com/raku
    Upcoming: Raku Firing, 2026-10-25, $165 (more_info) - source https://gbclayhouse.com/raku
 
 6. **Clay Creations** [clay-creations], Pacifica — soda, raku
    Why it is here: "Come learn the fundamentals of soda firing at our Atmospheric Firing Center in San Gregorio!"
    Page: https://claycreationspacifica.com/firing-workshops
-   Status: Open now (classes, membership or invitation). Pin: exact address (1290 Danmann Ave., Pacifica, CA 94044).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Open now (classes, membership or invitation). Pin: exact address (1290 Danmann Ave., Pacifica, CA 94044).
    Upcoming: Membership with Raku, Pit, Soda & Gas Firing Access, none, Basic Membership $205–$270/month; 50% discounted firings including Raku, Pit, Soda Gas and more (unknown) - source https://claycreationspacifica.com/membership/
    Upcoming: Obvara Raku Firing Workshop – November 15, 2026, 2026-11-15, $95 for members / $120 for non-members (unknown) - source https://claycreationspacifica.com/artist-workshops/
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
@@ -63,79 +63,62 @@ You review because every step so far was automated. A wrong entry sends a potter
 7. **Spiffy Pottery Studio** [spiffy-pottery-studio], Menlo Park — soda
    Why it is here: "Soda Firing Workshop"
    Page: https://thespiffystudio.info/
-   LIVE on the site already (auto-approved); reject to take it down. Status: Open now (classes, membership or invitation). Pin: exact address (1919 Menalto Ave, Menlo Park, CA 94025).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Open now (classes, membership or invitation). Pin: exact address (1919 Menalto Ave, Menlo Park, CA 94025).
 
 8. **Sebastopol Center for the Arts** [sebastopol-center-for-the-arts], Sebastopol — soda
    Why it is here: "This class is a workshop designed to teach the basics of soda glazing and wood firing ceramics."
    Page: https://www.sebarts.org/classes-lectures/ceramics-soda-firing-with-wood-workshop
-   Status: Previously hosted only (no upcoming firing found). Pin: exact address (282 S. High Street, Sebastopol, CA 95472).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Previously hosted only (no upcoming firing found). Pin: exact address (282 S. High Street, Sebastopol, CA 95472).
 
 9. **John Dix** [john-dix], Mendocino — wood, soda
    Why it is here: "In this hands-on firing workshop, students will get the chance to load and fire both the wood-fired train kiln and the wood-fired soda kiln."
    Page: https://www.johndix.com/inperson-workshops
-   LIVE on the site already (auto-approved); reject to take it down. Status: Open now (classes, membership or invitation). Pin: town only.
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Open now (classes, membership or invitation). Pin: town only.
    Look at: no street address was found on its pages, so the pin is only at the town.
 
 10. **ACAI Studios & Gallery** [acai-studios-gallery], Fair Oaks — raku
    Why it is here: "Ceramic Studio Membership includes use of the following: Electric, & raku kilns"
    Page: https://acaistudios.com/ceramic-studio-membership
-   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (7425 Winding Way, Fair Oaks, CA 95628).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Upcoming event. Pin: exact address (7425 Winding Way, Fair Oaks, CA 95628).
 
 11. **American Museum of Ceramic Art (AMOCA)** [american-museum-of-ceramic-art-amoca], Pomona — soda, salt
    Why it is here: "Participants learned all aspects of the process of soda firing and had the opportunity to fire their own work in AMOCA's outdoor kiln."
    Page: https://www.amoca.org/studio1/workshops
-   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (399 N Garey Ave, Pomona, CA 91767).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Upcoming event. Pin: exact address (399 N Garey Ave, Pomona, CA 91767).
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
 
 12. **Element Art Center** [element-art-center], Los Angeles — raku
    Why it is here: "Experience the excitement, heat, and unpredictability of Raku firing in this dynamic, hands-on workshop."
    Page: https://classbento.com/raku-firing-workshop-san-francisco
-   Status: Open now (classes, membership or invitation). Pin: town only.
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Open now (classes, membership or invitation). Pin: town only.
    Look at: no street address was found on its pages, so the pin is only at the town.
 
 13. **Claytivity Pottery Studio** [claytivity-pottery-studio], Los Angeles — raku
    Why it is here: "Explore the ancient Japanese technique of Raku firing and create stunning, one-of-a-kind ceramics."
    Page: https://coursehorse.com/los-angeles/classes/art/pottery/ceramics/raku-workshop
-   Status: Previously hosted only (no upcoming firing found). Pin: exact address (2910 Gilroy St, Los Angeles, CA).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Previously hosted only (no upcoming firing found). Pin: exact address (2910 Gilroy St, Los Angeles, CA).
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
 
 14. **Ceramic Heights** [ceramic-heights], San Diego — raku
    Why it is here: "Raku Firing Sign up"
    Page: https://ceramicheights.com/raku
-   LIVE on the site already (auto-approved); reject to take it down. Status: Open now (classes, membership or invitation). Pin: exact address (5509 El Cajon Boulevard, San Diego, CA).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Open now (classes, membership or invitation). Pin: exact address (5509 El Cajon Boulevard, San Diego, CA).
 
 15. **ICA North** [ica-north], Encinitas — raku
    Why it is here: "Multiple Raku firings throughout the session"
    Page: https://icasandiego.org/event/raku-firing-ceramics-course-2025
-   Status: Previously hosted only (no upcoming firing found). Pin: exact address (1550 S El Camino Real, Encinitas, CA 92024).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Previously hosted only (no upcoming firing found). Pin: exact address (1550 S El Camino Real, Encinitas, CA 92024).
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
 
-16. **Element Art Center** [element-art-center-ca], Los Angeles — raku
-   Why it is here: "Experience the excitement, heat, and unpredictability of Raku firing in this dynamic, hands-on workshop."
-   Page: https://classbento.com/raku-firing-workshop-san-francisco
-   Status: Open now (classes, membership or invitation). Pin: town only.
-   Look at: no street address was found on its pages, so the pin is only at the town.
-
-17. **Claytivity Pottery Studio** [claytivity-pottery-studio-ca], Los Angeles — raku
-   Why it is here: "Explore the ancient Japanese technique of Raku firing and create stunning, one-of-a-kind ceramics."
-   Page: https://coursehorse.com/los-angeles/classes/art/pottery/ceramics/raku-workshop
-   Status: Previously hosted only (no upcoming firing found). Pin: exact address (2910 Gilroy St, Los Angeles, CA).
-   Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
-
-18. **Common Clay Space** [common-clay-space], Cupertino — wood
+16. **Common Clay Space** [common-clay-space], Cupertino — wood
    Why it is here: "Common Clay Space will be hosting a Wood Firing Workshop in partnership with Spring Valley Anagama."
    Page: https://www.commonclayspace.com/wood-firing-workshop-2026
-   LIVE on the site already (auto-approved); reject to take it down. Status: Open now (classes, membership or invitation). Pin: exact address (19685 Stevens Creek Blvd, Cupertino, CA 95014).
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Open now (classes, membership or invitation). Pin: exact address (19685 Stevens Creek Blvd, Cupertino, CA 95014).
 
-19. **AMOCA Ceramics Studio** [amoca-ceramics-studio], Pomona — salt, soda
-   Why it is here: "Skill Building Workshop: Salt Firing w/Nathan Stanfield"
-   Page: https://events.humanitix.com/skill-building-workshop-salt-firing-w-nathan-stanfield
-   Status: Open now (classes, membership or invitation). Pin: exact address (301 N Garey Ave, Pomona, CA 91767).
-
-20. **Tao of Clay** [tao-of-clay], San Diego — pit/barrel_saggar
+17. **Tao of Clay** [tao-of-clay], San Diego — pit/barrel_saggar
    Why it is here: "Pit Fire Workshop with Josh Herman"
    Page: https://taoofclay.com/
-   LIVE on the site already (auto-approved); reject to take it down. Status: Open now (classes, membership or invitation). Pin: town only.
+   LIVE (you approved it in bulk on 2026-10-12; check it later). Status: Open now (classes, membership or invitation). Pin: town only.
    Look at: no street address was found on its pages, so the pin is only at the town.
 
 ## CO (12)
@@ -303,37 +286,36 @@ You review because every step so far was automated. A wrong entry sends a potter
    Upcoming: Pit Fired Ceramics Workshop, 2026-11-14, $80 (more_info) - source https://enikoujj.com/workshop
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part; no street address was found on its pages, so the pin is only at the town.
 
-2. **The Clay Co-op** [the-clay-co-op], St. Petersburg — raku
-   Why it is here: "Join us for a fiery, fast-paced evening of Raku Firing—an unforgettable ceramic experience where flames, smoke, and spontaneous results rule the night!"
-   Page: https://www.claycoopstpete.com/rakufiring
-   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (2724 6th Ave S, St. Petersburg, FL 33712).
-   Upcoming: Fire It Up: Raku, 2026-10-10 (more_info) - source https://www.claycoopstpete.com/rakufiring
-   Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
-
-3. **Smith Works Studios** [smith-works-studios], Saint Augustine — pit/barrel_saggar
+2. **Smith Works Studios** [smith-works-studios], Saint Augustine — pit/barrel_saggar
    Why it is here: "This two-day, step-by-step workshop on pit firing methods and techniques will guide students through the logic of site preparation, design techniques for pit firing, and how to manage a fire for optimal results."
    Page: https://smithworksstudios.com/classes
    LIVE on the site already (auto-approved); reject to take it down. Status: Open now (classes, membership or invitation). Pin: exact address (24 Grove Ave, Saint Augustine, FL).
    Upcoming: October 2026 St. Augagama Firing, 2026-10-10, $30/cubic foot (includes wood splitting + 8-hr stoking crew shift); $50/cubic foot (8-hr stoking crew shift, no splitting); $80/cubic foot (no crew duties) (sold_out) - signup https://smithworksstudios.com/shop/anagama-firing-registration - source https://smithworksstudios.com/shop/anagama-firing-registration
 
-4. **Morean Workshop Space** [morean-workshop-space], St. Petersburg — wood
+3. **Morean Workshop Space** [morean-workshop-space], St. Petersburg — wood
    Why it is here: "In addition to lectures and demonstrations, all participants will take part in loading, firing and unloading the anagama."
    Page: https://moreanworkshopspace.org/florida-heat%3A-wood-fire
    Status: Open now (classes, membership or invitation). Pin: exact address (2025 3rd Avenue South, St. Petersburg, FL 33712).
    Upcoming: Florida Heat: Wood Fire, 2027-01-03 (unknown) - source https://moreanworkshopspace.org/upcoming-workshops
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
 
-5. **Tampa Museum of Art** [tampa-museum-of-art], Tampa — raku
+4. **Tampa Museum of Art** [tampa-museum-of-art], Tampa — raku
    Why it is here: "participants will fire their pieces in the raku tradition, pulling glowing ceramics from the kiln and witnessing the dramatic transformations of post-fire reduction."
    Page: https://tampamuseum.org/event/surface-and-fire-a-jun-kaneko-inspired-raku-firing-tmacityoftampagoldingart
    LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (120 W. Gasparilla Plaza, Tampa, FL 33602).
    Upcoming: Surface and Fire! | A Jun Kaneko Inspired Raku Firing, 2027-06-03, $220 (more_info) - source https://tampamuseum.org/event/surface-and-fire-a-jun-kaneko-inspired-raku-firing-tmacityoftampagoldingart
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
 
-6. **Atlantic Pottery Supply** [atlantic-pottery-supply], Orange Park — raku
+5. **Atlantic Pottery Supply** [atlantic-pottery-supply], Orange Park — raku
    Why it is here: "Join Tim Bullard for a two-day Horse Hair Raku Workshop!"
    Page: https://www.atlanticpotterysupply.com/service-page/october-horse-hair-raku-workshop
    LIVE on the site already (auto-approved); reject to take it down. Status: Open now (classes, membership or invitation). Pin: exact address (1904 Debarry Avenue, Orange Park, FL 32073).
+
+6. **The Clay Co-op** [the-clay-co-op], St. Petersburg — raku
+   Why it is here: "Join us for a fiery, fast-paced evening of Raku Firing—an unforgettable ceramic experience where flames, smoke, and spontaneous results rule the night!"
+   Page: https://www.claycoopstpete.com/rakufiring
+   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (2724 6th Ave S, St. Petersburg, FL 33712).
+   Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
 
 7. **Atlantic Beach Arts Market** [atlantic-beach-arts-market], Atlantic Beach — raku
    Why it is here: "The third and final day you will Raku fire the pieces to take home at the end of the third day."
@@ -529,7 +511,6 @@ You review because every step so far was automated. A wrong entry sends a potter
    Why it is here: "Join us for Raku Pumpkin Day on October 10 at House of Clay in Overland Park! In this one-day pottery experience, you'll glaze your own handmade ceramic pumpkin and watch it transform during a live Raku firing."
    Page: https://www.houseofclaykc.com/raku-pottery-workshop-overland-park/
    LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (7811 Marty St, Overland Park, KS 66204).
-   Upcoming: Raku Pumpkin Day, 2026-10-10, $75 per person (more_info) - source https://www.houseofclaykc.com/raku-pottery-workshop-overland-park/
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
 
 ## KY (2)
@@ -658,7 +639,6 @@ You review because every step so far was automated. A wrong entry sends a potter
    Why it is here: "Join us for an unforgettable hands-on experience with Raku firing, led by Nate Winter, a seasoned ceramic artist with more than 1,000 firings and hundreds of workshops behind him."
    Page: https://www.natewinterstudios.com/studio-events
    LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: town only.
-   Upcoming: Raku Workshop, 2026-10-10, $60-$150 (more_info) - source https://www.natewinterstudios.com/studio-events
    Upcoming: Raku Workshop, 2026-11-14, $60-$150 (more_info) - source https://www.natewinterstudios.com/studio-events
    Look at: no street address was found on its pages, so the pin is only at the town.
 
@@ -829,8 +809,6 @@ You review because every step so far was automated. A wrong entry sends a potter
    LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (305 Mockernut Road, Pittsboro, NC 27312).
    Upcoming: Cone 6 Soda Firing Workshop, 2026-08-27 (unknown) - source https://dougdotsonpottery.com/soda-firing-workshop-artscenter/
    Upcoming: Cone 6 Soda Firing Workshop - Unload, 2026-10-18 (more_info) - source https://dougdotsonpottery.com/soda-firing-workshop-artscenter/
-   Upcoming: Cone 6 Soda Firing Workshop - Load the kiln, 2026-10-10 (more_info) - source https://dougdotsonpottery.com/soda-firing-workshop-artscenter/
-   Upcoming: Cone 6 Soda Firing Workshop - Fire the kiln, 2026-10-11 (more_info) - source https://dougdotsonpottery.com/soda-firing-workshop-artscenter/
 
 3. **Clayworks** [clayworks], Charlotte — raku
    Why it is here: "Join Clayworks for a hands-on raku firing workshop! Participants will receive a hand-thrown and sculpted pumpkin, perfect for fall and Halloween decor, and built to last a lifetime, to glaze and fire."
@@ -846,46 +824,45 @@ You review because every step so far was automated. A wrong entry sends a potter
    Upcoming: Ceramics - Raku Workshop, 2026-11-06, $81.00 (more_info) - source https://www.activekids.com/leland-nc/pottery-and-ceramics/classes/ceramics-raku-workshop-2026-109760000
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
 
-5. **AVL Clay** [avl-clay], Asheville — raku
-   Why it is here: "Your skulls will be bisque fired and you'll return to raku them."
-   Page: https://www.avlclay.com/events
-   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (4 Mulvaney St., Asheville, NC 28803).
-   Upcoming: Spooky Skull Raku, 2026-10-09, $125 per person, members receive 15% discount (more_info) - source https://www.avlclay.com/events
-   Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part; the two AI models did not both say yes (first said yes, second said unclear).
-
-6. **Cedar Creek Gallery** [cedar-creek-gallery], Creedmoor — raku, salt, wood
+5. **Cedar Creek Gallery** [cedar-creek-gallery], Creedmoor — raku, salt, wood
    Why it is here: "Cedar Creek runs occasional weekend pottery workshops — typically one- or two-day intensives led by visiting or resident artists, focused on a specific technique like porcelain throwing, raku, salt-firing, or wood-firing"
    Page: https://thepathbesttraveled.com/where-to-take-a-pottery-class-in-the-triangle-even-if-youve-never-touched-clay
    Status: Upcoming event. Pin: exact address (1150 Fleming Rd, Creedmoor, NC 27522).
    Upcoming: Annual Pottery Festival, 2027-05-01 (more_info) - source https://thepathbesttraveled.com/where-to-take-a-pottery-class-in-the-triangle-even-if-youve-never-touched-clay
 
-7. **The Bascom** [the-bascom], Highlands — soda
+6. **The Bascom** [the-bascom], Highlands — soda
    Why it is here: "Once the soda kiln is loaded, it will be preheated overnight and fired to completion the following day. A discussion of the firing process will be integral, providing participants the chance to assist with kiln adjustmen"
    Page: https://www.thebascom.org/
    LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (323 Franklin Road, Highlands, NC 28741).
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
 
-8. **Delores Pottery & Studios** [delores-pottery-studios], Durham — raku, wood
+7. **Delores Pottery & Studios** [delores-pottery-studios], Durham — raku, wood
    Why it is here: "Join Delores for an exciting one-day workshop where you'll glaze, fire, and finish your pottery using the Raku firing process."
    Page: https://site.corsizio.com/event/6a5e468e6905bd52ff03340e
    Status: Previously hosted only (no upcoming firing found). Pin: exact address (1010 West Main St, Durham, NC).
 
-9. **Cedar Oak Farm & Pottery** [cedar-oak-farm-pottery], Indian Trail — raku, pit/barrel_saggar
+8. **Cedar Oak Farm & Pottery** [cedar-oak-farm-pottery], Indian Trail — raku, pit/barrel_saggar
    Why it is here: "Artists wishing to join in on the fun, can bring their own pots-Raku clays highly recommended."
    Page: https://www.cedaroakfarmpottery.com/alternative-pottery-firing-classes
    LIVE on the site already (auto-approved); reject to take it down. Status: Open now (classes, membership or invitation). Pin: exact address (7816 West Duncan Road, Indian Trail, NC 28079).
 
-10. **Rising Sun Pottery** [rising-sun-pottery], Lincolnton — raku, gas/reduction
+9. **Rising Sun Pottery** [rising-sun-pottery], Lincolnton — raku, gas/reduction
    Why it is here: "Half-day and full-day Saturday workshop classes teaching wheel, hand-building, glaze making, raku firing, or other special topics are held at various times throughout the year."
    Page: http://www.risingsunpottery.com/classes.html
    LIVE on the site already (auto-approved); reject to take it down. Status: Open now (classes, membership or invitation). Pin: town only.
    Look at: no street address was found on its pages, so the pin is only at the town.
 
-11. **Fat Cat Pottery** [fat-cat-pottery], Wilmington — gas/reduction, pit/barrel_saggar
+10. **Fat Cat Pottery** [fat-cat-pottery], Wilmington — gas/reduction, pit/barrel_saggar
    Why it is here: "Reduction firing is available to everyone - not just FCP members."
    Page: https://www.fatcatpottery.com/gasreductionfire
    LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: town only.
    Look at: no street address was found on its pages, so the pin is only at the town.
+
+11. **AVL Clay** [avl-clay], Asheville — raku
+   Why it is here: "Your skulls will be bisque fired and you'll return to raku them."
+   Page: https://www.avlclay.com/events
+   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (4 Mulvaney St., Asheville, NC 28803).
+   Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part; the two AI models did not both say yes (first said yes, second said unclear).
 
 12. **Jeff Brown Pottery** [jeff-brown-pottery], Seagrove — wood, raku
    Why it is here: "I offer workshops and classes at my studio in Wheel throwing, altering and texturing, glazing, wood firing, and Raku firing."
@@ -1009,18 +986,17 @@ You review because every step so far was automated. A wrong entry sends a potter
 
 ## NV (3)
 
-1. **Animal House Pottery** [animal-house-pottery], North Las Vegas — raku, soda
-   Why it is here: "Bring your own bisque or pick one of Anthony's, glaze it, load it into the Raku kiln, and pull it out glowing hot to watch the crackle and colors come out as it cools."
-   Page: https://animalhousepottery.com/
-   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (3355 Clayton St, North Las Vegas, NV 89032).
-   Upcoming: Bi-Monthly Soda Firing, 2026-10-09, $50-$60 (more_info) - source https://animalhousepottery.com/workshops
-
-2. **Nevada Clay Guild** [nevada-clay-guild], Henderson — pit/barrel_saggar
+1. **Nevada Clay Guild** [nevada-clay-guild], Henderson — pit/barrel_saggar
    Why it is here: "Join us for a unique combination of Obvara and Saggar firing techniques at Bill R's 'Sin City' Studio in Henderson!"
    Page: https://www.nvclay.org/events/obvara-saggar-fire-workshop
    Status: Upcoming event. Pin: town only.
    Upcoming: Obvara & Saggar Fire Workshop, 2027-04-26 (more_info) - source https://www.nvclay.org/events/obvara-saggar-fire-workshop
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part; no street address was found on its pages, so the pin is only at the town.
+
+2. **Animal House Pottery** [animal-house-pottery], North Las Vegas — raku, soda
+   Why it is here: "Bring your own bisque or pick one of Anthony's, glaze it, load it into the Raku kiln, and pull it out glowing hot to watch the crackle and colors come out as it cools."
+   Page: https://animalhousepottery.com/
+   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (3355 Clayton St, North Las Vegas, NV 89032).
 
 3. **Tuscarora Pottery School** [tuscarora-pottery-school], Tuscarora — soda, raku
    Why it is here: "Journey to the fabled Tuscarora Pottery School for an immersive community soda firing. This 5-day intensive offers a chance to explore both cone 10 soda firing and raku/alternative firing in a dynamic, hands-on environme"
@@ -1035,7 +1011,6 @@ You review because every step so far was automated. A wrong entry sends a potter
    Page: https://www.viewarts.org/experience/experiences/fall-raku-firing
    LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (3273 State Route 28, Old Forge, NY 13420).
    Upcoming: Independent Potters Program, none, $100 per month; clay $20 per 22 lb; firing tickets $1.50 each based on volume (open) - source https://www.viewarts.org/for-artists/artistic-communities/independent-potters/
-   Upcoming: Fall Raku Firing, 2026-10-10, Member: $15; Non-Member: $25 (open) - signup https://34885.blackbaudhosting.com/34885/C---Fall-Raku-Firing - source https://www.viewarts.org/experience/experiences/fall-raku-firing/
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part.
 
 2. **The Oki Doki Studio (Andrew Sartorius)** [the-oki-doki-studio-andrew-sartorius], Germantown — wood, soda
@@ -1216,29 +1191,28 @@ You review because every step so far was automated. A wrong entry sends a potter
    LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (3995 Fairview Industrial Dr. SE, Salem, OR 97302).
    Upcoming: One Session Raku with Doug Dacar, 2026-10-16 (more_info) - source https://www.willametteartcenter.com/calendar/
 
-4. **Synergy Ceramics** [synergy-ceramics], Bend — raku
-   Why it is here: "We also now host Raku Date nights! Sign up to glaze and raku fire vases made by Sydney."
-   Page: https://www.synergyceramicsbend.com/class-info
-   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (1900 Northeast Division Street, Bend, OR 97701).
-   Upcoming: RAKU DATE DAY! 10/10/26, 2026-10-10, $300.00 (more_info) - source https://www.synergyceramicsbend.com/class-schedule
-
-5. **Jay Widmer** [jay-widmer], Corvallis — wood
+4. **Jay Widmer** [jay-widmer], Corvallis — wood
    Why it is here: "Jay would like to help others learn from his experience and is opening up the Anagama kiln for a Professional Development Workshop to other potters."
    Page: https://jaywidmer.com/kiln.html
    LIVE on the site already (auto-approved); reject to take it down. Status: Workshops coming soon. Pin: town only.
    Look at: no street address was found on its pages, so the pin is only at the town.
 
-6. **Georgies Ceramic & Clay Co.** [georgies-ceramic-clay-co], Portland — raku
+5. **Georgies Ceramic & Clay Co.** [georgies-ceramic-clay-co], Portland — raku
    Why it is here: "Wil Labelle leads this hands-on workshop that features the basics of Raku using our trash can quick-fire Raku kiln and Georgie's raku glazes."
    Page: http://www.georgies.com/gcc-main-classes-pdx.shtml
    LIVE on the site already (auto-approved); reject to take it down. Status: Open now (classes, membership or invitation). Pin: town only.
    Look at: no street address was found on its pages, so the pin is only at the town.
 
-7. **Calapooia Clay** [calapooia-clay], Albany — raku, pit/barrel_saggar
+6. **Calapooia Clay** [calapooia-clay], Albany — raku, pit/barrel_saggar
    Why it is here: "We primarily fire to Cone 5/6 in electric kilns and occasionally offer Raku and Saggar firings for ornamental work."
    Page: https://calapooiaclay.com/
    LIVE on the site already (auto-approved); reject to take it down. Status: Open now (classes, membership or invitation). Pin: exact address (1533 SE 7th Ave, Albany, OR 97321).
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part; the two AI models did not both say yes (first said yes, second said unclear).
+
+7. **Synergy Ceramics** [synergy-ceramics], Bend — raku
+   Why it is here: "We also now host Raku Date nights! Sign up to glaze and raku fire vases made by Sydney."
+   Page: https://www.synergyceramicsbend.com/class-info
+   LIVE on the site already (auto-approved); reject to take it down. Status: Upcoming event. Pin: exact address (1900 Northeast Division Street, Bend, OR 97701).
 
 8. **Oregon Coast School of Art** [oregon-coast-school-of-art], Gardiner — raku
    Why it is here: "See the pot loaded in a raku kiln, fired and then pulled out while glowing hot!"
@@ -1639,8 +1613,6 @@ You review because every step so far was automated. A wrong entry sends a potter
    Page: https://spokanepottersguild.org/
    Status: Upcoming event. Pin: town only.
    Upcoming: Annual Membership (Raku Access), 2026-04-01, $120 (with locker) or $60 (no locker); $60 or $30 if joining Oct 1 or after (open) - source https://spokanepottersguild.org/products/annual-membership-half-year
-   Upcoming: Raku Firing October 10, 2026, 2026-10-10 (unknown) - signup https://spokanepottersguild.org/pages/raku-firing-sign-up-1 - source https://spokanepottersguild.org/pages/raku-firing-sign-up-1
-   Upcoming: Raku Firing, 2026-10-10 (more_info) - source https://spokanepottersguild.org/pages/raku-firing-sign-up-1
    Look at: the quote only mentions the technique; check the page offers a way for outsiders to take part; no street address was found on its pages, so the pin is only at the town; the two AI models did not both say yes (first said yes, second said unclear).
 
 3. **Burnish Clay Studio** [burnish-clay-studio], Bellingham — soda

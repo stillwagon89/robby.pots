@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09",
+  "generated": "2026-10-12",
   "places": [
     {
       "id": "midnight-potter-studios",
@@ -2899,7 +2899,8 @@
       },
       "get_in": [
         "Workshops, firing services",
-        "Workshops and firings"
+        "Workshops and firings",
+        "Kiln rental"
       ],
       "firing_types": [
         "soda",
@@ -3087,6 +3088,111 @@
           "status": "full",
           "key_date": null,
           "who_can_join": null
+        },
+        {
+          "summary": "Studios or schools can book a private soda gas firing for 12 participants ($195 each) or cover minimum for smaller groups. All glazes, slips, wadding, and materials included. BBQ grill provided.",
+          "pay_text": "$195 per participant; studio-owner bookings receive $200 credit",
+          "bring": "Bisqued cone 10 clay",
+          "commitment": null,
+          "id": "02d15c909152",
+          "firing_type": "soda",
+          "kiln_style": null,
+          "access_kind": "rental_service",
+          "audience": "public",
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "none",
+          "signup_deadline": null,
+          "registration_status": "unknown",
+          "registration_opens": null,
+          "cost_text": "$195 per participant (12 minimum)",
+          "how_to_join": "Submit inquiry form on the private firings page",
+          "includes": [
+            "soda"
+          ],
+          "crew_needed": false,
+          "first_atmospheric_ok": null,
+          "source_url": "https://oribefiring.com/private-firings/",
+          "evidence_sentence": "Studios or schools can book private soda-gas or hybrid wood-soda firings for groups (12 or 24 participants) with all materials included.",
+          "evidence_quote": "Soda gas firing: 12 participants, $195 per person.",
+          "evidence_url": "https://oribefiring.com/private-firings/#:~:text=Soda%20gas%20firing%3A%2012%20participants%2C%20%24195%20per%20person.",
+          "signup_url": null,
+          "checked": "2026-10-09",
+          "added_by": null,
+          "title": "Private Group Soda Firing",
+          "status": "ongoing",
+          "key_date": null,
+          "who_can_join": null
+        },
+        {
+          "summary": "Studios or schools can book a private pit firing for 10 participants ($120 each). All pit-firing materials included. BBQ grill provided.",
+          "pay_text": "$120 per participant; studio-owner bookings receive $200 credit",
+          "bring": "Bisqued pieces",
+          "commitment": null,
+          "id": "dcb61f394eed",
+          "firing_type": "pit_barrel_saggar",
+          "kiln_style": null,
+          "access_kind": "rental_service",
+          "audience": "public",
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "none",
+          "signup_deadline": null,
+          "registration_status": "unknown",
+          "registration_opens": null,
+          "cost_text": "$120 per participant (10 participants)",
+          "how_to_join": "Submit inquiry form on the private firings page",
+          "includes": [
+            "pit"
+          ],
+          "crew_needed": false,
+          "first_atmospheric_ok": null,
+          "source_url": "https://oribefiring.com/private-firings/",
+          "evidence_sentence": "Studios or schools can book a private pit firing for 10 participants ($120 each) with all pit-firing materials included.",
+          "evidence_quote": "Pit firing: 10 people, $120 per person.",
+          "evidence_url": "https://oribefiring.com/private-firings/#:~:text=Pit%20firing%3A%2010%20people%2C%20%24120%20per%20person.",
+          "signup_url": null,
+          "checked": "2026-10-09",
+          "added_by": null,
+          "title": "Private Group Pit Firing",
+          "status": "ongoing",
+          "key_date": null,
+          "who_can_join": null
+        },
+        {
+          "summary": "Studios or schools can book a private raku firing for 18–25 participants ($120 each). Includes access to 12 raku glazes and all materials. BBQ grill provided.",
+          "pay_text": "$120 per participant; studio-owner bookings receive $200 credit",
+          "bring": "Bisqued pieces",
+          "commitment": null,
+          "id": "dfb2676986b8",
+          "firing_type": "raku",
+          "kiln_style": null,
+          "access_kind": "rental_service",
+          "audience": "public",
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "none",
+          "signup_deadline": null,
+          "registration_status": "unknown",
+          "registration_opens": null,
+          "cost_text": "$120 per participant (18–25 participants)",
+          "how_to_join": "Submit inquiry form on the private firings page",
+          "includes": [
+            "raku"
+          ],
+          "crew_needed": false,
+          "first_atmospheric_ok": null,
+          "source_url": "https://oribefiring.com/private-firings/",
+          "evidence_sentence": "Studios or schools can book a private raku firing for 18–25 participants ($120 each) with access to 12 onsite raku glazes.",
+          "evidence_quote": "Raku: minimum 18 people, maximum 25 people, $120 per person.",
+          "evidence_url": "https://oribefiring.com/private-firings/#:~:text=Raku%3A%20minimum%2018%20people%2C,people%2C%20%24120%20per%20person.",
+          "signup_url": null,
+          "checked": "2026-10-09",
+          "added_by": null,
+          "title": "Private Group Raku Firing",
+          "status": "ongoing",
+          "key_date": null,
+          "who_can_join": null
         }
       ]
     },
@@ -3239,6 +3345,45 @@
           "who_can_join": null
         }
       ]
+    },
+    {
+      "id": "sebastopol-center-for-the-arts",
+      "org": "Sebastopol Center for the Arts",
+      "kind": "city_arts",
+      "public": true,
+      "region": "Sebastopol",
+      "state": "CA",
+      "city": "Sebastopol",
+      "lat": 38.40013,
+      "lng": -122.82527,
+      "location_precision": "address",
+      "address": "282 S. High Street, Sebastopol, CA 95472",
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://www.sebarts.org/"
+      },
+      "newsletter_url": null,
+      "place_summary": null,
+      "firing_evidence": [],
+      "access": {
+        "how": "Workshop",
+        "note": "Workshop",
+        "quote": "This class is a workshop designed to teach the basics of soda glazing and wood firing ceramics.",
+        "url": "https://www.sebarts.org/classes-lectures/ceramics-soda-firing-with-wood-workshop",
+        "status": "past_only"
+      },
+      "get_in": [
+        "Workshop"
+      ],
+      "firing_types": [
+        "soda"
+      ],
+      "tracking": "not_checked",
+      "last_checked": null,
+      "unknowns": [
+        "Firing dates aren't posted anywhere we can check."
+      ],
+      "opportunities": []
     },
     {
       "id": "clayfolk-studio",
@@ -3570,6 +3715,85 @@
       ]
     },
     {
+      "id": "element-art-center",
+      "org": "Element Art Center",
+      "kind": "city_arts",
+      "public": true,
+      "region": "Los Angeles",
+      "state": "CA",
+      "city": "Los Angeles",
+      "lat": 34.05222,
+      "lng": -118.2434,
+      "location_precision": "approximate",
+      "address": null,
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://classbento.com/raku-firing-workshop-san-francisco"
+      },
+      "newsletter_url": null,
+      "place_summary": null,
+      "firing_evidence": [],
+      "access": {
+        "how": "Beach pit firing course",
+        "note": "Beach pit firing course",
+        "quote": "Experience the excitement, heat, and unpredictability of Raku firing in this dynamic, hands-on workshop.",
+        "url": "https://classbento.com/raku-firing-workshop-san-francisco",
+        "status": "ongoing"
+      },
+      "get_in": [
+        "Beach pit firing course"
+      ],
+      "firing_types": [
+        "raku"
+      ],
+      "tracking": "not_checked",
+      "last_checked": null,
+      "unknowns": [
+        "Firing dates aren't posted anywhere we can check.",
+        "Shown at the town."
+      ],
+      "opportunities": []
+    },
+    {
+      "id": "claytivity-pottery-studio",
+      "org": "Claytivity Pottery Studio",
+      "kind": "studio",
+      "public": true,
+      "region": "Los Angeles",
+      "state": "CA",
+      "city": "Los Angeles",
+      "lat": 34.10629,
+      "lng": -118.25152,
+      "location_precision": "address",
+      "address": "2910 Gilroy St, Los Angeles, CA",
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://coursehorse.com/los-angeles/classes/art/pottery/ceramics/raku-workshop"
+      },
+      "newsletter_url": null,
+      "place_summary": null,
+      "firing_evidence": [],
+      "access": {
+        "how": "Raku class",
+        "note": "Raku class",
+        "quote": "Explore the ancient Japanese technique of Raku firing and create stunning, one-of-a-kind ceramics.",
+        "url": "https://coursehorse.com/los-angeles/classes/art/pottery/ceramics/raku-workshop",
+        "status": "past_only"
+      },
+      "get_in": [
+        "Raku class"
+      ],
+      "firing_types": [
+        "raku"
+      ],
+      "tracking": "not_checked",
+      "last_checked": null,
+      "unknowns": [
+        "Firing dates aren't posted anywhere we can check."
+      ],
+      "opportunities": []
+    },
+    {
       "id": "ceramic-heights",
       "org": "Ceramic Heights",
       "kind": "studio",
@@ -3607,6 +3831,182 @@
         "Firing dates aren't posted anywhere we can check."
       ],
       "opportunities": []
+    },
+    {
+      "id": "ica-north",
+      "org": "ICA North",
+      "kind": "studio",
+      "public": true,
+      "region": "Encinitas",
+      "state": "CA",
+      "city": "Encinitas",
+      "lat": 33.02786,
+      "lng": -117.25757,
+      "location_precision": "address",
+      "address": "1550 S El Camino Real, Encinitas, CA 92024",
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://icasandiego.org/"
+      },
+      "newsletter_url": null,
+      "place_summary": null,
+      "firing_evidence": [],
+      "access": {
+        "how": "Several raku firings per session",
+        "note": "Several raku firings per session",
+        "quote": "Multiple Raku firings throughout the session",
+        "url": "https://icasandiego.org/event/raku-firing-ceramics-course-2025",
+        "status": "past_only"
+      },
+      "get_in": [
+        "Several raku firings per session"
+      ],
+      "firing_types": [
+        "raku"
+      ],
+      "tracking": "not_checked",
+      "last_checked": null,
+      "unknowns": [
+        "Firing dates aren't posted anywhere we can check."
+      ],
+      "opportunities": []
+    },
+    {
+      "id": "clay-creations",
+      "org": "Clay Creations",
+      "kind": "studio",
+      "public": true,
+      "region": "Pacifica",
+      "state": "CA",
+      "city": "Pacifica",
+      "lat": 37.59525,
+      "lng": -122.50952,
+      "location_precision": "address",
+      "address": "1290 Danmann Ave., Pacifica, CA 94044",
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://claycreationspacifica.com/"
+      },
+      "newsletter_url": null,
+      "place_summary": "Clay Creations offers soda, raku, and pit firings available to members at a 50% discount. The studio includes electric and gas firings as well. Non-members can participate in public workshops including an Obvara raku firing workshop.",
+      "firing_evidence": [
+        {
+          "firing_type": "raku",
+          "sentence": null,
+          "quote": "50% discounted firings, including Raku, Pit, Soda Gas and more!",
+          "url": "https://claycreationspacifica.com/membership/#:~:text=50%25%20discounted%20firings%2C%20including,Soda%20Gas%20and%20more!",
+          "via": null
+        },
+        {
+          "firing_type": "pit_barrel_saggar",
+          "sentence": null,
+          "quote": "50% discounted firings, including Raku, Pit, Soda Gas and more!",
+          "url": "https://claycreationspacifica.com/membership/#:~:text=50%25%20discounted%20firings%2C%20including,Soda%20Gas%20and%20more!",
+          "via": null
+        },
+        {
+          "firing_type": "soda",
+          "sentence": null,
+          "quote": "50% discounted firings, including Raku, Pit, Soda Gas and more!",
+          "url": "https://claycreationspacifica.com/membership/#:~:text=50%25%20discounted%20firings%2C%20including,Soda%20Gas%20and%20more!",
+          "via": null
+        }
+      ],
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "May Soda Firing Workshop May 16, 2026 - May 30, 2026 (FULL)",
+        "url": "https://claycreationspacifica.com/firing-workshops",
+        "status": "ongoing"
+      },
+      "get_in": [
+        "Dated workshop or firing event",
+        "Workshops and firings",
+        "Membership"
+      ],
+      "firing_types": [
+        "raku",
+        "pit_barrel_saggar",
+        "soda"
+      ],
+      "tracking": "auto",
+      "last_checked": "2026-10-09",
+      "unknowns": [
+        "Sign-up status isn't posted for some dates."
+      ],
+      "opportunities": [
+        {
+          "summary": "Obvara Firing Workshop is a hands-on raku atmospheric firing on Nov 15, 2026 (9am–3pm) at Oribe Firing Center led by Julia Kaefer. No prior Obvara experience needed. Participants bring 3–5 bisque-fired pieces. Cost: $120 non-members, $95 members.",
+          "pay_text": null,
+          "bring": "3–5 bisque-fired pieces suitable for the process",
+          "commitment": "Nov 15, 2026, 9am–3pm",
+          "id": "c5e2f6a7f67a",
+          "firing_type": "raku",
+          "kiln_style": null,
+          "access_kind": "dated",
+          "audience": "public",
+          "start_date": "2026-11-15",
+          "end_date": "2026-11-15",
+          "date_precision": "exact",
+          "signup_deadline": null,
+          "registration_status": "unknown",
+          "registration_opens": null,
+          "cost_text": "$95 for members / $120 for non-members",
+          "how_to_join": "Email [email protected] or call (650) 557-0683 for availability and registration after event listing goes live.",
+          "includes": null,
+          "crew_needed": false,
+          "first_atmospheric_ok": true,
+          "source_url": "https://claycreationspacifica.com/artist-workshops/",
+          "evidence_sentence": "The Artist Workshops page lists the Obvara Firing Workshop on Nov 15, 2026 as a hands-on raku-style atmospheric firing at Oribe Firing Center.",
+          "evidence_quote": "Obvara is a raku-style atmospheric firing technique",
+          "evidence_url": "https://claycreationspacifica.com/artist-workshops/#:~:text=Obvara%20is%20a%20raku%2Dstyle%20atmospheric%20firing%20technique",
+          "signup_url": null,
+          "checked": "2026-10-09",
+          "added_by": null,
+          "title": "Obvara Raku Firing Workshop",
+          "status": "more_info",
+          "key_date": "Sign-up status not posted",
+          "who_can_join": null
+        },
+        {
+          "summary": "Clay Creations memberships ($185–$270/month) include 50% discounts on raku, pit, soda and gas firings. A 3-month commitment is required; new members should complete at least two intro classes first.",
+          "pay_text": null,
+          "bring": null,
+          "commitment": null,
+          "id": "ada8824785b6",
+          "firing_type": "raku",
+          "kiln_style": null,
+          "access_kind": "ongoing_membership",
+          "audience": "public",
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "none",
+          "signup_deadline": null,
+          "registration_status": "unknown",
+          "registration_opens": null,
+          "cost_text": "Basic Membership $205–$270/month; 50% discounted firings including Raku, Pit, Soda Gas and more",
+          "how_to_join": "Contact studio or fill out membership inquiry form at https://claycreationspacifica.com/membership/",
+          "includes": [
+            "raku",
+            "pit_barrel_saggar",
+            "soda",
+            "gas_reduction"
+          ],
+          "crew_needed": false,
+          "first_atmospheric_ok": null,
+          "source_url": "https://claycreationspacifica.com/membership/",
+          "evidence_sentence": "Membership page states members receive 50% discounted firings including raku, pit, soda and gas firings.",
+          "evidence_quote": "50% discounted firings, including Raku, Pit, Soda Gas and more!",
+          "evidence_url": "https://claycreationspacifica.com/membership/#:~:text=50%25%20discounted%20firings%2C%20including,Soda%20Gas%20and%20more!",
+          "signup_url": null,
+          "checked": "2026-10-09",
+          "added_by": null,
+          "title": "Membership with Raku, Pit, Soda & Gas Firing Access",
+          "status": "ongoing",
+          "key_date": null,
+          "who_can_join": null
+        }
+      ]
     },
     {
       "id": "common-clay-space",
@@ -4933,50 +5333,17 @@
         "status": "upcoming"
       },
       "get_in": [
-        "Raku firings; kiln firing services",
-        "Workshops and firings"
+        "Raku firings; kiln firing services"
       ],
       "firing_types": [
         "raku"
       ],
       "tracking": "not_checked",
       "last_checked": null,
-      "unknowns": [],
-      "opportunities": [
-        {
-          "summary": null,
-          "pay_text": null,
-          "bring": null,
-          "commitment": "5:30pm-9:30pm",
-          "id": "315092779328",
-          "firing_type": "raku",
-          "kiln_style": null,
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-10",
-          "end_date": "2026-10-10",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "more_info",
-          "registration_opens": null,
-          "cost_text": null,
-          "how_to_join": null,
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": null,
-          "source_url": "https://www.claycoopstpete.com/rakufiring",
-          "evidence_sentence": null,
-          "evidence_quote": "Fire It Up : Raku Every Second Saturday 5:30pm-9:30pm",
-          "evidence_url": "https://www.claycoopstpete.com/rakufiring",
-          "signup_url": null,
-          "checked": "2026-10-09",
-          "added_by": null,
-          "title": "Fire It Up: Raku",
-          "status": "more_info",
-          "key_date": "Sign-up status not posted",
-          "who_can_join": null
-        }
-      ]
+      "unknowns": [
+        "Firing dates aren't posted anywhere we can check."
+      ],
+      "opportunities": []
     },
     {
       "id": "atlantic-beach-arts-market",
@@ -5477,8 +5844,8 @@
         "Workshops and firings"
       ],
       "firing_types": [
-        "wood",
-        "raku"
+        "raku",
+        "wood"
       ],
       "tracking": "auto",
       "last_checked": "2026-10-05",
@@ -5486,72 +5853,6 @@
         "Shown at the town."
       ],
       "opportunities": [
-        {
-          "summary": "Wood-fire your bisqued pots in a historic anagama kiln over a three-day weekend. Participants glaze, load, stoke shifts, and help unload. Entry is by lottery; the deadline (July 27, 2026) has passed as of today.",
-          "pay_text": "$125 participation fee",
-          "bring": "Bisqued pots (at least 2000 cubic inches), Cone 10 clay and glazes (or use provided glaze)",
-          "commitment": "Fri load · Sat fire · Mon unload; plus one stoking shift and help with wood",
-          "id": "0237f63667db",
-          "firing_type": "wood",
-          "kiln_style": "anagama",
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-09",
-          "end_date": "2026-10-11",
-          "date_precision": "exact",
-          "signup_deadline": "2026-07-27",
-          "registration_status": "closed",
-          "registration_opens": "2026-07-27",
-          "cost_text": "$125 participation fee includes up to 2000 cubic inches; 10¢ per cubic inch for additional pieces",
-          "how_to_join": "Lottery entry; notification of results by August 4, 2026. Participation is not guaranteed.",
-          "includes": null,
-          "crew_needed": true,
-          "first_atmospheric_ok": null,
-          "source_url": "https://www.hambidge.org/anagama-kiln-firings",
-          "evidence_sentence": "The page describes a three-day wood firing with an anagama kiln for 20–25 potters who load, glaze, stoke, and unload.",
-          "evidence_quote": "The firing of the kiln over a three-day weekend provides potters with the unique opportunity to experience all facets of a wood firing.",
-          "evidence_url": "https://www.hambidge.org/anagama-kiln#:~:text=The%20firing%20of%20the,of%20a%20wood%20firing.",
-          "signup_url": null,
-          "checked": "2026-10-05",
-          "added_by": null,
-          "title": "Fall 2026 Anagama Firing",
-          "status": "full",
-          "key_date": null,
-          "who_can_join": null
-        },
-        {
-          "summary": null,
-          "pay_text": null,
-          "bring": null,
-          "commitment": "9:00 AM - 1:00 PM",
-          "id": "0da435eee69c",
-          "firing_type": "wood",
-          "kiln_style": null,
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-09",
-          "end_date": "2026-10-11",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "more_info",
-          "registration_opens": null,
-          "cost_text": null,
-          "how_to_join": null,
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": null,
-          "source_url": "https://www.hambidge.org/events",
-          "evidence_sentence": null,
-          "evidence_quote": "Join us for our Anagama Kiln Firing this Fall. Ceramicists will start glazing and loading on Friday, October 9 at 9am. Firing will begin that evening and continue through Sunday afternoon, October 11.",
-          "evidence_url": "https://www.hambidge.org/events",
-          "signup_url": null,
-          "checked": "2026-10-09",
-          "added_by": null,
-          "title": "Anagama Kiln Firing—Fall 2026",
-          "status": "more_info",
-          "key_date": "Sign-up status not posted",
-          "who_can_join": null
-        },
         {
           "summary": null,
           "pay_text": null,
@@ -6494,50 +6795,17 @@
         "status": "upcoming"
       },
       "get_in": [
-        "Classes or membership",
-        "Workshops and firings"
+        "Classes or membership"
       ],
       "firing_types": [
         "raku"
       ],
       "tracking": "not_checked",
       "last_checked": null,
-      "unknowns": [],
-      "opportunities": [
-        {
-          "summary": null,
-          "pay_text": null,
-          "bring": null,
-          "commitment": null,
-          "id": "5cd9001b3cef",
-          "firing_type": "raku",
-          "kiln_style": null,
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-10",
-          "end_date": "2026-10-10",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "more_info",
-          "registration_opens": null,
-          "cost_text": "$75 per person",
-          "how_to_join": null,
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": null,
-          "source_url": "https://www.houseofclaykc.com/raku-pottery-workshop-overland-park/",
-          "evidence_sentence": null,
-          "evidence_quote": "Raku Pumpkin Day on October 10 at House of Clay in Overland Park! In this one-day pottery experience, you'll glaze your own handmade ceramic pumpkin and watch it transform during a live Raku firing.",
-          "evidence_url": "https://www.houseofclaykc.com/raku-pottery-workshop-overland-park/",
-          "signup_url": null,
-          "checked": "2026-10-09",
-          "added_by": null,
-          "title": "Raku Pumpkin Day",
-          "status": "more_info",
-          "key_date": "Sign-up status not posted",
-          "who_can_join": null
-        }
-      ]
+      "unknowns": [
+        "Firing dates aren't posted anywhere we can check."
+      ],
+      "opportunities": []
     },
     {
       "id": "art-center-bluegrass",
@@ -6583,39 +6851,6 @@
         "Sign-up status isn't posted for some dates."
       ],
       "opportunities": [
-        {
-          "summary": "A community wood-firing of the Dragon Fire Anagama kiln October 4–9, 2026. Earn kiln space by working shifts: loading, stoking, wood-cutting, and kiln-site work days. Points earned from work hours determine loading priority; points may also be purchased at $25 each. Bring bisque-fired Cone 10 pieces; participants glaze and wad their own work.",
-          "pay_text": null,
-          "bring": "Bisque-fired Cone 10 pottery, work gloves, protective clothing",
-          "commitment": "Fri-Sat load · Sun-Fri stoking shifts · Oct 18 unload",
-          "id": "7aeebab812a4",
-          "firing_type": "wood",
-          "kiln_style": "anagama",
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-04",
-          "end_date": "2026-10-09",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "closed",
-          "registration_opens": null,
-          "cost_text": "$25 per point (optional purchase for kiln space)",
-          "how_to_join": "Sign up for shifts beginning August 24 at 6 pm on the platform at https://go.artcenterky.org/signup, or contact the Art Center at 859-236-4054",
-          "includes": null,
-          "crew_needed": true,
-          "first_atmospheric_ok": null,
-          "source_url": "https://artcenterky.org/community/anagama/",
-          "evidence_sentence": "The wood-fired anagama kiln firing runs October 4-9, with participants earning kiln space by working shifts.",
-          "evidence_quote": "This Japanese-style cave kiln is fueled by wood and holds hundreds of pots.",
-          "evidence_url": "https://artcenterky.org/community/ceramics-studio/#:~:text=This%20Japanese%2Dstyle%20cave%20kiln,holds%20hundreds%20of%20pots.",
-          "signup_url": "https://go.artcenterky.org/signup",
-          "checked": "2026-10-05",
-          "added_by": null,
-          "title": "Dragon Fire Anagama Firing – October 2026",
-          "status": "full",
-          "key_date": null,
-          "who_can_join": null
-        },
         {
           "summary": "A second community wood-firing of the Dragon Fire Anagama kiln April 4–9, 2027. Earn kiln space by working shifts with the same point system and fees. Bring bisque-fired Cone 10 pieces; participants glaze and wad their own work.",
           "pay_text": null,
@@ -7554,46 +7789,13 @@
         "Classes"
       ],
       "firing_types": [
-        "raku",
-        "soda"
+        "soda",
+        "raku"
       ],
       "tracking": "auto",
       "last_checked": "2026-10-05",
       "unknowns": [],
       "opportunities": [
-        {
-          "summary": "Matthew Dercole leads a hands-on raku firing for Maine-based K–12 educators on October 10. Participants glaze bisqueware, observe and take part in a live firing, and learn how to incorporate raku into classroom instruction. No prior raku experience required; $75 includes firing and materials.",
-          "pay_text": null,
-          "bring": "Bisqueware of any clay body in a variety of shapes and sizes (please limit pieces over 10\"), cotton clothing and closed toe shoes, safety goggles and leather gloves, packing material to transport work home",
-          "commitment": "Saturday, 10/10, 8:45 AM check-in, 9 AM–5 PM instruction",
-          "id": "28c8cda4d767",
-          "firing_type": "raku",
-          "kiln_style": null,
-          "access_kind": "class_enrollment",
-          "audience": "public",
-          "start_date": "2026-10-10",
-          "end_date": "2026-10-10",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "open",
-          "registration_opens": null,
-          "cost_text": "$75",
-          "how_to_join": "Register via the link on the workshop page",
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": true,
-          "source_url": "https://www.watershedceramics.org/workshops/k-12-raku",
-          "evidence_sentence": "The workshop page describes a hands-on raku firing where participants glaze bisqueware and take part in a live firing.",
-          "evidence_quote": "Join Studio & Facilities Manager, Matthew Dercole, as he leads a hands-on raku firing for Maine-based K–12 educators.",
-          "evidence_url": "https://www.watershedceramics.org/workshops/k-12-raku#:~:text=Join%20Studio%20%26%20Facilities,for%20Maine%2Dbased%20K%E2%80%9312%20educators.",
-          "signup_url": "https://pci.jotform.com/form/262024075324145",
-          "checked": "2026-10-05",
-          "added_by": null,
-          "title": "Raku Firing Workshop",
-          "status": "open",
-          "key_date": null,
-          "who_can_join": "Maine K–12 educators only"
-        },
         {
           "summary": "Matthew Dercole teaches a four-day soda firing workshop, October 15–18, covering glazing, firing a gas downdraft kiln, and unloading. Participants bring Cone 10 bisqueware; the $450 fee (or $75 for K–12 educators) includes firing, soda ash, wadding, glaze, and meals.",
           "pay_text": null,
@@ -7876,39 +8078,6 @@
           "pay_text": null,
           "bring": null,
           "commitment": "Group 1: 10am-2pm, Group 2: 2pm-6pm",
-          "id": "0e5eb724cc4d",
-          "firing_type": "raku",
-          "kiln_style": null,
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-10",
-          "end_date": "2026-10-10",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "more_info",
-          "registration_opens": null,
-          "cost_text": "$60-$150",
-          "how_to_join": null,
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": null,
-          "source_url": "https://www.natewinterstudios.com/studio-events",
-          "evidence_sentence": null,
-          "evidence_quote": "Raku Workshop | SAT 10/10",
-          "evidence_url": "https://www.natewinterstudios.com/studio-events",
-          "signup_url": null,
-          "checked": "2026-10-09",
-          "added_by": null,
-          "title": "Raku Workshop",
-          "status": "more_info",
-          "key_date": "Sign-up status not posted",
-          "who_can_join": null
-        },
-        {
-          "summary": null,
-          "pay_text": null,
-          "bring": null,
-          "commitment": "Group 1: 10am-2pm, Group 2: 2pm-6pm",
           "id": "2653436977a2",
           "firing_type": "raku",
           "kiln_style": null,
@@ -8077,50 +8246,14 @@
       "access": {
         "status": "ongoing"
       },
-      "get_in": [
-        "Workshops and firings"
-      ],
-      "firing_types": [
-        "raku"
-      ],
+      "get_in": [],
+      "firing_types": [],
       "tracking": "auto",
       "last_checked": "2026-10-05",
-      "unknowns": [],
-      "opportunities": [
-        {
-          "summary": "Raku Party is sold out. On October 10, 2026, participants choose a pre-made vessel, glaze it with instruction, and watch it fire in a raku kiln and go through the Western Raku reduction process ($90 per person, seven time slots).",
-          "pay_text": "$90 per section",
-          "bring": null,
-          "commitment": "2.5 hours (per time slot)",
-          "id": "2717f36eccbe",
-          "firing_type": "raku",
-          "kiln_style": null,
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-10",
-          "end_date": "2026-10-10",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "sold_out",
-          "registration_opens": null,
-          "cost_text": "$90 per person",
-          "how_to_join": "Pre-registration through website (all sections sold out)",
-          "includes": [],
-          "crew_needed": false,
-          "first_atmospheric_ok": true,
-          "source_url": "https://www.pewabic.org/pages/raku-party",
-          "evidence_sentence": "The Raku Party workshop page states participants choose and glaze pots to be fired in the Raku Kiln.",
-          "evidence_quote": "Once we've loaded all of your section's pots into the Raku Kiln, it will fire for about 45 minutes, then it will be pulled from the hot kiln and sent through the Western Raku process",
-          "evidence_url": "https://www.pewabic.org/pages/raku-party#:~:text=Once%20we've%20loaded%20all,the%20Western%20Raku%20process",
-          "signup_url": "https://www.pewabic.org/collections/raku-party",
-          "checked": "2026-10-05",
-          "added_by": null,
-          "title": "Raku Party 2026",
-          "status": "full",
-          "key_date": null,
-          "who_can_join": null
-        }
-      ]
+      "unknowns": [
+        "No upcoming firing dates are posted on their website."
+      ],
+      "opportunities": []
     },
     {
       "id": "pottery-lane",
@@ -9481,72 +9614,6 @@
           "summary": null,
           "pay_text": null,
           "bring": null,
-          "commitment": "9am-3pm",
-          "id": "63f24ce32cbd",
-          "firing_type": "soda",
-          "kiln_style": null,
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-10",
-          "end_date": "2026-10-10",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "more_info",
-          "registration_opens": null,
-          "cost_text": null,
-          "how_to_join": null,
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": null,
-          "source_url": "https://dougdotsonpottery.com/soda-firing-workshop-artscenter/",
-          "evidence_sentence": null,
-          "evidence_quote": null,
-          "evidence_url": null,
-          "signup_url": null,
-          "checked": "2026-10-09",
-          "added_by": null,
-          "title": "Cone 6 Soda Firing Workshop - Load the kiln",
-          "status": "more_info",
-          "key_date": "Sign-up status not posted",
-          "who_can_join": null
-        },
-        {
-          "summary": null,
-          "pay_text": null,
-          "bring": null,
-          "commitment": null,
-          "id": "ee03067f2142",
-          "firing_type": "soda",
-          "kiln_style": null,
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-11",
-          "end_date": "2026-10-11",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "more_info",
-          "registration_opens": null,
-          "cost_text": null,
-          "how_to_join": null,
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": null,
-          "source_url": "https://dougdotsonpottery.com/soda-firing-workshop-artscenter/",
-          "evidence_sentence": null,
-          "evidence_quote": null,
-          "evidence_url": null,
-          "signup_url": null,
-          "checked": "2026-10-09",
-          "added_by": null,
-          "title": "Cone 6 Soda Firing Workshop - Fire the kiln",
-          "status": "more_info",
-          "key_date": "Sign-up status not posted",
-          "who_can_join": null
-        },
-        {
-          "summary": null,
-          "pay_text": null,
-          "bring": null,
           "commitment": "9am-12noon",
           "id": "334712b630a9",
           "firing_type": "soda",
@@ -9787,50 +9854,17 @@
         "status": "upcoming"
       },
       "get_in": [
-        "Jun 20, 2026; membership with firing",
-        "Workshops and firings"
+        "Jun 20, 2026; membership with firing"
       ],
       "firing_types": [
         "raku"
       ],
       "tracking": "not_checked",
       "last_checked": null,
-      "unknowns": [],
-      "opportunities": [
-        {
-          "summary": null,
-          "pay_text": null,
-          "bring": null,
-          "commitment": "6-9pm",
-          "id": "b3888db5f050",
-          "firing_type": "raku",
-          "kiln_style": null,
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-09",
-          "end_date": "2026-10-09",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "more_info",
-          "registration_opens": null,
-          "cost_text": "$125 per person, members receive 15% discount",
-          "how_to_join": null,
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": null,
-          "source_url": "https://www.avlclay.com/events",
-          "evidence_sentence": null,
-          "evidence_quote": "Raku session: Friday October 9th 6-9pm",
-          "evidence_url": "https://www.avlclay.com/events",
-          "signup_url": null,
-          "checked": "2026-10-09",
-          "added_by": null,
-          "title": "Spooky Skull Raku",
-          "status": "more_info",
-          "key_date": "Sign-up status not posted",
-          "who_can_join": null
-        }
-      ]
+      "unknowns": [
+        "Firing dates aren't posted anywhere we can check."
+      ],
+      "opportunities": []
     },
     {
       "id": "jeff-brown-pottery",
@@ -10512,50 +10546,17 @@
       "access": {
         "status": "upcoming"
       },
-      "get_in": [
-        "Workshops and firings"
-      ],
+      "get_in": [],
       "firing_types": [
+        "raku",
         "soda"
       ],
       "tracking": "not_checked",
       "last_checked": null,
-      "unknowns": [],
-      "opportunities": [
-        {
-          "summary": null,
-          "pay_text": null,
-          "bring": null,
-          "commitment": "8:00 AM start, unload next day at 6:00 PM",
-          "id": "65537d36ef48",
-          "firing_type": "soda",
-          "kiln_style": null,
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-09",
-          "end_date": "2026-10-10",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "more_info",
-          "registration_opens": null,
-          "cost_text": "$50-$60",
-          "how_to_join": null,
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": null,
-          "source_url": "https://animalhousepottery.com/workshops",
-          "evidence_sentence": null,
-          "evidence_quote": "Spend a Sunday with us learning soda firing (this will be a wood/soda firing) from the ground up. We start at 8am glazing, attaching wadding, and loading the soda kiln, watch it climb to temperature into the evening, then come back the next day at 6pm for the big reveal as we unload. Bring your own ",
-          "evidence_url": "https://animalhousepottery.com/workshops",
-          "signup_url": null,
-          "checked": "2026-10-09",
-          "added_by": null,
-          "title": "Bi-Monthly Soda Firing",
-          "status": "more_info",
-          "key_date": "Sign-up status not posted",
-          "who_can_join": null
-        }
-      ]
+      "unknowns": [
+        "Firing dates aren't posted anywhere we can check."
+      ],
+      "opportunities": []
     },
     {
       "id": "28a-clay",
@@ -10754,50 +10755,17 @@
         "status": "upcoming"
       },
       "get_in": [
-        "Sat Oct 10, 10am–3pm",
-        "Workshops and firings"
+        "Sat Oct 10, 10am–3pm"
       ],
       "firing_types": [
         "raku"
       ],
       "tracking": "auto",
       "last_checked": "2026-10-09",
-      "unknowns": [],
-      "opportunities": [
-        {
-          "summary": "On October 10, 2026, watch your glazed pot fire in a wood-fired raku kiln with immediate reduction and thermal shock creating signature crackled surfaces. Reserve your pot and time slot in advance; firing time is roughly 30 minutes to an hour.",
-          "pay_text": null,
-          "bring": "No materials required; participants select and glaze a premade pot",
-          "commitment": "10am-3pm, hourly firings; schedule your glazing and firing time",
-          "id": "d87b2ee47afd",
-          "firing_type": "raku",
-          "kiln_style": "raku",
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-10",
-          "end_date": "2026-10-10",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "open",
-          "registration_opens": null,
-          "cost_text": "Member: $15; Non-Member: $25",
-          "how_to_join": "Register online to reserve a pot and time slot",
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": true,
-          "source_url": "https://www.viewarts.org/experience/experiences/fall-raku-firing/",
-          "evidence_sentence": "The event description states participants choose and glaze a pot then watch it get fired in View's wood-fired raku kiln.",
-          "evidence_quote": "Purchase a pot, glaze it in one of View's raku glazes and watch it get fired in real time.",
-          "evidence_url": "https://www.viewarts.org/experience/experiences/fall-raku-firing/#:~:text=Purchase%20a%20pot%2C%20glaze,fired%20in%20real%20time.",
-          "signup_url": "https://34885.blackbaudhosting.com/34885/C---Fall-Raku-Firing",
-          "checked": "2026-10-09",
-          "added_by": null,
-          "title": "Fall Raku Firing",
-          "status": "open",
-          "key_date": null,
-          "who_can_join": null
-        }
-      ]
+      "unknowns": [
+        "No upcoming firing dates are posted on their website."
+      ],
+      "opportunities": []
     },
     {
       "id": "the-d-amico-institute-of-art",
@@ -12060,50 +12028,17 @@
         "status": "upcoming"
       },
       "get_in": [
-        "Sun Jul 19 raku day",
-        "Workshops and firings"
+        "Sun Jul 19 raku day"
       ],
       "firing_types": [
         "raku"
       ],
       "tracking": "not_checked",
       "last_checked": null,
-      "unknowns": [],
-      "opportunities": [
-        {
-          "summary": null,
-          "pay_text": null,
-          "bring": null,
-          "commitment": "10:00 AM – 2:00 PM",
-          "id": "59217be6bf0c",
-          "firing_type": "raku",
-          "kiln_style": null,
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-10",
-          "end_date": "2026-10-10",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "more_info",
-          "registration_opens": null,
-          "cost_text": "$300.00",
-          "how_to_join": null,
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": null,
-          "source_url": "https://www.synergyceramicsbend.com/class-schedule",
-          "evidence_sentence": null,
-          "evidence_quote": "RAKU DATE DAY! 10/10/26 10:00 AM – 2:00 PM",
-          "evidence_url": "https://www.synergyceramicsbend.com/class-schedule",
-          "signup_url": null,
-          "checked": "2026-10-09",
-          "added_by": null,
-          "title": "RAKU DATE DAY! 10/10/26",
-          "status": "more_info",
-          "key_date": "Sign-up status not posted",
-          "who_can_join": null
-        }
-      ]
+      "unknowns": [
+        "Firing dates aren't posted anywhere we can check."
+      ],
+      "opportunities": []
     },
     {
       "id": "oregon-coast-school-of-art",
@@ -14819,81 +14754,13 @@
         "Workshops and firings"
       ],
       "firing_types": [
-        "raku",
-        "gas_reduction"
+        "gas_reduction",
+        "raku"
       ],
       "tracking": "auto",
       "last_checked": "2026-10-05",
-      "unknowns": [
-        "Sign-up status isn't posted for some dates."
-      ],
+      "unknowns": [],
       "opportunities": [
-        {
-          "summary": null,
-          "pay_text": null,
-          "bring": null,
-          "commitment": "morning",
-          "id": "555d0b133188",
-          "firing_type": "raku",
-          "kiln_style": null,
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-10",
-          "end_date": "2026-10-10",
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "more_info",
-          "registration_opens": null,
-          "cost_text": "$210.00",
-          "how_to_join": null,
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": null,
-          "source_url": "https://www.seattleartistleague.com/all-classes/",
-          "evidence_sentence": null,
-          "evidence_quote": "Raku for All Levels SATURDAY MORNING WORKSHOP begins 10.10",
-          "evidence_url": "https://www.seattleartistleague.com/all-classes/",
-          "signup_url": null,
-          "checked": "2026-10-09",
-          "added_by": null,
-          "title": "Raku for All Levels SATURDAY MORNING WORKSHOP",
-          "status": "more_info",
-          "key_date": "Sign-up status not posted",
-          "who_can_join": null
-        },
-        {
-          "summary": "A Saturday morning raku workshop for all levels at Seattle Artist League starting October 10, 2026. Cost is $210.",
-          "pay_text": null,
-          "bring": null,
-          "commitment": "SATURDAY MORNING",
-          "id": "697d41d05640",
-          "firing_type": "raku",
-          "kiln_style": null,
-          "access_kind": "dated",
-          "audience": "public",
-          "start_date": "2026-10-10",
-          "end_date": null,
-          "date_precision": "exact",
-          "signup_deadline": null,
-          "registration_status": "unknown",
-          "registration_opens": null,
-          "cost_text": "$210.00",
-          "how_to_join": "Enroll through the Seattle Artist League website pottery classes section.",
-          "includes": null,
-          "crew_needed": false,
-          "first_atmospheric_ok": null,
-          "source_url": "https://www.seattleartistleague.com/product-category/c-pottery/",
-          "evidence_sentence": "The pottery classes page lists Raku for All Levels as a Saturday morning workshop beginning October 10.",
-          "evidence_quote": "Raku for All Levels SATURDAY MORNING WORKSHOP begins 10.10",
-          "evidence_url": "https://seattleartistleague.com/product-category/c-pottery/#:~:text=Raku%20for%20All%20Levels,MORNING%20WORKSHOP%20begins%2010.10",
-          "signup_url": null,
-          "checked": "2026-10-05",
-          "added_by": null,
-          "title": "Raku for All Levels",
-          "status": "open",
-          "key_date": null,
-          "who_can_join": null
-        },
         {
           "summary": null,
           "pay_text": null,

@@ -42,7 +42,7 @@ You review because every step so far was automated. A wrong entry sends a potter
 let total = 0;
 for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2}\.json$/.test(f))) {
   const ST = f.slice(0, 2); if (only.length && !only.includes(ST)) continue;
-  const rows = JSON.parse(fs.readFileSync(path.join(KM, "sources", f), "utf8")).sources.filter((s) => (s.review === "pending" && !s.weak && s.verify) || (s.auto_approved && !s.confirmed_by_robby) || s.needs_recheck).sort((a, b) => (b.needs_recheck ? 1 : 0) - (a.needs_recheck ? 1 : 0) || upcomingRank(a) - upcomingRank(b));
+  const rows = JSON.parse(fs.readFileSync(path.join(KM, "sources", f), "utf8")).sources.filter((s) => (s.review === "pending" && !s.weak && s.verify) || (s.auto_approved && !s.confirmed_by_robby) || s.needs_review_later || s.needs_recheck).sort((a, b) => (b.needs_recheck ? 1 : 0) - (a.needs_recheck ? 1 : 0) || upcomingRank(a) - upcomingRank(b));
   if (!rows.length) continue;
   out += `\n## ${ST} (${rows.length})\n`;
   rows.forEach((s, i) => {
@@ -50,7 +50,7 @@ for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2
     const q = t[0]?.[1] || s.access?.quote || "";
     const cs = concerns(s, q);
     const evs = [...eventsFor(s.id), ...apprEvents.filter((e) => e.source_id === s.id && !e.past && (e.end_date || e.start_date || "9") >= todayStr)];
-    out += `\n${i + 1}. **${s.org}** [${s.id}]${s.city ? `, ${s.city}` : ""} — ${t.map(([k]) => k.replace("_", "/")).join(", ")}\n   Why it is here: "${q.slice(0, 220)}"\n   Page: ${s.access?.url || s.contact?.website}\n   ${s.auto_approved ? "LIVE on the site already (auto-approved); reject to take it down. " : ""}Status: ${STATUS[s.access?.status] || "Open now"}. Pin: ${s.location_precision === "address" ? `exact address (${s.address})` : "town only"}.\n${evs.length ? evs.map((e) => `   Upcoming: ${e.title}, ${e.start_date || e.date_precision}${e.cost_text ? `, ${e.cost_text}` : ""} (${e.registration_status || "status unknown"})${e.signup_url ? ` - signup ${e.signup_url}` : ""} - source ${e.source_url}\n`).join("") : ""}${cs.length ? `   Look at: ${cs.join("; ")}.\n` : ""}`;
+    out += `\n${i + 1}. **${s.org}** [${s.id}]${s.city ? `, ${s.city}` : ""} — ${t.map(([k]) => k.replace("_", "/")).join(", ")}\n   Why it is here: "${q.slice(0, 220)}"\n   Page: ${s.access?.url || s.contact?.website}\n   ${s.needs_review_later ? "LIVE (you approved it in bulk on " + s.needs_review_later + "; check it later). " : s.auto_approved ? "LIVE on the site already (auto-approved); reject to take it down. " : ""}Status: ${STATUS[s.access?.status] || "Open now"}. Pin: ${s.location_precision === "address" ? `exact address (${s.address})` : "town only"}.\n${evs.length ? evs.map((e) => `   Upcoming: ${e.title}, ${e.start_date || e.date_precision}${e.cost_text ? `, ${e.cost_text}` : ""} (${e.registration_status || "status unknown"})${e.signup_url ? ` - signup ${e.signup_url}` : ""} - source ${e.source_url}\n`).join("") : ""}${cs.length ? `   Look at: ${cs.join("; ")}.\n` : ""}`;
   });
   total += rows.length;
 }
