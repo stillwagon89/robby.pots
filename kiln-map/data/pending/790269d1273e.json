@@ -7,7 +7,7 @@
   "date_precision": "none",
   "start_date": null,
   "end_date": null,
-  "registration_status": "open",
+  "registration_status": "unknown",
   "crew_needed": false,
   "source_url": "https://www.clayspaceeugene.org/copy-of-membership",
   "source_quote": "FIRING MEMBERSHIP Clay Space fires to bisque temperature in electric kilns, glaze firings in gas reduction kilns to cone 10 and offers two levels of Firing Membership: Basic and Production.",
@@ -24,7 +24,7 @@
   "source_id": "clay-space",
   "past": false,
   "quote_verified": true,
-  "checked": "2026-10-09",
+  "checked": "2026-10-13",
   "evidence_url": "https://www.clayspaceeugene.org/copy-of-classes-1#:~:text=Clay%20Space%20fires%20to,Membership%3A%20Basic%20and%20Production.",
   "evidence_via": null,
   "evidence_verified": true,
@@ -54,5 +54,10 @@
     ],
     "first_atmospheric_ok": false,
     "how_to_join": "Available to previous students or members of Clay Space"
+  },
+  "changed_from": {
+    "start_date": null,
+    "end_date": null,
+    "registration_status": "open"
   }
 }

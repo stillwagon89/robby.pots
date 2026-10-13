@@ -5,7 +5,7 @@
   "access_kind": "ongoing_membership",
   "audience": "public",
   "date_precision": "none",
-  "registration_status": "open",
+  "registration_status": "unknown",
   "crew_needed": false,
   "includes": [
     "raku",
@@ -24,7 +24,7 @@
   "source_id": "view-arts-center",
   "past": false,
   "quote_verified": true,
-  "checked": "2026-10-09",
+  "checked": "2026-10-13",
   "evidence_url": "https://www.viewarts.org/for-artists/artistic-communities/independent-potters/",
   "evidence_via": null,
   "evidence_verified": true,
@@ -54,5 +54,8 @@
     "evidence_quote": "Raku kiln",
     "confidence": 0.95,
     "first_atmospheric_ok": null
+  },
+  "changed_from": {
+    "registration_status": "open"
   }
 }

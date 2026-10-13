@@ -19,7 +19,7 @@
   "kiln_style": null,
   "pay_text": null,
   "registration_opens": null,
-  "registration_status": "unknown",
+  "registration_status": "closed",
   "signup_deadline": null,
   "signup_url": "https://spokanepottersguild.org/pages/raku-firing-sign-up-1",
   "source_quote": "Raku Firing October 10, 2026 8 spots 10:30am-1:30pm 8 Spots 12pm -3pm",
@@ -27,9 +27,9 @@
   "start_date": "2026-10-10",
   "summary": "Spokane Potters' Guild is holding a raku firing on October 10, 2026, with 8 spots available for each of two time slots. Participants must bring glazed pieces and be present to manage the reduction chamber.",
   "source_id": "spokane-potters-guild",
-  "past": false,
+  "past": true,
   "quote_verified": true,
-  "checked": "2026-10-09",
+  "checked": "2026-10-13",
   "evidence_url": "https://spokanepottersguild.org/pages/raku-firing-sign-up-1#:~:text=Raku%20Firing%20October%2010%2C%202026",
   "evidence_via": null,
   "evidence_verified": true,
@@ -63,5 +63,10 @@
     "source_url": "https://spokanepottersguild.org/pages/raku-firing-sign-up-1",
     "start_date": "2026-10-10",
     "summary": "Spokane Potters' Guild is holding a raku firing on October 10, 2026, with 8 spots available for each of two time slots. Participants must bring glazed pieces and be present to manage the reduction chamber."
+  },
+  "changed_from": {
+    "start_date": "2026-10-10",
+    "end_date": "2026-10-10",
+    "registration_status": "unknown"
   }
 }

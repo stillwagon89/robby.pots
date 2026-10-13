@@ -5,9 +5,9 @@
   "access_kind": "dated",
   "audience": "public",
   "start_date": "2027-06-18",
-  "end_date": "2027-06-24",
+  "end_date": "2027-06-26",
   "date_precision": "exact",
-  "registration_status": "unknown",
+  "registration_status": "open",
   "crew_needed": true,
   "summary": "Join a New England wood-firing crew for a 7-day firing experience, loading, firing and unloading a Host Kiln. Participants fire their own work (2 cubic feet per person) and can tour other Host Kiln sites during cooling.",
   "commitment": "June 18-24 stoke crew; unload typically within 7-day firing window",
@@ -28,7 +28,7 @@
   "source_id": "newenglandwfc",
   "past": false,
   "quote_verified": false,
-  "checked": "2026-10-09",
+  "checked": "2026-10-13",
   "evidence_url": "https://www.newenglandwfc.com/#:~:text=stoke%20crew%20participants%20will,unloaded%20during%20Firing%20Week.",
   "evidence_via": null,
   "evidence_verified": true,
@@ -61,5 +61,10 @@
     "hosts_groups": null,
     "first_atmospheric_ok": true,
     "confidence": 0.95
+  },
+  "changed_from": {
+    "start_date": "2027-06-18",
+    "end_date": "2027-06-24",
+    "registration_status": "unknown"
   }
 }
