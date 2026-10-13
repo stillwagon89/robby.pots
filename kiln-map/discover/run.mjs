@@ -40,6 +40,15 @@ function searchList() {
     q.push(`cone 10 gas reduction community pottery studio membership ${c} ${ST}`);
   }
   for (const s of ["pottery supply store raku firing", "potters guild wood firing", "community college ceramics wood kiln open to public", "anagama kiln", "raku party book a private firing", "ceramics residency atmospheric firing"]) q.push(`${s} ${S}`);
+  if (process.env.EXTRA) {
+    // Second family (wave 2): angles the first pass misses - guilds, craft schools, art centers, open-studio tours, kiln-opening events.
+    for (const t of ["potters guild members kiln firing", "state potters association workshops kiln", "craft school ceramics wood kiln workshop", "art center ceramics department raku firing public", "studio tour pottery wood fired kiln opening", "kiln opening sale wood fired pottery", "community pottery studio gas kiln membership", "pottery studio rent kiln space firing for outside potters", "university ceramics anagama kiln firing open to public", "ceramics festival raku demonstration", "obvara or pit firing class", "clay center residency kiln"]) q.push(`${t} ${S}`);
+    for (const c of CFG.cities) {
+      q.push(`pottery classes ${c} ${ST} raku`);
+      q.push(`${c} ${ST} potters guild OR clay co-op OR ceramics center kiln`);
+      q.push(`${c} ${ST} pottery studio open studio wood kiln OR gas kiln OR soda kiln`);
+    }
+  }
   return [...new Set(q)];
 }
 
