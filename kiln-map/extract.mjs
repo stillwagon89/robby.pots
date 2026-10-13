@@ -386,7 +386,17 @@ const requestParams = (source, pages) => ({
 function parseMessage(body) {
   const use = body.content.find((c) => c.type === "tool_use");
   if (body.stop_reason === "max_tokens") throw new Error("output cut off (max_tokens)");
-  return { opportunities: [], firing_evidence: [], ...(use?.input || { notes: "no tool output" }), usage: body.usage };
+  const out = { opportunities: [], firing_evidence: [], ...(use?.input || { notes: "no tool output" }), usage: body.usage };
+  // The model sometimes returns these as a string/object instead of an array; coerce so one odd reply can't crash the run.
+  for (const k of ["opportunities", "firing_evidence"]) {
+    if (!Array.isArray(out[k])) {
+      let v = out[k];
+      if (typeof v === "string") { try { v = JSON.parse(v); } catch { v = []; } }
+      out[k] = Array.isArray(v) ? v : [];
+    }
+    out[k] = out[k].filter((x) => x && typeof x === "object");
+  }
+  return out;
 }
 
 async function extract(source, pages) {
