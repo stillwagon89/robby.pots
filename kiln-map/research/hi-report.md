@@ -1,8 +1,8 @@
-# Hawaii discovery report (2026-10-07)
+# Hawaii discovery report (2026-10-13)
 
-Searches: 37 (Tavily). Places seen: 104. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 70 (Tavily). Places seen: 237. Judge: gemma4:latest on this Mac. No Claude used.
 
-## Qualifies (verified quote, 6)
+## Qualifies (verified quote, 8)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -10,15 +10,16 @@ Searches: 37 (Tavily). Places seen: 104. Judge: gemma4:latest on this Mac. No Cl
 | Hawai'i Craftsmen | Oʻahu | raku | dated_events | **new** | hawaiicraftsmen.org | "Raku Hoʻolauleʻa (a celebration of raku) brings together ceramic artists to participate in raku and related firing techniques at a campout which is held in a be" |
 | Hawaii Ceramic Supply | Honolulu | raku, pit_barrel_saggar | dated_events | **new** | hawaiiceramicsupply.com | "Raku Workshop Featuring Don Ellis & Randy Brodnax (2-1/2 Days) Dates: August 9th (1pm to 4pm), 10th (9:30am to 4pm) and 11th (9:30am to 4pm) Location: Hawaii Ce" |
 | nendo studio hawaii | ? | raku | ongoing_class_or_membership | **new** | nendostudiohawaii.com | "We offer a variety of wheel throwing and handbuilding workshops and classes both in and out of the studio, teaching all skill levels and various techniques that" |
+| Icky Love Pottery | Oahu | raku | none | **new** | ickylove.com | "Raku workshops are now available at Icky Love, located in beautiful Ka'a'awa Valley on the northeastern shore of Oahu." |
 | noheagallery.com | ? | raku | ongoing_class_or_membership | **new** | noheagallery.com | "Hawaii’s potters share their raku fired decorative pottery, functional high fired stoneware and porcelain here." |
 | mauihands.com | ? | raku | ongoing_class_or_membership | **new** | mauihands.com | "Creating everything from every day, functional items to one-of-a-kind collectors’ pieces, Curt’s process involves hand-building slabs as well as wheel-throwing " |
+| localhawaiievents.com | Oʻahu | raku | ongoing_class_or_membership | **new** | localhawaiievents.com | "Wheel throwing, handbuilding and raku across Oʻahu, from single-session tasters in Kakaʻako to term courses at the museum school." |
 
-## Unclear: needs a second look (18)
+## Unclear: needs a second look (17)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
 | Hawai'i Craftsmen | ? | raku | none | **new** | hawaiicraftsmen.wildapricot.org | "Participants get to glaze ceramic tea bowls under the direction of Hawai'i Craftsmen members, see them fired using the raku process, and take their finished tea" | The text advertises a public raku firing event with a specific date.
-| Icky Love Pottery | Oahu | raku | none | **new** | ickylove.com | "Raku workshops are now available at Icky Love, located in beautiful Ka'a'awa Valley on the northeastern shore of Oahu." | The text explicitly mentions available Raku workshops in Hawaii.
 | sculpture.org | Hilo | wood | ongoing_class_or_membership | **new** | sculpture.org | "The three-acre tropical atelier in northern Hilo, Hawaii is visually stunning as it merges indoor and outdoor space." | The text mentions an anagama kiln in Hawaii, suggesting a type of non-electric firing. [gate: quote names no specific non-electric firing]
 | Uncle Paul's | ? | soda | none | **new** | unclepaulsnorthbeach.com | "Day 1 - Saturday, July 25th 2-5pm - Workshop at Uncle Paul’s Orientation and brief introduction to soda firing and high fire clay." | The text advertises a public workshop for a non-electric soda firing.
 | Mudd Studio | Honolulu |  | ongoing_class_or_membership | **new** | mudd-studio.com | "Kiln Services — Mudd Studio: Kiln Services in Honolulu. Mondays- Bisque Firings, Wednesdays are Glaze Firings." | The studio offers public kiln services for bisque and glaze firings. [gate: quote names no specific non-electric firing]
@@ -36,15 +37,18 @@ Searches: 37 (Tavily). Places seen: 104. Judge: gemma4:latest on this Mac. No Cl
 | Aloha Raku Pottery | Kihei | raku | none | **new** | mapquest.com | "" | The text mentions raku firing but does not specify if the public can participate in the firing.
 | Studio 7 Fine Arts | Hilo | wood | ongoing_class_or_membership | **new** | studiosevenfinearts.com | "The three-acre tropical atelier in northern Hilo, Hawaii is visually stunning as it merges indoor and outdoor space." | The text mentions the studio's location in Hawaii and its connection to wood-fired kilns. [gate: quote names no specific non-electric firing]
 
-## Social-only leads, not read (5)
+## Social-only leads, not read (8)
 
 - Hawaii Craftsmen | Registration closes March 1 for Raku Hoʻolauleʻa ... — https://www.instagram.com/p/DGMlVh7p6wH/
 - Refined By Fire: Anagama pottery by Hawaii's Clayton Amemiya — https://www.youtube.com/watch?v=vvZR8ENFYfE
 - Alternative firing - saggar, pit, barrel | Facebook — https://www.facebook.com/groups/1827432834174836/
 - TOP 10 BEST Pottery Studio in Honolulu, HI - (2026 Guide) - Yelp — https://www.yelp.com/search?find_desc=pottery+studio&find_loc=Honolulu,+HI
 - THE 5 BEST Hilo Paint & Pottery Studios (2026) - Tripadvisor — https://www.tripadvisor.com/Attractions-g60583-Activities-c56-t272-Hilo_Island_of_Hawaii_Hawaii.html
+- Explore the best art ideas on Pinterest — https://www.pinterest.com/ideas/art/961238559656/
+- How To Make Clay At Home (It's Just Dirt) - YouTube — https://m.youtube.com/watch?v=ca20JkKFAcE
+- Does Home Depot regularly have coupon promotions? Never see ... -... — https://www.reddit.com/r/HomeDepot/comments/ei5zx1/does_home_depot_regularly_have_coupon_promotions/
 
-## Rejected (75)
+## Rejected (204)
 
 - meetup.com: known place in ID
 - laimaceramics.com: known place in IN
@@ -121,3 +125,132 @@ Searches: 37 (Tavily). Places seen: 104. Judge: gemma4:latest on this Mac. No Cl
 - watershedceramics.org: known place in ME
 - schoolofservice.org: The text only describes residency opportunities and does not mention public access to firings.
 - molokaiartscenter.org: no firing words on any page
+- ceramicmaterialsworkshop.com: OSM seed: no firing words on its pages
+- wareglaze.com: OSM seed: no firing words on its pages
+- mycan.ceramicartsnetwork.org: OSM seed: no firing words on its pages
+- ceramics.org: OSM seed: no firing words on its pages
+- category: OSM seed: no firing words on its pages
+- daily: OSM seed: no firing words on its pages
+- ag.hawaii.gov: OSM seed: no firing words on its pages
+- sfca.hawaii.gov: OSM seed: no firing words on its pages
+- eastwestcenter.org: OSM seed: no firing words on its pages
+- hawaiipublicschools.org: OSM seed: no firing words on its pages
+- law.hawaii.gov: OSM seed: no firing words on its pages
+- nendostudiohawaii.as.me: OSM seed: no firing words on its pages
+- hawaiipottersguild.squarespace.com: The page content is not available to determine public firing access.
+- statefarm.com: no firing words on any page
+- ca.gov: no firing words on any page
+- csus.edu: no firing words on any page
+- sos.ca.gov: no firing words on any page
+- state.gov: no firing words on any page
+- calcareers.ca.gov: no firing words on any page
+- craft.do: no firing words on any page
+- merriam-webster.com: no firing words on any page
+- hgtv.com: no firing words on any page
+- michaels.com: no firing words on any page
+- onelittleproject.com: no firing words on any page
+- hobbycraft.co.uk: no firing words on any page
+- deviantart.com: no firing words on any page
+- artsandculture.google.com: no firing words on any page
+- art.com: no firing words on any page
+- britannica.com: no firing words on any page
+- artstation.com: no firing words on any page
+- sketch.io: no firing words on any page
+- kleki.com: no firing words on any page
+- techcommunity.microsoft.com: no firing words on any page
+- support.microsoft.com: no firing words on any page
+- sites.google.com: no firing words on any page
+- baike.baidu.com: no firing words on any page
+- dictionary.cambridge.org: no firing words on any page
+- iciba.com: no firing words on any page
+- zhuanlan.zhihu.com: no firing words on any page
+- github.com: no firing words on any page
+- global.bing.com: no firing words on any page
+- collinsdictionary.com: no firing words on any page
+- llcuniversity.com: no firing words on any page
+- llcradar.com: no firing words on any page
+- simplifyllc.com: no firing words on any page
+- wolterskluwer.com: no firing words on any page
+- bizreport.com: no firing words on any page
+- stripe.com: no firing words on any page
+- upcounsel.com: no firing words on any page
+- corpnation.com: no firing words on any page
+- foundeck.com: no firing words on any page
+- theclio.com: The kiln is located in Colorado, not Hawaii.
+- jsuartblog.org: The text mentions a past event and does not indicate public access for firing.
+- gustinceramics.com: known place in MA
+- soursopstudio.blogspot.com: The blog posts are from 2010 and do not indicate public participation in firings.
+- lamerolgatewood.com: The page content is not available to determine if public firings are offered.
+- multnomahartscenter.org: no firing words on any page
+- explainthatstuff.com: The page provides general information about ceramics and kilns but does not mention any public firing opportunities in Hawaii.
+- xometry.com: The website discusses ceramics generally and does not mention any firing services for the public in Hawaii.
+- sciencenotes.org: The text provides general information about ceramics and firing processes but does not mention any specific location or public firing opportunities in Hawaii.
+- happyartceramics.com: no firing words on any page
+- thesprucecrafts.com: The page content is not available to determine if public firing participation is possible.
+- spinningpots.com: The text discusses firing methods but does not mention any location in Hawaii.
+- janejermynceramics.com: The page describes firing techniques but does not indicate public access for firing in Hawaii.
+- upinsmokepottery.com: known place in PA
+- plimton.com: The text only discusses electric kiln firing and does not mention Hawaii or public access to non-electric firings.
+- obvara.hu: The website is for a process originating in Eastern Europe and does not indicate public access in Hawaii.
+- baltimoreclayworks.org: known place in MD
+- en.m.wikipedia.org: The page is a general encyclopedia article about clay minerals and does not mention any firing services in Hawaii.
+- clay.com: no firing words on any page
+- amazon.com: no firing words on any page
+- walmart.com: no firing words on any page
+- app.clay.com: no firing words on any page
+- honolulumuseum.org: no firing words on any page
+- honolulu.gov: no firing words on any page
+- thehawaiivacationguide.com: no firing words on any page
+- gohawaii.com: no firing words on any page
+- hawaii-guide.com: no firing words on any page
+- staradvertiser.com: The website is a news source and does not offer ceramic firing services.
+- kilnbuilders.com: The website only advertises building kilns and does not mention public firing events.
+- vincepitelka.com: known place in KS
+- tylergulden.com: known place in ME
+- olympickilns.com: The website only advertises gas kilns for sale, not public firing access.
+- thepotterywheel.com: The page is informational and does not offer public firing services in Hawaii.
+- burnishclaystudio.com: known place in WA
+- answers.com: no firing words on any page
+- bigislandguide.com: no firing words on any page
+- lovebigisland.com: no firing words on any page
+- us.hilo.com: no firing words on any page
+- hilohawaii.me: no firing words on any page
+- hilo.com: The website is about blood pressure monitoring, not ceramics.
+- wanderlustyle.com: no firing words on any page
+- nomadasaurus.com: no firing words on any page
+- timeanddate.com: no firing words on any page
+- calendarhours.com: no firing words on any page
+- 24timezones.com: no firing words on any page
+- time.is: no firing words on any page
+- timezone-map.com: no firing words on any page
+- usamap.net: no firing words on any page
+- global-time.zone: no firing words on any page
+- hyundaiusa.com: no firing words on any page
+- airports.hawaii.gov: no firing words on any page
+- konagrill.com: The text only shows menus and does not mention any ceramic firing services.
+- bigislandnow.com: no firing words on any page
+- curative.com: no firing words on any page
+- health.curative.com: no firing words on any page
+- healthcare-brew.com: no firing words on any page
+- clayfinder.com: known place in TX
+- hawaiimagazine.com: no firing words on any page
+- mauiarts.org: no firing words on any page
+- mauisfinestcraftfairs.com: no firing words on any page
+- clayco-op.square.site: no firing words on any page
+- maps.google.com: no firing words on any page
+- earthtrekkers.com: no firing words on any page
+- hulalandblog.com: no firing words on any page
+- kauai.com: no firing words on any page
+- kauai.gov: no firing words on any page
+- kauainownews.com: no firing words on any page
+- hvcb.org: no firing words on any page
+- sturgesspeakeasy.com: no firing words on any page
+- lanaichc.org: no firing words on any page
+- lahainatown.com: no firing words on any page
+- mauisnorkeling.com: no firing words on any page
+- lahaina.com: no firing words on any page
+- usatoday.com: no firing words on any page
+- benfranklinhawaii.com: no firing words on any page
+- visithanaleitown.com: no firing words on any page
+- travelhawaiiwithus.com: no firing words on any page
+- hawaiitravelwithkids.com: no firing words on any page

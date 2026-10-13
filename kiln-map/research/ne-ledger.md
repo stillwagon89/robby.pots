@@ -1,4 +1,4 @@
-# Nebraska firings ledger (2026-10-09, discovery v3, automatic)
+# Nebraska firings ledger (2026-10-13, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -11,3 +11,4 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 4 | Big Table Studios | ? | wood | Classes or membership | bigtablestudios.com |
 | 5 | omahaclayworks | Omaha | raku, pit_barrel_saggar, wood | Classes or membership | omahaclayworks.com |
 | 6 | lincoln | ? | raku | Dated workshop or firing event | lincoln.org |
+| 7 | University of Nebraska | ? | gas_reduction, soda, salt | Classes or membership | arts.unl.edu |

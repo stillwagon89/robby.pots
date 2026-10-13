@@ -573,6 +573,48 @@
       },
       "lat": 44.38783,
       "lng": -68.79662
+    },
+    {
+      "id": "southern-maine-clay-guild",
+      "org": "Southern Maine Clay Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda",
+        "pit_barrel_saggar"
+      ],
+      "region": "Maine",
+      "city": null,
+      "urls": [
+        "https://www.southernmaineclayguild.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.southernmaineclayguild.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "southernmaineclayguild.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-13",
+        "verdict": "yes",
+        "why": "page says state is ME, not ND",
+        "types": {
+          "pit_barrel_saggar": "This is a community pit firing and dinner potluck!",
+          "soda": "June 20 - small group soda firing @Barbara's"
+        },
+        "state": "ME",
+        "town": ""
+      },
+      "weak": true
     }
   ],
   "_removed": [

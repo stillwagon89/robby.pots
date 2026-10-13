@@ -1,4 +1,4 @@
-# Delaware firings ledger (2026-10-09, discovery v3, automatic)
+# Delaware firings ledger (2026-10-13, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -9,3 +9,4 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 2 | Folkware Studio | Dover | raku | See site | shop.folkwarestudio.com |
 | 3 | Dover Pottery Studio | Dover | raku | See site | shop.app |
 | 4 | The Happyrock Pottery | Rehoboth Beach | raku, wood | Classes or membership | aboutmybeaches.com |
+| 5 | Community Arts Center | Wallingford | soda | Classes or membership | delcotimes.com |

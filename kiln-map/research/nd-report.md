@@ -1,16 +1,17 @@
-# North Dakota discovery report (2026-10-07)
+# North Dakota discovery report (2026-10-13)
 
-Searches: 31 (Tavily). Places seen: 120. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 56 (Tavily). Places seen: 1126. Judge: gemma4:latest on this Mac. No Claude used.
 
-## Qualifies (verified quote, 3)
+## Qualifies (verified quote, 4)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
 | Bismarck State College | Bismarck | raku | dated_events | **new** | bismarckstate.edu | "The Bismarck State College Art program has clay available to pick up in the ceramics studio, on the second floor of Skogen Hall, for the annual community raku f" |
 | MonDak Heritage Center | Minot | raku | dated_events | **new** | roundupweb.com | "On Saturday, May 6, Olson will be at the MonDak Heritage Center to teach a free Raku & lace pottery workshop beginning at 11 a.m." |
 | University of North Dakota | Grand Forks | raku, soda, gas_reduction | ongoing_class_or_membership | **new** | arts-sciences.und.edu | "access to wood (free wood), salt, soda, raku, electric and gas kilns and access to glaze materials, 24/7 studio." |
+| National Buffalo Museum | ? | raku | dated_events | **new** | jamestownsun.com | "Tatanka Festival goers will get a chance to see raku pottery in the making with local potter Ruth Severson." |
 
-## Unclear: needs a second look (12)
+## Unclear: needs a second look (36)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -33,15 +34,41 @@ https://stpetecatalyst.com/events" | The text describes a multi-day wood firing 
 | Minot State University | Minot |  | ongoing_class_or_membership | **new** | minotdailynews.com | "The registration price includes a fee for clay, glaze, and firing." | The text mentions classes that include a fee for firing methods at a North Dakota location. [gate: quote names no specific non-electric firing]
 | MSU Lifelong Learning Institute | Misu | raku, other | none | **new** | misu.nodak.edu | "" | The page content is not available to confirm public access to firings.
 | The Ceramic and Pottery Center | ? | raku | dated_events | **new** | newsbreak.com | "Experience the excitement of Raku pottery firing in this hands-on event!" | The listing advertises a hands-on Raku firing experience on a specific date.
+| San Diego Potters&#8217; Guild | ? | gas_reduction | none | **new** | sandiegopottersguild.org | "" | OpenStreetMap seed; firing words on its pages
+| Windward Artists Guild | ? | raku | none | **new** | windwardartistsguild.org | "" | OpenStreetMap seed; firing words on its pages
+| Pacific Northwest Needle Arts Guild | ? | soda | none | **new** | pnnag.org | "" | OpenStreetMap seed; firing words on its pages
+| Montana Clay | ? | wood | none | **new** | montanaclay.org | "" | OpenStreetMap seed; firing words on its pages
+| Glass Art Guild of Utah | ? | raku | none | **new** | glassartguild.org | "" | OpenStreetMap seed; firing words on its pages
+| Woodland Weavers &amp; Spinners Guild | ? | raku | none | **new** | wwas.info | "" | OpenStreetMap seed; firing words on its pages
+| Minnesota Knitters&#8217; Guild | ? | soda | none | **new** | knitters.org | "" | OpenStreetMap seed; firing words on its pages
+| Arizona Clay Association | ? | soda, gas_reduction | none | **new** | arizonaclay.net | "" | OpenStreetMap seed; firing words on its pages
+| Central Oklahoma Polymer Clay Guild | ? | soda | none | **new** | okpolyclay.com | "" | OpenStreetMap seed; firing words on its pages
+| Castine Arts Association | ? | raku | none | **new** | castinearts.org | "" | OpenStreetMap seed; firing words on its pages
+| Southern Maine Clay Guild | ? | soda, pit_barrel_saggar | none | **new** | southernmaineclayguild.com | "" | OpenStreetMap seed; firing words on its pages
+| Watershed Center for the Ceramic Arts | ? | raku, soda | none | **new** | watershedceramics.org | "" | OpenStreetMap seed; firing words on its pages
+| Baltimore Clayworks | ? | raku, wood | none | **new** | baltimoreclayworks.org | "" | OpenStreetMap seed; firing words on its pages
+| Potters&#8217; Guild of New Jersey | ? | raku, soda, pit_barrel_saggar | none | **new** | pottersguildnj.org | "" | OpenStreetMap seed; firing words on its pages
+| Northern Star Quilters’ Guild | ? | wood | none | **new** | northernstarquilters.com | "" | OpenStreetMap seed; firing words on its pages
+| Vermont Crafts Council | ? | raku, wood, soda | none | **new** | vermontcrafts.com | "" | OpenStreetMap seed; firing words on its pages
+| District Clay Center | ? | raku, pit_barrel_saggar | none | **new** | districtclaycenter.com | "" | OpenStreetMap seed; firing words on its pages
+| West Virginia Art &amp; Craft Guild | ? | raku | none | **new** | wvartcraftguild.com | "" | OpenStreetMap seed; firing words on its pages
+| Macon Arts Alliance | ? | wood | none | **new** | maconartsalliance.org | "" | OpenStreetMap seed; firing words on its pages
+| Penland School of Craft | ? | soda | none | **new** | penland.org | "" | OpenStreetMap seed; firing words on its pages
+| South Carolina Arts Commission | ? | raku | none | **new** | southcarolinaarts.com | "" | OpenStreetMap seed; firing words on its pages
+| www.madewithclay.com | ? | raku, pit_barrel_saggar, gas_reduction | none | **new** | madewithclay.com | "" | OpenStreetMap seed; firing words on its pages
+| MKE Studio Tour | ? | raku | none | **new** | mkestudiotour.com | "Demonstrations include pottery throwing, Raku firing, sgraffito clay carving, knitting, printmaking, sock making, ceramic painting, corn husk flower making, kil" | The site mentions Raku firing demonstrations during the studio tour.
+| plimton.com | ? |  |  | **new** | plimton.com | "" | judge error: The operation was aborted due to timeout
 
-## Social-only leads, not read (4)
+## Social-only leads, not read (6)
 
 - Still a Few Spots Left: Salt Fire... - Adamah ... - Facebook — https://www.facebook.com/adamahartsstudio/posts/-still-a-few-spots-left-salt-fire-workshop-with-katie-white-july-2024-2026-adama/1726450281927178/
 - Abi Higgins Potter, Artist. Raku, Saggar, Barrel workshops ...Take a class at Lighthouse ArtCenterBarrel saggar firing process - YouTube — https://www.instagram.com/sarahabigailhiggins/
 - Barrel saggar firing process - YouTube — https://www.youtube.com/watch?v=sfBNBQt75hE
 - TOP 10 BEST Pottery in Grand Forks, ND - (2026 Guide) - Yelp — https://www.yelp.com/search?find_desc=Pottery&find_loc=Grand+Forks,+ND
+- Annual NDSU wood kiln firing is all-hands-on-deck learning experience — https://m.youtube.com/watch?v=W6dJeITAPTY
+- THE 15 BEST Things to Do in Fargo (2026) - Tripadvisor — https://www.tripadvisor.com/Attractions-g49785-Activities-Fargo_North_Dakota.html
 
-## Rejected (101)
+## Rejected (1080)
 
 - natewinterstudios.com: known place in ME
 - https://allevents.in/fargo/raku-firing-workshop/200027024540421: known place in OH
@@ -144,3 +171,982 @@ https://stpetecatalyst.com/events" | The text describes a multi-day wood firing 
 - theresidencyreview.com: The text describes firing access only for residents, not the general public.
 - cubcreek.org: known place in VA
 - medalta.org: no firing words on any page
+- prairiefirepottery.com: OSM seed: no firing words on its pages
+- ccsclays.com: OSM seed: no firing words on its pages
+- assumptionabbey.com: OSM seed: no firing words on its pages
+- esppottery.com: OSM seed: no firing words on its pages
+- annamaspottery.com: OSM seed: no firing words on its pages
+- tebbensclay.com: OSM seed: no firing words on its pages
+- eges.gresham.k12.or.us: OSM seed: no firing words on its pages
+- eoes.gresham.k12.or.us: OSM seed: no firing words on its pages
+- haes.gresham.k12.or.us: OSM seed: no firing words on its pages
+- hies.gresham.k12.or.us: OSM seed: no firing words on its pages
+- hces.gresham.k12.or.us: OSM seed: no firing words on its pages
+- hdes.gresham.k12.or.us: OSM seed: no firing words on its pages
+- kces.gresham.k12.or.us: OSM seed: no firing words on its pages
+- pves.gresham.k12.or.us: OSM seed: no firing words on its pages
+- ccms.gresham.k12.or.us: OSM seed: no firing words on its pages
+- dmms.gresham.k12.or.us: OSM seed: no firing words on its pages
+- grms.gresham.k12.or.us: OSM seed: no firing words on its pages
+- woms.gresham.k12.or.us: OSM seed: no firing words on its pages
+- ghs.gresham.k12.or.us: OSM seed: no firing words on its pages
+- sbhs.gresham.k12.or.us: OSM seed: no firing words on its pages
+- sths.gresham.k12.or.us: OSM seed: no firing words on its pages
+- gresham.k12.or.us: OSM seed: no firing words on its pages
+- dcd.gresham.k12.or.us: OSM seed: no firing words on its pages
+- artisansguildofamerica.org: OSM seed: no firing words on its pages
+- theguild.org: OSM seed: no firing words on its pages
+- alliesinarts.org: OSM seed: no firing words on its pages
+- americansforthearts.org: OSM seed: no firing words on its pages
+- developingarts.org: OSM seed: no firing words on its pages
+- nationalartsclub.org: OSM seed: no firing words on its pages
+- nationalwca.org: OSM seed: no firing words on its pages
+- craftcouncil.org: OSM seed: no firing words on its pages
+- centerforcraft.org: OSM seed: no firing words on its pages
+- cerfplus.org: OSM seed: no firing words on its pages
+- craftinamerica.org: OSM seed: no firing words on its pages
+- craftindustryalliance.org: OSM seed: no firing words on its pages
+- contemporarycraft.org: OSM seed: no firing words on its pages
+- guildmc.com: OSM seed: no firing words on its pages
+- societyofcrafts.org: OSM seed: no firing words on its pages
+- egausa.org: OSM seed: no firing words on its pages
+- americanglassguild.org: OSM seed: no firing words on its pages
+- ifolg.net: OSM seed: no firing words on its pages
+- metalartsguildsf.org: OSM seed: no firing words on its pages
+- metalsmith.org: OSM seed: no firing words on its pages
+- sbearstradingpost.com: OSM seed: no firing words on its pages
+- needlepoint.org: OSM seed: no firing words on its pages
+- asg.org: OSM seed: no firing words on its pages
+- craftyarncouncil.com: OSM seed: no firing words on its pages
+- crochet.org: OSM seed: no firing words on its pages
+- weavespindye.org: OSM seed: no firing words on its pages
+- smocking.org: OSM seed: no firing words on its pages
+- tkga.org: OSM seed: no firing words on its pages
+- papercutters.org: OSM seed: no firing words on its pages
+- amcaw.org: OSM seed: no firing words on its pages
+- aapa.info: OSM seed: no firing words on its pages
+- ceramics.org: OSM seed: no firing words on its pages
+- sculpture.org: OSM seed: no firing words on its pages
+- nceca.net: OSM seed: no firing words on its pages
+- theipca.org: OSM seed: no firing words on its pages
+- themodernquiltguild.com: OSM seed: no firing words on its pages
+- naaqg.org: OSM seed: no firing words on its pages
+- saqa.com: OSM seed: no firing words on its pages
+- thewoodwhispererguild.com: OSM seed: no firing words on its pages
+- wwgoa.com: OSM seed: no firing words on its pages
+- graphicartistsguild.org: OSM seed: no firing words on its pages
+- luth.org: OSM seed: no firing words on its pages
+- guildofbookworkers.org: OSM seed: no firing words on its pages
+- soapguild.org: OSM seed: no firing words on its pages
+- aknativearts.org: OSM seed: no firing words on its pages
+- arts.alaska.gov: OSM seed: no firing words on its pages
+- anchorageweavespin.org: OSM seed: no firing words on its pages
+- fairbanksarts.org: OSM seed: no firing words on its pages
+- firstnations.org: OSM seed: no firing words on its pages
+- kenaiartcenter.org: OSM seed: no firing words on its pages
+- valleyfiberarts.org: OSM seed: no firing words on its pages
+- nwbookarts.org: OSM seed: no firing words on its pages
+- afclg.com: OSM seed: no firing words on its pages
+- acssocal.org: OSM seed: no firing words on its pages
+- sdang.org: OSM seed: no firing words on its pages
+- placerarts.org: OSM seed: no firing words on its pages
+- acga.net: OSM seed: no firing words on its pages
+- blacksheepguild.org: OSM seed: no firing words on its pages
+- cacarversguild.org: OSM seed: no firing words on its pages
+- calarts.edu: OSM seed: no firing words on its pages
+- cjcagceramics.com: OSM seed: no firing words on its pages
+- clayvillecalifornia.com: OSM seed: no firing words on its pages
+- deltaquilters.org: OSM seed: no firing words on its pages
+- sccega.com: OSM seed: no firing words on its pages
+- escondidoblacksmith.com: OSM seed: no firing words on its pages
+- iemodernquiltguild.com: OSM seed: no firing words on its pages
+- marinjewelersguild.com: OSM seed: no firing words on its pages
+- martinezarts.org: OSM seed: no firing words on its pages
+- massconline.com: OSM seed: no firing words on its pages
+- mbmag.org: OSM seed: no firing words on its pages
+- enamelguild.org: OSM seed: no firing words on its pages
+- ncqc.net: OSM seed: no firing words on its pages
+- ocpolymerclayguild.com: OSM seed: no firing words on its pages
+- sdpcg.com: OSM seed: no firing words on its pages
+- sbfiberarts.org: OSM seed: no firing words on its pages
+- scwsg.org: OSM seed: no firing words on its pages
+- sccqg.org: OSM seed: no firing words on its pages
+- schg.org: OSM seed: no firing words on its pages
+- hawaiicraftsmen.org: OSM seed: no firing words on its pages
+- hawaiiquiltguild.dreamhosters.com: OSM seed: no firing words on its pages
+- hawaiiwoodguild.com: OSM seed: no firing words on its pages
+- sfca.hawaii.gov: OSM seed: no firing words on its pages
+- pacificarts.org: OSM seed: no firing words on its pages
+- hawaiiartsalliance.org: OSM seed: no firing words on its pages
+- comag.us: OSM seed: no firing words on its pages
+- clackamasartsalliance.org: OSM seed: no firing words on its pages
+- clayguildofthecascades.org: OSM seed: no firing words on its pages
+- columbiafiberartsguild.org: OSM seed: no firing words on its pages
+- corvallisartguild.net: OSM seed: no firing words on its pages
+- cmaguild.org: OSM seed: no firing words on its pages
+- eugeneweavers.com: OSM seed: no firing words on its pages
+- guildoforegonwoodworkers.org: OSM seed: no firing words on its pages
+- monroeartsassociation.info: OSM seed: no firing words on its pages
+- msquilters.com: OSM seed: no firing words on its pages
+- ncartsguild.com: OSM seed: no firing words on its pages
+- nwsfa.clubexpress.com: OSM seed: no firing words on its pages
+- oregon.gov: OSM seed: no firing words on its pages
+- oregonpotters.org: OSM seed: no firing words on its pages
+- pnwglassguild.org: OSM seed: no firing words on its pages
+- portlandartguild.org: OSM seed: no firing words on its pages
+- portlandhandweaversguild.org: OSM seed: no firing words on its pages
+- portlandmodernquiltguild.com: OSM seed: no firing words on its pages
+- siskiyouwoodcraftguild.org: OSM seed: no firing words on its pages
+- southernoregonguild.org: OSM seed: no firing words on its pages
+- villagegalleryarts.org: OSM seed: no firing words on its pages
+- threeriversartistguild.com: OSM seed: no firing words on its pages
+- uvarts.com: OSM seed: no firing words on its pages
+- uvquilters.org: OSM seed: no firing words on its pages
+- willametteceramicsguild.org: OSM seed: no firing words on its pages
+- alliedarts.org: OSM seed: no firing words on its pages
+- allinstitcheswa.org: OSM seed: no firing words on its pages
+- artsofsnohomish.com: OSM seed: no firing words on its pages
+- arts.wa.gov: OSM seed: no firing words on its pages
+- graysharborpottersguild.com: OSM seed: no firing words on its pages
+- ncwquilt.org: OSM seed: no firing words on its pages
+- nwdesignercraftartists.org: OSM seed: no firing words on its pages
+- nwpcg.org: OSM seed: no firing words on its pages
+- olympiaweaversguild.org: OSM seed: no firing words on its pages
+- owwg.org: OSM seed: no firing words on its pages
+- ptpottersguild.com: OSM seed: no firing words on its pages
+- potomacfiberartsguild.org: OSM seed: no firing words on its pages
+- seattlemetalsguild.org: OSM seed: no firing words on its pages
+- seattleprintarts.org: OSM seed: no firing words on its pages
+- seattleweaversguild.com: OSM seed: no firing words on its pages
+- skagitvalleyweaversguild.org: OSM seed: no firing words on its pages
+- spokanepottersguild.org: OSM seed: no firing words on its pages
+- theartguild.org: OSM seed: no firing words on its pages
+- cartoonistsleague.org: OSM seed: no firing words on its pages
+- washingtonclayarts.org: OSM seed: no firing words on its pages
+- washingtonguildofgoldsmiths.com: OSM seed: no firing words on its pages
+- washingtonstarsquiltguild.org: OSM seed: no firing words on its pages
+- washingtonstateartsalliance.org: OSM seed: no firing words on its pages
+- washingtonwoodworkersguild.org: OSM seed: no firing words on its pages
+- whatcomartguild.org: OSM seed: no firing words on its pages
+- auroraartistsguild.com: OSM seed: no firing words on its pages
+- coloradocenterformetalarts.com: OSM seed: no firing words on its pages
+- coloradopotters.org: OSM seed: no firing words on its pages
+- coloradowoodworkersguild.com: OSM seed: no firing words on its pages
+- columbineleatherguild.org: OSM seed: no firing words on its pages
+- longmontartistsguild.org: OSM seed: no firing words on its pages
+- mhpcg.org: OSM seed: no firing words on its pages
+- nocoweaversguild.org: OSM seed: no firing words on its pages
+- parkerartistsguild.com: OSM seed: no firing words on its pages
+- rmwg.org: OSM seed: no firing words on its pages
+- gjartcenter.org: OSM seed: no firing words on its pages
+- triartsproject.org: OSM seed: no firing words on its pages
+- vvagco.org: OSM seed: no firing words on its pages
+- arts.idaho.gov: OSM seed: no firing words on its pages
+- boisebasinquilters.org: OSM seed: no firing words on its pages
+- boiseopenstudios.com: OSM seed: no firing words on its pages
+- eaglerockartguild.com: OSM seed: no firing words on its pages
+- handweavers-guild-boise.org: OSM seed: no firing words on its pages
+- magicvalleyartscouncil.org: OSM seed: no firing words on its pages
+- nampaartguild.com: OSM seed: no firing words on its pages
+- salmonriverartguild.com: OSM seed: no firing words on its pages
+- steamboatartcenter.com: OSM seed: no firing words on its pages
+- artistsandcraftsmen.org: OSM seed: no firing words on its pages
+- bigskyfiberartsguild.org: OSM seed: no firing words on its pages
+- billingsartsassociation.com: OSM seed: no firing words on its pages
+- bitterrootartsguild.org: OSM seed: no firing words on its pages
+- carboncountydepotgallery.org: OSM seed: no firing words on its pages
+- clayartsguildofhelena.com: OSM seed: no firing words on its pages
+- gallatinquiltguild.com: OSM seed: no firing words on its pages
+- theartcenterhelena.com: OSM seed: no firing words on its pages
+- missoulaquiltersguild.org: OSM seed: no firing words on its pages
+- art.mt.gov: OSM seed: no firing words on its pages
+- nrwg.club: OSM seed: no firing words on its pages
+- clarkcountyartistsguild.com: OSM seed: no firing words on its pages
+- lvartistsguild.org: OSM seed: no firing words on its pages
+- fiberartsguildlv.org: OSM seed: no firing words on its pages
+- mesquitefineartscenter.com: OSM seed: no firing words on its pages
+- nvartscouncil.org: OSM seed: no firing words on its pages
+- nvclay.org: OSM seed: no firing words on its pages
+- bouldercityartguild.com: OSM seed: no firing words on its pages
+- artsforallnevada.org: OSM seed: no firing words on its pages
+- clayartsutah.com: OSM seed: no firing words on its pages
+- gbsmiths.com: OSM seed: no firing words on its pages
+- mmawg.org: OSM seed: no firing words on its pages
+- sandyarts.com: OSM seed: no firing words on its pages
+- southernutahartguild.com: OSM seed: no firing words on its pages
+- tooeleartsguild.com: OSM seed: no firing words on its pages
+- utaharts.org: OSM seed: no firing words on its pages
+- utahquiltguild.org: OSM seed: no firing words on its pages
+- uvag.org: OSM seed: no firing words on its pages
+- uvqg.org: OSM seed: no firing words on its pages
+- art321.org: OSM seed: no firing words on its pages
+- fremontfiberartsguild.com: OSM seed: no firing words on its pages
+- landerartcenter.com: OSM seed: no firing words on its pages
+- artinsheridan.com: OSM seed: no firing words on its pages
+- starvalleyarts.org: OSM seed: no firing words on its pages
+- wyoarts.state.wy.us: OSM seed: no firing words on its pages
+- wsqg.org: OSM seed: no firing words on its pages
+- basketartguild.com: OSM seed: no firing words on its pages
+- capcg.org: OSM seed: no firing words on its pages
+- decaturarts.org: OSM seed: no firing words on its pages
+- elmhurstartistsguild.org: OSM seed: no firing words on its pages
+- arts.illinois.gov: OSM seed: no firing words on its pages
+- baskervilleproductions.com: OSM seed: no firing words on its pages
+- mvqg.org: OSM seed: no firing words on its pages
+- psqg.org: OSM seed: no firing words on its pages
+- rockfordartguild.com: OSM seed: no firing words on its pages
+- museum.state.il.us: OSM seed: no firing words on its pages
+- henrycountyarts.org: OSM seed: no firing words on its pages
+- artsdepot.org: OSM seed: no firing words on its pages
+- bloomspinweave.org: OSM seed: no firing words on its pages
+- browncountyartguild.org: OSM seed: no firing words on its pages
+- centralindianaleathercrafters.org: OSM seed: no firing words on its pages
+- artsincolumbus.org: OSM seed: no firing words on its pages
+- dunelandweaversguild.org: OSM seed: no firing words on its pages
+- fortwayneartistsguild.org: OSM seed: no firing words on its pages
+- in.gov: OSM seed: no firing words on its pages
+- indyarts.org: OSM seed: no firing words on its pages
+- beinvolved.indiana.edu: OSM seed: no firing words on its pages
+- muncieartistsguild.com: OSM seed: no firing words on its pages
+- quiltguildindy.net: OSM seed: no firing words on its pages
+- southshoreartsonline.org: OSM seed: no firing words on its pages
+- amanaartsguild.com: OSM seed: no firing words on its pages
+- artifactory.artsiowacity.org: OSM seed: no firing words on its pages
+- craftguildic.org: OSM seed: no firing words on its pages
+- desmoinesweaversguild.org: OSM seed: no firing words on its pages
+- culture.iowaeda.com: OSM seed: no firing words on its pages
+- iowaceramicscenter.org: OSM seed: no firing words on its pages
+- northriverartscouncil.org: OSM seed: no firing words on its pages
+- quadcityarts.com: OSM seed: no firing words on its pages
+- greaterkcneedlepointguild.com: OSM seed: no firing words on its pages
+- hutchinsonartcenter.net: OSM seed: no firing words on its pages
+- kansasartguild.com: OSM seed: no firing words on its pages
+- kansascommerce.gov: OSM seed: no firing words on its pages
+- kpqg.net: OSM seed: no firing words on its pages
+- lawrenceartguild.org: OSM seed: no firing words on its pages
+- kansascityfiberguild.org: OSM seed: no firing words on its pages
+- topekaartguild.org: OSM seed: no firing words on its pages
+- annarborfiberarts.org: OSM seed: no firing words on its pages
+- artreachcenter.org: OSM seed: no firing words on its pages
+- berriencountywoodworkers.com: OSM seed: no firing words on its pages
+- blacksheepweavers.com: OSM seed: no firing words on its pages
+- greatlakesbeadworkersguild.org: OSM seed: no firing words on its pages
+- hollandarts.org: OSM seed: no firing words on its pages
+- mdpag.org: OSM seed: no firing words on its pages
+- misilversmith.org: OSM seed: no firing words on its pages
+- michiganwoodworkersguild.com: OSM seed: no firing words on its pages
+- midlandfiberartsguild.org: OSM seed: no firing words on its pages
+- mmwg.org: OSM seed: no firing words on its pages
+- ntgm.org: OSM seed: no firing words on its pages
+- oscodaquirkyquilters.org: OSM seed: no firing words on its pages
+- wmqg.org: OSM seed: no firing words on its pages
+- alexart.org: OSM seed: no firing words on its pages
+- aracouncil.org: OSM seed: no firing words on its pages
+- leatherguild.org: OSM seed: no firing words on its pages
+- mantorvilleartguild.org: OSM seed: no firing words on its pages
+- midwestfiberartstrails.org: OSM seed: no firing words on its pages
+- mplscraftmarket.com: OSM seed: no firing words on its pages
+- mnjag.org: OSM seed: no firing words on its pages
+- mnwwg.org: OSM seed: no firing words on its pages
+- northernclaycenter.org: OSM seed: no firing words on its pages
+- textilecentermn.org: OSM seed: no firing words on its pages
+- artskc.org: OSM seed: no firing words on its pages
+- gatewayleatherguild.org: OSM seed: no firing words on its pages
+- gslkg.com: OSM seed: no firing words on its pages
+- kcpcg.org: OSM seed: no firing words on its pages
+- kcwg.org: OSM seed: no firing words on its pages
+- kcclayguild.org: OSM seed: no firing words on its pages
+- maaa.org: OSM seed: no firing words on its pages
+- midmissouriartsalliance.com: OSM seed: no firing words on its pages
+- missouriartscouncil.org: OSM seed: no firing words on its pages
+- springfieldarts.org: OSM seed: no firing words on its pages
+- stlouisartistsguild.org: OSM seed: no firing words on its pages
+- thimbleandthreadstl.org: OSM seed: no firing words on its pages
+- kcweaversguild.org: OSM seed: no firing words on its pages
+- kearneyartistguild.com: OSM seed: no firing words on its pages
+- artscene.org: OSM seed: no firing words on its pages
+- artscouncil.nebraska.gov: OSM seed: no firing words on its pages
+- nsqg.org: OSM seed: no firing words on its pages
+- badlandsarts.com: OSM seed: no firing words on its pages
+- dakotawestartscouncil.org: OSM seed: no firing words on its pages
+- arts.nd.gov: OSM seed: no firing words on its pages
+- northstarquilters.org: OSM seed: no firing words on its pages
+- svaca.org: OSM seed: no firing words on its pages
+- assemblycle.org: OSM seed: no firing words on its pages
+- athensartguild.org: OSM seed: no firing words on its pages
+- buckeyeleathercrafters.org: OSM seed: no firing words on its pages
+- cowfg.org: OSM seed: no firing words on its pages
+- cacgrants.org: OSM seed: no firing words on its pages
+- cuyahogaweaversguild.com: OSM seed: no firing words on its pages
+- daytonknittingguild.com: OSM seed: no firing words on its pages
+- gcac.org: OSM seed: no firing words on its pages
+- heartofohioquilters.com: OSM seed: no firing words on its pages
+- midohiojewelryartsguild.org: OSM seed: no firing words on its pages
+- oac.ohio.gov: OSM seed: no firing words on its pages
+- ohiocraft.org: OSM seed: no firing words on its pages
+- ovqg.com: OSM seed: no firing words on its pages
+- ovwg.org: OSM seed: no firing words on its pages
+- stanhywet.org: OSM seed: no firing words on its pages
+- thereturningartistsguild.org: OSM seed: no firing words on its pages
+- tuscarawascountyartguild.com: OSM seed: no firing words on its pages
+- wgmv.org: OSM seed: no firing words on its pages
+- artssouthdakota.org: OSM seed: no firing words on its pages
+- minotquilters.com: OSM seed: no firing words on its pages
+- rapidcityartscouncil.org: OSM seed: no firing words on its pages
+- artssiouxfalls.org: OSM seed: no firing words on its pages
+- sdstate.edu: OSM seed: no firing words on its pages
+- artscouncil.sd.gov: OSM seed: no firing words on its pages
+- sdquiltersguild.org: OSM seed: no firing words on its pages
+- yanktonareaarts.org: OSM seed: no firing words on its pages
+- artguildmf.org: OSM seed: no firing words on its pages
+- madcityquilters.org: OSM seed: no firing words on its pages
+- madisonareaega.org: OSM seed: no firing words on its pages
+- madisonartguild.com: OSM seed: no firing words on its pages
+- madisonknittersguild.org: OSM seed: no firing words on its pages
+- madmodquiltguild.com: OSM seed: no firing words on its pages
+- marnarts.org: OSM seed: no firing words on its pages
+- newwg.org: OSM seed: no firing words on its pages
+- rivervalleyartsguild.org: OSM seed: no firing words on its pages
+- southportquilters.net: OSM seed: no firing words on its pages
+- artcraftwis.org: OSM seed: no firing words on its pages
+- artsboard.wisconsin.gov: OSM seed: no firing words on its pages
+- wisconsincraft.org: OSM seed: no firing words on its pages
+- wiscwoodworkersguild.com: OSM seed: no firing words on its pages
+- tucsonang.org: OSM seed: no firing words on its pages
+- arizonaartistsguild.net: OSM seed: no firing words on its pages
+- adwsg.org: OSM seed: no firing words on its pages
+- azpcg.com: OSM seed: no firing words on its pages
+- arizonaquiltersguild.org: OSM seed: no firing words on its pages
+- bisbeefiberarts.com: OSM seed: no firing words on its pages
+- flagstaffpottersguild.com: OSM seed: no firing words on its pages
+- havasustitchers.com: OSM seed: no firing words on its pages
+- hopiartstrail.com: OSM seed: no firing words on its pages
+- mountainartistsguild.org: OSM seed: no firing words on its pages
+- mtnspinweave.org: OSM seed: no firing words on its pages
+- phoenixartistsguild.com: OSM seed: no firing words on its pages
+- phxmqg.com: OSM seed: no firing words on its pages
+- saddlebrookefinearts.org: OSM seed: no firing words on its pages
+- sonoranartsleague.org: OSM seed: no firing words on its pages
+- southernarizonaartsguild.com: OSM seed: no firing words on its pages
+- thsg.org: OSM seed: no firing words on its pages
+- tucsonquiltersguild.com: OSM seed: no firing words on its pages
+- valleyfiberartguild.org: OSM seed: no firing words on its pages
+- artscrawlabq.org: OSM seed: no firing words on its pages
+- abqfiberartscouncil.org: OSM seed: no firing words on its pages
+- amqg.wildapricot.org: OSM seed: no firing words on its pages
+- daarts.org: OSM seed: no firing words on its pages
+- eldoradoarts.org: OSM seed: no firing words on its pages
+- evfac.org: OSM seed: no firing words on its pages
+- newmexicofiberartsdirectory.com: OSM seed: no firing words on its pages
+- lcqg.org: OSM seed: no firing words on its pages
+- lastejedoras.org: OSM seed: no firing words on its pages
+- mesafiberartsguild.org: OSM seed: no firing words on its pages
+- nmarts.org: OSM seed: no firing words on its pages
+- nmpotters.org: OSM seed: no firing words on its pages
+- nmsilkpaintersguild.com: OSM seed: no firing words on its pages
+- nnmqg.org: OSM seed: no firing words on its pages
+- santafebag.org: OSM seed: no firing words on its pages
+- okbasketweaversguild.com: OSM seed: no firing words on its pages
+- calligraphytulsa.com: OSM seed: no firing words on its pages
+- centralokquilters.org: OSM seed: no firing words on its pages
+- okartguild.com: OSM seed: no firing words on its pages
+- arts.ok.gov: OSM seed: no firing words on its pages
+- ovac-ok.org: OSM seed: no firing words on its pages
+- thepaaok.org: OSM seed: no firing words on its pages
+- saltforkcraftsmen.org: OSM seed: no firing words on its pages
+- agitsi.com: OSM seed: no firing words on its pages
+- weaversguildokc.com: OSM seed: no firing words on its pages
+- lonestarang.com: OSM seed: no firing words on its pages
+- artguildct.org: OSM seed: no firing words on its pages
+- artsfortworth.org: OSM seed: no firing words on its pages
+- aaqg.org: OSM seed: no firing words on its pages
+- weavebrazos.org: OSM seed: no firing words on its pages
+- clayhouston.org: OSM seed: no firing words on its pages
+- thecraftguild.org: OSM seed: no firing words on its pages
+- creativeartscenter.org: OSM seed: no firing words on its pages
+- dntg.org: OSM seed: no firing words on its pages
+- fortworthweaversguild.org: OSM seed: no firing words on its pages
+- fredericksburgartguild.com: OSM seed: no firing words on its pages
+- gtqg.org: OSM seed: no firing words on its pages
+- austinclay.org: OSM seed: no firing words on its pages
+- houstonartsalliance.com: OSM seed: no firing words on its pages
+- houstonartsociety.com: OSM seed: no firing words on its pages
+- crafthouston.org: OSM seed: no firing words on its pages
+- houstonleatherguild.org: OSM seed: no firing words on its pages
+- hmag.org: OSM seed: no firing words on its pages
+- houstonmqg.org: OSM seed: no firing words on its pages
+- houstonpolyclay.org: OSM seed: no firing words on its pages
+- lonestarleathercraft.com: OSM seed: no firing words on its pages
+- qgetx.org: OSM seed: no firing words on its pages
+- qgplano.org: OSM seed: no firing words on its pages
+- quiltersguildofdallas.org: OSM seed: no firing words on its pages
+- saglassguild.com: OSM seed: no firing words on its pages
+- sanantoniohandweavers.com: OSM seed: no firing words on its pages
+- sang-ega.org: OSM seed: no firing words on its pages
+- arts.texas.gov: OSM seed: no firing words on its pages
+- texasstarquiltersguild.org: OSM seed: no firing words on its pages
+- visualartsalliance.org: OSM seed: no firing words on its pages
+- vastarts.org: OSM seed: no firing words on its pages
+- wcagtx.org: OSM seed: no firing words on its pages
+- westerlyarts.com: OSM seed: no firing words on its pages
+- cctmqg.com: OSM seed: no firing words on its pages
+- clamshellquiltguild.org: OSM seed: no firing words on its pages
+- clintonartsocietyct.org: OSM seed: no firing words on its pages
+- ctpiecemakers.org: OSM seed: no firing words on its pages
+- coventryartsguild.org: OSM seed: no firing words on its pages
+- crvc-ega.org: OSM seed: no firing words on its pages
+- ghqg.org: OSM seed: no firing words on its pages
+- greenvillewoodworkers.com: OSM seed: no firing words on its pages
+- greenwichartscouncil.org: OSM seed: no firing words on its pages
+- greenwichdecorativearts.org: OSM seed: no firing words on its pages
+- handweaversguildofct.org: OSM seed: no firing words on its pages
+- weavingcenter.org: OSM seed: no firing words on its pages
+- hotscrochetguild.yolasite.com: OSM seed: no firing words on its pages
+- madisonartsocietyct.org: OSM seed: no firing words on its pages
+- newhavenpaintandclayclub.org: OSM seed: no firing words on its pages
+- northeastbasketmakers.org: OSM seed: no firing words on its pages
+- nutmegspinners.org: OSM seed: no firing words on its pages
+- rgoa.org: OSM seed: no firing words on its pages
+- shorelinectmqg.com: OSM seed: no firing words on its pages
+- scanart.org: OSM seed: no firing words on its pages
+- southernctmqg.com: OSM seed: no firing words on its pages
+- scpcg.org: OSM seed: no firing words on its pages
+- newhavenarts.org: OSM seed: no firing words on its pages
+- wesleyanpotters.com: OSM seed: no firing words on its pages
+- delawareartsalliance.org: OSM seed: no firing words on its pages
+- arts.delaware.gov: OSM seed: no firing words on its pages
+- harmonyweaversguild.org: OSM seed: no firing words on its pages
+- miltonartsguild.org: OSM seed: no firing words on its pages
+- mispillionarts.org: OSM seed: no firing words on its pages
+- rehobothartleague.org: OSM seed: no firing words on its pages
+- artguildofthekennebunks.com: OSM seed: no firing words on its pages
+- guildofmainewoodworkers.com: OSM seed: no firing words on its pages
+- highpeaksartisanguild.homestead.com: OSM seed: no firing words on its pages
+- mainearts.maine.gov: OSM seed: no firing words on its pages
+- maineblacksmiths.com: OSM seed: no firing words on its pages
+- mainecrafts.org: OSM seed: no firing words on its pages
+- mainefiberarts.org: OSM seed: no firing words on its pages
+- makersguildmaine.org: OSM seed: no firing words on its pages
+- mainequilts.org: OSM seed: no firing words on its pages
+- pleasantmtfiber.com: OSM seed: no firing words on its pages
+- societyofsouthernmainecraftsmen.org: OSM seed: no firing words on its pages
+- unitedmainecraftsmen.com: OSM seed: no firing words on its pages
+- watervilleareaartsociety.com: OSM seed: no firing words on its pages
+- baltimorequilters.com: OSM seed: no firing words on its pages
+- bgcmonline.org: OSM seed: no firing words on its pages
+- chesapeakeforge.org: OSM seed: no firing words on its pages
+- frederickartscouncil.org: OSM seed: no firing words on its pages
+- muddycreekartistsguild.org: OSM seed: no firing words on its pages
+- pottersguildoffrederick.com: OSM seed: no firing words on its pages
+- pottersguild.org: OSM seed: no firing words on its pages
+- washingtoncountyarts.com: OSM seed: no firing words on its pages
+- wggb.org: OSM seed: no firing words on its pages
+- masschapterang.org: OSM seed: no firing words on its pages
+- nantucketarts.org: OSM seed: no firing words on its pages
+- artscollabmedford.org: OSM seed: no firing words on its pages
+- artsfoundation.org: OSM seed: no firing words on its pages
+- artsworcester.org: OSM seed: no firing words on its pages
+- bmag-wa.org: OSM seed: no firing words on its pages
+- berkshireartcenter.org: OSM seed: no firing words on its pages
+- berkshirewoodworkers.org: OSM seed: no firing words on its pages
+- capecodpotters.org: OSM seed: no firing words on its pages
+- newenglandclay.tripod.com: OSM seed: no firing words on its pages
+- chelmsfordquiltguild.com: OSM seed: no firing words on its pages
+- emgw.org: OSM seed: no firing words on its pages
+- easthamptonclay.com: OSM seed: no firing words on its pages
+- fortpointarts.org: OSM seed: no firing words on its pages
+- gbkg.org: OSM seed: no firing words on its pages
+- lexart.org: OSM seed: no firing words on its pages
+- lexingtonwoodguild.org: OSM seed: no firing words on its pages
+- materialgirlsquiltguild.org: OSM seed: no firing words on its pages
+- mgne.org: OSM seed: no firing words on its pages
+- nvwg.org: OSM seed: no firing words on its pages
+- newburyportartscollective.org: OSM seed: no firing words on its pages
+- nefa.org: OSM seed: no firing words on its pages
+- northriverarts.org: OSM seed: no firing words on its pages
+- nsarts.org: OSM seed: no firing words on its pages
+- artsy.net: OSM seed: no firing words on its pages
+- weaversspring.com: OSM seed: no firing words on its pages
+- thimblesandfriendsquiltguild.org: OSM seed: no firing words on its pages
+- weaversguildofboston.org: OSM seed: no firing words on its pages
+- worcestercraftcenter.org: OSM seed: no firing words on its pages
+- amoskeagqg.org: OSM seed: no firing words on its pages
+- monadnockartsalive.org: OSM seed: no firing words on its pages
+- artstamworth.org: OSM seed: no firing words on its pages
+- capitalquiltersguild.com: OSM seed: no firing words on its pages
+- cheshirequilters.com: OSM seed: no firing words on its pages
+- cochecoquilters.com: OSM seed: no firing words on its pages
+- exeterfinecrafts.com: OSM seed: no firing words on its pages
+- gnhw.org: OSM seed: no firing words on its pages
+- lakescenterforarts.org: OSM seed: no firing words on its pages
+- nhcrafts.org: OSM seed: no firing words on its pages
+- monadnockquiltersguild.org: OSM seed: no firing words on its pages
+- mwvarts.org: OSM seed: no firing words on its pages
+- nashuaarts.org: OSM seed: no firing words on its pages
+- nhmqg.org: OSM seed: no firing words on its pages
+- nhpcg.org: OSM seed: no firing words on its pages
+- nhsdg.org: OSM seed: no firing words on its pages
+- nhweaversguild.org: OSM seed: no firing words on its pages
+- nlqg.org: OSM seed: no firing words on its pages
+- theartistsguildofthecape.com: OSM seed: no firing words on its pages
+- artscouncilofprinceton.org: OSM seed: no firing words on its pages
+- artsguildnj.org: OSM seed: no firing words on its pages
+- artsocietyofmonmouthcounty.org: OSM seed: no firing words on its pages
+- belmararts.org: OSM seed: no firing words on its pages
+- burlcoartguild.com: OSM seed: no firing words on its pages
+- guildofcreativeart.org: OSM seed: no firing words on its pages
+- jockeyhollowweavers.org: OSM seed: no firing words on its pages
+- madisonartsnj.org: OSM seed: no firing words on its pages
+- newarkarts.org: OSM seed: no firing words on its pages
+- northcountryspinners.com: OSM seed: no firing words on its pages
+- ocartistsguild.org: OSM seed: no firing words on its pages
+- njwoodguild.com: OSM seed: no firing words on its pages
+- shorefiberarts.org: OSM seed: no firing words on its pages
+- sjgsh.net: OSM seed: no firing words on its pages
+- westfieldweavers.org: OSM seed: no firing words on its pages
+- westwindsorarts.org: OSM seed: no firing words on its pages
+- wgsj.org: OSM seed: no firing words on its pages
+- artsmidhudson.org: OSM seed: no firing words on its pages
+- bakg.org: OSM seed: no firing words on its pages
+- brooklynartscouncil.org: OSM seed: no firing words on its pages
+- quiltbrooklyn.org: OSM seed: no firing words on its pages
+- capitaldistrictmqg.com: OSM seed: no firing words on its pages
+- cnyartguild.org: OSM seed: no firing words on its pages
+- cnyega.com: OSM seed: no firing words on its pages
+- nycapega.org: OSM seed: no firing words on its pages
+- empirequilters.net: OSM seed: no firing words on its pages
+- fasstny.org: OSM seed: no firing words on its pages
+- hmwg.org: OSM seed: no firing words on its pages
+- hudsonriverartistsguild.com: OSM seed: no firing words on its pages
+- buffaloknittingguild.com: OSM seed: no firing words on its pages
+- licg.org: OSM seed: no firing words on its pages
+- nyhandweavers.org: OSM seed: no firing words on its pages
+- nsaachautauqua.org: OSM seed: no firing words on its pages
+- nycmetromodquilters.com: OSM seed: no firing words on its pages
+- onondagaartguild.org: OSM seed: no firing words on its pages
+- peekskillartsalliance.org: OSM seed: no firing words on its pages
+- rochesterknitting.org: OSM seed: no firing words on its pages
+- saratoga-arts.org: OSM seed: no firing words on its pages
+- syracuseceramicguild.com: OSM seed: no firing words on its pages
+- syracuseweaversguild.org: OSM seed: no firing words on its pages
+- hamptonsclayart.org: OSM seed: no firing words on its pages
+- weaversguildofrochester.org: OSM seed: no firing words on its pages
+- woodstockguild.org: OSM seed: no firing words on its pages
+- bucksarts.org: OSM seed: no firing words on its pages
+- artsisters.org: OSM seed: no firing words on its pages
+- berksquiltersguild.org: OSM seed: no firing words on its pages
+- bfac-lv.org: OSM seed: no firing words on its pages
+- centralpaweavers.com: OSM seed: no firing words on its pages
+- chambersburgquiltguild.com: OSM seed: no firing words on its pages
+- chestercountyarts.org: OSM seed: no firing words on its pages
+- fiberartspgh.org: OSM seed: no firing words on its pages
+- pittsburghartscouncil.org: OSM seed: no firing words on its pages
+- hwbcguild.org: OSM seed: no firing words on its pages
+- haverfordguild.org: OSM seed: no firing words on its pages
+- lancasterspinnersandweaversguild.com: OSM seed: no firing words on its pages
+- lebanonquiltersguild.com: OSM seed: no firing words on its pages
+- lewisburgartscouncil.com: OSM seed: no firing words on its pages
+- mcgopa.org: OSM seed: no firing words on its pages
+- nefguild.org: OSM seed: no firing words on its pages
+- npswg.com: OSM seed: no firing words on its pages
+- pennohioclayguild.org: OSM seed: no firing words on its pages
+- arts.pa.gov: OSM seed: no firing words on its pages
+- pacrafts.org: OSM seed: no firing words on its pages
+- pghw.org: OSM seed: no firing words on its pages
+- piecemakersquiltguild.org: OSM seed: no firing words on its pages
+- pittpounders.org: OSM seed: no firing words on its pages
+- pittsburghglasscenter.org: OSM seed: no firing words on its pages
+- poconoarts.org: OSM seed: no firing words on its pages
+- pottersguildofcentralpa.org: OSM seed: no firing words on its pages
+- rbcrafts.org: OSM seed: no firing words on its pages
+- svswg.org: OSM seed: no firing words on its pages
+- waynepleinair.org: OSM seed: no firing words on its pages
+- fayerweathercraftguild.com: OSM seed: no firing words on its pages
+- portsmoutharts.org: OSM seed: no firing words on its pages
+- rhodeislandweavingcenter.org: OSM seed: no firing words on its pages
+- wgri.org: OSM seed: no firing words on its pages
+- wwgri.com: OSM seed: no firing words on its pages
+- 802artshouse.org: OSM seed: no firing words on its pages
+- brandonartistsguild.org: OSM seed: no firing words on its pages
+- cvqgvt.org: OSM seed: no firing words on its pages
+- thefiberguild.org: OSM seed: no firing words on its pages
+- fireartsvt.com: OSM seed: no firing words on its pages
+- franklincountyquilters.org: OSM seed: no firing words on its pages
+- froghollow.org: OSM seed: no firing words on its pages
+- vermontfurnituremakers.com: OSM seed: no firing words on its pages
+- madrivervalleyarts.org: OSM seed: no firing words on its pages
+- miltonartistsguild.org: OSM seed: no firing words on its pages
+- northcountryquiltersvt.com: OSM seed: no firing words on its pages
+- northeastfiberarts.com: OSM seed: no firing words on its pages
+- nekartisansguild.com: OSM seed: no firing words on its pages
+- plyspinnersguild.com: OSM seed: no firing words on its pages
+- twinstatesmqg.org: OSM seed: no firing words on its pages
+- valleyartistsguild.org: OSM seed: no firing words on its pages
+- vermontartscouncil.org: OSM seed: no firing words on its pages
+- vermontclayguild.org: OSM seed: no firing words on its pages
+- vermontglassguild.com: OSM seed: no firing words on its pages
+- craftcenters.vermont.gov: OSM seed: no firing words on its pages
+- vtweaversguild.org: OSM seed: no firing words on its pages
+- artguildofgreene.org: OSM seed: no firing words on its pages
+- esvaartisansguild.org: OSM seed: no firing words on its pages
+- blueridgepotters.com: OSM seed: no firing words on its pages
+- cvbg.org: OSM seed: no firing words on its pages
+- cvfg.org: OSM seed: no firing words on its pages
+- cvamodernquiltguild.com: OSM seed: no firing words on its pages
+- cvwg.art: OSM seed: no firing words on its pages
+- clothos.org: OSM seed: no firing words on its pages
+- fiberguildbr.org: OSM seed: no firing words on its pages
+- holstonmtnarts.org: OSM seed: no firing words on its pages
+- nvhg.org: OSM seed: no firing words on its pages
+- richmondartistsguild.com: OSM seed: no firing words on its pages
+- richmondquiltersguild.com: OSM seed: no firing words on its pages
+- richmondweavers.org: OSM seed: no firing words on its pages
+- roanokearts.org: OSM seed: no firing words on its pages
+- tidewaterbasketryguild.org: OSM seed: no firing words on its pages
+- tidewaterblacksmiths.org: OSM seed: no firing words on its pages
+- tqgva.org: OSM seed: no firing words on its pages
+- viennaartssociety.org: OSM seed: no firing words on its pages
+- vca.virginia.gov: OSM seed: no firing words on its pages
+- virginiaglassguild.org: OSM seed: no firing words on its pages
+- vastarquilters.com: OSM seed: no firing words on its pages
+- visarts.org: OSM seed: no firing words on its pages
+- waterfordweaversguild.org: OSM seed: no firing words on its pages
+- williamsburgspinweave.org: OSM seed: no firing words on its pages
+- onthehillgallery.com: OSM seed: no firing words on its pages
+- artsclubofwashington.org: OSM seed: no firing words on its pages
+- chaw.org: OSM seed: no firing words on its pages
+- dcartscenter.org: OSM seed: no firing words on its pages
+- dcmakers.org: OSM seed: no firing words on its pages
+- ncagg.org: OSM seed: no firing words on its pages
+- calligraphersguild.org: OSM seed: no firing words on its pages
+- artsamplifiedwv.com: OSM seed: no firing words on its pages
+- lostrivercrafts.com: OSM seed: no firing words on its pages
+- wvculture.org: OSM seed: no firing words on its pages
+- alabamacraftguild.org: OSM seed: no firing words on its pages
+- arts.alabama.gov: OSM seed: no firing words on its pages
+- wp.awwg.info: OSM seed: no firing words on its pages
+- artshuntsville.org: OSM seed: no firing words on its pages
+- auburnarts.org: OSM seed: no firing words on its pages
+- baldwinforthearts.org: OSM seed: no firing words on its pages
+- birminghamcalligraphy.org: OSM seed: no firing words on its pages
+- bhamquilters.com: OSM seed: no firing words on its pages
+- caag.art: OSM seed: no firing words on its pages
+- dothaneveningstarquiltguild.com: OSM seed: no firing words on its pages
+- elmorecountyartguild.com: OSM seed: no firing words on its pages
+- eveningstarquiltguild.wildapricot.org: OSM seed: no firing words on its pages
+- gcaa-al.org: OSM seed: no firing words on its pages
+- hooverartsalliance.org: OSM seed: no firing words on its pages
+- lupercaliaartsociety.net: OSM seed: no firing words on its pages
+- madisonstationquilters.org: OSM seed: no firing words on its pages
+- mobilearts.org: OSM seed: no firing words on its pages
+- montgomeryartguild.org: OSM seed: no firing words on its pages
+- pikeroad.us: OSM seed: no firing words on its pages
+- westalabamafiberguild.com: OSM seed: no firing words on its pages
+- waqg.com: OSM seed: no firing words on its pages
+- arkansasheritage.com: OSM seed: no firing words on its pages
+- arkansascraftguild.org: OSM seed: no firing words on its pages
+- arkansasquiltersguild.org: OSM seed: no firing words on its pages
+- calicocutups.com: OSM seed: no firing words on its pages
+- hotspringsarts.org: OSM seed: no firing words on its pages
+- nwahandweaversguild.org: OSM seed: no firing words on its pages
+- quiltguildnwa.com: OSM seed: no firing words on its pages
+- amiartistsguildgallery.com: OSM seed: no firing words on its pages
+- bartowartguild.com: OSM seed: no firing words on its pages
+- bayarts.org: OSM seed: no firing words on its pages
+- browardartguild.org: OSM seed: no firing words on its pages
+- cfcarts.com: OSM seed: no firing words on its pages
+- cfwg.org: OSM seed: no firing words on its pages
+- clearwaterartsalliance.org: OSM seed: no firing words on its pages
+- pencilpainters.com: OSM seed: no firing words on its pages
+- sunregionega.org: OSM seed: no firing words on its pages
+- fineartsocietythevillages.com: OSM seed: no firing words on its pages
+- floridacraftart.org: OSM seed: no firing words on its pages
+- ftwg.org: OSM seed: no firing words on its pages
+- flwaa.com: OSM seed: no firing words on its pages
+- gainesvillefinearts.org: OSM seed: no firing words on its pages
+- gainesvillehandweavers.org: OSM seed: no firing words on its pages
+- jaxmqg.com: OSM seed: no firing words on its pages
+- jaxweaversguild.org: OSM seed: no firing words on its pages
+- lakequiltguild.com: OSM seed: no firing words on its pages
+- manasotaweaversguild.org: OSM seed: no firing words on its pages
+- manateeriverartistsguild.com: OSM seed: no firing words on its pages
+- martinartisansguild.org: OSM seed: no firing words on its pages
+- martinarts.org: OSM seed: no firing words on its pages
+- mvqgohio.com: OSM seed: no firing words on its pages
+- naplesartcrafters.com: OSM seed: no firing words on its pages
+- oapcguild.com: OSM seed: no firing words on its pages
+- pensacolaquiltersguild.org: OSM seed: no firing words on its pages
+- pinellasweavers.com: OSM seed: no firing words on its pages
+- qgotv.org: OSM seed: no firing words on its pages
+- sfjag.org: OSM seed: no firing words on its pages
+- sfwtg.com: OSM seed: no firing words on its pages
+- sfwg.org: OSM seed: no firing words on its pages
+- swflpottersguild.com: OSM seed: no firing words on its pages
+- stpeteartsalliance.org: OSM seed: no firing words on its pages
+- stpetewoodguild.org: OSM seed: no firing words on its pages
+- surfacedesignguild.com: OSM seed: no firing words on its pages
+- artguildoforangepark.org: OSM seed: no firing words on its pages
+- unitedartscfl.org: OSM seed: no firing words on its pages
+- veniceartcenter.com: OSM seed: no firing words on its pages
+- westpascoartguildandgallery.org: OSM seed: no firing words on its pages
+- albanyartscouncil.org: OSM seed: no firing words on its pages
+- artistguildcc.org: OSM seed: no firing words on its pages
+- artsalpharetta.org: OSM seed: no firing words on its pages
+- alachuacounty.us: OSM seed: no firing words on its pages
+- artsgeorgia.net: OSM seed: no firing words on its pages
+- athensartsleague.com: OSM seed: no firing words on its pages
+- athensfiber.org: OSM seed: no firing words on its pages
+- atlantaglassartguild.org: OSM seed: no firing words on its pages
+- atlantaknittingguild.org: OSM seed: no firing words on its pages
+- blueridgearts.net: OSM seed: no firing words on its pages
+- chgweavers.org: OSM seed: no firing words on its pages
+- clawsonclayguild.com: OSM seed: no firing words on its pages
+- columbusartistsguild.com: OSM seed: no firing words on its pages
+- artsdouglas.org: OSM seed: no firing words on its pages
+- decaturartsalliance.org: OSM seed: no firing words on its pages
+- ecqg.com: OSM seed: no firing words on its pages
+- fiberguildsav.com: OSM seed: no firing words on its pages
+- gaartsnetwork.org: OSM seed: no firing words on its pages
+- gaclaycouncil.com: OSM seed: no firing words on its pages
+- georgiacoastalartistsguild.com: OSM seed: no firing words on its pages
+- gaarts.org: OSM seed: no firing words on its pages
+- gamcg.org: OSM seed: no firing words on its pages
+- georgiansforthearts.org: OSM seed: no firing words on its pages
+- goldenislesfiberartsguild.org: OSM seed: no firing words on its pages
+- gapcg.org: OSM seed: no firing words on its pages
+- gwinnettquiltersguild.org: OSM seed: no firing words on its pages
+- hallcountyquiltguild.com: OSM seed: no firing words on its pages
+- jekyllartists.com: OSM seed: no firing words on its pages
+- themadisonartistsguild.org: OSM seed: no firing words on its pages
+- metalartsguildga.org: OSM seed: no firing words on its pages
+- northgeorgiaartsguild.com: OSM seed: no firing words on its pages
+- northgeorgiaknittingguild.com: OSM seed: no firing words on its pages
+- ocmulgeeblacksmithsguild.org: OSM seed: no firing words on its pages
+- peachfuzzfiberguild.com: OSM seed: no firing words on its pages
+- peachtreehandspinnersguild.org: OSM seed: no firing words on its pages
+- romearts.org: OSM seed: no firing words on its pages
+- roswellartsfund.org: OSM seed: no firing words on its pages
+- rfaa.org: OSM seed: no firing words on its pages
+- roswellclaycollective.com: OSM seed: no firing words on its pages
+- tsgga.org: OSM seed: no firing words on its pages
+- savannahquiltguild.com: OSM seed: no firing words on its pages
+- southcobbarts.org: OSM seed: no firing words on its pages
+- fiberartsalliance.org: OSM seed: no firing words on its pages
+- theartscouncil.net: OSM seed: no firing words on its pages
+- wwgofga.com: OSM seed: no firing words on its pages
+- artstationky.org: OSM seed: no firing words on its pages
+- artguildofpaducah.org: OSM seed: no firing words on its pages
+- bgartscouncil.com: OSM seed: no firing words on its pages
+- centralkyartguild.com: OSM seed: no firing words on its pages
+- fineartsseky.org: OSM seed: no firing words on its pages
+- kentuckycrafts.org: OSM seed: no firing words on its pages
+- kentuckyartisancenter.ky.gov: OSM seed: no firing words on its pages
+- artscouncil.ky.gov: OSM seed: no firing words on its pages
+- moreheadstate.edu: OSM seed: no firing words on its pages
+- kentuckyguild.org: OSM seed: no firing words on its pages
+- lexarts.org: OSM seed: no firing words on its pages
+- louisvilleartisanguild.org: OSM seed: no firing words on its pages
+- louisvillecalligraphycollective.com: OSM seed: no firing words on its pages
+- murrayartguild.org: OSM seed: no firing words on its pages
+- owensboroartguild.org: OSM seed: no firing words on its pages
+- paducahartsalliance.com: OSM seed: no firing words on its pages
+- quiltguildbg.org: OSM seed: no firing words on its pages
+- stringtownquiltersguild.com: OSM seed: no firing words on its pages
+- artguildlouisiana.org: OSM seed: no firing words on its pages
+- louisiana-arts.org: OSM seed: no firing words on its pages
+- artsbr.org: OSM seed: no firing words on its pages
+- artsneworleans.org: OSM seed: no firing words on its pages
+- louisianacrafts.org: OSM seed: no firing words on its pages
+- lwccg.com: OSM seed: no firing words on its pages
+- neworleansglassworks.com: OSM seed: no firing words on its pages
+- nowg.org: OSM seed: no firing words on its pages
+- nlqg.us: OSM seed: no firing words on its pages
+- cvillewsg.com: OSM seed: no firing words on its pages
+- columbusartscouncil.com: OSM seed: no firing words on its pages
+- hattiesburgartscouncil.com: OSM seed: no firing words on its pages
+- laurelartsleague.com: OSM seed: no firing words on its pages
+- meridianartscouncil.org: OSM seed: no firing words on its pages
+- msartistsguild.org: OSM seed: no firing words on its pages
+- arts.ms.gov: OSM seed: no firing words on its pages
+- ms-arts-letters.org: OSM seed: no firing words on its pages
+- prcal.clubexpress.com: OSM seed: no firing words on its pages
+- starkvillearts.net: OSM seed: no firing words on its pages
+- mscrafts.org: OSM seed: no firing words on its pages
+- oxfordarts.com: OSM seed: no firing words on its pages
+- albemarlecraftsmansfair.com: OSM seed: no firing words on its pages
+- artsavl.org: OSM seed: no firing words on its pages
+- theartscouncil.com: OSM seed: no firing words on its pages
+- artsnc.org: OSM seed: no firing words on its pages
+- ashevillequiltguild.org: OSM seed: no firing words on its pages
+- blueridgefiberguild.org: OSM seed: no firing words on its pages
+- cabarrusartguild.org: OSM seed: no firing words on its pages
+- carolinaclayguild.com: OSM seed: no firing words on its pages
+- carolinaclaymatters.org: OSM seed: no firing words on its pages
+- carolinadesignercraftsmen.com: OSM seed: no firing words on its pages
+- charlottequiltersguild.org: OSM seed: no firing words on its pages
+- chathamartistsguild.org: OSM seed: no firing words on its pages
+- cherokeeartscouncil.org: OSM seed: no firing words on its pages
+- coastalcarolinaclayguild.org: OSM seed: no firing words on its pages
+- crystalcoastquiltersguild.org: OSM seed: no firing words on its pages
+- currituckartscouncil.org: OSM seed: no firing words on its pages
+- durhamartguild.org: OSM seed: no firing words on its pages
+- durhamarts.org: OSM seed: no firing words on its pages
+- foothillsquiltersguild.org: OSM seed: no firing words on its pages
+- forsythquilters.org: OSM seed: no firing words on its pages
+- greenvillencquiltersguild.com: OSM seed: no firing words on its pages
+- guildofcharlotteartists.online: OSM seed: no firing words on its pages
+- hometownartguild.org: OSM seed: no firing words on its pages
+- islandartscouncil.net: OSM seed: no firing words on its pages
+- mooresvillearts.org: OSM seed: no firing words on its pages
+- ncclayworks.org: OSM seed: no firing words on its pages
+- ncarts.org: OSM seed: no firing words on its pages
+- ncglasscenter.org: OSM seed: no firing words on its pages
+- ncpotterycenter.org: OSM seed: no firing words on its pages
+- piedmontcraftsmen.org: OSM seed: no firing words on its pages
+- piedmontfiberguild.org: OSM seed: no firing words on its pages
+- quallaartsandcrafts.org: OSM seed: no firing words on its pages
+- ralfinearts.org: OSM seed: no firing words on its pages
+- randolphartsguild.com: OSM seed: no firing words on its pages
+- robesonartguild.org: OSM seed: no firing words on its pages
+- sandhillshandweaversguild.org: OSM seed: no firing words on its pages
+- discoverseagrove.com: OSM seed: no firing words on its pages
+- smokymtnquilters.org: OSM seed: no firing words on its pages
+- southernartssociety.org: OSM seed: no firing words on its pages
+- southernhighlandguild.org: OSM seed: no firing words on its pages
+- hottqg.com: OSM seed: no firing words on its pages
+- trianglecalligraphersguild.com: OSM seed: no firing words on its pages
+- triangleweavers.org: OSM seed: no firing words on its pages
+- valleyriverarts.com: OSM seed: no firing words on its pages
+- wncfhg.org: OSM seed: no firing words on its pages
+- westernncquilters.org: OSM seed: no firing words on its pages
+- andersonartistsguild.com: OSM seed: no firing words on its pages
+- artistsguildspartanburg.org: OSM seed: no firing words on its pages
+- yorkcountyarts.org: OSM seed: no firing words on its pages
+- beaufortartscouncil.com: OSM seed: no firing words on its pages
+- cayceartsguild.org: OSM seed: no firing words on its pages
+- charlestonartistguild.com: OSM seed: no firing words on its pages
+- charlestoncraftsgallery.com: OSM seed: no firing words on its pages
+- edistoartguild.com: OSM seed: no firing words on its pages
+- florenceartsalliance.org: OSM seed: no firing words on its pages
+- foothillscraftguild.net: OSM seed: no firing words on its pages
+- foothillsquilts.com: OSM seed: no firing words on its pages
+- goosecreekartistsguild.com: OSM seed: no firing words on its pages
+- artscentergreenwood.com: OSM seed: no firing words on its pages
+- northaugustaartistsguild.com: OSM seed: no firing words on its pages
+- philipsimmonsartistblacksmithguild.com: OSM seed: no firing words on its pages
+- seacoastartistsguild.org: OSM seed: no firing words on its pages
+- sclcg.net: OSM seed: no firing words on its pages
+- wacg.org: OSM seed: no firing words on its pages
+- tellicoartguild.com: OSM seed: no firing words on its pages
+- artsmemphis.org: OSM seed: no firing words on its pages
+- blountartsandcraftsguild.com: OSM seed: no firing words on its pages
+- blueridgequiltersguildofnetennessee.com: OSM seed: no firing words on its pages
+- chattanoogafiberartsguild.com: OSM seed: no firing words on its pages
+- dogwoodarts.com: OSM seed: no firing words on its pages
+- etwg.org: OSM seed: no firing words on its pages
+- knoxega.org: OSM seed: no firing words on its pages
+- greatsmokyartsandcrafts.com: OSM seed: no firing words on its pages
+- handweaverstn.org: OSM seed: no firing words on its pages
+- kingsportartguild.com: OSM seed: no firing words on its pages
+- calligraphyguild.com: OSM seed: no firing words on its pages
+- mghw.org: OSM seed: no firing words on its pages
+- thememphispottersguild.com: OSM seed: no firing words on its pages
+- metroartsnashville.com: OSM seed: no firing words on its pages
+- midsouthwoodturners.com: OSM seed: no firing words on its pages
+- monroearts.com: OSM seed: no firing words on its pages
+- musiccityquiltguild.org: OSM seed: no firing words on its pages
+- nashvilleartistguild.org: OSM seed: no firing words on its pages
+- nashvillecalligraphersguild.org: OSM seed: no firing words on its pages
+- omwg.net: OSM seed: no firing words on its pages
+- plateauarts.org: OSM seed: no firing words on its pages
+- quiltingbees.org: OSM seed: no firing words on its pages
+- rutherfordartsalliance.org: OSM seed: no firing words on its pages
+- tn4arts.org: OSM seed: no firing words on its pages
+- tnartscommission.org: OSM seed: no firing words on its pages
+- tennesseecraft.org: OSM seed: no firing words on its pages
+- tnvalleyhandspinners.org: OSM seed: no firing words on its pages
+- tristatewoodcrafters.com: OSM seed: no firing words on its pages
+- statefarm.com: no firing words on any page
+- ca.gov: no firing words on any page
+- csus.edu: no firing words on any page
+- sos.ca.gov: no firing words on any page
+- state.gov: no firing words on any page
+- calcareers.ca.gov: no firing words on any page
+- craft.do: no firing words on any page
+- merriam-webster.com: no firing words on any page
+- hgtv.com: no firing words on any page
+- michaels.com: no firing words on any page
+- onelittleproject.com: no firing words on any page
+- hobbycraft.co.uk: no firing words on any page
+- sites.google.com: no firing words on any page
+- imdb.com: no firing words on any page
+- cmcenters.org: no firing words on any page
+- dictionary.com: no firing words on any page
+- dictionary.cambridge.org: no firing words on any page
+- kilnitrentals.com: This website is only software for booking kiln rentals, not a firing location itself.
+- hotkilns.com: The website is a directory for renting kiln space, not a specific firing event or studio in North Dakota.
+- thirdspacestudiond.com: no firing words on any page
+- en.m.wikipedia.org: The page is a general encyclopedia article and does not mention any firing services for the public.
+- britannica.com: no firing words on any page
+- stanford.edu: no firing words on any page
+- usc.edu: no firing words on any page
+- harvard.edu: no firing words on any page
+- california.com: no firing words on any page
+- collegesimply.com: no firing words on any page
+- collegetuitioncompare.com: no firing words on any page
+- ucla.edu: The provided text is from UCLA's general website and discusses atmospheric dust, not ceramic firings.
+- usnews.com: no firing words on any page
+- visitwarroad.com: The event is located in Minnesota, not North Dakota.
+- northhouse.org: known place in MN
+- thesprucecrafts.com: The page content is not available to determine if public firing participation is possible.
+- spinningpots.com: The text discusses firing methods but does not mention any specific location or public access to a firing service in North Dakota.
+- janejermynceramics.com: The website does not mention any public firing opportunities in North Dakota.
+- upinsmokepottery.com: known place in PA
+- obvara.hu: The website is located in Hungary, not North Dakota.
+- clay.com: no firing words on any page
+- amazon.com: no firing words on any page
+- walmart.com: no firing words on any page
+- app.clay.com: no firing words on any page
+- throwclayla.com: The location is in Los Angeles, not North Dakota.
+- artincontext.org: The text is a general article about pottery and does not mention any specific firing events or locations in North Dakota.
+- potstudiola.com: no firing words on any page
+- gooddirtla.com: no firing words on any page
+- secretlosangeles.com: no firing words on any page
+- potteryworld.com: no firing words on any page
+- potterymfg.com: no firing words on any page
+- m.imdb.com: no firing words on any page
+- fargond.gov: no firing words on any page
+- fargomoorhead.org: no firing words on any page
+- tvinsider.com: no firing words on any page
+- netflix.com: no firing words on any page
+- https://allevents.in/bismarck/workshops: no firing words on any page
+- biscpotterystudio.com: known place in NJ
+- de.m.wikipedia.org: The provided text is from a Wikipedia page about Otto von Bismarck and contains no information about ceramic firings.
+- simple.m.wikipedia.org: no firing words on any page
+- bismarcknd.gov: The page discusses fire restrictions, not ceramic firing services.
+- kbismarck.com: no firing words on any page
+- history.com: no firing words on any page
+- thetouristchecklist.com: no firing words on any page
+- kilnbuilders.com: The website only advertises building kilns and does not mention public firing events.
+- vincepitelka.com: known place in KS
+- tylergulden.com: known place in ME
+- burnishclaystudio.com: known place in WA
+- baileypottery.com: The page only sells kilns and does not mention public firing opportunities.
+- thegrandoakland.com: no firing words on any page
+- apartments.com: no firing words on any page
+- renaissancerialto.com: no firing words on any page
+- zillow.com: no firing words on any page
+- redfin.com: no firing words on any page
+- vocabulary.com: no firing words on any page
+- thefreedictionary.com: no firing words on any page
+- trulia.com: no firing words on any page
+- clayfinder.com: known place in TX
+- potterypost.ca: The directory covers multiple continents but does not specify any firing services in North Dakota.
+- claystuff.com: The page is a directory listing and does not confirm any firing services in North Dakota.
+- maps.google.com: no firing words on any page
+- google.com: no firing words on any page
+- groupon.com: no firing words on any page
+- minotnd.gov: no firing words on any page
+- minotcoinandbullion.com: no firing words on any page
+- localobserverdaily.com: no firing words on any page
+- 701photo.com: no firing words on any page

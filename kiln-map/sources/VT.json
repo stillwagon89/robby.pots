@@ -526,6 +526,46 @@
       "address": "1179 North Mason Hill Road, Pownal, VT",
       "lat": 42.75986,
       "lng": -73.20587
+    },
+    {
+      "id": "vermont-crafts-council",
+      "org": "Vermont Crafts Council",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda"
+      ],
+      "region": "Vermont",
+      "city": null,
+      "urls": [
+        "https://www.vermontcrafts.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.vermontcrafts.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "vermontcrafts.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-13",
+        "verdict": "unclear",
+        "why": "page says state is VT, not ND",
+        "types": {},
+        "state": "VT",
+        "town": ""
+      },
+      "weak": true
     }
   ],
   "_removed": [

@@ -1,6 +1,6 @@
-# Kansas discovery report (2026-10-07)
+# Kansas discovery report (2026-10-13)
 
-Searches: 37 (Tavily). Places seen: 121. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 69 (Tavily). Places seen: 248. Judge: gemma4:latest on this Mac. No Claude used.
 
 ## Qualifies (verified quote, 5)
 
@@ -12,7 +12,7 @@ Searches: 37 (Tavily). Places seen: 121. Judge: gemma4:latest on this Mac. No Cl
 | House of Clay | Overland Park | raku | dated_events | **new** | hunthalloween.com | "Join us at House of Clay for Raku Day, a one-of-a-kind fall pottery experience in Downtown Overland Park." |
 | Bracker's | ? | raku | ongoing_class_or_membership | **new** | brackers.com | "We provide the complete Raku setup, you bring your students and their pots. Instruction in safety, the how-tos of firing and even a history and who’s who of Rak" |
 
-## Unclear: needs a second look (12)
+## Unclear: needs a second look (15)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -28,15 +28,22 @@ Searches: 37 (Tavily). Places seen: 121. Judge: gemma4:latest on this Mac. No Cl
 | Emporia Arts Center | Emporia |  | ongoing_class_or_membership | **new** | emporiaksarts.org | "Ceramics open studio for all skill levels. All supplies and firings are provided!" | The open studio includes firings for the public. [gate: quote names no specific non-electric firing]
 | Thermal Ceramics Inc | Emporia |  | none | **new** | my.ceramicmaterialsworkshop.com | "" | The page lists the facility but does not specify public firing availability.
 | Emporia Arts Council | Emporia |  | ongoing_class_or_membership | **new** | emporiagazette.com | "Projects will be glazed and fired in the Arts Council’s second-floor pottery studio." | The text mentions classes that include firing in the studio. [gate: quote names no specific non-electric firing]
+| Lawrence Potters' Guild | Lawrence | salt | ongoing_class_or_membership | **new** | www2.ljworld.com | "Martin likes to salt fire." | The text mentions the guild's activities and the possibility of firing, but it does not specify if the public can participate in a firing event.
+| plimton.com | ? |  |  | **new** | plimton.com | "" | judge error: The operation was aborted due to timeout
+| Vince Pitelka | ? | soda | ongoing_class_or_membership | **new** | vincepitelka.com | "I no longer teach workshops, but they were always my favorite teaching venue, so I am maintaining the information about workshops to serve as a resource for oth" | The site mentions past workshops but does not offer current public firing opportunities. [gate: quote names no specific non-electric firing]
 
-## Social-only leads, not read (4)
+## Social-only leads, not read (8)
 
 - KC Clay Guild - Soda Firing Workshop with Louis Reilly ... — https://www.facebook.com/kcclayguild.org/posts/soda-firing-workshop-with-louis-reillyparticipants-will-have-an-in-depth-and-han/4288516001206403/
 - Adamah Art Studio | 2024 Workshop Registration is live! Sign ... — https://www.instagram.com/p/C23UxZzA7VR/
 - Reduction Firing in a Gas Kiln - YouTube — https://www.youtube.com/watch?v=uxIYUCD2qk0
 - TOP 10 BEST Pottery Classes in Manhattan, KS - (2026 Guide ...The Makers Guild — A Nonprofit Artist Commune in Manhattan, KSBKLYN CLAYPaint and Sip with Uncorked Inspiration - Cork and Canvas ...New Pottery Class Directory - Kiln Fire — https://www.yelp.com/search?find_desc=pottery+classes&find_loc=Manhattan,+KS
+- Kiln firing and pottery wheel : r/kansascity - Reddit — https://www.reddit.com/r/kansascity/comments/1bq2f22/kiln_firing_and_pottery_wheel/
+- Explore the best art ideas on Pinterest — https://www.pinterest.com/ideas/art/961238559656/
+- YouTube Studio — https://studio.youtube.com/reauth?approve_browser_access=1&approve_browser_access=1
+- Top 15 Things to Do in Wichita, KS - Wichita Attractions — https://www.tripadvisor.com/Attractions-g39143-Activities-Wichita_Kansas.html
 
-## Rejected (100)
+## Rejected (220)
 
 - clayworksinc.org: known place in NC
 - https://allevents.in/topeka/raku-firing-and-handbuilding-4-weeks/200028558072105: known place in OH
@@ -138,3 +145,123 @@ Searches: 37 (Tavily). Places seen: 121. Judge: gemma4:latest on this Mac. No Cl
 - kansascommerce.gov: no firing words on any page
 - art.ksu.edu: The text only describes facilities available for the Artist in Residence program and does not mention public access for firing.
 - artaxis.org: no firing words on any page
+- potwinpottery.com: OSM seed: no firing words on its pages
+- theclayworks.com: OSM seed: no firing words on its pages
+- muddywatersstudio.com: OSM seed: no firing words on its pages
+- theclayworks.org: OSM seed: no firing words on its pages
+- waterdata.usgs.gov: OSM seed: no firing words on its pages
+- threebeeskck.com: OSM seed: no firing words on its pages
+- plantandpotteryco.com: OSM seed: no firing words on its pages
+- foxceramictile.com: OSM seed: no firing words on its pages
+- sunfire-ceramics.com: OSM seed: no firing words on its pages
+- highlandcc.edu: OSM seed: no firing words on its pages
+- ccmcks.org: OSM seed: no firing words on its pages
+- claycountykansas.org: OSM seed: no firing words on its pages
+- barclaycollege.edu: OSM seed: no firing words on its pages
+- kcclayguild.portal.approach.app: OSM seed: no firing words on its pages
+- portal.kansas.gov: OSM seed: no firing words on its pages
+- admin.ks.gov: OSM seed: no firing words on its pages
+- travelks.com: OSM seed: no firing words on its pages
+- kansas.gov: OSM seed: no firing words on its pages
+- statefarm.com: no firing words on any page
+- ca.gov: no firing words on any page
+- csus.edu: no firing words on any page
+- sos.ca.gov: no firing words on any page
+- state.gov: no firing words on any page
+- calcareers.ca.gov: no firing words on any page
+- deviantart.com: no firing words on any page
+- artsandculture.google.com: no firing words on any page
+- art.com: no firing words on any page
+- kreska.art: no firing words on any page
+- artstation.com: no firing words on any page
+- sketch.io: no firing words on any page
+- kleki.com: no firing words on any page
+- baike.baidu.com: no firing words on any page
+- dictionary.cambridge.org: no firing words on any page
+- zillow.com: no firing words on any page
+- blog.youtube: no firing words on any page
+- apartments.com: no firing words on any page
+- visualstudio.microsoft.com: no firing words on any page
+- studio.design: The website is a template design platform, not a pottery studio.
+- studio.co.uk: no firing words on any page
+- sites.google.com: no firing words on any page
+- merriam-webster.com: no firing words on any page
+- imdb.com: no firing words on any page
+- cmcenters.org: no firing words on any page
+- dictionary.com: no firing words on any page
+- kilnitrentals.com: This website is only software for booking kiln rentals, not a place that runs firings for the public.
+- hotkilns.com: The website is a directory for renting kiln space, not a specific firing location in Kansas.
+- support.microsoft.com: no firing words on any page
+- techcommunity.microsoft.com: no firing words on any page
+- en.m.wikipedia.org: The page is a general encyclopedia article and does not mention any public firing opportunities.
+- morningceramics.com: no firing words on any page
+- notaryceramics.com: no firing words on any page
+- multnomahartscenter.org: no firing words on any page
+- wolfceramics.com: no firing words on any page
+- cascadeceramics.com: The studio is located in Oregon, not Kansas.
+- themudroompdx.com: no firing words on any page
+- pigeontoeceramics.com: no firing words on any page
+- radiusstudio.org: no firing words on any page
+- georgies.com: known place in OR
+- thesprucecrafts.com: The page content is not available to determine if public firing participation is possible.
+- spinningpots.com: The text discusses firing methods but does not mention any specific location or public access to a firing service in Kansas.
+- janejermynceramics.com: The text describes firing techniques but does not offer any public access or booking information for a firing in Kansas.
+- upinsmokepottery.com: known place in PA
+- obvara.hu: The website is for a process originating in Eastern Europe and does not indicate public access in Kansas.
+- baltimoreclayworks.org: known place in MD
+- clay.com: no firing words on any page
+- amazon.com: no firing words on any page
+- britannica.com: no firing words on any page
+- clayartcenter.net: The website is an online store for supplies and does not offer public firing services.
+- michaels.com: no firing words on any page
+- app.clay.com: no firing words on any page
+- artincontext.org: The text is a general article about pottery and does not mention a specific location or opportunity for the public to fire in Kansas.
+- potstudiola.com: no firing words on any page
+- gooddirtla.com: no firing words on any page
+- secretlosangeles.com: no firing words on any page
+- potteryworld.com: no firing words on any page
+- potterymfg.com: no firing words on any page
+- visitwichita.com: no firing words on any page
+- choosewichita.com: no firing words on any page
+- wichitabyeb.com: no firing words on any page
+- lawrencetheband.com: no firing words on any page
+- bandsintown.com: no firing words on any page
+- topeka.gov: no firing words on any page
+- thisistopeka.com: no firing words on any page
+- cityviking.com: The text is a general travel guide and does not mention any ceramic firing services.
+- clayfinder.com: known place in TX
+- potterypost.ca: The directory covers multiple continents but does not specify any firing services in Kansas.
+- ma.to: no firing words on any page
+- meetup.com: no firing words on any page
+- claystuff.com: The page is a directory listing and does not confirm public access to non-electric firings in Kansas.
+- allthingskansascity.com: The text only mentions general pottery supplies and a woodworking workshop, not public kiln firings.
+- burnishclaystudio.com: known place in WA
+- msn.com: The source is a general directory and does not confirm a specific, bookable firing event in Kansas.
+- olympickilns.com: The website only advertises equipment for sale, not public firing access.
+- overland.com: no firing words on any page
+- caoverlandadv.com: no firing words on any page
+- overlandvehiclesystems.com: no firing words on any page
+- overlanded.com: no firing words on any page
+- overlandairways.com: no firing words on any page
+- overlandsummers.com: no firing words on any page
+- overlandexpo.com: no firing words on any page
+- forum.ih8mud.com: no firing words on any page
+- jackit.com: no firing words on any page
+- toyteclifts.com: no firing words on any page
+- suspensionlifts.com: no firing words on any page
+- desertrat.com: no firing words on any page
+- board.marlincrawler.com: no firing words on any page
+- offroadalliance.com: no firing words on any page
+- summitracing.com: no firing words on any page
+- cruiseroutfitters.com: no firing words on any page
+- yotatech.com: no firing words on any page
+- https://allevents.in/salina/crafts: no firing words on any page
+- clayco-op.square.site: no firing words on any page
+- maps.google.com: no firing words on any page
+- pcgamer.com: no firing words on any page
+- opentable.com: no firing words on any page
+- salina.com: no firing words on any page
+- thehappyjetlagger.com: no firing words on any page
+- discoversalina.org: no firing words on any page
+- wearepalermo.com: no firing words on any page
+- salina-ks.gov: no firing words on any page

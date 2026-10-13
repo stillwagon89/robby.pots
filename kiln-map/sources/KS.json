@@ -40,7 +40,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -103,7 +103,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -174,6 +174,64 @@
       "auto_approved": "2026-10-09",
       "lat": 38.98736,
       "lng": -94.66995
+    },
+    {
+      "id": "lawrence-potters-guild",
+      "org": "Lawrence Potters' Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "salt"
+      ],
+      "region": "Lawrence",
+      "city": "Lawrence",
+      "urls": [
+        "https://www2.ljworld.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://www2.ljworld.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Martin likes to salt fire.",
+        "url": "https://www2.ljworld.com/news/2003/sep/28/more_than_a/",
+        "types": [
+          "salt"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "www2.ljworld.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-13",
+        "verdict": "unclear",
+        "why": "The text mentions salt firing and that guild members encourage people interested in pottery to join, but does not explicitly state how outsiders can access or participate in actual firings (workshop, class, membership details, rental, or contact invitation).",
+        "types": {
+          "salt": "Martin likes to salt fire. Performed in a special kiln, this type of firing uses salt that adheres with the silica in the clay."
+        },
+        "state": "KS",
+        "town": "Lawrence"
+      },
+      "weak": true,
+      "located": {
+        "state": "KS",
+        "town": "Lawrence",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-13"
+      },
+      "address": "1035 N. Third Street, Lawrence, KS 66044"
     }
   ],
   "_removed": [
@@ -188,6 +246,10 @@
     {
       "id": "tallgrass-artist-residency",
       "why": "Second check (gemini-3.1-flash-lite): The text describes a demonstration for the public to watch, but does not offer a way for outsiders to participate in the firing process itself. (2026-10-08)"
+    },
+    {
+      "id": "vince-pitelka",
+      "why": "Second check (claude-haiku-4.5): The site shows Vince Pitelka's personal studio with a soda kiln, but explicitly states 'I no longer teach workshops' and 'Throughout the year my studio is open by appointment' with no indication that outsiders can participate in firings—only visit the studio by appointment. (2026-10-13)"
     }
   ]
 }

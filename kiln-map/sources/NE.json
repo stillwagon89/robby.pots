@@ -212,7 +212,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -234,6 +234,10 @@
     {
       "id": "lincoln",
       "why": "Second check (claude-haiku-4.5): The page text is from lincoln.org, a tourism/visitor bureau website with no ceramic firing facility or operations; the search snippets mention a 'Makit Together: Raku Firing' event but this appears to be a third-party event listed on the tourism site, not operated by lincoln.org itself, and the actual page text provided contains no details about ceramic firings or how to participate. (2026-10-09)"
+    },
+    {
+      "id": "university-of-nebraska",
+      "why": "Second check (claude-haiku-4.5): The page lists equipment and graduate-level classes for enrolled students only, with no mention of public access to firings, workshops, or membership options for outsiders. (2026-10-13)"
     }
   ]
 }

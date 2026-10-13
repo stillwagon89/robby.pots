@@ -2435,6 +2435,44 @@
       "weak": true,
       "lat": 34.23456,
       "lng": -118.53693
+    },
+    {
+      "id": "san-diego-potters-8217-guild",
+      "org": "San Diego Potters&#8217; Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "San Diego",
+      "city": "San Diego",
+      "urls": [
+        "https://www.sandiegopottersguild.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "San Diego, California",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.sandiegopottersguild.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "sandiegopottersguild.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-13",
+        "verdict": "unclear",
+        "why": "page says state is CA, not ND",
+        "types": {},
+        "state": "CA",
+        "town": "San Diego"
+      },
+      "weak": true
     }
   ],
   "_removed": [

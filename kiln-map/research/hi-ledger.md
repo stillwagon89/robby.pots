@@ -1,4 +1,4 @@
-# Hawaii firings ledger (2026-10-09, discovery v3, automatic)
+# Hawaii firings ledger (2026-10-13, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -17,3 +17,4 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 10 | J. Davis Studio | Kauaʻi | raku | See site | lulakauai.com |
 | 11 | Haleiwa Art Gallery | ? | raku | See site | haleiwaartgallery.com |
 | 12 | Studio 7 Fine Arts | Hilo | wood | Classes or membership | studiosevenfinearts.com |
+| 13 | localhawaiievents | Oʻahu | raku | Classes or membership | localhawaiievents.com |

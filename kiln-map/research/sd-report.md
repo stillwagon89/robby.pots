@@ -1,6 +1,6 @@
-# South Dakota discovery report (2026-10-07)
+# South Dakota discovery report (2026-10-13)
 
-Searches: 34 (Tavily). Places seen: 119. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 62 (Tavily). Places seen: 225. Judge: gemma4:latest on this Mac. No Claude used.
 
 ## Qualifies (verified quote, 2)
 
@@ -9,7 +9,7 @@ Searches: 34 (Tavily). Places seen: 119. Judge: gemma4:latest on this Mac. No Cl
 | Up in Smoke Pottery | ? | pit_barrel_saggar, raku, wood | ongoing_class_or_membership | **new** | upinsmokepottery.com | "We typically fire these saggars in a raku kiln, but can be done in an electric or a pit." |
 | Aberdeen Recreation & Cultural Center | Aberdeen | raku | ongoing_class_or_membership | **new** | aberdeen.sd.us | "Discover the exciting process of raku pottery! Students will build pieces by hand or on the wheel out of low fire raku clay, and finish pieces in a reduction fi" |
 
-## Unclear: needs a second look (11)
+## Unclear: needs a second look (12)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -24,8 +24,9 @@ Searches: 34 (Tavily). Places seen: 119. Judge: gemma4:latest on this Mac. No Cl
 | Spearfish Clayworks | Spearfish |  | none | **new** | spearfishclayworks.com | "" | The page content is unavailable to determine public firing access.
 | Spearfish Clayworks | Spearfish |  | dated_events | **new** | visitspearfish.com | "Your ticket includes: - Pottery of your child's choice - Painting instructions - Glaze (paint) - Kiln firing" | The page advertises a public workshop that includes kiln firing. [gate: quote names no specific non-electric firing]
 | WebTrac | Aberdeen | raku | dated_events | **new** | webtrac.aberdeen.sd.us | "Fire in an outdoor kiln on Saturday, October 17, to get extraordinary pieces unobtainable from a regular kiln firing." | The listing advertises a public alternative firing event in South Dakota. [gate: quote names no specific non-electric firing]
+| spinningpots.com | ? |  |  | **new** | spinningpots.com | "" | judge error: The operation was aborted due to timeout
 
-## Social-only leads, not read (7)
+## Social-only leads, not read (8)
 
 - Still a Few Spots Left: Salt Fire... - Adamah ... - Facebook — https://www.facebook.com/adamahartsstudio/posts/-still-a-few-spots-left-salt-fire-workshop-with-katie-white-july-2024-2026-adama/1726450281927178/
 - Abi Higgins Potter, Artist. Raku, Saggar, Barrel workshops ... — https://www.instagram.com/sarahabigailhiggins/
@@ -34,8 +35,9 @@ Searches: 34 (Tavily). Places seen: 119. Judge: gemma4:latest on this Mac. No Cl
 - Lunchbox Studios - Vermillion, SD — https://www.yelp.com/biz/lunchbox-studios-vermillion
 - A big Vermillion welcome to Lunchbox Studios! Lunchbox ... - LinkedIn — https://www.linkedin.com/posts/vermillion-area-chamber_a-big-vermillion-welcome-to-lunchbox-studios-activity-7396955675165220864-7V8n
 - THE 10 BEST South Dakota Paint & Pottery Studios — https://www.tripadvisor.com/Attractions-g28962-Activities-c56-t272-South_Dakota.html
+- Explore the best art ideas on Pinterest — https://www.pinterest.com/ideas/art/961238559656/
 
-## Rejected (99)
+## Rejected (203)
 
 - dakotapotters.com: known place in ND
 - natewinterstudios.com: known place in ME
@@ -136,3 +138,107 @@ Searches: 34 (Tavily). Places seen: 119. Judge: gemma4:latest on this Mac. No Cl
 - cubcreek.org: known place in VA
 - watershedceramics.org: known place in ME
 - ceramicsfieldguide.org: The provided text does not mention any firing opportunities in South Dakota.
+- claycountysd.org: OSM seed: no firing words on its pages
+- annamaspottery.com: OSM seed: no firing words on its pages
+- tebbensclay.com: OSM seed: no firing words on its pages
+- artssouthdakota.org: OSM seed: no firing words on its pages
+- pottersindustries.com: The website is about glass beads and construction materials, not pottery firings.
+- pottersace.com: no firing words on any page
+- pottersplacenaperville.com: no firing words on any page
+- southwestart.com: no firing words on any page
+- potterscrackers.com: no firing words on any page
+- potterscraftcider.com: no firing words on any page
+- google.com: no firing words on any page
+- merriam-webster.com: no firing words on any page
+- swkiln.com: The last mentioned event took place in New Mexico, not South Dakota.
+- stahlspottery.org: The page has no readable text to confirm public access.
+- lindameyerpottery.com: The text only mentions past losses and resuming work, with no current public firing information.
+- craft.do: no firing words on any page
+- hgtv.com: no firing words on any page
+- michaels.com: no firing words on any page
+- onelittleproject.com: no firing words on any page
+- hobbycraft.co.uk: no firing words on any page
+- deviantart.com: no firing words on any page
+- artsandculture.google.com: no firing words on any page
+- art.com: no firing words on any page
+- britannica.com: no firing words on any page
+- artstation.com: no firing words on any page
+- sketch.io: no firing words on any page
+- kleki.com: no firing words on any page
+- argusleader.com: no firing words on any page
+- en.m.wikipedia.org: The page is a general overview of California pottery and does not mention any current public firing opportunities.
+- artincontext.org: The text is an informational article about pottery and does not mention any firing events or public access to a kiln in South Dakota.
+- potstudiola.com: no firing words on any page
+- gooddirtla.com: no firing words on any page
+- secretlosangeles.com: no firing words on any page
+- potteryworld.com: no firing words on any page
+- potterymfg.com: no firing words on any page
+- stanford.edu: no firing words on any page
+- usc.edu: no firing words on any page
+- harvard.edu: no firing words on any page
+- california.com: no firing words on any page
+- collegesimply.com: no firing words on any page
+- collegetuitioncompare.com: no firing words on any page
+- ucla.edu: The provided text is from UCLA's general website and discusses atmospheric dust, not ceramic firings.
+- usnews.com: no firing words on any page
+- multnomahartscenter.org: no firing words on any page
+- explainthatstuff.com: The text is informational and does not mention any public firing opportunities in South Dakota.
+- xometry.com: The website discusses ceramics materials but does not offer public firing services.
+- ceramics.org: no firing words on any page
+- sciencenotes.org: The text provides general information about ceramics and firing processes but does not mention any specific location or public firing opportunities.
+- happyartceramics.com: no firing words on any page
+- thesprucecrafts.com: The page content is not available to determine if public firing participation is possible.
+- janejermynceramics.com: The website does not mention any public firing opportunities in South Dakota.
+- plimton.com: The text only discusses electric kiln firing and does not mention public access or non-electric firing methods.
+- obvara.hu: The website is located in Hungary, not South Dakota.
+- baltimoreclayworks.org: known place in MD
+- musingaboutmud.com: The text mentions workshops but does not specify a location in South Dakota.
+- artaxis.org: no firing words on any page
+- redlodgeclaycenter.com: known place in MT
+- redlodgeclaycenter.slideroom.com: no firing words on any page
+- harrylevensteinpottery.com: known place in UT
+- worldhistory.org: no firing words on any page
+- blog.nativehope.org: no firing words on any page
+- native-americans.com: no firing words on any page
+- knahm.org: no firing words on any page
+- warpaths2peacepipes.com: no firing words on any page
+- sioux.com: no firing words on any page
+- legendsofamerica.com: no firing words on any page
+- cnbc.com: The provided text is from a business news website and does not mention any ceramic firing events.
+- nbc.com: no firing words on any page
+- link.cnbc.com: no firing words on any page
+- clayfinder.com: known place in TX
+- https://allevents.in/rapid-city-sd/crafts: no firing words on any page
+- clayco-op.square.site: no firing words on any page
+- findapotteryclass.com: The website is a directory and calculator tool, not a physical location offering firings.
+- pcgamer.com: no firing words on any page
+- meetup.com: no firing words on any page
+- rapidpaycard.com: no firing words on any page
+- rapidfs.com: no firing words on any page
+- rapidsosportal.com: no firing words on any page
+- dictionary.cambridge.org: no firing words on any page
+- vocabulary.com: no firing words on any page
+- dictionary.com: no firing words on any page
+- idco.dmdc.osd.mil: no firing words on any page
+- brookings.edu: no firing words on any page
+- brookings.or.us: no firing words on any page
+- portofbrookingsharbor.com: no firing words on any page
+- wine.com: no firing words on any page
+- winetoship.com: no firing words on any page
+- empirewine.com: The website is for wine and beverage sales, not for ceramic firings.
+- wtso.com: no firing words on any page
+- splashwines.com: no firing words on any page
+- retailmenot.com: no firing words on any page
+- winechateau.com: no firing words on any page
+- offers.com: no firing words on any page
+- colorguide.org: no firing words on any page
+- simplicable.com: no firing words on any page
+- jacksonsart.com: no firing words on any page
+- elements.envato.com: no firing words on any page
+- colorhexa.com: no firing words on any page
+- visitscotland.com: no firing words on any page
+- myvoyagescotland.com: The website is about travel in Scotland, not South Dakota, and does not mention any firing services.
+- visitabdn.com: The provided text is from a tourism website and does not mention any ceramic firing services.
+- abdn.ac.uk: no firing words on any page
+- aberdeencountryclub.com: no firing words on any page
+- lonelyplanet.com: no firing words on any page

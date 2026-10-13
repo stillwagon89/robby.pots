@@ -1,6 +1,6 @@
-# Utah discovery report (2026-10-07)
+# Utah discovery report (2026-10-13)
 
-Searches: 37 (Tavily). Places seen: 125. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 69 (Tavily). Places seen: 263. Judge: gemma4:latest on this Mac. No Claude used.
 
 ## Qualifies (verified quote, 6)
 
@@ -14,7 +14,7 @@ Searches: 37 (Tavily). Places seen: 125. Judge: gemma4:latest on this Mac. No Cl
 October 10 @ 8:30 am - 12:00 pm" |
 | Corbridge Pottery | Logan | salt | ongoing_class_or_membership | **new** | adamcorbridgepottery.com | "Corbridge Pottery is a Logan Utah pottery studio documenting the process of building a Utah salt kiln and creating handmade ceramics shaped by place, material, " |
 
-## Unclear: needs a second look (29)
+## Unclear: needs a second look (33)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -47,14 +47,22 @@ October 10 @ 8:30 am - 12:00 pm" |
 | terracottatortoise.com | Logan |  | ongoing_class_or_membership | **new** | terracottatortoise.com | "The class fee includes instruction, all tools & supplies needed to build your project and includes the finished firing of the piece." | The website offers classes that include the finished firing of the piece. [gate: quote names no specific non-electric firing]
 | Patty's Ceramics | ? | raku | firing_service_or_rental | **new** | pattysceramics.com | "We now offer glass and RAKU firings." | The site advertises RAKU firings, which is a non-electric firing type.
 | Granary Arts | Spring City | wood | dated_events | **new** | granaryarts.org | "Hidden in the Mountains: Spring City, Utah - Granary Arts: Jun 12, 2019 · Joe makes functional wares in a wood fired kiln at his local Horseshoe Mountain Potter" | The text mentions a wood-fired kiln event in Utah.
+| language Visit Website | ? | soda | none | **new** | moabadventurecenter.com | "" | OpenStreetMap seed; firing words on its pages
+| Red Kiln Pottery Gallery | Salt Lake City |  | ongoing_class_or_membership | **new** | claydirectory.com | "Red Kiln Pottery Gallery 393 E 1700 S, Salt Lake City, UT 84115 ★ 4.6 (47 reviews) Mon-Fri 12pm-6pm" | The listing shows a specific studio in Salt Lake City, UT, with open hours for public access. [gate: quote names no specific non-electric firing]
+| throwclayla.com | ? |  |  | **new** | throwclayla.com | "" | judge error: The operation was aborted due to timeout
+| Red Lodge Clay Center | ? | soda | ongoing_class_or_membership | **new** | harrylevensteinpottery.com | "During my 8-month residency at the Red Lodge Clay Center I took a little break from firing with wood, and instead dove deeply into the process of soda-firing." | The text mentions the author's residency and experimentation with soda-firing at the Red Lodge Clay Center.
 
-## Social-only leads, not read (3)
+## Social-only leads, not read (7)
 
 - Primitive Pottery | I’ve got a three day pottery workshop ... — https://www.facebook.com/groups/SWpottery/posts/3439479306182857/
 - Best Pottery Studio near Park City, UT - Yelp — https://www.yelp.com/search?find_desc=Pottery+Studio&find_loc=Park+City,+UT+84060
 - Robert Williams | Utah potters, we have wood fire and soda ... — https://www.instagram.com/p/DE5qQBnyNuT/
+- Explore the best art ideas on Pinterest — https://www.pinterest.com/ideas/art/961238559656/
+- YouTube Studio — https://studio.youtube.com/reauth?approve_browser_access=1&approve_browser_access=1
+- THE 15 BEST Things to Do in Provo (2026) - Tripadvisor — https://www.tripadvisor.com/Attractions-g57106-Activities-Provo_Utah.html
+- Logan - YouTube — https://www.youtube.com/watch?v=kl0ZTF0683E
 
-## Rejected (87)
+## Rejected (217)
 
 - natewinterstudios.com: known place in PA
 - mudmakers.org: known place in IL
@@ -143,3 +151,133 @@ October 10 @ 8:30 am - 12:00 pm" |
 - spindriftstudio.art: known place in IL
 - schoolofservice.org: The text only describes residency opportunities and does not mention public access to firings.
 - schallergallery.com: No readable text was provided to determine firing availability.
+- provo.colormemine.com: OSM seed: no firing words on its pages
+- kiln.com: OSM seed: no firing words on its pages
+- sandy.colormemine.com: OSM seed: no firing words on its pages
+- thefrontclimbingclub.com: OSM seed: no firing words on its pages
+- splashofcolorpottery.com: OSM seed: no firing words on its pages
+- potterybarn.com: OSM seed: no firing words on its pages
+- clayton.slcschools.org: OSM seed: no firing words on its pages
+- phillips66gas.com: OSM seed: no firing words on its pages
+- claysrvsales.com: OSM seed: no firing words on its pages
+- metroatfireclay.com: OSM seed: no firing words on its pages
+- me.theclayhole.com: OSM seed: no firing words on its pages
+- youtu.be: OSM seed: no firing words on its pages
+- beehivepotterystudio.kilnfire.com: OSM seed: no firing words on its pages
+- moabtourismcenter.com: OSM seed: no firing words on its pages
+- pottersindustries.com: The website is about glass beads and construction materials, not pottery firing.
+- pottersace.com: no firing words on any page
+- pottersplacenaperville.com: no firing words on any page
+- southwestart.com: no firing words on any page
+- potterscrackers.com: no firing words on any page
+- google.com: no firing words on any page
+- potterscraftcider.com: no firing words on any page
+- merriam-webster.com: no firing words on any page
+- simple.wikipedia.org: no firing words on any page
+- statefarm.com: no firing words on any page
+- state.gov: no firing words on any page
+- ca.gov: no firing words on any page
+- britannica.com: no firing words on any page
+- penland.org: known place in NC
+- deviantart.com: no firing words on any page
+- artsandculture.google.com: no firing words on any page
+- art.com: no firing words on any page
+- kreska.art: no firing words on any page
+- artstation.com: no firing words on any page
+- sketch.io: no firing words on any page
+- kleki.com: no firing words on any page
+- baike.baidu.com: no firing words on any page
+- dictionary.cambridge.org: no firing words on any page
+- zillow.com: no firing words on any page
+- blog.youtube: no firing words on any page
+- apartments.com: no firing words on any page
+- visualstudio.microsoft.com: no firing words on any page
+- studio.design: The website is a template design platform, not a pottery studio.
+- studio.co.uk: no firing words on any page
+- sites.google.com: no firing words on any page
+- imdb.com: no firing words on any page
+- cmcenters.org: no firing words on any page
+- dictionary.com: no firing words on any page
+- en.m.wikipedia.org: The text is a Wikipedia article about California pottery and lists historical studios, but it does not mention any current public firing events or services.
+- artincontext.org: The text is a general article about pottery and does not mention a specific location or opportunity for the public to fire in Utah.
+- potstudiola.com: no firing words on any page
+- gooddirtla.com: no firing words on any page
+- secretlosangeles.com: no firing words on any page
+- potteryworld.com: no firing words on any page
+- potterymfg.com: no firing words on any page
+- forum.popjustice.com: no firing words on any page
+- foodnetwork.com: no firing words on any page
+- skyluxtravel.com: no firing words on any page
+- qantas.com: no firing words on any page
+- travelbusinessclass.com: no firing words on any page
+- business-skies.com: no firing words on any page
+- virginaustralia.com: no firing words on any page
+- flightcentre.com.au: no firing words on any page
+- finnair.com: no firing words on any page
+- businessclassconsolidator.com: no firing words on any page
+- srilankan.com: no firing words on any page
+- kayak.com: no firing words on any page
+- ceramicartsnetwork.org: The website does not indicate a location in Utah or public access for firings.
+- thesprucecrafts.com: The page content is not available to determine if public firing participation is possible.
+- spinningpots.com: The text discusses firing methods but does not mention a specific location or public access to a firing service in Utah.
+- janejermynceramics.com: The website does not indicate that the public can participate in a firing.
+- upinsmokepottery.com: known place in PA
+- plimton.com: The text only discusses electric kiln firing and does not mention public access to non-electric firings in Utah.
+- obvara.hu: The website is for a process originating in Eastern Europe and does not indicate public access in Utah.
+- baltimoreclayworks.org: known place in MD
+- redlodgeclaycenter.com: known place in MT
+- theresidencyreview.com: known place in OR
+- artaxis.org: no firing words on any page
+- redkiln.org: The page text was not available to confirm public firing access.
+- simple.m.wikipedia.org: no firing words on any page
+- liveeatlearn.com: no firing words on any page
+- amazon.com: no firing words on any page
+- medicalnewstoday.com: no firing words on any page
+- nutritionsource.hsph.harvard.edu: The page discusses nutrition and does not mention any ceramic firing services.
+- webstaurantstore.com: no firing words on any page
+- clayco-op.square.site: no firing words on any page
+- superpages.com: no firing words on any page
+- mapquest.com: no firing words on any page
+- yellowpages.com: no firing words on any page
+- claycoopstpete.com: no firing words on any page
+- portland.gov: no firing words on any page
+- oregonessential.com: no firing words on any page
+- travelportland.com: no firing words on any page
+- stateparks.oregon.gov: no firing words on any page
+- stayportland.com: no firing words on any page
+- visitutah.com: The page only lists general activities in Provo and Ogden, not pottery firings.
+- utah.com: no firing words on any page
+- thetouristchecklist.com: no firing words on any page
+- provo.gov: no firing words on any page
+- support.apple.com: no firing words on any page
+- iphonelife.com: no firing words on any page
+- wikihow.com: no firing words on any page
+- techlicious.com: no firing words on any page
+- m2softtech.com: no firing words on any page
+- mobiletrans.wondershare.com: The provided text is from a software website and does not mention any ceramic firings.
+- screenrant.com: no firing words on any page
+- buymobiles.net: no firing words on any page
+- appleinsider.com: no firing words on any page
+- ceylonspicegarden.com: no firing words on any page
+- webmd.com: no firing words on any page
+- fda.gov: no firing words on any page
+- nccih.nih.gov: no firing words on any page
+- usamadesupplements.com: no firing words on any page
+- precision.fda.gov: no firing words on any page
+- alibaba.com: no firing words on any page
+- st.com: no firing words on any page
+- store.steampowered.com: The provided text is from a video game store and has nothing to do with ceramics.
+- saintbernadette.com: no firing words on any page
+- stpatcc.org: no firing words on any page
+- stboc.org: no firing words on any page
+- login.steampowered.com: The provided link is for a video game platform, not a pottery studio.
+- visitogden.com: no firing words on any page
+- theogdenite.com: no firing words on any page
+- yelp.ca: no firing words on any page
+- clayfinder.com: known place in TX
+- makesaltlake.org: no firing words on any page
+- meetup.com: no firing words on any page
+- xmenmovies.fandom.com: no firing words on any page
+- rottentomatoes.com: no firing words on any page
+- marvel.fandom.com: no firing words on any page
+- netflix.com: no firing words on any page

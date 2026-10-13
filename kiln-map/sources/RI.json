@@ -87,7 +87,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -158,6 +158,62 @@
       "auto_approved": "2026-10-09",
       "lat": 41.66038,
       "lng": -71.45589
+    },
+    {
+      "id": "newport-art-museum",
+      "org": "Newport Art Museum",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Newport",
+      "city": "Newport",
+      "urls": [
+        "https://newportartmuseum.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://newportartmuseum.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "In this three day workshop, we will explore the ancient Japanese firing technique of Raku.",
+        "url": "https://newportartmuseum.org/classes/raku-workshop/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "newportartmuseum.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-13",
+        "verdict": "unclear",
+        "why": "The search snippets describe a raku workshop but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "RI",
+        "town": "Newport",
+        "score": 70,
+        "osm": true,
+        "date": "2026-10-13"
+      },
+      "address": "76 Bellevue Avenue, Newport, RI 02840"
     }
   ],
   "_removed": [

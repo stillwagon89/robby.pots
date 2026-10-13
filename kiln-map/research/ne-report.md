@@ -1,6 +1,6 @@
-# Nebraska discovery report (2026-10-07)
+# Nebraska discovery report (2026-10-13)
 
-Searches: 34 (Tavily). Places seen: 113. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 63 (Tavily). Places seen: 227. Judge: gemma4:latest on this Mac. No Claude used.
 
 ## Qualifies (verified quote, 6)
 
@@ -13,7 +13,7 @@ Searches: 34 (Tavily). Places seen: 113. Judge: gemma4:latest on this Mac. No Cl
 | Nebraska Arts Council | ? | pit_barrel_saggar | none | **new** | artscouncil.nebraska.gov | "Students learn handbuilding techniques and ancient pit-firing methods." |
 | omahaclayworks.com | Omaha | raku, pit_barrel_saggar, wood | ongoing_class_or_membership | **new** | omahaclayworks.com | "The center is known for its impressive range of clay firing techniques, which include raku, pit firing, and wood firing." |
 
-## Unclear: needs a second look (4)
+## Unclear: needs a second look (5)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -21,8 +21,9 @@ Searches: 34 (Tavily). Places seen: 113. Judge: gemma4:latest on this Mac. No Cl
 | my.ceramicmaterialsworkshop.com | ? |  | none | **new** | my.ceramicmaterialsworkshop.com | "" | The page structure suggests resources for potters but does not confirm public access to specific firing types or dates.
 | lincoln.org | ? | raku | dated_events | **new** | lincoln.org | "During this outdoor firing event, you will glaze a piece of bisqueware and then fire it using the Raku firing process." | The website advertises a public Raku firing event.
 | The Clay Studio | Lincoln City |  | ongoing_class_or_membership | **new** | lincolncity-culturalcenter.org | "Members pay a monthly sliding scale fee of $35 to $60, which includes firing and glaze costs." | The membership includes firing costs, indicating public access to firing services. [gate: quote names no specific non-electric firing]
+| University of Nebraska | ? | gas_reduction, soda, salt | ongoing_class_or_membership | **new** | arts.unl.edu | "Graduate student–led Clay Club holds two well-attended public sales each year, which fund its visiting artist program and support bringing in two artists annual" | The facility has gas, soda, and salt kilns, and the Clay Club holds public sales. [gate: quote names no specific non-electric firing]
 
-## Social-only leads, not read (7)
+## Social-only leads, not read (8)
 
 - Makit Together: Raku Firing - Facebook — https://www.facebook.com/events/1527-n-cotner-blvd-lincoln-ne-68505/makit-together-raku-firing/1597585551713355/
 - Alison and Abi Firing Courses | After an incredible 2024 ... — https://www.instagram.com/reel/DD6ua84ApdX/
@@ -31,8 +32,9 @@ Searches: 34 (Tavily). Places seen: 113. Judge: gemma4:latest on this Mac. No Cl
 - THE BEST Kearney Paint & Pottery Studios (2026) - Tripadvisor — https://www.tripadvisor.com/Attractions-g45649-Activities-c56-t272-Kearney_Nebraska.html
 - Nancy Fairbanks - Fine art studio | LinkedIn — https://www.linkedin.com/in/nancy-fairbanks-329a442b
 - Anagama Kiln Firing: Prepare, Set, Fire, Unload. - YouTubeAnagama kiln - Wikipediaanagama – Gustin CeramicsPottery | Big Table Studios | NebraskaWood-Fired Kiln Guide: The Art and Process of Anagama Firing -Cassville Anagama - Facebook — https://www.youtube.com/watch?v=qrkj3yDBdSE
+- YouTube Studio — https://studio.youtube.com/reauth?approve_browser_access=1&approve_browser_access=1
 
-## Rejected (96)
+## Rejected (208)
 
 - radiusstudio.org: known place in OR
 - eastsidepottery.com: known place in IN
@@ -130,3 +132,115 @@ Searches: 34 (Tavily). Places seen: 113. Judge: gemma4:latest on this Mac. No Cl
 - morningceramics.com: The location is in Oregon, not Nebraska.
 - watershedceramics.org: known place in ME
 - ceramicartsnetwork.org: known place in OH
+- memorialcommunityhealth.org: OSM seed: no firing words on its pages
+- claycenterdentalclinic.com: OSM seed: no firing words on its pages
+- nebraskahistory.org: OSM seed: no firing words on its pages
+- libraries.ne.gov: OSM seed: no firing words on its pages
+- paintyourselfsilly.net: OSM seed: no firing words on its pages
+- waterdata.usgs.gov: OSM seed: no firing words on its pages
+- claycounty.ne.gov: OSM seed: no firing words on its pages
+- hotshopsartcenter.org: OSM seed: no firing words on its pages
+- craftwareusa.com: OSM seed: no firing words on its pages
+- whiteclayredo.com: OSM seed: no firing words on its pages
+- therosyclayco.com: OSM seed: no firing words on its pages
+- kimbastouchpottery.co: OSM seed: no firing words on its pages
+- itsyourspottery.com: OSM seed: no firing words on its pages
+- potterypost.ca: The directory covers multiple continents but does not specify a location in Nebraska.
+- pottersguild.net: known place in MI
+- statefarm.com: no firing words on any page
+- ca.gov: no firing words on any page
+- csus.edu: no firing words on any page
+- sos.ca.gov: no firing words on any page
+- state.gov: no firing words on any page
+- calcareers.ca.gov: no firing words on any page
+- craft.do: no firing words on any page
+- merriam-webster.com: no firing words on any page
+- hgtv.com: no firing words on any page
+- michaels.com: no firing words on any page
+- onelittleproject.com: no firing words on any page
+- hobbycraft.co.uk: no firing words on any page
+- fleisher.org: known place in PA
+- canvas.districtclaycenter.com: known place in MD
+- viewarts.org: known place in NY
+- catalystartscollaborative.com: known place in ID
+- baike.baidu.com: no firing words on any page
+- dictionary.cambridge.org: no firing words on any page
+- zillow.com: no firing words on any page
+- blog.youtube: no firing words on any page
+- apartments.com: no firing words on any page
+- visualstudio.microsoft.com: no firing words on any page
+- studio.design: The website is a template design platform, not a pottery studio.
+- studio.co.uk: no firing words on any page
+- sites.google.com: no firing words on any page
+- imdb.com: no firing words on any page
+- cmcenters.org: no firing words on any page
+- dictionary.com: no firing words on any page
+- en.m.wikipedia.org: The page is a general Wikipedia article about California pottery and does not mention public firing opportunities.
+- throwclayla.com: The location is in Los Angeles, not Nebraska.
+- britannica.com: no firing words on any page
+- artincontext.org: The text is a general article about pottery and does not mention a specific location or public firing opportunity in Nebraska.
+- potstudiola.com: no firing words on any page
+- gooddirtla.com: no firing words on any page
+- secretlosangeles.com: no firing words on any page
+- potteryworld.com: no firing words on any page
+- potterymfg.com: no firing words on any page
+- admissions.ku.edu: The text only mentions student participation and does not confirm public access.
+- artcenterky.org: known place in KY
+- notaryceramics.com: no firing words on any page
+- multnomahartscenter.org: no firing words on any page
+- wolfceramics.com: no firing words on any page
+- cascadeceramics.com: The studio is located in Oregon, not Nebraska.
+- themudroompdx.com: no firing words on any page
+- pigeontoeceramics.com: no firing words on any page
+- georgies.com: known place in OR
+- thesprucecrafts.com: The page has no readable text and the content is outdated.
+- spinningpots.com: The text discusses firing methods but does not mention any specific location or public access in Nebraska.
+- janejermynceramics.com: The text describes firing techniques but does not offer any public access or booking information for a firing in Nebraska.
+- upinsmokepottery.com: known place in PA
+- plimton.com: The text only discusses firing techniques in general and does not mention any public firing events in Nebraska.
+- obvara.hu: The website is for a process originating in Eastern Europe and does not indicate public access in Nebraska.
+- baltimoreclayworks.org: known place in MD
+- clay.com: no firing words on any page
+- amazon.com: no firing words on any page
+- clayartcenter.net: The text only lists supplies and kilns and does not mention public firing opportunities.
+- app.clay.com: no firing words on any page
+- omaha.com: The provided text is a news website and does not mention any ceramic firing services.
+- cityofomaha.org: no firing words on any page
+- visitomaha.com: no firing words on any page
+- omahasteaks.com: no firing words on any page
+- ohmyomaha.com: no firing words on any page
+- zooceramics.co.uk: The location is in the UK, not Nebraska.
+- lincoln.com: The website is for selling luxury vehicles, not for ceramics.
+- build.lincoln.com: no firing words on any page
+- shop.lincoln.com: no firing words on any page
+- clayworksinc.org: known place in NC
+- portsidepottery.com: The location is in Vancouver, WA, not Nebraska.
+- kearney.com: no firing words on any page
+- kearneyco.com: no firing words on any page
+- visitkearney.org: no firing words on any page
+- kearneyhub.com: The website is a news source and does not mention any ceramic firing services.
+- cityofkearney.org: no firing words on any page
+- mapquest.com: no firing words on any page
+- thetouristchecklist.com: no firing words on any page
+- thegrandoakland.com: no firing words on any page
+- renaissancerialto.com: no firing words on any page
+- redfin.com: no firing words on any page
+- vocabulary.com: no firing words on any page
+- thefreedictionary.com: no firing words on any page
+- trulia.com: no firing words on any page
+- riverwoodpottery.com: known place in NC
+- yellowpages.com: no firing words on any page
+- clayfinder.com: known place in TX
+- xnxx.com: no firing words on any page
+- m-xnxx.com: no firing words on any page
+- en.xnxx.place: no firing words on any page
+- xvideos.com: The website is for adult videos and does not relate to pottery or kiln firings.
+- xnxx.dev: no firing words on any page
+- xhamster.com: no firing words on any page
+- pornhub.com: no firing words on any page
+- xnxx.health: no firing words on any page
+- support.microsoft.com: no firing words on any page
+- techcommunity.microsoft.com: no firing words on any page
+- stackoverflow.com: no firing words on any page
+- ja.stackoverflow.com: no firing words on any page
+- pt.stackoverflow.com: no firing words on any page

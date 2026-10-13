@@ -1,6 +1,6 @@
-# Rhode Island discovery report (2026-10-07)
+# Rhode Island discovery report (2026-10-13)
 
-Searches: 34 (Tavily). Places seen: 120. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 63 (Tavily). Places seen: 238. Judge: gemma4:latest on this Mac. No Claude used.
 
 ## Qualifies (verified quote, 3)
 
@@ -10,7 +10,7 @@ Searches: 34 (Tavily). Places seen: 120. Judge: gemma4:latest on this Mac. No Cl
 | riblogger.com | ? | pit_barrel_saggar | ongoing_class_or_membership | **new** | riblogger.com | "This three week intermediate-advanced workshop will give artists the opportunity to explore new surfaces and firing techniques for their ceramic forms through t" |
 | Thomas Ladd Pottery | Wakefield | soda, raku | ongoing_class_or_membership | **new** | visitrhodeisland.com | "Hand thrown, hand built, wood, soda, and raku, stoneware, porcelain, and earthenware pottery, repairs," |
 
-## Unclear: needs a second look (13)
+## Unclear: needs a second look (16)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -28,15 +28,23 @@ Bring bisqued work ready to glaze for the Raku kiln or be wrapped in organic mat
 | Lindsey Epstein Pottery | Tiverton | raku | none | **new** | lepottery.com | "" | The page text is not available to confirm public firing access.
 | Tribe IRL | Bristol |  | ongoing_class_or_membership | **new** | tribeirl.com | "Kiln Workshop" | The site advertises a 'Kiln Workshop' and is located in Bristol, RI. [gate: quote names no specific non-electric firing]
 | Mudworks | Bristol |  | ongoing_class_or_membership | **new** | mudworksbristol.com | "full-time access to a fully equipped pottery studio and a weekly kiln firing service." | The studio offers a weekly kiln firing service as part of its membership. [gate: quote names no specific non-electric firing]
+| The Saint John's Pottery | ? |  | dated_events | **new** | csbsju.edu | "The public is invited to observe the lighting ceremony and subsequent firing of the Johanna Kiln." | The text explicitly invites the public to observe the firing events at the Rhode Island location. [gate: quote names no specific non-electric firing]
+| findapotteryclass.com | ? | raku | ongoing_class_or_membership | **new** | findapotteryclass.com | "Outside Firing Services Firing pottery made elsewhere" | The site lists 'Outside Firing Services' and mentions Raku, indicating potential public access to firing services. [gate: quote names no specific non-electric firing]
+| Newport Art Museum | Newport | raku | dated_events | **new** | newportartmuseum.org | "In this three day workshop, we will explore the ancient Japanese firing technique of Raku." | The text advertises a specific Raku workshop for the public.
 
-## Social-only leads, not read (4)
+## Social-only leads, not read (9)
 
 - Abi Higgins Potter, Artist. Raku, Saggar, Barrel workshops ... — https://www.instagram.com/sarahabigailhiggins/
 - CommUnity Volunteers of Rhode Island - Facebook — https://www.facebook.com/groups/communityvolunteersofri/
 - Rhode Island Kiln ~1982 - YouTube — https://www.youtube.com/watch?v=JdJhSjXiqrk
 - BEST of Providence, RI Pottery Studio - Yelp — https://www.yelp.com/search?find_desc=pottery+studio&find_loc=Providence,+RI
+- Explore the best art ideas on Pinterest — https://www.pinterest.com/ideas/art/961238559656/
+- YouTube Studio — https://studio.youtube.com/reauth?approve_browser_access=1&approve_browser_access=1
+- How To Make Clay At Home (It's Just Dirt) - YouTube — https://m.youtube.com/watch?v=ca20JkKFAcE
+- THE 15 BEST Things to Do in Newport (2026) - Tripadvisor — https://www.tripadvisor.com/Attractions-g51992-Activities-Newport_Oregon.html
+- Renay McLeish - Vice President at Banc of America Leasing |... — https://www.linkedin.com/pub/dir/Renay/McLeish
 
-## Rejected (100)
+## Rejected (210)
 
 - timisaacpottery.com: known place in MD
 - clayworksinc.org: known place in NC
@@ -138,3 +146,113 @@ Bring bisqued work ready to glaze for the Raku kiln or be wrapped in organic mat
 - spindriftstudio.art: known place in IL
 - kotohibachiathome.com: no firing words on any page
 - theresidencyreview.com: The text only mentions an electric firing and a fellowship position, not public access to non-electric firings.
+- claygroundstudio.com: OSM seed: no firing words on its pages
+- annamaspottery.com: OSM seed: no firing words on its pages
+- tebbensclay.com: OSM seed: no firing words on its pages
+- threewheelstudio.com: OSM seed: no firing words on its pages
+- studiohopri.com: OSM seed: no firing words on its pages
+- springpottery.com: OSM seed: no firing words on its pages
+- joom.ag: OSM seed: no firing words on its pages
+- heartspotart.com: OSM seed: no firing words on its pages
+- centeraquidneck.com: OSM seed: no firing words on its pages
+- pottersindustries.com: The website is about glass beads and construction materials, not pottery firing.
+- pottersace.com: no firing words on any page
+- pottersplacenaperville.com: no firing words on any page
+- southwestart.com: no firing words on any page
+- potterscrackers.com: no firing words on any page
+- google.com: no firing words on any page
+- potterscraftcider.com: no firing words on any page
+- merriam-webster.com: no firing words on any page
+- statefarm.com: no firing words on any page
+- ca.gov: no firing words on any page
+- csus.edu: no firing words on any page
+- sos.ca.gov: no firing words on any page
+- state.gov: no firing words on any page
+- calcareers.ca.gov: no firing words on any page
+- deviantart.com: no firing words on any page
+- artsandculture.google.com: no firing words on any page
+- art.com: no firing words on any page
+- britannica.com: no firing words on any page
+- artstation.com: no firing words on any page
+- sketch.io: no firing words on any page
+- kleki.com: no firing words on any page
+- baike.baidu.com: no firing words on any page
+- dictionary.cambridge.org: no firing words on any page
+- zillow.com: no firing words on any page
+- blog.youtube: no firing words on any page
+- apartments.com: no firing words on any page
+- visualstudio.microsoft.com: no firing words on any page
+- studio.design: The website is a template design platform, not a pottery studio offering firings.
+- studio.co.uk: no firing words on any page
+- sites.google.com: no firing words on any page
+- iciba.com: no firing words on any page
+- zhuanlan.zhihu.com: no firing words on any page
+- github.com: no firing words on any page
+- global.bing.com: no firing words on any page
+- collinsdictionary.com: no firing words on any page
+- en.m.wikipedia.org: The page is a general Wikipedia article about California pottery and does not mention any current public firing opportunities.
+- throwclayla.com: The location is in Los Angeles, not Rhode Island.
+- artincontext.org: The text is a general article about pottery and does not mention any specific firing events or locations in Rhode Island.
+- potstudiola.com: no firing words on any page
+- gooddirtla.com: no firing words on any page
+- secretlosangeles.com: no firing words on any page
+- potteryworld.com: no firing words on any page
+- potterymfg.com: no firing words on any page
+- risd.edu: The text only mentions remote kiln firing and does not confirm public access for non-electric firings.
+- groundworksartlab.org: known place in CO
+- multnomahartscenter.org: no firing words on any page
+- explainthatstuff.com: The page provides general information about ceramics and kilns but does not list any public firing opportunities.
+- xometry.com: The website discusses ceramics materials but does not offer public firing services.
+- ceramics.org: no firing words on any page
+- sciencenotes.org: The text provides general information about ceramics and firing processes but does not mention any specific location or public firing opportunities.
+- happyartceramics.com: no firing words on any page
+- clay.com: no firing words on any page
+- amazon.com: no firing words on any page
+- walmart.com: no firing words on any page
+- app.clay.com: no firing words on any page
+- clayfinder.com: known place in TX
+- clayco-op.square.site: no firing words on any page
+- handicraftclub.org: no firing words on any page
+- providence.org: The website is for a healthcare system and does not mention any ceramic firing services.
+- providence.jobs: no firing words on any page
+- mychartor.providence.org: no firing words on any page
+- mychartwa.providence.org: no firing words on any page
+- newportoregon.gov: The provided text is from a government website and does not mention any ceramic firing services.
+- discovernewport.com: no firing words on any page
+- secure.newportgroup.com: no firing words on any page
+- newport.com: no firing words on any page
+- newport-pleasure.com: no firing words on any page
+- u.gg: no firing words on any page
+- warwick.ac.uk: no firing words on any page
+- warwickla.com: no firing words on any page
+- mobalytics.gg: no firing words on any page
+- visitwarwick.co.uk: no firing words on any page
+- wiki.leagueoflegends.com: no firing words on any page
+- warwickhotels.com: no firing words on any page
+- theclay.studio: known place in FL
+- westerlykitchen.com: no firing words on any page
+- westerlyri.gov: no firing words on any page
+- newenglandwanderlust.com: no firing words on any page
+- shop.westerly-usa.com: no firing words on any page
+- thetouristchecklist.com: no firing words on any page
+- healthgrades.com: no firing words on any page
+- valleyhealthlink.com: no firing words on any page
+- childrens.com: no firing words on any page
+- spokeo.com: no firing words on any page
+- whitepages.com: no firing words on any page
+- mylife.com: no firing words on any page
+- muraena.ai: no firing words on any page
+- salemfiberartsguild.org: no firing words on any page
+- bizapedia.com: no firing words on any page
+- northwestweavers.org: no firing words on any page
+- wiza.co: no firing words on any page
+- visitbristol.co.uk: no firing words on any page
+- bristol.ac.uk: no firing words on any page
+- bristolmotorspeedway.com: no firing words on any page
+- bristolborough.com: no firing words on any page
+- kilnbuilders.com: The website only advertises building kilns and does not mention public firing access.
+- vincepitelka.com: known place in KS
+- tylergulden.com: known place in ME
+- jlpottery.com: known place in CO
+- ceramicartsnetwork.org: The website provides information about these firings but does not indicate public access for participation.
+- olympickilns.com: The website only advertises gas kiln models and does not mention public firing participation.

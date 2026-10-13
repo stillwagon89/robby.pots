@@ -1,6 +1,6 @@
-# South Carolina discovery report (2026-10-07)
+# South Carolina discovery report (2026-10-13)
 
-Searches: 37 (Tavily). Places seen: 134. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 70 (Tavily). Places seen: 262. Judge: gemma4:latest on this Mac. No Claude used.
 
 ## Qualifies (verified quote, 5)
 
@@ -12,7 +12,7 @@ Searches: 37 (Tavily). Places seen: 134. Judge: gemma4:latest on this Mac. No Cl
 | Anagama Kiln | Seneca | wood | dated_events | **new** | chamberofcommerce.com | "May 8, 2024 · About Anagama Kiln Anagama Kiln is located at in Seneca, South Carolina 29678." |
 | Rock Hill Pottery Center | Rock Hill | raku, pit_barrel_saggar | ongoing_class_or_membership | **new** | visityorkcounty.com | "Rock Hill Pottery Studio and Gallery features an extensive selection of pottery styles, such as porcelain, stoneware, raku, pit fire, and horsehair." |
 
-## Unclear: needs a second look (24)
+## Unclear: needs a second look (31)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -43,15 +43,26 @@ Do you Raku? Would you like too? In this class students will explore an altern" 
 | Triangle Potters Guild | ? | wood | none | **new** | trianglepotters.org | "Raku workshop with JoeFrank McKee -" | The site lists multiple upcoming workshops, including a Raku workshop, which is a non-electric firing.
 | Doctor Arthur and Esther Goldberg Groundhog Kiln | Edgefield |  | ongoing_class_or_membership | **new** | exploreedgefield.com | "As a continuation of the local pottery tradition, the Doctor Arthur and Esther Goldberg Groundhog Kiln was built in 2011. It is a traditional wood-burning kiln " | The text describes a traditional wood-burning kiln in Edgefield, SC. [gate: quote names no specific non-electric firing]
 | South Carolina ETV | ? | wood | none | **new** | scetv.org | "In the Upstate of SC you’ll find a group of potters who prefer to use the Anagama kiln, a communal firing technique that dates back to 5th century Japan." | The text mentions the technique but does not confirm public access or booking details.
+| Preservation SC | ? |  | none | **new** | preservesc.org | "By allowing visitors to engage in the process of turning and glazing clay, as well as firing the existing groundhog kiln, the museum will provide the public wit" | The text explicitly states the public can engage in firing the groundhog kiln. [gate: quote names no specific non-electric firing]
+| Edgefield Area Clay Guild | Edgefield | wood | dated_events | **new** | festivalsinamerica.com | "Each spring it opens with the firing of the wood-fueled Edgefield Groundhog Kiln, followed by two days of pottery sales at multiple studio locations." | The text describes a past event featuring a wood-fueled kiln opening open to the public. [gate: quote names no specific non-electric firing]
+| NewsBreak | ? | wood | dated_events | **new** | newsbreak.com | "Heritage Trail Pottery Tour and Sale in Edgefield and Johnston to begin with opening of wood-fired Groundhog Kiln Saturday" | The listing advertises a wood-fired kiln opening during a public tour and sale.
+| WJBF | Edgefield and Johnston | wood | none | **new** | wjbf.com | "Heritage Trail Pottery Tour and sale in Edgefield and Johnston ... - WJBF: Heritage Trail Pottery Tour and sale in Edgefield and Johnston to begin with opening " | The text mentions a wood-fired kiln opening during a public tour and sale.
+| N/A | Edgefield | wood | none | **new** | postandcourier.com | "The upcoming firing of the Goldberg Kiln can be characterized as a fanfare of sorts, signaling the opening of the 15th Annual Heritage Trail Pottery Tour, this " | The text mentions a public event featuring a kiln firing at a location in South Carolina. [gate: quote names no specific non-electric firing]
+| Ben Owen Pottery | ? | wood | dated_events | **new** | benowenpottery.com | "Ben Owen Pottery will be part of the Seagrove Wood Fire Studio Tour and Sale held June 6th-7th, 2026." | The site lists participation in a wood fire studio tour event.
+| Living Kiln Pottery Studio | ? | raku, wood, gas_reduction | none | **new** | livingkilnpotterystudio.com | "" | The page content is unavailable to determine public access to firings.
 
-## Social-only leads, not read (4)
+## Social-only leads, not read (8)
 
 - 4 Session Raku Pottery Class with Erik Lindstrom - Facebook — https://www.facebook.com/events/318-wichman-st-walterboro-sc-united-states-south-carolina-29488/4-session-raku-pottery-class-with-erik-lindstrom/1039599468519441/
 - Abi Higgins Potter, Artist. Raku, Saggar, Barrel workshops ... — https://www.instagram.com/sarahabigailhiggins/
 - TOP 10 BEST Pottery in Columbia, SC - Updated 2026 - Yelp — https://www.yelp.com/search?find_desc=pottery&find_loc=Columbia,+SC
 - Anagama Kiln | Palmetto Scene - YouTubeAnagama Kiln | Palmetto Scene | Stories | July 21, 2022 ...Scott Bartolomei Edmonds - Anagama Process - Anagama Wood ...Anagama Kiln in Seneca, SC 29678 - Chamber of CommerceAll Fired Up – Clemson World MagazineAnagama Kiln - The Hambidge Center — https://www.youtube.com/watch?v=lR1CEPNUt9I
+- Explore the best art ideas on Pinterest — https://www.pinterest.com/ideas/art/961238559656/
+- Charleston, SC: All You Must Know Before You Go (2026) - ... — https://www.tripadvisor.com/Tourism-g54171-Charleston_South_Carolina-Vacations.html
+- ROCK OF AGING - YouTube Music — https://music.youtube.com/search?q=Rock
+- Rock Classics ⚡ [ LIVE ] Timeless Rock Hits of the 70s, 80s, and ... — https://m.youtube.com/watch?v=Nt27aBceerI
 
-## Rejected (101)
+## Rejected (218)
 
 - clayworksinc.org: known place in NC
 - natewinterstudios.com: known place in ME
@@ -154,3 +165,120 @@ Do you Raku? Would you like too? In this class students will explore an altern" 
 - starworksnc.org: no firing words on any page
 - musingaboutmud.com: The text mentions firings but does not specify a location in South Carolina.
 - redlodgeclaycenter.com: known place in MT
+- colorclaycafe.com: OSM seed: no firing words on its pages
+- waterdata.usgs.gov: OSM seed: no firing words on its pages
+- claytonandcrume.com: OSM seed: no firing words on its pages
+- tableauonking.com: OSM seed: no firing words on its pages
+- gordonselitedetailing.com: OSM seed: no firing words on its pages
+- newberryuu.org: OSM seed: no firing words on its pages
+- claytonconstruction.net: OSM seed: no firing words on its pages
+- no3pottery.com: OSM seed: no firing words on its pages
+- hartworksstoneware.com: OSM seed: no firing words on its pages
+- scpictureproject.org: OSM seed: no firing words on its pages
+- pluffmudpottery.com: OSM seed: no firing words on its pages
+- studiounionchs.com: OSM seed: no firing words on its pages
+- pottersville.org: no firing words on any page
+- potterypost.ca: The directory covers multiple continents but does not specify any firing services in South Carolina.
+- en.wikipedia.org: The page is a general Wikipedia entry and does not mention any firing services for the public in South Carolina.
+- simple.wikipedia.org: no firing words on any page
+- statefarm.com: no firing words on any page
+- state.gov: no firing words on any page
+- ca.gov: no firing words on any page
+- britannica.com: no firing words on any page
+- craft.do: no firing words on any page
+- merriam-webster.com: no firing words on any page
+- hgtv.com: no firing words on any page
+- michaels.com: no firing words on any page
+- onelittleproject.com: no firing words on any page
+- hobbycraft.co.uk: no firing words on any page
+- deviantart.com: no firing words on any page
+- artsandculture.google.com: no firing words on any page
+- art.com: no firing words on any page
+- kreska.art: no firing words on any page
+- artstation.com: no firing words on any page
+- sketch.io: no firing words on any page
+- kleki.com: no firing words on any page
+- thepinestimes.com: The event is listed as being in North Carolina, not South Carolina.
+- sites.google.com: no firing words on any page
+- imdb.com: no firing words on any page
+- cmcenters.org: no firing words on any page
+- dictionary.com: no firing words on any page
+- dictionary.cambridge.org: no firing words on any page
+- en.m.wikipedia.org: The page discusses pottery history and types but does not mention any current firing services for the public in South Carolina.
+- throwclayla.com: The location is in Los Angeles, not South Carolina.
+- artincontext.org: The text is a general article about pottery and does not mention any specific firing events or locations in South Carolina.
+- potstudiola.com: no firing words on any page
+- gooddirtla.com: no firing words on any page
+- secretlosangeles.com: no firing words on any page
+- potteryworld.com: no firing words on any page
+- potterymfg.com: no firing words on any page
+- wordplays.com: no firing words on any page
+- fourweekmba.com: no firing words on any page
+- bradenkelley.com: no firing words on any page
+- crosswordleak.com: no firing words on any page
+- the-crossword-solver.org: no firing words on any page
+- wordunscrambler.net: no firing words on any page
+- definitions.net: no firing words on any page
+- simple.m.wikipedia.org: no firing words on any page
+- m.imdb.com: no firing words on any page
+- people.com: no firing words on any page
+- biography.com: no firing words on any page
+- hellomagazine.com: no firing words on any page
+- eonline.com: no firing words on any page
+- thesprucecrafts.com: The page is a blog post about a technique and does not confirm public firing access in South Carolina.
+- spinningpots.com: The text discusses firing methods but does not mention any specific public firing events or locations in South Carolina.
+- janejermynceramics.com: The text describes firing techniques but does not offer any public access or booking information for a firing in South Carolina.
+- upinsmokepottery.com: known place in PA
+- plimton.com: The text only discusses electric kiln firing and does not mention public access to non-electric firings.
+- obvara.hu: The website is located in Hungary, not South Carolina.
+- baltimoreclayworks.org: known place in MD
+- schoolofservice.org: The text only describes residency opportunities for artists, not public access to firings.
+- mudflat.org: known place in MA
+- countyhallpottery.com: The page text is not available to determine public firing access.
+- ceramicsnow.substack.com: no firing words on any page
+- charleston.com: no firing words on any page
+- travel.usnews.com: no firing words on any page
+- charlestoncvb.com: no firing words on any page
+- charleston-sc.gov: no firing words on any page
+- losbanosusd.org: no firing words on any page
+- columbia.com: no firing words on any page
+- columbia.edu: no firing words on any page
+- columbiabank.com: no firing words on any page
+- columbiausoutlet.com: no firing words on any page
+- columbiasportswearcompany.com: no firing words on any page
+- amazon.com: no firing words on any page
+- gocolumbia.edu: no firing words on any page
+- artcentergreenville.org: no firing words on any page
+- skutt.com: The page only advertises the sale of electric kilns and does not mention public firing events.
+- clayco-op.square.site: no firing words on any page
+- maps.google.com: no firing words on any page
+- meetup.com: no firing words on any page
+- groupon.com: no firing words on any page
+- greenvillesc.gov: no firing words on any page
+- visitgreenvillesc.com: The website is a general tourism site and does not mention any ceramic firing events.
+- greenvillecounty.org: The page is a county government website and does not mention any ceramic firing services.
+- greenvillejournal.com: no firing words on any page
+- clayatlas.com: The provided text does not confirm public access to non-electric kiln firings.
+- rhs.org.uk: no firing words on any page
+- treeplantation.com: The page discusses myrtle trees and general wood products, but does not mention any ceramic firing services.
+- bhg.com: no firing words on any page
+- thespruce.com: no firing words on any page
+- en.jardineriaon.com: no firing words on any page
+- gardenia.net: no firing words on any page
+- beaufortsc.org: no firing words on any page
+- beaufort.com: no firing words on any page
+- southernliving.com: no firing words on any page
+- beaufort.group: no firing words on any page
+- beaufortcountysc.gov: no firing words on any page
+- discoversouthcarolina.com: no firing words on any page
+- spartanburg.com: The page only lists general events and does not mention any ceramic firing services.
+- https://allevents.in/spartanburg/workshops: no firing words on any page
+- claycoopstpete.com: no firing words on any page
+- google.com: no firing words on any page
+- spartanburgcounty.gov: no firing words on any page
+- experiencespartanburg.com: no firing words on any page
+- onespartanburginc.com: no firing words on any page
+- cityofspartanburg.org: no firing words on any page
+- visitrockhillsc.com: no firing words on any page
+- historicrockhill.com: no firing words on any page
+- rockauto.com: no firing words on any page

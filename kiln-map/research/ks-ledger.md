@@ -1,4 +1,4 @@
-# Kansas firings ledger (2026-10-09, discovery v3, automatic)
+# Kansas firings ledger (2026-10-13, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -9,3 +9,5 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 2 | Camp Singers | ? | pit_barrel_saggar | See site | campsingers.com |
 | 3 | House of Clay | ? | raku | Dated workshop or firing event | houseofclay.kilnfire.com |
 | 4 | Bracker's | ? | raku | Classes or membership | brackers.com |
+| 5 | Lawrence Potters' Guild | Lawrence | salt | Classes or membership | www2.ljworld.com |
+| 6 | Vince Pitelka | ? | soda | Classes or membership | vincepitelka.com |

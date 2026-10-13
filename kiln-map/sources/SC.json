@@ -56,7 +56,7 @@
         "town": "Greenville",
         "score": 45,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "weak": true,
       "agree": {
@@ -179,7 +179,7 @@
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -242,7 +242,7 @@
         "town": "Hilton Head Island",
         "score": 15,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -306,7 +306,7 @@
         "town": "Clemson",
         "score": 18,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -360,12 +360,164 @@
         "town": "Columbia",
         "score": 15,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "access": {
         "status": "ongoing"
       },
       "address": "1026 Sumter St., Ste. 200, Columbia, SC 29201"
+    },
+    {
+      "id": "edgefield-area-clay-guild",
+      "org": "Edgefield Area Clay Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Edgefield",
+      "city": "Edgefield",
+      "urls": [
+        "https://www.festivalsinamerica.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Edgefield, South Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.festivalsinamerica.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Each spring it opens with the firing of the wood-fueled Edgefield Groundhog Kiln, followed by two days of pottery sales at multiple studio locations.",
+        "url": "https://www.festivalsinamerica.com/festival/heritage-trail-pottery-tour-and-sale-edgefield",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "festivalsinamerica.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-13",
+        "verdict": "yes",
+        "why": "The text describes a free, public, self-guided weekend tour where outsiders can attend the wood-fired Edgefield Groundhog Kiln opening and pottery sales at multiple studios.",
+        "types": {},
+        "state": "SC",
+        "town": "Edgefield",
+        "street": "79 Wood Duck Drive, Edgefield"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-13"
+      }
+    },
+    {
+      "id": "wjbf",
+      "org": "WJBF",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Edgefield and Johnston",
+      "city": "Edgefield and Johnston",
+      "urls": [
+        "https://www.wjbf.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Edgefield and Johnston, South Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.wjbf.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "wjbf.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-13",
+        "verdict": "no",
+        "why": "No page text provided; cannot verify public access to non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-13"
+      }
+    },
+    {
+      "id": "n-a",
+      "org": "N/A",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Charleston",
+      "city": "Charleston",
+      "urls": [
+        "https://www.postandcourier.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://www.postandcourier.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "The upcoming firing of the Goldberg Kiln can be characterized as a fanfare of sorts, signaling the opening of the 15th Annual Heritage Trail Pottery Tour, this year scheduled for April 25 and 26.",
+        "url": "https://www.postandcourier.com/aikenstandard/lifestyle/arts-and-humanities-heritage-pottery-tour-is-around-the-corner/article_699a0376-177b-466f-890e-2cc3ea57bd2d.html",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "postandcourier.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-13",
+        "verdict": "unclear",
+        "why": "The article describes a Heritage Trail Pottery Tour with a groundhog kiln firing and pottery locations open April 25-26, but does not explicitly state whether outsiders can participate in the firing itself or only view the unloading and purchase finished wares.",
+        "types": {},
+        "state": "SC",
+        "town": "Edgefield",
+        "street": "79 Wood Duck Drive, Edgefield"
+      },
+      "weak": true,
+      "located": {
+        "state": "SC",
+        "town": "Charleston",
+        "score": 20,
+        "osm": true,
+        "date": "2026-10-13"
+      },
+      "address": "148 Williman Street, Charleston, SC 29403"
     }
   ],
   "_removed": [
@@ -400,6 +552,10 @@
     {
       "id": "hernando-arts",
       "why": "Second check (claude-haiku-4.5): page says state is FL, not SC (2026-10-09)"
+    },
+    {
+      "id": "ben-owen-pottery",
+      "why": "Its own pages give an address in NC (Seagrove), not SC. Moved. (2026-10-13)"
     }
   ]
 }

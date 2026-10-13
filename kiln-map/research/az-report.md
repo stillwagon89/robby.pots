@@ -1,6 +1,6 @@
-# Arizona discovery report (2026-10-07)
+# Arizona discovery report (2026-10-13)
 
-Searches: 40 (Tavily). Places seen: 149. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 73 (Tavily). Places seen: 278. Judge: gemma4:latest on this Mac. No Claude used.
 
 ## Qualifies (verified quote, 12)
 
@@ -21,7 +21,7 @@ Les Mitchell" |
 | Christopher Heede | Scottsdale | raku, wood | none | **new** | morefunz.com | "Christoph Ceramics - Raku, Woodfire, and Architectural Ceramic Art - Scottsdale, Arizona" |
 | azhandmade.com | ? | raku | ongoing_class_or_membership | **new** | azhandmade.com | "The animals I choose and the process of raku firing are aspects of my work that have evolved over time." |
 
-## Unclear: needs a second look (34)
+## Unclear: needs a second look (38)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -59,16 +59,23 @@ Les Mitchell" |
 | The Art Store | ? | gas_reduction | firing_service_or_rental | **new** | prescottartstore.com | "The Art Store does offer kilning of ceramic clay up to cone 10. The costs are $60.00 per kiln load." | The store offers kiln firing services for a fee, which is public access.
 | Southwest Kiln Conference | Bloomfield |  | none | **new** | swkiln.com | "Think of it as part artist meetup, part history lab—folks bring their own clay pots, fire them in traditional setups like trench or pit kilns, and swap ideas ab" | The conference involves firing in traditional setups like pit kilns. [gate: quote names no specific non-electric firing]
 | Reitz Ranch Center for Ceramic Arts | ? | wood | ongoing_class_or_membership | **new** | virgilortiz.com | "Far off the beaten path, nestled next to the Verde River in Clarkdale, Arizona, sits the legendary Reitz Ranch Center for Ceramic Arts." | The text mentions a wood-fired kiln at a location in Arizona. [gate: quote names no specific non-electric firing]
+| Seatown Pottery | ? | raku | none | **new** | seatownpottery.com | "" | OpenStreetMap seed; firing words on its pages
+| Eastside Pottery | ? | raku | none | **new** | eastsidepottery.com | "" | OpenStreetMap seed; firing words on its pages
+| Flagstaff | ? | wood, gas_reduction | ongoing_class_or_membership | **new** | digitalfire.com | "Flagstaff, AZ, USA" | The listing includes a location in Arizona and mentions a studio that likely offers public access to firing services. [gate: quote names no specific non-electric firing]
+| ceramicartsnetwork.org | ? |  |  | **new** | ceramicartsnetwork.org | "" | judge error: The operation was aborted due to timeout
 
-## Social-only leads, not read (5)
+## Social-only leads, not read (8)
 
 - Fire Works Stoneware - Facebook — https://www.facebook.com/HorsehairPotter/
 - Shanta Ambady Studio | ⚱️Pit Firing Workshops at Arcosanti ... — https://www.instagram.com/p/C5eBWhAPskF/
 - TOP 10 BEST Pottery Studio in Phoenix, AZ - (2026 Guide) - Yelp — https://www.yelp.com/search?find_desc=Pottery+Studio&find_loc=Phoenix,+AZ
 - THE 15 BEST Sedona Paint & Pottery Studios - Tripadvisor — https://www.tripadvisor.com/Attractions-g31352-Activities-c56-t272-Sedona_Arizona.html
 - Firing questions, help please! : r/Pottery - Reddit — https://www.reddit.com/r/Pottery/comments/1dbh295/firing_questions_help_please/
+- Explore the best art ideas on Pinterest — https://www.pinterest.com/ideas/art/961238559656/
+- YouTube Studio — https://studio.youtube.com/reauth?approve_browser_access=1&approve_browser_access=1
+- How To Make Clay At Home (It's Just Dirt) - YouTube — https://m.youtube.com/watch?v=ca20JkKFAcE
 
-## Rejected (98)
+## Rejected (220)
 
 - happeningnext.com: known place in NY
 - moabsunnews.com: The location is in Utah, not Arizona.
@@ -168,3 +175,125 @@ Les Mitchell" |
 - firegallery.art: known place in TX
 - spindriftstudio.art: known place in IL
 - heirloomceramicstudio.com: no firing words on any page
+- 973oldies.com: OSM seed: no firing words on its pages
+- arizonaceramiccoating.com: OSM seed: no firing words on its pages
+- tombstonepottery.com: OSM seed: no firing words on its pages
+- brisenoazteca.com: OSM seed: no firing words on its pages
+- asyouwishpottery.com: OSM seed: no firing words on its pages
+- gannondetailing.com: OSM seed: no firing words on its pages
+- azgfd.gov: OSM seed: no firing words on its pages
+- southwestgardenarts.com: OSM seed: no firing words on its pages
+- potteryplaceaz.com: OSM seed: no firing words on its pages
+- tools.usps.com: OSM seed: no firing words on its pages
+- sonoranartsleague.org: OSM seed: no firing words on its pages
+- mesaartcenter.com: OSM seed: no firing words on its pages
+- ceramicaddicts.com: OSM seed: no firing words on its pages
+- art4funstudio.com: OSM seed: no firing words on its pages
+- shemerartcenter.org: OSM seed: no firing words on its pages
+- claycenter.as.me: OSM seed: no firing words on its pages
+- app.24hrpottery.com: OSM seed: no firing words on its pages
+- 24hrpottery.com: OSM seed: no firing words on its pages
+- occ.sn: OSM seed: no firing words on its pages
+- app.getoccasion.com: OSM seed: no firing words on its pages
+- pottersindustries.com: The website is about glass beads and construction materials, not pottery firing.
+- pottersace.com: no firing words on any page
+- pottersplacenaperville.com: no firing words on any page
+- southwestart.com: no firing words on any page
+- potterscrackers.com: no firing words on any page
+- google.com: no firing words on any page
+- potterscraftcider.com: no firing words on any page
+- merriam-webster.com: no firing words on any page
+- in.nau.edu: The text only mentions a course for students, not public access.
+- deviantart.com: no firing words on any page
+- artsandculture.google.com: no firing words on any page
+- art.com: no firing words on any page
+- britannica.com: no firing words on any page
+- artstation.com: no firing words on any page
+- sketch.io: no firing words on any page
+- kleki.com: no firing words on any page
+- baike.baidu.com: no firing words on any page
+- dictionary.cambridge.org: no firing words on any page
+- zillow.com: no firing words on any page
+- blog.youtube: no firing words on any page
+- apartments.com: no firing words on any page
+- visualstudio.microsoft.com: no firing words on any page
+- studio.design: The website is a template design platform, not a pottery studio.
+- studio.co.uk: no firing words on any page
+- sites.google.com: no firing words on any page
+- iciba.com: no firing words on any page
+- zhuanlan.zhihu.com: no firing words on any page
+- github.com: no firing words on any page
+- global.bing.com: no firing words on any page
+- collinsdictionary.com: no firing words on any page
+- en.m.wikipedia.org: The page is a general Wikipedia article about California pottery and does not mention public firing opportunities.
+- throwclayla.com: The location is in California, not Arizona.
+- artincontext.org: The text is a general article about pottery and does not mention a specific location or public firing opportunity.
+- potstudiola.com: no firing words on any page
+- gooddirtla.com: no firing words on any page
+- secretlosangeles.com: no firing words on any page
+- potteryworld.com: no firing words on any page
+- potterymfg.com: no firing words on any page
+- multnomahartscenter.org: no firing words on any page
+- explainthatstuff.com: The page provides general information about ceramics and kilns but does not list any specific firing events or locations in Arizona.
+- xometry.com: The website discusses ceramics materials but does not offer public firing services.
+- ceramics.org: no firing words on any page
+- sciencenotes.org: The text provides general information about ceramics and firing processes but does not mention any specific location or public firing opportunities.
+- happyartceramics.com: no firing words on any page
+- thesprucecrafts.com: The page content is not available to determine if public firing participation is possible.
+- spinningpots.com: The text discusses firing methods but does not mention a specific location or public access to a firing service in Arizona.
+- janejermynceramics.com: The text does not mention any public firing opportunities in Arizona.
+- upinsmokepottery.com: known place in PA
+- plimton.com: The text only discusses electric kiln firing and does not mention public access to non-electric firings.
+- obvara.hu: The website is for a process originating in Eastern Europe and does not mention any location or public firing opportunities in Arizona.
+- baltimoreclayworks.org: known place in MD
+- clay.com: no firing words on any page
+- amazon.com: no firing words on any page
+- walmart.com: no firing words on any page
+- app.clay.com: no firing words on any page
+- phoenix.gov: no firing words on any page
+- visitphoenix.com: no firing words on any page
+- play.google.com: The text is about a mobile game and does not mention any ceramic firing services.
+- abc15.com: no firing words on any page
+- visitarizona.com: no firing words on any page
+- hyundaiusa.com: no firing words on any page
+- visittucson.org: no firing words on any page
+- tucsonaz.gov: no firing words on any page
+- tucson.com: no firing words on any page
+- travel.usnews.com: no firing words on any page
+- flagstaffarizona.org: no firing words on any page
+- flagstaff.com: no firing words on any page
+- flagstaff.az.gov: The website is for general city information and does not mention any ceramic firing services.
+- marymargaret-sather.squarespace.com: no firing words on any page
+- clayfinder.com: known place in TX
+- clayco-op.square.site: no firing words on any page
+- johnpostpottery.blogspot.com: The blog only discusses the owner's personal firing activities and does not offer public access.
+- maps.google.com: no firing words on any page
+- visitsedona.com: no firing words on any page
+- sedona.net: no firing words on any page
+- sedona.org: no firing words on any page
+- tempetourism.com: no firing words on any page
+- downtowntempe.com: no firing words on any page
+- epermits.tempe.gov: no firing words on any page
+- arizona-leisure.com: no firing words on any page
+- scottsdaleaz.gov: The website is a general city government portal and does not mention any ceramic firing events.
+- experiencescottsdale.com: no firing words on any page
+- oldtownscottsdaleaz.com: no firing words on any page
+- emeraldpalate.com: The page discusses local attractions and does not mention any ceramic firing services.
+- scottsdale.com: The page discusses local events and attractions but does not mention any ceramic firing services.
+- kilnbuilders.com: The website only advertises building kilns and does not mention public firing events.
+- vincepitelka.com: known place in KS
+- allkilnservices.com: The site only offers kiln repair and sales, not public firing services.
+- jlpottery.com: known place in CO
+- baileypottery.com: The page only advertises the sale of gas kilns and does not mention public firing opportunities.
+- kilnshare.com: The website is a directory for renting kiln space, but it does not confirm any specific firing types or locations in Arizona.
+- alpinekilns.com: The website only offers service and sales for kilns and does not list public firing events.
+- prescott.com: no firing words on any page
+- experienceprescott.com: no firing words on any page
+- helloprescott.com: no firing words on any page
+- prescott-az.gov: no firing words on any page
+- discoverbisbee.com: no firing words on any page
+- wanderinarizona.com: no firing words on any page
+- bisbeeaz.gov: no firing words on any page
+- bisbees.com: no firing words on any page
+- arizonan.com: The text only provides general information about the area and does not mention any ceramic firing opportunities.
+- worldatlas.com: no firing words on any page

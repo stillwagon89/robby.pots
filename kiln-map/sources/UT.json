@@ -55,7 +55,7 @@
       "lng": -111.77796,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -173,7 +173,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -294,7 +294,7 @@
         "town": "Orem",
         "score": 2,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -420,7 +420,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -546,7 +546,7 @@
         "town": "Logan",
         "score": 15,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -606,13 +606,65 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-13"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "red-lodge-clay-center-ut",
+      "org": "Red Lodge Clay Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Utah",
+      "city": null,
+      "urls": [
+        "https://www.harrylevensteinpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.harrylevensteinpottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "During my 8-month residency at the Red Lodge Clay Center I took a little break from firing with wood, and instead dove deeply into the process of soda-firing.",
+        "url": "https://www.harrylevensteinpottery.com/redlodgeadventure.html",
+        "types": [
+          "soda"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "harrylevensteinpottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-13",
+        "verdict": "unclear",
+        "why": "The page describes Harry Levenstein's personal residency and firing experiences at Red Lodge Clay Center, but does not explicitly state whether outsiders can participate in firings there.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-13"
       }
     }
   ],

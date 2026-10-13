@@ -1583,6 +1583,61 @@
       },
       "lat": 35.72012,
       "lng": -79.17715
+    },
+    {
+      "id": "ben-owen-pottery",
+      "org": "Ben Owen Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Seagrove",
+      "city": "Seagrove",
+      "urls": [
+        "https://benowenpottery.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Seagrove, North Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://benowenpottery.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Ben Owen Pottery will be part of the Seagrove Wood Fire Studio Tour and Sale held June 6th-7th, 2026.",
+        "url": "https://benowenpottery.com/events",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "benowenpottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-13",
+        "verdict": "unclear",
+        "why": "The page mentions a wood fire studio tour event but provides no details about public access to firings, workshops, classes, or how outsiders can participate in wood firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "NC",
+        "town": "Seagrove",
+        "score": 12,
+        "osm": false,
+        "date": "2026-10-13"
+      }
     }
   ],
   "_removed": [
