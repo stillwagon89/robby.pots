@@ -31,6 +31,10 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
 
+      # Apply Robby's standing listing rules (reject past/non-firing, approve clear items, mark full) so the review list stays short.
+      - name: Apply listing rules
+        run: node kiln-map/triage.mjs --apply
+
       # Rebuild page data from APPROVED items only (drops past firings, hides dead links).
       - name: Build page data
         run: npm run kiln:build

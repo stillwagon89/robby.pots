@@ -33,3 +33,14 @@ leaves it out until Robby clears it (`node kiln-map/discover/flag-clear.mjs <id>
 - **Recurring firings** ("3rd Monday monthly", "first Saturday") are exact dates: store `recurs: {nth, weekday (1=Mon..7=Sun), months}`; build.mjs expands them into the next occurrences.
 - **Open-house / drop-in firings** where visitors can bring their own bisque or pick a piece are firings AND locations.
 - **Firing services for hire count** if they fire non-electric (raku, gas, wood, soda...). Electric-only services do not.
+- **Full / sold-out firings are still listed**, with the existing "full" status (waitlist stays "waitlist").
+- **Community kilns where you pay by volume and/or work a shift** (Lancaster-style) count as locations and firings.
+- **Mobile / at-home services** (they bring the kiln) count. Location = their home-base address (town if no street is published); status "open" so they surface in searches.
+- **Drop an item that names no firing type anywhere** (title, quote, description). Electric-only, online-only and kiln/equipment sales are not firings.
+- **The "quote found on page" check is only a warning.** If the title or quote names the firing type and the source quote is on the page, the item is fine.
+- **Past firings are never shown to Robby** (end date, or start date for one-day sessions, before today).
+
+### How these rules run
+`node kiln-map/triage.mjs --apply` (step in the weekly workflow, right after extract) applies all of the above: rejects, approves items at already-public places,
+marks full, expands repeats. What is left in `data/pending/` is only real judgement calls plus items at places Robby hasn't approved yet.
+`review.mjs` lists only the first group, most informative first. Spot-check ~10 triage approvals each run; if more than 1 in 10 is wrong, tighten the rule.

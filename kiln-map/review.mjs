@@ -13,13 +13,18 @@ const sources = loadSources();
 const org = (id) => sources.find((s) => s.id === id)?.org || id;
 const TYPE = { wood: "Wood", soda: "Soda", salt: "Salt", raku: "Raku", pit_barrel_saggar: "Pit", gas_reduction: "Gas", electric: "Electric", rental_service: "Rental", other: "Other" };
 
-const pending = readdirSync(join(DATA, "pending")).filter((f) => f.endsWith(".json")).map((f) => read(join(DATA, "pending", f)))
+const publicIds = new Set(sources.filter((s) => (!s.review || s.review === "approved") && !s.weak && !s.flag_hold).map((s) => s.id));
+const allPending = readdirSync(join(DATA, "pending")).filter((f) => f.endsWith(".json")).map((f) => read(join(DATA, "pending", f)));
+// Items at places Robby hasn't approved yet wait for that place-level review (REVIEW-STATUS.md), not this list.
+const heldForPlace = allPending.filter((i) => !publicIds.has(i.source_id)).length;
+const pending = allPending.filter((i) => publicIds.has(i.source_id))
   .sort((a, b) => org(a.source_id).localeCompare(org(b.source_id)) || (a.start_date || "").localeCompare(b.start_date || ""));
 const runs = existsSync(join(DATA, "runs")) ? readdirSync(join(DATA, "runs")).sort() : [];
 const run = runs.length ? read(join(DATA, "runs", runs.at(-1))) : null;
 const health = existsSync(join(DATA, "link-health.json")) ? read(join(DATA, "link-health.json")) : {};
 
 const lines = [`# Kiln Locator weekly review (${new Date().toISOString().slice(0, 10)})`, ""];
+if (heldForPlace) lines.push(`_${heldForPlace} more items belong to places you have not approved yet; they appear when you review that place (REVIEW-STATUS.md)._`, "");
 if (!pending.length) lines.push("Nothing new to review this week.", "");
 else {
   lines.push(`${pending.length} item${pending.length === 1 ? "" : "s"} to review. Reply with the numbers to **reject** (and why) or **fix**. Everything else gets approved.`, "");

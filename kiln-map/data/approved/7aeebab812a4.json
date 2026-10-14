@@ -6,8 +6,8 @@
   "audience": "public",
   "date_precision": "exact",
   "start_date": "2026-10-04",
-  "end_date": "2026-10-09",
-  "registration_status": "closed",
+  "end_date": "2026-10-18",
+  "registration_status": "open",
   "crew_needed": true,
   "source_url": "https://artcenterky.org/community/anagama/",
   "source_quote": "October 2026\nLoading October 2 & 3\nFiring October 4-9\nUnloading October 17\nSIGN UP FOR SHIFTS beginning Monday, August 24 at 6 pm HERE",
@@ -26,7 +26,7 @@
   "source_id": "art-center-bluegrass",
   "past": false,
   "quote_verified": true,
-  "checked": "2026-10-05",
+  "checked": "2026-10-13",
   "evidence_url": "https://artcenterky.org/community/ceramics-studio/#:~:text=This%20Japanese%2Dstyle%20cave%20kiln,holds%20hundreds%20of%20pots.",
   "evidence_via": null,
   "evidence_verified": true,
@@ -58,6 +58,13 @@
     "hosts_groups": false,
     "first_atmospheric_ok": null
   },
-  "reviewed": true,
-  "review_note": "Approved by Claude 2026-10-05 (East Coast expansion): quote verified on the page, year on the page, in scope."
+  "review_note": "Approved by Claude 2026-10-05 (East Coast expansion): quote verified on the page, year on the page, in scope.",
+  "changed_from": {
+    "start_date": "2026-10-04",
+    "end_date": "2026-10-09",
+    "registration_status": "closed"
+  },
+  "reviewed": "2026-10-14",
+  "auto_approved": "2026-10-14",
+  "approved_by_rules": "WORKFLOW.md listing rules"
 }

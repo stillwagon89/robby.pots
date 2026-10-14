@@ -98,6 +98,8 @@ function contactFor(s) {
 function displayStatus(i, today) {
   if (i.registration_status === "waitlist" || (/waitlist/i.test(i.title) && i.registration_status === "sold_out")) return "waitlist";
   if (i.registration_status === "sold_out" || i.registration_status === "closed") return "full";
+  // A firing service you can book now (incl. mobile "we bring the kiln" services) shows as open, so it surfaces as joinable.
+  if (i.access_kind === "rental_service") return "open";
   if (ONGOING_KINDS.includes(i.access_kind)) {
     // A single dated session listed as a class (e.g. a monthly raku night) is a dated firing, not ongoing access.
     const oneSession = i.access_kind === "class_enrollment" && i.start_date && (!i.end_date || i.end_date === i.start_date);
