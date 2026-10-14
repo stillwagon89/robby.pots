@@ -21,12 +21,31 @@ const read = (f) => JSON.parse(readFileSync(f, "utf8"));
 const DEV = process.env.KILN_DEV === "1";
 const sources = loadSources().filter((s) => DEV || (s.review !== "pending" && !s.weak && !s.flag_hold));
 const approvedDir = join(ROOT, "data", "approved");
-const approved = existsSync(approvedDir) ? readdirSync(approvedDir).filter((f) => f.endsWith(".json")).map((f) => read(join(approvedDir, f))).filter((it) => DEV || !it.flag_hold) : [];
+const approvedRaw = existsSync(approvedDir) ? readdirSync(approvedDir).filter((f) => f.endsWith(".json")).map((f) => read(join(approvedDir, f))).filter((it) => DEV || !it.flag_hold) : [];
 
 // Each source's most recent run entry, to say whether its site can be checked automatically.
 const runsDir = join(ROOT, "data", "runs");
 const lastRun = new Map();
 if (existsSync(runsDir)) for (const f of readdirSync(runsDir).sort()) for (const e of read(join(runsDir, f)).sources) lastRun.set(e.id, { ...e, date: f.slice(0, 10) });
+
+// Recurring firings ("3rd Monday of the month", "first Saturday"): an approved item with
+// recurs: { nth: 1-4 | -1 (last), weekday: 1 (Mon) .. 7 (Sun), months: 4 } becomes one dated firing per upcoming occurrence.
+function recurDates(r, from, months = 4) {
+  const out = [];
+  const start = new Date(`${from}T00:00:00Z`);
+  for (let m = 0; m < months + 1; m++) {
+    const y = start.getUTCFullYear(), mo = start.getUTCMonth() + m;
+    const days = [];
+    for (let d = 1; d <= 31; d++) { const dt = new Date(Date.UTC(y, mo, d)); if (dt.getUTCMonth() !== ((mo % 12) + 12) % 12) break; if (((dt.getUTCDay() + 6) % 7) + 1 === r.weekday) days.push(dt); }
+    const pick = r.nth === -1 ? days.at(-1) : days[r.nth - 1];
+    if (pick) { const iso = pick.toISOString().slice(0, 10); if (iso >= from) out.push(iso); }
+  }
+  return out.slice(0, r.months || months);
+}
+const approved = approvedRaw.flatMap((it) => {
+  if (!it.recurs) return [it];
+  return recurDates(it.recurs, TODAY).map((d) => ({ ...it, id: `${it.id}-${d}`, access_kind: "dated", date_precision: "exact", start_date: d, end_date: d, recurs: undefined }));
+});
 
 const ITEM_FIELDS = ["summary", "pay_text", "bring", "commitment", "id", "firing_type", "kiln_style", "access_kind", "audience", "start_date", "end_date", "date_precision", "signup_deadline", "registration_status", "registration_opens", "cost_text", "how_to_join", "includes", "crew_needed", "first_atmospheric_ok", "source_url", "evidence_sentence", "evidence_quote", "evidence_url", "signup_url", "checked", "added_by"];
 

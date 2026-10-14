@@ -25,3 +25,11 @@
 `flag-triage.mjs`: any flag puts the place/listing at the top of the review packet and in my re-check queue (`needs_recheck`);
 3+ different visitors, or 2+ with a serious reason (closed, wrong date or address, not open...), sets `flag_hold` and the PUBLIC build
 leaves it out until Robby clears it (`node kiln-map/discover/flag-clear.mjs <id>`). A single flag never removes anything. Flagged places are never auto-approved.
+
+## Listing rules from Robby (2026-10-13)
+- **Location vs firing.** A place can be listed (location) without any firing listing. A *firing* needs a specific date or a stated repeat schedule.
+- **Residencies / long programs with no dated firing** = location only (the build already keeps `residency` items out of the firing schedule).
+- **College / student-only classes** = location; any listing shows "Enrolled students only" (`audience: "students"`), never as open to the public.
+- **Recurring firings** ("3rd Monday monthly", "first Saturday") are exact dates: store `recurs: {nth, weekday (1=Mon..7=Sun), months}`; build.mjs expands them into the next occurrences.
+- **Open-house / drop-in firings** where visitors can bring their own bisque or pick a piece are firings AND locations.
+- **Firing services for hire count** if they fire non-electric (raku, gas, wood, soda...). Electric-only services do not.
