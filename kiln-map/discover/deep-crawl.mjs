@@ -9,8 +9,10 @@ import { fileURLToPath } from "node:url";
 const KM = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const B = path.join(os.homedir(), ".claude/skills/gstack/browse/dist/browse");
 const TIERS = ((process.argv.find((a) => a.startsWith("--tiers=")) || "--tiers=0,1,2").split("=")[1]).split(",").map(Number);
+const IDS = ((process.argv.find((a) => a.startsWith("--ids=")) || "").split("=")[1] || "").split(",").filter(Boolean); // re-crawl these places even if cached
+const DATE_LINK = /explore dates|see dates|view dates|dates? (&|and) times?|select a date|book now|book a|register|sign.?up|enroll|buy tickets|reserve|schedule/i;
 const only = process.argv.slice(2).filter((a) => /^[A-Za-z]{2}$/.test(a)).map((a) => a.toUpperCase());
-const BOOKING = /(bookeo|acuityscheduling|as\.me|eventbrite|mindbodyonline|square\.site|squareup|squarespacescheduling|jane\.app|pike13|punchpass|glofox|setmore|simplybook|vagaro|fareharbor|ticketleap|ticketspice|tickettailor|universe\.com|brownpapertickets|meetup|civicrec|activecommunities|regpack|jotform|wixbookings|momence|zenplanner|clubspeed|hisawyer|opencare|checkfront|trybooking|classy|givebutter|ticketsource|eventeny|cart\.ly)\./i;
+const BOOKING = /(24hrpottery|bookeo|acuityscheduling|as\.me|eventbrite|mindbodyonline|square\.site|squareup|squarespacescheduling|jane\.app|pike13|punchpass|glofox|setmore|simplybook|vagaro|fareharbor|ticketleap|ticketspice|tickettailor|universe\.com|brownpapertickets|meetup|civicrec|activecommunities|regpack|jotform|wixbookings|momence|zenplanner|clubspeed|hisawyer|opencare|checkfront|trybooking|classy|givebutter|ticketsource|eventeny|cart\.ly)\./i;
 const HINT = /class|workshop|event|calendar|schedule|book|register|firing|fire|kiln|membership|raku|wood|soda|salt|saggar|pit|studio|contact|visit|about|location|find-us|programs?|courses?|rent|service/i;
 const lastHit = new Map();
 const run = (...args) => { try { return execFileSync(B, args, { encoding: "utf8", timeout: 40000, maxBuffer: 20e6 }); } catch (e) { return ""; } };
@@ -28,7 +30,8 @@ for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2
   for (const s of JSON.parse(fs.readFileSync(path.join(KM, "sources", f), "utf8")).sources) {
     const w = s.access?.url || s.contact?.website || s.urls?.[0]; if (!w || !/^https?:/.test(w)) continue;
     const out = path.join(KM, "research/cache/deep", ST, `${s.id}.json`);
-    if (fs.existsSync(out)) continue;
+    if (fs.existsSync(out) && !IDS.includes(s.id)) continue;
+    if (IDS.length && !IDS.includes(s.id)) continue;
     const tier = s.review === "approved" || !s.review ? 0 : !s.weak ? 1 : 2;
     jobs.push({ ST, s, w, out, tier });
   }
@@ -44,7 +47,7 @@ for (const j of jobs) {
   pages[home] = t0;
   const links = [...new Map(clean(run("links")).split("\n").map((l) => { const m = l.match(/^(.*?)\s*→\s*(https?:\S+)/); return m ? [m[2].split("#")[0], m[1]] : null; }).filter(Boolean)).entries()];
   const same = links.filter(([u, t]) => { try { return new URL(u).host.replace(/^www\./, "") === new URL(home).host.replace(/^www\./, "") && HINT.test(u + " " + t) && !/\.(jpe?g|png|pdf|zip)$/i.test(u); } catch { return false; } }).slice(0, 5);
-  const book = links.filter(([u]) => BOOKING.test(u)).slice(0, 3);
+  const book = links.filter(([u, t]) => BOOKING.test(u) || (DATE_LINK.test(t) && !/mailto:|tel:/.test(u))).slice(0, 5);
   const extra = j.s.access?.url && j.s.access.url !== home ? [[j.s.access.url, ""]] : [];
   for (const [u] of [...extra, ...same, ...book]) { if (pages[u]) continue; const t = await page(u); if (t) pages[u] = t; }
   fs.mkdirSync(path.dirname(j.out), { recursive: true });

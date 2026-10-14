@@ -51,14 +51,18 @@ for (const f of fs.readdirSync(path.join(KM, "data/pending")).filter((f) => f.en
     const pub = publicIds.has(e.source_id);
     const typeInTitleOrQuote = NON_ELECTRIC.some((t) => TYPE_RE[t].test(`${e.title} ${e.source_quote}`) || /wood.?(salt|soda)|salt.?soda/i.test(e.title));
     // Rule: the quote check is only a warning. If the title/quote names the type and the source quote is on the page, it's fine.
-    const ok = typeInTitleOrQuote && e.quote_verified !== false && (e.confidence || 0) >= 0.75;
+    const titleNames = NON_ELECTRIC.some((t) => TYPE_RE[t].test(e.title));
+    // Rule: an unmatched quote is only a warning when the title names the type and the date is exact.
+    const ok = typeInTitleOrQuote && (e.quote_verified !== false || (titleNames && e.start_date && e.date_precision === "exact")) && (e.confidence || 0) >= 0.75;
     if (!pub) look(e, "place not yet approved");
     else if (!ok) look(e, "type or quote not clearly on the page");
-    else if (e.access_kind === "dated" && !e.start_date && !m) look(e, "dated listing with no date");
-    else if (e.access_kind === "dated" && e.date_precision !== "exact" && !m) look(e, "date is only a month or season");
-    else if (e.year_on_page === false) look(e, "year not written on the page");
+    // Rule: no date even after looking in booking widgets -> list with "More info needed" (status stays unknown).
+    else if (e.access_kind === "dated" && !e.start_date && !m && !e.date_hunted) look(e, "dated listing with no date: hunt for dates first");
+    else if (e.access_kind === "dated" && e.date_precision !== "exact" && !m && !e.start_date) look(e, "date is only a month or season");
     else {
       if (m) { const N = { first: 1, "1st": 1, second: 2, "2nd": 2, third: 3, "3rd": 3, fourth: 4, "4th": 4, last: -1 }; const W = ["mon", "tues", "wednes", "thurs", "fri", "satur", "sun"]; e.recurs = { nth: N[m[1].toLowerCase()], weekday: W.indexOf(m[2].toLowerCase()) + 1, months: 4 }; }
+      // Rule: a membership that includes kiln access is a members-only firing (and a location).
+      if (e.access_kind === "ongoing_membership" && (!e.audience || e.audience === "public")) e.audience = "members_only";
       // Rule: undated residencies, and undated members-only / invitation-only / residents-only offers, are a location only (no firing card).
       if (!e.start_date && !m && (e.access_kind === "residency" || ["members_only", "invitation_only", "residents_only"].includes(e.audience))) e.location_only = true;
       verdict = ["approve", ""];
