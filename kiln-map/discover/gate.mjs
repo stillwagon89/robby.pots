@@ -3,7 +3,7 @@
 // A place stays "qualifies" only if the quote itself names a specific non-electric firing (not just "kiln" or "firing").
 export const TYPE_RE = {
   raku: /\brak|horsehair|obvara/i,
-  wood: /wood[- ]?(fire|fired|kiln|firing)|anagama|noborigama|manabigama/i,
+  wood: /wood[- ]?(fire|fired|kiln|firing)|train[- ](kiln|fir)|anagama|noborigama|manabigama/i,
   soda: /\bsoda\b/i,
   salt: /\bsalt[- ]?(fire|fired|glaze|glazed|kiln|firing)/i,
   pit_barrel_saggar: /\bpit[- ]?fir|barrel[- ]?fir|\bsagg?ar|smoke[- ]?fir|pit-fired/i,
