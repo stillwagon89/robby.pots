@@ -205,7 +205,7 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "st-johns-clay-collective",
@@ -265,11 +265,11 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09",
       "address": "6635 North Baltimore Avenue, Workshop St. Johns Complex, Portland, OR",
       "address_found": "6635 North Baltimore Avenue, Suite 125, Workshop St. Johns Complex, Portland, OR",
       "lat": 45.52025,
-      "lng": -122.67419
+      "lng": -122.67419,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "georgies-ceramic-clay-co",
@@ -331,7 +331,7 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "willamette-art-center",
@@ -390,11 +390,11 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "auto_approved": "2026-10-09",
       "address": "3995 Fairview Industrial Dr. SE, Salem, OR 97302",
       "address_found": "3995 Fairview Industrial Dr. SE, Suite 100, Salem, OR 97302",
       "lat": 44.89553,
-      "lng": -123.00726
+      "lng": -123.00726,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "wildling-collaborative-arts",
@@ -577,9 +577,9 @@
         "date": "2026-10-08"
       },
       "address": "1533 SE 7th Ave, Albany, OR 97321",
-      "auto_approved": "2026-10-09",
       "lat": 44.63479,
-      "lng": -123.08609
+      "lng": -123.08609,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "synergy-ceramics",
@@ -646,10 +646,10 @@
         "date": "2026-10-08"
       },
       "address": "1900 Northeast Division Street, Bend, OR 97701",
-      "auto_approved": "2026-10-09",
       "address_found": "1900 Northeast Division Street suite 108, Bend, OR 97701",
       "lat": 44.06889,
-      "lng": -121.30521
+      "lng": -121.30521,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "oregon-coast-school-of-art",
@@ -710,9 +710,9 @@
       },
       "weak": false,
       "address": "325 High Street, Gardiner, OR 97441",
-      "auto_approved": "2026-10-09",
       "lat": 43.73126,
-      "lng": -124.11013
+      "lng": -124.11013,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "rogue-valley-pottery-supply-and-studios",
@@ -1378,6 +1378,53 @@
         "status": "ongoing"
       },
       "address": "12 - 4 pm 403 N Main St, Joseph, OR"
+    },
+    {
+      "id": "multnomah-arts-center",
+      "org": "Multnomah Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "PORTLAND",
+      "city": "PORTLAND",
+      "urls": [
+        "https://www.multnomahartscenter.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "PORTLAND, Oregon",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.multnomahartscenter.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "multnomahartscenter.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "no",
+        "why": "No page text provided to verify public access to non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "OR",
+        "town": "PORTLAND",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-14"
+      },
+      "lat": 45.52025,
+      "lng": -122.67419
     }
   ],
   "_removed": [

@@ -1,8 +1,8 @@
-# Montana discovery report (2026-10-07)
+# Montana discovery report (2026-10-13)
 
-Searches: 37 (Tavily). Places seen: 131. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 68 (Tavily). Places seen: 186. Judge: gemma4:latest on this Mac. No Claude used.
 
-## Qualifies (verified quote, 7)
+## Qualifies (verified quote, 10)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -13,8 +13,13 @@ Searches: 37 (Tavily). Places seen: 131. Judge: gemma4:latest on this Mac. No Cl
 | Freight Train Ceramics | Bozeman | wood | ongoing_class_or_membership | **new** | freighttrainceramics.com | "Wood-fired ceramics using Montana materials." |
 | MSU Billings | ? | raku, soda, wood, soda, pit_barrel_saggar | ongoing_class_or_membership | **new** | msubillings.edu | "Various firing processes available in the Ceramics lab include: reduction stoneware, raku, soda, woodfire, saggar, and oxidation." |
 | Jerry Baldwin Ceramics | Arlee | wood | none | **new** | jerrybaldwinceramics.com | "In the quiet hills of Arlee, Western Montana, Jerry Baldwin fires two distinctive wood kilns: The Montanagama, a compact Anagama-style kiln, and a Catenary Cros" |
+| UMT | Missoula | wood | ongoing_class_or_membership | **new** | umt.edu | "Students mount on-campus and downtown Missoula exhibitions, create public sculptures and murals through a public art course, take field-based drawing courses ac" |
+| Shila Ceramics | Missoula | raku | ongoing_class_or_membership | **new** | findglocal.com | "Share I'm an Artist who orchestrates my own Raku firings." |
+| potteryclassess.com | Billings | pit_barrel_saggar | ongoing_class_or_membership | **new** | potteryclassess.com | "Pit Firing
+All materials and equipment
+Two days" |
 
-## Unclear: needs a second look (28)
+## Unclear: needs a second look (32)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -46,15 +51,20 @@ Searches: 37 (Tavily). Places seen: 131. Judge: gemma4:latest on this Mac. No Cl
 | Stumptown Clay Studio | Whitefish |  | dated_events | **new** | flatheadevents.net | "Clay Skills Workshop - Glazing 08/23/2025 Whitefish, Montana ...: Aug 23, 2025 · Bring-your-own cone 6/midfire bisqueware to this glazing class/work session! We" | The listing advertises a specific workshop date for a firing-related class in Montana. [gate: quote names no specific non-electric firing]
 | Missoula Clay Studio | Missoula | wood | ongoing_class_or_membership | **new** | missoulian.com | "Jack Schwarze, a resident at the Clay Studio of Missoula, pulls student works from the ceramic center's anagama wood kiln outside Missoula Saturday, April 11." | The text describes student works being pulled from the wood kiln, indicating public access to the firing process.
 | Warehome Studios | ? | raku | dated_events | **new** | warehomestudios.com | "Raku Firing & Potluck Party - Warehome Studios: Instructor: Julie Anderson Thursday, November 12, 5:00pm - 8:00pm Cost: $125" | The listing advertises a specific public raku firing event.
+| Multnomah Arts Center | ? | raku | none | **new** | multnomahartscenter.org | "" | The page content is not available to confirm public access to the firing.
+| Blackdog Clayworks | ? | wood | none | **new** | blackdogclayworks.com | "" | The page has no readable text to confirm public access to firings.
+| sosceramics.com | ? | raku, pit_barrel_saggar | none | **new** | sosceramics.com | "" | The page text is not available to confirm the location or public access details.
+| Red Lodge Clay Center | Red Lodge |  | ongoing_class_or_membership | **new** | arts.visityellowstonecountry.com | "We offer community classes for adults and kids, outreach to rural schools, summer camps, workshops, lectures, and free public demonstrations with nationally acc" | The center offers community classes and public demonstrations, indicating public access to firing activities. [gate: quote names no specific non-electric firing]
 
-## Social-only leads, not read (4)
+## Social-only leads, not read (5)
 
 - I have never tried raku and would love to attend a raku workshop. I ... — https://www.facebook.com/groups/436847003384445/posts/2535337843535340/
 - Justin Deacon’s Method for the Perfect Reduction Pottery Firing — https://www.youtube.com/watch?v=9-3FEPd01Ek
 - Amy & Cooper | Super exciting news! Thanks to @dinner4.four ... — https://www.instagram.com/p/C58_fkevIpO/
 - TOP 10 BEST Pottery in Billings, MT - Updated 2026 - Yelp — https://www.yelp.com/search?find_desc=Pottery&find_loc=Billings,+MT
+- Studio memberships by Bozeman Community Kiln in Belgrade, MT ... — https://www.alignable.com/belgrade-mt/bozeman-community-kiln/studio-memberships
 
-## Rejected (92)
+## Rejected (139)
 
 - natewinterstudios.com: known place in PA
 - moabsunnews.com: The location is in Utah, not Montana.
@@ -148,3 +158,50 @@ Searches: 37 (Tavily). Places seen: 131. Judge: gemma4:latest on this Mac. No Cl
 - pewabic.org: known place in MI
 - redlodgeclaycenter.com: The text only describes a residency program and does not mention public firing access.
 - stayhappening.com: known place in FL
+- barclayii.com: OSM seed: no firing words on its pages
+- claysincalico.com: OSM seed: no firing words on its pages
+- thepotteryden.kilnfire.com: OSM seed: no firing words on its pages
+- sbdc.mt.gov: OSM seed: no firing words on its pages
+- mwtc.org: OSM seed: no firing words on its pages
+- ceic.mt.gov: OSM seed: no firing words on its pages
+- msdbmustangs.org: OSM seed: no firing words on its pages
+- mhs.mt.gov: OSM seed: no firing words on its pages
+- art.mt.gov: OSM seed: no firing words on its pages
+- pottersguild.net: known place in MI
+- sandiegopottersguild.org: known place in CA
+- burlingtonpottersguild.com: known place in VT
+- foothillsartcenter.org: The firing access is restricted to paid membership.
+- nextofkiln.org: no firing words on any page
+- kiln.com: The provided text only discusses coworking and office space rentals, not public kiln firings.
+- montevallo.edu: The university is located in Alabama, not Montana.
+- janejermynceramics.com: The website does not indicate that the public can participate in a firing.
+- spinningpots.com: The text discusses firing methods but does not mention any specific location or public access to a firing service in Montana.
+- wildfireceramicstudio.com: no firing words on any page
+- clayartcenter.net: The website sells supplies and clays but does not offer public firing services.
+- clayco-op.square.site: no firing words on any page
+- maps.google.com: no firing words on any page
+- pcgamer.com: no firing words on any page
+- alpinekilns.com: The website only offers service and sales for kilns and does not list public firing events.
+- vincepitelka.com: The page mentions past workshops but does not offer current public firing opportunities.
+- baileypottery.com: The page only sells kilns and does not mention public firing opportunities.
+- olympickilns.com: The website only advertises gas kiln models and provides no information about public firing participation.
+- burnishclaystudio.com: known place in WA
+- kilnbuilders.com: The website is a kiln builder and does not mention public firing events.
+- adamfieldpottery.com: no firing words on any page
+- artshow.com: The listed workshops are all located in Pennsylvania, not Montana.
+- lmkoonceceramics.blogspot.com: The page only shows a blog post about an exhibition and does not offer public firing participation details.
+- tylergulden.com: known place in ME
+- jlpottery.com: known place in CO
+- kazegama.com: known place in WY
+- portsidepottery.com: The location is in Washington, not Montana.
+- catalystartscollaborative.com: known place in ID
+- clayfinder.com: known place in TX
+- potterypost.ca: The directory lists locations across multiple continents but does not confirm any specific firing opportunities in Montana.
+- skutt.com: The page is a distributor locator and does not confirm public firing access.
+- clayworkshamiltonmt.com: no firing words on any page
+- meetup.com: no firing words on any page
+- the-square.corsizio.com: no firing words on any page
+- northhouse.org: known place in MN
+- nwfdailynews.com: The source is an obituary and does not mention public firing opportunities.
+- vacaywhitefish.com: no firing words on any page
+- allkilnservices.com: The site only offers kiln repair and sales, not public firing services.

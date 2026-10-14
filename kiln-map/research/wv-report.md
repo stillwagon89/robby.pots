@@ -1,6 +1,6 @@
-# West Virginia discovery report (2026-10-07)
+# West Virginia discovery report (2026-10-13)
 
-Searches: 37 (Tavily). Places seen: 141. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 68 (Tavily). Places seen: 287. Judge: gemma4:latest on this Mac. No Claude used.
 
 ## Qualifies (verified quote, 5)
 
@@ -12,7 +12,7 @@ Searches: 37 (Tavily). Places seen: 141. Judge: gemma4:latest on this Mac. No Cl
 | JH Pottery Works | Huntington | raku | ongoing_class_or_membership | **new** | jhpotteryworks.com | "At JH Pottery Works we can fire our pieces in a multitude of firing methods: electric, wood, gas, and raku!" |
 | Stifel Fine Arts Center | Wheeling | raku | dated_events | **new** | weelunk.com | "Other special events include a variety of ceramic workshops at the Stifel Fine Arts Center, a raku firing, and a pottery throwdown competition." |
 
-## Unclear: needs a second look (17)
+## Unclear: needs a second look (21)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -33,8 +33,13 @@ Searches: 37 (Tavily). Places seen: 141. Judge: gemma4:latest on this Mac. No Cl
 | Parkersburg Art Center | Parkersburg | raku | ongoing_class_or_membership | **new** | parkersburgartcenter.org | "The Parkersburg Art Center features a diverse range of pottery and ceramics classes for all ages and skill levels, alongside various art-related programs such a" | The center offers classes and mentions past raku demonstrations, indicating public access to pottery activities. [gate: quote names no specific non-electric firing]
 | Parkersburg Art Center / The Clay Studio | Parkersburg | raku | none | **new** | wtap.com | "The Clay Studio, the pottery group with the Art Center, had some of their work for sale and also put on open demonstrations of the raku pottery process at the c" | The text mentions an open demonstration of raku pottery at a location in West Virginia.
 | The Potters Guild | ? | wood | ongoing_class_or_membership | **new** | thepottersguild.com | "Mountain artists’ takes on traditional pottery - West Virginia: My work is fired in wood kilns, where the communal nature of the firings reflects the same feeli" | The text mentions communal wood firing among West Virginia potters.
+| Stifel Fine Arts Center | ? | raku | dated_events | on map | oionline.com | "Participate in a Raku Firing on Nov. 3 (Limit 12)" | The text advertises specific, public Raku firing workshops in West Virginia.
+| Kiln | Woodinville |  | none | **new** | kiln.com | "For Meetings, Offsites, and Events
+Hosting a client pitch, a quarterly offsite, a product launch, or a networking happy hour? Rent a meeting room or event space" | The text mentions renting meeting/event space but does not mention any firing services. [gate: quote names no specific non-electric firing]
+| thesprucecrafts.com | ? |  |  | **new** | thesprucecrafts.com | "" | judge error: The operation was aborted due to timeout
+| Zenclay Pottery Studio | Morgantown |  | ongoing_class_or_membership | **new** | lewisandclark.travel | "Learn pottery at Zenclay Pottery Studio in Morgantown, West Virginia, with classes for beginners, advanced artists, and youth." | The text mentions classes at a pottery studio in West Virginia. [gate: quote names no specific non-electric firing]
 
-## Social-only leads, not read (7)
+## Social-only leads, not read (10)
 
 - RAKU: LIVE CERAMIC FIRING (3-PART SERIES) - CLASSES & WORKSHOPS — https://www.facebook.com/events/carnegie-hall-wv/raku-live-ceramic-firing-3-part-series-classes-workshops/1290651049752089/
 - Abi Higgins Potter, Artist. Raku, Saggar, Barrel workshops ...Saggar Workshop - Events Calendar - Virgin Valley Artists ...Saggar/Obvara Workshop Tickets | Playin' with Fire — https://www.instagram.com/sarahabigailhiggins/
@@ -43,8 +48,11 @@ Searches: 37 (Tavily). Places seen: 141. Judge: gemma4:latest on this Mac. No Cl
 - Pottery Studio Time? : r/HuntingtonWV - Reddit — https://www.reddit.com/r/HuntingtonWV/comments/17d5cfm/pottery_studio_time/
 - THE BEST Wheeling Paint & Pottery Studios - Tripadvisor — https://www.tripadvisor.com/Attractions-g59642-Activities-c56-t272-Wheeling_West_Virginia.html
 - Raku at PAC - YouTube — https://www.youtube.com/watch?v=lo0GbYaIYNE
+- Explore the best art ideas on Pinterest — https://www.pinterest.com/ideas/art/961238559656/
+- YouTube Studio — https://studio.youtube.com/reauth?approve_browser_access=1&approve_browser_access=1
+- How To Make Clay At Home (It's Just Dirt) - YouTube — https://m.youtube.com/watch?v=ca20JkKFAcE
 
-## Rejected (112)
+## Rejected (251)
 
 - clayworksinc.org: known place in NC
 - natewinterstudios.com: known place in ME
@@ -158,3 +166,142 @@ Searches: 37 (Tavily). Places seen: 141. Judge: gemma4:latest on this Mac. No Cl
 - theresidencyreview.com: no firing words on any page
 - ceramicartsnetwork.org: known place in OH
 - moreheadstate.edu: The text only mentions an alum's participation in external firings, not public access at the school.
+- thepotteryplace.biz: OSM seed: no firing words on its pages
+- waterdata.usgs.gov: OSM seed: no firing words on its pages
+- zenclay.com: OSM seed: no firing words on its pages
+- cbhealthwv.org: OSM seed: no firing words on its pages
+- mympls.org: OSM seed: no firing words on its pages
+- clay.wvlibrary.info: OSM seed: no firing words on its pages
+- claymont.org: OSM seed: no firing words on its pages
+- claycounty.wv.gov: OSM seed: no firing words on its pages
+- annamaspottery.com: OSM seed: no firing words on its pages
+- tebbensclay.com: OSM seed: no firing words on its pages
+- kilnshare.com: OSM seed: no firing words on its pages
+- oakhurstcenter.com: OSM seed: no firing words on its pages
+- scccd.edu: OSM seed: no firing words on its pages
+- greatschools.org: OSM seed: no firing words on its pages
+- pottersindustries.com: The website is about glass beads and construction materials, not pottery firing.
+- pottersace.com: no firing words on any page
+- pottersplacenaperville.com: no firing words on any page
+- southwestart.com: no firing words on any page
+- potterscrackers.com: no firing words on any page
+- potterscraftcider.com: no firing words on any page
+- google.com: no firing words on any page
+- merriam-webster.com: The page is a dictionary and does not mention any firing services.
+- statefarm.com: no firing words on any page
+- ca.gov: no firing words on any page
+- csus.edu: no firing words on any page
+- sos.ca.gov: no firing words on any page
+- state.gov: no firing words on any page
+- calcareers.ca.gov: no firing words on any page
+- whatartschool.com: no firing words on any page
+- art.shawguides.com: no firing words on any page
+- deviantart.com: no firing words on any page
+- artsandculture.google.com: no firing words on any page
+- art.com: no firing words on any page
+- britannica.com: no firing words on any page
+- artstation.com: no firing words on any page
+- sketch.io: no firing words on any page
+- kleki.com: no firing words on any page
+- app.studio.com: no firing words on any page
+- zillow.com: no firing words on any page
+- blog.youtube: no firing words on any page
+- apartments.com: no firing words on any page
+- play.google.com: The text is about a mobile game and does not mention any ceramic firing services.
+- rent.com: no firing words on any page
+- apartmenthomeliving.com: no firing words on any page
+- theceramicshop.com: known place in PA
+- kiln.tech: The provided text is about an AI development tool and does not mention any ceramic firing services.
+- amazon.com: The page is an online retailer and does not offer any firing services.
+- railyardartsstudio.com: The available information only mentions electric kilns and does not confirm public access to non-electric firings.
+- seattlepotterysupply.com: known place in WA
+- wetclaycafe.com: no firing words on any page
+- potterynorthwest.org: no firing words on any page
+- reclaimclay.com: no firing words on any page
+- washingtonpottery.com: no firing words on any page
+- seatownpottery.com: known place in WA
+- potterylandwa.com: no firing words on any page
+- potterybarn.com: no firing words on any page
+- saltstoneceramics.com: no firing words on any page
+- en.m.wikipedia.org: The page is a general encyclopedia article and does not mention any firing services in West Virginia.
+- stanford.edu: no firing words on any page
+- usc.edu: no firing words on any page
+- harvard.edu: no firing words on any page
+- california.com: no firing words on any page
+- collegesimply.com: no firing words on any page
+- collegetuitioncompare.com: no firing words on any page
+- ucla.edu: The provided text is from UCLA's general website and discusses atmospheric dust, not ceramic firings.
+- usnews.com: no firing words on any page
+- multnomahartscenter.org: no firing words on any page
+- explainthatstuff.com: The page provides general information about ceramics and kilns but does not list any public firing events or services.
+- xometry.com: The website discusses ceramics materials but does not offer public firing services.
+- ceramics.org: no firing words on any page
+- sciencenotes.org: The text provides general information about ceramics and firing processes but does not mention any specific location or public firing opportunities.
+- happyartceramics.com: no firing words on any page
+- spinningpots.com: The text discusses firing methods but does not mention a specific location or public access to a non-electric firing in West Virginia.
+- janejermynceramics.com: The website does not indicate that the public can participate in a firing.
+- upinsmokepottery.com: known place in PA
+- plimton.com: The text only discusses electric kiln firing and does not mention public access to non-electric firings.
+- obvara.hu: The website is located in Hungary, not West Virginia.
+- baltimoreclayworks.org: known place in MD
+- clay.com: no firing words on any page
+- walmart.com: no firing words on any page
+- app.clay.com: no firing words on any page
+- catalystartscollaborative.com: known place in ID
+- charleston.com: no firing words on any page
+- travel.usnews.com: no firing words on any page
+- charlestoncvb.com: no firing words on any page
+- charleston-sc.gov: no firing words on any page
+- wrc.wvu.edu: no firing words on any page
+- visitmountaineercountry.com: no firing words on any page
+- mapleandsprucefolkarts.com: no firing words on any page
+- morgantownwv.gov: no firing words on any page
+- southernliving.com: no firing words on any page
+- exploremorgantown.com: no firing words on any page
+- clayfinder.com: known place in TX
+- theclaycenter.org: no firing words on any page
+- claystuff.com: The page is a directory listing and does not confirm public access to specific non-electric firings in West Virginia.
+- clayco-op.square.site: no firing words on any page
+- ceramicsupplyusa.com: no firing words on any page
+- huntington.com: no firing words on any page
+- onlinebanking.huntington.com: no firing words on any page
+- maintenance.huntington.com: no firing words on any page
+- huntington.org: no firing words on any page
+- mayoclinic.org: no firing words on any page
+- portal.huntington.com: no firing words on any page
+- huntingtonny.gov: no firing words on any page
+- start.huntington.com: no firing words on any page
+- vcapay.huntington.com: no firing words on any page
+- vincepitelka.com: The page mentions past workshops but does not offer current public firing opportunities.
+- kilnbuilders.com: The website only advertises kiln construction and does not mention public firing events.
+- burnishclaystudio.com: known place in WA
+- jlpottery.com: known place in CO
+- shepherdstownevents.com: no firing words on any page
+- meaningfulspaces.com: The text is a DIY guide on building a gas kiln and does not mention public firing access.
+- olympickilns.com: The website only sells kilns and does not mention public firing events.
+- microsoft.com: no firing words on any page
+- account.microsoft.com: no firing words on any page
+- myaccount.microsoft.com: no firing words on any page
+- outlook.office.com: no firing words on any page
+- apps.microsoft.com: no firing words on any page
+- myapplications.microsoft.com: no firing words on any page
+- unitconverters.net: no firing words on any page
+- symbolab.com: no firing words on any page
+- metric-conversions.org: no firing words on any page
+- wolframalpha.com: no firing words on any page
+- digicalc.net: no firing words on any page
+- math-only-math.com: no firing words on any page
+- simple-calculator.org: no firing words on any page
+- inchcalculator.com: no firing words on any page
+- num8ers.com: no firing words on any page
+- wheelingisland.com: no firing words on any page
+- wheelingil.gov: The website is for a city government and does not mention any pottery firings.
+- wheelingwv.gov: no firing words on any page
+- wheeling.edu: no firing words on any page
+- wheelingheritage.org: no firing words on any page
+- thetouristchecklist.com: no firing words on any page
+- msn.com: The source is a general directory and does not confirm any specific firing opportunities in West Virginia.
+- tylergulden.com: known place in ME
+- parkersburgwv.gov: no firing words on any page
+- greaterparkersburg.com: no firing words on any page
+- wanderepic.com: The page is a general travel guide and does not mention any ceramic firing services.

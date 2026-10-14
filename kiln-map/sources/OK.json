@@ -60,7 +60,7 @@
         "town": "Oklahoma City",
         "score": 30,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "weak": false
     },
@@ -107,7 +107,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -169,7 +169,7 @@
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -236,7 +236,7 @@
         "town": "Oklahoma City",
         "score": 21,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "address": "11 NW 11th St., Oklahoma City, OK 73103",
       "lat": 35.48053,
@@ -296,7 +296,7 @@
         "town": "Tulsa",
         "score": 14,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -364,7 +364,7 @@
         "town": "Norman",
         "score": 14,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -431,11 +431,123 @@
         "town": "STILLWATER",
         "score": 2,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "address": "1001 S DUCK STREET, STILLWATER, OK 74074",
       "lat": 36.11098,
       "lng": -97.06179
+    },
+    {
+      "id": "the-hambidge-center",
+      "org": "The Hambidge Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Oklahoma",
+      "city": null,
+      "urls": [
+        "https://www.opencallartist.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.opencallartist.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Visitors are welcome to observe for free with advance arrangements.",
+        "url": "https://www.opencallartist.com/o/29a8b507-9506-4d9b-b5c1-09a6ddc2310e/anagama-kiln-firing-fall-2026-the-hambidge-center",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "opencallartist.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "yes",
+        "why": "Ceramicists can participate in the anagama kiln firing by entering a lottery sign-up, and visitors can observe for free with advance arrangements by contacting the center.",
+        "types": {
+          "wood": "Ceramicists are invited to participate in an anagama kiln firing event where they glaze, load, and fire their work over a three-day period, selected via lottery."
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "id": "ceramic-cottage",
+      "org": "Ceramic Cottage",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Tulsa",
+      "city": "Tulsa",
+      "urls": [
+        "https://ceramic-cottage.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://ceramic-cottage.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Firing of customer pieces (performed in-house)",
+        "url": "https://ceramic-cottage.com/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "ceramic-cottage.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "unclear",
+        "why": "The page mentions firing services for customer pieces performed in-house, but does not specify whether outsiders can submit pieces or if this is limited to existing customers/students.",
+        "types": {},
+        "state": "OK",
+        "town": "Tulsa"
+      },
+      "weak": true,
+      "located": {
+        "state": "OK",
+        "town": "Tulsa",
+        "score": 5,
+        "osm": true,
+        "date": "2026-10-14"
+      },
+      "address": "748 S Wheeling Avenue, Tulsa, OK 74104",
+      "lat": 36.07931,
+      "lng": -95.96345
     }
   ],
   "_removed": [
@@ -466,6 +578,10 @@
     {
       "id": "lara-o-keefe-pottery-shop",
       "why": "Second check (claude-haiku-4.5): page says state is NC, not OK (2026-10-09)"
+    },
+    {
+      "id": "university-of-montevallo-ok",
+      "why": "Second check (claude-haiku-4.5): The text states the kiln is fired 'as part of the university's ceramics classes,' indicating access is limited to enrolled students, not the general public. (2026-10-14)"
     }
   ]
 }

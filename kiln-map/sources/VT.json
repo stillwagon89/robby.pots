@@ -89,7 +89,7 @@
         "town": "Montpelier",
         "score": 15,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "weak": false,
       "address": "136 State Street, Montpelier, VT 05633",
@@ -137,7 +137,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -201,7 +201,7 @@
       "lng": -73.30248,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -275,9 +275,9 @@
         "date": "2026-10-08"
       },
       "address": "26 Central Street, Woodstock, VT 05091",
-      "auto_approved": "2026-10-09",
       "lat": 43.62578,
-      "lng": -72.51715
+      "lng": -72.51715,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "orchard-street-pottery",
@@ -331,7 +331,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "weak": false,
       "agree": {
@@ -397,9 +397,9 @@
       "located": {
         "state": "VT",
         "town": "Middlebury",
-        "score": 90,
+        "score": 96,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "weak": false,
       "address": "94 Court Street, Middlebury, VT",
@@ -415,15 +415,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Pownal",
-      "city": "Pownal",
+      "region": "Manchester",
+      "city": "Manchester",
       "urls": [
         "https://www.manchesterjournal.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
+      "geocode": "Manchester, Vermont",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.manchesterjournal.com/"
       },
@@ -461,7 +461,7 @@
         "town": "Manchester",
         "score": 2,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "weak": false,
       "address": "1179 North Mason Hill Road, Pownal, VT",
@@ -521,51 +521,182 @@
         "town": "Pownal",
         "score": 3,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "address": "1179 North Mason Hill Road, Pownal, VT",
       "lat": 42.75986,
       "lng": -73.20587
     },
     {
-      "id": "vermont-crafts-council",
-      "org": "Vermont Crafts Council",
+      "id": "perry-hill-pottery",
+      "org": "Perry Hill Pottery",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda"
+        "wood"
       ],
       "region": "Vermont",
       "city": null,
       "urls": [
-        "https://www.vermontcrafts.com/"
+        "https://perryhillpottery.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
       "location_precision": "approximate",
       "geocode": null,
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
-        "website": "https://www.vermontcrafts.com/"
+        "website": "https://perryhillpottery.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "I’m happy to bring you up to see my kiln as well.",
+        "url": "https://perryhillpottery.com/",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-13"
       },
       "review": "pending",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-13",
-        "key": "vermontcrafts.com"
+        "key": "perryhillpottery.com"
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-13",
+        "date": "2026-10-14",
         "verdict": "unclear",
-        "why": "page says state is VT, not ND",
+        "why": "The text mentions wood firing and an open studio where visitors can see the kiln and learn about wood firing, but does not explicitly state whether outsiders can participate in or book a firing workshop, class, or service.",
         "types": {},
         "state": "VT",
         "town": ""
       },
-      "weak": true
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "id": "mary-sweeney-pottery",
+      "org": "Mary Sweeney Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "soda",
+        "gas_reduction"
+      ],
+      "region": "Stowe",
+      "city": "Stowe",
+      "urls": [
+        "https://www.marysweeneypottery.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Stowe, Vermont",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.marysweeneypottery.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "Mary fires her work in gas reduction, salt/soda, and wood kilns.",
+        "url": "https://www.marysweeneypottery.com/",
+        "types": [
+          "gas_reduction",
+          "soda",
+          "wood"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "marysweeneypottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "no",
+        "why": "The page text provided contains no information about public access to firings, classes, workshops, memberships, rentals, or firing services—only a product description.",
+        "types": {},
+        "state": "VT",
+        "town": "Stowe"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-14"
+      },
+      "lat": 44.46438,
+      "lng": -72.68562
+    },
+    {
+      "id": "matthew-tell-pottery",
+      "org": "Matthew Tell Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Marlboro",
+      "city": "Marlboro",
+      "urls": [
+        "https://matthewtellpottery.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Marlboro, Vermont",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://matthewtellpottery.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Wood Fire Workshop November 14th – 15th",
+        "url": "https://matthewtellpottery.com/workshops/",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "approved",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "matthewtellpottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "yes",
+        "why": "The page offers a Wood Fire Workshop in November where outsiders can bring bisque pots, glaze, load, and fire in a wood kiln.",
+        "types": {
+          "wood": "Wood Fire Workshop November 14th – 15th Unload November 21st 100 Cubic Foot Single Chamber Pheonix Fastfire Kiln Bring Cone 10 Bisque Pots."
+        },
+        "state": "VT",
+        "town": "Marlboro",
+        "street": "Marlboro, VT 05344"
+      },
+      "located": {
+        "state": "VT",
+        "town": "Marlboro",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-14"
+      },
+      "weak": false,
+      "lat": 42.85966,
+      "lng": -72.72588,
+      "auto_approved": "2026-10-14"
     }
   ],
   "_removed": [
@@ -620,6 +751,10 @@
     {
       "id": "vermont-crafts-council",
       "why": "Second check (claude-haiku-4.5): The Vermont Crafts Council is a directory and advocacy organization for artists; the page text describes Open Studio as a visitor event to see artists in their studios, but does not show that the Council itself runs any non-electric ceramic firings or offer public access to such firings. (2026-10-09)"
+    },
+    {
+      "id": "st-johnsbury-academy",
+      "why": "Second check (claude-haiku-4.5): The page describes raku pottery as part of a school's student capstone project with no indication that outsiders or non-enrolled students can participate in the firing. (2026-10-14)"
     }
   ]
 }

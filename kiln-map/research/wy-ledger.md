@@ -1,4 +1,4 @@
-# Wyoming firings ledger (2026-10-09, discovery v3, automatic)
+# Wyoming firings ledger (2026-10-13, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -12,3 +12,5 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 5 | Red Bison Studios | Sheridan | wood | Classes or membership | sheridanwyoming.com |
 | 6 | Rod Dugal Ceramics | Sheridan | wood, soda | Classes or membership | roddugalceramics.com |
 | 7 | Official website ↗ | ? | raku, pit_barrel_saggar | See site | avacenter.org |
+| 8 | Dan Palmer Ceramics | ? | gas_reduction | Classes or membership | danpalmerceramics.com |
+| 9 | kazegama | ? | soda | Classes or membership | kazegama.com |

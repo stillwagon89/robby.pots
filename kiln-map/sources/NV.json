@@ -55,11 +55,11 @@
       "access": {
         "status": "upcoming"
       },
-      "auto_approved": "2026-10-09",
       "address": "3355 Clayton St, North Las Vegas, NV 89032",
       "address_found": "3355 Clayton St Ste 44, North Las Vegas, NV 89032",
       "lat": 36.22038,
-      "lng": -115.17054
+      "lng": -115.17054,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "tuscarora-pottery-school",
@@ -120,7 +120,7 @@
         "town": "Tuscarora",
         "score": 15,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -186,7 +186,7 @@
       "lng": -114.98155,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -234,7 +234,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -299,7 +299,7 @@
         "town": "Mesquite",
         "score": 6,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "address": "15 W. Mesquite Blvd., Mesquite, NV",
       "lat": 36.80428,
@@ -338,6 +338,10 @@
     {
       "id": "tao-of-clay",
       "why": "Second check (claude-haiku-4.5): page says state is CA, not NV (2026-10-09)"
+    },
+    {
+      "id": "elkhorn-pottery",
+      "why": "Its own pages give an address in KY (Georgetown), not NV. Moved. (2026-10-14)"
     }
   ]
 }

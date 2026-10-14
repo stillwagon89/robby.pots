@@ -1,8 +1,8 @@
-# Vermont discovery report (2026-10-07)
+# Vermont discovery report (2026-10-13)
 
-Searches: 36 (Tavily). Places seen: 111. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 69 (Tavily). Places seen: 178. Judge: gemma4:latest on this Mac. No Claude used.
 
-## Qualifies (verified quote, 13)
+## Qualifies (verified quote, 16)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -19,8 +19,12 @@ Searches: 36 (Tavily). Places seen: 111. Judge: gemma4:latest on this Mac. No Cl
 | Julie Lerman Pottery | Shelburne | raku, wood | none | **new** | shelburnefarmersmarket.org | "My work includes raku and wood-fired pottery." |
 | Jackie Sedlock Pottery | Pownal | wood | ongoing_class_or_membership | **new** | manchesterjournal.com | "And now, I host workshops, week-long workshops, and I teach people how to fire wood kilns." |
 | Jackie Sedlock Pottery | Pownal | wood | ongoing_class_or_membership | **new** | benningtonbanner.com | "It hosts weekly classes, retreats, wood firing, guest workshops, and short- and long-term residencies for beginners, intermediates, and professional artists." |
+| Mary Sweeney Pottery | Stowe | gas_reduction, soda, wood | firing_service_or_rental | **new** | marysweeneypottery.com | "Mary fires her work in gas reduction, salt/soda, and wood kilns." |
+| Matthew Tell Pottery | Marlboro | wood | dated_events | **new** | matthewtellpottery.com | "Wood Fire Workshop
+November 14th – 15th" |
+| St. Johnsbury Academy | ? | raku | none | **new** | stjacademy.org | "Using a technique called Raku, senior Cody Barrett worked with Mr. Chatterley to fire two bowls to prepare for his Senior Capstone project." |
 
-## Unclear: needs a second look (17)
+## Unclear: needs a second look (25)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -41,6 +45,14 @@ Searches: 36 (Tavily). Places seen: 111. Judge: gemma4:latest on this Mac. No Cl
 | Fire Art Vermont | Brattleboro | wood | ongoing_class_or_membership | **new** | stayotherland.com | "Glassblowing & Clay Workshops at Fire Art Vermont: Glassblowing & Clay Workshops at Fire Art Vermont Fire Arts Vermont is a working glassblowing and ceramics st" | The page mentions a ceramics studio in Vermont offering workshops. [gate: quote names no specific non-electric firing]
 | Homemade | ? | wood | ongoing_class_or_membership | **new** | homemade.education | "An anagama is a single-chamber, tunnel-shaped wood-fire kiln derive" | The page describes wood-firing techniques and mentions an anagama kiln.
 | Farmhouse Pottery | Woodstock | wood | dated_events | **new** | jacksonwoodstock.com | "Wander in to see all stages of the pottery making process, including throwing, drying, kiln firing, and even stamping." | The text mentions observing kiln firing at a specific location in Vermont during listed events. [gate: quote names no specific non-electric firing]
+| Jackie Sedlock Pottery | ? | wood | ongoing_class_or_membership | on map | jackiesedlock.com | "Join us for weekly classes, retreats, wood firing, guest workshops, and short and long term residencies for beginners and professional artists." | The studio offers wood firing and classes open to the public.
+| Shelburne Craft School | Burlington |  | ongoing_class_or_membership | **new** | artmapburlington.com | "Shelburne Craft School The Studio Store has handmade work in pottery, wood, jewelry, and stained glass and the school hosts events and classes for the public on" | The school hosts ongoing classes for the public. [gate: quote names no specific non-electric firing]
+| Perry Hill Pottery | ? | wood | none | **new** | perryhillpottery.com | "I’m happy to bring you up to see my kiln as well." | The text indicates the public can visit the showroom and see the kiln, suggesting potential public access to the firing process. [gate: quote names no specific non-electric firing]
+| Robert Compton Pottery | Bristol | wood | none | **new** | findglocal.com | "Robert Compton Pottery, 2662 N 116 Road, Bristol, VT (2026): Jan 15, 2026 · Share This working pottery and gallery are located in rural Vermont on a former dair" | The listing shows a specific, dated wood firing event at a Vermont location.
+| Center Centre Clay Studio | Burlington |  | ongoing_class_or_membership | **new** | nextdoor.com | "CENTER CENTRE CLAY STUDIO is a community pottery studio based in Burlington, VT offering classes, private lessons, workshops, youth programming, kiln rental, me" | The studio offers classes and memberships, suggesting public access to firing services. [gate: quote names no specific non-electric firing]
+| Center Centre Clay Studio | Burlington |  | none | **new** | helloburlingtonvt.com | "" | The page mentions the studio but does not specify if the public can participate in a firing.
+| Gallery at the VAULT | SPRINGFIELD | raku | dated_events | **new** | newsbreak.com | "Gallery at the VAULT is excited to offer a raku pottery workshop with Andrew Berends on two consecutive Saturdays, March 7 and 14, from 12-4 p.m. each day." | The text advertises a public raku pottery workshop in Vermont.
+| ashcraftpottery.com | ? | wood | none | **new** | ashcraftpottery.com | "" | The page has no readable text to confirm public access or location.
 
 ## Social-only leads, not read (3)
 
@@ -48,7 +60,7 @@ Searches: 36 (Tavily). Places seen: 111. Judge: gemma4:latest on this Mac. No Cl
 - Alison and Abi Firing Courses | After an incredible 2024 ... — https://www.instagram.com/reel/DD6ua84ApdX/
 - Best pottery classes near Rutland, VT 05701 - Yelp — https://www.yelp.com/search?find_desc=pottery+classes&find_loc=Rutland,+VT+05701
 
-## Rejected (78)
+## Rejected (134)
 
 - https://www.eventbrite.com/e/raku-pottery-with-andrew-berends-tickets-1997775808221: known place in WA
 - bobgreenpottery.com: known place in MA
@@ -128,3 +140,59 @@ Searches: 36 (Tavily). Places seen: 111. Judge: gemma4:latest on this Mac. No Cl
 - ceramicartsnetwork.org: known place in OH
 - watershedceramics.org: known place in ME
 - ofa.fas.harvard.edu: known place in MA
+- claysclothing.com: OSM seed: no firing words on its pages
+- ladybugcreativevt.com: OSM seed: no firing words on its pages
+- georgescatchardpottery.com: OSM seed: no firing words on its pages
+- saltandsandstudios.com: OSM seed: no firing words on its pages
+- holzapfelwoodworking.com: OSM seed: no firing words on its pages
+- myearthwork.com: OSM seed: no firing words on its pages
+- tour.vermontcrafts.com: OSM seed: no firing words on its pages
+- beekeeperspottery.com: OSM seed: no firing words on its pages
+- kilehfriedmanpottery.com: OSM seed: no firing words on its pages
+- go.uvm.edu: OSM seed: no firing words on its pages
+- maydaystudio.com: OSM seed: no firing words on its pages
+- cal-vt.org: OSM seed: no firing words on its pages
+- caledonian-record.pdqs.mobi: no firing words on any page
+- vermontclayguild.org: no firing words on any page
+- swkiln.com: The conference was held in New Mexico, not Vermont.
+- thecurrentnow.org: no firing words on any page
+- shelburnecraftschool.org: The provided text does not mention public access to firing services.
+- muddycreekpottery.org: no firing words on any page
+- https://allevents.in/springfield/raku-pottery-workshop-through-gallery-at-the-vault/200027328333209: known place in OH
+- viewarts.org: known place in NY
+- groundedearthvt.com: no firing words on any page
+- kilnitrentals.com: This website is only software for booking kiln rentals, not a firing location itself.
+- theclio.com: The text only mentions firings are part of university classes and does not confirm public access.
+- jsuartblog.org: The blog post describes a past event and does not indicate public access for future firings.
+- happeningnext.com: known place in NY
+- oribefiring.com: known place in CA
+- burlingtonareapotters.ca: no firing words on any page
+- clayco-op.square.site: no firing words on any page
+- claycoopstpete.com: no firing words on any page
+- theclaycoop.com: no firing words on any page
+- travel.usnews.com: no firing words on any page
+- vincepitelka.com: The page mentions past workshops but does not offer current public firing opportunities.
+- burnishclaystudio.com: known place in WA
+- tylergulden.com: known place in ME
+- kazegama.com: known place in WY
+- jlpottery.com: known place in CO
+- clayfinder.com: known place in TX
+- montpelieralive.com: The website is a general directory and does not mention any ceramic firings.
+- clayplayarts.com: known place in CA
+- thefrontvt.com: no firing words on any page
+- maps.google.com: no firing words on any page
+- meetup.com: no firing words on any page
+- olympickilns.com: The website only advertises gas kiln models and provides no information about public firing participation.
+- lmkoonceceramics.blogspot.com: The blog post only mentions an exhibition and does not offer public firing participation details.
+- pcgamer.com: no firing words on any page
+- cantonclayworks.com: known place in CT
+- penland.org: known place in NC
+- kilnbuilders.com: The website is a kiln builder and does not mention public firing events.
+- beckpots.com: The provided text only mentions past personal experiences and does not confirm current public access to non-electric firings in Vermont.
+- clayworksinc.org: known place in NC
+- armadilloclay.com: The text discusses firing types but does not indicate that the public can participate in any firing event.
+- newenglandwanderlust.com: The page is a travel guide and does not mention any ceramic firing services.
+- townofwoodstock.org: no firing words on any page
+- clayartcenter.net: The website sells supplies and mentions Raku, but does not offer public firing services.
+- stjvt.com: no firing words on any page
+- stjstitchery.org: no firing words on any page

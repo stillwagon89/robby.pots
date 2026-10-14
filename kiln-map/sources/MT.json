@@ -101,7 +101,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -165,7 +165,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -215,7 +215,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -287,10 +287,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09",
       "address": "1106 Hawthorne St, Missoula, MT 59802",
       "lat": 46.88214,
-      "lng": -114.00765
+      "lng": -114.00765,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "clay-arts-guild-of-helena",
@@ -348,7 +348,7 @@
         "town": "Helena",
         "score": 12,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -412,7 +412,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -475,11 +475,108 @@
         "town": "Sidney",
         "score": 8,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "weak": false,
       "lat": 47.71673,
       "lng": -104.15597
+    },
+    {
+      "id": "sosceramics",
+      "org": "sosceramics",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Montana",
+      "city": null,
+      "urls": [
+        "https://www.sosceramics.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.sosceramics.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "sosceramics.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "unclear",
+        "why": "Search snippets mention obvara firing and raku with an invitation to participate, but no actual page text is provided to verify the location details or confirm public access terms.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "id": "potteryclassess",
+      "org": "potteryclassess",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Billings",
+      "city": "Billings",
+      "urls": [
+        "https://potteryclassess.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Billings, Montana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://potteryclassess.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Pit Firing All materials and equipment Two days",
+        "url": "https://potteryclassess.com/pottery-classes-in-los-angeles-la/",
+        "types": [
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "potteryclassess.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "no",
+        "why": "The site is a blog/directory about pottery techniques with no information about public access to actual firings at this location; it lists pottery classes in other cities (Los Angeles, Billings) but provides no details about firings or how to participate, and no address or contact information for potteryclassess itself.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-14"
+      },
+      "lat": 45.7875,
+      "lng": -108.49607
     }
   ],
   "_removed": [
@@ -526,6 +623,14 @@
     {
       "id": "tinworks-art",
       "why": "Second check (claude-haiku-4.5): The page mentions a rocket kiln workshop in search snippets but the actual page text contains no details about ceramic firing workshops, classes, or public participation in any kiln firing. (2026-10-09)"
+    },
+    {
+      "id": "umt",
+      "why": "Second check (claude-haiku-4.5): The text describes anagama firing as part of a ceramics course for enrolled Art majors at UMT, with no indication that outsiders or non-students can participate in the firing. (2026-10-14)"
+    },
+    {
+      "id": "multnomah-arts-center",
+      "why": "Its own pages give an address in OR (PORTLAND), not MT. Moved. (2026-10-14)"
     }
   ]
 }

@@ -1,4 +1,4 @@
-# Montana firings ledger (2026-10-09, discovery v3, automatic)
+# Montana firings ledger (2026-10-13, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -20,3 +20,7 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 13 | MSU Billings | ? | raku, soda, wood, soda, pit_barrel_saggar | Classes or membership | msubillings.edu |
 | 14 | Missoula Clay Studio | Missoula | wood | Classes or membership | missoulian.com |
 | 15 | Jerry Baldwin Ceramics | Arlee | wood | See site | jerrybaldwinceramics.com |
+| 16 | Multnomah Arts Center | ? | raku | See site | multnomahartscenter.org |
+| 17 | UMT | Missoula | wood | Classes or membership | umt.edu |
+| 18 | sosceramics | ? | raku, pit_barrel_saggar | See site | sosceramics.com |
+| 19 | potteryclassess | Billings | pit_barrel_saggar | Classes or membership | potteryclassess.com |

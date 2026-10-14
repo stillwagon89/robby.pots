@@ -1,8 +1,8 @@
-# New Hampshire discovery report (2026-10-07)
+# New Hampshire discovery report (2026-10-13)
 
-Searches: 37 (Tavily). Places seen: 120. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 69 (Tavily). Places seen: 182. Judge: gemma4:latest on this Mac. No Claude used.
 
-## Qualifies (verified quote, 5)
+## Qualifies (verified quote, 7)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -14,8 +14,10 @@ The catenary arch salt cham" |
 | Rooted in Clay | ? | pit_barrel_saggar, raku | by_appointment | **new** | rootedinclay.com | "Alternative firing techniques, such as primitive pit firing and raku firing are some favorite activities." |
 | jonkeenan.com | Elkins | wood | ongoing_class_or_membership | **new** | jonkeenan.com | "My recent focus has been on anagama wood-fired natural ash glazed ceramics made and fired at my studio and kiln in Elkins, New Hampshire, along with gas-fired g" |
 | NH Potters' Guild | ? | wood | ongoing_class_or_membership | **new** | maxtmakerspace.org | "The Guild has a wood kiln in Deerfield and Guild members fire it multiple times each year." |
+| Phoebe's Barn | ? | gas_reduction, raku | ongoing_class_or_membership | **new** | phoebesbarn.com | "Raku workshops will be offered throughout the season." |
+| League of New Hampshire Craftsmen | ? | wood | ongoing_class_or_membership | **new** | nhcrafts.org | "Every day there will be engaging demonstrations including artistic blacksmithing, woodworking, pewter casting, pottery (stoneware and raku pots), woodburning, c" |
 
-## Unclear: needs a second look (18)
+## Unclear: needs a second look (23)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -38,15 +40,21 @@ Saturdays, February 1st, 2-5pm and February 15th, 9am-7pm" | The page lists a sp
 | Bay School Comunity Arts Center | ? | raku | dated_events | **new** | visitmathews.com | "Raku Firing - Mathews County Visitor Center" | The text describes a past, ticketed raku firing event at a location in Mathews County.
 | Truro Center for the Arts at Castle Hill | ? | soda, wood, raku | ongoing_class_or_membership | **new** | nhclayproject.org | "Whether you are an experienced potter or have never handled clay, we have a workshop for you!" | The facility offers workshops and classes for all skill levels, including wood firing and raku. [gate: quote names no specific non-electric firing]
 | Jackie Sedlock Pottery | ? | wood | ongoing_class_or_membership | **new** | manchesterjournal.com | "And now, I host workshops, week-long workshops, and I teach people how to fire wood kilns." | The text mentions hosting workshops and teaching wood firing techniques.
+| Sweet Fern Pottery | ? | wood | none | **new** | sweetfernpottery.com | "" | The page mentions a wood kiln but does not specify if the public can participate in a firing.
+| Salty Clay | ? |  | firing_service_or_rental | **new** | saltyclay.com | "Reserve space in our kiln without a full studio membership!" | The site offers kiln space rental for firing, which is open to the public. [gate: quote names no specific non-electric firing]
+| workingtheflame.com | ? |  |  | **new** | workingtheflame.com | "" | judge error: The operation was aborted due to timeout
+| Lucien M. Koonce | Dover | wood | none | **new** | lmkoonceceramics.blogspot.com | "This sculptural hanaire/vase was selected for inclusion in "Contemporary Sculpture Exhibition" being held at The Art Center, 1 Washington Street, Dover, NH. The" | The blog mentions wood-fired ceramics and an exhibition in Dover, NH. [gate: quote names no specific non-electric firing]
+| Potterydayz | Peterborough | raku | dated_events | **new** | getpotteryclass.com | "Participants can choose from various formats, such as one-off sessions, half-day experiences, and all-day courses that focus on techniques like wheel throwing a" | The text mentions raku firings and the location is Peterborough, which is in New Hampshire.
 
-## Social-only leads, not read (4)
+## Social-only leads, not read (5)
 
 - Kozyndan - FacebookAnagama Woodfire - Adamah Art StudiosAnagama Kiln Firings — The Hambidge CenterOur Wood Kiln Project - NHPGWOOD KILN - NHPGTickets - NEW ENGLAND WOOD FIRING CONFERENCENew England Wood Firing Conference — https://www.facebook.com/kozyndan/
 - Stephen Homer | Come join me @323Clay for an exciting Saggar Firing ... — https://www.instagram.com/p/Dd7BjS3H0Wv/
 - TOP 10 BEST Pottery Studio in Manchester, NH - Yelp — https://www.yelp.com/search?find_desc=Pottery+Studio&find_loc=Manchester,+NH
 - Fired On The Mountain - All You SHOULD Know Before Going ...New Hampshire Potters Guild members collaborate to build new kilnHome - Walk-ins Always Welcome! — https://www.tripadvisor.com/Attraction_Review-g46140-d7705980-Reviews-Fired_On_The_Mountain-Lincoln_New_Hampshire.html
+- Maine Raku Firing Festival 2025 Recap - YouTubeRichard Foye will demonstrate the art of Raku Firing at our ...Home Page — Wheel House3-Week Japanese Raku!, 865 Islington Street, Portsmouth, NH ...Fair Activities and Demonstrations - League of New Hampshire ... — https://www.youtube.com/watch?v=pV4xaqn5C6M
 
-## Rejected (93)
+## Rejected (147)
 
 - natewinterstudios.com: known place in PA
 - happeningnext.com: known place in NY
@@ -141,3 +149,57 @@ Saturdays, February 1st, 2-5pm and February 15th, 9am-7pm" | The page lists a sp
 - kilnroomcolumbus.com: known place in OH
 - theresidencyreview.com: no firing words on any page
 - artistcommunities.org: no firing words on any page
+- farmhousepottery.com: OSM seed: no firing words on its pages
+- claysclothing.com: OSM seed: no firing words on its pages
+- cozykiln.com: OSM seed: no firing words on its pages
+- drbchiropractor.com: OSM seed: no firing words on its pages
+- morgantechnicalceramics.com: OSM seed: no firing words on its pages
+- uvlt.org: OSM seed: no firing words on its pages
+- salmonfalls.com: OSM seed: no firing words on its pages
+- bonfire.com: OSM seed: no firing words on its pages
+- buy.stripe.com: OSM seed: no firing words on its pages
+- webstore.nhcrafts.org: OSM seed: no firing words on its pages
+- help.cnn.com: OSM seed: no firing words on its pages
+- mozilla.org: OSM seed: no firing words on its pages
+- patch.com: The listed event date is in the past.
+- falmouthart.org: The location is in Massachusetts, not New Hampshire.
+- nhhomemagazine.com: The text mentions the potter uses a wood-fired kiln but does not offer any public access or booking information for firings.
+- mudcityclay.com: The available information only mentions electric kilns.
+- kilnshare.com: The website is a global directory and does not specify any New Hampshire locations or firing details for the public.
+- kilnitrentals.com: This website is software for studios, not a place offering public firings.
+- clayartspace.com: The text does not specify the location or the type of firing available to the public.
+- straycatarts.com: The text explicitly states that kiln firing is available for members only.
+- potterymill.com: known place in MA
+- hotkilns.com: The website is a directory for renting kiln space, not a specific firing event or studio offering public participation.
+- aurapottery.com: The provided text does not mention the location or the type of firing available to the public.
+- ceramicreview.com: known place in WI
+- site.corsizio.com: known place in NC
+- ceramicartsnetwork.org: The page discusses firing techniques but does not indicate public access or location in New Hampshire.
+- newenglandblacksmiths.com: no firing words on any page
+- ironmikesforge.com: no firing words on any page
+- communityclaycenter.com: no firing words on any page
+- mudflat.org: known place in MA
+- rendezvousonelm.com: no firing words on any page
+- clayfinder.com: known place in TX
+- https://allevents.in/manchester-nh/crafts: no firing words on any page
+- mosaicartcollective.com: no firing words on any page
+- manchestercraftmarket.com: no firing words on any page
+- clayco-op.square.site: no firing words on any page
+- myfamilytravels.com: known place in WV
+- vincepitelka.com: The page mentions past workshops but does not offer current public firing opportunities.
+- tylergulden.com: known place in ME
+- burnishclaystudio.com: known place in WA
+- cantonclayworks.com: known place in CT
+- visitconcord-nh.com: no firing words on any page
+- potteryteachers.com: no firing words on any page
+- nwfdailynews.com: The source is an obituary and does not mention public firing opportunities.
+- maps.google.com: no firing words on any page
+- pcgamer.com: no firing words on any page
+- olympickilns.com: The website only advertises gas kiln models and provides no information about public firing participation.
+- jlpottery.com: known place in CO
+- ebay.com: The page is an online marketplace for equipment, not a firing location.
+- kazegama.com: known place in WY
+- artshow.com: The listed workshops are located in Pennsylvania, not New Hampshire.
+- msn.com: The source is a directory listing that does not provide specific information about New Hampshire or public firing access.
+- discovermonadnock.com: no firing words on any page
+- distinguishedteaching.com: no firing words on any page

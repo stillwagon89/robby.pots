@@ -53,7 +53,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -92,7 +92,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "past_only"
       },
       "review": "pending",
       "discovered": {
@@ -117,7 +117,7 @@
         "town": "Cheyenne",
         "score": 5,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "address": "1400 East College Dr, Cheyenne, WY 82007",
       "lat": 41.1045,
@@ -175,7 +175,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -205,6 +205,14 @@
     {
       "id": "official-website",
       "why": "Second check (claude-haiku-4.5): The page text shows only exhibition listings and workshop/survey pages with no specific information about non-electric ceramic firing classes, workshops, or public participation opportunities. (2026-10-09)"
+    },
+    {
+      "id": "dan-palmer-ceramics",
+      "why": "Second check (claude-haiku-4.5): The page text describes Dan Palmer's personal ceramic studio and kiln-building blog with no mention of classes, workshops, memberships, rentals, firing services, or invitations for outsiders to participate in any firings. (2026-10-14)"
+    },
+    {
+      "id": "kazegama",
+      "why": "Second check (claude-haiku-4.5): page says state is CA, not WY (2026-10-14)"
     }
   ]
 }

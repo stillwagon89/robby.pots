@@ -86,7 +86,7 @@
         "town": "Danville",
         "score": 5,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "address": "134 South Second Street, Danville, KY 40422"
     },
@@ -144,7 +144,7 @@
       "lng": -82.81544,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "weak": false
     },
@@ -199,7 +199,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -208,6 +208,113 @@
         "date": "2026-10-08"
       },
       "weak": true
+    },
+    {
+      "id": "western-kentucky-university",
+      "org": "Western Kentucky University",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Bowling Green",
+      "city": "Bowling Green",
+      "urls": [
+        "https://www.wku.edu/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://www.wku.edu/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Under the instruction of Expert Wood Fire Ceramic Artist, Lindsay Oesterritter, the WKU Associate Professor of Ceramics in the Art Department, participants will learn how to create pieces in clay and then load and fire those pieces in the wood kiln.",
+        "url": "https://www.wku.edu/cpd/enrichment/ceramics.php",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "wku.edu"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "unclear",
+        "why": "Registration is currently closed, so it is unclear whether outsiders can currently access the wood firing workshop.",
+        "types": {
+          "wood": "participants will learn how to create pieces in clay and then load and fire those pieces in the wood kiln"
+        },
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "KY",
+        "town": "Bowling Green",
+        "score": 15,
+        "osm": true,
+        "date": "2026-10-14"
+      },
+      "address": "1906 College Heights Blvd., Bowling Green, KY 42101",
+      "lat": 36.98453,
+      "lng": -86.45765
+    },
+    {
+      "id": "elkhorn-pottery",
+      "org": "Elkhorn Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Georgetown",
+      "city": "Georgetown",
+      "urls": [
+        "https://www.elkhornpottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Georgetown, Kentucky",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.elkhornpottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "elkhornpottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "unclear",
+        "why": "The search snippet describes a raku workshop but the actual page text is empty, so I cannot verify the details or confirm public access from the page itself.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "KY",
+        "town": "Georgetown",
+        "score": 5,
+        "osm": false,
+        "date": "2026-10-14"
+      },
+      "lat": 38.20998,
+      "lng": -84.55971
     }
   ],
   "_removed": [
@@ -266,6 +373,14 @@
     {
       "id": "aa-clay-ceramics-studio",
       "why": "Second check (claude-haiku-4.5): The page describes only electric kiln firing for wheel throwing and hand building classes; no non-electric firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) are mentioned. (2026-10-09)"
+    },
+    {
+      "id": "cotuit-center-for-the-arts",
+      "why": "Second check (claude-haiku-4.5): page says state is MA, not KY (2026-10-14)"
+    },
+    {
+      "id": "center-for-the-arts-evergreen",
+      "why": "Second check (claude-haiku-4.5): page says state is CO, not KY (2026-10-14)"
     }
   ]
 }

@@ -10,15 +10,15 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Charleston",
-      "city": "Charleston",
+      "region": "Meadow Bridge",
+      "city": "Meadow Bridge",
       "urls": [
         "https://lockbridgepottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Charleston, West Virginia",
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://lockbridgepottery.com/"
       },
@@ -31,7 +31,7 @@
           "raku"
         ],
         "checked": "2026-10-07",
-        "status": "ongoing"
+        "status": "annual"
       },
       "review": "approved",
       "discovered": {
@@ -51,8 +51,6 @@
         "town": "Meadow Bridge",
         "street": "4975 Lockbridge Road"
       },
-      "lat": 38.3506,
-      "lng": -81.63328,
       "weak": false,
       "located": {
         "osm": false,
@@ -64,7 +62,8 @@
         "result": "split",
         "date": "2026-10-08"
       },
-      "auto_approved": "2026-10-09"
+      "address": "4975 Lockbridge Road, Meadow Bridge, WV 25976",
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "stifel-fine-arts-center",
@@ -118,7 +117,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -181,7 +180,7 @@
         "town": "Parkersburg",
         "score": 15,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -249,7 +248,7 @@
         "town": "Parkersburg",
         "score": 6,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -313,7 +312,7 @@
         "town": "Wheeling",
         "score": 24,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",

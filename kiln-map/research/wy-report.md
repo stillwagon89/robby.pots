@@ -1,6 +1,6 @@
-# Wyoming discovery report (2026-10-07)
+# Wyoming discovery report (2026-10-13)
 
-Searches: 34 (Tavily). Places seen: 128. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 62 (Tavily). Places seen: 238. Judge: gemma4:latest on this Mac. No Claude used.
 
 ## Qualifies (verified quote, 4)
 
@@ -11,7 +11,7 @@ Searches: 34 (Tavily). Places seen: 128. Judge: gemma4:latest on this Mac. No Cl
 | Art Association of Jackson Hole | Jackson | raku | dated_events | **new** | jhcenterforthearts.org | "This community favorite event features outdoor activities, including live raku glazing and firing of ceramic pumpkins, block printing, trick or treat bags, pump" |
 | Rod Dugal Ceramics | Sheridan | wood, soda | ongoing_class_or_membership | **new** | roddugalceramics.com | "Pieces are thrown on the wheel and finished in our hybrid wood fired/soda fired kiln." |
 
-## Unclear: needs a second look (12)
+## Unclear: needs a second look (17)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -27,15 +27,24 @@ Searches: 34 (Tavily). Places seen: 128. Judge: gemma4:latest on this Mac. No Cl
 | Sanctuary Pottery Studio | Casper |  | ongoing_class_or_membership | **new** | potterylist.com | "With a wide range of firing temperatures and clay choices, Sanctuary Pottery Studio caters to all skill levels." | The studio offers classes and has a wide range of firing options, suggesting public access. [gate: quote names no specific non-electric firing]
 | Red Bison Studios | Sheridan | wood | ongoing_class_or_membership | **new** | sheridanwyoming.com | "“This firing we got it under wraps, so at the next firing I hope to invite people out to see the whole process, to understand what we’re doing out here and stay" | The text indicates the owner hopes to invite people out to see the process at a future firing. [gate: quote names no specific non-electric firing]
 | Red Bison Studio | Sheridan | wood, raku, soda, salt, pit_barrel_saggar, gas_reduction | none | **new** | downtownsheridan.org | "" | The page text is not available to confirm public access to firings.
+| Official website ↗ | ? | raku, pit_barrel_saggar | none | **new** | avacenter.org | "" | OpenStreetMap seed; firing words on its pages
+| Wyoming Paintbrush | Rawlins |  | ongoing_class_or_membership | **new** | wyomingpaintbrush.com | "A hands-on art shop and studio offering pottery glazing, classes, studio and kiln space, framing, private lessons and community creative programs in Sublette Co" | The studio offers classes and kiln space, suggesting public access to firing services. [gate: quote names no specific non-electric firing]
+| plimton.com | ? |  |  | **new** | plimton.com | "" | judge error: The operation was aborted due to timeout
+| Dan Palmer Ceramics | ? | gas_reduction | ongoing_class_or_membership | **new** | danpalmerceramics.com | "I mix all my own glazes and have a diverse colour pallet largely based on iron and copper in gas reduction and electric oxidation kiln firings." | The site mentions using gas reduction firing and has blog posts detailing firings, suggesting ongoing activity.
+| kazegama.com | ? | soda | ongoing_class_or_membership | **new** | kazegama.com | "All workshops are in Bombay Beach" | The site lists workshops and mentions soda firing, and the workshop location is provided. [gate: quote names no specific non-electric firing]
 
-## Social-only leads, not read (4)
+## Social-only leads, not read (8)
 
 - East Side Pot Shop | Our first Wild Clay + Pit Firing Workshop with ... — https://www.instagram.com/reel/DFTOQCupIKx/
 - Alternative firing - saggar, pit, barrel | Facebook — https://www.facebook.com/groups/1827432834174836/
 - Best Pottery near Jackson, WY 83001 - Yelp — https://www.yelp.com/search?find_desc=Pottery&find_loc=Jackson,+WY+83001
 - THE BEST Cheyenne Paint & Pottery Studios - Tripadvisor — https://www.tripadvisor.com/Attractions-g60439-Activities-c56-t272-Cheyenne_Wyoming.html
+- 5-Minute Crafts - YouTube — https://www.youtube.com/channel/UC295-Dw_tDNtZXFeAPAW6Aw
+- Explore the best art ideas on Pinterest — https://www.pinterest.com/ideas/art/961238559656/
+- YouTube Studio — https://studio.youtube.com/reauth?approve_browser_access=1&approve_browser_access=1
+- Michael Jackson - Beat It (Official 4K Video) - YouTube — https://m.youtube.com/watch?v=oRdxUFDoQe0
 
-## Rejected (108)
+## Rejected (209)
 
 - natewinterstudios.com: known place in ME
 - clayworksinc.org: known place in NC
@@ -145,3 +154,104 @@ Searches: 34 (Tavily). Places seen: 128. Judge: gemma4:latest on this Mac. No Cl
 - watershedceramics.org: known place in ME
 - schoolofservice.org: The text only describes residencies for artists, not public firing access.
 - theresidencyreview.com: no firing words on any page
+- cheyennecity.org: OSM seed: no firing words on its pages
+- centerofthewest.org: OSM seed: no firing words on its pages
+- landerartcenter.com: OSM seed: no firing words on its pages
+- claypaperscissors.com: OSM seed: no firing words on its pages
+- bonfire.com: OSM seed: no firing words on its pages
+- buy.stripe.com: OSM seed: no firing words on its pages
+- nhtcf.org: OSM seed: no firing words on its pages
+- pryormustangs.org: OSM seed: no firing words on its pages
+- potterypost.ca: The directory covers multiple continents but does not specify a location or firing opportunity in Wyoming.
+- wyomingnews.com: The website is a news source and does not offer firing services.
+- simple.wikipedia.org: no firing words on any page
+- statefarm.com: no firing words on any page
+- state.gov: no firing words on any page
+- sos.state.co.us: no firing words on any page
+- alaska.gov: no firing words on any page
+- britannica.com: no firing words on any page
+- merriam-webster.com: no firing words on any page
+- craft.do: no firing words on any page
+- onelittleproject.com: no firing words on any page
+- hgtv.com: no firing words on any page
+- crayola.com: no firing words on any page
+- en.m.wikipedia.org: The provided text is from Wikipedia and does not mention any ceramic firing services in Wyoming.
+- deviantart.com: no firing words on any page
+- art.com: no firing words on any page
+- artsandculture.google.com: no firing words on any page
+- saatchiart.com: no firing words on any page
+- fineartamerica.com: no firing words on any page
+- wikiart.org: no firing words on any page
+- app.studio.com: no firing words on any page
+- zillow.com: no firing words on any page
+- blog.youtube: no firing words on any page
+- apartments.com: no firing words on any page
+- play.google.com: The provided link is to the Google Play Store and does not mention any ceramic firing services.
+- rent.com: no firing words on any page
+- apartmenthomeliving.com: no firing words on any page
+- seattlepotterysupply.com: known place in WA
+- wetclaycafe.com: no firing words on any page
+- potterynorthwest.org: no firing words on any page
+- reclaimclay.com: no firing words on any page
+- washingtonpottery.com: no firing words on any page
+- seatownpottery.com: known place in WA
+- potterybarn.com: no firing words on any page
+- potterylandwa.com: no firing words on any page
+- saltstoneceramics.com: no firing words on any page
+- colostate.edu: no firing words on any page
+- visitftcollins.com: no firing words on any page
+- admissions.colostate.edu: no firing words on any page
+- about.colostate.edu: no firing words on any page
+- unco.edu: no firing words on any page
+- learn.org: no firing words on any page
+- multnomahartscenter.org: no firing words on any page
+- explainthatstuff.com: The page provides general information about ceramics and kilns but does not list any specific firing events or locations in Wyoming.
+- xometry.com: The website discusses ceramics materials but does not offer public firing services.
+- ceramics.org: no firing words on any page
+- sciencenotes.org: The text provides general information about ceramics and firing processes but does not mention any specific location or public firing opportunities in Wyoming.
+- happyartceramics.com: no firing words on any page
+- thesprucecrafts.com: The page content is not available to determine if public firing participation is possible.
+- spinningpots.com: The text discusses firing methods but does not mention any specific location or public access to a firing service in Wyoming.
+- janejermynceramics.com: The website does not indicate that the public can participate in a firing in Wyoming.
+- upinsmokepottery.com: known place in PA
+- obvara.hu: The website is for a process and does not indicate public access or location in Wyoming.
+- baltimoreclayworks.org: known place in MD
+- clay.com: no firing words on any page
+- amazon.com: no firing words on any page
+- walmart.com: no firing words on any page
+- michaels.com: no firing words on any page
+- app.clay.com: no firing words on any page
+- theclearcreekgroup.com: no firing words on any page
+- jansenartcenter.org: known place in WA
+- jackson.com: no firing words on any page
+- jacksonguitars.com: no firing words on any page
+- michaeljackson.com: no firing words on any page
+- ci.jackson.ca.us: The provided text is for the City of Jackson, California, and does not mention any ceramic firing services.
+- datalounge.com: no firing words on any page
+- kilnbuilders.com: The website only advertises kiln building services and does not mention public firing events.
+- vincepitelka.com: The page mentions past workshops but does not offer current public firing opportunities.
+- jlpottery.com: known place in CO
+- tylergulden.com: known place in ME
+- baileypottery.com: The page only sells kilns and does not mention public firing opportunities.
+- m.imdb.com: no firing words on any page
+- visitlaramie.org: no firing words on any page
+- travelwyoming.com: no firing words on any page
+- remindmagazine.com: The page is a magazine article about a TV show and does not mention any ceramic firing services.
+- thetouristchecklist.com: The text describes a festival and does not mention any ceramic firing opportunities.
+- casper.com: no firing words on any page
+- imdb.com: no firing words on any page
+- acuityinsights.app: no firing words on any page
+- stores.casper.com: no firing words on any page
+- tubitv.com: no firing words on any page
+- sheridanbuckleco.com: no firing words on any page
+- cityofsheridanor.com: no firing words on any page
+- sheridan.k12.or.us: no firing words on any page
+- sheridancollege.ca: no firing words on any page
+- sheridan.com: no firing words on any page
+- sheridan.com.au: no firing words on any page
+- sourcegraph.com: no firing words on any page
+- codywy.gov: no firing words on any page
+- meetcody.ai: no firing words on any page
+- coddy.tech: no firing words on any page
+- burnishclaystudio.com: known place in WA
+- beckpots.com: The page content is not available to confirm public access.

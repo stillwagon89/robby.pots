@@ -1,4 +1,4 @@
-# Vermont firings ledger (2026-10-09, discovery v3, automatic)
+# Vermont firings ledger (2026-10-13, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -21,3 +21,7 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 14 | Homemade | ? | wood | Classes or membership | homemade.education |
 | 15 | Julie Lerman Pottery | Shelburne | raku, wood | See site | shelburnefarmersmarket.org |
 | 16 | Jackie Sedlock Pottery | Pownal | wood | Classes or membership | manchesterjournal.com, benningtonbanner.com |
+| 17 | Perry Hill Pottery | ? | wood | See site | perryhillpottery.com |
+| 18 | Mary Sweeney Pottery | Stowe | gas_reduction, soda, wood | Firing service | marysweeneypottery.com |
+| 19 | Matthew Tell Pottery | Marlboro | wood | Dated workshop or firing event | matthewtellpottery.com |
+| 20 | St. Johnsbury Academy | ? | raku | See site | stjacademy.org |

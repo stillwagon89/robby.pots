@@ -1,24 +1,24 @@
-# Oklahoma discovery report (2026-10-07)
+# Oklahoma discovery report (2026-10-13)
 
-Searches: 34 (Tavily). Places seen: 114. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 63 (Tavily). Places seen: 169. Judge: gemma4:latest on this Mac. No Claude used.
 
-## Qualifies (verified quote, 5)
+## Qualifies (verified quote, 6)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
 | OKC Pottery Studio | Oklahoma City | gas_reduction | ongoing_class_or_membership | **new** | okcpotterystudio.com | "Special raku workshops available throughout the year." |
+| Paseo Pottery | ? | raku | dated_events | **new** | warriorsforfreedom.org | "Experience the excitement of Raku firing!" |
 | Red Heat Ceramic Studio | Tulsa | gas_reduction | ongoing_class_or_membership | **new** | redheatceramics.com | "Memberships are available at different levels, whether you need to rent a gas kiln or a full semi-private studio space." |
 | 3rd Street Clayworks | Tulsa | raku | ongoing_class_or_membership | **new** | clayworkstulsa.com | "They will demonstrate various firing techniques such as raku, sawdust and dung." |
 | KAT Studio | Tulsa | raku | ongoing_class_or_membership | **new** | kilnartsoftulsa.com | "She moved on to teach wheel throwing, clay handbuilding, glaze design and raku firing, and has been continually teaching since 1989." |
 | Oklahoma State University | Stillwater | raku | dated_events | **new** | events.okstate.edu | "In addition, festival goers can take part in Raku Firing ($10 per bowl)." |
 
-## Unclear: needs a second look (15)
+## Unclear: needs a second look (20)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
 | Contemporary Arts of Tulsa (C.A.T.) | Tulsa | raku | dated_events | **new** | catulsa.org | "FALL 26 Raku Firing Workshop | Contemporary Arts of Tulsa (C.A.T.): Make up to 5 pieces for the raku firing which is included in the workshop." | The text advertises a public raku firing workshop in Tulsa, OK.
 | Downtown Tulsa | Tulsa | raku | dated_events | **new** | downtowntulsa.com | "Oct 31, 9-5 (Nov 1 Rain date) for The Clay part. and Nov 14 (15 rain) for the firing." | The page advertises a specific, dated Raku firing workshop in Tulsa, Oklahoma. [gate: quote names no specific non-electric firing]
-| Paseo Pottery | ? | raku | dated_events | **new** | warriorsforfreedom.org | "Experience the excitement of Raku firing!" | The text describes a public Raku firing class at a location in Oklahoma.
 | Oklahoma Contemporary | ? | raku, pit_barrel_saggar | ongoing_class_or_membership | **new** | oklahomacontemporary.org | "Community Firings" | The site mentions 'Community Firings' and offers classes on alternative firing techniques. [gate: quote names no specific non-electric firing]
 | Riverwood Pottery | ? | raku | ongoing_class_or_membership | **new** | riverwoodpottery.com | "In the workshop we teach how to make and fire raku beads." | The site advertises a class that includes firing raku beads.
 | WaterWorks Art Center | ? | raku | ongoing_class_or_membership | **new** | waterworksartcenter.com | "Clay programming includes beginning and intermediate pottery wheel, hand building, glazing techniques, slip technique, sgraffito, Raku Techniques, small sculptu" | The center offers classes that include Raku techniques and is located in Oklahoma.
@@ -31,14 +31,22 @@ Searches: 34 (Tavily). Places seen: 114. Judge: gemma4:latest on this Mac. No Cl
 | Oil & Clay Studio | Norman |  | by_appointment | **new** | oilandclaystudio.com | "A: We do offering bisque and cone 6 glaze firing for the community. Please email or text (405-928-9339) us to set that up, providing your name, and type of firi" | The studio offers community firing services that must be booked by appointment. [gate: quote names no specific non-electric firing]
 | Oil & Clay Studio | Norman | raku | ongoing_class_or_membership | **new** | kilnspot.com | "Oil & Clay Studio - Art studio in Norman, OK." | The directory lists a specific studio in Norman, OK, and the general nature of the site suggests local access to firing services. [gate: quote names no specific non-electric firing]
 | Oil & Clay Studio | Norman |  | none | **new** | my.ceramicmaterialsworkshop.com | "" | The page lists the studio but provides no information about public firing availability.
+| Southwest Kiln Conference | Bloomfield |  | none | **new** | swkiln.com | "The Southwest Kiln Conference is an annual gathering of potters, archaeologists, and enthusiasts who come together to explore and recreate ancient Southwestern " | The conference recreates ancient firing techniques using pit kilns. [gate: quote names no specific non-electric firing]
+| Next Of Kiln Studio | ? |  | none | **new** | nextofkilnstudio.com | "" | The page content is not available to determine public access to firings.
+| University of Montevallo | Montevallo | wood | none | **new** | theclio.com | "The kiln is typically fired twice a year as part of the university's ceramics classes." | The kiln is located in Oklahoma and is a wood-fired kiln used in classes. [gate: quote names no specific non-electric firing]
+| The Hambidge Center | ? | wood | none | **new** | opencallartist.com | "Visitors are welcome to observe for free with advance arrangements." | The text mentions an anagama firing and states that visitors are welcome to observe for free. [gate: quote names no specific non-electric firing]
+| Ceramic Cottage | Tulsa | raku | ongoing_class_or_membership | **new** | ceramic-cottage.com | "Firing of customer pieces (performed in-house)" | The site offers firing services for customer pieces, including Raku, and is located in Oklahoma. [gate: quote names no specific non-electric firing]
+| The Clay Co-op | ? | wood, raku, gas_reduction, soda, salt, pit_barrel_saggar | none | **new** | checkwhatsgood.com | "" | The provided text mentions firing services but does not specify the type of firing or confirm public access in Oklahoma.
 
-## Social-only leads, not read (3)
+## Social-only leads, not read (5)
 
 - Saltfork Craftsmen Artist-Blacksmith Association - Facebook — https://www.facebook.com/SaltforkCraftsmenArtistBlacksmith/
 - Gas Compressor Short Course (GCSC) - LinkedIn — https://www.linkedin.com/company/gas-compressor-short-course
 - TOP 10 BEST Pottery Studio in Oklahoma City, OK - Yelp — https://www.yelp.com/search?find_desc=Pottery+Studio&find_loc=Oklahoma+City,+OK
+- ejc pottery | raku firing @ the okc arts festival! after ... — https://www.instagram.com/reel/DX-Tm4BxDm0/
+- The Clay CoOp - YouTube — https://www.youtube.com/channel/UCV3IQVgQEiB2dKC5C9XKjyA
 
-## Rejected (91)
+## Rejected (138)
 
 - clayworksinc.org: known place in NC
 - natewinterstudios.com: known place in ME
@@ -131,3 +139,50 @@ Searches: 34 (Tavily). Places seen: 114. Judge: gemma4:latest on this Mac. No Cl
 - schoolofservice.org: The text only describes residency opportunities for artists, not public access to firings.
 - ceramicartsnetwork.org: known place in OH
 - ceramicsfieldguide.org: The provided text does not mention any firing opportunities in Oklahoma.
+- paintnstation.com: OSM seed: no firing words on its pages
+- waterdata.usgs.gov: OSM seed: no firing words on its pages
+- tools.usps.com: OSM seed: no firing words on its pages
+- frankomapottery.com: OSM seed: no firing words on its pages
+- claytonmuskogee.com: OSM seed: no firing words on its pages
+- pottersguild.net: known place in MI
+- rotirotiartcenter.org: The firing event is explicitly stated as being for current students only.
+- mesaartscenter.com: The location is in Arizona, not Oklahoma.
+- warroadriverplace.org: known place in MN
+- kilnitrentals.com: This website is only software for booking kiln rentals, not a firing location itself.
+- hotkilns.com: The site is a directory for renting kiln space, not a specific location offering public firings.
+- jsuartblog.org: The text only mentions past student participation and does not offer public access details.
+- thealabamian.com: The location is in Alabama, not Oklahoma.
+- https://allevents.in/tulsa/intro-to-ceramic-raku-firing-workshop-part-2/200029066717655: known place in OH
+- higherfirestudios.com: known place in CA
+- sosceramics.com: known place in MT
+- thevillagepotters.com: no firing words on any page
+- coreclay.com: no firing words on any page
+- infernoclaystudio.org: The provided text only mentions an electric kiln and does not confirm public access to non-electric firings.
+- harrylevensteinpottery.com: known place in UT
+- redlodgeclaycenter.com: known place in MT
+- musingaboutmud.com: The text mentions workshops but does not confirm the location is in Oklahoma.
+- ceramicsnow.substack.com: no firing words on any page
+- clayartcenter.net: The website sells supplies and clays but does not offer public firing services.
+- clayco-op.square.site: no firing words on any page
+- bdglassstudio.com: The page is a portfolio and does not mention public firing opportunities.
+- uco.edu: The text describes facilities but does not mention public access or booking for firings.
+- pcgamer.com: no firing words on any page
+- vincepitelka.com: The page mentions past workshops but does not offer current public firing opportunities.
+- jlpottery.com: known place in CO
+- baileypottery.com: The page only sells kilns and does not mention public firing opportunities.
+- allkilnservices.com: The site only advertises kiln repair and sales, not public firing access.
+- claycoopstpete.com: no firing words on any page
+- tiptoppottery.com: The text only mentions firings are included with a membership, which is not explicitly stated as public access.
+- burnishclaystudio.com: known place in WA
+- potterylist.com: no firing words on any page
+- tripadvisor.ca: no firing words on any page
+- tylergulden.com: known place in ME
+- visitstillwater.org: no firing words on any page
+- maps.google.com: no firing words on any page
+- thepotterywheel.com: The page is informational and does not offer public firing services in Oklahoma.
+- artshow.com: The listed workshops are all located in Pennsylvania, not Oklahoma.
+- kilnbuilders.com: The website only advertises kiln building services and does not mention public firing events.
+- alpinekilns.com: The website only offers service and sales for kilns and does not list public firing events.
+- skutt.com: The website is for a kiln manufacturer and does not mention public firing events.
+- yelp.ca: no firing words on any page
+- apigmentofyourimagination.com: no firing words on any page

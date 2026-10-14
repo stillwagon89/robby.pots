@@ -53,7 +53,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -112,7 +112,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -180,7 +180,7 @@
         "town": "Rindge",
         "score": 9,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -236,7 +236,7 @@
         "town": "Portsmouth",
         "score": 15,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       },
       "access": {
         "status": "ongoing"
@@ -293,8 +293,224 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-14"
       }
+    },
+    {
+      "id": "phoebe-s-barn",
+      "org": "Phoebe's Barn",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "gas_reduction"
+      ],
+      "region": "Mont Vernon",
+      "city": "Mont Vernon",
+      "urls": [
+        "https://phoebesbarn.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://phoebesbarn.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Raku workshops will be offered throughout the season.",
+        "url": "https://phoebesbarn.com/class-info/",
+        "types": [
+          "raku",
+          "gas_reduction"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "approved",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "phoebesbarn.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "yes",
+        "why": "The page states 'Raku workshops will be offered throughout the season' and mentions gas kiln reduction firings, with contact information provided for enrollment.",
+        "types": {
+          "raku": "Raku workshops will be offered throughout the season.",
+          "gas_reduction": "For GLAZE firings I fire in a Bailey's gas shuttle kiln to Cone 10 in a reduction atmosphere."
+        },
+        "state": "NH",
+        "town": ""
+      },
+      "weak": false,
+      "located": {
+        "state": "NH",
+        "town": "Mont Vernon",
+        "score": 3,
+        "osm": false,
+        "date": "2026-10-14"
+      },
+      "address": "16 North Main St., Mont Vernon, NH 03035",
+      "lat": 42.89562,
+      "lng": -71.67627,
+      "auto_approved": "2026-10-14"
+    },
+    {
+      "id": "league-of-new-hampshire-craftsmen",
+      "org": "League of New Hampshire Craftsmen",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Concord",
+      "city": "Concord",
+      "urls": [
+        "https://nhcrafts.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://nhcrafts.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Every day there will be engaging demonstrations including artistic blacksmithing, woodworking, pewter casting, pottery (stoneware and raku pots), woodburning, cyanotypes, rug hooking and much more!",
+        "url": "https://nhcrafts.org/juried-member/shana-brautigam/",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "nhcrafts.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "unclear",
+        "why": "The snippets mention wood-fired and raku firings but provide no clear information about public access, booking, or participation methods.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "state": "NH",
+        "town": "Concord",
+        "score": 9,
+        "osm": false,
+        "date": "2026-10-14"
+      },
+      "address": "49 South Main Street, Suite 100, Concord, NH 03301"
+    },
+    {
+      "id": "sweet-fern-pottery",
+      "org": "Sweet Fern Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "New Hampshire",
+      "city": null,
+      "urls": [
+        "https://www.sweetfernpottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.sweetfernpottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "sweetfernpottery.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "unclear",
+        "why": "The page mentions a new wood kiln and pottery work but provides no details about public access to firings, workshops, classes, or how outsiders can participate.",
+        "types": {},
+        "state": "NH",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "id": "potterydayz",
+      "org": "Potterydayz",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Peterborough",
+      "city": "Peterborough",
+      "urls": [
+        "https://getpotteryclass.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Peterborough, New Hampshire",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://getpotteryclass.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Participants can choose from various formats, such as one-off sessions, half-day experiences, and all-day courses that focus on techniques like wheel throwing and raku firings.",
+        "url": "https://getpotteryclass.com/locations/peterborough/potterydayz-peterborough",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "getpotteryclass.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "unclear",
+        "why": "The page mentions 'raku firing courses' and 'raku firings' but does not provide a specific sentence showing how outsiders can book, join, or sign up for a raku firing (e.g., no class description, workshop details, membership option, or contact invitation for that specific firing type).",
+        "types": {},
+        "state": "",
+        "town": "Peterborough"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-14"
+      },
+      "lat": 42.87762,
+      "lng": -71.94938
     }
   ],
   "_removed": [

@@ -1,6 +1,6 @@
-# Idaho discovery report (2026-10-07)
+# Idaho discovery report (2026-10-13)
 
-Searches: 37 (Tavily). Places seen: 118. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 67 (Tavily). Places seen: 187. Judge: gemma4:latest on this Mac. No Claude used.
 
 ## Qualifies (verified quote, 4)
 
@@ -11,7 +11,7 @@ Searches: 37 (Tavily). Places seen: 118. Judge: gemma4:latest on this Mac. No Cl
 | Boulder Mountain Clayworks | Ketchum | raku | none | **new** | mapquest.com | "Established in 1997, it offers a fully equipped studio suitable for stoneware, porcelain, and raku pottery, featuring twelve wheels, a slab roller, and an extru" |
 | Wildwood Pottery | ? | pit_barrel_saggar | none | **new** | wildwoodpottery.com | "Pit firing makes beautiful pots, but please don't eat or drink out of these!" |
 
-## Unclear: needs a second look (17)
+## Unclear: needs a second look (24)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -32,14 +32,23 @@ Searches: 37 (Tavily). Places seen: 118. Judge: gemma4:latest on this Mac. No Cl
 | Terracotta Pullman | Moscow |  | ongoing_class_or_membership | **new** | terracottapullman.com | "Teapot Tuesdays: Beginner Pottery Workshop in Moscow ...: Hand-build a functional stoneware teapot in this beginner-friendly monthly pottery workshop. All mater" | The text advertises a public workshop that includes kiln firing. [gate: quote names no specific non-electric firing]
 | ISU Craft Shop | Pocatello |  | ongoing_class_or_membership | **new** | cetrain.isu.edu | "Classes will include casting a mold, cleaning, and firing in a kiln." | The course description indicates that firing in a kiln is part of the class curriculum. [gate: quote names no specific non-electric firing]
 | gledhillpottery.com | ? | wood | ongoing_class_or_membership | **new** | gledhillpottery.com | "Since then, many people have participated in firing the kiln." | The text mentions that many people have participated in firing the wood kiln. [gate: quote names no specific non-electric firing]
+| LEARN MORE | ? | raku | none | **new** | clayconnectionspokane.com | "" | OpenStreetMap seed; firing words on its pages
+| nampaparksandrecreation.org | ? |  | none | **new** | nampaparksandrecreation.org | "Come join us in our Kiln Fired Pottery Workshops!" | The website advertises kiln-fired pottery workshops, suggesting public participation. [gate: quote names no specific non-electric firing]
+| Southwest Kiln Conference | Bloomfield |  | none | **new** | swkiln.com | "The Southwest Kiln Conference is an annual gathering of potters, archaeologists, and enthusiasts who come together to explore and recreate ancient Southwestern " | The conference recreates ancient firing techniques using pit kilns. [gate: quote names no specific non-electric firing]
+| Salmon Pottery Studio | Salmon |  | ongoing_class_or_membership | **new** | salmonpotterystudio.com | "Join a monthly pottery studio membership in Salmon, Idaho. Enjoy open studio access, wheels, kilns, glazes, and a creative clay community." | The studio offers a membership that includes access to kilns, suggesting public participation in firings. [gate: quote names no specific non-electric firing]
+| theclio.com | ? |  |  | **new** | theclio.com | "" | judge error: The operation was aborted due to timeout
+| University of Alaska Fairbanks | Fairbanks | wood | ongoing_class_or_membership | **new** | uaf.edu | "Volunteers tend to UAF's anagama kiln as it was being fired with wood around the clock for nearly 50 hours in April 2024." | The text describes a wood-fired firing event involving students.
+| Boulder Mountain Clayworks | ? | raku | ongoing_class_or_membership | **new** | wanderlog.com | "The studio provides all the necessary tools and supplies for high and low firing, as well as raku firing." | The studio offers classes and provides raku firing access.
 
-## Social-only leads, not read (3)
+## Social-only leads, not read (5)
 
 - Wild clay pit fired pottery workshop. - Facebook — https://www.facebook.com/events/1417169972451628/
 - Adamah Art Studio | 2024 Workshop Registration is live ... - Instagram — https://www.instagram.com/p/C23UxZzA7VR/
 - TOP 10 BEST Pottery Studio in Boise, ID - (2026 Guide) - Yelp — https://www.yelp.com/search?find_desc=Pottery+Studio&find_loc=Boise,+ID
+- Studio Tour - YouTube — https://www.youtube.com/watch?v=-gWRz8CEsQE
+- THE 15 BEST Things to Do in Coeur d'Alene (2026) - Tripadvisor — https://www.tripadvisor.com/Attractions-g35418-Activities-Coeur_d_Alene_Idaho.html
 
-## Rejected (94)
+## Rejected (154)
 
 - happeningnext.com: known place in NY
 - https://allevents.in/boise/pottery-and-raku-firing-workshops-learn-the-raku-process-throwing-and-handbuilding-to-smoky-finishes/200030324650012: known place in OH
@@ -135,3 +144,63 @@ Searches: 37 (Tavily). Places seen: 118. Judge: gemma4:latest on this Mac. No Cl
 - thecommonwellboise.com: no firing words on any page
 - ceramicartsnetwork.org: known place in OH
 - brockwaycatart.org: The text only mentions kiln firings are available to residents in the Artist In Residence Program.
+- kiln.com: OSM seed: no firing words on its pages
+- square.site: OSM seed: no firing words on its pages
+- waterdata.usgs.gov: OSM seed: no firing words on its pages
+- boisepottery.com: OSM seed: no firing words on its pages
+- seattlepotterysupply.com: OSM seed: no firing words on its pages
+- arts.idaho.gov: OSM seed: no firing words on its pages
+- idahoreportcard.org: OSM seed: no firing words on its pages
+- launch.idaho.gov: OSM seed: no firing words on its pages
+- pottersguild.net: known place in MI
+- livingkilnpotterystudio.com: no firing words on any page
+- wolfcraftcollective.com: no firing words on any page
+- cdapress.com: The provided snippets only mention painting and firing, but do not confirm public access to non-electric firing methods.
+- cantonclayworks.com: known place in CT
+- newsbreak.com: The page is a news aggregator and does not mention any ceramic firing events.
+- theclayhubcollective.com: no firing words on any page
+- kilnitrentals.com: This website is only software for booking kiln rentals, not a firing location itself.
+- artcenterky.org: known place in KY
+- patch.com: The location is outside of Idaho.
+- https://allevents.in/emmett/full-alternative-firing-obvara-or-horse-hair/200029689775911: known place in OH
+- https://allevents.in/emmett/alternative-firing-obvara-or-horsehair-technique/200028184352315: known place in OH
+- canvas.districtclaycenter.com: known place in MD
+- trumba.com: no firing words on any page
+- redlodgeclaycenter.com: known place in MT
+- theresidencyreview.com: known place in OR
+- harrylevensteinpottery.com: known place in UT
+- redlodgeclaycenter.slideroom.com: no firing words on any page
+- urbangateways.org: The text describes a past residency in Montana and does not mention public firing opportunities in Idaho.
+- theclaystudioofmissoula.org: known place in MT
+- vincepitelka.com: The page mentions past workshops but does not offer current public firing opportunities.
+- jlpottery.com: known place in CO
+- tylergulden.com: known place in ME
+- olympickilns.com: The website only advertises the sale of kilns, not public firing services.
+- armadilloclay.com: The text discusses firing types but does not indicate public access to any firing service in Idaho.
+- alexandriaclaycoop.com: The provided text only mentions electric kilns and does not confirm public access to non-electric firings.
+- cdainsider.com: no firing words on any page
+- clayco-op.square.site: no firing words on any page
+- https://www.eventbrite.com/d/id--coeur-dalene/events/: no firing words on any page
+- claycoopstpete.com: no firing words on any page
+- theclaycoop.com: no firing words on any page
+- burnishclaystudio.com: known place in WA
+- thomasfossier.com: The page has no readable text to confirm public access.
+- explorer.iota.org: no firing words on any page
+- docs.google.com: no firing words on any page
+- penland.org: known place in NC
+- translate.google.com: no firing words on any page
+- clayartcenter.net: The website sells supplies and clays but does not offer public firing services.
+- artshow.com: The listed workshops are located in Pennsylvania, not Idaho.
+- maps.google.com: no firing words on any page
+- pcgamer.com: no firing words on any page
+- baileypottery.com: The page only sells kilns and does not mention public firing opportunities.
+- clayworksinc.org: known place in NC
+- allkilnservices.com: The site only advertises kiln repair and sales, not public firing participation.
+- sheffield-pottery.com: The page only sells kilns and does not mention public firing access.
+- clayfinder.com: known place in TX
+- potterypost.ca: The directory covers multiple continents but does not specify any firing services in Idaho.
+- moscowcontemporary.org: no firing words on any page
+- 1912center.org: no firing words on any page
+- nwfdailynews.com: The source is an obituary and does not mention public firing opportunities.
+- pocatelloartcenter.org: no firing words on any page
+- potterypulse.com: The site only sells kilns and does not mention public firing opportunities.

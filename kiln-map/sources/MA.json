@@ -160,9 +160,9 @@
       },
       "weak": false,
       "address": "31 Thorpe Rd, Needham, MA 02494",
-      "auto_approved": "2026-10-09",
       "lat": 42.29228,
-      "lng": -71.23033
+      "lng": -71.23033,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "the-umbrella-arts-center",
@@ -226,9 +226,9 @@
       },
       "weak": false,
       "address": "40 Stow Street, Concord, MA 01742",
-      "auto_approved": "2026-10-09",
       "lat": 42.4575,
-      "lng": -71.35243
+      "lng": -71.35243,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "dewclaw-studios",
@@ -340,10 +340,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09",
       "address": "81 Broadway, Somerville, MA 02145",
       "lat": 42.38743,
-      "lng": -71.08195
+      "lng": -71.08195,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "ben-eberle-ceramics-karma-kiln",
@@ -401,7 +401,7 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09"
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "indigo-fire-pottery-studio",
@@ -457,10 +457,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09",
       "address": "79R Grove St, Watertown, MA 02472",
       "lat": 42.36919,
-      "lng": -71.15266
+      "lng": -71.15266,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "lexart",
@@ -520,10 +520,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09",
       "address": "130 Waltham St, Lexington, MA 02421",
       "lat": 42.44523,
-      "lng": -71.22818
+      "lng": -71.22818,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "old-school-clay-and-ceramics",
@@ -584,9 +584,9 @@
       },
       "weak": false,
       "address": "145 Main Street, Groton, MA 01450",
-      "auto_approved": "2026-10-09",
       "lat": 42.60698,
-      "lng": -71.57023
+      "lng": -71.57023,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "featherstone-center-for-the-arts",
@@ -650,9 +650,9 @@
       },
       "weak": false,
       "address": "30 Featherstone Lane, Oak Bluffs, MA 02557",
-      "auto_approved": "2026-10-09",
       "lat": 41.42447,
-      "lng": -70.59812
+      "lng": -70.59812,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "worcester-center-for-crafts",
@@ -716,9 +716,9 @@
       },
       "weak": false,
       "address": "25 Sagamore Road, Worcester, MA 01605",
-      "auto_approved": "2026-10-09",
       "lat": 42.28109,
-      "lng": -71.80741
+      "lng": -71.80741,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "gustin-ceramics",
@@ -835,10 +835,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "auto_approved": "2026-10-09",
       "address": "325 Chelmsford St., Lowell, MA 01851",
       "lat": 42.63068,
-      "lng": -71.3216
+      "lng": -71.3216,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "the-umbrella-arts-center-ma",
@@ -902,9 +902,9 @@
       },
       "weak": false,
       "address": "40 Stow Street, Concord, MA 01742",
-      "auto_approved": "2026-10-09",
       "lat": 42.4575,
-      "lng": -71.35243
+      "lng": -71.35243,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "harvard",
@@ -1092,9 +1092,9 @@
         "result": "split",
         "date": "2026-10-08"
       },
-      "auto_approved": "2026-10-09",
       "lat": 41.74177,
-      "lng": -70.45169
+      "lng": -70.45169,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "sunset-canyon-pottery",
@@ -1319,6 +1319,58 @@
       "access": {
         "status": "ongoing"
       }
+    },
+    {
+      "id": "cotuit-center-for-the-arts",
+      "org": "Cotuit Center for the Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Cotuit",
+      "city": "Cotuit",
+      "urls": [
+        "https://cotuit.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Cotuit, Massachusetts",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://cotuit.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Experience the excitement of raku firing in this beginner friendly 6 hour workshop.",
+        "url": "https://cotuit.org/classes/raku-workshop",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "cotuit.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "yes",
+        "why": "page says state is MA, not KY",
+        "types": {
+          "raku": "Experience the excitement of raku firing in this beginner friendly 6 hour workshop."
+        },
+        "state": "MA",
+        "town": "Cotuit"
+      },
+      "weak": true,
+      "lat": 41.61749,
+      "lng": -70.43512
     }
   ],
   "_removed": [

@@ -1,13 +1,13 @@
-# Louisiana discovery report (2026-10-07)
+# Louisiana discovery report (2026-10-13)
 
-Searches: 33 (Tavily). Places seen: 122. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 64 (Tavily). Places seen: 263. Judge: gemma4:latest on this Mac. No Claude used.
 
 ## Qualifies (verified quote, 0)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
 
-## Unclear: needs a second look (23)
+## Unclear: needs a second look (24)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -34,16 +34,20 @@ Searches: 33 (Tavily). Places seen: 122. Judge: gemma4:latest on this Mac. No Cl
 | ladualenrollment.com | ? |  | ongoing_class_or_membership | **new** | ladualenrollment.com | "An introductory course in pottery making, including the study and application of basic hand-building methods, firing, glazing, and an introduction to wheel thro" | The page advertises a college course that includes firing in Louisiana. [gate: quote names no specific non-electric firing]
 | Ceramic association of La Borne | ? | wood | firing_service_or_rental | **new** | laborne.org | "Hiring of the workshop and firings" | The site mentions hiring of the workshop and firings using wood-fired kilns. [gate: quote names no specific non-electric firing]
 | Clemson Art Department | ? | wood | ongoing_class_or_membership | **new** | clemson.world | "If you happen out there during a firing of either kiln, you’ll find yourself amid a community of Clemson students and faculty, local potters and guests from nea" | The text mentions local potters and guests from nearby universities participating in firings. [gate: quote names no specific non-electric firing]
+| WJBF | Edgefield and Johnston | wood | dated_events | **new** | newsbreak.com | "Heritage Trail Pottery Tour and Sale in Edgefield and Johnston to begin with opening of wood-fired Groundhog Kiln Saturday" | The listing advertises a wood-fired kiln opening during a tour and sale event.
 
-## Social-only leads, not read (5)
+## Social-only leads, not read (8)
 
 - THE 5 BEST Classes & Workshops in Louisiana (Updated 2026) — https://www.tripadvisor.com/Attractions-g28939-Activities-c41-Louisiana.html
 - New Online Workshop Schedule. | Facebook — https://www.facebook.com/groups/1827432834174836/permalink/4437299676521459/
 - Reduction Firing in a Gas Kiln - YouTubeProper Reduction Firing Schedule - Studio Operations and ...Reduction Firing - Digitalfire.comDemystifying the Reduction Firing Process — https://www.youtube.com/watch?v=uxIYUCD2qk0
 - TOP 10 BEST Pottery Studio in Baton Rouge, LA - Yelp — https://www.yelp.com/search?find_desc=Pottery+Studio&find_loc=Baton+Rouge,+LA
 - BellyFire: Baton Rouge (@bellyfirebr) • Instagram photos and ... — https://www.instagram.com/bellyfirebr/
+- Explore the best art ideas on Pinterest — https://www.pinterest.com/ideas/art/961238559656/
+- YouTube Studio — https://studio.youtube.com/reauth?approve_browser_access=1&approve_browser_access=1
+- How to use 咯 at end of the sentence? : r/ChineseLanguage - Reddi... — https://www.reddit.com/r/ChineseLanguage/comments/sq763q/how_to_use_咯_at_end_of_the_sentence/
 
-## Rejected (94)
+## Rejected (231)
 
 - cotuit.org: known place in KY
 - downtowntulsa.com: known place in OK
@@ -139,3 +143,140 @@ Searches: 33 (Tavily). Places seen: 122. Judge: gemma4:latest on this Mac. No Cl
 - spindriftstudio.art: known place in IL
 - watershedceramics.org: known place in ME
 - georgeohr.org: no firing words on any page
+- handsinclay.com: OSM seed: no firing words on its pages
+- clayburgesshouma.com: OSM seed: no firing words on its pages
+- waterdata.usgs.gov: OSM seed: no firing words on its pages
+- brec.org: OSM seed: no firing words on its pages
+- clayburgess.com: OSM seed: no firing words on its pages
+- tools.usps.com: OSM seed: no firing words on its pages
+- artisticoexpress.com: OSM seed: no firing words on its pages
+- nowcrj.org: OSM seed: no firing words on its pages
+- messarts.org: OSM seed: no firing words on its pages
+- oak.bellyfirestudios.com: OSM seed: no firing words on its pages
+- artsyedgemetairie.com: OSM seed: no firing words on its pages
+- claywork.shop: OSM seed: no firing words on its pages
+- diplomasender.com: OSM seed: no firing words on its pages
+- louisianaschools.com: OSM seed: no firing words on its pages
+- lcdcofhammond.org: OSM seed: no firing words on its pages
+- lafayette.edu: no firing words on any page
+- britannica.com: no firing words on any page
+- lovelafayette.org: no firing words on any page
+- lafayettechamber.org: no firing words on any page
+- lafayettetravel.com: no firing words on any page
+- lafayettehotelsd.com: no firing words on any page
+- history.com: no firing words on any page
+- louisianacrafts.org: The provided text only describes the artists' personal practices and does not advertise public firing opportunities.
+- simple.wikipedia.org: no firing words on any page
+- statefarm.com: no firing words on any page
+- state.gov: no firing words on any page
+- sos.state.co.us: no firing words on any page
+- alaska.gov: no firing words on any page
+- merriam-webster.com: no firing words on any page
+- craft.do: no firing words on any page
+- onelittleproject.com: no firing words on any page
+- hgtv.com: no firing words on any page
+- crayola.com: no firing words on any page
+- en.m.wikipedia.org: The page is a general Wikipedia article and does not mention any ceramic firing services.
+- deviantart.com: no firing words on any page
+- art.com: no firing words on any page
+- artsandculture.google.com: no firing words on any page
+- saatchiart.com: no firing words on any page
+- fineartamerica.com: no firing words on any page
+- wikiart.org: no firing words on any page
+- app.studio.com: no firing words on any page
+- zillow.com: no firing words on any page
+- blog.youtube: no firing words on any page
+- apartments.com: no firing words on any page
+- play.google.com: The provided link is to the Google Play Store and does not mention any ceramic firing services.
+- rent.com: no firing words on any page
+- apartmenthomeliving.com: no firing words on any page
+- dogwoodceramics.com: The site is a distributor selling equipment, not offering public firing services.
+- cantonclayworks.com: known place in CT
+- woodfireceramic.com: The website discusses wood firing but does not offer public access for firing services.
+- creative-crafts.com: The page text is not available to confirm firing details.
+- comfirstcu.org: no firing words on any page
+- srhealth.org: no firing words on any page
+- imdb.com: no firing words on any page
+- communitysupportnet.org: no firing words on any page
+- puresociology.com: no firing words on any page
+- srcity.org: no firing words on any page
+- kilnitrentals.com: This website is only software for booking kiln rentals, not a firing location itself.
+- hotkilns.com: The website is a directory for renting kiln space, not a specific firing event or studio in Louisiana.
+- colostate.edu: no firing words on any page
+- visitftcollins.com: no firing words on any page
+- admissions.colostate.edu: no firing words on any page
+- about.colostate.edu: no firing words on any page
+- unco.edu: no firing words on any page
+- learn.org: no firing words on any page
+- multnomahartscenter.org: no firing words on any page
+- explainthatstuff.com: The text is informational and does not mention any public firing opportunities in Louisiana.
+- xometry.com: The website discusses ceramics generally but does not offer any firing services to the public.
+- ceramics.org: no firing words on any page
+- sciencenotes.org: The text provides general information about ceramics and firing processes but does not mention any specific location or public firing opportunities.
+- happyartceramics.com: no firing words on any page
+- thesprucecrafts.com: The page content is not available to determine if public firing participation is possible.
+- spinningpots.com: The text discusses firing methods but does not mention any specific location or public access to a firing service in Louisiana.
+- janejermynceramics.com: The text describes past firings and techniques but does not offer any current public access or booking information for a firing in Louisiana.
+- upinsmokepottery.com: known place in PA
+- plimton.com: The text only discusses electric kiln firing and does not mention public access to non-electric firing techniques.
+- obvara.hu: The website is for a Hungarian pottery technique and does not mention any public firing opportunities in Louisiana.
+- baltimoreclayworks.org: known place in MD
+- harrylevensteinpottery.com: known place in UT
+- artaxis.org: no firing words on any page
+- redlodgeclaycenter.com: known place in MT
+- mudflat.org: known place in MA
+- theresidencyreview.com: known place in OR
+- seattlepotterysupply.com: known place in WA
+- wetclaycafe.com: no firing words on any page
+- reclaimclay.com: no firing words on any page
+- washingtonpottery.com: no firing words on any page
+- potterybarn.com: no firing words on any page
+- potterynorthwest.org: no firing words on any page
+- seatownpottery.com: known place in WA
+- potterylandwa.com: no firing words on any page
+- saltstoneceramics.com: no firing words on any page
+- news.google.com: no firing words on any page
+- cnn.com: no firing words on any page
+- foxnews.com: The website is a news source and does not offer ceramic firing services.
+- nbcnews.com: no firing words on any page
+- nytimes.com: no firing words on any page
+- apnews.com: no firing words on any page
+- npr.org: no firing words on any page
+- cbsnews.com: no firing words on any page
+- nypost.com: no firing words on any page
+- clayworksinc.org: known place in NC
+- 225batonrouge.com: no firing words on any page
+- potterybyosa.com: no firing words on any page
+- baton.com: no firing words on any page
+- proarmory.com: no firing words on any page
+- bestsurvival.org: no firing words on any page
+- amazon.com: no firing words on any page
+- thehomesecuritysuperstore.com: no firing words on any page
+- dictionary.cambridge.org: no firing words on any page
+- batonwarehouse.com: no firing words on any page
+- chatall.io: no firing words on any page
+- feedbob.com: no firing words on any page
+- quad.chat: no firing words on any page
+- ninjachat.ai: no firing words on any page
+- mynestup.com: no firing words on any page
+- prompt-genie.app: no firing words on any page
+- aionx.co: The website discusses AI tools and has no information about pottery or kilns.
+- glaciallakemissoula.org: no firing words on any page
+- montananaturalist.org: no firing words on any page
+- itiswild.com: no firing words on any page
+- thedyrt.com: no firing words on any page
+- nps.gov: no firing words on any page
+- allmissoula.com: no firing words on any page
+- destinationmissoula.org: no firing words on any page
+- vincepitelka.com: The page mentions past workshops but does not offer current public firing opportunities.
+- kilnbuilders.com: The website is a kiln builder, not a firing studio, and no public access is mentioned.
+- olympickilns.com: The website only advertises equipment for sale, not public firing access.
+- burnishclaystudio.com: known place in WA
+- tylergulden.com: known place in ME
+- kilns.com: The website is a manufacturer and only lists electric kiln models.
+- monroe.com: no firing words on any page
+- monroe.wednet.edu: no firing words on any page
+- monroewa.gov: no firing words on any page
+- monroeu.edu: The provided text is for a college and does not mention any ceramic firings.
+- monroe.university-tour.com: no firing words on any page
+- monroe.com.au: no firing words on any page

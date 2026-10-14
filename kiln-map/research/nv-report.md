@@ -1,6 +1,6 @@
-# Nevada discovery report (2026-10-07)
+# Nevada discovery report (2026-10-13)
 
-Searches: 34 (Tavily). Places seen: 118. Judge: gemma4:latest on this Mac. No Claude used.
+Searches: 63 (Tavily). Places seen: 234. Judge: gemma4:latest on this Mac. No Claude used.
 
 ## Qualifies (verified quote, 7)
 
@@ -14,7 +14,7 @@ Searches: 34 (Tavily). Places seen: 118. Judge: gemma4:latest on this Mac. No Cl
 | nellisauction.com | Henderson | raku | firing_service_or_rental | **new** | nellisauction.com | "STUDIO POTTERY RAKU FIRING POTTERY 19" WIDE | Henderson, NV" |
 | Tuscarora Pottery School | ? | raku, soda, gas_reduction, soda, pit_barrel_saggar | ongoing_class_or_membership | **new** | everythingelko.com | "The classes offer a variety of firing methods. High fire kilns are both soda and cone 10 gas. Low fire methods are raku, and saggar." |
 
-## Unclear: needs a second look (13)
+## Unclear: needs a second look (14)
 
 | Place | City | Types | Access | Map | Site | Quote |
 |---|---|---|---|---|---|---|
@@ -31,16 +31,21 @@ Searches: 34 (Tavily). Places seen: 118. Judge: gemma4:latest on this Mac. No Cl
 | The Coleman School of Porcelain | Henderson | gas_reduction | ongoing_class_or_membership | **new** | lisaloveceramics.com | "Tom Coleman Porcelain Workshop, 5-Days in Studio, Henderson, NV, USA ...: Tom Coleman teaches high-fire porcelain techniques. Learn about Tom's Experimental Shi" | The workshop description details gas reduction firing and is located in Nevada.
 | Tom Coleman | Henderson | gas_reduction | ongoing_class_or_membership | **new** | klineglazeservice.com | "Tom Coleman Workshops Henderson, NV - klineglazeservice.com: "I appreciate being able to continue exploring the techniques Tom Coleman has introduced to me at h" | The page mentions Tom Coleman Workshops in Henderson, NV, and the context suggests ongoing participation in workshops. [gate: quote names no specific non-electric firing]
 | Elko County Art Club | ? | raku | dated_events | **new** | elkocountyarts.org | "Raku Firing Workshop (9AM) | Elko County Art Club: Jul 11, 2026" | The site advertises a public Raku Firing Workshop in Nevada.
+| Elkhorn Pottery | ? | raku | none | **new** | elkhornpottery.com | "Workshops — Elkhorn Pottery: Experience Raku from start to finish in this hands-on, multi-day workshop. You'll throw and trim your own pieces, then take part in" | The site advertises a multi-day workshop including a live Raku firing.
 
-## Social-only leads, not read (5)
+## Social-only leads, not read (9)
 
 - One of our members, Rocio Ruiz, is... - Nevada Clay Guild - Facebook — https://www.facebook.com/nevadaclayguild.org/posts/one-of-our-members-rocio-ruiz-is-putting-on-this-workshop-raku-workshopplease-jo/585557893603539/
 - Soda firing workshop in Tuscarora, Nevada produced some of my ... — https://www.youtube.com/shorts/lb4EvzLka2Y
 - BILLS KILN REPAIR - Updated February 2026 - 9836 Ridge Rock ...Kiln Repair Technician Near Me - Directory | Kiln FrogKiln Repair Directory – Euclids Pottery Store — https://www.yelp.com/biz/bills-kiln-repair-las-vegas
 - the Wedge Ceramics (@theWedgeReno) / Posts / X — https://x.com/theWedgeReno
 - The Wedge Ceramics Studio (@thewedgeceramicsstudio ... — https://www.instagram.com/thewedgeceramicsstudio/
+- Explore the best art ideas on Pinterest — https://www.pinterest.com/ideas/art/961238559656/
+- YouTube Studio — https://studio.youtube.com/reauth?approve_browser_access=1&approve_browser_access=1
+- Obvara Raku Firing (Narrated Version) - YouTube — https://m.youtube.com/watch?v=XxpQuHfFwqg
+- THE 15 BEST Things to Do in Las Vegas (2026) - Tripadvisor — https://www.tripadvisor.com/Attractions-g45963-Activities-zfr7917577-Las_Vegas_Nevada.html
 
-## Rejected (93)
+## Rejected (204)
 
 - natewinterstudios.com: known place in PA
 - clayworksinc.org: known place in NC
@@ -135,3 +140,114 @@ Searches: 34 (Tavily). Places seen: 118. Judge: gemma4:latest on this Mac. No Cl
 - steamboatcreates.org: known place in CO
 - spindriftstudio.art: known place in IL
 - ceramicartsnetwork.org: known place in OH
+- kiln.com: OSM seed: no firing words on its pages
+- guides.loc.gov: OSM seed: no firing words on its pages
+- pottersindustries.com: The website is about glass beads and construction materials, not pottery firings.
+- pottersace.com: no firing words on any page
+- pottersplacenaperville.com: no firing words on any page
+- southwestart.com: no firing words on any page
+- potterscrackers.com: no firing words on any page
+- google.com: no firing words on any page
+- potterscraftcider.com: no firing words on any page
+- merriam-webster.com: The page is a dictionary and does not mention any firing services.
+- statefarm.com: no firing words on any page
+- ca.gov: no firing words on any page
+- csus.edu: no firing words on any page
+- sos.ca.gov: no firing words on any page
+- state.gov: no firing words on any page
+- calcareers.ca.gov: no firing words on any page
+- clayfinder.com: known place in TX
+- deviantart.com: no firing words on any page
+- artsandculture.google.com: no firing words on any page
+- art.com: no firing words on any page
+- britannica.com: no firing words on any page
+- artstation.com: no firing words on any page
+- sketch.io: no firing words on any page
+- kleki.com: no firing words on any page
+- app.studio.com: no firing words on any page
+- zillow.com: no firing words on any page
+- blog.youtube: no firing words on any page
+- apartments.com: no firing words on any page
+- play.google.com: The text is about a mobile game and does not mention any ceramic firing services.
+- rent.com: no firing words on any page
+- apartmenthomeliving.com: no firing words on any page
+- theceramicshop.com: known place in PA
+- kiln.tech: The text is about an AI development tool and does not mention any ceramic firing services.
+- amazon.com: The page is an online retailer and does not offer any firing services.
+- baike.baidu.com: no firing words on any page
+- dictionary.cambridge.org: no firing words on any page
+- iciba.com: no firing words on any page
+- zhuanlan.zhihu.com: no firing words on any page
+- github.com: no firing words on any page
+- global.bing.com: no firing words on any page
+- collinsdictionary.com: no firing words on any page
+- seattlepotterysupply.com: known place in WA
+- wetclaycafe.com: no firing words on any page
+- potterynorthwest.org: no firing words on any page
+- reclaimclay.com: no firing words on any page
+- washingtonpottery.com: no firing words on any page
+- seatownpottery.com: known place in WA
+- potterybarn.com: no firing words on any page
+- potterylandwa.com: no firing words on any page
+- saltstoneceramics.com: no firing words on any page
+- theclio.com: The text indicates firings are part of university classes, suggesting limited public access.
+- montevallo.edu: The location is in Oklahoma, not Nevada.
+- thealabamian.com: The location is in Alabama, not Nevada.
+- multnomahartscenter.org: no firing words on any page
+- explainthatstuff.com: The website is an educational resource and does not offer any firing services.
+- xometry.com: The website discusses ceramics materials but does not offer public firing services.
+- ceramics.org: no firing words on any page
+- sciencenotes.org: The text provides general information about ceramics and firing processes but does not mention any specific location or public firing opportunities.
+- happyartceramics.com: no firing words on any page
+- thesprucecrafts.com: The page content is not available to determine if public firing participation is possible.
+- spinningpots.com: The text discusses firing methods but does not mention a location or public access to a kiln in Nevada.
+- upinsmokepottery.com: known place in PA
+- janejermynceramics.com: The website does not indicate that the public can participate in a firing in Nevada.
+- plimton.com: The text only discusses electric kiln firing and does not mention any public firing opportunities in Nevada.
+- obvara.hu: The website is for a process originating in Eastern Europe and does not indicate public access in Nevada.
+- en.m.wikipedia.org: The page is a general encyclopedia article about clay minerals and does not mention any firing services.
+- clay.com: no firing words on any page
+- walmart.com: no firing words on any page
+- app.clay.com: no firing words on any page
+- reviewjournal.com: no firing words on any page
+- visitlasvegas.com: no firing words on any page
+- 8newsnow.com: no firing words on any page
+- spanishdict.com: no firing words on any page
+- booking.com: no firing words on any page
+- lasvegasadvisor.com: no firing words on any page
+- harryreidairport.com: no firing words on any page
+- clayco-op.square.site: no firing words on any page
+- tucsonclayco-op.com: no firing words on any page
+- superpages.com: no firing words on any page
+- southwestgalleries.com: The location is in Arizona, not Nevada.
+- alexandriaclaycoop.com: The provided text only mentions electric kilns and does not confirm public access to non-electric firings.
+- tripadvisor.ca: no firing words on any page
+- tucson.com: no firing words on any page
+- simple.m.wikipedia.org: no firing words on any page
+- reno.gov: no firing words on any page
+- travel.usnews.com: no firing words on any page
+- travelnevada.com: no firing words on any page
+- visitrenotahoe.com: no firing words on any page
+- visitreno.com: no firing words on any page
+- carsonca.gov: no firing words on any page
+- carson.com: no firing words on any page
+- ci.carson.ca.us: no firing words on any page
+- carsonnow.org: no firing words on any page
+- carsongifts.com: no firing words on any page
+- claycoopstpete.com: no firing words on any page
+- cityofhenderson.com: no firing words on any page
+- forumnailsgilbert.com: no firing words on any page
+- allsparks.com: no firing words on any page
+- sparks.wnba.com: no firing words on any page
+- sparkpizzaredmond.com: no firing words on any page
+- vincepitelka.com: The website does not mention any public workshops or firing services available to the public.
+- tylergulden.com: known place in ME
+- jlpottery.com: known place in CO
+- burnishclaystudio.com: known place in WA
+- elkododgechryslerjeepram.com: no firing words on any page
+- elkocity.com: no firing words on any page
+- elkoepna.com: no firing words on any page
+- flyelkonevada.com: no firing words on any page
+- exploreelko.com: no firing words on any page
+- elkodaily.com: no firing words on any page
+- elkoep.com: no firing words on any page

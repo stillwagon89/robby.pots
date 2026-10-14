@@ -219,10 +219,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09",
       "address": "2412 Stout St., Denver, CO 80205",
       "lat": 39.75341,
-      "lng": -104.98288
+      "lng": -104.98288,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "asld-art-students-league-of-denver",
@@ -279,10 +279,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-09",
       "address": "200 Grant Street, Denver, CO 80203",
       "lat": 39.71972,
-      "lng": -104.98345
+      "lng": -104.98345,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "jl-pottery-justin",
@@ -470,10 +470,10 @@
         "result": "split",
         "date": "2026-10-07"
       },
-      "auto_approved": "2026-10-09",
       "address": "2614 Pleasant Valley rd, Fort Collins, CO 80521",
       "lat": 40.57291,
-      "lng": -105.1257
+      "lng": -105.1257,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "joseph-miranda-smokestack",
@@ -711,9 +711,9 @@
       },
       "weak": false,
       "address": "427 E Colorado Ave, Colorado Springs, CO",
-      "auto_approved": "2026-10-09",
       "lat": 38.83218,
-      "lng": -104.8178
+      "lng": -104.8178,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "carbondale-clay-center",
@@ -774,9 +774,9 @@
       },
       "weak": false,
       "address": "135 Main Street, Carbondale, CO 81623",
-      "auto_approved": "2026-10-09",
       "lat": 39.40062,
-      "lng": -107.208
+      "lng": -107.208,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "groundworks-art-lab",
@@ -842,9 +842,9 @@
       },
       "weak": false,
       "address": "3750 Canfield Street, Boulder, CO 80301",
-      "auto_approved": "2026-10-09",
       "lat": 40.04191,
-      "lng": -105.24177
+      "lng": -105.24177,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "colorado-potters-guild",
@@ -1138,11 +1138,63 @@
       "access": {
         "status": "upcoming"
       },
-      "auto_approved": "2026-10-09",
       "address": "2520 Copper Ridge Dr. Springs, CO",
       "address_found": "2520 Copper Ridge Dr. Unit C2, Steamboat Springs, CO",
       "lat": 40.50552,
-      "lng": -106.85454
+      "lng": -106.85454,
+      "auto_approved": "2026-10-14"
+    },
+    {
+      "id": "center-for-the-arts-evergreen",
+      "org": "Center for the Arts Evergreen",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Evergreen",
+      "city": "Evergreen",
+      "urls": [
+        "https://evergreenarts.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Evergreen, Colorado",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://evergreenarts.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Hand-building ceramics sculpture and raku firing workshop with CAE Artist-in-Residence, M Rathsack.",
+        "url": "https://evergreenarts.org/cae/raku-critters-2-day-ceramics-workshop/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-13"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-13",
+        "key": "evergreenarts.org"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "yes",
+        "why": "page says state is CO, not KY",
+        "types": {
+          "raku": "Hand-building ceramics sculpture and raku firing workshop with CAE Artist-in-Residence, M Rathsack."
+        },
+        "state": "CO",
+        "town": "Evergreen"
+      },
+      "weak": true,
+      "lat": 39.63616,
+      "lng": -105.32146
     }
   ],
   "_removed": [
