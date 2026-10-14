@@ -81,7 +81,7 @@
         "checked": "2026-10-06",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -104,7 +104,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "denver-ceramic-studio",
@@ -138,7 +139,7 @@
         "checked": "2026-10-06",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -163,7 +164,8 @@
       "weak": false,
       "address": "369 S. Pearl, Denver, CO 80209",
       "lat": 39.70984,
-      "lng": -104.98067
+      "lng": -104.98067,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "alex-schupp-ceramics",
@@ -316,7 +318,7 @@
         "checked": "2026-10-06",
         "status": "coming_soon"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -339,7 +341,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "friend-assembly",
@@ -381,9 +384,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "The page shows outsiders can join Raku firing workshops via online sign-up or walk-up spots, with clear public access and pricing.",
+        "why": "The page text shows Friend Assembly offers a public Raku pottery workshop with online sign-ups and walk-up spots available, open to all curious creatives with no experience needed.",
         "types": {},
         "state": "CO",
         "town": "Aurora",
@@ -517,7 +520,7 @@
       "lng": -105.07701,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The site explicitly states that soda firing at Smokestack Pottery is \"open to the public to participate and put work in the kiln\" and invites people to reach out to join the soda club email list.",
         "types": {},
@@ -568,7 +571,7 @@
       "lng": -105.07498,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The site offers raku firing workshops in Loveland, CO that are open to the public to join and participate in the firing process.",
         "types": {},
@@ -622,7 +625,7 @@
         "checked": "2026-10-06",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -650,7 +653,8 @@
       "weak": false,
       "address": "3185 Sterling Cir, Boulder, CO 80301",
       "lat": 40.03233,
-      "lng": -105.22758
+      "lng": -105.22758,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "cottonwood-center-for-the-arts",
@@ -886,12 +890,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
-        "why": "The page text describes Cindy Guajardo's personal pottery studio and classes she teaches, but contains no information about public access to soda firings or any other non-electric ceramic firings at Colorado Potters Guild or elsewhere.",
+        "why": "The text is a personal blog post about the author's own work and experiences at soda firings; it contains no information about how outsiders can participate in firings at Colorado Potters Guild.",
         "types": {},
-        "state": "CO",
-        "town": "Lafayette"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "located": {
@@ -936,7 +940,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "No page text provided to verify public access, location details, or firing workshop information.",
         "types": {},
@@ -1006,7 +1010,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The page text is about Cademy, a training management platform software, not about Abi Higgins Ceramics Studio or its ceramic firing offerings. The search snippets mention a workshop but the actual page content provided contains no information about the studio, its location, or how to access any firings.",
         "types": {},
@@ -1057,7 +1061,7 @@
         "checked": "2026-10-08",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1084,7 +1088,8 @@
       },
       "address": "1001 13th Street, Steamboat Springs, CO 80487",
       "lat": 40.48955,
-      "lng": -106.84056
+      "lng": -106.84056,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "warehome-studios",
@@ -1175,7 +1180,7 @@
         ],
         "checked": "2026-10-13"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-13",
@@ -1192,9 +1197,10 @@
         "state": "CO",
         "town": "Evergreen"
       },
-      "weak": true,
+      "weak": false,
       "lat": 39.63616,
-      "lng": -105.32146
+      "lng": -105.32146,
+      "auto_approved": "2026-10-14"
     }
   ],
   "_removed": [

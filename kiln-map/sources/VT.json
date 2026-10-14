@@ -125,7 +125,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "Search snippets describe raku workshops but the actual page text is empty, so location details cannot be verified.",
         "types": {
@@ -146,7 +146,10 @@
         "date": "2026-10-08"
       },
       "access": {
-        "status": "ongoing"
+        "status": "ongoing",
+        "types": [
+          "raku"
+        ]
       }
     },
     {
@@ -189,7 +192,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The search snippets mention raku sculptures and classes, but the provided page text is empty, so there is no information about how outsiders can participate in firings.",
         "types": {},
@@ -376,7 +379,7 @@
         "checked": "2026-10-07",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -404,7 +407,8 @@
       "weak": false,
       "address": "94 Court Street, Middlebury, VT",
       "lat": 44.00629,
-      "lng": -73.1607
+      "lng": -73.1607,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "jackie-sedlock-pottery-vt",
@@ -493,14 +497,14 @@
         "how": "Classes or membership",
         "note": "Classes or membership",
         "quote": "For participation as a local artist who doesn't require housing, please contact the studio.",
-        "url": "https://www.jackiesedlock.com/wood-firing",
+        "url": "https://www.jackiesedlock.com/",
         "types": [
           "wood"
         ],
         "checked": "2026-10-09",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-09",
@@ -508,14 +512,16 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "page says state is VT, not ME",
-        "types": {},
-        "state": "VT",
+        "why": "The site offers multiple ways for outsiders to participate in wood firing: week-long programs with guesthouse accommodation ($1400/person), day visitor fees for local artists, guest artist workshops, and an invitation to contact the studio for participation options.",
+        "types": {
+          "wood": "Join us for weekly classes, retreats, wood firing, guest workshops, and short and long term residencies for beginners and professional artists."
+        },
+        "state": "",
         "town": ""
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "VT",
         "town": "Pownal",
@@ -525,7 +531,8 @@
       },
       "address": "1179 North Mason Hill Road, Pownal, VT",
       "lat": 42.75986,
-      "lng": -73.20587
+      "lng": -73.20587,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "perry-hill-pottery",
@@ -536,14 +543,14 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Vermont",
-      "city": null,
+      "region": "Waterbury",
+      "city": "Waterbury",
       "urls": [
         "https://perryhillpottery.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Waterbury, Vermont",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://perryhillpottery.com/"
@@ -568,16 +575,19 @@
         "by": "claude-haiku-4.5",
         "date": "2026-10-14",
         "verdict": "unclear",
-        "why": "The text mentions wood firing and an open studio where visitors can see the kiln and learn about wood firing, but does not explicitly state whether outsiders can participate in or book a firing workshop, class, or service.",
+        "why": "The page mentions wood firing and an open showroom with kiln visits by appointment, but does not explicitly state whether outsiders can participate in an actual firing event or only observe the kiln.",
         "types": {},
         "state": "VT",
-        "town": ""
+        "town": "Waterbury",
+        "street": "81 Town Road"
       },
       "weak": true,
       "located": {
         "osm": false,
         "date": "2026-10-14"
-      }
+      },
+      "lat": 44.33792,
+      "lng": -72.75638
     },
     {
       "id": "mary-sweeney-pottery",
@@ -624,7 +634,7 @@
         "by": "claude-haiku-4.5",
         "date": "2026-10-14",
         "verdict": "no",
-        "why": "The page text provided contains no information about public access to firings, classes, workshops, memberships, rentals, or firing services—only a product description.",
+        "why": "The page mentions Mary fires work in gas reduction, salt/soda, and wood kilns, but provides no information about public access to firings—only studio visits by appointment to see finished pottery.",
         "types": {},
         "state": "VT",
         "town": "Stowe"

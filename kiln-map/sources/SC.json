@@ -2,74 +2,6 @@
   "_note": "SC firing sources.",
   "sources": [
     {
-      "id": "sc-clay-con",
-      "org": "SC Clay Con",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
-      ],
-      "region": "Greenville",
-      "city": "Greenville",
-      "urls": [
-        "https://www.greenvillearts.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://www.greenvillearts.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "On September 15-16, 2023, Doug Gray, with the assistance of Sandy Singletary, will demonstrate the exciting alternative firing techniques Saggar, Obvara, and Naked Raku processes in a hands-on workshop.",
-        "url": "https://www.greenvillearts.com/arts-calendar/sc-clay-con-fall-workshop-raku/",
-        "types": [
-          "raku",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07",
-        "status": "past_only"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "greenvillearts.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "no",
-        "why": "The page text is from the Metropolitan Arts Council website, which is a grants and arts advocacy organization, not a ceramics studio or firing facility. The search snippets mention 'SC Clay Con Fall Workshop — Raku' and 'Clay Studio Monthly Membership,' but these do not appear in the actual page text provided, and the page text contains no information about ceramic firings, raku, or public access to firing sessions.",
-        "types": {},
-        "state": "SC",
-        "town": "Greenville",
-        "street": "16 Augusta Street"
-      },
-      "located": {
-        "state": "SC",
-        "town": "Greenville",
-        "score": 45,
-        "osm": false,
-        "date": "2026-10-13"
-      },
-      "weak": true,
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "address": "16 Augusta Street, Greenville, SC 29601",
-      "lat": 34.84412,
-      "lng": -82.40492
-    },
-    {
       "id": "rob-gentry-s-firesong-anagama-kiln",
       "org": "Rob Gentry’s FireSong Anagama Kiln",
       "kind": "studio",
@@ -167,9 +99,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
-        "why": "Search snippets mention a soda firing workshop but the actual page text is empty, so cannot verify public access details or location information.",
+        "why": "The search snippet mentions a soda firing workshop but the actual page text is empty, so I cannot verify public access details or location information from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -228,7 +160,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The page mentions 'Alternative Firing Workshops' and 'raku kilns' but provides no specific sentence showing how outsiders can book or join a raku or alternative firing workshop.",
         "types": {},
@@ -292,9 +224,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
-        "why": "The page text is from Clemson World Magazine, a university publication, not the Clemson Art Department itself, and contains no information about public access to ceramic firings or any firing workshops, classes, or services.",
+        "why": "The page text is from Clemson World Magazine, a university publication about Clemson University, not the Clemson Art Department itself, and contains only a brief mention of an anagama kiln built by faculty and students with no information about public access to firings.",
         "types": {},
         "state": "SC",
         "town": "Clemson",
@@ -406,13 +338,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-13",
-        "verdict": "yes",
-        "why": "The text describes a free, public, self-guided weekend tour where outsiders can attend the wood-fired Edgefield Groundhog Kiln opening and pottery sales at multiple studios.",
+        "date": "2026-10-14",
+        "verdict": "no",
+        "why": "The text describes a pottery tour and sale event organized by the guild, but provides no information about public access to participate in any ceramic firing—only mentions viewing a kiln firing and attending pottery sales.",
         "types": {},
         "state": "SC",
-        "town": "Edgefield",
-        "street": "79 Wood Duck Drive, Edgefield"
+        "town": "Edgefield"
       },
       "weak": true,
       "located": {
@@ -451,7 +382,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-13",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "No page text provided; cannot verify public access to non-electric ceramic firings.",
         "types": {},
@@ -463,63 +394,6 @@
         "osm": false,
         "date": "2026-10-13"
       }
-    },
-    {
-      "id": "n-a",
-      "org": "N/A",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Charleston",
-      "city": "Charleston",
-      "urls": [
-        "https://www.postandcourier.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://www.postandcourier.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "The upcoming firing of the Goldberg Kiln can be characterized as a fanfare of sorts, signaling the opening of the 15th Annual Heritage Trail Pottery Tour, this year scheduled for April 25 and 26.",
-        "url": "https://www.postandcourier.com/aikenstandard/lifestyle/arts-and-humanities-heritage-pottery-tour-is-around-the-corner/article_699a0376-177b-466f-890e-2cc3ea57bd2d.html",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-13"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "postandcourier.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-13",
-        "verdict": "unclear",
-        "why": "The article describes a Heritage Trail Pottery Tour with a groundhog kiln firing and pottery locations open April 25-26, but does not explicitly state whether outsiders can participate in the firing itself or only view the unloading and purchase finished wares.",
-        "types": {},
-        "state": "SC",
-        "town": "Edgefield",
-        "street": "79 Wood Duck Drive, Edgefield"
-      },
-      "weak": true,
-      "located": {
-        "state": "SC",
-        "town": "Charleston",
-        "score": 20,
-        "osm": true,
-        "date": "2026-10-13"
-      },
-      "address": "148 Williman Street, Charleston, SC 29403"
     }
   ],
   "_removed": [
@@ -558,6 +432,14 @@
     {
       "id": "ben-owen-pottery",
       "why": "Its own pages give an address in NC (Seagrove), not SC. Moved. (2026-10-13)"
+    },
+    {
+      "id": "sc-clay-con",
+      "why": "Second check (claude-haiku-4.5): The page text is from greenvillearts.com (Metropolitan Arts Council), which is an arts advocacy and grants organization, not a ceramics studio or firing facility. The search snippets mention 'SC Clay Con Fall Workshop — Raku' and 'Clay Studio Monthly Membership,' but these are not described in the actual page text provided, which contains only information about MAC's mission, staff, board, and membership benefits unrelated to ceramic firings. (2026-10-14)"
+    },
+    {
+      "id": "n-a",
+      "why": "Second check (claude-haiku-4.5): The Post and Courier is a news website/directory that does not itself operate ceramic firings; it only mentions a Heritage Trail Pottery Tour and Goldberg Kiln firing as news items without providing details on public access or booking information. (2026-10-14)"
     }
   ]
 }

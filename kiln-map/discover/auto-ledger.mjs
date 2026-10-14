@@ -27,7 +27,9 @@ for (const ST of process.argv.slice(2).map((s) => s.toUpperCase())) {
     if (JUNK.test(p.key) || otherHosts.has(p.key.replace(/^https?:\/\/(www\.)?/, "").split("/")[0])) continue;
     const text = Object.values(p.pages).join(" ") + " " + p.hits.map((h) => h.title + " " + h.snippet).join(" ");
     const g = gate({ ...j, decision: "qualifies" }, text);
-    if (!g.supported.length) continue;
+    // RELAX=1: keep candidates whose cached (trimmed) pages name no firing type; verify.mjs --live re-reads their whole site and decides.
+    if (!g.supported.length && !process.env.RELAX) continue;
+    if (!g.supported.length) g.supported = (j.firing_types || []).filter((t) => t !== "other");
     if ((j.state || "").toUpperCase() && (j.state || "").toUpperCase() !== ST && !inState.test(text)) continue;
     const name = (j.name && !/^[a-z0-9.-]+\.[a-z]{2,}$/i.test(j.name) ? j.name : p.key.replace(/\.(com|org|net|edu|studio|art)$/, "")).replace(/\|/g, "/");
     const dup = rows.find((r) => r.name.toLowerCase() === name.toLowerCase());

@@ -616,7 +616,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page text from search snippets shows soda firing workshops open to the broader community: 'We welcome Potters' Studio Members and Students to workshops and also offer a limited number of slots to potters in the broader community who have a grasp of the basics of gas reduction firing.'",
         "types": {},
@@ -999,7 +999,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The snippets mention gas reduction firings and classes with firing access, but the actual page text is empty, so I cannot verify the location details or confirm public access terms.",
         "types": {
@@ -1390,7 +1390,7 @@
       "lng": -121.07399,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "Auburn Clay Arts offers membership with access to gas kiln firing to cone 10/11 in a reduction atmosphere, which is a non-electric gas-reduction firing available to members.",
         "types": {
@@ -1409,7 +1409,7 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": true
+      "weak": false
     },
     {
       "id": "american-museum-of-ceramic-art-amoca",
@@ -1852,7 +1852,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "Page text is empty; only search snippets mention raku workshop coming soon with a waitlist, but no details about public access, location, or how to join.",
         "types": {},
@@ -2224,7 +2224,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page shows outsiders can join pottery classes and workshops, and mentions raku firing workshops and gas kiln reduction firing workshops where outsiders can participate.",
         "types": {
@@ -2238,7 +2238,7 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": true,
+      "weak": false,
       "lat": 34.05369,
       "lng": -118.24277
     },
@@ -2402,7 +2402,7 @@
         "checked": "2026-10-08",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -2410,9 +2410,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "The site offers a Raku Firing Horsehair Workshop on 4/18/2026 that outsiders can book as a paid workshop ($150) with a maximum capacity of 10 participants.",
+        "why": "Clay Play & Arts offers public raku firing workshops that outsiders can book and attend for a fee.",
         "types": {
           "raku": "Experience the magic of horse hair raku in this hands-on, community-focused workshop!"
         },
@@ -2432,49 +2432,10 @@
         "result": "agree-yes",
         "date": "2026-10-08"
       },
-      "weak": true,
+      "weak": false,
       "lat": 34.23456,
-      "lng": -118.53693
-    },
-    {
-      "id": "san-diego-potters-8217-guild",
-      "org": "San Diego Potters&#8217; Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "San Diego",
-      "city": "San Diego",
-      "urls": [
-        "https://www.sandiegopottersguild.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "San Diego, California",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.sandiegopottersguild.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "sandiegopottersguild.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-13",
-        "verdict": "unclear",
-        "why": "page says state is CA, not ND",
-        "types": {},
-        "state": "CA",
-        "town": "San Diego"
-      },
-      "weak": true,
-      "lat": 32.71571,
-      "lng": -117.16383
+      "lng": -118.53693,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "kazegama",

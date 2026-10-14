@@ -35,7 +35,7 @@
         "checked": "2026-10-07",
         "status": "coming_soon"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -62,7 +62,8 @@
         "osm": false,
         "date": "2026-10-14"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "contemporary-arts-of-tulsa-c-a-t",
@@ -95,7 +96,7 @@
       "lng": -95.99275,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "Search snippets show raku workshops but no page text provided to verify location details or confirm public access terms.",
         "types": {
@@ -116,7 +117,10 @@
         "date": "2026-10-08"
       },
       "access": {
-        "status": "ongoing"
+        "status": "ongoing",
+        "types": [
+          "raku"
+        ]
       }
     },
     {
@@ -159,10 +163,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "no",
-        "why": "The page text is empty; no information about Paseo Pottery's location, address, or firing access is provided.",
-        "types": {},
+        "date": "2026-10-14",
+        "verdict": "unclear",
+        "why": "The search snippets describe a raku class at Paseo Pottery with public participation, but the page text itself is empty, so location details cannot be verified from the actual page.",
+        "types": {
+          "raku": "Experience the excitement of Raku firing! Choose your glaze and decorate a pottery vessel to create your own work of art. Then suit up and help with the firing process—removing red-hot pots from the kiln, placing them in barrels to smoke, and plunging them into water to cool."
+        },
         "state": "",
         "town": ""
       },
@@ -212,7 +218,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -240,73 +246,8 @@
       },
       "address": "11 NW 11th St., Oklahoma City, OK 73103",
       "lat": 35.48053,
-      "lng": -97.51317
-    },
-    {
-      "id": "3rd-street-clayworks",
-      "org": "3rd Street Clayworks",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Tulsa",
-      "city": "Tulsa",
-      "urls": [
-        "https://www.clayworkstulsa.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://www.clayworkstulsa.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "They will demonstrate various firing techniques such as raku, sawdust and dung.",
-        "url": "http://www.clayworkstulsa.com/classes",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "clayworkstulsa.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "The page mentions raku and sawdust firing in a search snippet about TCC's ART 2263 course, but the actual page text only describes wheel-throwing classes with glazing and firing included—no specific mention of raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings that outsiders can join.",
-        "types": {},
-        "state": "OK",
-        "town": "Tulsa",
-        "street": "3121 Charles Page Blvd"
-      },
-      "weak": true,
-      "located": {
-        "state": "OK",
-        "town": "Tulsa",
-        "score": 14,
-        "osm": true,
-        "date": "2026-10-14"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "address": "3121 Charles Page Blvd, Tulsa, OK",
-      "lat": 36.1512,
-      "lng": -96.0252
+      "lng": -97.51317,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "oil-clay-studio",
@@ -350,9 +291,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
-        "why": "The page text mentions ceramics classes and kilns but provides no information about public access to non-electric ceramic firings like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
+        "why": "The page text from normanfirehouse.com contains no information about non-electric ceramic firings, raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings that outsiders can access.",
         "types": {},
         "state": "OK",
         "town": "Norman",
@@ -408,7 +349,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -435,7 +376,8 @@
       },
       "address": "1001 S DUCK STREET, STILLWATER, OK 74074",
       "lat": 36.11098,
-      "lng": -97.06179
+      "lng": -97.06179,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "the-hambidge-center",
@@ -477,11 +419,9 @@
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "Ceramicists can participate in the anagama kiln firing by entering a lottery sign-up, and visitors can observe for free with advance arrangements by contacting the center.",
-        "types": {
-          "wood": "Ceramicists are invited to participate in an anagama kiln firing event where they glaze, load, and fire their work over a three-day period, selected via lottery."
-        },
+        "verdict": "no",
+        "why": "OpenCall is a directory and matching service for art opportunities, not a venue that hosts ceramic firings; the search snippet mentions an anagama firing at The Hambidge Center, but the page text provided is only about OpenCall's website and services, with no information about The Hambidge Center's location, address, or how to participate in their firings.",
+        "types": {},
         "state": "",
         "town": ""
       },
@@ -490,64 +430,6 @@
         "osm": false,
         "date": "2026-10-14"
       }
-    },
-    {
-      "id": "ceramic-cottage",
-      "org": "Ceramic Cottage",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Tulsa",
-      "city": "Tulsa",
-      "urls": [
-        "https://ceramic-cottage.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-13; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://ceramic-cottage.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Firing of customer pieces (performed in-house)",
-        "url": "https://ceramic-cottage.com/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-13"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "ceramic-cottage.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The page mentions firing services for customer pieces performed in-house, but does not specify whether outsiders can submit pieces or if this is limited to existing customers/students.",
-        "types": {},
-        "state": "OK",
-        "town": "Tulsa"
-      },
-      "weak": true,
-      "located": {
-        "state": "OK",
-        "town": "Tulsa",
-        "score": 5,
-        "osm": true,
-        "date": "2026-10-14"
-      },
-      "address": "748 S Wheeling Avenue, Tulsa, OK 74104",
-      "lat": 36.07931,
-      "lng": -95.96345
     }
   ],
   "_removed": [
@@ -582,6 +464,14 @@
     {
       "id": "university-of-montevallo-ok",
       "why": "Second check (claude-haiku-4.5): The text states the kiln is fired 'as part of the university's ceramics classes,' indicating access is limited to enrolled students, not the general public. (2026-10-14)"
+    },
+    {
+      "id": "3rd-street-clayworks",
+      "why": "Second check (claude-haiku-4.5): The page mentions firing techniques like raku and sawdust firing in a search snippet about a Tulsa Community College course, but the actual page text only describes wheel-throwing classes with glazing and firing included as part of standard pottery instruction, with no specific mention of public access to raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings as distinct workshops or services. (2026-10-14)"
+    },
+    {
+      "id": "ceramic-cottage",
+      "why": "Second check (claude-haiku-4.5): The page describes a supplies shop that offers firing services for customer pieces and classes, but provides no details about what types of firings are performed or how outsiders can access them. (2026-10-14)"
     }
   ]
 }

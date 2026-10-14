@@ -344,12 +344,14 @@ function whenText(o) {
 }
 
 function placeEvidence(p) {
-  if (!p.place_summary && !(p.firing_evidence || []).length) return "";
+  const notes = [p.evidence_level === "limited" ? "Limited evidence: we have not confirmed from their website that the public can join a non-electric firing here. Check with them first." : "", p.audience_note || ""].filter(Boolean).map((t) => `<p class="kf-ai-body" style="color:var(--cobalt-muted)">${esc(t)}</p>`).join("");
+  if (!p.place_summary && !(p.firing_evidence || []).length) return notes ? `<div class="kf-ai">${notes}<p class="kf-ai-foot">${flagBtn()}</p></div>` : "";
   const lines = (p.firing_evidence || []).filter((f) => state.type === "all" || f.firing_type === state.type)
     .map((f) => `<li><strong>${esc(TYPE_LABEL[f.firing_type] || f.firing_type)}:</strong> ${f.sentence ? `${esc(f.sentence)} ` : "Source: "}<a href="${esc(f.url)}" target="_blank" rel="noopener">See the exact text ${ext}</a></li>`).join("");
   return `<div class="kf-ai">
     <p class="kf-ai-head"><span class="kf-ai-dot"></span>Clay.AI summary of their website</p>
     ${p.place_summary ? `<p class="kf-ai-body">${esc(p.place_summary)}</p>` : ""}
+    ${notes}
     ${lines ? `<ul class="kf-evidence">${lines}</ul>` : ""}
     <p class="kf-ai-foot">${p.last_checked ? `checked ${esc(fmtDay(p.last_checked))} · ` : ""}${flagBtn()}</p>
   </div>`;

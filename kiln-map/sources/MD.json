@@ -159,9 +159,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "The page states 'I offer Alternative Firing workshops and private lessons at my studio. Send me a message If interested in these and I'll get back with you to discuss your interests,' providing an open invitation for outsiders to contact them to join firings.",
+        "why": "The page states 'I offer Alternative Firing workshops and private lessons at my studio. Send me a message If interested in these and I'll get back with you to discuss your interests,' providing a clear invitation for outsiders to contact them to join workshops and private lessons in alternative firing techniques including raku, pit fire, and saggar.",
         "types": {},
         "state": "MD",
         "town": "Huntingtown"
@@ -222,7 +222,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The search snippet mentions a raku and pit firing workshop, but the page text provided is empty, so I cannot verify the location details or confirm public access from the actual page content.",
         "types": {},
@@ -283,7 +283,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The search snippet mentions a workshop with pit firing and naked raku, but the actual page text provided is empty, so I cannot verify the details or confirm public access from the page itself.",
         "types": {},
@@ -342,9 +342,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "The search snippet describes a two-part workshop where outsiders can participate in pit-fired pottery, a non-electric ceramic firing open to the public.",
+        "why": "The search snippet explicitly describes a two-part workshop where outsiders can participate in pit-fired pottery, a non-electric ceramic firing technique.",
         "types": {},
         "state": "MD",
         "town": "Jefferson",
@@ -367,70 +367,6 @@
       "address": "3630 Poffenberger Rd, Jefferson, MD 21755",
       "lat": 39.3711,
       "lng": -77.54343
-    },
-    {
-      "id": "annapolis-moms",
-      "org": "Annapolis Moms",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Gambrills",
-      "city": "Gambrills",
-      "urls": [
-        "https://annapolismomsmedia.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Gambrills, Maryland",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://annapolismomsmedia.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Pieces will be available for you to personally glaze, have fired in under an hour, and take home.",
-        "url": "https://annapolismomsmedia.com/event/community-raku-firing-event/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "annapolismomsmedia.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "no",
-        "why": "Annapolis Moms is a community events directory and media site with no address or firing facility of its own; the search snippet mentions a raku firing event but the page text provided contains no details about how to access it, no facility address, and no information about the Arts Lab location.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "MD",
-        "town": "Gambrills",
-        "score": 5,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "lat": 39.09635,
-      "lng": -76.65491
     },
     {
       "id": "visarts-md",
@@ -534,7 +470,7 @@
         "checked": "2026-10-08",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -561,7 +497,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "address": "2023 from 10am-3pm 22201 Pondsville Rd., Smithsburg, MD"
+      "address": "2023 from 10am-3pm 22201 Pondsville Rd., Smithsburg, MD",
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "joe-hicks-ceramics",
@@ -673,6 +610,10 @@
     {
       "id": "baltimore-clayworks-md",
       "why": "Second check (claude-haiku-4.5): This is a directory/blog website (Clay Stuff) that lists pottery studios but does not itself run any firings or offer public access to non-electric ceramic firings. (2026-10-09)"
+    },
+    {
+      "id": "annapolis-moms",
+      "why": "Second check (claude-haiku-4.5): Annapolis Moms is a community media/events directory website with no address or location of its own, and the search snippet mentions a raku firing event but the page text provided does not contain any details about how to access or participate in that firing. (2026-10-14)"
     }
   ]
 }

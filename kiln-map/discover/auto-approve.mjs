@@ -24,7 +24,7 @@ for (const f of fs.readdirSync(path.join(KM, "sources")).filter((f) => /^[A-Z]{2
     if (s.review !== "pending" || s.weak || !s.verify || s.hold || s.needs_recheck || s.flag_hold) continue;
     const q = Object.values(s.verify.types || {}).join(" ");
     const stated = (s.verify.state || "").toUpperCase() === ST || (s.verify.state || "").toLowerCase() === stateName(ST).toLowerCase() || s.located?.state === ST;
-    const why = s.verify.verdict !== "yes" ? "not yes" : !Object.keys(s.verify.types || {}).length ? "no type" : !stated ? "state" : s.kind === "college" ? "college" : !nameMatchesHost(s.org, hostOf(s.contact?.website)) ? "name not on its own site" : !(PART.test(q) || s.agree?.result?.startsWith("agree-yes")) ? "mention only" : null;
+    const why = s.verify.verdict !== "yes" ? "not yes" : !Object.keys(s.verify.types || {}).length ? "no type" : !stated ? "state" : !nameMatchesHost(s.org, hostOf(s.contact?.website)) ? "name not on its own site" : null; // colleges and "mention only" places are approved too (Robby 2026-10-14): colleges show as students-only locations
     if (why) { skipped[why] = (skipped[why] || 0) + 1; continue; }
     n++;
     if (APPLY) { s.review = "approved"; s.auto_approved = new Date().toISOString().slice(0, 10); if (s.access?.status === "past_only" && !s.access.note) s.access.note = "Has hosted firings here before. Check with them for the next one."; }

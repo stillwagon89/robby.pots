@@ -100,7 +100,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The search snippet mentions a Raku Ceramic Workshop with live firing demonstration, but the full page text provided does not contain details about how to register, book, or join this specific workshop.",
         "types": {},
@@ -296,7 +296,7 @@
         "checked": "2026-10-07",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -323,7 +323,8 @@
       },
       "address": "500 W Hwy 61, Grand Marais, MN 55604",
       "lat": 47.74909,
-      "lng": -90.34037
+      "lng": -90.34037,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "the-workshop-mpls",
@@ -367,7 +368,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The text shows outsiders can access soda and gas kiln firings via a firing services appointment system.",
         "types": {
@@ -389,7 +390,7 @@
         "result": "agree-yes",
         "date": "2026-10-08"
       },
-      "weak": true
+      "weak": false
     },
     {
       "id": "nemaa",
@@ -433,9 +434,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
-        "why": "The search snippets mention raku and soda kilns and welcome the community to firings, but the actual page text is empty, so I cannot verify specific ways for outsiders to participate (class, workshop, membership, rental, firing service, or contact invitation).",
+        "why": "The search snippets mention raku and soda kilns with 'we welcome the community to our firings' but the actual page text provided does not contain this information—only directory and membership pages are shown.",
         "types": {},
         "state": "MN",
         "town": "Minneapolis"
@@ -483,7 +484,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The page describes classes and a gallery but provides no information about public access to any non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
         "types": {},

@@ -379,7 +379,7 @@
       "lng": -84.28093,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "LeMoyne Arts offers pit firing and saggar firing workshops open to non-members for $100 tuition, with clear instructions for participation.",
         "types": {
@@ -399,7 +399,7 @@
         "result": "agree-yes",
         "date": "2026-10-08"
       },
-      "weak": true
+      "weak": false
     },
     {
       "id": "super-awesome-cool-pottery",
@@ -625,7 +625,7 @@
       "lng": -80.05329,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "Search snippets mention 'Raku and Alternative Firing Techniques' class but the actual page text is empty, so I cannot verify the details or confirm public access.",
         "types": {},
@@ -1040,7 +1040,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page advertises a soda firing workshop open to the public for $175, scheduled for May 6th in Melbourne, Florida.",
         "types": {},
@@ -1096,7 +1096,7 @@
         "checked": "2026-10-08",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1124,7 +1124,8 @@
       "weak": false,
       "address": "2025 3rd Avenue South, St. Petersburg, FL 33712",
       "lat": 27.7685,
-      "lng": -82.66084
+      "lng": -82.66084,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "element-art-center-fl",
@@ -1166,7 +1167,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The page describes a Beach Pit Firing Course but does not provide clear information about how to sign up, book, or join (no registration link, pricing, dates, or contact instructions visible in the provided text).",
         "types": {
@@ -1196,14 +1197,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Florida",
-      "city": null,
+      "region": "Ashdown Forest",
+      "city": "Ashdown Forest",
       "urls": [
         "https://theclay.studio/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Ashdown Forest, Florida",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://theclay.studio/"
@@ -1227,14 +1228,17 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "The text shows outsiders can join Raku and pit/barrel/saggar firings via workshops open to students of all abilities and the general public.",
-        "types": {},
+        "why": "The page lists Raku Experience and Saggar Barrel Firing as outdoor firings available as workshops for public participation, with detailed descriptions showing outsiders can join these non-electric firings.",
+        "types": {
+          "raku": "This workshop provides a wonderful opportunity for a hands-on taster experience with Raku firing."
+        },
         "state": "",
-        "town": ""
+        "town": "Ashdown Forest",
+        "street": "Barnsgate Manor Vineyard"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": false,
         "date": "2026-10-09"
@@ -1244,7 +1248,9 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "lat": 27.39386,
+      "lng": -82.47867
     },
     {
       "id": "alison-and-abi",
@@ -1288,9 +1294,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "The search snippets show Alison and Abi offer 'Raku, Saggar, Barrel, Copper Matte & Horsehair Firing Weekend Workshops 2025' as bookable courses with verified customer reviews, indicating public access to multiple non-electric firing types.",
+        "why": "The search snippets show Alison and Abi offer 'Raku, Saggar, Barrel, Copper Matte & Horsehair Firing Weekend Workshops 2025' that people can book and attend, with multiple verified customer reviews of participants who completed the workshops.",
         "types": {
           "raku": "Raku, Saggar, Barrel, Copper Matte & Horsehair Firing Weekend Workshops 2025",
           "pit_barrel_saggar": "Raku, Saggar, Barrel, Copper Matte & Horsehair Firing Weekend Workshops 2025"
@@ -1309,7 +1315,7 @@
         "result": "agree-yes",
         "date": "2026-10-08"
       },
-      "weak": true
+      "weak": false
     },
     {
       "id": "gulf-coast-kiln-walk-society",
@@ -1413,7 +1419,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "No page text provided to verify public access to non-electric ceramic firings.",
         "types": {},
@@ -1541,7 +1547,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page text includes a Wood Firing Workshops 2026 section that explicitly describes how outsiders can participate in wood firing by reserving kiln space and paying a workshop fee.",
         "types": {
@@ -1602,7 +1608,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page lists bookable raku workshops and private raku firing workshops open to the public with pricing and booking options.",
         "types": {

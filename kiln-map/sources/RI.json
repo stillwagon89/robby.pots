@@ -75,7 +75,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page explicitly offers raku workshops on August 29th & October 3rd 2026 with an invitation to email to book a spot, and describes pit firing workshops where outsiders can participate.",
         "types": {
@@ -95,7 +95,7 @@
         "result": "agree-yes",
         "date": "2026-10-08"
       },
-      "weak": true
+      "weak": false
     },
     {
       "id": "riblogger",
@@ -158,64 +158,6 @@
       "lat": 41.66038,
       "lng": -71.45589,
       "auto_approved": "2026-10-14"
-    },
-    {
-      "id": "newport-art-museum",
-      "org": "Newport Art Museum",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Newport",
-      "city": "Newport",
-      "urls": [
-        "https://newportartmuseum.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://newportartmuseum.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "In this three day workshop, we will explore the ancient Japanese firing technique of Raku.",
-        "url": "https://newportartmuseum.org/classes/raku-workshop/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-13"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "newportartmuseum.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-13",
-        "verdict": "unclear",
-        "why": "The search snippets describe a raku workshop but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "RI",
-        "town": "Newport",
-        "score": 70,
-        "osm": true,
-        "date": "2026-10-13"
-      },
-      "address": "76 Bellevue Avenue, Newport, RI 02840",
-      "lat": 41.48552,
-      "lng": -71.30814
     }
   ],
   "_removed": [
@@ -234,6 +176,10 @@
     {
       "id": "studio-channel-islands",
       "why": "Its own pages give an address in CA (Camarillo), not RI. Moved. (2026-10-07)"
+    },
+    {
+      "id": "newport-art-museum",
+      "why": "Second check (claude-haiku-4.5): The page text mentions a Raku Workshop in search snippets but provides no current class listings, dates, or enrollment information on the actual pages provided. The current page content shows only watercolor and other non-firing workshops, with no accessible raku or ceramic firing classes listed. (2026-10-14)"
     }
   ]
 }

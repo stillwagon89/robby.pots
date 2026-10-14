@@ -33,7 +33,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -67,7 +67,8 @@
       },
       "address": "724 Adams Street, New Orleans, LA 70118",
       "lat": 29.94164,
-      "lng": -90.12982
+      "lng": -90.12982,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "nclac",
@@ -98,7 +99,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The search snippet mentions a raku firing workshop, but the page text provided does not contain details about how to join or book this firing.",
         "types": {},
@@ -156,9 +157,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "no",
-        "why": "The page text mentions horse-hair raku firing in a search snippet but provides no information about how outsiders can participate in any firing; the site is primarily a shop and design studio with courses mentioned but no firing workshops or public access details provided.",
+        "date": "2026-10-14",
+        "verdict": "unclear",
+        "why": "The search snippet mentions horse-hair raku firing scheduled for Apr 28, 2026, but the page text provided does not contain details about how outsiders can participate in this or any other non-electric firing, nor does it include the studio's location details.",
         "types": {},
         "state": "",
         "town": "Bauska"

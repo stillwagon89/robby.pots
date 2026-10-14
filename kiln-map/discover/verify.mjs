@@ -190,7 +190,7 @@ if (APPLY) {
         const pg = Object.entries(j.p.pages).find(([, t]) => norm(t).includes(q));
         if (pg && j.s.access) j.s.access.url = pg[0];
       }
-      if (j.v.verdict !== "yes" || !types.length || !(j.v.town || j.s.city)) j.s.weak = true;
+      if (j.v.verdict !== "yes" || !types.length || !(j.v.town || j.s.city)) j.s.weak = true; else if (LIVE) j.s.weak = false; // a live read that confirms type, public access and town clears an earlier "weak"
       if (j.v.town && !j.s.city) { j.s.city = j.v.town; j.s.region = j.v.town; j.s.geocode = `${j.v.town}, ${stateName(j.ST)}`; }
     }
   }

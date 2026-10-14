@@ -1,1018 +1,217 @@
 [
  {
-  "st": "ID",
-  "id": "n-a-id",
+  "st": "NM",
+  "id": "rottenstone-gallery",
   "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The page describes pit-firing pottery workshops taught by Jake Hartner, an alumnus, but does not clearly state whether outsiders can register or participate, only that he 'teaches' classes and students 'learn' in workshops.",
+  "verdict": "yes",
+  "why": "The page explicitly states 'We are open to having any interested potters join in the community and upcoming firings. Please contact us,' providing an open invitation for outsiders to participate in wood-fired salt and wood-fired firings.",
+  "town": "Tres Piedras",
+  "state": "NM",
+  "street": "",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "dakota-potters-supply-nm",
+  "model": "claude-haiku-4.5",
+  "verdict": "no",
+  "why": "The page text is from Shelby Prindaville's personal art portfolio website and contains only a blog post about attending a raku workshop at Dakota Potters Supply; it does not provide information about how outsiders can sign up for, book, or participate in firings at Dakota Potters Supply itself.",
   "town": "",
-  "state": "ID",
-  "street": "",
-  "types": {
-   "pit_barrel_saggar": "They learn how to fire their work by building a pit fire, a method that can reach up to 2,010 degrees Fahrenheit, which transforms their work into functional ceramics pieces."
-  }
- },
- {
-  "st": "ID",
-  "id": "art-on-the-green-festival",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The text describes a past festival where raku demonstrations occurred, but provides no information about public access to participate in firings—only that visitors watched demonstrations by professional potters.",
-  "town": "Coeur d'Alene",
-  "state": "ID",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "ID",
-  "id": "weeping-willow-pottery-studio",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page text mentions pottery classes and lessons but does not describe any non-electric ceramic firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) that outsiders can participate in.",
-  "town": "Sandpoint",
-  "state": "ID",
-  "street": "1428 North Boyer Ave",
-  "types": {}
- },
- {
-  "st": "ID",
-  "id": "boulder-mountain-clayworks",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The text mentions raku pottery and a gas kiln but does not explicitly state how outsiders can access or participate in raku or gas-reduction firings.",
-  "town": "Ketchum",
   "state": "",
   "street": "",
   "types": {}
  },
  {
-  "st": "ID",
-  "id": "wildwood-pottery",
+  "st": "NM",
+  "id": "the-georgia-o-keeffe-museum",
   "model": "claude-haiku-4.5",
   "verdict": "no",
-  "why": "The text mentions pit firing only as a descriptive statement about their products, with no indication that outsiders can participate in workshops, classes, memberships, rentals, or firing services.",
-  "town": "",
-  "state": "ID",
-  "street": "",
+  "why": "The page describes a coil pottery workshop where pieces are fired by an instructor after the class, but does not specify the firing type (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) and does not show public access to participate in the actual firing itself.",
+  "town": "Santa Fe",
+  "state": "NM",
+  "street": "217 Johnson St, Santa Fe, NM",
   "types": {}
  },
  {
-  "st": "ID",
-  "id": "gledhillpottery",
+  "st": "NM",
+  "id": "make-santa-fe",
   "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The text describes the wood kiln and firing process in detail but does not explicitly state how outsiders can participate (no mention of workshops, classes, memberships, rentals, firing services, or invitations to join).",
-  "town": "Payette",
-  "state": "ID",
-  "street": "",
+  "verdict": "no",
+  "why": "The page describes electric kilns (bisque, glaze, glass slumping, test firing) and a raku kiln, but provides no evidence that outsiders can participate in raku or any non-electric ceramic firing; classes and badges are for general tool use, not specific firing participation.",
+  "town": "Santa Fe",
+  "state": "NM",
+  "street": "2879 All Trades Rd, Santa Fe, NM 87507",
   "types": {}
  },
  {
-  "st": "KY",
-  "id": "cotuit-center-for-the-arts",
+  "st": "NM",
+  "id": "ceramica-abq",
   "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "page says state is MA, not KY",
-  "town": "Cotuit",
-  "state": "MA",
-  "street": "",
-  "types": {
-   "raku": "Experience the excitement of raku firing in this beginner friendly 6 hour workshop."
-  }
+  "verdict": "no",
+  "why": "The page text shows only electric kiln firing (Cone 5 Electric) with no mention of raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
+  "town": "Albuquerque",
+  "state": "NM",
+  "street": "141 Osuna Rd NW",
+  "types": {}
  },
  {
-  "st": "KY",
-  "id": "danvilleky",
+  "st": "NM",
+  "id": "alexadamsclaywork",
   "model": "claude-haiku-4.5",
   "verdict": "yes",
-  "why": "The page shows a public class where outsiders ages 14+ can join to prepare pottery for an anagama (wood) firing, with registration available.",
-  "town": "Danville",
+  "why": "page says state is KY, not NM",
+  "town": "Louisville",
   "state": "KY",
-  "street": "",
+  "street": "2829 South Fourth Street",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "creativity-warehouse",
+  "model": "claude-haiku-4.5",
+  "verdict": "no",
+  "why": "The page describes pottery painting, wheel throwing, hand-building, candle-making, and glass workshops, but contains no mention of raku, wood-firing, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
+  "town": "Albuquerque",
+  "state": "NM",
+  "street": "1950 Juan Tabo Boulevard Northeast",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "coyote-clay",
+  "model": "claude-haiku-4.5",
+  "verdict": "yes",
+  "why": "Outsiders can join 6-week pottery classes and studio rental with access to raku and soda firings.",
+  "town": "Albuquerque",
+  "state": "NM",
+  "street": "5107 Edith Blvd NE",
   "types": {
-   "wood": "Join us as we prepare for the historic April 2026 firing of the newly restored Anagama kiln."
+   "raku": "Firing fees are $2.50 per pound; this covers bisque firing, use of glazes and glaze firing in the raku or electric kilns",
+   "soda": "(2.00 per pound for soda firing when available)"
   }
  },
  {
-  "st": "KY",
-  "id": "broadway-clay",
+  "st": "NM",
+  "id": "green-river-pottery",
   "model": "claude-haiku-4.5",
   "verdict": "yes",
-  "why": "The text describes a Soda Firing Workshop where students can participate in applying glazes, loading pots, and firing in a soda kiln.",
-  "town": "Frankfort",
-  "state": "KY",
+  "why": "The page explicitly offers 'one-time classes for travelers,' 'weekly classes & workshops,' and 'Private one-time pottery class' to the public, and mentions firing in a reduction process at high temperature.",
+  "town": "Santa Fe",
+  "state": "NM",
+  "street": "Lena Street",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "cone-zero-ceramics",
+  "model": "claude-haiku-4.5",
+  "verdict": "no",
+  "why": "The text describes classes, workshops, and open studio access but mentions only generic firing fees without specifying any non-electric firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction).",
+  "town": "Catskill",
+  "state": "NY",
+  "street": "111 Water St, Catskill, NY 12414",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "taos-clay-studio",
+  "model": "claude-haiku-4.5",
+  "verdict": "no",
+  "why": "CySoda is a blog/directory about drinking sodas and soda beverages, not a pottery studio offering ceramic firings; the search snippets mentioning Taos Clay Studio are unrelated to the actual website content provided.",
+  "town": "Apalachicola",
+  "state": "FL",
+  "street": "897 Us HWY 98, Apalachicola, Florida 32320, United States",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "ls-ceramics",
+  "model": "claude-haiku-4.5",
+  "verdict": "no",
+  "why": "The page describes pottery classes with firing included, but does not specify the firing type (electric, kiln, raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction), only mentioning generic 'firing' without identifying which non-electric technique is used.",
+  "town": "Silver City",
+  "state": "NM",
   "street": "",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "ancientpottery-how",
+  "model": "claude-haiku-4.5",
+  "verdict": "no",
+  "why": "The site offers only online video classes and in-person workshops for coil pottery making and painting, with outdoor firing demonstrations in videos, but does not show that outsiders can participate in an actual firing event—only watch videos of firings or take classes on technique.",
+  "town": "Tucson",
+  "state": "AZ",
+  "street": "Fort Lowell Park, Tucson, Arizona",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "don-a-ana-community-college",
+  "model": "claude-haiku-4.5",
+  "verdict": "unclear",
+  "why": "The search snippets mention a raku kiln and natural-gas shuttle kiln at the ceramics studio, and a pottery class using high-fire reduction glazes, but the page text provided does not contain details about how outsiders can access these firings.",
+  "town": "Las Cruces",
+  "state": "NM",
+  "street": "2345 Nevada Ave, Las Cruces, NM 88001",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "alaska-mudhead-pottery",
+  "model": "claude-haiku-4.5",
+  "verdict": "unclear",
+  "why": "The text mentions Alaska Mudhead Pottery makes raku, soda, and gas reduction fired pottery and is open by appointment, but does not explicitly state whether outsiders can book appointments or join firings.",
+  "town": "Silver City",
+  "state": "NM",
+  "street": "371 Camino De Viento",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "blue-dome-gallery",
+  "model": "claude-haiku-4.5",
+  "verdict": "no",
+  "why": "The page describes Blue Dome Gallery as an exhibition space displaying finished pottery pieces, with no mention of public access to ceramic firings, workshops, classes, or firing services.",
+  "town": "Silver City",
+  "state": "NM",
+  "street": "",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "new-mexico-woodfire-association",
+  "model": "claude-haiku-4.5",
+  "verdict": "no",
+  "why": "The page describes only electric kilns and does not mention any non-electric firing types such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
+  "town": "Albuquerque",
+  "state": "NM",
+  "street": "Student Union Building, Plaza Level, Rm. 1098",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "artquesta-studios-gallery",
+  "model": "claude-haiku-4.5",
+  "verdict": "no",
+  "why": "The page text is from Questa Creative Council, an arts organization and event coordinator, not a ceramic firing facility; it mentions a 'Ceramic Café' clay activity but no non-electric ceramic firings, and the search snippet about wood-burning Anagama kilns refers to Sandra Harrington's personal firing experience, not a public offering by this organization.",
+  "town": "Questa",
+  "state": "NM",
+  "street": "PO Box 1025",
+  "types": {}
+ },
+ {
+  "st": "NM",
+  "id": "arroyo-seco-gallery",
+  "model": "claude-haiku-4.5",
+  "verdict": "yes",
+  "why": "The page describes a two-year apprenticeship program where outsiders can work trade to participate in wood and soda firings at the studio.",
+  "town": "Arroyo Seco",
+  "state": "NM",
+  "street": "482a New Mexico 150",
   "types": {
-   "soda": "Students will bring finished, bisque-fired pots made with cone 10 clay to the Soda Kiln in Springfield, KY where you will apply glazes and wadding, and load the pots into the kiln to be candled overnight in the gas fired outdoor kiln."
+   "wood": "Apprentices also have access to my anagama wood kiln and a gas-soda kiln.",
+   "soda": "Apprentices also have access to my anagama wood kiln and a gas-soda kiln."
   }
- },
- {
-  "st": "KY",
-  "id": "kentucky-mudworks",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The search snippets mention soda firing workshops and salt firing processes at Kentucky Mudworks, but the actual page text provided is empty, so I cannot verify public access details or location information from the page itself.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "KY",
-  "id": "maxt-pike13",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "The page offers a Pit-Firing Workshop with Kimberly Kersey-Asbury for $175 that outsiders can purchase and enroll in on specified Saturdays.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {
-   "pit_barrel_saggar": "Pit-Firing Workshop with Kimberly Kersey-Asbury Saturdays, February 1st, 2-5pm and February 15th, 9am-7pm"
-  }
- },
- {
-  "st": "KY",
-  "id": "gomry",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The search snippet mentions a pit-fire workshop where outsiders can fire their own pieces, but the actual page text provided is empty or inaccessible, so public access cannot be verified from the page itself.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "KY",
-  "id": "powdermill-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page text is empty; only search snippets are provided, which mention firing types but contain no information about public access to workshops, classes, memberships, rentals, or firing services.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "KY",
-  "id": "rickman-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The Etsy page text provided contains no information about public access to firings, classes, workshops, memberships, rentals, or firing services at Rickman Pottery.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "KY",
-  "id": "psad",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes PSAD's facilities and equipment (including raku, soda, and wood kilns) but contains no information about public access, classes, workshops, memberships, rentals, firing services, or invitations for outsiders to participate in any firings.",
-  "town": "",
-  "state": "KY",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "KY",
-  "id": "western-kentucky-university",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "Registration is currently closed, so it is unclear whether outsiders can currently access the wood firing workshop.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {
-   "wood": "participants will learn how to create pieces in clay and then load and fire those pieces in the wood kiln"
-  }
- },
- {
-  "st": "KY",
-  "id": "center-for-the-arts-evergreen",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "page says state is CO, not KY",
-  "town": "Evergreen",
-  "state": "CO",
-  "street": "",
-  "types": {
-   "raku": "Hand-building ceramics sculpture and raku firing workshop with CAE Artist-in-Residence, M Rathsack."
-  }
- },
- {
-  "st": "LA",
-  "id": "crescent-city-clayworks",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The search snippets mention electric and gas kilns but provide no evidence of public access to non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings; only classes, memberships, and studio space are described.",
-  "town": "New Orleans",
-  "state": "LA",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "LA",
-  "id": "throw-clay-la",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The page describes Throw Clay LA's reduction firing process and mentions they have a gas kiln, but does not explicitly state how outsiders can participate in a reduction firing (no class, workshop, membership, rental, or contact invitation is mentioned for this specific firing type).",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "LA",
-  "id": "smoke-in-the-mountains-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "The page describes a community wood-fired kiln event where potters, students, and volunteers from the region participate in shifts to fire the kiln, with an open gathering on opening day to unload pots.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {
-   "wood": "The kiln can hold over 700 pots, most of which will be brought by potters and students in the region, who along with other volunteers, will work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a real wood fired kiln can make."
-  }
- },
- {
-  "st": "LA",
-  "id": "bayou-bend-studio",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page text contains only repeated snippets describing Bayou Bend Studio as a pottery studio that makes raku pottery, but provides no information about public access to firings, classes, workshops, memberships, rentals, or firing services.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "LA",
-  "id": "factory-tours-usa",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The text mentions raku firing and that visitors can 'experience' and 'smell' it, but does not explicitly state whether outsiders can participate in or book a raku firing workshop, class, or service.",
-  "town": "",
-  "state": "LA",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "LA",
-  "id": "monroe-clayworks",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "The page describes raku firings with a cost of $5 per piece and a specific time (11 am start), indicating public participation is available.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "LA",
-  "id": "ceramic-association-of-la-borne",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The page mentions wood-fired kilns including anagama and references workshops/stages/ateliers and hiring of kilns, but does not explicitly state that outsiders can participate in firings or provide clear instructions for public access to any specific firing type.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MS",
-  "id": "dogwood-ceramic-supply",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "Dogwood Ceramic Supply is a ceramic supply distributor/shop that sells kilns, glazes, and materials; the page text contains no information about offering public access to any ceramic firings, classes, workshops, or firing services.",
-  "town": "Gulfport",
-  "state": "MS",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MS",
-  "id": "almonte-potters-guild",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page text mentions the Almonte Potters Guild as a pottery studio but contains no information about public access to ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
-  "town": "Almonte",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MS",
-  "id": "olemiss",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes Ole Miss ceramics facilities and mentions wood, salt, soda, and raku firings, but only in the context of student classes and activities—there is no indication that outsiders or the public can participate in any firings.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "missoulaevents",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "Search snippets show wood-firing classes and Anagama kiln firings in Missoula, Montana, but the actual page text is empty, so location details and public access cannot be verified from the page itself.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "whitefish-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The search snippets describe Whitefish Pottery's anagama kiln but provide no information about public access, workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate in firings.",
-  "town": "Whitefish",
-  "state": "MT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "tinworks-art",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "The page describes a rocket kiln building and firing workshop open to all levels where participants can register and participate in a full build and firing cycle.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "teachinart",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "TeachinArt offers an online workshop on alternative firing (raku, saggar, obvara) taught by Marcia Selsor that anyone can register for by clicking to register, with public access via paid enrollment.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "montana-clay-tour",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page text provided contains no information about public access to firings, classes, workshops, memberships, rentals, or firing services—only descriptions of artists' work.",
-  "town": "Helena",
-  "state": "MT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "montana-clay",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "Montana Clay is a directory and organization that promotes ceramics in Montana but does not itself operate firing facilities or offer public access to firings; it lists other organizations and schools.",
-  "town": "",
-  "state": "MT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "freight-train-ceramics",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes the artist's wood-fired ceramics practice but contains no information about public access to firings, workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate.",
-  "town": "Bozeman",
-  "state": "MT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "msu-billings",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The text describes MSU Billings' ceramics program and equipment but only mentions classes (ARTZ 131, 231, 331, 430) for enrolled students with no indication that outsiders can join firings, workshops, or access the facility.",
-  "town": "Billings",
-  "state": "MT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "missoula-clay-studio",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The article mentions the anagama wood kiln and students firing work there, but does not explicitly state how outsiders can join, book, or participate in firings.",
-  "town": "Missoula",
-  "state": "MT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "multnomah-arts-center",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "No page text provided to verify public access to non-electric ceramic firings.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "umt",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The text describes anagama firing as part of a ceramics course for enrolled Art majors at UMT, with no indication that outsiders or non-students can participate in the firing.",
-  "town": "Missoula",
-  "state": "MT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "sosceramics",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "Search snippets mention obvara firing and raku with an invitation to participate, but no actual page text is provided to verify the location details or confirm public access terms.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "MT",
-  "id": "potteryclassess",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The site is a blog/directory about pottery techniques with no information about public access to actual firings at this location; it lists pottery classes in other cities (Los Angeles, Billings) but provides no details about firings or how to participate, and no address or contact information for potteryclassess itself.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "NH",
-  "id": "jonkeenan",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The text mentions anagama wood-fired ceramics and collaborative firing at the studio in Elkins, NH, but does not explicitly state whether outsiders can participate in firings through workshops, classes, memberships, rentals, firing services, or open invitations.",
-  "town": "Elkins",
-  "state": "NH",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "NH",
-  "id": "nh-potters-guild",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The text mentions a wood kiln and guild members firing it, but does not explicitly state whether non-members or the public can participate in firings or join the guild.",
-  "town": "Deerfield",
-  "state": "NH",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "NH",
-  "id": "new-hampshire-potters-guild",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "The text explicitly states that potters of all ages and levels of experience are signing up to help and learn about kiln-building, with a sign-up link provided, and describes how both experienced potters and novices work together at the community wood-fired kiln.",
-  "town": "Deerfield",
-  "state": "NH",
-  "street": "20 Perry Rd., Deerfield",
-  "types": {}
- },
- {
-  "st": "NH",
-  "id": "phoebe-s-barn",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "The page states 'Raku workshops will be offered throughout the season' and mentions gas kiln reduction firings, with contact information provided for enrollment.",
-  "town": "",
-  "state": "NH",
-  "street": "",
-  "types": {
-   "raku": "Raku workshops will be offered throughout the season.",
-   "gas_reduction": "For GLAZE firings I fire in a Bailey's gas shuttle kiln to Cone 10 in a reduction atmosphere."
-  }
- },
- {
-  "st": "NH",
-  "id": "league-of-new-hampshire-craftsmen",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The snippets mention wood-fired and raku firings but provide no clear information about public access, booking, or participation methods.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "NH",
-  "id": "sweet-fern-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The page mentions a new wood kiln and pottery work but provides no details about public access to firings, workshops, classes, or how outsiders can participate.",
-  "town": "",
-  "state": "NH",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "NH",
-  "id": "potterydayz",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The page mentions 'raku firing courses' and 'raku firings' but does not provide a specific sentence showing how outsiders can book, join, or sign up for a raku firing (e.g., no class description, workshop details, membership option, or contact invitation for that specific firing type).",
-  "town": "Peterborough",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "NV",
-  "id": "events-unr",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes equipment at a university ceramics program for enrolled students only, with no mention of public access, workshops, classes, or any way for outsiders to participate in firings.",
-  "town": "Reno",
-  "state": "NV",
-  "street": "1664 N. Virginia Street, Reno, NV 89557",
-  "types": {}
- },
- {
-  "st": "NV",
-  "id": "great-basin-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The text describes Great Basin Pottery's firings (raku, wood, salt, anagama) and mentions spring/fall shows, but does not explicitly state how outsiders can participate in or book a firing.",
-  "town": "Reno",
-  "state": "NV",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "NV",
-  "id": "dreams-to-reality-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes pottery classes with kiln firings included, but specifies only Cone 5-6 electric kiln firings, not non-electric firings like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction.",
-  "town": "Reno",
-  "state": "NV",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "NV",
-  "id": "carson-city-art-gallery-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "The text states 'The public is invited to stop by Carson City Art Gallery & Pottery and see pots being fired using the raku technique,' indicating outsiders can attend the raku firing demonstration.",
-  "town": "Carson City",
-  "state": "NV",
-  "street": "110 S. Curry St.",
-  "types": {
-   "raku": "The public is invited to stop by Carson City Art Gallery & Pottery and see pots being fired using the raku technique."
-  }
- },
- {
-  "st": "NV",
-  "id": "nellisauction",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page text is empty; only a search snippet about a pottery item for sale appears, with no information about public access to firings or the business itself.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "NV",
-  "id": "the-coleman-school-of-porcelain",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The search snippets mention gas reduction firing workshops in Henderson, NV, but the actual page text is empty, so I cannot verify public access details or copy word-for-word sentences from the page itself.",
-  "town": "Henderson",
-  "state": "NV",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "NV",
-  "id": "tom-coleman",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The page mentions Tom Coleman Workshops in Henderson, NV and references a workshop, but provides no details about how outsiders can register, book, or participate in any specific firing type.",
-  "town": "Henderson",
-  "state": "NV",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "NV",
-  "id": "elkhorn-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The search snippet describes a raku workshop but the actual page text is empty, so I cannot verify the details or confirm public access from the page itself.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "OK",
-  "id": "downtown-tulsa",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "The page describes a raku firing workshop open to the public for $210 with specific dates and instructor details.",
-  "town": "Tulsa",
-  "state": "OK",
-  "street": "",
-  "types": {
-   "raku": "FALL 26 Raku Firing Workshop"
-  }
- },
- {
-  "st": "OK",
-  "id": "waterworks-art-center",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The search snippets mention raku and saggar firing workshops at WaterWorks Art Center, but the actual page text provided is empty, so I cannot verify the details or confirm public access from the source page itself.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "OK",
-  "id": "unearththevoyage",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page text describes a bladesmithing class and restaurants with fireplaces, but contains no information about ceramic firings (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) that outsiders can participate in.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "OK",
-  "id": "red-heat-ceramic-studio",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The text mentions classes, workshops, and memberships with kiln access, but does not specify firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) or provide clear evidence that outsiders can participate in non-electric ceramic firings.",
-  "town": "Tulsa",
-  "state": "OK",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "OK",
-  "id": "kat-studio",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The page mentions raku firing and that instructors teach raku, but does not explicitly state how outsiders can sign up for or participate in a raku firing class or workshop.",
-  "town": "Tulsa",
-  "state": "OK",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "OK",
-  "id": "university-of-montevallo-ok",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The text states the kiln is fired 'as part of the university's ceramics classes,' indicating access is limited to enrolled students, not the general public.",
-  "town": "Montevallo",
-  "state": "AL",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "OK",
-  "id": "the-hambidge-center",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "Ceramicists can participate in the anagama kiln firing by entering a lottery sign-up, and visitors can observe for free with advance arrangements by contacting the center.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {
-   "wood": "Ceramicists are invited to participate in an anagama kiln firing event where they glaze, load, and fire their work over a three-day period, selected via lottery."
-  }
- },
- {
-  "st": "OK",
-  "id": "ceramic-cottage",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The page mentions firing services for customer pieces performed in-house, but does not specify whether outsiders can submit pieces or if this is limited to existing customers/students.",
-  "town": "Tulsa",
-  "state": "OK",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "VT",
-  "id": "gallery-at-the-vault",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "Gallery at the VAULT offers raku pottery workshops open to the public (teens through adults) that include firing instruction and participation, with registration required.",
-  "town": "Springfield",
-  "state": "VT",
-  "street": "68 Main Street",
-  "types": {
-   "raku": "Gallery at the Vault is excited to offer a raku pottery workshop with Andrew Berends on two consecutive Saturdays, Feb. 7 and Feb. 14, from 12-4 p.m. each day. Register by Saturday, Jan. 31."
-  }
- },
- {
-  "st": "VT",
-  "id": "first-house-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The search snippets mention a raku workshop but provide no page text with location details, contact information, or confirmation that outsiders can register.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {
-   "raku": "The one day workshop lets students explore traditional raku glazes, One & Two Step Slip Resist Naked Raku, Horse Hair and Obvara firings."
-  }
- },
- {
-  "st": "VT",
-  "id": "uvm-school-of-the-arts-ceramic-co-op",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The text mentions a Bailey gas kiln with reduction firing at cone 10, but does not explicitly state whether outsiders can join, book, or sign up for firings through workshops, classes, membership, rental, or contact.",
-  "town": "",
-  "state": "VT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "VT",
-  "id": "the-mud-studio",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page text provided is empty; the search snippets mention The Mud Studio offers classes and workshops but contain no information about non-electric ceramic firings (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) that outsiders can access.",
-  "town": "Waterbury",
-  "state": "VT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "VT",
-  "id": "burlington-potters-guild",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The page mentions 'Guild Community Firings' and gas kilns available for booking, but does not specify the firing type or provide clear evidence that outsiders (non-members) can participate.",
-  "town": "Burlington",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "VT",
-  "id": "brattleboro-clayworks",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The text mentions classes, workshops, and studio rental for members and renters, but does not explicitly state that outsiders can participate in non-electric ceramic firings; it only mentions a gas kiln used by member Claudia Teachman.",
-  "town": "Brattleboro",
-  "state": "VT",
-  "street": "532 Putney Road",
-  "types": {}
- },
- {
-  "st": "VT",
-  "id": "fire-art-vermont",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page text mentions glassblowing and clay workshops but provides no information about ceramic firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) or how outsiders can access them.",
-  "town": "Brattleboro",
-  "state": "VT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "VT",
-  "id": "homemade",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page is an educational tutorial about firing schedules with no information about public access to firings, classes, workshops, memberships, rentals, or firing services.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "VT",
-  "id": "julie-lerman-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes Julie Lerman's finished pottery products sold at a farmers market booth, but contains no information about public access to participate in any ceramic firings (raku, wood-fired, or otherwise).",
-  "town": "Shelburne",
-  "state": "VT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "VT",
-  "id": "perry-hill-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The text mentions wood firing and an open studio where visitors can see the kiln and learn about wood firing, but does not explicitly state whether outsiders can participate in or book a firing workshop, class, or service.",
-  "town": "",
-  "state": "VT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "VT",
-  "id": "mary-sweeney-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page text provided contains no information about public access to firings, classes, workshops, memberships, rentals, or firing services—only a product description.",
-  "town": "Stowe",
-  "state": "VT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "VT",
-  "id": "matthew-tell-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "The page offers a Wood Fire Workshop in November where outsiders can bring bisque pots, glaze, load, and fire in a wood kiln.",
-  "town": "Marlboro",
-  "state": "VT",
-  "street": "Marlboro, VT 05344",
-  "types": {
-   "wood": "Wood Fire Workshop November 14th – 15th Unload November 21st 100 Cubic Foot Single Chamber Pheonix Fastfire Kiln Bring Cone 10 Bisque Pots."
-  }
- },
- {
-  "st": "VT",
-  "id": "st-johnsbury-academy",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes raku pottery as part of a school's student capstone project with no indication that outsiders or non-enrolled students can participate in the firing.",
-  "town": "St. Johnsbury",
-  "state": "VT",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "WV",
-  "id": "meir-moheban",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "The text states 'Once a year, ceramic potteries throughout the country join together and have the opportunity to place their work inside the Anagama kiln cave,' indicating public access to the wood firing.",
-  "town": "Pardes-Hanna",
-  "state": "",
-  "street": "",
-  "types": {
-   "wood": "Once a year, ceramic potteries throughout the country join together and have the opportunity to place their work inside the Anagama kiln cave."
-  }
- },
- {
-  "st": "WV",
-  "id": "appalachian-gallery",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page shows pottery products and artwork but contains no information about public access to ceramic firings, classes, workshops, memberships, rentals, or firing services.",
-  "town": "Morgantown",
-  "state": "WV",
-  "street": "270 Walnut Street",
-  "types": {}
- },
- {
-  "st": "WV",
-  "id": "rainwater-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page describes Rainwater Pottery as a studio and shop where the owner creates raku pottery, but contains no information about public access to firings through workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate in any firing.",
-  "town": "Prichard",
-  "state": "WV",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "WV",
-  "id": "jh-pottery-works",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The search snippets mention JH Pottery Works offers multiple firing methods including wood, gas, and raku, but provide no page text from jhpotteryworks.com itself showing how outsiders can access these firings (no classes, workshops, memberships, rentals, firing services, or contact invitations are described).",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "WV",
-  "id": "carnegie-hall",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "The text states the Raku program 'offers experienced students the opportunity to participate in a dynamic live firing process,' indicating public access through a class offering.",
-  "town": "",
-  "state": "WV",
-  "street": "",
-  "types": {
-   "raku": "The Pottery Studio will offer a return of the three-day Raku program, which offers experienced students the opportunity to participate in a dynamic live firing process that heats clay bodies to 1800 degrees before submerging them in closed containers of combustible materials."
-  }
- },
- {
-  "st": "WV",
-  "id": "modern-wolf-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "Modern Wolf Pottery offers kiln firing services and small-group classes/family workshops that are open to the public, with an invitation to reach out and book.",
-  "town": "Martinsburg",
-  "state": "WV",
-  "street": "Scrabble Road",
-  "types": {}
- },
- {
-  "st": "WV",
-  "id": "the-potters-guild-wv",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The search snippets mention wood kiln firings and a community of potters, but the actual page text is empty, so there is no verifiable information about public access to firings.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "WY",
-  "id": "muddy-mountain-pottery",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The site is a pottery shop that sells finished raku-fired pieces and functional stoneware; there is no mention of classes, workshops, memberships, rentals, firing services, or invitations for outsiders to participate in any firings.",
-  "town": "Centennial",
-  "state": "WY",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "WY",
-  "id": "art-association-of-jackson-hole",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The page mentions gas-reduction firing capability and open studio passes, but does not explicitly state whether non-members or the general public can access the firings or must be members.",
-  "town": "Jackson Hole",
-  "state": "WY",
-  "street": "",
-  "types": {
-   "gas_reduction": "We fire to Cone 10 reduction in two downdraft natural gas kilns"
-  }
- },
- {
-  "st": "WY",
-  "id": "rod-dugal-ceramics",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The text describes Rod Dugal's personal studio practice with a hybrid wood/soda kiln but contains no information about public access to workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate in firings.",
-  "town": "Sheridan",
-  "state": "WY",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "WY",
-  "id": "official-website",
-  "model": "claude-haiku-4.5",
-  "verdict": "unclear",
-  "why": "The page mentions raku, saggar, and wood firings in titles and product descriptions, but provides no clear information about how outsiders can participate in these firings (no workshop details, registration instructions, or public access information are shown in the text provided).",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "WY",
-  "id": "dan-palmer-ceramics",
-  "model": "claude-haiku-4.5",
-  "verdict": "no",
-  "why": "The page text describes Dan Palmer's personal ceramic studio and kiln-building blog with no mention of classes, workshops, memberships, rentals, firing services, or invitations for outsiders to participate in any firings.",
-  "town": "",
-  "state": "",
-  "street": "",
-  "types": {}
- },
- {
-  "st": "WY",
-  "id": "kazegama",
-  "model": "claude-haiku-4.5",
-  "verdict": "yes",
-  "why": "page says state is CA, not WY",
-  "town": "Bombay Beach",
-  "state": "CA",
-  "street": "2122 Third St. Bombay Beach CA 92257",
-  "types": {}
  }
 ]

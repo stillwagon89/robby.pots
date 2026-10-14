@@ -67,7 +67,7 @@
         "checked": "2026-10-06",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -91,7 +91,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "alterwork-studios",
@@ -135,7 +136,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The page text describes pottery classes and studio memberships with kiln access, but contains no information about raku, barrel, pit, wood, soda, salt, or gas-reduction firings that outsiders can join; the search snippets mention these firing types but are not part of the actual page text provided.",
         "types": {},
@@ -201,7 +202,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The text states 'welcomes many participants to fire with him in celebratory communal events' and provides a contact method for prospective participants to visit and inquire about participation.",
         "types": {},
@@ -265,9 +266,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "The Woodfire Intensive offers public access to wood firing via a bookable workshop at the Walton, NY location with a 'Book Now' button and clear pricing.",
+        "why": "The Woodfire Intensive offers public access to wood firing via a bookable workshop at the Walton, NY location with a clear 'Book Now' button and pricing.",
         "types": {},
         "state": "NY",
         "town": "Walton"
@@ -391,7 +392,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "Salem Art Works offers multiple wood-fired kiln workshops and rentals open to the public, including raku kiln workshops and rentals, wood kiln building workshops, and Spitfire kiln workshops.",
         "types": {},
@@ -463,7 +464,7 @@
       "lng": -74.29391,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page explicitly invites outsiders to contact the owner to participate in salt, gas reduction, and wood firings.",
         "types": {},
@@ -588,7 +589,7 @@
       "lng": -73.69179,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The search snippets mention a salt fire workshop at Collective in Troy, NY, but the page text provided is empty, so I cannot verify the details or copy word-for-word sentences about how outsiders can participate.",
         "types": {},
@@ -769,7 +770,7 @@
       "lng": -73.67235,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page text describes a 'Smoke and Sawdust Workshop' where outsiders can bring bisqueware and learn pit firing technique in a one-day workshop format.",
         "types": {},
@@ -941,7 +942,7 @@
         "checked": "2026-10-06",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -951,7 +952,7 @@
       "lng": -74.00602,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page shows outsiders can join through memberships and classes at multiple locations, including the Gowanus studio which fires cone 10 reduction.",
         "types": {
@@ -974,7 +975,8 @@
         "result": "agree-yes",
         "date": "2026-10-08"
       },
-      "weak": true
+      "weak": false,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "makerspace-nyc",
@@ -1137,7 +1139,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "Search snippet mentions a raku workshop but no page text is provided to verify public access details or location information.",
         "types": {},
@@ -1438,7 +1440,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The page text shows Hamish Jackson teaches workshops at various locations but contains no information about public access to non-electric ceramic firings at Rochester Folk Art Guild or any other specific venue.",
         "types": {},
@@ -1502,9 +1504,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "The page describes a RAKU Party event where outsiders can purchase tickets to participate in hands-on raku firing led by a master potter, with a limited number of participant spots available for reservation.",
+        "why": "The page describes a hands-on raku firing event open to the public via ticket purchase, with explicit language that outsiders can participate in the firing process.",
         "types": {},
         "state": "NY",
         "town": "Patchogue",

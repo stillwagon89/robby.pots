@@ -59,10 +59,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
-        "why": "The search snippets describe raku firing workshops on Meetup, but the actual page text is empty, so location details and confirmation of public access cannot be verified from the page itself.",
-        "types": {},
+        "why": "The search snippets describe raku firing workshops on Meetup but provide no location details (town, state, or street address) from the page text itself.",
+        "types": {
+          "raku": "Each participant will make several pieces to fire in multiple Raku processing like reduction glazing or Feather and horse hair raku."
+        },
         "state": "",
         "town": ""
       },
@@ -78,7 +80,10 @@
         "date": "2026-10-07"
       },
       "access": {
-        "status": "ongoing"
+        "status": "ongoing",
+        "types": [
+          "raku"
+        ]
       }
     },
     {
@@ -110,9 +115,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
-        "why": "The snippets show raku workshops offered, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "why": "The search snippets show raku workshops offered, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
         "types": {},
         "state": "",
         "town": ""
@@ -166,7 +171,7 @@
         "checked": "2026-10-07",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -200,7 +205,8 @@
       },
       "address": "1002 South Vista Avenue, Boise, ID 83705",
       "lat": 43.59549,
-      "lng": -116.21307
+      "lng": -116.21307,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "sandpoint-ceramics",
@@ -232,7 +238,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "Snippets mention raku and pit fire workshops but the actual page text is empty, so cannot verify public access details or confirm the studio's location.",
         "types": {
@@ -257,7 +263,11 @@
         "date": "2026-10-07"
       },
       "access": {
-        "status": "ongoing"
+        "status": "ongoing",
+        "types": [
+          "raku",
+          "pit_barrel_saggar"
+        ]
       }
     }
   ],

@@ -262,7 +262,7 @@
         "checked": "2026-10-06",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -283,7 +283,8 @@
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "mudflat",
@@ -762,7 +763,7 @@
       "lng": -70.99335,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page explicitly invites outsiders to participate in anagama and soda firings via email contact: 'If you are interested in participating in the firings or visiting us during a firing, email me at gustinceramics@gmail.com for information.'",
         "types": {},
@@ -1007,7 +1008,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "Search snippets mention raku and cone 10 reduction firing with payment/membership options, but no actual page text is provided to verify details about public access, location, or exact participation methods.",
         "types": {},
@@ -1136,7 +1137,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The site offers Limited and Full Studio Access Memberships that include access to gas reduction firings and bisque firings for outsiders with pottery experience.",
         "types": {
@@ -1197,9 +1198,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
-        "why": "The page text mentions Gustin's kiln with an Anagama chamber in a search snippet, but the full article text is not provided—only navigation menus and unrelated content appear. There is no information about public access to firings, workshops, classes, memberships, rentals, or firing services.",
+        "why": "The page text is from a local news website (dartmouth.theweektoday.com) and contains no information about Gustin's kiln, firing workshops, classes, or public access to ceramic firings; the search snippet mentions an anagama kiln but the actual page content does not include the article about it.",
         "types": {},
         "state": "",
         "town": ""
@@ -1251,7 +1252,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The page shows Tom White's pottery studio and workshops, but contains no information about public access to non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
         "types": {},
@@ -1304,7 +1305,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "No page text provided; cannot verify public access to non-electric ceramic firings.",
         "types": {},
@@ -1319,58 +1320,6 @@
       "access": {
         "status": "ongoing"
       }
-    },
-    {
-      "id": "cotuit-center-for-the-arts",
-      "org": "Cotuit Center for the Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Cotuit",
-      "city": "Cotuit",
-      "urls": [
-        "https://cotuit.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Cotuit, Massachusetts",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://cotuit.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Experience the excitement of raku firing in this beginner friendly 6 hour workshop.",
-        "url": "https://cotuit.org/classes/raku-workshop",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-13"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "cotuit.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "page says state is MA, not KY",
-        "types": {
-          "raku": "Experience the excitement of raku firing in this beginner friendly 6 hour workshop."
-        },
-        "state": "MA",
-        "town": "Cotuit"
-      },
-      "weak": true,
-      "lat": 41.61749,
-      "lng": -70.43512
     }
   ],
   "_removed": [

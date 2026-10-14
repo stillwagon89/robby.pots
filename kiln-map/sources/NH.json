@@ -43,7 +43,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The search snippet mentions raku and saggar firing classes, but the actual page text is empty, so public access cannot be verified from the page itself.",
         "types": {},
@@ -102,7 +102,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The page text is only the Couchsurfing homepage with no information about Kittery Point Potters, PCMS, pit firing workshops, or any ceramic firing details.",
         "types": {},
@@ -155,7 +155,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -190,7 +190,8 @@
       },
       "address": "208 Middle Winchendon Rd., Rindge, NH 03461",
       "lat": 42.74659,
-      "lng": -72.0245
+      "lng": -72.0245,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "the-wheel-house",
@@ -213,7 +214,7 @@
       "contact": {
         "website": "https://www.thewheelhousenh.com/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -241,60 +242,8 @@
       "access": {
         "status": "ongoing"
       },
-      "address": "865 Islington St, Suite 200, Portsmouth, NH 03801"
-    },
-    {
-      "id": "timisaacpottery",
-      "org": "timisaacpottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "New Horton",
-      "city": "New Horton",
-      "urls": [
-        "https://www.timisaacpottery.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "New Horton, New Hampshire",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.timisaacpottery.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "I offer a one day workshop, a two day workshop, and a custom firing day for practicing potters.",
-        "url": "https://www.timisaacpottery.com/workshops/raku-workshops/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-08",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "timisaacpottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "yes",
-        "why": "The site offers raku workshops open to the public with multiple booking options including one-day, two-day, and custom firing days.",
-        "types": {},
-        "state": "",
-        "town": "New Horton"
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-14"
-      }
+      "address": "865 Islington St, Suite 200, Portsmouth, NH 03801",
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "phoebe-s-barn",
@@ -400,11 +349,12 @@
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The snippets mention wood-fired and raku firings but provide no clear information about public access, booking, or participation methods.",
+        "verdict": "no",
+        "why": "The page text mentions raku and wood firing only in passing (search snippets and demonstrations) with no information about how outsiders can participate in actual firings; the League appears to be an organization/gallery that showcases member work rather than offering public access to firing workshops or services.",
         "types": {},
-        "state": "",
-        "town": ""
+        "state": "NH",
+        "town": "Concord",
+        "street": "49 South Main Street, Suite 100"
       },
       "weak": true,
       "located": {
@@ -447,9 +397,9 @@
         "by": "claude-haiku-4.5",
         "date": "2026-10-14",
         "verdict": "unclear",
-        "why": "The page mentions a new wood kiln and pottery work but provides no details about public access to firings, workshops, classes, or how outsiders can participate.",
+        "why": "The page mentions a new wood kiln but provides no information about public access to firings, workshops, classes, or any way for outsiders to participate.",
         "types": {},
-        "state": "NH",
+        "state": "",
         "town": ""
       },
       "weak": true,
@@ -457,60 +407,6 @@
         "osm": false,
         "date": "2026-10-14"
       }
-    },
-    {
-      "id": "potterydayz",
-      "org": "Potterydayz",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Peterborough",
-      "city": "Peterborough",
-      "urls": [
-        "https://getpotteryclass.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Peterborough, New Hampshire",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://getpotteryclass.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Participants can choose from various formats, such as one-off sessions, half-day experiences, and all-day courses that focus on techniques like wheel throwing and raku firings.",
-        "url": "https://getpotteryclass.com/locations/peterborough/potterydayz-peterborough",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-13"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "getpotteryclass.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The page mentions 'raku firing courses' and 'raku firings' but does not provide a specific sentence showing how outsiders can book, join, or sign up for a raku firing (e.g., no class description, workshop details, membership option, or contact invitation for that specific firing type).",
-        "types": {},
-        "state": "",
-        "town": "Peterborough"
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-14"
-      },
-      "lat": 42.87762,
-      "lng": -71.94938
     }
   ],
   "_removed": [
@@ -549,6 +445,14 @@
     {
       "id": "nh-potters-guild",
       "why": "Second check (gemini-3.5-flash-lite): The text only mentions a wood kiln for Guild members and provides no way for outsiders to take part in a firing. (2026-10-08)"
+    },
+    {
+      "id": "timisaacpottery",
+      "why": "Second check (claude-haiku-4.5): page says state is NB, not NH (2026-10-14)"
+    },
+    {
+      "id": "potterydayz",
+      "why": "Second check (claude-haiku-4.5): This is a directory/blog site (getpotteryclass.com) that lists pottery studios but does not itself run any firings or offer public access to ceramic firings. (2026-10-14)"
     }
   ]
 }

@@ -88,9 +88,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "The search snippets describe a Red Hot Raku Workshop but the page text provided contains only a login form with no location details, address, or state information.",
+        "date": "2026-10-14",
+        "verdict": "yes",
+        "why": "The page describes a Red Hot Raku Workshop open to beginners and experienced ceramicists, with multiple firing opportunities and hands-on participation.",
         "types": {},
         "state": "",
         "town": ""
@@ -139,7 +139,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The page text is from Ticket Tailor, a ticketing platform website, not from TinkerMills Muddy Makers Pottery Studio itself; it contains no information about the pottery studio's location, address, or firing workshops.",
         "types": {},
@@ -201,7 +201,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The snippets mention 'High School Raku' and 'Winter/spring 2025 workshops and classes' but do not provide enough detail to confirm outsiders can participate in a non-electric ceramic firing.",
         "types": {},
@@ -264,7 +264,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page offers public sign-up for raku and pit firing workshops at stated prices with 'Sign Up' buttons, accessible to all skill levels.",
         "types": {
@@ -286,7 +286,7 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": true
+      "weak": false
     },
     {
       "id": "cu-potter-s-club",
@@ -320,7 +320,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -354,7 +354,8 @@
       },
       "address": "900 South Race St., Urbana, IL",
       "lat": 40.10539,
-      "lng": -88.20936
+      "lng": -88.20936,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "wheel-art-pottery-studios",
@@ -458,7 +459,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The search snippet shows a raku firing experience available for booking, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
         "types": {},
@@ -517,7 +518,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The search snippet describes raku firing access for private parties, but the page text provided is empty, so I cannot verify the location details or confirm public booking procedures from the actual page.",
         "types": {},

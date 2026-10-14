@@ -122,7 +122,7 @@
         "checked": "2026-10-07",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -146,7 +146,8 @@
         "osm": false,
         "date": "2026-10-14"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "kjones-pottery",
@@ -188,7 +189,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The site offers public raku firings that can be booked by groups, studios, or individuals through a scheduling request process.",
         "types": {
@@ -250,12 +251,13 @@
         "by": "claude-haiku-4.5",
         "date": "2026-10-14",
         "verdict": "unclear",
-        "why": "Registration is currently closed, so it is unclear whether outsiders can currently access the wood firing workshop.",
+        "why": "The search snippet mentions a wood-fire ceramics workshop under Lindsay Oesterritter's instruction where participants learn to create and fire pieces in a wood kiln, but the full page text provided does not contain details about how outsiders can register, book, or access this workshop.",
         "types": {
           "wood": "participants will learn how to create pieces in clay and then load and fire those pieces in the wood kiln"
         },
-        "state": "",
-        "town": ""
+        "state": "KY",
+        "town": "Bowling Green",
+        "street": "1906 College Heights Blvd."
       },
       "weak": true,
       "located": {
@@ -270,51 +272,54 @@
       "lng": -86.45765
     },
     {
-      "id": "elkhorn-pottery",
-      "org": "Elkhorn Pottery",
+      "id": "alexadamsclaywork",
+      "org": "alexadamsclaywork",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Georgetown",
-      "city": "Georgetown",
+      "region": "Louisville",
+      "city": "Louisville",
       "urls": [
-        "https://www.elkhornpottery.com/"
+        "https://alexadamsclaywork.com/"
       ],
-      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Georgetown, Kentucky",
+      "geocode": "Louisville, Kentucky",
       "location_note": "Shown at the town.",
       "contact": {
-        "website": "https://www.elkhornpottery.com/"
+        "website": "https://alexadamsclaywork.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Public are welcome to come out on firing day and see the exciting results from the raku kiln.",
+        "url": "https://alexadamsclaywork.com/raku-workshop.php",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-14"
       },
       "review": "pending",
       "discovered": {
         "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "elkhornpottery.com"
+        "date": "2026-10-14",
+        "key": "alexadamsclaywork.com"
       },
+      "weak": true,
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet describes a raku workshop but the actual page text is empty, so I cannot verify the details or confirm public access from the page itself.",
+        "verdict": "yes",
+        "why": "page says state is KY, not NM",
         "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
         "state": "KY",
-        "town": "Georgetown",
-        "score": 5,
-        "osm": false,
-        "date": "2026-10-14"
+        "town": "Louisville"
       },
-      "lat": 38.20998,
-      "lng": -84.55971
+      "lat": 38.25424,
+      "lng": -85.75941
     }
   ],
   "_removed": [
@@ -381,6 +386,10 @@
     {
       "id": "center-for-the-arts-evergreen",
       "why": "Second check (claude-haiku-4.5): page says state is CO, not KY (2026-10-14)"
+    },
+    {
+      "id": "elkhorn-pottery",
+      "why": "Second check (claude-haiku-4.5): The page describes wheel throwing classes and hand building classes with bisque and glaze firing, but contains no mention of raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings. (2026-10-14)"
     }
   ]
 }

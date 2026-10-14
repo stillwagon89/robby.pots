@@ -55,13 +55,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "The page offers a Raku Firing Experience open to the public for $99 per guest with no prior experience needed, bookable through their website.",
+        "why": "The page offers a public Raku Firing Experience for $99 per guest with booking available to anyone, requiring no prior experience.",
         "types": {},
         "state": "TN",
         "town": "Gatlinburg",
-        "street": "623 Glades Road"
+        "street": "623 Glades Road, Gatlinburg, TN"
       },
       "weak": true,
       "located": {
@@ -182,7 +182,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The search snippets mention a 'Public Firing Service' that gives ceramic artists access to fire their pieces, and the page is located in Nashville, TN.",
         "types": {},
@@ -280,67 +280,6 @@
       "auto_approved": "2026-10-14"
     },
     {
-      "id": "tech-times",
-      "org": "Tech Times",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Smithville",
-      "city": "Smithville",
-      "urls": [
-        "https://blogs.tntech.edu/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Smithville, Tennessee",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://blogs.tntech.edu/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Soda Fired Earthenware Ceramics Workshop – Tech Times",
-        "url": "https://blogs.tntech.edu/techtimes/2022/arts/soda-fired-earthenware-ceramics-workshop/",
-        "types": [
-          "soda"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "blogs.tntech.edu"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "no",
-        "why": "The page text is a blog directory/announcements page with no information about ceramic firings, workshops, or public access to any firing activities.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "lat": 35.96062,
-      "lng": -85.81415,
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
       "id": "studio-s-pottery-and-galleries",
       "org": "Studio S Pottery and Galleries",
       "kind": "studio",
@@ -382,7 +321,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The snippets mention raku and pit-fired work and pottery classes, but do not explicitly state that outsiders can sign up for or participate in a raku or pit-firing; they only describe what Studio S makes and that classes exist.",
         "types": {},
@@ -401,57 +340,6 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "bookwhen",
-      "org": "bookwhen",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Tennessee",
-      "city": null,
-      "urls": [
-        "https://bookwhen.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://bookwhen.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "bookwhen.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "no",
-        "why": "Bookwhen is a booking software platform, not a pottery studio or firing facility; the search snippet mentions a saggar barrel firing workshop but that is hosted by a customer using Bookwhen, not by Bookwhen itself, and the page text contains no information about any ceramic firings or pottery operations.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "access": {
-        "status": "ongoing"
       }
     },
     {
@@ -486,7 +374,7 @@
         "checked": "2026-10-07",
         "status": "coming_soon"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -512,7 +400,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "the-clay-lady-s-campus",
@@ -606,6 +495,14 @@
     {
       "id": "canton-clay-works-ct",
       "why": "Two models agree: The only text is a search snippet about pottery classes at a Nashville studio, with nothing mentioning raku, wood, soda, salt, pit/barrel/saggar or gas-reduction firings that outsiders can join. (2026-10-08)"
+    },
+    {
+      "id": "tech-times",
+      "why": "Second check (claude-haiku-4.5): The page text is a blog index/announcements page with no actual content about the soda-fired ceramics workshop mentioned in the search snippet; the workshop details do not appear in the provided page text. (2026-10-14)"
+    },
+    {
+      "id": "bookwhen",
+      "why": "Second check (claude-haiku-4.5): Bookwhen is a booking software platform, not a pottery studio or firing facility; the search snippet mentions a saggar barrel firing workshop but that is hosted by another organization using Bookwhen's system, not by Bookwhen itself. (2026-10-14)"
     }
   ]
 }

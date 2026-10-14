@@ -177,7 +177,7 @@
       "lng": -97.7437,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The page text is from ClayFinder, a directory/search engine for pottery studios, not from Fireseed Clay Arts Studios itself; it contains no information about how outsiders can access any specific firing types at Fireseed.",
         "types": {},
@@ -420,7 +420,7 @@
         "checked": "2026-10-06",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -446,73 +446,8 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "address": "6729 S Fry Rd, Katy, TX 77494"
-    },
-    {
-      "id": "dallas-pottery-studio",
-      "org": "Dallas Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "gas_reduction"
-      ],
-      "region": "Dallas",
-      "city": "Dallas",
-      "urls": [
-        "https://dallaspotterystudio.com/"
-      ],
-      "notes": "Raku workshops. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Dallas, Texas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://dallaspotterystudio.com/"
-      },
-      "access": {
-        "how": "Raku workshops",
-        "note": "Raku workshops",
-        "quote": "Special raku workshops available throughout the year.",
-        "url": "https://dallaspotterystudio.com/raku-firing-dallas",
-        "types": [
-          "raku",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-06",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "dallaspotterystudio.com"
-      },
-      "lat": 32.77627,
-      "lng": -96.79686,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "The site mentions raku firing and gas reduction kilns but does not provide specific details about how outsiders can sign up, book, or participate in these non-electric firings.",
-        "types": {},
-        "state": "TX",
-        "town": "Dallas"
-      },
-      "weak": true,
-      "located": {
-        "state": "TX",
-        "town": "Dallas",
-        "score": 10,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      }
+      "address": "6729 S Fry Rd, Katy, TX 77494",
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "cliff-house-studio-and-gallery",
@@ -613,7 +548,7 @@
         "checked": "2026-10-06",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -639,7 +574,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "address": "8185 1605 Ranch House Rd., Willow Park, TX 76087"
+      "address": "8185 1605 Ranch House Rd., Willow Park, TX 76087",
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "roadrunner-ceramics",
@@ -1305,7 +1241,7 @@
         "checked": "2026-10-08",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1329,7 +1265,8 @@
       "weak": false,
       "address": "100 N. Shoreline Blvd., Corpus Christi, TX 78401",
       "lat": 27.79201,
-      "lng": -97.39255
+      "lng": -97.39255,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "barry-brown-clay-studio-gallery",
@@ -1439,7 +1376,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The text mentions raku pieces and a working studio but provides no information about public access to raku firings, classes, workshops, memberships, rentals, or firing services.",
         "types": {},
@@ -1500,9 +1437,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
-        "why": "The page mentions wood firing but does not explicitly state how outsiders can access or participate in it (no workshop, class, membership, rental, firing service, or contact invitation is described).",
+        "why": "The page mentions wood firing but does not explicitly state how outsiders can participate (no workshop, class, membership, rental, firing service, or contact invitation is described).",
         "types": {},
         "state": "",
         "town": ""
@@ -1551,7 +1488,7 @@
         "checked": "2026-10-08",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1576,7 +1513,8 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "address": "501 W. Cesar Chavez Blvd. Frio Building, FS 4.450, San Antonio, TX"
+      "address": "501 W. Cesar Chavez Blvd. Frio Building, FS 4.450, San Antonio, TX",
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "brazos-clay-tx",
@@ -1618,7 +1556,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The page text is empty; only search snippets mention raku pieces and pottery classes, but provide no details about public access to non-electric ceramic firings.",
         "types": {},
@@ -1663,9 +1601,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
-        "why": "The site describes Pine Mills Pottery as a studio and gallery that sells handmade pottery and offers cottage rental, but contains no information about public access to ceramic firings such as workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate in raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
+        "why": "The site describes Pine Mills Pottery as a studio and gallery that sells handmade pottery and offers cottage rental, but contains no information about public access to ceramic firings through workshops, classes, memberships, rentals, firing services, or invitations to join firings.",
         "types": {},
         "state": "TX",
         "town": "Mineola",
@@ -1763,6 +1701,10 @@
     {
       "id": "the-ceramic-school",
       "why": "Second check (claude-haiku-4.5): The page contains only search snippets and interface elements with no actual page text describing how outsiders can participate in non-electric ceramic firings at The Ceramic School. (2026-10-09)"
+    },
+    {
+      "id": "dallas-pottery-studio",
+      "why": "Second check (claude-haiku-4.5): The studio is opening in 2026 and currently only accepts waitlist signups; no actual classes, memberships, or firings are available yet, and no non-electric firing types (raku, wood, soda, salt, pit/barrel/saggar, gas-reduction) are described with concrete public access mechanisms. (2026-10-14)"
     }
   ]
 }

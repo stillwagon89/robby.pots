@@ -134,7 +134,7 @@
       "lng": -122.33006,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The search snippet mentions a raku firing workshop with a date, location, and ticket information on Eventbrite, but the actual page text is empty, so I cannot verify the details or confirm public access.",
         "types": {},
@@ -444,7 +444,7 @@
       "lng": -122.67446,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page offers raku classes and firing events open to the public through class registration, membership, or direct booking ($30 firing spot option).",
         "types": {},
@@ -623,9 +623,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "The page shows a Raku Firing Workshop in Sequim open to outsiders with a clear booking process and specific details about participation.",
+        "why": "The page lists 'Alternative Firing Methods – Raku & Horse Hair' as a recurring six-week class open to the public, and the search snippets describe a 'Raku Firing Workshop' with specific details about participation, pricing, and location.",
         "types": {},
         "state": "WA",
         "town": "Port Angeles",
@@ -816,7 +816,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "Page text is empty; cannot verify public access to any non-electric ceramic firing.",
         "types": {},
@@ -869,7 +869,7 @@
         "checked": "2026-10-08",
         "status": "coming_soon"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -897,7 +897,8 @@
       "weak": false,
       "address": "35 S Hanford St, Seattle, WA 98134",
       "lat": 47.57492,
-      "lng": -122.33763
+      "lng": -122.33763,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "ilwaco-artworks",
@@ -990,7 +991,7 @@
         "checked": "2026-10-08",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -998,7 +999,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The search snippets show KMUN hosts pit firing workshops where outsiders can participate: 'In this two-day workshop, students will create coil-built vessels designed specifically to respond beautifully to a communal pit firing later in the month' and 'Finished pieces will be fired in the communal pit and may be picked up the day after the firing, on 4/27.'",
         "types": {
@@ -1021,9 +1022,10 @@
         "result": "agree-yes (both said yes)",
         "date": "2026-10-08"
       },
-      "weak": true,
+      "weak": false,
       "lat": 46.30904,
-      "lng": -124.04366
+      "lng": -124.04366,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "spokane-potters-guild",
@@ -1057,7 +1059,7 @@
         "checked": "2026-10-08",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -1086,7 +1088,8 @@
         "date": "2026-10-08"
       },
       "lat": 47.65719,
-      "lng": -117.42351
+      "lng": -117.42351,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "seatown-pottery",
@@ -1261,7 +1264,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page shows outsiders can join pottery classes and workshops, and mentions raku firing workshops and gas kiln reduction firing workshops where outsiders can participate.",
         "types": {
@@ -1275,7 +1278,7 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": true,
+      "weak": false,
       "lat": 47.05731,
       "lng": -123.92711
     },
@@ -1308,7 +1311,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The page mentions 'Raku' in the navigation menu but provides no details about public access to raku firings; all described activities are wheel throwing, hand-building, and glazing classes with no information about non-electric ceramic firing workshops or services.",
         "types": {},
@@ -1353,7 +1356,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The site offers private pottery classes with high-fire reduction kiln finishing, but provides no information about public access to non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings; classes are private bookings only with no firing participation mentioned.",
         "types": {},
@@ -1400,7 +1403,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page lists two 2026 workshops including 'Expanding Your Surface Vocabulary in a Soda Kiln,' which is a public workshop offering for outsiders to participate in a soda firing.",
         "types": {
@@ -1415,7 +1418,11 @@
         "date": "2026-10-09"
       },
       "access": {
-        "status": "ongoing"
+        "status": "ongoing",
+        "types": [
+          "soda"
+        ],
+        "url": "https://www.cookonclay.com/"
       }
     },
     {
@@ -1448,9 +1455,9 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
-        "why": "The site describes a pottery business that sells finished handcrafted pieces and mentions they make raku wall pieces, but provides no information about public access to any ceramic firings—only sales of finished work and studio visits by appointment.",
+        "why": "The site describes a pottery studio that sells finished handcrafted pieces and mentions they make raku wall pieces, but provides no information about public access to any ceramic firings—no classes, workshops, memberships, rentals, firing services, or invitations for outsiders to participate in firings.",
         "types": {},
         "state": "WA",
         "town": "Freeland",
@@ -1510,12 +1517,13 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "page says state is WA, not GA",
+        "why": "The text explicitly states outsiders can participate in raku firing by purchasing a spot, with the sentence 'It is possible to purchase Bisque day of from PYOP for anyone to participate' enabling public access to the raku firing class.",
         "types": {},
         "state": "WA",
-        "town": "Everett"
+        "town": "Everett",
+        "street": "1111 Hewitt Ave, Everett, Wa. 98201"
       },
       "weak": true,
       "located": {

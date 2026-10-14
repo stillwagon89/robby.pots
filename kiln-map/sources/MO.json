@@ -62,7 +62,7 @@
         "checked": "2026-10-07",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -86,7 +86,8 @@
       "weak": false,
       "address": "2011 Tracy Ave, Kansas City, MO 64108",
       "lat": 39.08809,
-      "lng": -94.56655
+      "lng": -94.56655,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "back-door-pottery",
@@ -193,7 +194,7 @@
       "lng": -94.57814,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The search snippets mention soda firing and an address in Kansas City, MO, but the actual page text provided is empty, so I cannot verify public access details or confirm the firing type information.",
         "types": {},
@@ -222,14 +223,14 @@
       "firing_types_guess": [
         "raku"
       ],
-      "region": "Missouri",
-      "city": null,
+      "region": "Rolla",
+      "city": "Rolla",
       "urls": [
         "https://fireandmuckpottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Rolla, Missouri",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://fireandmuckpottery.com/"
@@ -253,20 +254,21 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
+        "date": "2026-10-14",
         "verdict": "yes",
-        "why": "The page offers raku firing to the public through a 'Raku Gathering' workshop where outsiders can participate by paying $60 per person and bringing or selecting a piece to fire.",
-        "types": {
-          "raku": "Raku Gathering At Fire and Muck – $60 per person includes: One piece of your choice (additional pieces available for $35) Glaze and glaze instruction Raku firing"
-        },
+        "why": "The page offers raku firings to the public through a Raku Gathering service where outsiders can participate by paying per person.",
+        "types": {},
         "state": "MO",
-        "town": ""
+        "town": "Rolla",
+        "street": "1129 Dent County Road 2130"
       },
       "weak": true,
       "located": {
         "osm": false,
         "date": "2026-10-09"
-      }
+      },
+      "lat": 37.95093,
+      "lng": -91.77081
     },
     {
       "id": "creava-studio",
@@ -312,7 +314,7 @@
       "lng": -93.29227,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The page text is from Square.site, a payment processing platform website with no information about ceramic firings, pottery classes, or public access to any firing activities.",
         "types": {},

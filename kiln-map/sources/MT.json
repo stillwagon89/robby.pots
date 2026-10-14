@@ -89,7 +89,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "Search snippets show a raku workshop offered by Montana Harvest Moon, but the actual page text is empty, so location details and confirmation of public access cannot be verified from the page itself.",
         "types": {
@@ -110,7 +110,10 @@
         "date": "2026-10-08"
       },
       "access": {
-        "status": "ongoing"
+        "status": "ongoing",
+        "types": [
+          "raku"
+        ]
       }
     },
     {
@@ -155,59 +158,9 @@
       "lng": -113.99527,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
-        "why": "The text mentions wood/anagama kilns but provides no information about how outsiders can access or participate in firings.",
-        "types": {},
-        "state": "MT",
-        "town": "Missoula"
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-14"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "the-clay",
-      "org": "The Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Missoula",
-      "city": "Missoula",
-      "urls": [
-        "https://www.missoulaevents.net/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Missoula, Montana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.missoulaevents.net/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "missoulaevents.net"
-      },
-      "lat": 46.8701,
-      "lng": -113.99527,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "no",
-        "why": "The page text is from missoulaevents.net, an events calendar directory/portal, not from The Clay studio itself. The search snippets mention wood firing classes at The Clay, but the actual page text provided contains no information about The Clay, its location, address, or how to access any firings.",
+        "why": "The snippets mention wood kilns and anagama kilns but do not provide specific information about how outsiders can access or participate in firings (no mention of classes, workshops, memberships, rentals, firing services, or invitations to contact them).",
         "types": {},
         "state": "",
         "town": ""
@@ -219,12 +172,9 @@
       },
       "agree": {
         "model": "claude-sonnet-5-5",
-        "verdict": "yes",
+        "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
-      },
-      "access": {
-        "status": "ongoing"
       }
     },
     {
@@ -324,7 +274,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -358,7 +308,8 @@
       },
       "address": "3025 Bozeman Ave, Helena, MT",
       "lat": 46.59994,
-      "lng": -111.98524
+      "lng": -111.98524,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "jerry-baldwin-ceramics",
@@ -402,7 +353,7 @@
       "lng": -114.08508,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The search snippet mentions wood kilns and firing but provides no details about public access, workshops, memberships, or how outsiders can participate in firings.",
         "types": {},
@@ -488,17 +439,16 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
+        "raku"
       ],
-      "region": "Montana",
-      "city": null,
+      "region": "Mullumbimby",
+      "city": "Mullumbimby",
       "urls": [
         "https://www.sosceramics.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Mullumbimby, Montana",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.sosceramics.com/"
@@ -512,13 +462,15 @@
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "Search snippets mention obvara firing and raku with an invitation to participate, but no actual page text is provided to verify the location details or confirm public access terms.",
-        "types": {},
+        "verdict": "yes",
+        "why": "The page explicitly invites outsiders to participate in obvara and raku firings for a fee of $120 per person, with an open invitation to contact via email or phone.",
+        "types": {
+          "raku": "You can usually find me in the back lane doing a firing - either obvara or raku - and I invite others to participate!"
+        },
         "state": "",
-        "town": ""
+        "town": "Mullumbimby"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": false,
         "date": "2026-10-14"
@@ -565,7 +517,7 @@
         "by": "claude-haiku-4.5",
         "date": "2026-10-14",
         "verdict": "no",
-        "why": "The site is a blog/directory about pottery techniques with no information about public access to actual firings at this location; it lists pottery classes in other cities (Los Angeles, Billings) but provides no details about firings or how to participate, and no address or contact information for potteryclassess itself.",
+        "why": "This is a directory/blog website about pottery classes and techniques with no physical location, no firings of its own, and no information about public access to non-electric ceramic firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -631,6 +583,10 @@
     {
       "id": "multnomah-arts-center",
       "why": "Its own pages give an address in OR (PORTLAND), not MT. Moved. (2026-10-14)"
+    },
+    {
+      "id": "the-clay",
+      "why": "Second check (claude-haiku-4.5): missoulaevents.net is a community events calendar directory/listing site with no indication it runs its own ceramic firings; the search snippets mention The Clay's wood and raku classes/firings but the page text provided does not contain details about how to access them or The Clay's location/contact information. (2026-10-14)"
     }
   ]
 }

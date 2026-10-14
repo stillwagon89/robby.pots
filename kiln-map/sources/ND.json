@@ -41,7 +41,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "unclear",
         "why": "The snippets mention NDSU wood kiln firings and a wood/soda kiln workshop, but the actual page text is empty, so I cannot verify whether outsiders can publicly participate or find the location details.",
         "types": {},
@@ -94,7 +94,7 @@
         "checked": "2026-10-07",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -102,10 +102,12 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
-        "verdict": "unclear",
-        "why": "Search snippets mention raku firing and public workshops, but the actual page text provided does not contain details about how outsiders can participate in any firing.",
-        "types": {},
+        "date": "2026-10-14",
+        "verdict": "yes",
+        "why": "The search snippets show that Bismarck State College offers community raku firing events during ArtsQuest that are open to the public, where outsiders can pick up clay and participate in the firing process.",
+        "types": {
+          "raku": "Join the Bismarck State College community for the annual Raku firing event during ArtsQuest."
+        },
         "state": "ND",
         "town": "Bismarck"
       },
@@ -116,7 +118,7 @@
         "osm": true,
         "date": "2026-10-13"
       },
-      "weak": true,
+      "weak": false,
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
@@ -125,7 +127,8 @@
       },
       "address": "1500 Edwards Avenue, Bismarck, ND 58506",
       "lat": 46.82125,
-      "lng": -100.81692
+      "lng": -100.81692,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "msu-lifelong-learning-institute",
@@ -156,7 +159,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "The page text provided is empty; only search snippets are available, and snippets alone cannot confirm public access to firings.",
         "types": {},
@@ -176,58 +179,6 @@
       },
       "access": {
         "status": "ongoing"
-      }
-    },
-    {
-      "id": "mke-studio-tour",
-      "org": "MKE Studio Tour",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "North Dakota",
-      "city": null,
-      "urls": [
-        "https://mkestudiotour.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://mkestudiotour.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Demonstrations include pottery throwing, Raku firing, sgraffito clay carving, knitting, printmaking, sock making, ceramic painting, corn husk flower making, kiln unloading, and a hands-on watercolor greeting card activity.",
-        "url": "https://mkestudiotour.com/inthenews/2026/8/22/demonstrations-amp-activities-schedule",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-13"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "mkestudiotour.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-13",
-        "verdict": "no",
-        "why": "The page text is empty; only search snippets are provided, which mention raku firing demonstrations but do not show a way for outsiders to book, sign up, or take part in an actual raku firing (demonstrations and activities are not the same as firing participation).",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-13"
       }
     }
   ],
@@ -323,6 +274,10 @@
     {
       "id": "national-buffalo-museum",
       "why": "Second check (claude-haiku-4.5): The text describes a one-time demonstration by a potter at a festival, not an opportunity for outsiders to participate in or book a raku firing class, workshop, membership, rental, or firing service. (2026-10-13)"
+    },
+    {
+      "id": "mke-studio-tour",
+      "why": "Second check (claude-haiku-4.5): The page mentions raku firing only as a demonstration activity during a studio tour event, not as a workshop, class, membership, rental, firing service, or open invitation for outsiders to participate in an actual firing. (2026-10-14)"
     }
   ]
 }

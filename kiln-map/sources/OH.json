@@ -63,7 +63,7 @@
         "checked": "2026-10-06",
         "status": "coming_soon"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -88,7 +88,8 @@
       "weak": false,
       "address": "2050 South High Street, Columbus, OH",
       "lat": 39.91921,
-      "lng": -82.99528
+      "lng": -82.99528,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "langweil-studio-pottery",
@@ -188,7 +189,7 @@
         "checked": "2026-10-06",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -220,7 +221,8 @@
         "result": "split",
         "date": "2026-10-08"
       },
-      "address": "0059 3521 Main Street, Perry, OH 44081"
+      "address": "0059 3521 Main Street, Perry, OH 44081",
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "yellow-springs-raku-day-john-bryan-community-pot",
@@ -382,7 +384,7 @@
       "lng": -81.91792,
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page states 'Raku is coming to Quill!' and invites outsiders to subscribe to the newsletter or message to 'get on the list' for raku firing updates, providing a clear path for public participation.",
         "types": {},
@@ -562,7 +564,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "no",
         "why": "No page text provided to verify public access to firings at this location.",
         "types": {},

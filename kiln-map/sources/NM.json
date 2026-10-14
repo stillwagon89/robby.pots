@@ -192,7 +192,7 @@
       },
       "verify": {
         "by": "claude-haiku-4.5",
-        "date": "2026-10-09",
+        "date": "2026-10-14",
         "verdict": "yes",
         "why": "The page explicitly states 'We are open to having any interested potters join in the community and upcoming firings. Please contact us,' providing an open invitation for outsiders to participate in wood-fired salt and wood-fired firings.",
         "types": {},
@@ -248,7 +248,7 @@
         "checked": "2026-10-06",
         "status": "coming_soon"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -280,7 +280,8 @@
         "date": "2026-10-08"
       },
       "lat": 35.0841,
-      "lng": -106.65099
+      "lng": -106.65099,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "taos-ceramics-center",
@@ -316,7 +317,7 @@
         "checked": "2026-10-06",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -342,7 +343,8 @@
       "weak": false,
       "address": "114 Este Es Road, Taos, NM",
       "lat": 36.36959,
-      "lng": -105.59176
+      "lng": -105.59176,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "potters-guild-of-las-cruces",
@@ -376,7 +378,7 @@
         "checked": "2026-10-06",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -402,7 +404,8 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "weak": false
+      "weak": false,
+      "auto_approved": "2026-10-14"
     },
     {
       "id": "calliope-gallery",
@@ -462,6 +465,57 @@
       "lat": 35.40737,
       "lng": -106.15202,
       "auto_approved": "2026-10-14"
+    },
+    {
+      "id": "green-river-pottery",
+      "org": "Green River Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Santa Fe",
+      "city": "Santa Fe",
+      "urls": [
+        "https://www.greenriverpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Santa Fe, New Mexico",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.greenriverpottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Stoneware is a rugged, durable, kind of clay. The pots are fired to a high temperature (2350 Fahrenheit) in the kiln and during the long, intense, ‘reduction’ process the clay and glazes are transformed - darkened and given depth.",
+        "url": "https://www.greenriverpottery.com",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "greenriverpottery.com"
+      },
+      "weak": true,
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-14",
+        "verdict": "yes",
+        "why": "The page explicitly offers 'one-time classes for travelers,' 'weekly classes & workshops,' and 'Private one-time pottery class' to the public, and mentions firing in a reduction process at high temperature.",
+        "types": {},
+        "state": "NM",
+        "town": "Santa Fe",
+        "street": "Lena Street"
+      },
+      "lat": 35.68761,
+      "lng": -105.93846
     }
   ],
   "_removed": [
@@ -512,6 +566,34 @@
     {
       "id": "anderson-ranch-art-center",
       "why": "Second check (gemini-3.1-flash-lite): The provided text is a directory listing kiln types at various locations but does not contain any information regarding public access, workshops, classes, or contact instructions for Anderson Ranch Art Center. (2026-10-08)"
+    },
+    {
+      "id": "dakota-potters-supply-nm",
+      "why": "Second check (claude-haiku-4.5): The page text is from Shelby Prindaville's personal art portfolio website and contains only a blog post about attending a raku workshop at Dakota Potters Supply; it does not provide information about how outsiders can sign up for, book, or participate in firings at Dakota Potters Supply itself. (2026-10-14)"
+    },
+    {
+      "id": "the-georgia-o-keeffe-museum",
+      "why": "Second check (claude-haiku-4.5): The page describes a coil pottery workshop where pieces are fired by an instructor after the class, but does not specify the firing type (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) and does not show public access to participate in the actual firing itself. (2026-10-14)"
+    },
+    {
+      "id": "ceramica-abq",
+      "why": "Second check (claude-haiku-4.5): The page text shows only electric kiln firing (Cone 5 Electric) with no mention of raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings. (2026-10-14)"
+    },
+    {
+      "id": "alexadamsclaywork",
+      "why": "Second check (claude-haiku-4.5): page says state is KY, not NM (2026-10-14)"
+    },
+    {
+      "id": "cone-zero-ceramics",
+      "why": "Second check (claude-haiku-4.5): The text describes classes, workshops, and open studio access but mentions only generic firing fees without specifying any non-electric firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction). (2026-10-14)"
+    },
+    {
+      "id": "ls-ceramics",
+      "why": "Second check (claude-haiku-4.5): The page describes pottery classes with firing included, but does not specify the firing type (electric, kiln, raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction), only mentioning generic 'firing' without identifying which non-electric technique is used. (2026-10-14)"
+    },
+    {
+      "id": "ancientpottery-how",
+      "why": "Second check (claude-haiku-4.5): The site offers only online video classes and in-person workshops for coil pottery making and painting, with outdoor firing demonstrations in videos, but does not show that outsiders can participate in an actual firing event—only watch videos of firings or take classes on technique. (2026-10-14)"
     }
   ]
 }
