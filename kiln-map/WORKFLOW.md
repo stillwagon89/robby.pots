@@ -44,3 +44,11 @@ leaves it out until Robby clears it (`node kiln-map/discover/flag-clear.mjs <id>
 `node kiln-map/triage.mjs --apply` (step in the weekly workflow, right after extract) applies all of the above: rejects, approves items at already-public places,
 marks full, expands repeats. What is left in `data/pending/` is only real judgement calls plus items at places Robby hasn't approved yet.
 `review.mjs` lists only the first group, most informative first. Spot-check ~10 triage approvals each run; if more than 1 in 10 is wrong, tighten the rule.
+
+### Closed, full and members-only offerings (Robby, 2026-10-13/14)
+- **Always a location.** A place that can fire non-electric but is open only to enrolled students, members or invitees, or whose class is full, still appears as a location.
+- **Also a firing card when there is a term or date**, shown as **Closed to public** (students / members / invitation / residents only; the "who can join" line says which) or **Full**. They rank below every open, ongoing, opens-soon and waitlist listing, so they never crowd out what a visitor can actually join.
+- **Location only (no firing card)** when it is undated and restricted: "occasional" member firings, undated residencies, members-only monthly raku with no date. The place's card carries the quote; `location_only: true` on the item does this.
+- **Open-by-application** programs (residencies, wood-kiln groups) with a date are firings and locations; "By application" in the who-can-join line.
+- **Specific seasonal dates** ("Winter 2026/27") are listed with the "Opens soon" status.
+- **Group bookings on request** (no date) are not a firing; mention them in the place summary.

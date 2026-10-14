@@ -1385,8 +1385,8 @@
           "checked": "2026-10-04",
           "added_by": null,
           "title": "Firing Membership",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Members only"
         },
         {
@@ -1455,8 +1455,8 @@
           "checked": "2026-10-04",
           "added_by": null,
           "title": "Short-Term Residency",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Residents only"
         },
         {
@@ -1488,8 +1488,8 @@
           "checked": "2026-10-04",
           "added_by": null,
           "title": "Wood-Fire Residency",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Residents only"
         }
       ]
@@ -1579,8 +1579,8 @@
           "checked": "2026-10-04",
           "added_by": null,
           "title": "Ceramics Residency 2026/27",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Residents only"
         },
         {
@@ -1855,8 +1855,8 @@
           "checked": "2026-10-04",
           "added_by": null,
           "title": "Full Studio Membership – Sonoma Ceramics",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Members only"
         },
         {
@@ -1931,8 +1931,8 @@
           "checked": "2026-10-04",
           "added_by": null,
           "title": "Sonoma Ceramics Artist in Residence",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Residents only"
         },
         {
@@ -1969,8 +1969,8 @@
           "checked": "2026-10-04",
           "added_by": null,
           "title": "Home Studio Membership",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Members only"
         }
       ]
@@ -2137,7 +2137,7 @@
           "checked": "2026-10-05",
           "added_by": null,
           "title": "Ceramics Classes - Soda Firing",
-          "status": "ongoing",
+          "status": "closed",
           "key_date": "Sign up by Jan 29",
           "who_can_join": "Enrolled students only; not open to the general public"
         },
@@ -2170,7 +2170,7 @@
           "checked": "2026-10-04",
           "added_by": null,
           "title": "Ceramics Classes - Gas Reduction Firing",
-          "status": "ongoing",
+          "status": "closed",
           "key_date": "Sign up by Jan 29",
           "who_can_join": "Enrolled students only"
         },
@@ -2203,7 +2203,7 @@
           "checked": "2026-10-04",
           "added_by": null,
           "title": "Ceramics Classes - Raku Firing",
-          "status": "ongoing",
+          "status": "closed",
           "key_date": "Sign up by Jan 29",
           "who_can_join": "Enrolled students only"
         }
@@ -2272,8 +2272,8 @@
           "checked": "2026-10-04",
           "added_by": "manual",
           "title": "Wood firing in CSU Sacramento ceramics courses",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Enrolled students only"
         }
       ]
@@ -4928,19 +4928,52 @@
         "status": "upcoming"
       },
       "get_in": [
-        "Raku events; atmospheric firing"
+        "Raku events; atmospheric firing",
+        "Workshops and firings"
       ],
       "firing_types": [
+        "raku",
         "soda",
-        "gas_reduction",
-        "raku"
+        "gas_reduction"
       ],
       "tracking": "auto",
       "last_checked": "2026-10-13",
-      "unknowns": [
-        "No upcoming firing dates are posted on their website."
-      ],
-      "opportunities": []
+      "unknowns": [],
+      "opportunities": [
+        {
+          "summary": "Raku workshop (Winter 2026/27) where you bring 2–3 bisqued pieces, wear natural fiber clothing and closed-toed shoes, and fire outdoors. Requires willingness to experiment. $75/person. Registration coming soon.",
+          "pay_text": null,
+          "bring": "2–3 bisqued pieces (not intended for food use); natural fiber clothing; closed-toed shoes; outdoor clothes; water and snacks",
+          "commitment": "Winter 2026/27 (dates not yet specified)",
+          "id": "df5a88d58ae4",
+          "firing_type": "raku",
+          "kiln_style": null,
+          "access_kind": "dated",
+          "audience": "public",
+          "start_date": "2026-12-01",
+          "end_date": null,
+          "date_precision": "season",
+          "signup_deadline": null,
+          "registration_status": "not_yet_open",
+          "registration_opens": null,
+          "cost_text": "$75/person",
+          "how_to_join": "Registration coming soon",
+          "includes": [],
+          "crew_needed": false,
+          "first_atmospheric_ok": false,
+          "source_url": "https://www.carbondaleclay.org/workshops",
+          "evidence_sentence": "A raku workshop is coming in Winter 2026/27 for potters with bisqued pieces.",
+          "evidence_quote": "RAKU WORKSHOP Coming in Winter 2026/27",
+          "evidence_url": "https://www.carbondaleclay.org/workshops#:~:text=RAKU%20WORKSHOP%20Coming%20in%20Winter%202026%2F27",
+          "signup_url": null,
+          "checked": "2026-10-13",
+          "added_by": null,
+          "title": "Raku Workshop",
+          "status": "opens_soon",
+          "key_date": "Sign-up date to be announced",
+          "who_can_join": null
+        }
+      ]
     },
     {
       "id": "groundworks-art-lab",
@@ -8215,8 +8248,8 @@
           "checked": "2026-10-05",
           "added_by": null,
           "title": "Ceramics Studio Membership",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Members only"
         }
       ]
@@ -8452,9 +8485,9 @@
       "firing_evidence": [
         {
           "firing_type": "raku",
-          "sentence": "The studio holds monthly studio member-only raku firings, with firing fees determined by kiln space occupied.",
-          "quote": "Studio Raku Firings- held monthly",
-          "url": "https://www.thepottersshopandschool.com/#:~:text=Studio%20Raku%20Firings%2D%20held%20monthly",
+          "sentence": null,
+          "quote": "The studio holds monthly studio member only Raku firings in our state of the art Raku site",
+          "url": "https://www.thepottersshopandschool.com/workshops.php#:~:text=The%20studio%20holds%20monthly%20studio%20member%20only%20Raku%20firings",
           "via": null
         }
       ],
@@ -8544,8 +8577,8 @@
           "checked": "2026-10-13",
           "added_by": null,
           "title": "Studio Member Monthly Raku Firings",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Members only"
         }
       ]
@@ -8754,8 +8787,8 @@
           "checked": "2026-10-13",
           "added_by": null,
           "title": "Soda Firing—Semester Classes and Members",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Members only"
         }
       ]
@@ -8954,11 +8987,12 @@
       },
       "get_in": [
         "Classes and workshops",
+        "Classes",
         "Membership"
       ],
       "firing_types": [
-        "gas_reduction",
-        "raku"
+        "raku",
+        "gas_reduction"
       ],
       "tracking": "auto",
       "last_checked": "2026-10-13",
@@ -8966,6 +9000,43 @@
         "No upcoming firing dates are posted on their website."
       ],
       "opportunities": [
+        {
+          "summary": "Worcester Center for Crafts offers ceramics classes that use raku firing. Winter 2027 registration opens November 4, 2026, but specific class dates and titles are not listed on these pages.",
+          "pay_text": null,
+          "bring": null,
+          "commitment": null,
+          "id": "469fbceaeeed",
+          "firing_type": "raku",
+          "kiln_style": null,
+          "access_kind": "class_enrollment",
+          "audience": "students",
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "none",
+          "signup_deadline": null,
+          "registration_status": "sold_out",
+          "registration_opens": "2026-11-04",
+          "cost_text": null,
+          "how_to_join": "Register through the online course catalog at register.worcestercraftcenter.org",
+          "includes": [
+            "raku",
+            "gas_reduction",
+            "electric"
+          ],
+          "crew_needed": false,
+          "first_atmospheric_ok": null,
+          "source_url": "https://worcestercraftcenter.org/classes-workshops/ceramics/",
+          "evidence_sentence": "The ceramics page states students take classes using raku firing techniques.",
+          "evidence_quote": "utilize raku, electric oxidation, gas reduction, sodium vapor, and wood-fueled firing techniques",
+          "evidence_url": "https://worcestercraftcenter.org/#:~:text=utilize%20raku%2C%20electric%20oxidation%2C,and%20wood%2Dfueled%20firing%20techniques",
+          "signup_url": "https://register.worcestercraftcenter.org/wconnect/ACE/search.awp",
+          "checked": "2026-10-13",
+          "added_by": null,
+          "title": "Ceramics Classes with Raku and Gas Reduction Firing",
+          "status": "full",
+          "key_date": null,
+          "who_can_join": "Enrolled students only. Fall session is full; winter registration opens Nov 4, 2026"
+        },
         {
           "summary": "A $185/month membership provides studio access 9am–9pm daily with inclusion in regular Open Studio hours where the ceramics staff fire bisque, cone ten reduction, and cone six oxidation kilns. Clay and firing are charged at student rates.",
           "pay_text": null,
@@ -9506,8 +9577,8 @@
           "checked": "2026-10-05",
           "added_by": null,
           "title": "Clay Studio Membership with Raku Kiln Access",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Members only"
         }
       ]
@@ -11044,7 +11115,9 @@
       "access": {
         "status": "upcoming"
       },
-      "get_in": [],
+      "get_in": [
+        "Residencies"
+      ],
       "firing_types": [
         "wood"
       ],
@@ -11053,7 +11126,43 @@
       "unknowns": [
         "No upcoming firing dates are posted on their website."
       ],
-      "opportunities": []
+      "opportunities": [
+        {
+          "summary": "Groups of artists can fire the wood kilns (catenary arch or train kiln) during a residency by applying through the AIA program. Applications for Summer 2027 groups (Sept 2027–April 2028 firing) open February 1, 2027. No firing allowed May 1–October 15.",
+          "pay_text": null,
+          "bring": null,
+          "commitment": null,
+          "id": "1e5de8c3d89e",
+          "firing_type": "wood",
+          "kiln_style": "catenary arch, train kiln",
+          "access_kind": "residency",
+          "audience": "public",
+          "start_date": "2027-09-01",
+          "end_date": "2028-04-30",
+          "date_precision": "season",
+          "signup_deadline": "2027-05-01",
+          "registration_status": "not_yet_open",
+          "registration_opens": "2027-02-01",
+          "cost_text": null,
+          "how_to_join": "Apply as a group through the Artist-Invites-Artists application portal (opens Feb 1, 2027 for Summer 2027 groups)",
+          "includes": [
+            "wood"
+          ],
+          "crew_needed": true,
+          "first_atmospheric_ok": null,
+          "source_url": "https://www.redlodgeclaycenter.com/residency-info/",
+          "evidence_sentence": "The residency info page states artists must apply through the Artist-Invites-Artists (AIA) program to fire wood kilns during their residency.",
+          "evidence_quote": "any artist who is interested in firing a wood kiln (either the catenary arch, or train kiln) will need to apply with a group of artists under the \"Artist Invites Artists\" or \"AIA\" application portal",
+          "evidence_url": "https://www.redlodgeclaycenter.com/residency-info/#:~:text=any%20artist%20who%20is,or%20%22AIA%22%20application%20portal",
+          "signup_url": null,
+          "checked": "2026-10-13",
+          "added_by": null,
+          "title": "Artist-Invites-Artists (AIA) Wood Kiln Firing Groups",
+          "status": "ongoing",
+          "key_date": "Sign up by May 1",
+          "who_can_join": "By application; Summer 2027 groups"
+        }
+      ]
     },
     {
       "id": "theclaystudioofmissoula",
@@ -11496,8 +11605,8 @@
           "checked": "2026-10-09",
           "added_by": null,
           "title": "Raku Class (Multi-Week)",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Enrolled students only"
         }
       ]
@@ -12934,7 +13043,7 @@
           "checked": "2026-10-13",
           "added_by": null,
           "title": "Ceramic Residency at Craigardan",
-          "status": "ongoing",
+          "status": "closed",
           "key_date": "Sign up by Dec 15",
           "who_can_join": "Residents only"
         }
@@ -16028,8 +16137,8 @@
           "checked": "2026-10-13",
           "added_by": null,
           "title": "Ceramics Studio Access Membership",
-          "status": "ongoing",
-          "key_date": null,
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Members only"
         }
       ]
@@ -16643,8 +16752,8 @@
           "checked": "2026-10-05",
           "added_by": null,
           "title": "Wheel Throwing with Soda and Raku",
-          "status": "ongoing",
-          "key_date": "Next term starts Oct 29",
+          "status": "closed",
+          "key_date": "Not open to the general public",
           "who_can_join": "Enrolled students only"
         }
       ]
@@ -17642,18 +17751,16 @@
       "firing_evidence": [
         {
           "firing_type": "wood",
-          "sentence": "Cub Creek has four wood-firing kilns that form the foundation of their programs, offering diverse firing styles.",
-          "quote": "Cub Creek four wood firing kilns provide the foundation for many of our programs. By offering a diverse range of firing styles, we aim to provide space for emerging and established artists to experiment and refine their approaches to this ancient firing method.",
-          "url": "https://www.cubcreek.org/#:~:text=Cub%20Creek%20four%20wood,this%20ancient%20firing%20method.",
+          "sentence": "A residency for emerging and established artists lasting one month to three years, providing studio space, housing, and participation in communal wood firings for $1,100/month plus security deposit and cleaning fee.",
+          "quote": "participate in resident meetings - once a month... Help with wood preparation once a week",
+          "url": "https://www.cubcreek.org/artist-in-residence-program",
           "via": null
         }
       ],
       "access": {
         "status": "coming_soon"
       },
-      "get_in": [
-        "Residencies"
-      ],
+      "get_in": [],
       "firing_types": [
         "wood"
       ],
@@ -17662,43 +17769,7 @@
       "unknowns": [
         "No upcoming firing dates are posted on their website."
       ],
-      "opportunities": [
-        {
-          "summary": "A residency for emerging and established artists lasting one month to three years, providing studio space, housing, and participation in communal wood firings for $1,100/month plus security deposit and cleaning fee.",
-          "pay_text": null,
-          "bring": null,
-          "commitment": null,
-          "id": "bdaad7cc696a",
-          "firing_type": "wood",
-          "kiln_style": null,
-          "access_kind": "residency",
-          "audience": "residents_only",
-          "start_date": null,
-          "end_date": null,
-          "date_precision": "none",
-          "signup_deadline": null,
-          "registration_status": "open",
-          "registration_opens": null,
-          "cost_text": "$1,100/month, $200 refundable security deposit, $100 non-refundable cleaning fee, $25 application fee",
-          "how_to_join": "Email Heidi at hkreitchet@gmail.com with arrival and departure dates and submit application materials (10-20 images, artist statement, bio, letter of intent, and $25 fee).",
-          "includes": [
-            "wood"
-          ],
-          "crew_needed": true,
-          "first_atmospheric_ok": null,
-          "source_url": "https://www.cubcreek.org/artist-in-residence-program",
-          "evidence_sentence": "The residency page states residents participate in group firings and are expected to help with wood preparation.",
-          "evidence_quote": "participate in resident meetings - once a month... Help with wood preparation once a week",
-          "evidence_url": null,
-          "signup_url": null,
-          "checked": "2026-10-05",
-          "added_by": null,
-          "title": "Cub Creek Foundation Artist-in-Residence Program",
-          "status": "ongoing",
-          "key_date": null,
-          "who_can_join": "Residents only"
-        }
-      ]
+      "opportunities": []
     },
     {
       "id": "art-league-va",

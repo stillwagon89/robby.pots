@@ -60,6 +60,7 @@ function cleanTitle(t) {
 }
 
 const ONGOING_KINDS = ["ongoing_membership", "class_enrollment", "residency", "rental_service"];
+const CLOSED_AUDIENCE = ["students", "members_only", "invitation_only", "residents_only"];
 const AUDIENCE_LINE = { members_only: "Members only", students: "Enrolled students only", residents_only: "Residents only", invitation_only: "By invitation only" };
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const short = (iso) => { const [, m, d] = iso.split("-").map(Number); return `${MONTHS[m - 1]} ${d}`; };
@@ -98,6 +99,8 @@ function contactFor(s) {
 function displayStatus(i, today) {
   if (i.registration_status === "waitlist" || (/waitlist/i.test(i.title) && i.registration_status === "sold_out")) return "waitlist";
   if (i.registration_status === "sold_out" || i.registration_status === "closed") return "full";
+  // Not open to the public (enrolled students, members, invitation, residents): still listed, shown as closed and ranked below open ones.
+  if (CLOSED_AUDIENCE.includes(i.audience)) return "closed";
   // A firing service you can book now (incl. mobile "we bring the kiln" services) shows as open, so it surfaces as joinable.
   if (i.access_kind === "rental_service") return "open";
   if (ONGOING_KINDS.includes(i.access_kind)) {
@@ -115,6 +118,7 @@ function displayStatus(i, today) {
 function keyDate(i, status, today) {
   if (status === "opens_soon") return i.registration_opens ? `Sign-up opens ${short(i.registration_opens)}` : "Sign-up date to be announced";
   if (i.signup_deadline && i.signup_deadline >= today) return `Sign up by ${short(i.signup_deadline)}`;
+  if (status === "closed") return "Not open to the general public";
   if (status === "more_info") return "Sign-up status not posted";
   if (status === "ongoing" && i.start_date && i.start_date >= today) return `Next term starts ${short(i.start_date)}`;
   return null;
@@ -132,10 +136,12 @@ function trackingFor(source) {
   return r.pages?.some((p) => p.chars > 200) ? "auto" : "blocked";
 }
 
+// Items marked location_only add their evidence to the place card but are not shown as firings.
+const locationEvidence = (id) => approved.filter((i) => i.source_id === id && i.location_only && IN_SCOPE.has(i.firing_type)).map((i) => ({ firing_type: i.firing_type, sentence: i.summary || i.evidence_sentence || null, quote: i.evidence_quote || i.source_quote, url: i.evidence_url || i.source_url || null, via: i.evidence_via || null }));
 const places = sources.map((s) => {
   const today = todayIn(s.tz);
   const items = approved
-    .filter((i) => i.source_id === s.id && !isPast(i, today) && IN_SCOPE.has(i.firing_type))
+    .filter((i) => i.source_id === s.id && !i.location_only && !isPast(i, today) && IN_SCOPE.has(i.firing_type))
     .map((i) => ({
       ...Object.fromEntries(ITEM_FIELDS.map((k) => [k, i[k] ?? null])),
       title: cleanTitle(i.title),
@@ -160,7 +166,7 @@ const places = sources.map((s) => {
 
   // Tags come from evidence (listings and verified quotes). Research guesses only fill in when we have no evidence at all
   // (e.g. a private kiln with no website), so a tag like "Pit" never appears just because we assumed it.
-  const evidenced = dedupeEvidence(null, lastRun.get(s.id)?.firing_evidence || []).map((f) => f.firing_type);
+  const evidenced = dedupeEvidence(null, [...locationEvidence(s.id), ...(lastRun.get(s.id)?.firing_evidence || [])]).map((f) => f.firing_type);
   const fromItems = [...items.map((i) => i.firing_type), ...items.flatMap((i) => (i.includes || []).join(" ").toLowerCase().match(/wood|soda|salt|raku|pit/g) || [])];
   // A place can qualify on access alone (classes or membership that fire in these kilns), backed by a quote.
   const viaAccess = (s.access?.types || []).filter((t) => namesType(t, s.access.quote));
@@ -184,7 +190,7 @@ const places = sources.map((s) => {
     contact: contactFor(s),
     newsletter_url: s.newsletter_url || null,
     place_summary: lastRun.get(s.id)?.place_summary || null,
-    firing_evidence: dedupeEvidence(lastRun.get(s.id)?.place_summary, lastRun.get(s.id)?.firing_evidence || []),
+    firing_evidence: dedupeEvidence(lastRun.get(s.id)?.place_summary, [...locationEvidence(s.id), ...(lastRun.get(s.id)?.firing_evidence || [])]),
     access: s.access ? { how: s.access.how, note: s.access.note, quote: s.access.quote, url: s.access.url, status: s.access.status || null } : null,
     get_in: [...new Set([...(s.access?.how ? [s.access.how] : []), ...items.map((i) => ({ dated: "Workshops and firings", ongoing_membership: "Membership", class_enrollment: "Classes", residency: "Residencies", rental_service: "Kiln rental" })[i.access_kind])].filter(Boolean))],
     firing_types: firingTypes,

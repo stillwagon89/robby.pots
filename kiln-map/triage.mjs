@@ -59,6 +59,8 @@ for (const f of fs.readdirSync(path.join(KM, "data/pending")).filter((f) => f.en
     else if (e.year_on_page === false) look(e, "year not written on the page");
     else {
       if (m) { const N = { first: 1, "1st": 1, second: 2, "2nd": 2, third: 3, "3rd": 3, fourth: 4, "4th": 4, last: -1 }; const W = ["mon", "tues", "wednes", "thurs", "fri", "satur", "sun"]; e.recurs = { nth: N[m[1].toLowerCase()], weekday: W.indexOf(m[2].toLowerCase()) + 1, months: 4 }; }
+      // Rule: undated residencies, and undated members-only / invitation-only / residents-only offers, are a location only (no firing card).
+      if (!e.start_date && !m && (e.access_kind === "residency" || ["members_only", "invitation_only", "residents_only"].includes(e.audience))) e.location_only = true;
       verdict = ["approve", ""];
     }
   }
