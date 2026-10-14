@@ -47,7 +47,7 @@ marks full, expands repeats. What is left in `data/pending/` is only real judgem
 
 ### Closed, full and members-only offerings (Robby, 2026-10-13/14)
 - **Always a location.** A place that can fire non-electric but is open only to enrolled students, members or invitees, or whose class is full, still appears as a location.
-- **Also a firing card when there is a term or date**, shown as **Closed to public** (students / members / invitation / residents only; the "who can join" line says which) or **Full**. They rank below every open, ongoing, opens-soon and waitlist listing, so they never crowd out what a visitor can actually join.
+- **Also a firing card when there is a term or date**, shown with its own status: **Students only**, **Members only**, **Invitation only** or **Residents only**, or **Full**. They rank below every open, ongoing, opens-soon and waitlist listing, so they never crowd out what a visitor can actually join.
 - **Location only (no firing card)** when it is undated and restricted: "occasional" member firings, undated residencies, members-only monthly raku with no date. The place's card carries the quote; `location_only: true` on the item does this.
 - **Open-by-application** programs (residencies, wood-kiln groups) with a date are firings and locations; "By application" in the who-can-join line.
 - **Specific seasonal dates** ("Winter 2026/27") are listed with the "Opens soon" status.

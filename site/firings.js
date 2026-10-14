@@ -10,10 +10,14 @@ const STATUS = {
   opens_soon: { label: "Opens soon", action: "Get their updates" },
   waitlist: { label: "Waitlist", action: "Join waitlist" },
   full: { label: "Full", action: "See their next dates" },
-  closed: { label: "Closed to public", action: "See who can join" },
+  students: { label: "Students only", action: "See who can join" },
+  members_only: { label: "Members only", action: "See how to join" },
+  invitation_only: { label: "Invitation only", action: "See who can join" },
+  residents_only: { label: "Residents only", action: "See how to apply" },
   ongoing: { label: "Ongoing", action: "Enroll / apply" },
   more_info: { label: "More info needed", action: "Contact host" },
 };
+const RESTRICTED = new Set(["students", "members_only", "invitation_only", "residents_only"]);
 const KIND_LABEL = { residency: "Residency / art center", college: "College", city_arts: "Community arts center", studio: "Studio", private_kiln: "Private kiln" };
 const TRACKING = {
   auto: "Checked automatically from their website.",
@@ -97,7 +101,7 @@ function firingCards() {
   }
   // What can a visitor actually do soonest? Open sign-ups first (by date), then ongoing access, then sign-ups opening soon,
   // waitlists, unclear status, and full ones last. Places with no listings come after every listing.
-  const TIER = { opens_soon: 2, waitlist: 3, more_info: 4, full: 5, closed: 5.5 };
+  const TIER = { opens_soon: 2, waitlist: 3, more_info: 4, full: 5, students: 5.5, members_only: 5.5, invitation_only: 5.5, residents_only: 5.5 };
   const today = new Date().toISOString().slice(0, 10);
   // Order matches the divider: joinable now (open sign-ups by date, then ongoing access), then everything else.
   const rank = (c) => {
@@ -155,7 +159,7 @@ function primaryLabel(o) {
 function primaryUrl(o, p) {
   if (o.status === "opens_soon") return updatesUrl(p);
   if (o.status === "more_info") return contactUrl(p) || o.source_url;
-  if (o.status === "full" || o.status === "closed") return p.contact?.website || o.source_url;
+  if (o.status === "full" || RESTRICTED.has(o.status)) return p.contact?.website || o.source_url;
   return o.signup_url || evidenceFor(o, p)?.url || o.source_url;
 }
 

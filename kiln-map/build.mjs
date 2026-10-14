@@ -100,7 +100,7 @@ function displayStatus(i, today) {
   if (i.registration_status === "waitlist" || (/waitlist/i.test(i.title) && i.registration_status === "sold_out")) return "waitlist";
   if (i.registration_status === "sold_out" || i.registration_status === "closed") return "full";
   // Not open to the public (enrolled students, members, invitation, residents): still listed, shown as closed and ranked below open ones.
-  if (CLOSED_AUDIENCE.includes(i.audience)) return "closed";
+  if (CLOSED_AUDIENCE.includes(i.audience)) return i.audience; // students | members_only | invitation_only | residents_only
   // A firing service you can book now (incl. mobile "we bring the kiln" services) shows as open, so it surfaces as joinable.
   if (i.access_kind === "rental_service") return "open";
   if (ONGOING_KINDS.includes(i.access_kind)) {
@@ -118,7 +118,7 @@ function displayStatus(i, today) {
 function keyDate(i, status, today) {
   if (status === "opens_soon") return i.registration_opens ? `Sign-up opens ${short(i.registration_opens)}` : "Sign-up date to be announced";
   if (i.signup_deadline && i.signup_deadline >= today) return `Sign up by ${short(i.signup_deadline)}`;
-  if (status === "closed") return "Not open to the general public";
+  if (CLOSED_AUDIENCE.includes(status)) return "Not open to the general public";
   if (status === "more_info") return "Sign-up status not posted";
   if (status === "ongoing" && i.start_date && i.start_date >= today) return `Next term starts ${short(i.start_date)}`;
   return null;

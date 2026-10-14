@@ -1378,7 +1378,7 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 .kf-waitlist { background: #EDF1F9; border-color: var(--cobalt-mid); color: var(--cobalt-deep); }
 .kf-full { background: #F8FAFD; border-color: var(--border); color: var(--cobalt-muted); text-decoration: line-through; text-decoration-thickness: 1px; }
 .kf-ongoing { border-color: var(--border); color: var(--cobalt); }
-.kf-closed { background: #F8FAFD; border-color: var(--border); color: var(--cobalt-muted); }
+.kf-students, .kf-members_only, .kf-invitation_only, .kf-residents_only { background: #F8FAFD; border-color: var(--border); color: var(--cobalt-muted); }
 /* Handoff spec'd Cobalt Mid text here; Cobalt keeps it legible at 10.5px. */
 .kf-more_info { border: 1px dashed var(--cobalt-mid); color: var(--cobalt); font-weight: 400; }
 
