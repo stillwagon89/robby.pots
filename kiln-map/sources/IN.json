@@ -62,7 +62,7 @@
         "checked": "2026-10-07",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -86,7 +86,10 @@
       "weak": false,
       "address": "401 East Diamond Street, Kendallville, IN 46755",
       "lat": 41.44033,
-      "lng": -85.26026
+      "lng": -85.26026,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "amphora-ceramic-studio",
@@ -207,7 +210,10 @@
       "address": "820 E 67th St., Indianapolis, IN 46220",
       "lat": 39.87778,
       "lng": -86.14367,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "northern-indiana-clay-alliance",
@@ -270,7 +276,10 @@
       "address_found": "118 South Main Street, Suite 2, Goshen, IN",
       "lat": 41.58586,
       "lng": -85.83438,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "greater-lafayette-clay-guild",
@@ -449,7 +458,10 @@
       "address": "305 E. Colfax Ave., South Bend, IN 46617",
       "lat": 41.67779,
       "lng": -86.24516,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "lala-gallery",
@@ -521,7 +533,10 @@
       "address": "1816 Main Street, Lafayette, IN 47904",
       "lat": 40.4152,
       "lng": -86.87608,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "truro-center-for-the-arts-at-castle-hill",
@@ -654,6 +669,305 @@
       },
       "lat": 41.07999,
       "lng": -85.1386
+    },
+    {
+      "id": "alley-cat-ceramics",
+      "org": "Alley Cat Ceramics",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Indianapolis",
+      "city": "Indianapolis",
+      "urls": [
+        "https://alleycatceramics.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Indianapolis, Indiana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://alleycatceramics.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "We provide open studio days to the public, firing services, 6 week classes, one day workshops, and memberships for potters with home studios and those looking for a studio to work out of.",
+        "url": "https://alleycatceramics.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "alleycatceramics.com"
+      }
+    },
+    {
+      "id": "clay-art-space-in",
+      "org": "Clay Art Space",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Indiana",
+      "city": null,
+      "urls": [
+        "https://www.clayartspace.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.clayartspace.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
+        "url": "https://www.clayartspace.com/kiln-firing.html",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "clayartspace.com"
+      }
+    },
+    {
+      "id": "smoke-in-the-mountains-pottery-in",
+      "org": "Smoke in the Mountains Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Indiana",
+      "city": null,
+      "urls": [
+        "https://smokeinthemountainspottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://smokeinthemountainspottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The kiln can hold over 700 pots, most of which will be brought by potters and students in the region, who along with other volunteers, will work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a real wood fired kiln can make.",
+        "url": "https://smokeinthemountainspottery.com/wood-firing/",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "smokeinthemountainspottery.com"
+      }
+    },
+    {
+      "id": "the-pottery-house-studio",
+      "org": "The Pottery House Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Bloomington",
+      "city": "Bloomington",
+      "urls": [
+        "https://www.potteryhousestudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Bloomington, Indiana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.potteryhousestudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "We’ll fire your piece in our kiln and let you know when it’s ready to pick up!",
+        "url": "http://www.potteryhousestudio.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "potteryhousestudio.com"
+      }
+    },
+    {
+      "id": "two-women-and-a-wheel",
+      "org": "Two Women and a Wheel",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Fort Wayne",
+      "city": "Fort Wayne",
+      "urls": [
+        "https://twowomenandawheel.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Fort Wayne, Indiana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://twowomenandawheel.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Between markets and firings, we open the studio to small groups who want to slow down and make something with their hands.",
+        "url": "https://twowomenandawheel.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "twowomenandawheel.com"
+      }
+    },
+    {
+      "id": "southbendart",
+      "org": "southbendart",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Indiana",
+      "city": null,
+      "urls": [
+        "https://southbendart.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://southbendart.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "southbendart.org"
+      }
+    },
+    {
+      "id": "art-museum-of-greater-lafayette",
+      "org": "Art Museum of Greater Lafayette",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Lafayette",
+      "city": "Lafayette",
+      "urls": [
+        "https://www.artlafayette.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Lafayette, Indiana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.artlafayette.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Independent Study gives adult students with advanced clay skills access to the Art Museum Pottery Studio twice a week.",
+        "url": "https://www.artlafayette.org/classes/p/clay",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "artlafayette.org"
+      }
+    },
+    {
+      "id": "clay-knob-farm",
+      "org": "Clay Knob Farm",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Lafayette",
+      "city": "Lafayette",
+      "urls": [
+        "https://my.ceramicmaterialsworkshop.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Lafayette, Indiana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://my.ceramicmaterialsworkshop.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "my.ceramicmaterialsworkshop.com"
+      }
+    },
+    {
+      "id": "community-learning-center",
+      "org": "Community Learning Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Kendallville",
+      "city": "Kendallville",
+      "urls": [
+        "https://www.thecommunitylearningcenter.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Kendallville, Indiana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.thecommunitylearningcenter.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "thecommunitylearningcenter.org"
+      }
     }
   ],
   "_removed": [

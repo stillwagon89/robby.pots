@@ -63,7 +63,7 @@
         "checked": "2026-10-07",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -88,7 +88,10 @@
         "osm": false,
         "date": "2026-10-14"
       },
-      "address": "134 South Second Street, Danville, KY 40422"
+      "address": "134 South Second Street, Danville, KY 40422",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "ryandurbinceramics",
@@ -147,7 +150,10 @@
         "date": "2026-10-14"
       },
       "weak": false,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "kjones-pottery",
@@ -272,54 +278,305 @@
       "lng": -86.45765
     },
     {
-      "id": "alexadamsclaywork",
-      "org": "alexadamsclaywork",
+      "id": "clay-art-space-ky",
+      "org": "Clay Art Space",
       "kind": "studio",
       "core": false,
       "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Louisville",
-      "city": "Louisville",
+      "firing_types_guess": [],
+      "region": "Kentucky",
+      "city": null,
       "urls": [
-        "https://alexadamsclaywork.com/"
+        "https://www.clayartspace.com/"
       ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Louisville, Kentucky",
-      "location_note": "Shown at the town.",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
       "contact": {
-        "website": "https://alexadamsclaywork.com/"
+        "website": "https://www.clayartspace.com/"
       },
       "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Public are welcome to come out on firing day and see the exciting results from the raku kiln.",
-        "url": "https://alexadamsclaywork.com/raku-workshop.php",
-        "types": [
-          "raku"
-        ],
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
+        "url": "https://www.clayartspace.com/kiln-firing.html",
+        "types": [],
         "checked": "2026-10-14"
       },
       "review": "pending",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-14",
-        "key": "alexadamsclaywork.com"
+        "key": "clayartspace.com"
+      }
+    },
+    {
+      "id": "suzy-hatcher-pottery",
+      "org": "Suzy Hatcher Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Kentucky",
+      "city": null,
+      "urls": [
+        "https://suzyhatcherpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://suzyhatcherpottery.com/"
       },
-      "weak": true,
-      "verify": {
-        "by": "claude-haiku-4.5",
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Pieces will be fired in the kiln & picked up at a week later.",
+        "url": "https://suzyhatcherpottery.com/class-information/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
         "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "page says state is KY, not NM",
-        "types": {},
-        "state": "KY",
-        "town": "Louisville"
+        "key": "suzyhatcherpottery.com"
+      }
+    },
+    {
+      "id": "aa-clay-studio-gallery",
+      "org": "AA Clay Studio & Gallery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Louisville",
+      "city": "Louisville",
+      "urls": [
+        "https://my.ceramicmaterialsworkshop.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Louisville, Kentucky",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://my.ceramicmaterialsworkshop.com/"
       },
-      "lat": 38.25424,
-      "lng": -85.75941
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "my.ceramicmaterialsworkshop.com"
+      }
+    },
+    {
+      "id": "beechmont-community-center",
+      "org": "Beechmont Community Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Louisville",
+      "city": "Louisville",
+      "urls": [
+        "https://louisville.makerfaire.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Louisville, Kentucky",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://louisville.makerfaire.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Art & Design Beechmont Community Center is home to a Glass studio and a Pottery studio. Both are equipped with kilns for inhouse firings. Classes are offered in both studios, and open studio hours are offered for the Pottery studio. Come create with us!",
+        "url": "https://louisville.makerfaire.com/maker/entry/627/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "louisville.makerfaire.com"
+      }
+    },
+    {
+      "id": "tater-knob-pottery-farm",
+      "org": "Tater Knob Pottery & Farm",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Kentucky",
+      "city": null,
+      "urls": [
+        "https://www.lex18.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.lex18.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "lex18.com"
+      }
+    },
+    {
+      "id": "berea-arts-council",
+      "org": "Berea Arts Council",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Bobtown",
+      "city": "Bobtown",
+      "urls": [
+        "https://bereaartscouncil.networkforgood.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Bobtown, Kentucky",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://bereaartscouncil.networkforgood.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Kiln firing fees and distribution of finished works are covered through BAC/Bobtown, and a class assistant will be available if needed.",
+        "url": "https://bereaartscouncil.networkforgood.com/events/100462-mountain-melodies-appalachian-inspired-ocarinas-wind-instruments-workshop-series",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "bereaartscouncil.networkforgood.com"
+      }
+    },
+    {
+      "id": "8-days-pottery-studio",
+      "org": "8 Days Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Bowling Green",
+      "city": "Bowling Green",
+      "urls": [
+        "https://www.8dayspotterystudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Bowling Green, Kentucky",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.8dayspotterystudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Instruction, tools, and firing included",
+        "url": "https://www.8dayspotterystudio.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "8dayspotterystudio.com"
+      }
+    },
+    {
+      "id": "warren-county-public-library",
+      "org": "Warren County Public Library",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Kentucky",
+      "city": null,
+      "urls": [
+        "https://warrenpl.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://warrenpl.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "All kiln firings are free of charge. You may drop your greenware or glazed pieces off at the Bob Kirby Branch in the Idea Lab or via curbside (see instructions below).",
+        "url": "https://warrenpl.org/pottery/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "warrenpl.org"
+      }
+    },
+    {
+      "id": "queen-city-clay-ky",
+      "org": "Queen City Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Cincinnati",
+      "city": "Cincinnati",
+      "urls": [
+        "https://sinclairemarie.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Cincinnati, Kentucky",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://sinclairemarie.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "sinclairemarie.com"
+      }
     }
   ],
   "_removed": [

@@ -89,7 +89,10 @@
       "address": "2050 South High Street, Columbus, OH",
       "lat": 39.91921,
       "lng": -82.99528,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "langweil-studio-pottery",
@@ -155,7 +158,10 @@
       "address": "596 Main St., Groveport, OH 43125",
       "lat": 39.85156,
       "lng": -82.88391,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "willahollow-pottery",
@@ -222,7 +228,10 @@
         "date": "2026-10-08"
       },
       "address": "0059 3521 Main Street, Perry, OH 44081",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "yellow-springs-raku-day-john-bryan-community-pot",
@@ -281,7 +290,10 @@
       "address": "100 Dayton St, Yellow Springs, OH 45387",
       "lat": 39.80839,
       "lng": -83.88702,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "the-cracked-pot-studio",
@@ -315,7 +327,7 @@
         "checked": "2026-10-06",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -340,7 +352,10 @@
       "weak": false,
       "address": "613 Hamilton St, Bellefontaine, OH",
       "lat": 40.35344,
-      "lng": -83.7575
+      "lng": -83.7575,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "quill-pottery",
@@ -460,7 +475,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "canton-museum-of-art",
@@ -520,7 +538,10 @@
       "address": "1001 Market Ave. N, Canton, OH 44702",
       "lat": 40.80717,
       "lng": -81.37335,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "tomradca",
@@ -643,7 +664,10 @@
       "address": "577 East Front Street, Perrysburg, OH 43551",
       "lat": 41.56618,
       "lng": -83.62024,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "communitypottery",
@@ -709,7 +733,354 @@
       "address": "100 Dayton St., Yellow Springs, OH 45387",
       "lat": 39.80839,
       "lng": -83.88702,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
+    },
+    {
+      "id": "munson-oh",
+      "org": "Munson",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "salt"
+      ],
+      "region": "Ohio",
+      "city": null,
+      "urls": [
+        "https://www.munson.art/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.munson.art/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Join us for this summer's workshop to explore form, function, aesthetic values, textures, tactile qualities, and surface development of atmospheric firing through salt and wood.",
+        "url": "https://www.munson.art/product/30024",
+        "types": [
+          "salt",
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "munson.art"
+      }
+    },
+    {
+      "id": "cleveland-potter-s-co-op",
+      "org": "Cleveland Potter's Co-op",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Cleveland Heights",
+      "city": "Cleveland Heights",
+      "urls": [
+        "https://www.ideastream.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Cleveland Heights, Ohio",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.ideastream.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Studios have the needed materials such as pottery wheels and firing kilns all in one place.",
+        "url": "https://www.ideastream.org/arts-culture/2023-11-08/starting-ceramics-in-northeast-ohio-a-guide-for-adult-beginners",
+        "types": [
+          "wood",
+          "gas_reduction"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "ideastream.org"
+      }
+    },
+    {
+      "id": "kiln-room-columbus",
+      "org": "Kiln Room Columbus",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Columbus",
+      "city": "Columbus",
+      "urls": [
+        "https://www.columbusmakesart.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Columbus, Ohio",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.columbusmakesart.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "6 Week Class Sessions at Kiln Room Ceramic Studio",
+        "url": "https://www.columbusmakesart.com/event/57680-6-week-class-sessions-at-kiln-room-ceramic-studio",
+        "types": [
+          "wood",
+          "raku",
+          "soda",
+          "salt",
+          "pit_barrel_saggar",
+          "gas_reduction"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "columbusmakesart.com"
+      }
+    },
+    {
+      "id": "university-of-cincinnati",
+      "org": "University of Cincinnati",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Ohio",
+      "city": null,
+      "urls": [
+        "https://www.daap.uc.edu/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.daap.uc.edu/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "daap.uc.edu"
+      }
+    },
+    {
+      "id": "kingston-ceramics-studio-oh",
+      "org": "Kingston Ceramics Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Ohio",
+      "city": null,
+      "urls": [
+        "https://www.kingstonceramicsstudio.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.kingstonceramicsstudio.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "If you aren't a member or our student, you may make an appointment to drop off your work to fire at cone 04 or 6.",
+        "url": "https://www.kingstonceramicsstudio.com/kiln-firing-services",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "kingstonceramicsstudio.com"
+      }
+    },
+    {
+      "id": "rosewood-arts-center",
+      "org": "Rosewood Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood"
+      ],
+      "region": "Kettering",
+      "city": "Kettering",
+      "urls": [
+        "https://www.playkettering.org/"
+      ],
+      "notes": "By appointment. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Kettering, Ohio",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.playkettering.org/"
+      },
+      "access": {
+        "how": "By appointment",
+        "note": "By appointment",
+        "quote": "Rosewood is proud to be one of the only facilities in the area to allow public access to our 18 cubic foot reduction kiln and state-of-the-art facilities including slab rollers, extruders, spray booth and cone 6 oxidation kilns.",
+        "url": "https://www.playkettering.org/ceramic-studio-guidelines",
+        "types": [
+          "raku",
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "playkettering.org"
+      }
+    },
+    {
+      "id": "the-dairy-barn-arts-center",
+      "org": "The Dairy Barn Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "other"
+      ],
+      "region": "Athens",
+      "city": "Athens",
+      "urls": [
+        "https://dairybarn.coursestorm.com/"
+      ],
+      "notes": "By appointment. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Athens, Ohio",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://dairybarn.coursestorm.com/"
+      },
+      "access": {
+        "how": "By appointment",
+        "note": "By appointment",
+        "quote": "Your unique creations will then be fired in The Dairy Barn's kilns and donated to local charitable initiatives including Athens Area Mediation Service's Souper Bowl and Amesville Elementary's Empty Bowls event benefiting the Athens County Food Pantry.",
+        "url": "https://dairybarn.coursestorm.com/browse",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "dairybarn.coursestorm.com"
+      }
+    },
+    {
+      "id": "art-clay-on-main",
+      "org": "Art & Clay on Main",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "other"
+      ],
+      "region": "Lancaster",
+      "city": "Lancaster",
+      "urls": [
+        "https://artandclayonmain.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Lancaster, Ohio",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://artandclayonmain.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Each item is priced on the bottom and includes paint, glaze and firing.",
+        "url": "https://artandclayonmain.com",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "artandclayonmain.com"
+      }
+    },
+    {
+      "id": "ohio-ceramics-program",
+      "org": "OHIO ceramics program",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Ohio",
+      "city": null,
+      "urls": [
+        "https://www.escortbayan2.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.escortbayan2.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "From June 4 to 11, artists will convene at OHIO鈥檚 outdoor ceramic kiln facility to collaborate on highly sought-after atmospheric firing techniques, working together to experiment and innovate.",
+        "url": "http://www.escortbayan2.com/news/2025/05/ohio-ceramics-program-build-community-through-inaugural-atmospheric-firing-conference",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "escortbayan2.com"
+      }
     }
   ],
   "_removed": [

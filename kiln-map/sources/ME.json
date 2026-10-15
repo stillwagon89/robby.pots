@@ -123,7 +123,7 @@
         "checked": "2026-10-06",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -152,7 +152,10 @@
       "weak": false,
       "address": "84 Free Street, Portland, ME 04101",
       "lat": 43.65536,
-      "lng": -70.26019
+      "lng": -70.26019,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "turning-arts-studio",
@@ -210,7 +213,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "coastal-maine-raku-pit-firing",
@@ -273,7 +279,10 @@
       "address": "34 Beach Road, Lincolnville, ME 04849",
       "lat": 44.2821,
       "lng": -69.01169,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "nate-winter-studios",
@@ -331,7 +340,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "portland-pottery",
@@ -394,7 +406,10 @@
       "address": "118 Washington Ave., Portland, ME 04101",
       "lat": 43.66709,
       "lng": -70.25335,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "maine-crafts-association",
@@ -457,7 +472,10 @@
       "address": "288 Lewiston Rd, West Gardiner, ME 04345",
       "lat": 44.20844,
       "lng": -69.83425,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "tyler-gulden-ceramics",
@@ -523,7 +541,10 @@
       "address_found": "45 Clark's Cove Rd, Walpole, ME 04573",
       "lat": 43.95043,
       "lng": -69.5571,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "castine-arts-association",
@@ -574,6 +595,682 @@
       },
       "lat": 44.38783,
       "lng": -68.79662
+    },
+    {
+      "id": "southern-maine-clay-guild",
+      "org": "Southern Maine Clay Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Maine",
+      "city": null,
+      "urls": [
+        "https://www.southernmaineclayguild.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.southernmaineclayguild.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "This is a community pit firing and dinner potluck!",
+        "url": "https://www.southernmaineclayguild.com/events",
+        "types": [
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "southernmaineclayguild.com"
+      }
+    },
+    {
+      "id": "workinprogress",
+      "org": "workinprogress",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Lisbon",
+      "city": "Lisbon",
+      "urls": [
+        "https://www.workinprogress.me/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Lisbon, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.workinprogress.me/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "workinprogress.me"
+      }
+    },
+    {
+      "id": "munson-me",
+      "org": "Munson",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "salt"
+      ],
+      "region": "Maine",
+      "city": null,
+      "urls": [
+        "https://www.munson.art/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.munson.art/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "WORKSHOP | Salt-Fired Ceramics with Veronica Byun | Intermediate Salt firing is embraced by ceramic artists and potters because of the beautiful and unanticipated results that come from a salt-fired kiln. These six-week courses will explore form, function, aesthetic values, textures, tactile qualities, and surface development of atmospheric firing through salt. All works will be made from start to finish during the course and fired in the new salt kiln in the Munson facilities. This workshop is geared towards k-12 educators but is open for all.",
+        "url": "https://www.munson.art/product/32608",
+        "types": [
+          "salt",
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "munson.art"
+      }
+    },
+    {
+      "id": "umf-art-gallery",
+      "org": "UMF Art Gallery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Farmington",
+      "city": "Farmington",
+      "urls": [
+        "https://farmington.edu/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Farmington, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://farmington.edu/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "The Art Gallery exhibit, located on the University of Maine at Farmington campus, will run from March 22–April 28, 2024. It will welcome visitors with an opening reception, Friday, March 22, from 4-7 p.m. It is free and open to the public.",
+        "url": "https://farmington.edu/about/news/umf-art-gallery-features-into-the-fire-exhibit-of-anagama-wood-fired-pottery-march-22-april-28",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "farmington.edu"
+      }
+    },
+    {
+      "id": "homeport-pottery-studio",
+      "org": "Homeport Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "pit_barrel_saggar"
+      ],
+      "region": "Kennebunkport",
+      "city": "Kennebunkport",
+      "urls": [
+        "https://wgme.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Kennebunkport, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://wgme.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "“I do the raku which is mainly horsehair raku and then I do this stuff which is saggar fire pottery and then I do love functional work,” Cantara said.",
+        "url": "https://wgme.com/features/maine-makers/maine-potters-creative-journey-in-handcrafting-unique-ceramics-homeport-pottery-studio-kennebunkport-cathie-cantara",
+        "types": [
+          "raku",
+          "soda",
+          "salt",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "wgme.com"
+      }
+    },
+    {
+      "id": "downeast-lakes-land-trust",
+      "org": "Downeast Lakes Land Trust",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Grand Lake Stream",
+      "city": "Grand Lake Stream",
+      "urls": [
+        "https://downeastlakes.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Grand Lake Stream, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://downeastlakes.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Felise told the participants as they layered the pit with sawdust, salt, pine cones, seaweed, brined corn husks and pine needles, copper carbonate, kindling wood and quartered logs, and set it ablaze.",
+        "url": "https://downeastlakes.org/earth-wind-and-fire-hand-building-and-contemporary-pit-firing-pottery-class-wraps-up",
+        "types": [
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "downeastlakes.org"
+      }
+    },
+    {
+      "id": "maine-prairie-studio",
+      "org": "Maine Prairie Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Maine",
+      "city": null,
+      "urls": [
+        "https://maineprairiestudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://maineprairiestudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Rocinante Wood Firing",
+        "url": "https://maineprairiestudio.com/products/rocinante-wood-firing",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "maineprairiestudio.com"
+      }
+    },
+    {
+      "id": "amoca-ceramics-studio",
+      "org": "AMOCA Ceramics Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "salt"
+      ],
+      "region": "Maine",
+      "city": null,
+      "urls": [
+        "https://events.humanitix.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://events.humanitix.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "If you’d like to join for a portion of the day it is suggested to come between 9am - 2pm, as this is the time we generally will add salt to the kiln.",
+        "url": "https://events.humanitix.com/skill-building-workshop-salt-firing-w-nathan-stanfield",
+        "types": [
+          "salt"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "events.humanitix.com"
+      }
+    },
+    {
+      "id": "maine-clay",
+      "org": "Maine Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "other"
+      ],
+      "region": "Portland",
+      "city": "Portland",
+      "urls": [
+        "https://www.maineclay.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Portland, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.maineclay.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Every class includes studio clay, glazes, and access to Open Studio hours for additional practice.",
+        "url": "https://www.maineclay.org/classes",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "maineclay.org"
+      }
+    },
+    {
+      "id": "mill-pond-ceramics-studio",
+      "org": "Mill Pond Ceramics Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "other"
+      ],
+      "region": "Biddeford",
+      "city": "Biddeford",
+      "urls": [
+        "https://millpondceramicsstudio.com/"
+      ],
+      "notes": "By appointment. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Biddeford, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://millpondceramicsstudio.com/"
+      },
+      "access": {
+        "how": "By appointment",
+        "note": "By appointment",
+        "quote": "$15 per piece for finishing & firing of any pieces you want to keep (includes trimming/finishing, bisque firing, glazing, and glaze firing).",
+        "url": "https://millpondceramicsstudio.com",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "millpondceramicsstudio.com"
+      }
+    },
+    {
+      "id": "jody-johnstone-pottery",
+      "org": "Jody Johnstone Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Maine",
+      "city": null,
+      "urls": [
+        "https://www.jodyjohnstonepottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.jodyjohnstonepottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "My firing crew has been a slowly rotating group of great potters who bring their pots, energy, and enthusiasm for the firing. Twice a year we spend thirteen days together, loading and firing the kiln, making meals (click for recipes), stacking wood, trading stories and talking about pots.",
+        "url": "https://www.jodyjohnstonepottery.com/firing",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "jodyjohnstonepottery.com"
+      }
+    },
+    {
+      "id": "maine-public",
+      "org": "Maine Public",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Maine",
+      "city": null,
+      "urls": [
+        "https://www.mainepublic.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.mainepublic.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Join us for an outdoor event. We will be celebrating our 18th wood fired kiln opening and Maine Pottery Tour with guest artists each day.",
+        "url": "https://www.mainepublic.org/community-calendar/event/wood-fired-kiln-opening-show-and-maine-pottery-tour-with-guest-artists-13-04-2026-14-36-45",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "mainepublic.org"
+      }
+    },
+    {
+      "id": "ocean-fire-pottery",
+      "org": "Ocean Fire Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Maine",
+      "city": null,
+      "urls": [
+        "https://mainepotterytour.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://mainepotterytour.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "We are excited to join 80+ studios on this year's Pottery Tour and celebrating our 18th Wood-Fired Kiln Opening.",
+        "url": "https://mainepotterytour.org/studios/Ocean-Fire-Pottery",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "mainepotterytour.org"
+      }
+    },
+    {
+      "id": "belfast-clay-studio",
+      "org": "Belfast Clay Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Belfast",
+      "city": "Belfast",
+      "urls": [
+        "https://www.belfastclaystudio.com/"
+      ],
+      "notes": "By appointment. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Belfast, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.belfastclaystudio.com/"
+      },
+      "access": {
+        "how": "By appointment",
+        "note": "By appointment",
+        "quote": "Located on the harbor in beautiful Belfast, Maine, we offer classes for every body—from beginners to more advanced—and anyone who wants to experience clay.",
+        "url": "https://www.belfastclaystudio.com",
+        "types": [
+          "wood",
+          "gas_reduction"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "belfastclaystudio.com"
+      }
+    },
+    {
+      "id": "merrymeeting-arts-center",
+      "org": "Merrymeeting Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "other"
+      ],
+      "region": "Bowdoinham",
+      "city": "Bowdoinham",
+      "urls": [
+        "https://www.merrymeetingartscenter.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Bowdoinham, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.merrymeetingartscenter.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "$10 suggested donation covers studio use, clay, kiln firing, and glazes.",
+        "url": "https://www.merrymeetingartscenter.org/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "merrymeetingartscenter.org"
+      }
+    },
+    {
+      "id": "jemma-gascoine",
+      "org": "Jemma Gascoine",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Maine",
+      "city": null,
+      "urls": [
+        "https://www.jemmagascoine.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.jemmagascoine.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Raku firing with Monson Arts Residents",
+        "url": "https://www.jemmagascoine.com/workshops.html",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "jemmagascoine.com"
+      }
+    },
+    {
+      "id": "jody-johnstone",
+      "org": "Jody Johnstone",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Maine",
+      "city": null,
+      "urls": [
+        "https://www.mainepottersmarket.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.mainepottersmarket.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "I have been a full-time, woodfiring studio potter since I designed and built my kiln in Swanville, ME in 1997.",
+        "url": "https://www.mainepottersmarket.com/jody-johnstone",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "mainepottersmarket.com"
+      }
+    },
+    {
+      "id": "watershed-center-for-the-ceramic-arts",
+      "org": "Watershed Center for the Ceramic Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Deer Isle",
+      "city": "Deer Isle",
+      "urls": [
+        "https://ceramicsfieldguide.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Deer Isle, Maine",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://ceramicsfieldguide.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Program Highlights: Open studio format, 50 artists, various kilns, beautiful architecture, and seaside setting.",
+        "url": "https://ceramicsfieldguide.org/chapter-2/artist-in-residence-usa",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "ceramicsfieldguide.org"
+      }
     }
   ],
   "_removed": [

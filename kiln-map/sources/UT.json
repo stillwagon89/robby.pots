@@ -121,7 +121,10 @@
       "address": "1025 East 2100 South, Salt Lake City, UT 84106",
       "lat": 40.72567,
       "lng": -111.86164,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "i-j-and-jeanne-wagner-jewish",
@@ -238,7 +241,10 @@
         "osm": false,
         "date": "2026-10-09"
       },
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "kayenta-fire",
@@ -364,7 +370,10 @@
       "weak": false,
       "lat": 40.52478,
       "lng": -111.8628,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "desert-sun-ceramics",
@@ -489,7 +498,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "corbridge-pottery",
@@ -665,6 +677,403 @@
       "located": {
         "osm": false,
         "date": "2026-10-13"
+      }
+    },
+    {
+      "id": "salt-city-smithery",
+      "org": "Salt City Smithery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Utah",
+      "city": null,
+      "urls": [
+        "https://saltcitysmithery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://saltcitysmithery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "saltcitysmithery.com"
+      }
+    },
+    {
+      "id": "sunstone-pottery-supply",
+      "org": "Sunstone Pottery & Supply",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Salt Lake City",
+      "city": "Salt Lake City",
+      "urls": [
+        "https://sunstonepotterysupply.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Salt Lake City, Utah",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://sunstonepotterysupply.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Sunstone Studios offers multi-week courses, workshops with visiting artists, Date Night and Family Style sessions, and open studio time.",
+        "url": "https://sunstonepotterysupply.com/pages/studio",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "sunstonepotterysupply.com"
+      }
+    },
+    {
+      "id": "muddie-buddies-pottery",
+      "org": "Muddie Buddies Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Utah",
+      "city": null,
+      "urls": [
+        "https://www.muddiebuddiespottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.muddiebuddiespottery.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Barrel Firing is a fascinating and primitive method of firing pottery.",
+        "url": "https://www.muddiebuddiespottery.com/fun-classes",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "muddiebuddiespottery.com"
+      }
+    },
+    {
+      "id": "shimpo-ceramics",
+      "org": "SHIMPO CERAMICS",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "salt"
+      ],
+      "region": "Salt Lake City",
+      "city": "Salt Lake City",
+      "urls": [
+        "https://www.shimpoceramics.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Salt Lake City, Utah",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.shimpoceramics.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "shimpoceramics.com"
+      }
+    },
+    {
+      "id": "cottonwood-clay-studio",
+      "org": "Cottonwood Clay Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Utah",
+      "city": null,
+      "urls": [
+        "https://www.cottonwoodclay.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.cottonwoodclay.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "cottonwoodclay.com"
+      }
+    },
+    {
+      "id": "gt-clayworks",
+      "org": "GT Clayworks",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Utah",
+      "city": null,
+      "urls": [
+        "https://gtclayworks.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://gtclayworks.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "gtclayworks.com"
+      }
+    },
+    {
+      "id": "paint-fusion",
+      "org": "Paint Fusion",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Park City",
+      "city": "Park City",
+      "urls": [
+        "https://www.paintfusionparkcity.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Park City, Utah",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.paintfusionparkcity.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The $35 class fee covers both firings.",
+        "url": "https://www.paintfusionparkcity.com/glass-fusing",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "paintfusionparkcity.com"
+      }
+    },
+    {
+      "id": "earth-in-art-pottery",
+      "org": "Earth in Art Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "South Ogden",
+      "city": "South Ogden",
+      "urls": [
+        "https://earthinartpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "South Ogden, Utah",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://earthinartpottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Our pricing covers materials such as clay, glazes, firing, and instruction, all necessary for creating beautiful handcrafted ceramics.",
+        "url": "https://earthinartpottery.com/classes-and-workshops",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "earthinartpottery.com"
+      }
+    },
+    {
+      "id": "ut-ogden-civicplus",
+      "org": "ut-ogden.civicplus",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Ogden",
+      "city": "Ogden",
+      "urls": [
+        "https://ut-ogden.civicplus.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Ogden, Utah",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://ut-ogden.civicplus.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Fee of $15 which i ncludes instruction, up to 3 pounds of clay, firing and glazes.",
+        "url": "https://ut-ogden.civicplus.com/2119/Arts-and-Crafts",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "ut-ogden.civicplus.com"
+      }
+    },
+    {
+      "id": "utah-center-for-the-ceramic-arts",
+      "org": "Utah Center for the Ceramic Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Utah",
+      "city": null,
+      "urls": [
+        "https://kilnfire.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://kilnfire.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "kilnfire.com"
+      }
+    },
+    {
+      "id": "cache-valley-center-for-the-arts",
+      "org": "Cache Valley Center for the Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Logan",
+      "city": "Logan",
+      "urls": [
+        "https://www.cachearts.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Logan, Utah",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.cachearts.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Yes, you can purchase clay, glazes, and firing services without taking a class.",
+        "url": "https://www.cachearts.org/ceramics",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "cachearts.org"
+      }
+    },
+    {
+      "id": "terracottatortoise",
+      "org": "terracottatortoise",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Logan",
+      "city": "Logan",
+      "urls": [
+        "https://terracottatortoise.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Logan, Utah",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://terracottatortoise.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The class fee includes instruction, all tools & supplies needed to build your project and includes the finished firing of the piece.",
+        "url": "https://terracottatortoise.com/events/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "terracottatortoise.com"
       }
     }
   ],

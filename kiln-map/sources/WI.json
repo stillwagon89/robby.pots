@@ -147,7 +147,10 @@
         ]
       },
       "address": "9841 127 Front St., Beaver Dam, WI 53916",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "adamah-art-studios",
@@ -181,7 +184,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -205,7 +208,10 @@
       "weak": false,
       "address": "4681 County ZZ, Dodgeville, WI 53533",
       "lat": 43.05101,
-      "lng": -90.12234
+      "lng": -90.12234,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "artisan-center",
@@ -239,7 +245,7 @@
         "checked": "2026-10-07",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -266,7 +272,10 @@
       "weak": false,
       "address": "2740 West Mason St, Green Bay, WI 54303",
       "lat": 44.52811,
-      "lng": -88.10445
+      "lng": -88.10445,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "mineral-point-chamber-of",
@@ -389,7 +398,10 @@
         "result": "split",
         "date": "2026-10-08"
       },
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "potters-without-kilns",
@@ -513,7 +525,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "linda-christianson-pottery",
@@ -580,7 +595,10 @@
         "date": "2026-10-08"
       },
       "weak": false,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "bethel-horizons-foundation-inc",
@@ -614,7 +632,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -637,7 +655,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "address": "4681 Co Rd ZZ, Dodgeville, WI 53533"
+      "address": "4681 Co Rd ZZ, Dodgeville, WI 53533",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "schoolandcollegelistings",
@@ -949,7 +970,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -976,7 +997,10 @@
       "weak": false,
       "address": "441 Main Street, Racine, WI 53403",
       "lat": 42.72828,
-      "lng": -87.78272
+      "lng": -87.78272,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "clayfestwi",
@@ -1100,7 +1124,10 @@
       "address": "7105 W Greenfield Ave., West Allis, WI 53214",
       "lat": 43.01654,
       "lng": -88.00152,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "simply-dunn-pottery",
@@ -1218,7 +1245,377 @@
       "weak": false,
       "lat": 44.85182,
       "lng": -88.78693,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
+    },
+    {
+      "id": "clay-art-space-wi",
+      "org": "Clay Art Space",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Wisconsin",
+      "city": null,
+      "urls": [
+        "https://www.clayartspace.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.clayartspace.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
+        "url": "https://www.clayartspace.com/kiln-firing.html",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "clayartspace.com"
+      }
+    },
+    {
+      "id": "yours-truly",
+      "org": "Yours Truly",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Milwaukee",
+      "city": "Milwaukee",
+      "urls": [
+        "https://www.yourstrulymke.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Milwaukee, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.yourstrulymke.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "yourstrulymke.com"
+      }
+    },
+    {
+      "id": "the-french-house-of-clay",
+      "org": "The French House of Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Green Bay",
+      "city": "Green Bay",
+      "urls": [
+        "https://www.thefrenchhouseofclay.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Green Bay, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.thefrenchhouseofclay.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "After the workshop, I’ll glaze and fire your piece in the kiln.",
+        "url": "https://www.thefrenchhouseofclay.com/pottery-workshops/upcoming-workshops-events",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "thefrenchhouseofclay.com"
+      }
+    },
+    {
+      "id": "clay-on-steele-pottery-studio",
+      "org": "Clay on Steele Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Algoma",
+      "city": "Algoma",
+      "urls": [
+        "https://doorcountypulse.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Algoma, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://doorcountypulse.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "doorcountypulse.com"
+      }
+    },
+    {
+      "id": "half-moon-clay-center",
+      "org": "Half Moon Clay Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Eau Claire",
+      "city": "Eau Claire",
+      "urls": [
+        "https://www.halfmoonclay.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Eau Claire, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.halfmoonclay.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Our community art center approach makes pottery accessible to the entire Eau Claire community.",
+        "url": "https://www.halfmoonclay.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "halfmoonclay.com"
+      }
+    },
+    {
+      "id": "the-imprompt",
+      "org": "The Imprompt",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Cornell",
+      "city": "Cornell",
+      "urls": [
+        "https://volumeone.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Cornell, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://volumeone.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "offering memberships that include valuable wheel time, access to reclaimed clay, a selection of house glazes, and firing services.",
+        "url": "https://volumeone.org/sites/winterfun/articles/2025/12/29/378467-inside-the-chippewa-valleys-creative-crafting-clubs",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "volumeone.org"
+      }
+    },
+    {
+      "id": "la-crosse-clay-center",
+      "org": "La Crosse Clay Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "La Crosse",
+      "city": "La Crosse",
+      "urls": [
+        "https://lacrosseclaycenter.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "La Crosse, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://lacrosseclaycenter.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "If you are just looking for a private one-time beginner class- call and set up an appointment anytime! One time classes run for 90 mins for $60/person with everything included! This lesson includes clay, instruction, firing and glazing.",
+        "url": "https://lacrosseclaycenter.com/studio",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "lacrosseclaycenter.com"
+      }
+    },
+    {
+      "id": "pump-house-regional-arts-center",
+      "org": "Pump House Regional Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Wisconsin",
+      "city": null,
+      "urls": [
+        "https://www.thepumphouse.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.thepumphouse.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Open Clay Studio is a time for potters to have access to our clay studio, complete with a full-size kiln, pottery wheels, an assortment of tools, and glazes. Use of the studio, glazes and firings are all included in one low monthly fee.",
+        "url": "https://www.thepumphouse.org/art-education-classes/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "thepumphouse.org"
+      }
+    },
+    {
+      "id": "bmcg-pottery-studio",
+      "org": "BMCG Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Kenosha",
+      "city": "Kenosha",
+      "urls": [
+        "https://www.bmcgpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Kenosha, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.bmcgpottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Pumpkin Workshops @ East View Coffee Kenosha,WI",
+        "url": "https://www.bmcgpottery.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "bmcgpottery.com"
+      }
+    },
+    {
+      "id": "whofish",
+      "org": "whofish",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Racine",
+      "city": "Racine",
+      "urls": [
+        "https://www.whofish.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Racine, Wisconsin",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.whofish.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "the second class we will glaze and work together to fire all the pieces in the outdoor kiln.",
+        "url": "https://www.whofish.org/events/racine/wi/pottery_workshop_raku_firing/5691339.aspx",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "whofish.org"
+      }
+    },
+    {
+      "id": "the-clay-collective",
+      "org": "The Clay Collective",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Wisconsin",
+      "city": null,
+      "urls": [
+        "https://www.theclaycollective.net/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.theclaycollective.net/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "theclaycollective.net"
+      }
     }
   ],
   "_removed": [

@@ -123,7 +123,10 @@
       "address": "2663 Elmridge Dr, NW Grand Rapids, MI 49534",
       "lat": 42.96324,
       "lng": -85.66786,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "kalamazoo-institute-of-arts",
@@ -159,7 +162,7 @@
         "checked": "2026-10-06",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -188,7 +191,10 @@
       "weak": false,
       "address": "314 S. Park St., Kalamazoo, MI 49007",
       "lat": 42.28918,
-      "lng": -85.588
+      "lng": -85.588,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "ceramics-school",
@@ -251,7 +257,10 @@
       "address": "2692 Carpenter St., Hamtramck, MI",
       "lat": 42.40581,
       "lng": -83.06545,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "the-potters-guild",
@@ -314,7 +323,10 @@
       "address": "201 Hill St, Ann Arbor, MI 48104",
       "lat": 42.27204,
       "lng": -83.74738,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "yourist-studio-gallery",
@@ -383,7 +395,10 @@
       "address": "6087 Jackson Road, Ann Arbor, MI 48103",
       "lat": 42.29048,
       "lng": -83.84916,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "creative-arts-studios",
@@ -445,7 +460,10 @@
       "address": "114 West 4th Street, Royal Oak, MI 48067",
       "lat": 42.48736,
       "lng": -83.14448,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "clayspacetc",
@@ -508,7 +526,10 @@
       "address": "1455 Barlow Street, Traverse City, MI",
       "lat": 44.74254,
       "lng": -85.60516,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "glen-arbor-arts-center",
@@ -570,7 +591,10 @@
       "address": "6031 South Lake Street, Glen Arbor, MI 49636",
       "lat": 44.89648,
       "lng": -85.98772,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "clawson-clay-guild",
@@ -702,6 +726,216 @@
         "date": "2026-10-08"
       },
       "address": "4200 343 South Fifth Ave., Ann Arbor, MI 48104"
+    },
+    {
+      "id": "cotuit-center-for-the-arts-mi",
+      "org": "Cotuit Center for the Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "pit_barrel_saggar"
+      ],
+      "region": "Michigan",
+      "city": null,
+      "urls": [
+        "https://cotuit.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://cotuit.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Participants will have the opportunity to prepare and fire a few small bisque pieces throughout the day and discover how heat, smoke, and combustion create beautiful and unexpected results.",
+        "url": "https://cotuit.org/classes/saggar-workshop",
+        "types": [
+          "soda",
+          "salt",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "cotuit.org"
+      }
+    },
+    {
+      "id": "munson-mi",
+      "org": "Munson",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "salt"
+      ],
+      "region": "Michigan",
+      "city": null,
+      "urls": [
+        "https://www.munson.art/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.munson.art/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "This workshop is geared towards k-12 educators but is open for all.",
+        "url": "https://www.munson.art/product/32608",
+        "types": [
+          "salt"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "munson.art"
+      }
+    },
+    {
+      "id": "eastown-pottery",
+      "org": "Eastown Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Grand Rapids",
+      "city": "Grand Rapids",
+      "urls": [
+        "https://www.eastownpottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Grand Rapids, Michigan",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.eastownpottery.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Included firing and glazes",
+        "url": "https://www.eastownpottery.com",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "eastownpottery.com"
+      }
+    },
+    {
+      "id": "the-ceramics-studio-etc",
+      "org": "The Ceramics Studio Etc",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Michigan",
+      "city": null,
+      "urls": [
+        "https://theceramicstudioetc.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://theceramicstudioetc.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Instruction and firing for your finished pieces",
+        "url": "https://theceramicstudioetc.com/events",
+        "types": [
+          "wood",
+          "gas_reduction",
+          "soda",
+          "salt",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "theceramicstudioetc.com"
+      }
+    },
+    {
+      "id": "west-michigan-potters-guild",
+      "org": "West Michigan Potters Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Michigan",
+      "city": null,
+      "urls": [
+        "https://westmichiganpottersguild.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://westmichiganpottersguild.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The public is invited to attend workshops and bi-annual shows sponsored by the guild and experience the wealth of talent and knowledge this guild has to offer.",
+        "url": "https://westmichiganpottersguild.com",
+        "types": [
+          "wood",
+          "raku",
+          "gas_reduction",
+          "soda",
+          "salt",
+          "pit_barrel_saggar"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "westmichiganpottersguild.com"
+      }
     }
   ],
   "_removed": [

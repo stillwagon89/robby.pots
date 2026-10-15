@@ -206,7 +206,10 @@
       "address": "1002 South Vista Avenue, Boise, ID 83705",
       "lat": 43.59549,
       "lng": -116.21307,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "sandpoint-ceramics",
@@ -268,6 +271,268 @@
           "raku",
           "pit_barrel_saggar"
         ]
+      }
+    },
+    {
+      "id": "idaho-art-lab",
+      "org": "Idaho Art Lab",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Idaho",
+      "city": null,
+      "urls": [
+        "https://idahoartlab.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://idahoartlab.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Rent a kiln for $50.00 or fire by-the piece at 25&cent; an inch.",
+        "url": "http://www.idahoartlab.org/classes",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "idahoartlab.org"
+      }
+    },
+    {
+      "id": "a-way-with-clay",
+      "org": "A Way with Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Boise",
+      "city": "Boise",
+      "urls": [
+        "https://awaywithclaystudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Boise, Idaho",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://awaywithclaystudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The class includes a short lesson, all the materials needed for your project, firing, and coming back in to paint your creation.",
+        "url": "https://awaywithclaystudio.com/classes-events/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "awaywithclaystudio.com"
+      }
+    },
+    {
+      "id": "historicorps",
+      "org": "HistoriCorps",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Leadore",
+      "city": "Leadore",
+      "urls": [
+        "https://historictrades.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Leadore, Idaho",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://historictrades.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "HistoriCorps invites you to join us for one of our most unique volunteer opportunities of the season in the great state of Idaho as we make camp in the backdrop of the stunning Lemhi Mountains!",
+        "url": "https://historictrades.org/opportunity/volunteers-needed-birch-creek-charcoal-kilns-repairs/2024-07-14/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "historictrades.org"
+      }
+    },
+    {
+      "id": "thrw-pottery-studio",
+      "org": "Thrw Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Coeur D'Alene",
+      "city": "Coeur D'Alene",
+      "urls": [
+        "https://my.ceramicmaterialsworkshop.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Coeur D'Alene, Idaho",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://my.ceramicmaterialsworkshop.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "my.ceramicmaterialsworkshop.com"
+      }
+    },
+    {
+      "id": "terracotta-pullman",
+      "org": "Terracotta Pullman",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Moscow",
+      "city": "Moscow",
+      "urls": [
+        "https://www.terracottapullman.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Moscow, Idaho",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.terracottapullman.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "terracottapullman.com"
+      }
+    },
+    {
+      "id": "isu-craft-shop",
+      "org": "ISU Craft Shop",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Pocatello",
+      "city": "Pocatello",
+      "urls": [
+        "https://cetrain.isu.edu/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Pocatello, Idaho",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://cetrain.isu.edu/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Classes will include casting a mold, cleaning, and firing in a kiln.",
+        "url": "https://cetrain.isu.edu/enrollment/course/ceramic-basic/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "cetrain.isu.edu"
+      }
+    },
+    {
+      "id": "nampaparksandrecreation",
+      "org": "nampaparksandrecreation",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Idaho",
+      "city": null,
+      "urls": [
+        "https://www.nampaparksandrecreation.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.nampaparksandrecreation.org/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Come join us in our Kiln Fired Pottery Workshops!",
+        "url": "https://www.nampaparksandrecreation.org/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "nampaparksandrecreation.org"
+      }
+    },
+    {
+      "id": "salmon-pottery-studio",
+      "org": "Salmon Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Salmon",
+      "city": "Salmon",
+      "urls": [
+        "https://www.salmonpotterystudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Salmon, Idaho",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.salmonpotterystudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Join a monthly pottery studio membership in Salmon, Idaho. Enjoy open studio access, wheels, kilns, glazes, and a creative clay community.",
+        "url": "https://www.salmonpotterystudio.com/membership-2",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "salmonpotterystudio.com"
       }
     }
   ],

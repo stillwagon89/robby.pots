@@ -67,7 +67,7 @@
         "checked": "2026-10-07",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -95,7 +95,10 @@
         "result": "agree-yes",
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": false,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "riblogger",
@@ -157,7 +160,313 @@
       "address": "30 PM. Located at 1485 South County Trail, Suite 201, East Greenwich, RI",
       "lat": 41.66038,
       "lng": -71.45589,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
+    },
+    {
+      "id": "the-clay-art-studio-of-rhode-island",
+      "org": "The Clay Art Studio of Rhode Island",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Rhode Island",
+      "city": null,
+      "urls": [
+        "https://clayartstudiori.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://clayartstudiori.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Registration Fee : $265 for workshop instruction and materials (for all the clay you use at this workshop, a bisque firing for all your work and a glaze firing for your pinch pot, glaze for your pinch pot, and a comprehensive handout).",
+        "url": "https://clayartstudiori.com/beginners/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "clayartstudiori.com"
+      }
+    },
+    {
+      "id": "ri-clay-space",
+      "org": "RI Clay Space",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Rhode Island",
+      "city": null,
+      "urls": [
+        "https://www.riclayspace.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.riclayspace.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "All Open Studio Package-Passes include clay, glaze, kiln firings, use of studio tools and temporary storage.",
+        "url": "https://www.riclayspace.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "riclayspace.com"
+      }
+    },
+    {
+      "id": "small-things-studio",
+      "org": "Small Things Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Providence",
+      "city": "Providence",
+      "urls": [
+        "https://www.smallthingsstudio.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Providence, Rhode Island",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.smallthingsstudio.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "smallthingsstudio.com"
+      }
+    },
+    {
+      "id": "coastal-pottery-studio",
+      "org": "Coastal Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "North Kingstown",
+      "city": "North Kingstown",
+      "urls": [
+        "https://coastalpotterystudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "North Kingstown, Rhode Island",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://coastalpotterystudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "We can teach you any of the technical tasks like mixing glazes and firing the kiln.",
+        "url": "https://coastalpotterystudio.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "coastalpotterystudio.com"
+      }
+    },
+    {
+      "id": "lindsey-epstein-pottery",
+      "org": "Lindsey Epstein Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Tiverton",
+      "city": "Tiverton",
+      "urls": [
+        "https://lepottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Tiverton, Rhode Island",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://lepottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "lepottery.com"
+      }
+    },
+    {
+      "id": "tribe-irl",
+      "org": "Tribe IRL",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Bristol",
+      "city": "Bristol",
+      "urls": [
+        "https://tribeirl.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Bristol, Rhode Island",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://tribeirl.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Kiln Workshop",
+        "url": "https://tribeirl.com/kiln-workshop",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "tribeirl.com"
+      }
+    },
+    {
+      "id": "mudworks",
+      "org": "Mudworks",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Bristol",
+      "city": "Bristol",
+      "urls": [
+        "https://www.mudworksbristol.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Bristol, Rhode Island",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.mudworksbristol.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "full-time access to a fully equipped pottery studio and a weekly kiln firing service.",
+        "url": "https://www.mudworksbristol.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "mudworksbristol.com"
+      }
+    },
+    {
+      "id": "the-saint-john-s-pottery-ri",
+      "org": "The Saint John's Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Rhode Island",
+      "city": null,
+      "urls": [
+        "https://www.csbsju.edu/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.csbsju.edu/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "The public is invited to observe the lighting ceremony and subsequent firing of the Johanna Kiln.",
+        "url": "https://www.csbsju.edu/saint-johns-pottery/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "csbsju.edu"
+      }
+    },
+    {
+      "id": "newport-art-museum",
+      "org": "Newport Art Museum",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Newport",
+      "city": "Newport",
+      "urls": [
+        "https://newportartmuseum.org/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Newport, Rhode Island",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://newportartmuseum.org/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "In this three day workshop, we will explore the ancient Japanese firing technique of Raku.",
+        "url": "https://newportartmuseum.org/classes/raku-workshop/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "newportartmuseum.org"
+      }
     }
   ],
   "_removed": [

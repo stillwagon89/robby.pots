@@ -151,7 +151,10 @@
       "address": "1528 Island Home Ave, Knoxville, TN 37920",
       "lat": 35.95631,
       "lng": -83.88495,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "mid-south-ceramics",
@@ -183,8 +186,8 @@
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "The search snippets mention a 'Public Firing Service' that gives ceramic artists access to fire their pieces, and the page is located in Nashville, TN.",
+        "verdict": "unclear",
+        "why": "The page mentions a 'public firing service' in search snippets but the actual page text provided does not contain details about how outsiders can access or book this service.",
         "types": {},
         "state": "TN",
         "town": "Nashville"
@@ -277,7 +280,10 @@
       "address_found": "5909 Labrador Lane, Antioch, TN 37013",
       "lat": 36.06006,
       "lng": -86.67222,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "studio-s-pottery-and-galleries",
@@ -401,7 +407,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "the-clay-lady-s-campus",
@@ -460,7 +469,311 @@
       "address": "1416 Lebanon Pike, Nashville, TN",
       "lat": 36.15337,
       "lng": -86.72491,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
+    },
+    {
+      "id": "n-a-tn",
+      "org": "N/A",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Chattanooga",
+      "city": "Chattanooga",
+      "urls": [
+        "https://kilnfire.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Chattanooga, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://kilnfire.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "kilnfire.com"
+      }
+    },
+    {
+      "id": "clay-art-space-tn",
+      "org": "Clay Art Space",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Tennessee",
+      "city": null,
+      "urls": [
+        "https://www.clayartspace.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.clayartspace.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
+        "url": "https://www.clayartspace.com/kiln-firing.html",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "clayartspace.com"
+      }
+    },
+    {
+      "id": "belltower-pottery",
+      "org": "Belltower Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Memphis",
+      "city": "Memphis",
+      "urls": [
+        "https://www.belltowerpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Memphis, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.belltowerpottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Belltower offers community kiln rentals in which you can bisque or glaze fire a full kiln of pottery in Memphis.",
+        "url": "https://www.belltowerpottery.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "belltowerpottery.com"
+      }
+    },
+    {
+      "id": "christiana-pottery",
+      "org": "Christiana Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Tennessee",
+      "city": null,
+      "urls": [
+        "https://christianapottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://christianapottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Included in the package are 5 lbs. of mid-fire Clay, Glazes and all kiln firing.",
+        "url": "https://christianapottery.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "christianapottery.com"
+      }
+    },
+    {
+      "id": "knoxville-art-studio",
+      "org": "Knoxville Art Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Knoxville",
+      "city": "Knoxville",
+      "urls": [
+        "https://www.knoxvilleartstudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Knoxville, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.knoxvilleartstudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Book beginner-friendly pottery classes for adults, kids, and teens, plus separate bisque and glaze firing services in Knoxville, Tennessee.",
+        "url": "https://www.knoxvilleartstudio.com/pottery-classes-knoxville-tn",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "knoxvilleartstudio.com"
+      }
+    },
+    {
+      "id": "seesthrutrees",
+      "org": "seesthrutrees",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Knoxville",
+      "city": "Knoxville",
+      "urls": [
+        "https://seesthrutrees.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Knoxville, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://seesthrutrees.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Includes clay, tools, glaze, firings and 1 one-hour class.",
+        "url": "https://seesthrutrees.com/quick-list-of-classes",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "seesthrutrees.com"
+      }
+    },
+    {
+      "id": "scenic-city-clay-arts",
+      "org": "Scenic City Clay Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Chattanooga",
+      "city": "Chattanooga",
+      "urls": [
+        "https://www.sceniccityclayarts.org/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Chattanooga, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.sceniccityclayarts.org/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "No studio membership required!",
+        "url": "https://www.sceniccityclayarts.org/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "sceniccityclayarts.org"
+      }
+    },
+    {
+      "id": "mindtrip-ai",
+      "org": "mindtrip.ai",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Johnson City",
+      "city": "Johnson City",
+      "urls": [
+        "https://mindtrip.ai/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Johnson City, Tennessee",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://mindtrip.ai/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "This establishment offers ceramic painting services where guests select items, apply glazes using provided tools, and leave them to be fired in an on-site kiln.",
+        "url": "https://mindtrip.ai/attraction/johnson-city-tennessee/fire/at-IbPJy9Uh",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "mindtrip.ai"
+      }
+    },
+    {
+      "id": "crab-orchard-pottery",
+      "org": "Crab Orchard Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Tennessee",
+      "city": null,
+      "urls": [
+        "https://www.blueridgepotters.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.blueridgepotters.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "blueridgepotters.com"
+      }
     }
   ],
   "_removed": [

@@ -1,4 +1,4 @@
-# Kentucky firings ledger (2026-10-13, discovery v3, automatic)
+# Kentucky firings ledger (2026-10-14, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -13,9 +13,18 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 6 | Kentucky Mudworks | ? | soda, salt | Classes or membership | kymudworks.com |
 | 7 | maxt.pike13 | ? | pit_barrel_saggar | Dated workshop or firing event | maxt.pike13.com |
 | 8 | Gomry | ? | pit_barrel_saggar | Dated workshop or firing event | gomry.com |
-| 9 | Powdermill Pottery | Berea | raku | Classes or membership | merchantcircle.com |
-| 10 | Rickman Pottery | Bowling Green | gas_reduction, raku | Classes or membership | etsy.com |
-| 11 | PSAD | ? | raku, soda, wood | Classes or membership | psad.westkentucky.kctcs.edu |
-| 12 | KJones Pottery | ? | raku | See site | kjonespottery.com |
-| 13 | Western Kentucky University | ? | wood | Dated workshop or firing event | wku.edu |
-| 14 | Center for the Arts Evergreen | Evergreen | raku | Dated workshop or firing event | evergreenarts.org |
+| 9 | Clay Art Space | ? |  | Firing service | clayartspace.com |
+| 10 | AA Clay Studio | Louisville |  | Classes or membership | alexadamsclaywork.com |
+| 11 | Suzy Hatcher Pottery | ? | gas_reduction | Classes or membership | suzyhatcherpottery.com |
+| 12 | AA Clay Studio & Gallery | Louisville |  | See site | my.ceramicmaterialsworkshop.com |
+| 13 | Beechmont Community Center | Louisville | wood, raku, soda, salt, pit_barrel_saggar, gas_reduction | Classes or membership | louisville.makerfaire.com |
+| 14 | Powdermill Pottery | Berea | raku | Classes or membership | merchantcircle.com |
+| 15 | Tater Knob Pottery & Farm | ? |  | See site | lex18.com |
+| 16 | Berea Arts Council | Bobtown |  | Dated workshop or firing event | bereaartscouncil.networkforgood.com |
+| 17 | 8 Days Pottery Studio | Bowling Green | wood, gas_reduction | Classes or membership | 8dayspotterystudio.com |
+| 18 | Warren County Public Library | ? |  | Classes or membership | warrenpl.org |
+| 19 | Rickman Pottery | Bowling Green | gas_reduction, raku | Classes or membership | etsy.com |
+| 20 | PSAD | ? | raku, soda, wood | Classes or membership | psad.westkentucky.kctcs.edu |
+| 21 | KJones Pottery | ? | raku | See site | kjonespottery.com |
+| 22 | Queen City Clay | Cincinnati | wood, raku, soda, salt, pit_barrel_saggar, gas_reduction | See site | sinclairemarie.com |
+| 23 | Western Kentucky University | ? | wood | Dated workshop or firing event | wku.edu |

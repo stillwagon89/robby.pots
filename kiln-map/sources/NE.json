@@ -94,7 +94,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "bone-creek-museum-of-agrarian-art",
@@ -154,7 +157,10 @@
       "address": "312 N 5th Street, David City, NE 68632",
       "lat": 41.25188,
       "lng": -97.12858,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "omahaclayworks",
@@ -219,6 +225,104 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "truepottery",
+      "org": "truepottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Omaha",
+      "city": "Omaha",
+      "urls": [
+        "https://truepottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Omaha, Nebraska",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://truepottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Packages start at $25 per child (includes all materials and firing)",
+        "url": "https://truepottery.com/private-events/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "truepottery.com"
+      }
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop-ne",
+      "org": "my.ceramicmaterialsworkshop",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Nebraska",
+      "city": null,
+      "urls": [
+        "https://my.ceramicmaterialsworkshop.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://my.ceramicmaterialsworkshop.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "my.ceramicmaterialsworkshop.com"
+      }
+    },
+    {
+      "id": "the-clay-studio",
+      "org": "The Clay Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Lincoln City",
+      "city": "Lincoln City",
+      "urls": [
+        "https://www.lincolncity-culturalcenter.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Lincoln City, Nebraska",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.lincolncity-culturalcenter.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Members pay a monthly sliding scale fee of $35 to $60, which includes firing and glaze costs.",
+        "url": "https://www.lincolncity-culturalcenter.org/membership692153f0",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "lincolncity-culturalcenter.org"
       }
     }
   ],

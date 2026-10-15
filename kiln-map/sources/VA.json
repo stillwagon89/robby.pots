@@ -147,7 +147,10 @@
         "result": "split",
         "date": "2026-10-08"
       },
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "muddy-creek-pottery",
@@ -181,7 +184,7 @@
         "checked": "2026-10-06",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -206,7 +209,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "address": "470 Ponton Lane, Lovingston, VA"
+      "address": "470 Ponton Lane, Lovingston, VA",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "bradley-b-pottery",
@@ -277,7 +283,10 @@
       "address": "9076 Keyser Rd., Nokesville, VA",
       "lat": 38.66021,
       "lng": -77.46854,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "althouse-pottery",
@@ -341,7 +350,10 @@
       "address_found": "1320 Chilly Hollow Road, Berryville, VA 22611",
       "lat": 39.15175,
       "lng": -77.98252,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "river-city-clay",
@@ -407,7 +419,10 @@
       "address_found": "1811 Huguenot Rd. - Suite 408, Richmond, VA 23113",
       "lat": 37.56207,
       "lng": -77.54388,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "academy-center-of-the-arts",
@@ -583,7 +598,10 @@
       "address": "532 Virginia Beach Blvd, Virginia Beach, VA 23451",
       "lat": 36.84445,
       "lng": -75.97993,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "the-workshop-at-timber-ridge-va",
@@ -617,7 +635,7 @@
         "checked": "2026-10-08",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -644,7 +662,10 @@
       "weak": false,
       "address": "106 E Washington St, Lexington, VA 24450",
       "lat": 37.78451,
-      "lng": -79.44085
+      "lng": -79.44085,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "ceramic-designers-association",
@@ -823,7 +844,10 @@
       },
       "lat": 38.75095,
       "lng": -77.47527,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "the-district-clay-center",
@@ -859,7 +883,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -893,7 +917,270 @@
       },
       "address": "123 West Brookland Park Boulevard, Richmond, VA",
       "lat": 37.57141,
-      "lng": -77.43484
+      "lng": -77.43484,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
+    },
+    {
+      "id": "rosewood-pottery-studio",
+      "org": "Rosewood Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "other"
+      ],
+      "region": "Richmond",
+      "city": "Richmond",
+      "urls": [
+        "https://www.rosewoodpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Richmond, Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.rosewoodpottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Firing Services in our electric kilns are available for people who are not otherwise studio clients.",
+        "url": "https://www.rosewoodpottery.com/services-1.html",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "rosewoodpottery.com"
+      }
+    },
+    {
+      "id": "the-saint-john-s-pottery-va",
+      "org": "The Saint John’s Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Virginia",
+      "city": null,
+      "urls": [
+        "https://www.csbsju.edu/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.csbsju.edu/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "The Saint John’s Pottery welcomes volunteers and visitors during fall firings of the Johanna Kiln, the largest wood-burning kiln of its kind in North America.",
+        "url": "https://www.csbsju.edu/saint-johns-pottery/community",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "csbsju.edu"
+      }
+    },
+    {
+      "id": "the-clay-pot-pottery-va",
+      "org": "The Clay Pot Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Virginia",
+      "city": null,
+      "urls": [
+        "https://www.theclaypotpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.theclaypotpottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Our RAKU Workshops for the 2026 season are scheduled for the following dates (weather permitting)",
+        "url": "https://www.theclaypotpottery.com/raku.html",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "theclaypotpottery.com"
+      }
+    },
+    {
+      "id": "torggler-fine-arts-center",
+      "org": "Torggler Fine Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Virginia",
+      "city": null,
+      "urls": [
+        "https://thetorggler.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://thetorggler.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Participants will receive one bag of clay and have access to tools, glazes, and firing.",
+        "url": "https://thetorggler.org/classes/classes-and-workshops.html",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "thetorggler.org"
+      }
+    },
+    {
+      "id": "all-hands-pottery",
+      "org": "All Hands Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "other"
+      ],
+      "region": "Norfolk",
+      "city": "Norfolk",
+      "urls": [
+        "https://www.allhandspottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Norfolk, Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.allhandspottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Glaze firing available for an additional fee",
+        "url": "https://www.allhandspottery.com/open-studio",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "allhandspottery.com"
+      }
+    },
+    {
+      "id": "bailey-ceramic-studio",
+      "org": "Bailey Ceramic Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Virginia",
+      "city": null,
+      "urls": [
+        "https://www.artcentervb.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.artcentervb.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Class tuition includes clay, glazes and firing.",
+        "url": "https://www.artcentervb.org/pottery.html",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "artcentervb.org"
+      }
+    },
+    {
+      "id": "the-dragonfly-art-studio",
+      "org": "The Dragonfly Art Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "other"
+      ],
+      "region": "Norfolk",
+      "city": "Norfolk",
+      "urls": [
+        "https://thedragonflyartstudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Norfolk, Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://thedragonflyartstudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The course fee includes hands-on instruction time, all bisque and glaze kiln firings, plus all of the following:",
+        "url": "https://thedragonflyartstudio.com/pottery-wheel-classes-at-the-dragonfly",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "thedragonflyartstudio.com"
+      }
     }
   ],
   "_removed": [

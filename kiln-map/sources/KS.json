@@ -173,7 +173,10 @@
       "address": "7811 Marty St, Overland Park, KS 66204",
       "lat": 38.98736,
       "lng": -94.66995,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "lawrence-potters-guild",
@@ -230,6 +233,241 @@
         "date": "2026-10-13"
       },
       "address": "1035 N. Third Street, Lawrence, KS 66044"
+    },
+    {
+      "id": "wichita-pottery",
+      "org": "Wichita Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Wichita",
+      "city": "Wichita",
+      "urls": [
+        "https://wichitapottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Wichita, Kansas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://wichitapottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The benefits of a membership at our studio include studio time in a fun environment, central location, personal storage space, access to all studio equipment, firing, and glazes.",
+        "url": "https://wichitapottery.com/membership",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "wichitapottery.com"
+      }
+    },
+    {
+      "id": "color-mine",
+      "org": "Color Mine",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Wichita",
+      "city": "Wichita",
+      "urls": [
+        "https://wichita.colormemine.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Wichita, Kansas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://wichita.colormemine.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Walk-ins & reservations are welcome in our main studio during events unless otherwise noted.",
+        "url": "https://wichita.colormemine.com/calendar",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "wichita.colormemine.com"
+      }
+    },
+    {
+      "id": "lawrence-clay-collective",
+      "org": "Lawrence Clay Collective",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Lawrence",
+      "city": "Lawrence",
+      "urls": [
+        "https://www.lawrenceclaycollective.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Lawrence, Kansas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.lawrenceclaycollective.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "lawrenceclaycollective.com"
+      }
+    },
+    {
+      "id": "lawrence-arts-center",
+      "org": "Lawrence Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Lawrence",
+      "city": "Lawrence",
+      "urls": [
+        "https://lawrenceartscenter.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Lawrence, Kansas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://lawrenceartscenter.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Every aspect of the atmospheric firing process is explored, from making clay wares to splitting wood, loading, firing, unloading, and cleaning the kilns.",
+        "url": "https://lawrenceartscenter.org/ceramic-classes-in-lawrence/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "lawrenceartscenter.org"
+      }
+    },
+    {
+      "id": "the-makers-guild",
+      "org": "The Makers Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Manhattan",
+      "city": "Manhattan",
+      "urls": [
+        "https://themakersguildinc.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Manhattan, Kansas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://themakersguildinc.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Upcoming workshops, open studio nights, and community events at The Makers Guild in Manhattan, Kansas.",
+        "url": "https://themakersguildinc.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "themakersguildinc.com"
+      }
+    },
+    {
+      "id": "emporia-arts-center",
+      "org": "Emporia Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Emporia",
+      "city": "Emporia",
+      "urls": [
+        "https://emporiaksarts.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Emporia, Kansas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://emporiaksarts.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Ceramics open studio for all skill levels. All supplies and firings are provided!",
+        "url": "https://emporiaksarts.org/product/coffee-clay-club-2/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "emporiaksarts.org"
+      }
+    },
+    {
+      "id": "thermal-ceramics-inc",
+      "org": "Thermal Ceramics Inc",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Emporia",
+      "city": "Emporia",
+      "urls": [
+        "https://my.ceramicmaterialsworkshop.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Emporia, Kansas",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://my.ceramicmaterialsworkshop.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "my.ceramicmaterialsworkshop.com"
+      }
     }
   ],
   "_removed": [

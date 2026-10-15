@@ -66,7 +66,7 @@
         "checked": "2026-10-07",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -94,7 +94,10 @@
       "weak": false,
       "address": "386 Beach Blvd., Biloxi, MS 39530",
       "lat": 30.39259,
-      "lng": -88.8713
+      "lng": -88.8713,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "juliet-bravo-pottery-llc",
@@ -209,6 +212,257 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "downtown-jackson",
+      "org": "Downtown Jackson",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Jackson",
+      "city": "Jackson",
+      "urls": [
+        "https://downtown-jackson.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Jackson, Mississippi",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://downtown-jackson.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Six Friday sessions from Feb 7 until Mar 7, 2025. The workshop fee is $100 and includes hands-on instruction, tools, clay and glazes as well as firing of your pieces.",
+        "url": "https://downtown-jackson.com/events/pottery-workshop-for-all-skill-levels/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "downtown-jackson.com"
+      }
+    },
+    {
+      "id": "fat-cat-art-cafe",
+      "org": "Fat Cat Art Cafe",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Mississippi",
+      "city": null,
+      "urls": [
+        "https://fatcatartcafe.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://fatcatartcafe.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Members will also have access to studio glazes, tools, slab roller, and our ever helpful Clay Studio Coordinators. Member only clay pricing is $20 25# bag.",
+        "url": "https://fatcatartcafe.com/classes%26camps",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "fatcatartcafe.com"
+      }
+    },
+    {
+      "id": "msh-clay-studio",
+      "org": "MSH Clay Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Mississippi",
+      "city": null,
+      "urls": [
+        "https://www.mshclay.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.mshclay.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "All materials and kiln firing included.",
+        "url": "https://www.mshclay.com/one-time-workshops",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "mshclay.com"
+      }
+    },
+    {
+      "id": "mississippi-museum-of-art",
+      "org": "Mississippi Museum of Art",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Mississippi",
+      "city": null,
+      "urls": [
+        "https://www.msmuseumart.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.msmuseumart.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The Cadence Bank Classroom offers facilities for drawing, painting, and printmaking, while the Entergy Classroom is equipped for sculpture and kiln- fired ceramics.",
+        "url": "https://www.msmuseumart.org/classes-and-workshops/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "msmuseumart.org"
+      }
+    },
+    {
+      "id": "the-wheel-in-the-window-pottery-studio",
+      "org": "The Wheel in the Window Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Hattiesburg",
+      "city": "Hattiesburg",
+      "urls": [
+        "https://www.mainstreetco.us/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Hattiesburg, Mississippi",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.mainstreetco.us/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Book beginner pottery classes, date nights and seasonal workshops at The Wheel in the Window Pottery Studio in Hattiesburg, Mississippi.",
+        "url": "https://www.mainstreetco.us/collections/the-wheel-in-the-window-pottery-studio",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "mainstreetco.us"
+      }
+    },
+    {
+      "id": "peter-s-pottery",
+      "org": "Peter’s Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Mound Bayou",
+      "city": "Mound Bayou",
+      "urls": [
+        "https://magnoliatribune.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Mound Bayou, Mississippi",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://magnoliatribune.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Peter’s Pottery also hosts shows throughout the year, including a fundraiser Open House of Peter’s home, with all proceeds benefitting St. Jude Children’s Research Hospital in Memphis.",
+        "url": "https://magnoliatribune.com/2024/02/23/discover-mississippi-from-mud-to-masterpiece-potters-mold-the-pottery-scene-in-mississippi/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "magnoliatribune.com"
+      }
+    },
+    {
+      "id": "the-cozy-kiln",
+      "org": "The Cozy Kiln",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Diberville",
+      "city": "Diberville",
+      "urls": [
+        "https://storage.googleapis.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Diberville, Mississippi",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://storage.googleapis.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The Cozy Kiln's Pottery Classes",
+        "url": "https://storage.googleapis.com/fywvqyybuvryyqndjvczszouivixsenukm/the-cozy-kiln-diberville-ms.html",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "storage.googleapis.com"
       }
     }
   ],

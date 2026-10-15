@@ -63,7 +63,10 @@
         "date": "2026-10-08"
       },
       "address": "4975 Lockbridge Road, Meadow Bridge, WV 25976",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "stifel-fine-arts-center",
@@ -234,10 +237,11 @@
         "by": "claude-haiku-4.5",
         "date": "2026-10-14",
         "verdict": "no",
-        "why": "The page text is from WTAP news website, not from Parkersburg Art Center or The Clay Studio; it only mentions a past raku demonstration in a search snippet but provides no information about current public access to firings or contact details for the pottery studio.",
+        "why": "The page text is from WTAP news website, not from Parkersburg Art Center or The Clay Studio; it only mentions a past raku demonstration in a search snippet but provides no information about current public access to firings, classes, workshops, or memberships.",
         "types": {},
         "state": "WV",
-        "town": "Parkersburg"
+        "town": "Parkersburg",
+        "street": "One Television Plaza"
       },
       "weak": true,
       "lat": 39.26673,
@@ -288,7 +292,7 @@
         "checked": "2026-10-08",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -321,7 +325,224 @@
       },
       "address": "1330 National Rd., Wheeling, WV",
       "lat": 40.0695,
-      "lng": -80.68076
+      "lng": -80.68076,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
+    },
+    {
+      "id": "meir-moheban-wv",
+      "org": "Meir Moheban",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "West Virginia",
+      "city": null,
+      "urls": [
+        "https://www.meirmoheban.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.meirmoheban.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Once a year, ceramic potteries throughout the country join together and have the opportunity to place their work inside the Anagama kiln cave.",
+        "url": "https://www.meirmoheban.com/anagama-wood-firing-kiln/",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "meirmoheban.com"
+      }
+    },
+    {
+      "id": "capitol-clay-arts-company",
+      "org": "Capitol Clay Arts Company",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Charleston",
+      "city": "Charleston",
+      "urls": [
+        "https://capitolclayarts.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Charleston, West Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://capitolclayarts.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Capitol Clay Arts Company regularly fires work for teachers, at-home clay artists and others without studio kiln access.",
+        "url": "https://capitolclayarts.com/about-us/our-services/kiln-firing-services/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "capitolclayarts.com"
+      }
+    },
+    {
+      "id": "zenclay-pottery-studio",
+      "org": "Zenclay Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Morgantown",
+      "city": "Morgantown",
+      "urls": [
+        "https://www.lewisandclark.travel/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Morgantown, West Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.lewisandclark.travel/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Learn pottery at Zenclay Pottery Studio in Morgantown, West Virginia, with classes for beginners, advanced artists, and youth.",
+        "url": "https://www.lewisandclark.travel/listing/zenclay/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "lewisandclark.travel"
+      }
+    },
+    {
+      "id": "boparc",
+      "org": "BOPARC",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Morgantown",
+      "city": "Morgantown",
+      "urls": [
+        "https://www.boparc.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Morgantown, West Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.boparc.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "BOPARC's Community Art Studio-Studio 287- is located on the basement level of the Wiles Hill Community Center (287 Eureka Dr. Morgantown, WV).",
+        "url": "https://www.boparc.org/studio-287--community-art--pottery-studio.html",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "boparc.org"
+      }
+    },
+    {
+      "id": "spirit-of-huntington",
+      "org": "Spirit of Huntington",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Huntington",
+      "city": "Huntington",
+      "urls": [
+        "https://www.spiritofhuntington.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Huntington, West Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.spiritofhuntington.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Students create their own pieces that are then kiln fired, and glazed with colors of their choice.",
+        "url": "https://www.spiritofhuntington.com/clayclasses/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "spiritofhuntington.com"
+      }
+    },
+    {
+      "id": "n-a-wv",
+      "org": "N/A",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Huntington",
+      "city": "Huntington",
+      "urls": [
+        "https://clayatlas.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Huntington, West Virginia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://clayatlas.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "For the full statewide picture, browse the West Virginia page — and check back as new studios join.",
+        "url": "https://clayatlas.com/pottery-classes/location/huntington/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "clayatlas.com"
+      }
     }
   ],
   "_removed": [

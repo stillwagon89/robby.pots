@@ -87,7 +87,10 @@
       "address": "2011 Tracy Ave, Kansas City, MO 64108",
       "lat": 39.08809,
       "lng": -94.56655,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "back-door-pottery",
@@ -150,7 +153,10 @@
       "address": "3922 St John Ave, Kansas City, MO 64123",
       "lat": 39.11324,
       "lng": -94.53497,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "kc-clay-guild-mo",
@@ -394,7 +400,10 @@
       "address_found": "1423 E. Cherry Street, Suite 103, Springfield, MO 65802",
       "lat": 37.20381,
       "lng": -93.2702,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "sam-fox-school-of-design-visual-arts",
@@ -454,6 +463,264 @@
         "date": "2026-10-09"
       },
       "address": "01 One Brookings Drive, St. Louis, MO 63130"
+    },
+    {
+      "id": "munson-mo",
+      "org": "Munson",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "salt"
+      ],
+      "region": "Missouri",
+      "city": null,
+      "urls": [
+        "https://www.munson.art/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.munson.art/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "These six-week courses will explore form, function, aesthetic values, textures, tactile qualities, and surface development of atmospheric firing through salt.",
+        "url": "https://www.munson.art/product/32608",
+        "types": [
+          "salt"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "munson.art"
+      }
+    },
+    {
+      "id": "cherry-pit-collective",
+      "org": "Cherry Pit Collective",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "St. Louis",
+      "city": "St. Louis",
+      "urls": [
+        "https://artskcgo.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "St. Louis, Missouri",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://artskcgo.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "artskcgo.com"
+      }
+    },
+    {
+      "id": "wildwood-green-arts",
+      "org": "Wildwood Green Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Missouri",
+      "city": null,
+      "urls": [
+        "https://www.wildwoodgreenarts.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.wildwoodgreenarts.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Sign up for ceramic classes, workshops, private events, or open studio memberships!",
+        "url": "https://www.wildwoodgreenarts.org/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "wildwoodgreenarts.org"
+      }
+    },
+    {
+      "id": "krueger-pottery-supply",
+      "org": "Krueger Pottery Supply",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "St. Louis",
+      "city": "St. Louis",
+      "urls": [
+        "https://kruegerpottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "St. Louis, Missouri",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://kruegerpottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "kruegerpottery.com"
+      }
+    },
+    {
+      "id": "lu-ray-studio",
+      "org": "Lu Ray Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "St. Louis",
+      "city": "St. Louis",
+      "urls": [
+        "https://luraystudio.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "St. Louis, Missouri",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://luraystudio.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "By offering affordable low-mid temperature firing services for folks in the St. Louis area.",
+        "url": "https://luraystudio.com/pages/kiln-share",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "luraystudio.com"
+      }
+    },
+    {
+      "id": "mud-room-studio",
+      "org": "Mud Room Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Columbia",
+      "city": "Columbia",
+      "urls": [
+        "https://mudroomstudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Columbia, Missouri",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://mudroomstudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Walk-in pottery painting starts at $14 with firing included!",
+        "url": "http://mudroomstudio.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "mudroomstudio.com"
+      }
+    },
+    {
+      "id": "ceramicaclay",
+      "org": "ceramicaclay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Springfield",
+      "city": "Springfield",
+      "urls": [
+        "https://www.ceramicaclay.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Springfield, Missouri",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.ceramicaclay.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "We offer firing services by piece and by the kiln load.",
+        "url": "https://www.ceramicaclay.com/firing-services",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "ceramicaclay.com"
+      }
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop-mo",
+      "org": "my.ceramicmaterialsworkshop",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Springfield",
+      "city": "Springfield",
+      "urls": [
+        "https://my.ceramicmaterialsworkshop.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Springfield, Missouri",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://my.ceramicmaterialsworkshop.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "my.ceramicmaterialsworkshop.com"
+      }
     }
   ],
   "_removed": [

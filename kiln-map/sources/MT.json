@@ -240,7 +240,10 @@
       "address": "1106 Hawthorne St, Missoula, MT 59802",
       "lat": 46.88214,
       "lng": -114.00765,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "clay-arts-guild-of-helena",
@@ -309,7 +312,10 @@
       "address": "3025 Bozeman Ave, Helena, MT",
       "lat": 46.59994,
       "lng": -111.98524,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "jerry-baldwin-ceramics",
@@ -404,7 +410,7 @@
         "checked": "2026-10-07",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -430,7 +436,10 @@
       },
       "weak": false,
       "lat": 47.71673,
-      "lng": -104.15597
+      "lng": -104.15597,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "sosceramics",
@@ -453,7 +462,7 @@
       "contact": {
         "website": "https://www.sosceramics.com/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-13",
@@ -474,7 +483,10 @@
       "located": {
         "osm": false,
         "date": "2026-10-14"
-      }
+      },
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "potteryclassess",
@@ -529,6 +541,402 @@
       },
       "lat": 45.7875,
       "lng": -108.49607
+    },
+    {
+      "id": "workroom-montana",
+      "org": "Workroom Montana",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Montana",
+      "city": null,
+      "urls": [
+        "https://www.workroommontana.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.workroommontana.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "workroommontana.com"
+      }
+    },
+    {
+      "id": "stumptown-art-studio",
+      "org": "Stumptown Art Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Whitefish",
+      "city": "Whitefish",
+      "urls": [
+        "https://stumptownartstudio.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Whitefish, Montana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://stumptownartstudio.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The Clay Studio offers classes, open studio hours, events, firing opportunities and more available to everyone from beginners to professional potters.",
+        "url": "https://stumptownartstudio.org/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "stumptownartstudio.org"
+      }
+    },
+    {
+      "id": "bozeman-community-kiln",
+      "org": "Bozeman Community Kiln",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Bozeman",
+      "city": "Bozeman",
+      "urls": [
+        "https://bckstudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Bozeman, Montana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://bckstudio.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "bckstudio.com"
+      }
+    },
+    {
+      "id": "the-pottery-den",
+      "org": "The Pottery Den",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Bozeman",
+      "city": "Bozeman",
+      "urls": [
+        "https://www.thepotteryden.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Bozeman, Montana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.thepotteryden.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "thepotteryden.com"
+      }
+    },
+    {
+      "id": "megan-billings-pottery",
+      "org": "Megan Billings Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Montana",
+      "city": null,
+      "urls": [
+        "https://billingspottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://billingspottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Also covers the next fine-tuning steps, 2 kiln firings, glazing, and finishing of your creations.",
+        "url": "https://billingspottery.com/clay-parties",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "billingspottery.com"
+      }
+    },
+    {
+      "id": "art-escape-pottery-studio",
+      "org": "Art Escape Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Montana",
+      "city": null,
+      "urls": [
+        "https://artescaperetreat.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://artescaperetreat.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "NOTE : All carved pieces will be clear glazed by us and we’ll let you know when they are ready for pickup or shipping (we have to wait until we have a full kiln load to run a glaze firing).",
+        "url": "https://artescaperetreat.com/handbuilding-pottery-workshops/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "artescaperetreat.com"
+      }
+    },
+    {
+      "id": "ponderosa-pottery",
+      "org": "Ponderosa Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Kalispell",
+      "city": "Kalispell",
+      "urls": [
+        "https://dailyinterlake.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Kalispell, Montana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://dailyinterlake.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Lessons are across five weeks so students get a deeper understanding of the clay, glaze, and firing schedules and by the end, they’ll have a fired piece that they made.",
+        "url": "https://dailyinterlake.com/news/2023/mar/26/ponderosa-pottery-provides-space-creativity/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "dailyinterlake.com"
+      }
+    },
+    {
+      "id": "paris-gibson-square-museum-of-art",
+      "org": "Paris Gibson Square Museum of Art",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Great Falls",
+      "city": "Great Falls",
+      "urls": [
+        "https://www.the-square.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Great Falls, Montana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.the-square.org/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Options for participation include classes, public/private workshops, open studio, and kiln firing services for regional artists and organizations.",
+        "url": "https://www.the-square.org/ceramics-department",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "the-square.org"
+      }
+    },
+    {
+      "id": "great-wheel-studio-mt",
+      "org": "Great Wheel Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Montana",
+      "city": null,
+      "urls": [
+        "https://greatwheelstudio.kilnfire.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://greatwheelstudio.kilnfire.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Tuition includes a generous firing allowance intended to support regular class work.",
+        "url": "https://greatwheelstudio.kilnfire.com/classes/pottery-class",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "greatwheelstudio.kilnfire.com"
+      }
+    },
+    {
+      "id": "brush-crazy",
+      "org": "Brush Crazy",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Great Falls",
+      "city": "Great Falls",
+      "urls": [
+        "https://brushcrazy.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Great Falls, Montana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://brushcrazy.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "We have a system for this! You will be issued a project ticket to accompany your project, and in the event your chosen art project needs a little extra TLC to reach that point of finished—we'll take care of the kiln firing and you'll receive prompt notification when it's complete!",
+        "url": "https://brushcrazy.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "brushcrazy.com"
+      }
+    },
+    {
+      "id": "stumptown-clay-studio",
+      "org": "Stumptown Clay Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Whitefish",
+      "city": "Whitefish",
+      "urls": [
+        "https://www.flatheadevents.net/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Whitefish, Montana",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.flatheadevents.net/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "flatheadevents.net"
+      }
+    },
+    {
+      "id": "blackdog-clayworks",
+      "org": "Blackdog Clayworks",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Montana",
+      "city": null,
+      "urls": [
+        "https://www.blackdogclayworks.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.blackdogclayworks.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "blackdogclayworks.com"
+      }
     }
   ],
   "_removed": [

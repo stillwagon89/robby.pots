@@ -57,7 +57,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "artfields",
@@ -393,6 +396,532 @@
       "located": {
         "osm": false,
         "date": "2026-10-13"
+      }
+    },
+    {
+      "id": "pottery-with-a-purpose-sc",
+      "org": "Pottery with a Purpose",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Charleston",
+      "city": "Charleston",
+      "urls": [
+        "https://www.potterywithapurpose.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Charleston, South Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.potterywithapurpose.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "potterywithapurpose.com"
+      }
+    },
+    {
+      "id": "artslab",
+      "org": "ArtsLab",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "South Carolina",
+      "city": null,
+      "urls": [
+        "https://www.artslab-sc.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.artslab-sc.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "artslab-sc.org"
+      }
+    },
+    {
+      "id": "iris-stone-pottery-studio",
+      "org": "Iris & Stone Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Summerville",
+      "city": "Summerville",
+      "urls": [
+        "https://www.irisstonepottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Summerville, South Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.irisstonepottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Iris & Stone Pottery Studio in Summerville offers ceramics classes, memberships, kiln firing, and workshops.",
+        "url": "https://www.irisstonepottery.com/membership",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "irisstonepottery.com"
+      }
+    },
+    {
+      "id": "c-h-i-l-l-art-studios",
+      "org": "C.H.I.L.L. Art Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "South Carolina",
+      "city": null,
+      "urls": [
+        "https://www.chillartstudios.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.chillartstudios.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "chillartstudios.com"
+      }
+    },
+    {
+      "id": "diana-farfa-n",
+      "org": "Diana Farfán",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "South Carolina",
+      "city": null,
+      "urls": [
+        "https://dianafarfan.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://dianafarfan.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Class fee includes clay, all firing and studio glazes.",
+        "url": "https://dianafarfan.com/lets-work/workshops/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "dianafarfan.com"
+      }
+    },
+    {
+      "id": "kakilaki-studio-arts",
+      "org": "Kakilaki Studio Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Greenville",
+      "city": "Greenville",
+      "urls": [
+        "https://kakilaki.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Greenville, South Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://kakilaki.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "kakilaki.com"
+      }
+    },
+    {
+      "id": "rooted-beauty-pottery",
+      "org": "Rooted Beauty Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Myrtle Beach",
+      "city": "Myrtle Beach",
+      "urls": [
+        "https://rootedbeautypottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Myrtle Beach, South Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://rootedbeautypottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "rootedbeautypottery.com"
+      }
+    },
+    {
+      "id": "edgefield-county-historical-society",
+      "org": "Edgefield County Historical Society",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "South Carolina",
+      "city": null,
+      "urls": [
+        "https://www.scartshub.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.scartshub.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The Edgefield County Historical Society owns a groundhog kiln located near the intersection of U.S. 25 and S.C. 430.",
+        "url": "https://www.scartshub.com/groundhog-kilns-firing-pottery-the-traditional-way/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "scartshub.com"
+      }
+    },
+    {
+      "id": "mcsweeney-clay-studio",
+      "org": "McSweeney Clay Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Beaufort",
+      "city": "Beaufort",
+      "urls": [
+        "https://mcsweeneyclaystudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Beaufort, South Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://mcsweeneyclaystudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "All prices include glazes and firing.",
+        "url": "https://mcsweeneyclaystudio.com/classes",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "mcsweeneyclaystudio.com"
+      }
+    },
+    {
+      "id": "spartanburg-art-museum",
+      "org": "Spartanburg Art Museum",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Spartanburg",
+      "city": "Spartanburg",
+      "urls": [
+        "https://spartanburgartmuseum.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Spartanburg, South Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://spartanburgartmuseum.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "spartanburgartmuseum.org"
+      }
+    },
+    {
+      "id": "rock-hill-pottery-center",
+      "org": "Rock Hill Pottery Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Rock Hill",
+      "city": "Rock Hill",
+      "urls": [
+        "https://www.ilovecarolina.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Rock Hill, South Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.ilovecarolina.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Seasonal firings bring fresh runs, so inventory changes through the year.",
+        "url": "https://www.ilovecarolina.com/activities/rock-hill-pottery-center",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "ilovecarolina.com"
+      }
+    },
+    {
+      "id": "doctor-arthur-and-esther-goldberg-groundhog-kiln",
+      "org": "Doctor Arthur and Esther Goldberg Groundhog Kiln",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Edgefield",
+      "city": "Edgefield",
+      "urls": [
+        "https://www.exploreedgefield.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Edgefield, South Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.exploreedgefield.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "As a continuation of the local pottery tradition, the Doctor Arthur and Esther Goldberg Groundhog Kiln was built in 2011. It is a traditional wood-burning kiln similar to those used over 200 years ago in this area.",
+        "url": "https://www.exploreedgefield.com/place/groundhog-kiln",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "exploreedgefield.com"
+      }
+    },
+    {
+      "id": "preservation-sc",
+      "org": "Preservation SC",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "South Carolina",
+      "city": null,
+      "urls": [
+        "https://www.preservesc.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.preservesc.org/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "By allowing visitors to engage in the process of turning and glazing clay, as well as firing the existing groundhog kiln, the museum will provide the public with an educational experience centered on the Black potters and Edgefield Pottery.",
+        "url": "https://www.preservesc.org/pottersville",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "preservesc.org"
+      }
+    },
+    {
+      "id": "n-a-sc",
+      "org": "N/A",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Edgefield",
+      "city": "Edgefield",
+      "urls": [
+        "https://www.postandcourier.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Edgefield, South Carolina",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.postandcourier.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "The upcoming firing of the Goldberg Kiln can be characterized as a fanfare of sorts, signaling the opening of the 15th Annual Heritage Trail Pottery Tour, this year scheduled for April 25 and 26.",
+        "url": "https://www.postandcourier.com/aikenstandard/lifestyle/arts-and-humanities-heritage-pottery-tour-is-around-the-corner/article_699a0376-177b-466f-890e-2cc3ea57bd2d.html",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "postandcourier.com"
+      }
+    },
+    {
+      "id": "ben-owen-pottery-sc",
+      "org": "Ben Owen Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "South Carolina",
+      "city": null,
+      "urls": [
+        "https://benowenpottery.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://benowenpottery.com/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Ben Owen Pottery will be part of the Seagrove Wood Fire Studio Tour and Sale held June 6th-7th, 2026.",
+        "url": "https://benowenpottery.com/events",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "benowenpottery.com"
+      }
+    },
+    {
+      "id": "living-kiln-pottery-studio",
+      "org": "Living Kiln Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "South Carolina",
+      "city": null,
+      "urls": [
+        "https://livingkilnpotterystudio.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://livingkilnpotterystudio.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "livingkilnpotterystudio.com"
       }
     }
   ],

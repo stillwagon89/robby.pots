@@ -63,7 +63,10 @@
         "date": "2026-10-14"
       },
       "weak": false,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "contemporary-arts-of-tulsa-c-a-t",
@@ -247,7 +250,10 @@
       "address": "11 NW 11th St., Oklahoma City, OK 73103",
       "lat": 35.48053,
       "lng": -97.51317,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "oil-clay-studio",
@@ -377,58 +383,169 @@
       "address": "1001 S DUCK STREET, STILLWATER, OK 74074",
       "lat": 36.11098,
       "lng": -97.06179,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
-      "id": "the-hambidge-center",
-      "org": "The Hambidge Center",
-      "kind": "city_arts",
+      "id": "prairie-pottery",
+      "org": "Prairie Pottery",
+      "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood"
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
       ],
-      "region": "Oklahoma",
-      "city": null,
+      "region": "Oklahoma City",
+      "city": "Oklahoma City",
       "urls": [
-        "https://www.opencallartist.com/"
+        "https://prairiepottery.com/"
       ],
-      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Oklahoma City, Oklahoma",
+      "location_note": "Shown at the town.",
       "contact": {
-        "website": "https://www.opencallartist.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Visitors are welcome to observe for free with advance arrangements.",
-        "url": "https://www.opencallartist.com/o/29a8b507-9506-4d9b-b5c1-09a6ddc2310e/anagama-kiln-firing-fall-2026-the-hambidge-center",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-13"
+        "website": "https://prairiepottery.com/"
       },
       "review": "pending",
       "discovered": {
         "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "opencallartist.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
         "date": "2026-10-14",
-        "verdict": "no",
-        "why": "OpenCall is a directory and matching service for art opportunities, not a venue that hosts ceramic firings; the search snippet mentions an anagama firing at The Hambidge Center, but the page text provided is only about OpenCall's website and services, with no information about The Hambidge Center's location, address, or how to participate in their firings.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "key": "prairiepottery.com"
+      }
+    },
+    {
+      "id": "house-of-clay-ok",
+      "org": "House of Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "OKC",
+      "city": "OKC",
+      "urls": [
+        "https://thehouseofclay.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "OKC, Oklahoma",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://thehouseofclay.com/"
       },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-14"
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The cost is $150 which includes all supplies and firing of the sculpture.",
+        "url": "https://thehouseofclay.com/classes",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "thehouseofclay.com"
+      }
+    },
+    {
+      "id": "firefly-creative-center",
+      "org": "Firefly Creative Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Tulsa",
+      "city": "Tulsa",
+      "urls": [
+        "https://tulsafirefly.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Tulsa, Oklahoma",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://tulsafirefly.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Wheels, tools, studio clay, glazes, and kiln firing included",
+        "url": "https://tulsafirefly.com/classes/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "tulsafirefly.com"
+      }
+    },
+    {
+      "id": "next-of-kiln-studio",
+      "org": "Next Of Kiln Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Oklahoma",
+      "city": null,
+      "urls": [
+        "https://www.nextofkilnstudio.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.nextofkilnstudio.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "nextofkilnstudio.com"
+      }
+    },
+    {
+      "id": "the-clay-co-op-ok",
+      "org": "The Clay Co-op",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Oklahoma",
+      "city": null,
+      "urls": [
+        "https://www.checkwhatsgood.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.checkwhatsgood.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "checkwhatsgood.com"
       }
     }
   ],
@@ -472,6 +589,10 @@
     {
       "id": "ceramic-cottage",
       "why": "Second check (claude-haiku-4.5): The page describes a supplies shop that offers firing services for customer pieces and classes, but provides no details about what types of firings are performed or how outsiders can access them. (2026-10-14)"
+    },
+    {
+      "id": "the-hambidge-center",
+      "why": "Second check (claude-haiku-4.5): OpenCall is a directory and matching service for art opportunities, not a venue or organizer that runs ceramic firings itself; the search snippet mentions The Hambidge Center's anagama firing but the page text provided is only about OpenCall's website and services. (2026-10-14)"
     }
   ]
 }

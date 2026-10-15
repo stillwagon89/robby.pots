@@ -94,7 +94,7 @@
         "checked": "2026-10-07",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -121,7 +121,10 @@
       },
       "address": "1400 East College Dr, Cheyenne, WY 82007",
       "lat": 41.1045,
-      "lng": -104.78297
+      "lng": -104.78297,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "red-bison-studios",
@@ -182,6 +185,172 @@
         "verdict": "unclear",
         "result": "split",
         "date": "2026-10-08"
+      }
+    },
+    {
+      "id": "silver-sage-ceramics",
+      "org": "Silver Sage Ceramics",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Cheyenne",
+      "city": "Cheyenne",
+      "urls": [
+        "https://diib.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Cheyenne, Wyoming",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://diib.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The store even carries several different types of clay to choose from, catering to the different preferences and needs of potters.",
+        "url": "https://diib.com/featuredmembers/silver-sage-ceramics/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "diib.com"
+      }
+    },
+    {
+      "id": "robbie-s-house",
+      "org": "Robbie's House",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Laramie",
+      "city": "Laramie",
+      "urls": [
+        "https://www.robbieshouselaramie.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Laramie, Wyoming",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.robbieshouselaramie.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "robbieshouselaramie.org"
+      }
+    },
+    {
+      "id": "siren-studios",
+      "org": "Siren Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Laramie",
+      "city": "Laramie",
+      "urls": [
+        "https://lpccwy.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Laramie, Wyoming",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://lpccwy.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Workshops and classes in wheel throwing, hand-building, and other ceramics techniques are offered year-round.",
+        "url": "http://lpccwy.org/art",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "lpccwy.org"
+      }
+    },
+    {
+      "id": "red-bison-studio",
+      "org": "Red Bison Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Sheridan",
+      "city": "Sheridan",
+      "urls": [
+        "https://downtownsheridan.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Sheridan, Wyoming",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://downtownsheridan.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "downtownsheridan.org"
+      }
+    },
+    {
+      "id": "wyoming-paintbrush",
+      "org": "Wyoming Paintbrush",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Rawlins",
+      "city": "Rawlins",
+      "urls": [
+        "https://www.wyomingpaintbrush.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Rawlins, Wyoming",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.wyomingpaintbrush.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "A hands-on art shop and studio offering pottery glazing, classes, studio and kiln space, framing, private lessons and community creative programs in Sublette County.",
+        "url": "https://www.wyomingpaintbrush.com/makers/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "wyomingpaintbrush.com"
       }
     }
   ],

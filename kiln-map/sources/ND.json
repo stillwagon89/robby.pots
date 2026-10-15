@@ -128,7 +128,10 @@
       "address": "1500 Edwards Avenue, Bismarck, ND 58506",
       "lat": 46.82125,
       "lng": -100.81692,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "msu-lifelong-learning-institute",
@@ -179,6 +182,181 @@
       },
       "access": {
         "status": "ongoing"
+      }
+    },
+    {
+      "id": "rising-dawn-ceramics",
+      "org": "Rising Dawn Ceramics",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Fargo",
+      "city": "Fargo",
+      "urls": [
+        "https://www.risingdawnceramics.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Fargo, North Dakota",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.risingdawnceramics.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "risingdawnceramics.com"
+      }
+    },
+    {
+      "id": "muddy-waters-clay-center",
+      "org": "Muddy Waters Clay Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Grand Forks",
+      "city": "Grand Forks",
+      "urls": [
+        "https://my.ceramicmaterialsworkshop.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Grand Forks, North Dakota",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://my.ceramicmaterialsworkshop.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "my.ceramicmaterialsworkshop.com"
+      }
+    },
+    {
+      "id": "minot-state-university-lifelong-learning-institu",
+      "org": "Minot State University Lifelong Learning Institute",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Minot",
+      "city": "Minot",
+      "urls": [
+        "https://www.minotstateu.edu/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Minot, North Dakota",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.minotstateu.edu/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The price includes a fee for clay, glaze, and firing.",
+        "url": "https://www.minotstateu.edu/pio/news/2025/12/Minot-State-Lifelong-Learning-Institute-offers-multiple-ceramics-classes.shtml",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "minotstateu.edu"
+      }
+    },
+    {
+      "id": "montana-clay-nd",
+      "org": "Montana Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "North Dakota",
+      "city": null,
+      "urls": [
+        "https://montanaclay.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://montanaclay.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "montanaclay.org"
+      }
+    },
+    {
+      "id": "arizona-clay-association-nd",
+      "org": "Arizona Clay Association",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda",
+        "gas_reduction"
+      ],
+      "region": "North Dakota",
+      "city": null,
+      "urls": [
+        "https://www.arizonaclay.net/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.arizonaclay.net/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "arizonaclay.net"
+      }
+    },
+    {
+      "id": "southern-maine-clay-guild-nd",
+      "org": "Southern Maine Clay Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda",
+        "pit_barrel_saggar"
+      ],
+      "region": "North Dakota",
+      "city": null,
+      "urls": [
+        "https://www.southernmaineclayguild.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.southernmaineclayguild.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "southernmaineclayguild.com"
       }
     }
   ],

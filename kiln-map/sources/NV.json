@@ -59,7 +59,10 @@
       "address_found": "3355 Clayton St Ste 44, North Las Vegas, NV 89032",
       "lat": 36.22038,
       "lng": -115.17054,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "tuscarora-pottery-school",
@@ -131,7 +134,10 @@
       "address": "138 Main Street, Tuscarora, NV 89834",
       "lat": 41.31401,
       "lng": -116.223,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "nevada-clay-guild",
@@ -165,7 +171,7 @@
         "checked": "2026-10-07",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -194,7 +200,10 @@
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "elko-county-art-club",
@@ -305,6 +314,178 @@
       "address": "15 W. Mesquite Blvd., Mesquite, NV",
       "lat": 36.80428,
       "lng": -114.06848
+    },
+    {
+      "id": "animal-house-pottery-nv",
+      "org": "Animal House Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda"
+      ],
+      "region": "Las Vegas",
+      "city": "Las Vegas",
+      "urls": [
+        "https://neon.reviewjournal.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Las Vegas, Nevada",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://neon.reviewjournal.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "For artists that sculpt at home, they also offer kiln firing services.",
+        "url": "https://neon.reviewjournal.com/arts-culture/come-out-to-clay-a-guide-to-las-vegas-pottery-studios-3146002/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "neon.reviewjournal.com"
+      }
+    },
+    {
+      "id": "clay-arts-vegas",
+      "org": "Clay Arts Vegas",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "other"
+      ],
+      "region": "Las Vegas",
+      "city": "Las Vegas",
+      "urls": [
+        "https://www.clayartsvegas.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Las Vegas, Nevada",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.clayartsvegas.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "clayartsvegas.com"
+      }
+    },
+    {
+      "id": "the-wedge-ceramics-studio",
+      "org": "The Wedge Ceramics Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Reno",
+      "city": "Reno",
+      "urls": [
+        "https://www.thewedgeceramics.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Reno, Nevada",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.thewedgeceramics.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "In addition to classes, we also offer memberships for independent artists which includes access to all studio equipment, glazes, firing, and recycled clay.",
+        "url": "https://www.thewedgeceramics.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "thewedgeceramics.com"
+      }
+    },
+    {
+      "id": "ogres-holm-pottery",
+      "org": "Ogres-Holm Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Carson City",
+      "city": "Carson City",
+      "urls": [
+        "https://www.ogresholmpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Carson City, Nevada",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.ogresholmpottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "All of our class costs include all of the necessary materials and firings.",
+        "url": "https://www.ogresholmpottery.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "ogresholmpottery.com"
+      }
+    },
+    {
+      "id": "campusce",
+      "org": "campusce",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Nevada",
+      "city": null,
+      "urls": [
+        "https://www.campusce.net/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.campusce.net/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The class fee includes the cost of one (1) 25 pound bag of clay, firing and glazing for items made in this class.",
+        "url": "https://www.campusce.net/wnc/course/course.aspx?C=388&pc=13&mc=26",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "campusce.net"
+      }
     }
   ],
   "_removed": [

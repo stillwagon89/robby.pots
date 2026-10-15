@@ -1,4 +1,4 @@
-# Vermont firings ledger (2026-10-13, discovery v3, automatic)
+# Vermont firings ledger (2026-10-14, discovery v3, automatic)
 
 Built by auto-ledger.mjs from every non-rejected place with a gate-supported firing type; verify.mjs --apply prunes it.
 
@@ -13,15 +13,21 @@ Built by auto-ledger.mjs from every non-rejected place with a gate-supported fir
 | 6 | UVM School of the Arts Ceramic Co-op | ? | gas_reduction | Classes or membership | uvm.edu |
 | 7 | Farmhouse Pottery | Woodstock | raku, wood | Dated workshop or firing event | farmhousepottery.com, jacksonwoodstock.com |
 | 8 | The Mud Studio | Waterbury | raku | Classes or membership | themudstudio.com |
-| 9 | Burlington Potters' Guild | Burlington | gas_reduction | Classes or membership | burlingtonpottersguild.com |
-| 10 | Orchard Street Pottery | Brattleboro | wood | Classes or membership | walterslowinskipottery.weebly.com |
-| 11 | Brattleboro Clayworks | Brattleboro | gas_reduction | Classes or membership | brattleboroclayworks.com |
-| 12 | Fire Art Vermont | Brattleboro | wood | Classes or membership | stayotherland.com |
-| 13 | Middlebury Studio School | MIDDLEBURY | raku | Dated workshop or firing event | middleburystudioschool.corsizio.com |
-| 14 | Homemade | ? | wood | Classes or membership | homemade.education |
-| 15 | Julie Lerman Pottery | Shelburne | raku, wood | See site | shelburnefarmersmarket.org |
-| 16 | Jackie Sedlock Pottery | Pownal | wood | Classes or membership | manchesterjournal.com, benningtonbanner.com |
-| 17 | Perry Hill Pottery | ? | wood | See site | perryhillpottery.com |
-| 18 | Mary Sweeney Pottery | Stowe | gas_reduction, soda, wood | Firing service | marysweeneypottery.com |
-| 19 | Matthew Tell Pottery | Marlboro | wood | Dated workshop or firing event | matthewtellpottery.com |
-| 20 | St. Johnsbury Academy | ? | raku | See site | stjacademy.org |
+| 9 | CENTER CENTRE CLAY STUDIO | Burlington | wood, raku, gas_reduction | Classes or membership | frontporchforum.com, vermontpublic.org, nextdoor.com, helloburlingtonvt.com |
+| 10 | Burlington Potters' Guild | Burlington | gas_reduction | Classes or membership | burlingtonpottersguild.com |
+| 11 | Green House Pottery | Montpelier |  | See site | greenhousepots.com |
+| 12 | AllTogetherNow! | Montpelier |  | Classes or membership | alltogethernowvt.org |
+| 13 | Orchard Street Pottery | Brattleboro | wood | Classes or membership | walterslowinskipottery.weebly.com |
+| 14 | Brattleboro Clayworks | Brattleboro | gas_reduction | Classes or membership | brattleboroclayworks.com |
+| 15 | my.ceramicmaterialsworkshop | Brattleboro |  | See site | my.ceramicmaterialsworkshop.com |
+| 16 | Fire Art Vermont | Brattleboro | wood | Classes or membership | stayotherland.com |
+| 17 | Middlebury Studio School | MIDDLEBURY | raku | Dated workshop or firing event | middleburystudioschool.corsizio.com |
+| 18 | Homemade | ? | wood | Classes or membership | homemade.education |
+| 19 | Julie Lerman Pottery | Shelburne | raku, wood | See site | shelburnefarmersmarket.org |
+| 20 | Jackie Sedlock Pottery | Pownal | wood | Classes or membership | manchesterjournal.com, benningtonbanner.com |
+| 21 | Shelburne Craft School | Burlington | wood | Classes or membership | artmapburlington.com |
+| 22 | Perry Hill Pottery | ? | wood | See site | perryhillpottery.com |
+| 23 | Mary Sweeney Pottery | Stowe | gas_reduction, soda, wood | Firing service | marysweeneypottery.com |
+| 24 | Matthew Tell Pottery | Marlboro | wood | Dated workshop or firing event | matthewtellpottery.com |
+| 25 | ashcraftpottery | ? | wood | See site | ashcraftpottery.com |
+| 26 | St. Johnsbury Academy | ? | raku | See site | stjacademy.org |

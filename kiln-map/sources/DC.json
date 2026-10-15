@@ -60,7 +60,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -84,7 +84,10 @@
       "weak": false,
       "address": "2414 Douglas St NE, Washington, DC 20018",
       "lat": 38.92388,
-      "lng": -76.97145
+      "lng": -76.97145,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "rachel-lindsay-pottery",
@@ -140,7 +143,10 @@
       },
       "lat": 38.8951,
       "lng": -77.03638,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "clay-cafe",
@@ -174,7 +180,7 @@
         "checked": "2026-10-08",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
@@ -200,7 +206,150 @@
       },
       "weak": false,
       "lat": 38.8951,
-      "lng": -77.03638
+      "lng": -77.03638,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
+    },
+    {
+      "id": "clay-art-space-dc",
+      "org": "Clay Art Space",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "District of Columbia",
+      "city": null,
+      "urls": [
+        "https://www.clayartspace.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.clayartspace.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
+        "url": "https://www.clayartspace.com/kiln-firing.html",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "clayartspace.com"
+      }
+    },
+    {
+      "id": "studio-kusi",
+      "org": "Studio Kusi",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Washington",
+      "city": "Washington",
+      "urls": [
+        "https://studiokusi.kilnfire.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Washington, District of Columbia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://studiokusi.kilnfire.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "studiokusi.kilnfire.com"
+      }
+    },
+    {
+      "id": "john-riley-pottery",
+      "org": "John Riley Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Washington",
+      "city": "Washington",
+      "urls": [
+        "https://www.johnrileypottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Washington, District of Columbia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.johnrileypottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "I also wood fire at a variety of wood kilns in the DC metro area.",
+        "url": "https://www.johnrileypottery.com/about.html",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "johnrileypottery.com"
+      }
+    },
+    {
+      "id": "glen-echo-park-dc",
+      "org": "Glen Echo Park",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Washington",
+      "city": "Washington",
+      "urls": [
+        "https://www.glenechopottery.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Washington, District of Columbia",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.glenechopottery.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Students' pieces are fired to cone 10 in a gas reduction kiln.",
+        "url": "https://www.glenechopottery.org/classes.html",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "glenechopottery.org"
+      }
     }
   ],
   "_removed": [

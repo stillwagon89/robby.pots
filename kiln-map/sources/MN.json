@@ -193,7 +193,10 @@
       "address": "114 Commerce Cir, Buffalo, MN 55313",
       "lat": 45.1964,
       "lng": -93.87333,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "minnetonka-center-for-the-arts",
@@ -262,7 +265,10 @@
       "address_found": "2240 North Shore Drive, Wayzata, MN 55391-9347",
       "lat": 44.97076,
       "lng": -93.51195,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "north-house-folk-school",
@@ -324,7 +330,10 @@
       "address": "500 W Hwy 61, Grand Marais, MN 55604",
       "lat": 47.74909,
       "lng": -90.34037,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "the-workshop-mpls",
@@ -360,7 +369,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -390,7 +399,10 @@
         "result": "agree-yes",
         "date": "2026-10-08"
       },
-      "weak": false
+      "weak": false,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "nemaa",
@@ -498,6 +510,170 @@
       },
       "access": {
         "status": "ongoing"
+      }
+    },
+    {
+      "id": "the-clay-pit",
+      "org": "The Clay Pit",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Minneapolis",
+      "city": "Minneapolis",
+      "urls": [
+        "https://www.theclaypitstudio.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Minneapolis, Minnesota",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.theclaypitstudio.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "The Clay Pit offers professional kiln firing services in Minneapolis for ceramic artists of all experience levels.",
+        "url": "https://www.theclaypitstudio.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "theclaypitstudio.com"
+      }
+    },
+    {
+      "id": "clay-art-space",
+      "org": "Clay Art Space",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Minnesota",
+      "city": null,
+      "urls": [
+        "https://www.clayartspace.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.clayartspace.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
+        "url": "https://www.clayartspace.com/kiln-firing.html",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "clayartspace.com"
+      }
+    },
+    {
+      "id": "the-saint-john-s-pottery-mn",
+      "org": "The Saint John’s Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Minnesota",
+      "city": null,
+      "urls": [
+        "https://www.csbsju.edu/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.csbsju.edu/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The Saint John’s Pottery welcomes volunteers and visitors during fall firings of the Johanna Kiln, the largest wood-burning kiln of its kind in North America.",
+        "url": "https://www.csbsju.edu/saint-johns-pottery/community/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "csbsju.edu"
+      }
+    },
+    {
+      "id": "red-wing-arts",
+      "org": "Red Wing Arts",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Red Wing",
+      "city": "Red Wing",
+      "urls": [
+        "https://redwingarts.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Red Wing, Minnesota",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://redwingarts.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "For ceramic artists whose work exceeds the one bisque and one glaze firing offered per punch card, we also offer firings at the following rates: 1/3 kiln load=$15, 1/2 kiln load=$22, 2/3 kiln load=$30, Full kiln load=$45.",
+        "url": "https://redwingarts.org/calendar-of-events/2026/8/11/artspeak",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "redwingarts.org"
+      }
+    },
+    {
+      "id": "art-heads-emporium",
+      "org": "Art Heads Emporium",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Minnesota",
+      "city": null,
+      "urls": [
+        "https://www.artheadsemporium.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.artheadsemporium.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "artheadsemporium.com"
       }
     }
   ],

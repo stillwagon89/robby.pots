@@ -191,7 +191,10 @@
       "address": "208 Middle Winchendon Rd., Rindge, NH 03461",
       "lat": 42.74659,
       "lng": -72.0245,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "the-wheel-house",
@@ -243,7 +246,10 @@
         "status": "ongoing"
       },
       "address": "865 Islington St, Suite 200, Portsmouth, NH 03801",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "phoebe-s-barn",
@@ -307,7 +313,10 @@
       "address": "16 North Main St., Mont Vernon, NH 03035",
       "lat": 42.89562,
       "lng": -71.67627,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "league-of-new-hampshire-craftsmen",
@@ -406,6 +415,234 @@
       "located": {
         "osm": false,
         "date": "2026-10-14"
+      }
+    },
+    {
+      "id": "firefly-pottery",
+      "org": "Firefly Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Portsmouth",
+      "city": "Portsmouth",
+      "urls": [
+        "https://www.fireflypotterynh.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Portsmouth, New Hampshire",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.fireflypotterynh.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "fireflypotterynh.com"
+      }
+    },
+    {
+      "id": "black-olive-pottery-studio",
+      "org": "Black Olive Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Concord",
+      "city": "Concord",
+      "urls": [
+        "https://www.blackolivepottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Concord, New Hampshire",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.blackolivepottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Join our classes, memberships, and events to start creating with clay in a welcoming community space.",
+        "url": "https://www.blackolivepottery.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "blackolivepottery.com"
+      }
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop-nh",
+      "org": "my.ceramicmaterialsworkshop",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Nashua",
+      "city": "Nashua",
+      "urls": [
+        "https://my.ceramicmaterialsworkshop.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Nashua, New Hampshire",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://my.ceramicmaterialsworkshop.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "my.ceramicmaterialsworkshop.com"
+      }
+    },
+    {
+      "id": "time-to-clay",
+      "org": "TIME TO CLAY",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Nashua",
+      "city": "Nashua",
+      "urls": [
+        "https://ccsa.placefull.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Nashua, New Hampshire",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://ccsa.placefull.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Includes clay and firing of up to 2 pieces.",
+        "url": "https://ccsa.placefull.com/time-to-clay-nashua-nh",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "ccsa.placefull.com"
+      }
+    },
+    {
+      "id": "dover-pottery-studio-nh",
+      "org": "Dover Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "New Hampshire",
+      "city": null,
+      "urls": [
+        "https://doverpottery.studio/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://doverpottery.studio/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "doverpottery.studio"
+      }
+    },
+    {
+      "id": "art-escape",
+      "org": "Art Escape",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood"
+      ],
+      "region": "Laconia",
+      "city": "Laconia",
+      "urls": [
+        "https://artescapenh.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Laconia, New Hampshire",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://artescapenh.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "We went and had a great time ! Each one of us painted something completely different … they were great in getting them all fired in the kiln b4 we left town … can’t wait to go back again . Thanks for the fun .",
+        "url": "https://artescapenh.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "artescapenh.com"
+      }
+    },
+    {
+      "id": "salty-clay",
+      "org": "Salty Clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "New Hampshire",
+      "city": null,
+      "urls": [
+        "https://saltyclay.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://saltyclay.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "Reserve space in our kiln without a full studio membership!",
+        "url": "https://saltyclay.com/shop/needs-organizing/kiln-shelf-rental/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "saltyclay.com"
       }
     }
   ],

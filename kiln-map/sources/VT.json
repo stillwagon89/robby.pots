@@ -66,7 +66,7 @@
         "checked": "2026-10-07",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -94,7 +94,10 @@
       "weak": false,
       "address": "136 State Street, Montpelier, VT 05633",
       "lat": 44.26158,
-      "lng": -72.58321
+      "lng": -72.58321,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "third-branch-pottery",
@@ -280,7 +283,10 @@
       "address": "26 Central Street, Woodstock, VT 05091",
       "lat": 43.62578,
       "lng": -72.51715,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "orchard-street-pottery",
@@ -314,7 +320,7 @@
         "checked": "2026-10-07",
         "status": "coming_soon"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -345,7 +351,10 @@
       },
       "address": "658 Orchard Street, Brattleboro, VT 05301",
       "lat": 42.86547,
-      "lng": -72.59465
+      "lng": -72.59465,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "middlebury-studio-school-vt",
@@ -408,7 +417,10 @@
       "address": "94 Court Street, Middlebury, VT",
       "lat": 44.00629,
       "lng": -73.1607,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "jackie-sedlock-pottery-vt",
@@ -442,7 +454,7 @@
         "checked": "2026-10-07",
         "status": "past_only"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -470,7 +482,10 @@
       "weak": false,
       "address": "1179 North Mason Hill Road, Pownal, VT",
       "lat": 42.75986,
-      "lng": -73.20587
+      "lng": -73.20587,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "jackie-sedlock-pottery",
@@ -532,7 +547,10 @@
       "address": "1179 North Mason Hill Road, Pownal, VT",
       "lat": 42.75986,
       "lng": -73.20587,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "perry-hill-pottery",
@@ -706,7 +724,198 @@
       "weak": false,
       "lat": 42.85966,
       "lng": -72.72588,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
+    },
+    {
+      "id": "center-centre-clay-studio",
+      "org": "CENTER CENTRE CLAY STUDIO",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Burlington",
+      "city": "Burlington",
+      "urls": [
+        "https://frontporchforum.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Burlington, Vermont",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://frontporchforum.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "We offer classes, workshops, kiln rentals, and youth programming.",
+        "url": "https://frontporchforum.com/d/center-centre-clay-studio",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "frontporchforum.com"
+      }
+    },
+    {
+      "id": "green-house-pottery",
+      "org": "Green House Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Montpelier",
+      "city": "Montpelier",
+      "urls": [
+        "https://www.greenhousepots.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Montpelier, Vermont",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.greenhousepots.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "greenhousepots.com"
+      }
+    },
+    {
+      "id": "alltogethernow",
+      "org": "AllTogetherNow!",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Montpelier",
+      "city": "Montpelier",
+      "urls": [
+        "https://www.alltogethernowvt.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Montpelier, Vermont",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.alltogethernowvt.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Clay Class with Janice Walrafen | AllTogetherNow! Art Tiles Studio | 6 Thursdays, (starts 11/5/26) 4-5:30pm | Open to all ages | $185 | Clay, glaze and firing are included in the class fee.",
+        "url": "https://www.alltogethernowvt.org/classes_workshops.html",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "alltogethernowvt.org"
+      }
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop-vt",
+      "org": "my.ceramicmaterialsworkshop",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Brattleboro",
+      "city": "Brattleboro",
+      "urls": [
+        "https://my.ceramicmaterialsworkshop.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Brattleboro, Vermont",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://my.ceramicmaterialsworkshop.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "my.ceramicmaterialsworkshop.com"
+      }
+    },
+    {
+      "id": "shelburne-craft-school",
+      "org": "Shelburne Craft School",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Burlington",
+      "city": "Burlington",
+      "urls": [
+        "https://artmapburlington.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Burlington, Vermont",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://artmapburlington.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Shelburne Craft School The Studio Store has handmade work in pottery, wood, jewelry, and stained glass and the school hosts events and classes for the public on an ongoing basis.",
+        "url": "http://artmapburlington.com/content/shelburne-craft-school/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "artmapburlington.com"
+      }
+    },
+    {
+      "id": "ashcraftpottery",
+      "org": "ashcraftpottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Vermont",
+      "city": null,
+      "urls": [
+        "https://www.ashcraftpottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.ashcraftpottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "ashcraftpottery.com"
+      }
     }
   ],
   "_removed": [

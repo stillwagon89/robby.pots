@@ -194,7 +194,10 @@
       "address_found": "329 10th Ave SE, Suite 117, Cedar Rapids, IA 52401",
       "lat": 41.97194,
       "lng": -91.65895,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "creston-arts",
@@ -340,7 +343,7 @@
         "checked": "2026-10-07",
         "status": "upcoming"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -367,7 +370,10 @@
       "weak": false,
       "address": "509 23rd Ave., Council Bluffs, IA 51501",
       "lat": 41.23923,
-      "lng": -95.85296
+      "lng": -95.85296,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "arthaus",
@@ -425,7 +431,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "shady-grove-pottery",
@@ -478,6 +487,178 @@
       },
       "access": {
         "status": "ongoing"
+      }
+    },
+    {
+      "id": "ankeny-art-center",
+      "org": "Ankeny Art Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Ankeny",
+      "city": "Ankeny",
+      "urls": [
+        "https://www.ankenyartcenter.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Ankeny, Iowa",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.ankenyartcenter.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The class fee includes 25lbs of clay, glazes, and firing.",
+        "url": "https://www.ankenyartcenter.org/product-page/pottery-studio",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "ankenyartcenter.org"
+      }
+    },
+    {
+      "id": "renee-s-ceramic-cafe",
+      "org": "Renee's Ceramic Cafe",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Iowa City",
+      "city": "Iowa City",
+      "urls": [
+        "https://www.reneesceramiccafe.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Iowa City, Iowa",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.reneesceramiccafe.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The price of that piece includes all your paint, the firing, anything you need to finish that piece.",
+        "url": "https://www.reneesceramiccafe.org/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "reneesceramiccafe.org"
+      }
+    },
+    {
+      "id": "nathan-clay",
+      "org": "nathan & clay",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Ames",
+      "city": "Ames",
+      "urls": [
+        "https://www.nathanandclay.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Ames, Iowa",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.nathanandclay.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Nathan's studio is located in Ames, IA and offers portable pottery workshops, in-studio lessons and handmade pottery.",
+        "url": "https://www.nathanandclay.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "nathanandclay.com"
+      }
+    },
+    {
+      "id": "dubuque-pottery-studio",
+      "org": "Dubuque Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Dubuque",
+      "city": "Dubuque",
+      "urls": [
+        "https://www.dubuquepotterystudio.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Dubuque, Iowa",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.dubuquepotterystudio.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "Kiln Firing Service (2-3 wk turnaround) Pickup & Drop Off Hours Saturday & Sunday 9am-3pm Wednesday 1-4pm minimum of 10 pieces per firing all pieces must be labeled with your initials",
+        "url": "https://www.dubuquepotterystudio.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "dubuquepotterystudio.com"
+      }
+    },
+    {
+      "id": "iowa-western-community-college",
+      "org": "Iowa Western Community College",
+      "kind": "college",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Iowa",
+      "city": null,
+      "urls": [
+        "https://www.iwcc.edu/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.iwcc.edu/"
+      },
+      "access": {
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "October 10, 2026, from 1:00-2:30pm Create a beautiful, functional ceramic piece in this fun, hands on workshop! The registration fee includes one ceramic piece, glazes, and all art supplies- just bring your creativity! Clay Contours will lead this workshop and take the glazed pieces back to their kiln for firing. Finished pieces will be returned to Iowa Western for pick up before October 26.",
+        "url": "https://www.iwcc.edu/ce/life-leisure/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "iwcc.edu"
       }
     }
   ],

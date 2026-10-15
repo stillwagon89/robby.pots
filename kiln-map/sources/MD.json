@@ -93,7 +93,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -117,7 +117,10 @@
       "weak": false,
       "address": "312 Deale Rd, Tracys Landing, MD 20779",
       "lat": 38.77771,
-      "lng": -76.57161
+      "lng": -76.57161,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "madewithclay",
@@ -428,7 +431,10 @@
       "address": "155 Gibbs Street, Rockville, MD 20850",
       "lat": 39.08677,
       "lng": -77.15181,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "kilnjoy-ceramics",
@@ -498,7 +504,10 @@
         "date": "2026-10-09"
       },
       "address": "2023 from 10am-3pm 22201 Pondsville Rd., Smithsburg, MD",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "joe-hicks-ceramics",
@@ -560,6 +569,290 @@
       },
       "lat": 38.93648,
       "lng": -76.9597
+    },
+    {
+      "id": "timisaacpottery-md",
+      "org": "timisaacpottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Maryland",
+      "city": null,
+      "urls": [
+        "https://www.timisaacpottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.timisaacpottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "timisaacpottery.com"
+      }
+    },
+    {
+      "id": "catoctin-creek-pottery",
+      "org": "Catoctin Creek Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Frederick",
+      "city": "Frederick",
+      "urls": [
+        "https://catoctincreekpottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Frederick, Maryland",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://catoctincreekpottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "At Catoctin Creek Pottery, we offer hands-on pottery classes, workshops, private experiences, and kiln firing services for beginners, hobbyists, and experienced ceramic artists.",
+        "url": "https://catoctincreekpottery.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "catoctincreekpottery.com"
+      }
+    },
+    {
+      "id": "the-creative-hollow",
+      "org": "The Creative Hollow",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Silver Spring",
+      "city": "Silver Spring",
+      "urls": [
+        "https://www.thecreativehollow.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Silver Spring, Maryland",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.thecreativehollow.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "It offers a kiln firing service to local potters.",
+        "url": "https://www.thecreativehollow.com/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "thecreativehollow.com"
+      }
+    },
+    {
+      "id": "cracked-pottery",
+      "org": "Cracked Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Baltimore County",
+      "city": "Baltimore County",
+      "urls": [
+        "https://www.crackedpottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Baltimore County, Maryland",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.crackedpottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "crackedpottery.com"
+      }
+    },
+    {
+      "id": "the-clay-coop",
+      "org": "The Clay CoOp",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Baltimore",
+      "city": "Baltimore",
+      "urls": [
+        "https://baltimore.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Baltimore, Maryland",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://baltimore.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "The Clay CoOp is a membership-based pottery studio in Baltimore where individual potters and ceramicists rent shared workspace, kilns, and equipment rather than buy their own.",
+        "url": "https://baltimore.com/arts-entertainment/art-galleries/the-clay-coop",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "baltimore.com"
+      }
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop",
+      "org": "my.ceramicmaterialsworkshop",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Annapolis",
+      "city": "Annapolis",
+      "urls": [
+        "https://my.ceramicmaterialsworkshop.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Annapolis, Maryland",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://my.ceramicmaterialsworkshop.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "my.ceramicmaterialsworkshop.com"
+      }
+    },
+    {
+      "id": "salisbury-art-space",
+      "org": "Salisbury Art Space",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Salisbury",
+      "city": "Salisbury",
+      "urls": [
+        "https://salisburyartspace.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Salisbury, Maryland",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://salisburyartspace.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "salisburyartspace.org"
+      }
+    },
+    {
+      "id": "twin-moons-pottery",
+      "org": "Twin Moons Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Hagerstown",
+      "city": "Hagerstown",
+      "urls": [
+        "https://www.twinmoonspottery.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Hagerstown, Maryland",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.twinmoonspottery.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "What is included: Instruction, 12 1/2 pounds of high fire clay, use of studio equipment, bisque and final glaze firings of pieces made in class, high fire glazes on pieces created in class.",
+        "url": "http://www.twinmoonspottery.com/Services.html",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "twinmoonspottery.com"
+      }
+    },
+    {
+      "id": "chesapeake-arts-center",
+      "org": "Chesapeake Arts Center",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Maryland",
+      "city": null,
+      "urls": [
+        "https://www.chesapeakearts.org/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.chesapeakearts.org/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "chesapeakearts.org"
+      }
     }
   ],
   "_removed": [

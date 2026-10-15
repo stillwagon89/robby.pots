@@ -89,8 +89,8 @@
       "verify": {
         "by": "claude-haiku-4.5",
         "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "The page describes a Red Hot Raku Workshop open to beginners and experienced ceramicists, with multiple firing opportunities and hands-on participation.",
+        "verdict": "unclear",
+        "why": "The search snippets describe a Red Hot Raku Workshop but the page text provided contains only a login form with no location details, address, or state information.",
         "types": {},
         "state": "",
         "town": ""
@@ -256,7 +256,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -286,7 +286,10 @@
         "result": "agree-yes",
         "date": "2026-10-07"
       },
-      "weak": false
+      "weak": false,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "cu-potter-s-club",
@@ -355,7 +358,10 @@
       "address": "900 South Race St., Urbana, IL",
       "lat": 40.10539,
       "lng": -88.20936,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "wheel-art-pottery-studios",
@@ -417,7 +423,10 @@
       "address": "1101 SW Washington St., Peoria, IL 61602",
       "lat": 40.68305,
       "lng": -89.60096,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "omniform1",
@@ -569,7 +578,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -602,7 +611,10 @@
       },
       "weak": false,
       "lat": 41.87556,
-      "lng": -87.62442
+      "lng": -87.62442,
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
     },
     {
       "id": "distinguished-teaching",
@@ -721,7 +733,347 @@
       "address_found": "1418 S. Rocky Hill Rd., Galena, IL",
       "lat": 42.41573,
       "lng": -90.42947,
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-14",
+      "bulk_approved_by_robby": "2026-10-15",
+      "needs_review_later": "2026-10-15",
+      "approved": "2026-10-15"
+    },
+    {
+      "id": "yu-tang-ceramics-il",
+      "org": "Yu Tang Ceramics",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Illinois",
+      "city": null,
+      "urls": [
+        "https://www.yutangceramics.com/"
+      ],
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.yutangceramics.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "yutangceramics.com"
+      }
+    },
+    {
+      "id": "inferno-clay-studio-nfp",
+      "org": "Inferno Clay Studio NFP",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Rockford",
+      "city": "Rockford",
+      "urls": [
+        "https://www.artsforeveryone.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Rockford, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.artsforeveryone.com/"
+      },
+      "access": {
+        "how": "Firing service",
+        "note": "Firing service",
+        "quote": "Inferno Clay Studio is a non-profit, cooperative ceramic artist studio with classes for the community and kiln services.",
+        "url": "https://www.artsforeveryone.com/artist/inferno-clay-studio-nfp/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "artsforeveryone.com"
+      }
+    },
+    {
+      "id": "the-digs-chicago",
+      "org": "The Digs Chicago",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Chicago",
+      "city": "Chicago",
+      "urls": [
+        "https://www.thedigschicago.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Chicago, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.thedigschicago.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Included in Membership: 24/7 Studio Access Free Kiln Firing Ability to Schedule Personal Kilns",
+        "url": "https://www.thedigschicago.com/membership",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "thedigschicago.com"
+      }
+    },
+    {
+      "id": "alley-cat-studios",
+      "org": "Alley Cat Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "gas_reduction"
+      ],
+      "region": "Evanston",
+      "city": "Evanston",
+      "urls": [
+        "https://alleycatstudios.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Evanston, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://alleycatstudios.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Alley Cat Studios has several weekly pottery classes or open studio formats to choose from.",
+        "url": "https://alleycatstudios.org/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "alleycatstudios.org"
+      }
+    },
+    {
+      "id": "the-pot-shop",
+      "org": "The Pot Shop",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "gas_reduction"
+      ],
+      "region": "Evanston",
+      "city": "Evanston",
+      "urls": [
+        "https://www.potshop.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Evanston, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.potshop.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Pieces will be fired in the regular firing rotation.",
+        "url": "https://www.potshop.com/classes",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "potshop.com"
+      }
+    },
+    {
+      "id": "city-of-evanston",
+      "org": "City of Evanston",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Evanston",
+      "city": "Evanston",
+      "urls": [
+        "https://www.cityofevanston.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Evanston, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.cityofevanston.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Pieces will be fired in the regular firing rotation.",
+        "url": "https://www.cityofevanston.org/departments/prcs/facilities/robert_crown_center/drop_in_pottery.php",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "cityofevanston.org"
+      }
+    },
+    {
+      "id": "u-of-i-extension-office",
+      "org": "U of I Extension Office",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Peoria",
+      "city": "Peoria",
+      "urls": [
+        "https://registration.extension.illinois.edu/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Peoria, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://registration.extension.illinois.edu/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "After both sessions are completed, the instructor will take the pieces to her kiln to fire them.",
+        "url": "https://registration.extension.illinois.edu/start/clay-workshop-spring-2026",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "registration.extension.illinois.edu"
+      }
+    },
+    {
+      "id": "peoria-art-guild",
+      "org": "Peoria Art Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Peoria",
+      "city": "Peoria",
+      "urls": [
+        "https://peoriaartguild.coursestorm.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Peoria, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://peoriaartguild.coursestorm.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "PAG members are welcome to come in during open studio hours and glaze their own piece.",
+        "url": "https://peoriaartguild.coursestorm.com/category/adult-classes",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "peoriaartguild.coursestorm.com"
+      }
+    },
+    {
+      "id": "three-ravens-pottery",
+      "org": "Three Ravens Pottery",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Rockford",
+      "city": "Rockford",
+      "urls": [
+        "https://threeravenspottery.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Rockford, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://threeravenspottery.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "threeravenspottery.com"
+      }
+    },
+    {
+      "id": "clayworkers-guild",
+      "org": "Clayworkers' Guild",
+      "kind": "city_arts",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood",
+        "soda",
+        "salt",
+        "pit_barrel_saggar",
+        "gas_reduction"
+      ],
+      "region": "Woodstock",
+      "city": "Woodstock",
+      "urls": [
+        "https://www.clayworkersguild.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Woodstock, Illinois",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.clayworkersguild.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "clayworkersguild.com"
+      }
     }
   ],
   "_removed": [
