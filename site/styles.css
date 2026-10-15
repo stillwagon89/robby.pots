@@ -1498,3 +1498,48 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 /* Thin line between what you can join now and everything else */
 .kf-divider { display: flex; align-items: center; gap: 10px; margin: 14px 0 12px; border-top: 1px solid var(--cobalt); position: relative; height: 0; }
 .kf-divider span { position: absolute; top: -8px; left: 0; padding: 0 8px 0 0; background: var(--paper, #fff); font-family: var(--font-mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--cobalt-muted, var(--cobalt)); }
+
+/* ---------- Phone header and nav (all pages) ----------
+   Wordmark on the left, Instagram top-right, five links spread evenly across one row
+   with a hairline underneath. Tap targets are 44px tall. */
+@media (max-width: 900px) {
+  .sidebar { position: relative; display: block; }
+  .sidebar .wordmark-lockup { font-size: 28px; margin-bottom: var(--space-md); }
+  .sidebar .site-nav-v3 {
+    flex-wrap: nowrap; justify-content: space-between; align-items: stretch;
+    gap: 0; padding-bottom: 2px; border-bottom: 1px solid var(--border);
+  }
+  .sidebar .site-nav-v3 a:not(.nav-ig) {
+    display: inline-flex; align-items: center; min-height: 44px;
+    font-family: var(--font-display); font-weight: 500; font-size: 15px; letter-spacing: -0.005em;
+    padding: 0 2px; border-bottom: 2px solid transparent; margin-bottom: -2px;
+    white-space: nowrap;
+  }
+  .sidebar .site-nav-v3 a.active { border-bottom-color: var(--cobalt-deep); }
+  .sidebar .nav-ig {
+    position: absolute; top: -4px; right: 0; width: 44px; height: 44px; justify-content: center;
+    border: 1px solid var(--border); border-radius: 50%; background: rgba(255,255,255,.7); opacity: 1;
+  }
+  .sidebar .nav-ig svg { width: 20px; height: 20px; }
+}
+@media (max-width: 360px) {
+  .sidebar .site-nav-v3 a:not(.nav-ig) { font-size: 14px; }
+}
+
+/* ---------- Phone homepage: the whole first screen fits, signup sits at the bottom ----------
+   svh = the visible height with Safari's toolbars showing, so "Notify Me" never hides below the fold. */
+@media (max-width: 900px) {
+  body.home .moonjar-bg--full { height: 100svh; }
+  body.home .moonjar-bg-wash {
+    background:
+      linear-gradient(180deg, #fff 0%, rgba(255,255,255,.9) 24%, rgba(255,255,255,0) 46%, rgba(255,255,255,0) 52%, rgba(255,255,255,.92) 78%, #fff 100%);
+  }
+  body.home .page-shell { min-height: 100svh; padding-bottom: calc(var(--space-lg) + env(safe-area-inset-bottom)); }
+  body.home .page-content { display: flex; flex-direction: column; flex: 1; }
+  body.home .hero-fullscreen { min-height: 0; flex: 1; }
+  body.home .signup-strip { max-width: none; margin: 0; }
+  body.home .signup-strip p { font-size: 15px; font-weight: 500; color: var(--cobalt-deep); }
+  body.home .waitlist-form input,
+  body.home .waitlist-form button { min-height: 48px; font-size: 16px; } /* 16px stops iOS zooming on focus */
+  body.home .form-message { min-height: 0; margin-top: var(--space-sm); }
+}
