@@ -1503,7 +1503,7 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
    Wordmark on the left, Instagram top-right, five links spread evenly across one row
    with a hairline underneath. Tap targets are 44px tall. */
 @media (max-width: 900px) {
-  .sidebar { position: relative; display: block; }
+  .sidebar { position: relative; top: auto; display: block; } /* top:auto — the desktop sticky offset would otherwise shove it 48px down over the page content */
   .sidebar .wordmark-lockup { font-size: 28px; margin-bottom: var(--space-md); }
   .sidebar .site-nav-v3 {
     flex-wrap: nowrap; justify-content: space-between; align-items: stretch;
