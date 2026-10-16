@@ -508,7 +508,11 @@ function render() {
   });
   document.getElementById("kf-radius").value = state.radius;
   document.getElementById("kf-state").value = state.st;
-  document.getElementById("kf-near-input").value = state.near ? state.near.label : "";
+  // A GPS fix shows as an empty box with a hint, so typing starts clean instead of fighting "your location".
+  const nearInput = document.getElementById("kf-near-input");
+  const usingGps = state.near && state.near.label === "your location";
+  nearInput.value = state.near && !usingGps ? state.near.label : "";
+  nearInput.placeholder = usingGps ? "Using your location" : "City or zip";
   const cards = renderList();
   renderMap(cards);
 }
@@ -584,6 +588,9 @@ function bind() {
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && state.sel) select(null, true); });
 
   const status = document.getElementById("kf-near-status");
+  // Tapping a filled box selects its text, so the first keystroke replaces it.
+  const nearEl = document.getElementById("kf-near-input");
+  nearEl.addEventListener("focus", () => setTimeout(() => nearEl.select(), 0));
   document.getElementById("kf-near").addEventListener("submit", async (e) => {
     e.preventDefault();
     const text = document.getElementById("kf-near-input").value.trim();
@@ -609,6 +616,8 @@ function bind() {
   document.getElementById("kf-state").addEventListener("change", (e) => {
     state.st = e.target.value;
     state.sel = null;
+    // Picking a state means "show me that state": drop the old Near pin so the map frames the state, not the last location.
+    if (state.st !== "all") state.near = null;
     writeUrl(false);
     render();
     fitMap();

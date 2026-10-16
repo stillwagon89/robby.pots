@@ -1427,6 +1427,11 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
   #kf-types { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-right: calc(-1 * var(--space-md)); padding-right: var(--space-md); }
   #kf-types::-webkit-scrollbar { display: none; }
   .kf-map-wrap { height: 38svh; min-height: 240px; }
+  /* 16px stops iOS Safari zooming the page when a field is focused; 44px is a comfortable tap target. */
+  .kf-input, .kf-select { font-size: 16px; min-height: 44px; }
+  .kf-locate { width: 44px; height: 44px; }
+  /* Legend: small strip along the bottom of the map so it no longer hides a third of it. */
+  .kf-legend { top: auto; right: auto; bottom: 8px; left: 8px; flex-direction: row; gap: 10px; padding: 6px 10px; font-size: 11px; }
 }
 
 /* ---------- Tools section (tools.html + sidebar sub-links) ---------- */
