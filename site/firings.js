@@ -537,6 +537,17 @@ async function geocode(text) {
   return hit ? { lat: Number(hit.lat), lng: Number(hit.lon), label: text } : null;
 }
 
+// Which state is this point in? Reverse geocode first; if that fails, take the state of the closest known place.
+async function stateAt(pt) {
+  try {
+    const res = await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=5&lat=${pt.lat}&lon=${pt.lng}`, { headers: { Accept: "application/json" } });
+    const code = ((await res.json()).address?.["ISO3166-2-lvl4"] || "").replace(/^US-/, "");
+    if (DATA.places.some((p) => p.state === code)) return code;
+  } catch {}
+  const near = DATA.places.filter((p) => typeof p.lat === "number").sort((a, b) => miles(pt, a) - miles(pt, b))[0];
+  return near ? near.state : "all";
+}
+
 function setNear(near) {
   state.near = near;
   if (near && state.radius === "all") state.radius = "60";
@@ -608,7 +619,13 @@ function bind() {
     if (!navigator.geolocation) { status.textContent = "Your browser can't share location."; return; }
     status.textContent = "Finding you…";
     navigator.geolocation.getCurrentPosition(
-      (pos) => { status.textContent = ""; setNear({ lat: pos.coords.latitude, lng: pos.coords.longitude, label: "your location" }); },
+      async (pos) => {
+        status.textContent = "";
+        const here = { lat: pos.coords.latitude, lng: pos.coords.longitude, label: "your location" };
+        state.st = await stateAt(here); // the State menu follows you too
+        state.sel = null;
+        setNear(here);
+      },
       () => { status.textContent = "Location wasn't shared. Type a city or zip instead."; },
       { timeout: 10000 }
     );
