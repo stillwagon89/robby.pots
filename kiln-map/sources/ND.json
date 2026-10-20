@@ -40,10 +40,10 @@
         "key": "inforum.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The snippets mention NDSU wood kiln firings and a wood/soda kiln workshop, but the actual page text is empty, so I cannot verify whether outsiders can publicly participate or find the location details.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information about public ceramic firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -53,7 +53,7 @@
       "lng": -96.78982,
       "located": {
         "osm": true,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -128,207 +128,10 @@
       "address": "1500 Edwards Avenue, Bismarck, ND 58506",
       "lat": 46.82125,
       "lng": -100.81692,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "msu-lifelong-learning-institute",
-      "org": "MSU Lifelong Learning Institute",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Misu",
-      "city": "Misu",
-      "urls": [
-        "https://www.misu.nodak.edu/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Misu, North Dakota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.misu.nodak.edu/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "misu.nodak.edu"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page text provided is empty; only search snippets are available, and snippets alone cannot confirm public access to firings.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-13"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "access": {
-        "status": "ongoing"
-      }
-    },
-    {
-      "id": "rising-dawn-ceramics",
-      "org": "Rising Dawn Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Fargo",
-      "city": "Fargo",
-      "urls": [
-        "https://www.risingdawnceramics.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fargo, North Dakota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.risingdawnceramics.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "risingdawnceramics.com"
-      }
-    },
-    {
-      "id": "muddy-waters-clay-center",
-      "org": "Muddy Waters Clay Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Grand Forks",
-      "city": "Grand Forks",
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Grand Forks, North Dakota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
-      }
-    },
-    {
-      "id": "minot-state-university-lifelong-learning-institu",
-      "org": "Minot State University Lifelong Learning Institute",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Minot",
-      "city": "Minot",
-      "urls": [
-        "https://www.minotstateu.edu/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Minot, North Dakota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.minotstateu.edu/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The price includes a fee for clay, glaze, and firing.",
-        "url": "https://www.minotstateu.edu/pio/news/2025/12/Minot-State-Lifelong-Learning-Institute-offers-multiple-ceramics-classes.shtml",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "minotstateu.edu"
-      }
-    },
-    {
-      "id": "montana-clay-nd",
-      "org": "Montana Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "North Dakota",
-      "city": null,
-      "urls": [
-        "https://montanaclay.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://montanaclay.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "montanaclay.org"
-      }
-    },
-    {
-      "id": "arizona-clay-association-nd",
-      "org": "Arizona Clay Association",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda",
-        "gas_reduction"
-      ],
-      "region": "North Dakota",
-      "city": null,
-      "urls": [
-        "https://www.arizonaclay.net/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.arizonaclay.net/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "arizonaclay.net"
-      }
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "southern-maine-clay-guild-nd",
@@ -357,6 +160,20 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "southernmaineclayguild.com"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The guild's events, such as the pit fire and soda firing, are explicitly restricted to members via internal communication channels like the Google Group, and there is no information provided for the general public to sign up or participate.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -456,6 +273,30 @@
     {
       "id": "mke-studio-tour",
       "why": "Second check (claude-haiku-4.5): The page mentions raku firing only as a demonstration activity during a studio tour event, not as a workshop, class, membership, rental, firing service, or open invitation for outsiders to participate in an actual firing. (2026-10-14)"
+    },
+    {
+      "id": "msu-lifelong-learning-institute",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not contain any information about public access to non-electric firings. (2026-10-19)"
+    },
+    {
+      "id": "rising-dawn-ceramics",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firing types such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "muddy-waters-clay-center",
+      "why": "Second check (gemma-4-31b-it): The text describes an educational resource and reference library for glaze chemistry and does not offer public non-electric firing services. (2026-10-19)"
+    },
+    {
+      "id": "minot-state-university-lifelong-learning-institu",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not contain information about specific non-electric firing methods or how the public can participate in such firings. (2026-10-19)"
+    },
+    {
+      "id": "montana-clay-nd",
+      "why": "Second check (gemini-3.5-flash-lite): The text is a directory of ceramic artists, organizations, and schools in Montana and does not offer any public firings directly. (2026-10-19)"
+    },
+    {
+      "id": "arizona-clay-association-nd",
+      "why": "Second check (gemma-4-31b-it): The text mentions a presentation about a soda kiln conversion but does not offer any non-electric firing services, classes, or workshops for the public to participate in. (2026-10-19)"
     }
   ]
 }

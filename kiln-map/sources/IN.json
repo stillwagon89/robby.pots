@@ -130,10 +130,10 @@
         "key": "amphoraceramicstudio.kilnfire.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "unclear",
-        "why": "The page text shows only a login screen with no information about firings, access, location, or workshop details.",
+        "why": "The page text only mentions a Raku Firing Workshop in the title but does not contain enough text to confirm outsider access or provide a direct quote for participation.",
         "types": {},
         "state": "",
         "town": ""
@@ -141,7 +141,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -210,10 +210,10 @@
       "address": "820 E 67th St., Indianapolis, IN 46220",
       "lat": 39.87778,
       "lng": -86.14367,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "northern-indiana-clay-alliance",
@@ -276,10 +276,10 @@
       "address_found": "118 South Main Street, Suite 2, Goshen, IN",
       "lat": 41.58586,
       "lng": -85.83438,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "greater-lafayette-clay-guild",
@@ -320,10 +320,10 @@
         "key": "greaterlafayetteclayguild.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The pit firing event page explicitly invites outsiders to participate by clicking a link to sign up, with information sent by email on how to attend.",
+        "why": "The guild provides an open invitation for the public to participate in a pit firing event by clicking a link to sign up.",
         "types": {},
         "state": "IN",
         "town": "Lafayette"
@@ -333,7 +333,7 @@
         "town": "Lafayette",
         "score": 3,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "weak": true,
       "agree": {
@@ -345,57 +345,6 @@
       "address": "619 Ferry Street, Lafayette, IN",
       "lat": 40.41997,
       "lng": -86.89032
-    },
-    {
-      "id": "playin-with-fire-studios",
-      "org": "Playin' with Fire studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://www.simpletix.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.simpletix.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "simpletix.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page text is from SimpleTix, a ticketing platform website, not from Playin' with Fire studios; it contains no information about ceramic firings, workshops, or how to participate in any firing events.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "agree-yes",
-        "date": "2026-10-08"
-      },
-      "weak": true,
-      "access": {
-        "status": "upcoming"
-      }
     },
     {
       "id": "fire-arts-inc-in",
@@ -458,10 +407,10 @@
       "address": "305 E. Colfax Ave., South Bend, IN 46617",
       "lat": 41.67779,
       "lng": -86.24516,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "lala-gallery",
@@ -533,80 +482,10 @@
       "address": "1816 Main Street, Lafayette, IN 47904",
       "lat": 40.4152,
       "lng": -86.87608,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "truro-center-for-the-arts-at-castle-hill",
-      "org": "Truro Center for the Arts at Castle Hill",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda"
-      ],
-      "region": "New Harmony",
-      "city": "New Harmony",
-      "urls": [
-        "https://nhclayproject.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://nhclayproject.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Whether you are an experienced potter or have never handled clay, we have a workshop for you!",
-        "url": "https://nhclayproject.org/the-residency",
-        "types": [
-          "soda",
-          "wood",
-          "raku"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "nhclayproject.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page describes classes and private events involving clay work (wheel throwing, hand-building) with firing mentioned only as a finishing service (trim, glaze and fire), but provides no information about public access to non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
-        "types": {},
-        "state": "IN",
-        "town": "New Harmony",
-        "street": "402 North Street"
-      },
-      "weak": true,
-      "located": {
-        "state": "IN",
-        "town": "New Harmony",
-        "score": 16,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "no",
-        "result": "split",
-        "date": "2026-10-07"
-      },
-      "address": "402 North Street, New Harmony, IN 47631",
-      "lat": 38.13129,
-      "lng": -87.93643
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "fortwayneclay",
@@ -647,10 +526,10 @@
         "key": "fortwayneclay.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The Raku Firing page explicitly states 'Anyone can participate' and describes how outsiders can bring their own pots or buy and glaze one to participate in the raku firing event.",
+        "why": "The studio explicitly states that anyone can participate in their Raku firing events.",
         "types": {},
         "state": "IN",
         "town": "Fort Wayne",
@@ -659,7 +538,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -677,11 +556,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
+        "raku"
       ],
       "region": "Indianapolis",
       "city": "Indianapolis",
@@ -699,242 +574,41 @@
         "how": "Firing service",
         "note": "Firing service",
         "quote": "We provide open studio days to the public, firing services, 6 week classes, one day workshops, and memberships for potters with home studios and those looking for a studio to work out of.",
-        "url": "https://alleycatceramics.com/",
-        "types": [],
+        "url": "https://alleycatceramics.com/classes",
+        "types": [
+          "raku"
+        ],
         "checked": "2026-10-14"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "alleycatceramics.com"
-      }
-    },
-    {
-      "id": "clay-art-space-in",
-      "org": "Clay Art Space",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://www.clayartspace.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.clayartspace.com/"
       },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
-        "url": "https://www.clayartspace.com/kiln-firing.html",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 39.76833,
+      "lng": -86.15835,
+      "weak": false,
+      "located": {
+        "state": "IN",
+        "town": "Indianapolis",
+        "score": 9,
+        "osm": true,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "clayartspace.com"
-      }
-    },
-    {
-      "id": "smoke-in-the-mountains-pottery-in",
-      "org": "Smoke in the Mountains Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://smokeinthemountainspottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://smokeinthemountainspottery.com/"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The studio offers a public raku workshop where outsiders can sign up and participate.",
+        "types": {
+          "raku": "Raku workshop with Christian Casas/ October 3rd 9am-2pm"
+        },
+        "state": "IN",
+        "town": "Indianapolis",
+        "street": "2209 E Michigan St"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The kiln can hold over 700 pots, most of which will be brought by potters and students in the region, who along with other volunteers, will work in shifts, day and night, to feed the fire they hope will produce the signature markings that only a real wood fired kiln can make.",
-        "url": "https://smokeinthemountainspottery.com/wood-firing/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "smokeinthemountainspottery.com"
-      }
-    },
-    {
-      "id": "the-pottery-house-studio",
-      "org": "The Pottery House Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Bloomington",
-      "city": "Bloomington",
-      "urls": [
-        "https://www.potteryhousestudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bloomington, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.potteryhousestudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We’ll fire your piece in our kiln and let you know when it’s ready to pick up!",
-        "url": "http://www.potteryhousestudio.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "potteryhousestudio.com"
-      }
-    },
-    {
-      "id": "two-women-and-a-wheel",
-      "org": "Two Women and a Wheel",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Fort Wayne",
-      "city": "Fort Wayne",
-      "urls": [
-        "https://twowomenandawheel.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fort Wayne, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://twowomenandawheel.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Between markets and firings, we open the studio to small groups who want to slow down and make something with their hands.",
-        "url": "https://twowomenandawheel.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "twowomenandawheel.com"
-      }
-    },
-    {
-      "id": "southbendart",
-      "org": "southbendart",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Indiana",
-      "city": null,
-      "urls": [
-        "https://southbendart.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://southbendart.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "southbendart.org"
-      }
-    },
-    {
-      "id": "art-museum-of-greater-lafayette",
-      "org": "Art Museum of Greater Lafayette",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Lafayette",
-      "city": "Lafayette",
-      "urls": [
-        "https://www.artlafayette.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lafayette, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.artlafayette.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Independent Study gives adult students with advanced clay skills access to the Art Museum Pottery Studio twice a week.",
-        "url": "https://www.artlafayette.org/classes/p/clay",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "artlafayette.org"
-      }
-    },
-    {
-      "id": "clay-knob-farm",
-      "org": "Clay Knob Farm",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Lafayette",
-      "city": "Lafayette",
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lafayette, Indiana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
-      }
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "community-learning-center",
@@ -967,6 +641,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "thecommunitylearningcenter.org"
+      },
+      "lat": 41.44144,
+      "lng": -85.26498,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about specific non-electric ceramic firings or public access to them.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -1050,6 +740,42 @@
     {
       "id": "creative-hands-studio",
       "why": "Its own pages give an address in WA (Bothell), not IN. Moved. (2026-10-09)"
+    },
+    {
+      "id": "clay-art-space-in",
+      "why": "Its own pages give an address in AK (Anchorage), not IN. Moved. (2026-10-19)"
+    },
+    {
+      "id": "smoke-in-the-mountains-pottery-in",
+      "why": "Its own pages give an address in NC (Brasstown), not IN. Moved. (2026-10-19)"
+    },
+    {
+      "id": "playin-with-fire-studios",
+      "why": "Second check (gemini-3.5-flash-lite): The provided text only contains generic platform information for SimpleTix and does not contain any details or event listings for Playin' with Fire studios. (2026-10-19)"
+    },
+    {
+      "id": "truro-center-for-the-arts-at-castle-hill",
+      "why": "Second check (gemma-4-26b-a4b-it): The text mentions firing services for classes and private events but does not mention any specific non-electric firing types. (2026-10-19)"
+    },
+    {
+      "id": "the-pottery-house-studio",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions the use of kilns for standard firing processes and does not offer any non-electric firing methods such as raku, wood, soda, salt, or pit/barrel/saggar firing. (2026-10-19)"
+    },
+    {
+      "id": "two-women-and-a-wheel",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions generic kiln firing without specifying any non-electric firing methods like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "southbendart",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions general studio classes but does not specify that any non-electric firing techniques are available to the public. (2026-10-19)"
+    },
+    {
+      "id": "art-museum-of-greater-lafayette",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions pottery classes and independent study, but does not state that any non-electric ceramic firings (such as raku, wood, or soda) take place or are available to the public. (2026-10-19)"
+    },
+    {
+      "id": "clay-knob-farm",
+      "why": "Second check (gemini-3.1-flash-lite): The website is an educational and research platform for glaze chemistry and does not offer public access to firing services or workshops for non-electric firings. (2026-10-19)"
     }
   ]
 }

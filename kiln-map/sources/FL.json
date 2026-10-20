@@ -89,10 +89,10 @@
       "address": "1904 Debarry Avenue, Orange Park, FL 32073",
       "lat": 30.16625,
       "lng": -81.72095,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "the-clay-co-op",
@@ -155,10 +155,10 @@
       "address": "2724 6th Ave S, St. Petersburg, FL 33712",
       "lat": 27.76451,
       "lng": -82.67054,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "atlantic-beach-arts-market",
@@ -221,10 +221,10 @@
       "address": "1805 Mayport Road, Atlantic Beach, FL 32233",
       "lat": 30.3377,
       "lng": -81.41348,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "eat-your-yard-jax",
@@ -347,10 +347,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "lemoyne-arts",
@@ -542,10 +542,10 @@
       "address_found": "39 Masters Drive STE 1, Saint Augustine, FL 32084",
       "lat": 30.02084,
       "lng": -81.51365,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "sarasota-clay-company",
@@ -605,10 +605,10 @@
       "address": "1733 Northgate Blvd, Sarasota, FL 34234",
       "lat": 27.37328,
       "lng": -82.53554,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "armory-art-center",
@@ -642,7 +642,7 @@
         "checked": "2026-10-06",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -651,26 +651,29 @@
       "lat": 26.71536,
       "lng": -80.05329,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "Search snippets mention 'Raku and Alternative Firing Techniques' class but the actual page text is empty, so I cannot verify the details or confirm public access.",
-        "types": {},
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text explicitly lists a class to register for Raku and Alternative Firing Techniques.",
+        "types": {
+          "raku": "Register Raku and Alternative Firing Techniques CeramicsOn-site."
+        },
         "state": "FL",
         "town": "West Palm Beach",
         "street": "811 Park Place"
       },
-      "weak": true,
+      "weak": false,
       "located": {
-        "osm": false,
-        "date": "2026-10-09"
+        "osm": true,
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "first-city-art-center",
@@ -730,10 +733,10 @@
       "address": "1060 N. Guillemard St., Pensacola, FL",
       "lat": 30.42404,
       "lng": -87.21638,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "richard-rosen-s-studio",
@@ -851,10 +854,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "smith-works-studios",
@@ -920,10 +923,10 @@
       "address": "24 Grove Ave, Saint Augustine, FL",
       "lat": 29.89994,
       "lng": -81.31693,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "morean-center-for-clay",
@@ -1084,10 +1087,10 @@
         "key": "seagrasspottery.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page advertises a soda firing workshop open to the public for $175, scheduled for May 6th in Melbourne, Florida.",
+        "why": "The site offers a soda firing workshop that is open for registration.",
         "types": {},
         "state": "FL",
         "town": "Melbourne"
@@ -1095,7 +1098,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1170,10 +1173,10 @@
       "address": "2025 3rd Avenue South, St. Petersburg, FL 33712",
       "lat": 27.7685,
       "lng": -82.66084,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "element-art-center-fl",
@@ -1214,19 +1217,17 @@
         "key": "elementartcenter.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The page describes a Beach Pit Firing Course but does not provide clear information about how to sign up, book, or join (no registration link, pricing, dates, or contact instructions visible in the provided text).",
-        "types": {
-          "pit_barrel_saggar": "Students can join us at the upcoming Beach Pit Firing Course by EAC."
-        },
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no details or sentences showing outsiders can take part in a firing.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1475,10 +1476,10 @@
         "key": "ballingerpublishing.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "No page text provided to verify public access to non-electric ceramic firings.",
+        "why": "The provided page text is empty and contains no information about firing services or public access.",
         "types": {},
         "state": "",
         "town": ""
@@ -1486,7 +1487,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1562,10 +1563,10 @@
       "address": "120 W. Gasparilla Plaza, Tampa, FL 33602",
       "lat": 27.94947,
       "lng": -82.46236,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "queen-city-clay",
@@ -1606,19 +1607,17 @@
         "key": "queen-city-clay-623736.shoplightspeed.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page text includes a Wood Firing Workshops 2026 section that explicitly describes how outsiders can participate in wood firing by reserving kiln space and paying a workshop fee.",
-        "types": {
-          "wood": "Learn to wood fire at Queen City Clay! Glazing and wadding will take place from 9-1 on Friday. Loading will take place from 1-5. The kiln will be lit Friday evening and fire through early Sunday morning. Unload will be Monday evening with a pot luck at the kiln. All work must be cone 10 clay! Partic"
-        },
+        "why": "The text shows that outsiders can participate in wood firings through workshops where workshop fees and registration are available.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1667,10 +1666,10 @@
         "key": "lukeiannuzzipottery.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page lists bookable raku workshops and private raku firing workshops open to the public with pricing and booking options.",
+        "why": "The site offers bookable Raku workshops and private Raku firing workshops for the public.",
         "types": {
           "raku": "2026 Raku Workshops"
         },
@@ -1679,7 +1678,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1738,7 +1737,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1792,7 +1791,7 @@
         "town": "Brooksville",
         "score": 2,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1807,51 +1806,13 @@
       "lng": -82.38787
     },
     {
-      "id": "munson",
-      "org": "Munson",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "salt"
-      ],
-      "region": "Florida",
-      "city": null,
-      "urls": [
-        "https://www.munson.art/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.munson.art/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Saturdays, 9 a.m. - 5 p.m. | 7/20 - 8/10",
-        "url": "https://www.munson.art/product/32608",
-        "types": [
-          "salt"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "munson.art"
-      }
-    },
-    {
       "id": "tallahassee-clay-arts",
       "org": "Tallahassee Clay Arts",
       "kind": "city_arts",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "other"
+        "pit_barrel_saggar"
       ],
       "region": "Tallahassee",
       "city": "Tallahassee",
@@ -1870,238 +1831,7 @@
         "note": "Classes or membership",
         "quote": "Tallahassee Clay Arts is a welcoming pottery studio in Tallahassee, Florida offering adult pottery classes, studio access for experienced potters, and kiln firing services.",
         "url": "https://www.tallyclayarts.com",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "tallyclayarts.com"
-      }
-    },
-    {
-      "id": "jacksonville-pottery-studio",
-      "org": "Jacksonville Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Jacksonville",
-      "city": "Jacksonville",
-      "urls": [
-        "https://jaxpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Jacksonville, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://jaxpottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Studio also offers firing for items made outside of the studio. Our firing membership is a charge of $150/month, which covers 30 days of unlimited firings. One time firings are $2.00 per lb of work for bisque and glaze firing.",
-        "url": "https://jaxpottery.com/restaurant-pacific",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "jaxpottery.com"
-      }
-    },
-    {
-      "id": "the-art-house",
-      "org": "The Art House",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "St. Augustine",
-      "city": "St. Augustine",
-      "urls": [
-        "https://www.floridashistoriccoast.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Augustine, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.floridashistoriccoast.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Art House in St. Augustine Beach is a vibrant studio offering workshops and classes for all ages.",
-        "url": "https://www.floridashistoriccoast.com/directory/the-art-house",
         "types": [
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "floridashistoriccoast.com"
-      }
-    },
-    {
-      "id": "floridian-ceramics",
-      "org": "Floridian Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Tampa",
-      "city": "Tampa",
-      "urls": [
-        "https://www.floridianceramics.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tampa, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.floridianceramics.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "floridianceramics.com"
-      }
-    },
-    {
-      "id": "pottery-by-osa",
-      "org": "Pottery by Osa",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Sarasota",
-      "city": "Sarasota",
-      "urls": [
-        "https://potterybyosa.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Sarasota, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://potterybyosa.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "In this workshop, I will explain exactly how to take advantage of the therapeutic benefits of working with clay, but at minimal cost.",
-        "url": "https://potterybyosa.com/pages/classes",
-        "types": [
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "potterybyosa.com"
-      }
-    },
-    {
-      "id": "the-ceramic-garden",
-      "org": "The Ceramic Garden",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Lutz",
-      "city": "Lutz",
-      "urls": [
-        "https://theceramicgarden.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lutz, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://theceramicgarden.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "All our classes include unlimited clay, materials, glazes, and firings!",
-        "url": "https://theceramicgarden.com",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "theceramicgarden.com"
-      }
-    },
-    {
-      "id": "clay-center-of-st-petersburg-fl",
-      "org": "Clay Center of St. Petersburg",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "St. Petersburg",
-      "city": "St. Petersburg",
-      "urls": [
-        "https://www.claycenterofstpetersburg.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Petersburg, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.claycenterofstpetersburg.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Join with a studio membership for round-the-clock access to premium facilities amidst a collaborative setting equipped with kilns and an array of glazes.",
-        "url": "https://www.claycenterofstpetersburg.com",
-        "types": [
-          "wood",
-          "gas_reduction",
-          "soda",
-          "salt",
           "pit_barrel_saggar"
         ],
         "checked": "2026-10-14"
@@ -2110,400 +1840,26 @@
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-14",
-        "key": "claycenterofstpetersburg.com"
-      }
-    },
-    {
-      "id": "mcs-clay-studios",
-      "org": "MCS Clay Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Clearwater",
-      "city": "Clearwater",
-      "urls": [
-        "https://mcsclaystudios.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Clearwater, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://mcsclaystudios.com/"
+        "key": "tallyclayarts.com"
       },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "Firing fees and glaze fees will be charged for pieces made outside the studio and brought in by students).",
-        "url": "https://mcsclaystudios.com/classes/",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
+      "lat": 30.43808,
+      "lng": -84.28093,
+      "weak": false,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "mcsclaystudios.com"
-      }
-    },
-    {
-      "id": "pottery-studio-in-miami",
-      "org": "Pottery Studio in Miami",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Miami",
-      "city": "Miami",
-      "urls": [
-        "https://pottery-miami.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Miami, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://pottery-miami.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "pottery-miami.com"
-      }
-    },
-    {
-      "id": "pottery-studio-1",
-      "org": "Pottery Studio 1",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Fort Lauderdale",
-      "city": "Fort Lauderdale",
-      "urls": [
-        "https://fortlauderdale.pottery1.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fort Lauderdale, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://fortlauderdale.pottery1.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "Each class provides all necessary materials, including a potter's wheel, clay, tools, and firings.",
-        "url": "https://fortlauderdale.pottery1.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "fortlauderdale.pottery1.com"
-      }
-    },
-    {
-      "id": "gasper-arts-center",
-      "org": "Gasper Arts Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Dania Beach",
-      "city": "Dania Beach",
-      "urls": [
-        "https://www.gasperarts.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Dania Beach, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.gasperarts.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Beginner wheel classes, mosaics and four-week courses in a working ceramics studio and gallery. No experience needed — clay, tools, glazing and both firings are included in the price.",
-        "url": "https://www.gasperarts.com",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "gasperarts.com"
-      }
-    },
-    {
-      "id": "studio-tm-ceramics",
-      "org": "Studio Tm Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Gainesville",
-      "city": "Gainesville",
-      "urls": [
-        "https://www.studiotmceramics.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Gainesville, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.studiotmceramics.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "This two day hands on workshop includes use of all materials, firings, and provides lunch for participating artists both days.",
-        "url": "https://www.studiotmceramics.com",
-        "types": [
-          "wood",
-          "raku",
-          "soda",
-          "salt",
-          "pit_barrel_saggar",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "studiotmceramics.com"
-      }
-    },
-    {
-      "id": "the-craft-gallery",
-      "org": "The Craft Gallery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "West Palm Beach",
-      "city": "West Palm Beach",
-      "urls": [
-        "https://thecraftgallery.square.site/"
-      ],
-      "notes": "By appointment. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "West Palm Beach, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://thecraftgallery.square.site/"
-      },
-      "access": {
-        "how": "By appointment",
-        "note": "By appointment",
-        "quote": "have your pottery fired in our kiln for a nominal fee",
-        "url": "https://thecraftgallery.square.site",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "thecraftgallery.square.site"
-      }
-    },
-    {
-      "id": "studio-t-m-ceramics",
-      "org": "Studio T/M Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Gainesville",
-      "city": "Gainesville",
-      "urls": [
-        "https://marketspread.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Gainesville, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://marketspread.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Studio T/M Pottery and Clay is a local family owned ceramic studio that offers weekly classes, membership, private studios, Sip n’ Spins, team building events, workshops, private lessons, clay and tool sales, equipment repair and kiln firing services for the greater Gainesville creative community.",
-        "url": "https://marketspread.com/vendor/215034/studio-tm-ceramics",
-        "types": [
-          "wood",
-          "gas_reduction",
-          "soda",
-          "salt",
-          "pit_barrel_saggar",
-          "raku"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "marketspread.com"
-      }
-    },
-    {
-      "id": "studio-t-m",
-      "org": "Studio T/M",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Gainesville",
-      "city": "Gainesville",
-      "urls": [
-        "https://www.alligator.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Gainesville, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.alligator.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The studio provides clay, tools, materials, studio memberships, pottery classes, themed events, kiln firings and repairs.",
-        "url": "https://www.alligator.org/article/2024/10/studio-tm-gainesville-ceramics-studio",
-        "types": [
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "alligator.org"
-      }
-    },
-    {
-      "id": "house-of-clay-fl",
-      "org": "House of Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Satellite Beach",
-      "city": "Satellite Beach",
-      "urls": [
-        "https://www.houseofclayfl.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Satellite Beach, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.houseofclayfl.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "From wheel throwing to hand building, glazing, and firing, our experienced instructors are here to guide and inspire every step of the way.",
-        "url": "https://www.houseofclayfl.com",
-        "types": [
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "houseofclayfl.com"
-      }
-    },
-    {
-      "id": "firehouse-cultural-center",
-      "org": "Firehouse Cultural Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Ruskin",
-      "city": "Ruskin",
-      "urls": [
-        "https://firehouseculturalcenter.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Ruskin, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://firehouseculturalcenter.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "All materials and firing costs are included.",
-        "url": "https://firehouseculturalcenter.org/adult-pottery",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "firehouseculturalcenter.org"
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The studio offers a public workshop for saggar firing that outsiders can sign up for.",
+        "types": {
+          "pit_barrel_saggar": "Saggar Firing Workshop"
+        },
+        "state": "FL",
+        "town": "Tallahassee",
+        "street": "1816 Mahan Drive"
       }
     },
     {
@@ -2542,113 +1898,83 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "countrysideceramics.com"
+      },
+      "lat": 30.59609,
+      "lng": -87.0929,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
-      "id": "hands-on-clay",
-      "org": "Hands On Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Fort Myers",
-      "city": "Fort Myers",
-      "urls": [
-        "https://kilnfire.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fort Myers, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://kilnfire.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Kiln Fire is new kind of software specifically designed for pottery studios to manage firing fees, memberships, supply purchases, classes, and more.",
-        "url": "https://kilnfire.com/pottery-classes/jacksonville",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "kilnfire.com"
-      }
-    },
-    {
-      "id": "mandy-miles-studios",
-      "org": "Mandy Miles Studios",
+      "id": "anhinga-clay-studios-co",
+      "org": "Anhinga Clay Studios",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "other"
+        "gas_reduction"
       ],
-      "region": "Daytona Beach",
-      "city": "Daytona Beach",
+      "region": "Miami",
+      "city": "Miami",
       "urls": [
-        "https://mandymilesstudios.com/"
+        "https://anhingaclaystudios.com/"
       ],
-      "notes": "By appointment. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Daytona Beach, Florida",
-      "location_note": "Shown at the town.",
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
-        "website": "https://mandymilesstudios.com/"
+        "website": "https://anhingaclaystudios.com/"
       },
       "access": {
-        "how": "By appointment",
-        "note": "By appointment",
-        "quote": "Rent space for bisque and/or glaze firing in the Central Florida area.",
-        "url": "https://mandymilesstudios.com",
-        "types": [],
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "Saturday, March 28 10am -5pm",
+        "url": "https://anhingaclaystudios.com/lisa-zolandz-workshop-the-magic-and-chemistry-of-in-glaze-lusters/",
+        "types": [
+          "gas_reduction"
+        ],
         "checked": "2026-10-14"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-14",
-        "key": "mandymilesstudios.com"
-      }
-    },
-    {
-      "id": "potteryflaglerbeach",
-      "org": "potteryflaglerbeach",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Flagler Beach",
-      "city": "Flagler Beach",
-      "urls": [
-        "https://potteryflaglerbeach.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Flagler Beach, Florida",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://potteryflaglerbeach.com/"
+        "key": "anhingaclaystudios.com"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Clay is $50.00 for 25 pounds of clay. This includes firing and glaze.",
-        "url": "https://potteryflaglerbeach.com",
-        "types": [],
-        "checked": "2026-10-14"
+      "weak": false,
+      "located": {
+        "state": "FL",
+        "town": "Miami",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "potteryflaglerbeach.com"
-      }
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text shows that outsiders can sign up for a workshop where pieces are reduction fired in a gas kiln.",
+        "types": {
+          "gas_reduction": "In this 3 day workshop, participants will glaze their own bisque ware that we will fire in the gas kiln with a reduction cooling."
+        },
+        "state": "FL",
+        "town": "Miami",
+        "street": "4600 SW 75 Ave, Unit C"
+      },
+      "address": "4600 SW 75 Ave, Unit C, Miami, FL 33155",
+      "auto_approved": "2026-10-20"
     }
   ],
   "_removed": [
@@ -2763,6 +2089,86 @@
     {
       "id": "josephy",
       "why": "Second check (claude-haiku-4.5): page says state is OR, not FL (2026-10-09)"
+    },
+    {
+      "id": "munson",
+      "why": "Second check (gemini-3.5-flash-lite): page says state is N.Y., not FL (2026-10-19)"
+    },
+    {
+      "id": "jacksonville-pottery-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions standard bisque and glaze firings (which use electric kilns) and does not offer any non-electric ceramic firings such as raku, wood, soda, salt, or pit firing. (2026-10-19)"
+    },
+    {
+      "id": "the-art-house",
+      "why": "Second check (gemma-4-31b-it): The text mentions pottery wheel throwing, hand-building, and pottery painting, but does not mention any non-electric firing types. (2026-10-19)"
+    },
+    {
+      "id": "floridian-ceramics",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firing methods such as raku, wood, soda, salt, pit, or gas reduction. (2026-10-19)"
+    },
+    {
+      "id": "pottery-by-osa",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions classes and workshops, but none of them offer public access to non-electric firing techniques like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "the-ceramic-garden",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions standard studio firings and pottery painting without any mention of specialized non-electric ceramic firings such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "clay-center-of-st-petersburg-fl",
+      "why": "Second check (gemma-4-31b-it): The text mentions kilns but does not specify any non-electric firing types such as raku, wood, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "mcs-clay-studios",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not mention any non-electric firing techniques such as raku, wood, soda, salt, or pit/barrel/saggar firing. (2026-10-19)"
+    },
+    {
+      "id": "pottery-studio-in-miami",
+      "why": "Second check (gemini-3.5-flash-lite): The text discusses pottery classes and firings, but does not mention any specific non-electric ceramic firing types such as raku, wood/anagama, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "pottery-studio-1",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions that products are fired after classes, but does not specify the type of kiln or firing process used, and there is no mention of any non-electric firing techniques. (2026-10-19)"
+    },
+    {
+      "id": "gasper-arts-center",
+      "why": "Second check (gemma-4-31b-it): The text mentions kiln firings for pottery classes but does not specify any non-electric firing types such as raku, wood, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "studio-tm-ceramics",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions kiln firing for bisque, low-fire glaze, and mid-range glaze, but does not offer any non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "the-craft-gallery",
+      "why": "Second check (gemma-4-31b-it): The text mentions a firing service but does not specify the type of kiln or any non-electric firing methods. (2026-10-19)"
+    },
+    {
+      "id": "studio-t-m-ceramics",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions that the studio offers kiln firing services, but it does not specify that these services include any non-electric firing techniques such as raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "studio-t-m",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text does not contain any details about specific non-electric firing types available to the public. (2026-10-19)"
+    },
+    {
+      "id": "house-of-clay-fl",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions general 'firings' and 'bisque and glaze firings' without specifying that they are non-electric (such as raku, wood, soda, salt, pit, or gas-reduction). (2026-10-19)"
+    },
+    {
+      "id": "firehouse-cultural-center",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firing types such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "hands-on-clay",
+      "why": "Second check (gemini-3.1-flash-lite): The website is for pottery studio management software and a directory of studios, not a studio itself that offers non-electric firing services to the public. (2026-10-19)"
+    },
+    {
+      "id": "mandy-miles-studios",
+      "why": "Second check (gemma-4-31b-it): The text only mentions bisque and glaze firings, and references to 'elements' and a 'control box' indicate an electric kiln. (2026-10-19)"
+    },
+    {
+      "id": "potteryflaglerbeach",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions firing services as part of studio rental and classes, but it does not specify the type of kiln or firing process used, and there is no mention of non-electric firing techniques like raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
     }
   ]
 }

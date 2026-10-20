@@ -87,17 +87,17 @@
         "key": "claycompany.kilnfire.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippets describe a Red Hot Raku Workshop but the page text provided contains only a login form with no location details, address, or state information.",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The provided snippets describe a Raku workshop that is open to beginners and experienced ceramicists.",
         "types": {},
         "state": "",
         "town": ""
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -138,10 +138,10 @@
         "key": "tickettailor.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemma-4-31b-it",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "The page text is from Ticket Tailor, a ticketing platform website, not from TinkerMills Muddy Makers Pottery Studio itself; it contains no information about the pottery studio's location, address, or firing workshops.",
+        "why": "The provided text is for a ticketing platform and contains no information about the specific pottery studio or its firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -149,7 +149,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -159,67 +159,6 @@
       },
       "access": {
         "status": "ongoing"
-      }
-    },
-    {
-      "id": "chicago-kiln-service",
-      "org": "Chicago Kiln Service",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Chicago",
-      "city": "Chicago",
-      "urls": [
-        "https://www.chicagokilnservice.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Chicago, Illinois",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.chicagokilnservice.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "High School Raku at our working artist studio ...",
-        "url": "https://www.chicagokilnservice.com/raku-workshops",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "chicagokilnservice.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The snippets mention 'High School Raku' and 'Winter/spring 2025 workshops and classes' but do not provide enough detail to confirm outsiders can participate in a non-electric ceramic firing.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "lat": 41.87556,
-      "lng": -87.62442,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-07"
       }
     },
     {
@@ -358,10 +297,10 @@
       "address": "900 South Race St., Urbana, IL",
       "lat": 40.10539,
       "lng": -88.20936,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "wheel-art-pottery-studios",
@@ -423,10 +362,10 @@
       "address": "1101 SW Washington St., Peoria, IL 61602",
       "lat": 40.68305,
       "lng": -89.60096,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "omniform1",
@@ -467,17 +406,17 @@
         "key": "omniform1.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet shows a raku firing experience available for booking, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The site offers a Raku Firing Experience that guests can book in advance.",
         "types": {},
         "state": "",
         "town": ""
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -526,18 +465,20 @@
         "key": "spindriftstudio.art"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet describes raku firing access for private parties, but the page text provided is empty, so I cannot verify the location details or confirm public booking procedures from the actual page.",
-        "types": {},
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text offers private parties where participants can experience the entire Raku firing process.",
+        "types": {
+          "raku": "You then can come in and glaze it using our special Raku glazes then experience the entire firing process as we fire your pieces in the Raku kiln."
+        },
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -617,59 +558,6 @@
       "approved": "2026-10-15"
     },
     {
-      "id": "distinguished-teaching",
-      "org": "Distinguished Teaching",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Chicago",
-      "city": "Chicago",
-      "urls": [
-        "https://distinguishedteaching.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://distinguishedteaching.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "distinguishedteaching.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-07",
-        "verdict": "unclear",
-        "why": "The text mentions a soda kiln and describes pottery instruction, but does not explicitly state that public outsiders can book, sign up for, or participate in an actual firing event.",
-        "types": {
-          "soda": "how to apply them to achieve color in the soda kiln."
-        },
-        "state": "VT",
-        "town": "Burlington"
-      },
-      "weak": true,
-      "located": {
-        "state": "IL",
-        "town": "Chicago",
-        "score": 203,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "access": {
-        "status": "ongoing"
-      },
-      "address": "4717 N Lincoln Ave, Chicago, IL",
-      "lat": 41.96737,
-      "lng": -87.68719
-    },
-    {
       "id": "common-clay-space-miki-shim",
       "org": "Common Clay Space (Miki Shim)",
       "kind": "studio",
@@ -733,186 +621,10 @@
       "address_found": "1418 S. Rocky Hill Rd., Galena, IL",
       "lat": 42.41573,
       "lng": -90.42947,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "yu-tang-ceramics-il",
-      "org": "Yu Tang Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Illinois",
-      "city": null,
-      "urls": [
-        "https://www.yutangceramics.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.yutangceramics.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "yutangceramics.com"
-      }
-    },
-    {
-      "id": "inferno-clay-studio-nfp",
-      "org": "Inferno Clay Studio NFP",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Rockford",
-      "city": "Rockford",
-      "urls": [
-        "https://www.artsforeveryone.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Rockford, Illinois",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.artsforeveryone.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "Inferno Clay Studio is a non-profit, cooperative ceramic artist studio with classes for the community and kiln services.",
-        "url": "https://www.artsforeveryone.com/artist/inferno-clay-studio-nfp/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "artsforeveryone.com"
-      }
-    },
-    {
-      "id": "the-digs-chicago",
-      "org": "The Digs Chicago",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Chicago",
-      "city": "Chicago",
-      "urls": [
-        "https://www.thedigschicago.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Chicago, Illinois",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.thedigschicago.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Included in Membership: 24/7 Studio Access Free Kiln Firing Ability to Schedule Personal Kilns",
-        "url": "https://www.thedigschicago.com/membership",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "thedigschicago.com"
-      }
-    },
-    {
-      "id": "alley-cat-studios",
-      "org": "Alley Cat Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Evanston",
-      "city": "Evanston",
-      "urls": [
-        "https://alleycatstudios.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Evanston, Illinois",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://alleycatstudios.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Alley Cat Studios has several weekly pottery classes or open studio formats to choose from.",
-        "url": "https://alleycatstudios.org/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "alleycatstudios.org"
-      }
-    },
-    {
-      "id": "the-pot-shop",
-      "org": "The Pot Shop",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Evanston",
-      "city": "Evanston",
-      "urls": [
-        "https://www.potshop.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Evanston, Illinois",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.potshop.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Pieces will be fired in the regular firing rotation.",
-        "url": "https://www.potshop.com/classes",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "potshop.com"
-      }
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "city-of-evanston",
@@ -927,9 +639,9 @@
         "https://www.cityofevanston.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Evanston, Illinois",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.cityofevanston.org/"
       },
@@ -946,7 +658,27 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "cityofevanston.org"
-      }
+      },
+      "weak": true,
+      "located": {
+        "state": "IL",
+        "town": "Evanston",
+        "score": 14,
+        "osm": true,
+        "date": "2026-10-19"
+      },
+      "address": "909 Davis Street, Evanston, IL 60201",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text contains no information about non-electric ceramic firings such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction.",
+        "types": {},
+        "state": "IL",
+        "town": "Evanston"
+      },
+      "lat": 42.04793,
+      "lng": -87.68412
     },
     {
       "id": "u-of-i-extension-office",
@@ -980,66 +712,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "registration.extension.illinois.edu"
-      }
-    },
-    {
-      "id": "peoria-art-guild",
-      "org": "Peoria Art Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Peoria",
-      "city": "Peoria",
-      "urls": [
-        "https://peoriaartguild.coursestorm.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Peoria, Illinois",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://peoriaartguild.coursestorm.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "PAG members are welcome to come in during open studio hours and glaze their own piece.",
-        "url": "https://peoriaartguild.coursestorm.com/category/adult-classes",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 40.69386,
+      "lng": -89.5891,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "peoriaartguild.coursestorm.com"
-      }
-    },
-    {
-      "id": "three-ravens-pottery",
-      "org": "Three Ravens Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Rockford",
-      "city": "Rockford",
-      "urls": [
-        "https://threeravenspottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Rockford, Illinois",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://threeravenspottery.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "threeravenspottery.com"
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text contains only a technical error message and contact information for an IT service desk, with no information regarding ceramic firing services or workshops.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -1073,7 +761,62 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "clayworkersguild.com"
+      },
+      "lat": 42.31475,
+      "lng": -88.44743,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided text contains no information regarding non-electric firing services or public access to such firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
+    },
+    {
+      "id": "shimpo-ceramics",
+      "org": "SHIMPO CERAMICS",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "salt"
+      ],
+      "region": "Glendale Heights",
+      "city": "Glendale Heights",
+      "urls": [
+        "https://www.shimpoceramics.com/"
+      ],
+      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://www.shimpoceramics.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "shimpoceramics.com"
+      },
+      "weak": true,
+      "located": {
+        "state": "IL",
+        "town": "Glendale Heights",
+        "score": 18,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "address": "175 Wall Street, Glendale Heights, IL 60139",
+      "lat": 41.93468,
+      "lng": -88.10071
     }
   ],
   "_removed": [
@@ -1128,6 +871,42 @@
     {
       "id": "lighthouse-artcenter",
       "why": "Second check (claude-haiku-4.5): page says state is FL, not IL (2026-10-09)"
+    },
+    {
+      "id": "distinguished-teaching",
+      "why": "Its own pages give an address in CA (Cupertino), not IL. Moved. (2026-10-19)"
+    },
+    {
+      "id": "yu-tang-ceramics-il",
+      "why": "Its own pages give an address in WA (North Seattle), not IL. Moved. (2026-10-19)"
+    },
+    {
+      "id": "chicago-kiln-service",
+      "why": "Second check (gemma-4-26b-a4b-it): The business provides sales and repair services for ceramic equipment rather than non-electric firing services for the public. (2026-10-19)"
+    },
+    {
+      "id": "inferno-clay-studio-nfp",
+      "why": "Second check (gemma-4-31b-it): The provided text does not mention Inferno Clay Studio or any non-electric ceramic firings. (2026-10-19)"
+    },
+    {
+      "id": "the-digs-chicago",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions general kiln firing services and does not specify that any non-electric firing techniques (such as raku, wood, soda, salt, or pit/barrel/saggar) are available to the public. (2026-10-19)"
+    },
+    {
+      "id": "alley-cat-studios",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions standard kiln firing for general pottery classes and does not offer any specific alternative firing techniques such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "the-pot-shop",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions general firing as part of classes and does not specify any non-electric firing techniques such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "peoria-art-guild",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions standard kiln firing (bisque firing) and does not offer any non-electric firing methods like raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "three-ravens-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any specific non-electric firing methods such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
     }
   ]
 }

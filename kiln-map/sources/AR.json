@@ -185,18 +185,21 @@
         "key": "sullivanpotteryhsv.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a Horse Hair Raku Workshop and saggar firing, but the actual page text provided is empty, so I cannot verify the details or extract required information from the page itself.",
-        "types": {},
+        "by": "gemini-3-flash-preview",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text offers a workshop where participants can learn about and participate in horsehair raku and saggar firings.",
+        "types": {
+          "raku": "Come learn about the traditional Navajo Horsehair raku and traditional saggar firing techniques and participate in a community firing.",
+          "pit_barrel_saggar": "Come learn about the traditional Navajo Horsehair raku and traditional saggar firing techniques and participate in a community firing."
+        },
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -205,7 +208,11 @@
         "date": "2026-10-07"
       },
       "access": {
-        "status": "ongoing"
+        "status": "ongoing",
+        "types": [
+          "raku",
+          "pit_barrel_saggar"
+        ]
       }
     },
     {
@@ -305,18 +312,20 @@
         "key": "valynchburgweb.myvscloud.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet describes a salt firing workshop open to participants, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
-        "types": {},
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text explicitly invites the public to join a Cone 10 Salt Firing Workshop at the Cub Creek Foundation.",
+        "types": {
+          "salt": "Join us for a Cone 10 Salt Firing Workshop with limited spots available."
+        },
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -362,10 +371,10 @@
         "key": "arkansasstateparks.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "Search snippets mention a wood-firing workshop with participant involvement, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty, so it does not contain the required information for public participation in non-electric ceramic firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -373,7 +382,7 @@
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -381,59 +390,6 @@
         "result": "split",
         "date": "2026-10-07"
       }
-    },
-    {
-      "id": "life-in-mountain-view",
-      "org": "Life in Mountain View",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Mountain View",
-      "city": "Mountain View",
-      "urls": [
-        "https://www.lifeinmountainview.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Mountain View, Arkansas",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.lifeinmountainview.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "lifeinmountainview.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page is a community directory and events calendar for Mountain View, Arkansas with no information about pottery firings, ceramic workshops, or public access to any firing facilities.",
-        "types": {},
-        "state": "AR",
-        "town": "Mountain View"
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-07"
-      },
-      "access": {
-        "status": "ongoing"
-      },
-      "lat": 35.86841,
-      "lng": -92.11765
     },
     {
       "id": "fifth-street-studio",
@@ -448,9 +404,9 @@
         "https://fifthstreet.studio/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bentonville, Arkansas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://fifthstreet.studio/"
       },
@@ -467,79 +423,27 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "fifthstreet.studio"
-      }
-    },
-    {
-      "id": "the-muddy-pig-studio",
-      "org": "The Muddy Pig Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Little Rock",
-      "city": "Little Rock",
-      "urls": [
-        "https://muddypigstudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Little Rock, Arkansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://muddypigstudio.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Until then, join us here at our Pleasant Ridge location until the end of August, where we will continue our try-it’s, workshops and private lessons.",
-        "url": "https://muddypigstudio.com/",
-        "types": [],
-        "checked": "2026-10-14"
+      "weak": true,
+      "located": {
+        "state": "AR",
+        "town": "Bentonville",
+        "score": 3,
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "muddypigstudio.com"
-      }
-    },
-    {
-      "id": "mount-sequoyah-clay-studio",
-      "org": "Mount Sequoyah Clay Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Arkansas",
-      "city": null,
-      "urls": [
-        "https://www.mountsequoyah.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.mountsequoyah.org/"
+      "address": "1012 SE 5th Street, Bentonville, AR",
+      "verify": {
+        "by": "gemma-4-26b-a4b-it",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The studio offers firing services, but the text does not specify if they include any non-electric firing types.",
+        "types": {},
+        "state": "AR",
+        "town": "Bentonville"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Memberships include 24/7 access and firing services.",
-        "url": "https://www.mountsequoyah.org/clay-studio/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "mountsequoyah.org"
-      }
+      "lat": 36.36662,
+      "lng": -94.16361
     },
     {
       "id": "community-creative-center-ar",
@@ -557,9 +461,9 @@
         "https://www.communitycreativecenter.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fayetteville, Arkansas",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.communitycreativecenter.org/"
       },
@@ -576,103 +480,28 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "communitycreativecenter.org"
-      }
-    },
-    {
-      "id": "my-ceramicmaterialsworkshop-ar",
-      "org": "my.ceramicmaterialsworkshop",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Arkansas",
-      "city": null,
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
-      }
-    },
-    {
-      "id": "griffith-pottery-works",
-      "org": "Griffith Pottery Works",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "West Fork",
-      "city": "West Fork",
-      "urls": [
-        "https://griffithpotteryworks.weebly.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "West Fork, Arkansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://griffithpotteryworks.weebly.com/"
+      "weak": true,
+      "located": {
+        "state": "AR",
+        "town": "Fayetteville",
+        "score": 8,
+        "osm": true,
+        "date": "2026-10-19"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The class fee of $65.00 per guest covers all instruction, supplies, two firings and glazing of your hand thrown pottery that is microwave, dishwasher, oven and food safe.",
-        "url": "https://griffithpotteryworks.weebly.com/",
-        "types": [],
-        "checked": "2026-10-14"
+      "address": "505 W Spring St., Fayetteville, AR 72701",
+      "verify": {
+        "by": "gemini-3-flash-preview",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The text mentions pottery workshops and a raku firing image title but does not provide a sentence confirming public participation in non-electric firings.",
+        "types": {},
+        "state": "AR",
+        "town": "Fayetteville",
+        "street": "505 W. Spring Street"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "griffithpotteryworks.weebly.com"
-      }
-    },
-    {
-      "id": "lyon-college-kilted-kiln",
-      "org": "Lyon College Kilted Kiln",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Batesville",
-      "city": "Batesville",
-      "urls": [
-        "https://www.lyon.edu/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Batesville, Arkansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.lyon.edu/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Lyon College Kilted Kiln offers ceramics courses to Lyon students for class credit, and it will offer community workshops in partnership with the Batesville Area Art Council.",
-        "url": "https://www.lyon.edu/kilted-kiln",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "lyon.edu"
-      }
+      "lat": 36.06434,
+      "lng": -94.16593
     }
   ],
   "_removed": [
@@ -715,6 +544,30 @@
     {
       "id": "ozark-folk-center",
       "why": "Second check (gemini-3.1-flash-lite): The provided text only invites the public to observe the firing, not to take part in it. (2026-10-08)"
+    },
+    {
+      "id": "life-in-mountain-view",
+      "why": "Second check (gemini-3-flash-preview): The site is a community directory and blog that mentions a wood-firing event and open house but does not offer a way for the public to participate in the firing process. (2026-10-19)"
+    },
+    {
+      "id": "the-muddy-pig-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firing methods such as raku, wood, soda, salt, pit, or gas reduction. (2026-10-19)"
+    },
+    {
+      "id": "mount-sequoyah-clay-studio",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions 'Clay Studio Workshops' but does not specify that any non-electric firing techniques are offered or accessible to the public. (2026-10-19)"
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop-ar",
+      "why": "Second check (gemini-3.1-flash-lite): The website is an educational and research platform for glaze chemistry and does not offer public access to ceramic firing services or workshops. (2026-10-19)"
+    },
+    {
+      "id": "griffith-pottery-works",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions generic pottery classes and two firings, but does not specify any non-electric ceramic firing types such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "lyon-college-kilted-kiln",
+      "why": "Second check (gemini-3-flash-preview): The text mentions a pottery studio and community workshops but does not mention any non-electric firing types such as raku, wood, or gas. (2026-10-19)"
     }
   ]
 }

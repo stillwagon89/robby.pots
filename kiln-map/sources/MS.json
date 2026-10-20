@@ -127,10 +127,10 @@
         "key": "julietbravopottery.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet describes a raku firing workshop open to outsiders, but the actual page text provided is empty, so I cannot verify the location details or confirm current offerings from the website itself.",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text explicitly invites the public to participate in a Raku firing workshop where they can fire their own pieces.",
         "types": {
           "raku": "Learn the process of using a Raku kiln and participate in the group firing to include 2-4 pieces of your own work."
         },
@@ -140,7 +140,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -194,10 +194,10 @@
         "key": "oxfordkilns.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippets mention workshops and wood-firing courses that are inclusive and welcoming to all levels, but the actual page text is empty, so specific details about how to book or participate cannot be verified.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information to verify public access or specific firing types.",
         "types": {},
         "state": "",
         "town": ""
@@ -205,122 +205,13 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "downtown-jackson",
-      "org": "Downtown Jackson",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Jackson",
-      "city": "Jackson",
-      "urls": [
-        "https://downtown-jackson.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Jackson, Mississippi",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://downtown-jackson.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Six Friday sessions from Feb 7 until Mar 7, 2025. The workshop fee is $100 and includes hands-on instruction, tools, clay and glazes as well as firing of your pieces.",
-        "url": "https://downtown-jackson.com/events/pottery-workshop-for-all-skill-levels/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "downtown-jackson.com"
-      }
-    },
-    {
-      "id": "fat-cat-art-cafe",
-      "org": "Fat Cat Art Cafe",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Mississippi",
-      "city": null,
-      "urls": [
-        "https://fatcatartcafe.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://fatcatartcafe.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Members will also have access to studio glazes, tools, slab roller, and our ever helpful Clay Studio Coordinators. Member only clay pricing is $20 25# bag.",
-        "url": "https://fatcatartcafe.com/classes%26camps",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "fatcatartcafe.com"
-      }
-    },
-    {
-      "id": "msh-clay-studio",
-      "org": "MSH Clay Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Mississippi",
-      "city": null,
-      "urls": [
-        "https://www.mshclay.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.mshclay.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "All materials and kiln firing included.",
-        "url": "https://www.mshclay.com/one-time-workshops",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "mshclay.com"
       }
     },
     {
@@ -355,6 +246,20 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "msmuseumart.org"
+      },
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text mentions kiln-fired ceramics in a museum school context, but contains no text about non-electric ceramic firings open to the public.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -391,6 +296,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "mainstreetco.us"
+      },
+      "lat": 31.32712,
+      "lng": -89.29034,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information regarding firing types or public access to non-electric firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -402,14 +323,14 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Mound Bayou",
-      "city": "Mound Bayou",
+      "region": "Flora",
+      "city": "Flora",
       "urls": [
         "https://magnoliatribune.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Mound Bayou, Mississippi",
+      "geocode": "Flora, Mississippi",
       "location_note": "Shown at the town.",
       "contact": {
         "website": "https://magnoliatribune.com/"
@@ -427,7 +348,26 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "magnoliatribune.com"
-      }
+      },
+      "weak": true,
+      "located": {
+        "state": "MS",
+        "town": "Flora",
+        "score": 2,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided text is from a general news and media website (Magnolia Tribune) and contains no information about Peter's Pottery or ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      },
+      "lat": 32.54326,
+      "lng": -90.30947
     },
     {
       "id": "the-cozy-kiln",
@@ -463,6 +403,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "storage.googleapis.com"
+      },
+      "lat": 32.45934,
+      "lng": -90.05343,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information regarding firing services or public access.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -478,6 +434,18 @@
     {
       "id": "almonte-potters-guild",
       "why": "Second check (gemini-3-flash-preview): The text mentions a pottery studio but does not mention any non-electric ceramic firing types or public access to them. (2026-10-08)"
+    },
+    {
+      "id": "msh-clay-studio",
+      "why": "Its own pages give an address in MA (Brookline), not MS. Moved. (2026-10-19)"
+    },
+    {
+      "id": "downtown-jackson",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes a business improvement district organization and does not offer or facilitate any ceramic firing services for the public. (2026-10-19)"
+    },
+    {
+      "id": "fat-cat-art-cafe",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes standard electric kiln firing for paint-your-own pottery and wheel classes, with no mention of non-electric ceramic firings like raku, wood, or gas reduction. (2026-10-19)"
     }
   ]
 }

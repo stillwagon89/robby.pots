@@ -63,10 +63,10 @@
         "date": "2026-10-14"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "contemporary-arts-of-tulsa-c-a-t",
@@ -98,20 +98,18 @@
       "lat": 36.15631,
       "lng": -95.99275,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "Search snippets show raku workshops but no page text provided to verify location details or confirm public access terms.",
-        "types": {
-          "raku": "Make up to 5 pieces for the raku firing which is included in the workshop."
-        },
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no details about firings, address, or public access.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -165,20 +163,18 @@
         "key": "warriorsforfreedom.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippets describe a raku class at Paseo Pottery with public participation, but the page text itself is empty, so location details cannot be verified from the actual page.",
-        "types": {
-          "raku": "Experience the excitement of Raku firing! Choose your glaze and decorate a pottery vessel to create your own work of art. Then suit up and help with the firing process—removing red-hot pots from the kiln, placing them in barrels to smoke, and plunging them into water to cool."
-        },
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty, so there is no information confirming public access to non-electric firings.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -250,78 +246,10 @@
       "address": "11 NW 11th St., Oklahoma City, OK 73103",
       "lat": 35.48053,
       "lng": -97.51317,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "oil-clay-studio",
-      "org": "Oil & Clay Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "gas_reduction"
-      ],
-      "region": "Norman",
-      "city": "Norman",
-      "urls": [
-        "https://www.normanfirehouse.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://www.normanfirehouse.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "A: We do offering bisque and cone 6 glaze firing for the community. Please email or text (405-928-9339) us to set that up, providing your name, and type of firing you wish to do.",
-        "url": "https://www.normanfirehouse.com/ceramics",
-        "types": [
-          "raku",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "normanfirehouse.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page text from normanfirehouse.com contains no information about non-electric ceramic firings, raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings that outsiders can access.",
-        "types": {},
-        "state": "OK",
-        "town": "Norman",
-        "street": "444 South Flood Avenue"
-      },
-      "weak": true,
-      "located": {
-        "state": "OK",
-        "town": "Norman",
-        "score": 14,
-        "osm": false,
-        "date": "2026-10-14"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "address": "444 South Flood Avenue, Norman, OK",
-      "lat": 35.21323,
-      "lng": -97.4533
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "oklahoma-state-university",
@@ -383,43 +311,10 @@
       "address": "1001 S DUCK STREET, STILLWATER, OK 74074",
       "lat": 36.11098,
       "lng": -97.06179,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "prairie-pottery",
-      "org": "Prairie Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Oklahoma City",
-      "city": "Oklahoma City",
-      "urls": [
-        "https://prairiepottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Oklahoma City, Oklahoma",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://prairiepottery.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "prairiepottery.com"
-      }
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "house-of-clay-ok",
@@ -428,15 +323,15 @@
       "core": false,
       "public": true,
       "firing_types_guess": [],
-      "region": "OKC",
-      "city": "OKC",
+      "region": "Oklahoma City",
+      "city": "Oklahoma City",
       "urls": [
         "https://thehouseofclay.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "OKC, Oklahoma",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://thehouseofclay.com/"
       },
@@ -453,40 +348,25 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "thehouseofclay.com"
-      }
-    },
-    {
-      "id": "firefly-creative-center",
-      "org": "Firefly Creative Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Tulsa",
-      "city": "Tulsa",
-      "urls": [
-        "https://tulsafirefly.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tulsa, Oklahoma",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://tulsafirefly.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Wheels, tools, studio clay, glazes, and kiln firing included",
-        "url": "https://tulsafirefly.com/classes/",
-        "types": [],
-        "checked": "2026-10-14"
+      "weak": true,
+      "located": {
+        "state": "OK",
+        "town": "Oklahoma City",
+        "score": 3,
+        "osm": true,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "tulsafirefly.com"
+      "address": "2 PM The House of Clay 1100 NW 30th Street, Oklahoma City, OK 73118",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The text mentions painting and general pottery classes, but contains no information about raku, wood/anagama, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
+        "types": {},
+        "state": "OK",
+        "town": "Oklahoma City",
+        "street": "1100 Northwest 30th Street"
       }
     },
     {
@@ -513,39 +393,20 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "nextofkilnstudio.com"
-      }
-    },
-    {
-      "id": "the-clay-co-op-ok",
-      "org": "The Clay Co-op",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Oklahoma",
-      "city": null,
-      "urls": [
-        "https://www.checkwhatsgood.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.checkwhatsgood.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "checkwhatsgood.com"
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The provided page text is empty, so it is impossible to determine if public firing services are offered.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -593,6 +454,22 @@
     {
       "id": "the-hambidge-center",
       "why": "Second check (claude-haiku-4.5): OpenCall is a directory and matching service for art opportunities, not a venue or organizer that runs ceramic firings itself; the search snippet mentions The Hambidge Center's anagama firing but the page text provided is only about OpenCall's website and services. (2026-10-14)"
+    },
+    {
+      "id": "oil-clay-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text does not contain any mention of non-electric ceramic firings available to the public. (2026-10-19)"
+    },
+    {
+      "id": "prairie-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not mention any non-electric firing techniques such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction; it only refers to standard kiln-firing of pieces. (2026-10-19)"
+    },
+    {
+      "id": "firefly-creative-center",
+      "why": "Second check (gemma-4-31b-it): The text mentions a kiln and ceramics classes but does not mention any non-electric firing types such as raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "the-clay-co-op-ok",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions that the studio offers firing services but does not specify the types of firings available or confirm that any non-electric firing methods are offered to the public. (2026-10-19)"
     }
   ]
 }

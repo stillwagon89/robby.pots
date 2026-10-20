@@ -63,202 +63,10 @@
         "date": "2026-10-08"
       },
       "address": "4975 Lockbridge Road, Meadow Bridge, WV 25976",
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "stifel-fine-arts-center",
-      "org": "Stifel Fine Arts Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Wheeling",
-      "city": "Wheeling",
-      "urls": [
-        "https://weelunk.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Wheeling, West Virginia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://weelunk.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Other special events include a variety of ceramic workshops at the Stifel Fine Arts Center, a raku firing, and a pottery throwdown competition.",
-        "url": "https://weelunk.com/coming-this-spring-citywide-ceramics-take-over-showcase/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "weelunk.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a raku firing at Stifel Fine Arts Center as part of Ceramics Take Over Wheeling, but the full page text provided does not contain details about how outsiders can access or participate in this firing.",
-        "types": {},
-        "state": "WV",
-        "town": "Wheeling"
-      },
-      "lat": 40.06396,
-      "lng": -80.72091,
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-14"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "parkersburg-art-center",
-      "org": "Parkersburg Art Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Parkersburg",
-      "city": "Parkersburg",
-      "urls": [
-        "https://www.parkersburgartcenter.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://www.parkersburgartcenter.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Parkersburg Art Center features a diverse range of pottery and ceramics classes for all ages and skill levels, alongside various art-related programs such as Camp Creativity and ArtStart Preschool.",
-        "url": "https://www.parkersburgartcenter.org/clay-studio",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "parkersburgartcenter.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The page mentions raku pottery demonstrations and a Clay Studio with memberships, but does not explicitly state that outsiders can participate in raku firings; it only says membership provides 'eligibility to join the Pottery Studio' without specifying firing access.",
-        "types": {},
-        "state": "WV",
-        "town": "Parkersburg",
-        "street": "725 Market Street"
-      },
-      "weak": true,
-      "located": {
-        "state": "WV",
-        "town": "Parkersburg",
-        "score": 15,
-        "osm": true,
-        "date": "2026-10-14"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "address": "725 Market Street, Parkersburg, WV 26101",
-      "lat": 39.26751,
-      "lng": -81.55767
-    },
-    {
-      "id": "parkersburg-art-center-the-clay-studio",
-      "org": "Parkersburg Art Center / The Clay Studio",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Parkersburg",
-      "city": "Parkersburg",
-      "urls": [
-        "https://www.wtap.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Parkersburg, West Virginia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.wtap.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "The Clay Studio, the pottery group with the Art Center, had some of their work for sale and also put on open demonstrations of the raku pottery process at the corner of 8th and Market.",
-        "url": "https://www.wtap.com/content/news/Raku-pottery-demonstration-put-on-by-Parkersburg-Art-Centers-Clay-Lab-510711131.html",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "wtap.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page text is from WTAP news website, not from Parkersburg Art Center or The Clay Studio; it only mentions a past raku demonstration in a search snippet but provides no information about current public access to firings, classes, workshops, or memberships.",
-        "types": {},
-        "state": "WV",
-        "town": "Parkersburg",
-        "street": "One Television Plaza"
-      },
-      "weak": true,
-      "lat": 39.26673,
-      "lng": -81.56208,
-      "located": {
-        "state": "WV",
-        "town": "Parkersburg",
-        "score": 6,
-        "osm": false,
-        "date": "2026-10-14"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      }
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "stifel-fine-arts-center-va",
@@ -331,150 +139,6 @@
       "approved": "2026-10-15"
     },
     {
-      "id": "meir-moheban-wv",
-      "org": "Meir Moheban",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "West Virginia",
-      "city": null,
-      "urls": [
-        "https://www.meirmoheban.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.meirmoheban.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Once a year, ceramic potteries throughout the country join together and have the opportunity to place their work inside the Anagama kiln cave.",
-        "url": "https://www.meirmoheban.com/anagama-wood-firing-kiln/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "meirmoheban.com"
-      }
-    },
-    {
-      "id": "capitol-clay-arts-company",
-      "org": "Capitol Clay Arts Company",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Charleston",
-      "city": "Charleston",
-      "urls": [
-        "https://capitolclayarts.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Charleston, West Virginia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://capitolclayarts.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Capitol Clay Arts Company regularly fires work for teachers, at-home clay artists and others without studio kiln access.",
-        "url": "https://capitolclayarts.com/about-us/our-services/kiln-firing-services/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "capitolclayarts.com"
-      }
-    },
-    {
-      "id": "zenclay-pottery-studio",
-      "org": "Zenclay Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Morgantown",
-      "city": "Morgantown",
-      "urls": [
-        "https://www.lewisandclark.travel/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Morgantown, West Virginia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.lewisandclark.travel/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Learn pottery at Zenclay Pottery Studio in Morgantown, West Virginia, with classes for beginners, advanced artists, and youth.",
-        "url": "https://www.lewisandclark.travel/listing/zenclay/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "lewisandclark.travel"
-      }
-    },
-    {
-      "id": "boparc",
-      "org": "BOPARC",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Morgantown",
-      "city": "Morgantown",
-      "urls": [
-        "https://www.boparc.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Morgantown, West Virginia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.boparc.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "BOPARC's Community Art Studio-Studio 287- is located on the basement level of the Wiles Hill Community Center (287 Eureka Dr. Morgantown, WV).",
-        "url": "https://www.boparc.org/studio-287--community-art--pottery-studio.html",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "boparc.org"
-      }
-    },
-    {
       "id": "spirit-of-huntington",
       "org": "Spirit of Huntington",
       "kind": "studio",
@@ -506,42 +170,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "spiritofhuntington.com"
-      }
-    },
-    {
-      "id": "n-a-wv",
-      "org": "N/A",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Huntington",
-      "city": "Huntington",
-      "urls": [
-        "https://clayatlas.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Huntington, West Virginia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://clayatlas.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "For the full statewide picture, browse the West Virginia page — and check back as new studios join.",
-        "url": "https://clayatlas.com/pottery-classes/location/huntington/",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 38.41925,
+      "lng": -82.44515,
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "clayatlas.com"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and does not mention any non-electric ceramic firings or public access to them.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -585,6 +229,38 @@
     {
       "id": "the-potters-guild-wv",
       "why": "Second check (claude-haiku-4.5): The page describes a pottery guild community and lists a holiday sale event, but contains no information about non-electric ceramic firings (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) or public access to any such firings. (2026-10-09)"
+    },
+    {
+      "id": "stifel-fine-arts-center",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions a raku firing in a search snippet, but the actual page content does not contain any information about how the public can participate in such a firing at the Stifel Fine Arts Center. (2026-10-19)"
+    },
+    {
+      "id": "parkersburg-art-center",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text does not mention any non-electric ceramic firings such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "parkersburg-art-center-the-clay-studio",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions that a pottery group held a public demonstration in the past and does not offer any current way for the public to participate in non-electric firings. (2026-10-19)"
+    },
+    {
+      "id": "meir-moheban-wv",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions an Anagama wood-firing kiln and that the artist fires it with fellow potters/artists, but it does not provide any mechanism (such as classes, workshops, memberships, rentals, firing services, or a public invitation to join) for the general public to take part. (2026-10-19)"
+    },
+    {
+      "id": "capitol-clay-arts-company",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions kiln firing services but does not specify the type of kilns used, and there is no mention of non-electric firing techniques such as raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "zenclay-pottery-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text contains only basic directory information or general travel site navigation and does not mention any ceramic firings or public access details for Zenclay Pottery Studio. (2026-10-19)"
+    },
+    {
+      "id": "boparc",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions a pottery studio (Studio 287) but does not describe any specific non-electric firing services or workshops available to the public. (2026-10-19)"
+    },
+    {
+      "id": "n-a-wv",
+      "why": "Second check (gemini-3.1-flash-lite): page says state is TN, not WV (2026-10-19)"
     }
   ]
 }

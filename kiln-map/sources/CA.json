@@ -547,7 +547,7 @@
         "checked": "2026-10-06",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
@@ -556,25 +556,28 @@
       "lat": 37.78794,
       "lng": -122.40752,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-08",
-        "verdict": "unclear",
-        "why": "The search snippets mention raku workshops and alternative firing methods with registration, but the actual page text was not provided, so public access cannot be confirmed from the page itself.",
-        "types": {},
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The website explicitly invites the public to register for Raku workshops.",
+        "types": {
+          "raku": "REGISTER FOR A RAKU WORKSHOP."
+        },
         "state": "CA",
         "town": "San Francisco"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-07"
-      }
+      },
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "the-potters-studio",
@@ -615,14 +618,14 @@
         "key": "thepottersstudio.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "The page text from search snippets shows soda firing workshops open to the broader community: 'We welcome Potters' Studio Members and Students to workshops and also offer a limited number of slots to potters in the broader community who have a grasp of the basics of gas reduction firing.'",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text contains no information about non-electric ceramic firings available to the public.",
         "types": {},
         "state": "CA",
         "town": "Berkeley",
-        "street": "724 Camelia Street, Berkeley CA 94710"
+        "street": "724 Camelia Street"
       },
       "weak": true,
       "located": {
@@ -630,7 +633,7 @@
         "town": "Berkeley",
         "score": 20,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -832,7 +835,7 @@
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
       "approved": "2026-10-15",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "spiffy-pottery-studio",
@@ -893,7 +896,7 @@
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
       "approved": "2026-10-15",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "oribe-firing-center",
@@ -957,7 +960,7 @@
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
       "approved": "2026-10-15",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "slowfire",
@@ -998,19 +1001,19 @@
         "key": "slowfireceramics.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The snippets mention gas reduction firings and classes with firing access, but the actual page text is empty, so I cannot verify the location details or confirm public access terms.",
+        "by": "gemini-3-flash-preview",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "Slowfire offers memberships and classes that provide access to gas reduction firings.",
         "types": {
-          "gas_reduction": "can fire work in both electric kilns and our cone 10 gas reduction kiln at Slowfire West, allowing artists to explore both oxidation and reduction firing at no additional firing cost"
+          "gas_reduction": "Members also have access to three clay body options and can fire work in both electric kilns and our cone 10 gas reduction kiln at Slowfire West, allowing artists to explore both oxidation and reduction firing at no additional firing cost."
         },
         "state": "",
         "town": ""
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1086,7 +1089,7 @@
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
       "approved": "2026-10-15",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "sebastopol-center-for-the-arts",
@@ -1217,7 +1220,7 @@
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
       "approved": "2026-10-15",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "john-dix",
@@ -1281,7 +1284,7 @@
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
       "approved": "2026-10-15",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "acai-studios-gallery",
@@ -1346,7 +1349,7 @@
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
       "approved": "2026-10-15",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "auburn-clay-arts",
@@ -1481,7 +1484,7 @@
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
       "approved": "2026-10-15",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "green-bisque-clayhouse",
@@ -1553,7 +1556,7 @@
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
       "approved": "2026-10-15",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "element-art-center",
@@ -1748,7 +1751,7 @@
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
       "approved": "2026-10-15",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "ica-north",
@@ -1854,10 +1857,10 @@
         "key": "thecuriousforge.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "unclear",
-        "why": "Page text is empty; only search snippets mention raku workshop coming soon with a waitlist, but no details about public access, location, or how to join.",
+        "why": "The provided page text is empty, so there is no information to confirm public access or specific firing details.",
         "types": {},
         "state": "",
         "town": ""
@@ -1866,7 +1869,7 @@
       "lng": -121.01873,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1929,7 +1932,7 @@
         "town": "Broadway San Francisco",
         "score": 6,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "lat": 37.79881,
       "lng": -122.39929
@@ -1987,7 +1990,7 @@
         "town": "Albion",
         "score": 4,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "lat": 39.22811,
       "lng": -123.75649
@@ -2047,7 +2050,7 @@
         "town": "Camarillo",
         "score": 219,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "address": "2222 Ventura Boulevard, Camarillo, CA 93010",
       "lat": 34.21647,
@@ -2183,7 +2186,7 @@
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
       "approved": "2026-10-15",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "turning-earth-ca",
@@ -2305,7 +2308,7 @@
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
       "approved": "2026-10-15",
-      "auto_approved": "2026-10-14"
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "blossomhillcrafts",
@@ -2364,7 +2367,7 @@
         "town": "Los Gatos",
         "score": 3,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -2441,10 +2444,10 @@
       "weak": false,
       "lat": 34.23456,
       "lng": -118.53693,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "kazegama",
@@ -2494,34 +2497,38 @@
       },
       "weak": true,
       "lat": 33.35601,
-      "lng": -115.72664
+      "lng": -115.72664,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      }
     },
     {
-      "id": "common-clay-space-miki-shim-ca",
-      "org": "Common Clay Space (Miki Shim)",
+      "id": "gomry-al",
+      "org": "Gomry",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
         "pit_barrel_saggar"
       ],
-      "region": "Cupertino",
-      "city": "Cupertino",
+      "region": "San Francisco",
+      "city": "San Francisco",
       "urls": [
-        "https://www.mikisr.com/"
+        "https://www.gomry.com/"
       ],
-      "notes": "Pit firing workshop. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Cupertino, California",
-      "location_note": "Shown at the town.",
+      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
-        "website": "https://www.mikisr.com/"
+        "website": "https://www.gomry.com/"
       },
       "access": {
-        "how": "Pit firing workshop",
-        "note": "Pit firing workshop",
-        "quote": "Pit Firing Workshop at Common Clay Space in Cupertino, CA",
-        "url": "https://www.mikisr.com/events/pit-firing-workshop-at-common-clay-space-in-cupertino-ca",
+        "how": "Dated workshop or firing event",
+        "note": "Dated workshop or firing event",
+        "quote": "PitFire Workshop | Gomry: Learn the ancient technique of pit-fired ceramics and fire your own pieces in Kickwheel's on-site | Date: December 19, 2026 | Get tickets now on Gomry.",
+        "url": "https://www.gomry.com/event/PitFire-Workshop-V7Q0pjPDroV8CzH62q7o",
         "types": [
           "pit_barrel_saggar"
         ],
@@ -2531,8 +2538,158 @@
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-14",
-        "key": "mikisr.com"
-      }
+        "key": "gomry.com"
+      },
+      "weak": true,
+      "located": {
+        "state": "CA",
+        "town": "San Francisco",
+        "score": 20,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "address": "44 Montgomery St, San Francisco, CA 94104",
+      "lat": 37.78963,
+      "lng": -122.40189
+    },
+    {
+      "id": "distinguished-teaching",
+      "org": "Distinguished Teaching",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Cupertino",
+      "city": "Cupertino",
+      "urls": [
+        "https://distinguishedteaching.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": "Cupertino, California",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://distinguishedteaching.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-07",
+        "key": "distinguishedteaching.com"
+      },
+      "verify": {
+        "by": "claude-haiku-4.5",
+        "date": "2026-10-07",
+        "verdict": "unclear",
+        "why": "The text mentions a soda kiln and describes pottery instruction, but does not explicitly state that public outsiders can book, sign up for, or participate in an actual firing event.",
+        "types": {
+          "soda": "how to apply them to achieve color in the soda kiln."
+        },
+        "state": "VT",
+        "town": "Burlington"
+      },
+      "weak": true,
+      "located": {
+        "state": "CA",
+        "town": "Cupertino",
+        "score": 18,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "access": {
+        "status": "ongoing"
+      },
+      "address": "4717 N Lincoln Ave, Chicago, IL"
+    },
+    {
+      "id": "color-mine",
+      "org": "Color Mine",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Studio City",
+      "city": "Studio City",
+      "urls": [
+        "https://wichita.colormemine.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://wichita.colormemine.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Walk-ins & reservations are welcome in our main studio during events unless otherwise noted.",
+        "url": "https://wichita.colormemine.com/calendar",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "wichita.colormemine.com"
+      },
+      "weak": true,
+      "located": {
+        "state": "CA",
+        "town": "Studio City",
+        "score": 30,
+        "osm": true,
+        "date": "2026-10-19"
+      },
+      "address": "12080 Ventura Place Suite 4, Studio City, CA 91604"
+    },
+    {
+      "id": "color-me-mine",
+      "org": "Color Me Mine",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Studio City",
+      "city": "Studio City",
+      "urls": [
+        "https://siouxfalls.colormemine.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://siouxfalls.colormemine.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Learn new techniques, enjoy time with friends and create your own high fire piece during our Stoneware event.",
+        "url": "https://siouxfalls.colormemine.com/stoneware-workshop/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "siouxfalls.colormemine.com"
+      },
+      "weak": true,
+      "located": {
+        "state": "CA",
+        "town": "Studio City",
+        "score": 30,
+        "osm": true,
+        "date": "2026-10-19"
+      },
+      "address": "12080 Ventura Place Suite 4, Studio City, CA 91604"
     }
   ],
   "_removed": [
@@ -2619,6 +2776,14 @@
     {
       "id": "claytivity-pottery-studio-ca",
       "why": "Duplicate of claytivity-pottery-studio (same place listed twice). (2026-10-11)"
+    },
+    {
+      "id": "common-clay-space-miki-shim-ca",
+      "why": "Second check (gemini-3.5-flash-lite): page says state is IL, not CA (2026-10-19)"
+    },
+    {
+      "id": "cone-6-ceramics-ma",
+      "why": "Second check (gemini-3-flash-preview): The text mentions firing services and memberships but does not specify any non-electric firing methods such as raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
     }
   ]
 }

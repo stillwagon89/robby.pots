@@ -85,10 +85,10 @@
       "address": "1273 Calle de Comercio, Santa Fe, NM 87507",
       "lat": 35.65968,
       "lng": -105.98881,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "museum-of-new-mexico-foundation",
@@ -151,10 +151,10 @@
       "address": "1411 Paseo de Peralta, Santa Fe, NM 87501",
       "lat": 35.68098,
       "lng": -105.94435,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "rottenstone-gallery",
@@ -197,20 +197,21 @@
         "key": "rottenstonegallery.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page explicitly states 'We are open to having any interested potters join in the community and upcoming firings. Please contact us,' providing an open invitation for outsiders to participate in wood-fired salt and wood-fired firings.",
+        "why": "The website explicitly invites interested potters to contact them to join in upcoming firings at their wood and salt kiln site.",
         "types": {},
         "state": "NM",
-        "town": "Tres Piedras"
+        "town": "Arroyo Seco",
+        "street": "486 State Road 150"
       },
       "located": {
         "state": "NM",
         "town": "Arroyo Seco",
         "score": 2,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "weak": true,
       "agree": {
@@ -287,10 +288,10 @@
       },
       "lat": 35.0841,
       "lng": -106.65099,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "taos-ceramics-center",
@@ -353,10 +354,10 @@
       "address": "114 Este Es Road, Taos, NM",
       "lat": 36.36959,
       "lng": -105.59176,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "potters-guild-of-las-cruces",
@@ -417,10 +418,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "calliope-gallery",
@@ -479,61 +480,10 @@
       "address": "2876 NM-14, Madrid, NM 87010",
       "lat": 35.40737,
       "lng": -106.15202,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "green-river-pottery",
-      "org": "Green River Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Santa Fe",
-      "city": "Santa Fe",
-      "urls": [
-        "https://www.greenriverpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Santa Fe, New Mexico",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.greenriverpottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Stoneware is a rugged, durable, kind of clay. The pots are fired to a high temperature (2350 Fahrenheit) in the kiln and during the long, intense, ‘reduction’ process the clay and glazes are transformed - darkened and given depth.",
-        "url": "https://www.greenriverpottery.com",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "greenriverpottery.com"
-      },
-      "weak": true,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "The page explicitly offers 'one-time classes for travelers,' 'weekly classes & workshops,' and 'Private one-time pottery class' to the public, and mentions firing in a reduction process at high temperature.",
-        "types": {},
-        "state": "NM",
-        "town": "Santa Fe",
-        "street": "Lena Street"
-      },
-      "lat": 35.68761,
-      "lng": -105.93846
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     }
   ],
   "_removed": [
@@ -612,6 +562,10 @@
     {
       "id": "ancientpottery-how",
       "why": "Second check (claude-haiku-4.5): The site offers only online video classes and in-person workshops for coil pottery making and painting, with outdoor firing demonstrations in videos, but does not show that outsiders can participate in an actual firing event—only watch videos of firings or take classes on technique. (2026-10-14)"
+    },
+    {
+      "id": "green-river-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions a 'reduction' process but does not offer a way for the public to participate in a non-electric firing, only general classes and kiln firing services without specifying the firing method. (2026-10-19)"
     }
   ]
 }

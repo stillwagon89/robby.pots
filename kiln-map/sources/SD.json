@@ -40,10 +40,10 @@
         "key": "webtrac.aberdeen.sd.us"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "WebTrac offers a Raku Pottery Alternative Firing workshop where participants can take part in raku firing processes at a public recreation center in Aberdeen, SD.",
+        "why": "The text describes a Raku Pottery Alternative Firing event that participants can sign up for via WebTrac.",
         "types": {},
         "state": "SD",
         "town": "Aberdeen",
@@ -54,7 +54,7 @@
       "lng": -98.48781,
       "located": {
         "osm": false,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -102,10 +102,10 @@
         "key": "dakotapotters.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page clearly describes monthly raku firing workshops open to the public (ages 5+) where outsiders can sign up and bring their own pottery or purchase pieces to fire.",
+        "why": "The business offers a monthly Raku firing workshop that is open to the public for a seating fee.",
         "types": {},
         "state": "SD",
         "town": "Sioux Falls",
@@ -117,7 +117,7 @@
         "town": "Sioux Falls",
         "score": 12,
         "osm": false,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -128,42 +128,6 @@
       "address": "2315 W. Madison Street, Sioux Falls, SD 57104",
       "lat": 43.55836,
       "lng": -96.75779
-    },
-    {
-      "id": "dakota-bones",
-      "org": "Dakota Bones",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Mitchell",
-      "city": "Mitchell",
-      "urls": [
-        "https://dakotabones.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Mitchell, South Dakota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://dakotabones.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "I fire the horse hair provided by clients into a unique vessel, and to authenticate each piece, I also provide a video.",
-        "url": "https://dakotabones.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "dakotabones.com"
-      }
     },
     {
       "id": "smudge-studios",
@@ -201,102 +165,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "smudgestudiosceramics.com"
-      }
-    },
-    {
-      "id": "color-me-mine",
-      "org": "Color Me Mine",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Sioux Falls",
-      "city": "Sioux Falls",
-      "urls": [
-        "https://siouxfalls.colormemine.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Sioux Falls, South Dakota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://siouxfalls.colormemine.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Learn new techniques, enjoy time with friends and create your own high fire piece during our Stoneware event.",
-        "url": "https://siouxfalls.colormemine.com/stoneware-workshop/",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 43.44661,
+      "lng": -96.83603,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "siouxfalls.colormemine.com"
-      }
-    },
-    {
-      "id": "brookings-arts-council",
-      "org": "Brookings Arts Council",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Brookings",
-      "city": "Brookings",
-      "urls": [
-        "https://www.brookingsartscouncil.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Brookings, South Dakota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.brookingsartscouncil.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Brookings Arts Council is now offering low-fire kiln firing services for local artists working independently with low-fire clay and glazes.",
-        "url": "https://www.brookingsartscouncil.org/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "brookingsartscouncil.org"
-      }
-    },
-    {
-      "id": "spearfish-clayworks",
-      "org": "Spearfish Clayworks",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Spearfish",
-      "city": "Spearfish",
-      "urls": [
-        "https://www.spearfishclayworks.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Spearfish, South Dakota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.spearfishclayworks.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "spearfishclayworks.com"
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text contains no information regarding the types of kilns or firing services offered by the studio.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -308,6 +192,22 @@
     {
       "id": "shelby-prindaville",
       "why": "Second check (claude-haiku-4.5): The page is Shelby Prindaville's personal artist portfolio and blog; it mentions attending raku workshops at Dakota Potters Supply but does not show that outsiders can sign up for or take part in any firing at her own location or business. (2026-10-09)"
+    },
+    {
+      "id": "color-me-mine",
+      "why": "Its own pages give an address in CA (Studio City), not SD. Moved. (2026-10-19)"
+    },
+    {
+      "id": "dakota-bones",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not contain any information about public workshops, classes, memberships, rentals, firing services, or invitations for outsiders to take part in non-electric ceramic firings. (2026-10-19)"
+    },
+    {
+      "id": "brookings-arts-council",
+      "why": "Second check (gemini-3.5-flash-lite): The text only offers low-fire kiln firing services and does not mention any non-electric ceramic firing types such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "spearfish-clayworks",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not mention any non-electric firing techniques or public access to such firings. (2026-10-19)"
     }
   ]
 }

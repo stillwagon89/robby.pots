@@ -205,10 +205,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "st-johns-clay-collective",
@@ -272,10 +272,10 @@
       "address_found": "6635 North Baltimore Avenue, Suite 125, Workshop St. Johns Complex, Portland, OR",
       "lat": 45.52025,
       "lng": -122.67419,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "georgies-ceramic-clay-co",
@@ -337,10 +337,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "willamette-art-center",
@@ -403,10 +403,10 @@
       "address_found": "3995 Fairview Industrial Dr. SE, Suite 100, Salem, OR 97302",
       "lat": 44.89553,
       "lng": -123.00726,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "wildling-collaborative-arts",
@@ -433,7 +433,7 @@
         "how": "Mar 30 pit firing (Mandala Sanctuary)",
         "note": "Mar 30 pit firing (Mandala Sanctuary)",
         "quote": "Firing on March 30th from 10am - 4pm at Mandala Sanctuary, Eugene Oregon",
-        "url": "https://www.whitesnakearts.com/workshops/intro-to-pit-firing",
+        "url": "https://www.whitesnakearts.com/workshops",
         "types": [
           "pit_barrel_saggar"
         ],
@@ -449,20 +449,21 @@
       "lat": 44.05051,
       "lng": -123.09505,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page offers pit firing workshops where outsiders can register and participate, with clear registration options and firing dates provided.",
-        "types": {},
+        "why": "The website offers workshops such as the 'Shaping Earth & Fire: Wild Clay & Pit Fire Pottery Retreat' which are open to the public.",
+        "types": {
+          "pit_barrel_saggar": "Shaping Earth & Fire: Wild Clay & Pit Fire Pottery Retreat"
+        },
         "state": "OR",
-        "town": "Eugene",
-        "street": "250 Taylor Street"
+        "town": "Eugene"
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
-      "weak": true,
+      "weak": false,
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
@@ -520,10 +521,10 @@
       "address": "222 Polk Street, Eugene, OR 97402",
       "lat": 44.05719,
       "lng": -123.11263,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "calapooia-clay",
@@ -595,10 +596,10 @@
       "address": "1533 SE 7th Ave, Albany, OR 97321",
       "lat": 44.63479,
       "lng": -123.08609,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "synergy-ceramics",
@@ -668,10 +669,10 @@
       "address_found": "1900 Northeast Division Street suite 108, Bend, OR 97701",
       "lat": 44.06889,
       "lng": -121.30521,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "oregon-coast-school-of-art",
@@ -734,10 +735,10 @@
       "address": "325 High Street, Gardiner, OR 97441",
       "lat": 43.73126,
       "lng": -124.11013,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "rogue-valley-pottery-supply-and-studios",
@@ -841,19 +842,17 @@
         "key": "myemu.uoregon.edu"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippets describe a Raku workshop with registration, but the actual page text provided is empty, so I cannot verify the location details or confirm public access from the page itself.",
-        "types": {
-          "raku": "Experience the thrill of Raku firing in a dramatic outdoor setting!"
-        },
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The text consists of search snippets but no page text is provided.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -968,14 +967,13 @@
         "key": "clayfolk.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "Clayfolk is a directory/association of potters with member classes listed, but the page text does not clearly state whether outsiders can join any specific non-electric firing (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) through a class, workshop, or other public access mechanism.",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The site lists individual instructors who offer private lessons or workshops to the public, including specific mentions of non-electric firing techniques like pit firing and wood firing.",
         "types": {},
         "state": "OR",
-        "town": "",
-        "street": "3901 Upper Applegate Road, Ruch, OR"
+        "town": ""
       },
       "weak": true,
       "located": {
@@ -983,7 +981,7 @@
         "town": "Ruch",
         "score": 3,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -994,130 +992,6 @@
       "address": "3901 Upper Applegate Road, Ruch, OR",
       "lat": 42.23569,
       "lng": -123.04214
-    },
-    {
-      "id": "hiroshi-ogawa-s-kiln-hikarigama",
-      "org": "Hiroshi Ogawa's kiln, Hikarigama",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Elkton",
-      "city": "Elkton",
-      "urls": [
-        "https://jenniferlongpottery.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Elkton, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://jenniferlongpottery.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "I had my first experience firing with wood about eight years ago when I began attending firings in Elkton, Oregon at Hiroshi Ogawa’s kiln, Hikarigama.",
-        "url": "https://jenniferlongpottery.com/wood-fired",
-        "types": [
-          "soda"
-        ],
-        "checked": "2026-10-08",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "jenniferlongpottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The text describes Jennifer Long attending firings at Hiroshi Ogawa's kiln in Elkton, Oregon, but does not explicitly state whether outsiders can currently book, join, or sign up for firings there.",
-        "types": {},
-        "state": "",
-        "town": "Carmel Valley"
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "lat": 43.63706,
-      "lng": -123.56738
-    },
-    {
-      "id": "club-mud-ceramics-cooperative",
-      "org": "Club Mud Ceramics Cooperative",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Eugene",
-      "city": "Eugene",
-      "urls": [
-        "https://www.mkartcenter.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Eugene, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.mkartcenter.org/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Low Fire; Earthenware and Raku (1800-2000 deg. F)",
-        "url": "https://www.mkartcenter.org/clubmud.html",
-        "types": [
-          "raku",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-08",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "mkartcenter.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippets mention Club Mud is a cooperative of about 30 members that does raku firing, but the page text provided does not contain explicit information about how outsiders can join firings or access them.",
-        "types": {},
-        "state": "OR",
-        "town": "Eugene",
-        "street": "1910 East 15th Avenue"
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "lat": 44.05051,
-      "lng": -123.09505
     },
     {
       "id": "east-creek-art-camp",
@@ -1158,21 +1032,18 @@
         "key": "orartswatch.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The text describes East Creek Art Camp's anagama kiln and mentions 70 artists gathered to load it, but does not explicitly state how outsiders can sign up, book, or join a firing.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no details or offers for public participation in firings.",
         "types": {},
-        "state": "OR",
-        "town": "Willamina"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "located": {
-        "state": "OR",
-        "town": "Portland",
-        "score": 20,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1306,119 +1177,6 @@
       "approved": "2026-10-15"
     },
     {
-      "id": "anderson-ranch-art-center",
-      "org": "Anderson Ranch Art Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda"
-      ],
-      "region": "Oregon",
-      "city": null,
-      "urls": [
-        "https://www.theresidencyreview.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.theresidencyreview.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "1 — Soda kiln 1 — Anagama wood kiln 1 — Raku kiln",
-        "url": "https://www.theresidencyreview.com/woodfire-kilns",
-        "types": [
-          "soda",
-          "wood",
-          "raku"
-        ],
-        "checked": "2026-10-08",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "theresidencyreview.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page is a directory listing that mentions Anderson Ranch Art Center has a soda kiln, noborigama wood kiln, and hybrid wood/gas kiln, but provides no information about how outsiders can access, book, or participate in firings at this location.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      }
-    },
-    {
-      "id": "josephy",
-      "org": "josephy",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Joseph",
-      "city": "Joseph",
-      "urls": [
-        "https://josephy.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://josephy.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "josephy.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a 2-day Raku workshop with Julia Allen, but the full page text provided does not contain details about how to sign up, book, or access this workshop.",
-        "types": {},
-        "state": "OR",
-        "town": "Joseph",
-        "street": "403 N Main St, Joseph, OR"
-      },
-      "weak": true,
-      "located": {
-        "state": "OR",
-        "town": "Joseph",
-        "score": 3,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "access": {
-        "status": "ongoing"
-      },
-      "address": "12 - 4 pm 403 N Main St, Joseph, OR"
-    },
-    {
       "id": "multnomah-arts-center",
       "org": "Multnomah Arts Center",
       "kind": "city_arts",
@@ -1459,91 +1217,11 @@
         "state": "OR",
         "town": "PORTLAND",
         "score": 6,
-        "osm": false,
-        "date": "2026-10-14"
+        "osm": true,
+        "date": "2026-10-19"
       },
       "lat": 45.52025,
       "lng": -122.67419
-    },
-    {
-      "id": "munson-williams-proctor-arts-institute-or",
-      "org": "Munson-Williams-Proctor Arts Institute",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "salt"
-      ],
-      "region": "Oregon",
-      "city": null,
-      "urls": [
-        "https://www.munson.art/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.munson.art/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Join us for this summer's workshop to explore form, function, aesthetic values, textures, tactile qualities, and surface development of atmospheric firing through salt and wood.",
-        "url": "https://www.munson.art/product/30024",
-        "types": [
-          "salt",
-          "wood"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "munson.art"
-      }
-    },
-    {
-      "id": "cotuit-center-for-the-arts",
-      "org": "Cotuit Center for the Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Oregon",
-      "city": null,
-      "urls": [
-        "https://cotuit.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://cotuit.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Participants will have the opportunity to prepare and fire a few small bisque pieces throughout the day and discover how heat, smoke, and combustion create beautiful and unexpected results.",
-        "url": "https://cotuit.org/classes/saggar-workshop",
-        "types": [
-          "soda",
-          "salt",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "cotuit.org"
-      }
     },
     {
       "id": "guilford-art-center",
@@ -1584,168 +1262,20 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "reg130.imperisoft.com"
-      }
-    },
-    {
-      "id": "afterglow-portland",
-      "org": "Afterglow Portland",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Portland",
-      "city": "Portland",
-      "urls": [
-        "https://www.afterglowpdx.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Portland, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.afterglowpdx.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "pottery community offering classes, memberships, events, kiln services and private party hosting.",
-        "url": "https://www.afterglowpdx.com",
-        "types": [
-          "raku",
-          "wood",
-          "soda",
-          "salt",
-          "pit_barrel_saggar",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "afterglowpdx.com"
-      }
-    },
-    {
-      "id": "camp-clay",
-      "org": "camp clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Bend",
-      "city": "Bend",
-      "urls": [
-        "https://www.campclay.studio/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bend, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.campclay.studio/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "Largely designed around cone 6 oxidation ceramic processes,_camp_ offers member space, classes, workshops, and firing services for ceramic enthusiasts of all levels.",
-        "url": "https://www.campclay.studio/the-community-studio",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "campclay.studio"
-      }
-    },
-    {
-      "id": "ashley-b-artisticworks",
-      "org": "Ashley B Artisticworks",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Salem",
-      "city": "Salem",
-      "urls": [
-        "https://ashleybartisticworks.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Salem, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://ashleybartisticworks.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "All clay and kiln firings are included and no membership is required.",
-        "url": "https://ashleybartisticworks.com",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "ashleybartisticworks.com"
-      }
-    },
-    {
-      "id": "dragon-s-breath-pottery-and-supply",
-      "org": "Dragon's Breath Pottery and Supply",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Florence",
-      "city": "Florence",
-      "urls": [
-        "https://dragonsbreathpottery.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Florence, Oregon",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://dragonsbreathpottery.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "We have pricing per lb for bisque (▲06-04) and glaze (▲ 5/6) firings.",
-        "url": "https://dragonsbreathpottery.com/",
-        "types": [
-          "raku",
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "dragonsbreathpottery.com"
+      "verify": {
+        "by": "gemma-4-31b-it",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page is an error message and contains no information about ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -1817,6 +1347,46 @@
     {
       "id": "wildcraft-studios",
       "why": "Second check (claude-haiku-4.5): The page text shows WildCraft Studio School offers various craft classes (wheel throwing, stained glass, basketry, etc.) but contains no mention of ceramic firing techniques (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) or any way for outsiders to participate in such firings. (2026-10-09)"
+    },
+    {
+      "id": "cotuit-center-for-the-arts",
+      "why": "Its own pages give an address in MA (Cotuit), not OR. Moved. (2026-10-19)"
+    },
+    {
+      "id": "hiroshi-ogawa-s-kiln-hikarigama",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions that Jennifer Long attends firings at Hiroshi Ogawa's kiln, but it does not offer public access, classes, workshops, or rentals for outsiders to participate in firings at this location. (2026-10-19)"
+    },
+    {
+      "id": "club-mud-ceramics-cooperative",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions that the ceramics studio uses electric and gas kilns, but it does not offer any information about public access to non-electric firing techniques like raku, wood, soda, salt, or pit/barrel/saggar firing. (2026-10-19)"
+    },
+    {
+      "id": "anderson-ranch-art-center",
+      "why": "Second check (gemma-4-26b-a4b-it): The text lists the kilns available at Anderson Ranch Art Center but does not provide any information on how the public can participate in the firings. (2026-10-19)"
+    },
+    {
+      "id": "josephy",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions a ceramics studio and art workshops but does not contain any information or specific offers regarding non-electric firing services or classes for the public. (2026-10-19)"
+    },
+    {
+      "id": "munson-williams-proctor-arts-institute-or",
+      "why": "Second check (gemini-3.5-flash-lite): page says state is NY, not OR (2026-10-19)"
+    },
+    {
+      "id": "afterglow-portland",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text does not contain any information about ceramic firings or public access. (2026-10-19)"
+    },
+    {
+      "id": "camp-clay",
+      "why": "Second check (gemma-4-26b-a4b-it): The text only mentions cone 6 oxidation processes and electric Skutt kilns, with no mention of non-electric firing types. (2026-10-19)"
+    },
+    {
+      "id": "ashley-b-artisticworks",
+      "why": "Second check (gemini-3.5-flash-lite): The text explicitly states that their kilns are electric ('electric kilns'), which does not qualify for non-electric firing types like raku, wood, soda, salt, pit, or gas reduction. (2026-10-19)"
+    },
+    {
+      "id": "dragon-s-breath-pottery-and-supply",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions standard bisque and glaze firings (cones 06-04 and 5/6), which are electric kiln temperatures, and does not mention any non-electric firing techniques. (2026-10-19)"
     }
   ]
 }

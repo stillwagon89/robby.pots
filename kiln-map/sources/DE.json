@@ -29,10 +29,10 @@
         "key": "rebelpotters.kilnfire.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page describes a workshop on pit firing scheduled for May 16, 2026, with public participation where exact timing will be discussed among participants.",
+        "why": "The site lists a workshop for pit firing that is open for participants to join.",
         "types": {},
         "state": "",
         "town": ""
@@ -40,7 +40,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -91,11 +91,13 @@
         "key": "shop.app"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "No page text provided to verify public access details, location, or firing participation methods.",
-        "types": {},
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text explicitly invites the public to sign up for guided raku kiln sessions.",
+        "types": {
+          "raku": "Sign up for the transformative art of raku firing with our guided kiln sessions."
+        },
         "state": "",
         "town": ""
       },
@@ -104,7 +106,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -178,142 +180,10 @@
       "weak": false,
       "lat": 38.7734,
       "lng": -75.13796,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "the-bare-bowl-delaware-pottery-studios",
-      "org": "The Bare Bowl + Delaware Pottery Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Delaware",
-      "city": null,
-      "urls": [
-        "https://www.delawarepotterystudios.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.delawarepotterystudios.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Book one of our Glazing Classes approximately 4 weeks after your clay class. This allows enough time for your pottery to dry and complete its first firing before you return to glaze it.",
-        "url": "https://www.delawarepotterystudios.com/classes",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "delawarepotterystudios.com"
-      }
-    },
-    {
-      "id": "clay-art-space-de",
-      "org": "Clay Art Space",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Delaware",
-      "city": null,
-      "urls": [
-        "https://www.clayartspace.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.clayartspace.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
-        "url": "https://www.clayartspace.com/kiln-firing.html",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "clayartspace.com"
-      }
-    },
-    {
-      "id": "rehoboth-art-league",
-      "org": "Rehoboth Art League",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Rehoboth",
-      "city": "Rehoboth",
-      "urls": [
-        "https://www.rehobothartleague.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Rehoboth, Delaware",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.rehobothartleague.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Rehoboth Art League’s well-developed Pottery Studio and School has everything you need to create ceramic art—from available wheels to a hand building room, and from a wide selection of glazes to several kilns for firing work.",
-        "url": "https://www.rehobothartleague.org/education/open-studios/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "rehobothartleague.org"
-      }
-    },
-    {
-      "id": "pottery-mason",
-      "org": "Pottery Mason",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Rehoboth Beach",
-      "city": "Rehoboth Beach",
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Rehoboth Beach, Delaware",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
-      }
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "delaware-art-museum",
@@ -347,32 +217,20 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "delart.org"
-      }
-    },
-    {
-      "id": "living-kiln-pottery-studio-de",
-      "org": "Living Kiln Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Delaware",
-      "city": null,
-      "urls": [
-        "https://livingkilnpotterystudio.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://livingkilnpotterystudio.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "livingkilnpotterystudio.com"
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text contains no information about non-electric ceramic firings or public access to them.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -392,6 +250,26 @@
     {
       "id": "community-arts-center-de",
       "why": "Second check (claude-haiku-4.5): The text mentions soda-fired and wood-fired kilns at CAC but only describes a pottery sale event; it does not indicate that outsiders can take classes, workshops, or participate in actual firings. (2026-10-13)"
+    },
+    {
+      "id": "the-bare-bowl-delaware-pottery-studios",
+      "why": "Its own pages give an address in OH (Delaware), not DE. Moved. (2026-10-19)"
+    },
+    {
+      "id": "clay-art-space-de",
+      "why": "Its own pages give an address in AK (Anchorage), not DE. Moved. (2026-10-19)"
+    },
+    {
+      "id": "rehoboth-art-league",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions a pottery studio and several kilns for firing work, but provides no specific details or qualifying sentences showing public participation in non-electric ceramic firings such as raku, wood, soda, salt, pit, or gas reduction. (2026-10-19)"
+    },
+    {
+      "id": "pottery-mason",
+      "why": "Second check (gemini-3.1-flash-lite): The website is an educational and research platform for glaze chemistry and ceramics data, not a studio offering public access to non-electric firing services or workshops. (2026-10-19)"
+    },
+    {
+      "id": "living-kiln-pottery-studio-de",
+      "why": "Second check (gemini-3.1-flash-lite): The studio only mentions standard electric kiln firings (cone 04 and cone 6) and does not offer any non-electric firing methods like raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
     }
   ]
 }

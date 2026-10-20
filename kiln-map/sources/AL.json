@@ -70,18 +70,20 @@
         "key": "al.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "No page text provided to verify public access, location details, or firing participation methods.",
-        "types": {},
+        "by": "gemini-3-flash-preview",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text invites the public to join a raku workshop where they can glaze and fire their own pots.",
+        "types": {
+          "raku": "Students will be able to bring pots they have already created and bisque fired to glaze and raku fire at our studio"
+        },
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -250,10 +252,10 @@
         "key": "potterylist.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions raku and horse hair firing but the actual page text is empty, so public access cannot be verified from the page itself.",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information regarding public access to non-electric firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -263,7 +265,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -337,77 +339,6 @@
       "lng": -88.04375
     },
     {
-      "id": "celeste-sabel-haynie",
-      "org": "Celeste Sabel Haynie",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Boykin",
-      "city": "Boykin",
-      "urls": [
-        "https://www.blackbelttreasures.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Boykin, Alabama",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.blackbelttreasures.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "She does gas reduction-firing and wood-firing. Her most recent works are saggar, raku, and horsehair ...",
-        "url": "https://www.blackbelttreasures.com/store/m/80-Celeste-Sabel-Haynie.aspx",
-        "types": [
-          "gas_reduction",
-          "wood",
-          "raku",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "blackbelttreasures.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The page mentions Celeste Sabel Haynie does gas reduction-firing, wood-firing, saggar, and raku in search snippets, but the actual page text shows only a general arts center with pottery classes (wheel throwing and hand-building) with no specific mention of public access to non-electric firings like raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction.",
-        "types": {},
-        "state": "AL",
-        "town": "Camden",
-        "street": "209 Claiborne Street"
-      },
-      "weak": true,
-      "located": {
-        "state": "AL",
-        "town": "Boykin",
-        "score": 8,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "no",
-        "result": "split",
-        "date": "2026-10-07"
-      },
-      "lat": 32.07114,
-      "lng": -87.29098
-    },
-    {
       "id": "eastern-shore-art-center",
       "org": "Eastern Shore Art Center",
       "kind": "city_arts",
@@ -478,63 +409,6 @@
       "lng": -87.75166
     },
     {
-      "id": "shelby-county-arts-council",
-      "org": "Shelby County Arts Council",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Columbiana",
-      "city": "Columbiana",
-      "urls": [
-        "https://shelbycountyartscouncil.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://shelbycountyartscouncil.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "shelbycountyartscouncil.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a Raku kiln in the studio, and pottery classes are offered, but the page text does not explicitly state how outsiders can participate in a raku firing (class, workshop, membership, rental, firing service, or invitation to contact).",
-        "types": {},
-        "state": "AL",
-        "town": "Columbiana"
-      },
-      "weak": true,
-      "located": {
-        "state": "AL",
-        "town": "Columbiana",
-        "score": 19,
-        "osm": true,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-07"
-      },
-      "access": {
-        "status": "ongoing"
-      },
-      "address": "105 West College St., Columbiana, AL 35051",
-      "lat": 33.17691,
-      "lng": -86.60859
-    },
-    {
       "id": "university-of-montevallo",
       "org": "University of Montevallo",
       "kind": "college",
@@ -562,20 +436,20 @@
         "key": "flashandash.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page text provided is empty; only search snippets mention the anagama kiln, but contain no information about public access, workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate in firings.",
+        "by": "gemini-3-flash-preview",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The text describes the history and construction of the anagama kiln at the university but does not mention if the public can participate.",
         "types": {},
         "state": "",
-        "town": ""
+        "town": "Montevallo"
       },
       "weak": true,
       "lat": 33.10067,
       "lng": -86.86416,
       "located": {
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -652,181 +526,6 @@
       "approved": "2026-10-09"
     },
     {
-      "id": "kentuck-s-workshops",
-      "org": "Kentuck's Workshops",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Northport",
-      "city": "Northport",
-      "urls": [
-        "https://workshops.kentuck.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Northport, Alabama",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://workshops.kentuck.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Open studio is the opportunity for people to utilize our materials and equipment to work on personal projects in our clay studio.",
-        "url": "https://workshops.kentuck.org/kilnfiringservices",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "workshops.kentuck.org"
-      }
-    },
-    {
-      "id": "clay-art-space-al",
-      "org": "Clay Art Space",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Alabama",
-      "city": null,
-      "urls": [
-        "https://www.clayartspace.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.clayartspace.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
-        "url": "https://www.clayartspace.com/kiln-firing.html",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "clayartspace.com"
-      }
-    },
-    {
-      "id": "cahaba-clayworks",
-      "org": "Cahaba Clayworks",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Alabama",
-      "city": null,
-      "urls": [
-        "https://earthbornpottery.net/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://earthbornpottery.net/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Cost is $275 for a 6 week class including instruction, 25 lbs of clay, glazing and firing.",
-        "url": "https://earthbornpottery.net/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "earthbornpottery.net"
-      }
-    },
-    {
-      "id": "gomry-al",
-      "org": "Gomry",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Alabama",
-      "city": null,
-      "urls": [
-        "https://www.gomry.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.gomry.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "PitFire Workshop | Gomry: Learn the ancient technique of pit-fired ceramics and fire your own pieces in Kickwheel's on-site | Date: December 19, 2026 | Get tickets now on Gomry.",
-        "url": "https://www.gomry.com/event/PitFire-Workshop-V7Q0pjPDroV8CzH62q7o",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "gomry.com"
-      }
-    },
-    {
-      "id": "uab",
-      "org": "UAB",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Birmingham",
-      "city": "Birmingham",
-      "urls": [
-        "https://calendar.uab.edu/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Birmingham, Alabama",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://calendar.uab.edu/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "calendar.uab.edu"
-      }
-    },
-    {
       "id": "uab-campus-labs",
       "org": "UAB Campus Labs",
       "kind": "studio",
@@ -858,222 +557,20 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "uab.campuslabs.com"
-      }
-    },
-    {
-      "id": "n-a-al",
-      "org": "N/A",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Birmingham",
-      "city": "Birmingham",
-      "urls": [
-        "https://bhamnow.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Birmingham, Alabama",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://bhamnow.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "bhamnow.com"
-      }
-    },
-    {
-      "id": "space-one-eleven-arts-center",
-      "org": "SPACE ONE ELEVEN ARTS CENTER",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Alabama",
-      "city": null,
-      "urls": [
-        "https://spaceoneeleven.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://spaceoneeleven.org/"
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "This workshop is taught by John Oles. John Oles was born in Wrentham, Massachusetts, and holds a BFA in Ceramics from the University of Massachusetts (1998) and an MFA from Tulane University (2008) in New Orleans, Louisiana. John taught ceramics at Loyola University from 2008-2013. Currently, John is Associate Professor of Ceramics at Jacksonville State University in Jacksonville, AL.",
-        "url": "https://spaceoneeleven.org/artfixclasses/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "spaceoneeleven.org"
-      }
-    },
-    {
-      "id": "my-ceramicmaterialsworkshop-al",
-      "org": "my.ceramicmaterialsworkshop",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Alabama",
-      "city": null,
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
-      }
-    },
-    {
-      "id": "moon-struck-pottery-and-makers-space",
-      "org": "Moon Struck Pottery and Makers Space",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Mobile",
-      "city": "Mobile",
-      "urls": [
-        "https://moonstruckpottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Mobile, Alabama",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://moonstruckpottery.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "moonstruckpottery.com"
-      }
-    },
-    {
-      "id": "the-arts-and-humanities-council-of-tuscaloosa-co",
-      "org": "The Arts and Humanities Council of Tuscaloosa County",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Tuscaloosa",
-      "city": "Tuscaloosa",
-      "urls": [
-        "https://tuscarts.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tuscaloosa, Alabama",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://tuscarts.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Students will pay a fee of $40 that includes use of the studio for 3 hours, 2 pounds of clay, paint-on glazes and kiln firings.",
-        "url": "https://tuscarts.org/event/open-studio-clay-16/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "tuscarts.org"
-      }
-    },
-    {
-      "id": "druid-city-makerspace",
-      "org": "Druid City Makerspace",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Tuscaloosa",
-      "city": "Tuscaloosa",
-      "urls": [
-        "https://druidcitymakerspace.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tuscaloosa, Alabama",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://druidcitymakerspace.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Hands on pottery drop in at Makers Space Saturdays from 5-7.",
-        "url": "https://druidcitymakerspace.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "druidcitymakerspace.com"
-      }
-    },
-    {
-      "id": "the-kiln-studio-and-gallery",
-      "org": "The Kiln Studio and Gallery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Fairhope",
-      "city": "Fairhope",
-      "urls": [
-        "https://fairhopers.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fairhope, Alabama",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://fairhopers.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Beginner classes include the use of tools and equipment, 25 lbs. of clay, glazes, bisque firings, and glaze firings.",
-        "url": "https://fairhopers.com/the-kiln-studio-and-gallery-fairhope-al/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "fairhopers.com"
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided text is a login portal for the UAB Central Authentication Service and contains no information regarding ceramic firing services or public access to kilns.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -1107,118 +604,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "stillpointauburn.com"
-      }
-    },
-    {
-      "id": "mudfire-studio",
-      "org": "MudFire Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Decatur",
-      "city": "Decatur",
-      "urls": [
-        "https://garnishandgather.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Decatur, Alabama",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://garnishandgather.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Our studio membership includes 57 hours of access per week and the use of our studio tools, equipment and over 80 glazes.",
-        "url": "https://garnishandgather.com/meet-deanna-of-decatur-s-mudfire-studio",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 32.60986,
+      "lng": -85.48078,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "garnishandgather.com"
-      }
-    },
-    {
-      "id": "mudfire-pottery-studio-al",
-      "org": "MudFire Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "soda"
-      ],
-      "region": "Decatur",
-      "city": "Decatur",
-      "urls": [
-        "https://scienceatl.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Decatur, Alabama",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://scienceatl.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We have electric, gas, raku, and soda firing regularly at the studio.",
-        "url": "https://scienceatl.org/science-behind-pottery-mudfire-pottery-studio/",
-        "types": [
-          "raku",
-          "soda"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "scienceatl.org"
-      }
-    },
-    {
-      "id": "atlantaclay",
-      "org": "atlantaclay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Alabama",
-      "city": null,
-      "urls": [
-        "https://atlantaclay.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://atlantaclay.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Your membership is an all-access pass to all of the tools, equipment, glazes, firings, and all of the knowledge you seek about ceramics.",
-        "url": "https://atlantaclay.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "atlantaclay.com"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about ceramic firings or public access.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -1246,6 +647,74 @@
     {
       "id": "makebhm",
       "why": "Second check (claude-haiku-4.5): The search snippets mention ceramics classes and memberships with firing services, but do not specify any non-electric firing types (raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction); only cone 5/6 and cone 10 electric kiln firings are mentioned. (2026-10-07)"
+    },
+    {
+      "id": "clay-art-space-al",
+      "why": "Its own pages give an address in AK (Anchorage), not AL. Moved. (2026-10-19)"
+    },
+    {
+      "id": "gomry-al",
+      "why": "Its own pages give an address in CA (San Francisco), not AL. Moved. (2026-10-19)"
+    },
+    {
+      "id": "mudfire-studio",
+      "why": "Its own pages give an address in GA (Atlanta), not AL. Moved. (2026-10-19)"
+    },
+    {
+      "id": "celeste-sabel-haynie",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions pottery classes involving wheel-throwing and hand-building, but it does not specify that any non-electric firing techniques (such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction) are available for public participation. (2026-10-19)"
+    },
+    {
+      "id": "shelby-county-arts-council",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions a Raku kiln in the snippets and a pottery collective member who creates raku, but it does not show that outsiders can join or sign up for a non-electric ceramic firing. (2026-10-19)"
+    },
+    {
+      "id": "kentuck-s-workshops",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions general kiln firing services and open studio, but contains no mention of raku, wood/anagama, soda, salt, pit/barrel/saggar, or gas-reduction firings. (2026-10-19)"
+    },
+    {
+      "id": "cahaba-clayworks",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions general pottery classes and workshops without specifying that they include any non-electric firing techniques such as raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "uab",
+      "why": "Second check (gemini-3-flash-preview): The provided text does not mention any of the specified non-electric ceramic firing types or related workshops. (2026-10-19)"
+    },
+    {
+      "id": "n-a-al",
+      "why": "Second check (gemini-3.5-flash-lite): The site is a local media and news publication (Bham Now) rather than a specific pottery studio offering non-electric ceramic firings. (2026-10-19)"
+    },
+    {
+      "id": "space-one-eleven-arts-center",
+      "why": "Second check (gemini-3-flash-preview): The text mentions an instructor's personal interest in atmospheric firings but does not state that the center offers non-electric firings to the public. (2026-10-19)"
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop-al",
+      "why": "Second check (gemma-4-31b-it): The site is an educational resource and research library for glaze chemistry and does not offer public access to non-electric firings. (2026-10-19)"
+    },
+    {
+      "id": "moon-struck-pottery-and-makers-space",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text does not mention any non-electric ceramic firing methods such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction firings. (2026-10-19)"
+    },
+    {
+      "id": "the-arts-and-humanities-council-of-tuscaloosa-co",
+      "why": "Second check (gemini-3-flash-preview): The provided text does not mention any non-electric ceramic firings, focusing instead on theater events, watercolor classes, and general arts council activities. (2026-10-19)"
+    },
+    {
+      "id": "druid-city-makerspace",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions pottery drop-in classes that include firing, but it does not specify that these firings are non-electric, and no other non-electric firing methods are mentioned. (2026-10-19)"
+    },
+    {
+      "id": "the-kiln-studio-and-gallery",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions that the studio offers pottery classes and workshops, but it does not specify that these include any non-electric firing techniques or provide an invitation for the public to participate in such firings. (2026-10-19)"
+    },
+    {
+      "id": "mudfire-pottery-studio-al",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text is from the Science ATL website and only contains search snippets mentioning MudFire Pottery Studio; it does not provide the studio's address, state, or any direct booking information for non-electric firings. (2026-10-19)"
+    },
+    {
+      "id": "atlantaclay",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions classes and studio membership, but does not provide details or quotes showing public access to non-electric ceramic firings. (2026-10-19)"
     }
   ]
 }

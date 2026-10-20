@@ -123,10 +123,10 @@
       "address": "2663 Elmridge Dr, NW Grand Rapids, MI 49534",
       "lat": 42.96324,
       "lng": -85.66786,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "kalamazoo-institute-of-arts",
@@ -257,10 +257,10 @@
       "address": "2692 Carpenter St., Hamtramck, MI",
       "lat": 42.40581,
       "lng": -83.06545,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "the-potters-guild",
@@ -323,10 +323,10 @@
       "address": "201 Hill St, Ann Arbor, MI 48104",
       "lat": 42.27204,
       "lng": -83.74738,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "yourist-studio-gallery",
@@ -395,10 +395,10 @@
       "address": "6087 Jackson Road, Ann Arbor, MI 48103",
       "lat": 42.29048,
       "lng": -83.84916,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "creative-arts-studios",
@@ -460,10 +460,10 @@
       "address": "114 West 4th Street, Royal Oak, MI 48067",
       "lat": 42.48736,
       "lng": -83.14448,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "clayspacetc",
@@ -526,10 +526,10 @@
       "address": "1455 Barlow Street, Traverse City, MI",
       "lat": 44.74254,
       "lng": -85.60516,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "glen-arbor-arts-center",
@@ -591,10 +591,10 @@
       "address": "6031 South Lake Street, Glen Arbor, MI 49636",
       "lat": 44.89648,
       "lng": -85.98772,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "clawson-clay-guild",
@@ -621,36 +621,38 @@
         "how": "Dated workshop or firing event",
         "note": "Dated workshop or firing event",
         "quote": "RAKU CLASSES Single day and 6-Week classes $75 for one day, $295 for 6-Weeks Master this Japanese firing technique for vibrant glazes and stunning designs while connecting with fellow clay enthusiasts!",
-        "url": "https://www.clawsonclayguild.com",
+        "url": "https://www.clawsonclayguild.com/",
         "types": [
           "raku"
         ],
         "checked": "2026-10-08",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-08",
         "key": "clawsonclayguild.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page offers raku classes open to the public at $75 for one day or $295 for 6-weeks, with a clear statement that outsiders can join via class enrollment.",
-        "types": {},
+        "why": "The studio offers Raku classes that are open to the public for sign-up.",
+        "types": {
+          "raku": "RAKU CLASSES Single day and 6-Week classes $75 for one day, $295 for 6-Weeks Master this Japanese firing technique for vibrant glazes and stunning designs while connecting with fellow clay enthusiasts! View Class Schedule"
+        },
         "state": "MI",
         "town": "Clawson",
         "street": "120 S. Rochester Rd."
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "MI",
         "town": "Clawson",
         "score": 3,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -660,7 +662,8 @@
       },
       "address": "120 S. Rochester Rd., Clawson, MI 48017",
       "lat": 42.53008,
-      "lng": -83.13682
+      "lng": -83.13682,
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "ann-arbor-potters-guild",
@@ -702,14 +705,14 @@
         "key": "aadl.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "The page text is from the Ann Arbor District Library website and mentions the Ann Arbor Potters Guild only in a search snippet describing their firing techniques, but provides no information about public access to any firings, classes, workshops, memberships, or firing services.",
+        "why": "The provided page text contains no information about public participation in non-electric ceramic firings at the Ann Arbor Potters Guild, as the text only covers library services, events, and news for the Ann Arbor District Library.",
         "types": {},
         "state": "MI",
         "town": "Ann Arbor",
-        "street": "201 Hill St"
+        "street": "343 South Fifth Ave."
       },
       "weak": true,
       "located": {
@@ -717,7 +720,7 @@
         "town": "Ann Arbor",
         "score": 20,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -726,216 +729,6 @@
         "date": "2026-10-08"
       },
       "address": "4200 343 South Fifth Ave., Ann Arbor, MI 48104"
-    },
-    {
-      "id": "cotuit-center-for-the-arts-mi",
-      "org": "Cotuit Center for the Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Michigan",
-      "city": null,
-      "urls": [
-        "https://cotuit.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://cotuit.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Participants will have the opportunity to prepare and fire a few small bisque pieces throughout the day and discover how heat, smoke, and combustion create beautiful and unexpected results.",
-        "url": "https://cotuit.org/classes/saggar-workshop",
-        "types": [
-          "soda",
-          "salt",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "cotuit.org"
-      }
-    },
-    {
-      "id": "munson-mi",
-      "org": "Munson",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "salt"
-      ],
-      "region": "Michigan",
-      "city": null,
-      "urls": [
-        "https://www.munson.art/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.munson.art/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "This workshop is geared towards k-12 educators but is open for all.",
-        "url": "https://www.munson.art/product/32608",
-        "types": [
-          "salt"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "munson.art"
-      }
-    },
-    {
-      "id": "eastown-pottery",
-      "org": "Eastown Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Grand Rapids",
-      "city": "Grand Rapids",
-      "urls": [
-        "https://www.eastownpottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Grand Rapids, Michigan",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.eastownpottery.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Included firing and glazes",
-        "url": "https://www.eastownpottery.com",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "eastownpottery.com"
-      }
-    },
-    {
-      "id": "the-ceramics-studio-etc",
-      "org": "The Ceramics Studio Etc",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Michigan",
-      "city": null,
-      "urls": [
-        "https://theceramicstudioetc.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://theceramicstudioetc.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Instruction and firing for your finished pieces",
-        "url": "https://theceramicstudioetc.com/events",
-        "types": [
-          "wood",
-          "gas_reduction",
-          "soda",
-          "salt",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "theceramicstudioetc.com"
-      }
-    },
-    {
-      "id": "west-michigan-potters-guild",
-      "org": "West Michigan Potters Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Michigan",
-      "city": null,
-      "urls": [
-        "https://westmichiganpottersguild.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://westmichiganpottersguild.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The public is invited to attend workshops and bi-annual shows sponsored by the guild and experience the wealth of talent and knowledge this guild has to offer.",
-        "url": "https://westmichiganpottersguild.com",
-        "types": [
-          "wood",
-          "raku",
-          "gas_reduction",
-          "soda",
-          "salt",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "westmichiganpottersguild.com"
-      }
     }
   ],
   "_removed": [
@@ -1014,6 +807,26 @@
     {
       "id": "macomb-community-college",
       "why": "Second check (claude-haiku-4.5): The page text mentions 'Raku Firing Cycles' in search snippets but provides no details about public access, class registration, or how outsiders can participate in any ceramic firing on the actual page content provided. (2026-10-09)"
+    },
+    {
+      "id": "cotuit-center-for-the-arts-mi",
+      "why": "Its own pages give an address in MA (Cotuit), not MI. Moved. (2026-10-19)"
+    },
+    {
+      "id": "munson-mi",
+      "why": "Second check (gemini-3.1-flash-lite): page says state is NY, not MI (2026-10-19)"
+    },
+    {
+      "id": "eastown-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions general kiln firings and low to mid-range electric/standard studio firings, but does not state or show any specific non-electric firing types such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "the-ceramics-studio-etc",
+      "why": "Second check (gemma-4-31b-it): The text mentions kiln firing for pottery painting and stoneware but does not mention any non-electric firing types such as raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "west-michigan-potters-guild",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions that the public is invited to attend workshops and shows sponsored by the guild, but it does not specify any public-accessible non-electric ceramic firings such as raku, wood, or soda. (2026-10-19)"
     }
   ]
 }

@@ -161,10 +161,10 @@
         "key": "madewithclay.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page states 'I offer Alternative Firing workshops and private lessons at my studio. Send me a message If interested in these and I'll get back with you to discuss your interests,' providing a clear invitation for outsiders to contact them to join workshops and private lessons in alternative firing techniques including raku, pit fire, and saggar.",
+        "why": "The studio offers alternative firing workshops and private lessons to the public, with an invitation to contact the owner to discuss interests.",
         "types": {},
         "state": "MD",
         "town": "Huntingtown"
@@ -173,7 +173,7 @@
       "lng": -76.46257,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "weak": true,
       "agree": {
@@ -224,10 +224,10 @@
         "key": "hfclay.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a raku and pit firing workshop, but the page text provided is empty, so I cannot verify the location details or confirm public access from the actual page content.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no verifiable information about public access or firing types on the page.",
         "types": {},
         "state": "",
         "town": ""
@@ -235,7 +235,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -285,10 +285,10 @@
         "key": "canvas.districtclaycenter.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a workshop with pit firing and naked raku, but the actual page text provided is empty, so I cannot verify the details or confirm public access from the page itself.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information or quote showing public participation in a non-electric ceramic firing.",
         "types": {},
         "state": "",
         "town": ""
@@ -296,7 +296,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -304,72 +304,6 @@
         "result": "split",
         "date": "2026-10-08"
       }
-    },
-    {
-      "id": "fox-haven-organic-farm-learning-center",
-      "org": "Fox Haven Organic Farm & Learning Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Jefferson",
-      "city": "Jefferson",
-      "urls": [
-        "https://foxhavenfarm.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://foxhavenfarm.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "In this two-part workshop, we’ll work directly with the land—gathering clay, shaping it by hand, and firing it in an open pit using natural materials.",
-        "url": "https://foxhavenfarm.org/events/earth-to-fire-foraging-wild-clay-pit-fired-pottery-two-part-workshop/",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "foxhavenfarm.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "The search snippet explicitly describes a two-part workshop where outsiders can participate in pit-fired pottery, a non-electric ceramic firing technique.",
-        "types": {},
-        "state": "MD",
-        "town": "Jefferson",
-        "street": "3630 Poffenberger Rd, Jefferson, MD 21755"
-      },
-      "weak": true,
-      "located": {
-        "state": "MD",
-        "town": "Jefferson",
-        "score": 10,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "address": "3630 Poffenberger Rd, Jefferson, MD 21755",
-      "lat": 39.3711,
-      "lng": -77.54343
     },
     {
       "id": "visarts-md",
@@ -431,10 +365,10 @@
       "address": "155 Gibbs Street, Rockville, MD 20850",
       "lat": 39.08677,
       "lng": -77.15181,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "kilnjoy-ceramics",
@@ -504,10 +438,10 @@
         "date": "2026-10-09"
       },
       "address": "2023 from 10am-3pm 22201 Pondsville Rd., Smithsburg, MD",
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "joe-hicks-ceramics",
@@ -559,7 +493,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -569,70 +503,6 @@
       },
       "lat": 38.93648,
       "lng": -76.9597
-    },
-    {
-      "id": "timisaacpottery-md",
-      "org": "timisaacpottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Maryland",
-      "city": null,
-      "urls": [
-        "https://www.timisaacpottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.timisaacpottery.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "timisaacpottery.com"
-      }
-    },
-    {
-      "id": "catoctin-creek-pottery",
-      "org": "Catoctin Creek Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Frederick",
-      "city": "Frederick",
-      "urls": [
-        "https://catoctincreekpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Frederick, Maryland",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://catoctincreekpottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "At Catoctin Creek Pottery, we offer hands-on pottery classes, workshops, private experiences, and kiln firing services for beginners, hobbyists, and experienced ceramic artists.",
-        "url": "https://catoctincreekpottery.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "catoctincreekpottery.com"
-      }
     },
     {
       "id": "the-creative-hollow",
@@ -666,6 +536,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "thecreativehollow.com"
+      },
+      "lat": 38.99976,
+      "lng": -77.02404,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text contains no information about non-electric ceramic firings or public access.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -699,160 +585,85 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "crackedpottery.com"
+      },
+      "lat": 39.44452,
+      "lng": -76.64835,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text contains no information regarding non-electric firing services or public access to such firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
-      "id": "the-clay-coop",
-      "org": "The Clay CoOp",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Baltimore",
-      "city": "Baltimore",
-      "urls": [
-        "https://baltimore.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Baltimore, Maryland",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://baltimore.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Clay CoOp is a membership-based pottery studio in Baltimore where individual potters and ceramicists rent shared workspace, kilns, and equipment rather than buy their own.",
-        "url": "https://baltimore.com/arts-entertainment/art-galleries/the-clay-coop",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "baltimore.com"
-      }
-    },
-    {
-      "id": "my-ceramicmaterialsworkshop",
-      "org": "my.ceramicmaterialsworkshop",
+      "id": "glen-echo-park-dc",
+      "org": "Glen Echo Park",
       "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Annapolis",
-      "city": "Annapolis",
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Annapolis, Maryland",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
-      }
-    },
-    {
-      "id": "salisbury-art-space",
-      "org": "Salisbury Art Space",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Salisbury",
-      "city": "Salisbury",
-      "urls": [
-        "https://salisburyartspace.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Salisbury, Maryland",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://salisburyartspace.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "salisburyartspace.org"
-      }
-    },
-    {
-      "id": "twin-moons-pottery",
-      "org": "Twin Moons Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Hagerstown",
-      "city": "Hagerstown",
-      "urls": [
-        "https://www.twinmoonspottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Hagerstown, Maryland",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.twinmoonspottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "What is included: Instruction, 12 1/2 pounds of high fire clay, use of studio equipment, bisque and final glaze firings of pieces made in class, high fire glazes on pieces created in class.",
-        "url": "http://www.twinmoonspottery.com/Services.html",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "twinmoonspottery.com"
-      }
-    },
-    {
-      "id": "chesapeake-arts-center",
-      "org": "Chesapeake Arts Center",
-      "kind": "city_arts",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
         "gas_reduction"
       ],
-      "region": "Maryland",
-      "city": null,
+      "region": "Glen Echo",
+      "city": "Glen Echo",
       "urls": [
-        "https://www.chesapeakearts.org/"
+        "https://www.glenechopottery.org/"
       ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "address",
       "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_note": "Exact address from their page.",
       "contact": {
-        "website": "https://www.chesapeakearts.org/"
+        "website": "https://www.glenechopottery.org/"
       },
-      "review": "pending",
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Students' pieces are fired to cone 10 in a gas reduction kiln.",
+        "url": "https://www.glenechopottery.org/classes.html",
+        "types": [
+          "gas_reduction"
+        ],
+        "checked": "2026-10-14"
+      },
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-14",
-        "key": "chesapeakearts.org"
-      }
+        "key": "glenechopottery.org"
+      },
+      "weak": false,
+      "located": {
+        "state": "MD",
+        "town": "Glen Echo",
+        "score": 11,
+        "osm": true,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text shows that outsiders can take classes to participate in gas reduction firings.",
+        "types": {
+          "gas_reduction": "Students' pieces are fired to cone 10 in a gas reduction kiln."
+        },
+        "state": "MD",
+        "town": "Glen Echo",
+        "street": "7300 MacArthur Boulevard"
+      },
+      "address": "7300 MacArthur Boulevard, Glen Echo, MD 20812",
+      "auto_approved": "2026-10-20",
+      "lat": 38.96691,
+      "lng": -77.13874
     }
   ],
   "_removed": [
@@ -907,6 +718,38 @@
     {
       "id": "annapolis-moms",
       "why": "Second check (claude-haiku-4.5): Annapolis Moms is a community media/events directory website with no address or location of its own, and the search snippet mentions a raku firing event but the page text provided does not contain any details about how to access or participate in that firing. (2026-10-14)"
+    },
+    {
+      "id": "fox-haven-organic-farm-learning-center",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not contain any information about ceramic firing services, classes, or workshops, despite the search snippet mentioning a pit-firing workshop. (2026-10-19)"
+    },
+    {
+      "id": "timisaacpottery-md",
+      "why": "Second check (gemini-3.5-flash-lite): page says state is NB, not MD (2026-10-19)"
+    },
+    {
+      "id": "catoctin-creek-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions electric kiln firing services (bisque and glaze) and does not offer any non-electric firing methods such as raku, wood, soda, salt, or pit/barrel/saggar. (2026-10-19)"
+    },
+    {
+      "id": "the-clay-coop",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not contain information about The Clay CoOp offering non-electric ceramic firings to the public. (2026-10-19)"
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop",
+      "why": "Second check (gemma-4-31b-it): The site is an online educational resource and software provider; it does not offer public participation in non-electric firings. (2026-10-19)"
+    },
+    {
+      "id": "salisbury-art-space",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions a full-service on-site ceramics studio, but contains no details about non-electric ceramic firing methods such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "twin-moons-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not mention any non-electric firing services or opportunities for the public to participate in such firings. (2026-10-19)"
+    },
+    {
+      "id": "chesapeake-arts-center",
+      "why": "Second check (gemma-4-31b-it): The text mentions ceramics classes and kilns but does not specify any non-electric firing types. (2026-10-19)"
     }
   ]
 }

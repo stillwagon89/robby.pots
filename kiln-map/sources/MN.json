@@ -61,72 +61,6 @@
       "lng": -90.33722
     },
     {
-      "id": "warroad-riverplace",
-      "org": "Warroad RiverPlace",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Warroad",
-      "city": "Warroad",
-      "urls": [
-        "https://www.warroadriverplace.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://www.warroadriverplace.org/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "A rare opportunity to join former exhibiting artist Robin Foster for an immersive workshop and live Raku firing demonstration.",
-        "url": "https://www.warroadriverplace.org/events/raku-fall2026",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "warroadriverplace.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a Raku Ceramic Workshop with live firing demonstration, but the full page text provided does not contain details about how to register, book, or join this specific workshop.",
-        "types": {},
-        "state": "MN",
-        "town": "Warroad",
-        "street": "103 State Avenue"
-      },
-      "weak": true,
-      "located": {
-        "state": "MN",
-        "town": "Warroad",
-        "score": 23,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "address": "103 State Avenue, Warroad, MN 56763",
-      "lat": 48.9025,
-      "lng": -95.32021
-    },
-    {
       "id": "buffalo-art-guild",
       "org": "Buffalo Art Guild",
       "kind": "city_arts",
@@ -193,10 +127,10 @@
       "address": "114 Commerce Cir, Buffalo, MN 55313",
       "lat": 45.1964,
       "lng": -93.87333,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "minnetonka-center-for-the-arts",
@@ -265,10 +199,10 @@
       "address_found": "2240 North Shore Drive, Wayzata, MN 55391-9347",
       "lat": 44.97076,
       "lng": -93.51195,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "north-house-folk-school",
@@ -330,10 +264,10 @@
       "address": "500 W Hwy 61, Grand Marais, MN 55604",
       "lat": 47.74909,
       "lng": -90.34037,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "the-workshop-mpls",
@@ -405,182 +339,6 @@
       "approved": "2026-10-15"
     },
     {
-      "id": "nemaa",
-      "org": "NEMAA",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "soda"
-      ],
-      "region": "Minneapolis",
-      "city": "Minneapolis",
-      "urls": [
-        "https://nemaa.org/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Minneapolis, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://nemaa.org/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "We welcome the community to our firings and offer a supportive, inclusive place for all to come play!",
-        "url": "https://nemaa.org/partners/the-workshop-mpls/",
-        "types": [
-          "raku",
-          "soda"
-        ],
-        "checked": "2026-10-07",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "nemaa.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippets mention raku and soda kilns with 'we welcome the community to our firings' but the actual page text provided does not contain this information—only directory and membership pages are shown.",
-        "types": {},
-        "state": "MN",
-        "town": "Minneapolis"
-      },
-      "lat": 44.9773,
-      "lng": -93.26547,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "weak": true,
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "ceramicsow",
-      "org": "ceramicsow",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Minnesota",
-      "city": null,
-      "urls": [
-        "https://www.ceramicsow.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.ceramicsow.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-09",
-        "key": "ceramicsow.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page describes classes and a gallery but provides no information about public access to any non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
-        "types": {},
-        "state": "MN",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "access": {
-        "status": "ongoing"
-      }
-    },
-    {
-      "id": "the-clay-pit",
-      "org": "The Clay Pit",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Minneapolis",
-      "city": "Minneapolis",
-      "urls": [
-        "https://www.theclaypitstudio.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Minneapolis, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.theclaypitstudio.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "The Clay Pit offers professional kiln firing services in Minneapolis for ceramic artists of all experience levels.",
-        "url": "https://www.theclaypitstudio.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "theclaypitstudio.com"
-      }
-    },
-    {
-      "id": "clay-art-space",
-      "org": "Clay Art Space",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Minnesota",
-      "city": null,
-      "urls": [
-        "https://www.clayartspace.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.clayartspace.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
-        "url": "https://www.clayartspace.com/kiln-firing.html",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "clayartspace.com"
-      }
-    },
-    {
       "id": "the-saint-john-s-pottery-mn",
       "org": "The Saint John’s Pottery",
       "kind": "studio",
@@ -589,15 +347,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Minnesota",
-      "city": null,
+      "region": "Collegeville",
+      "city": "Collegeville",
       "urls": [
         "https://www.csbsju.edu/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "geocode": "Collegeville, Minnesota",
+      "location_note": "Shown at the town.",
       "contact": {
         "website": "https://www.csbsju.edu/"
       },
@@ -614,67 +372,27 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "csbsju.edu"
-      }
-    },
-    {
-      "id": "red-wing-arts",
-      "org": "Red Wing Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Red Wing",
-      "city": "Red Wing",
-      "urls": [
-        "https://redwingarts.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Red Wing, Minnesota",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://redwingarts.org/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "For ceramic artists whose work exceeds the one bisque and one glaze firing offered per punch card, we also offer firings at the following rates: 1/3 kiln load=$15, 1/2 kiln load=$22, 2/3 kiln load=$30, Full kiln load=$45.",
-        "url": "https://redwingarts.org/calendar-of-events/2026/8/11/artspeak",
-        "types": [],
-        "checked": "2026-10-14"
+      "weak": true,
+      "located": {
+        "state": "MN",
+        "town": "Collegeville",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "redwingarts.org"
-      }
-    },
-    {
-      "id": "art-heads-emporium",
-      "org": "Art Heads Emporium",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Minnesota",
-      "city": null,
-      "urls": [
-        "https://www.artheadsemporium.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.artheadsemporium.com/"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text contains no information about public ceramic firings or ways for outsiders to participate in such events.",
+        "types": {},
+        "state": "MN",
+        "town": "Collegeville",
+        "street": "2850 Abbey Plaza"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "artheadsemporium.com"
-      }
+      "lat": 45.54323,
+      "lng": -94.44487
     }
   ],
   "_removed": [
@@ -729,6 +447,34 @@
     {
       "id": "beste-s-sporting-clays-and-pheasant-hunting-pres",
       "why": "Second check (claude-haiku-4.5): This is a sporting clays and pheasant hunting preserve with no mention of ceramic firings of any kind. (2026-10-08)"
+    },
+    {
+      "id": "clay-art-space",
+      "why": "Its own pages give an address in AK (Anchorage), not MN. Moved. (2026-10-19)"
+    },
+    {
+      "id": "warroad-riverplace",
+      "why": "Second check (gemini-3.1-flash-lite): The provided website text does not mention any ceramic firing services, workshops, or classes, and the search snippet mentioning a Raku workshop is not present on the provided pages. (2026-10-19)"
+    },
+    {
+      "id": "nemaa",
+      "why": "Second check (gemini-3.5-flash-lite): The page text is for the Northeast Minneapolis Arts Association (NEMAA) directory and does not contain details or firing services for specific ceramic studios. (2026-10-19)"
+    },
+    {
+      "id": "ceramicsow",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions firing fees but does not specify the type of kiln used or offer public access to non-electric firing techniques. (2026-10-19)"
+    },
+    {
+      "id": "the-clay-pit",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions community bisque and glaze firings, which are typically electric, and does not mention any non-electric firing types. (2026-10-19)"
+    },
+    {
+      "id": "red-wing-arts",
+      "why": "Second check (gemma-4-31b-it): The text mentions bisque and glaze firings but does not mention any non-electric firing types such as raku, wood, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "art-heads-emporium",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions ceramic making classes and a snippet about making a ceramic cup, but does not specify any non-electric ceramic firing types such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
     }
   ]
 }

@@ -248,10 +248,10 @@
       "address": "719 Catharine Street, Philadelphia, PA 19147",
       "lat": 39.93909,
       "lng": -75.155,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "yay-clay",
@@ -316,10 +316,10 @@
       "address": "3237 Amber Street, Philadelphia, PA 19134",
       "lat": 39.99259,
       "lng": -75.10904,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "earth-center-pottery",
@@ -362,10 +362,10 @@
         "key": "earthcenterpottery.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The page mentions raku and pit firing events but provides no current details about how outsiders can register, book, or participate; raku registration is closed and pit firing states firings occur 'as student interest and resources permit' without clear public access information.",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The site explicitly invites the public to join their Raku firing events, which are listed as upcoming opportunities.",
         "types": {},
         "state": "PA",
         "town": "Richboro",
@@ -377,7 +377,7 @@
         "town": "Richboro",
         "score": 10,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -446,10 +446,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "lancaster-creative-factory",
@@ -514,10 +514,10 @@
       "weak": false,
       "address": "580 S Prince St, Rear, Lancaster, PA 17603",
       "address_found": "580 S Prince St, Rear, Lancaster, PA 17603",
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "union-project",
@@ -586,10 +586,10 @@
       "address": "801 N Negley Avenue, Pittsburgh, PA 15206",
       "lat": 40.47192,
       "lng": -79.92651,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "fireborn-studios",
@@ -655,10 +655,10 @@
       "address": "2338 Sarah Street, Pittsburgh, PA 15203",
       "lat": 40.42728,
       "lng": -79.97245,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "erie-clayspace",
@@ -719,10 +719,10 @@
       },
       "weak": false,
       "address": "1505 State Street, 3rd Floor, Erie, PA 16501",
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "northampton-community-college",
@@ -785,128 +785,10 @@
       "address": "3835 Green Pond Road, Bethlehem, PA 18020",
       "lat": 40.67473,
       "lng": -75.32648,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "greeny-gary-greenberg",
-      "org": "Greeny (Gary Greenberg)",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Pennsylvania",
-      "city": null,
-      "urls": [
-        "https://pawilds.com/"
-      ],
-      "notes": "Call to participate. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://pawilds.com/"
-      },
-      "access": {
-        "how": "Call to participate",
-        "note": "Call to participate",
-        "quote": "For more information or to participate, please call Greeny (Gary Greenberg) at Clarion University.",
-        "url": "https://pawilds.com/the-anagama-kiln-a-unique-chance-to-fire-pottery-commune-with-artists",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-06",
-        "status": "past_only"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "pawilds.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "The text states 'many visiting artists from all around PA and neighboring states contribute work and stay for the firing' and provides contact information: 'For more information or to participate, please call Greeny (Gary Greenberg) at Clarion University' or email, indicating public access to the wood-fired anagama kiln.",
-        "types": {},
-        "state": "PA",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
-    },
-    {
-      "id": "nixdorf-pottery",
-      "org": "Nixdorf Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Pennsylvania",
-      "city": null,
-      "urls": [
-        "https://www.nixdorfpottery.com/"
-      ],
-      "notes": "Community members fire under supervision. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.nixdorfpottery.com/"
-      },
-      "access": {
-        "how": "Community members fire under supervision",
-        "note": "Community members fire under supervision",
-        "quote": "Under the supervision of the ceramics teacher or approved leader, community members, pottery groups, or other local high schools could rent the kiln, benefiting from the process, the product, and facilities offered.",
-        "url": "http://www.nixdorfpottery.com/critical-action-plan.html",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-06",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "nixdorfpottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The page mentions a wood-fired kiln in a Critical Action Plan for Warwick School District that will be open to public viewing, but does not specify whether outsiders can participate in actual firings or only view the kiln.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "no",
-        "result": "split",
-        "date": "2026-10-08"
-      }
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "community-arts-center-ks",
@@ -971,10 +853,10 @@
       "address": "414 Plush Mill Road, Wallingford, PA 19086",
       "lat": 39.90872,
       "lng": -75.36349,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "business-ligonier",
@@ -1018,7 +900,7 @@
         "town": "Ligonier",
         "score": 15,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "access": {
         "status": "ongoing"
@@ -1087,10 +969,10 @@
       "address": "1047 Shady Avenue, Pittsburgh, PA",
       "lat": 40.45148,
       "lng": -79.92018,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "yayclay",
@@ -1151,76 +1033,10 @@
       "weak": false,
       "lat": 40.17618,
       "lng": -74.92025,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "margueritahagan",
-      "org": "margueritahagan",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Philadelphia",
-      "city": "Philadelphia",
-      "urls": [
-        "https://www.margueritahagan.com/"
-      ],
-      "notes": "By appointment. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://www.margueritahagan.com/"
-      },
-      "access": {
-        "how": "By appointment",
-        "note": "By appointment",
-        "quote": "Pit-Firing Workshops.",
-        "url": "https://www.margueritahagan.com/classes",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-08",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "margueritahagan.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "The page text states 'Pit-Firing Workshops' and includes contact information (marguerita@margueritahagan.com) for outsiders to register for classes that include 'kiln firings,' with the studio address in Philadelphia.",
-        "types": {},
-        "state": "PA",
-        "town": "Philadelphia",
-        "street": "7017 Lincoln Drive, Philadelphia 19119"
-      },
-      "weak": true,
-      "located": {
-        "state": "PA",
-        "town": "Philadelphia",
-        "score": 10,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "address": "557 N 5th Street, Philadelphia, PA 19123",
-      "lat": 39.96176,
-      "lng": -75.14644
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "union-project-pa",
@@ -1386,19 +1202,18 @@
         "key": "canvas.allenslane.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "Page text is empty; cannot verify public access to firings despite class listing in search snippet.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public participation in non-electric ceramic firings.",
         "types": {},
-        "state": "PA",
-        "town": "Philadelphia",
-        "street": "601 W Allens Lane"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1408,206 +1223,6 @@
       },
       "lat": 39.95272,
       "lng": -75.16353
-    },
-    {
-      "id": "creek-road-pottery-llc",
-      "org": "Creek Road Pottery LLC",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Montrose",
-      "city": "Montrose",
-      "urls": [
-        "https://creekroadpottery.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://creekroadpottery.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Spring 2026 Ana Our Wood Kiln workdays will be scheduled soon! We’re getting closer to completing the wood kiln, and I’m calling on potters, builders, and curious folks alike to come lend a hand!",
-        "url": "https://creekroadpottery.com/ana-our-wood-kiln",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-08",
-        "status": "past_only"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "creekroadpottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "The page explicitly invites outsiders (potters, builders, and curious folks) to join wood kiln workdays with an open invitation to message or just show up.",
-        "types": {},
-        "state": "PA",
-        "town": "Laceyville",
-        "street": "917 Creek Road, Laceyville, PA 18623"
-      },
-      "weak": true,
-      "located": {
-        "state": "PA",
-        "town": "Montrose",
-        "score": 6,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "address": "35 Pine Street, Montrose, PA",
-      "lat": 41.83464,
-      "lng": -75.87785
-    },
-    {
-      "id": "lancaster-clay-studios-llc",
-      "org": "Lancaster Clay Studios LLC",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Landisville",
-      "city": "Landisville",
-      "urls": [
-        "https://lancasterclaystudios.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://lancasterclaystudios.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We also regularly schedule firings in off-site wood and gas fired kilns.",
-        "url": "https://lancasterclaystudios.com/studio",
-        "types": [
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-08",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "lancasterclaystudios.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The page mentions wood and gas fired kilns scheduled off-site, but provides no details on how outsiders can access or participate in those firings.",
-        "types": {},
-        "state": "PA",
-        "town": "Landisville",
-        "street": "235 Elizabeth St"
-      },
-      "weak": true,
-      "located": {
-        "state": "PA",
-        "town": "Landisville",
-        "score": 15,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "address": "235 Elizabeth St, Landisville, PA 17538",
-      "lat": 40.09542,
-      "lng": -76.41437
-    },
-    {
-      "id": "potters-guild-of-central-pa",
-      "org": "Potters Guild of Central PA",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
-      ],
-      "region": "Lemont",
-      "city": "Lemont",
-      "urls": [
-        "https://artallianceofcentralpa.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://artallianceofcentralpa.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Activities through the years have included: classes, workshops, sales, raku firings, exhibitions, art festival sales, pit firings, and of course parties!",
-        "url": "https://artallianceofcentralpa.org/pages/potters-guild-of-central-pa",
-        "types": [
-          "raku",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-08",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "artallianceofcentralpa.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions raku firings and pit firings as past activities, but the page text provided contains only navigation menus and does not include details about how outsiders can currently participate in these firings.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "PA",
-        "town": "Lemont",
-        "score": 36,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "address": "824 Pike Street, Lemont, PA 16851",
-      "lat": 40.80993,
-      "lng": -77.81891
     },
     {
       "id": "goggleworks-center-for-the-arts",
@@ -1669,10 +1284,10 @@
       "address": "201 Washington St., Reading, PA",
       "lat": 40.33735,
       "lng": -75.93332,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "the-ceramic-shop",
@@ -1724,297 +1339,10 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "lat": 40.1146,
       "lng": -75.34465
-    },
-    {
-      "id": "up-in-smoke-pottery",
-      "org": "Up In Smoke Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar"
-      ],
-      "region": "Pennsylvania",
-      "city": null,
-      "urls": [
-        "https://www.upinsmokepottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.upinsmokepottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We typically fire these saggars in a raku kiln, but can be done in an electric or a pit.",
-        "url": "https://www.upinsmokepottery.com/saggar-firing.html",
-        "types": [
-          "pit_barrel_saggar",
-          "raku",
-          "wood",
-          "soda",
-          "salt"
-        ],
-        "checked": "2026-10-08",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "upinsmokepottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page describes firing techniques (pit, saggar, raku, wood, soda, salt) but contains no information about public access, workshops, classes, memberships, rentals, firing services, or invitations for outsiders to participate in any firing.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "state": "SD",
-        "town": "Brookings",
-        "score": 3,
-        "osm": false,
-        "date": "2026-10-09"
-      }
-    },
-    {
-      "id": "munson-pa",
-      "org": "munson",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "salt"
-      ],
-      "region": "Pennsylvania",
-      "city": null,
-      "urls": [
-        "https://www.munson.art/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.munson.art/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "CERAMICS WORKSHOP WEEKS 2 + 3: Salt and Wood Firing",
-        "url": "https://www.munson.art/product/30024",
-        "types": [
-          "salt",
-          "wood",
-          "wood"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "munson.art"
-      }
-    },
-    {
-      "id": "black-hound-clay-studio-south",
-      "org": "Black Hound Clay Studio South",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Philadelphia",
-      "city": "Philadelphia",
-      "urls": [
-        "https://www.blackhoundclaysouth.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Philadelphia, Pennsylvania",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.blackhoundclaysouth.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Our workshops includes all materials, tools, personalized instruction from a professional teaching artist and firing of your projects.",
-        "url": "https://www.blackhoundclaysouth.com",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "blackhoundclaysouth.com"
-      }
-    },
-    {
-      "id": "centered-clay-studio",
-      "org": "Centered Clay Studio",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Kennett Square",
-      "city": "Kennett Square",
-      "urls": [
-        "https://www.centeredclaystudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Kennett Square, Pennsylvania",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.centeredclaystudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Bis que and glaze firings, except for oversized pieces",
-        "url": "https://www.centeredclaystudio.com/pottery-classes",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "centeredclaystudio.com"
-      }
-    },
-    {
-      "id": "im-studio",
-      "org": "IM Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Pittsburgh",
-      "city": "Pittsburgh",
-      "urls": [
-        "https://www.maroon-studio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pittsburgh, Pennsylvania",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.maroon-studio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "IM Studio offers kiln rental services for both bisque and glaze firings.",
-        "url": "https://www.maroon-studio.com/kiln-rental",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "maroon-studio.com"
-      }
-    },
-    {
-      "id": "hangout-for-art",
-      "org": "Hangout For Art",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Allentown",
-      "city": "Allentown",
-      "urls": [
-        "https://hangoutforart.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Allentown, Pennsylvania",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://hangoutforart.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Buy clay, build at home or in our studio, and bring your pieces back to us for professional firing and glazing.",
-        "url": "https://hangoutforart.com/open-studio",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "hangoutforart.com"
-      }
-    },
-    {
-      "id": "spirited-art-scranton",
-      "org": "Spirited Art Scranton",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Scranton",
-      "city": "Scranton",
-      "urls": [
-        "https://experiencepottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Scranton, Pennsylvania",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://experiencepottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Includes materials and process: clay experience, paint/glazing, and firing",
-        "url": "https://experiencepottery.com/event/wheel-throwing-pottery-experience-at-spirited-art-scranton",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "experiencepottery.com"
-      }
     },
     {
       "id": "claytopia-erie-pa",
@@ -2054,42 +1382,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "ir.mountaintopuniversity.edu.ng"
-      }
-    },
-    {
-      "id": "the-rivet",
-      "org": "The Rivet",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "State College",
-      "city": "State College",
-      "urls": [
-        "https://www.statecollege.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "State College, Pennsylvania",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.statecollege.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "This was the only place in central Pennsylvania that has an open kiln where you can bring your stuff to fire.",
-        "url": "https://www.statecollege.com/articles/community/the-rivets-community-of-makers",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 42.12947,
+      "lng": -80.08527,
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "statecollege.com"
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is for a university archive site and contains no information about Claytopia Erie PA or any ceramic firing services.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -2102,15 +1410,15 @@
         "wood",
         "soda"
       ],
-      "region": "Pennsylvania",
-      "city": null,
+      "region": "Wallingford",
+      "city": "Wallingford",
       "urls": [
         "https://thepottersguild.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
+      "location_precision": "address",
       "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://thepottersguild.com/"
       },
@@ -2131,7 +1439,157 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "thepottersguild.com"
-      }
+      },
+      "weak": true,
+      "located": {
+        "state": "PA",
+        "town": "Wallingford",
+        "score": 12,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "address": "414 Plush Mill Rd, Wallingford, PA",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The text mentions the guild and its history, artists, and holiday sale events, but contains no information about non-electric ceramic firings available to the public.",
+        "types": {},
+        "state": "PA",
+        "town": "Wallingford",
+        "street": "414 Plush Mill Rd"
+      },
+      "lat": 39.90872,
+      "lng": -75.36349
+    },
+    {
+      "id": "phoenix-pottery-studio",
+      "org": "Phoenix Pottery Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Hummelstown",
+      "city": "Hummelstown",
+      "urls": [
+        "https://phoenixpotterystudio.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://phoenixpotterystudio.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Classes include glaze and firings, use of pottery tools, and use of pottery wheels.",
+        "url": "https://phoenixpotterystudio.com/classes/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "phoenixpotterystudio.com"
+      },
+      "weak": true,
+      "located": {
+        "state": "PA",
+        "town": "Hummelstown",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "address": "300 Kokomo Ave, Hummelstown, PA 17036",
+      "lat": 40.2691,
+      "lng": -76.7007
+    },
+    {
+      "id": "phoenix-fire-clay-studio",
+      "org": "Phoenix Fire Clay Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Phoenixville",
+      "city": "Phoenixville",
+      "urls": [
+        "https://www.phoenixfireclaystudio.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://www.phoenixfireclaystudio.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "phoenixfireclaystudio.com"
+      },
+      "weak": true,
+      "located": {
+        "state": "PA",
+        "town": "Phoenixville",
+        "score": 9,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "address": "209 Bridge Street, Phoenixville, PA 19460",
+      "lat": 40.13398,
+      "lng": -75.51658
+    },
+    {
+      "id": "indi-studio",
+      "org": "Indi Studio",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Washington Crossing",
+      "city": "Washington Crossing",
+      "urls": [
+        "https://www.indistudio.net/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://www.indistudio.net/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Each month includes a 25 lb bag of low-fire clay in white or terra-cotta and a full kiln shelf of firing, plus 20% off our workshops and classes.",
+        "url": "https://www.indistudio.net/events",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "indistudio.net"
+      },
+      "weak": true,
+      "located": {
+        "state": "PA",
+        "town": "Washington Crossing",
+        "score": 27,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "address": "1313 Lord Sterling Road, Washington Crossing, PA",
+      "lat": 40.29147,
+      "lng": -74.86998
     }
   ],
   "_removed": [
@@ -2174,6 +1632,62 @@
     {
       "id": "lisa-york-arts",
       "why": "Second check (claude-haiku-4.5): page says state is CT, not PA (2026-10-09)"
+    },
+    {
+      "id": "greeny-gary-greenberg",
+      "why": "Second check (gemini-3.1-flash-lite): The provided page text for pawilds.com does not contain the specific information or contact details for the Greeny (Gary Greenberg) anagama kiln firing; it only contains general information about the Pennsylvania Wilds region. (2026-10-19)"
+    },
+    {
+      "id": "nixdorf-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The page text mentions a critical action plan for a wood-fired kiln at a school district, but it only states it will be open for viewing, not for the public to take part in a firing. (2026-10-19)"
+    },
+    {
+      "id": "margueritahagan",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions kiln firings are included in classes, but it does not specify or offer any non-electric firing techniques such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "creek-road-pottery-llc",
+      "why": "Second check (gemma-4-31b-it): The text invites the public to help build and reconstruct a wood kiln, but does not offer public participation in an actual firing. (2026-10-19)"
+    },
+    {
+      "id": "lancaster-clay-studios-llc",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions regular electric kiln firings and off-site wood and gas-fired kilns without any specific offering, class, or invitation for outsiders to participate in those non-electric firings. (2026-10-19)"
+    },
+    {
+      "id": "potters-guild-of-central-pa",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not contain any information confirming that the public can sign up for or participate in non-electric ceramic firings at this location. (2026-10-19)"
+    },
+    {
+      "id": "up-in-smoke-pottery",
+      "why": "Second check (gemma-4-31b-it): The text describes the potter's own processes and offers to answer questions, but does not provide any way for the public to participate in a firing. (2026-10-19)"
+    },
+    {
+      "id": "munson-pa",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text contains no information indicating that non-electric ceramic firings are currently open or available to the public. (2026-10-19)"
+    },
+    {
+      "id": "black-hound-clay-studio-south",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions that staff handle the firing of projects for students and workshop participants, with no mention of public access to non-electric firing techniques. (2026-10-19)"
+    },
+    {
+      "id": "centered-clay-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firing methods such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "im-studio",
+      "why": "Second check (gemini-3.1-flash-lite): The studio only offers standard bisque and glaze firing services, which are electric-based, and does not mention any non-electric firing techniques like raku, wood, soda, salt, or pit firing. (2026-10-19)"
+    },
+    {
+      "id": "hangout-for-art",
+      "why": "Second check (gemma-4-31b-it): The text mentions pottery firing and glazing services but does not list any non-electric firing types such as raku, wood, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "spirited-art-scranton",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions a mobile pottery and paint-your-own pottery studio, but does not provide any details about specific non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "the-rivet",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes The Rivet as having a 'ceramic kiln' but does not mention any non-electric firing techniques or public access to such firings. (2026-10-19)"
     }
   ]
 }

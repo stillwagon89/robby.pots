@@ -22,7 +22,7 @@ const DEV = process.env.KILN_DEV === "1";
 // Robby's rule (2026-10-14): unconfirmed ("weak") places still go on the map as locations, marked "limited evidence", with no firing cards.
 // Firings only come from confirmed places. A place a live read of its site rejected (verdict "no") stays off.
 const confirmed = (s) => s.review !== "pending" && !s.weak;
-const sources = loadSources().filter((s) => DEV || (!s.flag_hold && !s.hold && (confirmed(s) || s.verify?.verdict !== "no")));
+const sources = loadSources().filter((s) => DEV || (!s.flag_hold && !s.hold && (confirmed(s) || ["yes", "unclear"].includes(s.verify?.verdict))));
 const approvedDir = join(ROOT, "data", "approved");
 const approvedRaw = existsSync(approvedDir) ? readdirSync(approvedDir).filter((f) => f.endsWith(".json")).map((f) => read(join(approvedDir, f))).filter((it) => DEV || !it.flag_hold) : [];
 

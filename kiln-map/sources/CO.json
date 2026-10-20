@@ -105,10 +105,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "denver-ceramic-studio",
@@ -168,10 +168,10 @@
       "address": "369 S. Pearl, Denver, CO 80209",
       "lat": 39.70984,
       "lng": -104.98067,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "alex-schupp-ceramics",
@@ -230,10 +230,10 @@
       "address": "2412 Stout St., Denver, CO 80205",
       "lat": 39.75341,
       "lng": -104.98288,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "asld-art-students-league-of-denver",
@@ -293,10 +293,10 @@
       "address": "200 Grant Street, Denver, CO 80203",
       "lat": 39.71972,
       "lng": -104.98345,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "jl-pottery-justin",
@@ -354,10 +354,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "friend-assembly",
@@ -398,11 +398,13 @@
         "key": "stanleymarketplace.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page text shows Friend Assembly offers a public Raku pottery workshop with online sign-ups and walk-up spots available, open to all curious creatives with no experience needed.",
-        "types": {},
+        "why": "The text explicitly invites the public to sign up for a Raku pottery workshop that includes taking part in the firing process.",
+        "types": {
+          "raku": "You'll choose a pot, select from a variety of glazes, and then take part in the dramatic Raku firing process—adding combustibles to the flames and finishing with a quick plunge into water for that unforgettable sizzle."
+        },
         "state": "CO",
         "town": "Aurora",
         "street": "2501 Dallas Street"
@@ -412,9 +414,9 @@
         "town": "Aurora",
         "score": 3,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
-      "weak": true,
+      "weak": false,
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
@@ -491,10 +493,10 @@
       "address": "2614 Pleasant Valley rd, Fort Collins, CO 80521",
       "lat": 40.57291,
       "lng": -105.1257,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "joseph-miranda-smokestack",
@@ -537,18 +539,17 @@
       "lat": 40.58718,
       "lng": -105.07701,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "The site explicitly states that soda firing at Smokestack Pottery is \"open to the public to participate and put work in the kiln\" and invites people to reach out to join the soda club email list.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no details or offers regarding firings.",
         "types": {},
-        "state": "CO",
-        "town": "Fort Collins",
-        "street": "168 Yale Avenue, Fort Collins, CO, USA"
+        "state": "",
+        "town": ""
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "weak": true,
       "agree": {
@@ -588,10 +589,10 @@
       "lat": 40.39776,
       "lng": -105.07498,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3-flash-preview",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The site offers raku firing workshops in Loveland, CO that are open to the public to join and participate in the firing process.",
+        "why": "The site offers Raku firing workshops in Loveland, CO, that are open for public registration.",
         "types": {},
         "state": "CO",
         "town": "Loveland"
@@ -599,7 +600,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -672,10 +673,10 @@
       "address": "3185 Sterling Cir, Boulder, CO 80301",
       "lat": 40.03233,
       "lng": -105.22758,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "cottonwood-center-for-the-arts",
@@ -738,10 +739,10 @@
       "address": "427 E Colorado Ave, Colorado Springs, CO",
       "lat": 38.83218,
       "lng": -104.8178,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "carbondale-clay-center",
@@ -804,10 +805,10 @@
       "address": "135 Main Street, Carbondale, CO 81623",
       "lat": 39.40062,
       "lng": -107.208,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "groundworks-art-lab",
@@ -875,71 +876,10 @@
       "address": "3750 Canfield Street, Boulder, CO 80301",
       "lat": 40.04191,
       "lng": -105.24177,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "colorado-potters-guild",
-      "org": "Colorado Potters Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda"
-      ],
-      "region": "Lafayette",
-      "city": "Lafayette",
-      "urls": [
-        "https://ceramicscapes.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lafayette, Colorado",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://ceramicscapes.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "I really busted my rear last week to make sure that I had close to 50 pots to fire in the soda kiln at the Colorado Potters Guild last week.",
-        "url": "https://ceramicscapes.com/soda-firing-at-the-colorado-potters-guild",
-        "types": [
-          "soda"
-        ],
-        "checked": "2026-10-08",
-        "status": "past_only"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "ceramicscapes.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page text describes Cindy Guajardo's personal pottery studio and classes she teaches, but contains no information about public access to soda firings or any other non-electric ceramic firings at Colorado Potters Guild or elsewhere.",
-        "types": {},
-        "state": "CO",
-        "town": "Lafayette"
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "lat": 39.9936,
-      "lng": -105.0897
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "do303",
@@ -969,10 +909,10 @@
         "key": "do303.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "No page text provided to verify public access, location details, or firing workshop information.",
+        "why": "The page text is empty and provides no details on how the public can take part in a non-electric ceramic firing.",
         "types": {},
         "state": "",
         "town": ""
@@ -980,7 +920,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1039,10 +979,10 @@
         "key": "cademy.io"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "The page text is about Cademy, a training management platform software, not about Abi Higgins Ceramics Studio or its ceramic firing offerings. The search snippets mention a workshop but the actual page content provided contains no information about the studio, its location, or how to access any firings.",
+        "why": "The page text is solely about Cademy, a training management software platform, and contains no information about ceramic firings or Abi Higgins Ceramics Studio.",
         "types": {},
         "state": "",
         "town": ""
@@ -1050,7 +990,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1119,10 +1059,10 @@
       "address": "1001 13th Street, Steamboat Springs, CO 80487",
       "lat": 40.48955,
       "lng": -106.84056,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "warehome-studios",
@@ -1180,10 +1120,10 @@
       "address_found": "2520 Copper Ridge Dr. Unit C2, Steamboat Springs, CO",
       "lat": 40.50552,
       "lng": -106.85454,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "center-for-the-arts-evergreen",
@@ -1236,227 +1176,10 @@
       "weak": false,
       "lat": 39.63616,
       "lng": -105.32146,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "fine-arts-center",
-      "org": "Fine Arts Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Colorado",
-      "city": null,
-      "urls": [
-        "https://fac.coloradocollege.edu/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://fac.coloradocollege.edu/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Experience a pit firing workshop with Laguna Pueblo potter and poet, Max Early.",
-        "url": "https://fac.coloradocollege.edu/connect/scenes-of-pit-firing-at-bemis-school-of-art-with-max-early",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "fac.coloradocollege.edu"
-      }
-    },
-    {
-      "id": "anhinga-clay-studios-co",
-      "org": "Anhinga Clay Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Colorado",
-      "city": null,
-      "urls": [
-        "https://anhingaclaystudios.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://anhingaclaystudios.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Saturday, March 28 10am -5pm",
-        "url": "https://anhingaclaystudios.com/product/polo-ramirez-workshop",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "anhingaclaystudios.com"
-      }
-    },
-    {
-      "id": "kinship-studio",
-      "org": "Kinship Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Denver",
-      "city": "Denver",
-      "urls": [
-        "https://www.kinshipdenver.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Denver, Colorado",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.kinshipdenver.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "kinshipdenver.com"
-      }
-    },
-    {
-      "id": "ember-bloom-studios",
-      "org": "Ember & Bloom Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Colorado Springs",
-      "city": "Colorado Springs",
-      "urls": [
-        "https://emberandbloomstudios.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Colorado Springs, Colorado",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://emberandbloomstudios.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "🔥 Next Firing: Glaze September 23rd, Bisque September 30th",
-        "url": "https://emberandbloomstudios.com",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "emberandbloomstudios.com"
-      }
-    },
-    {
-      "id": "22nd-street-clay",
-      "org": "22nd Street Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Colorado Springs",
-      "city": "Colorado Springs",
-      "urls": [
-        "https://www.22ndstreetclay.net/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Colorado Springs, Colorado",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.22ndstreetclay.net/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Create your own handbuilt pumpkins (one large, one small). Your choice of glaze. Includes all materials & firing. All ages welcome!",
-        "url": "https://www.22ndstreetclay.net",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "22ndstreetclay.net"
-      }
-    },
-    {
-      "id": "colorado-clay-studio",
-      "org": "Colorado Clay Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Durango",
-      "city": "Durango",
-      "urls": [
-        "https://coloradoclaystudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Durango, Colorado",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://coloradoclaystudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Assist in the bisque and glaze firing of your own pieces with professional guidance.",
-        "url": "https://coloradoclaystudio.com/classes/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "coloradoclaystudio.com"
-      }
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "the-ceramic-school-co",
@@ -1494,6 +1217,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "ceramic.school"
+      },
+      "lat": 39.73924,
+      "lng": -104.98486,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text contains no information about the location or firing services of The Ceramic School.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -1557,6 +1296,34 @@
     {
       "id": "clay-play-arts",
       "why": "Its own pages give an address in CA (Northridge), not CO. Moved. (2026-10-09)"
+    },
+    {
+      "id": "anhinga-clay-studios-co",
+      "why": "Its own pages give an address in FL (Miami), not CO. Moved. (2026-10-19)"
+    },
+    {
+      "id": "colorado-potters-guild",
+      "why": "Second check (gemini-3.1-flash-lite): The site describes the owner's personal art practice and classes, but does not offer public access to non-electric firings; the mentions of soda firing refer to the owner's personal work at a separate guild, not a service provided by this site. (2026-10-19)"
+    },
+    {
+      "id": "fine-arts-center",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions a 'pit firing' workshop in a search snippet, but the actual page content does not contain any information or booking details for this or any other non-electric firing for the public. (2026-10-19)"
+    },
+    {
+      "id": "kinship-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The studio offers electric cone 6 firings (members only) and mentions no non-electric firing types such as raku, wood, soda, salt, or pit firing. (2026-10-19)"
+    },
+    {
+      "id": "ember-bloom-studios",
+      "why": "Second check (gemini-3.1-flash-lite): The text specifies that all glaze firings are 'Cone 6 oxidation' (electric), and there is no mention of non-electric firing methods like raku, wood, soda, salt, or pit/barrel/saggar. (2026-10-19)"
+    },
+    {
+      "id": "22nd-street-clay",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions raku and saggered firing as types of work they do, but does not provide any classes, workshops, memberships, or rental options for outsiders to take part in those specific non-electric firings. (2026-10-19)"
+    },
+    {
+      "id": "colorado-clay-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firings such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
     }
   ]
 }

@@ -147,10 +147,10 @@
         ]
       },
       "address": "9841 127 Front St., Beaver Dam, WI 53916",
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "adamah-art-studios",
@@ -278,64 +278,6 @@
       "approved": "2026-10-15"
     },
     {
-      "id": "mineral-point-chamber-of",
-      "org": "Mineral Point Chamber of",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Mineral Point",
-      "city": "Mineral Point",
-      "urls": [
-        "https://www.mineralpoint.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://www.mineralpoint.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "mineralpoint.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page text is from the Mineral Point Chamber of Commerce website itself, which is a directory and events listing service, not a pottery studio or firing facility. While a search snippet mentions a raku workshop at 'Adamah,' the actual page text provided contains no information about ceramic firings, pottery classes, or public access to any firing types.",
-        "types": {},
-        "state": "WI",
-        "town": "Mineral Point",
-        "street": "114 High Street, Mineral Point, WI 53565"
-      },
-      "weak": true,
-      "located": {
-        "state": "WI",
-        "town": "Mineral Point",
-        "score": 20,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "access": {
-        "status": "ongoing"
-      },
-      "address": "114 High Street, Mineral Point, WI 53565",
-      "lat": 42.85966,
-      "lng": -90.17866
-    },
-    {
       "id": "windy-ridge-pottery",
       "org": "Windy Ridge Pottery",
       "kind": "studio",
@@ -398,73 +340,10 @@
         "result": "split",
         "date": "2026-10-08"
       },
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "potters-without-kilns",
-      "org": "Potters Without Kilns",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda",
-        "gas_reduction"
-      ],
-      "region": "New Richmond",
-      "city": "New Richmond",
-      "urls": [
-        "https://potterswithoutkilns.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "New Richmond, Wisconsin",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://potterswithoutkilns.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Artists can also book a firing to load, fire and unload personally.",
-        "url": "https://potterswithoutkilns.com/our-vision/firings/",
-        "types": [
-          "soda",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-07",
-        "status": "past_only"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "potterswithoutkilns.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The site mentions reduction and salt/soda kilns and states the facility is for 'workshops and educational outreach,' but provides no specific details about how outsiders can book, sign up, or participate in actual firings.",
-        "types": {},
-        "state": "WI",
-        "town": "New Richmond"
-      },
-      "lat": 45.12273,
-      "lng": -92.5375,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "weak": true,
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "ceramic-review",
@@ -525,10 +404,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "linda-christianson-pottery",
@@ -595,10 +474,10 @@
         "date": "2026-10-08"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "bethel-horizons-foundation-inc",
@@ -689,10 +568,10 @@
         "key": "schoolandcollegelistings.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "No page text provided to verify public access to firings at a specific location.",
+        "why": "The provided page text is empty and contains no information about the facility or its firing services.",
         "types": {},
         "state": "",
         "town": ""
@@ -700,7 +579,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -753,20 +632,20 @@
         "key": "thekilnshed.studio"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippets mention wood-firing and gas-firing with classes and membership available, but the actual page text is empty, so no word-for-word sentence can be verified from the page itself.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty, so no public non-electric ceramic firing details can be verified.",
         "types": {},
-        "state": "WI",
-        "town": "Madison"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 43.07469,
       "lng": -89.38417,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -784,14 +663,14 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Wisconsin",
-      "city": null,
+      "region": "Danbury",
+      "city": "Danbury",
       "urls": [
         "https://www.grantruegnitz.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-07; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": null,
+      "geocode": "Danbury, Wisconsin",
       "location_note": "Location not confirmed; shown at the state.",
       "contact": {
         "website": "https://www.grantruegnitz.com/"
@@ -803,18 +682,18 @@
         "key": "grantruegnitz.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "unclear",
-        "why": "The snippets mention workshops and wood/gas firings in progress, but the actual page text is empty, so no specific details about public access, booking procedures, or participation methods can be verified.",
+        "why": "The text mentions workshops and upcoming gas and wood firings, but does not explicitly state that the public can join or participate in these firings.",
         "types": {},
         "state": "WI",
-        "town": ""
+        "town": "Danbury"
       },
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -824,7 +703,9 @@
       },
       "access": {
         "status": "ongoing"
-      }
+      },
+      "lat": 46.00661,
+      "lng": -92.3713
     },
     {
       "id": "wisconsin-art-hub",
@@ -854,10 +735,10 @@
         "key": "wisconsinarthub.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "The search snippets only describe what raku firing is; there is no information about public access to classes, workshops, memberships, rentals, or firing services.",
+        "why": "The page text is empty, so there is no information or quote showing public participation in a non-electric ceramic firing.",
         "types": {},
         "state": "",
         "town": ""
@@ -865,7 +746,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -909,25 +790,27 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "eckelspottery.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippets mention raku and primitive firing workshops, but the actual page text provided is empty, so public access cannot be verified from the page itself.",
-        "types": {},
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text explicitly mentions Raku firing workshops and primitive firing workshops as offerings for the public.",
+        "types": {
+          "raku": "Studio 360° will features 2- hour lessons, kids classes, Raku firing workshops, primitive firing workshops, and multi-week classes."
+        },
         "state": "WI",
         "town": "Bayfield"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -936,7 +819,8 @@
         "date": "2026-10-08"
       },
       "lat": 46.47102,
-      "lng": -91.19832
+      "lng": -91.19832,
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "ram-wustum",
@@ -1034,7 +918,7 @@
         "checked": "2026-10-07",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
@@ -1051,17 +935,18 @@
         "state": "WI",
         "town": ""
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
         "result": "split",
         "date": "2026-10-08"
-      }
+      },
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "cream-city-clay",
@@ -1124,61 +1009,10 @@
       "address": "7105 W Greenfield Ave., West Allis, WI 53214",
       "lat": 43.01654,
       "lng": -88.00152,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "simply-dunn-pottery",
-      "org": "Simply Dunn Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Menomonie",
-      "city": "Menomonie",
-      "urls": [
-        "https://simply-dunn.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://simply-dunn.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "simply-dunn.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The site describes a pottery gallery and gift shop where visitors can view and purchase finished wood-fired pottery, but provides no information about public access to participate in wood firings, workshops, classes, memberships, rentals, or firing services.",
-        "types": {},
-        "state": "WI",
-        "town": "Menomonie",
-        "street": "N2543 461st Street"
-      },
-      "weak": true,
-      "located": {
-        "state": "WI",
-        "town": "Menomonie",
-        "score": 11,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "access": {
-        "status": "ongoing"
-      },
-      "address": "2543 461st Street, Menomonie, WI 54751"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "simonlevin",
@@ -1245,44 +1079,10 @@
       "weak": false,
       "lat": 44.85182,
       "lng": -88.78693,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "clay-art-space-wi",
-      "org": "Clay Art Space",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Wisconsin",
-      "city": null,
-      "urls": [
-        "https://www.clayartspace.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.clayartspace.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
-        "url": "https://www.clayartspace.com/kiln-firing.html",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "clayartspace.com"
-      }
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "yours-truly",
@@ -1304,9 +1104,9 @@
         "https://www.yourstrulymke.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Milwaukee, Wisconsin",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.yourstrulymke.com/"
       },
@@ -1315,67 +1115,28 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "yourstrulymke.com"
-      }
-    },
-    {
-      "id": "the-french-house-of-clay",
-      "org": "The French House of Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Green Bay",
-      "city": "Green Bay",
-      "urls": [
-        "https://www.thefrenchhouseofclay.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Green Bay, Wisconsin",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.thefrenchhouseofclay.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "After the workshop, I’ll glaze and fire your piece in the kiln.",
-        "url": "https://www.thefrenchhouseofclay.com/pottery-workshops/upcoming-workshops-events",
-        "types": [],
-        "checked": "2026-10-14"
+      "weak": true,
+      "located": {
+        "state": "WI",
+        "town": "Milwaukee",
+        "score": 3,
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "thefrenchhouseofclay.com"
-      }
-    },
-    {
-      "id": "clay-on-steele-pottery-studio",
-      "org": "Clay on Steele Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Algoma",
-      "city": "Algoma",
-      "urls": [
-        "https://doorcountypulse.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Algoma, Wisconsin",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://doorcountypulse.com/"
+      "address": "833 East Center Street, Milwaukee, WI",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The text mentions firing services and community workshops where pieces can be fired, but it does not specify the firing method (e.g., electric vs. non-electric) for these services.",
+        "types": {},
+        "state": "WI",
+        "town": "Milwaukee",
+        "street": "833 e center street"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "doorcountypulse.com"
-      }
+      "lat": 43.06727,
+      "lng": -87.90057
     },
     {
       "id": "half-moon-clay-center",
@@ -1413,182 +1174,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "halfmoonclay.com"
-      }
-    },
-    {
-      "id": "the-imprompt",
-      "org": "The Imprompt",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Cornell",
-      "city": "Cornell",
-      "urls": [
-        "https://volumeone.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Cornell, Wisconsin",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://volumeone.org/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "offering memberships that include valuable wheel time, access to reclaimed clay, a selection of house glazes, and firing services.",
-        "url": "https://volumeone.org/sites/winterfun/articles/2025/12/29/378467-inside-the-chippewa-valleys-creative-crafting-clubs",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 44.81135,
+      "lng": -91.49849,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "volumeone.org"
-      }
-    },
-    {
-      "id": "la-crosse-clay-center",
-      "org": "La Crosse Clay Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "La Crosse",
-      "city": "La Crosse",
-      "urls": [
-        "https://lacrosseclaycenter.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "La Crosse, Wisconsin",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://lacrosseclaycenter.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "If you are just looking for a private one-time beginner class- call and set up an appointment anytime! One time classes run for 90 mins for $60/person with everything included! This lesson includes clay, instruction, firing and glazing.",
-        "url": "https://lacrosseclaycenter.com/studio",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "lacrosseclaycenter.com"
-      }
-    },
-    {
-      "id": "pump-house-regional-arts-center",
-      "org": "Pump House Regional Arts Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Wisconsin",
-      "city": null,
-      "urls": [
-        "https://www.thepumphouse.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.thepumphouse.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Open Clay Studio is a time for potters to have access to our clay studio, complete with a full-size kiln, pottery wheels, an assortment of tools, and glazes. Use of the studio, glazes and firings are all included in one low monthly fee.",
-        "url": "https://www.thepumphouse.org/art-education-classes/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "thepumphouse.org"
-      }
-    },
-    {
-      "id": "bmcg-pottery-studio",
-      "org": "BMCG Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Kenosha",
-      "city": "Kenosha",
-      "urls": [
-        "https://www.bmcgpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Kenosha, Wisconsin",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.bmcgpottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Pumpkin Workshops @ East View Coffee Kenosha,WI",
-        "url": "https://www.bmcgpottery.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "bmcgpottery.com"
-      }
-    },
-    {
-      "id": "whofish",
-      "org": "whofish",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Racine",
-      "city": "Racine",
-      "urls": [
-        "https://www.whofish.org/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Racine, Wisconsin",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.whofish.org/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "the second class we will glaze and work together to fire all the pieces in the outdoor kiln.",
-        "url": "https://www.whofish.org/events/racine/wi/pottery_workshop_raku_firing/5691339.aspx",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "whofish.org"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty, so there is no information about non-electric ceramic firings or public access.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -1615,6 +1216,20 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "theclaycollective.net"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public participation in non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -1642,6 +1257,50 @@
     {
       "id": "tr-pottery-llc",
       "why": "Two models agree: The listing describes a sales gallery selling pots fired in electric and wood-fired kilns, with no mention of the public joining, booking or signing up for any firing. (2026-10-08)"
+    },
+    {
+      "id": "clay-art-space-wi",
+      "why": "Its own pages give an address in AK (Anchorage), not WI. Moved. (2026-10-19)"
+    },
+    {
+      "id": "mineral-point-chamber-of",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text is for a Chamber of Commerce website and does not contain information about a specific facility offering public access to non-electric ceramic firings. (2026-10-19)"
+    },
+    {
+      "id": "potters-without-kilns",
+      "why": "Second check (gemini-3.5-flash-lite): The website discusses the mission and kilns of Potters Without Kilns, but does not provide any booking, class, workshop, or contact details for outsiders to actually participate in a firing. (2026-10-19)"
+    },
+    {
+      "id": "simply-dunn-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes a pottery gallery and shop that sells hand-thrown and wood-fired pottery, but it contains no mention of classes, workshops, memberships, rentals, firing services, or any opportunity for outsiders to take part in firings. (2026-10-19)"
+    },
+    {
+      "id": "the-french-house-of-clay",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firing techniques such as raku, wood/anagama, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "clay-on-steele-pottery-studio",
+      "why": "Second check (gemma-4-31b-it): The text mentions kilns and classes but does not specify any non-electric firing types. (2026-10-19)"
+    },
+    {
+      "id": "the-imprompt",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text is for a local media and events website (Volume One) and does not contain information about public access to non-electric ceramic firing services or workshops. (2026-10-19)"
+    },
+    {
+      "id": "la-crosse-clay-center",
+      "why": "Second check (gemma-4-31b-it): The text mentions firings to cone 06 and cone 6 but does not mention any non-electric firing types such as raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "pump-house-regional-arts-center",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions clay studio access and firings, but does not specify the use of any non-electric firing techniques such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "bmcg-pottery-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions generic firings included in classes, but does not offer any specific non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "whofish",
+      "why": "Second check (gemma-4-31b-it): The site is a local events and business directory and does not offer ceramic firing services. (2026-10-19)"
     }
   ]
 }

@@ -89,10 +89,10 @@
       "address": "2050 South High Street, Columbus, OH",
       "lat": 39.91921,
       "lng": -82.99528,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "langweil-studio-pottery",
@@ -158,10 +158,10 @@
       "address": "596 Main St., Groveport, OH 43125",
       "lat": 39.85156,
       "lng": -82.88391,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "willahollow-pottery",
@@ -228,10 +228,10 @@
         "date": "2026-10-08"
       },
       "address": "0059 3521 Main Street, Perry, OH 44081",
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "yellow-springs-raku-day-john-bryan-community-pot",
@@ -290,10 +290,10 @@
       "address": "100 Dayton St, Yellow Springs, OH 45387",
       "lat": 39.80839,
       "lng": -83.88702,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "the-cracked-pot-studio",
@@ -398,10 +398,10 @@
       "lat": 41.45532,
       "lng": -81.91792,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page states 'Raku is coming to Quill!' and invites outsiders to subscribe to the newsletter or message to 'get on the list' for raku firing updates, providing a clear path for public participation.",
+        "why": "The studio explicitly invites the public to contact them to get on a list for upcoming Raku firings.",
         "types": {},
         "state": "OH",
         "town": "Westlake",
@@ -410,7 +410,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -475,10 +475,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "canton-museum-of-art",
@@ -538,10 +538,10 @@
       "address": "1001 Market Ave. N, Canton, OH 44702",
       "lat": 40.80717,
       "lng": -81.37335,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "tomradca",
@@ -584,10 +584,10 @@
         "key": "tomradca.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "No page text provided to verify public access to firings at this location.",
+        "why": "The page text is empty and provides no information about public ceramic firings or location details.",
         "types": {},
         "state": "",
         "town": ""
@@ -595,7 +595,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -664,10 +664,10 @@
       "address": "577 East Front Street, Perrysburg, OH 43551",
       "lat": 41.56618,
       "lng": -83.62024,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "communitypottery",
@@ -733,50 +733,10 @@
       "address": "100 Dayton St., Yellow Springs, OH 45387",
       "lat": 39.80839,
       "lng": -83.88702,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "munson-oh",
-      "org": "Munson",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "salt"
-      ],
-      "region": "Ohio",
-      "city": null,
-      "urls": [
-        "https://www.munson.art/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.munson.art/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Join us for this summer's workshop to explore form, function, aesthetic values, textures, tactile qualities, and surface development of atmospheric firing through salt and wood.",
-        "url": "https://www.munson.art/product/30024",
-        "types": [
-          "salt",
-          "wood"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "munson.art"
-      }
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "cleveland-potter-s-co-op",
@@ -816,120 +776,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "ideastream.org"
-      }
-    },
-    {
-      "id": "kiln-room-columbus",
-      "org": "Kiln Room Columbus",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Columbus",
-      "city": "Columbus",
-      "urls": [
-        "https://www.columbusmakesart.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Columbus, Ohio",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.columbusmakesart.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "6 Week Class Sessions at Kiln Room Ceramic Studio",
-        "url": "https://www.columbusmakesart.com/event/57680-6-week-class-sessions-at-kiln-room-ceramic-studio",
-        "types": [
-          "wood",
-          "raku",
-          "soda",
-          "salt",
-          "pit_barrel_saggar",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
+      "lat": 41.52005,
+      "lng": -81.55624,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "columbusmakesart.com"
-      }
-    },
-    {
-      "id": "university-of-cincinnati",
-      "org": "University of Cincinnati",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Ohio",
-      "city": null,
-      "urls": [
-        "https://www.daap.uc.edu/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.daap.uc.edu/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "daap.uc.edu"
-      }
-    },
-    {
-      "id": "kingston-ceramics-studio-oh",
-      "org": "Kingston Ceramics Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Ohio",
-      "city": null,
-      "urls": [
-        "https://www.kingstonceramicsstudio.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.kingstonceramicsstudio.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "If you aren't a member or our student, you may make an appointment to drop off your work to fire at cone 04 or 6.",
-        "url": "https://www.kingstonceramicsstudio.com/kiln-firing-services",
-        "types": [
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "kingstonceramicsstudio.com"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text contains no information about non-electric ceramic firings or public access to them.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -939,8 +801,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku",
-        "wood"
+        "gas_reduction"
       ],
       "region": "Kettering",
       "city": "Kettering",
@@ -960,8 +821,7 @@
         "quote": "Rosewood is proud to be one of the only facilities in the area to allow public access to our 18 cubic foot reduction kiln and state-of-the-art facilities including slab rollers, extruders, spray booth and cone 6 oxidation kilns.",
         "url": "https://www.playkettering.org/ceramic-studio-guidelines",
         "types": [
-          "raku",
-          "wood"
+          "gas_reduction"
         ],
         "checked": "2026-10-14"
       },
@@ -970,78 +830,25 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "playkettering.org"
-      }
-    },
-    {
-      "id": "the-dairy-barn-arts-center",
-      "org": "The Dairy Barn Arts Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Athens",
-      "city": "Athens",
-      "urls": [
-        "https://dairybarn.coursestorm.com/"
-      ],
-      "notes": "By appointment. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Athens, Ohio",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://dairybarn.coursestorm.com/"
       },
-      "access": {
-        "how": "By appointment",
-        "note": "By appointment",
-        "quote": "Your unique creations will then be fired in The Dairy Barn's kilns and donated to local charitable initiatives including Athens Area Mediation Service's Souper Bowl and Amesville Elementary's Empty Bowls event benefiting the Athens County Food Pantry.",
-        "url": "https://dairybarn.coursestorm.com/browse",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 39.6895,
+      "lng": -84.16883,
+      "weak": false,
+      "located": {
+        "osm": true,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "dairybarn.coursestorm.com"
-      }
-    },
-    {
-      "id": "art-clay-on-main",
-      "org": "Art & Clay on Main",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Lancaster",
-      "city": "Lancaster",
-      "urls": [
-        "https://artandclayonmain.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lancaster, Ohio",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://artandclayonmain.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Each item is priced on the bottom and includes paint, glaze and firing.",
-        "url": "https://artandclayonmain.com",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "artandclayonmain.com"
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The site explicitly states that Rosewood Arts Center allows public access to their reduction kiln.",
+        "types": {
+          "gas_reduction": "Rosewood is proud to be one of the only facilities in the area to allow public access to our 18 cubic foot reduction kiln"
+        },
+        "state": "OH",
+        "town": "Kettering",
+        "street": "3600 Shroyer Road"
       }
     },
     {
@@ -1080,6 +887,114 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "escortbayan2.com"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public participation or specific non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
+      }
+    },
+    {
+      "id": "the-bare-bowl-delaware-pottery-studios",
+      "org": "The Bare Bowl + Delaware Pottery Studios",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [],
+      "region": "Delaware",
+      "city": "Delaware",
+      "urls": [
+        "https://www.delawarepotterystudios.com/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
+      "contact": {
+        "website": "https://www.delawarepotterystudios.com/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "Book one of our Glazing Classes approximately 4 weeks after your clay class. This allows enough time for your pottery to dry and complete its first firing before you return to glaze it.",
+        "url": "https://www.delawarepotterystudios.com/classes",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "delawarepotterystudios.com"
+      },
+      "weak": true,
+      "located": {
+        "state": "OH",
+        "town": "Delaware",
+        "score": 18,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "address": "5 West Winter St, Delaware, OH 43015",
+      "lat": 40.30011,
+      "lng": -83.06802
+    },
+    {
+      "id": "robbie-lobell",
+      "org": "Robbie Lobell",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "soda"
+      ],
+      "region": "Ohio",
+      "city": null,
+      "urls": [
+        "https://www.cookonclay.com/"
+      ],
+      "notes": "See site. Found by discovery v3 on 2026-10-09; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": null,
+      "location_note": "Location not confirmed; shown at the state.",
+      "contact": {
+        "website": "https://www.cookonclay.com/"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-09",
+        "key": "cookonclay.com"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "page says state is OH, not WA",
+        "types": {},
+        "state": "OH",
+        "town": ""
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "access": {
+        "status": "ongoing",
+        "types": [
+          "soda"
+        ],
+        "url": "https://www.cookonclay.com/"
       }
     }
   ],
@@ -1115,6 +1030,30 @@
     {
       "id": "jonathan-stein",
       "why": "Two models agree: The only text is a snippet about a potter who makes his own wood- and soda-fired work, and it says nothing about outsiders joining, booking or signing up for any firing. (2026-10-08)"
+    },
+    {
+      "id": "munson-oh",
+      "why": "Second check (gemini-3.1-flash-lite): page says state is NY, not OH (2026-10-19)"
+    },
+    {
+      "id": "kiln-room-columbus",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions general wheel throwing classes and does not specify that any non-electric firing techniques are offered or accessible to the public. (2026-10-19)"
+    },
+    {
+      "id": "university-of-cincinnati",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions general ceramic and woodworking workshops with no specific non-electric firing types like raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction mentioned. (2026-10-19)"
+    },
+    {
+      "id": "kingston-ceramics-studio-oh",
+      "why": "Second check (gemini-3.5-flash-lite): The text only discusses a general firing service for cone 04 or 6 without mentioning any non-electric specific firing types such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "the-dairy-barn-arts-center",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions that ceramic bowls created in classes are fired in the center's kilns, but it does not specify the firing method or indicate that the public can participate in any non-electric firing techniques. (2026-10-19)"
+    },
+    {
+      "id": "art-clay-on-main",
+      "why": "Second check (gemini-3.5-flash-lite): The text describes a paint-your-own-pottery studio with standard electric kiln firing services for painted pieces, with no mention of raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction firings. (2026-10-19)"
     }
   ]
 }

@@ -324,10 +324,10 @@
         "key": "inbusinessphx.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page text provided is empty; only search snippets mention pit-firing workshops, but the actual page content needed to verify public access details is not included.",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The provided page text is empty, so it does not contain information about public access or firing types.",
         "types": {},
         "state": "",
         "town": ""
@@ -335,7 +335,7 @@
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -383,10 +383,10 @@
         "key": "potteryteachers.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "The snippet mentions raku but provides no page text showing how outsiders can access a firing—only that Rhonda Davis is a ceramic artist who specializes in raku and teaches students.",
+        "why": "The page text is empty and provides no details about public access to non-electric ceramic firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -396,7 +396,7 @@
       "lng": -111.65182,
       "located": {
         "osm": false,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -433,18 +433,18 @@
         "key": "laimaceramics.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a 1-Day Horse Hair Raku Firing Workshop, but the page text provided does not contain details about how outsiders can book or participate in this workshop.",
+        "by": "gemini-3-flash-preview",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The studio offers a 1-day horse hair raku firing workshop and immersive courses for participants.",
         "types": {},
         "state": "",
-        "town": "Bauska"
+        "town": "Rundāle"
       },
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -473,9 +473,9 @@
         "https://desertdragonpottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Phoenix, Arizona",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://desertdragonpottery.com/"
       },
@@ -492,171 +492,27 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "desertdragonpottery.com"
-      }
-    },
-    {
-      "id": "burst-of-butterflies",
-      "org": "Burst Of Butterflies",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Chandler",
-      "city": "Chandler",
-      "urls": [
-        "https://burstofbutterflies.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Chandler, Arizona",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://burstofbutterflies.com/"
       },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "Professional kiln firing services for ceramic and glass work created outside of Burst of Butterflies.",
-        "url": "https://burstofbutterflies.com/kiln-firing-services/",
-        "types": [],
-        "checked": "2026-10-14"
+      "weak": true,
+      "located": {
+        "state": "AZ",
+        "town": "Phoenix",
+        "score": 5,
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "burstofbutterflies.com"
-      }
-    },
-    {
-      "id": "monsoon-fire-pottery",
-      "org": "Monsoon Fire Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://www.monsoonfire.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.monsoonfire.com/"
+      "address": "25037 N 17th Ave, Phoenix, AZ 85085",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The text mentions special firings and a firing master, but does not provide details or quotes showing public access to specific non-electric firing types such as raku or wood.",
+        "types": {},
+        "state": "",
+        "town": "Phoenix"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Kiln firing care for ceramic artists in the West Valley.",
-        "url": "https://www.monsoonfire.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "monsoonfire.com"
-      }
-    },
-    {
-      "id": "phoenix-pottery-studio",
-      "org": "Phoenix Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Phoenix",
-      "city": "Phoenix",
-      "urls": [
-        "https://phoenixpotterystudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Phoenix, Arizona",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://phoenixpotterystudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Classes include glaze and firings, use of pottery tools, and use of pottery wheels.",
-        "url": "https://phoenixpotterystudio.com/classes/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "phoenixpotterystudio.com"
-      }
-    },
-    {
-      "id": "phoenix-fire-clay-studio",
-      "org": "Phoenix Fire Clay Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Phoenixville",
-      "city": "Phoenixville",
-      "urls": [
-        "https://www.phoenixfireclaystudio.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Phoenixville, Arizona",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.phoenixfireclaystudio.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "phoenixfireclaystudio.com"
-      }
-    },
-    {
-      "id": "phoenix-center-for-the-arts",
-      "org": "Phoenix Center for the Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Phoenix",
-      "city": "Phoenix",
-      "urls": [
-        "https://phoenixcenterforthearts.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Phoenix, Arizona",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://phoenixcenterforthearts.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Classes include all the tools needed such as wheels and kilns.",
-        "url": "https://phoenixcenterforthearts.org/class/ceramics/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "phoenixcenterforthearts.org"
-      }
+      "lat": 33.71411,
+      "lng": -112.09575
     },
     {
       "id": "tucson-clay-art-center",
@@ -690,6 +546,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "tucsonans.com"
+      },
+      "lat": 32.22288,
+      "lng": -110.97485,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided text is from a local business and events directory website and contains no information about Tucson Clay Art Center hosting non-electric ceramic firings for the public.",
+        "types": {},
+        "state": "AZ",
+        "town": "Tucson"
       }
     },
     {
@@ -699,7 +571,7 @@
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "wood"
+        "raku"
       ],
       "region": "Tucson",
       "city": "Tucson",
@@ -707,9 +579,9 @@
         "https://www.tucsonclayco-op.com/"
       ],
       "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Tucson, Arizona",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.tucsonclayco-op.com/"
       },
@@ -717,16 +589,42 @@
         "how": "Firing service",
         "note": "Firing service",
         "quote": "Full Kiln Load firings are priced as shown and based on cone fire.",
-        "url": "https://www.tucsonclayco-op.com/shop/p/firing-service-by-the-kiln-load",
-        "types": [],
+        "url": "https://www.tucsonclayco-op.com/about",
+        "types": [
+          "raku"
+        ],
         "checked": "2026-10-14"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "tucsonclayco-op.com"
-      }
+      },
+      "weak": false,
+      "located": {
+        "state": "AZ",
+        "town": "Tucson",
+        "score": 6,
+        "osm": true,
+        "date": "2026-10-19"
+      },
+      "address": "3326 N. Dodge Blvd., Tucson, AZ 85716",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The site explicitly lists 'Specialty Workshops for various skill levels including Raku' as an offering available for booking by the public.",
+        "types": {
+          "raku": "Specialty Workshops for various skill levels including Raku"
+        },
+        "state": "AZ",
+        "town": "Tucson",
+        "street": "3326 N. Dodge Blvd."
+      },
+      "auto_approved": "2026-10-20",
+      "lat": 32.26686,
+      "lng": -110.91422
     },
     {
       "id": "clay-center",
@@ -743,9 +641,9 @@
         "https://downtownflagstaff.org/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Flagstaff, Arizona",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://downtownflagstaff.org/"
       },
@@ -762,167 +660,25 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "downtownflagstaff.org"
-      }
-    },
-    {
-      "id": "my-ceramicmaterialsworkshop-az",
-      "org": "my.ceramicmaterialsworkshop",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
-      }
-    },
-    {
-      "id": "rovang-ceramics",
-      "org": "Rovang Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Sedona",
-      "city": "Sedona",
-      "urls": [
-        "https://rovangceramics.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Sedona, Arizona",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://rovangceramics.com/"
+      "weak": true,
+      "located": {
+        "state": "AZ",
+        "town": "Flagstaff",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "rovangceramics.com"
-      }
-    },
-    {
-      "id": "sol-city-clay",
-      "org": "Sol City Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Scottsdale",
-      "city": "Scottsdale",
-      "urls": [
-        "https://solcityclay.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Scottsdale, Arizona",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://solcityclay.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Sol City Clay will offer memberships, workshops, and open studio time—making pottery accessible whether you’re carving out a weekly ritual or dropping in to recharge.",
-        "url": "https://solcityclay.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "solcityclay.com"
-      }
-    },
-    {
-      "id": "yuma-prescott-mobile-art-classes",
-      "org": "Yuma & Prescott Mobile Art Classes",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://www.theartsyfartsystudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.theartsyfartsystudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Open pottery studio is now available in a workshop basis only.",
-        "url": "https://www.theartsyfartsystudio.com/pottery/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "theartsyfartsystudio.com"
-      }
-    },
-    {
-      "id": "tis-art-center-gallery",
-      "org": "‘Tis Art Center & Gallery",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Arizona",
-      "city": null,
-      "urls": [
-        "https://www.tisartgallery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.tisartgallery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Registration includes a 25-pound bag of mid-fire clay, glazes, slips, underglazes, stains, multiple kiln firings, and access to all ceramic tools and materials needed throughout the course.",
-        "url": "https://www.tisartgallery.com/adult-art-classes/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "tisartgallery.com"
+      "address": "216 W. Phoenix Ave., Suite 102, Flagstaff, AZ 86001",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided text is from the Flagstaff Downtown Business Alliance website and contains no information about ceramic firings.",
+        "types": {},
+        "state": "AZ",
+        "town": "Flagstaff",
+        "street": "216 W. Phoenix Ave., Suite 102"
       }
     }
   ],
@@ -1006,6 +762,46 @@
     {
       "id": "potteryclassess",
       "why": "Second check (claude-haiku-4.5): The page is a blog/directory about pottery classes with no specific enrollment information, contact details, or booking mechanism for any actual firing workshops or classes at a real location. (2026-10-08)"
+    },
+    {
+      "id": "phoenix-pottery-studio",
+      "why": "Its own pages give an address in PA (Hummelstown), not AZ. Moved. (2026-10-19)"
+    },
+    {
+      "id": "phoenix-fire-clay-studio",
+      "why": "Its own pages give an address in PA (Phoenixville), not AZ. Moved. (2026-10-19)"
+    },
+    {
+      "id": "burst-of-butterflies",
+      "why": "Second check (gemini-3-flash-preview): The text only mentions standard bisque and glaze firing services up to Cone 6 and pottery painting, which are typically electric, with no mention of non-electric firing methods. (2026-10-19)"
+    },
+    {
+      "id": "monsoon-fire-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes a service for electric kiln firing and does not mention any non-electric firing methods like raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "phoenix-center-for-the-arts",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions ceramics classes that include the use of kilns, but it does not specify that these are non-electric firings or offer any public access to such firing types. (2026-10-19)"
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop-az",
+      "why": "Second check (gemini-3-flash-preview): The site is an online educational platform and directory of other studios, rather than a physical location offering public non-electric firings. (2026-10-19)"
+    },
+    {
+      "id": "rovang-ceramics",
+      "why": "Second check (gemma-4-26b-a4b-it): The text mentions kiln firings for finished pieces but does not specify any non-electric firing types such as raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "sol-city-clay",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions on-site electric kilns for bisque and mid-range glaze firings, with no mention of non-electric ceramic firings like raku, wood, soda, salt, pit, or gas reduction. (2026-10-19)"
+    },
+    {
+      "id": "yuma-prescott-mobile-art-classes",
+      "why": "Second check (gemini-3-flash-preview): The text describes a paint-your-own pottery studio and does not mention any non-electric firing methods like raku or wood firing. (2026-10-19)"
+    },
+    {
+      "id": "tis-art-center-gallery",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions kiln firing services but does not specify that these are for non-electric firing techniques, and the ceramics classes do not specify the firing method used. (2026-10-19)"
     }
   ]
 }

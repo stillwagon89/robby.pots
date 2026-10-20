@@ -59,10 +59,10 @@
       "address_found": "3355 Clayton St Ste 44, North Las Vegas, NV 89032",
       "lat": 36.22038,
       "lng": -115.17054,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "tuscarora-pottery-school",
@@ -134,10 +134,10 @@
       "address": "138 Main Street, Tuscarora, NV 89834",
       "lat": 41.31401,
       "lng": -116.223,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "nevada-clay-guild",
@@ -233,10 +233,10 @@
         "key": "elkocountyarts.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippets describe raku firing workshops at Elko County Art Club, but the actual page text is empty, so public access cannot be confirmed from the page itself.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no address or firing details.",
         "types": {},
         "state": "",
         "town": ""
@@ -244,7 +244,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -309,7 +309,7 @@
         "town": "Mesquite",
         "score": 6,
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "address": "15 W. Mesquite Blvd., Mesquite, NV",
       "lat": 36.80428,
@@ -351,6 +351,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "neon.reviewjournal.com"
+      },
+      "lat": 36.16743,
+      "lng": -115.14841,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The provided text contains no information about Animal House Pottery or its firing services.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -379,6 +395,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "clayartsvegas.com"
+      },
+      "lat": 36.16743,
+      "lng": -115.14841,
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -394,9 +426,9 @@
         "https://www.thewedgeceramics.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Reno, Nevada",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.thewedgeceramics.com/"
       },
@@ -413,7 +445,28 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "thewedgeceramics.com"
-      }
+      },
+      "weak": true,
+      "located": {
+        "state": "NV",
+        "town": "Reno",
+        "score": 21,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "address": "2095 Dickerson Road, Reno, NV",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The studio lists 'Raku Kilns' as equipment, but the text does not provide a specific way for the public to sign up for or participate in a raku firing, and the membership/firing service information does not explicitly confirm access to non-electric firing techniques.",
+        "types": {},
+        "state": "NV",
+        "town": "Reno",
+        "street": "2095 Dickerson Road"
+      },
+      "lat": 39.52256,
+      "lng": -119.8375
     },
     {
       "id": "ogres-holm-pottery",
@@ -451,40 +504,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "ogresholmpottery.com"
-      }
-    },
-    {
-      "id": "campusce",
-      "org": "campusce",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Nevada",
-      "city": null,
-      "urls": [
-        "https://www.campusce.net/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.campusce.net/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The class fee includes the cost of one (1) 25 pound bag of clay, firing and glazing for items made in this class.",
-        "url": "https://www.campusce.net/wnc/course/course.aspx?C=388&pc=13&mc=26",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 39.16633,
+      "lng": -119.76704,
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "campusce.net"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -524,6 +559,10 @@
     {
       "id": "elkhorn-pottery",
       "why": "Its own pages give an address in KY (Georgetown), not NV. Moved. (2026-10-14)"
+    },
+    {
+      "id": "campusce",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes general ceramics classes and open studio access but does not mention any specific non-electric firing techniques like raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
     }
   ]
 }

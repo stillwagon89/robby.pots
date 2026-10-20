@@ -87,10 +87,10 @@
       "address": "2011 Tracy Ave, Kansas City, MO 64108",
       "lat": 39.08809,
       "lng": -94.56655,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "back-door-pottery",
@@ -153,10 +153,10 @@
       "address": "3922 St John Ave, Kansas City, MO 64123",
       "lat": 39.11324,
       "lng": -94.53497,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "kc-clay-guild-mo",
@@ -199,19 +199,18 @@
       "lat": 39.1001,
       "lng": -94.57814,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "unclear",
-        "why": "The search snippets mention soda firing and an address in Kansas City, MO, but the actual page text provided is empty, so I cannot verify public access details or confirm the firing type information.",
+        "why": "The provided page text is empty, so there is no information confirming public access or specific firing details.",
         "types": {},
-        "state": "MO",
-        "town": "Kansas City",
-        "street": "200 West 74th Street, Kansas City, MO 64114"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -259,10 +258,10 @@
         "key": "fireandmuckpottery.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page offers raku firings to the public through a Raku Gathering service where outsiders can participate by paying per person.",
+        "why": "The studio offers public Raku Gatherings where outsiders can sign up for a raku firing.",
         "types": {},
         "state": "MO",
         "town": "Rolla",
@@ -271,7 +270,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "lat": 37.95093,
       "lng": -91.77081
@@ -319,10 +318,10 @@
       "lat": 37.20817,
       "lng": -93.29227,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "The page text is from Square.site, a payment processing platform website with no information about ceramic firings, pottery classes, or public access to any firing activities.",
+        "why": "The provided page text is a generic landing page for the Square platform and contains no information about Creava Studio or its specific firing services.",
         "types": {},
         "state": "",
         "town": ""
@@ -330,7 +329,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -400,10 +399,10 @@
       "address_found": "1423 E. Cherry Street, Suite 103, Springfield, MO 65802",
       "lat": 37.20381,
       "lng": -93.2702,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "sam-fox-school-of-design-visual-arts",
@@ -460,47 +459,9 @@
         "town": "St. Louis",
         "score": 53,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "address": "01 One Brookings Drive, St. Louis, MO 63130"
-    },
-    {
-      "id": "munson-mo",
-      "org": "Munson",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "salt"
-      ],
-      "region": "Missouri",
-      "city": null,
-      "urls": [
-        "https://www.munson.art/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.munson.art/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "These six-week courses will explore form, function, aesthetic values, textures, tactile qualities, and surface development of atmospheric firing through salt.",
-        "url": "https://www.munson.art/product/32608",
-        "types": [
-          "salt"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "munson.art"
-      }
     },
     {
       "id": "cherry-pit-collective",
@@ -526,6 +487,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "artskcgo.com"
+      },
+      "lat": 38.62541,
+      "lng": -90.19001,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about ceramic firings or public access.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -564,66 +541,20 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "wildwoodgreenarts.org"
-      }
-    },
-    {
-      "id": "krueger-pottery-supply",
-      "org": "Krueger Pottery Supply",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "St. Louis",
-      "city": "St. Louis",
-      "urls": [
-        "https://kruegerpottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Louis, Missouri",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://kruegerpottery.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "kruegerpottery.com"
-      }
-    },
-    {
-      "id": "lu-ray-studio",
-      "org": "Lu Ray Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "St. Louis",
-      "city": "St. Louis",
-      "urls": [
-        "https://luraystudio.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "St. Louis, Missouri",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://luraystudio.com/"
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "By offering affordable low-mid temperature firing services for folks in the St. Louis area.",
-        "url": "https://luraystudio.com/pages/kiln-share",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "luraystudio.com"
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information regarding specific firing types or public access to non-electric firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -658,68 +589,26 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "mudroomstudio.com"
-      }
-    },
-    {
-      "id": "ceramicaclay",
-      "org": "ceramicaclay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Springfield",
-      "city": "Springfield",
-      "urls": [
-        "https://www.ceramicaclay.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Springfield, Missouri",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.ceramicaclay.com/"
       },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "We offer firing services by piece and by the kiln load.",
-        "url": "https://www.ceramicaclay.com/firing-services",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 38.95188,
+      "lng": -92.33374,
+      "weak": true,
+      "located": {
+        "state": "MO",
+        "town": "Columbia",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "ceramicaclay.com"
-      }
-    },
-    {
-      "id": "my-ceramicmaterialsworkshop-mo",
-      "org": "my.ceramicmaterialsworkshop",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Springfield",
-      "city": "Springfield",
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Springfield, Missouri",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The text only mentions a paint-your-own pottery studio with standard glaze firing, and contains no information about raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings.",
+        "types": {},
+        "state": "MO",
+        "town": "Columbia",
+        "street": "212 Green Meadows Road Suite 7"
       }
     }
   ],
@@ -751,6 +640,26 @@
     {
       "id": "munson",
       "why": "Second check (claude-haiku-4.5): The page text mentions a salt-fired ceramics workshop in the search snippet but provides no details about how outsiders can access it, and the main page content shows only museum exhibitions, performances, and general community arts classes with no specific information about ceramic firing workshops or public access to them. (2026-10-09)"
+    },
+    {
+      "id": "munson-mo",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions pottery and ceramics classes but does not describe any non-electric firing methods (such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction) being available to the public. (2026-10-19)"
+    },
+    {
+      "id": "krueger-pottery-supply",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions selling pottery supplies, clay types, and equipment, but contains no mention of offering public classes, workshops, or services for non-electric ceramic firings. (2026-10-19)"
+    },
+    {
+      "id": "lu-ray-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The studio offers low-mid temperature firing services for earthenware and stoneware (implying standard electric or general kilns), but does not mention any specialized non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "ceramicaclay",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions the use of KM1027 kilns, which are electric kilns, and does not offer any non-electric firing methods. (2026-10-19)"
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop-mo",
+      "why": "Second check (gemini-3.1-flash-lite): The website is an educational and research platform for glaze chemistry and does not offer public access to non-electric firing services, rentals, or workshops. (2026-10-19)"
     }
   ]
 }

@@ -58,20 +58,18 @@
         "key": "meetup.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "unclear",
-        "why": "The search snippets describe raku firing workshops on Meetup but provide no location details (town, state, or street address) from the page text itself.",
-        "types": {
-          "raku": "Each participant will make several pieces to fire in multiple Raku processing like reduction glazing or Feather and horse hair raku."
-        },
+        "why": "The provided page text is empty, so it is impossible to confirm if the public can join the workshops mentioned in the snippets.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -107,27 +105,30 @@
       "contact": {
         "website": "https://www.artsourcegallery.com/"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-07",
         "key": "artsourcegallery.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippets show raku workshops offered, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
-        "types": {},
-        "state": "",
-        "town": ""
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text offers a Spring Hand Building and Raku Workshop open to participants for a fee.",
+        "types": {
+          "raku": "Spring Hand Building and Raku Workshop Price: $150.00 Workshop Dates: 5/3/2025 - 5/25/2025 Location: Genie Sue Weppner Studio Address: 2800 N. Lancaster Drive Boise, Idaho 83713 Region: Boise Country: United States Fill out my online form."
+        },
+        "state": "ID",
+        "town": "Boise",
+        "street": "2800 N. Lancaster Drive"
       },
       "lat": 43.61662,
       "lng": -116.20089,
-      "weak": true,
+      "weak": false,
       "located": {
         "osm": true,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -136,8 +137,12 @@
         "date": "2026-10-07"
       },
       "access": {
-        "status": "ongoing"
-      }
+        "status": "ongoing",
+        "types": [
+          "raku"
+        ]
+      },
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "ceramica-arthouse",
@@ -206,10 +211,10 @@
       "address": "1002 South Vista Avenue, Boise, ID 83705",
       "lat": 43.59549,
       "lng": -116.21307,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "sandpoint-ceramics",
@@ -240,24 +245,21 @@
         "key": "sandpointceramics.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "unclear",
-        "why": "Snippets mention raku and pit fire workshops but the actual page text is empty, so cannot verify public access details or confirm the studio's location.",
-        "types": {
-          "raku": "Workshops will delve into different firing methods, such as electric and gas kilns, raku, and pit fire.",
-          "pit_barrel_saggar": "Workshops will delve into different firing methods, such as electric and gas kilns, raku, and pit fire."
-        },
-        "state": "ID",
+        "why": "The text mentions that workshops will delve into raku and pit fire methods, but it does not explicitly state that the public can sign up for these specific non-electric firing workshops, only that the first workshop will be electric.",
+        "types": {},
+        "state": "",
         "town": "Sandpoint",
-        "street": "Suite 206, Cedar Street Bridge"
+        "street": "Cedar Street Bridge"
       },
       "weak": true,
       "lat": 48.27613,
       "lng": -116.54878,
       "located": {
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -271,110 +273,6 @@
           "raku",
           "pit_barrel_saggar"
         ]
-      }
-    },
-    {
-      "id": "idaho-art-lab",
-      "org": "Idaho Art Lab",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Idaho",
-      "city": null,
-      "urls": [
-        "https://idahoartlab.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://idahoartlab.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Rent a kiln for $50.00 or fire by-the piece at 25&cent; an inch.",
-        "url": "http://www.idahoartlab.org/classes",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "idahoartlab.org"
-      }
-    },
-    {
-      "id": "a-way-with-clay",
-      "org": "A Way with Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Boise",
-      "city": "Boise",
-      "urls": [
-        "https://awaywithclaystudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Boise, Idaho",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://awaywithclaystudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The class includes a short lesson, all the materials needed for your project, firing, and coming back in to paint your creation.",
-        "url": "https://awaywithclaystudio.com/classes-events/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "awaywithclaystudio.com"
-      }
-    },
-    {
-      "id": "historicorps",
-      "org": "HistoriCorps",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Leadore",
-      "city": "Leadore",
-      "urls": [
-        "https://historictrades.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Leadore, Idaho",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://historictrades.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "HistoriCorps invites you to join us for one of our most unique volunteer opportunities of the season in the great state of Idaho as we make camp in the backdrop of the stunning Lemhi Mountains!",
-        "url": "https://historictrades.org/opportunity/volunteers-needed-birch-creek-charcoal-kilns-repairs/2024-07-14/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "historictrades.org"
       }
     },
     {
@@ -401,138 +299,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "my.ceramicmaterialsworkshop.com"
-      }
-    },
-    {
-      "id": "terracotta-pullman",
-      "org": "Terracotta Pullman",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Moscow",
-      "city": "Moscow",
-      "urls": [
-        "https://www.terracottapullman.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Moscow, Idaho",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.terracottapullman.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "terracottapullman.com"
-      }
-    },
-    {
-      "id": "isu-craft-shop",
-      "org": "ISU Craft Shop",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Pocatello",
-      "city": "Pocatello",
-      "urls": [
-        "https://cetrain.isu.edu/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Pocatello, Idaho",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://cetrain.isu.edu/"
+      "lat": 47.6743,
+      "lng": -116.78115,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Classes will include casting a mold, cleaning, and firing in a kiln.",
-        "url": "https://cetrain.isu.edu/enrollment/course/ceramic-basic/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "cetrain.isu.edu"
-      }
-    },
-    {
-      "id": "nampaparksandrecreation",
-      "org": "nampaparksandrecreation",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Idaho",
-      "city": null,
-      "urls": [
-        "https://www.nampaparksandrecreation.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.nampaparksandrecreation.org/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "Come join us in our Kiln Fired Pottery Workshops!",
-        "url": "https://www.nampaparksandrecreation.org/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "nampaparksandrecreation.org"
-      }
-    },
-    {
-      "id": "salmon-pottery-studio",
-      "org": "Salmon Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Salmon",
-      "city": "Salmon",
-      "urls": [
-        "https://www.salmonpotterystudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Salmon, Idaho",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.salmonpotterystudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Join a monthly pottery studio membership in Salmon, Idaho. Enjoy open studio access, wheels, kilns, glazes, and a creative clay community.",
-        "url": "https://www.salmonpotterystudio.com/membership-2",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "salmonpotterystudio.com"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text contains no information about public-access non-electric ceramic firings or how outsiders can participate in them.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -564,6 +346,34 @@
     {
       "id": "boulder-mountain-clayworks",
       "why": "Second check (claude-haiku-4.5): The page mentions raku pottery equipment but only describes classes and workshops for hand-building, throwing, and sculpting with no specific mention of public access to raku firings or any non-electric ceramic firing experiences. (2026-10-09)"
+    },
+    {
+      "id": "historicorps",
+      "why": "Its own pages give an address in VT (Waitsfield), not ID. Moved. (2026-10-19)"
+    },
+    {
+      "id": "terracotta-pullman",
+      "why": "Its own pages give an address in WA (Pullman), not ID. Moved. (2026-10-19)"
+    },
+    {
+      "id": "idaho-art-lab",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firing methods such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "a-way-with-clay",
+      "why": "Second check (gemma-4-31b-it): The studio is a paint-your-own pottery business and does not mention any non-electric firing options. (2026-10-19)"
+    },
+    {
+      "id": "isu-craft-shop",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text does not contain any information about ceramic firings or pottery classes. (2026-10-19)"
+    },
+    {
+      "id": "nampaparksandrecreation",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions general pottery workshops but does not specify the type of firing used or confirm that any non-electric firing methods are available to the public. (2026-10-19)"
+    },
+    {
+      "id": "salmon-pottery-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions general pottery classes and painting, but contains no mention of raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings. (2026-10-19)"
     }
   ]
 }

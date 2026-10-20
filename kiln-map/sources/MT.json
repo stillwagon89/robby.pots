@@ -88,20 +88,18 @@
         "key": "themakingplacemt.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "Search snippets show a raku workshop offered by Montana Harvest Moon, but the actual page text is empty, so location details and confirmation of public access cannot be verified from the page itself.",
-        "types": {
-          "raku": "In this hands-on workshop, participants will learn the art of Raku, a traditional Japanese firing technique known for its dramatic results and unpredictable outcomes."
-        },
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -157,10 +155,10 @@
       "lat": 46.8701,
       "lng": -113.99527,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The snippets mention wood kilns and anagama kilns but do not provide specific information about how outsiders can access or participate in firings (no mention of classes, workshops, memberships, rentals, firing services, or invitations to contact them).",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information regarding public access to non-electric firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -168,7 +166,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -240,10 +238,10 @@
       "address": "1106 Hawthorne St, Missoula, MT 59802",
       "lat": 46.88214,
       "lng": -114.00765,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "clay-arts-guild-of-helena",
@@ -312,10 +310,10 @@
       "address": "3025 Bozeman Ave, Helena, MT",
       "lat": 46.59994,
       "lng": -111.98524,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "jerry-baldwin-ceramics",
@@ -358,18 +356,18 @@
       "lat": 47.1619,
       "lng": -114.08508,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions wood kilns and firing but provides no details about public access, workshops, memberships, or how outsiders can participate in firings.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public participation or non-electric ceramic firings.",
         "types": {},
-        "state": "MT",
-        "town": "Arlee"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -489,93 +487,6 @@
       "approved": "2026-10-15"
     },
     {
-      "id": "potteryclassess",
-      "org": "potteryclassess",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Billings",
-      "city": "Billings",
-      "urls": [
-        "https://potteryclassess.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-13; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Billings, Montana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://potteryclassess.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Pit Firing All materials and equipment Two days",
-        "url": "https://potteryclassess.com/pottery-classes-in-los-angeles-la/",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-13"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "potteryclassess.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "This is a directory/blog website about pottery classes and techniques with no physical location, no firings of its own, and no information about public access to non-electric ceramic firings.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-14"
-      },
-      "lat": 45.7875,
-      "lng": -108.49607
-    },
-    {
-      "id": "workroom-montana",
-      "org": "Workroom Montana",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Montana",
-      "city": null,
-      "urls": [
-        "https://www.workroommontana.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.workroommontana.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "workroommontana.com"
-      }
-    },
-    {
       "id": "stumptown-art-studio",
       "org": "Stumptown Art Studio",
       "kind": "studio",
@@ -610,166 +521,23 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "stumptownartstudio.org"
-      }
-    },
-    {
-      "id": "bozeman-community-kiln",
-      "org": "Bozeman Community Kiln",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Bozeman",
-      "city": "Bozeman",
-      "urls": [
-        "https://bckstudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bozeman, Montana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://bckstudio.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "bckstudio.com"
-      }
-    },
-    {
-      "id": "the-pottery-den",
-      "org": "The Pottery Den",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Bozeman",
-      "city": "Bozeman",
-      "urls": [
-        "https://www.thepotteryden.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bozeman, Montana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.thepotteryden.com/"
+      "lat": 48.4108,
+      "lng": -114.33462,
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "thepotteryden.com"
-      }
-    },
-    {
-      "id": "megan-billings-pottery",
-      "org": "Megan Billings Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Montana",
-      "city": null,
-      "urls": [
-        "https://billingspottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://billingspottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Also covers the next fine-tuning steps, 2 kiln firings, glazing, and finishing of your creations.",
-        "url": "https://billingspottery.com/clay-parties",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "billingspottery.com"
-      }
-    },
-    {
-      "id": "art-escape-pottery-studio",
-      "org": "Art Escape Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Montana",
-      "city": null,
-      "urls": [
-        "https://artescaperetreat.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://artescaperetreat.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "NOTE : All carved pieces will be clear glazed by us and we’ll let you know when they are ready for pickup or shipping (we have to wait until we have a full kiln load to run a glaze firing).",
-        "url": "https://artescaperetreat.com/handbuilding-pottery-workshops/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "artescaperetreat.com"
-      }
-    },
-    {
-      "id": "ponderosa-pottery",
-      "org": "Ponderosa Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Kalispell",
-      "city": "Kalispell",
-      "urls": [
-        "https://dailyinterlake.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Kalispell, Montana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://dailyinterlake.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Lessons are across five weeks so students get a deeper understanding of the clay, glaze, and firing schedules and by the end, they’ll have a fired piece that they made.",
-        "url": "https://dailyinterlake.com/news/2023/mar/26/ponderosa-pottery-provides-space-creativity/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "dailyinterlake.com"
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The site mentions that the Clay Studio offers firing opportunities to the public, but it does not specify the types of kilns or firing methods used.",
+        "types": {},
+        "state": "MT",
+        "town": "Whitefish",
+        "street": "145 Central Avenue"
       }
     },
     {
@@ -783,15 +551,15 @@
         "wood",
         "gas_reduction"
       ],
-      "region": "Great Falls",
-      "city": "Great Falls",
+      "region": "N Great Falls",
+      "city": "N Great Falls",
       "urls": [
         "https://www.the-square.org/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Great Falls, Montana",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.the-square.org/"
       },
@@ -808,6 +576,24 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "the-square.org"
+      },
+      "weak": true,
+      "located": {
+        "state": "MT",
+        "town": "N Great Falls",
+        "score": 9,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "address": "1400 1st Ave, N Great Falls, MT 59401",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The text mentions that the ceramic arts program offers kiln firing services, but it does not specify the types of kilns or firing techniques used, nor does it explicitly state that these services include non-electric firing methods.",
+        "types": {},
+        "state": "MT",
+        "town": "Great Falls"
       }
     },
     {
@@ -846,96 +632,20 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "greatwheelstudio.kilnfire.com"
-      }
-    },
-    {
-      "id": "brush-crazy",
-      "org": "Brush Crazy",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Great Falls",
-      "city": "Great Falls",
-      "urls": [
-        "https://brushcrazy.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Great Falls, Montana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://brushcrazy.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We have a system for this! You will be issued a project ticket to accompany your project, and in the event your chosen art project needs a little extra TLC to reach that point of finished—we'll take care of the kiln firing and you'll receive prompt notification when it's complete!",
-        "url": "https://brushcrazy.com/",
-        "types": [],
-        "checked": "2026-10-14"
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "brushcrazy.com"
-      }
-    },
-    {
-      "id": "stumptown-clay-studio",
-      "org": "Stumptown Clay Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Whitefish",
-      "city": "Whitefish",
-      "urls": [
-        "https://www.flatheadevents.net/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Whitefish, Montana",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.flatheadevents.net/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "flatheadevents.net"
-      }
-    },
-    {
-      "id": "blackdog-clayworks",
-      "org": "Blackdog Clayworks",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Montana",
-      "city": null,
-      "urls": [
-        "https://www.blackdogclayworks.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.blackdogclayworks.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "blackdogclayworks.com"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text only contains a login interface and no information about public ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -995,6 +705,46 @@
     {
       "id": "the-clay",
       "why": "Second check (claude-haiku-4.5): missoulaevents.net is a community events calendar directory/listing site with no indication it runs its own ceramic firings; the search snippets mention The Clay's wood and raku classes/firings but the page text provided does not contain details about how to access them or The Clay's location/contact information. (2026-10-14)"
+    },
+    {
+      "id": "potteryclassess",
+      "why": "Second check (gemini-3.1-flash-lite): The website is a directory and informational blog about pottery techniques and general class locations, not a studio that offers public access to non-electric firings. (2026-10-19)"
+    },
+    {
+      "id": "workroom-montana",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text does not mention any non-electric ceramic firing types such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "bozeman-community-kiln",
+      "why": "Second check (gemini-3.5-flash-lite): The provided text mentions kiln firings and general studio classes/memberships, but does not specify any non-electric ceramic firing techniques such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "the-pottery-den",
+      "why": "Second check (gemma-4-26b-a4b-it): The text does not mention any of the specified non-electric firing types. (2026-10-19)"
+    },
+    {
+      "id": "megan-billings-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions classes and workshops but does not specify any non-electric ceramic firing types such as raku, wood, soda, salt, pit, or gas reduction. (2026-10-19)"
+    },
+    {
+      "id": "art-escape-pottery-studio",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions standard kiln firings for pottery lessons and workshops, with no mention of non-electric firing techniques such as raku, wood, soda, salt, or pit/barrel/saggar. (2026-10-19)"
+    },
+    {
+      "id": "ponderosa-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The provided text only contains newspaper site navigation and subscription links and does not mention any ceramic firings. (2026-10-19)"
+    },
+    {
+      "id": "brush-crazy",
+      "why": "Second check (gemini-3.1-flash-lite): The website describes a paint-your-own studio that offers ceramics to be decorated with glaze or acrylics, but it does not mention any non-electric firing techniques like raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "stumptown-clay-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text contains only snippets from an event calendar website and does not provide information about Stumptown Clay Studio offering public non-electric ceramic firings. (2026-10-19)"
+    },
+    {
+      "id": "blackdog-clayworks",
+      "why": "Second check (gemma-4-31b-it): The text mentions the Obvara firing technique but does not provide any way for the public to participate. (2026-10-19)"
     }
   ]
 }

@@ -40,10 +40,10 @@
         "key": "kunzlerstudios.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page describes raku workshops open to the public (18+) with sign-up process and liability waiver, indicating outsiders can participate in raku firings.",
+        "why": "The site offers Raku workshops that participants can sign up for.",
         "types": {},
         "state": "IA",
         "town": "West Des Moines"
@@ -52,7 +52,7 @@
       "lng": -93.75941,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "weak": true,
       "agree": {
@@ -103,10 +103,10 @@
       "lat": 40.72648,
       "lng": -91.85483,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "Search snippets mention raku workshops but provide no page text with location details, pricing, booking information, or confirmation that outsiders can register.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public ceramic firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -114,7 +114,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -194,10 +194,10 @@
       "address_found": "329 10th Ave SE, Suite 117, Cedar Rapids, IA 52401",
       "lat": 41.97194,
       "lng": -91.65895,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "creston-arts",
@@ -227,10 +227,10 @@
         "key": "crestonarts.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "unclear",
-        "why": "The search snippet mentions a Raku Pottery Workshop but the actual page text provided is empty, so I cannot verify public access details or confirm the workshop is actually offered.",
+        "why": "The provided page text is empty, so it is impossible to determine if the public can participate in the firing.",
         "types": {},
         "state": "",
         "town": ""
@@ -238,7 +238,7 @@
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -291,10 +291,10 @@
       "lat": 41.80001,
       "lng": -91.87073,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "Search snippets mention a raku workshop but no page text is provided to verify public access details, location, or how to book.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public participation in ceramic firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -302,7 +302,7 @@
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -431,10 +431,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "shady-grove-pottery",
@@ -466,10 +466,10 @@
       "lat": 42.49668,
       "lng": -96.40588,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "No page text provided to verify public access to any non-electric firing types.",
+        "why": "The provided page text is empty and contains no information regarding public access to firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -477,7 +477,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -487,178 +487,6 @@
       },
       "access": {
         "status": "ongoing"
-      }
-    },
-    {
-      "id": "ankeny-art-center",
-      "org": "Ankeny Art Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Ankeny",
-      "city": "Ankeny",
-      "urls": [
-        "https://www.ankenyartcenter.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Ankeny, Iowa",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.ankenyartcenter.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The class fee includes 25lbs of clay, glazes, and firing.",
-        "url": "https://www.ankenyartcenter.org/product-page/pottery-studio",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "ankenyartcenter.org"
-      }
-    },
-    {
-      "id": "renee-s-ceramic-cafe",
-      "org": "Renee's Ceramic Cafe",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Iowa City",
-      "city": "Iowa City",
-      "urls": [
-        "https://www.reneesceramiccafe.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Iowa City, Iowa",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.reneesceramiccafe.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The price of that piece includes all your paint, the firing, anything you need to finish that piece.",
-        "url": "https://www.reneesceramiccafe.org/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "reneesceramiccafe.org"
-      }
-    },
-    {
-      "id": "nathan-clay",
-      "org": "nathan & clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Ames",
-      "city": "Ames",
-      "urls": [
-        "https://www.nathanandclay.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Ames, Iowa",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.nathanandclay.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Nathan's studio is located in Ames, IA and offers portable pottery workshops, in-studio lessons and handmade pottery.",
-        "url": "https://www.nathanandclay.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "nathanandclay.com"
-      }
-    },
-    {
-      "id": "dubuque-pottery-studio",
-      "org": "Dubuque Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Dubuque",
-      "city": "Dubuque",
-      "urls": [
-        "https://www.dubuquepotterystudio.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Dubuque, Iowa",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.dubuquepotterystudio.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "Kiln Firing Service (2-3 wk turnaround) Pickup & Drop Off Hours Saturday & Sunday 9am-3pm Wednesday 1-4pm minimum of 10 pieces per firing all pieces must be labeled with your initials",
-        "url": "https://www.dubuquepotterystudio.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "dubuquepotterystudio.com"
-      }
-    },
-    {
-      "id": "iowa-western-community-college",
-      "org": "Iowa Western Community College",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Iowa",
-      "city": null,
-      "urls": [
-        "https://www.iwcc.edu/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.iwcc.edu/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "October 10, 2026, from 1:00-2:30pm Create a beautiful, functional ceramic piece in this fun, hands on workshop! The registration fee includes one ceramic piece, glazes, and all art supplies- just bring your creativity! Clay Contours will lead this workshop and take the glazed pieces back to their kiln for firing. Finished pieces will be returned to Iowa Western for pick up before October 26.",
-        "url": "https://www.iwcc.edu/ce/life-leisure/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "iwcc.edu"
       }
     }
   ],
@@ -690,6 +518,26 @@
     {
       "id": "arts-culture-alliance",
       "why": "Second check (gemini-3.5-flash-lite): The text discusses a private wood-fired kiln built at an individual's residence and does not provide an address, class sign-up, membership, or rental option for outsiders on the page itself. (2026-10-08)"
+    },
+    {
+      "id": "ankeny-art-center",
+      "why": "Second check (gemini-3.5-flash-lite): The page text mentions pottery studio time and firing, but does not provide any information about non-electric ceramic firings such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "renee-s-ceramic-cafe",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes a paint-your-own pottery studio where firing is included with the purchase of a piece, and there is no mention of non-electric firing techniques. (2026-10-19)"
+    },
+    {
+      "id": "nathan-clay",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions standard studio and portable pottery classes and firing services, but does not state or show any non-electric ceramic firings such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "dubuque-pottery-studio",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions general kiln firing services and does not specify that any non-electric firing techniques (such as raku, wood, soda, salt, pit, or gas-reduction) are available. (2026-10-19)"
+    },
+    {
+      "id": "iowa-western-community-college",
+      "why": "Second check (gemini-3.5-flash-lite): The provided text does not contain any information about public non-electric ceramic firings or related workshops, classes, or services. (2026-10-19)"
     }
   ]
 }

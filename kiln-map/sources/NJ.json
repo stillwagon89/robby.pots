@@ -60,21 +60,23 @@
         "key": "nynjceramics.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page shows a Raku Workshop offered for Summer 2025 with public registration available at $350 individual tuition, with instruction from Academy founder Frank Bosco.",
-        "types": {},
+        "why": "The text shows that outsiders can participate in raku workshops offered by the academy.",
+        "types": {
+          "raku": "Raku firings during seasonal workshops are also offered, and here again with no less than 40 academy-made glazes."
+        },
         "state": "NJ",
         "town": "Jersey City"
       },
-      "weak": true,
+      "weak": false,
       "located": {
         "state": "NJ",
         "town": "Jersey City",
         "score": 5,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -83,7 +85,11 @@
         "date": "2026-10-08"
       },
       "access": {
-        "status": "ongoing"
+        "status": "ongoing",
+        "types": [
+          "raku"
+        ],
+        "url": "https://www.nynjceramics.com/about-the-academy"
       },
       "address": "279 Pine St., Jersey City, NJ 07304",
       "lat": 40.71247,
@@ -148,10 +154,10 @@
       "address": "94 E Dewey Ave, Wharton, NJ",
       "lat": 40.90634,
       "lng": -74.57591,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "artscenter",
@@ -192,10 +198,10 @@
         "key": "canvas.artscenterlive.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "No page text provided to verify public access, location details, or firing participation details.",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The provided page text is empty, so there is no information to confirm public access or firing details.",
         "types": {},
         "state": "",
         "town": ""
@@ -205,7 +211,7 @@
       "lng": -74.38367,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -242,10 +248,10 @@
         "key": "dwaynesackey.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "The page text is from Dwayne Sackey's personal pottery website with a closed shop; it contains no information about public access to firings at Truro Center for the Arts, and the search snippet about a soda workshop is not supported by the actual page text provided.",
+        "why": "The provided page text for dwaynesackey.com contains no information about firing services, workshops, or public access to non-electric firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -253,7 +259,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -304,10 +310,10 @@
         "key": "wootenclayworks.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a salt kiln workshop open to participants, but the actual page text is empty, so I cannot verify the location details or confirm public access from the page itself.",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty, so no public firing opportunities or address details can be verified.",
         "types": {},
         "state": "",
         "town": ""
@@ -315,7 +321,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -431,7 +437,7 @@
         "town": "Scotch Plains",
         "score": 15,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "access": {
         "status": "ongoing"
@@ -491,10 +497,10 @@
       },
       "lat": 40.66523,
       "lng": -74.30453,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "the-clay-pot-pottery-studio-nj",
@@ -511,9 +517,9 @@
         "https://www.theclaypotpottery.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Spotswood, New Jersey",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.theclaypotpottery.com/"
       },
@@ -527,84 +533,36 @@
         ],
         "checked": "2026-10-14"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "theclaypotpottery.com"
-      }
-    },
-    {
-      "id": "clay-art-space-nj",
-      "org": "Clay Art Space",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "New Jersey",
-      "city": null,
-      "urls": [
-        "https://www.clayartspace.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.clayartspace.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
-        "url": "https://www.clayartspace.com/kiln-firing.html",
-        "types": [],
-        "checked": "2026-10-14"
+      "weak": false,
+      "located": {
+        "state": "NJ",
+        "town": "Spotswood",
+        "score": 9,
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "clayartspace.com"
-      }
-    },
-    {
-      "id": "glassroots-inc",
-      "org": "GlassRoots Inc",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda",
-        "salt",
-        "pit_barrel_saggar"
-      ],
-      "region": "Newark",
-      "city": "Newark",
-      "urls": [
-        "https://www.newarkhappening.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Newark, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.newarkhappening.com/"
+      "address": "290 Main Street, Spotswood, NJ 08884",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text offers public Raku workshops and firing services that outsiders can book and participate in.",
+        "types": {
+          "raku": "The Clay Pot welcomes you to experience this truly unique way of firing pottery by participating in one of our Raku workshops."
+        },
+        "state": "NJ",
+        "town": "Spotswood",
+        "street": "290 Main Street"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Workshops and classes are available in flameworking, glassblowing, and kilnforming.",
-        "url": "https://www.newarkhappening.com/listing/glass-roots-inc/242/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "newarkhappening.com"
-      }
+      "auto_approved": "2026-10-20",
+      "lat": 40.39759,
+      "lng": -74.38362
     },
     {
       "id": "clayground-pottery-studio",
@@ -638,68 +596,20 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "claygroundps.com"
-      }
-    },
-    {
-      "id": "atacama-clay-studio",
-      "org": "Atacama Clay Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Jersey City",
-      "city": "Jersey City",
-      "urls": [
-        "https://www.atacamaclaystudio.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Jersey City, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.atacamaclaystudio.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "atacamaclaystudio.com"
-      }
-    },
-    {
-      "id": "indi-studio",
-      "org": "Indi Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Princeton",
-      "city": "Princeton",
-      "urls": [
-        "https://www.indistudio.net/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Princeton, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.indistudio.net/"
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Each month includes a 25 lb bag of low-fire clay in white or terra-cotta and a full kiln shelf of firing, plus 20% off our workshops and classes.",
-        "url": "https://www.indistudio.net/events",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "indistudio.net"
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided text contains no information regarding non-electric firing services or public access to such firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -730,6 +640,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "tcapnj.org"
+      },
+      "lat": 40.22031,
+      "lng": -74.7659,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided text contains no information regarding specific firing types or public access to non-electric firing processes.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -771,44 +697,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "nextdoor.com"
-      }
-    },
-    {
-      "id": "my-ceramicmaterialsworkshop-nj",
-      "org": "my.ceramicmaterialsworkshop",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Asbury Park",
-      "city": "Asbury Park",
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Asbury Park, New Jersey",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The current studio website explicitly advertises open studio access, public firing services.",
-        "url": "https://my.ceramicmaterialsworkshop.com/studios/ap-clay-asbury-park-nj",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 40.22039,
+      "lng": -74.01208,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no details about specific non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -864,6 +768,26 @@
     {
       "id": "peters-valley-school-of-craft",
       "why": "Second check (claude-haiku-4.5): The page text shows only hand-building classes, wheel classes, and claydates with no mention of atmospheric firings (raku, wood, anagama, soda, salt, pit, or gas-reduction); 'Firing Services' is mentioned in navigation but no details are provided on the actual page. (2026-10-09)"
+    },
+    {
+      "id": "clay-art-space-nj",
+      "why": "Its own pages give an address in AK (Anchorage), not NJ. Moved. (2026-10-19)"
+    },
+    {
+      "id": "indi-studio",
+      "why": "Its own pages give an address in PA (Washington Crossing), not NJ. Moved. (2026-10-19)"
+    },
+    {
+      "id": "glassroots-inc",
+      "why": "Second check (gemini-3.5-flash-lite): The provided text mentions glassworking workshops and classes but does not contain information about non-electric ceramic firings. (2026-10-19)"
+    },
+    {
+      "id": "atacama-clay-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions general pottery classes and workshops, but contains no mention of specific non-electric ceramic firings such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop-nj",
+      "why": "Second check (gemini-3.1-flash-lite): The website is an educational and research platform for glaze chemistry and does not offer public access to non-electric firing services, workshops, or rentals. (2026-10-19)"
     }
   ]
 }

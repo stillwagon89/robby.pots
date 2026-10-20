@@ -29,10 +29,10 @@
         "key": "campsingers.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "unclear",
-        "why": "The page mentions a Pit Firing Weekend exploring pit firing technique, but does not clearly state whether outsiders can sign up or how to participate.",
+        "why": "The text mentions a 'Pit Firing Weekend' in the search snippet but the provided page text only contains navigation links and a link to book a stay, with no information on how the public can sign up for the firing.",
         "types": {},
         "state": "",
         "town": ""
@@ -40,7 +40,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -51,67 +51,6 @@
       "access": {
         "status": "ongoing"
       }
-    },
-    {
-      "id": "bracker-s",
-      "org": "Bracker's",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Kansas",
-      "city": null,
-      "urls": [
-        "https://www.brackers.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-07; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.brackers.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "We provide the complete Raku setup, you bring your students and their pots. Instruction in safety, the how-tos of firing and even a history and who’s who of Raku are included.",
-        "url": "https://www.brackers.com/service/",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-07",
-        "status": "past_only"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-07",
-        "key": "brackers.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "The text explicitly states Bracker's offers Raku Workshops where they provide the complete setup and instruction, available at their location or brought to schools/colleges, making it accessible to students and teachers beyond just their staff.",
-        "types": {
-          "raku": "We provide the complete Raku setup, you bring your students and their pots."
-        },
-        "state": "",
-        "town": ""
-      },
-      "located": {
-        "osm": false,
-        "date": "2026-10-13"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "agree-yes",
-        "date": "2026-10-07"
-      },
-      "weak": true
     },
     {
       "id": "house-of-clay",
@@ -173,10 +112,10 @@
       "address": "7811 Marty St, Overland Park, KS 66204",
       "lat": 38.98736,
       "lng": -94.66995,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "lawrence-potters-guild",
@@ -216,13 +155,13 @@
         "key": "www2.ljworld.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemma-4-31b-it",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "The page text is from a news website (Lawrence Journal-World) and contains no information about the Lawrence Potters' Guild offering public access to ceramic firings; it only mentions the guild exists with 30 members and does shows at various venues.",
+        "why": "The provided text consists of newspaper pages and contains no information about ceramic firings or public access to the Lawrence Potters' Guild.",
         "types": {},
-        "state": "KS",
-        "town": "Lawrence"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "located": {
@@ -230,105 +169,9 @@
         "town": "Lawrence",
         "score": 15,
         "osm": false,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "address": "1035 N. Third Street, Lawrence, KS 66044"
-    },
-    {
-      "id": "wichita-pottery",
-      "org": "Wichita Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Wichita",
-      "city": "Wichita",
-      "urls": [
-        "https://wichitapottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Wichita, Kansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://wichitapottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The benefits of a membership at our studio include studio time in a fun environment, central location, personal storage space, access to all studio equipment, firing, and glazes.",
-        "url": "https://wichitapottery.com/membership",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "wichitapottery.com"
-      }
-    },
-    {
-      "id": "color-mine",
-      "org": "Color Mine",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Wichita",
-      "city": "Wichita",
-      "urls": [
-        "https://wichita.colormemine.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Wichita, Kansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://wichita.colormemine.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Walk-ins & reservations are welcome in our main studio during events unless otherwise noted.",
-        "url": "https://wichita.colormemine.com/calendar",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "wichita.colormemine.com"
-      }
-    },
-    {
-      "id": "lawrence-clay-collective",
-      "org": "Lawrence Clay Collective",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Lawrence",
-      "city": "Lawrence",
-      "urls": [
-        "https://www.lawrenceclaycollective.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Lawrence, Kansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.lawrenceclaycollective.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "lawrenceclaycollective.com"
-      }
     },
     {
       "id": "lawrence-arts-center",
@@ -364,109 +207,26 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "lawrenceartscenter.org"
-      }
-    },
-    {
-      "id": "the-makers-guild",
-      "org": "The Makers Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Manhattan",
-      "city": "Manhattan",
-      "urls": [
-        "https://themakersguildinc.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Manhattan, Kansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://themakersguildinc.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Upcoming workshops, open studio nights, and community events at The Makers Guild in Manhattan, Kansas.",
-        "url": "https://themakersguildinc.com/",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 38.97191,
+      "lng": -95.23594,
+      "weak": true,
+      "located": {
+        "state": "KS",
+        "town": "Lawrence",
+        "score": 15,
+        "osm": true,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "themakersguildinc.com"
-      }
-    },
-    {
-      "id": "emporia-arts-center",
-      "org": "Emporia Arts Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Emporia",
-      "city": "Emporia",
-      "urls": [
-        "https://emporiaksarts.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Emporia, Kansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://emporiaksarts.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Ceramics open studio for all skill levels. All supplies and firings are provided!",
-        "url": "https://emporiaksarts.org/product/coffee-clay-club-2/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "emporiaksarts.org"
-      }
-    },
-    {
-      "id": "thermal-ceramics-inc",
-      "org": "Thermal Ceramics Inc",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Emporia",
-      "city": "Emporia",
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Emporia, Kansas",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The Lawrence Arts Center offers classes that include atmospheric firing, which is open to the public for enrollment.",
+        "types": {},
+        "state": "KS",
+        "town": "Lawrence",
+        "street": "940 New Hampshire St."
       }
     }
   ],
@@ -486,6 +246,34 @@
     {
       "id": "vince-pitelka",
       "why": "Second check (claude-haiku-4.5): The site shows Vince Pitelka's personal studio with a soda kiln, but explicitly states 'I no longer teach workshops' and 'Throughout the year my studio is open by appointment' with no indication that outsiders can participate in firings—only visit the studio by appointment. (2026-10-13)"
+    },
+    {
+      "id": "color-mine",
+      "why": "Its own pages give an address in CA (Studio City), not KS. Moved. (2026-10-19)"
+    },
+    {
+      "id": "bracker-s",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions raku workshops and general ceramic supplies, but it does not provide an address, town, or state, nor does it offer public access for outsiders to participate in non-electric ceramic firings at their facility. (2026-10-19)"
+    },
+    {
+      "id": "wichita-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any specific non-electric ceramic firing types such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "lawrence-clay-collective",
+      "why": "Second check (gemma-4-26b-a4b-it): The only firing services mentioned are electric. (2026-10-19)"
+    },
+    {
+      "id": "the-makers-guild",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions ceramics and kilns generally, but does not state or show any specific non-electric ceramic firings such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "emporia-arts-center",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions that ceramics open studio sessions include firings, but it does not specify the firing method or confirm that any non-electric firing techniques are available. (2026-10-19)"
+    },
+    {
+      "id": "thermal-ceramics-inc",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes an online educational platform for glaze chemistry and research, not a physical studio offering public access to non-electric firing services or workshops. (2026-10-19)"
     }
   ]
 }

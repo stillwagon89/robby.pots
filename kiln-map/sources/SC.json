@@ -57,10 +57,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "artfields",
@@ -101,20 +101,22 @@
         "key": "artfieldssc.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a soda firing workshop but the actual page text is empty, so I cannot verify public access details or location information from the page itself.",
-        "types": {},
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The text explicitly offers a 'Learn to Soda Fire Workshop' that participants can join.",
+        "types": {
+          "soda": "In this 3-day workshop, Alexander Thierry will share his vast knowledge of soda firing specifically at mid-range temperatures."
+        },
         "state": "",
-        "town": ""
+        "town": "Lake"
       },
       "lat": 32.77804,
       "lng": -79.93304,
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -162,10 +164,10 @@
         "key": "hiltonheadpottery.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The page mentions 'Alternative Firing Workshops' and 'raku kilns' but provides no specific sentence showing how outsiders can book or join a raku or alternative firing workshop.",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "The studio explicitly lists 'Alternative Firing Workshops' as a class offering for the public.",
         "types": {},
         "state": "SC",
         "town": "Hilton Head Island",
@@ -177,7 +179,7 @@
         "town": "Hilton Head Island",
         "score": 15,
         "osm": false,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -226,14 +228,14 @@
         "key": "clemson.world"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "The page text is from Clemson World Magazine, a university publication about Clemson University, not the Clemson Art Department itself, and contains only a brief mention of an anagama kiln built by faculty and students with no information about public access to firings.",
+        "why": "The provided text is for Clemson World Magazine and contains no information about ceramic firings or public pottery classes.",
         "types": {},
         "state": "SC",
         "town": "Clemson",
-        "street": "114 Daniel Drive, Clemson, SC 29631"
+        "street": "114 Daniel Drive"
       },
       "weak": true,
       "located": {
@@ -241,7 +243,7 @@
         "town": "Clemson",
         "score": 18,
         "osm": false,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -295,66 +297,12 @@
         "town": "Columbia",
         "score": 15,
         "osm": true,
-        "date": "2026-10-13"
+        "date": "2026-10-19"
       },
       "access": {
         "status": "ongoing"
       },
       "address": "1026 Sumter St., Ste. 200, Columbia, SC 29201"
-    },
-    {
-      "id": "edgefield-area-clay-guild",
-      "org": "Edgefield Area Clay Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Edgefield",
-      "city": "Edgefield",
-      "urls": [
-        "https://www.festivalsinamerica.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Edgefield, South Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.festivalsinamerica.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Each spring it opens with the firing of the wood-fueled Edgefield Groundhog Kiln, followed by two days of pottery sales at multiple studio locations.",
-        "url": "https://www.festivalsinamerica.com/festival/heritage-trail-pottery-tour-and-sale-edgefield",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-13"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "festivalsinamerica.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The text describes a pottery tour and sale event organized by the guild, but provides no information about public access to participate in any ceramic firing—only mentions viewing a kiln firing and attending pottery sales.",
-        "types": {},
-        "state": "SC",
-        "town": "Edgefield"
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-13"
-      },
-      "lat": 33.76359,
-      "lng": -81.97591
     },
     {
       "id": "wjbf",
@@ -384,10 +332,10 @@
         "key": "wjbf.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "No page text provided; cannot verify public access to non-electric ceramic firings.",
+        "why": "The page text is empty and provides no information about public participation in ceramic firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -395,33 +343,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-13"
-      }
-    },
-    {
-      "id": "pottery-with-a-purpose-sc",
-      "org": "Pottery with a Purpose",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Charleston",
-      "city": "Charleston",
-      "urls": [
-        "https://www.potterywithapurpose.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Charleston, South Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.potterywithapurpose.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "potterywithapurpose.com"
+        "date": "2026-10-19"
       }
     },
     {
@@ -448,6 +370,20 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "artslab-sc.org"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information regarding public access to non-electric firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -484,125 +420,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "irisstonepottery.com"
-      }
-    },
-    {
-      "id": "c-h-i-l-l-art-studios",
-      "org": "C.H.I.L.L. Art Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "South Carolina",
-      "city": null,
-      "urls": [
-        "https://www.chillartstudios.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.chillartstudios.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "chillartstudios.com"
-      }
-    },
-    {
-      "id": "diana-farfa-n",
-      "org": "Diana Farfán",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "South Carolina",
-      "city": null,
-      "urls": [
-        "https://dianafarfan.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://dianafarfan.com/"
+      "lat": 33.01867,
+      "lng": -80.17627,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Class fee includes clay, all firing and studio glazes.",
-        "url": "https://dianafarfan.com/lets-work/workshops/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "dianafarfan.com"
-      }
-    },
-    {
-      "id": "kakilaki-studio-arts",
-      "org": "Kakilaki Studio Arts",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Greenville",
-      "city": "Greenville",
-      "urls": [
-        "https://kakilaki.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Greenville, South Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://kakilaki.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "kakilaki.com"
-      }
-    },
-    {
-      "id": "rooted-beauty-pottery",
-      "org": "Rooted Beauty Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Myrtle Beach",
-      "city": "Myrtle Beach",
-      "urls": [
-        "https://rootedbeautypottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Myrtle Beach, South Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://rootedbeautypottery.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "rootedbeautypottery.com"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no information about public non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -614,15 +447,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "South Carolina",
-      "city": null,
+      "region": "Columbia",
+      "city": "Columbia",
       "urls": [
         "https://www.scartshub.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
+      "location_precision": "address",
       "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.scartshub.com/"
       },
@@ -639,147 +472,24 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "scartshub.com"
-      }
-    },
-    {
-      "id": "mcsweeney-clay-studio",
-      "org": "McSweeney Clay Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Beaufort",
-      "city": "Beaufort",
-      "urls": [
-        "https://mcsweeneyclaystudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Beaufort, South Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://mcsweeneyclaystudio.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "All prices include glazes and firing.",
-        "url": "https://mcsweeneyclaystudio.com/classes",
-        "types": [],
-        "checked": "2026-10-14"
+      "weak": true,
+      "located": {
+        "state": "SC",
+        "town": "Columbia",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "mcsweeneyclaystudio.com"
-      }
-    },
-    {
-      "id": "spartanburg-art-museum",
-      "org": "Spartanburg Art Museum",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Spartanburg",
-      "city": "Spartanburg",
-      "urls": [
-        "https://spartanburgartmuseum.org/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Spartanburg, South Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://spartanburgartmuseum.org/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "spartanburgartmuseum.org"
-      }
-    },
-    {
-      "id": "rock-hill-pottery-center",
-      "org": "Rock Hill Pottery Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Rock Hill",
-      "city": "Rock Hill",
-      "urls": [
-        "https://www.ilovecarolina.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Rock Hill, South Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.ilovecarolina.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Seasonal firings bring fresh runs, so inventory changes through the year.",
-        "url": "https://www.ilovecarolina.com/activities/rock-hill-pottery-center",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "ilovecarolina.com"
-      }
-    },
-    {
-      "id": "doctor-arthur-and-esther-goldberg-groundhog-kiln",
-      "org": "Doctor Arthur and Esther Goldberg Groundhog Kiln",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Edgefield",
-      "city": "Edgefield",
-      "urls": [
-        "https://www.exploreedgefield.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Edgefield, South Carolina",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.exploreedgefield.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "As a continuation of the local pottery tradition, the Doctor Arthur and Esther Goldberg Groundhog Kiln was built in 2011. It is a traditional wood-burning kiln similar to those used over 200 years ago in this area.",
-        "url": "https://www.exploreedgefield.com/place/groundhog-kiln",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "exploreedgefield.com"
+      "address": "1026 Sumter St, Ste 200, Columbia, SC 29201",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided text contains no information about Edgefield County Historical Society offering public ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -816,6 +526,20 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "preservesc.org"
+      },
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The text mentions firing the groundhog kiln but does not specify if the public can sign up, book, or join a firing session.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -827,15 +551,15 @@
       "firing_types_guess": [
         "wood"
       ],
-      "region": "Edgefield",
-      "city": "Edgefield",
+      "region": "Charleston",
+      "city": "Charleston",
       "urls": [
         "https://www.postandcourier.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Edgefield, South Carolina",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.postandcourier.com/"
       },
@@ -854,74 +578,25 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "postandcourier.com"
-      }
-    },
-    {
-      "id": "ben-owen-pottery-sc",
-      "org": "Ben Owen Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "South Carolina",
-      "city": null,
-      "urls": [
-        "https://benowenpottery.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://benowenpottery.com/"
       },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Ben Owen Pottery will be part of the Seagrove Wood Fire Studio Tour and Sale held June 6th-7th, 2026.",
-        "url": "https://benowenpottery.com/events",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-14"
+      "weak": true,
+      "located": {
+        "state": "SC",
+        "town": "Charleston",
+        "score": 20,
+        "osm": true,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "benowenpottery.com"
-      }
-    },
-    {
-      "id": "living-kiln-pottery-studio",
-      "org": "Living Kiln Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "South Carolina",
-      "city": null,
-      "urls": [
-        "https://livingkilnpotterystudio.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://livingkilnpotterystudio.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "livingkilnpotterystudio.com"
+      "address": "148 Williman Street, Charleston, SC 29403",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The text is from a regional newspaper website (The Post and Courier) and contains no information about a ceramic studio or public ceramic firings.",
+        "types": {},
+        "state": "SC",
+        "town": "Charleston",
+        "street": "148 Williman Street"
       }
     }
   ],
@@ -969,6 +644,54 @@
     {
       "id": "n-a",
       "why": "Second check (claude-haiku-4.5): The Post and Courier is a news website/directory that does not itself operate ceramic firings; it only mentions a Heritage Trail Pottery Tour and Goldberg Kiln firing as news items without providing details on public access or booking information. (2026-10-14)"
+    },
+    {
+      "id": "ben-owen-pottery-sc",
+      "why": "Its own pages give an address in NC (Seagrove), not SC. Moved. (2026-10-19)"
+    },
+    {
+      "id": "edgefield-area-clay-guild",
+      "why": "Second check (gemma-4-31b-it): The text mentions a wood-fired kiln opening as part of a free tour and sale, but does not state that the public can participate in the firing process. (2026-10-19)"
+    },
+    {
+      "id": "pottery-with-a-purpose-sc",
+      "why": "Second check (gemma-4-31b-it): The text does not mention any non-electric firing types such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "c-h-i-l-l-art-studios",
+      "why": "Second check (gemma-4-26b-a4b-it): The text mentions kiln firings but does not specify any non-electric firing types such as raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "diana-farfa-n",
+      "why": "Second check (gemini-3.1-flash-lite): The website offers workshops that include firing, but it does not specify that these firings are non-electric (e.g., raku, wood, soda, etc.). (2026-10-19)"
+    },
+    {
+      "id": "kakilaki-studio-arts",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions workshops but does not specify that any non-electric ceramic firing techniques are offered or available to the public. (2026-10-19)"
+    },
+    {
+      "id": "rooted-beauty-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firing techniques such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "mcsweeney-clay-studio",
+      "why": "Second check (gemma-4-31b-it): The text mentions that firing is included in the price of classes, but it does not list any non-electric firing types. (2026-10-19)"
+    },
+    {
+      "id": "spartanburg-art-museum",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text does not mention any non-electric firing techniques or services. (2026-10-19)"
+    },
+    {
+      "id": "rock-hill-pottery-center",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any ceramic firing services, classes, or workshops for the public at Rock Hill Pottery Center. (2026-10-19)"
+    },
+    {
+      "id": "doctor-arthur-and-esther-goldberg-groundhog-kiln",
+      "why": "Second check (gemini-3.5-flash-lite): The page text mentions the Groundhog Kiln in search snippets, but the main text and event pages do not offer any classes, workshops, memberships, or firing services for outsiders to take part in non-electric firings. (2026-10-19)"
+    },
+    {
+      "id": "living-kiln-pottery-studio",
+      "why": "Second check (gemini-3.1-flash-lite): The studio only mentions standard electric kiln firings (cone 04 and cone 6) and does not offer any non-electric firing methods like raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
     }
   ]
 }

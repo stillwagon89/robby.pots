@@ -92,78 +92,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "alterwork-studios",
-      "org": "AlterWork Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "pit_barrel_saggar"
-      ],
-      "region": "Long Island City",
-      "city": "Long Island City",
-      "urls": [
-        "https://www.alterworkstudios.com/"
-      ],
-      "notes": "By appointment. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://www.alterworkstudios.com/"
-      },
-      "access": {
-        "how": "By appointment",
-        "note": "By appointment",
-        "quote": "AlterWork Studios offers Raku, barrel and pit firings in Port Washington, NY, just 30 minutes away from our Long Island City location.",
-        "url": "https://www.alterworkstudios.com/rakubarrelpit-info",
-        "types": [
-          "raku",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-06",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "alterworkstudios.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page text describes pottery classes and studio memberships with kiln access, but contains no information about raku, barrel, pit, wood, soda, salt, or gas-reduction firings that outsiders can join; the search snippets mention these firing types but are not part of the actual page text provided.",
-        "types": {},
-        "state": "NY",
-        "town": "Long Island City",
-        "street": "40-20 22nd Street, Long Island City, NY 11101"
-      },
-      "weak": true,
-      "located": {
-        "state": "NY",
-        "town": "Long Island City",
-        "score": 5,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "address": "20 22nd Street, Long Island City, NY 11101",
-      "lat": 40.75776,
-      "lng": -73.93781
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "tony-moore-wood-fire-kiln-garrison-art-center",
@@ -204,10 +136,10 @@
         "key": "tonymoorekiln.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The text states 'welcomes many participants to fire with him in celebratory communal events' and provides a contact method for prospective participants to visit and inquire about participation.",
+        "why": "The text explicitly states that participants are welcomed to join wood firings and provides a contact email to join or inquire.",
         "types": {},
         "state": "NY",
         "town": "Cold Spring",
@@ -219,7 +151,7 @@
         "town": "Cold Spring",
         "score": 5,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -268,10 +200,10 @@
         "key": "uptown-clay.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The Woodfire Intensive offers public access to wood firing via a bookable workshop at the Walton, NY location with a clear 'Book Now' button and pricing.",
+        "why": "The website offers a 'Woodfire Intensive' which is an off-grid firing experience that members of the public can book.",
         "types": {},
         "state": "NY",
         "town": "Walton"
@@ -281,7 +213,7 @@
         "town": "New York",
         "score": 15,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "weak": true,
       "agree": {
@@ -353,10 +285,10 @@
       "address_found": "9216 New York 9N, Elizabethtown, NY 12932",
       "lat": 44.21627,
       "lng": -73.5908,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "salem-art-works",
@@ -397,21 +329,21 @@
         "key": "salemartworks.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "Salem Art Works offers multiple wood-fired kiln workshops and rentals open to the public, including raku kiln workshops and rentals, wood kiln building workshops, and Spitfire kiln workshops.",
+        "why": "The site offers wood-fired kiln and raku kiln firing opportunities to the public through workshops, rentals, and residencies.",
         "types": {},
         "state": "NY",
         "town": "Salem",
-        "street": "19 Cary Lane, Salem, NY 12865"
+        "street": "19 Cary Lane"
       },
       "located": {
         "state": "NY",
         "town": "Salem",
         "score": 26,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "weak": true,
       "agree": {
@@ -469,10 +401,10 @@
       "lat": 41.61329,
       "lng": -74.29391,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page explicitly invites outsiders to contact the owner to participate in salt, gas reduction, and wood firings.",
+        "why": "The text explicitly invites outsiders to contact the studio to participate in ongoing salt and gas reduction firings, as well as upcoming wood firings.",
         "types": {},
         "state": "NY",
         "town": "Pine Bush",
@@ -480,7 +412,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "weak": true,
       "agree": {
@@ -551,10 +483,10 @@
       "address": "485 Upper Byrdcliffe Rd, Woodstock, NY 12498",
       "lat": 42.05379,
       "lng": -74.14656,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "collective",
@@ -597,18 +529,18 @@
       "lat": 42.72841,
       "lng": -73.69179,
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "unclear",
-        "why": "The search snippets mention a salt fire workshop at Collective in Troy, NY, but the page text provided is empty, so I cannot verify the details or copy word-for-word sentences about how outsiders can participate.",
+        "why": "The provided page text is empty, so it is impossible to confirm if the public can participate in the firing.",
         "types": {},
-        "state": "NY",
-        "town": "Troy"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -673,10 +605,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "view-arts-center",
@@ -738,71 +670,10 @@
       "address": "3273 State Route 28, Old Forge, NY 13420",
       "lat": 43.71429,
       "lng": -74.96113,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "clayworks-on-columbia-demetria-chappo",
-      "org": "Clayworks on Columbia (Demetria Chappo)",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "pit_barrel_saggar"
-      ],
-      "region": "Columbia Co.",
-      "city": "Columbia Co.",
-      "urls": [
-        "https://www.demetriachappo.com/"
-      ],
-      "notes": "One-day workshop. Found by discovery v3 on 2026-10-06; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Columbia Co., New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.demetriachappo.com/"
-      },
-      "access": {
-        "how": "One-day workshop",
-        "note": "One-day workshop",
-        "quote": "In this one day workshop hosted in upstate New York by Clayworks on Columbia, Demetria shares the exciting process of atmospheric firing in a sawdust pit that creates dramatic surfaces on pots from carbonization, flashing and fuming of the smoke and flame. Bring your bisqueware and learn this firing technique.",
-        "url": "https://www.demetriachappo.com/events",
-        "types": [
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-06",
-        "status": "ongoing"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-06",
-        "key": "demetriachappo.com"
-      },
-      "lat": 42.2415,
-      "lng": -73.67235,
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "The page text describes a 'Smoke and Sawdust Workshop' where outsiders can bring bisqueware and learn pit firing technique in a one-day workshop format.",
-        "types": {},
-        "state": "NY",
-        "town": "Woodstock"
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      }
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "artshack-at-camp-singers",
@@ -926,10 +797,10 @@
       "address_found": "Napeague Meadow Road, Amagansett, NY",
       "lat": 40.98154,
       "lng": -72.13322,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "the-pottery-studio",
@@ -997,10 +868,10 @@
         "date": "2026-10-08"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "makerspace-nyc",
@@ -1123,10 +994,10 @@
       "address": "238 Grand St., Brooklyn, NY 11211",
       "lat": 40.71349,
       "lng": -73.95925,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "silk-road-ceramics-studio",
@@ -1168,10 +1039,10 @@
         "key": "hisawyer.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "unclear",
-        "why": "Search snippet mentions a raku workshop but no page text is provided to verify public access details or location information.",
+        "why": "The provided page text is empty, so there is no information to confirm public access or specific firing details.",
         "types": {},
         "state": "",
         "town": ""
@@ -1179,7 +1050,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -1245,10 +1116,10 @@
       "address": "534 Church Ave., Germantown, NY 12526",
       "lat": 42.10206,
       "lng": -73.87405,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "waterbrook-potters-studio",
@@ -1315,10 +1186,10 @@
       "address": "406B 9th Ave., Watervliet, NY 12189",
       "lat": 42.73729,
       "lng": -73.70794,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "thousand-islands-arts-center",
@@ -1454,125 +1325,6 @@
       "approved": "2026-10-15"
     },
     {
-      "id": "rochester-folk-art-guild",
-      "org": "Rochester Folk Art Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Rochester",
-      "city": "Rochester",
-      "urls": [
-        "https://www.hamishjacksonpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Rochester, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.hamishjacksonpottery.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "hamishjacksonpottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page text shows Hamish Jackson teaches workshops at various locations but contains no information about public access to non-electric ceramic firings at Rochester Folk Art Guild or any other specific venue.",
-        "types": {},
-        "state": "",
-        "town": ""
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "unclear",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "access": {
-        "status": "ongoing"
-      },
-      "lat": 43.15729,
-      "lng": -77.61521
-    },
-    {
-      "id": "patchogue-arts-council",
-      "org": "Patchogue Arts Council",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Patchogue",
-      "city": "Patchogue",
-      "urls": [
-        "https://patchoguearts.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-08; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://patchoguearts.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "A limited number of guests will glaze a hand thrown bowl and take part in a hands on exciting outdoor firing process.",
-        "url": "https://patchoguearts.org/raku-party-fundraiser",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-08",
-        "status": "past_only"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-08",
-        "key": "patchoguearts.org"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "yes",
-        "why": "The page describes a hands-on raku firing event open to the public via ticket purchase, with explicit language that outsiders can participate in the firing process.",
-        "types": {},
-        "state": "NY",
-        "town": "Patchogue",
-        "street": "20 TERRY STREET, SUITE 116"
-      },
-      "weak": true,
-      "located": {
-        "state": "NY",
-        "town": "Patchogue",
-        "score": 9,
-        "osm": false,
-        "date": "2026-10-09"
-      },
-      "agree": {
-        "model": "claude-sonnet-5-5",
-        "verdict": "yes",
-        "result": "split",
-        "date": "2026-10-08"
-      },
-      "address": "20 Terry Street, Patchogue, NY",
-      "lat": 40.76413,
-      "lng": -73.01356
-    },
-    {
       "id": "pottery-northwest-wa",
       "org": "Pottery Northwest",
       "kind": "studio",
@@ -1625,120 +1377,10 @@
         "town": "New York",
         "score": 10,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "lat": 40.71273,
       "lng": -74.00602
-    },
-    {
-      "id": "munson-williams-proctor-arts-institute",
-      "org": "Munson-Williams-Proctor Arts Institute",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "salt"
-      ],
-      "region": "Utica",
-      "city": "Utica",
-      "urls": [
-        "https://www.munson.art/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Utica, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.munson.art/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Join us for this summer's workshop to explore form, function, aesthetic values, textures, tactile qualities, and surface development of atmospheric firing through salt and wood.",
-        "url": "https://www.munson.art/product/30024",
-        "types": [
-          "salt",
-          "wood",
-          "salt"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "munson.art"
-      }
-    },
-    {
-      "id": "timisaacpottery",
-      "org": "timisaacpottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku"
-      ],
-      "region": "New York",
-      "city": null,
-      "urls": [
-        "https://www.timisaacpottery.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.timisaacpottery.com/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Raku Workshops Raku firing is an exciting and dramatic way to fire pottery, and I’m happy to share this experience with you!",
-        "url": "https://www.timisaacpottery.com/workshops/raku-workshops",
-        "types": [
-          "raku"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "timisaacpottery.com"
-      }
-    },
-    {
-      "id": "pottery-nyc",
-      "org": "pottery-nyc",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "New York",
-      "city": "New York",
-      "urls": [
-        "https://pottery-nyc.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "New York, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://pottery-nyc.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "pottery-nyc.com"
-      }
     },
     {
       "id": "alterwork-studios-ny",
@@ -1752,15 +1394,15 @@
         "pit_barrel_saggar",
         "gas_reduction"
       ],
-      "region": "Astoria",
-      "city": "Astoria",
+      "region": "North Salem",
+      "city": "North Salem",
       "urls": [
         "https://inhabit.corcoran.com/"
       ],
       "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Astoria, New York",
-      "location_note": "Shown at the town.",
+      "location_precision": "address",
+      "geocode": null,
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://inhabit.corcoran.com/"
       },
@@ -1780,187 +1422,27 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "inhabit.corcoran.com"
-      }
-    },
-    {
-      "id": "la-mano-pottery",
-      "org": "La Mano Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "New York",
-      "city": "New York",
-      "urls": [
-        "https://www.lamanopottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "New York, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.lamanopottery.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Members enjoy access to wheels, hand-building space, glazes, kiln services, and a dedicated shelf to store tools and work.",
-        "url": "https://www.lamanopottery.com/",
-        "types": [],
-        "checked": "2026-10-14"
+      "weak": true,
+      "located": {
+        "state": "NY",
+        "town": "North Salem",
+        "score": 6,
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "lamanopottery.com"
-      }
-    },
-    {
-      "id": "bushwick-ceramics",
-      "org": "Bushwick Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Brooklyn",
-      "city": "Brooklyn",
-      "urls": [
-        "https://www.bushwickceramics.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Brooklyn, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.bushwickceramics.com/"
+      "address": "130 Hardscrabble Road, North Salem, NY",
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text contains no information about the firing types or services offered at AlterWork Studios.",
+        "types": {},
+        "state": "",
+        "town": ""
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "firing costs, glazing and tool usage are included in each course.",
-        "url": "https://www.bushwickceramics.com",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "bushwickceramics.com"
-      }
-    },
-    {
-      "id": "bklyn-clay",
-      "org": "BKLYN CLAY",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Brooklyn",
-      "city": "Brooklyn",
-      "urls": [
-        "https://bklynclay.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Brooklyn, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://bklynclay.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Firing Services, Glazing Appointments, & Kiln Rentals & Dimensions",
-        "url": "https://bklynclay.com",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "bklynclay.com"
-      }
-    },
-    {
-      "id": "hudson-valley-pottery",
-      "org": "Hudson Valley Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Rhinebeck",
-      "city": "Rhinebeck",
-      "urls": [
-        "https://hudsonvalleypottery.weebly.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Rhinebeck, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://hudsonvalleypottery.weebly.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Firing fees: 5 cents per cubic inch",
-        "url": "https://hudsonvalleypottery.weebly.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "hudsonvalleypottery.weebly.com"
-      }
-    },
-    {
-      "id": "hudson-valley-atelier",
-      "org": "Hudson Valley Atelier",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "New York",
-      "city": null,
-      "urls": [
-        "https://www.hudsonvalleyatelier.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.hudsonvalleyatelier.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "In this project based short class, learn specific techniques to complete your project. Materials provided for class. Firing/decorating included.",
-        "url": "https://www.hudsonvalleyatelier.com/new-page",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "hudsonvalleyatelier.com"
-      }
+      "lat": 41.35017,
+      "lng": -73.63418
     },
     {
       "id": "the-newburgh-pottery",
@@ -1998,154 +1480,54 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "thenewburghpottery.com"
+      },
+      "lat": 41.50008,
+      "lng": -74.00983,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "unclear",
+        "why": "The text mentions that the studio offers firings of all kinds, but it does not explicitly name or describe any specific non-electric firing techniques available to the public.",
+        "types": {},
+        "state": "NY",
+        "town": "Newburgh"
       }
     },
     {
-      "id": "thestudio-rochester",
-      "org": "TheSTUDIO Rochester",
+      "id": "munson-ga",
+      "org": "munson",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "other"
+        "wood",
+        "salt"
       ],
-      "region": "Rochester",
-      "city": "Rochester",
+      "region": "Utica",
+      "city": "Utica",
       "urls": [
-        "https://www.thestudiorochester.com/"
+        "https://www.munson.art/"
       ],
       "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
       "location_precision": "approximate",
-      "geocode": "Rochester, New York",
+      "geocode": "Utica, New York",
       "location_note": "Shown at the town.",
       "contact": {
-        "website": "https://www.thestudiorochester.com/"
+        "website": "https://www.munson.art/"
       },
       "access": {
         "how": "Dated workshop or firing event",
         "note": "Dated workshop or firing event",
-        "quote": "Class fee includes up to 25 lbs. of clay, tools, glazes and firing.",
-        "url": "https://www.thestudiorochester.com",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "thestudiorochester.com"
-      }
-    },
-    {
-      "id": "artyard-studio",
-      "org": "Artyard Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Williamsville",
-      "city": "Williamsville",
-      "urls": [
-        "https://artyardstudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Williamsville, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://artyardstudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "No extra fees for using our hand building specialty tools, firing, or glazing your work up to ten standard size items completed during regular class time.",
-        "url": "https://artyardstudio.com/classes-1",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "artyardstudio.com"
-      }
-    },
-    {
-      "id": "great-wheel-studio",
-      "org": "Great Wheel Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "East Syracuse",
-      "city": "East Syracuse",
-      "urls": [
-        "https://www.greatwheelstudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "East Syracuse, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.greatwheelstudio.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Classes include clay, tools, glazes, and firings—everything needed to begin creating.",
-        "url": "https://www.greatwheelstudio.com/about",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "greatwheelstudio.com"
-      }
-    },
-    {
-      "id": "the-clay-art-guild-of-the-hamptons",
-      "org": "The Clay Art Guild of the Hamptons",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Water Mill",
-      "city": "Water Mill",
-      "urls": [
-        "https://www.hamptonsclayart.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Water Mill, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.hamptonsclayart.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The Guild offers a variety of workshops, kiln firings and sales for ceramic artists, held in our studio at The Old Mill in the town of Water Mill located on the eastern end of Long Island, NY.",
-        "url": "http://www.hamptonsclayart.org",
+        "quote": "CERAMICS WORKSHOP WEEKS 2 + 3: Salt and Wood Firing",
+        "url": "https://www.munson.art/product/30024",
         "types": [
-          "wood",
-          "raku",
-          "soda",
           "salt",
-          "pit_barrel_saggar",
-          "gas_reduction"
+          "wood"
         ],
         "checked": "2026-10-14"
       },
@@ -2153,90 +1535,24 @@
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-14",
-        "key": "hamptonsclayart.org"
-      }
-    },
-    {
-      "id": "long-island-clay",
-      "org": "Long Island Clay",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "New York",
-      "city": null,
-      "urls": [
-        "https://www.longislandclay.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.longislandclay.com/"
+        "key": "munson.art"
       },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "For outside firings artists must confirm the clay with proof of the label on the clay to confirm the firing temperature.",
-        "url": "https://www.longislandclay.com/our-services",
-        "types": [
-          "wood",
-          "gas_reduction",
-          "soda",
-          "salt",
-          "pit_barrel_saggar"
-        ],
-        "checked": "2026-10-14"
+      "weak": true,
+      "located": {
+        "osm": true,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "longislandclay.com"
-      }
-    },
-    {
-      "id": "city-potters",
-      "org": "City Potters",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "New York",
-      "city": "New York",
-      "urls": [
-        "https://citypotters.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "New York, New York",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://citypotters.com/"
+      "verify": {
+        "by": "gemma-4-31b-it",
+        "date": "2026-10-19",
+        "verdict": "yes",
+        "why": "page says state is NY, not GA",
+        "types": {},
+        "state": "NY",
+        "town": "Utica"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Don't have your own kiln and need a place to fire your work? We are pleased to accept outside firing at reasonable rates.",
-        "url": "https://citypotters.com/outside-firing",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "citypotters.com"
-      }
+      "lat": 43.1009,
+      "lng": -75.23266
     }
   ],
   "_removed": [
@@ -2347,6 +1663,78 @@
     {
       "id": "wheel-slab-pottery-club",
       "why": "Second check (claude-haiku-4.5): The page text mentions firings are included in club membership and references past wood firings at another studio, but provides no specific information about what types of firings are currently available at Wheel & Slab or how outsiders can participate in any non-electric firing. (2026-10-09)"
+    },
+    {
+      "id": "alterwork-studios",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text does not contain any offerings or details about non-electric ceramic firings available to the public. (2026-10-19)"
+    },
+    {
+      "id": "clayworks-on-columbia-demetria-chappo",
+      "why": "Second check (gemini-3.5-flash-lite): The provided page text does not show any specific details or outsider access for a non-electric ceramic firing workshop or class, only general mentions of smoke-fired products and a kids afterschool clay class. (2026-10-19)"
+    },
+    {
+      "id": "rochester-folk-art-guild",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any specific non-electric ceramic firings open to the public at this potter's own facility. (2026-10-19)"
+    },
+    {
+      "id": "patchogue-arts-council",
+      "why": "Second check (gemini-3.1-flash-lite): The provided page text does not contain any information about public access to non-electric ceramic firing services, classes, or events. (2026-10-19)"
+    },
+    {
+      "id": "munson-williams-proctor-arts-institute",
+      "why": "Second check (gemini-3.5-flash-lite): page says state is N.Y., not NY (2026-10-19)"
+    },
+    {
+      "id": "timisaacpottery",
+      "why": "Second check (gemini-3.1-flash-lite): page says state is NB, not NY (2026-10-19)"
+    },
+    {
+      "id": "pottery-nyc",
+      "why": "Second check (gemini-3.5-flash-lite): The text discusses standard studio pottery classes and firings, but mentions no specialized non-electric firing techniques such as raku, wood/anagama, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "la-mano-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text only mentions electric kilns and does not offer non-electric ceramic firings such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "bushwick-ceramics",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions general classes and workshops without specifying any non-electric firing techniques such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "bklyn-clay",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions standard studio classes, memberships, and firing services, but does not provide information about public access to any specific non-electric ceramic firings such as raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "hudson-valley-pottery",
+      "why": "Second check (gemma-4-31b-it): The text mentions firing fees and bisque firing but does not list any non-electric firing types such as raku, wood, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "hudson-valley-atelier",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions kiln firing and air dry clay classes, but does not mention any non-electric ceramic firing types such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "thestudio-rochester",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firing methods such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "artyard-studio",
+      "why": "Second check (gemini-3.1-flash-lite): The text mentions the owner experiments with Raku and Horsehair firings, but does not offer any way for the public to participate in these or any other non-electric firing types. (2026-10-19)"
+    },
+    {
+      "id": "great-wheel-studio",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions standard firings included with classes and memberships, but does not state that any specific non-electric ceramic firings such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction are available to the public. (2026-10-19)"
+    },
+    {
+      "id": "the-clay-art-guild-of-the-hamptons",
+      "why": "Second check (gemini-3.1-flash-lite): The site explicitly states that to use their kilns, one must be a Guild member, and outside guests are not permitted in the studio. (2026-10-19)"
+    },
+    {
+      "id": "long-island-clay",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text indicates that all classes, memberships, and open studio access are restricted to enrolled students or members, and there is no mention of public access to non-electric firing techniques. (2026-10-19)"
+    },
+    {
+      "id": "city-potters",
+      "why": "Second check (gemini-3.5-flash-lite): The text explicitly states they are a working studio rather than a teaching studio, only offer space to members, and do not mention any public access to non-electric firings. (2026-10-19)"
     }
   ]
 }

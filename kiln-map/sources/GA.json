@@ -119,10 +119,10 @@
       "address": "42 Howard St SE, Atlanta, GA 30317",
       "lat": 33.75085,
       "lng": -84.32309,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "callanwolde-fine-arts-center",
@@ -185,10 +185,10 @@
       "address": "980 Briarcliff Road NE, Atlanta, GA 30306",
       "lat": 33.78177,
       "lng": -84.3452,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "clayer-co",
@@ -246,10 +246,10 @@
         "date": "2026-10-09"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "annette-howell-turner-center-for-the-arts",
@@ -283,18 +283,20 @@
         "checked": "2026-10-06",
         "status": "ongoing"
       },
-      "review": "pending",
+      "review": "approved",
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-06",
         "key": "turnercenter.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page clearly describes Raku Firing Sessions offered as a class where outsiders can register and participate for a $65 fee, with supplies and equipment included.",
-        "types": {},
+        "why": "The center offers Raku Firing Sessions that are open to the public via registration for a class.",
+        "types": {
+          "raku": "Explore the process of Raku firing! Students will gain first-hand experience in reduction firing techniques."
+        },
         "state": "GA",
         "town": "Valdosta",
         "street": "527 N. Patterson Street"
@@ -304,9 +306,9 @@
         "town": "Valdosta",
         "score": 6,
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
-      "weak": true,
+      "weak": false,
       "agree": {
         "model": "claude-sonnet-5-5",
         "verdict": "yes",
@@ -315,7 +317,8 @@
       },
       "address": "527 N. Patterson Street, Valdosta, GA 31601",
       "lat": 30.83565,
-      "lng": -83.28126
+      "lng": -83.28126,
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "corranny-forest-pottery",
@@ -420,10 +423,10 @@
         "key": "oxcombepottery.co.uk"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The page offers a public raku firing workshop (Raku Firing with Andy Mason) that outsiders can book for £95.00, with a hands-on day of glazing and firing using the Raku method.",
+        "why": "The text shows that outsiders can take part in a raku firing via a workshop event.",
         "types": {
           "raku": "Andy with lead a hands-on day of glazing and then firing work using the Raku method."
         },
@@ -432,7 +435,7 @@
       },
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -502,10 +505,10 @@
       "address": "175 Laredo Drive, Decatur, GA 30030",
       "lat": 33.78021,
       "lng": -84.2682,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "macon-arts-alliance",
@@ -549,7 +552,7 @@
         "town": "Macon",
         "score": 28,
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "access": {
         "status": "ongoing"
@@ -623,219 +626,37 @@
       "weak": false,
       "lat": 34.86397,
       "lng": -84.32409,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
-      "id": "yu-tang-ceramics",
-      "org": "Yu Tang Ceramics",
+      "id": "mudfire-studio",
+      "org": "MudFire Studio",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [
-        "raku"
-      ],
-      "region": "Georgia",
-      "city": null,
-      "urls": [
-        "https://www.yutangceramics.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.yutangceramics.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "yutangceramics.com"
-      }
-    },
-    {
-      "id": "munson-ga",
-      "org": "munson",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "salt"
-      ],
-      "region": "Georgia",
-      "city": null,
-      "urls": [
-        "https://www.munson.art/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.munson.art/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "CERAMICS WORKSHOP WEEKS 2 + 3: Salt and Wood Firing",
-        "url": "https://www.munson.art/product/30024",
-        "types": [
-          "salt",
-          "wood"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "munson.art"
-      }
-    },
-    {
-      "id": "savannah-s-clay-spot",
-      "org": "Savannah's Clay Spot",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Savannah",
-      "city": "Savannah",
-      "urls": [
-        "https://www.savannahsclayspot.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Savannah, Georgia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.savannahsclayspot.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "The price of clay includes the cost of firings and studio glazes, with the exception of extra large pieces where an additional firing fee may be added.",
-        "url": "https://www.savannahsclayspot.com/adult-classes.html",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "savannahsclayspot.com"
-      }
-    },
-    {
-      "id": "knack",
-      "org": "knack",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Georgia",
-      "city": null,
-      "urls": [
-        "https://www.knack.studio/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.knack.studio/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Skilled instruction, clay, use of tools & firing for one clear glaze piece included.",
-        "url": "https://www.knack.studio/clay-classes",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "knack.studio"
-      }
-    },
-    {
-      "id": "kingston-ceramics-studio-ga",
-      "org": "Kingston Ceramics Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
         "gas_reduction"
       ],
-      "region": "Georgia",
-      "city": null,
+      "region": "Atlanta",
+      "city": "Atlanta",
       "urls": [
-        "https://www.kingstonceramicsstudio.com/"
+        "https://garnishandgather.com/"
       ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "address",
       "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_note": "Exact address from their page.",
       "contact": {
-        "website": "https://www.kingstonceramicsstudio.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "If you aren't a member or our student, you may make an appointment to drop off your work to fire at cone 04 or 6.",
-        "url": "https://www.kingstonceramicsstudio.com/kiln-firing-services",
-        "types": [
-          "raku",
-          "wood",
-          "gas_reduction"
-        ],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "kingstonceramicsstudio.com"
-      }
-    },
-    {
-      "id": "startup-studios",
-      "org": "stARTup Studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Macon",
-      "city": "Macon",
-      "urls": [
-        "https://www.startupstudiosmacon.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Macon, Georgia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.startupstudiosmacon.com/"
+        "website": "https://garnishandgather.com/"
       },
       "access": {
         "how": "Classes or membership",
         "note": "Classes or membership",
-        "quote": "Regular kiln firings —at least one firing per week (bisque or glaze); all firings are scheduled by the studio manager.",
-        "url": "https://www.startupstudiosmacon.com/ceramics-pottery/clay-studio-membership",
+        "quote": "Our studio membership includes 57 hours of access per week and the use of our studio tools, equipment and over 80 glazes.",
+        "url": "https://garnishandgather.com/meet-deanna-of-decatur-s-mudfire-studio",
         "types": [],
         "checked": "2026-10-14"
       },
@@ -843,80 +664,17 @@
       "discovered": {
         "by": "discover-v3",
         "date": "2026-10-14",
-        "key": "startupstudiosmacon.com"
-      }
-    },
-    {
-      "id": "the-567-center-for-renewal",
-      "org": "The 567 Center for Renewal",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Macon",
-      "city": "Macon",
-      "urls": [
-        "https://app.getoccasion.com/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Macon, Georgia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://app.getoccasion.com/"
+        "key": "garnishandgather.com"
       },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "$30 includes your clay and firing ($20 for members of The 567).",
-        "url": "https://app.getoccasion.com/p/n/mJsFkNDZ?time_slot_id=nIvIiJinoo55",
-        "types": [],
-        "checked": "2026-10-14"
+      "weak": true,
+      "located": {
+        "state": "GA",
+        "town": "Atlanta",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "app.getoccasion.com"
-      }
-    },
-    {
-      "id": "marietta-cobb-museum-of-art",
-      "org": "Marietta Cobb Museum of Art",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "other"
-      ],
-      "region": "Marietta",
-      "city": "Marietta",
-      "urls": [
-        "https://mariettacobbartmuseum.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Marietta, Georgia",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://mariettacobbartmuseum.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "All supplies and kiln firing are included in the price of the session.",
-        "url": "https://mariettacobbartmuseum.org/learn/classes/clay-classes-open-studio",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "mariettacobbartmuseum.org"
-      }
+      "address": "3980 Dekalb Technology Pkwy, Suite 670, Atlanta, GA 30340"
     }
   ],
   "_removed": [
@@ -983,6 +741,38 @@
     {
       "id": "salish-sea-ceramic-studio",
       "why": "Second check (claude-haiku-4.5): page says state is WA, not GA (2026-10-09)"
+    },
+    {
+      "id": "yu-tang-ceramics",
+      "why": "Its own pages give an address in WA (North Seattle), not GA. Moved. (2026-10-19)"
+    },
+    {
+      "id": "munson-ga",
+      "why": "Second check (gemma-4-31b-it): page says state is NY, not GA (2026-10-19)"
+    },
+    {
+      "id": "savannah-s-clay-spot",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text only mentions general studio firings for pottery made in classes or open studio sessions and does not specify any non-electric firing techniques like raku, wood, soda, salt, or pit/barrel/saggar. (2026-10-19)"
+    },
+    {
+      "id": "knack",
+      "why": "Second check (gemini-3.5-flash-lite): The provided text describes standard wheel throwing, hand building, and paint-your-own pottery classes and workshops, but does not mention any specific non-electric ceramic firing methods such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "kingston-ceramics-studio-ga",
+      "why": "Second check (gemini-3.1-flash-lite): The text only mentions a general firing service for cone 04 or 6, which are standard electric kiln temperatures, and does not mention any non-electric firing methods. (2026-10-19)"
+    },
+    {
+      "id": "startup-studios",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firing techniques such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "the-567-center-for-renewal",
+      "why": "Second check (gemini-3.1-flash-lite): The text describes a pottery studio night that includes firing, but does not specify the type of kiln used, and there is no mention of raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings. (2026-10-19)"
+    },
+    {
+      "id": "marietta-cobb-museum-of-art",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions pottery and clay classes but does not specify the type of kiln firing used, nor does it mention any non-electric firing techniques like raku, wood, soda, salt, pit, or gas-reduction. (2026-10-19)"
     }
   ]
 }

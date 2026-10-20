@@ -40,18 +40,18 @@
         "key": "alaska.net"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "The page text is a general Alaska relocation guide with no information about ceramic firings, workshops, or the Raku Masks workshop mentioned in the search snippets.",
+        "why": "The provided page text is a general information site about moving to Alaska and contains no information about ceramic firing services or workshops.",
         "types": {},
-        "state": "",
+        "state": "AK",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": true,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -101,10 +101,10 @@
         "key": "eastcreekart.org"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "Search snippets mention East Creek Art offering raku and saggar workshops, but the actual page text is empty, so I cannot verify the details or confirm public access from the site itself.",
+        "by": "gemma-4-31b-it",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "No page text was provided to verify public access to non-electric firings.",
         "types": {},
         "state": "",
         "town": ""
@@ -112,7 +112,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -213,10 +213,10 @@
         "key": "studiohomerhai.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "no",
-        "why": "The page text provided is empty; only a search snippet mentioning raku firing exists, but no actual page content shows how outsiders can participate in any firing.",
+        "why": "The page text is empty and provides no information about public participation or firing services.",
         "types": {},
         "state": "",
         "town": ""
@@ -224,7 +224,7 @@
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-09"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -234,196 +234,6 @@
       },
       "access": {
         "status": "ongoing"
-      }
-    },
-    {
-      "id": "local-art-studios",
-      "org": "local art studios",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Anchorage",
-      "city": "Anchorage",
-      "urls": [
-        "https://www.anchorageactivities.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Anchorage, Alaska",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.anchorageactivities.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Find pottery and ceramics classes in Anchorage 2026.",
-        "url": "https://www.anchorageactivities.com/pottery-classes-anchorage-alaska-2026/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "anchorageactivities.com"
-      }
-    },
-    {
-      "id": "shii-kaina",
-      "org": "Shii Kaina",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Anchorage",
-      "city": "Anchorage",
-      "urls": [
-        "https://www.amongthejungle.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Anchorage, Alaska",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.amongthejungle.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "Get your pieces fired in our kiln.",
-        "url": "https://www.amongthejungle.com/pottery",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "amongthejungle.com"
-      }
-    },
-    {
-      "id": "turnagain-ceramics",
-      "org": "Turnagain Ceramics",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Anchorage",
-      "city": "Anchorage",
-      "urls": [
-        "https://www.turnagainceramics.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Anchorage, Alaska",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.turnagainceramics.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Enjoy unlimited access to pottery wheels, hand building tools and tables, community glazes, firings, and dedicated shelf space.",
-        "url": "https://www.turnagainceramics.com/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "turnagainceramics.com"
-      }
-    },
-    {
-      "id": "n-a-ak",
-      "org": "N/A",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Anchorage",
-      "city": "Anchorage",
-      "urls": [
-        "https://amphoraceramicstudio.kilnfire.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Anchorage, Alaska",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://amphoraceramicstudio.kilnfire.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "amphoraceramicstudio.kilnfire.com"
-      }
-    },
-    {
-      "id": "fairbanks-potters-guild",
-      "org": "Fairbanks Potters Guild",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Fairbanks",
-      "city": "Fairbanks",
-      "urls": [
-        "https://www.fairbankspottersguild.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Fairbanks, Alaska",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.fairbankspottersguild.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "fairbankspottersguild.com"
-      }
-    },
-    {
-      "id": "my-ceramicmaterialsworkshop-ak",
-      "org": "my.ceramicmaterialsworkshop",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Homer",
-      "city": "Homer",
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Homer, Alaska",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
       }
     }
   ],
@@ -447,6 +257,34 @@
     {
       "id": "cynthia-morelli-s",
       "why": "Second check (claude-haiku-4.5): The page text shows Lindsay Oesterritter's ceramics website with workshops listed, but none of the workshops described on the actual page text involve non-electric ceramic firings; the search snippet mentions a wood fire workshop at Cynthia Morelli's in Homer AK, but that information does not appear in the provided page text from loceramics.com. (2026-10-09)"
+    },
+    {
+      "id": "local-art-studios",
+      "why": "Second check (gemini-3-flash-preview): The text mentions community access to ceramic facilities and kiln firing but does not specify any non-electric firing types such as raku, wood, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "shii-kaina",
+      "why": "Second check (gemma-4-31b-it): The text mentions pottery workshops and handmade pottery, but does not mention any non-electric firing types such as raku, wood, soda, salt, pit, or gas. (2026-10-19)"
+    },
+    {
+      "id": "turnagain-ceramics",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions pottery classes and memberships but does not specify that any non-electric firing techniques are available to the public. (2026-10-19)"
+    },
+    {
+      "id": "n-a-ak",
+      "why": "Second check (gemini-3.5-flash-lite): The page text only contains a login screen and does not mention any firings available to the public. (2026-10-19)"
+    },
+    {
+      "id": "fairbanks-potters-guild",
+      "why": "Second check (gemini-3-flash-preview): The text describes a potters guild focused on networking, workshops, and sales, but does not mention any non-electric firing types or facilities. (2026-10-19)"
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop-ak",
+      "why": "Second check (gemini-3.5-flash-lite): The provided text is for an online ceramic and glaze chemistry educational resource and software platform, and does not offer public non-electric ceramic firings. (2026-10-19)"
+    },
+    {
+      "id": "clay-art-space-al",
+      "why": "Second check (gemini-3.1-flash-lite): The text explicitly states that the studio is closed to the public and no longer offers classes or memberships. (2026-10-19)"
     }
   ]
 }

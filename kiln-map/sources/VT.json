@@ -127,20 +127,18 @@
         "key": "thirdbranchpotterysupply.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "Search snippets describe raku workshops but the actual page text is empty, so location details cannot be verified.",
-        "types": {
-          "raku": "In this workshop we will explore several of the techniques used in raku to achieve beautiful, one of a kind pieces."
-        },
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text is empty and provides no details on location or public access to non-electric firings.",
+        "types": {},
         "state": "",
         "town": ""
       },
       "weak": true,
       "located": {
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -194,20 +192,20 @@
         "key": "acrossthegrainpottery.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippets mention raku sculptures and classes, but the provided page text is empty, so there is no information about how outsiders can participate in firings.",
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided text contains no information about public access to non-electric firings.",
         "types": {},
-        "state": "VT",
-        "town": "South Hero"
+        "state": "",
+        "town": ""
       },
       "weak": true,
       "lat": 44.6457,
       "lng": -73.30248,
       "located": {
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -283,10 +281,10 @@
       "address": "26 Central Street, Woodstock, VT 05091",
       "lat": 43.62578,
       "lng": -72.51715,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "orchard-street-pottery",
@@ -417,10 +415,10 @@
       "address": "94 Court Street, Middlebury, VT",
       "lat": 44.00629,
       "lng": -73.1607,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "jackie-sedlock-pottery-vt",
@@ -547,123 +545,10 @@
       "address": "1179 North Mason Hill Road, Pownal, VT",
       "lat": 42.75986,
       "lng": -73.20587,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
-    },
-    {
-      "id": "perry-hill-pottery",
-      "org": "Perry Hill Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Waterbury",
-      "city": "Waterbury",
-      "urls": [
-        "https://perryhillpottery.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-13; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Waterbury, Vermont",
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://perryhillpottery.com/"
-      },
-      "access": {
-        "how": "See site",
-        "note": "See site",
-        "quote": "I’m happy to bring you up to see my kiln as well.",
-        "url": "https://perryhillpottery.com/",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-13"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "perryhillpottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The page mentions wood firing and an open showroom with kiln visits by appointment, but does not explicitly state whether outsiders can participate in an actual firing event or only observe the kiln.",
-        "types": {},
-        "state": "VT",
-        "town": "Waterbury",
-        "street": "81 Town Road"
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-14"
-      },
-      "lat": 44.33792,
-      "lng": -72.75638
-    },
-    {
-      "id": "mary-sweeney-pottery",
-      "org": "Mary Sweeney Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "soda",
-        "gas_reduction"
-      ],
-      "region": "Stowe",
-      "city": "Stowe",
-      "urls": [
-        "https://www.marysweeneypottery.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-13; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Stowe, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.marysweeneypottery.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "Mary fires her work in gas reduction, salt/soda, and wood kilns.",
-        "url": "https://www.marysweeneypottery.com/",
-        "types": [
-          "gas_reduction",
-          "soda",
-          "wood"
-        ],
-        "checked": "2026-10-13"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "marysweeneypottery.com"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "no",
-        "why": "The page mentions Mary fires work in gas reduction, salt/soda, and wood kilns, but provides no information about public access to firings—only studio visits by appointment to see finished pottery.",
-        "types": {},
-        "state": "VT",
-        "town": "Stowe"
-      },
-      "weak": true,
-      "located": {
-        "osm": false,
-        "date": "2026-10-14"
-      },
-      "lat": 44.46438,
-      "lng": -72.68562
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "matthew-tell-pottery",
@@ -724,10 +609,10 @@
       "weak": false,
       "lat": 42.85966,
       "lng": -72.72588,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "center-centre-clay-studio",
@@ -765,128 +650,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "frontporchforum.com"
-      }
-    },
-    {
-      "id": "green-house-pottery",
-      "org": "Green House Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Montpelier",
-      "city": "Montpelier",
-      "urls": [
-        "https://www.greenhousepots.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Montpelier, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.greenhousepots.com/"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "greenhousepots.com"
-      }
-    },
-    {
-      "id": "alltogethernow",
-      "org": "AllTogetherNow!",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Montpelier",
-      "city": "Montpelier",
-      "urls": [
-        "https://www.alltogethernowvt.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Montpelier, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.alltogethernowvt.org/"
+      "lat": 44.47616,
+      "lng": -73.21291,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Clay Class with Janice Walrafen | AllTogetherNow! Art Tiles Studio | 6 Thursdays, (starts 11/5/26) 4-5:30pm | Open to all ages | $185 | Clay, glaze and firing are included in the class fee.",
-        "url": "https://www.alltogethernowvt.org/classes_workshops.html",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "alltogethernowvt.org"
-      }
-    },
-    {
-      "id": "my-ceramicmaterialsworkshop-vt",
-      "org": "my.ceramicmaterialsworkshop",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Brattleboro",
-      "city": "Brattleboro",
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Brattleboro, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
-      }
-    },
-    {
-      "id": "shelburne-craft-school",
-      "org": "Shelburne Craft School",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Burlington",
-      "city": "Burlington",
-      "urls": [
-        "https://artmapburlington.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Burlington, Vermont",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://artmapburlington.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Shelburne Craft School The Studio Store has handmade work in pottery, wood, jewelry, and stained glass and the school hosts events and classes for the public on an ongoing basis.",
-        "url": "http://artmapburlington.com/content/shelburne-craft-school/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "artmapburlington.com"
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The page text contains no information about the studio or its firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -915,7 +694,67 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "ashcraftpottery.com"
+      },
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is empty and contains no information regarding public access to non-electric ceramic firings.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
+    },
+    {
+      "id": "historicorps",
+      "org": "HistoriCorps",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "Waitsfield",
+      "city": "Waitsfield",
+      "urls": [
+        "https://historictrades.org/"
+      ],
+      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
+      "location_precision": "approximate",
+      "geocode": "Waitsfield, Vermont",
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://historictrades.org/"
+      },
+      "access": {
+        "how": "Classes or membership",
+        "note": "Classes or membership",
+        "quote": "HistoriCorps invites you to join us for one of our most unique volunteer opportunities of the season in the great state of Idaho as we make camp in the backdrop of the stunning Lemhi Mountains!",
+        "url": "https://historictrades.org/opportunity/volunteers-needed-birch-creek-charcoal-kilns-repairs/2024-07-14/",
+        "types": [],
+        "checked": "2026-10-14"
+      },
+      "review": "pending",
+      "discovered": {
+        "by": "discover-v3",
+        "date": "2026-10-14",
+        "key": "historictrades.org"
+      },
+      "weak": true,
+      "located": {
+        "state": "VT",
+        "town": "Waitsfield",
+        "score": 15,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "lat": 44.19264,
+      "lng": -72.82211
     }
   ],
   "_removed": [
@@ -974,6 +813,30 @@
     {
       "id": "st-johnsbury-academy",
       "why": "Second check (claude-haiku-4.5): The page describes raku pottery as part of a school's student capstone project with no indication that outsiders or non-enrolled students can participate in the firing. (2026-10-14)"
+    },
+    {
+      "id": "perry-hill-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text shows that the potter creates and fires her own work using a wood kiln, but does not offer classes, workshops, rentals, memberships, or firing services for outsiders to take part in wood firings. (2026-10-19)"
+    },
+    {
+      "id": "mary-sweeney-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions the potter uses gas reduction, salt/soda, and wood kilns, but there is no mention of public classes, workshops, memberships, rentals, firing services, or invitations for outsiders to take part in these firings. (2026-10-19)"
+    },
+    {
+      "id": "green-house-pottery",
+      "why": "Second check (gemini-3.1-flash-lite): The website explicitly states that all work is fired in an electric kiln and does not offer any non-electric firing services or classes. (2026-10-19)"
+    },
+    {
+      "id": "alltogethernow",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions pottery and clay classes that include firing, but it does not specify the type of kiln used (e.g., electric, gas, wood), and there is no mention of non-electric firing techniques like raku, wood, soda, salt, or pit firing. (2026-10-19)"
+    },
+    {
+      "id": "my-ceramicmaterialsworkshop-vt",
+      "why": "Second check (gemma-4-31b-it): The text describes an online educational resource and reference library for glaze chemistry rather than a facility offering public non-electric firing services. (2026-10-19)"
+    },
+    {
+      "id": "shelburne-craft-school",
+      "why": "Second check (gemini-3.5-flash-lite): The page text is only about Art Map Burlington and does not contain any information about Shelburne Craft School hosting non-electric ceramic firings for the public. (2026-10-19)"
     }
   ]
 }

@@ -150,10 +150,10 @@
         "date": "2026-10-14"
       },
       "weak": false,
-      "auto_approved": "2026-10-14",
       "bulk_approved_by_robby": "2026-10-15",
       "needs_review_later": "2026-10-15",
-      "approved": "2026-10-15"
+      "approved": "2026-10-15",
+      "auto_approved": "2026-10-20"
     },
     {
       "id": "kjones-pottery",
@@ -194,19 +194,19 @@
         "key": "kjonespottery.com"
       },
       "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
         "verdict": "yes",
-        "why": "The site offers public raku firings that can be booked by groups, studios, or individuals through a scheduling request process.",
+        "why": "The text explicitly allows individuals to book a Raku firing.",
         "types": {
-          "raku": "Book a Raku Firing (Mobile) Schedule a Raku Firing. This can be for groups, studios, or individuals."
+          "raku": "Book a Raku Firing (Mobile) Schedule a Raku Firing."
         },
         "state": "",
         "town": ""
       },
       "located": {
         "osm": false,
-        "date": "2026-10-14"
+        "date": "2026-10-19"
       },
       "agree": {
         "model": "claude-sonnet-5-5",
@@ -217,219 +217,21 @@
       "weak": true
     },
     {
-      "id": "western-kentucky-university",
-      "org": "Western Kentucky University",
-      "kind": "college",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood"
-      ],
-      "region": "Bowling Green",
-      "city": "Bowling Green",
-      "urls": [
-        "https://www.wku.edu/"
-      ],
-      "notes": "Dated workshop or firing event. Found by discovery v3 on 2026-10-13; not yet reviewed.",
-      "location_precision": "address",
-      "geocode": null,
-      "location_note": "Exact address from their page.",
-      "contact": {
-        "website": "https://www.wku.edu/"
-      },
-      "access": {
-        "how": "Dated workshop or firing event",
-        "note": "Dated workshop or firing event",
-        "quote": "Under the instruction of Expert Wood Fire Ceramic Artist, Lindsay Oesterritter, the WKU Associate Professor of Ceramics in the Art Department, participants will learn how to create pieces in clay and then load and fire those pieces in the wood kiln.",
-        "url": "https://www.wku.edu/cpd/enrichment/ceramics.php",
-        "types": [
-          "wood"
-        ],
-        "checked": "2026-10-13"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-13",
-        "key": "wku.edu"
-      },
-      "verify": {
-        "by": "claude-haiku-4.5",
-        "date": "2026-10-14",
-        "verdict": "unclear",
-        "why": "The search snippet mentions a wood-fire ceramics workshop under Lindsay Oesterritter's instruction where participants learn to create and fire pieces in a wood kiln, but the full page text provided does not contain details about how outsiders can register, book, or access this workshop.",
-        "types": {
-          "wood": "participants will learn how to create pieces in clay and then load and fire those pieces in the wood kiln"
-        },
-        "state": "KY",
-        "town": "Bowling Green",
-        "street": "1906 College Heights Blvd."
-      },
-      "weak": true,
-      "located": {
-        "state": "KY",
-        "town": "Bowling Green",
-        "score": 15,
-        "osm": true,
-        "date": "2026-10-14"
-      },
-      "address": "1906 College Heights Blvd., Bowling Green, KY 42101",
-      "lat": 36.98453,
-      "lng": -86.45765
-    },
-    {
-      "id": "clay-art-space-ky",
-      "org": "Clay Art Space",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Kentucky",
-      "city": null,
-      "urls": [
-        "https://www.clayartspace.com/"
-      ],
-      "notes": "Firing service. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://www.clayartspace.com/"
-      },
-      "access": {
-        "how": "Firing service",
-        "note": "Firing service",
-        "quote": "We offer rentals of kiln space for firing your pieces of pottery.",
-        "url": "https://www.clayartspace.com/kiln-firing.html",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "clayartspace.com"
-      }
-    },
-    {
-      "id": "suzy-hatcher-pottery",
-      "org": "Suzy Hatcher Pottery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "gas_reduction"
-      ],
-      "region": "Kentucky",
-      "city": null,
-      "urls": [
-        "https://suzyhatcherpottery.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://suzyhatcherpottery.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Pieces will be fired in the kiln & picked up at a week later.",
-        "url": "https://suzyhatcherpottery.com/class-information/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "suzyhatcherpottery.com"
-      }
-    },
-    {
-      "id": "aa-clay-studio-gallery",
-      "org": "AA Clay Studio & Gallery",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Louisville",
-      "city": "Louisville",
-      "urls": [
-        "https://my.ceramicmaterialsworkshop.com/"
-      ],
-      "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Louisville, Kentucky",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://my.ceramicmaterialsworkshop.com/"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "my.ceramicmaterialsworkshop.com"
-      }
-    },
-    {
-      "id": "beechmont-community-center",
-      "org": "Beechmont Community Center",
-      "kind": "city_arts",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "raku",
-        "wood",
-        "soda",
-        "salt",
-        "pit_barrel_saggar",
-        "gas_reduction"
-      ],
-      "region": "Louisville",
-      "city": "Louisville",
-      "urls": [
-        "https://louisville.makerfaire.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Louisville, Kentucky",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://louisville.makerfaire.com/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Art & Design Beechmont Community Center is home to a Glass studio and a Pottery studio. Both are equipped with kilns for inhouse firings. Classes are offered in both studios, and open studio hours are offered for the Pottery studio. Come create with us!",
-        "url": "https://louisville.makerfaire.com/maker/entry/627/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "louisville.makerfaire.com"
-      }
-    },
-    {
       "id": "tater-knob-pottery-farm",
       "org": "Tater Knob Pottery & Farm",
       "kind": "studio",
       "core": false,
       "public": true,
       "firing_types_guess": [],
-      "region": "Kentucky",
-      "city": null,
+      "region": "Lexington",
+      "city": "Lexington",
       "urls": [
         "https://www.lex18.com/"
       ],
       "notes": "See site. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
+      "location_precision": "address",
       "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
+      "location_note": "Exact address from their page.",
       "contact": {
         "website": "https://www.lex18.com/"
       },
@@ -438,6 +240,24 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "lex18.com"
+      },
+      "weak": true,
+      "located": {
+        "state": "KY",
+        "town": "Lexington",
+        "score": 5,
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "address": "18 WLEX-TV - LEX 18 1065 Russell Cave Road, Lexington, KY 40505",
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided text from the news site mentions the pottery studio in passing but contains no information or details about public ceramic firings offered by the studio.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -472,77 +292,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "bereaartscouncil.networkforgood.com"
-      }
-    },
-    {
-      "id": "8-days-pottery-studio",
-      "org": "8 Days Pottery Studio",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [
-        "wood",
-        "gas_reduction"
-      ],
-      "region": "Bowling Green",
-      "city": "Bowling Green",
-      "urls": [
-        "https://www.8dayspotterystudio.com/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": "Bowling Green, Kentucky",
-      "location_note": "Shown at the town.",
-      "contact": {
-        "website": "https://www.8dayspotterystudio.com/"
       },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "Instruction, tools, and firing included",
-        "url": "https://www.8dayspotterystudio.com/",
-        "types": [],
-        "checked": "2026-10-14"
+      "lat": 37.61758,
+      "lng": -84.2291,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
       },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "8dayspotterystudio.com"
-      }
-    },
-    {
-      "id": "warren-county-public-library",
-      "org": "Warren County Public Library",
-      "kind": "studio",
-      "core": false,
-      "public": true,
-      "firing_types_guess": [],
-      "region": "Kentucky",
-      "city": null,
-      "urls": [
-        "https://warrenpl.org/"
-      ],
-      "notes": "Classes or membership. Found by discovery v3 on 2026-10-14; not yet reviewed.",
-      "location_precision": "approximate",
-      "geocode": null,
-      "location_note": "Location not confirmed; shown at the state.",
-      "contact": {
-        "website": "https://warrenpl.org/"
-      },
-      "access": {
-        "how": "Classes or membership",
-        "note": "Classes or membership",
-        "quote": "All kiln firings are free of charge. You may drop your greenware or glazed pieces off at the Bob Kirby Branch in the Idea Lab or via curbside (see instructions below).",
-        "url": "https://warrenpl.org/pottery/",
-        "types": [],
-        "checked": "2026-10-14"
-      },
-      "review": "pending",
-      "discovered": {
-        "by": "discover-v3",
-        "date": "2026-10-14",
-        "key": "warrenpl.org"
+      "verify": {
+        "by": "gemini-3.1-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The provided page text is a donation form for the Berea Arts Council and contains no information regarding ceramic firing services or public access to non-electric firing techniques.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     },
     {
@@ -576,6 +341,22 @@
         "by": "discover-v3",
         "date": "2026-10-14",
         "key": "sinclairemarie.com"
+      },
+      "lat": 39.04991,
+      "lng": -84.66516,
+      "weak": true,
+      "located": {
+        "osm": false,
+        "date": "2026-10-19"
+      },
+      "verify": {
+        "by": "gemini-3.5-flash-lite",
+        "date": "2026-10-19",
+        "verdict": "no",
+        "why": "The text mentions Queen City Clay and atmospheric firings in the context of an artist's residency, but contains no information about public participation, classes, memberships, or firing services for outsiders at that facility.",
+        "types": {},
+        "state": "",
+        "town": ""
       }
     }
   ],
@@ -647,6 +428,34 @@
     {
       "id": "elkhorn-pottery",
       "why": "Second check (claude-haiku-4.5): The page describes wheel throwing classes and hand building classes with bisque and glaze firing, but contains no mention of raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction firings. (2026-10-14)"
+    },
+    {
+      "id": "clay-art-space-ky",
+      "why": "Its own pages give an address in AK (Anchorage), not KY. Moved. (2026-10-19)"
+    },
+    {
+      "id": "western-kentucky-university",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes Western Kentucky University as an academic institution and does not offer any information regarding public access to non-electric ceramic firings. (2026-10-19)"
+    },
+    {
+      "id": "suzy-hatcher-pottery",
+      "why": "Second check (gemini-3.5-flash-lite): The text mentions general kiln firings for classes, but does not state or show any non-electric ceramic firing types such as raku, wood, soda, salt, pit/barrel/saggar, or gas-reduction. (2026-10-19)"
+    },
+    {
+      "id": "aa-clay-studio-gallery",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text describes an online educational platform for glaze chemistry and research, not a physical studio offering public access to non-electric firing services. (2026-10-19)"
+    },
+    {
+      "id": "beechmont-community-center",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firings or public firing services offered by the facility. (2026-10-19)"
+    },
+    {
+      "id": "8-days-pottery-studio",
+      "why": "Second check (gemini-3.1-flash-lite): The provided text mentions that firing is included in classes, but it does not specify the firing method or indicate that any non-electric firing techniques are offered. (2026-10-19)"
+    },
+    {
+      "id": "warren-county-public-library",
+      "why": "Second check (gemini-3.5-flash-lite): The text does not mention any non-electric ceramic firings such as raku, wood, soda, salt, pit, barrel, saggar, or gas-reduction. (2026-10-19)"
     }
   ]
 }
