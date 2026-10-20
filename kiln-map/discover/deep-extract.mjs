@@ -21,7 +21,18 @@ RULES. address: the street address of THIS place's own studio/venue as written o
 events: only dates ON OR AFTER today for a NON-electric firing (raku, horsehair, obvara, wood/anagama, soda, salt, pit/barrel/saggar, gas/cone 10 reduction) that members of the public can join or book (a class, workshop, firing day, or open-studio firing). Give the year; if the text omits it use the next occurrence of that date. page_url = the page URL (shown as '--- URL') where the date appears. quote = exact text naming that event and its date. No invented dates. Max 12 events.
 status: upcoming = at least one such future event listed; ongoing = open classes/membership/rental/invitation with no specific date; coming_soon = workshops announced without dates; annual = a yearly event with no date given; past_only = only past events.`;
 let spent = 0;
+// Free local reader (Ollama on this Mac): used when DEEP_LLM=ollama, when no Anthropic key is set, or when Claude refuses (out of credit).
+async function askOllama(user) {
+  const r = await fetch("http://localhost:11434/api/chat", { method: "POST", signal: AbortSignal.timeout(600000),
+    body: JSON.stringify({ model: process.env.KILN_OLLAMA_MODEL || "gemma4:latest", stream: false, format: "json", think: false, options: { temperature: 0, num_ctx: 16384 }, messages: [{ role: "system", content: PROMPT }, { role: "user", content: user }] }) });
+  return JSON.parse((await r.json()).message.content);
+}
+let claudeOut = false;
 async function ask(user) {
+  if (process.env.DEEP_LLM === "ollama" || !env.ANTHROPIC_API_KEY || claudeOut) return askOllama(user);
+  try { return await askClaude(user); } catch (e) { if (/credit|billing|invalid x-api-key|authentication/i.test(e.message)) { claudeOut = true; return askOllama(user); } throw e; }
+}
+async function askClaude(user) {
   for (let a = 0; a < 5; a++) {
     let r;
     try { r = await fetch("https://api.anthropic.com/v1/messages", { method: "POST", headers: { "x-api-key": env.ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01", "content-type": "application/json" }, body: JSON.stringify({ model: "claude-haiku-4-5-20251001", max_tokens: 2000, temperature: 0, system: PROMPT, messages: [{ role: "user", content: user }] }), signal: AbortSignal.timeout(120000) }); } catch { await new Promise((s) => setTimeout(s, 3000)); continue; }
