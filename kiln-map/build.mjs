@@ -29,7 +29,7 @@ const approvedRaw = existsSync(approvedDir) ? readdirSync(approvedDir).filter((f
 // Each source's most recent run entry, to say whether its site can be checked automatically.
 const runsDir = join(ROOT, "data", "runs");
 const lastRun = new Map();
-if (existsSync(runsDir)) for (const f of readdirSync(runsDir).sort()) for (const e of read(join(runsDir, f)).sources) lastRun.set(e.id, { ...e, date: f.slice(0, 10) });
+if (existsSync(runsDir)) for (const f of readdirSync(runsDir).sort()) for (const e of read(join(runsDir, f)).sources) if (!lastRun.has(e.id) || e.place_summary || (e.firing_evidence || []).length) lastRun.set(e.id, { ...e, date: f.slice(0, 10) });
 
 // Recurring firings ("3rd Monday of the month", "first Saturday"): an approved item with
 // recurs: { nth: 1-4 | -1 (last), weekday: 1 (Mon) .. 7 (Sun), months: 4 } becomes one dated firing per upcoming occurrence.

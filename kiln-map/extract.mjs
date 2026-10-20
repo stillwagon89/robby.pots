@@ -48,10 +48,18 @@ function loadApiKey() {
     const m = readFileSync(devVars, "utf8").match(/^ANTHROPIC_API_KEY\s*=\s*"?([^"\n]+)"?/m);
     if (m) return m[1].trim();
   }
-  console.error("Set ANTHROPIC_API_KEY or add it to .dev.vars.");
-  process.exit(1);
+  return null; // no Anthropic key: the free providers below (Gemini, then a local Ollama model) do the reading
 }
 const API_KEY = args["crawl-only"] ? null : loadApiKey();
+function loadEnvVar(name) {
+  if (process.env[name]) return process.env[name];
+  const devVars = join(ROOT, "..", ".dev.vars");
+  if (existsSync(devVars)) { const m = readFileSync(devVars, "utf8").match(new RegExp(`^${name}\\s*=\\s*"?([^"\\n]+)"?`, "m")); if (m) return m[1].trim(); }
+  return null;
+}
+const GEMINI_KEY = args["crawl-only"] ? null : loadEnvVar("GEMINI_API_KEY");
+// Reading order: Claude only if asked (--provider=claude / KILN_LLM=claude); otherwise free Gemini; otherwise local Ollama (on a Mac).
+const PROVIDER = args.provider || process.env.KILN_LLM || (GEMINI_KEY ? "gemini" : API_KEY ? "claude" : "ollama");
 
 // Optional settings from the environment or .dev.vars (the weekly GitHub run passes them as secrets).
 function setting(name) {
@@ -412,6 +420,66 @@ async function extract(source, pages) {
   return parseMessage(body);
 }
 
+
+// ---------- free readers: Gemini (free tier, rotates models when one runs out of quota) and local Ollama ----------
+const GEMINI_POOL = (process.env.KILN_GEMINI_MODELS || "gemini-3.5-flash,gemini-3.1-flash-lite,gemini-3.5-flash-lite,gemini-3-flash-preview").split(",");
+const geminiDead = new Set(); let geminiRr = 0;
+const SCHEMA_TEXT = () => JSON.stringify(TOOL.input_schema);
+function freePrompt(source, pages) {
+  return `${buildPrompt(source, pages)}\n\nReturn ONLY one JSON object, no markdown, that matches this JSON schema exactly:\n${SCHEMA_TEXT()}`;
+}
+function parseFreeJson(text, usage) {
+  const m = (text || "").match(/\{[\s\S]*\}/);
+  if (!m) throw new Error("no JSON in reply");
+  return parseMessage({ stop_reason: "end_turn", content: [{ type: "tool_use", input: JSON.parse(m[0]) }], usage });
+}
+async function extractGemini(source, pages) {
+  for (let attempt = 0; attempt < 14; attempt++) {
+    const live = GEMINI_POOL.filter((m) => !geminiDead.has(m));
+    if (!live.length) throw new Error("AI_QUOTA: every free Gemini model is out of quota for today");
+    const model = live[geminiRr++ % live.length];
+    let r;
+    try {
+      r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_KEY}`, {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ contents: [{ parts: [{ text: freePrompt(source, pages) }] }], generationConfig: { temperature: 0, responseMimeType: "application/json" } }),
+        signal: AbortSignal.timeout(180000),
+      });
+    } catch { await new Promise((res) => setTimeout(res, 3000)); continue; }
+    const raw = await r.text(); let d; try { d = JSON.parse(raw); } catch { d = null; }
+    if (r.status === 429) {
+      const msg = d?.error?.message || "";
+      if (/PerDay|per day|retry in \d+h|limit: \d+, model/i.test(msg) && !/PerMinute/i.test(msg)) geminiDead.add(model); else await new Promise((res) => setTimeout(res, 12000));
+      continue;
+    }
+    if (r.status === 404 || r.status === 400) { geminiDead.add(model); continue; }
+    if (r.status >= 500 || !d) { await new Promise((res) => setTimeout(res, 5000)); continue; }
+    try { return parseFreeJson(d.candidates?.[0]?.content?.parts?.map((p) => p.text || "").join(""), { input_tokens: d.usageMetadata?.promptTokenCount, output_tokens: d.usageMetadata?.candidatesTokenCount }); } catch { continue; }
+  }
+  throw new Error("gemini: no usable answer");
+}
+async function extractOllama(source, pages) {
+  const r = await fetch("http://localhost:11434/api/chat", {
+    method: "POST", signal: AbortSignal.timeout(600000),
+    body: JSON.stringify({ model: process.env.KILN_OLLAMA_MODEL || "gemma4:latest", stream: false, format: "json", think: false, options: { temperature: 0, num_ctx: 16384 }, messages: [{ role: "user", content: freePrompt(source, pages) }] }),
+  });
+  return parseFreeJson((await r.json()).message.content, {});
+}
+async function extractFree(jobs, out) {
+  const fn = PROVIDER === "ollama" ? extractOllama : extractGemini;
+  const conc = PROVIDER === "ollama" ? 1 : 3;
+  const queue = [...jobs]; let done = 0;
+  await Promise.all(Array.from({ length: conc }, async () => {
+    while (queue.length) {
+      const j = queue.shift();
+      try { out.set(j.source.id, await fn(j.source, j.usable)); }
+      catch (err) { out.set(j.source.id, { error: err.message }); if (err.message.startsWith("AI_QUOTA")) queue.length = 0; }
+      if (++done % 25 === 0) console.log(`  read ${done}/${jobs.length}`);
+    }
+  }));
+  return out;
+}
+
 // Message Batches API: half the price, results usually within the hour (up to 24 h). Used for runs of 3+ places;
 // --no-batch forces one-at-a-time calls (quick local tests).
 const BATCH_POLL_MS = 30000;
@@ -419,6 +487,7 @@ const BATCH_MAX_WAIT_MS = 5 * 3600 * 1000; // stay inside GitHub's 6-hour job li
 async function extractAll(jobs) {
   const out = new Map();
   if (!jobs.length) return out;
+  if (PROVIDER !== "claude") return extractFree(jobs, out);
   if (args["no-batch"] || jobs.length < 3) {
     for (const j of jobs) {
       try { out.set(j.source.id, await extract(j.source, j.usable)); } catch (err) { out.set(j.source.id, { error: err.message }); }
@@ -431,7 +500,13 @@ async function extractAll(jobs) {
     body: JSON.stringify({ requests: jobs.map((j) => ({ custom_id: j.source.id, params: requestParams(j.source, j.usable) })) }),
   });
   let batch = await create.json();
-  if (!create.ok) throw new Error(`Batch create failed ${create.status}: ${JSON.stringify(batch.error || batch)}`);
+  if (!create.ok) {
+    // Out of credit or key problem: read with the free providers instead of failing the whole run.
+    if (GEMINI_KEY || PROVIDER === "claude") { console.log(`Claude unavailable (${create.status}); reading with free Gemini instead.`); return extractFree(jobs, out); }
+    for (const j of jobs) out.set(j.source.id, { error: `Claude batch refused (${create.status}): ${JSON.stringify(batch.error?.message || batch).slice(0, 160)}` });
+    console.log(`Claude batch refused (${create.status}) and no free key is set: nothing read this run; earlier readings are kept.`);
+    return out;
+  }
   console.log(`Batch ${batch.id}: ${jobs.length} places submitted; waiting for results…`);
   const started = Date.now();
   while (batch.processing_status !== "ended") {
@@ -584,9 +659,15 @@ async function main() {
   const sources = loadSources();
   const only = typeof args.only === "string" ? args.only.split(",") : null;
   const states = typeof args.states === "string" ? args.states.toUpperCase().split(",") : null;
-  const selected = sources.filter((s) => (!only || only.includes(s.id)) && (!states || states.includes(s.state)));
+  // Only places on the public map are read (confirmed ones); --all includes the hidden/limited ones.
+  const selected = sources.filter((s) => (!only || only.includes(s.id)) && (!states || states.includes(s.state)) && (args.all || only || (s.review !== "pending" && !s.weak)));
   for (const folder of [...FOLDERS, "runs"]) mkdirSync(join(DATA, folder), { recursive: true });
 
+  // Change detection: a place whose pages are byte-for-byte what we read last time is not re-read (saves free-tier quota; its earlier summary carries over).
+  const HASH_FILE = join(DATA, "page-hashes.json");
+  const hashes = existsSync(HASH_FILE) ? JSON.parse(readFileSync(HASH_FILE, "utf8")) : {};
+  const lastEntries = new Map();
+  for (const f of readdirSync(join(DATA, "runs")).sort()) for (const e of JSON.parse(readFileSync(join(DATA, "runs", f), "utf8")).sources) if (e.place_summary || (e.firing_evidence || []).length) lastEntries.set(e.id, e);
   const existing = loadExisting();
   const SIGNUPS_FILE = join(DATA, "signups.json");
   const signups = existsSync(SIGNUPS_FILE) ? JSON.parse(readFileSync(SIGNUPS_FILE, "utf8")) : {};
@@ -633,6 +714,14 @@ async function main() {
       continue;
     }
 
+    entry.page_hash = createHash("sha1").update(usable.map((p) => `${p.url}\n${p.text}`).join("\n")).digest("hex");
+    const prev = lastEntries.get(source.id);
+    if (!args.force && hashes[source.id] === entry.page_hash && prev) {
+      entry.place_summary = prev.place_summary ?? null; entry.firing_evidence = prev.firing_evidence || [];
+      entry.notes = "Pages unchanged since the last check; earlier reading kept."; entry.unchanged = true;
+      console.log("unchanged");
+      continue;
+    }
     jobs.push({ source, entry, usable });
     console.log("queued");
   }
@@ -642,11 +731,15 @@ async function main() {
   for (const { source, entry, usable } of jobs) {
     const result = results.get(source.id);
     if (!result || result.error) {
-      entry.notes = `Extraction failed: ${result?.error || "no result returned"}`;
+      // Keep the earlier reading so a failed/quota-limited run never blanks a place; it is retried next run (no hash saved).
+      const prev = lastEntries.get(source.id);
+      if (prev) { entry.place_summary = prev.place_summary ?? null; entry.firing_evidence = prev.firing_evidence || []; }
+      entry.notes = `Not read this run: ${result?.error || "no result returned"}`;
       console.log(`- ${source.id}: extraction failed: ${entry.notes.slice(0, 300)}`);
       continue;
     }
     entry.notes = result.notes;
+    hashes[source.id] = entry.page_hash;
     entry.place_summary = result.place_summary || null;
     const pageHolding = (quote) => usable.find((p) => quote && squash(quote).length >= 8 && squash(p.text).includes(squash(quote)));
     const allLinks = new Set(usable.flatMap((p) => p.links.map((l) => l.url)));
@@ -724,6 +817,7 @@ async function main() {
   // Unmatched means no place anywhere claims the sender (not just the places in this run).
   run.unmatched_emails = inbox.messages.filter((m) => !sources.some((src) => emailMatches(src, m))).map((m) => ({ from: m.from, subject: m.subject, date: m.date }));
   run.finished = new Date().toISOString();
+  if (!args.dry && !args["crawl-only"]) writeFileSync(HASH_FILE, JSON.stringify(hashes, null, 1) + "\n");
   if (!args.dry) writeFileSync(HEALTH_FILE, JSON.stringify(health, null, 2) + "\n");
   if (!args.dry) writeFileSync(SIGNUPS_FILE, JSON.stringify(signups, null, 2) + "\n");
   if (!args.dry && !args["crawl-only"]) writeFileSync(join(DATA, "runs", `${run.started.replace(/[:.]/g, "-")}.json`), JSON.stringify(run, null, 2) + "\n");

@@ -26,6 +26,7 @@ jobs:
       - name: Crawl and extract
         run: npm run kiln:extract
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           KILN_INBOX_TOKEN: ${{ secrets.KILN_INBOX_TOKEN }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
