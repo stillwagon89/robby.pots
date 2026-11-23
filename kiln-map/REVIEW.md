@@ -1,4 +1,4 @@
-# Kiln Locator weekly review (2026-11-17)
+# Kiln Locator weekly review (2026-11-23)
 
 _41 more items belong to places you have not approved yet; they appear when you review that place (REVIEW-STATUS.md)._
 
@@ -72,6 +72,7 @@ _41 more items belong to places you have not approved yet; they appear when you 
 - The Art League: https://www.theartleague.org/ (answered 403)
 - Community Creative Center: https://communitycreativecenter.coursestorm.com/course/raku-fast-fire-techniques1 (answered 404)
 - New Mexico Clay: https://nmclay.com/ (answered 403)
+- Wood Song Pottery: https://ncclayclub.blogspot.com/ (answered 429)
 - Middlebury Studio School: https://middleburystudioschool.corsizio.com/ (answered 0)
 - al: https://www.al.com/ (answered 403)
 - Cub Creek Foundation: https://valynchburgweb.myvscloud.com/ (answered 403)
@@ -95,6 +96,7 @@ _41 more items belong to places you have not approved yet; they appear when you 
 - Glen Arbor Arts Center: https://glenarborart.org/ (answered 403)
 - KC Clay Guild: https://kcclayguild.wildapricot.org/ (answered 404)
 - Juliet Bravo Pottery LLC: https://julietbravopottery.com/ (answered 404)
+- MonDak Heritage Center: https://www.roundupweb.com/ (answered 403)
 - Delores Pottery & Studios: https://site.corsizio.com/ (answered 0)
 - exploreasheville: https://www.exploreasheville.com/ (answered 403)
 - Bone Creek Museum of Agrarian Art: https://bonecreek.org/ (answered 403)
@@ -117,14 +119,20 @@ _41 more items belong to places you have not approved yet; they appear when you 
 
 **Websites not loading** (links hidden on the site until they're back):
 - Naked Lady Kiln (Fred Olsen): https://olsenkilns.com
+- Mike Weber Clay (anagama): http://weberwoodfire.com/
+- Main Line Art Center: https://mainlineart.org/
 - Clay By The Bay: https://www.claybythebaysf.com/
-- Little Creek Studios: https://littlecreekceramics.com/
+- American Museum of Ceramic Art (AMOCA): https://www.amoca.org/
+- Atlantic Beach Arts Market: https://atlanticbeachartsmarket.com/
+- House of Clay: https://www.houseofclaykc.com/
 - Sam Taylor: https://www.dogbarpottery.com/
 - Rising Sun Pottery: https://www.risingsunpottery.com/
 - msu-lifelong-learning-institute: https://www.misu.nodak.edu/
+- Woodstock Byrdcliffe Guild: https://www.woodstockguild.org/
 - tomradca: https://www.tomradca.com/
-- Petersen Art Center: https://www.petersenartcenter.com/
+- Willamette Art Center: https://www.willametteartcenter.com/
 - The Tilted Kiln: https://tiltedkilnpottery.com/
+- Laramie County Community College: https://lccc.coursestorm.com/
 
 **Newsletters from senders I can't match to a kiln** (tell me which place each belongs to):
 - robert.stillwagon@gmail.com: "test" (2026-10-05)
@@ -134,6 +142,9 @@ _41 more items belong to places you have not approved yet; they appear when you 
 - info@vergecontemporary.ccsend.com: "What's Next At Verge?" (2026-10-27)
 - info@vergecontemporary.ccsend.com: "What's Next At Verge?" (2026-11-03)
 - info@vergecontemporary.ccsend.com: "What's Next At Verge?" (2026-11-10)
+- info@vergecontemporary.ccsend.com: "What's Next At Verge?" (2026-11-17)
+- info@vergecontemporary.ccsend.com: "Give the Gift of Art" (2026-11-20)
+- cobbartandecology.gmail.com@tozrkq.sqspmail.com: "CMAEP Holiday Pot Drop" (2026-11-23)
 
 **Possible missed listings** (their page mentions dates but nothing was recorded; worth a look):
 - Oxcombe Pottery: All pages are from Oxcombe Pottery's UK website (Lincolnshire). The prompt specifies extracting firing opportunities in the United States for studio potters. These pages are based in the United Kingdom and are therefore 
