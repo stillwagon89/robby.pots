@@ -141,6 +141,8 @@ function trackingFor(source) {
 
 // Items marked location_only add their evidence to the place card but are not shown as firings.
 const locationEvidence = (id) => approved.filter((i) => i.source_id === id && i.location_only && IN_SCOPE.has(i.firing_type)).map((i) => ({ firing_type: i.firing_type, sentence: i.summary || i.evidence_sentence || null, quote: i.evidence_quote || i.source_quote, url: i.evidence_url || i.source_url || null, via: i.evidence_via || null }));
+const daysSince = (d) => (d ? Math.floor((Date.parse(TODAY) - Date.parse(d)) / 86400000) : Infinity);
+const ageTier = (d) => { const n = daysSince(d); return n <= 60 ? "fresh" : n <= 180 ? "aging" : "stale"; };
 const places = sources.map((s) => {
   const today = todayIn(s.tz);
   const limited = !confirmed(s);
@@ -202,12 +204,14 @@ const places = sources.map((s) => {
     firing_types: firingTypes,
     tracking,
     last_checked: lastRun.get(s.id)?.date || null,
+    // Freshness tier from the last time a live read of the place's site succeeded: fresh <= 60 days, aging <= 180, stale after.
+    freshness: ageTier(lastRun.get(s.id)?.date),
     unknowns,
     opportunities: items,
   };
 });
 
 mkdirSync(dirname(OUT), { recursive: true });
-writeFileSync(OUT, JSON.stringify({ generated: TODAY, places }, null, 2) + "\n");
+writeFileSync(OUT, JSON.stringify({ generated: TODAY, generated_at: new Date().toISOString(), places }, null, 2) + "\n");
 const n = places.reduce((sum, p) => sum + p.opportunities.length, 0);
 console.log(`Wrote site/data/firings.json: ${places.length} places, ${n} listings (past firings left out).`);

@@ -1,8 +1,9 @@
 name: Kiln Locator weekly crawl
 
 # Every Monday 8am Pacific (15:00 UTC; 7am in winter). Also runnable by hand from the Actions tab.
-# Results go to a branch and a pull request for review. Nothing here deploys or touches main:
-# the live site only changes when Robby says "publish" and the pull request is merged.
+# Since 2026-11-23 results publish themselves: if kiln-map/check-publish.mjs passes, the new data is committed to main and
+# deployed. If the check fails, the old behaviour applies (a review pull request, nothing goes live).
+# Robby's rules (kiln-map/triage.mjs) decide what is public; items still needing judgement wait in kiln-map/REVIEW.md.
 on:
   schedule:
     - cron: "0 15 * * 1"
@@ -16,6 +17,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -43,7 +45,28 @@ jobs:
       - name: Write review list
         run: npm run kiln:review
 
-      - name: Open review pull request
+      - name: Safety check before publishing
+        id: check
+        continue-on-error: true
+        run: node kiln-map/check-publish.mjs
+
+      - name: Publish to main and deploy (check passed)
+        if: steps.check.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "kiln-weekly"
+          git config user.email "actions@users.noreply.github.com"
+          git add kiln-map/data kiln-map/REVIEW.md site/data/firings.json
+          if git diff --cached --quiet; then echo "Nothing changed this week."; exit 0; fi
+          git commit -m "Weekly kiln crawl $(date -u +%F) (auto-published)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          # A push made with the default token does not start the deploy workflow, so start it directly.
+          gh workflow run deploy.yml --ref main
+
+      - name: Open review pull request (check failed)
+        if: steps.check.outcome != 'success'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -53,11 +76,7 @@ jobs:
           git checkout -b "$BRANCH"
           git add kiln-map/data kiln-map/REVIEW.md site/data/firings.json
           if git diff --cached --quiet; then echo "Nothing changed this week."; exit 0; fi
-          git commit -m "Weekly kiln crawl $(date -u +%F)"
+          git commit -m "Weekly kiln crawl $(date -u +%F) (held: publish check failed)"
           git push -u origin "$BRANCH"
-          N=$(ls kiln-map/data/pending/*.json 2>/dev/null | wc -l | tr -d ' ')
-          if [ "$N" = "0" ]; then TITLE="Kiln Locator update $(date -u +%F) (nothing to review)"; else TITLE="Kiln Locator review $(date -u +%F): $N to review"; fi
-          # GitHub caps PR bodies at 65,536 characters; the full list stays in kiln-map/REVIEW.md on the branch.
           head -c 60000 kiln-map/REVIEW.md > /tmp/pr-body.md
-          if [ "$(wc -c < kiln-map/REVIEW.md)" -gt 60000 ]; then printf '\n\n_List truncated here; the full list is kiln-map/REVIEW.md on this branch._\n' >> /tmp/pr-body.md; fi
-          gh pr create --base main --head "$BRANCH" --title "$TITLE" --body-file /tmp/pr-body.md
+          gh pr create --base main --head "$BRANCH" --title "Kiln Locator HELD $(date -u +%F): publish check failed" --body-file /tmp/pr-body.md
