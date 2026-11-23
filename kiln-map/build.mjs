@@ -19,10 +19,13 @@ const read = (f) => JSON.parse(readFileSync(f, "utf8"));
 // Public build: places still awaiting Robby's review (review: "pending") and unconfirmed ones (weak) stay off the map.
 // KILN_DEV=1 includes them for the dev map.
 const DEV = process.env.KILN_DEV === "1";
+// Studio-owner updates (kiln-map/owners.mjs): a studio that says it no longer offers firings leaves the map;
+// a confirmation counts as a fresh check, and the studio's own contact details and note are shown.
+const OWNER = existsSync(join(ROOT, "data", "owner-confirmed.json")) ? JSON.parse(readFileSync(join(ROOT, "data", "owner-confirmed.json"), "utf8")) : {};
 // Robby's rule (2026-10-14): unconfirmed ("weak") places still go on the map as locations, marked "limited evidence", with no firing cards.
 // Firings only come from confirmed places. A place a live read of its site rejected (verdict "no") stays off.
 const confirmed = (s) => s.review !== "pending" && !s.weak;
-const sources = loadSources().filter((s) => DEV || (!s.flag_hold && !s.hold && (confirmed(s) || ["yes", "unclear"].includes(s.verify?.verdict))));
+const sources = loadSources().filter((s) => DEV || (!s.flag_hold && !s.hold && OWNER[s.id]?.active !== false && (confirmed(s) || ["yes", "unclear"].includes(s.verify?.verdict))));
 const approvedDir = join(ROOT, "data", "approved");
 const approvedRaw = existsSync(approvedDir) ? readdirSync(approvedDir).filter((f) => f.endsWith(".json")).map((f) => read(join(approvedDir, f))).filter((it) => DEV || !it.flag_hold) : [];
 
@@ -143,6 +146,8 @@ function trackingFor(source) {
 const locationEvidence = (id) => approved.filter((i) => i.source_id === id && i.location_only && IN_SCOPE.has(i.firing_type)).map((i) => ({ firing_type: i.firing_type, sentence: i.summary || i.evidence_sentence || null, quote: i.evidence_quote || i.source_quote, url: i.evidence_url || i.source_url || null, via: i.evidence_via || null }));
 const daysSince = (d) => (d ? Math.floor((Date.parse(TODAY) - Date.parse(d)) / 86400000) : Infinity);
 const ageTier = (d) => { const n = daysSince(d); return n <= 60 ? "fresh" : n <= 180 ? "aging" : "stale"; };
+const latestDate = (a, b) => [a, b].filter(Boolean).sort().at(-1) || null;
+const ownerContact = (c, o) => (o ? { ...c, ...(o.email ? { email: o.email } : {}), ...(o.website ? { website: o.website } : {}), ...(o.instagram ? { instagram: o.instagram } : {}) } : c);
 const places = sources.map((s) => {
   const today = todayIn(s.tz);
   const limited = !confirmed(s);
@@ -195,7 +200,9 @@ const places = sources.map((s) => {
     location_note: s.location_note || null,
     evidence_level: limited ? "limited" : "confirmed",
     audience_note: s.kind === "college" ? "A college program: classes are for enrolled students. Public workshops, if any, are listed as firings." : null,
-    contact: contactFor(s),
+    contact: ownerContact(contactFor(s), OWNER[s.id]),
+    owner_confirmed: OWNER[s.id]?.date || null,
+    owner_note: OWNER[s.id]?.note || null,
     newsletter_url: s.newsletter_url || null,
     place_summary: lastRun.get(s.id)?.place_summary || null,
     firing_evidence: dedupeEvidence(lastRun.get(s.id)?.place_summary, [...locationEvidence(s.id), ...(lastRun.get(s.id)?.firing_evidence || [])]),
@@ -203,9 +210,9 @@ const places = sources.map((s) => {
     get_in: [...new Set([...(s.access?.how ? [s.access.how] : []), ...items.map((i) => ({ dated: "Workshops and firings", ongoing_membership: "Membership", class_enrollment: "Classes", residency: "Residencies", rental_service: "Kiln rental" })[i.access_kind])].filter(Boolean))],
     firing_types: firingTypes,
     tracking,
-    last_checked: lastRun.get(s.id)?.date || null,
-    // Freshness tier from the last time a live read of the place's site succeeded: fresh <= 60 days, aging <= 180, stale after.
-    freshness: ageTier(lastRun.get(s.id)?.date),
+    last_checked: latestDate(lastRun.get(s.id)?.date, OWNER[s.id]?.date),
+    // Freshness tier from the last live read of the place's site or the studio's own confirmation: fresh <= 60 days, aging <= 180, stale after.
+    freshness: ageTier(latestDate(lastRun.get(s.id)?.date, OWNER[s.id]?.date)),
     unknowns,
     opportunities: items,
   };

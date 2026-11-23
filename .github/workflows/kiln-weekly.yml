@@ -34,6 +34,12 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
 
+      # Studio-owner updates posted through the private update links become approved listings (skipped if no admin token).
+      - name: Apply studio updates
+        run: node kiln-map/owners.mjs
+        env:
+          KILN_ADMIN_TOKEN: ${{ secrets.KILN_ADMIN_TOKEN }}
+
       # Apply Robby's standing listing rules (reject past/non-firing, approve clear items, mark full) so the review list stays short.
       - name: Apply listing rules
         run: node kiln-map/triage.mjs --apply
