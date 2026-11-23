@@ -353,7 +353,8 @@ function placeEvidence(p) {
     ${p.place_summary ? `<p class="kf-ai-body">${esc(p.place_summary)}</p>` : ""}
     ${notes}
     ${lines ? `<ul class="kf-evidence">${lines}</ul>` : ""}
-    <p class="kf-ai-foot">${p.last_checked ? `checked ${esc(fmtDay(p.last_checked))} · ` : ""}${flagBtn()}</p>
+    ${p.owner_note ? `<p class="kf-ai-body"><strong>From the studio:</strong> ${esc(p.owner_note)}</p>` : ""}
+    <p class="kf-ai-foot">${p.owner_confirmed ? `confirmed by the studio ${esc(fmtDay(p.owner_confirmed))} · ` : p.last_checked ? `checked ${esc(fmtDay(p.last_checked))} · ` : ""}${flagBtn()}</p>
   </div>`;
 }
 
@@ -403,7 +404,7 @@ function placeDetail(p) {
     ${contactNote(p)}
     ${unknownsHtml(p)}
     ${updates ? `<a class="kf-btn-ghost kf-follow" href="${esc(updates)}" target="_blank" rel="noopener">Get their updates ${ext}</a>` : ""}
-    <p class="kf-note">${esc(TRACKING[p.tracking] || "")}${p.last_checked ? ` Last checked ${esc(fmtDay(p.last_checked))}.` : ""} Something wrong? <a href="contact.html">Tell me</a>.</p>`;
+    <p class="kf-note">${esc(TRACKING[p.tracking] || "")}${p.last_checked ? ` Last checked ${esc(fmtDay(p.last_checked))}.` : ""} Something wrong? <a href="contact.html">Tell me</a>. Run this place? <a href="contact.html">Ask for your update link</a>.</p>`;
 }
 
 // ---------- map ----------
