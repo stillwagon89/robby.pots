@@ -52,3 +52,6 @@ marks full, expands repeats. What is left in `data/pending/` is only real judgem
 - **Open-by-application** programs (residencies, wood-kiln groups) with a date are firings and locations; "By application" in the who-can-join line.
 - **Specific seasonal dates** ("Winter 2026/27") are listed with the "Opens soon" status.
 - **Group bookings on request** (no date) are not a firing; mention them in the place summary.
+
+## Structured events (added 2026-11-23, no AI, no cost)
+`kiln-map/structured/harvest.mjs` runs in the weekly job before triage. For every place it reads machine-readable events from the place's own pages: schema.org `Event` JSON-LD, `.ics` calendar feeds (including public Google Calendars), and the WordPress "Events Calendar" REST API. Only events whose text names a non-electric firing type (same `TYPE_RE` as `discover/gate.mjs`) become pending items; recurring (RRULE), online, cancelled and past events are skipped. `triage.mjs` then approves them like any other item. Write a new platform adapter only when `node kiln-map/structured/probe.mjs` shows enough places using it. Tests: `node kiln-map/structured/events.test.mjs`.
