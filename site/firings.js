@@ -659,7 +659,13 @@ async function renderKilnFinder() {
     document.getElementById("kf-list").innerHTML = `<p class="kf-empty">The list couldn't load. Please try again in a minute.</p>`;
     return;
   }
+  // Freshness: the data file is rebuilt weekly, but a visitor can open it days later. Drop any listing whose date has
+  // passed since the build, and say so plainly if the whole file is old (so a stalled update is visible, not silent).
+  const todayIso = new Date().toISOString().slice(0, 10);
+  for (const p of DATA.places) p.opportunities = (p.opportunities || []).filter((o) => { const end = o.end_date || o.start_date; return !end || end >= todayIso; });
   document.getElementById("kf-updated").textContent = fmtDay(DATA.generated);
+  const ageDays = Math.floor((Date.parse(todayIso) - Date.parse(DATA.generated)) / 86400000);
+  if (ageDays > 14) document.getElementById("kf-updated").insertAdjacentHTML("afterend", ` (that was ${ageDays} days ago, so some dates may be out of date; check each place's own page before you travel)`);
   const states = [...new Set(DATA.places.map((p) => p.state).filter(Boolean))].sort((a, b) => stateLabel(a).localeCompare(stateLabel(b)));
   document.getElementById("kf-state").innerHTML = [`<option value="all">All states</option>`, ...states.map((c) => `<option value="${esc(c)}">${esc(stateLabel(c))}</option>`)].join("");
   readUrl();

@@ -1,0 +1,29 @@
+name: Kiln Locator freshness alarm
+
+# Every day, check that the LIVE kiln data is recent. If it is more than 10 days old, open (or update) a GitHub issue,
+# which GitHub emails to the repo owner. Costs nothing and needs no Claude.
+on:
+  schedule:
+    - cron: "30 16 * * *"
+  workflow_dispatch:
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Check live data age
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          GEN=$(curl -sL https://flamingclay.com/data/firings.json | python3 -c "import sys,json; print(json.load(sys.stdin)['generated'])") || GEN=""
+          if [ -z "$GEN" ]; then AGE=999; else AGE=$(( ( $(date -u +%s) - $(date -u -d "$GEN" +%s) ) / 86400 )); fi
+          echo "Live kiln data generated: ${GEN:-unreadable} ($AGE days old)"
+          if [ "$AGE" -gt 10 ]; then
+            TITLE="Kiln Locator data is $AGE days old"
+            BODY="The live feed at flamingclay.com/data/firings.json was generated ${GEN:-(unreadable)}. The weekly crawl (kiln-weekly.yml) should refresh it every Monday. Check the latest run in the Actions tab."
+            N=$(gh issue list --state open --search "Kiln Locator data is in:title" --json number --jq '.[0].number // empty')
+            if [ -n "$N" ]; then gh issue comment "$N" --body "$BODY"; else gh issue create --title "$TITLE" --body "$BODY"; fi
+            exit 1
+          fi
