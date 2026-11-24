@@ -1,0 +1,52 @@
+{
+  "_note": "Places in Ireland from OpenStreetMap (ODbL) whose own site names a non-electric firing. Seeded by kiln-map/global/seed-osm.mjs.",
+  "sources": [
+    {
+      "id": "ie-kinsale-pottery-arts-centre",
+      "org": "Kinsale Pottery & Arts Centre",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Ireland",
+      "city": null,
+      "urls": [
+        "https://www.kinsaleceramics.com/"
+      ],
+      "notes": "From OpenStreetMap; its own site names this firing type. Not yet confirmed that outsiders can join.",
+      "location_precision": "approximate",
+      "lat": 51.71225,
+      "lng": -8.55118,
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://www.kinsaleceramics.com/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "One-day Raku Session",
+        "url": "https://www.kinsaleceramics.com/courses-1",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-11-23",
+        "status": null
+      },
+      "review": "pending",
+      "weak": true,
+      "verify": {
+        "by": "osm+site-text",
+        "date": "2026-11-23",
+        "verdict": "unclear",
+        "why": "Site text names the firing type; whether outsiders can join is not confirmed."
+      },
+      "discovered": {
+        "by": "osm-global",
+        "date": "2026-11-23",
+        "licence": "OpenStreetMap contributors, ODbL"
+      }
+    }
+  ]
+}

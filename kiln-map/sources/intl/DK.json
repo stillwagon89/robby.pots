@@ -1,0 +1,99 @@
+{
+  "_note": "Places in Denmark from OpenStreetMap (ODbL) whose own site names a non-electric firing. Seeded by kiln-map/global/seed-osm.mjs.",
+  "sources": [
+    {
+      "id": "dk-hf-keramik",
+      "org": "HF Keramik",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Denmark",
+      "city": null,
+      "urls": [
+        "https://hf-keramik.dk"
+      ],
+      "notes": "From OpenStreetMap; its own site names this firing type. Not yet confirmed that outsiders can join.",
+      "location_precision": "approximate",
+      "lat": 56.65034,
+      "lng": 8.80061,
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://hf-keramik.dk"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "RAKU urne (RAKU har begrænset holdbarhed i jorden)",
+        "url": "https://hf-keramik.dk/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-11-23",
+        "status": null
+      },
+      "review": "pending",
+      "weak": true,
+      "verify": {
+        "by": "osm+site-text",
+        "date": "2026-11-23",
+        "verdict": "unclear",
+        "why": "Site text names the firing type; whether outsiders can join is not confirmed."
+      },
+      "discovered": {
+        "by": "osm-global",
+        "date": "2026-11-23",
+        "licence": "OpenStreetMap contributors, ODbL"
+      }
+    },
+    {
+      "id": "dk-vesterhavskunst",
+      "org": "Vesterhavskunst",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Denmark",
+      "city": null,
+      "urls": [
+        "https://vesterhavskunst.dk/"
+      ],
+      "notes": "From OpenStreetMap; its own site names this firing type. Not yet confirmed that outsiders can join.",
+      "location_precision": "approximate",
+      "lat": 56.5718,
+      "lng": 9.02478,
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://vesterhavskunst.dk/"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Små brændte RAKU skåle",
+        "url": "https://vesterhavskunst.dk/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-11-23",
+        "status": null
+      },
+      "review": "pending",
+      "weak": true,
+      "verify": {
+        "by": "osm+site-text",
+        "date": "2026-11-23",
+        "verdict": "unclear",
+        "why": "Site text names the firing type; whether outsiders can join is not confirmed."
+      },
+      "discovered": {
+        "by": "osm-global",
+        "date": "2026-11-23",
+        "licence": "OpenStreetMap contributors, ODbL"
+      }
+    }
+  ]
+}

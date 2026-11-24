@@ -55,7 +55,8 @@ const badge = (status) => `<span class="kf-badge kf-${status}">${esc(STATUS[stat
 
 // ---------- state ----------
 
-const state = { type: "all", view: "firings", sel: null, pin: null, near: null, radius: "60", st: "all" };
+const state = { type: "all", view: "firings", sel: null, pin: null, near: null, radius: "60", st: "all", cc: "US" };
+let COUNTRIES = [];
 const STATE_NAMES = { AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California", CO: "Colorado", CT: "Connecticut", DE: "Delaware", DC: "District of Columbia", FL: "Florida", GA: "Georgia", HI: "Hawaii", ID: "Idaho", IL: "Illinois", IN: "Indiana", IA: "Iowa", KS: "Kansas", KY: "Kentucky", LA: "Louisiana", ME: "Maine", MD: "Maryland", MA: "Massachusetts", MI: "Michigan", MN: "Minnesota", MS: "Mississippi", MO: "Missouri", MT: "Montana", NE: "Nebraska", NV: "Nevada", NH: "New Hampshire", NJ: "New Jersey", NM: "New Mexico", NY: "New York", NC: "North Carolina", ND: "North Dakota", OH: "Ohio", OK: "Oklahoma", OR: "Oregon", PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina", SD: "South Dakota", TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont", VA: "Virginia", WA: "Washington", WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming" };
 const stateLabel = (c) => STATE_NAMES[c] || c;
 
@@ -67,11 +68,13 @@ function readUrl() {
   state.near = q.get("lat") && q.get("lng") ? { lat: Number(q.get("lat")), lng: Number(q.get("lng")), label: q.get("near") || "your location" } : null;
   if (RADII.some(([v]) => v === q.get("r"))) state.radius = q.get("r");
   state.st = q.get("st") || "all";
+  state.cc = q.get("cc") || "US";
 }
 function writeUrl(push) {
   const q = new URLSearchParams();
   if (state.type !== "all") q.set("type", state.type);
   if (state.view !== "firings") q.set("view", state.view);
+  if (state.cc !== "US") q.set("cc", state.cc);
   if (state.st !== "all") q.set("st", state.st);
   if (state.sel) q.set("sel", state.sel);
   if (state.near) { q.set("near", state.near.label); q.set("lat", state.near.lat.toFixed(4)); q.set("lng", state.near.lng.toFixed(4)); q.set("r", state.radius); }
@@ -460,7 +463,7 @@ function fitMap() {
   else {
     // Every place in view (one state, or all of them), so new states show up without code changes.
     // "All states" frames the lower 48; Hawaii and Alaska are framed when picked in the state filter.
-    const pts = DATA.places.filter((p) => typeof p.lat === "number" && (state.st === "all" ? !["HI", "AK"].includes(p.state) : p.state === state.st)).map((p) => [p.lat, p.lng]);
+    const pts = DATA.places.filter((p) => typeof p.lat === "number" && (state.st === "all" ? state.cc !== "US" || !["HI", "AK"].includes(p.state) : p.state === state.st)).map((p) => [p.lat, p.lng]);
     if (pts.length) MAP.fitBounds(L.latLngBounds(pts).pad(0.08));
   }
 }
@@ -532,7 +535,7 @@ function select(id, push, { toggle = false, scroll = false } = {}) {
 }
 
 async function geocode(text) {
-  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=${encodeURIComponent(text)}`;
+  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=${state.cc.toLowerCase()}&q=${encodeURIComponent(text)}`;
   const res = await fetch(url, { headers: { Accept: "application/json" } });
   const [hit] = await res.json();
   return hit ? { lat: Number(hit.lat), lng: Number(hit.lon), label: text } : null;
@@ -631,6 +634,7 @@ function bind() {
       { timeout: 10000 }
     );
   });
+  document.getElementById("kf-country").addEventListener("change", (e) => switchCountry(e.target.value));
   document.getElementById("kf-state").addEventListener("change", (e) => {
     state.st = e.target.value;
     state.sel = null;
@@ -649,6 +653,37 @@ function bind() {
   window.addEventListener("popstate", () => { readUrl(); render(); });
 }
 
+// Freshness: the data file is rebuilt weekly, but a visitor can open it days later. Drop any listing whose date has
+// passed since the build, and say so plainly if the whole file is old (so a stalled update is visible, not silent).
+function prepare(d) {
+  const todayIso = new Date().toISOString().slice(0, 10);
+  for (const p of d.places) p.opportunities = (p.opportunities || []).filter((o) => { const end = o.end_date || o.start_date; return !end || end >= todayIso; });
+  document.getElementById("kf-updated").textContent = fmtDay(d.generated);
+  const ageDays = Math.floor((Date.parse(todayIso) - Date.parse(d.generated)) / 86400000);
+  document.getElementById("kf-stale")?.remove();
+  if (ageDays > 14) document.getElementById("kf-updated").insertAdjacentHTML("afterend", `<span id="kf-stale"> (that was ${ageDays} days ago, so some dates may be out of date; check each place's own page before you travel)</span>`);
+}
+// Country picker (shown only when more than one country has data) and the State menu (US only).
+function setupCountry() {
+  const sel = document.getElementById("kf-country");
+  if (COUNTRIES.length > 1) {
+    sel.innerHTML = COUNTRIES.map((c) => `<option value="${esc(c.code)}">${esc(c.name)} (${c.count})</option>`).join("");
+    sel.value = state.cc; sel.hidden = false;
+  }
+  const us = state.cc === "US";
+  const stSel = document.getElementById("kf-state"); stSel.hidden = !us;
+  const states = [...new Set(DATA.places.map((p) => p.state).filter(Boolean))].sort((a, b) => stateLabel(a).localeCompare(stateLabel(b)));
+  stSel.innerHTML = [`<option value="all">All states</option>`, ...states.map((c) => `<option value="${esc(c)}">${esc(stateLabel(c))}</option>`)].join("");
+  if (!us) state.st = "all";
+  document.getElementById("kf-intl-note").hidden = us;
+}
+async function switchCountry(cc) {
+  const entry = COUNTRIES.find((c) => c.code === cc); if (!entry) return;
+  try { DATA = await (await fetch(entry.file, { cache: "no-cache" })).json(); } catch { return; }
+  prepare(DATA); state.cc = cc; state.st = "all"; state.near = null; state.sel = null;
+  setupCountry(); writeUrl(false); render(); fitMap();
+}
+
 async function renderKilnFinder() {
   document.getElementById("kf-types").innerHTML = TYPE_CHIPS.map(([v, label]) => `<button type="button" class="filter-chip" data-type="${v}">${esc(label)}</button>`).join("");
   document.getElementById("kf-radius").innerHTML = RADII.map(([v, l]) => `<option value="${v}">${esc(l)}</option>`).join("");
@@ -660,16 +695,11 @@ async function renderKilnFinder() {
     document.getElementById("kf-list").innerHTML = `<p class="kf-empty">The list couldn't load. Please try again in a minute.</p>`;
     return;
   }
-  // Freshness: the data file is rebuilt weekly, but a visitor can open it days later. Drop any listing whose date has
-  // passed since the build, and say so plainly if the whole file is old (so a stalled update is visible, not silent).
-  const todayIso = new Date().toISOString().slice(0, 10);
-  for (const p of DATA.places) p.opportunities = (p.opportunities || []).filter((o) => { const end = o.end_date || o.start_date; return !end || end >= todayIso; });
-  document.getElementById("kf-updated").textContent = fmtDay(DATA.generated);
-  const ageDays = Math.floor((Date.parse(todayIso) - Date.parse(DATA.generated)) / 86400000);
-  if (ageDays > 14) document.getElementById("kf-updated").insertAdjacentHTML("afterend", ` (that was ${ageDays} days ago, so some dates may be out of date; check each place's own page before you travel)`);
-  const states = [...new Set(DATA.places.map((p) => p.state).filter(Boolean))].sort((a, b) => stateLabel(a).localeCompare(stateLabel(b)));
-  document.getElementById("kf-state").innerHTML = [`<option value="all">All states</option>`, ...states.map((c) => `<option value="${esc(c)}">${esc(stateLabel(c))}</option>`)].join("");
+  prepare(DATA);
+  try { const ci = await fetch("/data/countries.json", { cache: "no-cache" }); if (ci.ok) COUNTRIES = (await ci.json()).countries || []; } catch { /* US only */ }
   readUrl();
+  if (state.cc !== "US" && COUNTRIES.some((c) => c.code === state.cc)) { try { DATA = await (await fetch(COUNTRIES.find((c) => c.code === state.cc).file, { cache: "no-cache" })).json(); prepare(DATA); } catch { state.cc = "US"; } } else state.cc = "US";
+  setupCountry();
   bind();
   initMap();
   render();
