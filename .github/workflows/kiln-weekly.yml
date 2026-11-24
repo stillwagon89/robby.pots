@@ -18,6 +18,7 @@ jobs:
       contents: write
       pull-requests: write
       actions: write
+      issues: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -68,7 +69,7 @@ jobs:
         run: |
           git config user.name "kiln-weekly"
           git config user.email "actions@users.noreply.github.com"
-          git add kiln-map/data kiln-map/REVIEW.md site/data/firings.json
+          git add kiln-map/data kiln-map/REVIEW.md site/data
           if git diff --cached --quiet; then echo "Nothing changed this week."; exit 0; fi
           git commit -m "Weekly kiln crawl $(date -u +%F) (auto-published)"
           git pull --rebase origin main
@@ -85,9 +86,19 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           BRANCH="kiln-weekly/$(date -u +%F)"
           git checkout -b "$BRANCH"
-          git add kiln-map/data kiln-map/REVIEW.md site/data/firings.json
+          git add kiln-map/data kiln-map/REVIEW.md site/data
           if git diff --cached --quiet; then echo "Nothing changed this week."; exit 0; fi
           git commit -m "Weekly kiln crawl $(date -u +%F) (held: publish check failed)"
           git push -u origin "$BRANCH"
           head -c 60000 kiln-map/REVIEW.md > /tmp/pr-body.md
           gh pr create --base main --head "$BRANCH" --title "Kiln Locator HELD $(date -u +%F): publish check failed" --body-file /tmp/pr-body.md
+
+      # Stage 4: five random places to check by hand (about 5 minutes). GitHub emails the issue to the repo owner. Free, no AI.
+      - name: Open weekly spot-check issue
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node kiln-map/spotcheck.mjs
+          gh issue create --title "Kiln spot-check $(date -u +%F)" --body-file kiln-map/data/spotcheck.md
