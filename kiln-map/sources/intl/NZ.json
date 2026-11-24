@@ -1,0 +1,52 @@
+{
+  "_note": "Places in New Zealand from OpenStreetMap (ODbL) whose own site names a non-electric firing. Seeded by kiln-map/global/seed-osm.mjs.",
+  "sources": [
+    {
+      "id": "nz-driving-creek",
+      "org": "Driving Creek",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "wood"
+      ],
+      "region": "New Zealand",
+      "city": null,
+      "urls": [
+        "https://drivingcreek.nz"
+      ],
+      "notes": "From OpenStreetMap; its own site names this firing type. Not yet confirmed that outsiders can join.",
+      "location_precision": "approximate",
+      "lat": -36.73698,
+      "lng": 175.50443,
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://drivingcreek.nz"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "By Callum Trudgeon Early in my pottery career, I found myself drawn to wood-fired ceramics.",
+        "url": "https://drivingcreek.nz/",
+        "types": [
+          "wood"
+        ],
+        "checked": "2026-11-23",
+        "status": null
+      },
+      "review": "pending",
+      "weak": true,
+      "verify": {
+        "by": "osm+site-text",
+        "date": "2026-11-23",
+        "verdict": "unclear",
+        "why": "Site text names the firing type; whether outsiders can join is not confirmed."
+      },
+      "discovered": {
+        "by": "osm-global",
+        "date": "2026-11-23",
+        "licence": "OpenStreetMap contributors, ODbL"
+      }
+    }
+  ]
+}

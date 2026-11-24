@@ -1,0 +1,54 @@
+{
+  "_note": "Places in Belgium from OpenStreetMap (ODbL) whose own site names a non-electric firing. Seeded by kiln-map/global/seed-osm.mjs.",
+  "sources": [
+    {
+      "id": "be-keramiekatelier-cv",
+      "org": "Keramiekatelier CV",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood"
+      ],
+      "region": "Belgium",
+      "city": null,
+      "urls": [
+        "https://keramiekateliercv.be/"
+      ],
+      "notes": "From OpenStreetMap; its own site names this firing type. Not yet confirmed that outsiders can join.",
+      "location_precision": "address",
+      "address": "Broekkantstraat 52A,",
+      "lat": 51.0305,
+      "lng": 3.6604,
+      "contact": {
+        "website": "https://keramiekateliercv.be/",
+        "email": "keramiek@ateliercv.be"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Raku, naked raku, obvara, inrooktechnieken, houtstook… het kan hier allemaal.",
+        "url": "https://keramiekateliercv.be/workshops/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-11-23",
+        "status": null
+      },
+      "review": "pending",
+      "weak": true,
+      "verify": {
+        "by": "osm+site-text",
+        "date": "2026-11-23",
+        "verdict": "unclear",
+        "why": "Site text names the firing type; whether outsiders can join is not confirmed."
+      },
+      "discovered": {
+        "by": "osm-global",
+        "date": "2026-11-23",
+        "licence": "OpenStreetMap contributors, ODbL"
+      }
+    }
+  ]
+}

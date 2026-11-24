@@ -1,0 +1,148 @@
+{
+  "_note": "Places in Switzerland from OpenStreetMap (ODbL) whose own site names a non-electric firing. Seeded by kiln-map/global/seed-osm.mjs.",
+  "sources": [
+    {
+      "id": "ch-to-pferwerkstatt-bra-nnpunkt",
+      "org": "Töpferwerkstatt brännpunkt",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Niederhasli",
+      "city": "Niederhasli",
+      "urls": [
+        "https://www.braennpunkt.ch"
+      ],
+      "notes": "From OpenStreetMap; its own site names this firing type. Not yet confirmed that outsiders can join.",
+      "location_precision": "address",
+      "address": "Regensdorferstrasse 6, 8155 Niederhasli",
+      "lat": 47.47279,
+      "lng": 8.48704,
+      "contact": {
+        "website": "https://www.braennpunkt.ch"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Freies Töpfern, Töpfer- und Raku-Kurse unter fachkundiger Anleitung, Töpfern als Kindernachmittag, Kindergeburtstag oder Firmenevent und noch mehr!",
+        "url": "https://www.braennpunkt.ch/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-11-23",
+        "status": null
+      },
+      "review": "pending",
+      "weak": true,
+      "verify": {
+        "by": "osm+site-text",
+        "date": "2026-11-23",
+        "verdict": "unclear",
+        "why": "Site text names the firing type; whether outsiders can join is not confirmed."
+      },
+      "discovered": {
+        "by": "osm-global",
+        "date": "2026-11-23",
+        "licence": "OpenStreetMap contributors, ODbL"
+      }
+    },
+    {
+      "id": "ch-keramik-animation",
+      "org": "Keramik & Animation",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku",
+        "wood"
+      ],
+      "region": "Switzerland",
+      "city": null,
+      "urls": [
+        "https://raku.ch"
+      ],
+      "notes": "From OpenStreetMap; its own site names this firing type. Not yet confirmed that outsiders can join.",
+      "location_precision": "approximate",
+      "lat": 47.37128,
+      "lng": 8.52126,
+      "location_note": "Shown at the town.",
+      "contact": {
+        "website": "https://raku.ch"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Raku-Kurse & Mobile Raku-Events in Zürich | Atelier Kobo — Atelier KOBO",
+        "url": "https://www.atelierkobo.ch/raku",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-11-23",
+        "status": null
+      },
+      "review": "pending",
+      "weak": true,
+      "verify": {
+        "by": "osm+site-text",
+        "date": "2026-11-23",
+        "verdict": "unclear",
+        "why": "Site text names the firing type; whether outsiders can join is not confirmed."
+      },
+      "discovered": {
+        "by": "osm-global",
+        "date": "2026-11-23",
+        "licence": "OpenStreetMap contributors, ODbL"
+      }
+    },
+    {
+      "id": "ch-to-pferei-ta-gernau",
+      "org": "Töpferei Tägernau",
+      "kind": "studio",
+      "core": false,
+      "public": true,
+      "firing_types_guess": [
+        "raku"
+      ],
+      "region": "Gossau",
+      "city": "Gossau",
+      "urls": [
+        "https://www.toepferei-taegernau.ch/"
+      ],
+      "notes": "From OpenStreetMap; its own site names this firing type. Not yet confirmed that outsiders can join.",
+      "location_precision": "address",
+      "address": "Tägernaustrasse 70, 8625 Gossau",
+      "lat": 47.29499,
+      "lng": 8.75608,
+      "contact": {
+        "website": "https://www.toepferei-taegernau.ch/",
+        "email": "info@toepferei-taegernau.ch"
+      },
+      "access": {
+        "how": "See site",
+        "note": "See site",
+        "quote": "Steinzeug – Raku Keramik – Kurse",
+        "url": "https://www.toepferei-taegernau.ch/",
+        "types": [
+          "raku"
+        ],
+        "checked": "2026-11-23",
+        "status": null
+      },
+      "review": "pending",
+      "weak": true,
+      "verify": {
+        "by": "osm+site-text",
+        "date": "2026-11-23",
+        "verdict": "unclear",
+        "why": "Site text names the firing type; whether outsiders can join is not confirmed."
+      },
+      "discovered": {
+        "by": "osm-global",
+        "date": "2026-11-23",
+        "licence": "OpenStreetMap contributors, ODbL"
+      }
+    }
+  ]
+}

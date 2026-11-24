@@ -9,7 +9,7 @@ import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from 
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { namesType } from "./firing-words.mjs";
-import { loadSources, todayIn } from "./sources.mjs";
+import { loadSources, loadIntlSources, todayIn, COUNTRIES } from "./sources.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const OUT = join(ROOT, "..", "site", "data", "firings.json");
@@ -25,7 +25,7 @@ const OWNER = existsSync(join(ROOT, "data", "owner-confirmed.json")) ? JSON.pars
 // Robby's rule (2026-10-14): unconfirmed ("weak") places still go on the map as locations, marked "limited evidence", with no firing cards.
 // Firings only come from confirmed places. A place a live read of its site rejected (verdict "no") stays off.
 const confirmed = (s) => s.review !== "pending" && !s.weak;
-const sources = loadSources().filter((s) => DEV || (!s.flag_hold && !s.hold && OWNER[s.id]?.active !== false && (confirmed(s) || ["yes", "unclear"].includes(s.verify?.verdict))));
+const sources = [...loadSources().map((s) => ({ ...s, country: "US" })), ...loadIntlSources()].filter((s) => DEV || (!s.flag_hold && !s.hold && OWNER[s.id]?.active !== false && (confirmed(s) || ["yes", "unclear"].includes(s.verify?.verdict))));
 const approvedDir = join(ROOT, "data", "approved");
 const approvedRaw = existsSync(approvedDir) ? readdirSync(approvedDir).filter((f) => f.endsWith(".json")).map((f) => read(join(approvedDir, f))).filter((it) => DEV || !it.flag_hold) : [];
 
@@ -191,6 +191,10 @@ const places = sources.map((s) => {
     kind: s.kind,
     public: s.public,
     region: s.region,
+    country: s.country,
+    lang: s.lang || COUNTRIES[s.country]?.lang || "en",
+    tz: s.tz,
+    currency: COUNTRIES[s.country]?.currency || null,
     state: s.state,
     city: s.city,
     lat: s.lat,
@@ -219,6 +223,19 @@ const places = sources.map((s) => {
 });
 
 mkdirSync(dirname(OUT), { recursive: true });
-writeFileSync(OUT, JSON.stringify({ generated: TODAY, generated_at: new Date().toISOString(), places }, null, 2) + "\n");
-const n = places.reduce((sum, p) => sum + p.opportunities.length, 0);
-console.log(`Wrote site/data/firings.json: ${places.length} places, ${n} listings (past firings left out).`);
+// The US stays in firings.json (what the page loads first and the publish check compares). Every other country gets its own
+// file under data/c/ and an entry in data/countries.json, so the page only downloads a country when a visitor picks it.
+const usPlaces = places.filter((p) => p.country === "US");
+const stamp = { generated: TODAY, generated_at: new Date().toISOString() };
+writeFileSync(OUT, JSON.stringify({ ...stamp, places: usPlaces }, null, 2) + "\n");
+const cdir = join(dirname(OUT), "c");
+mkdirSync(cdir, { recursive: true });
+const index = [{ code: "US", name: COUNTRIES.US.name, count: usPlaces.length, file: "/data/firings.json" }];
+for (const cc of [...new Set(places.map((p) => p.country))].filter((c) => c !== "US").sort()) {
+  const list = places.filter((p) => p.country === cc);
+  writeFileSync(join(cdir, `${cc}.json`), JSON.stringify({ ...stamp, country: cc, places: list }) + "\n");
+  index.push({ code: cc, name: COUNTRIES[cc]?.name || cc, count: list.length, file: `/data/c/${cc}.json` });
+}
+writeFileSync(join(dirname(OUT), "countries.json"), JSON.stringify({ ...stamp, countries: index }) + "\n");
+const n = usPlaces.reduce((sum, p) => sum + p.opportunities.length, 0);
+console.log(`Wrote site/data/firings.json: ${usPlaces.length} US places (${places.length - usPlaces.length} elsewhere), ${n} listings (past firings left out).`);
