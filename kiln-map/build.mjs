@@ -148,6 +148,15 @@ const daysSince = (d) => (d ? Math.floor((Date.parse(TODAY) - Date.parse(d)) / 8
 const ageTier = (d) => { const n = daysSince(d); return n <= 60 ? "fresh" : n <= 180 ? "aging" : "stale"; };
 const latestDate = (a, b) => [a, b].filter(Boolean).sort().at(-1) || null;
 const ownerContact = (c, o) => (o ? { ...c, ...(o.email ? { email: o.email } : {}), ...(o.website ? { website: o.website } : {}), ...(o.instagram ? { instagram: o.instagram } : {}) } : c);
+// Trust tier (Stage 4), computed from evidence only, never by a person's say-so:
+//   studio     = the studio itself confirmed within the last year
+//   checked    = their website was read in the last 180 days and it names a non-electric firing the public can join
+//   unverified = weak evidence, not read in 180+ days, or their website is down (a later good read promotes it again)
+const trustFor = (limited, lastRead, ownerDate, down) => {
+  if (ownerDate && daysSince(ownerDate) <= 365) return "studio";
+  if (limited || down || daysSince(lastRead) > 180) return "unverified";
+  return "checked";
+};
 const places = sources.map((s) => {
   const today = todayIn(s.tz);
   const limited = !confirmed(s);
@@ -217,16 +226,30 @@ const places = sources.map((s) => {
     last_checked: latestDate(lastRun.get(s.id)?.date, OWNER[s.id]?.date),
     // Freshness tier from the last live read of the place's site or the studio's own confirmation: fresh <= 60 days, aging <= 180, stale after.
     freshness: ageTier(latestDate(lastRun.get(s.id)?.date, OWNER[s.id]?.date)),
+    trust: trustFor(limited, lastRun.get(s.id)?.date, OWNER[s.id]?.date, HEALTH[s.id]?.status === "down"),
     unknowns,
     opportunities: items,
   };
 });
 
+// Published success measures (retrospective section 5): shown on the page so a stall or decay is visible.
+const median = (a) => { const b = [...a].sort((x, y) => x - y); return b.length ? b[Math.floor(b.length / 2)] : null; };
+const withEvents = places.filter((p) => p.country === "US" && p.opportunities.some((o) => o.start_date));
+const ages = places.filter((p) => p.country === "US" && p.last_checked).map((p) => daysSince(p.last_checked));
+const STATS = {
+  places: places.filter((p) => p.country === "US").length,
+  trust: Object.fromEntries(["studio", "checked", "unverified"].map((t) => [t, places.filter((p) => p.country === "US" && p.trust === t).length])),
+  upcoming_listings: places.filter((p) => p.country === "US").reduce((n, p) => n + p.opportunities.length, 0),
+  states_with_upcoming: new Set(withEvents.map((p) => p.state)).size,
+  share_confirmed_90d_with_events: withEvents.length ? Math.round((100 * withEvents.filter((p) => p.owner_confirmed && daysSince(p.owner_confirmed) <= 90).length) / withEvents.length) : null,
+  median_days_since_check: median(ages),
+};
+
 mkdirSync(dirname(OUT), { recursive: true });
 // The US stays in firings.json (what the page loads first and the publish check compares). Every other country gets its own
 // file under data/c/ and an entry in data/countries.json, so the page only downloads a country when a visitor picks it.
 const usPlaces = places.filter((p) => p.country === "US");
-const stamp = { generated: TODAY, generated_at: new Date().toISOString() };
+const stamp = { generated: TODAY, generated_at: new Date().toISOString(), stats: STATS };
 writeFileSync(OUT, JSON.stringify({ ...stamp, places: usPlaces }, null, 2) + "\n");
 const cdir = join(dirname(OUT), "c");
 mkdirSync(cdir, { recursive: true });

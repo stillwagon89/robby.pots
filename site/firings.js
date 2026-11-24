@@ -346,6 +346,9 @@ function whenText(o) {
   return `${fmtDay(o.start_date)}${o.end_date && o.end_date !== o.start_date ? ` – ${fmtDay(o.end_date)}` : ""}`;
 }
 
+// Trust tier computed by the build from evidence (studio confirmation, a recent read of their own site, link health).
+const TRUST = { studio: "Confirmed by the studio", checked: "Their website checked recently", unverified: "Not recently verified" };
+const trustLabel = (p) => (p.trust ? `<span class="kf-trust kf-trust-${esc(p.trust)}">${esc(TRUST[p.trust] || "")}</span> · ` : "");
 function placeEvidence(p) {
   const notes = [p.evidence_level === "limited" ? "Limited evidence: we have not confirmed from their website that the public can join a non-electric firing here. Check with them first." : "", p.audience_note || ""].filter(Boolean).map((t) => `<p class="kf-ai-body" style="color:var(--cobalt-muted)">${esc(t)}</p>`).join("");
   if (!p.place_summary && !(p.firing_evidence || []).length) return notes ? `<div class="kf-ai">${notes}<p class="kf-ai-foot">${flagBtn()}</p></div>` : "";
@@ -357,7 +360,7 @@ function placeEvidence(p) {
     ${notes}
     ${lines ? `<ul class="kf-evidence">${lines}</ul>` : ""}
     ${p.owner_note ? `<p class="kf-ai-body"><strong>From the studio:</strong> ${esc(p.owner_note)}</p>` : ""}
-    <p class="kf-ai-foot">${p.owner_confirmed ? `confirmed by the studio ${esc(fmtDay(p.owner_confirmed))} · ` : p.last_checked ? `checked ${esc(fmtDay(p.last_checked))} · ` : ""}${flagBtn()}</p>
+    <p class="kf-ai-foot">${trustLabel(p)}${p.owner_confirmed ? `confirmed by the studio ${esc(fmtDay(p.owner_confirmed))} · ` : p.last_checked ? `checked ${esc(fmtDay(p.last_checked))} · ` : ""}${flagBtn()}</p>
   </div>`;
 }
 
@@ -659,6 +662,8 @@ function prepare(d) {
   const todayIso = new Date().toISOString().slice(0, 10);
   for (const p of d.places) p.opportunities = (p.opportunities || []).filter((o) => { const end = o.end_date || o.start_date; return !end || end >= todayIso; });
   document.getElementById("kf-updated").textContent = fmtDay(d.generated);
+  const st = d.stats, sEl = document.getElementById("kf-stats");
+  if (st && sEl && st.trust) { sEl.hidden = false; sEl.textContent = `${st.trust.studio + st.trust.checked} of ${st.places} US places confirmed by the studio or read from their own website in the last 6 months; ${st.upcoming_listings} upcoming listings across ${st.states_with_upcoming} states.`; }
   const ageDays = Math.floor((Date.parse(todayIso) - Date.parse(d.generated)) / 86400000);
   document.getElementById("kf-stale")?.remove();
   if (ageDays > 14) document.getElementById("kf-updated").insertAdjacentHTML("afterend", `<span id="kf-stale"> (that was ${ageDays} days ago, so some dates may be out of date; check each place's own page before you travel)</span>`);

@@ -1400,6 +1400,7 @@ input:focus, textarea:focus { outline: 2px solid var(--cobalt-mid); outline-offs
 .kf-ai-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--cobalt); }
 .kf-ai-body { font-size: 15px; line-height: 1.5; color: var(--cobalt-deep); margin-top: 8px; }
 .kf-ai-foot { font-family: var(--font-mono); font-size: 10.5px; color: var(--cobalt-muted); margin-top: 8px; overflow-wrap: anywhere; }
+.kf-trust-studio { font-weight: 600; color: var(--cobalt); }
 .kf-links { list-style: none; border-top: 1px solid var(--border); }
 .kf-links a { display: flex; justify-content: space-between; gap: var(--space-sm); padding: 12px 0; min-height: 44px; border-bottom: 1px solid var(--border); color: var(--cobalt); font-size: 15px; text-decoration: none; overflow-wrap: anywhere; }
 .kf-links a:hover span:first-child { text-decoration: underline; }
